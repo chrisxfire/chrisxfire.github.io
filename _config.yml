@@ -1,0 +1,28 @@
+title: chris codes .net
+email: chris@chriscodes.net
+description: >- # this means to ignore newlines until "baseurl:"
+  chrisxfire's blog
+
+# baseurl: ""
+domain: chrisxfire.github.io
+url: https://chrisxfire.github.io
+
+# Build settings
+theme: minima
+
+minima:
+  # date_format: "%b %-d, %Y"
+  date_format: "%Y-%m-%d"
+  skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/chrisxfire/chrisxfire.github.io" }
+    - { platform: keybase, user_url: "https://keybase.io/chrisxfire" }
+
+
+# for minima v3+:
+author:
+  name: chrisxfire
+  email: chris@chriscodes.net
+
+plugins:
+  - jekyll-feed
