@@ -26,3 +26,4 @@ author:
 
 plugins:
   - jekyll-feed
+  - jemoji
