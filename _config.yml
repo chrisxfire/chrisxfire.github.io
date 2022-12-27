@@ -1,7 +1,7 @@
 title: chris codes .net
 email: chris@chriscodes.net
 description: >- # ignores newlines until the next key
-  chrisxfire's blog
+  a blog about software engineering and building software with .NET by christian (chrisxfire)
 
 # baseurl: ""
 domain: chrisxfire.github.io
@@ -15,7 +15,7 @@ minima:
   date_format: "%Y-%m-%d"
   skin: dark
   social_links:
-    - { platform: github,  user_url: "https://github.com/chrisxfire/chrisxfire.github.io" }
+    - { platform: github,  user_url: "https://github.com/chrisxfire/" }
     - { platform: keybase, user_url: "https://keybase.io/chrisxfire" }
 
 
