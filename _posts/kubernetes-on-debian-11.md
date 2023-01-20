@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "notes: building kubernetes v1.26.1 on debian 11/stable"
-date: 
+date: 2023-01-19
 categories: notes
 ---
 <style>
