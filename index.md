@@ -9,4 +9,8 @@ layout: home
 list_title: ramblings and ruminations
 ---
 ## welcome
-Hi :wave:.  I'm Christian (chrisxfire :fire:).  I build software in .NET / C# and talk about software engineering here.
+Hi :wave:.  
+
+I'm Christian (chrisxfire :fire:).  
+
+I build software in .NET / C# and talk about software engineering here.
