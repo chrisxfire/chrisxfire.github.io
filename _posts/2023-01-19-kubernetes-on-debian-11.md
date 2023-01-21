@@ -214,7 +214,7 @@ kubectl get pods -n kube-system
 ![get-pods](assets/get-pods.png)
 
 Verify the nodes:
-![get-nodes](assets/get-nodes.png)
+![get-nodes]({{ site.baseurl }}/assets/get-nodes.png)
 
 All set.
 
