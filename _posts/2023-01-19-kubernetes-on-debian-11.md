@@ -134,7 +134,7 @@ sudo nano /etc/containerd/config.toml
 * `SystemdCgroup = true`*
 * Close and save the file.
 
-![cgroups](assets/cgroups.png) 
+![cgroups]({{ site.baseurl }}/assets/cgroups.png) 
 
 Restart containerd
 ```bash
@@ -211,9 +211,10 @@ Verify the Calico pods:
 ```bash
 kubectl get pods -n kube-system
 ```
-![get-pods](assets/get-pods.png)
+![get-pods]({{ site.baseurl }}/assets/get-pods.png)
 
 Verify the nodes:
+
 ![get-nodes]({{ site.baseurl }}/assets/get-nodes.png)
 
 All set.
