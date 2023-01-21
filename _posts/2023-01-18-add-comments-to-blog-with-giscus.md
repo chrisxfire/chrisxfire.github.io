@@ -19,12 +19,12 @@ Giscus uses GitHub Discussions to power the comments functionality for your site
 # configure github repo
 In your GitHub repo:
 1. Navigate to **Settings** > **General** > **Features** section > Enable **Discussions**.
-1. Navigate to the **Discussions** tab: > Click the pencil icon
+1. Navigate to the **Discussions** tab: > Click the pencil icon  
 ![gh-discussions-categories-pencil]({{ site.baseurl }}/assets/images/gh-discussions-categories-pencil.png)
 1. Click **New Category** > **Title="Discussions"** > optional: add a **Description**> Under **Discussion Format** select **Announcement** > **Create**
 1. Optional: Delete any Discussion categories you don't want
 
-Your categories should now look similar to this:
+Your categories should now look similar to this:  
 ![gh-discussions-categories]({{ site.baseurl }}/assets/images/gh-discussions-categories.png)
 
 [giscus-site]: https://giscus.app/
@@ -51,5 +51,5 @@ Rather than having to copy that script to each post, you can override Jekyll's d
 Jekyll will now use this version of `post.html` as the template for each of your blog posts.
 
 # test
-Create a new blog post and confirm that comments show at the bottom of the page.
+Create a new blog post and confirm that comments show at the bottom of the page.  
 ![gh-discussions-comments]({{ site.baseurl }}/assets/images/gh-discussions-comments.png)
