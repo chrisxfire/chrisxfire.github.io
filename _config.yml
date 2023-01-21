@@ -24,6 +24,21 @@ author:
   name: chrisxfire
   email: chris@chriscodes.net
 
+# site comments
+#comments:
+#  provider: giscus
+
+#giscus:
+#  repo: chrisxfire/chrisxfire.github.io
+#  repo_id: R_kgDOIrewAg
+#  category: Comments
+#  categoryid: DIC_kwDOIrewAs4CTui7
+#  mapping: pathname
+#  reaction-enabled: 1
+#  theme: preferred_color_scheme
+#  crossorigin: anonymous
+
 plugins:
   - jekyll-feed
   - jemoji
+
