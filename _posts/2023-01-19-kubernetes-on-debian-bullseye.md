@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "notes: k8s v1.26 on debian bullseye"
+title: "k8s v1.26 on debian bullseye"
 date: 2023-01-19
 categories: notes kubernetes debian
 ---
