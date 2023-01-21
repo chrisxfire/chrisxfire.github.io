@@ -2,7 +2,7 @@
 layout: post
 title: "a walk through the minefields (how this blog was built)"
 date: 
-categories: 
+categories: jekyll github-pages ruby
 ---
 <style>
 r { color: Red }
