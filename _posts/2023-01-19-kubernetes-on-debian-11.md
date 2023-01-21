@@ -214,8 +214,9 @@ kubectl get pods -n kube-system
 ![get-pods](assets/get-pods.png)
 
 Verify the nodes:
-![get-nodes](/assets/get-nodes.png)
-[containerd-versions]: https://kubernetes.io/blog/2022/11/18/upcoming-changes-in-kubernetes-1-26/#cri-api-removal
-[pradeeps-guide]: https://www.linuxtechi.com/install-kubernetes-cluster-on-debian/
+![get-nodes](assets/get-nodes.png)
 
 All set.
+
+[containerd-versions]: https://kubernetes.io/blog/2022/11/18/upcoming-changes-in-kubernetes-1-26/#cri-api-removal
+[pradeeps-guide]: https://www.linuxtechi.com/install-kubernetes-cluster-on-debian/
