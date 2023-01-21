@@ -106,4 +106,4 @@ smooth as possible, it's still slower and less convenient compared to Linux or M
 shortcomings are due to certain Windows operating system internals (such as its poor shell support), and 
 others are due to the fact that so many Ruby developers simply prefer a UNIX-style system.*" This is 
 categorical horseshit, but perhaps we'll save that for another post.  Suffice it to say that this page 
-should serve as the warning side on the fence of the minefield.
+should serve as the warning sign on the fence of the minefield.

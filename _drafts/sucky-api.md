@@ -21,6 +21,4 @@ string Name
 string Owner
 ```
 
-Notice that `ListFolders` requires a `parentFolder` string and, while it returns a `FolderInfo` array of the subfolders
-under `parentFolder`, the resulting `FolderInfo` object only tells you whether it `HasChildren` (translation: subfolders)
-but does not tell you what those subfolders actually are.
+Notice that `ListFolders` requires a `parentFolder` string and, while it returns a `FolderInfo` array of the subfolders under `parentFolder`, the resulting `FolderInfo` object only tells you whether it `HasChildren` (translation: subfolders) but does not tell you what those subfolders actually are.
