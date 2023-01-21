@@ -134,7 +134,7 @@ sudo nano /etc/containerd/config.toml
 * `SystemdCgroup = true`*
 * Close and save the file.
 
-![cgroups](https://github.com/chrisxfire/chrisxfire.github.io/assets/cgroups.png) 
+![cgroups](assets/cgroups.png) 
 
 Restart containerd
 ```bash
@@ -211,10 +211,10 @@ Verify the Calico pods:
 ```bash
 kubectl get pods -n kube-system
 ```
-![get-pods](https://github.com/chrisxfire/chrisxfire.github.io/assets/get-pods.png)
+![get-pods](assets/get-pods.png)
 
 Verify the nodes:
-![get-nodes](https://github.com/chrisxfire/chrisxfire.github.io/assets/get-nodes.png)
+![get-nodes](/assets/get-nodes.png)
 [containerd-versions]: https://kubernetes.io/blog/2022/11/18/upcoming-changes-in-kubernetes-1-26/#cri-api-removal
 [pradeeps-guide]: https://www.linuxtechi.com/install-kubernetes-cluster-on-debian/
 
