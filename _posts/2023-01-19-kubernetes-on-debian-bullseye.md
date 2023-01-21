@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "notes: building kubernetes v1.26.1 on debian 11/stable"
+title: "notes: k8s v1.26 on debian bullseye"
 date: 2023-01-19
-categories: notes
+categories: notes kubernetes debian
 ---
 <style>
 r { color: Red }
