@@ -10,7 +10,7 @@ o { color: Orange }
 g { color: Green }
 b { color: Blue }
 </style>
-###### abstract
+### abstract
 These are notes on how to add comments functionality to your Jekyll-powered blog using [giscus][giscus-site].
 
 # background

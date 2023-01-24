@@ -10,7 +10,7 @@ o { color: Orange }
 g { color: Green }
 b { color: Blue }
 </style>
-###### abstract
+### abstract
 These are notes on how to build a Kubernetes cluster of 3 nodes (one control plane node, two worker nodes) on a fresh install of Debian 11 (stable):
 * Control plane (alpha) — 192.168.86.10
 * Worker #1 (bravo) — 192.168.86.11
