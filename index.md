@@ -5,9 +5,10 @@ layout: home
 # optionally set a header for the posts:
 list_title: ramblings and ruminations
 ---
-## welcome
+# welcome
 Hi :wave:.  
 
 I'm Christian (chrisxfire :fire:).  
 
 I build software in .NET / C# and talk about software engineering here.
+<hr>
