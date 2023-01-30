@@ -12,9 +12,10 @@ b { color: Blue }
 </style>
 
 ### abstract
-From Run, use `shell:*shortcut*`
+From Run, use `shell:<shortcut>`  
+PowerShell:
 ```powershell
-start shell:*shortcut*
+start shell:<shortcut>
 ```
 
 # shell shortcuts
