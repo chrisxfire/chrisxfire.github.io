@@ -4,7 +4,7 @@ date: 2021-08-17T09:33:47-06:00
 draft: false
 ---
 
-![silence](assets/silence.jfif)
+![silence](/silence.jfif)
 
 For as long as I can remember, people have told me that I do not speak enough. 
 The feedback has come from family, friends, and colleagues throughout my life. 

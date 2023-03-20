@@ -3,7 +3,7 @@ title: "on best practices"
 date: 2022-01-02T09:41:25-06:00
 draft: false
 ---
-![](/assets/bestpractice.png)
+![](/bestpractice.png)
 
 Something that has always puzzled me about some organizations is their tendency to ignore best practices.  
 One particular industry has ignored best practices for decades, filling the gap with hastily developed, poorly vetted practices instead.  
