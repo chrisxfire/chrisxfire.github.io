@@ -4,4 +4,4 @@ date: 2023-03-20T10:21:24-06:00
 draft: false
 ---
 
-<img src="/assets/images/dotnet-application-models.png" height="600" width="800">
+<img src="dotnet-application-models.png" height="600" width="800">
