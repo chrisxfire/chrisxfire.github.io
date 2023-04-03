@@ -1,5 +1,5 @@
 ---
-title: "on the state of software development in 2023"
+title: "on the state of software in 2023"
 date: 2023-03-26T06:58:32-06:00
 draft: true
 ---
