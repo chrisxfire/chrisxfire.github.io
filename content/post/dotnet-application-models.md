@@ -5,4 +5,3 @@ draft: false
 ---
 
 <img src=/dotnet-application-models.png>
-[dotnet app models](/dotnet-application-models.png)
