@@ -8,7 +8,7 @@ draft: false
 I recently ran into [compiler warning cs0436][cs-0436] while working on a [solution][solutions-and-projects] with a [shared project][shared-projects] in VS2022. If you run into the same, this might help you troubleshoot. 
 
 ### scenario
-You're working on solution, `solution1`, that contains a project, `alpha` (which is also the name of its namspace). That project contains a [project reference][project-reference] to another project, `bravo`:
+You're working on a solution that contains a project, `alpha` (which is also the name of its namspace). That project contains a [project reference][project-reference] to another project, `bravo`:
 ```
 alpha
   |--bravo
