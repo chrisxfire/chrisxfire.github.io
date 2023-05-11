@@ -1,0 +1,35 @@
+<h1 id="overview">Overview</h1>
+<p>Blazor contains built-in Components for forms.</p>
+<h1 id="editform">EditForm</h1>
+<p>The Blazor version of HTML's form.</p>
+<pre class="cshtml"><code>&lt;EditForm Model=&quot;@Employee&quot;&gt;
+&lt;/EditForm&gt;
+
+@code
+{
+    public Employee Employee { get; set; } = new Employee();
+}</code></pre>
+<p>Through EditContext, Blazor checks which fields inside the form have
+been edited or which validation errors have occurred.</p>
+<h1 id="input-components">Input Components</h1>
+<p>Wrappers around existing HTML inputs. Inherit from
+<code>InputBase</code>. Include basic validation:</p>
+<ul>
+<li>InputText</li>
+<li>InputTextArea (multi-line)</li>
+<li>InputNumber</li>
+<li>InputSelect (dropdown)</li>
+<li>InputDate (date picker)</li>
+<li>InputCheckbox</li>
+<li>InputRadio</li>
+<li>InputRadioGroup (group of number of InputRadio Components; allow
+only one in the group to be selected)</li>
+<li>InputFile (file picker)</li>
+</ul>
+<h2 id="inputtext">InputText</h2>
+<pre class="cshtml"><code>&lt;EditForm Model=&quot;@Employee&quot;&gt;
+    &lt;!-- 2-way data binding with @bind-value: --&gt;
+    &lt;InputText id=&quot;lastName&quot; @bind-value=&quot;@Employee.LastName&quot; placeholder=&quot;Enter last name&quot;&gt;
+    &lt;/InputText&gt;
+&lt;/EditForm&gt;</code></pre>
+<h2 id="inputselect">InputSelect</h2>
