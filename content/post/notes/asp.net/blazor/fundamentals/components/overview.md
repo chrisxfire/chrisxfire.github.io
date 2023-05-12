@@ -1,3 +1,9 @@
+---
+title: "notes - blazor - overview"
+date: 2023-04-08T00:00:00-00:00
+draft: false
+---
+
 # Overview
 - A component is an element of UI — a page, dialog, button, form, etc — that is built into a .NET assembly.  It includes layout and logic.
 - Components can be nested, reused, shared among projects, and used in MVC and Razor Pages apps
