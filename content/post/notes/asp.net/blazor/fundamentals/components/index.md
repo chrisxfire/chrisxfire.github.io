@@ -1,17 +1,21 @@
 ---
-title: "notes - blazor - overview"
+title: "notes > asp.net > blazor > fundamentals > components > overview"
 date: 2023-05-08T00:00:00-00:00
 draft: false
 ---
 
 # Overview
-- A component is an element of UI — a page, dialog, button, form, etc — that is built into a .NET assembly.  It includes layout and logic.
-- Components can be nested, reused, shared among projects, and used in MVC and Razor Pages apps
+A component is an element of UI — a page, dialog, button, form, etc — that is built into a .NET assembly.  It includes layout and logic.
+
+
+Components can be nested, reused, shared among projects, and used in MVC and Razor Pages apps.
 
 # Naming
-- Component's UI part are in .razor files and the logic is in a code-behind `.razor.cs` file
-- Page Components (Components that produces pages) are defined under `/Pages` by convention
-- Other Components are defined under `/Components`
+Component's UI part are in .razor files and the logic is in a code-behind `.razor.cs` file.  
+
+Page Components (Components that produces pages) are defined under `/Pages` by convention.
+
+Other Components are defined under `/Components`.
 
 # Component Namespaces
 Components can be placed anywhere in the project.
