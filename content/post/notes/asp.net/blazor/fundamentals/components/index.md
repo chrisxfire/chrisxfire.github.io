@@ -1,6 +1,6 @@
 ---
 title: "notes - blazor - overview"
-date: 2023-04-08T00:00:00-00:00
+date: 2023-05-08T00:00:00-00:00
 draft: false
 ---
 
@@ -26,14 +26,14 @@ Data from the code-behind is bound in the UI in a one-way mode:
 
 `EmployeeDetail.razor.cs`
 ```cs
-	public string FirstName { get; set; }
-	public string LastName { get; set; }
+public string FirstName { get; set; }
+public string LastName { get; set; }
 ```
 `EmployeeDetail.razor`
-```razor
-	<h1 class="page-title">
-		Details for @_firstName @_lastName
-	</h1>
+```html
+<h1 class="page-title">
+	Details for @_firstName @_lastName
+</h1>
 ```
 
 # Lifecycle
@@ -49,23 +49,24 @@ Components have lifecycle methods that are called at different points in the Com
 ## Overriding Lifecycle Events
 Example:
 ```cs
-	protected override void OnInitialized()
-	{
-	}
+protected override void OnInitialized()
+{
+}
 ```
 
 # Markup
 In Razor markup, members of the class are defined in `@code` blocks.  These component members are used in rendering logic:
 `Pages/Markup.razor`
-```razor
-	@page "/markup"
-	
-	<h1 style="font-style:@headingFontStyle">@headingText</h1>
-	
-	@code {
-	    private string headingFontStyle = "italic";
-	    private string headingText = "Put on your new Blazor!";
-	}
+```html
+@page "/markup"
+
+<h1 style="font-style:@headingFontStyle">@headingText</h1>
+```
+```cs
+@code {
+    private string headingFontStyle = "italic";
+    private string headingText = "Put on your new Blazor!";
+}
 ```
 
 # Routing
@@ -75,36 +76,36 @@ Routing in Blazor involves providing a route template to each accessible compone
 3. The `RouteView` component receives the `RouteData` from the `Router` and renders the specified Component with its layout.
 
 Components support multiple route templates using multiple `@page` directives:
-```razor
-	@page "/blazor-route"
-	@page "/different-blazor-route"
-	
-	<h1>Blazor routing</h1>
+```html
+@page "/blazor-route"
+@page "/different-blazor-route"
+
+<h1>Blazor routing</h1>
 ```
 
 Constant-based route templates can be specified with `@attribute`:
-```razor
-	// do not include an @page directive
-	@attribute [Route(Constants.CounterRoute)]
+```html
+// do not include an @page directive
+@attribute [Route(Constants.CounterRoute)]
 ```
 
 # DynamicComponent
 `DynamicComponent` allows Blazor to render components dynamically rather than be specifying their type:
 
 `SomePage.razor`
-```razor
-	@foreach (var widgetType in Widgets)
-	{
-	    <DynamicComponent Type="widgetType"></DynamicComponent>
-	}
+```html
+@foreach (var widgetType in Widgets)
+{
+    <DynamicComponent Type="widgetType"></DynamicComponent>
+}
 ```
-	
+
 `SomePage.razor.cs`
 ```cs
-	public partial class SomePage
-	{
-	    public List<Type> Widgets { get; set; } = new() { typeof(SomeWidget), typeof(AnotherWidget) };
-	}
+public partial class SomePage
+{
+    public List<Type> Widgets { get; set; } = new() { typeof(SomeWidget), typeof(AnotherWidget) };
+}
 ```
 
 # Differences in Razor Components vs Razor Pages
@@ -117,17 +118,18 @@ This is illegal:  `<ParameterChild Title="@await ..." />`
 Instead, use asynchronous lifecycle events (explained below).
 
 ## No Concatenation of Explicit Razor Expression with an Expression Result for Assignment to a Parameter
-This is valid in Razor Pages, but not a Razor Component:
+This is valid in Razor Pages, but not a Razor Component:  
 
 `<ParameterChild Title="Set by @(panelData.Title)" />`
 
 Instead, use a method, field, or property:
-```razor
-	<ParameterChild Title="@GetTitle()" />
-	
-	@code {
-		…
-		private string GetTitle() => $"Set by {panelData.Title}";
-		…
-	}
+```html
+<ParameterChild Title="@GetTitle()" />
+```
+```cs
+@code {
+	…
+	private string GetTitle() => $"Set by {panelData.Title}";
+	…
+}
 ```

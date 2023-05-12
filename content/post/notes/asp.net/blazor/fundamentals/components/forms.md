@@ -61,3 +61,26 @@ OnSubmit is used whether the form data is invalid or not.
     <button type="submit">Save employee</button>
 </EditForm>
 ```
+
+# Validation
+To add validation to a form, add the `DataAnnotationsValidator` Component. This enables validation using data annotations applied to the model class.  
+To display validation errors at the top of the page, add the `ValidationSummary` Component.
+```html
+<EditForm Model="@Employee"
+    OnValidSubmit="@HandleValidSubmit"
+    OnInvalidSubmit="@HandleInvalidSubmit"
+    ...
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+</EditForm>
+```
+
+To display validation errors next to the violating Component, add the `ValidationMessage` Component:
+```html
+...
+<div class="col-md-8">
+    <InputText id="lastName" @bind-Value="@Employee.LastName" ...>
+</div>
+<ValidationMessage class="offset-md-3 col-md-8" For="@(() => Employee.LastName)" />
+...
+```

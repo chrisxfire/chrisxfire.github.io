@@ -1,11 +1,12 @@
 # Data Binding
 ## One-way Data Binding
 Used to display data:
-```razor
+```html
 <h1 class="page-title">
     Details for @FirstName @LastName
 </h1>
-
+```
+```cs
 @code 
 {
     public string FirstName { get; set; }
@@ -14,12 +15,13 @@ Used to display data:
 ```
 
 Or in a form control, such as an input:
-```razor
+```html
 <!-- changing the value of the input, changing the value in the UI will not change it in the Employee instance -->
 <input type="text" class="form-control-plaintext">
     @Employee.Firstname
 <input>
-
+```
+```cs
 @code
 {
     public Employee Employee { get; set; }
@@ -32,16 +34,16 @@ If the user changes the value, it will be updated on the property (by default, w
 Uses the `@bind` directive.
 
 Example
-```razor
+```html
 <!-- @bind specifies that we should bind the Employee.LastName to this Component: -->
 <input id="lastName" @bind="@Employee.LastName" placeholder="Enter last name" />
 ```
 
-### Using `bind-value` and `bind-value-event`
-```razor
+### Using `bind-Value` and `bind-value-event`
+```html
+<!-- property value will be updated every time user types a character: -->
 <input id="lastName" 
-    @bind-value="Employee.LastName" 
-    <!-- property value will be updated every time user types a character: -->
-    @bind-value:event="oninput"
+    @bind-Value="Employee.LastName" 
+    @bind-Value:event="oninput"
     placeholder="Enter last name" />
 ```
