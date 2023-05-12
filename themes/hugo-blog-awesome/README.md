@@ -1,4 +1,7 @@
-<h1 align=center> Awesome hugo blog | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo</a></h1>
+<div align=center> 
+    <img src="https://github.com/hugo-sid/hugo-blog-awesome/blob/a674bf96f1ac192b1b955e61944261d4553ab2d0/assets/icons/mstile-70x70.png" /> 
+</div>
+<h1 align=center> Hugo Blog Awesome | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo</a></h1>
 
 <h4 align=center>⚡ Fast | 📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design </h4>
 
@@ -91,7 +94,7 @@ url = "index.xml"
 
 <details>
   <summary>List of available icons (click to expand)</summary>
-  
+
 | Name            | Platform                        |
 | --------------- | ------------------------------- |
 | `123rf`         | 123rf.com                       |
@@ -175,6 +178,15 @@ url = "index.xml"
 
 If you are trying to add an icon that is not listed above, you can modify `layouts\partials\svgs\svgs.html` to include your icon (SVG). You are encouraged to submit your icon by creating a pull request, so that others can benefit.
 
+### Enable go to top button
+
+To enable go to top button on blog posts, set `goToTop` to `true` in `config.toml` file.
+
+```toml
+[params]
+  goToTop = true
+```
+
 ## Content
 
 ### Posts
@@ -185,6 +197,12 @@ To create a new post, run the following command:
 
 Then, edit the `my-first-post.md` file to suit your needs.
 
+### Comments
+
+To enable Disqus comments, set `disqusShortname` in your site's `config.toml`.
+
+To use another comments system, provide your own `comments.html` partial in `layouts\partials\comments.html`.
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/CONTRIBUTING.md).
@@ -193,12 +211,12 @@ Please read [CONTRIBUTING.md](https://github.com/hugo-sid/hugo-blog-awesome/blob
 
 If you are using this theme for any website, feel free to list the website here. You can submit a pull request (PR) to include your website.
 
-- https://krisnova.net/
-- https://paddy-exe.github.io/
-- https://www.siggijons.net/
-- https://debanwita27.github.io/
-- https://mrizkimaulidan.vercel.app/
-- https://www.ariesnine.cn/
+- <https://krisnova.net/>
+- <https://paddy-exe.github.io/>
+- <https://www.siggijons.net/>
+- <https://debanwita27.github.io/>
+- <https://mrizkimaulidan.vercel.app/>
+- <https://www.ariesnine.cn/>
 
 ## Support
 
