@@ -1,6 +1,12 @@
-# Data Binding
+---
+title: "notes > asp.net > blazor > fundamentals > components > data binding"
+date: 2023-01-01T00:00:00-07:00
+draft: true
+---
+
+# Overview
 ## One-way Data Binding
-Used to display data:
+Data from the code-behind is bound in the UI in a one-way mode:
 ```html
 <h1 class="page-title">
     Details for @FirstName @LastName

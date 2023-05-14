@@ -14,6 +14,7 @@
 | `$LASTEXITCODE` | Returns the exit code of the last native program or PowerShell script ran |
 | `$PROFILE` | The full path of the posh profile for the current user and current host application | 
 | `$PSHOME` | The full path of the installation directory for posh |
+| `$PWD` | The current working directory |
 | `$StackTrace` | The stack trace for the most recent error |
 
 # Chaining Commands
@@ -42,11 +43,17 @@ Set an environment variable that has a hierarchical key:	`set level1:level2="val
 `Get-Clipboard | Out-File filename`
 
 ## Copy Files / Directories
-`copy /srcdir/subdir /dstdir/newsubdir -Recurse` # copy /srcdir/subdir and all of its files and subdirectories to /dstdir/newsubdir and create it if it doesn't exist
-
+```powershell
+copy /srcdir/subdir /dstdir/newsubdir -Recurse # copy /srcdir/subdir and all of its files and subdirectories to /dstdir/newsubdir and create it if it doesn't exist
+```
+## CWD
+```powershell
+Get-Location
+```
 ## Find
-`gci -Path path -Recurse -Force` # path can include wildcards.
-
+```powershell
+gci -Path path -Recurse -Force # path can include wildcards.
+```
 ## Find String in Files Recursively
 `gci -Path ./*.* -Recurse | Select-String -Path file -Pattern "*regex*"`  
     `-Context n, m` # Add n lines before and m lines after the match; matches are denoted with >
@@ -76,6 +83,18 @@ Select-String
 
 ## "touch"
 `ni filename`
+
+## Write to a File
+```powershell
+Set-Content -Path ./path/to/file.txt -Value 'Hello, World'
+```
+
+## Write to a Specific Line in a File
+```powershell
+$fileContent = Get-Content $filePath
+$fileContent[$lineNumber-1] += $textToAdd
+$fileContent | Set-Content $filePath
+```
 
 # History
 `get-history` # Stored in `%userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline`
