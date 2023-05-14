@@ -24,7 +24,7 @@ protected override async Task OnInitializedAsync()
 }
 ```
 
-# IHttpClientFactory (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
+# `IHttpClientFactory` (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
 ## Configuring
 ```posh
 dotnet add package microsoft.extensions.http
@@ -208,7 +208,7 @@ public class ValidateHeaderHandler : DelegatingHandler
 }
 ```
 
-# HttpClient and HttpMessageHandler Lifetimes
+# `HttpClient` and `HttpMessageHandler` Lifetimes
 With `IHttpClientFactory`, an `HttpMessageHandler` is created per named client.  The factory:
 - Manages handler lifetimes
 - Pools handler instances (allowing for it to be reused if not expired)
@@ -262,4 +262,5 @@ app.UseHttpsRedirection();
 app.UseHeaderPropagation();
 app.MapControllers();
 ```
-Use Polly-based handlers
+# Use Polly-based handlers
+TODO...
