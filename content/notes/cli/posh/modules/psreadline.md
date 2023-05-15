@@ -1,7 +1,7 @@
 ---
 title: "notes > cli > posh > modules > psreadline"
 date: 2023-01-01T00:00:00-06:00
-draft: true
+draft: false
 ---
 
 Sample profile file: sample [profile file (github.com)](https://github.com/PowerShell/PSReadLine/blob/master/PSReadLine/SamplePSReadLineProfile.ps1)

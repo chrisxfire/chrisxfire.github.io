@@ -1,7 +1,7 @@
 ---
-title: "notes > asp.net > blazor > converting to hosted WASM app"
+title: "notes > asp.net > web apps > blazor > converting to hosted WASM app"
 date: 2023-01-01T00:00:00-06:00
-draft: true
+draft: false
 ---
 
 # Overview

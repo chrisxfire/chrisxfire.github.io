@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net-core-6-blazor-fundamentals-errata"
+title: "notes > asp.net > web apps > blazor > asp.net-core-6-blazor-fundamentals-errata"
 date: 2023-01-01T00:00:00-07:00
 draft: true
 ---
