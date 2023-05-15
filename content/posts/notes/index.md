@@ -1,6 +1,6 @@
 ---
 title: "notes > overview"
-date: 2023-05-14T00:00:00-07:00
+date: 2023-05-14T00:00:00-06:00
 draft: false
 ---
 
@@ -57,6 +57,7 @@ draft: false
 [notes > asp.net > core > security-and-identity](./asp.net/core/security-and-identity)  
 [notes > asp.net > core > services-and-dependency-injection](./asp.net/core/services-and-dependency-injection)  
 [notes > asp.net > core > static-files](./asp.net/core/static-files)  
+[notes > asp.net > core > test-post](./asp.net/core/test-post)  
 [notes > asp.net > core > test](./asp.net/core/test)  
 [notes > asp.net > core > troubleshoot](./asp.net/core/troubleshoot)  
 [notes > asp.net > core > web-servers](./asp.net/core/web-servers)  
