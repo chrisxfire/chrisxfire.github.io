@@ -1,3 +1,9 @@
+---
+title: "notes > asp.net > blazor > converting to hosted WASM app"
+date: 2023-01-01T00:00:00-06:00
+draft: true
+---
+
 # Overview
 The existing solution contains:
 - BethanysPieShopHRM.Api
