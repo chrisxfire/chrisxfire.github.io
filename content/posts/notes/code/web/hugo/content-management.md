@@ -80,7 +80,7 @@ content/
 │   └── _index.md
 └── branch-bundle-2 # branch bundle
     ├── _index.md
-    └── a-leaf-bundle
+    └── a-leaf-bundle # leaf bundle
         └── index.md
 ```
 
