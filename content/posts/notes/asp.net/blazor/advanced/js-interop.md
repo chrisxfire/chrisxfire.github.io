@@ -21,9 +21,9 @@ draft: false
 ## 2. Register the script in the hosting page (`index.html` or `host.cshtml`)
 ```html
 <script>
-        window.DoSomething = () => {
-            // do something here
-        }
+window.DoSomething = () => {
+    // do something here
+}
 </script>
 ```
 
