@@ -2,6 +2,7 @@ baseURL = 'https://chriscodes.net/'
 languageCode = 'en-us'
 title = 'chrisxfires blog'
 theme = "hugo-blog-awesome"
+defaultContentLanguage = "en-gb"
 
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
@@ -31,8 +32,11 @@ theme = "hugo-blog-awesome"
 
 [params]
   sitename = "params sitename"
-  defaultColor = "dark" # set default color mode: dark or light
+  defaultColor = "dark" # set default color mode: dark or light or auto
   description = "params description"
+  mainSections = ['posts']
+  toc = false # set to false to disable table of contents 'globally'
+  goToTop = true # set to false to disable 'go to top' button
 
 [params.author]
   avatar = "chrisxfire.jpg" # put the file in assets folder; also ensure that image has same height and width
@@ -40,6 +44,19 @@ theme = "hugo-blog-awesome"
   intro = "rants, raves, and ruminations"
   name = "chrisxfire"
   description = "a blog about software engineering with .NET (with occasional digressions)"
+
+# Allow to override webmanifest options
+[params.webmanifest]
+  name = "sitename" # will use "params.sitename" or "title" by default
+  short_name = "sitename" # same as name
+  start_url = "/" # will use homepage url by default
+  theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
+  background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
+  display = "standalone"
+
+# Allow to override `browserconfig.xml` params (configuration for windows embeded browsers)
+[params.browserconfig]
+  TileColor = "#2d89ef" # default windows 10 blue tile color
 
 [[params.socialIcons]]
 name = "github"
