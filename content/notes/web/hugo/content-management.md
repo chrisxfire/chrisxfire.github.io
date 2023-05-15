@@ -1,5 +1,5 @@
 ---
-title: "notes > hugo > content management"
+title: "notes > web > hugo > content management"
 date: 2023-01-01T00:00:00-06:00
 draft: true
 ---
@@ -45,7 +45,7 @@ A *page bundle* groups pages and their resources.  It can either be a:
 | | Leaf Bundle | Branch Bundle |
 | 
 ### Leaf Bundle 
-A directory at any level under `content/` that contains its own `index.md` file:
+A directory at any level under `content/` that contains its own `index.md` file.  Its layout type is `single`:
 ```bash
 content/
 ├── about # leaf bundle
@@ -69,7 +69,7 @@ content/
 ```
 
 ### Branch Bundle
-A directory at any level under `content/` that contains at least an `_index.md` file:
+A directory at any level under `content/` that contains at least an `_index.md` file.  Its layout type is `list`:
 ```bash
 content/
 ├── branch-bundle-1 # branch bundle
