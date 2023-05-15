@@ -1,5 +1,5 @@
 ---
-title: "services and dependency injection"
+title: "notes > asp.net > core > services and dependency injection"
 date: 2023-05-14T00:00:00-06:00
 draft: false
 ---

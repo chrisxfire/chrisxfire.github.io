@@ -1,5 +1,5 @@
 ---
-title: "scaffolding"
+title: "notes > asp.net > core > scaffolding"
 date: 2023-05-14T00:00:00-06:00
 draft: false
 ---
