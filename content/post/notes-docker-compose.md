@@ -1,7 +1,7 @@
 ---
 title: "notes - docker compose"
 date: 2023-03-16T15:43:38-06:00
-draft: false
+draft: true
 ---
 
 ### overview
@@ -9,7 +9,7 @@ Docker Compose helps to define and share multi-container apps.  It defines an ap
 Docker Compose automatically creates a network for an application stack.
 
 ### example
-This docker run command…
+This docker run commandï¿½
 ```bash
 docker run -dp 3000:3000 \
   -w /app -v "$(pwd):/app" \
@@ -21,7 +21,7 @@ docker run -dp 3000:3000 \
   node:18-alpine \
   sh -c "yarn install && yarn run dev"
 ```
-…and this one…
+ï¿½and this oneï¿½
 ```bash
 docker run -d \
   --network todo-app --network-alias mysql \
@@ -30,7 +30,7 @@ docker run -d \
   -e MYSQL_DATABASE=todos \
   mysql:8.0
 ```
-…are defined in this docker-compose.yml file:
+ï¿½are defined in this docker-compose.yml file:
 ```Dockerfile
 services:
   app:
