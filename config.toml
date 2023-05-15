@@ -15,35 +15,20 @@ defaultContentLanguage = "en-gb"
   [[menu.main]] 
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
-    pageRef="/"
-    name = 'home'
-    url = '/'
+    pageRef = "/"
+    name = "home"
+    url = "/"
     weight = 10
   [[menu.main]]
-    pageRef="posts"
-    name = 'posts'
-    url = '/posts/'
+    pageRef = "posts"
+    name = "posts"
+    url = "/posts/"
     weight = 20
   [[menu.main]]
-    pageRef="notes_.net"
-    name = '.net notes'
-    url = '/notes_.net/'
-    weight = 30
-  [[menu.main]]
-    pageRef="notes_asp.net"
-    name = 'asp.net notes'
-    url = '/notes_asp.net/'
-    weight = 40
-  [[menu.main]]
-    pageRef="notes_cli"
-    name = 'cli notes'
-    url = '/notes_cli/'
-    weight = 50
-  [[menu.main]]
-    pageRef="about"
-    name = 'about'
-    url = '/about/'
-    weight = 60
+    pageRef = "about"
+    name = "about"
+    url = "/about/"
+    weight = 90
 
 [params]
   sitename = "params sitename"
