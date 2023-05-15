@@ -24,16 +24,26 @@ defaultContentLanguage = "en-gb"
     name = 'posts'
     url = '/posts/'
     weight = 20
-    [[menu.main]]
-    pageRef="notes"
-    name = 'notes'
-    url = '/notes/'
+  [[menu.main]]
+    pageRef="notes_.net"
+    name = '.net notes'
+    url = '/notes_.net/'
     weight = 30
+  [[menu.main]]
+    pageRef="notes_asp.net"
+    name = 'asp.net notes'
+    url = '/notes_asp.net/'
+    weight = 40
+  [[menu.main]]
+    pageRef="notes_cli"
+    name = 'cli notes'
+    url = '/notes_cli/'
+    weight = 50
   [[menu.main]]
     pageRef="about"
     name = 'about'
     url = '/about/'
-    weight = 40
+    weight = 60
 
 [params]
   sitename = "params sitename"
