@@ -1,6 +1,6 @@
 ---
 title: "notes > asp.net > core > middleware > list of built in middleware"
-date: 2023-05-14T00:00:000-07:00
+date: 2023-05-14T00:00:00-07:00
 draft: false
 ---
 
