@@ -1,7 +1,7 @@
 ---
 title: "notes > web > hugo > configuration"
 date: 2023-01-01T00:00:00-06:00
-draft: false
+draft: true
 ---
 
 <style>
@@ -9,3 +9,5 @@ draft: false
     o { color: orange }
     g { color: green }
 </style>
+
+TODO...
