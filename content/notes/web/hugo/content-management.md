@@ -73,8 +73,8 @@ A directory at any level under `content/` that contains at least an `_index.md` 
 ```bash
 content/
 ├── branch-bundle-1 # branch bundle
-│   ├── branch-content1.md
-│   ├── branch-content2.md
+│   ├── branch-content1.md # WILL be rendered as its own page
+│   ├── branch-content2.md # WILL be rendered as its own page
 │   ├── image1.jpg
 │   ├── image2.png
 │   └── _index.md
