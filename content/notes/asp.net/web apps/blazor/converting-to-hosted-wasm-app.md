@@ -14,9 +14,7 @@ Presently, BethanysPieShopHRM.App is a *standalone* Blazor WASM app.
 This process converts it to a *hosted* Blazor WASM app.
 
 # BethanysPieShopHRM.Api
-1. ```posh
-    dotnet add package Microsoft.AspNetCore.Components.WebAssembly.Server
-    ```
+1. `dotnet add package Microsoft.AspNetCore.Components.WebAssembly.Server`
 
 2. `Program.cs`
     ```cs

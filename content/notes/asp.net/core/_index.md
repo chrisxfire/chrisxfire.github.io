@@ -12,7 +12,7 @@ draft: false
 [notes > asp.net > core > debug](debug.md)  
 [notes > asp.net > core > environments](environments.md)  
 [notes > asp.net > core > globalization and localization](globalization-and-localization.md)  
-[notes > asp.net > core > host and deply](host-and-deply.md)  
+[notes > asp.net > core > host and deploy](host-and-deploy.md)  
 [notes > asp.net > core > hosts](hosts.md)  
 [notes > asp.net > core > httpcontext](httpcontext.md)  
 [notes > asp.net > core > making http requests](making-http-requests.md)  
