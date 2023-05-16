@@ -20,15 +20,15 @@ An ugly URL would be `https://example.com/posts/blog/first-post/index.html`.
 .
 └── content
     └── about
-    |   └── index.md  // <- https://example.com/about/
+    |   └── index.md  # <- https://example.com/about/
     ├── posts
-    |   ├── firstpost.md   // <- https://example.com/posts/firstpost/
+    |   ├── firstpost.md   # <- https://example.com/posts/firstpost/
     |   ├── happy
-    |   |   └── ness.md  // <- https://example.com/posts/happy/ness/
-    |   └── secondpost.md  // <- https://example.com/posts/secondpost/
+    |   |   └── ness.md  # <- https://example.com/posts/happy/ness/
+    |   └── secondpost.md  # <- https://example.com/posts/secondpost/
     └── quote
-        ├── first.md       // <- https://example.com/quote/first/
-        └── second.md      // <- https://example.com/quote/second/
+        ├── first.md       # <- https://example.com/quote/first/
+        └── second.md      # <- https://example.com/quote/second/
 ```
 ## Content type
 *Content type* determines the *layout* and which *archtetype* template to use for the content.  
