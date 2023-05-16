@@ -25,6 +25,11 @@ defaultContentLanguage = "en-gb"
     url = "/posts/"
     weight = 20
   [[menu.main]]
+    pageRef = "notes"
+    name = "notes"
+    url = "notes"
+    weight = 30
+  [[menu.main]]
     pageRef = "about"
     name = "about"
     url = "/about/"
