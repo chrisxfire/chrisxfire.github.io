@@ -5,6 +5,6 @@ draft: false
 ---
 
 [notes > asp.net > web apps > blazor](blazor)  
+[notes > asp.net > web apps > general](general)  
 [notes > asp.net > web apps > mvc](mvc)  
 [notes > asp.net > web apps > razor pages](razor pages)  
-[notes > asp.net > web apps > razor class libraries](razor-class-libraries.md)  

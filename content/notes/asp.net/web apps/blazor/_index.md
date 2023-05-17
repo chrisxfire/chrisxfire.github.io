@@ -14,5 +14,4 @@ draft: false
 [notes > asp.net > web apps > blazor > blazor hosting models](blazor-hosting-models.md)  
 [notes > asp.net > web apps > blazor > converting to hosted wasm app](converting-to-hosted-wasm-app.md)  
 [notes > asp.net > web apps > blazor > overview](overview.md)  
-[notes > asp.net > web apps > blazor > qrg](qrg.md)  
 [notes > asp.net > web apps > blazor > test components](test-components.md)  

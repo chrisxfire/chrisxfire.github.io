@@ -1,6 +1,6 @@
 ---
-title: "notes > asp.net > web apps > razor class libraries "
-date: 2023-01-01T00:00:00-07:00
+title: "notes > asp.net > web apps > general > razor class libraries"
+date: 2023-03-24T00:00:00-07:00
 draft: false
 ---
 
