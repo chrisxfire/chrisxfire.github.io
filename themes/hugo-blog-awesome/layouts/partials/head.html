@@ -11,7 +11,19 @@
     {{- end }}
 
     {{- /* Styles */ -}}
+    <style>
+        r {
+            color: Red
+        }
 
+        o {
+            color: Orange
+        }
+
+        g {
+            color: Green
+        }
+    </style>
     {{- $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "style.css") | minify | fingerprint }}
     <link href="{{ $style.RelPermalink }}" rel="stylesheet">
     {{- $code_syntax_highlight_css := resources.Get "code-highlight.css" | minify | fingerprint }}
