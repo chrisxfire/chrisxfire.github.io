@@ -1,8 +1,10 @@
 ---
 title: "notes > asp.net > core > security and identity"
-date: 2023-05-14T00:00:00-06:00
+date: 2023-05-05T00:00:00-06:00
 draft: false
 ---
+
+From Pluralsight/ASP.NET Core 6 Fundamentals
 
 # ASP.NET Core Identity
 - A&A system that supports UI login functionality

@@ -4,12 +4,6 @@ date: 2023-05-12T00:00:00-07:00
 draft: false
 ---
 
-<style>
-    r { color: Red }
-    o { color: Orange }
-    g { color: Green }
-</style>
-
 # Overview
 By default, when the app launches, all assemblies are automatically downlaoded from the web server. Blazor can be instructed to postpone downloading an assembly.
 

@@ -104,3 +104,6 @@ PM> update-database
 
 ### Confirm the database exists
 **View** > **SQL Server Object Explorer**
+
+# Using the DbContext in a Component
+`Pages/SomeComponent.razor`

@@ -4,12 +4,6 @@ date: 2023-03-24T00:00:00-07:00
 draft: false
 ---
 
-<style>
-    r { color: Red }
-    o { color: Orange }
-    g { color: Green }
-</style>
-
 # Overview
 Razor Class Libraries can contain Razor views, pages, controllers, page models, Razor Components, View components, and data models along with their associated static files.  They can be packaged and reused.
 

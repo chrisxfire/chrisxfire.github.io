@@ -10,7 +10,6 @@ draft: false
 [notes > asp.net > web-apps > blazor > blazored](blazored)  
 [notes > asp.net > web-apps > blazor > fundamentals](fundamentals)  
 [notes > asp.net > web-apps > blazor > application state](application-state.md)  
-[notes > asp.net > web-apps > blazor > asp.net core 6 blazor fundamentals errata](asp.net-core-6-blazor-fundamentals-errata.md)  
 [notes > asp.net > web-apps > blazor > blazor hosting models](blazor-hosting-models.md)  
 [notes > asp.net > web-apps > blazor > converting to hosted wasm app](converting-to-hosted-wasm-app.md)  
 [notes > asp.net > web-apps > blazor > overview](overview.md)  

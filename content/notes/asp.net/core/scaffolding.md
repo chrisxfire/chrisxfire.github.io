@@ -1,8 +1,10 @@
 ---
 title: "notes > asp.net > core > scaffolding"
-date: 2023-05-14T00:00:00-06:00
+date: 2023-04-25T00:00:00-06:00
 draft: false
 ---
+
+From Pluralsight/ASP.NET 6 Core Fundamentals
 
 # Overview
 ASP.NET Core can *scaffold.*  This creates: 
@@ -36,12 +38,12 @@ ASP.NET Core can *scaffold.*  This creates:
 		
 # What Scaffolding Creates
 The above scaffolding operation produce the following:
-- Under `Pages/subfolder`:
-    `Create.cshtml` and `Create.cshtml.cs`
-    `Delete.cshtml` and `Delete.cshtml.cs`
-    `Details.cshtml` and `Details.cshtml.cs`
-    `Edit.cshtml` and `Edit.cshtml.cs`
-    `Index.cshtml` and `Index.cshtml.cs`
+- Under `Pages/subfolder`:  
+&emsp;&emsp;`Create.cshtml` and `Create.cshtml.cs`  
+&emsp;&emsp;`Delete.cshtml` and `Delete.cshtml.cs`  
+&emsp;&emsp;`Details.cshtml` and `Details.cshtml.cs`  
+&emsp;&emsp;`Edit.cshtml` and `Edit.cshtml.cs`  
+&emsp;&emsp;`Index.cshtml` and `Index.cshtml.cs`  
 - `Data/SomeContext.cs`
 - Adds the context to dependency injection in `Program.cs`
 - Adds a database connection string to `appsettings.json`
