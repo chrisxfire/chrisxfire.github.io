@@ -4,12 +4,6 @@ date: 2023-05-14T00:00:00-06:00
 draft: false
 ---
 
-<style>
-    r { color: red }
-    o { color: orange }
-    g { color: green }
-</style>
-
 # Overview
 `UseRouting` — adds route matching to the pipeline; looks at endpoints defined in the app and selects the best match.
 - `UseRouting` works by calling the SetEndpoint method to attach the endpoint to the current context.

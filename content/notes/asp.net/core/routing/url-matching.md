@@ -4,12 +4,6 @@ date: 2023-05-14T00:00:00-06:00
 draft: false
 ---
 
-<style>
-    r { color: red }
-    o { color: orange }
-    g { color: green }
-</style>
-
 # Overview
 An incoming request comes in.  Routing matches the incoming request to an endpoint:
 - It sets an `Endpoint` and routes values to a request feature on the `HttpContext` from the current request:

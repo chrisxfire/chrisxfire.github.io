@@ -4,12 +4,6 @@ date: 2023-05-14T00:00:00-06:00
 draft: false
 ---
 
-<style>
-    r { color: red }
-    o { color: orange }
-    g { color: green }
-</style>
-
 # Overview
 See also:  
 - [Logging in .NET Core and ASP.NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-7.0)

@@ -4,12 +4,6 @@ date: 2023-05-14T00:00:00-06:00
 draft: false
 ---
 
-<style>
-    r { color: red }
-    o { color: orange }
-    g { color: green }
-</style>
-
 # [Dependency Injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0)
 Makes configured services available throughout an app.
 ASP.NET Core templates automatically register over 250 services including:

@@ -4,12 +4,6 @@ date: 2023-05-16T00:00:00-06:00
 draft: false
 ---
 
-<style>
-    r { color: red }
-    o { color: orange }
-    g { color: green }
-</style>
-
 # Implement a Database with EF Core in an ASP.NET Core Blazor Web App
 Notes from Pluralsight/Building a Data-driving ASP.NET Core 6 Blazor Server Application
 ## Create Model classes

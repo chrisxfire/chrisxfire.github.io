@@ -4,12 +4,6 @@ date: 2023-01-01T00:00:00-07:00
 draft: false
 ---
 
-<style>
-    r { color: red }
-    o { color: orange }
-    g { color: green }
-</style>
-
 # Overview
 .NET can invoke JavaScript and vice-versa.
 

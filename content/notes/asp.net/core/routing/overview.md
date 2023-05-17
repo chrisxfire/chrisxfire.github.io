@@ -4,12 +4,6 @@ date: 2023-05-14T00:00:00-06:00
 draft: false
 ---
 
-<style>
-    r { color: red }
-    o { color: orange }
-    g { color: green }
-</style>
-
 # Overview
 Routing is matching incoming HTTP requests and dispatching them to the app's executable endpoints.  
 Endpoints are the app's units of executable request-handling code.

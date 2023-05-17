@@ -4,12 +4,6 @@ date: 2023-05-16T00:00:00-06:00
 draft: false
 ---
 
-<style>
-    r { color: red }
-    o { color: orange }
-    g { color: green }
-</style>
-
 # Migrate a Database via a SQL File
 Create a SQL file that migrates a database already in production:
 ```powershell

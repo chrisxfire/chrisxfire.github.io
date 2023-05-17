@@ -4,12 +4,6 @@ date: 2023-01-01T00:00:00-06:00
 draft: false
 ---
 
-<style>
-    r { color: red }
-    o { color: orange }
-    g { color: green }
-</style>
-
 # Overview
 ## Pretty URLs
 By default, Hugo uses pretty URLs: `content/posts/blog/first-post.md` renders to `https://example.com/posts/blog/first-post/`.  

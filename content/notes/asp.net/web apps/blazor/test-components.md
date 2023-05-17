@@ -4,12 +4,6 @@ date: 2023-05-16T00:00:00-06:00
 draft: false
 ---
 
-<style>
-    r { color: red }
-    o { color: orange }
-    g { color: green }
-</style>
-
 # Testing with bUnit - Overview
 bUnit extends other unit testing frameworks (xUnit, Nunit, MSTest, etc) for Blazor-specific unit tests.
 
