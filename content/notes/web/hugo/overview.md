@@ -65,3 +65,7 @@ public/
 ### Build a Test Site
 `hugo server`
 `hugo server --navigateToChanged` (The browser will automatically redirect to content when it is changed)
+
+# Customization
+## Customizing the width of posts
+Adjust `$narrow-size` and `$spacing-full` in `/assets/sass/main.scss`
