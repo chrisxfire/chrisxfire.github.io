@@ -4,8 +4,9 @@ date: 2023-05-16T00:00:00-06:00
 draft: false
 ---
 
+From Pluralsight/Building a Data-driving ASP.NET Core 6 Blazor Server Application
+
 # Implement a Database with EF Core in an ASP.NET Core Blazor Web App
-Notes from Pluralsight/Building a Data-driving ASP.NET Core 6 Blazor Server Application
 ## Create Model classes
 `Data/Models/Employee.cs`
 ```cs
@@ -106,4 +107,31 @@ PM> update-database
 **View** > **SQL Server Object Explorer**
 
 # Using the DbContext in a Component
-`Pages/SomeComponent.razor`
+`Pages/EmployeeOverview.razor`
+```html
+@page "/employees/list"
+@using Microsoft.EntityFrameworkCore; @* ToArrayAsync *@
+@using WiredBrainCoffee.EmployeeManager.Data.Models;
+@using WiredBrainCoffee.EmployeeManager.Data;
+@* Inject the DbContext into this Component: *@
+@inject EmployeeManagerDbContext Context
+
+<PageTitle>Employees</PageTitle>
+<h1>Employees</h1>
+
+TODO: List the employees here.
+```
+```cs
+@code
+{
+    private Employee[]? Employees { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        // The DbContext has a DbSet<Employee> that we use to set the Employees property.
+        // The Include method specifies related entities to include in the query.
+        // In this case, since Employee has a Department property, that it a related entity we need to include.
+        Employees = await Context.Employees.Include(emp => emp.Department).ToArrayAsync();
+    }
+}
+```

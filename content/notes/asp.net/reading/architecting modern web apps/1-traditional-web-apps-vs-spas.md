@@ -4,6 +4,8 @@ date: 2023-04-14T00:00:00-06:00
 draft: false
 ---
 
+From ["Architect Modern Web Applications with ASP.NET Core and Azure"][book] eBook
+
 # Traditional Web Apps
 - Perform most app logic on the server
 - Choose when: 
@@ -25,3 +27,5 @@ draft: false
 - Choose when
 	- App must expose a rich UI with many features
 	- Team is more comfortable with .NET vs. JavaScript / TypeScript
+
+[book]: https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/
