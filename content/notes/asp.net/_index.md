@@ -7,4 +7,5 @@ draft: false
 [notes > asp.net > api](api)  
 [notes > asp.net > core](core)  
 [notes > asp.net > ef-core](ef-core)  
+[notes > asp.net > reading](reading)  
 [notes > asp.net > web-apps](web-apps)  
