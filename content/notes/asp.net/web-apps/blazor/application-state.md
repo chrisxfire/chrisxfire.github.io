@@ -1,6 +1,6 @@
 ---
 title: "notes > asp.net > web apps > blazor > application state"
-date: 2023-01-01T00:00:00-06:00
+date: 2023-04-01T00:00:00-06:00
 draft: false
 ---
 

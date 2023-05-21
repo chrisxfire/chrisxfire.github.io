@@ -31,10 +31,10 @@ Adding a `@using` directive to parent components or to the app's `_Imports.razor
 Components have lifecycle methods that are called at different points in the Component's lifetime.
 
 ## Important Lifecycle Events
-`OnInitialized()` / `Async()` — invoked while Component is initializing
+- `OnInitialized()` / `Async()` — invoked while Component is initializing
 - Use when setting up data that a Component needs 
-`OnParametersSet()` / `Async()` — invoked after OnIntiailize when new values for parameters are received
-`OnAfterRender()` / `Async()` — invoked when Component has finished rendering
+- `OnParametersSet()` / `Async()` — invoked after OnIntiailize when new values for parameters are received
+- `OnAfterRender()` / `Async()` — invoked when Component has finished rendering
 - Use this event when needing to interact with JavaScript
 
 ## Overriding Lifecycle Events
@@ -103,8 +103,7 @@ public partial class SomePage
 ## No Asynchronous Work in Razor Expressions
 Blazor (unlike in Razor Pages) cannot perform asynchronous work in a Razor expression while rendering a component.  This is because Blazor renders interactive UIs; it does not make sense to block while rendering.  
 
-<!-- TODO: RED -->
-This is illegal:  `<ParameterChild Title="@await ..." />`
+<r>This is illegal</r>:  `<ParameterChild Title="@await ..." />`
 
 Instead, use asynchronous lifecycle events (explained below).
 

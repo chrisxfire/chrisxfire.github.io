@@ -1,13 +1,13 @@
 ---
 title: "notes > asp.net > web apps > blazor > fundamentals > components > forms"
-date: 2023-01-01T00:00:00-06:00
+date: 2023-04-01T00:00:00-06:00
 draft: false
 ---
 
 # Overview
 Blazor contains built-in Components for forms.
 
-# EditForm
+# `EditForm`
 The Blazor version of HTML's form.
 ```html
 <EditForm Model="@Employee">
@@ -20,19 +20,19 @@ The Blazor version of HTML's form.
 }
 ```
 
-Through EditContext, Blazor checks which fields inside the form have been edited or which validation errors have occurred.
+Through `EditContext`, Blazor checks which fields inside the form have been edited or which validation errors have occurred.
 
 # Input Components
 Wrappers around existing HTML inputs.  Inherit from `InputBase`.  Include basic validation:
-- InputText
-- InputTextArea (multi-line)
-- InputNumber
-- InputSelect (dropdown)
-- InputDate (date picker)
-- InputCheckbox
-- InputRadio
-- InputRadioGroup (group of number of InputRadio Components; allow only one in the group to be selected)
-- InputFile (file picker)
+- `InputText`
+- `InputTextArea` (multi-line)
+- `InputNumber`
+- `InputSelect` (dropdown)
+- `InputDate` (date picker)
+- `InputCheckbox`
+- `InputRadio`
+- `InputRadioGroup` (group of number of `InputRadio` Components; allow only one in the group to be selected)
+- `InputFile` (file picker)
 
 ## InputText
 ```html
@@ -53,9 +53,9 @@ Wrappers around existing HTML inputs.  Inherit from `InputBase`.  Include basic 
 ```
 
 # Event Handlers for Submitting Forms
-OnValidSubmit triggers an event handler when a validated form is submitted.  
-OnInvalidSubmit triggers if a form is submitted with invalid fields.  
-OnSubmit is used whether the form data is invalid or not.  
+`OnValidSubmit` triggers an event handler when a validated form is submitted.    
+`OnInvalidSubmit` triggers if a form is submitted with invalid fields.  
+`OnSubmit` is used whether the form data is invalid or not.  
 
 ## Example
 ```html

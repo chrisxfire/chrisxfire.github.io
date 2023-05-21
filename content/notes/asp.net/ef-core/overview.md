@@ -37,7 +37,7 @@ public class Department
     public List<Employee> Employees { get; set; } = new();
 }
 ```
-## Implement a DbContext
+## Implement a `DbContext`
 dotnet add package microsoft.entityframeworkcore.sqlserver
 
 `Data/EmployeeManagerDbContext.cs`
@@ -58,7 +58,7 @@ public class EmployeeManagerDbContext : DbContext
 }
 ```
 
-## Register the DbContext in DI
+## Register the `DbContext` in DI
 `Program.cs`
 ```cs
 builder.Services.AddDbContext<EmployeeManagerDbContext>(
@@ -106,14 +106,14 @@ PM> update-database
 ### Confirm the database exists
 **View** > **SQL Server Object Explorer**
 
-# Using the DbContext in a Component
+# Using the `DbContext` in a Component
 `Pages/EmployeeOverview.razor`
 ```html
 @page "/employees/list"
 @using Microsoft.EntityFrameworkCore; @* ToArrayAsync *@
 @using WiredBrainCoffee.EmployeeManager.Data.Models;
 @using WiredBrainCoffee.EmployeeManager.Data;
-@* Inject the DbContext into this Component: *@
+<!-- Inject the DbContext into this Component: --> 
 @inject EmployeeManagerDbContext Context
 
 <PageTitle>Employees</PageTitle>
@@ -135,3 +135,39 @@ TODO: List the employees here.
     }
 }
 ```
+
+# Using DbContextFactory
+By injecting a `DbContext` into a Component, the lifetime of the `DbContext` is now tightly coupled to the Component. In Blazor Server, since the client (browser) is connected to the server via a SignalR connection, the Component is not re-created for each request; the Component lives as long as the client is using it.  The `DbContext` is designed for a short lifespan.  
+
+To avoid this problem, inject an `IDbContextFactory` into the Component instead. It can be used to inject a short-lived context.
+`IDbContextFactory` registers both an `IDbContextFactory` (short-lived) and a `DbContext` (long-lived) as services:
+`Program.cs`
+```cs
+builder.Services.AddDbContextFactory<EmployeeManagerDbContext>(
+    opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("EmployeeManagerDb")));
+```
+
+`Pages/EmployeeOverview.razor`
+```html
+@page "/employees/list"
+@using Microsoft.EntityFrameworkCore; @* ToArrayAsync *@
+@using WiredBrainCoffee.EmployeeManager.Data.Models;
+@using WiredBrainCoffee.EmployeeManager.Data;
+<!-- Inject the DbContext into this Component: --> 
+@inject IDbContextFactory<EmployeeManagerDbContext> ContextFactory
+
+<PageTitle>Employees</PageTitle>
+<h1>Employees</h1>
+```
+```cs
+@code
+{
+    private Employee[]? Employees { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = ContextFactory.CreateDbContext();
+
+        Employees = await context.Employees.Include(emp => emp.Department).ToArrayAsync();
+    }
+}
