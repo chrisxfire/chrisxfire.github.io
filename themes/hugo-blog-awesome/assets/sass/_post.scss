@@ -85,8 +85,10 @@
 
   > p {
     margin: 0;
-    padding-top: $spacing-full - 15;
-    padding-bottom: $spacing-full - 15;
+    // WAS: padding-top: $spacing-full - 15;
+    padding-top: $spacing-full;
+    // WAS: padding-bottom: $spacing-full - 15;
+    padding-bottom: $spacing-full;
   }
 
   ul.task-list {
