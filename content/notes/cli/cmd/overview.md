@@ -44,19 +44,19 @@ format fs=ntfs quick
 `netsh wlan show profile name=labnol key=clear`	# Find the wifi password of your current network
 `netsh interface ipv4 set address name="*interface name* static *IP Address* *subnet mask* *gateway*` # Change your IP address
 
-# OS Image Management
-`dism /online /cleanup-image /checkhealth` # reports whether the image is healthy, repairable, or not repairable
-`dism /online /cleanup-image /restorehealth` # repairs a broken image
-
-# Performance Monitor
-`perfmon /report` # Performance monitor system report
-
 ## Reset Network Adapter
 `netsh int ip reset`  
 `netsh winsock reset`  
 `ipconfig /release`  
 `ipconfig /flushdns`  
 `ipconfig /renew`  
+
+# OS Image Management
+`dism /online /cleanup-image /checkhealth` # reports whether the image is healthy, repairable, or not repairable
+`dism /online /cleanup-image /restorehealth` # repairs a broken image
+
+# Performance Monitor
+`perfmon /report` # Performance monitor system report
 
 # Robocopy
 usage: `robocopy *source* *destination* *options*`
