@@ -8,8 +8,9 @@
 
 // Post title
 .header {
-  margin-top: 7.8em;
-
+  // WAS: margin-top: 7.8em;
+  margin-top: 2.0em;
+  
   .header-title {
     font-size: 2em;
     line-height: 1.2;
@@ -85,10 +86,8 @@
 
   > p {
     margin: 0;
-    // WAS: padding-top: $spacing-full - 15;
-    padding-top: $spacing-full;
-    // WAS: padding-bottom: $spacing-full - 15;
-    padding-bottom: $spacing-full;
+    padding-top: $spacing-full - 15;
+    padding-bottom: $spacing-full - 15;
   }
 
   ul.task-list {
