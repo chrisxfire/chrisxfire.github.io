@@ -26,7 +26,8 @@ pre {
   background-color: #1a1b21;
   border-radius: .3rem;
   // WAS: padding: .5rem 1rem;
-  display: block;
+  // WAS: display: block;
+  display: inline-flex;
   overflow-x: auto;
 
   @include media-query($on-mobile) {
