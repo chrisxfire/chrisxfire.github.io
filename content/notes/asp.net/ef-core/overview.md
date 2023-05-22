@@ -38,7 +38,9 @@ public class Department
 }
 ```
 ## Implement a `DbContext`
+```posh
 dotnet add package microsoft.entityframeworkcore.sqlserver
+```
 
 `Data/EmployeeManagerDbContext.cs`
 ```cs
@@ -103,8 +105,8 @@ This creates:
 PM> update-database
 ```
 
-### Confirm the database exists
-**View** > **SQL Server Object Explorer**
+### Confirm the database exists  
+Visual Studio > **View** > **SQL Server Object Explorer**
 
 # Using the `DbContext` in a Component
 `Pages/EmployeeOverview.razor`

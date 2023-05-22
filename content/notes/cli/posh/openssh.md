@@ -10,3 +10,4 @@ draft: false
 2. The keys are stored in ~./ssh as `id_ed25519` and `id_ed25519.pub`
 
 ## Trust the public key on OpenSSH Server
+Add the contents of `id_ed25519.pub` to `./ssh/authorized_keys`
