@@ -47,7 +47,7 @@ $base-line-height: 1.5;
 // $light-weight: 300; // uncomment if necessary
 $normal-weight: 400;
 // WAS: $bold-weight: 700;
-$bold-weight: 550;
+$bold-weight: 600;
 // $black-weight: 900; // uncomment if necessary
 
 //////////////// 4.Responsive design (media queries) /////////////////
@@ -55,7 +55,8 @@ $wide-size: 1024px;
 $narrow-size: 980px;
 
 // Padding unit
-$spacing-full: 10px;
+// WAS: $spacing-full: 10px;
+$spacing-full: 5px 5px;
 $spacing-half: $spacing-full / 2;
 
 // Screen sizes
