@@ -15,7 +15,7 @@ public byte[]? Timestamp { get; set; }
 ```
 
 Then, add a migration and update the database:
-```pwsh
+```powershell
 PM> Add-Migration AddTimestamp
 PM> update-database
 ```

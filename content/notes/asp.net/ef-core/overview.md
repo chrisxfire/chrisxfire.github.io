@@ -46,14 +46,10 @@ dotnet add package microsoft.entityframeworkcore.sqlserver
 ```cs
 public class EmployeeManagerDbContext : DbContext
 {
-    /*
-    In previous versions of C#, Employees would throw a null warning here. To resolve this,  
-    you would use the Set method of the DbContext base class to set Employees to a default value:  
-    public DbSet<Employees> Employees => Set<Employee>();  
-    */
     public DbSet<Employee> Employees { get; set; }
     public DbSet<Department> Departments { get; set; }
 
+    // The DbContextOptions parameter is required:
     public EmployeeManagerDbContext(DbContextOptions<EmployeeManagerDbContext> options) : base(options)
     {
     }
@@ -130,9 +126,6 @@ TODO: List the employees here.
 
     protected override async Task OnInitializedAsync()
     {
-        // The DbContext has a DbSet<Employee> that we use to set the Employees property.
-        // The Include method specifies related entities to include in the query.
-        // In this case, since Employee has a Department property, that it a related entity we need to include.
         Employees = await Context.Employees.Include(emp => emp.Department).ToArrayAsync();
     }
 }
