@@ -24,7 +24,7 @@ ASP.NET Core can *scaffold.*  This creates:
 1. Install required packages:
    ```powershell
    dotnet add package Microsoft.EntityFrameworkCore.SQLite
-   dotnet add package Microsoft.EntityFrameworkCore.SqlServer <— scaffolding tool requires SQL Server even if app does not
+   dotnet add package Microsoft.EntityFrameworkCore.SqlServer # scaffolding tool requires SQL Server even if app does not
    dotnet add package Microsoft.EntityFrameworkCore.Design
    dotnet add package Microsoft.EntityFrameworkCore.Tools
    dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
