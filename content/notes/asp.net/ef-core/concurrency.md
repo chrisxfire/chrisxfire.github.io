@@ -5,6 +5,7 @@ draft: false
 ---
 
 # Handling Concurrency Conflicts
+## Handling Concurrent Deletes
 When a concurrent delete of a database row is detected, EF Core throws a `DbUpdateConcurrencyException` exception.  Handle this exception to handle the conflict.
 
 ## Handling Concurrent Updates
