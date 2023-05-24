@@ -25,9 +25,10 @@ p > code {
 pre {
   background-color: #1a1b21;
   border-radius: .3rem;
-  // WAS: padding: .5rem 1rem;
+  padding: .5rem 1rem;
+  // ALT: padding: 0rem 0rem;
   // WAS: display: block;
-  display: inline-flex;
+  display: inline-flexbox;
   overflow-x: auto;
 
   @include media-query($on-mobile) {
@@ -73,8 +74,8 @@ pre {
 .highlight,
 .highlight .w {
   color: #fbf1c7;
-  padding: 5px 0px;
-  margin: 0px 0px;
+  // ALT: padding: 5px 0px;
+  // ALT: margin: 0px 0px;
   // background-color: #1a1b21;
 }
 

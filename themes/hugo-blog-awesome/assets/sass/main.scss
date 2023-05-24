@@ -41,7 +41,8 @@ $base-font-size: 16px;
 $medium-font-size: $base-font-size * 0.938;
 $small-font-size: $base-font-size * 0.875;
 // WAS: $base-line-height: 1.85;
-$base-line-height: 1.5;
+$base-line-height: 1.75;
+// ALT: $base-line-height: 1.50;
 
 // Font weight
 // $light-weight: 300; // uncomment if necessary
@@ -51,19 +52,23 @@ $bold-weight: 600;
 // $black-weight: 900; // uncomment if necessary
 
 //////////////// 4.Responsive design (media queries) /////////////////
-$wide-size: 1024px;
-$narrow-size: 980px;
+// WAS: $wide-size: 1024px;
+$wide-size: 1600px;
+// WAS: $narrow-size: 980px;
+$narrow-size: 1200px;
 
 // Padding unit
-// WAS: $spacing-full: 10px;
-$spacing-full: 5px 5px;
+// WAS: $spacing-full: 30px
+$spacing-full: 20px;
+// ALT: $spacing-full: 5px 5px;
 $spacing-half: $spacing-full / 2;
 
 // Screen sizes
 $on-mobile: 768px;
 $on-tablet: 769px;
 $on-desktop: 1024px;
-$on-widescreen: 1152px;
+// WAS: $on-widescreen: 1152px;
+$on-widescreen: 1600px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
