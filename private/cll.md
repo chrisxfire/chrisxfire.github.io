@@ -6,7 +6,7 @@ draft: true
 
 # Chronic Lymphcytic Leukemia (CLL)
 - Type of blood cancer
-- Most common type of leukemia in aduls in Western countries
+- Most common type of leukemia in adults in Western countries
 - Tends to be harder to cure than acute leukemia
 - A cancer of B lymphocytes, which normally make antibodies that fight infection
   - Because of the CLL, the B lymphocytes don't work as they should
@@ -14,7 +14,7 @@ draft: true
 ## Two different forms
 - Slow-growing
   - Increased number of lymphocytes but normal or slightly-below-normal level of red cells, platelets, and neutrophils
-    - Low amounts of ZAP-70 and CD38 proteins indicate slow-gorwing CLL
+    - Low amounts of ZAP-70 and CD38 proteins indicate slow-growing CLL
 - Fast-growing
   - Too many CLL cells in the blood that block normal cell production
 
@@ -75,7 +75,7 @@ Two systems:  Rai (US), Binet (Europe)
 
 # Related
 - *Anemia*: low red blood cells (causes fatigue, shortness of breath)
-- *Neutropenia*: low white blood cells
+- *Leukopenia*: low white blood cells
   - *Neutropenia*: low levels of neutrophils
     - *Neutrophils*: a type of white blood cell that fights infection
 - *Lymphocytosis*: excess numbers of lymphocytes
