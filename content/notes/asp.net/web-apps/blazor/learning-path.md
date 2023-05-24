@@ -1,0 +1,65 @@
+---
+title: "notes > asp.net > web apps > blazor > learning path"
+date: 2023-05-24T00:00:00-06:00
+draft: true
+---
+
+- [x] Overview
+- [x] Supported platforms
+- [x] Tooling
+- [ ] Tutorials...
+- [x] Hosting models
+- [ ] Blazor Hybrid...
+- [x] Project structure
+- [x] Fundamentals...
+  - [x] Overview
+  - [x] Routing and navigation
+  - [x] Configuration
+  - [x] Dependency injection
+  - [x] Startup
+  - [x] Environments
+  - [x] Logging
+  - [x] Handle errors
+  - [x] SignalR
+  - [x] Static files
+- [ ] Components...
+  - [ ] Overview
+  - [ ] Generic type support
+  - [ ] Synchronization context
+  - [ ] Preserve relationships with @key
+  - [ ] Overwriting parameters
+  - [ ] Attribute splatting and arbitrary parameters
+  - [ ] Layouts
+  - [ ] Control `<head>` content
+  - [ ] Cascading values and parameters
+  - [ ] Data binding
+  - [ ] Event handling
+  - [ ] Lifecycle
+  - [ ] Virtualization
+  - [ ] Rendering
+  - [ ] Templated components
+  - [ ] CSS isolation
+  - [ ] Dynamically-rendered components
+  - [ ] QuickGrid component
+  - [ ] Prerender and integrate components
+  - [ ] Class libraries
+  - [ ] JavaScript apps and SPA frameworks
+  - [ ] Buit-in components
+- [ ] Globalization and localization
+- [ ] Forms and input components
+- [ ] Files uploads
+- [ ] File downloads
+- [ ] JavaScript interop...
+- [ ] Call a web API
+- [ ] Images
+- [ ] Security and Identity...
+- [ ] State management
+- [ ] Debug WebAssembly
+- [ ] Lazy load assemblies with WebAssembly
+- [ ] WebAssembly native dependencies
+- [ ] Performance
+- [ ] Test components
+- [ ] Progress Web Applications
+- [ ] Host and deploy...
+- [x] Blazor Server and EF Core
+- [ ] Advanced scenarios
