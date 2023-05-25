@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'chrisxfires blog'
 theme = "hugo-blog-awesome"
 defaultContentLanguage = "en-gb"
+disableKinds = ["section"]
 
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
@@ -27,7 +28,7 @@ defaultContentLanguage = "en-gb"
   [[menu.main]]
     pageRef = "notes"
     name = "notes"
-    url = "notes"
+    url = "/posts/notes/"
     weight = 30
   [[menu.main]]
     pageRef = "about"
