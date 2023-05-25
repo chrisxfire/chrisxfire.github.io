@@ -75,7 +75,7 @@ url = "https://keybase.io/chrisxfire"
 name = "Rss"
 url = "index.xml"
 
-[params.giscus]
+[[params.giscus]]
 repo = "chrisxfire/chrisxfire.github.io"
 repoID = "R_kgDOJL96QQ"
 category = "Comments"
