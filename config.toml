@@ -74,3 +74,17 @@ url = "https://keybase.io/chrisxfire"
 [[params.socialIcons]]
 name = "Rss"
 url = "index.xml"
+
+[params.giscus]
+repo = "chrisxfire/chrisxfire.github.io"
+repoID = "R_kgDOJL96QQ"
+category = "Comments"
+categoryID = "DIC_kwDOJL96Qc4CVk8Y"
+mapping = "pathname"
+strict = 0
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "top"
+theme = "preferred_color_scheme"
+lang = "en"
+loading = "lazy"
