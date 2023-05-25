@@ -1,6 +1,6 @@
 ---
 title: "notes > asp.net > web-apps > blazor"
-date: 2023-05-22T00:00:00-06:00
+date: 2023-05-25T00:00:00-06:00
 draft: false
 ---
 
@@ -13,5 +13,6 @@ draft: false
 [notes > asp.net > web-apps > blazor > application state](application-state.md)  
 [notes > asp.net > web-apps > blazor > blazor hosting models](blazor-hosting-models.md)  
 [notes > asp.net > web-apps > blazor > converting to hosted wasm app](converting-to-hosted-wasm-app.md)  
+[notes > asp.net > web-apps > blazor > learning path](learning-path.md)  
 [notes > asp.net > web-apps > blazor > overview](overview.md)  
 [notes > asp.net > web-apps > blazor > test components](test-components.md)  

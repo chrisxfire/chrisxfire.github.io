@@ -36,8 +36,6 @@ A *page bundle* groups pages and their resources.  It can either be a:
 - *leaf bundle* (has no children)
 - *branch bundle* (home page, section, taxonomy list, ...)
 
-| | Leaf Bundle | Branch Bundle |
-| 
 ### Leaf Bundle 
 A directory at any level under `content/` that contains its own `index.md` file.  Its layout type is `single`:
 ```bash
