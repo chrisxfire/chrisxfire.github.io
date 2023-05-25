@@ -63,3 +63,4 @@ draft: true
 - [ ] Host and deploy...
 - [x] Blazor Server and EF Core
 - [ ] Advanced scenarios
+

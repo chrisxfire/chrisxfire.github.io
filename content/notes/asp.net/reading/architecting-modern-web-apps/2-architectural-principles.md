@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > reading > architecting modern web apps > architectural principles"
+title: "notes > asp.net > reading > architecting modern web apps > 2. architectural principles"
 date: 2023-04-14T00:00:00-06:00
 draft: false
 ---
@@ -19,7 +19,7 @@ Parts of an application should be encapsulated (insulated) from other parts.
 - Encapsulation helps achieve loose coupling.
 
 ## Dependency inversion
-If class A calls a method of class B and class B calls a method of class C, then, at compile time, class A will depend on class B, and class B will depend on class C:
+If class A calls a method of class B and class B calls a method of class C, then, at compile time, class A will depend on class B, and class B will depend on class C:  
 <img src="dependency-inversion-1.png" width="40%" height="40%">
 
 Instead, class A can calls methods on an abstraction that B implements.  B depends on an interface controlled by A at compile time:

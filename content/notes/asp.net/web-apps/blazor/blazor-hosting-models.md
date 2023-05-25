@@ -11,20 +11,20 @@ Regardless of the hosting model chosen, the way Razor components are built is th
 Hosts Razor components on the server in an ASP.NET Core app.
 - UI updates are handled via a SignalR connection using WebSockets protocol
 - The state on the server with each associated client is called a circuit
- | - Circuits can tolerate temporary network interruptions
- | - If the app is opened in multiple tabs, each tab is a separate circuit
- | - Circuits are terminated gracefully by closing a browser tab or navigating to an external URL
- | - Interrupted circuits are maintained for a configurable amount of time
+  - Circuits can tolerate temporary network interruptions
+  - If the app is opened in multiple tabs, each tab is a separate circuit
+  - Circuits are terminated gracefully by closing a browser tab or navigating to an external URL
+  - Interrupted circuits are maintained for a configurable amount of time
 - The runtime stays on the server:
- | - The runtime executes the C# code; sends UI requests from the browser to the server; applies UI updates to a rendered component that are sent back to the browser
+  - The runtime executes the C# code; sends UI requests from the browser to the server; applies UI updates to a rendered component that are sent back to the browser
 - The client runs the Blazor script (blazor.server.js) and establishes the SignalR connection with the server
 
 ## Content Rendering in Blazor Server vs. Other ASP.NET Core Apps (with Razor views or Razor Pages)
 - When a Razor Page or view is rendered, each line of Razor code is parsed to HTML and the new HTML page is sent to the client (the server disposes of the Page or view instance).
 - Blazor Server produces a graph of components similar to an HTML or XML DOM.  This includes state.  Blazor evaluates the component graph, produces a binary representation of it, and sends it to the client for rendering.
- | - After a client-server connection is established, the component's static, pre-rendered elements are replaced with dynamic elements.
- | - Once the elements are dynamic, UI updates are triggered by user interaction and app events.
- | - When an update is triggered, Blazor re-renders the component graph and sends a diff to the client in binary format.
+  - After a client-server connection is established, the component's static, pre-rendered elements are replaced with dynamic elements.
+  - Once the elements are dynamic, UI updates are triggered by user interaction and app events.
+  - When an update is triggered, Blazor re-renders the component graph and sends a diff to the client in binary format.
 
 Pros:
 - Full .NET API available
@@ -45,10 +45,10 @@ Cons:
 # Blazor WASM
 A SPA framework for interactive, client-side web apps.
 - Blazor WASM works by:
- | - Compiling C# code files and Razor files into assemblies
- | - Sending the assemblies and the .NET runtime to the browser
- | - Bootstrapping the .NET runtime to load the assemblies for the app
- | - Using JavaScript interop to handle DOM manipulation and browser API calls
+  - Compiling C# code files and Razor files into assemblies
+  - Sending the assemblies and the .NET runtime to the browser
+  - Bootstrapping the .NET runtime to load the assemblies for the app
+  - Using JavaScript interop to handle DOM manipulation and browser API calls
 - App is executed directly in browser UI thread
 - UI updates and event handling occur in the same process
 - The client runs blazor.webassembly.js script to download the runtime, the app, and its dependencies, and to initialize the runtime
@@ -91,14 +91,14 @@ Cons:
 - Native client apps usually take longer to find, download, and install vs. access an app in the browser
 
 # Comparison Table
-| Consideration | Server | WASM | Hybrid |
+ Consideration  Server  WASM  Hybrid |
 |---------------|--------|------|--------|
-Full .NET API compatibility | Yes | No (subset) | Yes
-Access to server resources like a database | Yes | No | No
-Native execution speed | Slowest | Balanced | Fastest
-App code stays on server | Yes | No | No
-Run apps offline once downloaded | No | Yes (if PWA) | Yes
-Supports static site hosting & CDN | No | Yes | No
-Scales to many concurrent users | No | Yes | Yes
-Full access to native client capabilities | No | No | Yes
-Requires an installer | No | No | Yes
+Full .NET API compatibility  Yes  No (subset)  Yes
+Access to server resources like a database  Yes  No  No
+Native execution speed  Slowest  Balanced  Fastest
+App code stays on server  Yes  No  No
+Run apps offline once downloaded  No  Yes (if PWA)  Yes
+Supports static site hosting & CDN  No  Yes  No
+Scales to many concurrent users  No  Yes  Yes
+Full access to native client capabilities  No  No  Yes
+Requires an installer  No  No  Yes

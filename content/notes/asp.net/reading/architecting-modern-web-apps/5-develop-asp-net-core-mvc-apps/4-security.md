@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > reading > architecting modern web apps > develop asp.net core mvc apps > security"
+title: "notes > asp.net > reading > architecting modern web apps > develop asp.net core mvc apps > 4. security"
 date: 2023-04-14T00:00:00-06:00
 draft: false
 ---
