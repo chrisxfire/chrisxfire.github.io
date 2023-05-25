@@ -10,6 +10,9 @@ By default, Hugo uses pretty URLs: `content/posts/blog/first-post.md` renders to
 An ugly URL would be `https://example.com/posts/blog/first-post/index.html`.
 
 # Content
+If a directory has an _index.md, Hugo uses it to create a listing of files/directories underneath that directory.  
+
+Without any further configuration, this works:
 ```bash
 .
 └── content
