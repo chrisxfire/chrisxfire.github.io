@@ -39,8 +39,8 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools
 # Performing Migrations
 ## via .NET Core CLI
 ```powershell
-dotnet ef migrations add InitialCreate
-dotnet ef database update
+dotnet-ef migrations add InitialCreate
+dotnet-ef database update
 ```
 
 ## via Package Manager Console

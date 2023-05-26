@@ -18,7 +18,7 @@ This is not recommended in production; development only.
 `Program.cs`
 ```cs
 // ...
-var app = builder.Buil();
+var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
