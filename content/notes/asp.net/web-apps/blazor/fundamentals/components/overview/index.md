@@ -25,8 +25,6 @@ For an app with a root namespace of `BlazorSample`, the `Pages/Counter.razor` co
 Adding a `@using` directive to parent components or to the app's `_Imports.razor` file.  
 `@using` directives in `_Imports.razor` are only applied to `.razor` files, not `.cs` files.
 
-
-
 # Lifecycle
 Components have lifecycle methods that are called at different points in the Component's lifetime.
 

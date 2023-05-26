@@ -38,12 +38,10 @@ app.Run();
 ```
 
 # Add a Razor Page
-
 `dotnet new page --name PageName --namespace Namespace.Pages --output Pages`
 Creates `PageName.cshtml` and `PageName.cshtml.cs` in `Pages/`
 
 # Project Structure
-
 `├──Pages/` — Razor Pages and supporting files.  Each Razor Page is a pair of files:  
 &emsp;`├──*.cshtml` file (markup with C# using Razor syntax)  
 &emsp;`└──*.cshtml.cs` file (the PageModel)  
@@ -54,13 +52,11 @@ Creates `PageName.cshtml` and `PageName.cshtml.cs` in `Pages/`
 `└──Program.cs` — The app's main entrypoint.  
 
 # Layouts
-
 Layouts are .cshtml files that define a top-level template for views in the app.  Views reference layouts.  They are not required.
 They usually include common UI elements like the header, navigation, menu, and footer.  
 They can also include HTML scripts and stylesheets that are used by many pages in the app.
 
 # Razor Directives
-
 The `@` keyword indicates the transition from HTML to C#:  
 `@bind` — Binds a C# variable to an HTML object.  
 `@code{ … }` — Define a C# code block for complex expressions.  
@@ -73,7 +69,6 @@ The `@` keyword indicates the transition from HTML to C#:
   `@variable` — A single C# variable.
 
 # HTML Helpers
-
 ```cs
 @Html.DisplayNameFor(model => model.Movie[0].Title)
 ```
@@ -83,16 +78,13 @@ Inspects the Title property to determine the display name.
 - Note:  The lambda expression is inspected, not evaluated—there is no access violation if the property is null or empty.
 
 # Components
-
 Components make up portions of the app UI.  Each `.razor` file is a component.
 
 ## Adding Components to Projects
-
 Visual Studio:  Right-click **Pages** > **Add** > **Razor Component**  
 Command Line:  `dotnet new razorcomponent -n Name -o Pages`  
 
 ## Parameters
-
 Components can have parameters.  They are specified using attributes:
 
 ```cs
@@ -120,13 +112,11 @@ Add a parameter to an element:
 ```
 
 # Data Binding & Events
-
 Within Razor Components, HTML elements can be bound to C# fields, properties, and Razor expression values.  This allows two-way sync between HTML and .NET.
 
 Data is pushed from HTML to .NET when a Component is rendered.  Components render themselves after event-handler code executes.
 
 # Initialization
-
 ```cs
 OnInitializedAsync()
 // This method fires when a component's initialization is complete but before the page is rendered.

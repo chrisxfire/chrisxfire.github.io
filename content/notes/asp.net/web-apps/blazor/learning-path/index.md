@@ -4,6 +4,7 @@ date: 2023-05-24T00:00:00-06:00
 draft: true
 ---
 
+[Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-7.0)
 - [x] Overview
 - [x] Supported platforms
 - [x] Tooling
@@ -26,7 +27,7 @@ draft: true
   - [ ] Overview
   - [ ] Generic type support
   - [ ] Synchronization context
-  - [ ] Preserve relationships with @key
+  - [ ] Preserve relationships with `@key`
   - [ ] Overwriting parameters
   - [ ] Attribute splatting and arbitrary parameters
   - [ ] Layouts
@@ -34,7 +35,7 @@ draft: true
   - [ ] Cascading values and parameters
   - [ ] Data binding
   - [ ] Event handling
-  - [ ] Lifecycle
+  - [x] Lifecycle
   - [ ] Virtualization
   - [ ] Rendering
   - [ ] Templated components
@@ -47,6 +48,8 @@ draft: true
   - [ ] Buit-in components
 - [ ] Globalization and localization
 - [ ] Forms and input components
+  - [ ] [Validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#basic-validation)
+  - [ ] [More on Validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#validation-summary-and-validation-message-components)
 - [ ] Files uploads
 - [ ] File downloads
 - [ ] JavaScript interop...
@@ -64,3 +67,6 @@ draft: true
 - [x] Blazor Server and EF Core
 - [ ] Advanced scenarios
 
+3rd party
+- [ ] Blazored
+- [ ] MudBlazor
