@@ -1,6 +1,6 @@
 ---
 title: "notes > .net > core > boxing and unboxing"
-date: 2022-01-01T00:00:00-06:00
+date: 2022-10-14T00:00:00-06:00
 draft: false
 ---
 
