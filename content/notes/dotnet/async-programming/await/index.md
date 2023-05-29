@@ -8,7 +8,7 @@ draft: false
 The `await` keyword marks a point where the method cannot continue until the awaited async operation is complete.
 - It suspends this method and yields control back to the caller until then.
 - It signs up the rest of the method as a continuation.
-- It does not run on its own thread (unless called via Task.Run()).
+- It does not run on its own thread (unless called via `Task.Run()`).
 
 Example
 ```cs
