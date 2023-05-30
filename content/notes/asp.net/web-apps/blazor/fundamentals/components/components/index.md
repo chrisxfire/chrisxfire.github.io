@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > web apps > blazor > fundamentals > components > overview"
+title: "notes > asp.net > web apps > blazor > fundamentals > components > components"
 date: 2023-05-08T00:00:00-00:00
 draft: false
 ---

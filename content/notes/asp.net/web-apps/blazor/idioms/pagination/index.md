@@ -1,7 +1,7 @@
 ---
-title: "notes > asp.net > web-apps > blazor > unfiled > pagination"
+title: "notes > asp.net > web-apps > blazor > idioms > pagination"
 date: 2023-05-20T00:00:00-06:00
-draft: true
+draft: false
 ---
 
 From Pluralsight/Building a Data-driven ASP.NET Core 6 Blazor Server Application with EF Core
@@ -18,7 +18,7 @@ Implementing pagination functionality involves:
 5. Updating the page routes to include a pagination parameter  
 
 `EmployeeOverview.razor`
-```
+```html
 @* since int is nullable, if no currentPage parameter is specified, this directive will still route to this EmployeeOverview Component: *@
 @page "/employees/list/{currentPage:int?}"
 @inject IDbContextFactory<EmployeeManagerDbContext> ContextFactory;
