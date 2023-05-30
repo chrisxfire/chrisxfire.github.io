@@ -281,10 +281,10 @@ For in-memory or EF Core data, use .NET's standard LINQ methods to apply filteri
     margin-bottom: 1rem;
 }
 
-    .page-size-chooser select {
-        margin: 0 1rem;
-        padding: 0.25rem 0.5rem;
-    }
+.page-size-chooser select {
+    margin: 0 1rem;
+    padding: 0.25rem 0.5rem;
+}
 ```
 
 Title, to set the column title. Not applicable if you're using HeaderTemplate.
