@@ -1,0 +1,39 @@
+---
+title: "notes > dotnet > linq > extension methods > examples"
+date: 2022-05-08T18:54:48-0600
+draft: true
+---
+# Where
+Where accepts a Func<string, bool> delegate. For each `string` passed to the function, it returns a `bool` value.
+
+## Targeting a Named Method
+static bool NameLongerThanFour(string name) => name.length > 4;
+
+var query = names.Where(new Func<string, bool>(NameLongerThanFour));
+
+Roslyn can instantiate the delegate for us so we can simplify:
+var query = names.Where(NameLongerThanFour);
+
+## Targeting a Lambda Expression
+var query = names.Where(name => name.Length > 4);
+
+# OrderBy & ThenBy
+var query = names
+.Where(name => name.Length > 4)
+.OrderBy(name => name.Length) // Create groups of names of the same length;
+.ThenBy(name => name); // Within those groups, sort by name.
+
+In query syntax:
+var query = from name in names
+where name.Length > 4
+orderby name.Length, name
+select name; // In query syntax, `select` is always required.
+
+# OfType
+List<Object> objs = new() {
+new Person(),
+new Dog(),
+new House()
+};
+
+var query = objs.OfType<Dog>();
