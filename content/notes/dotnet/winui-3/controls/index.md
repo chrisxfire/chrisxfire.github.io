@@ -4,7 +4,7 @@ date: 2023-01-05T19:25:29-0700
 draft: true
 ---
 # Overview
-*Control*—a UI element that displays content or enables interaction.
+*Control* — a UI element that displays content or enables interaction.
 
 [Alphabetical Index of Controls](https://learn.microsoft.com/en-us/windows/apps/design/controls/#alphabetical-index)
 
@@ -44,7 +44,7 @@ Button b = (Button)sender;
 b.Foreground = new SolidColorBrush(Windows.UI.Colors.Blue);
 }
 
-Or in XAML—then, double-click <New Event Handler>:
+Or in XAML — then, double-click <New Event Handler>:
 <img src="media/Controls-image3.png" style="width:4.2in;height:1.20833in" alt="Intellisense for the click event" />
 
 Associate an event with its event handler in code:
