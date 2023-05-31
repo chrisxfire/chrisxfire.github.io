@@ -1,5 +1,13 @@
 ---
 title: "notes > swe > patterns > behavioral > chain of responsibility"
-date: "2023-05-30T00:00:00-06:00"
+date: 2023-03-05T15:52:55-0700
 draft: true
 ---
+# Chain of Responsibility
+Type:Behavioral
+Purpose:
+Use to:
+Principles:
+Complexity:
+Popularity:
+In .NET: ASP.NET Core middleware

@@ -1,5 +1,13 @@
 ---
 title: "notes > swe > patterns > structural > flyweight"
-date: "2023-05-30T00:00:00-06:00"
+date: 2023-03-05T15:52:25-0700
 draft: true
 ---
+# Flyweight
+Type:Structural
+Purpose:
+Use to:
+Principles:
+Complexity:
+Popularity:
+In .NET:String interning

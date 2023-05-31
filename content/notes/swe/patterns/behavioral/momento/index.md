@@ -1,5 +1,12 @@
 ---
 title: "notes > swe > patterns > behavioral > momento"
-date: "2023-05-30T00:00:00-06:00"
+date: 2023-03-05T15:53:23-0700
 draft: true
 ---
+# Memento
+Type:Behavioral
+Purpose:
+Use to:
+Principles:
+Complexity:
+Popularity:

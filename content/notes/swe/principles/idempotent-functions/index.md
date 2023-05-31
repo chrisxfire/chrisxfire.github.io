@@ -1,5 +1,11 @@
 ---
 title: "notes > swe > principles > idempotent functions"
-date: "2023-05-30T00:00:00-06:00"
+date: 2022-08-23T08:58:15-0600
 draft: true
 ---
+Pure functions are idempotent.
+
+*Idempotent*—Always producing identical output for identical input, even when called repeatedly.  
+Examples:
+- Changing a person's address in a database.
+- HTTP GET, PUT, DELETE.
