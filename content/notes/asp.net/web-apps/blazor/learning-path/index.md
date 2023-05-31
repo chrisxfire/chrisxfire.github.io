@@ -68,5 +68,6 @@ draft: true
 - [ ] Advanced scenarios
 
 3rd party
-- [ ] Blazored
+- [ ] [Blazored](https://blazored.github.io/)
+- [ ] [Fluent UI Blazor](https://github.com/microsoft/fluentui-blazor)
 - [ ] MudBlazor
