@@ -1,12 +1,14 @@
 ---
 title: "notes > dotnet > linq > clauses > where clause"
 date: 2022-04-25T21:06:54-0600
-draft: true
+draft: false
 ---
 # Where clause
-Use the where clause to *filter* out elements from the data based on one or more predicate expressions:
+Use the `where` clause to *filter* out elements from the data based on one or more predicate expressions:
 
+```cs
 IEnumerable<City> queryCityPop =
-from city in cities
-where city.Population < 200_000 && city.Population > 100_000 // One predicate, two conditions.
-select city;
+    from city in cities
+    where city.Population < 200_000 && city.Population > 100_000 // One predicate, two conditions.
+    select city;
+```

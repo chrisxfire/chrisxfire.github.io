@@ -4,7 +4,8 @@ date: 2021-11-06T10:44:24-0600
 draft: false
 ---
 # Methods
-Methods are functions that belong to a type that execute statements.  
+Methods are functions that belong 
+to a type that execute statements.  
 They are actions that an object can perform, either on itself or on related objects.  
 They can be declared in a class, record, or struct.  
 

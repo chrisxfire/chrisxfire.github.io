@@ -1,7 +1,7 @@
 ---
 title: "notes > dotnet > collections > generic > trees"
 date: 2021-11-16T07:51:53-0700
-draft: true
+draft: false
 ---
 # Trees
 A collection of nodes where each node can be linked to more nodes.  

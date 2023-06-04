@@ -1,7 +1,7 @@
 ---
 title: "notes > asp.net > ef core > from pluralsight/asp.net core 6 fundamentals"
 date: 2023-05-01T13:34:12-0600
-draft: true
+draft: false
 ---
 
 (Notes from Pluralsight/ASP.NET Core 6 Fundamentals)
@@ -9,7 +9,7 @@ draft: true
 # Overview
 Prior to Entity Framework Core, the approach to bring data into a web app was ADO.NET. This was low-level and required developers to know a lot of SQL. EF Core makes this easier.
 
-<img src="media/Notes-from-ASP.NET-Core-6-Fundamentals-Pluralsight-course-image1.png" style="width:7.09167in;height:1.38333in" />
+<img src="Notes-from-ASP.NET-Core-6-Fundamentals-Pluralsight-course-image1.png" style="width:7.09167in;height:1.38333in" />
 
 EF Core looks for a property named `Id` or `ClassNameId` and makes that the Primary Key in the database.
 
@@ -18,14 +18,14 @@ The EF Core Data context keeps tracks of changes in data objects and updates the
 
 # Adding EF Core to an App
 1.  Add packages
-    1.  Microsoft.EntityFrameworkCore.SqlServer
-    2.  Microsoft.EntityFrameworkCore.Tools for various commands and support for migrations
+    1.  `Microsoft.EntityFrameworkCore.SqlServer`
+    2.  `Microsoft.EntityFrameworkCore.Tools` for various commands and support for migrations
 2.  Create domain classes
     1.  Table names are created on the plural of the model class
     2.  Columns are created based on the properties of the model class
     3.  EF Core will create a Foreign Key for any other type used in this model class
 3.  Create a Database Context
-    1.  DbContext is the bridge between the app's code and the database
+    1.  `DbContext` is the bridge between the app's code and the database
     2.  It manages entity objects during application runtime
     3.  It persists data back to the database
     ```cs

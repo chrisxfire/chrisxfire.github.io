@@ -1,23 +1,23 @@
 ---
 title: "notes > cli > git > revert changes"
 date: 2022-10-23T16:04:59-0600
-draft: true
+draft: false
 ---
 # Reset
-git reset *commit*undo all commits after *commit*, preserving changes locally
-git reset --hard commitdiscard all history and change back to *commit*
+`git reset <commit>` – undo all commits after commit, preserving changes locally  
+`git reset --hard <commit> ` – discard all history and change back to commit  
 
 # Reverting Changes
-git commit --amendundo a commit to allow you to make more changes, stage them, and commit again
-- this replaces the most recent commit with a new commit
-git restore *file*revert *file* back to when you last committed or initially cloned
-git restore --staged *file*unstages *file*
-git restore --source=*hash value*
-- restore *file* from commit with hash value <hash>
+`git commit --amend` – undo a commit to allow you to make more changes, stage them, and commit again  
+- this replaces the most recent commit with a new commit  
+`git restore <file>` – revert file back to when you last committed or initially cloned  
+`git restore --staged <file>` – unstages file  
+`git restore --source=<hash-value>`  
+- restore files from commit with hash value <hash>
 - then, you should:
-  - git add .
-  - git commit -m *msg*
-  - git push
+  - `git add .`
+  - `git commit -m msg`
+  - `git push`
 
 # Rebasing
 - Rebasing makes for a cleaner history.

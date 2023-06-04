@@ -1,15 +1,15 @@
 ---
 title: "notes > dotnet > classes > modifiers > modifiers"
 date: 2022-02-17T20:57:51-0700
-draft: true
+draft: false
 ---
 # Access Modifiers
-publicAccess is unrestricted.
-private Access is limited to this type in this assembly only.
-protectedAccess is limited to this type or derivatives, or derivatives in a referenced assembly.
-internalAccess is limited to this assembly only.
-protected internalCombination of protected + internal.
-private protectedCombination of private + protected.
+`public` – Access is unrestricted.
+`private` – Access is limited to this type in this assembly only.
+`protected` – Access is limited to this type or derivatives, or derivatives in a referenced assembly.
+`internal` – Access is limited to this assembly only.
+`protected internal` – Combination of protected + internal.
+`private protected` – Combination of private + protected.
 
 
 <table>
@@ -82,10 +82,10 @@ private protectedCombination of private + protected.
 </table>
 
 # Other Modifiers
-virtualThis member *may* be overridden in a derived type.
-abstractThis type <u>must</u> be overridden in a derived type.
+`virtual` – This member *may* be overridden in a derived type.  
+`abstract` – This type <u>must</u> be overridden in a derived type.  
 - It has no implementation.
 - It cannot be instantiated.
-overrideThis member provides a new implementation of the base type's virtual or abstract member.
-sealedThis type cannot be further overridden in a derived type.
+`override` – This member provides a new implementation of the base type's `virtual` or `abstract` member.
+`sealed` – This type cannot be further overridden in a derived type.
 - Only overridden types can be sealed.
