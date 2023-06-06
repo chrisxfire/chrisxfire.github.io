@@ -1,7 +1,7 @@
 ---
 title: "notes > dotnet > types > equality and equivalence"
 date: 2022-02-16T16:37:48-0700
-draft: true
+draft: false
 ---
 Equality Comparisons
 Two types of Equality:
@@ -11,11 +11,13 @@ Two types of Equality:
 # Reference Equality (Identity)
 Objects have the same identity (or reference equality) if they refer to the same location in memory.
 
-## <u>Comparisons</u>
+## Comparisons
 Use `ReferenceEquals`:
-areEqual = Object.ReferenceEquals(*var1*, *var2*);
+```cs
+areEqual = Object.ReferenceEquals(var1, var2);
+```
 
-## <u>Notes</u>
+## Notes
 Never test for reference equality on strings. Although string is a reference type, its equality operators have been overridden to make them behave like value types.
 
 # Value Equality (Equivalence)
@@ -25,13 +27,13 @@ Objects have the same equivalence (or value equality) based on abstract definiti
 
 ## Five Guarantees of Equivalence
 Assuming that `x`, `y`, and `z` are not null:
-1.  x.Equals(x) == true (reflexive property)
-2.  x.Equals(y) == y.Equals(x) (symmetric property)
-3.  if (x.Equals(y) && y.Equals(z) == true, then x.Equals(z) == true (transitive property)
-4.  x.Equals(y) is omnipotent
+1.  `x.Equals(x) == true` (reflexive property)
+2.  `x.Equals(y) == y.Equals(x)` (symmetric property)
+3.  `if (x.Equals(y) && y.Equals(z) == true`, then `x.Equals(z) == true` (transitive property)
+4.  `x.Equals(y)` is omnipotent
 5.  Any non-null value != null
 
-## <u>Notes</u>
+## Notes
 If you use `ReferenceEquals` to test two variables for value equality, the result will always be false (because each variable is boxed into a separate object instance).
 
 # Implementing Value Equality in Classes and Structs
@@ -45,56 +47,58 @@ If you use `ReferenceEquals` to test two variables for value equality, the resul
 4.  Override Object.GetHashCode such that two objects of this type that have value equality produce the same hash
 5.  (optional) Implement IComparable<T> interface and overload <= and >= operators
 
-## <u>Example Implementation</u>
+## Example Implementation
+```cs
 class Person : IEquatable<Person>
 {
-public int Age { get; set; }
-public string FirstName { get; set; }
-public string LastName { get; set; }
+    public int Age { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
 
-public Person(string firstName, string lastName, int age)
-{
-this.FirstName = firstName;
-this.LastName = lastName;
-this.Age = age;
+    public Person(string firstName, string lastName, int age)
+    {
+        this.FirstName = firstName;
+        this.LastName = lastName;
+        this.Age = age;
+    }
+
+    // #2
+    public override bool Equals(object obj) => this.Equals(obj as Person);
+
+    // #1
+    public bool Equals(Person p)
+    {
+        if (p is null)
+            return false;
+
+        // Optimization of a common success case:
+        if (Object.ReferenceEquals(this, p))
+            return true;
+
+        if (this.GetType() != p.GetType())
+            return false;
+
+        // #1(b)
+        return (Age == p.Age) && (FirstName == p.FirstName) && (LastName == p.LastName);
+    }
+
+    // #4
+    public override int GetHashCode() => (Age, FirstName, LastName).GetHashCode();
+
+    // #3
+    public static bool operator ==(Person lhs, Person rhs)
+    {
+        if (lhs is null)
+        {
+            if (rhs is null)
+                return true;
+
+            // Only left side is null:
+            return false;
+        }
+    }
+
+    return lhs.Equals(rhs);
+
+    public static bool operator !=(Person lhs, Person rhs) => !(lhs == rhs);
 }
-
-// #2
-public override bool Equals(object obj) => this.Equals(obj as Person);
-
-// #1
-public bool Equals(Person p)
-{
-if (p is null)
-return false;
-
-// Optimization of a common success case:
-if (Object.ReferenceEquals(this, p))
-return true;
-
-if (this.GetType() != p.GetType())
-return false;
-
-// #1(b)
-return (Age == p.Age) && (FirstName == p.FirstName) && (LastName == p.LastName);
-}
-
-// #4
-public override int GetHashCode() => (Age, FirstName, LastName).GetHashCode();
-
-// #3
-public static bool operator ==(Person lhs, Person rhs)
-{
-if (lhs is null)
-{
-if (rhs is null)
-return true;
-
-// Only left side is null:
-return false;
-}
-
-return lhs.Equals(rhs);
-}
-
-public static bool operator !=(Person lhs, Person rhs) => !(lhs == rhs);

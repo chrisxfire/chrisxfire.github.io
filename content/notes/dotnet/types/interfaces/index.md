@@ -1,53 +1,30 @@
 ---
 title: "notes > dotnet > types > interfaces"
 date: 2021-11-05T21:26:07-0600
-draft: true
+draft: false
 ---
 # Interfaces
-[Interfaces - define behavior for multiple types | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces)
-[Safely update interfaces using default interface methods in C# | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/default-interface-methods-versions)
+[Interfaces - define behavior for multiple types | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces)  
+[Safely update interfaces using default interface methods in C# | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/default-interface-methods-versions)  
 Interfaces require classes or structs to implement certain members. They define a *contract*. They define "*can-do*" relationships.
 Interfaces can be declared in namespace or class scope.
 Interfaces cannot contain *instance state*.
 
-<table>
-<colgroup>
-<col style="width: 18%" />
-<col style="width: 46%" />
-<col style="width: 34%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>May contain</th>
-<th>Cannot</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>instance</td>
-<td>methods, properties, events, indexers</td>
-<td>fields, constructors, finalizers</td>
-</tr>
-<tr class="even">
-<td>static</td>
-<td>methods, fields, properties, events, indexers</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p>static abstract</p>
-<p>static virtual</p></td>
-<td>methods, properties, events, indexers</td>
-<td>fields</td>
-</tr>
-</tbody>
-</table>
+|                 | May contain                                   | Cannot                           |
+| --------------- | --------------------------------------------- | -------------------------------- |
+| instance        | methods, properties, events, indexers         | fields, constructors, finalizers |
+| static          | methods, fields, properties, events, indexers |                                  |
+| static abstract |                                               |                                  |
+| static virtual  | methods, properties, events, indexers         | fields                           |
 
 # Creating
-interface IScored {
-float Score { get; set; }
-float MaximumScore { get; set; }
+```cs
+interface IScored 
+{
+    float Score { get; set; }
+    float MaximumScore { get; set; }
 }
+```
 
 # Implementing 
 Classes and structs implement interfaces.
@@ -55,34 +32,47 @@ Classes and structs implement interfaces.
 - The implemented members must be public and non-static.
 
 ## Example 1
-public class Person : object, IComparable<Person> { // Inherit from another class and an interface. Can also inherit
-// … more implementation … // multiple interfaces.
+```cs
+public class Person : object, IComparable<Person> 
+{ 
+    // Inherit from another class and an interface. Can also inherit multiple interfaces.
+    // … more implementation … 
 
-public int CompareTo(Person? other) {
-if (Name is null) { return 0; }
-return Name.CompareTo(other?.Name); // Call the CompareTo method of the Name field. The Name field is a
-} // string, so this uses string's implementation of CompareTo.
+    public int CompareTo(Person? other) 
+    {
+        if (Name is null) { return 0; }
+        // Call the CompareTo method of the Name field. The Name field is a string, so this uses string's implementation of CompareTo
+        return Name.CompareTo(other?.Name); 
+    }
 }
+```
 
 ## Example 2
-public class Car : IEquatable<Car> { // Class Car implements interface IEquatable<T>
-public string Make { get; set; }
-public string Model { get; set; }
-public string Year { get; set; }
+```cs
+// Class Car implements interface IEquatable<T>
+public class Car : IEquatable<Car> 
+{ 
+    public string Make { get; set; }
+    public string Model { get; set; }
+    public string Year { get; set; }
 
-// Implementation of the IEquatable<T> interface by implementing it's only method:
-public bool Equals(Car car) {
-return (this.Make, this.Model, this.Year) == (car.Make, car.Model, car.Year);
+    // Implementation of the IEquatable<T> interface by implementing it's only method:
+    public bool Equals(Car car) 
+    {
+        return (this.Make, this.Model, this.Year) == (car.Make, car.Model, car.Year);
+    }
 }
-}
+```
 
 # Interface Members
 ## Properties
 In interfaces, declaring the get/set accessors without a body <u>does not</u> declare an auto-implemented property:
-public Interface INamed {
-public string Name { get; set; } // This property does not have a default implementation and must be implemented by a derived type.
+```cs
+public Interface INamed 
+{
+    public string Name { get; set; } // This property does not have a default implementation and must be implemented by a derived type.
 }
-
+```
 Although interface properties may have default implementations, this is rare because interfaces cannot define instance data fields.
 
 ## Static Virtual/Abstract Members
@@ -107,109 +97,78 @@ For interfance methods that define default implementations, any class inherting 
 C# allows an interface to add new members after release so long as they have a default implementation.
 Default implementations are in effect whenever another implementation is not provided:
 
-public interface IPlayable {
-void Play();
-void Pause();
+public interface IPlayable 
+```cs
+{
+    void Play();
+    void Pause();
 
-void Stop() { // This member was added after release, so it requires a default implementation.
-…
+    // This member was added after release, so it requires a default implementation.
+    void Stop() 
+    {     
+        …
+    }
 }
-}
+```
 
 # Passing Interfaces like Types
 Given this utility class:
-public class ScoreUtility { // Of two assignments, return the one that has the higher score:
-public static IScored BestOfTwo(IScored Assignment1, IScored Assignment2) {
-// Assignment1 and Assignment2 both have the members of the IScored interface:
-var score1 = Assignment1.Score / Assignment1.MaximumScore;
-var score2 = Assignment2.Score / Assignment2.MaximumScore;
+```cs
+// Of two assignments, return the one that has the higher score:
+public class ScoreUtility 
+{ 
+    public static IScored BestOfTwo(IScored Assignment1, IScored Assignment2) 
+    {
+        // Assignment1 and Assignment2 both have the members of the IScored interface:
+        var score1 = Assignment1.Score / Assignment1.MaximumScore;
+        var score2 = Assignment2.Score / Assignment2.MaximumScore;
 
-if (score1 >= score2)
-return Assignment1;
+        if (score1 >= score2)
+            return Assignment1;
 
-else
-return Assignment2;
+        else
+            return Assignment2;
+    }
 }
-}
+```
 
-## Don't Pass IEnumerable<T>
-When a method that takes IEnumerable<T> as an input parameter performs iteration, it has to allocate an object on the heap. This is because the IEnumerator<T> GetEnumerator() method returns a reference type.
+## Don't Pass `IEnumerable<T>`
+When a method that takes `IEnumerable<T>` as an input parameter performs iteration, it has to allocate an object on the heap. This is because the `IEnumerator<T> GetEnumerator()` method returns a reference type.  
 
-Instead, pass a concrete type, list List<T>.
+Instead, pass a concrete type, like `List<T>`.
 
 # Common Interfaces
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 27%" />
-<col style="width: 52%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Interface</strong></th>
-<th><strong>Method(s)</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>IComparable</td>
-<td>CompareTo(other)</td>
-<td>A comparison method that a <em>type</em> implements to sort its instances.</td>
-</tr>
-<tr class="even">
-<td>IComparer</td>
-<td>Compare(first, second)</td>
-<td>A comparison method that a secondary type implements to sort instances of a primary type.</td>
-</tr>
-<tr class="odd">
-<td>IDisposable</td>
-<td>Dispose</td>
-<td>A method to release unmanaged resources more efficiently than waiting for a finalizer.</td>
-</tr>
-<tr class="even">
-<td>IFormattable</td>
-<td>ToString(format, culture)</td>
-<td>A culture-aware method to format the value of an object into a string.</td>
-</tr>
-<tr class="odd">
-<td>IFormatter</td>
-<td><p>Serailize(stream, object)</p>
-<p>Deserialize(stream)</p></td>
-<td>Methods to convert an object to and from a stream of bytes.</td>
-</tr>
-<tr class="even">
-<td>IFormatProvider</td>
-<td>GetFormat(type)</td>
-<td>A method to format inputs based on language and region.</td>
-</tr>
-<tr class="odd">
-<td>IEnumerable</td>
-<td>GeEnumerator</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>ICollection</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Interface         | Method(s)                                            | Description                                                                               |
+| ----------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `IComparable`     | `CompareTo(other)`                                   | A comparison method that a <em>type</em> implements to sort its instances.                |
+| `IComparer`       | `Compare(first, second)`                             | A comparison method that a secondary type implements to sort instances of a primary type. |
+| `IDisposable`     | `Dispose`                                            | A method to release unmanaged resources more efficiently than waiting for a finalizer.    |
+| `IFormattable`    | `ToString(format, culture)`                          | A culture-aware method to format the value of an object into a string.                    |
+| `IFormatter`      | `Serialize(stream, object)` or `Deserialize(stream)` | Methods to convert an object to and from a stream of bytes.                               |
+| `IFormatProvider` | `GetFormat(type)`                                    | A method to format inputs based on language and region.                                   |
+| `IEnumerable`     | `GetEnumerator`                                      |
+| `ICollection`     |                                                      |
 
 ## Using IComparable vs. IComparer
-If you're working with a *type* for which you do not have the source code, you cannot implement `IComparable`.
+If you're working with a *type* for which you do not have the source code, you cannot implement `IComparable`.  
 Instead, create a separate type that implements `IComparer`:
 
-public class PersonComparer : IComparer<Person> {
-public int Compare(Person? x, Person? y) {
-if (x is null || y is null) { return 0; }
-int result = x.Name.Length.CompareTo(y.Name.Length); // Compare the Name lengths…
+```cs
+public class PersonComparer : IComparer<Person> 
+{
+    public int Compare(Person? x, Person? y) 
+    {
+        if (x is null || y is null) { return 0; }
+        int result = x.Name.Length.CompareTo(y.Name.Length); // Compare the Name lengths…
 
-if (result == 0) { // If they are equal…
-return x.Name.Compareto(y.Name); // …then compare by the Names…
+        if (result == 0) 
+        { // If they are equal…
+            return x.Name.Compareto(y.Name); // …then compare by the Names…
+        }
+        else 
+        { 
+            return result;  // …otherwise, compare by the Lengths.
+        }
+    }
 }
-else { 
-return result;  // …otherwise, compare by the Lengths.
-}
-}
-}
+```
