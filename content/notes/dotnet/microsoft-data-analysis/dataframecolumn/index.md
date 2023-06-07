@@ -4,7 +4,7 @@ date: 2022-01-25T13:39:48-0700
 draft: false
 ---
 # [DataFrameColumn](https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.analysis.dataframecolumn?view=ml-dotnet-preview)
-Object –> DataFrameColumn  
+`Object` –> `DataFrameColumn`   
 
 A collection of values that represent a column in a `DataFrame`.  
 
