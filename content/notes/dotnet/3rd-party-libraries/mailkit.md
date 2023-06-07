@@ -1,5 +1,5 @@
 ---
-title: MailKit
+title: notes > dotnet > 3rd party libraries > mailkit.md
 date: 2022-01-21T14:22:06-0700
 draft: false
 ---

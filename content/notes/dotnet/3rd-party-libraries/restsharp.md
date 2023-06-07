@@ -1,5 +1,5 @@
 ---
-title: RestSharp
+title: notes > dotnet > 3rd party libraries > restsharp.md
 date: 2021-11-28T07:42:25-0700
 draft: false
 ---
