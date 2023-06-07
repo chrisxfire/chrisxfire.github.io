@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > microsoft data analysis > dataframecolumn"
+title: notes > dotnet > microsoft data analysis > dataframecolumn
 date: 2022-01-25T13:39:48-0700
 draft: false
 ---
