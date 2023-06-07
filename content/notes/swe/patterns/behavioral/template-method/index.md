@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > patterns > behavioral > template method"
+title: notes > swe > patterns > behavioral > template method
 date: 2023-03-05T15:53:38-0700
 draft: true
 ---

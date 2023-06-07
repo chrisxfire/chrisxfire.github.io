@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > collections > generic > linked lists"
+title: notes > dotnet > collections > generic > linked lists
 date: 2021-11-15T14:18:34-0700
 draft: false
 ---

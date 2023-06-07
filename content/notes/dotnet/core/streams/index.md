@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > streams"
+title: notes > dotnet > core > streams
 date: 2022-01-22T00:00:00-06:00
 draft: false
 ---

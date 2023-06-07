@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > patterns > structural > adapter"
+title: notes > swe > patterns > structural > adapter
 date: 2023-03-05T15:51:03-0700
 draft: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > xaml > control > create a controltemplate"
+title: notes > dotnet > winui 3 > xaml > control > create a controltemplate
 date: 2023-01-01T09:54:59-0700
 draft: true
 ---

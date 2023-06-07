@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > types > reference types > generics > generics"
+title: notes > dotnet > types > reference types > generics > generics
 date: 2021-11-07T19:58:42-0700
 draft: true
 ---

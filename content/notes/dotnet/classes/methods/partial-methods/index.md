@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > classes > methods > partial methods"
+title: notes > dotnet > classes > methods > partial methods
 date: 2022-03-06T18:24:23-0700
 draft: false
 ---

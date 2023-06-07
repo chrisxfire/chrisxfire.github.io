@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > async programming > tap (async await) > consuming tap"
+title: notes > dotnet > async programming > tap (async await) > consuming tap
 date: 2022-11-21T22:06:24-0700
 draft: false
 ---

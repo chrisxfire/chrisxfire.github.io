@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > services > background service"
+title: notes > dotnet > core > services > background service
 date: 2022-06-27T10:01:47-0600
 draft: false
 ---

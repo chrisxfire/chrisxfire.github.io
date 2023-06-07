@@ -1,5 +1,5 @@
 ---
-title: "notes > web > msid > msgraph"
+title: notes > web > msid > msgraph
 date: 2022-05-11T13:35:11-0600
 draft: true
 ---

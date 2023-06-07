@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > standard query operators > quantify"
+title: notes > dotnet > linq > standard query operators > quantify
 date: 2022-11-08T21:02:55-0700
 draft: false
 ---

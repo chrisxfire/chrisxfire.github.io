@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > xaml > ui > sizing rows and columns"
+title: notes > dotnet > winui 3 > xaml > ui > sizing rows and columns
 date: 2022-12-11T18:40:59-0700
 draft: true
 ---

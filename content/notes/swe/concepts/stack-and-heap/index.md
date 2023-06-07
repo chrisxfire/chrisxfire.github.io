@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > concepts > stack and heap"
+title: notes > swe > concepts > stack and heap
 date: 2022-01-02T21:54:37-0700
 draft: true
 ---

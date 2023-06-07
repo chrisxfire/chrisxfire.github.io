@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > standard query operators > set operations"
+title: notes > dotnet > linq > standard query operators > set operations
 date: 2022-11-08T20:37:38-0700
 draft: false
 ---

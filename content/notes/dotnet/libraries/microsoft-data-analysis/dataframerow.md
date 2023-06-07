@@ -1,5 +1,5 @@
 ---
-title: DataFrameRow
+title: notes > dotnet > libraries > microsoft data analysis
 date: 2022-01-25T13:50:25-0700
 draft: false
 ---

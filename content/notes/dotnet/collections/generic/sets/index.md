@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > collections > generic > sets"
+title: notes > dotnet > collections > generic > sets
 date: 2022-01-09T17:34:08-0700
 draft: false
 ---

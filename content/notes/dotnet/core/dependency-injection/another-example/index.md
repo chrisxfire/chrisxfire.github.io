@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > dependency injection > another example"
+title: notes > dotnet > core > dependency injection > another example
 date: 2022-08-26T07:36:43-0600
 draft: false
 ---

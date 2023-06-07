@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > xaml > mvvm pattern > executing logic in a viewmodel"
+title: notes > dotnet > winui 3 > xaml > mvvm pattern > executing logic in a viewmodel
 date: 2022-12-18T20:02:53-0700
 draft: true
 ---

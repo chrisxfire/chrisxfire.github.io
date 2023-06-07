@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > index and range"
+title: notes > dotnet > index and range
 date: 2022-01-09T19:17:18-0700
 draft: false
 ---

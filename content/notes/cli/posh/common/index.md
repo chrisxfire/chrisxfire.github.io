@@ -1,5 +1,5 @@
 ---
-title: "notes > cli > posh > common"
+title: notes > cli > posh > common
 date: 2021-12-02T00:00:00-06:00
 draft: false
 ---

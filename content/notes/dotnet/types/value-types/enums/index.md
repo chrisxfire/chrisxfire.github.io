@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > types > value types > enums"
+title: notes > dotnet > types > value types > enums
 date: 2021-11-05T21:33:38-0600
 draft: true
 ---

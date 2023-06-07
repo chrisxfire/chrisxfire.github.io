@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > operators"
+title: notes > dotnet > core > operators
 date: 2022-01-02T00:00:00-06:00
 draft: false
 ---

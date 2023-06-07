@@ -1,5 +1,5 @@
 ---
-title: "notes > web > hugo > templating"
+title: notes > web > hugo > templating
 date: 2023-03-20T12:37:48-0600
 draft: true
 ---

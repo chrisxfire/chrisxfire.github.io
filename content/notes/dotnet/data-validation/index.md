@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > data validation"
+title: notes > dotnet > data validation
 date: 2022-11-16T19:47:49-0700
 draft: false
 ---

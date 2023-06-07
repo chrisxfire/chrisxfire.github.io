@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > async programming > processing tasks"
+title: notes > dotnet > async programming > processing tasks
 date: 2022-11-23T10:36:13-0700
 draft: false
 ---

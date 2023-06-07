@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > variables"
+title: notes > dotnet > core > variables
 date: 2021-11-06T00:00:00-06:00
 draft: false
 ---

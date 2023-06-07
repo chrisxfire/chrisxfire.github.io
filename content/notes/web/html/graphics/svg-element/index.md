@@ -1,5 +1,5 @@
 ---
-title: "notes > web > html > graphics > svg element"
+title: notes > web > html > graphics > svg element
 date: 2023-04-27T09:56:59-0600
 draft: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > web > hugo > layouts styles partials"
+title: notes > web > hugo > layouts styles partials
 date: 2023-03-20T12:37:30-0600
 draft: true
 ---

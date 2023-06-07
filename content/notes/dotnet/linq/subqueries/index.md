@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > subqueries"
+title: notes > dotnet > linq > subqueries
 date: 2022-04-27T18:56:35-0600
 draft: false
 ---

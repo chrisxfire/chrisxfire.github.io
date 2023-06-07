@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > types > reference types > delegates > events"
+title: notes > dotnet > types > reference types > delegates > events
 date: 2021-11-06T11:28:28-0600
 draft: true
 ---

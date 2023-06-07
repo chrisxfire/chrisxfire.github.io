@@ -1,5 +1,5 @@
 ---
-title: "notes > web > html > forms > input element"
+title: notes > web > html > forms > input element
 date: 2023-04-27T09:42:47-0600
 draft: true
 ---

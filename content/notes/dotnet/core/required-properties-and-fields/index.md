@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > required properties and fields"
+title: notes > dotnet > core > required properties and fields
 date: 2022-11-25T00:00:00-06:00
 draft: false
 ---

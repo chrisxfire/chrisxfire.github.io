@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > concepts > interfaces"
+title: notes > swe > concepts > interfaces
 date: 2023-03-16T17:35:39-0600
 draft: true
 ---

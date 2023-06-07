@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > reading > architecting modern web apps > 3. common web app architectures"
+title: notes > asp.net > reading > architecting modern web apps > 3 common web app architectures
 date: 2023-04-14T00:00:00-06:00
 draft: false
 ---

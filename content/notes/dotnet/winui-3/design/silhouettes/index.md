@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > design > silhouettes"
+title: notes > dotnet > winui 3 > design > silhouettes
 date: 2023-01-05T18:49:55-0700
 draft: true
 ---

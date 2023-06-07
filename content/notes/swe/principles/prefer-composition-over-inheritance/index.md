@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > principles > prefer composition over inheritance"
+title: notes > swe > principles > prefer composition over inheritance
 date: 2023-03-16T17:38:39-0600
 draft: true
 ---

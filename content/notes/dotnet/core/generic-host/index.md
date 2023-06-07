@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > generic host"
+title: notes > dotnet > core > generic host
 date: 2022-06-26T19:15:58-0600
 draft: false
 ---

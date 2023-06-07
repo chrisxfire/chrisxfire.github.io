@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > types > value types > tuples"
+title: notes > dotnet > types > value types > tuples
 date: 2021-11-05T21:38:53-0600
 draft: true
 ---

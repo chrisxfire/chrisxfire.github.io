@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > patterns > creational > abstract factory"
+title: notes > swe > patterns > creational > abstract factory
 date: 2023-03-04T18:52:25-0700
 draft: true
 ---

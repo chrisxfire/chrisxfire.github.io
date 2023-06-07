@@ -1,5 +1,5 @@
 ---
-title: notes > dotnet > 3rd party libraries > serilog.md
+title: notes > dotnet > 3rd party libraries
 date: 2021-12-11T13:17:43-0700
 draft: false
 ---

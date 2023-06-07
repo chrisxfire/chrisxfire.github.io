@@ -1,5 +1,5 @@
 ---
-title: notes > dotnet > 3rd party libraries > plotly-dot-net.md
+title: notes > dotnet > 3rd party libraries
 date: 2022-04-20T10:07:37-0600
 draft: false
 ---

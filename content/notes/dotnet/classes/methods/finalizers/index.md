@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > classes > methods > finalizers"
+title: notes > dotnet > classes > methods > finalizers
 date: 2022-01-03T21:10:32-0700
 draft: false
 ---

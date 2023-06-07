@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > concepts > delegates"
+title: notes > swe > concepts > delegates
 date: 2023-02-22T11:10:19-0700
 draft: true
 ---

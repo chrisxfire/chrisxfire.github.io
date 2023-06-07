@@ -1,5 +1,5 @@
 ---
-title: "routing > url matching"
+title: notes > asp.net > core > routing > url matching
 date: 2023-04-20T00:00:00-06:00
 draft: false
 ---

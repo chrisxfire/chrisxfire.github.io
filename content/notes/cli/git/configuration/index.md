@@ -1,5 +1,5 @@
 ---
-title: "notes > cli > git > configuration"
+title: notes > cli > git > configuration
 date: 2022-10-23T09:52:51-0600
 draft: false
 ---

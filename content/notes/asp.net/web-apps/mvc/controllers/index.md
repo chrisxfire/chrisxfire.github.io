@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > web apps > mvc > controllers"
+title: notes > asp.net > web apps > mvc > controllers
 date: 2023-03-21T00:00:00-06:00
 draft: false
 ---

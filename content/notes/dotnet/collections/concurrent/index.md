@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > collections > concurrent"
+title: notes > dotnet > collections > concurrent
 date: 2021-12-23T11:36:04-0700
 draft: false
 ---

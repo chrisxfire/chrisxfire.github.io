@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > protocols > wadl"
+title: notes > swe > protocols > wadl
 date: 2023-02-22T12:01:39-0700
 draft: true
 ---

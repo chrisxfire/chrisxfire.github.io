@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > xaml > mvvm pattern > using viewmodel"
+title: notes > dotnet > winui 3 > xaml > mvvm pattern > using viewmodel
 date: 2022-12-12T20:58:19-0700
 draft: true
 ---

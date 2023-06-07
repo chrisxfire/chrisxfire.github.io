@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > ef core > saving data"
+title: notes > asp.net > ef core > saving data
 date: 2023-05-24T00:00:00-06:00
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > protocols > wsdl"
+title: notes > swe > protocols > wsdl
 date: 2022-06-21T14:10:55-0600
 draft: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > lambda expressions"
+title: notes > dotnet > core > lambda expressions
 date: 2022-05-07T00:00:00-06:00
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > ahk > hotkeys"
+title: notes > autohotkey > hotkeys
 date: 2023-04-26T13:57:43-0600
 draft: false
 ---

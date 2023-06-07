@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > classes > methods > deconstructors"
+title: notes > dotnet > classes > methods > deconstructors
 date: 2021-12-31T10:31:57-0700
 draft: false
 ---

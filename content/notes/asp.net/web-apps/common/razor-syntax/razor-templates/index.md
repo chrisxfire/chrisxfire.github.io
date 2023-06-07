@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > web apps > general > razor syntax > razor templates"
+title: notes > asp.net > web apps > common > razor syntax > razor templates
 date: 2023-04-24T00:00:00-07:00
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > design > layouts > layouts"
+title: notes > dotnet > winui 3 > design > layouts > layouts
 date: 2023-01-02T20:33:28-0700
 draft: true
 ---

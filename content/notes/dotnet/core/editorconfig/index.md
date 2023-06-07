@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > editorconfig"
+title: notes > dotnet > core > editorconfig
 date: 2022-11-17T15:45:22-0700
 draft: false
 ---

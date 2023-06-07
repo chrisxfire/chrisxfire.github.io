@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > paradigms > multitasking and multithreading"
+title: notes > swe > paradigms > multitasking and multithreading
 date: 2022-03-19T16:03:07-0600
 draft: true
 ---

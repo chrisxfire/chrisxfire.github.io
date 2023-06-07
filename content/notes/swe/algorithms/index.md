@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > algorithms"
+title: notes > swe > algorithms
 date: 2022-02-17T19:00:29-0700
 draft: true
 ---

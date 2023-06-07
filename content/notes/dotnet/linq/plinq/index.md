@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > plinq"
+title: notes > dotnet > linq > plinq
 date: 2022-05-09T19:48:01-0600
 draft: false
 ---

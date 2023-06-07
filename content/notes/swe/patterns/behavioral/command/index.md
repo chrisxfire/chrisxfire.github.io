@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > patterns > behavioral > command"
+title: notes > swe > patterns > behavioral > command
 date: 2023-03-05T15:53:50-0700
 draft: true
 ---

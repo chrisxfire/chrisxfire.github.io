@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > xaml > ui > attached properties"
+title: notes > dotnet > winui 3 > xaml > ui > attached properties
 date: 2022-12-12T13:16:42-0700
 draft: true
 ---

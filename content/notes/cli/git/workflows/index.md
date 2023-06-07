@@ -1,5 +1,5 @@
 ---
-title: "notes > cli > git > workflows"
+title: notes > cli > git > workflows
 date: 2021-08-18T10:28:58-0600
 draft: false
 ---

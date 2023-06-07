@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > xaml > namespaces"
+title: notes > dotnet > winui 3 > xaml > namespaces
 date: 2022-12-12T16:30:39-0700
 draft: true
 ---

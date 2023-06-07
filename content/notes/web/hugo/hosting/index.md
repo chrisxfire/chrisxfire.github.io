@@ -1,5 +1,5 @@
 ---
-title: "notes > web > hugo > hosting"
+title: notes > web > hugo > hosting
 date: 2023-03-17T13:34:53-0600
 draft: true
 ---

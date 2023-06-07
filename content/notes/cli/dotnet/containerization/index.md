@@ -1,5 +1,5 @@
 ---
-title: "notes > cli > dotnet > containerization"
+title: notes > cli > dotnet > containerization
 date: 2023-03-10T13:32:54-0700
 draft: false
 ---

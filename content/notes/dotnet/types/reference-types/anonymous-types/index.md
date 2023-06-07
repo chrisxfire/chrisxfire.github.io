@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > types > reference types > anonymous types"
+title: notes > dotnet > types > reference types > anonymous types
 date: 2021-11-07T20:03:18-0700
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > cli > git > tagging"
+title: notes > cli > git > tagging
 date: 2022-10-23T16:05:23-0600
 draft: false
 ---

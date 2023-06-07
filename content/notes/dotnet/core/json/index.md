@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > json"
+title: notes > dotnet > core > json
 date: 2021-11-11T00:00:00-06:00
 draft: false
 ---

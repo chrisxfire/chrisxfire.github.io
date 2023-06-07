@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > overview > data transformations"
+title: notes > dotnet > linq > overview > data transformations
 date: 2022-11-05T22:14:36-0600
 draft: false
 ---

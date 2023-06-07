@@ -1,5 +1,5 @@
 ---
-title: "notes > web > js > javascript"
+title: notes > web > js > javascript
 date: 2023-04-28T16:26:09-0600
 draft: true
 ---

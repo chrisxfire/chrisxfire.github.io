@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > xaml > mvvm pattern > x bind vs binding"
+title: notes > dotnet > winui 3 > xaml > mvvm pattern > x bind vs binding
 date: 2022-12-18T19:13:17-0700
 draft: true
 ---

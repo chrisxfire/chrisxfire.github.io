@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > xaml > resources"
+title: notes > dotnet > winui 3 > xaml > resources
 date: 2022-12-28T19:51:32-0700
 draft: true
 ---

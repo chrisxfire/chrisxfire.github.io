@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > clauses > from clause"
+title: notes > dotnet > linq > clauses > from clause
 date: 2022-04-25T20:57:19-0600
 draft: false
 ---

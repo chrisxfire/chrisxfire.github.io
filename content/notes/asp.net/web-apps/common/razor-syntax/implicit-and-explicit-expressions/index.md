@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > web apps > general > razor syntax > implicit and explicit expressions"
+title: notes > asp.net > web apps > common > razor syntax > implicit and explicit expressions
 date: 2023-04-24T00:00:00-07:00
 draft: false
 ---

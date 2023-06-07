@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > collections > generic > hashset"
+title: notes > dotnet > collections > generic > hashset
 date: 2021-11-15T20:30:01-0700
 draft: false
 ---

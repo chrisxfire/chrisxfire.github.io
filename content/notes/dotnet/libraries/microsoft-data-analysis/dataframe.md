@@ -1,5 +1,5 @@
 ---
-title: DataFrame
+title: notes > dotnet > libraries > microsoft data analysis
 date: 2022-01-25T13:17:51-0700
 draft: false
 ---

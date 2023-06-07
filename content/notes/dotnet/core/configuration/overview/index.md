@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > configuration > overview"
+title: notes > dotnet > core > configuration > overview
 date: 2021-12-30T14:12:34-0700
 draft: false
 ---

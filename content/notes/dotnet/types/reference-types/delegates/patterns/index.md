@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > types > reference types > delegates > patterns"
+title: notes > dotnet > types > reference types > delegates > patterns
 date: 2022-07-21T08:27:56-0600
 draft: true
 ---

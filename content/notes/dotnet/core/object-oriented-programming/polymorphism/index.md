@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > object oriented programming > polymorphism"
+title: notes > dotnet > core > object oriented programming > polymorphism
 date: 2022-02-17T20:22:18-0700
 draft: false
 ---

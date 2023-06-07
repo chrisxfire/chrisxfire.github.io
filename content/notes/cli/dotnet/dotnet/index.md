@@ -1,5 +1,5 @@
 ---
-title: "notes > cli > dotnet > dotnet"
+title: notes > cli > dotnet > dotnet
 date: 2022-02-16T16:39:46-0700
 draft: false
 ---

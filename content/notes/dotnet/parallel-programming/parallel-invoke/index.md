@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > parallel programming > parallel invoke"
+title: notes > dotnet > parallel programming > parallel invoke
 date: 2023-02-17T09:58:06-0700
 draft: false
 ---

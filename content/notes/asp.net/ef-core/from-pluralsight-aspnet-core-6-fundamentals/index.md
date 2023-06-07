@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > ef core > from pluralsight/asp.net core 6 fundamentals"
+title: notes > asp.net > ef core > from pluralsight aspnet core 6 fundamentals
 date: 2023-05-01T13:34:12-0600
 draft: false
 ---

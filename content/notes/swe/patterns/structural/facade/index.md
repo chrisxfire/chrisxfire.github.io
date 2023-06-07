@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > patterns > structural > facade"
+title: notes > swe > patterns > structural > facade
 date: 2023-03-05T15:52:14-0700
 draft: true
 ---

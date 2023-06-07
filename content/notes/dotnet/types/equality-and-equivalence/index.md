@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > types > equality and equivalence"
+title: notes > dotnet > types > equality and equivalence
 date: 2022-02-16T16:37:48-0700
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > methodologies > sdlc"
+title: notes > swe > methodologies > sdlc
 date: 2023-02-22T11:11:52-0700
 draft: true
 ---

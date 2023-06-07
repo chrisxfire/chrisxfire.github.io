@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > core > globalization and localization"
+title: notes > asp.net > core > globalization and localization
 date: 3000-01-01T00:00:00-06:00
 draft: true
 ---

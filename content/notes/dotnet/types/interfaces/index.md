@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > types > interfaces"
+title: notes > dotnet > types > interfaces
 date: 2021-11-05T21:26:07-0600
 draft: false
 ---

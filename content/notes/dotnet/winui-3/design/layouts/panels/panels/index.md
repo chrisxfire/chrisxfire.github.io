@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > design > layouts > panels > panels"
+title: notes > dotnet > winui 3 > design > layouts > panels > panels
 date: 2023-01-02T21:31:13-0700
 draft: true
 ---

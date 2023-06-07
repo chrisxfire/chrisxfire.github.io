@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > parallel programming > cancelling parallel loops"
+title: notes > dotnet > parallel programming > cancelling parallel loops
 date: 2023-02-16T15:23:54-0700
 draft: false
 ---

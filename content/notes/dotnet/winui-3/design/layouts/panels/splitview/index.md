@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > design > layouts > panels > splitview"
+title: notes > dotnet > winui 3 > design > layouts > panels > splitview
 date: 2023-01-02T22:00:22-0700
 draft: true
 ---

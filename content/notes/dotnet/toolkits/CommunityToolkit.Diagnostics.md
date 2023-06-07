@@ -1,5 +1,5 @@
 ---
-title: dotnet > toolkit > communitytoolkit.diagnostics
+title: notes > dotnet > toolkits
 date: 2023-02-28T15:58:54-0700
 draft: false
 ---

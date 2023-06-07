@@ -1,5 +1,5 @@
 ---
-title: "notes > .net > core > benchmarking"
+title: notes > dotnet > core > benchmarking
 date: 2022-01-16T00:00:00-06:00
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > web > hugo > configuration"
+title: notes > web > hugo > configuration
 date: 2023-03-17T13:20:55-0600
 draft: true
 ---

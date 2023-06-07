@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > clauses > into keyword"
+title: notes > dotnet > linq > clauses > into keyword
 date: 2022-04-25T21:03:34-0600
 draft: false
 ---

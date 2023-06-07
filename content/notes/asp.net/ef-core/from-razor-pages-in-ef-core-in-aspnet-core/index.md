@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > ef core > from razor pages with ef core in aspnet core"
+title: notes > asp.net > ef core > from razor pages in ef core in aspnet core
 date: 2023-04-25T12:36:11-0600
 draft: false
 ---

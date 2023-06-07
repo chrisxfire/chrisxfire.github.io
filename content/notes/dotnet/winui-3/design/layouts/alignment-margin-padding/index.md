@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > design > layouts > alignment margin padding"
+title: notes > dotnet > winui 3 > design > layouts > alignment margin padding
 date: 2023-01-02T21:02:04-0700
 draft: true
 ---

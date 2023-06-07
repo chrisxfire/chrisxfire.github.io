@@ -1,5 +1,5 @@
 ---
-title: "notes > web > html > tables"
+title: notes > web > html > tables
 date: 2023-04-26T17:23:20-0600
 draft: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > standard query operators > aggregate"
+title: notes > dotnet > linq > standard query operators > aggregate
 date: 2022-11-13T19:07:11-0700
 draft: false
 ---

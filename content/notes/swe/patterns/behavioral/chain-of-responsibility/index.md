@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > patterns > behavioral > chain of responsibility"
+title: notes > swe > patterns > behavioral > chain of responsibility
 date: 2023-03-05T15:52:55-0700
 draft: true
 ---

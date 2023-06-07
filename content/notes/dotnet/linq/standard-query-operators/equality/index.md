@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > standard query operators > equality"
+title: notes > dotnet > linq > standard query operators > equality
 date: 2022-11-10T20:49:03-0700
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > .net > core > boxing and unboxing"
+title: notes > dotnet > core > boxing and unboxing
 date: 2022-10-14T00:00:00-06:00
 draft: false
 ---

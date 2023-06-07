@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > patterns > hateoas"
+title: notes > swe > patterns > hateoas
 date: 2023-02-22T12:03:00-0700
 draft: true
 ---

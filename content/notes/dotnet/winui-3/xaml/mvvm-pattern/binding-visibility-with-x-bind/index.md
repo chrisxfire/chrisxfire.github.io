@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > xaml > mvvm pattern > binding visibility with x bind"
+title: notes > dotnet > winui 3 > xaml > mvvm pattern > binding visibility with x bind
 date: 2022-12-18T19:48:32-0700
 draft: true
 ---

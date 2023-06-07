@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > web apps > general > razor class libraries"
+title: notes > asp.net > web apps > common > razor class libraries
 date: 2023-03-24T00:00:00-07:00
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > web > html > hyperlinks"
+title: notes > web > html > hyperlinks
 date: 2023-04-26T17:22:15-0600
 draft: true
 ---

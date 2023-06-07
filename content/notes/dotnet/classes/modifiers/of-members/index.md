@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > classes > modifiers > of members"
+title: notes > dotnet > classes > modifiers > of members
 date: 2022-02-17T20:58:37-0700
 draft: false
 ---

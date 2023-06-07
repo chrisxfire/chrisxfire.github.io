@@ -1,5 +1,5 @@
 ---
-title: "notes > web > css > w3 css"
+title: notes > web > css > w3 css
 date: 2023-04-27T11:07:42-0600
 draft: true
 ---

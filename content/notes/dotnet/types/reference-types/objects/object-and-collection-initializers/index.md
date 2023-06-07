@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > types > reference types > objects > object and collection initializers"
+title: notes > dotnet > types > reference types > objects > object and collection initializers
 date: 2022-03-06T17:36:04-0700
 draft: true
 ---

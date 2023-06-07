@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > reading > architecting modern web apps > 4. common client-side web technologies"
+title: notes > asp.net > reading > architecting modern web apps > 4 common client side web technologies
 date: 2023-04-14T00:00:00-06:00
 draft: false
 ---

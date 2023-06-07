@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > web apps > blazor > blazor"
+title: notes > asp.net > web apps > blazor > blazor
 date: 2023-01-11T00:00:00-06:00
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > patterns > creational > fluent interface"
+title: notes > swe > patterns > creational > fluent interface
 date: 2023-03-08T13:29:19-0700
 draft: true
 ---

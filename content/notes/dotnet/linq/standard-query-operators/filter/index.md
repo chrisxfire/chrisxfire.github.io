@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > standard query operators > filter"
+title: notes > dotnet > linq > standard query operators > filter
 date: 2022-11-08T20:55:04-0700
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > async programming > apm (iasyncresult) > with delegates"
+title: notes > dotnet > async programming > apm (iasyncresult) > with delegates
 date: 2023-02-17T08:54:08-0700
 draft: false
 ---

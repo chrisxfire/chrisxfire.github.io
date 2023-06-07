@@ -1,5 +1,5 @@
 ---
-title: Microsoft.Data.Analysis
+title: notes > dotnet > libraries > microsoft data analysis
 date: 2022-01-25T13:17:40-0700
 draft: false
 ---

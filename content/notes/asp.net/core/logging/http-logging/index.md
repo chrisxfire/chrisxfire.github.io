@@ -1,5 +1,5 @@
 ---
-title: "logging > http logging"
+title: notes > asp.net > core > logging > http logging
 date: 2023-05-14T00:00:00-06:00
 draft: true
 ---

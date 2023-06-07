@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > pattern matching"
+title: notes > dotnet > core > pattern matching
 date: 2021-11-19T00:00:00-06:00
 draft: false
 ---

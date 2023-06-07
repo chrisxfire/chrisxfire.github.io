@@ -1,5 +1,5 @@
 ---
-title: notes > dotnet > classes > classes-static
+title: notes > dotnet > classes > classes static
 date: 2022-02-17T20:46:19-0700
 draft: false
 ---

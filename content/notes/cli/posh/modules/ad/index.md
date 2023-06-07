@@ -1,5 +1,5 @@
 ---
-title: "notes > cli > posh > modules > ad"
+title: notes > cli > posh > modules > ad
 date: 2022-06-23T00:00:00-06:00
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > .net > core > attributes"
+title: notes > dotnet > core > attributes
 date: 2022-01-01T00:00:00-06:00
 draft: false
 ---

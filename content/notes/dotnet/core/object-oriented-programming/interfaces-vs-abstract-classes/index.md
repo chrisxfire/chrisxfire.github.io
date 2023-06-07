@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > object oriented programming > interfaces vs abstract classes"
+title: notes > dotnet > core > object oriented programming > interfaces vs abstract classes
 date: 2022-05-28T21:30:35-0600
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > web > github pages > jekyll"
+title: notes > web > github pages > jekyll
 date: 2022-12-21T00:00:00-07:00
 draft: false
 ---

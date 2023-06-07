@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > standard query operators > convert"
+title: notes > dotnet > linq > standard query operators > convert
 date: 2022-11-13T18:58:51-0700
 draft: false
 ---

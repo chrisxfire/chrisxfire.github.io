@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > principles > idempotent functions"
+title: notes > swe > principles > idempotent functions
 date: 2022-08-23T08:58:15-0600
 draft: true
 ---

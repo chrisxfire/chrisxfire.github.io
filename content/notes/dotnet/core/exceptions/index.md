@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > exceptions"
+title: notes > dotnet > core > exceptions
 date: 2021-11-09T00:00:00-06:00
 draft: false
 ---

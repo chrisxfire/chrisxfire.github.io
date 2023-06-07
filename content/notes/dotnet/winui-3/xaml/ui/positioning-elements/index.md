@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > xaml > ui > positioning elements"
+title: notes > dotnet > winui 3 > xaml > ui > positioning elements
 date: 2022-12-11T19:00:58-0700
 draft: true
 ---

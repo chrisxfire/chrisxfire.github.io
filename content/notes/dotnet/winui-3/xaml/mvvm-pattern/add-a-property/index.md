@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > xaml > mvvm pattern > add a property"
+title: notes > dotnet > winui 3 > xaml > mvvm pattern > add a property
 date: 2022-12-14T18:55:12-0700
 draft: true
 ---

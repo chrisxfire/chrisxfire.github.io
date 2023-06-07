@@ -1,5 +1,5 @@
 ---
-title: "routing > overview"
+title: notes > asp.net > core > routing > overview
 date: 2023-01-09T00:00:00-06:00
 draft: false
 ---

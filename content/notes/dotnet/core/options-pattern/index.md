@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > options pattern"
+title: notes > dotnet > core > options pattern
 date: 2022-08-23T17:16:31-0600
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > winui 3 > design > layouts > z depth and shadow"
+title: notes > dotnet > winui 3 > design > layouts > z depth and shadow
 date: 2023-01-05T19:14:16-0700
 draft: true
 ---

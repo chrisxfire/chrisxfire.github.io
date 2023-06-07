@@ -1,5 +1,5 @@
 ---
-title: "notes > web > msid > shared access signatures"
+title: notes > web > msid > shared access signatures
 date: 2022-05-11T13:23:24-0600
 draft: true
 ---

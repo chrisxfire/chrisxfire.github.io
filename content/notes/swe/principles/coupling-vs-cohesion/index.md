@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > principles > coupling vs cohesion"
+title: notes > swe > principles > coupling vs cohesion
 date: 2022-12-17T09:47:30-0700
 draft: true
 ---

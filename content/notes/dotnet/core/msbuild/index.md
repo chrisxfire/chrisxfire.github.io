@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > msbuild"
+title: notes > dotnet > core > msbuild
 date: 2023-03-14T21:16:15-0600
 draft: false
 ---

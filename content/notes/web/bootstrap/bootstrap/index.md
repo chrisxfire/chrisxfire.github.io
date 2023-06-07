@@ -1,5 +1,5 @@
 ---
-title: "notes > web > bootstrap > bootstrap"
+title: notes > web > bootstrap > bootstrap
 date: 2023-04-27T11:05:24-0600
 draft: true
 ---

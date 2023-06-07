@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > web apps > general > tag helpers"
+title: notes > asp.net > web apps > common > tag helpers
 date: 2023-04-22T00:00:00-07:00
 draft: false
 ---

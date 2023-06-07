@@ -1,5 +1,5 @@
 ---
-title: "notes > web > msid > msal"
+title: notes > web > msid > msal
 date: 2022-05-10T17:32:57-0600
 draft: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > collections > spans"
+title: notes > dotnet > collections > spans
 date: 2022-01-09T18:14:15-0700
 draft: false
 ---

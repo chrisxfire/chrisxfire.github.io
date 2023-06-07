@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > concepts > sets and bags"
+title: notes > swe > concepts > sets and bags
 date: 2022-05-08T17:04:09-0600
 draft: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > patterns > structural > flyweight"
+title: notes > swe > patterns > structural > flyweight
 date: 2023-03-05T15:52:25-0700
 draft: true
 ---

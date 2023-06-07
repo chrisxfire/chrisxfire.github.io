@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > classes > methods > indexers"
+title: notes > dotnet > classes > methods > indexers
 date: 2021-11-06T11:26:41-0600
 draft: false
 ---

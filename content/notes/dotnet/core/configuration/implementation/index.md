@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > core > configuration > implementation"
+title: notes > dotnet > core > configuration > implementation
 date: 2022-08-23T17:15:19-0600
 draft: false
 ---

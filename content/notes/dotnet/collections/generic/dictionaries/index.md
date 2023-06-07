@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > collections > generic > dictionaries"
+title: notes > dotnet > collections > generic > dictionaries
 date: 2021-11-13T11:20:41-0700
 draft: false
 ---

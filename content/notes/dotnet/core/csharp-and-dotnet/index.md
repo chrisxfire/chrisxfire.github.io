@@ -1,5 +1,5 @@
 ---
-title: "notes > .net > core > csharp and dotnet"
+title: notes > dotnet > core > csharp and dotnet
 date: 2022-01-01T00:00:00-06:00
 draft: false
 ---

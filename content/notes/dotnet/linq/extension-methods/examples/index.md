@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > extension methods > examples"
+title: notes > dotnet > linq > extension methods > examples
 date: 2022-05-08T18:54:48-0600
 draft: false
 ---

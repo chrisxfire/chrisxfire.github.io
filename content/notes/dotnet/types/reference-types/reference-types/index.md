@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > types > reference types > reference types"
+title: notes > dotnet > types > reference types > reference types
 date: 2022-02-16T16:13:51-0700
 draft: true
 ---

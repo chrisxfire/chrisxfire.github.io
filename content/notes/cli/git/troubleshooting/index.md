@@ -1,5 +1,5 @@
 ---
-title: "notes > cli > git > troubleshooting"
+title: notes > cli > git > troubleshooting
 date: 2021-12-21T16:57:18-0700
 draft: false
 ---

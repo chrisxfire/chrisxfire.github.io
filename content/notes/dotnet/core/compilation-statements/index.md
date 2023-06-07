@@ -1,5 +1,5 @@
 ---
-title: "notes > .net > core > compilation statements"
+title: notes > dotnet > core > compilation statements
 date: 2022-01-01T00:00:00-06:00
 draft: false
 ---

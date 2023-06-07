@@ -1,5 +1,5 @@
 ---
-title: "notes > swe > principles > principles"
+title: notes > swe > principles > principles
 date: 2023-03-16T17:24:53-0600
 draft: true
 ---

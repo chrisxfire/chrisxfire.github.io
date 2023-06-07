@@ -1,5 +1,5 @@
 ---
-title: "notes > dotnet > linq > overview > query operators"
+title: notes > dotnet > linq > overview > query operators
 date: 2022-11-05T22:15:01-0600
 draft: false
 ---

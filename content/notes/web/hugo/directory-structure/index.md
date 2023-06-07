@@ -1,5 +1,5 @@
 ---
-title: "notes > web > hugo > directory structure"
+title: notes > web > hugo > directory structure
 date: 2023-03-17T13:20:38-0600
 draft: true
 ---
