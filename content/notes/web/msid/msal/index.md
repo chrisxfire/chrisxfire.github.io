@@ -1,7 +1,7 @@
 ---
 title: notes > web > msid > msal
 date: 2022-05-10T17:32:57-0600
-draft: true
+draft: false
 ---
 # MSAL – Microsoft Authentication Library
 Provides secure access to Graph, other Microsoft APIs, 3rd-party web APIs, or your own web API.
@@ -29,31 +29,36 @@ Register the app in the Azure portal and note:
 
 # Write code
 ## Client app builders
+```cs
 // For public client applications:
 IPublicClientApplication app = PublicClientApplicationBuilder.Create(clientId).Build();
 
 // For confidential client applications:
-string redirectUri = "<https://myapp.azurewebsites.net>";
+string redirectUri = "https://myapp.azurewebsites.net";
 IConfidentialClientApplication app = ConfidentialClientApplicationBuilder.Create(clientId)
-.WithClientSecret(clientSecret)
-.WithRedirectUri(redirectUri )
-.Build();
+    .WithClientSecret(clientSecret)
+    .WithRedirectUri(redirectUri )
+    .Build();
+```
 
 ## Builder modifiers
-.WithAuthoritySets app default authority to an AAD authority; can be Azure Cloud, audience, tenant (via tenant ID or domain name), or the authority URI directly.
-.WithTenantIdOverrides the tenant ID or the tenant description.
-.WithClientIdOverrides the client ID.
-.WithRedirectUriOverrides the default redirect URI; useful when a broker is involved.
-.WithComponentSets name of the library using MSAL.NET (telemetry).
+- `.WithAuthority` - Sets app default authority to an AAD authority; can be Azure Cloud, audience, tenant (via - tenant ID or domain name), or the authority URI directly.
+- `.WithTenantId` - Overrides the tenant ID or the tenant description.
+- `.WithClientId` - Overrides the client ID.
+- `.WithRedirectUri` - Overrides the default redirect URI; useful when a broker is involved.
+- `.WithComponent` - Sets name of the library using MSAL.NET (telemetry).
 
 ## For confidential client app builder only
-.WithCertificateSets the certificate identifying the app with AAD.
-.WithClientSecretSets the client secret (app password) identify the app with AAD.
+- `.WithCertificate` - Sets the certificate identifying the app with AAD.
+- `.WithClientSecret` - Sets the client secret (app password) identify the app with AAD.
 
 ## Acquire a token
+```cs
 // Set the scopes:
 string[] scopes = { "user.read" };
 
-## // Request the token
+// Request the token
 AuthenticationResult result = await app.AcquireTokenInteractive(scopes).ExecuteAsync();
+
 // The token is stored in result.AccessToken.
+```

@@ -1,7 +1,7 @@
 ---
 title: notes > web > msid > microsoft identity platform
 date: 2022-05-10T16:54:55-0600
-draft: true
+draft: false
 ---
 # Components
 - OAuth 2.0 and OpenID Connect
@@ -42,21 +42,22 @@ draft: true
   - Example: <https://graph.microsoft.com/Calendars.Read> requests permission to read users calendars.
     - If the host portion if left off, it is assumed to be graph.microsoft.com.
 - The `scope` query parameter holds the permissions the app needs.
-<!-- -->
-- Permission Types
-  - Delegated – for apps that have a signed-in user present.
-  - Application – for apps that run without a signed-in user present (services, daemons).
-- Consent Types
-  - Static user consent
-    - You must specify all the permissions it needs, and will ever need, in the app's configuration in the Azure portal.
-    - Also enable administrators to consent on behalf of all users in the organization.
-  - Incremental user consent
-    - Ask for a minimum set of permissions up front and request more as needed.
-    - New scopes are included in the `scope` parameter.
-    - If app requires admin privileged permissions, you must register all of the permissions in the Azure portal (not just the subset that require admin consent).
-  - Admin consent
-    - Required for high-privilege permissions.
-    - Admin consent provided on behalf of an organization still requires the static permissions registered for the app.
+
+## Permission Types
+- Delegated – for apps that have a signed-in user present.
+- Application – for apps that run without a signed-in user present (services, daemons).
+
+## Consent Types
+- Static user consent
+  - You must specify all the permissions it needs, and will ever need, in the app's configuration in the Azure portal.
+  - Also enable administrators to consent on behalf of all users in the organization.
+- Incremental user consent
+  - Ask for a minimum set of permissions up front and request more as needed.
+  - New scopes are included in the `scope` parameter.
+  - If app requires admin privileged permissions, you must register all of the permissions in the Azure portal (not just the subset that require admin consent).
+- Admin consent
+  - Required for high-privilege permissions.
+  - Admin consent provided on behalf of an organization still requires the static permissions registered for the app.
 
 # Conditional Access
 Conditional Access allows for MFA, allowing only Intune-enrolled devices to access specific services, and geolocation and IP range restrictions.

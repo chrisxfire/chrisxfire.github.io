@@ -1,115 +1,132 @@
 ---
 title: notes > web > html > tables
 date: 2023-04-26T17:23:20-0600
-draft: true
+draft: false
 ---
 # Overview
 Like so:
-`<table>`
-`<tr> <!-- add a table row -->`
-`<th <!-- add a header cell to this row -->`
-`style="width:70%"> <!-- set the column width of this cell-->`
-`Company`
-`</th>`
-`<th colspan="2">Contact</th> <!-- span this column 2 cells -->`
-`<th>Country</th>`
-`</tr>`
-`<tr`
-`style="height:200px"> <!-- set the height of this row -->`
-`<td>Alfreds Futterkiste</td> <!-- add data to this row -->`
-`<td>Maria Anders</td>`
-`<td>Germany</td>`
-`</tr>`
-`<tr>`
-`<td>Centro comercial Moctezuma</td>`
-`<td>Francisco Chang</td>`
-`<td>Mexico</td>`
-`</tr>`
-`</table>`
+```html
+<table>
+    <tr> <!-- add a table row -->
+    <!-- add a header cell to this row -->
+        <th style="width:70%"> <!-- set the column width of this cell-->
+        Company
+        </th>
+        <th colspan="2">Contact</th> <!-- span this column 2 cells -->
+        <th>Country</th>
+    </tr>
+    <tr style="height:200px"> <!-- set the height of this row -->
+        <td>Alfreds Futterkiste</td> <!-- add data to this row -->
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+    </tr>
+    </table>
+```
 
 Or, like so:
-`<table>`
-`<thead>`
-`<tr>`
-`<th>Name</th>`
-`<th>Twitter</th>`
-`</tr>`
-`</thead>`
-`<tbody>`
-`<tr>`
-`<td>Some Gal</td>`
-`<td>@somegal</td>`
-`</tr>`
-`<tr>`
-`<td>Some Guy</td>`
-`<td>@someguy</td>`
-`</tr>`
-`</tbody>`
-`</table>`
+```html
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Twitter</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Some Gal</td>
+            <td>@somegal</td>
+        </tr>
+        <tr>
+            <td>Some Guy</td>
+            <td>@someguy</td>
+        </tr>
+    </tbody>
+</table>
+```
 
 Aligning headers:
-`th {`
-`text-align: left;`
-`}`
-
+```css
+th {
+    text-align: left;
+}
+```
 Adding padding to the cells:
-`th, td {`
-`padding: 15px;`
-`}`
-
+```css
+th, td {
+    padding: 15px;
+}
+```
 Or:
-`th, td {`
-`padding-top: 10px; <!-- adds padding above the content -->`
-`padding-bottom: 20px;`
-`padding-left: 30px;`
-`padding-right: 40px;`
-`}`
+```css
+th, td {
+    padding-top: 10px; /* adds padding above the content */*
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+```
 
 Striping rows:
-`tr:nth-child(even) {`
-`background-color: #D6EEEE;`
-`}`
-
+```css
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+```
 Striping columns:
-`td:nth-child(even), th:nth-child(even) {`
-`background-color: #D6EEEE;`
-`}`
+```css
+td:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;
+}
+```
 
 Highlight rows:
-`tr:hover {background-color: #D6EEEE;}`
-
+```css
+tr:hover {background-color: #D6EEEE;}
+```
 Create a caption for the entire table immediately after the `<table>` tag:
-`<table style="width:100%">`
-`<caption>Monthly savings</caption>`
+```html
+<table style="width:100%">
+<caption>Monthly savings</caption>
+```
 
 # Column Groups
 You can style specific columns of a table:
-`<table>`
-`<colgroup>`
-`<col span="2" style="background-color: #D6EEEE">`
-`</colgroup>`
-`<tr>`
-`<th>MON</th>`
-`<th>TUE</th>`
-`<th>WED</th>`
-`<th>THU</th>`
-`...`
-
-The only valid CSS properties for `colgroup` are `width`, `visibility`, `background`, `border`
+```html
+<table>
+<colgroup>
+<col span="2" style="background-color: #D6EEEE">
+</colgroup>
+<tr>
+<th>MON</th>
+<th>TUE</th>
+<th>WED</th>
+<th>THU</th>
+...
+```
+The only valid CSS properties for `colgroup` are `width`, `visibility`, `background`, `border`.
 
 # Table Borders
 Add a border with a CSS border property on these elements:
-`table, th, td {`
-`border: 1px solid black;`
-`}`
-
-Omit the border around the table itself by omitting `table`.
+```css
+table, th, td {
+    border: 1px solid black;
+}
+```
+Omit the border around the table itself by omitting table.
 
 Other CSS border properties:
-- `border-bottom: 1px solid #ddd; /* only specify a bottom border */`
-- `border-color: green;`
-- `border-collapse: collapse; /* makes a single-framed instead of double-framed border */`
-- `border-radius: 10px; /* rounds the border's corners by 10 pixels */`
-- `border-spacing: 30px; /* changes space between cells */`
-- `border-style:`
+```css
+border-bottom: 1px solid #ddd; /* only specify a bottom border */
+border-color: green;
+border-collapse: collapse; /* makes a single-framed instead of double-framed border */
+border-radius: 10px; /* rounds the border's corners by 10 pixels */
+border-spacing: 30px; /* changes space between cells */
+border-style:
+```
 <img src="xHTML_Tables-image1.png" style="width:0.94167in;height:1.83333in" />
