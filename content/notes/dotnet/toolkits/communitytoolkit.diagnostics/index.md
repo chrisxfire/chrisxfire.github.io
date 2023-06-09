@@ -1,5 +1,5 @@
 ---
-title: notes > dotnet > toolkits
+title: "notes > dotnet > toolkits > communitytoolkit.diagnostics"
 date: 2023-02-28T15:58:54-0700
 draft: false
 ---
@@ -9,6 +9,7 @@ APIs to validate parameters and throw exceptions in faulting code paths.
 ```powershell
 dotnet add package CommunityToolkit.Diagnostics
 ```
+
 ```cs
 using CommunityToolkit.Diagnostics;
 ```
