@@ -1,21 +1,25 @@
 ---
 title: notes > dotnet > winui 3 > xaml > mvvm pattern > x bind vs binding
 date: 2022-12-18T19:13:17-0700
-draft: true
+draft: false
 ---
 # Overview
-Prefer x:Bind over Binding whenever possible.
+Prefer `x:Bind` over `Binding` whenever possible.
 
 # Binding
-`<TextBlock Text={"Binding Path=…}"/>`
+```xml
+<TextBlock Text={"Binding Path=…}"/>
+```
 - Resolves binding path at *runtime*
 
 ## Data Sources
-- ElementName, Source, or RelativeSource
-- Uses DataContext if none of the above are set
+- `ElementName`, `Source`, or `RelativeSource`
+- Uses `DataContext` if none of the above are set
 
 # x:Bind
-`<TextBlock Text={"x:Bind Path=…}"/>`
+```xml
+<TextBlock Text={"x:Bind Path=…}"/>
+```
 - Resolves binding path a *compile time*
 - Creates C# code behind the scenes
 
@@ -29,41 +33,46 @@ Prefer x:Bind over Binding whenever possible.
 - Better debugging experience (ability to step into genereated data binding code)
 
 # Example with x:Bind
-MainWindow.xaml.cs:
+`MainWindow.xaml.cs`
+```cs
 public sealed partial class MainWindow : Window
 {
-public MainViewModel ViewMode { get; }
+    public MainViewModel ViewMode { get; }
 
-public MainWindow()
-{
-this.InitializeComponent();
-Title = "Customers App";
-// Set the ViewModel property to the MainViewModel:
-ViewModel = new MainViewModel(new CustomerDataProvider());
-// Not needed when using x:Bind:
-~~root.DataContext = ViewModel;~~
-root.Loaded += Root_Loaded;
-}
-}
+    public MainWindow()
+    {
+        this.InitializeComponent();
 
-MainWindow.xaml:
+        Title = "Customers App";
+        // Set the ViewModel property to the MainViewModel:
+        ViewModel = new MainViewModel(new CustomerDataProvider());
+        // Not needed when using x:Bind:
+        // root.DataContext = ViewModel;
+        root.Loaded += Root_Loaded;
+    }
+}
+```
+
+`MainWindow.xaml`
+```xml
+<!-- Change from Binding to x:Bind: -->
 <ListView Grid.Row="1" x:Name="customerListView"
-Change from Binding to x:Bind:
-ItemsSource="{`x:Bind ViewModel.`Customers,Mode=OneWay}"
-SelectedItem="{`x:Bind ViewModel.`SelectedCustomer,Mode=TwoWay}"
-DisplayMemberPath="FirstName"
-ScrollViewer.HorizontalScrollMode="Enabled"
-ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
+    ItemsSource="{x:Bind ViewModel.Customers,Mode=OneWay}"
+    SelectedItem="{x:Bind ViewModel.SelectedCustomer,Mode=TwoWay}"
+    DisplayMemberPath="FirstName"
+    ScrollViewer.HorizontalScrollMode="Enabled"
+    ScrollViewer.HorizontalScrollBarVisibility="Auto"/>
 
-<!-- Customer detail --->
-<StackPanel Grid.Row="1" Grid.Column="1" Margin="10">
-<TextBox Header="Firstname" Text="{`x:Bind ViewModel.`SelectedCustomer.FirstName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-<TextBox Header="Lastname"
-Change from Binding to x:Bind:
-Text="{`x:Bind ViewModel.`SelectedCustomer.LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}",
-Margin="0 10 0 0"/>
-<CheckBox Margin="0 20 0 0
-IsChecked="{`x:Bind ViewModel.`SelectedCustomer.IsDeveloper, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
-Is developer
-</CheckBox>
-</StackPanel>
+    <!-- Customer detail --->
+    <StackPanel Grid.Row="1" Grid.Column="1" Margin="10">
+        <TextBox Header="Firstname" 
+            Text="{x:Bind ViewModel.SelectedCustomer.FirstName, Mode=TwoWay UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBox Header="Lastname"
+            Text="{x:Bind ViewModel.SelectedCustomer.LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}",
+            Margin="0 10 0 0"/>
+        <CheckBox Margin="0 20 0 0"
+            IsChecked="{x:Bind ViewModel.SelectedCustomer.IsDeveloper, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            Is developer
+        </CheckBox>
+    </StackPanel>
+```

@@ -1,9 +1,15 @@
 ---
 title: notes > dotnet > winui 3 > design > layouts > alignment margin padding
 date: 2023-01-02T21:02:04-0700
-draft: true
+draft: false
 ---
-<img src="media/Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image1.png" style="width:2.75in;height:1.29167in" />
+
+<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image1.png" width="50%" height="%50" />  
+
+<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image4.png" width="50%" height="%50" />  
+
+<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image5.png" width="65%" height="%65" />  
+
 # Dimensions
 Dimensions should be set in increments of 4 effective pixels.
 - `Height` / `Width` specify element size. Default = `NaN`. Use `Auto` or star sizing for fluid behavior.
@@ -44,15 +50,17 @@ Several classes define their own padding property:
   - Recommendation: use `Margin` settings on `Block` containers instead since padding can be visually difficult to see because these elements have no background.
 
 Example:
+```xml
 Margin="0", Padding="0"
-<img src="media/Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image2.png" style="width:2.775in;height:0.625in" />
+```
 
+<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image2.png" style="width:2.775in;height:0.625in" />
+
+```xml
 <Grid BorderBrush="Blue" BorderThickness="4" Width="200">
 <TextBox Text="This is text in a TextBox." Margin="20" Padding="16,24"/>
 </Grid>
+```
 
-<img src="media/Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image3.png" style="width:3.63333in;height:1.875in" />
-
-
-<img src="media/Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image4.png" style="width:2.79167in;height:1.80833in" /><img src="media/Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image5.png" style="width:5.00833in;height:2.575in" />
+<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image3.png" style="width:3.63333in;height:1.875in" />  
 

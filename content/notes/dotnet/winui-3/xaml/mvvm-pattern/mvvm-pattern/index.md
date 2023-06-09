@@ -1,11 +1,11 @@
 ---
 title: notes > dotnet > winui 3 > xaml > mvvm pattern > mvvm pattern
 date: 2022-12-12T17:00:55-0700
-draft: true
+draft: false
 ---
 # Model View ViewModel Pattern
 ## View
-- .xaml and corresponding .xaml.cs file
+- `.xaml` and corresponding `.xaml.cs` file
 - Visual elements (like `ListView`)
 
 ## ViewModel
@@ -19,9 +19,9 @@ draft: true
 
 ## Model
 - `Customer` class
-- `DataProvider` class — in this case, a Customer DataProvider class that loads and saves customers (in a file, a database, or a web API, etc)
+- `DataProvider` class — in this case, a Customer DataProvider class that loads and saves customers (in a file, a database, or a web API, etc)  
 
-<img src="media/XAML_MVVM-Pattern-image1.png" style="width:7.41667in;height:3.26667in" />
+<img src="XAML_MVVM-Pattern-image1.png" style="width:7.41667in;height:3.26667in" />  
 
 # Advantages of MVVM
 - ViewModel and Model are UI-independent

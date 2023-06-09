@@ -1,7 +1,7 @@
 ---
 title: notes > dotnet > winui 3 > controls
 date: 2023-01-05T19:25:29-0700
-draft: true
+draft: false
 ---
 # Overview
 *Control* — a UI element that displays content or enables interaction.
@@ -20,33 +20,38 @@ Use Blend for Visual Studio or Visual Studio XAML Designer or add the control vi
 # Set the Control's Name and Properties
 Set the control's `x:Name` attribute:
 
+```xml
 <Button x:Name="Button1" Content="Button"/>
+```
 
-Properties can be set in the properties window:
-<img src="media/Controls-image1.png" style="width:3.25833in;height:1.80833in" alt="Intellisense in XAML part 1" />
+Properties can be set in the properties window:  
+<img src="Controls-image1.png" style="width:3.25833in;height:1.80833in" alt="Intellisense in XAML part 1" />  
 
 Or in XAML:
-<Button x:Name="Button1" Content="Button"
-HorizontalAlignment="Left" VerticalAlignment="Top"
-Foreground="Beige"/>
-
+```xml
+<Button x:Name="Button1" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Beige"/>
+```
 Or in code:
+```cs
 Button1.Foreground = new SolidColorBrush(Windows.UI.Colors.Beige);
+```
 
 # Create an Event Handler
-Select the control and then click the Events tab at the top of the Properties window:
-<img src="media/Controls-image2.png" style="width:3.54167in;height:1.35in" />
+Select the control and then click the Events tab at the top of the Properties window:  
+<img src="Controls-image2.png" style="width:3.54167in;height:1.35in" />  
 
 Or in code:
+```cs
 private void Button_Click(object sender, RoutedEventArgs e)
 {
-Button b = (Button)sender;
-b.Foreground = new SolidColorBrush(Windows.UI.Colors.Blue);
+    Button b = (Button)sender;
+    b.Foreground = new SolidColorBrush(Windows.UI.Colors.Blue);
 }
-
-Or in XAML — then, double-click <New Event Handler>:
-<img src="media/Controls-image3.png" style="width:4.2in;height:1.20833in" alt="Intellisense for the click event" />
+```
+Or in XAML — then, double-click `<New Event Handler>`:  
+<img src="Controls-image3.png" style="width:4.2in;height:1.20833in" alt="Intellisense for the click event" />
 
 Associate an event with its event handler in code:
+```cs
 Button1.Click += new RoutedEventHandler(Button_Click);
-
+```
