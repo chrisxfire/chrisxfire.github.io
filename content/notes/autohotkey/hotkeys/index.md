@@ -26,15 +26,15 @@ hotkey-name::
 
 # Modifiers
 # — Winkey
-`LWin` — Left Winkey
-`^` — Ctrl
-`<^` — Left Ctrl
-`!` — Alt
-`!` Up — only fire when Alt is released (vs pressed)
-`+` — Shift
-`-` — hotkey will fire even if extra modifier keys are held
-`~` — prevents hotkey from blocking the key's native function
-`$` — if the script uses the Send function to send the keys that comprise of the hotkey itself, use this.
+`LWin` — Left Winkey  
+`^` — Ctrl  
+`<^` — Left Ctrl  
+`!` — Alt  
+`!` Up — only fire when Alt is released (vs pressed)  
+`+` — Shift  
+`-` — hotkey will fire even if extra modifier keys are held  
+`~` — prevents hotkey from blocking the key's native function  
+`$` — if the script uses the Send function to send the keys that comprise of the hotkey itself, use this.  
 
 Note: `:` is not a valid modifier
 

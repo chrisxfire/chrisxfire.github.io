@@ -35,14 +35,14 @@ By default, the indentation (tab) to the left of this line is preserved.
 ```
 
 # Options
-`-` — ending character not required
-`C` — case-sensitive
-`?` — hotstring will be triggered even if its preceding characters are alphanumeric
-`B0` — disable automatic backspacing of abbreviation
-`Kn` — delay between keystrokes (including auto-backspacing and auto replacement)
-- Use k10 for 10ms delay and k-1 for no delay
-`T` — text mode; don't translate {Enter} to Enter or ^c to Ctrl + C
-`X` — execute; inside of replacement text, the hotstring accepts a function call or expression to execute
+`-` — ending character not required  
+`C` — case-sensitive  
+`?` — hotstring will be triggered even if its preceding characters are alphanumeric  
+`B0` — disable automatic backspacing of abbreviation  
+`Kn` — delay between keystrokes (including auto-backspacing and auto replacement)  
+- Use k10 for 10ms delay and k-1 for no delay  
+`T` — text mode; don't translate <kbd>Enter</kbd> to Enter or ^c to <kbd>Ctrl</kbd> + <kbd>C</kbd>  
+`X` — execute; inside of replacement text, the hotstring accepts a function call or expression to execute  
 
 # Context-sensitive Hotstrings
 ```autohotkey
