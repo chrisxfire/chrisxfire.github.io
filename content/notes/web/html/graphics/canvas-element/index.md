@@ -57,14 +57,14 @@ Syntax: `<canvas id="myCanvas" width="200" height="100"></canvas>`
 `ctx.fillRect(10, 10, 150, 80);`
 `</script>`
 
-<img src="media/xHTML_Graphics---canvas--Element-image1.png" style="width:1.40833in;height:0.7in" />
+<img src="xHTML_Graphics---canvas--Element-image1.png" style="width:1.40833in;height:0.7in" />
 
-<img src="media/xHTML_Graphics---canvas--Element-image2.png" style="width:1.5in;height:0.81667in" />
+<img src="xHTML_Graphics---canvas--Element-image2.png" style="width:1.5in;height:0.81667in" />
 
-<img src="media/xHTML_Graphics---canvas--Element-image3.png" style="width:1.46667in;height:0.75in" />
+<img src="xHTML_Graphics---canvas--Element-image3.png" style="width:1.46667in;height:0.75in" />
 
-<img src="media/xHTML_Graphics---canvas--Element-image4.png" style="width:1.5in;height:0.79167in" />
+<img src="xHTML_Graphics---canvas--Element-image4.png" style="width:1.5in;height:0.79167in" />
 
-<img src="media/xHTML_Graphics---canvas--Element-image5.png" style="width:1.50833in;height:0.775in" />
+<img src="xHTML_Graphics---canvas--Element-image5.png" style="width:1.50833in;height:0.775in" />
 
 

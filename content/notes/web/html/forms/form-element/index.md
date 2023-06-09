@@ -138,6 +138,6 @@ Represents the result of a calculation (like one performed via a script):
 `<br><br>`
 `<input type="submit">`
 `</form>`
-<img src="media/xHTML_Forms---form--Element-image1.png" style="width:1.74167in;height:1.28333in" />
+<img src="xHTML_Forms---form--Element-image1.png" style="width:1.74167in;height:1.28333in" />
 
-<img src="media/xHTML_Forms---form--Element-image2.png" style="width:1.88333in;height:1.5in" />
+<img src="xHTML_Forms---form--Element-image2.png" style="width:1.88333in;height:1.5in" />

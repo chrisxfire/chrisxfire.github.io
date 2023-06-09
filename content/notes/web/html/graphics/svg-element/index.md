@@ -48,10 +48,10 @@ SVG defines vector-based graphics in XML format.
 `Sorry, your browser does not support inline SVG.`
 `</svg>`
 
-<img src="media/xHTML_Graphics---svg--Element-image1.png" style="width:0.95in;height:0.79167in" />
+<img src="xHTML_Graphics---svg--Element-image1.png" style="width:0.95in;height:0.79167in" />
 
-<img src="media/xHTML_Graphics---svg--Element-image2.png" style="width:1.275in;height:0.34167in" />
+<img src="xHTML_Graphics---svg--Element-image2.png" style="width:1.275in;height:0.34167in" />
 
-<img src="media/xHTML_Graphics---svg--Element-image3.png" style="width:0.88333in;height:0.84167in" />
+<img src="xHTML_Graphics---svg--Element-image3.png" style="width:0.88333in;height:0.84167in" />
 
-<img src="media/xHTML_Graphics---svg--Element-image4.png" style="width:1.20833in;height:1.075in" /><img src="media/xHTML_Graphics---svg--Element-image5.png" style="width:1.325in;height:0.95in" />
+<img src="xHTML_Graphics---svg--Element-image4.png" style="width:1.20833in;height:1.075in" /><img src="xHTML_Graphics---svg--Element-image5.png" style="width:1.325in;height:0.95in" />

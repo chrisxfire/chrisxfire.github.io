@@ -133,9 +133,9 @@ Overrides the `target` attribute of the `<form>` element. Works with `submit` an
 
 ## `formnovalidate` Attribute
 Overrides the `novalidate` attribute of the `<form>` element. Works with `submit`.
-<img src="media/xHTML_Forms---form--Element_Forms---input--Element-image1.png" style="width:2.00833in;height:1.075in" />
+<img src="xHTML_Forms---form--Element_Forms---input--Element-image1.png" style="width:2.00833in;height:1.075in" />
 
-<img src="media/xHTML_Forms---form--Element_Forms---input--Element-image2.png" style="width:2.61667in;height:1.1in" />
+<img src="xHTML_Forms---form--Element_Forms---input--Element-image2.png" style="width:2.61667in;height:1.1in" />
 
-<img src="media/xHTML_Forms---form--Element_Forms---input--Element-image3.png" style="width:1.54167in;height:0.88333in" />
+<img src="xHTML_Forms---form--Element_Forms---input--Element-image3.png" style="width:1.54167in;height:0.88333in" />
 

@@ -112,4 +112,4 @@ Other CSS border properties:
 - `border-radius: 10px; /* rounds the border's corners by 10 pixels */`
 - `border-spacing: 30px; /* changes space between cells */`
 - `border-style:`
-<img src="media/xHTML_Tables-image1.png" style="width:0.94167in;height:1.83333in" />
+<img src="xHTML_Tables-image1.png" style="width:0.94167in;height:1.83333in" />
