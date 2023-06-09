@@ -1,11 +1,11 @@
 ---
 title: notes > swe > methodologies > sdlc
 date: 2023-02-22T11:11:52-0700
-draft: true
+draft: false
 ---
 # System Development Lifecycle
-A process to plan, create, test, and deploy an information system.
-A description of the phases of the lifecycel of a system.
+A process to plan, create, test, and deploy an information system.  
+A description of the phases of the lifecycel of a system.  
 
 Models
 - Waterfall

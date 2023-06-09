@@ -1,10 +1,10 @@
 ---
 title: notes > swe > concepts > stack and heap
 date: 2022-01-02T21:54:37-0700
-draft: true
+draft: false
 ---
 # Heap and Stack
-The *stack* and *heap* can be anywhere in physical or virtual memory.
+The *stack* and *heap* can be anywhere in physical or virtual memory.  
 
 The *heap* is memory set aside for dynamic allocation:
 - Allocated when the application starts by the runtime.
@@ -13,7 +13,7 @@ The *heap* is memory set aside for dynamic allocation:
   - When no more pointers point to the data, it becomes *garbage*.
 - Heap memory is reclaimed when the application exits.
 
-The *stack* is memory set aside as overhead space for a thread of execution:
+The *stack* is memory set aside as overhead space for a thread of execution:  
 - It is faster than *heap* memory because:
   - It is managed directly by the CPU
   - It uses a LIFO mechanism (most recently reserved block is the first to be freed), which means it is more likely to have the data in its L1 or L2 cache.

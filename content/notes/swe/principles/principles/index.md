@@ -1,7 +1,7 @@
 ---
 title: notes > swe > principles > principles
 date: 2023-03-16T17:24:53-0600
-draft: true
+draft: false
 ---
 # DRY – Don't repeat yourself
 
@@ -48,7 +48,6 @@ Be contravariant in the input type and covariant in the output type.
 - Dependency Inversion
   - High-level modules should not depend on low-level modules. Both should depend on abstractions.
   - Abstractions should not depend on details. Details should depend on abstractions.
-
 
 # Ya Ain't Gonna Need It
 Don't add layers of architecture that only may be needed in the future.

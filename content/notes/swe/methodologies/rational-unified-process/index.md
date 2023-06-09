@@ -1,7 +1,7 @@
 ---
 title: notes > swe > methodologies > rational unified process
 date: 2023-02-22T11:13:19-0700
-draft: true
+draft: false
 ---
 # Rational Unified Process
 - Created by Rational Software, which was later acquired by IBM (2013).
@@ -32,4 +32,3 @@ draft: true
 # Tools
 - IBM Rational Method Composer—use to author, configure, view and publish processes
 - Eclipse Process Framework (open source)
-

@@ -1,7 +1,7 @@
 ---
 title: notes > swe > patterns > design patterns
 date: 2022-11-14T09:55:57-0700
-draft: true
+draft: false
 ---
 # The 23 Design Patterns from the Gang of Four
 <table>
@@ -54,9 +54,9 @@ draft: true
 </table>
 
 
-<img src="media/Design-Patterns-image1.png" style="width:10.9in;height:13.98333in" />
+<img src="Design-Patterns-image1.png" style="width:10.9in;height:13.98333in" />
 
-<img src="media/Design-Patterns-image2.png" style="width:10.925in;height:14.34167in" />
+<img src="Design-Patterns-image2.png" style="width:10.925in;height:14.34167in" />
 
 # Concepts
 Factory—a method or class that produces something:
@@ -66,12 +66,12 @@ Factory—a method or class that produces something:
 
 Creation Method—a method that creates objects.
 - Every *factory method* is a *creation method*, but not every *creation method* is a *factory method*.
-- It is a wrapper around a constructor call. This can prevent the constructor from needing to be changed.
+- It is a wrapper around a constructor call. This can prevent the constructor from needing to be changed.  
 
-Static Creation Method—a *creation method* declared static.
+Static Creation Method—a *creation method* declared static. 
 
-Simple Factory Pattern—a class that has one creation method with a large conditional that, based on method parameters, chooses which product class to instantiate and then return.
+Simple Factory Pattern—a class that has one creation method with a large conditional that, based on method parameters, chooses which product class to instantiate and then return.  
 
-Factory Method Pattern—a creational design pattern that provides an interface for creating objects but allows subclasses to alter the type of an object that will be created.
+Factory Method Pattern—a creational design pattern that provides an interface for creating objects but allows subclasses to alter the type of an object that will be created.  
 
-Abstract Factory Pattern—a creational design pattern that allows producing families of related (or dependent) objects without specifying their concrete classes.
+Abstract Factory Pattern—a creational design pattern that allows producing families of related (or dependent) objects without specifying their concrete classes.  

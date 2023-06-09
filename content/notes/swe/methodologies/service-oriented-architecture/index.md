@@ -1,20 +1,20 @@
 ---
 title: notes > swe > methodologies > service oriented architecture
 date: 2023-02-22T11:30:23-0700
-draft: true
+draft: false
 ---
 # Service-Oriented Architecture (SOA)
-An architectural style with a focus on discrete *services* vs. a monolithic design.
+An architectural style with a focus on discrete *services* vs. a monolithic design.  
 
-Service—a function made available over a network to consumers.
+Service — a function made available over a network to consumers.
 - Represents a repeatable business activity with a specific outcome.
 - Self-contained
 - Black box to consumers
 - Composable
 
-Service Mesh—a conjunction of services that provide functionality akin to an application.
+Service Mesh — a conjunction of services that provide functionality akin to an application.  
 
-Services must be *stateless*—they must return the requested value or an exception.
+Services must be *stateless* — they must return the requested value or an exception.  
 
 # SOA Roles
 1.  Service provider
@@ -22,7 +22,7 @@ Services must be *stateless*—they must return the requested value or an except
 3.  Service consumer
 
 # Implementation Approaches
-- Web Services—SOAP, REST, gRPC
+- Web Services — SOAP, REST, gRPC
 - Microservices
 - Messaging (ex: RabbitMQ)
 - WCF
@@ -39,7 +39,7 @@ Services must be *stateless*—they must return the requested value or an except
 - Service bus
 
 # Microservices
-Microservices arrange an app as a collection of loosely-coupled, fine-grained services.
+Microservices arrange an app as a collection of loosely-coupled, fine-grained services. 
 No standard definition.
 
 Characteristics:
@@ -49,7 +49,7 @@ Characteristics:
 - "Do one thing and do it well."
 - Lowry: "Every class is a service."
 
-Service granularity—defines how big a service is.
+Service granularity — defines how big a service is.
 - At Amazon, 1 service = 3 to 10 engineers
 
 # Service Mesh Architecture

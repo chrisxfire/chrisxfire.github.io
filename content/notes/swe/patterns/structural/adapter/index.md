@@ -1,22 +1,23 @@
 ---
 title: notes > swe > patterns > structural > adapter
 date: 2023-03-05T15:51:03-0700
-draft: true
+draft: false
 ---
-<img src="media/Structural_Adapter-image1.png" style="width:5.28333in;height:3.4in" />
+<img src="Structural_Adapter-image1.png" style="width:5.28333in;height:3.4in" />
+
 # Adapter
-Type:Structural
-Purpose:Enables objects with incompatible interfaces to collaborate.
+Type: Structural  
+Purpose: Enables objects with incompatible interfaces to collaborate.  
 Use to:
 - Enable use of an existing class whose interface is not compatible with your code.
-- Reuse several existing subclasses that lack some common functionality that cannot be added to the superclass.
-Principles:Single Responsibility Principle; Open/Closed Principle
-Complexity:1/3
-Popularity:3/3
-# 
+- Reuse several existing subclasses that lack some common functionality that cannot be added to the superclass.  
+Principles: Single Responsibility Principle; Open/Closed Principle  
+Complexity: 1/3  
+Popularity: 3/3  
+
 # Overview
 ## Object Adapter
-<img src="media/Structural_Adapter-image2.png" style="width:5.475in;height:3.025in" alt="Structure of the Adapter design pattern (the object adapter)" />
+<img src="Structural_Adapter-image2.png" style="width:5.475in;height:3.025in" alt="Structure of the Adapter design pattern (the object adapter)" />  
 
 1.  The Client is a class that contains the existing business logic of the program.
 2.  The Client Interface describes a protocol that other classes must follow to be able to collaborate with the client code.
@@ -26,44 +27,46 @@ Popularity:3/3
 
 # Implementing
 Assumes you have a *service* class (that you cannot change) and one or more *client* classes that would benefit from the services class.
+```cs
 public SomeService
 {
-public string GetSpecificRequest()
-{
-return "Specific request";
-}
+    public string GetSpecificRequest()
+    {
+        return "Specific request";
+    }
 }
 
-Declare the client interface and describe how clients communicate with the service.
+// Declare the client interface and describe how clients communicate with the service.
 public interface ITarget
 {
-string GetRequest();
+    string GetRequest();
 }
 
-Create the adapter class and inherit the client interface.
+// Create the adapter class and inherit the client interface.
 public class Adapter : ITarget
 {
-// Add a field to the adapter class to store a reference to the service object (either initialize the field via the constructor or pass it to
-// the adapter when calling its methods).
-private readonly SomeService _service;
+    // Add a field to the adapter class to store a reference to the service object (either initialize the field via the constructor or pass it to
+    // the adapter when calling its methods).
+    private readonly SomeService _service;
 
-public Adapter(SomeService service)
-{
-this._service = service;
+    public Adapter(SomeService service)
+    {
+        this._service = service;
+    }
+
+    // Implement all methods of the client interface in the adapter class (delegating most of the real work to the service object).
+    public string GetRequest()
+    {
+        return this._service.GetSpecificRequest();
+    }
 }
 
-// Implement all methods of the client interface in the adapter class (delegating most of the real work to the service object).
-public string GetRequest()
-{
-return this._service.GetSpecificRequest();
-}
-}
-
-Clients use the adapter via the client interface.
+// Clients use the adapter via the client interface.
 public static void Main(string[] args)
 {
-Service service = new();
-ITarget target = new Service(service);
+    Service service = new();
+    ITarget target = new Service(service);
 
-target.GetRequest();
+    target.GetRequest();
 }
+```
