@@ -32,23 +32,23 @@ Key-Value Pairs are of format `key=value`
 
 ## Properties
 ### Widely-supported Properties
-| Property                   | Definition                                               | Possible values |
-| -------------------------- | -------------------------------------------------------- | --------------- |
-| `indent_style`             | The indentation style                                    | `tab`           | `space`  |
-| `indent_size`              | The size of indentation                                  | *integer*       | `tab`    |
-| `tab_width`                | Width of a single tabstop                                | *integer*       |
-| `end_of_line`              | Line ending file format                                  | lf`             | crlf`    | `cr`        |
-| `charset`                  | File character encoding                                  | `latin1`        | `utf`-`8 | utf`-`16be` | `utf16`-`le` | `utf`-`8`-`bom` |
-| `trim_trailing_whitespace` | Whether whitespace is removed from EOL                   | `true`          | `false`  |
-| `insert_final_newline`     | Whether a file should end in a newline                   | `true`          | `false`  |
-| `root`                     | Identify the root editorconfig (must be set in preamble) | `true`          | `false`  |
+| Property                   | Definition                                               | Possible values                                        |
+| -------------------------- | -------------------------------------------------------- | ------------------------------------------------------ |
+| `indent_style`             | The indentation style                                    | `tab`, `space`                                         |
+| `indent_size`              | The size of indentation                                  | *integer*, `tab`                                       |
+| `tab_width`                | Width of a single tabstop                                | *integer*                                              |
+| `end_of_line`              | Line ending file format                                  | `lf`, `crlf`, `cr`                                     |
+| `charset`                  | File character encoding                                  | `latin1`, `utf-8`, `utf-16be`, `utf16-le`, `utf-8-bom` |
+| `trim_trailing_whitespace` | Whether whitespace is removed from EOL                   | `true`, `false`                                        |
+| `insert_final_newline`     | Whether a file should end in a newline                   | `true`, `false`                                        |
+| `root`                     | Identify the root editorconfig (must be set in preamble) | `true`, `false`                                        |
 
 ### Limited Properties
 | Property          | Definition                                  | Possible values |
 | ----------------- | ------------------------------------------- | --------------- |
-| `max_line_length` | Force hard line wrapping after n characters | *integer*       | `off` |
+| `max_line_length` | Force hard line wrapping after n characters | *integer*, `off` |
 
-For any property, a value of unset removes the effect of that property, even if it was set before.
+For any property, a value of `unset` removes the effect of that property, even if it was set before.
 
 # EditorConfig in Visual Studio
 - EditorConfig settings take precedence over global Visual Studio text editor settings.
@@ -79,14 +79,14 @@ This format is understood by the compiler at build time:
 `dotnet_diagnostic.ruleID.severity = severity-level`
 
 ## [Severity Levels](https://learn.microsoft.com/en-us/visualstudio/code-quality/use-roslyn-analyzers?view=vs-2022#configure-severity-levels)
-| Severity (Solution Explorer) | Severity (EditorConfig file) | Build-time behavior                                                                                                                | Editor behavior                                                                                       |
-| ---------------------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Error                        | error                        | Violations appear as*Errors*in the Error List and in command-line build output, and cause builds to fail.                          | Offending code is underlined with a red squiggle and marked by a small red box in the scroll bar.     |
-| Warning                      | warning                      | Violations appear as*Warnings*in the Error List and in command-line build output, but don't cause builds to fail.                  | Offending code is underlined with a green squiggle and marked by a small green box in the scroll bar. |
-| Info                         | suggestion                   | Violations appear as*Messages*in the Error List, and not at all in command-line build output.                                      | Offending code is underlined with a gray squiggle and marked by a small gray box in the scroll bar.   |
-| Hidden                       | silent                       | Non-visible to user.                                                                                                               | Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however.                |
-| None                         | none                         | Suppressed completely.                                                                                                             | Suppressed completely.                                                                                |
-| Default                      | default                      | Corresponds to the default severity of the rule. To determine what the default value for a rule is, look in the Properties window. | Corresponds to the default severity of the rule.                                                      |
+| Severity (Solution Explorer) | Severity (EditorConfig file) | Build-time behavior                                                                Editor behavior                                                                        |
+| ---------------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Error                        | error                        | Violations appear as*Errors*in the Error List and in command-line build output, and cause builds to fail.                                                                 | Offending code is underlined with a red squiggle and marked by a small red box in the scroll bar.     |
+| Warning                      | warning                      | Violations appear as*Warnings*in the Error List and in command-line build output, but don't cause builds to fail.                                                         | Offending code is underlined with a green squiggle and marked by a small green box in the scroll bar. |
+| Info                         | suggestion                   | Violations appear as*Messages*in the Error List, and not at all in command-line build output.                                                                             | Offending code is underlined with a gray squiggle and marked by a small gray box in the scroll bar.   |
+| Hidden                       | silent                       | Non-visible to user.                                                               Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however. |
+| None                         | none                         | Suppressed completely.                                                             Suppressed completely.                                                                 |
+| Default                      | default                      | Corresponds to the default severity of the rule. To determine what the default value for a rule is, look in the Properties window.                                        | Corresponds to the default severity of the rule.                                                      |
 
 # Sample editorconfig Files
 - Roslyn's editorconfig: [roslyn/.editorconfig at main · dotnet/roslyn (github.com)](https://github.com/dotnet/roslyn/blob/main/.editorconfig)
