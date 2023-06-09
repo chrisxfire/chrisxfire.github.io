@@ -26,6 +26,7 @@ static IEnumerable<string> ReadFrom(string file)
 	}
 }
 ```
+
 # StreamReader Method
 ```cs
 using (var sr = new StreamReader(path)) 
