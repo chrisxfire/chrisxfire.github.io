@@ -22,11 +22,11 @@ Component lifecycle events are processed in a set of lifecycle methods.  These m
 
 More: https://learn.microsoft.com/en-us/aspnet/core/blazor/components/lifecycle?view=aspnetcore-7.0#when-parameters-are-set-setparametersasync
 
-# `OnInitialized{Async}`
+# `OnInitialized{Async}()`
 `OnInitialized{Async}()` is invoked when the Component is initialized after having received its initial parameters in SetParametersAsync.
 
 ## Prerendering consideration
-Blazor apps that prerender their content on the server call OnInitializedAsync *twice*:
+Blazor apps that prerender their content on the server call `OnInitializedAsync` *twice*:
 * Once when Component is initially rendered statically
 * A second time when the browser renders the Component
 
