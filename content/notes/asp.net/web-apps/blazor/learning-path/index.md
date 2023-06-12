@@ -24,7 +24,7 @@ draft: true
   - [x] SignalR
   - [x] Static files
 - [ ] Components...
-  - [ ] Overview
+  - [x] Overview
   - [ ] Generic type support
   - [ ] Synchronization context
   - [ ] Preserve relationships with `@key`

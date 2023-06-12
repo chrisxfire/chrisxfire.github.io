@@ -5,17 +5,14 @@ draft: false
 ---
 
 # Overview
-A component is an element of UI — a page, dialog, button, form, etc — that is built into a .NET assembly.  It includes layout and logic.
-
+A *component* is an element of UI — a page, dialog, button, form, etc — that is built into a .NET assembly.  It includes layout and logic.
 
 Components can be nested, reused, shared among projects, and used in MVC and Razor Pages apps.
 
 # Naming
-Component's UI part are in .razor files and the logic is in a code-behind `.razor.cs` file.  
+Component's UI part are in `.razor` files and the logic is in a code-behind `.razor.cs` file.  
 
-Page Components (Components that produces pages) are defined under `/Pages` by convention.
-
-Other Components are defined under `/Components`.
+Page Components (Components that produce pages) are defined under `/Pages` by convention.  Other Components are defined under `/Components`.
 
 # Component Namespaces
 Components can be placed anywhere in the project.
@@ -121,3 +118,6 @@ Instead, use a method, field, or property:
 	…
 }
 ```
+
+## No Support for Tag Helpers in Components
+Instead, create a Component with the same functionality as the tag helper and use that Component instead.
