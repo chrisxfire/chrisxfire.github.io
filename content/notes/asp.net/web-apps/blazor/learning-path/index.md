@@ -25,7 +25,7 @@ draft: true
   - [x] Static files
 - [ ] Components...
   - [x] Overview
-  - [ ] Generic type support
+  - [x] Generic type support
   - [ ] Synchronization context
   - [ ] Preserve relationships with `@key`
   - [ ] Overwriting parameters
