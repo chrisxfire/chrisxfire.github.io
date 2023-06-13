@@ -1,5 +1,5 @@
 ---
-title: notes > cli > posh > scripting
+title: notes > cli > powershell > scripting
 date: 2023-05-01T00:00:00-06:00
 draft: false
 ---

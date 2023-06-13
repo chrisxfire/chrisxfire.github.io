@@ -1,5 +1,5 @@
 ---
-title: notes > cli > posh > common
+title: notes > cli > powershell > common
 date: 2021-12-02T00:00:00-06:00
 draft: false
 ---
@@ -24,18 +24,22 @@ draft: false
 | `$StackTrace` | The stack trace for the most recent error |
 
 # Chaining Commands
-Run `cmd2` only if `cmd1` succeeds: `cmd1 && cmd2`
-Run `cmd2` only if `cmd1` fails: `cmd1 || cmd2`
-Run `cmd1` and `cmd2` regardless of `cmd1`'s result: `cmd1; cmd2`
+Run `cmd2` only if `cmd1` succeeds: `cmd1 && cmd2`  
+Run `cmd2` only if `cmd1` fails: `cmd1 || cmd2`  
+Run `cmd1` and `cmd2` regardless of `cmd1`'s result: `cmd1; cmd2`  
 
 # Environment Variables  
 Get:  `$Env:variable-name`  
 Set:  
-`$Env:variable-name = "*new-value*"`  
-`$Env:variable-name += "*new-value-to-append*"`
+```powershell
+$Env:variable-name = "new-value"  
+$Env:variable-name += "new-value-to-append"
+```
 
 Persist:
-`[Environment]::SetEnvironmentVariable('*key*', '*value*', '*scope*')` # scope = `machine` or `user`
+```powershell
+[Environment]::SetEnvironmentVariable('<key>', '<value>', '<scope>') # scope = machine or user
+```
 
 ## Set environment variables
 Set an environment variable for this session only:		    `set key="value"`  
@@ -46,49 +50,68 @@ Set an environment variable that has a hierarchical key:	`set level1:level2="val
 
 # Files & Directories
 ## Cat Clipboard to File
-`Get-Clipboard | Out-File filename`
+```powershell
+Get-Clipboard | Out-File filename
+```
 
 ## Copy Files / Directories
 ```powershell
 copy /srcdir/subdir /dstdir/newsubdir -Recurse # copy /srcdir/subdir and all of its files and subdirectories to /dstdir/newsubdir and create it if it doesn't exist
 ```
+
 ## CWD
 ```powershell
 Get-Location
 ```
+
 ## Find
 ```powershell
-gci -Path path -Recurse -Force # path can include wildcards.
+gci -Path <starting-path> `
+    -Include <glob> `
+    -Directory <# if only directories should be returned, not files #>`
+    -File <# if only files should be returned, not directories #>`
+    -Exclude <glob>
+    -ErrorAction SilentlyContinue
+    -Recurse -Force
 ```
-## Find String in Files Recursively
-`gci -Path ./*.* -Recurse | Select-String -Path file -Pattern "*regex*"`  
-    `-Context n, m` # Add n lines before and m lines after the match; matches are denoted with >
 
 ## "grep"
 ```powershell
 Select-String  
-  -Path path  
-  -Pattern "*regex*" # The pattern to match  
-  -Context n,m # Add n lines before and m lines after the match; matches are denoted with >
+  -Path <path> `
+  -Pattern "<regex>" <# The pattern to match #>`
+  -Context n,m <# Add n lines before and m lines after the match; matches are denoted with > #>
 ```
 
 ## Pipe to a File
-`cmd | out-file filename`
+```powershell
+cmd | out-file filename
+```
 
 ## Remove Directory Recursively
-`ri path -Recurse -Force`
+```powershell
+ri path -Recurse -Force
+```
 
 ## Remove File Recursively
-`Get-ChildItem * -Include *.csv -Recurse | Remove-Item`
+```powershell
+Get-ChildItem  -Include .csv -Recurse | Remove-Item
+```
 
 ## "tail"
-`Get-Content filename -Tail n`
+```powershell
+Get-Content filename -Tail n
+```
 
 ## "tail -f"
-`Get-Content path -Tail 1 -Wait`
+```powershell
+Get-Content path -Tail 1 -Wait
+```
 
 ## "touch"
-`ni filename`
+```powershell
+ni filename
+```
 
 ## Write to a File
 ```powershell
@@ -103,20 +126,30 @@ $fileContent | Set-Content $filePath
 ```
 
 # History
-`get-history` # Stored in `%userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline`
+```powershell
+get-history # Stored in `%userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline`
+```
 
 # PowerShell version
-`$PSVersionTable`
+```powershell
+$PSVersionTable
+```
 
 # Profiles
 Locations  
 `AllUsersAllHosts`, `AllUsersCurrentHost`, `CurrentUserAllHosts`, `CurrentUserCurrentHost`
 
 # Set a Profile
-`notepad $Profile.Location`
+```powershell
+notepad $Profile.Location
+```
 
 # System Folders
-`View:  [environment]::getfolderpath("*system-folder-name*")`
+```powershell
+[environment]::getfolderpath("system-folder-name")
+```
 
 # Windows Services
-`Get-Services [-DisplayName "*glob*"]`
+```powershell
+Get-Services [-DisplayName "glob"]
+```
