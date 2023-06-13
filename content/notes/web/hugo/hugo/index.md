@@ -67,5 +67,11 @@ public/
 `hugo server --navigateToChanged` (The browser will automatically redirect to content when it is changed)
 
 # Customization
+## Change syntax highlighting style
+See https://xyproto.github.io/splash/docs/all.html for availble styles.
+
+1. Navigate to `/themes/hugo-blog-awesome/assets`
+2. Run `hugo gen chromastyles --style=<style-name> > code-highlight.css`
+
 ## Customizing the width of posts
 Adjust `$narrow-size` and `$spacing-full` in `/assets/sass/main.scss`

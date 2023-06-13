@@ -5,6 +5,7 @@ draft: false
 ---
 # [Overview](https://gohugo.io/hugo-modules/)
 Modules can be a whole project or just one of the 7 component types (static, content, layouts, etc).  
+
 Hugo Modules are powered by Go Modules.  
 
-Hugo modules are managed with hugo mod command.
+Hugo modules are managed with `hugo mod` command.
