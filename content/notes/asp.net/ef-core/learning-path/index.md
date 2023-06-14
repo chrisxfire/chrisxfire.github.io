@@ -51,10 +51,21 @@ draft: false
   - [ ] Overview
   - [ ] ...
 - [ ] Change tracking...
-  - [ ] Overview
-  - [ ] ...
+  - [X] Overview
+  - [ ] Explicitly tracking entities
+  - [ ] Accessing tracked entities
+  - [ ] Changing foreign keys and navigations
+  - [ ] Identity resolution
+  - [ ] Additional change tracking features
+  - [ ] Change tracker debugging
 - [ ] Logging, events and diagnostics...
-  - [ ] Overview...
+  - [ ] Overview
+  - [ ] Simple logging
+  - [ ] Microsoft.Extensions.Logging
+  - [ ] Events
+  - [ ] Interceptors
+  - [ ] Diagnostic listeners
+  - [ ] Event counters
 - [ ] Testing...
   - [ ] Introduction to testing
   - [ ] ...
