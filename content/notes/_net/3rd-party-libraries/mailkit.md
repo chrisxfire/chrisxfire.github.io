@@ -69,6 +69,7 @@ message.Body = multipart;
 ```
 
 # `MailKit.Net.Smtp.SmtpClient`
+```cs
 public static void SendMessages (IList<MimeMessage> messages)
 {
     using (var client = new SmtpClient()) 
