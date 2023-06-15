@@ -37,9 +37,9 @@ defaultContentLanguage = "en-gb"
     weight = 90
 
 [params]
-  sitename = "params sitename"
+  sitename = "chricodes.net"
   defaultColor = "dark" # set default color mode: dark or light or auto
-  description = "params description"
+  description = "chrisxfire blog"
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
   goToTop = true # set to false to disable 'go to top' button
@@ -53,8 +53,8 @@ defaultContentLanguage = "en-gb"
 
 # Allow to override webmanifest options
 [params.webmanifest]
-  name = "sitename" # will use "params.sitename" or "title" by default
-  short_name = "sitename" # same as name
+  name = "chriscodes.net" # will use "params.sitename" or "title" by default
+  short_name = "chriscodes.net" # same as name
   start_url = "/" # will use homepage url by default
   theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
   background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
