@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > core > scaffolding
+title: notes > asp.net > fundamentals > scaffolding
 date: 2023-04-25T00:00:00-06:00
 draft: false
 ---
