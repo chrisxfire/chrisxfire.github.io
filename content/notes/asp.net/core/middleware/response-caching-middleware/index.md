@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > core > middleware > response caching middleware
+title: notes > asp.net > fundamentals > middleware > response caching middleware
 date: 2023-01-08T00:00:00-06:00
 draft: false
 ---

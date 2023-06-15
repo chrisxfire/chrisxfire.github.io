@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > core > web servers
+title: notes > asp.net > fundamentals > web servers
 date: 2023-01-08T00:00:00-06:00
 draft: false
 ---
