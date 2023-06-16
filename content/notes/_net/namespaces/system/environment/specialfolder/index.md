@@ -1,5 +1,5 @@
 ---
-title: notes > .net > namespaces > system > environment > specialfolder
+title: notes > .net > namespaces > system.environment > specialfolder
 date: 2021-11-28T13:12:51-0700
 draft: false
 ---

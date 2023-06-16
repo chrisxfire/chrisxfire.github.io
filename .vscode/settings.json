@@ -1,4 +1,4 @@
 {
-    "editor.wordSeparators": "`~!#$%^&*()=+[{]}\\|;:'\",<>/?",
+    "editor.wordSeparators": "`~!#$%^&*=+[{]}\\|;:'\",/?",
     "markdown.extension.math.enabled": false
 }
