@@ -34,3 +34,36 @@ using (var sr = new StreamReader(path))
 	string contents = sr.ReadToEnd();
 }
 ```
+
+# File class
+- Methods of `File` are static: it is more efficient to use these for a single operation than a `FileInfo` instance.
+
+# Reading (Synchronous)
+## Reading an Entire File
+```cs
+string text = System.IO.File.ReadAllText(@"path");
+
+// Or, to read each line into a string array:
+string[] lines = System.IO.File.ReadAllLines(@"path");
+```
+
+## Reading a File Line by Line
+```cs
+string path = @"path";
+using (StreamReader sr = File.OpenText(Path)) 
+{
+	string s;
+	while (s = sr.ReadLine() != null) 
+	{
+		…
+	}
+}
+```
+
+# Methods
+- `File.AppendAllText(…)`
+- `File.Copy(sourceFileName: filename, destFileName: filename, overwrite: bool)`
+- `File.Delete(filename)`
+- `File.Open(pathToFile, FileMode.<FileMode>, FileAccess.<FileAccess>)` 
+- `File.ReadAllText(…)`
+- `File.WriteAllText(…)`
