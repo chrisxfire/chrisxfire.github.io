@@ -51,33 +51,38 @@ dotnet add package microsoft.aspnetcore.components.quickgrid --prerelease
 3. Remote data (like from a JSON API)
 
 ## EF Core `IQueryable`
-Add the Entity Framework adapter:  
-`Program.cs`
-```cs
-using Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter;
-// ...
-builder.Services.AddQuickGridEntityFrameworkAdapter();
-// ...
-```
+Using an EF Core data source requires additional configuration:
 
-Supply the EF's `DataContext`'s `DbSet` property as `QuickGrid`'s `Items` parameter:  
-`SomeComponent.razor`
-```html
-@inject ApplicationDbContext MyDbContext
+1. Add the Entity Framework adapter:  
+    ```powershell
+    dotnet add package microsoft.aspnetcore.components.quickgrid.entityframeworkadapter --prerelease
+    ```
+    `Program.cs`
+    ```cs
+    using Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter;
+    // ...
+    builder.Services.AddQuickGridEntityFrameworkAdapter();
+    // ...
+    ```
 
-<QuickGrid Items="@MyDbContext.People">
-    ...
-</QuickGrid>
-```
+3. Supply the EF's `DataContext`'s `DbSet` property as `QuickGrid`'s `Items` parameter:  
+    `SomeComponent.razor`
+    ```html
+    @inject ApplicationDbContext MyDbContext
 
-Or, filter the data before passing it:  
-```html
-@inject ApplicationDbContext MyDbContext
+    <QuickGrid Items="@MyDbContext.People">
+        ...
+    </QuickGrid>
+    ```
 
-<QuickGrid Items="@MyDbContext.Documents.Where(d => d.CategoryId == currentCategoryId)">
-    ...
-</QuickGrid>
-```
+    Or, filter the data before passing it:  
+    ```html
+    @inject ApplicationDbContext MyDbContext
+
+    <QuickGrid Items="@MyDbContext.Documents.Where(d => d.CategoryId == currentCategoryId)">
+        ...
+    </QuickGrid>
+    ```
 
 # Columns
 QuickGrid has two built-in column types:  PropertyColumn and TemplateColumn.  Use ColumnBase to create your own column types.
