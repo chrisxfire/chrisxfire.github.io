@@ -42,8 +42,8 @@ dotnet add package microsoft.aspnetcore.components.quickgrid --prerelease
         new Person(12130, "Kenji Sato", new DateOnly(2004, 1, 9)),
     }.AsQueryable();
 }
-```
-
+```  
+![](people.png)  
 # Data Sources
 `QuickGrid` supports:
 1. In-memory `IQueryable`
@@ -51,7 +51,7 @@ dotnet add package microsoft.aspnetcore.components.quickgrid --prerelease
 3. Remote data (like from a JSON API)
 
 ## EF Core `IQueryable`
-Using an EF Core data source requires additional configuration:
+Performs sorting/filter/etc inside the database.  Using an EF Core data source requires additional configuration:
 
 1. Add the Entity Framework adapter:  
     ```powershell
@@ -91,6 +91,7 @@ QuickGrid has two built-in column types:  PropertyColumn and TemplateColumn.  Us
 - Displays a single value specified by the `Property` parameter
 - Sorts automatically via `Sortable="true"`
 - Uses the property's name as title if not otherwise set
+- Use the `Format` parameter and provide a format string to control how the value is displayed
 
 ```html
 @inject DataSource Data
@@ -114,7 +115,9 @@ QuickGrid has two built-in column types:  PropertyColumn and TemplateColumn.  Us
     int ComputeAge(DateOnly birthDate)
         => DateTime.Now.Year - birthDate.Year - (birthDate.DayOfYear < DateTime.Now.DayOfYear ? 0 : 1);
 }
-```
+```  
+
+![](property-column.png)
 
 ## `TemplateColumn`
 - Uses Razor fragments for the content of its cells
@@ -157,6 +160,53 @@ QuickGrid has two built-in column types:  PropertyColumn and TemplateColumn.  Us
     void Fire(Person p) => message = $"You want to fire {p.FirstName} {p.LastName}";
 }
 ```
+<details><summary>CSS</summary>
+<p>
+
+```css
+/* Stripe effect */
+::deep tbody tr { background-color: rgba(0,0,0,0.04); }
+::deep tbody tr:nth-child(even) { background: rgba(255,255,255,0.4); }
+
+/* Button styles*/
+button {
+    background: #4969ee;
+    color: white;
+    padding: 0.2rem 1rem;
+    border-radius: 0.25rem;
+    margin: 0.25rem 0.5rem;
+}
+button:hover { background-color: #6884f9; }
+button:active { background-color: #192e86; }
+```  
+
+</p>  
+</details>  
+
+![](template-column.png)
+
+## Standard Column Parameters
+- `Title` — set the column title. Not applicable if you're using `HeaderTemplate`.
+- `Class` — set a CSS class name on the header and body cells for this column.
+- `Align` — align the column left/center/right.
+- `HeaderTemplate` — supply a Razor fragment that completely replaces the default header cell contents. If you use this, it's your responsibility to render any sort indicators you may want, and to call the grid's `SortByColumnAsync` if the header is clicked.
+- `ColumnOptions` — supply a Razor fragment that will appear in a popover if a "column options" button is clicked.
+- `Sortable` — indicate whether the grid should be sortable by this column. The default value varies based on the column type and other column-specific options.
+- `IsDefaultSortColumn` — indicate that the grid should be sorted by this column by default.
+- `InitialSortDirection` — indicate the default sort direction.
+- `PlaceholderTemplate` — supply a Razor fragment that will be used while the data load is pending. This is only applicable for virtualized grids.
+
+## Sorting
+- Sort a `PropertyColumn` with `Sortable="true"`
+- Sort a `Templatecolumn` by supplying a value to the `SortBy` parameter
+- Specify the `InitialSortDirection` on a column with `SortDirection.Ascending` or `Descending`
+
+### Sorting with Remote Data (ItemsProvider)
+If using an ItemsProvider callback, use the request parameter to access the current sort order:
+```cs
+request.GetSortByProperties()
+```  
+<o>Note: This method may throw an exception if the current sort order is *not* expressible as a chain of column names such as an a PropertyColumn with `Property="@(x => x.Width * x.Length)"`.</o>  
 
 ## Filtering
 For in-memory or EF Core data, use .NET's standard LINQ methods to apply filtering rules before passing data to the grid's `Items` parameter:  
@@ -177,8 +227,10 @@ For in-memory or EF Core data, use .NET's standard LINQ methods to apply filteri
         <PropertyColumn Property="@(c => c.Medals.Bronze)" Sortable="true" Align="Align.Right" />
         <PropertyColumn Property="@(c => c.Medals.Total)" Sortable="true" Align="Align.Right">
             <ColumnOptions>
-                <p>Min: <input type="range" @bind="minMedals" @bind:event="oninput" min="0" max="150" /> <span class="inline-block w-10">@minMedals</span></p>
-                <p>Max: <input type="range" @bind="maxMedals" @bind:event="oninput" min="0" max="120" /> <span class="inline-block w-10">@maxMedals</span></p>
+                <p>Min: <input type="range" @bind="minMedals" @bind:event="oninput" min="0" max="150" /> 
+                <span class="inline-block w-10">@minMedals</span></p>
+                <p>Max: <input type="range" @bind="maxMedals" @bind:event="oninput" min="0" max="120" /> 
+                <span class="inline-block w-10">@maxMedals</span></p>
             </ColumnOptions>
         </PropertyColumn>
     </QuickGrid>
@@ -200,14 +252,10 @@ For in-memory or EF Core data, use .NET's standard LINQ methods to apply filteri
             var result = itemsQueryable?.Where(c => c.Medals.Total <= maxMedals);
 
             if (!string.IsNullOrEmpty(nameFilter))
-            {
                 result = result.Where(c => c.Name.Contains(nameFilter, StringComparison.CurrentCultureIgnoreCase));
-            }
 
             if (minMedals > 0)
-            {
                 result = result.Where(c => c.Medals.Total >= minMedals);
-            }
 
             return result;
         }
@@ -219,6 +267,9 @@ For in-memory or EF Core data, use .NET's standard LINQ methods to apply filteri
     }
 }
 ```
+<details><summary>CSS</summary>
+<p>
+
 ```css
 ::deep table { min-width: 100%; }
 ::deep th.country-name { width: 14rem; }
@@ -231,6 +282,11 @@ For in-memory or EF Core data, use .NET's standard LINQ methods to apply filteri
 /* Don't collapse rows even if they are empty */
 ::deep tbody tr { height: 1.8rem; }
 ```
+
+</p>
+</details>
+
+![](filtering-iqueryable.png)
 
  ## Paging
  Construct an instance of `PaginationState` and pass it as the grid's `Pagination` property. To provide a UI for pagination, you can either use the built-in `Paginator` component, or create a custom UI that reads and modifies the `PaginationState` instance:  
@@ -269,6 +325,9 @@ For in-memory or EF Core data, use .NET's standard LINQ methods to apply filteri
     }
 }
 ```
+<details><summary>CSS</summary>
+<p>
+
 ```css
 ::deep th.country-name { width: 14rem; }
 
@@ -290,14 +349,28 @@ For in-memory or EF Core data, use .NET's standard LINQ methods to apply filteri
     margin: 0 1rem;
     padding: 0.25rem 0.5rem;
 }
-```
+```  
+</p>
+</details>
 
-Title, to set the column title. Not applicable if you're using HeaderTemplate.
-Class, to set a CSS class name on the header and body cells for this column.
-Align, to align the column left/center/right.
-HeaderTemplate, to supply a Razor fragment that completely replaces the default header cell contents. If you use this, it's your responsibility to render any sort indicators you may want, and to call the grid's SortByColumnAsync if the header is clicked.
-ColumnOptions, to supply a Razor fragment that will appear in a popover if a "column options" button is clicked. There are examples of this on the Filtering page.
-Sortable, to indicate whether the grid should be sortable by this column. The default value varies based on the column type and other column-specific options.
-IsDefaultSortColumn, to indicate that the grid should be sorted by this column by default.
-InitialSortDirection, to indicate the default sort direction.
-PlaceholderTemplate, to supply a Razor fragment that will be used while the data load is pending. This is only applicable for virtualized grids.
+![](paging.png)  
+
+# Manually Refreshing Data
+If the data source's contents have changed — refresh manually:
+```html
+@page "/quickgrid-example"
+@using Microsoft.AspNetCore.Components.QuickGrid
+
+<QuickGrid Items="@people" @ref="PeopleGrid">
+    <!-- ... -->
+```
+```cs
+@code {
+    private record Person(int PersonId, string Name, DateOnly PromotionDate);
+    private QuickGrid<Learning>? LearningsGrid { get; set; }
+    // ...
+    public async Task SomeMethod() {
+        await LearningsGrid.RefreshDataAsync();
+    }
+}
+```
