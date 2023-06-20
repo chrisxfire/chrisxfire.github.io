@@ -1,5 +1,5 @@
 ---
-title: "notes > asp.net > web apps > blazor > fundamentals > components > generic types"
+title: "notes > asp.net > web apps > blazor > components > generic types"
 date: 2023-06-13T00:00:00-06:00
 draft: false
 ---
