@@ -9,7 +9,7 @@ Page-level variables are defined in the content's frontmatter, derived from the 
 
 # Predefined Page Variables
 All of the fields listed in [frontmatter](../frontmatter/index.md) are page variables in the format `.FieldName`.  Only page variables that are not listed on the [frontmatter](../frontmatter/index.md) notes page are listed here:
-- `.AlternativeOutputFormats` — used for a page's `link rel` list in the site's `<head>` (see also: [Output formats(https://gohugo.io/templates/output-formats/)]
+- `.AlternativeOutputFormats` — used for a page's `link rel` list in the site's `<head>` (see also: [Output formats](https://gohugo.io/templates/output-formats/))
 - `.Ancestors` — used to implement [breadcrumb navigation](https://gohugo.io/content-management/sections#example-breadcrumb-navigation)
 - `.BundleType` — `leaf`, `branch`, or emtpy string if not a bundle
 - `.Content` — the content itself which is defined below the frontmatter
