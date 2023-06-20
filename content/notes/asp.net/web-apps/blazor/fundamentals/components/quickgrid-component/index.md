@@ -46,8 +46,8 @@ dotnet add package microsoft.aspnetcore.components.quickgrid --prerelease
 ![](people.png)  
 # Data Sources
 `QuickGrid` supports:
-1. In-memory `IQueryable`
-2. EF Core `IQueryable`
+1. In-memory as `IQueryable<T>` where `T` is the type of data represented by each row in the grid
+2. EF Core as `IQueryable<T>` where `T` is the type of data represented by each row in the grid
 3. Remote data (like from a JSON API)
 
 ## EF Core `IQueryable`
