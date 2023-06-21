@@ -6,17 +6,21 @@
                 <h1 class="header-title">
                     {{ .Title }}
                 </h1>
-                {{ if not (.Param "hideReadingTime") }}
+
                     {{ if gt .ReadingTime 1 }}
                         {{ .Scratch.Set "timeUnit" "mins" }}
                     {{ else }}
                         {{ .Scratch.Set "timeUnit" "min" }}
                     {{ end }}
-                {{ end }}
+
                 {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" .Date }}
+                {{ $last_mod_time := dateFormat "2006-01-02" .Lastmod }}
                 <div class="post-meta">
-                        <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ .Date | time.Format ":date_medium" }}</time>
-                        {{.WordCount}} words (approximately {{.ReadingTime}} {{ .Scratch.Get "timeUnit" }})
+                        <time datetime="{{ $ISO_time }}" itemprop="datePublished"> published {{ .Date | time.Format "2006-01-02" }}</time>
+                        <time datetime="{{ .Lastmod }}" itemprop="dateModified"> last modified {{ .Date | time.Format "2006-01-02" }}</time>  
+                        {{ if not (.Param "hideReadingTime") }}
+                            {{.WordCount}} words (approximately {{.ReadingTime}} {{ .Scratch.Get "timeUnit" }})
+                        {{ end }}
                 </div>
             </header>
             {{- if or .Params.toc .Site.Params.toc }}
