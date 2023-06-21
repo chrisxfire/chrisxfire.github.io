@@ -4,9 +4,6 @@ date: 2023-06-18T00:00:00-06:00
 draft: false
 ---
 
-Words: 
-<p>{{< param .Page.WordCount >}}</p>
-
 # Overview
 Page-level variables are defined in the content's frontmatter, derived from the content's file location, or extract from the content body itself.
 

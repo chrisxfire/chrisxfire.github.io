@@ -16,6 +16,17 @@
             </details>
             {{- end -}}
             <div class="page-content">
+                {{ if not (.Param "hideReadingTime") }}
+                    {{ if gt .ReadingTime 1 }}
+                        {{ .Scratch.Set "timeUnit" "mins" }}
+                    {{ else }}
+                        {{ .Scratch.Set "timeUnit" "min" }}
+                    {{ end }}
+
+                    Reading time: ~{{.ReadingTime}} {{ .Scratch.Get "timeUnit" }}
+                    
+                {{ end }}
+
                 {{ .Content }}
             </div>
         </article>
