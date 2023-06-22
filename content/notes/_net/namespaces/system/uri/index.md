@@ -1,5 +1,5 @@
 ---
-title: notes > _net > namespaces > system > uri
+title: notes > .net > namespaces > system > uri
 date: 2021-11-28T08:30:06-0700
 draft: false
 ---

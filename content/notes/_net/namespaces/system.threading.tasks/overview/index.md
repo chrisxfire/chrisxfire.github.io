@@ -1,5 +1,5 @@
 ---
-title: notes > _net > namespaces > system.threading.tasks > overview
+title: notes > .net > namespaces > system.threading.tasks > overview
 date: 2021-11-10T19:02:38-0700
 draft: false
 ---

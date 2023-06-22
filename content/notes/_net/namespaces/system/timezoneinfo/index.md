@@ -1,5 +1,5 @@
 ---
-title: notes > _net > namespaces > system > timezoneinfo
+title: notes > .net > namespaces > system > timezoneinfo
 date: 2021-11-11T20:44:35-0700
 draft: false
 ---

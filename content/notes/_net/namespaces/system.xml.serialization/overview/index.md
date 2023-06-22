@@ -1,5 +1,5 @@
 ---
-title: notes > _net > namespaces > system.xml.serialization > overview
+title: notes > .net > namespaces > system.xml.serialization > overview
 date: 2021-12-23T16:29:42-0700
 draft: false
 ---

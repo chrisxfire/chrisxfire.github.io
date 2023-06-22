@@ -1,5 +1,5 @@
 ---
-title: notes > _net > namespaces > system.threading.tasks > task
+title: notes > .net > namespaces > system.threading.tasks > task
 ---
 title: Task
 date: 2021-12-24T11:43:56-0700
