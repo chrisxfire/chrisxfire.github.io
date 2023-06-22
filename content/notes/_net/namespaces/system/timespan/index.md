@@ -1,5 +1,5 @@
 ---
-title: notes > _net > namespaces > system > timespan
+title: notes > .net > namespaces > system > timespan
 date: 2021-11-11T20:40:42-0700
 draft: false
 ---

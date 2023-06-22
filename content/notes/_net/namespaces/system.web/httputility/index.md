@@ -1,5 +1,5 @@
 ---
-title: notes > _net > namespaces > system.web > httputility
+title: notes > .net > namespaces > system.web > httputility
 date: 2021-11-28T09:17:19-0700
 draft: false
 ---

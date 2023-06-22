@@ -1,5 +1,5 @@
 ---
-title: notes > _net > namespaces > system > uribuilder
+title: notes > .net > namespaces > system > uribuilder
 date: 2021-11-28T09:03:08-0700
 draft: false
 ---
