@@ -4,6 +4,9 @@ date: 2023-06-22T00:00:00-06:00
 draft: false
 ---
 
+# Overview
+This is a summary of <u>The Five Dysfunctions of a Team</u> by Patrick Lencioni.  Summary by [Natalia Rossingol](https://www.runn.io/blog/5-dysfunctions-of-a-team-summary).
+
 # Dysfunction 1: Absence of Trust
 
 Trust is the foundation of real teamwork. And so the first dysfunction is a failure on the part of team members to understand and open up to one another. And if that sounds touchy-feely, let me explain, because there is nothing soft about it. It is an absolutely critical part of building a team. In fact, it’s probably the most critical.
