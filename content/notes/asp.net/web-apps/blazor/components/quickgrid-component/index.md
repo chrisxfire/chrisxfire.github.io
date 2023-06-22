@@ -43,7 +43,7 @@ dotnet add package microsoft.aspnetcore.components.quickgrid --prerelease
     }.AsQueryable();
 }
 ```  
-![](people.png)  
+![a grid of personid, name, birthdate](people.png)  
 # Data Sources
 `QuickGrid` supports:
 1. In-memory as `IQueryable<T>` where `T` is the type of data represented by each row in the grid
@@ -117,7 +117,7 @@ QuickGrid has two built-in column types:  PropertyColumn and TemplateColumn.  Us
 }
 ```  
 
-![](property-column.png)
+![a grid of personid, firstname, lastname, birthdate, age in years](property-column.png)
 
 ## `TemplateColumn`
 - Uses Razor fragments for the content of its cells
@@ -183,7 +183,7 @@ button:active { background-color: #192e86; }
 </p>  
 </details>  
 
-![](template-column.png)
+![a grid of person, action](template-column.png)
 
 ## Standard Column Parameters
 - `Title` — set the column title. Not applicable if you're using `HeaderTemplate`.
@@ -286,7 +286,7 @@ For in-memory or EF Core data, use .NET's standard LINQ methods to apply filteri
 </p>
 </details>
 
-![](filtering-iqueryable.png)
+![a grid showing how a column can be filtered with a sliding value bar](filtering-iqueryable.png)
 
  ## Paging
  Construct an instance of `PaginationState` and pass it as the grid's `Pagination` property. To provide a UI for pagination, you can either use the built-in `Paginator` component, or create a custom UI that reads and modifies the `PaginationState` instance:  
@@ -353,7 +353,7 @@ For in-memory or EF Core data, use .NET's standard LINQ methods to apply filteri
 </p>
 </details>
 
-![](paging.png)  
+![a grid with a footer to select more pages](paging.png)  
 
 # Manually Refreshing Data
 If the data source's contents have changed — refresh manually:

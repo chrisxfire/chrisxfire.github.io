@@ -28,7 +28,7 @@ Change the `align-items-*` classes:
   </div>
 </div>
 ```  
-![](vertical-alignment.png)
+![three columns aligned to the top of a container](vertical-alignment.png)
 
 Change the alignment on individual columns with `align-self-*`:
 ```html
@@ -46,7 +46,7 @@ Change the alignment on individual columns with `align-self-*`:
   </div>
 </div>
 ```  
-![](vertical-alignment-2.png)
+![three columns in a container, the first of which is at the top, the second in the middle, and the third at the bottom](vertical-alignment-2.png)
 
 ## Horizontal Alignment
 Use the `justify-content-*` classes:
@@ -102,7 +102,7 @@ Use the `justify-content-*` classes:
   </div>
 </div>
 ```  
-![](horizontal-alignment.png)
+![several cells in a container at different positions](horizontal-alignment.png)
 
 ## Column Wrapping
 After 12 columns on a single row, each group of extra columns will, as one unit, wrap onto a new line:
@@ -116,7 +116,7 @@ After 12 columns on a single row, each group of extra columns will, as one unit,
 </div>
 ```  
 
-![](column-wrapping.png)
+![text wrapped in a column](column-wrapping.png)
 
 ## Column Breaks
 Break columns onto a new line by adding an element with `width: 100%` wherever you want to break:
@@ -135,7 +135,7 @@ Break columns onto a new line by adding an element with `width: 100%` wherever y
 </div>
 ```
 
-![](column-breaks.png)
+![a container demonstrating how column breaks appear](column-breaks.png)
 
 # Reordering
 Use `order-` classes to control the visual order of content:
@@ -157,7 +157,7 @@ Use `order-` classes to control the visual order of content:
 </div>
 ```
 
-![](ordering.png)
+![a container with 3 columns ordered by their order values](ordering.png)
 
 # Offsetting Columns
 Use `offset-` classes to offset grid columns:
@@ -177,7 +177,7 @@ Use `offset-` classes to offset grid columns:
 </div>
 ```
 
-![](offset.png)
+![a container wiith columns at different offsets](offset.png)
 
 # Non-column Elements
 The `col-*` classes can be used for non-column elements (outside of a `.row`):
@@ -191,7 +191,7 @@ The `col-*` classes can be used for non-column elements (outside of a `.row`):
 </div>
 ```
 
-![](standalone.png)
+![a container showing how columns can be used outside of rows](standalone.png)
 
 Also, to create responsive floated images, wrap the content in a .clearfix wrapper to clear the float if the text is shorter:
 ```html
@@ -212,4 +212,4 @@ Also, to create responsive floated images, wrap the content in a .clearfix wrapp
 </div>
 ```
 
-![](clearfix.png)
+![a container with text and a responsive, floating image](clearfix.png)
