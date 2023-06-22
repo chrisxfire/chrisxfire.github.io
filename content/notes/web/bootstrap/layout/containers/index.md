@@ -64,7 +64,7 @@ $container-max-widths: (
 
 Create custom mix-ins:
 ```css
-// Source mixin
+/* Source mixin */
 @mixin make-container($padding-x: $container-padding-x) {
   width: 100%;
   padding-right: $padding-x;
@@ -73,7 +73,7 @@ Create custom mix-ins:
   margin-left: auto;
 }
 
-// Usage
+/* Usage */
 .custom-container {
   @include make-container();
 }
