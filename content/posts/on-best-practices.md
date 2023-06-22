@@ -3,18 +3,17 @@ title: "on best practices"
 date: 2022-01-02T09:41:25-06:00
 draft: false
 ---
-![](/bestpractice.png)
 
 Something that has always puzzled me about some organizations is their tendency to ignore best practices.  
 One particular industry has ignored best practices for decades, filling the gap with hastily developed, poorly vetted practices instead.  
-This tendency—phenomenon, even—holds true for organizations of various size, specialization, and maturity in this anonymous industry.  It is pervasive and deep-rooted.
+This tendencyï¿½phenomenon, evenï¿½holds true for organizations of various size, specialization, and maturity in this anonymous industry.  It is pervasive and deep-rooted.
 
 What is a best practice?  Many definitions exist.  Here is Merriam-Webster's:
 
 >"a procedure that has been shown by research and experience to produce optimal results and that is established or proposed as a standard suitable for widespread adoption."
 
 One change to this definition might include collaboration.  Best practices are formed when teams collaborate, sometimes cross-functionally, across organizational bounds.
-Through iterative development, they develop a procedure, process, or—yes, practice—that is then standardized and made available to others.
+Through iterative development, they develop a procedure, process, orï¿½yes, practiceï¿½that is then standardized and made available to others.
 These practices are scrutinized by others in the industry and, once adequately refined, recognized to be the best practice because they are efficient and produce consistent, superior results.
 
 The benefits to adopting best practices are plentiful:
