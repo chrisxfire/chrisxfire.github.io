@@ -1,7 +1,8 @@
 ---
-title: notes > web > bootstrap > layout > 3. grid
+title: notes > web > bootstrap > layout > grid
 date: 2023-06-16T00:00:00-06:00
 draft: false
+weight: 2
 ---
 
 # Overview

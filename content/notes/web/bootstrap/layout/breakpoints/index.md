@@ -1,7 +1,8 @@
 ---
-title: notes > web > bootstrap > layout > 1. breakpoints
+title: notes > web > bootstrap > layout > breakpoints
 date: 2023-06-16T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Overview

@@ -1,7 +1,8 @@
 ---
-title: notes > web > bootstrap > layout > 4. columns
+title: notes > web > bootstrap > layout > columns
 date: 2023-06-16T00:00:00-06:00
 draft: false
+weight: 4
 ---
 
 # Overview
