@@ -4,11 +4,10 @@
         <h1 class="header-title center">{{ .Title }}</h1>
     </header>
     <main class="page-content" aria-label="Content">
-        {{ range .Pages }}
-            {{ range .Pages }}
+        {{ range .Pages.ByTitle }}
+
             {{ partial "postCard" . }}
 
-        {{ end }} {{/* end range .Pages */}}
         {{ end }}
 
         <!-- WAS:
