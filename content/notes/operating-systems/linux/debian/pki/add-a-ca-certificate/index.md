@@ -1,5 +1,5 @@
 ---
-title: "notes > os > linux > debian > pki > add a ca certificate"
+title: "notes > operating systems > linux > debian > pki > add a ca certificate"
 date: 2023-06-12T00:00:00-06:00
 draft: false
 ---

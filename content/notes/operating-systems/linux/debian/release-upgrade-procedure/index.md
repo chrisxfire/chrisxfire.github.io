@@ -1,5 +1,5 @@
 ---
-title: notes > os > linux > debian > upgrade instructions
+title: notes > operating systems > linux > debian > upgrade instructions
 date: 2023-06-19T00:00:00-06:00
 draft: false
 ---
