@@ -4,10 +4,13 @@
         <h1 class="header-title center">{{ .Title }}</h1>
     </header>
     <main class="page-content" aria-label="Content">
-        {{ range sort .Pages "Title" }}
-        {{ partial "postCard" . }}
+        {{ range .Pages }}
+            {{ range .Pages }}
+            {{ partial "postCard" . }}
 
         {{ end }} {{/* end range .Pages */}}
+        {{ end }}
+
         <!-- WAS:
         {{ range .Pages.GroupByDate "2006" }}
         {{ $year := .Key }}
