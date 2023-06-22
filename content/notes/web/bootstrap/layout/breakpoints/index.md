@@ -6,6 +6,7 @@ weight: 1
 ---
 
 # Overview
+- Documentation: https://getbootstrap.com/docs/5.3/layout/breakpoints/
 - Customizable widths that determine how responsive layout behaves across device or viewport sizes.
 - The building blocks of responsive design.  Used to control when layout can be adapted at a particular viewport or device size.
 - Works in conjunction with CSS media queries.
