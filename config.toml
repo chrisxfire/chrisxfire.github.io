@@ -31,6 +31,11 @@ defaultContentLanguage = "en-gb"
     url = "/posts/notes/"
     weight = 30
   [[menu.main]]
+    pageRef = "readings"
+    name = "readings"
+    url = "/reading-recaps/"
+    weight = 30
+  [[menu.main]]
     pageRef = "about"
     name = "about"
     url = "/about/"
@@ -43,6 +48,7 @@ defaultContentLanguage = "en-gb"
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
   goToTop = true # set to false to disable 'go to top' button
+  showReadingTime = true # whether to show reading time on lists and posts
 
 [params.author]
   avatar = "chrisxfire.jpg" # put the file in assets folder; also ensure that image has same height and width
