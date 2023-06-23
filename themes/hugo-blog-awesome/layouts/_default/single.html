@@ -18,8 +18,10 @@
                 <div class="post-meta">
                         <time datetime="{{ $ISO_time }}" itemprop="datePublished"> published {{ .Date | time.Format "2006-01-02" }}</time>
                         <time datetime="{{ .Lastmod }}" itemprop="dateModified"> last modified {{ .Date | time.Format "2006-01-02" }}</time>  
-                        {{ if not (.Param "hideReadingTime") }}
+                        {{ if .Site.Params.showReadingTime }}
                             {{.WordCount}} words (approximately {{.ReadingTime}} {{ .Scratch.Get "timeUnit" }})
+                        {{ else }}
+                            {{.WordCount}} words
                         {{ end }}
                 </div>
             </header>

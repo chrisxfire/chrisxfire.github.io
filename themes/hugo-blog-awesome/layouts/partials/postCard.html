@@ -11,6 +11,10 @@
             {{ .Scratch.Set "timeUnit" "min" }}
         {{ end }}
 
-        {{ .Date | time.Format ":date_medium" }} / ~{{.ReadingTime}} {{ .Scratch.Get "timeUnit" }}
+        {{ if .Site.Params.showReadingTime }}
+            {{ .Date | time.Format ":date_medium" }} / ~{{.ReadingTime}} {{ .Scratch.Get "timeUnit" }}
+        {{ else }}
+            {{ .Date | time.Format ":date_medium" }}
+        {{ end }}
     </time>
 </article>
