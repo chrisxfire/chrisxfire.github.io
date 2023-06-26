@@ -4,19 +4,19 @@
         <h1 class="header-title center">{{ .Title }}</h1>
     </header>
     <main class="page-content" aria-label="Content">
-        <!-- TEST: 
-        {{ range .Site.RegularPages.GroupBy "Weight" }}
+        {{ range .Pages.GroupBy "Weight" }}
             {{ range .Pages.ByTitle }}
                 {{ partial "postCard" . }}
             {{ end }}
         {{ end }}
-        -->
+        
+        <!--  WAS:
         {{ range .Pages.ByTitle }}
 
             {{ partial "postCard" . }}
 
         {{ end }}
-        
+        --> 
         <!-- WAS:
         {{ range .Pages.GroupByDate "2006" }}
         {{ $year := .Key }}
