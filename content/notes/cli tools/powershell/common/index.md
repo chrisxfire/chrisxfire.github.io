@@ -10,6 +10,7 @@ draft: false
 | `$$` | Returns the last token in the last line received by the session |
 | `$^` | Returns the first token in the last line received by the session |
 | `$?` | Returns bool if the last command succeeded | 
+| `$_` | Alias to `$PSItem`.  Returns the current object in the pipeline object.  Use in commands that perform an action on every object in the pipeline. | 
 | `$Error` | Returns an array of error objects of the most recent errors |
 | `$HOME` | Returns the full path of the user's home directory (same as $env:USERPROFILE) |
 | `$Host` | An object that represents the current host application for PowerShell |
@@ -29,7 +30,10 @@ Run `cmd2` only if `cmd1` fails: `cmd1 || cmd2`
 Run `cmd1` and `cmd2` regardless of `cmd1`'s result: `cmd1; cmd2`  
 
 # Environment Variables  
-Get:  `$Env:variable-name`  
+Get:  
+```powershell
+$Env:variable-name
+```
 Set:  
 ```powershell
 $Env:variable-name = "new-value"  
@@ -38,7 +42,7 @@ $Env:variable-name += "new-value-to-append"
 
 Persist:
 ```powershell
-[Environment]::SetEnvironmentVariable('<key>', '<value>', '<scope>') # scope = machine or user
+[Environment]::SetEnvironmentVariable('key', 'value', 'scope') # scope = machine or user
 ```
 
 ## Set environment variables
