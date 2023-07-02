@@ -1,5 +1,5 @@
 ---
-title: notes > _net > user interfaces > maui > overview
+title: notes > .net > user interfaces > maui > overview
 date: 2022-09-17T17:04:25-0600
 draft: false
 ---
