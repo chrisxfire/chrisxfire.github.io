@@ -9,10 +9,45 @@ A *component* is an element of UI — a page, dialog, button, form, etc — that
 
 Components can be nested, reused, shared among projects, and used in MVC and Razor Pages apps.
 
+# High-level Process for Building Components
+1. Create `ComponentName.razor` under `/Pages` (if the Component produces a page) or `/Shared` (otherwise)
+2. If the Component requires CSS styling, add it to a code-behind in `ComponentName.razor.css`
+3. If the Component will use any services:
+    1. Inject the service into the Component:
+       ```cs
+       @inject ServiceName
+       ```
+
+    2. Register the service with DI:
+       `Program.cs`
+       ```cs
+       builder.Services.AddScoped<ServiceName>(); // use a Scoped lifetime for correct behavior for both Blazor Server and Blazor WebAssembly apps
+       ```
+    3. Add the service to global imports:
+       `_Imports.razor`
+       ```cs
+       @using ServiceName.ClassName
+       ```
+4. Implement `IDisposable`
+   ```cs
+   @implements IDisposable
+   // ...
+   void IDisposable.Dispose()
+   {
+    // ...
+   }
+   ```
+5. Add the Component to the main layout:  
+   `MainLayout.razor`
+   ```html
+   <ComponentName />
+   <!-- ... -->
+   ```
+
 # Naming
 Component's UI part are in `.razor` files and the logic is in a code-behind `.razor.cs` file.  
 
-Page Components (Components that produce pages) are defined under `/Pages` by convention.  Other Components are defined under `/Components`.
+Page Components (Components that produce pages) are defined under `/Pages` by convention.  Other Components are defined under `/Shared` or `/Components`.
 
 # Component Namespaces
 Components can be placed anywhere in the project.
