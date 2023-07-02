@@ -67,8 +67,9 @@ draft: true
 - [x] Blazor Server and EF Core
 - [ ] Advanced scenarios
 
-3rd party
+3rd party Component Libraries
 - [ ] [Blazored](https://blazored.github.io/)
+- [ ] [Blazor Bootstrap](https://getblazorbootstrap.com/)
 - [ ] [Fluent UI Blazor](https://github.com/microsoft/fluentui-blazor)
-- [ ] MudBlazor
-- [ ] Radzen
+- [ ] [MudBlazor](https://www.mudblazor.com)
+- [ ] [Radzen](https://www.radzen.com/blazor-components/)
