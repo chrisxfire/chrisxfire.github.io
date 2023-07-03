@@ -1,5 +1,5 @@
 ---
-title: notes > autohotkey > hotstrings
+title: notes > tools > autohotkey > hotstrings
 date: 2023-04-26T14:05:45-0600
 draft: false
 ---
