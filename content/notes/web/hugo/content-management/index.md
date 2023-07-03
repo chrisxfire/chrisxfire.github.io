@@ -5,7 +5,7 @@ draft: false
 ---
 
 # Overview
-(credit: https://cloudcannon.com/blog/the-ultimate-guide-to-hugo-sections/)  
+> Credit: [Cloud Cannon](https://cloudcannon.com/blog/the-ultimate-guide-to-hugo-sections/)  
 ## Pretty URLs
 By default, Hugo uses pretty URLs: `content/posts/blog/first-post.md` renders to `https://example.com/posts/blog/first-post/`.  
 An ugly URL would be `https://example.com/posts/blog/first-post/index.html`.
