@@ -1,5 +1,5 @@
 ---
-title: notes > web > github flavored markdown > overview
+title: notes > web > github flavored markdown
 date: 2022-12-22T00:00:00-06:00
 draft: false
 ---
