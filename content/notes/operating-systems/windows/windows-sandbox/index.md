@@ -10,7 +10,7 @@ A virtualized instance of Windows to run applications in isolation ("sandboxed" 
 
 # Installing
 From Administrator PowerShell:
-```pwsh
+```powershell
 Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All -Online
 ```
 
