@@ -11,8 +11,8 @@ Syntax: `property:value;`
 Select an element whose class=container; find the pararaph inside; find the first child inside of it; find the first character of that element
 ```css
 .container p:first-child::first-letter {
-font-size: 42px;
-text-transform: uppercase;
+    font-size: 42px;
+    text-transform: uppercase;
 }
 ```
 
@@ -180,10 +180,10 @@ Every element is in a box:
 <img src="CSS-image1.png" style="width:3.09167in;height:1.75in" />  
 
 The classic box model adds the border and padding to the amount of an element:  
-<img src="CSS-image2.png" style="width:2.38333in;height:1.725in" />  
+<img src="CSS-image2.png" style="width:3in;height:1.725in" />  
 
 The box-sizing: border-box; rule renders the padding and margin inside the box:  
-<img src="CSS-image3.png" style="width:2.34167in;height:1.71667in" />  
+<img src="CSS-image3.png" style="width:3in;height:1.71667in" />  
 
 To apply this rule to all elements:
 ```css
@@ -234,7 +234,7 @@ html {
 In the root element:
 ```css
 :root {
---variable-name: variable-value;
+    --variable-name: variable-value;
 }
 ```
 ## Using
@@ -246,9 +246,9 @@ var(--variable-name);
 ## Border, Padding, Margin
 ```css
 p {
-border: 2px solid powderblue; /* sets a border around an element */
-padding: 30px; /* sets space between the text and the border */
-margin: 50px; /* sets space outside the border */
+    border: 2px solid powderblue; /* sets a border around an element */
+    padding: 30px; /* sets space between the text and the border */
+    margin: 50px; /* sets space outside the border */
 }
 ```
 
@@ -257,27 +257,27 @@ To change the color of hyperlinks:
 ```html
 <style>
     a:link { /* unvisited */
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
     }
 
     a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
     }
 
     a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
     }
 
     a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
     }
 </style>
 ```
@@ -286,16 +286,16 @@ To create a flat "button":
 ```html
 <style>
     a:link, a:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+        background-color: #f44336;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
     }
 
     a:hover, a:active {
-    background-color: red;
+        background-color: red;
     }
 </style>
 ```
