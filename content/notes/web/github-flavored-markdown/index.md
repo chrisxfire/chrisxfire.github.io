@@ -54,8 +54,6 @@ puts markdown.to_html
 ```
 ````
 
-![syntax highlighting](syntax-highlighting.png)
-
 # Color Models
 <img src="color-models.png" width="50%" height="50%">
 
