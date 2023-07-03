@@ -15,7 +15,7 @@ Used to describe time and space complexities of algorithms:
 - `O(n!)` — Factorial time
 
 # Hashing
-*Credit: [ByteByteGo blog](https://blog.bytebytego.com/)*  
+> Credit: [ByteByteGo blog](https://blog.bytebytego.com/)
 ## Simple Hashing
 A mechanism to distribute data evenly across servers.
 
@@ -88,7 +88,7 @@ setting 10 to null results in:
 `5 –> 8 –> null`
 
 # Load Balancing Algorithms
-*Credit: [ByteByteGo blog](https://blog.bytebytego.com/)*  
+> Credit: [ByteByteGo blog](https://blog.bytebytego.com/)  
 ![diagrams of various load balancing algorithms](load-balancing.jpg)
 
 ## Static load-balancing algorithms
@@ -107,7 +107,7 @@ setting 10 to null results in:
 - Queues do not have indicies.
 
 ## Blocking Queue
-*Credit: [ByteByteGo blog](https://blog.bytebytego.com/)*  
+> Credit: [ByteByteGo blog](https://blog.bytebytego.com/)  
 A blocking queue algorithm uses locks. Thread A acquires the lock first, and Thread B might wait for arbitrary lengthy periods if Thread A gets suspended while holding the lock. This algorithm may cause Thread B to starve.
 
 ![diagram of a blocking queue](blocking-queue.jpg)
