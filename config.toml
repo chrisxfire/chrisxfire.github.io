@@ -28,7 +28,7 @@ defaultContentLanguage = "en-gb"
   [[menu.main]]
     pageRef = "notes"
     name = "notes"
-    url = "/posts/notes/"
+    url = "/notes/"
     weight = 30
   [[menu.main]]
     pageRef = "readings"
