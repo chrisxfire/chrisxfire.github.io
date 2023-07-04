@@ -1,7 +1,7 @@
 ---
 title: notes > tools > draw.io
 date: 2022-01-18T00:00:00-06:00
-draft: true
+draft: false
 ---
 
 # Canvas
@@ -86,7 +86,7 @@ Select all intersecting shapes (not juse those fully in selection box) | <kbd>Al
 Aligning | **Select** multiple shapes > Format panel > **Arrange** > **Align**
 Clone shape with connectors | **Select** shape > <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Arrow</kbd>
 Change shape after cloning | Release <kbd>Alt</kbd> > **Click** new shape
-Copy style of one shape to another | Use **Copy Style** and **Paste Style** in Style tab
+Copy style of one shape to another | **Style** tab > **Copy Style** and **Paste Style**
 Flip shapes | **Select** shape > Format panel >> **Arrange** tab > **Flip**
 Replace shape > **Drag** new shape over existing until the blue/black conversion symbol is shown
 Replace multiple shapes > **Select** all shapes to be replaced > **Drag** new shape over *one* of the shapes
@@ -97,4 +97,4 @@ Add a hyperlink to a Shape > **Right-click** > **Edit Link** > **Web Link**
 # Swimlane Diagrams
 | Action | Keystrokes |
 |--------|------------|
-Move a swimlane to another position > **Drag** the swimlane slightly to the right > Hold <kbd>Alt</kbd> > **Drag** to desired location
+Move a swimlane to another position | **Drag** the swimlane slightly to the right > Hold <kbd>Alt</kbd> > **Drag** to desired location
