@@ -1,0 +1,75 @@
+---
+title: notes > code > asp.net > web apps > blazor > learning path
+date: 2023-05-24T00:00:00-06:00
+draft: true
+---
+
+[Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-7.0)
+- [x] Overview
+- [x] Supported platforms
+- [x] Tooling
+- [ ] Tutorials...
+- [x] Hosting models
+- [ ] Blazor Hybrid...
+- [x] Project structure
+- [x] Fundamentals...
+  - [x] Overview
+  - [x] Routing and navigation
+  - [x] Configuration
+  - [x] Dependency injection
+  - [x] Startup
+  - [x] Environments
+  - [x] Logging
+  - [x] Handle errors
+  - [x] SignalR
+  - [x] Static files
+- [ ] Components...
+  - [x] Overview
+  - [x] Generic type support
+  - [ ] Synchronization context
+  - [ ] Preserve relationships with `@key`
+  - [ ] Overwriting parameters
+  - [ ] Attribute splatting and arbitrary parameters
+  - [ ] Layouts
+  - [ ] Control `<head>` content
+  - [ ] Cascading values and parameters
+  - [ ] Data binding
+  - [ ] Event handling
+  - [x] Lifecycle
+  - [ ] Virtualization
+  - [ ] Rendering
+  - [ ] Templated components
+  - [ ] CSS isolation
+  - [ ] Dynamically-rendered components
+  - [ ] QuickGrid component
+  - [ ] Prerender and integrate components
+  - [ ] Class libraries
+  - [ ] JavaScript apps and SPA frameworks
+  - [ ] Buit-in components
+- [ ] Globalization and localization
+- [ ] Forms and input components
+  - [ ] [Validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#basic-validation)
+  - [ ] [More on Validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#validation-summary-and-validation-message-components)
+- [ ] Files uploads
+- [ ] File downloads
+- [ ] JavaScript interop...
+- [ ] Call a web API
+- [ ] Images
+- [ ] Security and Identity...
+- [ ] State management
+- [ ] Debug WebAssembly
+- [ ] Lazy load assemblies with WebAssembly
+- [ ] WebAssembly native dependencies
+- [ ] Performance
+- [ ] Test components
+- [ ] Progress Web Applications
+- [ ] Host and deploy...
+- [x] Blazor Server and EF Core
+- [ ] Advanced scenarios
+
+3rd party Component Libraries
+- [ ] [Blazored](https://blazored.github.io/)
+- [ ] [Blazor Bootstrap](https://getblazorbootstrap.com/)
+- [ ] [Fluent UI Blazor](https://github.com/microsoft/fluentui-blazor)
+- [ ] [MudBlazor](https://www.mudblazor.com)
+- [ ] [Radzen](https://www.radzen.com/blazor-components/)

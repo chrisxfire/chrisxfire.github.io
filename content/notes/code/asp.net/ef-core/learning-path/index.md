@@ -1,0 +1,85 @@
+---
+title: notes > code > asp.net > ef core > learning path
+date: 2023-05-23T00:00:00-06:00
+draft: false
+---
+
+- [ ] Getting started...
+  - [x] EF Core Overview...
+  - [ ] ASP.NET Core tutorial >>
+  - [x] Blazor Server with EF Core guidance >>
+- [ ] DbContext...
+  - [x] Overview
+  - [ ] ...
+- [x] Create a model...
+  - [x] Overview
+  - [ ] Entity types
+  - [ ] Entity properties
+  - [ ] Keys
+  - [ ] Generated values
+  - [ ] Shadow and indexer properties
+  - [ ] Relationships...
+    - [ ] Overview
+    - [ ] One-to-many
+    - [ ] One-to-one
+    - [ ] Many-to-many
+    - [ ] Foreigh and principal keys
+    - [ ] Navigations
+    - [ ] Conventions
+    - [ ] Mapping attributes
+    - [ ] Glossary
+  - [ ] Indexes and constraints
+  - [ ] Inheritance
+  - [ ] Sequences
+  - [ ] Backing fields
+  - [ ] Value conversions
+  - [ ] Value comparers
+  - [ ] Data seeding
+  - [ ] Entity type constructors
+  - [ ] Advanced table mapping
+  - [ ] Owned entity types
+  - [ ] Keyless entity types
+  - [ ] Spatial data
+  - [ ] Bulk configuration
+  - [ ] Alternating models with same DbContext
+- [ ] Manage database schemas...
+  - [ ] Overview
+  - [ ] ...
+- [ ] Query data...
+  - [ ] Overview
+- [ ] Save data...
+  - [ ] Overview
+  - [ ] ...
+- [ ] Change tracking...
+  - [X] Overview
+  - [ ] Explicitly tracking entities
+  - [ ] Accessing tracked entities
+  - [ ] Changing foreign keys and navigations
+  - [ ] Identity resolution
+  - [ ] Additional change tracking features
+  - [ ] Change tracker debugging
+- [ ] Logging, events and diagnostics...
+  - [ ] Overview
+  - [ ] Simple logging
+  - [ ] Microsoft.Extensions.Logging
+  - [ ] Events
+  - [ ] Interceptors
+  - [ ] Diagnostic listeners
+  - [ ] Event counters
+- [ ] Testing...
+  - [ ] Introduction to testing
+  - [ ] ...
+- [ ] Performance...
+  - [ ] Introduction
+  - [ ] ...
+- [ ] Miscellaneous...
+- [ ] Database providers...
+  - [ ] Overview
+  - [ ] Microsoft SQL Server and Azure SQL...
+  - [ ] SQLite...
+  - [ ] Azure Cosmos DB...
+  - [ ] In-memory (not recommended)
+  - [ ] Write a database provider
+  - [ ] Provider-impacting changes
+- [ ] Tools & extensions
+- [ ] Command-line reference...
