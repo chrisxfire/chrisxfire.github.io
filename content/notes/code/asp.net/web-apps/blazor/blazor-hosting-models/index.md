@@ -54,7 +54,7 @@ A SPA framework for interactive, client-side web apps.
 - The client runs blazor.webassembly.js script to download the runtime, the app, and its dependencies, and to initialize the runtime
 
 ## Standalone Blazor WASM app
-A Blazor WASM app can be deployed without a backend ASP.NET Core App to serve its files.
+A Blazor WASM app is an app that is embedded in a website. It can be deployed without a backend ASP.NET Core App to serve its files. In this scenario, it might be deployed via CDN instead of on a website (HTML, Drupal, etc).
 
 ## Hosted Blazor WASM app
 Includes an ASP.NET Core backend.
@@ -91,14 +91,14 @@ Cons:
 - Native client apps usually take longer to find, download, and install vs. access an app in the browser
 
 # Comparison Table
- Consideration  Server  WASM  Hybrid |
+| Consideration | Server | WASM | Hybrid |
 |---------------|--------|------|--------|
-Full .NET API compatibility  Yes  No (subset)  Yes
-Access to server resources like a database  Yes  No  No
-Native execution speed  Slowest  Balanced  Fastest
-App code stays on server  Yes  No  No
-Run apps offline once downloaded  No  Yes (if PWA)  Yes
-Supports static site hosting & CDN  No  Yes  No
-Scales to many concurrent users  No  Yes  Yes
-Full access to native client capabilities  No  No  Yes
-Requires an installer  No  No  Yes
+Full .NET API compatibility | Yes | No (subset) | Yes
+Access to server resources like a database | Yes | No | No
+Native execution speed | Slowest | Balanced | Fastest
+App code stays on server | Yes | No | No
+Run apps offline once downloaded | No | Yes (if PWA) | Yes
+Supports static site hosting & CDN | No | Yes | No
+Scales to many concurrent users | No | Yes | Yes
+Full access to native client capabilities | No | No | Yes
+Requires an installer | No | No | Yes
