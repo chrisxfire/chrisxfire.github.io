@@ -76,7 +76,7 @@ Add a property to a specific shape:
 Select all connectors | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd>
 Select all shapes | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd>
 Select next/previous shape | <kbd>Tab</kbd> or <kbd>Shift</kbd> + <kbd>Tab</kbd>
-Select parent Shape | <kbd>Shift</kbd> + <kbd>Alot</kbd> + <kbd>P</kbd> 
+Select parent Shape | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>P</kbd> 
 Select shape/connector underneath | Hold <kbd>Alt</kbd> + **Click** on shape to select next lower shape
 Select all intersecting shapes (not juse those fully in selection box) | <kbd>Alt</kbd> + **Drag**
 
