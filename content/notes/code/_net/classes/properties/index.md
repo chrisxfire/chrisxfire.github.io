@@ -1,5 +1,5 @@
 ---
-title: notes > code > .net > types > properties
+title: notes > code > .net > classes > properties
 date: 2021-11-06T11:25:46-0600
 draft: false
 ---
