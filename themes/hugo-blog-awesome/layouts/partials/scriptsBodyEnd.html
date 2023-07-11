@@ -1,5 +1,6 @@
 {{ $theme := resources.Get "js/themeSwitchnMenu.js" }}
-
+{{ $search := resources.Get "js/search.js" }}
+<script src="{{ $search.RelPermalink }}"></script>
 {{ if .Site.Params.goToTop }}
     {{ $goToTop := resources.Get "js/goToTop.js" }}
     {{ $js := slice $theme $goToTop | resources.Concat "js/script.js" }}

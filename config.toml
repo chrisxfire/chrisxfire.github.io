@@ -41,6 +41,9 @@ defaultContentLanguage = "en-gb"
     url = "/about/"
     weight = 90
 
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
 [params]
   sitename = "chricodes.net"
   defaultColor = "dark" # set default color mode: dark or light or auto
