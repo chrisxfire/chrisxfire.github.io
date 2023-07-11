@@ -1,5 +1,5 @@
 ---
-title: notes > code > .net > classes > classes
+title: notes > code > .net > classes > overview
 date: 2022-02-16T16:22:37-0700
 draft: false
 ---
