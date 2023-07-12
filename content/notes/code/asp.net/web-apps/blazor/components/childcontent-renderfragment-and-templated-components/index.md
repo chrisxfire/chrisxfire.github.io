@@ -8,7 +8,7 @@ draft: false
 Components can set the content of another Component.
 
 ## Creating
-Define a `ChildContent` component parameter of type `RenderFragment`:
+Define a `ChildContent` component parameter of type `RenderFragment`:  
 `Shared/SomeChild.razor`
 ```cs
 <div class="card w-25" style="margin-bottom:15px">
@@ -64,7 +64,7 @@ Alternatively, use a `foreach` loop and `Enumerable.Range`:
 ```
 
 # `RenderFragment`
-`RenderFragment` is a built-in type that represents a fragment of UI content.  It allows one Component to set the content of another.
+`RenderFragment` is a built-in type that represents a fragment of UI content.  It allows one Component to set the content of another.  
 
 `ProfilePicture.razor.cs`
 ```cs
@@ -73,7 +73,7 @@ public partial class ProfilePicture
     [Parameter]
     public RenderFragment? ChildContent { get; set; }
 }
-```
+```  
 `ProfilePicture.razor`
 ```html
 <div class="profile-picture">
