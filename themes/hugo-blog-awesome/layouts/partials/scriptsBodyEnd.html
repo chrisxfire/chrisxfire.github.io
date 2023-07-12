@@ -1,5 +1,8 @@
 {{ $main := slice (resources.Get "js/main.js") }}
 
+{{ $search := resources.Get "js/search.js" }}
+<script src="{{ $search.RelPermalink }}"></script>
+
 {{ if .Site.Params.goToTop }}
     {{ $main = $main | append (resources.Get "js/goToTop.js") }}
 {{ end }}
