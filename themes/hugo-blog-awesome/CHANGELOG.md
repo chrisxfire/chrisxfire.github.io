@@ -1,5 +1,129 @@
 # Changelog
 
+## [1.5.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.0...v1.5.1) (2023-07-12)
+
+
+### :bug: Bug Fixes
+
+* make specifying date optional ([#83](https://github.com/hugo-sid/hugo-blog-awesome/issues/83)) ([864f523](https://github.com/hugo-sid/hugo-blog-awesome/commit/864f523143b35b65e64a2b85182b1a269451da5a))
+
+## [1.5.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.2...v1.5.0) (2023-07-12)
+
+
+### :sparkles: Features
+
+* update favicons ([#81](https://github.com/hugo-sid/hugo-blog-awesome/issues/81)) ([c3d2f26](https://github.com/hugo-sid/hugo-blog-awesome/commit/c3d2f260c38cadf2052d7f355167ae8aab3ba01b))
+
+
+### :hammer: Housekeeping
+
+* update logo ([#79](https://github.com/hugo-sid/hugo-blog-awesome/issues/79)) ([d8dfc4d](https://github.com/hugo-sid/hugo-blog-awesome/commit/d8dfc4dfc299d65a84a287cd623fdaa95ee342ed))
+* update README.md - add contributors ([#82](https://github.com/hugo-sid/hugo-blog-awesome/issues/82)) ([677f465](https://github.com/hugo-sid/hugo-blog-awesome/commit/677f4652e9dcdbc90275dcbeab448893e6121a71))
+
+## [1.4.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.1...v1.4.2) (2023-06-26)
+
+
+### :hammer: Housekeeping
+
+* update list of websites using this theme ([#73](https://github.com/hugo-sid/hugo-blog-awesome/issues/73)) ([de04339](https://github.com/hugo-sid/hugo-blog-awesome/commit/de04339aca28087969821b04ccf349dfc56c9449))
+
+## [1.4.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.0...v1.4.1) (2023-06-23)
+
+
+### :hammer: Housekeeping
+
+* add bskdany.com to readme ([#71](https://github.com/hugo-sid/hugo-blog-awesome/issues/71)) ([d4a0889](https://github.com/hugo-sid/hugo-blog-awesome/commit/d4a08891d5c5b1598f3b57fe15ade331f94e8fdb))
+
+## [1.4.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.3.0...v1.4.0) (2023-06-21)
+
+
+### :bug: Bug Fixes
+
+* deprecated Twitter post format ([#67](https://github.com/hugo-sid/hugo-blog-awesome/issues/67)) ([8968732](https://github.com/hugo-sid/hugo-blog-awesome/commit/8968732dd0bda3b4995ba40b34dec168be1767e7))
+
+
+### :sparkles: Features
+
+* add forgejo icon ([#69](https://github.com/hugo-sid/hugo-blog-awesome/issues/69)) ([468682a](https://github.com/hugo-sid/hugo-blog-awesome/commit/468682aee873f03a0ebf2564d79ec05731590c2d))
+
+## [1.3.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.7...v1.3.0) (2023-06-19)
+
+
+### :sparkles: Features
+
+* **ui:** add link hover transition ([112c59b](https://github.com/hugo-sid/hugo-blog-awesome/commit/112c59b991be66ca1dc247125af2991b14f57b5b))
+
+## [1.2.7](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.6...v1.2.7) (2023-06-19)
+
+
+### :bug: Bug Fixes
+
+* move tableOfContents to appropriate section in `config.toml` file ([#64](https://github.com/hugo-sid/hugo-blog-awesome/issues/64)) ([aa199ce](https://github.com/hugo-sid/hugo-blog-awesome/commit/aa199ceffff6a46cb75e1b440245a37cbddd4702))
+
+## [1.2.6](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.5...v1.2.6) (2023-06-16)
+
+
+### :hammer: Housekeeping
+
+* **README:** update list of websites using this theme ([#61](https://github.com/hugo-sid/hugo-blog-awesome/issues/61)) ([c29df07](https://github.com/hugo-sid/hugo-blog-awesome/commit/c29df070326dd93894c8a2edd1ebdd84521420e1))
+
+## [1.2.5](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.4...v1.2.5) (2023-06-15)
+
+
+### :hammer: Housekeeping
+
+* **README:** add websites using this theme ([#60](https://github.com/hugo-sid/hugo-blog-awesome/issues/60)) ([109b200](https://github.com/hugo-sid/hugo-blog-awesome/commit/109b2007bad4ebc5cb2e45f8fb0c82eaad5484dd))
+* **README:** add yukizr.com to the list of websites using this theme ([#57](https://github.com/hugo-sid/hugo-blog-awesome/issues/57)) ([42e9b95](https://github.com/hugo-sid/hugo-blog-awesome/commit/42e9b95868c90bf263a0c7622adcffe1ef57cc4a))
+
+## [1.2.4](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.3...v1.2.4) (2023-06-08)
+
+
+### :construction_worker: CI/CD
+
+* setup OpenSSF scorecard ([23b9c0d](https://github.com/hugo-sid/hugo-blog-awesome/commit/23b9c0d04a20aa4633e3bcdd8fe0fa8661dd433a))
+
+
+### :bug: Bug Fixes
+
+* resolve theme toggle race condition ([#55](https://github.com/hugo-sid/hugo-blog-awesome/issues/55)) ([1c41cce](https://github.com/hugo-sid/hugo-blog-awesome/commit/1c41cce98eb22bd3fbdfe1a2423f29aa09debb34))
+
+## [1.2.3](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.2...v1.2.3) (2023-05-25)
+
+
+### :bug: Bug Fixes
+
+* inline code not being stylized in list items ([#52](https://github.com/hugo-sid/hugo-blog-awesome/issues/52)) ([2585ddb](https://github.com/hugo-sid/hugo-blog-awesome/commit/2585ddb39c3a98bb7612a21ffa8f6bf1965de704))
+
+## [1.2.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.1...v1.2.2) (2023-05-21)
+
+
+### :recycle: Refactoring
+
+* refactor JS ([#39](https://github.com/hugo-sid/hugo-blog-awesome/issues/39)) ([9d9f2bc](https://github.com/hugo-sid/hugo-blog-awesome/commit/9d9f2bc46589f017dbfca714380bcc017de5ea49))
+
+
+### :construction_worker: CI/CD
+
+* increase PR labeler warning limit ([e5f4bf8](https://github.com/hugo-sid/hugo-blog-awesome/commit/e5f4bf8241edf0bac70b3cf326025f5e66f06893))
+
+## [1.2.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.0...v1.2.1) (2023-05-16)
+
+
+### :memo: Documentation
+
+* update instructions for adding favicon ([4438214](https://github.com/hugo-sid/hugo-blog-awesome/commit/4438214567c515feeabaa61204c4c3b1c1f0da02))
+
+
+### :hammer: Housekeeping
+
+* **ci:** add comments for GitHub action workflow trigger ([4e83639](https://github.com/hugo-sid/hugo-blog-awesome/commit/4e83639c42cec577c8e592a6dbc930b296348ffc))
+* **ci:** change emojis used in changelog ([2514abd](https://github.com/hugo-sid/hugo-blog-awesome/commit/2514abdb6e5274167509a892b10244f336fff290))
+
+
+### :bug: Bug Fixes
+
+* baseURL variable on See all posts button ([#38](https://github.com/hugo-sid/hugo-blog-awesome/issues/38)) ([6e12b25](https://github.com/hugo-sid/hugo-blog-awesome/commit/6e12b25c988a9770d954451ecb8cef848436408a))
+
 ## [1.2.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.1.2...v1.2.0) (2023-05-10)
 
 
