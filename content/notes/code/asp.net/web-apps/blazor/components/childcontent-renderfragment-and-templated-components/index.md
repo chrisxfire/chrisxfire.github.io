@@ -1,5 +1,5 @@
 ---
-title: notes > code > asp.net > web apps > blazor > components > childcontent renderfragment and templated components
+title: notes > code > asp.net > web apps > blazor > components > childcontent, renderfragment, and templated components
 date: 2023-07-12T00:00:00-06:00
 draft: false
 ---
@@ -40,7 +40,7 @@ Event callbacks are not supported in `RenderFragment`.
 
 ### Child components and `for` loops
 Rendering components inside a `for` loop require a local index variable if that loop variable is used to render the child component's content:
-```cs
+```html
 <h1>Three children with an index variable</h1>
 
 @for (int c = 0; c < 3; c++)
@@ -54,7 +54,7 @@ Rendering components inside a `for` loop require a local index variable if that 
 ```
 
 Alternatively, use a `foreach` loop and `Enumerable.Range`:
-```cs
+```html
 @foreach (var c in Enumerable.Range(0,3))
 {
     <SomeChild>
