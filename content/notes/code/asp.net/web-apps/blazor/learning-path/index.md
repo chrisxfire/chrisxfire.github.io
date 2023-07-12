@@ -31,14 +31,14 @@ draft: true
   - [ ] Overwriting parameters
   - [ ] Attribute splatting and arbitrary parameters
   - [ ] Layouts
-  - [ ] Control `<head>` content
+  - [x] Control `<head>` content
   - [ ] Cascading values and parameters
   - [ ] Data binding
   - [ ] Event handling
   - [x] Lifecycle
   - [ ] Virtualization
   - [ ] Rendering
-  - [ ] Templated components
+  - [x] Templated components
   - [ ] CSS isolation
   - [ ] Dynamically-rendered components
   - [ ] QuickGrid component

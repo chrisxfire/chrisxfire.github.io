@@ -69,32 +69,3 @@ public class PanelBody
     }
 }
 ```
-# `RenderFragment`
-`RenderFragment` is a built-in type that represents a fragment of UI content.  It allows one Component to set the content of another.
-
-`ProfilePicture.razor.cs`
-```cs
-public partial class ProfilePicture
-{
-    [Parameter]
-    public RenderFragment? ChildContent { get; set; }
-}
-```
-`ProfilePicture.razor`
-```html
-<div class="profile-picture">
-    @ChildContent
-</div>
-```
-When this Component is used, the content of the Component (the value between the open/close tags) is pushed to the `ChildContent` property, which is then rendered in HTML `@ChildContent`:  
-
-`SomeComponent.razor`
-```html
-<ProfilePicture>
-    <img src="images/pic.jpg">
-</ProfilePicture>
-```
-
-## Limitations
-* The property receiving the `RenderFragment` content **must** be named `ChildContent`.
-* Event callbacks are not supported with `RenderFragment`.
