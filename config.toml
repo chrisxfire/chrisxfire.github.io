@@ -8,7 +8,11 @@ defaultContentLanguage = "en-gb"
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
   [markup.highlight]
+    codeFences = true
+    hl_inline = false
     noClasses = false
+    style = 'github-dark'
+    tabWidth = 4
   [markup.goldmark.renderer]
     unsafe = true
 
