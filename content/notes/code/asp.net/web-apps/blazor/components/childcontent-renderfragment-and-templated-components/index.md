@@ -10,12 +10,13 @@ Components can set the content of another Component.
 ## Creating
 Define a `ChildContent` component parameter of type `RenderFragment`:  
 `Shared/SomeChild.razor`
-```cs
+```html
 <div class="card w-25" style="margin-bottom:15px">
     <div class="card-header font-weight-bold">Child content</div>
     <div class="card-body">@ChildContent</div>
 </div>
-
+```
+```cs
 @code {
     [Parameter]
     public RenderFragment? ChildContent { get; set; }
@@ -104,7 +105,7 @@ Create a templated component by specifying one or more parameters of type `Rende
 A `TableTemplate` component is created:  
 
 `Shared/TableTemplate.razor`
-```cs
+```html
 @typeparam TItem
 @using System.Diagnostics.CodeAnalysis
 
@@ -122,7 +123,8 @@ A `TableTemplate` component is created:
         }
     </tbody>
 </table>
-
+```
+```cs
 @code {
     [Parameter]
     public RenderFragment? TableHeader { get; set; }
@@ -138,7 +140,7 @@ A `TableTemplate` component is created:
 Here, the templated component is used.  The template parameters are specified using child elements that match the name of the parameters:  
 
 `Pages/Pets1.razor`
-```cs
+```html
 @page "/pets1"
 
 <h1>Pets</h1>
@@ -159,7 +161,8 @@ Here, the templated component is used.  The template parameters are specified us
         <td>@pet.Name</td>
     </RowTemplate>
 </TableTemplate>
-
+```
+```cs
 @code {
     private List<Pet> pets = new()
     {
