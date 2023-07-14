@@ -4,17 +4,17 @@ date: 2021-11-07T19:58:42-0700
 draft: false
 ---
 # Generics
-Generics are for types and methods.  
-They allow you to pass *types* as *parameters*, similar to how you can pass objects as parameters.  
-They defer the specification of one or more types until the class/method has been instantiated.  
+Generics are classes, structures, interfaces and methods that have placeholders (*type parameters*) for one or more of the types that they store or use.  They allow you to pass *types* as *parameters*, similar to how you can pass objects as parameters.  They defer the specification of one or more types until the class/method has been instantiated (a *constructed generic class*).
 
 A generic class cannot be used as-is because it is not a type; it is a blueprint for a type.  
 Client code must declare and initialize a constructed type by specifying a type argument in the \<brackets\>.  
 
 # Creating
 ```cs
+// A generic class:
 public class GenericList<T> 
 {
+    // A generic method:
     public void Add(T input) { }
 }
 
@@ -55,3 +55,9 @@ var pair = new Pair<int, string>(1, "two");
 int i = pair.First; // TFirst int
 string s = pair.Second; // TSecond string
 ```
+
+# Considerations
+- Generic methods can appear on both generic and nongeneric types.  Just because a type is generic does not mean its methods are.
+  - A method is generic only if it has its own list of type parameters.
+- Generic type safety is enforced at *compile time*.
+- [Generic collection](../../../../collections/generic/) types generally perform better for storing and manipulating value types because they do not need to [box](../../../../fundamentals/boxing-and-unboxing/index.md) the value types.
