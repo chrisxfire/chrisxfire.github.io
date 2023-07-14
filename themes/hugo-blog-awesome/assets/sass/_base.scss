@@ -282,7 +282,8 @@ table {
   width: 100%;
   margin-top: $spacing-half;
   border-collapse: collapse;
-  font-size: $small-font-size;
+  // WAS: font-size: $small-font-size;
+  font-size: $medium-font-size;
 
   thead {
     font-weight: $bold-weight;
