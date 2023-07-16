@@ -1,6 +1,6 @@
 ---
 title: notes > code > software engineering > programming models > asynchronous programming
-date: "2023-05-28T00:00:00-06:00"
+date: 2023-05-28T00:00:00-06:00
 draft: false
 ---
 
