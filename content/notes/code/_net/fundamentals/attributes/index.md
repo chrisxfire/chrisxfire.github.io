@@ -6,17 +6,16 @@ draft: false
 
 # Overview
 `Object` –> `Attribute`  
-Attributes associate metadata with code.  Once associated, attributes can be queried at runtime using reflection.  
-Attributes from the .NET library trigger certain behaviors in the compiler.  
-User-defined attributes only act as metadata.
+- Attributes associate metadata with code.  Once associated, attributes can be queried at runtime using reflection.  
+- Attributes from the .NET library trigger certain behaviors in the compiler.  
+- User-defined attributes only act as metadata.
 
 ## Targets
-Attributes are generally declared above the code they are associated to.  
-Attributes can be called with a target using this form:  
-`[target : attribute1, attribute2, …]`
-Targets:
-- assembly (place under the using directives)
-- module   (place under the using directives)
+Attributes are generally declared above the code they are associated to.  Attributes can be called with a target using this form:  
+`[target : attribute1, attribute2, …]`  
+Attributes can target:
+- assembly (place under the `using` directives)
+- module   (place under the `using` directives)
 - field
 - event
 - method
