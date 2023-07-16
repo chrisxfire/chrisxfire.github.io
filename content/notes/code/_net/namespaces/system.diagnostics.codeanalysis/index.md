@@ -1,5 +1,5 @@
 ---
-title: notes > code > _net > namespaces > system.diagnostics.codeanalysis
+title: notes > code > .net > namespaces > system.diagnostics.codeanalysis
 date: 2023-07-15T00:00:00-06:00
 draft: false
 ---
