@@ -2,6 +2,7 @@
 title: notes > code > .net > classes > expression bodied members
 date: 2022-02-16T16:38:07-0700
 draft: false
+weight: 1
 ---
 
 # Expression-Bodied Members

@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > mvvm pattern > mvvm pattern
 date: 2022-12-12T17:00:55-0700
 draft: false
+weight: 1
 ---
 # Model View ViewModel Pattern
 ## View

@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > design > navigation > implementing basic navigation
 date: 2023-01-02T17:38:12-0700
 draft: false
+weight: 1
 ---
 # A TextBlock
 ```xml

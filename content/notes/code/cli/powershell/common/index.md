@@ -2,6 +2,7 @@
 title: notes > code > cli > powershell > common
 date: 2021-12-02T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Automatic Variables

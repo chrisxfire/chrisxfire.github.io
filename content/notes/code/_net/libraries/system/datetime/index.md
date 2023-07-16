@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system > datetime
 date: 2021-11-11T20:08:41-0700
 draft: false
+weight: 1
 ---
 # [DateTime](https://docs.microsoft.com/en-us/dotnet/api/system.datetime?view=net-6.0)
 `Object` –> `ValueType` –> `DateTime`  

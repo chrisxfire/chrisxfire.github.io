@@ -2,6 +2,7 @@
 title: notes > code > .net > programming models > parallel programming > parallel loops
 ate: 2023-02-16T15:06:39-0700
 draft: false
+weight: 1
 ---
 # `Parallel.For`
 Note: Use `Interlocked` to execute atomic operations which will avoid mulitple threads modifying a variable simultaneousy.

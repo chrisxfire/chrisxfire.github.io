@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.threading > overview
 date: 2023-06-15T00:00:00-06:00
 draft: false
+weight: -1
 ---
 # Synchronizing Access to Shared Resources
 ## [Monitor](https://docs.microsoft.com/en-us/dotnet/api/system.threading.monitor?view=net-6.0)

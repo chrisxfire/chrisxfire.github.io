@@ -2,6 +2,7 @@
 title: notes > code > .net > types > reference types > objects > objects
 date: 2021-11-09T20:44:08-0700
 draft: false
+weight: 1
 ---
 # Objects
 Because all objects implicitly inherit from `Object`, they have these methods:

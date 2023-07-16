@@ -2,6 +2,7 @@
 title: notes > code > .net > rate limiting
 date: 2023-03-03T09:35:03-0700
 draft: false
+weight: 1
 ---
 # Overview
 <o>Availability: .NET 7</o>

@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > subqueries
 date: 2022-04-27T18:56:35-0600
 draft: false
+weight: 1
 ---
 # Subqueries
 A query clause may itself contain a query expression (a subquery).

@@ -2,6 +2,7 @@
 title: notes > code > web > hugo > directory structure
 date: 2023-03-17T13:20:38-0600
 draft: false
+weight: 1
 ---
 # [Directory Structure](https://gohugo.io/getting-started/directory-structure/)
 Scaffolds a project directory structure and takes a single directory and uses it as the input to create a website.

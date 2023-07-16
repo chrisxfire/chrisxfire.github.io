@@ -2,6 +2,7 @@
 title: notes > code > cli > dotnet > native aot deployment
 date: 2022-11-25T20:53:06-0700
 draft: false
+weight: 1
 ---
 # Overview
 Publishing as Native AOT produces a self-contained app that has been ahead-of-time compiled into native code.

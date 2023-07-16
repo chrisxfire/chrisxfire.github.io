@@ -2,6 +2,7 @@
 title: notes > code > software engineering > algorithms
 date: 2022-02-17T19:00:29-0700
 draft: true
+weight: 1
 ---
 # Algorithms
 Algorithm – A series of instructions that perform a task.

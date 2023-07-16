@@ -2,6 +2,7 @@
 title: notes > code > .net > types > reference types > delegates > patterns
 date: 2022-07-21T08:27:56-0600
 draft: false
+weight: 1
 ---
 Delegates support minimal coupling between components.
 

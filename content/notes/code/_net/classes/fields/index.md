@@ -2,6 +2,7 @@
 title: notes > code > .net > classes > fields
 date: 2021-12-30T16:57:31-0700
 draft: false
+weight: 1
 ---
 # Fields
 Field – a variable of any type declared in a class or struct.

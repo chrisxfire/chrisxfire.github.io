@@ -2,6 +2,7 @@
 title: notes > code > .net > programming models > asynchronous programming > processing tasks
 date: 2022-11-23T10:36:13-0700
 draft: false
+weight: 1
 ---
 # Processing Tasks as They Complete
 ```cs

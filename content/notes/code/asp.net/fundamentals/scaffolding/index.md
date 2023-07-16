@@ -2,6 +2,7 @@
 title: notes > code > asp.net > fundamentals > scaffolding
 date: 2023-04-25T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 From Pluralsight/ASP.NET 6 Core Fundamentals

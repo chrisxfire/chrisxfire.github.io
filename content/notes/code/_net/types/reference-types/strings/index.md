@@ -2,6 +2,7 @@
 title: notes > code > .net > types > reference types > strings
 date: 2021-11-06T16:38:02-0600
 draft: false
+weight: 1
 ---
 # [Strings](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0)
 A sequence of UTF-16 code units.  

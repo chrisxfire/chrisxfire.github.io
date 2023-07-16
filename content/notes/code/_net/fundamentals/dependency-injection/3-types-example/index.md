@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > dependency injection > 3 types example
 date: 2022-08-26T07:37:34-0600
 draft: false
+weight: 1
 ---
 3 Types of Dependency Injection:
 1.  Constructor Injection – Injector class supplies the Service (dependency) through the Client class constructor.

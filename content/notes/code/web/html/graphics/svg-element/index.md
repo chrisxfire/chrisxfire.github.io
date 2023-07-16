@@ -2,6 +2,7 @@
 title: notes > code > web > html > graphics > svg element
 date: 2023-04-27T09:56:59-0600
 draft: false
+weight: 1
 ---
 # Overview
 SVG defines vector-based graphics in XML format.

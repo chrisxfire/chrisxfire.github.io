@@ -2,6 +2,7 @@
 title: notes > code > software engineering > programming models > multitasking and multithreading
 date: 2022-03-19T16:03:07-0600
 draft: false
+weight: 1
 ---
 # Multitasking
 In *cooperative multitasking*, the OS never initiates a context switch from one process to another. Processes voluntarily yield control periodically or when idle or when blocked.  

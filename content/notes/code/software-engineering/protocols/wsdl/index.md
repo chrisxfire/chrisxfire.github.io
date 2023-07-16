@@ -2,6 +2,7 @@
 title: notes > code > software engineering > protocols > wsdl
 date: 2022-06-21T14:10:55-0600
 draft: false
+weight: 1
 ---
 # WSDL – Web Service Description Language
 Describes the functionality of a SOAP-based web service.

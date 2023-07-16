@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > standard query operators > sort
 date: 2022-11-07T21:31:15-0700
 draft: false
+weight: 1
 ---
 A sorting operation orders the elements of a sequence based on one or more attributes.
 

@@ -2,6 +2,7 @@
 title: notes > code > web > yaml > yaml
 date: 2023-01-15T19:56:46-0700
 draft: false
+weight: 1
 ---
 # YAML
 ```yaml

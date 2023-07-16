@@ -2,6 +2,7 @@
 title: notes > code > software engineering > patterns > structural > facade
 date: 2023-03-05T15:52:14-0700
 draft: false
+weight: 1
 ---
 # Façade
 Type: Structural  

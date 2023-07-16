@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > mvvm pattern > refactor logic into a viewmodelbase class
 date: 2022-12-14T19:09:48-0700
 draft: false
+weight: 1
 ---
 
 # Refactor Logic into a ViewModelBase Class

@@ -2,6 +2,7 @@
 title: notes > code > asp.net > ef core > from pluralsight aspnet core 6 fundamentals
 date: 2023-05-01T13:34:12-0600
 draft: false
+weight: 1
 ---
 
 (Notes from Pluralsight/ASP.NET Core 6 Fundamentals)

@@ -2,6 +2,7 @@
 title: notes > code > asp.net > reading > architecting modern web apps > 5 develop asp net core mvc apps > 2 working with dependencies
 date: 2023-04-14T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 When evaluating how your app works with its dependencies, remember::

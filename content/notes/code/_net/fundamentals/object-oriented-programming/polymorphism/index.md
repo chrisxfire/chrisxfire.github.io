@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > object oriented programming > polymorphism
 date: 2022-02-17T20:22:18-0700
 draft: false
+weight: 1
 ---
 # Versioning
 C# is designed to allow versioning between base and derived classes in different libraries.

@@ -2,6 +2,7 @@
 title: notes > code > asp.net > fundamentals > services and dependency injection
 date: 2023-01-08T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # [Dependency Injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0)

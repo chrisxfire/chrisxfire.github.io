@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > design > layouts > z depth and shadow
 date: 2023-01-05T19:14:16-0700
 draft: false
+weight: 1
 ---
 # Overview
 *Z-depth* is the distance between two surfaces on the z-axis. It illustrates how close an object is to the viewer.

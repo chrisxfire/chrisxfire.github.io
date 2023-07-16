@@ -2,6 +2,7 @@
 title: notes > code > asp.net > web apps > common > forms
 date: 2023-05-03T00:00:00-07:00
 draft: false
+weight: 1
 ---
 
 From Pluralsight/ASP.NET Core 6 Fundamentals

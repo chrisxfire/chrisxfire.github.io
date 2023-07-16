@@ -2,6 +2,7 @@
 title: notes > code > software engineering > patterns > behavioral > chain of responsibility
 date: 2023-03-05T15:52:55-0700
 draft: false
+weight: 1
 ---
 # Chain of Responsibility
 Type: Behavioral

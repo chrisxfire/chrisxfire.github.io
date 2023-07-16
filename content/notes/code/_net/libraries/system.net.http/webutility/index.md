@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.net.http > webutility
 date: 2021-11-27T16:34:18-0700
 draft: false
+weight: 1
 ---
 # [WebUtility](https://docs.microsoft.com/en-us/dotnet/api/system.net.webutility?view=net-6.0)
 `Object` –> `WebUtility`  

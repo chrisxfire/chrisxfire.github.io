@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > ui > positioning elements
 date: 2022-12-11T19:00:58-0700
 draft: false
+weight: 1
 ---
 # Positioning Elements with Layout Properties
 <img src="XAML_UI_Positioning-Elements-image1.png" style="width:4.79167in;height:1.95in" />  

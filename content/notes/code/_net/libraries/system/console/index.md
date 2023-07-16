@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system > console
 date: 2021-11-19T15:50:28-0700
 draft: false
+weight: 1
 ---
 # [System.Console](https://docs.microsoft.com/en-us/dotnet/api/system.console?view=net-6.0)
 `STDIN`, `STDOUT`, `STDERR` streams.  

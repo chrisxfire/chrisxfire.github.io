@@ -2,6 +2,7 @@
 title: notes > code > .net > collections > overview
 date: 2022-02-16T16:22:14-0700
 draft: false
+weight: -1
 ---
 # [Collections](https://docs.microsoft.com/en-us/dotnet/api/system.collections?view=net-6.0)
 Collections of objects.

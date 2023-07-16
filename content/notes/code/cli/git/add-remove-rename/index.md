@@ -2,6 +2,7 @@
 title: notes > code > cli > git > add remove rename
 date: 2022-10-23T16:06:02-0600
 draft: false
+weight: 1
 ---
 # Add Files
 ```powershell

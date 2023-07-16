@@ -2,6 +2,7 @@
 title: notes > code > asp.net > web apps > razor pages > razor pages contact us form
 date: 2023-04-19T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Overview

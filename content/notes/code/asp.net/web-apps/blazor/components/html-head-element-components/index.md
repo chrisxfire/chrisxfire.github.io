@@ -2,6 +2,7 @@
 title: notes > code > asp.net > web apps > blazor > components > html <head> element components
 date: 2023-07-11T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Overview

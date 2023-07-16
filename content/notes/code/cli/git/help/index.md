@@ -2,6 +2,7 @@
 title: notes > code > cli > git > help
 date: 2022-10-23T16:04:18-0600
 draft: false
+weight: 1
 ---
 # Getting Help
 `git help <verb>` – get manpage-level help on <verb>  

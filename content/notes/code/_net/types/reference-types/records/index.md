@@ -2,6 +2,7 @@
 title: notes > code > .net > types > reference types > records
 date: 2021-11-07T19:30:56-0700
 draft: false
+weight: 1
 ---
 # Records
 Records can be `record class`es or `record struct`s.

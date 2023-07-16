@@ -2,6 +2,7 @@
 title: notes > code > asp.net > web apps > blazor > advanced > js interop
 date: 2023-01-01T00:00:00-07:00
 draft: false
+weight: 1
 ---
 
 # Overview

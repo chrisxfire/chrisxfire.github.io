@@ -2,6 +2,7 @@
 title: notes > code > cli > powershell > modules > psreadline
 date: 2023-04-20T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 Sample profile file: sample [profile file (github.com)](https://github.com/PowerShell/PSReadLine/blob/master/PSReadLine/SamplePSReadLineProfile.ps1)

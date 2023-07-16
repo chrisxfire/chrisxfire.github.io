@@ -2,6 +2,7 @@
 title: notes > code > cli > git > overview
 date: 2021-05-26T10:13:25-0600
 draft: false
+weight: -1
 ---
 # Git
 A distributed version control system

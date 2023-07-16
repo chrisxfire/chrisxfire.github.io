@@ -2,6 +2,7 @@
 title: "notes > code > .net > toolkits > communitytoolkit.diagnostics"
 date: 2023-02-28T15:58:54-0700
 draft: false
+weight: 1
 ---
 # Overview
 APIs to validate parameters and throw exceptions in faulting code paths.

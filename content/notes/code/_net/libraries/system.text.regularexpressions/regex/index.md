@@ -2,6 +2,7 @@
 title: "notes > code > .net > libraries > system.text.regularexpressions > regex"
 date: 2022-01-22T08:22:40-0700
 draft: false
+weight: 1
 ---
 
 # [System.Text.RegularExpressions](https://docs.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex?view=net-6.0)

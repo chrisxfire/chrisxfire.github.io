@@ -2,6 +2,7 @@
 title: notes > code > asp.net > api > overview
 date: 2023-05-04T00:00:00-06:00
 draft: false
+weight: -1
 ---
 
 From Pluralsight/ASP.NET Core 6 Fundamentals

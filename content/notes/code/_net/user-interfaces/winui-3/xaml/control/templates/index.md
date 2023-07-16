@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > control > templates
 date: 2023-01-01T09:12:52-0700
 draft: false
+weight: 1
 ---
 # Overview
 There are *user controls* and *custom controls*:

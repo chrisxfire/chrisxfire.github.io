@@ -2,6 +2,7 @@
 title: notes > code > asp.net > reading > architecting modern web apps > 5 develop asp net core mvc apps > 6 domain driven design
 date: 2023-04-14T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 Domain-Driven Design is an agile approach to building software that emphasizes a focus on the business domain.  The same terminology is used for the real-world concept being modeled, the software equivalent, and any structures to persist the concept (like database tables).

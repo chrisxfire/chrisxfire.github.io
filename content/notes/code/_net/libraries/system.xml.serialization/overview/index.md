@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.xml.serialization > overview
 date: 2021-12-23T16:29:42-0700
 draft: false
+weight: -1
 ---
 # [System.Xml.Serialization Namespace](https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization?view=net-6.0)
 

@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > standard query operators > join
 date: 2022-11-10T20:06:48-0700
 draft: false
+weight: 1
 ---
 A jon operation is the association of objects in one data source with objects that share a common attribute in another data source.
 

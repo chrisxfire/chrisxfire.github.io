@@ -2,6 +2,7 @@
 title: notes > code > asp.net > fundamentals > routing > overview
 date: 2023-01-09T00:00:00-06:00
 draft: false
+weight: -1
 ---
 
 # Overview

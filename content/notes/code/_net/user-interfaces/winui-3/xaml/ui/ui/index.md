@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > ui > ui
 date: 2022-12-10T17:28:28-0700
 draft: false
+weight: 1
 ---
 # WinUI Layout Panels
 # StackPanel

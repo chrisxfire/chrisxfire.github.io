@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > object oriented programming > interfaces vs abstract classes
 date: 2022-05-28T21:30:35-0600
 draft: false
+weight: 1
 ---
 | Topic                           | Interface | Abstract Class            |
 |-------------------------------------|---------------|-------------------------------|

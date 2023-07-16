@@ -2,6 +2,7 @@
 title: notes > code > .net > programming models > asynchronous programming > task
 date: 2022-11-23T09:58:39-0700
 draft: false
+weight: 1
 ---
 # Tasks & Threads
 - In C#, `Thread` and `Task` are both types. `Task` is a higher level of abstraction than `Thread`.

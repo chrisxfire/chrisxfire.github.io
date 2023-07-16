@@ -2,6 +2,7 @@
 title: notes > code > web > hugo > configuration
 date: 2023-03-17T13:20:55-0600
 draft: false
+weight: 1
 ---
 # [Configuration](https://gohugo.io/getting-started/configuration/)
 Default configuration file is `hugo.toml`, `hugo.yaml`, or `hugo.json` in root of site.

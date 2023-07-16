@@ -2,6 +2,7 @@
 title: notes > code > asp.net > ef core > implement a database
 date: 2023-05-16T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 > From Pluralsight/Building a Data-driving ASP.NET Core 6 Blazor Server Application

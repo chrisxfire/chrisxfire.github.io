@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > design > silhouettes
 date: 2023-01-05T18:49:55-0700
 draft: false
+weight: 1
 ---
 # App Silhouettes
 Common pattern of relationship between elements such as app layering, menus, navigation, commanding, and content areas.

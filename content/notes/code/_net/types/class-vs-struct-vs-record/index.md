@@ -2,6 +2,7 @@
 title: notes > code > .net > types > class vs struct vs record
 date: 2022-11-03T18:41:48-0600
 draft: false
+weight: 1
 ---
 | Type / Feature | Memory | Semantics | Mutability | Equality            |
 |----------------|--------|-----------|------------|---------------------|

@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system > uri
 date: 2021-11-28T08:30:06-0700
 draft: false
+weight: 1
 ---
 # [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/system.uri?view=net-6.0)
 `Object` –> `Uri`  

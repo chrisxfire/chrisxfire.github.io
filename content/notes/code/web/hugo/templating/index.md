@@ -2,6 +2,7 @@
 title: notes > code > web > hugo > templating
 date: 2023-03-20T12:37:48-0600
 draft: false
+weight: 1
 ---
 # Templating
 Templating controls how a page is rendered. It uses variables, loops, conditions, and functions.

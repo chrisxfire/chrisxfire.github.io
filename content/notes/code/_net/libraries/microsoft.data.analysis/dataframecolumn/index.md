@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > microsoft.data.analysis > dataframecolumn
 date: 2022-01-25T13:39:48-0700
 draft: false
+weight: 1
 ---
 # [DataFrameColumn](https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.analysis.dataframecolumn?view=ml-dotnet-preview)
 `Object` –> `DataFrameColumn`   

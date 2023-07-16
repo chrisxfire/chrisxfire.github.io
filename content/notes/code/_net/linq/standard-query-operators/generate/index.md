@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > standard query operators > generate
 date: 2022-11-10T20:42:58-0700
 draft: false
+weight: 1
 ---
 A generate operation creates a new sequence of values.
 

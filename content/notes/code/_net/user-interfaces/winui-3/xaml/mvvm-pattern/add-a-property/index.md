@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > mvvm pattern > add a property
 date: 2022-12-14T18:55:12-0700
 draft: false
+weight: 1
 ---
 # Add a SelectedCustomer Property
 <img src="XAML_MVVM-Pattern_Add-a-Property-image1.png" style="width:6.575in;height:3.525in" />  

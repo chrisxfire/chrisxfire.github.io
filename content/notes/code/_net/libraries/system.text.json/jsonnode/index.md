@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.text.json > jsonnode
 date: 2022-01-30T12:35:13-0700
 draft: false
+weight: 1
 ---
 # [JsonNode](https://docs.microsoft.com/en-us/dotnet/api/system.text.json.nodes.jsonnode?view=net-6.0)
 ```cs

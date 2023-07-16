@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > clauses > where clause
 date: 2022-04-25T21:06:54-0600
 draft: false
+weight: 1
 ---
 # Where clause
 Use the `where` clause to *filter* out elements from the data based on one or more predicate expressions:

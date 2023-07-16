@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.environment > overview
 date: 2021-11-28T12:31:13-0700
 draft: false
+weight: -1
 ---
 # [System.Environment](https://docs.microsoft.com/en-us/dotnet/api/system.environment?view=net-6.0)
 `Object` –> `Environment`  

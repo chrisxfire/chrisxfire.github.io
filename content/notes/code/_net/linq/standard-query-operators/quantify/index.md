@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > standard query operators > quantify
 date: 2022-11-08T21:02:55-0700
 draft: false
+weight: 1
 ---
 A quantifying operation return Boolean for whether some or all of the elements in a set satisfy a condition.
 

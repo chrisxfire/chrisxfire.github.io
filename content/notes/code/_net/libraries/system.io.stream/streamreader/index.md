@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.io.stream > streamreader
 date: 2022-05-16T15:13:33-0600
 draft: false
+weight: 1
 ---
 # [StreamReader](https://docs.microsoft.com/en-us/dotnet/api/system.io.streamreader?view=net-6.0)
 `Object` –> `MarshalByRefObject` –> `TextReader` –> `StreamReader`  

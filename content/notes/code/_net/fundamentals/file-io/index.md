@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > file io
 date: 2021-11-10T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Iterator method to return sequence for lazy evaluation:

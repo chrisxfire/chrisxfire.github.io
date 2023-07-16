@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system > timezoneinfo
 date: 2021-11-11T20:44:35-0700
 draft: false
+weight: 1
 ---
 
 # [TimeZoneInfo](https://docs.microsoft.com/en-us/dotnet/api/system.timezoneinfo?view=net-6.0)

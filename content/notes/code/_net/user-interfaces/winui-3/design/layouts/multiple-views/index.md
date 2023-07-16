@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > design > layouts > multiple views
 date: 2023-01-02T20:53:42-0700
 draft: false
+weight: 1
 ---
 # Overview
 Multiple views allow independent parts of apps to be viewed in separate windows.  

@@ -2,6 +2,7 @@
 title: notes > code > asp.net > reading > architecting modern web apps > 5 develop asp net core mvc apps > 3 structuring the app
 date: 2023-04-14T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 Monolithic web apps have a single entry point in the Web project.

@@ -2,6 +2,7 @@
 title: notes > code > cli > git > logs
 date: 2022-10-23T16:05:41-0600
 draft: false
+weight: 1
 ---
 # Logs
 `git log` – return commits made in this repository

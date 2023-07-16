@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > design > layouts > layouts
 date: 2023-01-02T20:33:28-0700
 draft: false
+weight: 1
 ---
 # Overview
 XAML layout system supports automatic resizing of elements, layout panels, and visual states

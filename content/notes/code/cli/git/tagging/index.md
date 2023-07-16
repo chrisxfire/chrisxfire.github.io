@@ -2,6 +2,7 @@
 title: notes > code > cli > git > tagging
 date: 2022-10-23T16:05:23-0600
 draft: false
+weight: 1
 ---
 # Tagging
 Tags apply to commits.

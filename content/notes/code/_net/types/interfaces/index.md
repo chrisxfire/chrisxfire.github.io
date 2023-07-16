@@ -2,6 +2,7 @@
 title: notes > code > .net > types > interfaces
 date: 2021-11-05T21:26:07-0600
 draft: false
+weight: 1
 ---
 # Interfaces
 [Interfaces - define behavior for multiple types | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces)  

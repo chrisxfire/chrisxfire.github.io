@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > design > navigation > navigation
 date: 2023-01-02T17:27:02-0700
 draft: false
+weight: 1
 ---
 # Overview
 An app is a collection of *pages*. *Navigation* is the act of moving between pages and within a page.

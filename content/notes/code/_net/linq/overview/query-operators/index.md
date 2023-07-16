@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > overview > query operators
 date: 2022-11-05T22:15:01-0600
 draft: false
+weight: 1
 ---
 # Query Operations
 LINQ queries can be filtered, sorted (ordered), grouped, joined, and selected:

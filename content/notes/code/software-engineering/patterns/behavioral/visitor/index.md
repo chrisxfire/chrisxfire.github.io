@@ -2,6 +2,7 @@
 title: notes > code > software engineering > patterns > behavioral > visitor
 date: 2023-03-05T15:55:35-0700
 draft: false
+weight: 1
 ---
 # Visitor
 Type: Behavioral  

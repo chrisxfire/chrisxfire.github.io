@@ -2,6 +2,7 @@
 title: notes > code > software engineering > architecture decision records > template balanced
 date: 2023-06-22T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # [short title of solved problem and solution]

@@ -2,6 +2,7 @@
 title: notes > code > asp.net > web apps > razor pages > overview
 date: 2023-05-03T00:00:00-06:00
 draft: false
+weight: -1
 ---
 
 # [Overview](https://learn.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-7.0&tabs=visual-studio)

@@ -2,6 +2,7 @@
 title: notes > code > cli > dotnet > overview
 date: 2022-02-16T16:39:46-0700
 draft: false
+weight: -1
 ---
 # [dotnet command](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet)
 # Compiling

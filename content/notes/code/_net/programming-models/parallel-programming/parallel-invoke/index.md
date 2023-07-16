@@ -2,6 +2,7 @@
 title: notes > code > .net > programming models > parallel programming > parallel invoke
 date: 2023-02-17T09:58:06-0700
 draft: false
+weight: 1
 ---
 Overview
 Use `Parallel.Invoke` to execute operations in parallel on a data source.

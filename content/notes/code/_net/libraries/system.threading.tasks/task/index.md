@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.threading.tasks > task
 ---
 title: Task
+weight: 1
 date: 2021-12-24T11:43:56-0700
 draft: false
 ---

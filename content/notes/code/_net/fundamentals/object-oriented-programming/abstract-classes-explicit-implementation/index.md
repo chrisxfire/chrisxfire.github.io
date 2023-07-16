@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > object oriented programming > abstract classes explicit implementation
 date: 2022-03-06T18:29:31-0700
 draft: false
+weight: 1
 ---
 # Explicit Interface Implementation
 [Internal Interface Classes in C# | Alex Franchuk](https://alexfranchuk.com/blog/internal-interface-classes-in-csharp/)

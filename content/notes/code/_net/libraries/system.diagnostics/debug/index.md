@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.diagnostics > debug
 date: 2021-12-15T14:32:47-0700
 draft: false
+weight: 1
 ---
 # [Debug](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.debug?view=net-6.0)
 `Object` –> `Debug`  

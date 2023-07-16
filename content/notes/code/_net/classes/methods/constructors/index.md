@@ -2,6 +2,7 @@
 title: notes > code > .net > classes > methods > constructors
 date: 2021-11-06T11:25:27-0600
 draft: false
+weight: 1
 ---
 # [Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors)
 Whenever a Class or Struct is created, its *constructor* is called.

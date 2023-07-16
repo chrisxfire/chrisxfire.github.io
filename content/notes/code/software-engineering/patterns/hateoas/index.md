@@ -2,6 +2,7 @@
 title: notes > code > software engineering > patterns > hateoas
 date: 2023-02-22T12:03:00-0700
 draft: false
+weight: 1
 ---
 # HATEOAS
 - Hypermedia As The Engine Of Application State

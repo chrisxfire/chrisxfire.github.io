@@ -2,6 +2,7 @@
 title: notes > code > .net > programming models > asynchronous programming > task-based asynchronous pattern (tap) (async await) > overview
 date: 2022-11-21T21:16:58-0700
 draft: false
+weight: -1
 ---
 # Task-based Asynchronous Pattern
 - Returns Task or Task<T>

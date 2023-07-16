@@ -2,6 +2,7 @@
 title: notes > code > .net > types > value types > tuples
 date: 2021-11-05T21:38:53-0600
 draft: false
+weight: 1
 ---
 # Tuples
 `System.ValueTuple` is modern; `System.Tuple` is legacy.

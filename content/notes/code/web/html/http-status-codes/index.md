@@ -2,6 +2,7 @@
 title: notes > code > web > html > http status codes
 date: 2023-03-28T08:57:35-0600
 draft: false
+weight: 1
 ---
 
 Informational (100-199)  

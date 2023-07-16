@@ -2,6 +2,7 @@
 title: notes > code > web > html > lists
 date: 2023-04-26T17:34:30-0600
 draft: false
+weight: 1
 ---
 # Lists
 Unordered:

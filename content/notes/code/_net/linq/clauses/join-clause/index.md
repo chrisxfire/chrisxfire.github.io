@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > clauses > join clause
 date: 2022-04-27T18:45:49-0600
 draft: false
+weight: 1
 ---
 # Join clause
 Use `join` to associate and/or combine elements from one data source with elements from another based on an equality comparison between keys in each element.  

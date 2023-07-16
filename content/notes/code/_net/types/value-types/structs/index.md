@@ -2,6 +2,7 @@
 title: notes > code > .net > types > value types > structs
 date: 2021-11-05T21:23:37-0600
 draft: false
+weight: 1
 ---
 # Structs
 A value type that encapsulates data and related functionality.

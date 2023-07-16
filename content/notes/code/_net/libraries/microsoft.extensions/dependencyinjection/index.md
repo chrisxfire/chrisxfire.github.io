@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > microsoft.extensions > dependencyinjection
 date: 2022-08-23T16:03:38-0600
 draft: false
+weight: 1
 ---
 # Dependency Injection with Generic Host & Default HostBuilder
 ## Example With a Hosted Service

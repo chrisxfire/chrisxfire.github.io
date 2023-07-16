@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.commandline > overview
 date: 2022-01-31T20:07:53-0700
 draft: false
+weight: -1
 ---
 # [System.CommandLine](https://learn.microsoft.com/en-us/dotnet/standard/commandline/)
 <o>Pre-release.</o>   

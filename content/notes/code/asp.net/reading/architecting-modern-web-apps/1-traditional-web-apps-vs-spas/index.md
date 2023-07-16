@@ -2,6 +2,7 @@
 title: notes > code > asp.net > reading > architecting modern web apps > 1 traditional web apps vs spas
 date: 2023-04-14T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 From ["Architect Modern Web Applications with ASP.NET Core and Azure"][book] eBook

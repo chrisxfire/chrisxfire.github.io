@@ -2,6 +2,7 @@
 title: notes > code > asp.net > web apps > blazor > components > css isolation
 date: 2023-06-20T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Overview

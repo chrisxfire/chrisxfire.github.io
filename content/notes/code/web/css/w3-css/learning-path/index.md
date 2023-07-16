@@ -2,6 +2,7 @@
 title: notes > code > web > css > w3 css > learning path
 date: 2023-06-16T00:00:00-06:00
 draft: true
+weight: 1
 ---
 
 Documentation: https://www.w3schools.com/w3css/w3css_intro.asp

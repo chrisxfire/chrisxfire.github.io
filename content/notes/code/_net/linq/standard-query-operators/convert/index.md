@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > standard query operators > convert
 date: 2022-11-13T18:58:51-0700
 draft: false
+weight: 1
 ---
 Convert methods change the type of objects.
 

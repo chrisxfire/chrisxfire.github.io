@@ -2,6 +2,7 @@
 title: notes > code > .net > types > reference types > dynamic
 date: 2022-02-17T19:03:02-0700
 draft: false
+weight: 1
 ---
 # Dynamic Type
 Namespace: `System.Dynamic`  

@@ -2,6 +2,7 @@
 title: notes > code > .net > collections > iterators
 date: 2021-11-19T14:40:47-0700
 draft: false
+weight: 1
 ---
 # Iterators
 Iterators are objects that traverse a container. They yield return each element one at a time.

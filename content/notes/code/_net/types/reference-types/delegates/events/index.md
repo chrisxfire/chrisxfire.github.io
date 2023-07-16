@@ -2,6 +2,7 @@
 title: notes > code > .net > types > reference types > delegates > events
 date: 2021-11-06T11:28:28-0600
 draft: false
+weight: 1
 ---
 # Events
 [Events in C# (tutorialsteacher.com)](https://www.tutorialsteacher.com/csharp/csharp-event)  

@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > dependency injection
 date: 2022-12-29T21:44:48-0700
 draft: false
+weight: 1
 ---
 # Overview
 The `MainWindow` knows how to create the MainViewModel with a customer data provider.  

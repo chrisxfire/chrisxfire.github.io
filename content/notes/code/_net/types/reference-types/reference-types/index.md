@@ -2,6 +2,7 @@
 title: notes > code > .net > types > reference types > reference types
 date: 2022-02-16T16:13:51-0700
 draft: false
+weight: 1
 ---
 # Reference Types
 - Reference types store on the heap.

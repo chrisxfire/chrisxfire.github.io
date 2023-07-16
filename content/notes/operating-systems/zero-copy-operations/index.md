@@ -2,6 +2,7 @@
 title: notes > operating systems > zero copy operations
 date: 2023-06-24T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Zero-copy Operations

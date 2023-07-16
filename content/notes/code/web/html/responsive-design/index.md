@@ -2,6 +2,7 @@
 title: notes > code > web > html > responsive design
 date: 2023-04-26T20:48:26-0600
 draft: false
+weight: 1
 ---
 # Overview
 Responsive designs automatically adjust for different screen sizes and viewports:

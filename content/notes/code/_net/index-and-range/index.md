@@ -2,6 +2,7 @@
 title: notes > code > .net > index and range
 date: 2022-01-09T19:17:18-0700
 draft: false
+weight: 1
 ---
 # Index
 Normally, the index is an integer passed to the indexer of an array:
