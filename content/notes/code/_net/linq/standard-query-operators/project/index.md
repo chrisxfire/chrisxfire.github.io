@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > standard query operators > project
 date: 2022-11-08T21:06:04-0700
 draft: false
+weight: 1
 ---
 A projection operation transforms an object into a new form that often consists only of those properties that will be subsequently used.
 

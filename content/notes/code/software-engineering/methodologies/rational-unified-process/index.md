@@ -2,6 +2,7 @@
 title: notes > code > software engineering > methodologies > rational unified process
 date: 2023-02-22T11:13:19-0700
 draft: false
+weight: 1
 ---
 # Rational Unified Process
 - Created by Rational Software, which was later acquired by IBM (2013).

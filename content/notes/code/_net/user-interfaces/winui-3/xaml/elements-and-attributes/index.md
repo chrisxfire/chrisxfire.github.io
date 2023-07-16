@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > elements and attributes
 date: 2022-12-09T20:33:41-0700
 draft: false
+weight: 1
 ---
 <img src="XAML_Elements-&-Attributes-image1.png" style="width:3.175in;height:2.09167in" />  
 

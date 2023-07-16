@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > standard query operators > group
 date: 2022-11-10T20:15:40-0700
 draft: false
+weight: 1
 ---
 A group operation puts data into groups such that the elements in each group share a common attribute.
 

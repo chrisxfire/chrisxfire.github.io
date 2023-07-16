@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > configuration > overview
 date: 2021-12-30T14:12:34-0700
 draft: false
+weight: -1
 ---
 # [Configuraton Providers](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration-providers)
 Configuration providers exist for settings files, environment variables, Azure key vault, Azure app configuration, command-line arguments, custom providers, key-per-file, and in-memory .NET objects.

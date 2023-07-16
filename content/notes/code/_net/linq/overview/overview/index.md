@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > overview > overview
 date: 2022-04-20T10:06:47-0600
 draft: false
+weight: -1
 ---
 # Overview
 LINQ (Language-Intergrated Query) is a set of technologies that integrates query capabilities directly into C#.

@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > dependency injection > microsofts example
 date: 2022-08-26T07:34:23-0600
 draft: false
+weight: 1
 ---
 # Dependent Service Implementation Example
 ```cs

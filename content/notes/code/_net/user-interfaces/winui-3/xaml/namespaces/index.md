@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > namespaces
 date: 2022-12-12T16:30:39-0700
 draft: false
+weight: 1
 ---
 
 ```xml

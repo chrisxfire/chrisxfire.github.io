@@ -2,6 +2,7 @@
 title: notes > code > asp.net > reading > architecting modern web apps > 4 common client side web technologies
 date: 2023-04-14T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 Complex web apps achieve separation of concerns by separating page content (HTML), layout and styling (CSS), and behavior (JavaScript).

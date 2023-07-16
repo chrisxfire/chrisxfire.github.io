@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > standard query operators > partition
 date: 2022-11-08T21:36:23-0700
 draft: false
+weight: 1
 ---
 A partitioning operation divides an input set into two sections, without rearranging the elements, and then returning one of the sections.
 

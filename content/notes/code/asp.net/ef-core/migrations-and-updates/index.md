@@ -2,6 +2,7 @@
 title: notes > code > asp.net > ef core > migrations and updates
 date: 2023-05-16T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Migrate a Database via a SQL File

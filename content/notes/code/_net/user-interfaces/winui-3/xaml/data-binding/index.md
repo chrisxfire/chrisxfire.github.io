@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > data binding
 date: 2022-12-12T16:39:12-0700
 draft: false
+weight: 1
 ---
 # Data Binding
 - Linking properties of objects in the View to those in the Data layer so that changes in one are reflected in the other.

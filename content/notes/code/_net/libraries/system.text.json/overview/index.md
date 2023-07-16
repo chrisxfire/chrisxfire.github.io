@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.text.json > overview
 date: 2021-11-11T10:55:56-0700
 draft: false
+weight: -1
 ---
 # [System.Text.Json](https://docs.microsoft.com/en-us/dotnet/api/system.text.json?view=net-6.0)
 Use `System.Text.Json` for performance.  

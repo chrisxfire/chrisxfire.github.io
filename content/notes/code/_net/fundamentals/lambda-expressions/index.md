@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > lambda expressions
 date: 2022-05-07T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # [Lambda Expression](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)

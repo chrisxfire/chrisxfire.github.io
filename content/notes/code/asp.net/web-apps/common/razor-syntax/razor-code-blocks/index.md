@@ -2,6 +2,7 @@
 title: notes > code > asp.net > web apps > common > razor syntax > razor code blocks
 date: 2023-04-24T00:00:00-07:00
 draft: false
+weight: 1
 ---
 
 # Overview

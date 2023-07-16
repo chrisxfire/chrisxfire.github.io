@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.io.stream > stream
 date: 2022-05-16T15:01:46-0600
 draft: false
+weight: 1
 ---
 # [Stream](https://docs.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-6.0)
 A generic view of a sequence of bytes (not characters). The abstract base class of all streams.  

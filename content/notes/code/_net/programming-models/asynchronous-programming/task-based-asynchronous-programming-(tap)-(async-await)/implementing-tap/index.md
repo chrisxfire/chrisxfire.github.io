@@ -2,6 +2,7 @@
 title: notes > code > .net > programming models > asynchronous programming > task-based asynchronous pattern (tap) (async await) > implementing tap
 date: 2022-11-21T22:06:15-0700
 draft: false
+weight: 1
 ---
 # Implementing Task-based Asynchronous Pattern
 - Create TAP methods by using the `async` keyword. Compiler will perform necessary transformations.

@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > variables
 date: 2021-11-06T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Variables

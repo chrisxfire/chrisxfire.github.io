@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > design > layouts > panels > panels
 date: 2023-01-02T21:31:13-0700
 draft: false
+weight: 1
 ---
 Overview
 Layout panels are containers to arrange and group UI elements.

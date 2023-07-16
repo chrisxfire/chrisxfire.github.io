@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > microsoft.data.analysis > dataframerow
 date: 2022-01-25T13:50:25-0700
 draft: false
+weight: 1
 ---
 # [DataFrameRow](https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.analysis.dataframerow?view=ml-dotnet-preview)
 `Object` –> `DataFrameRow`  

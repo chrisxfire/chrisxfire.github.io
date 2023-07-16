@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.io.stream > streamwriter
 date: 2022-01-12T20:23:00-0700
 draft: false
+weight: 1
 ---
 # [StreamWriter Class (System.IO) | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/api/system.io.streamwriter?view=net-6.0)
 `Object` –> `MarshalByRefObject` –> `TextWriter` –> `StreamWriter`  

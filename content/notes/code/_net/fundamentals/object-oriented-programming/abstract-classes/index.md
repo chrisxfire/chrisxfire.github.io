@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > object oriented programming > abstract classes
 date: 2022-02-17T20:25:50-0700
 draft: false
+weight: 1
 ---
 # Abstract Classes
 Abstract classes and members are incomplete and <u>must</u> be implemented in a derived class.

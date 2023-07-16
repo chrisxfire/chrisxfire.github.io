@@ -2,6 +2,7 @@
 title: notes > code > cli > git > merging
 date: 2022-10-23T16:07:02-0600
 draft: false
+weight: 1
 ---
 # Merging Branches
 `git merge <branch>` merge branch into the current branch

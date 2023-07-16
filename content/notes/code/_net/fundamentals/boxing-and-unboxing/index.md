@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > boxing and unboxing
 date: 2022-10-14T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Overview

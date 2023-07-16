@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.net.http > ihttpclientfactory
 date: 2022-07-22T09:36:06-0600
 draft: false
+weight: 1
 ---
 [Make HTTP requests using IHttpClientFactory in ASP.NET Core | Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-6.0#consumption-patterns)
 

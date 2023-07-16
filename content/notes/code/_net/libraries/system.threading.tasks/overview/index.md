@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.threading.tasks > overview
 date: 2021-11-10T19:02:38-0700
 draft: false
+weight: -1
 ---
 # [System.Threading.Tasks](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks?view=net-6.0)
 `Object` –> `Task`  

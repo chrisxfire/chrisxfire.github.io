@@ -2,6 +2,7 @@
 title: notes > code > .net > classes > methods > deconstructors
 date: 2021-12-31T10:31:57-0700
 draft: false
+weight: 1
 ---
 # Deconstructors
 The special method `Deconstruct()` is used to deconstruct a type:
@@ -26,8 +27,8 @@ public class Person
 
 Person bob = new() { "eli", "smith" };
 var (name1, name2) = eli;
-name1// returns "eli"
-name2// returns "smith"
+name1 // returns "eli"
+name2 // returns "smith"
 ```
 
 # Overloaded Deconstructors

@@ -2,6 +2,7 @@
 title: notes > code > web > hugo > layouts, styles, partials
 date: 2023-03-20T12:37:30-0600
 draft: false
+weight: 1
 ---
 # Layouts
 *Content* is purely the content of a page and expressed in Markdown.  

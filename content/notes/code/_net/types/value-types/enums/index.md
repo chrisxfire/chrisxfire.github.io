@@ -2,6 +2,7 @@
 title: notes > code > .net > types > value types > enums
 date: 2021-11-05T21:33:38-0600
 draft: false
+weight: 1
 ---
 # [Enums](https://docs.microsoft.com/en-us/dotnet/api/system.enum?view=net-6.0)
 `System.ValueType` –> `System.Enum`  

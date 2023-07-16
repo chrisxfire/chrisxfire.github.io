@@ -2,6 +2,7 @@
 title: notes > code > cli > dotnet > tools > httprepl
 date: 2021-11-28T19:53:05-0700
 draft: false
+weight: 1
 ---
 # [httprepl](https://aka.ms/http-repl-doc)
 httprepl is a dotnet CLI tool used for Web API development.

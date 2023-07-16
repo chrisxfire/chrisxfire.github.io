@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system > uribuilder
 date: 2021-11-28T09:03:08-0700
 draft: false
+weight: 1
 ---
 
 # [System.UriBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.uribuilder?view=net-6.0)

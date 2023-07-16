@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > dependency injection
 date: 2022-05-13T08:50:05-0600
 draft: false
+weight: 1
 ---
 [Dependency injection guidelines - .NET | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection-guidelines)
 [Dependency Injection Design Pattern in C# – ScottLilly.com](https://scottlilly.com/c-design-patterns-the-dependency-injection-pattern/)

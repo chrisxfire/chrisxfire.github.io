@@ -2,6 +2,7 @@
 title: notes > code > software engineering > patterns > creational > builder
 date: 2023-03-05T09:51:45-0700
 draft: false
+weight: 1
 ---
 
 # Builder

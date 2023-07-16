@@ -2,6 +2,7 @@
 title: notes > code > software engineering > patterns > creational > prototype
 date: 2023-03-05T15:08:44-0700
 draft: false
+weight: 1
 ---
 
 <img src="Creational_Prototype-image1.png" style="width:3.375in;height:2.975in" />  

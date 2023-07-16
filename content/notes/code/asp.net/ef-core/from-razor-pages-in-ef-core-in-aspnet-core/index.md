@@ -2,6 +2,7 @@
 title: notes > code > asp.net > ef core > from razor pages in ef core in aspnet core
 date: 2023-04-25T12:36:11-0600
 draft: false
+weight: 1
 ---
 Notes from [Razor Pages with Entity Framework Core in ASP.NET Core - Tutorial 1 of 8 | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-7.0)
 

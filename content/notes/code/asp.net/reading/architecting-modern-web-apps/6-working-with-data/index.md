@@ -2,6 +2,7 @@
 title: notes > code > asp.net > reading > architecting modern web apps > 6 working with data
 date: 2023-04-14T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # EF Core vs. Micro-ORM (Dapper)

@@ -2,6 +2,7 @@
 title: notes > code > web > msid > msgraph
 date: 2022-05-11T13:35:11-0600
 draft: false
+weight: 1
 ---
 # Microsoft Graph
 Unified API model to access data in M365.

@@ -2,6 +2,7 @@
 title: notes > code > .net > classes > properties
 date: 2021-11-06T11:25:46-0600
 draft: false
+weight: 1
 ---
 # Properties
 Properties are methods that act like Fields that allow for getting and setting its value.

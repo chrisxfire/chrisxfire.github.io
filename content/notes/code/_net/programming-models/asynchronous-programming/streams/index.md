@@ -2,6 +2,7 @@
 title: notes > code > .net > programming models > asynchronous programming > streams
 date: 2022-11-23T10:22:25-0700
 draft: false
+weight: 1
 ---
 # Async Streams
 An async method may return an async stream via `IAsyncEnumerable<T>`.

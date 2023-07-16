@@ -2,6 +2,7 @@
 title: notes > code > software engineering > concepts > stack and heap
 date: 2022-01-02T21:54:37-0700
 draft: false
+weight: 1
 ---
 # Heap and Stack
 The *stack* and *heap* can be anywhere in physical or virtual memory.  

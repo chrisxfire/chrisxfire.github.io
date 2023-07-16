@@ -2,6 +2,7 @@
 title: notes > code > software engineering > patterns > structural > flyweight
 date: 2023-03-05T15:52:25-0700
 draft: false
+weight: 1
 ---
 # Flyweight
 Type: Structural  

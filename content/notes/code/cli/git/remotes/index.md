@@ -2,6 +2,7 @@
 title: notes > code > cli > git > remotes
 date: 2022-10-23T16:05:11-0600
 draft: false
+weight: 1
 ---
 # Remote Repositories
 `git fetch <remote>` – retrieve all data from remote repository since last fetch (or clone)

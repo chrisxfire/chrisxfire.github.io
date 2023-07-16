@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > clauses > into keyword
 date: 2022-04-25T21:03:34-0600
 draft: false
+weight: 1
 ---
 # Into keyword
 The `into` keyword is used in a select or group clause to create a temporary identifier that stores a query.  

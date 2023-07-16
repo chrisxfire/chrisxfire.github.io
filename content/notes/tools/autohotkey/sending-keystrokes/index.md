@@ -2,6 +2,7 @@
 title: notes > tools > autohotkey > sending keystrokes
 date: 2023-04-26T14:21:17-0600
 draft: false
+weight: 1
 ---
 # Sending Keystrokes
 ## SendText 

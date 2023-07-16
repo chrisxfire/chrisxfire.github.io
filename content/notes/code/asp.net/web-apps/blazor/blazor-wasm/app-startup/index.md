@@ -2,6 +2,7 @@
 title: notes > code > asp.net > web apps > blazor > blazor wasm > app startup
 date: 2023-04-18T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # [Loading Boot Resources](https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?view=aspnetcore-7.0#load-boot-resources)

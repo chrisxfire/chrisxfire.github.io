@@ -2,6 +2,7 @@
 title: notes > code > cli > git > troubleshooting
 date: 2021-12-21T16:57:18-0700
 draft: false
+weight: 1
 ---
 # Git is not respecting .gitignore
 ```powershell

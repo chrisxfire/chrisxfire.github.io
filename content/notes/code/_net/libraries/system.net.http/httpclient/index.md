@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.net.http > httpclient
 date: 2021-11-11T09:41:47-0700
 draft: false
+weight: 1
 ---
 # [HttpClient](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-6.0)
 `Object` –> `HttpMessageInvoker` –> `HttpClient`  

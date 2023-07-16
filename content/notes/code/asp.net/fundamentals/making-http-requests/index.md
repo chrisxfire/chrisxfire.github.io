@@ -2,6 +2,7 @@
 title: notes > code > asp.net > fundamentals > making http requests
 date: 2023-01-11T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Overview

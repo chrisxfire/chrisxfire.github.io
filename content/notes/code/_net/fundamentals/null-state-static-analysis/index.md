@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > null state static analysis
 date: 2022-11-19T08:48:52-0700
 draft: false
+weight: 1
 ---
 # Attributes
 `using System.Diagnostics.CodeAnalysis;`

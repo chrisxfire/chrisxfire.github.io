@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > data templates > concepts
 date: 2022-12-28T20:32:09-0700
 draft: false
+weight: 1
 ---
 # WinUI's Flexible Content Model
 Data Templates define a user interface for data. It is often defined as a Resource.

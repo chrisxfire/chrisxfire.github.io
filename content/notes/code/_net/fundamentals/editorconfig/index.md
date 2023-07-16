@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > editorconfig
 date: 2022-11-17T15:45:22-0700
 draft: false
+weight: 1
 ---
 # Overview
 EditorConfig is a cross-platform file format for defining code styles.

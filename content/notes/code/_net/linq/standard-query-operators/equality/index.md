@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > standard query operators > equality
 date: 2022-11-10T20:49:03-0700
 draft: false
+weight: 1
 ---
 Two sequences, whose pair-wise elements are equal, and which have the same number of such elements, are equal.
 

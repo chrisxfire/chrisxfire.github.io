@@ -2,6 +2,7 @@
 title: notes > code > software engineering > principles > coupling vs cohesion
 date: 2022-12-17T09:47:30-0700
 draft: false
+weight: 1
 ---
 
 ![coupling vs cohesion](coupling-vs-cohesion.png)

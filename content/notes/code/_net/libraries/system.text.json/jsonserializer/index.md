@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system.text.json > jsonserializer
 date: 2021-11-11T10:57:32-0700
 draft: false
+weight: 1
 ---
 # [JsonSerializer](https://docs.microsoft.com/en-us/dotnet/api/system.text.json.jsonserializer?view=net-6.0)
 `Object` –> `JsonSerializer`  

@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > ui > sizing rows and columns
 date: 2022-12-11T18:40:59-0700
 draft: false
+weight: 1
 ---
 # Sizing
 Setting `Height` to `"*"` for both `RowDefinitions` results in both rows growing proportionally:  

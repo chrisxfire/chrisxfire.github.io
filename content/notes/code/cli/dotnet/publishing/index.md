@@ -2,6 +2,7 @@
 title: notes > code > cli > dotnet > publishing
 date: 2022-02-16T16:42:47-0700
 draft: false 
+weight: 1
 ---
 # [Publishing](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish)
 ```powershell

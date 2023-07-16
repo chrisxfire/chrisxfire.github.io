@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > extension methods > extension methods
 date: 2022-05-02T07:55:01-0600
 draft: false
+weight: 1
 ---
 # [LINQ Extension Methods](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable?view=net-6.0)
 LINQ extension methods are static methods of Enumerable type in System.LINQ and appended to any sequence.  

@@ -2,6 +2,7 @@
 title: notes > code > .net > collections > spans
 date: 2022-01-09T18:14:15-0700
 draft: false
+weight: 1
 ---
 # Spans
 Spans are a window into the original array. Spans only work with arrays.

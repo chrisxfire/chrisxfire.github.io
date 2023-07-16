@@ -2,6 +2,7 @@
 title: notes > code > .net > classes > methods > indexers
 date: 2021-11-06T11:26:41-0600
 draft: false
+weight: 1
 ---
 # Indexers
 Indexers (indexed properties) are Properties that can be indexed into some collection of values.  

@@ -2,6 +2,7 @@
 title: notes > code > .net > classes > partial classes
 date: 2022-03-06T18:16:55-0700
 draft: false
+weight: 1
 ---
 # Partial Classes
 The partial keyword indicates that other parts of the class, struct, or interface can be defined in the namespace.

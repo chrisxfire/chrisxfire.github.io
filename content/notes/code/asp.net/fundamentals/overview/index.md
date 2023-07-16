@@ -2,6 +2,7 @@
 title: notes > code > asp.net > fundamentals > overview
 date: 2023-01-07T00:00:00-06:00
 draft: false
+weight: -1
 ---
 
 This note includes Learn > .NET > ASP.NET Core > Fundamentals > Configuration | Option | Environments

@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > json
 date: 2021-11-11T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # [JSON](https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-use-dom-utf8jsonreader-utf8jsonwriter?pivots=dotnet-6-0)

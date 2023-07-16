@@ -2,6 +2,7 @@
 title: notes > code > .net > libraries > system > random
 date: 2021-11-10T18:43:00-0700
 draft: false
+weight: 1
 ---
 [System.Random](https://docs.microsoft.com/en-us/dotnet/api/system.random?view=net-6.0)
 `Object` –> `Random`  

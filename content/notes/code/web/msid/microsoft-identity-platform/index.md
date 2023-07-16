@@ -2,6 +2,7 @@
 title: notes > code > web > msid > microsoft identity platform
 date: 2022-05-10T16:54:55-0600
 draft: false
+weight: 1
 ---
 # Components
 - OAuth 2.0 and OpenID Connect

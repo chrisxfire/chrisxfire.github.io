@@ -2,6 +2,7 @@
 title: notes > code > .net > async programmign > asynchronous programming model (APM) (iasyncresult) > with delegates
 date: 2023-02-17T08:54:08-0700
 draft: false
+weight: 1
 ---
 # Overview
 Delegates enable calling any synchronous method in an asynchronous manner.

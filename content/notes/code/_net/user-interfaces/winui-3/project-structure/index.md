@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > project structure
 date: 2023-01-02T16:54:04-0700
 draft: false
+weight: 1
 ---
 # App Class
 - The `App` class is the app's entry point

@@ -2,6 +2,7 @@
 title: notes > code > .net > classes > methods > extension methods
 date: 2022-02-26T21:38:42-0700
 draft: false
+weight: 1
 ---
 # Extension Methods
 Extension methods extend existing types without creating a new derived type.  

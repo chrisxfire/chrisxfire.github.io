@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > standard query operators > set operations
 date: 2022-11-08T20:37:38-0700
 draft: false
+weight: 1
 ---
 Set operations are query operations that produce a result set that is based on the presence or absence of equivalent elements within the same or separate sets.
 

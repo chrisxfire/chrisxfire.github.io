@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > generic host
 date: 2022-06-26T19:15:58-0600
 draft: false
+weight: 1
 ---
 # [Generic Host](https://docs.microsoft.com/en-us/dotnet/core/extensions/generic-host)
 `Microsoft.Extensions.Hosting`

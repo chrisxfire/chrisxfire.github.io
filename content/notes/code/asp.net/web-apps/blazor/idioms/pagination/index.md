@@ -2,6 +2,7 @@
 title: notes > code > asp.net > web apps > blazor > idioms > pagination
 date: 2023-05-20T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 From Pluralsight/Building a Data-driven ASP.NET Core 6 Blazor Server Application with EF Core

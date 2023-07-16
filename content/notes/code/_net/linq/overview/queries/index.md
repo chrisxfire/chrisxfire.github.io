@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > overview > queries
 date: 2022-11-05T21:40:53-0600
 draft: false
+weight: 1
 ---
 # Query
 A *query* is an expression that specifies what information to retrieve from a data source. Optionally, it also specifies how the resulting data should be sorted, grouped, and shaped when returned.

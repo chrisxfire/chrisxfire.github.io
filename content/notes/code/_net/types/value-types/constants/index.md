@@ -2,6 +2,7 @@
 title: notes > code > .net > types > value types > constants
 date: 2022-02-19T11:32:28-0700
 draft: false
+weight: 1
 ---
 # Constant
 Constants – immutable values known at compile time which do not change.

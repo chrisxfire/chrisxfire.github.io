@@ -2,6 +2,7 @@
 title: notes > code > asp.net > web apps > mvc > dependency injection
 date: 2023-03-22T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Dependency Injection into Controllers

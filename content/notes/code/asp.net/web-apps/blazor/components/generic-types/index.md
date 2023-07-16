@@ -2,6 +2,7 @@
 title: "notes > code > asp.net > web apps > blazor > components > generic types"
 date: 2023-06-13T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Generically-typed Parameters

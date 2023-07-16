@@ -2,6 +2,7 @@
 title: notes > code > .net > collections > generic > dictionaries
 date: 2021-11-13T11:20:41-0700
 draft: false
+weight: 1
 ---
 # [Dictionary](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=net-6.0#remarks)
 A series of key-value pairs.

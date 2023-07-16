@@ -2,6 +2,7 @@
 title: notes > code > .net > collections > generic > lists
 date: 2021-11-13T11:21:00-0700
 draft: false
+weight: 1
 ---
 # [Lists](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-6.0)
 Lists are ordered collections that can hold any object. Implements `IList<T>`. Allows for duplicate items.

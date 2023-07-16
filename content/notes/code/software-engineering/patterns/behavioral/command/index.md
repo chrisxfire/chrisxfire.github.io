@@ -2,6 +2,7 @@
 title: notes > code > software engineering > patterns > behavioral > command
 date: 2023-03-05T15:53:50-0700
 draft: false
+weight: 1
 ---
 
 <img src="Behavioral_Command-image1.png" style="width:5.36667in;height:5.25in" />  

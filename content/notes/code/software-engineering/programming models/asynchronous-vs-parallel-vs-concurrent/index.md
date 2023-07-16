@@ -2,6 +2,7 @@
 title: notes > code > software engineering > programming models > asynchronous vs parallel vs concurrent
 date: 2023-02-16T14:38:58-0700
 draft: false
+weight: 1
 ---
 
 # Overview

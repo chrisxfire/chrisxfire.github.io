@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > extension methods > examples
 date: 2022-05-08T18:54:48-0600
 draft: false
+weight: 1
 ---
 # `Where`
 `Where` accepts a `Func<string, bool>` delegate. For each `string` passed to the function, it returns a `bool` value.

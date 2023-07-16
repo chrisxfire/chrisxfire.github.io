@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > services > worker services
 date: 2022-06-27T08:19:08-0600
 draft: false
+weight: 1
 ---
 
 # Terminology

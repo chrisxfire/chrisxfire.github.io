@@ -2,6 +2,7 @@
 title: notes > code > asp.net > web apps > blazor > overview
 date: 2023-01-11T00:00:00-06:00
 draft: false
+weight: -1
 ---
 
 # [Overview](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-7.0)

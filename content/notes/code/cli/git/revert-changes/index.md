@@ -2,6 +2,7 @@
 title: notes > code > cli > git > revert changes
 date: 2022-10-23T16:04:59-0600
 draft: false
+weight: 1
 ---
 # Reset
 `git reset <commit>` – undo all commits after commit, preserving changes locally  

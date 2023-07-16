@@ -2,6 +2,7 @@
 title: notes > code > .net > programming models > parallel programming > thread local and partition local variables
 date: 2023-02-16T15:07:11-0700
 draft: false
+weight: 1
 ---
 # Thread-Local Variables
 Stores and retrieves *state* in each separate task that is created by a `Parallel.For` loop. Instead of writing to a shared resource on each iteration, you compute and store the value until all iterations for the task are complete.

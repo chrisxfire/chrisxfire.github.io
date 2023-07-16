@@ -2,6 +2,7 @@
 title: notes > code > web > msid > msal
 date: 2022-05-10T17:32:57-0600
 draft: false
+weight: 1
 ---
 # MSAL – Microsoft Authentication Library
 Provides secure access to Graph, other Microsoft APIs, 3rd-party web APIs, or your own web API.

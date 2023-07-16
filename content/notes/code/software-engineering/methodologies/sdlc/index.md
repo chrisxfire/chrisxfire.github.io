@@ -2,6 +2,7 @@
 title: notes > code > software engineering > methodologies > sdlc
 date: 2023-02-22T11:11:52-0700
 draft: false
+weight: 1
 ---
 # System Development Lifecycle
 A process to plan, create, test, and deploy an information system.  

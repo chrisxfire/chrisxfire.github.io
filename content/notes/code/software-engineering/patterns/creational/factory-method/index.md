@@ -2,6 +2,7 @@
 title: notes > code > software engineering > patterns > creational > factory method
 date: 2023-03-04T20:28:08-0700
 draft: false
+weight: 1
 ---
 # Factory Method
 Type: Creational  

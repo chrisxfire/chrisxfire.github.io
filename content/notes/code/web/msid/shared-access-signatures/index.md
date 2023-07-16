@@ -2,6 +2,7 @@
 title: notes > code > web > msid > shared access signatures
 date: 2022-05-11T13:23:24-0600
 draft: false
+weight: 1
 ---
 
 # Share Access Signatures

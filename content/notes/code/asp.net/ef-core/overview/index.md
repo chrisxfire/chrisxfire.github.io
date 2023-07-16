@@ -2,6 +2,7 @@
 title: notes > code > asp.net > ef core > overview
 date: 2023-05-22T00:00:00-06:00
 draft: false
+weight: -1
 ---
   
 *From Microsoft Learn / Entity Framework / Entity Framework Core*

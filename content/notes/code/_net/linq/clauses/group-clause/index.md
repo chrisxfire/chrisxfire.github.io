@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > clauses > group clause
 date: 2022-04-25T20:57:23-0600
 draft: false
+weight: 1
 ---
 # Group clause
 The group clause produces a sequence of groups organized by a specified key. The key is specified after the by keyword.

@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > linq and strings
 date: 2022-11-14T20:11:32-0700
 draft: false
+weight: 1
 ---
 For all examples:
 ```cs

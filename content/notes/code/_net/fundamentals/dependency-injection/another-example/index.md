@@ -2,6 +2,7 @@
 title: notes > code > .net > fundamentals > dependency injection > another example
 date: 2022-08-26T07:36:43-0600
 draft: false
+weight: 1
 ---
 Using DI, we move the creation and binding of dependent objects outside of the class that depends on them.
 It involves 3 classes:

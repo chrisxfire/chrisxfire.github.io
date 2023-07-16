@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > design > layouts > alignment margin padding
 date: 2023-01-02T21:02:04-0700
 draft: false
+weight: 1
 ---
 
 <img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image1.png" width="50%" height="%50" />  

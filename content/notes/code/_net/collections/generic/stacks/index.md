@@ -2,6 +2,7 @@
 title: notes > code > .net > collections > generic > stacks
 date: 2021-11-15T16:42:50-0700
 draft: false
+weight: 1
 ---
 # [Stack](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.stack-1?view=net-6.0)
 A last-in, first-out collection of objects.  

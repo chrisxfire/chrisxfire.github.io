@@ -2,6 +2,7 @@
 title: notes > code > software engineering > methodologies > service oriented architecture
 date: 2023-02-22T11:30:23-0700
 draft: false
+weight: 1
 ---
 # Service-Oriented Architecture (SOA)
 An architectural style with a focus on discrete *services* vs. a monolithic design.  

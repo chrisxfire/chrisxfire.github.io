@@ -2,6 +2,7 @@
 title: notes > code > .net > user interfaces > winui 3 > xaml > resources
 date: 2022-12-28T19:51:32-0700
 draft: false
+weight: 1
 ---
 # Overview
 Every element in XAML has a RequestedTheme property that can be set to either "Dark" or "Light". If the element is not set, it defaults to whatever Windows is currently using.

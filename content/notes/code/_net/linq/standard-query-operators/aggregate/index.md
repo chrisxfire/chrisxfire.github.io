@@ -2,6 +2,7 @@
 title: notes > code > .net > linq > standard query operators > aggregate
 date: 2022-11-13T19:07:11-0700
 draft: false
+weight: 1
 ---
 An aggregate operation computes a single value from a collection.
 

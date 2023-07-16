@@ -2,6 +2,7 @@
 title: notes > code > .net > collections > generic > hashset
 date: 2021-11-15T20:30:01-0700
 draft: false
+weight: 1
 ---
 # [HashSet](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.hashset-1?view=net-6.0)
 An unordered collection of unique items.

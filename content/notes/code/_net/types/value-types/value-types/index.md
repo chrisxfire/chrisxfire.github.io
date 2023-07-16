@@ -2,6 +2,7 @@
 title: notes > code > .net > types > value types > value types
 date: 2021-11-05T21:11:04-0600
 draft: false
+weight: 1
 ---
 # Primitive Types
 Value types store on the stack.

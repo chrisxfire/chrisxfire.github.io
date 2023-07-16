@@ -2,6 +2,7 @@
 title: notes > code > .net > classes > methods > finalizers
 date: 2022-01-03T21:10:32-0700
 draft: false
+weight: 1
 ---
 # Finalizers
 Each type can have a single finalizer that is called by the runtime when resources need to be released.  

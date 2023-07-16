@@ -2,6 +2,7 @@
 title: notes > code > web > html > tables
 date: 2023-04-26T17:23:20-0600
 draft: false
+weight: 1
 ---
 # Overview
 Like so:
