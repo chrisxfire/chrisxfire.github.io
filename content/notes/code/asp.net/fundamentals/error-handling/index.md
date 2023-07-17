@@ -5,6 +5,4 @@ draft: true
 weight: 1
 ---
 
-TODO...
-
 https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0
