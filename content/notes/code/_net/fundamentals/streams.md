@@ -81,8 +81,8 @@ using (XmlReader reader = XmlReader.Create(xmlFilestream))
 
 # Compressing Streams
 ```cs
-using System.IO.Compression; // BrotliStream, GZipStream, CompressionMode // Performance-wise, Brotli is like 
-											 // GZip/Deflate but 20% denser.
+using System.IO.Compression; // BrotliStream, GZipStream, CompressionMode 
+// Performance-wise, Brotli is like GZip/Deflate but 20% denser.
 FileStream file = File.Create(filePath);
 
 Stream compressor = new GZipStream(file, CompressionMode.Compress); // Compress file.
@@ -108,3 +108,25 @@ Example
 StreamReader r = new(stream, Encoding.Encoding); // Text will be decoded as bytes are read from the stream.
 StreamWriter w = new(stream, Encoding.Encoding); // Text will be encoded as bytes are written to the stream.
 ```
+
+# `ReadExactly` and `ReadAtLeast`
+`Stream.Read()` may return less data than what is available in the Stream and less data than the buffer being passed in. `ReadExactly` and `ReadAtLeast` address this limitation.
+
+## `ReadExactly`
+Guaranteed to read exactly the number of bytes requested:
+```cs
+using FileStream f = File.Open("readme.md");
+byte[] buffer = new byte[100];
+f.ReadExactly(buffer); // guaranteed to read 100 bytes from the file
+```
+
+## `ReadAtLeast`
+Guaranteed to read at least the number of bytes requested:
+```cs
+using FileStream f = File.Open("readme.md");
+byte[] buffer = new byte[100];
+int bytesRead = f.ReadAtLeast(buffer, 10);
+// 10 <= bytesRead <= 10
+```
+
+<r>Note:</r> Throws an `EndOfStreamException` if the Stream ends before the requested bytes have been read.

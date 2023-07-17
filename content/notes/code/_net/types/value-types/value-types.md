@@ -55,7 +55,7 @@ For Accurate Reals (use in science, engineering, or financial applications)
 | System.Decimal | decimal  | -79228162514264337593543950335 to 79228162514264337593543950335 | m or M | 28-29 digits |
 
 ## Numerics
-- `System.Numerics.BigInteger` - Arbitrarily large integers.
+- `System.Numerics.BigInteger` - An integer with no lower or upper bounds. 
 - `System.Numerics.Complex` - Complex numbers.
 - `System.Numerics.Quaternion` - Quaternion numbers.
 
