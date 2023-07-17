@@ -5,11 +5,10 @@ draft: false
 weight: 1
 ---
 # Attributes
-`using System.Diagnostics.CodeAnalysis;`
-
-These attributes help to fully describe the null-state of arguments and return values in your APIs.
-Adding these attributes gives the compiler more information about the rules for an API.
-These attributes do not enable more checks.
+Namespace: `System.Diagnostics.CodeAnalysis`
+- These attributes help to fully describe the null-state of arguments and return values in your APIs.
+- Adding these attributes gives the compiler more information about the rules for an API.
+- These attributes do not enable more checks.
 
 # Preconditions
 The `AllowNull` and `DisallowNull` are used to specify that preconditions on variables may not match the nullable annotations on those variables.
