@@ -66,3 +66,47 @@ string s = pair.Second; // TSecond string
 - [Enumerations](../../../value-types/enums/index.md) cannot have generic type parameters.
 - The CLR considers a type that is nested in a generic type to be generic even if it does not have generic type parameters of its own.
   - To create an instance of such a type, you must specify type arguments for all enclosing generic types.
+
+# Covariance, Contravariance and Invariance
+As it pertains to generics, these concepts apply to the generic type parameter of the generic type.
+- Documentation: https://learn.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance
+
+## Covariance
+Enables the use of a more derived (more specific) type than originally specified.
+- An instance of `IEnumerable<Dog>` can be assigned to a variable of type `IEnumerable<Animal>`.
+
+### Defining
+A covariant type parameter is marked with the `out` keyword.
+
+## Contravariance
+Enables the use of a less derived (less specific) type than originally specified.
+- An instance of `IEnuemrable<Animal>` can be assigned to a variable of type `IEnumerable<Dog>`.
+
+### Defining
+A contravariant type parameter is marked with the `in` keyword.
+
+## Invariance
+Only the type originally specified can be used.
+- An instance of `IEnumerable<Dog>` <u>cannot</u> be assigned to a variable of type `IEnumerable<Animal>` or vice-versa.
+
+## Summary Table
+| Variance      | Use as interface method return value? | Use as delegate return type? | Use as interface method type constraint? |
+| ------------- | ------------------------------------- | ---------------------------- | ---------------------------------------- |
+| Covariant     | Yes                                   | Yes                          | No                                       |
+| Contravariant | Yes                                   | Yes                          | Yes                                      |
+
+## Considerations
+- Variant type parameters are restricted to generic interface and generic delegate types
+  - These types can also have both covariant and contravariant type parameters
+- Variance applies only to reference types: if you specify a value type for a variant type parameter, that type parameter is invariant for the resulting constructed type.
+- Covariant return types are supported (C# 9). 
+  - An overriding method can declare a more derived return type of the method it overrides. 
+  - An overriding, read-only property can declare a more derived type.
+
+Generally:
+- A covariant type parameter can be used as the return type of a delegate.
+- A contravariant type parameter can be used as a parameter type.
+
+For generic interfaces:
+- Covariant type parameters can be used as the return types of the interface's methods.
+- Contravariant type parameters can be used as the parameter types of the interface's methods.
