@@ -1,8 +1,8 @@
 ---
-title: notes > code > .net > types > interfaces
+title: notes > code > .net > types > interfaces > overview
 date: 2021-11-05T21:26:07-0600
 draft: false
-weight: 1
+weight: -1
 ---
 # Interfaces
 [Interfaces - define behavior for multiple types | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces)  
@@ -11,7 +11,7 @@ Interfaces require classes or structs to implement certain members. They define 
 Interfaces can be declared in namespace or class scope.
 Interfaces cannot contain *instance state*.
 
-|                 | May contain                                   | Cannot                           |
+| Kind            | May contain                                   | Cannot                           |
 | --------------- | --------------------------------------------- | -------------------------------- |
 | instance        | methods, properties, events, indexers         | fields, constructors, finalizers |
 | static          | methods, fields, properties, events, indexers |                                  |

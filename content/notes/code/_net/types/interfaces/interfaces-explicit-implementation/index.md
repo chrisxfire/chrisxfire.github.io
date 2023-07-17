@@ -1,5 +1,5 @@
 ---
-title: notes > code > .net > fundamentals > object oriented programming > interfaces explicit implementation
+title: notes > code > .net > types > interfaces > interfaces explicit implementation
 date: 2022-03-06T18:29:31-0700
 draft: false
 weight: 1
