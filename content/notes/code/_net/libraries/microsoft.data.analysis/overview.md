@@ -1,7 +1,0 @@
----
-title: notes > code > .net > libraries > microsoft.data.analysis > overview
-date: 2022-01-25T13:17:40-0700
-draft: false
-weight: -1
----
-[An Introduction to DataFrame - .NET Blog (microsoft.com)](https://devblogs.microsoft.com/dotnet/an-introduction-to-dataframe/)

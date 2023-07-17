@@ -1,6 +1,0 @@
----
-title: notes > code > .net > fundamentals > configuration
-date: 2023-05-29T00:00:00-06:00
-draft: false
-weight: 1
----
