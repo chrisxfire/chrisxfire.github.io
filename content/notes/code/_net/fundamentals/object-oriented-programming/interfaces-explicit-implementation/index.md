@@ -1,5 +1,5 @@
 ---
-title: notes > code > .net > fundamentals > object oriented programming > abstract classes explicit implementation
+title: notes > code > .net > fundamentals > object oriented programming > interfaces explicit implementation
 date: 2022-03-06T18:29:31-0700
 draft: false
 weight: 1
@@ -20,12 +20,14 @@ SampleClass sample = new SampleClass();
 IControl control = sample;
 ISurface surface = sample;
 ```
+
 These all call the same method:
 ```cs
 sample.Paint();
 control.Paint();
 surface.Paint();
 ```
+
 To call a different implementation depending on which interface is in use, implement an interface member explicitly:
 ```cs
 public class SampleClass : IControl, ISurface 
@@ -38,6 +40,7 @@ SampleClass sample = new SampleClass();
 IControl control = sample;
 ISurface surface = sample;
 ```
+
 Now:
 ```cs
 sample.Paint(); // This call fails.
