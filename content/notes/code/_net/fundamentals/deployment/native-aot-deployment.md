@@ -1,5 +1,5 @@
 ---
-title: notes > code > cli > dotnet > native aot deployment
+title: notes > code > .net > fundamentals > deployment > native aot deployment
 date: 2022-11-25T20:53:06-0700
 draft: false
 weight: 1
@@ -19,7 +19,6 @@ Console apps only.
 - All limitations of single-file deployments apply.
 - No dynamic loading (`Assembly.LoadFile`)
 - No runtime code generation (`System.Reflection.Emit`)
-
 
 # Publishing
 .csproj:
