@@ -33,3 +33,6 @@ Wrap the call to `StateHasChanged` in `InvokeAsync()`:
 ```cs
 InvokeAsync(StateHasChanged);
 ```
+
+# Disposal
+Calling `StateHasChanged()` is not supported in a `Dispose()` method.

@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-## One-way Data Binding
+# One-way Data Binding
 Data from the code-behind is bound in the UI in a one-way mode:
 ```html
 <h1 class="page-title">
@@ -35,7 +34,7 @@ Or in a form control, such as an input:
 }
 ```
 
-## Two-way Data Binding
+# Two-way Data Binding
 The most common form of data binding.  Usually used in conjunction with forms.  
 If the user changes the value, it will be updated on the property (by default, when they select out of the input).
 Uses the `@bind` directive.
@@ -46,7 +45,7 @@ Example
 <input id="lastName" @bind="@Employee.LastName" placeholder="Enter last name" />
 ```
 
-### Using `bind-Value` and `bind-value-event`
+## Using `bind-Value` and `bind-value-event`
 ```html
 <!-- property value will be updated every time user types a character: -->
 <input id="lastName" 
@@ -54,3 +53,7 @@ Example
     @bind-Value:event="oninput"
     placeholder="Enter last name" />
 ```
+
+# How Blazor Handles C# Object `null` Values in `<select>` Element Options
+A `<select>` element option value cannot be represented as `null` as HTML attributes do not have `null` values.
+If an `<option>` element's `value` attribute is bound to a C# object whose value is `null`, Blazor converts the value to an *empty string*. 
