@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > object oriented programming > polymorphism
+title: notes > .net > fundamentals > polymorphism
 date: 2022-02-17T20:22:18-0700
 draft: false
 weight: 1
