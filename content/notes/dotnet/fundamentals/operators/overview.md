@@ -2,7 +2,7 @@
 title: notes > .net > fundamentals > operators > overview
 date: 2022-01-02T00:00:00-06:00
 draft: false
-weight: 1
+weight: -1
 ---
 
 # Operators
