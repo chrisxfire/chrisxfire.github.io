@@ -48,9 +48,9 @@ weight: 1
   - [ ] JavaScript apps and SPA frameworks
   - [ ] Buit-in components
 - [ ] Globalization and localization
-- [ ] Forms and input components
-  - [ ] [Validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#basic-validation)
-  - [ ] [More on Validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#validation-summary-and-validation-message-components)
+- [x] Forms and input components
+  - [x] [Validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#basic-validation)
+  - [x] [More on Validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#validation-summary-and-validation-message-components)
 - [ ] Files uploads
 - [ ] File downloads
 - [ ] JavaScript interop...
