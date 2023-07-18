@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > lambda expressions
+title: notes > .net > fundamentals > operators > lambda expressions
 date: 2022-05-07T00:00:00-06:00
 draft: false
 weight: 1
@@ -34,7 +34,7 @@ Func<int, int> = delegate (int x) { return x; };
 Func<int, int> = x => x;
 ```
 
-And:
+And...
 ```cs
 somvar.Find(delegate(int in)
 {
