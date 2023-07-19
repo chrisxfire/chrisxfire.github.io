@@ -18,12 +18,12 @@ Component lifecycle events are processed in a set of lifecycle methods.  These m
 
 <img src="lifecycle1.png" width="50%" height="50%">
 
-# `SetParametersAsync()`
+# SetParametersAsync()
 `SetParametersAsync()` sets parameters supplied by the Component's parent. It contains a `ParameterView` parameter that contains the component parameter values for the Component. This method can be overridden to interact directly with `ParameterView`'s parameters.
 
 More: https://learn.microsoft.com/en-us/aspnet/core/blazor/components/lifecycle?view=aspnetcore-7.0#when-parameters-are-set-setparametersasync
 
-# `OnInitialized{Async}()`
+# OnInitialized{Async}()
 `OnInitialized{Async}()` is invoked when the Component is initialized after having received its initial parameters in SetParametersAsync.
 
 ## Prerendering consideration
@@ -31,14 +31,14 @@ Blazor apps that prerender their content on the server call `OnInitializedAsync`
 * Once when Component is initially rendered statically
 * A second time when the browser renders the Component
 
-# `OnParametersSet{Async}()`
+# OnParametersSet{Async}()
 `OnParametersSet{Async}()` is invoked:
 * After the Component is initialized
 * When the parent Component renders and supplies:
   * Immutable types and at least one parameter has changed
   * Complex-typed parameters
 
-# `OnAfterRender{Async}()`
+# OnAfterRender{Async}()
 `OnAfterRender{Async}()` is invoked after a Component has finished rendering.  JS interop calls should happen at this stage.
 
 `OnAfterRender{Async}()` contains a `firstRender` parameter that is set to `true` the first time the Component instance is rendered:
@@ -55,7 +55,7 @@ protected override void OnAfterRender(bool firstRender)
 ## Prerendering consideration
 `OnAfterRender{Async}()` is *not* called during the prerendering process on the server.
 
-# `StateHasChanged()`
+# StateHasChanged()
 `StateHasChanged()` is called to notify the Component that its state has changed.  When applicable, calling this method can cause the Component to be rerendered. 
 This is necessary when the Component updates due to an external change (like an event from a service). In these cases, the Component does not update automatically.
 
