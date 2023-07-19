@@ -65,19 +65,21 @@ static int[] SimulateDataFetch(int id)
 ```
 
 # List Pattern
-A pattern of:
+<g>Availability: C# 11</g>  
+List patterns allow you to match an array or a list against a sequence of patterns:
+
+A pattern of:  
 ```cs
 expr is [1, 2, 3]
 ```
 …is equivalent to…
 ```cs
 expr.Length is 3
-&& expr[0] is 1
-&& expr[1] is 2
-&& expr[2] is 3
+    && expr[0] is 1
+    && expr[1] is 2
+    && expr[2] is 3
 ```
 
-Use to match an array or list against a sequence of patterns:
 ```cs
 int[] numbers = { 1, 2, 3 };
 
@@ -87,7 +89,7 @@ Console.WriteLine(numbers is [1, 2, 3, 4]);  // False
 Console.WriteLine(numbers is [0 or 1, <= 2, >= 3]);  // True
 ```
 
-Combine with the discard pattern to match any element and the var pattern to capture the element:
+Combine with the [discard pattern](#discard-pattern) to match any element and the [var pattern](#var-pattern) to capture the element.  The discard `_` matches any single element:
 ```cs
 List<int> numbers = new() { 1, 2, 3 };
 
@@ -95,7 +97,7 @@ if (numbers is [var first, _, _])
     Console.WriteLine($"The first element of a three-item list is {first}."); // The first element of a three-item list is 1.
 ```
 
-Use a slice pattern to match only elements at the start or end of a sequence:
+Use a slice pattern to match only elements at the start or end of a sequence.  The range pattern `..` matches any sequence of zero or more elements:
 ```cs
 Console.WriteLine(new[] { 1, 2, 3, 4, 5 } is [> 0, > 0, ..]);  // True
 Console.WriteLine(new[] { 1, 1 } is [_, _, ..]);  // True

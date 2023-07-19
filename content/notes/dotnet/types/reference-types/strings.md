@@ -46,7 +46,8 @@ string result = string.Format("{0} and {1}", var1, var2)
 ```
 # Interpolated Strings
 String interpolation achieves the same results as string formatting.  
-Newlines are permitted in string interpolations.  
+
+<g>Availability: C#11</g>: Newlines are permitted in string interpolations.  
 
 Use `$` for interpolated strings: `interpolationExpression,alignment:formatString`
 
@@ -120,11 +121,11 @@ Verbatim and interpolated strings can be combined.
 
 Use double quotation marks to embed a literal quotation mark in a verbatim string.
 
-# Raw String Literals)
-<o>Availability: C# 11</o>  
+# Raw String Literals
+<g>Availability: C# 11</g>  
 
 Raw string literals eliminate all need to escape content. They:
-- Start with at least three quotes (""")
+- Start with at least three quotes (`"""`)
 - End in the same number of quotes
 
 Newlines following the opening quote and preceding the closing quote are not included in the content.
@@ -137,6 +138,19 @@ var location = $$"""
     You are at {{{Longitude}}, {{Latitude}}}
 """;
 ```
+
+# UTF-8 String Literals
+<g>Availability: C# 11</g>  
+By default, strings in .NET are stored in UTF-16 encoding.  To encode a string as UTF-8, suffix it with `u8`:
+```cs
+ReadOnlySpan<byte> AuthWithTrailingSpace = new byte[] { 0x41, 0x55, 0x54, 0x48, 0x20 };
+ReadOnlySpan<byte> AuthStringLiteral = "AUTH "u8;
+byte[] AuthStringLiteral = "AUTH "u8.ToArray();
+```
+
+Notes:
+- UTF-8 string literals cannot be combined with string interpolation.
+- UTF-8 string literals cannot be used as the default value for an optional parameter (they are runtime constants, not compile-time constants).
 
 # Unicode Escape Sequences
 `\unnnn`
@@ -151,46 +165,46 @@ string decoded = encoder.GetString(someString); // Decode the byte array back in
 ```
 
 # Properties
-`Length` — Return the length of the string.  
+- `Length` — Return the length of the string.  
 
 # Methods
-`String.IsNullOrEmpty(string)` — Boolean if string is null or empty.  
-`String.IsNullOrWhiteSpace(string)` — Boolean if string is null or whitespace.  
-`String.Join("sep", collection)` — Concatenates elements of collection and separates each with sep.  
-`String.Concat(str1, str2)` — Concatenates two string variables. Same as + operator.  
-- .NET creates a new string in memory. Poor performance in loops.  
+- `String.IsNullOrEmpty(string)` — Boolean if string is null or empty.  
+- `String.IsNullOrWhiteSpace(string)` — Boolean if string is null or whitespace.  
+- `String.Join("sep", collection)` — Concatenates elements of collection and separates each with sep.  
+- `String.Concat(str1, str2)` — Concatenates two string variables. Same as + operator.  
+  - .NET creates a new string in memory. Poor performance in loops.  
 
 ## Searching
-`Contains("substr")` — Boolean if str is in string.  
-`StartsWith("substr")` — Boolean if string starts with str.  
-`EndsWith("substr")`  
-`IndexOf("substr")` — Return the index of the first occurrence of substr in string.  
-`LastIndexOf("substr")` — Return the index of the last occurrence of substr in string.  
-`IndexOfAny("substr")` — Return the index of the first occurrence of any of substr where substr is a comma-separated list.  
-`Substring(s, n)` — Return the substring at starting index s extending for n characters.  
+- `Contains("substr")` — Boolean if str is in string.  
+- `StartsWith("substr")` — Boolean if string starts with str.  
+- `EndsWith("substr")`  
+- `IndexOf("substr")` — Return the index of the first occurrence of substr in string.  
+- `LastIndexOf("substr")` — Return the index of the last occurrence of substr in string.  
+- `IndexOfAny("substr")` — Return the index of the first occurrence of any of substr where substr is a comma-separated list.  
+- `Substring(s, n)` — Return the substring at starting index s extending for n characters.  
 
 ## Manipulating
 All methods and operators that appear to modify a string actually  — return a new string object.
 
-`Insert`
-`Remove(s, n)` — Remove the substring starting at index s for n characters.  
-`Replace("substr1", "substr2", ignoreCase=)` — Replace substr1 with substr2.  
-- `ignoreCase` is boolean and optional.  
-- If `substr2` is null, all occurences of `substr1` are removed.  
-`Split("delim", options)` — Returns a string array containing subsets of the string split at delim.  
-- options can be `StringSplitOptions.RemoveEmptyEntries` and `TrimEntries`  
-`ToCharArray()` — Convert the string to a character array  
-- This allows you to use array methods like `Reverse()`  
-`ToLower()` — Return a lowercased string.  
-`ToUpper()` — Return an uppercased string.  
-`Trim('c')` — Return a string with character c trimmed.  
+- `Insert`
+- `Remove(s, n)` — Remove the substring starting at index s for n characters.  
+- `Replace("substr1", "substr2", ignoreCase=)` — Replace substr1 with substr2.  
+  - `ignoreCase` is boolean and optional.  
+  - If `substr2` is null, all occurences of `substr1` are removed.  
+- `Split("delim", options)` — Returns a string array containing subsets of the string split at delim.  
+  - options can be `StringSplitOptions.RemoveEmptyEntries` and `TrimEntries`  
+- `ToCharArray()` — Convert the string to a character array  
+  - This allows you to use array methods like `Reverse()`  
+- `ToLower()` — Return a lowercased string.  
+- `ToUpper()` — Return an uppercased string.  
+- `Trim('c')` — Return a string with character c trimmed.  
 
 ## Whitespace
-`PadLeft(n, char)` — Add n spaces to the left. Optionally, use char instead of spaces.  
-`PadRight(n, char)`  
-`TrimStart() `— Return a string with leading whitespace trimmed.  
-`TrimEnd()` — Return a string with trailing whitespace trimmed.  
-`Trim()` — Return a string with leading and trailing whitespace trimmed.  
+- `PadLeft(n, char)` — Add n spaces to the left. Optionally, use char instead of spaces.  
+- `PadRight(n, char)`  
+- `TrimStart() `— Return a string with leading whitespace trimmed.  
+- `TrimEnd()` — Return a string with trailing whitespace trimmed.  
+- `Trim()` — Return a string with leading and trailing whitespace trimmed.  
 
 # Determine if String Represents Numeric Value
 Use `TryParse` methods of numeric types.

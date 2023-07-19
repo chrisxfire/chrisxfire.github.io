@@ -58,6 +58,21 @@ int i = pair.First; // TFirst int
 string s = pair.Second; // TSecond string
 ```
 
+# Generic Attributes
+<g>Availability: C# 11</g>  
+To create a generic attribute, create a class whose base class is `Attribute`:  
+
+```cs
+// C# 11 feature:
+public class GenericAttribute<T> : Attribute { }
+```
+
+Use the generic attribute by specifying the type parameter:
+```cs
+[GenericAttribute<string>()]
+public string Method() => default;
+```
+
 # Considerations
 - Generic methods can appear on both generic and nongeneric types.  Just because a type is generic does not mean its methods are.
   - A method is generic only if it has its own list of type parameters.
@@ -67,7 +82,7 @@ string s = pair.Second; // TSecond string
 - The CLR considers a type that is nested in a generic type to be generic even if it does not have generic type parameters of its own.
   - To create an instance of such a type, you must specify type arguments for all enclosing generic types.
 
-# Covariance, Contravariance and Invariance
+# Variance
 As it pertains to generics, these concepts apply to the generic type parameter of the generic type.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance
 

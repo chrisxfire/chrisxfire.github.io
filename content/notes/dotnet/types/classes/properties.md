@@ -74,8 +74,9 @@ Read-only properties can only be set in their constructor, but not via object-in
 public string FirstName { get; }
 // Illegal: Person p = new Person() { FirstName = "Jane" };
 // Legal: Person p = new Person("Jane");
-
-// Init-only properties are read-only propertis that support object-initializer syntax:
+```
+Init-only properties are read-only propertis that support object-initializer syntax:
+```cs
 public string FirstName { get; init; }
 // Legal: Person p = new Person() { FirstName = "Jane" };
 ```
@@ -136,28 +137,45 @@ Properties can be static or instance.
 Properties can be modified with `public`, `private`, `protected`, `internal`, `protected internal`, or `private protected`.  
 
 Other modifiers:
-- `virtual` - The property can be overridden in a derived class.
-- `override` - Overrides the implementation of a virtual property from the base class.
-- `sealed` - A property overriding a virtual property can be sealed so that it is no longer virtual in further
+- `virtual` — The property can be overridden in a derived class.
+- `override` — Overrides the implementation of a virtual property from the base class.
+- `sealed` — A property overriding a virtual property can be sealed so that it is no longer virtual in further
 derived classes.
-- `abstract` - See below.
-- `required` The compiler will throw an error if the property is not set to a value when it is instantiated.
+- `abstract` — See below.
+
+## Required modifier
+<g>Availability: C# 11</g>  
+The `required` modifier indicates that a *field* or *property* it's applied to <u>must</u> be initialized by an object initializer, so any new instance of the type must initialize all required members.
+- Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/required
+
+Considerations:
+- Available on `struct`, `record`, `record struct`, and `class` types.  Not available on `interface` types.
+  - A `record`'s position parameters cannot be modified with the `required` modifier.
+- The compiler issues an error if a required member is not initialized.
+- Required members must be at least as accessible as their containing type.
+- Required properties must have setters that are at least as accessible as their containing types.
+- Derived classes cannot hide a required member of the base class.
+- Derived types that override a required property must include the `required` modifier.
 
 # Accessors (set vs init vs private set)
-- `set` - property can be set within this type and consumers of the type.
-- `private set` - property can only be set within this type, but immutable to consumers.
+- `set` — property can be set within this type and consumers of the type.
+- `private set` — property can only be set within this type, but immutable to consumers.
   - Cannot use an object initializer. Must use a constructor or factory method.
-- `init` - property can only be set during instantiation; supports object-initializer syntax.
-- `required` - property must be set when an object of the type is created.
+- `init` — property can only be set during instantiation; supports object-initializer syntax.
+- `required` — property must be set when an object of the type is created.
 
 # Attributes
 ## Required Members
+This attribute notifies the compiler that this constructor sets all required members.  
+<r>Warning</r>: This disables the compiler's checks that all `required` members are initialized.
+
 ```cs
 public class Person 
 {
     public Person() { }
 
-    [SetsRequiredMembers] // Notifies compiler that this constructor sets all required members.
+    // This attribute notifies the compiler that this constructor sets all required members.
+    [SetsRequiredMembers] 
     public Person(string firstName) => FirstName = firstName;
 
     public required string FirstName { get; init; }

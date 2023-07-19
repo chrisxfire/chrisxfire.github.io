@@ -8,11 +8,11 @@ weight: 1
 A value type that encapsulates data and related functionality.
 
 ## Characteristics
-- Allocation: Stack
-- Equality: Value (albeit inefficient)
-- Semantics: Value (a variable of a struct type contains an instance of that type)
-- Inheritance: None (sealed)
-- Mutability: Mutable (but, recommended to be made immutable with `readonly` modifer)
+- Allocation: *Stack*
+- Equality: *Value* (albeit inefficient)
+- Semantics: *Value* (a variable of a struct type contains an instance of that type)
+- Inheritance: *None* (sealed)
+- Mutability: *Mutable* (but, recommended to be made immutable with `readonly` modifer)
 
 ## Use When
 - You need a small, data-centric type with little or no behavior
