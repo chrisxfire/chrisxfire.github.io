@@ -42,7 +42,7 @@ weight: 1
   - [x] Templated components
   - [ ] CSS isolation
   - [ ] Dynamically-rendered components
-  - [ ] QuickGrid component
+  - [x] QuickGrid component
   - [ ] Prerender and integrate components
   - [ ] Class libraries
   - [ ] JavaScript apps and SPA frameworks
