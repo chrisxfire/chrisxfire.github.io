@@ -9,7 +9,7 @@ Properties are methods that act like Fields that allow for getting and setting i
 - They are used in place of fields when the value they contain must be calculated or guarded.
 - To the user of a property, they appear as a field.
 - Unlike fields, they are implemented with get/set accessors that define the statements executed when the property is accessed or assigned.
-- Properties cannot be passed as ref or out parameters.
+- Properties cannot be passed as `ref` or `out` parameters.
 
 # Creating
 Properties with `get` accessors only are read-only. Properties with both `get` and `set` are read-write.
