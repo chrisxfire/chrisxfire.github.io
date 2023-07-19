@@ -243,64 +243,11 @@ Any operation on the parameter is made on the argument that was passed in.
 ## Restrictions
 These keywords are not part of the message signature and so do not apply to overloading if they are the only difference in the signature.
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 15%" />
-<col style="width: 15%" />
-<col style="width: 14%" />
-<col style="width: 13%" />
-<col style="width: 12%" />
-<col style="width: 14%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Parameter<br />
-Modifier</strong></th>
-<th><strong>Initialization<br />
-before passing</strong></th>
-<th><strong>Modification by<br />
-called method</strong></th>
-<th><strong>Both caller and<br />
-definition use keyword</strong></th>
-<th><strong>Use on first arg of<br />
-extension method</strong></th>
-<th><strong>Use in async<br />
-methods</strong></th>
-<th><strong>Use in iterator (yield return<br />
-or yield break) methods</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>out</td>
-<td>optional</td>
-<td>optional</td>
-<td>required</td>
-<td>never</td>
-<td>prohibited</td>
-<td>prohibited</td>
-</tr>
-<tr class="even">
-<td>ref</td>
-<td>required</td>
-<td>required</td>
-<td>required</td>
-<td>only if arg is not struct</td>
-<td>prohibited</td>
-<td>prohibited</td>
-</tr>
-<tr class="odd">
-<td>in</td>
-<td>required</td>
-<td>prohibited</td>
-<td>optional</td>
-<td>only if arg is a struct</td>
-<td>prohibited</td>
-<td>prohibited</td>
-</tr>
-</tbody>
-</table>
+| Parameter Modifier | Initialization before passing | Modification by called method | Both caller and definition use keyword | Use on first arg of extension method | Use in async methods | Use in iterator (yield return or yield break) methods |
+| ------------------ | ----------------------------- | ----------------------------- | -------------------------------------- | ------------------------------------ | -------------------- | ----------------------------------------------------- |
+| out                | optional                      | optional                      | required                               | never                                | prohibited           | prohibited                                            |
+| ref                | required                      | required                      | required                               | only if arg is not struct            | prohibited           | prohibited                                            |
+| in                 | required                      | prohibited                    | optional                               | only if arg is a struct              | prohibited           | prohibited                                            |
 
 ## Example
 ```cs
