@@ -34,20 +34,21 @@ app.MapFallbackToFile("index.html", staticFileOptions);
 ```
 
 # Loading Progress Indicators
-Blazor WASM project template contains SVG and text indicators to show loading progress.  These are implemented with HTML and CSS using two CSS custom properties provided by Blazor WASM.
+The Blazor WASM project template contains SVG and text indicators to show loading progress.  These are implemented with HTML and CSS using two CSS custom properties provided by Blazor WASM:
+- `--blazor-load-percentage`
+- `--blazor-load-percentage-text`
 
 To create custom indicators:
 ```js
 // resourcesLoaded is an instantaneous count of resources loaded during startup
 // totalResources is the number of resources to load
 const percentage = resourcesLoaded / totalResources * 100;
-document.documentElement.style.setProperty(
-  '--blazor-load-percentage', `${percentage}%`);
-document.documentElement.style.setProperty(
-  '--blazor-load-percentage-text', `"${Math.floor(percentage)}%"`);
+document.documentElement.style.setProperty('--blazor-load-percentage', `${percentage}%`);
+document.documentElement.style.setProperty('--blazor-load-percentage-text', `"${Math.floor(percentage)}%"`);
 ```
 
 The default round progress indicator is in `wwwroot/index.html.`  To implement a linear progress indicator:  
+
 `wwwroot/css/app.css`
 ```css
 .linear-progress {

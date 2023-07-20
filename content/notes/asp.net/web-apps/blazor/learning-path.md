@@ -13,14 +13,14 @@ weight: 1
 - [x] Hosting models
 - [ ] Blazor Hybrid...
 - [x] Project structure
-- [x] Fundamentals...
+- [] Fundamentals...
   - [x] Overview
   - [x] Routing and navigation
   - [x] Configuration
   - [x] Dependency injection
   - [x] Startup
   - [x] Environments
-  - [x] Logging
+  - [] Logging
   - [x] Handle errors
   - [x] SignalR
   - [x] Static files
@@ -61,7 +61,16 @@ weight: 1
 - [ ] Debug WebAssembly
 - [ ] Lazy load assemblies with WebAssembly
 - [ ] WebAssembly native dependencies
-- [ ] Performance
+- [ ] Performance...
+  - [ ] Caching...
+  - [ ] Rate-limiting middleware
+  - [ ] Memory and GC
+  - [ ] Scaling apps on Azure
+  - [ ] Object reuse with ObjectPool
+  - [ ] Response compression
+  - [ ] Diagnostic tools
+  - [ ] Load and stress testing
+  - [ ] Event counters
 - [ ] Test components
 - [ ] Progress Web Applications
 - [ ] Host and deploy...

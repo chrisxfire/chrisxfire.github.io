@@ -40,9 +40,15 @@ app.UseStaticFiles(new StaticFileOptions
 });
 ```
 # [Static file authorization](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#static-file-authorization)
+
 # [Directory browsing](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#directory-browsing)
+
 # [Serve default documents](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#serve-default-documents)
+
 # [`FileExtensionContentTypeProvider`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#fileextensioncontenttypeprovider)
+
 # [Non-standard content types](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#non-standard-content-types)
+
 # [Serve files from multiple locations](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#serve-files-from-multiple-locations)
-[# Serve files outside `wwwroot` by updating `IWebHostEnvironment.WebRootPath`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#serve-files-outside-wwwroot-by-updating-iwebhostenvironmentwebrootpath)
+
+# [Serve files outside `wwwroot` by updating `IWebHostEnvironment.WebRootPath`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#serve-files-outside-wwwroot-by-updating-iwebhostenvironmentwebrootpath)

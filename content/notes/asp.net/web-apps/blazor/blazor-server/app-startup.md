@@ -6,6 +6,8 @@ weight: 1
 ---
 
 # Overview
+- Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?view=aspnetcore-7.0
+
 `Program.cs`
 ```cs
 builder.Services.AddRazorPages();
