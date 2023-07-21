@@ -54,7 +54,7 @@ weight: 1
 - [ ] Files uploads
 - [ ] File downloads
 - [ ] JavaScript interop...
-- [ ] Call a web API
+- [X] Call a web API
 - [ ] Images
 - [ ] Security and Identity...
 - [ ] State management
