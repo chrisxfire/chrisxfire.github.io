@@ -21,16 +21,17 @@ On IIS/Express:
 | Kestrel | Better | Yes | Yes | Yes | No | user-mode | No | No | No |
 | HTTP.sys | Poorer | No | No | No | Yes | kernel-mode | Yes | Yes | Yes |
 
-## Kestrel
+# Kestrel
 Use Kestrel unless a feature that only HTTP.sys provides is required.
+- Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel?view=aspnetcore-7.0
 
-###  Use Cases
-#### Edge server  
+##  Use Cases
+### Edge server  
 ![Edge server](edge-server.png)
 
-#### Reverse proxy  
+### Reverse proxy  
 ![Reverse proxy](reverse-proxy.png)
 
-## HTTP/2 Support
+# HTTP/2 Support
 Both Kestrel and HTTP.sys require Windows 10/Server 2016 or later.
 On Linux, Kestrel requires OpenSSL 1.0.2.
