@@ -74,6 +74,12 @@ weight: 1
 - [ ] Test components
 - [ ] Progress Web Applications
 - [ ] Host and deploy...
+  - [ ] Overview
+  - [ ] Blazor Server
+  - [ ] Blazor WebAssembly
+  - [ ] Configure the Trimmer
+  - [ ] WebAssembly deployment layout
+  - [ ] Multiple hosted WebAssembly apps
 - [x] Blazor Server and EF Core
 - [ ] Advanced scenarios
 
