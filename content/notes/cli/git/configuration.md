@@ -6,7 +6,7 @@ weight: 1
 ---
 # Configuration
 ## Config Files 
-- `<path>/etc/git` — config for all users on the system (`--system`)
+- `/etc/git/gitconfig` or `C:\Program Files\Git\etc\gitconfig` — config for all users on the system (`--system`)
 - `~/.git` — config for all repositories of the current user (`--global`)
   - `~` is `$HOME` on Windows
 - `.git/` — config for this repository only (`--local` (default))
