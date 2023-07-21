@@ -1,9 +1,13 @@
 ---
-title: notes > cli > git > workflows
+title: notes > cli > git > patterns
 date: 2021-08-18T10:28:58-0600
 draft: false
 weight: 1
 ---
+
+# Overview
+Common patterns when using git.
+
 # Initliaizing a Repository
 1.  Go to the project's directory
 2.  `git init`
