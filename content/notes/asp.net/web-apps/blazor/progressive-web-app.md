@@ -13,9 +13,6 @@ A Blazor PWA is a SPA that uses modern browser APIs and capabilities to behave l
 Blazor PWAs can be created from project templates or existing Blazor WASM apps can be converted to PWAs.
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-7.0
 
-Notes:
-- In a Blazor PWA, offline support is only enabled for published apps (not apps in development).
-
 # Creating from CLI
 ```powershell
 dotnet new blazorwasm -o APPNAME --pwa
@@ -62,7 +59,15 @@ dotnet new blazorwasm -o APPNAME --pwa
 # Offline Support
 By default, apps created with the PWA template have support for running offline.  This is enabled by the service workers included in the template:
 - `wwwroot/service-worker.js` — used during development
-- `wwwroot/service-worker.published.js` — used after app is published
+- `wwwroot/service-worker.published.js` — used after app is published'
+
+## Considerations
+Offline support is only relevant if:
+- The primary data store is local to the browser (like when using localStorage or IndexedDB).
+- There is a requirement for the user to view the data offline.
+- The goal is to guarantee that the app loads immediately regardless of network conditions.
+
+Offline support is only enabled when published (not in development).
 
 ## Cache-first Fetch Strategy
 `service-worker.published.js` resolves request using a *cache-first* strategy: the service worker will prefer to return cached content, regardless of whether the user has network access, and *even if newer content* is available on the server. 
@@ -89,6 +94,8 @@ const shouldServeIndexHtml = event.request.mode === 'navigate'
 ### Controlling Asset Caching
 Modify asset caching by editing the logic in `onInstall` in `service-worker.published.js`.  By default, the cache includes `.html`, `.css`, `.js`, and `.wasm` files.
 
+It also includes all static assets in `wwwroot`.  If there are millions of these assets, the service worker will fetch and cache them all.  Implement logic in `onInstall` to control which subset should be fetched and cached.
+
 To add additional resources that are not present in wwwroot (and, by extension, not in the asset cache), add `ItemGroup` entries in the project file:  
 `SomeProject.csproj`
 ```xml
@@ -111,6 +118,23 @@ Blazor PWA apps automatically try to update themselves in the background.  Here'
     - To do this, it creates a new, separate cache and populates it with the sources listed in the assets manifest. (This logic is in the `onInstall` function in `service-worker.published.js`.)
     - If successful, the new service worker enters a *waiting for activation* state.
       - When the user closes all instances of the app, the new service worker enters the *active* state and the old service worker and its cache are deleted.
+      - Note: During development, [this phase can be skipped](https://web.dev/service-worker-lifecycle/#skip-waiting).
     - If not successful, the new service worker is discarded, and the process is attempted again the next time the user visits the app.
 
+
+### Considerations
+- If you deploy backward-incompatible API schema changes before all users have upgraded the app, the client app will break for users who have not yet updated. 
+  - Block users from using incompatible older versions of the app.   Use [ServiceWorkerRegistration](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration) to determine whether the app is up to date and, if not, prevent usage until it is.
+
 # Push Notifications
+The mechanism for sending push notifications is implemented in the backend server.  For an example, [see here](https://github.com/dotnet-presentations/blazor-workshop/blob/main/docs/09-progressive-web-app.md#sending-push-notifications).  
+
+The mechanism for receiving a push notification is implemented in the service worker file.  For an example, [see here](https://github.com/dotnet-presentations/blazor-workshop/blob/main/docs/09-progressive-web-app.md#displaying-notifications).
+
+# [Authentication](https://learn.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-7.0&tabs=visual-studio#interaction-with-authentication)
+The PWA template supports authentication.  To implement authentication in an offline PWA:
+1. Replace the `AccountClaimsPrincipleFactory<TAccount>` with a factory that stores the last signed-in user and users the stored user when the app is offline.
+2. Queue operations while the app is offline and apply them when it reconnects.
+3. During sign out, clear the stored user.
+
+See [this sample app](https://github.com/SteveSandersonMS/CarChecker) for details.
