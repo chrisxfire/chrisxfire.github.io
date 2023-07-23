@@ -1,7 +1,7 @@
 ---
 title: notes > web development > bootstrap > layout > utilities
 date: 2023-06-22T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
