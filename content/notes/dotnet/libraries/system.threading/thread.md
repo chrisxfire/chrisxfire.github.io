@@ -1,5 +1,5 @@
 ---
-title: "notes > .net > libraries > system.threading > thread"
+title: notes > .net > libraries > system.threading > thread
 date: 2022-01-17T08:08:49-0700
 draft: false
 weight: 1
