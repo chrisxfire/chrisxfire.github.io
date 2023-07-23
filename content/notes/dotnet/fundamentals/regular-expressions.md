@@ -48,7 +48,22 @@ public static bool IsValidCurrency(string currencyValue)
 Ordinarily, the regex engine uses linear progression to traverse an input strig and compare it to a regex pattern. Indeterminate quantifiers like `*`, `+`, and `?` allow the regex engine to give up a partial successful match to search for a successful match in the entire pattern. This is *backtracking*.  
 
 Backtracking can significantly degrade performance. Worst case, execution time doubles for each additional character in input.
-If backtracking is not necessary, disable it with an atomic group: `(?>subexpression)`
+If backtracking is not necessary, either:
+1. Disable it with an atomic group: `(?>subexpression)`, or;
+2. Pass `RegexOptions.NonBacktracking`.  This guarantees linear progression and avoids backtracking.
+
+### Nonbacktracking Mode Considerations
+NonBacktracking is <u>not</u> compatible with:
+- `RegexOptions.RightToLeft`
+- `RegexOptions.ECMASCript`
+- Atomic groups
+- Backreferences
+- Balancing groups
+- Conditionals
+- Lookarounds
+- Start anchors (\G)
+
+If a capture group is in a loop, `NonBacktracking` will only return the last matched value for that capture.  This is different from the normal behavior of returning all matched values.
 
 ## Timeouts
 Always set a timeout to minimize effect of excessive backtracking, if it occurs.  
@@ -184,7 +199,7 @@ public class Foo
 ```
 
 # Methods
-```cs
+```
 Regex.IsMatch(input, pattern) // returns bool if pattern is matched in input
 Regex.Match(input, pattern) // returns a Match object of the first match of pattern in input
 Regex.Matches(input, pattern) // returns a MatchCollection (a collection of Match objects) of all matches of pattern in input or an empty collection
