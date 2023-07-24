@@ -1,12 +1,12 @@
 ---
-title: notes > asp.net > web apps > blazor > progressive web app (PWA)
-date: 2023-07-21T00:00:00-06:00
+title: notes > asp.net > web apps > blazor > blazor wasm > progressive web app (pwa)
+date: 2023-07-23T00:00:00-06:00
 draft: false
 weight: 1
 ---
 
 # Overview
-A Blazor PWA is a SPA that uses modern browser APIs and capabilities to behave like a desktop app. *Progressive* means that:
+A Blazor WASM PWA is a SPA that uses modern browser APIs and capabilities to behave like a desktop app. *Progressive* means that:
 - A user may discover the app within their browser (like any other SPA)
 - Later, the user *progresses* to installing it on their OS.
 
