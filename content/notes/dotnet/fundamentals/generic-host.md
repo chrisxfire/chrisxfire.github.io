@@ -36,6 +36,7 @@ await Host.CreateDefaultBuilder(args) // Create the default `IHostBuilder`.
     })
     .RunConsoleAsync(); // Includes `UseConsoleLifetime().Build().RunAsync()`;
 ```
+
 Pre-configuration includes:
 - Content root path is set to CWD.
 - Host configuration is loaded from:
