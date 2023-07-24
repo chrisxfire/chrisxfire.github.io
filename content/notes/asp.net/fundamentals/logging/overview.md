@@ -6,7 +6,7 @@ weight: -1
 ---
 
 # Overview
-See also:  
+Documentation:
 - [Logging in .NET Core and ASP.NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-7.0)
 - [HTTP Logging in .NET Core and ASP.NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-logging/?view=aspnetcore-7.0)
 - [W3CLogger in .NET Core and ASP.NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/w3c-logger/?view=aspnetcore-7.0)
