@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview
-<o>Availability: ASP.NET Core 7 (Preview)</o>  
+<g>Availability: ASP.NET Core 7 (Preview)</g>  
 `QuickGrid` is an experimental Component for quickly displaying data in tabular form.  It is highly optimized.
 
 `QuickGrid` is in preview in ASP.NET Core 7 and not officially supported until ASP.NET Core 8 or later.
