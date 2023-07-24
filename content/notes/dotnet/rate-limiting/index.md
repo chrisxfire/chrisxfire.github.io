@@ -5,8 +5,8 @@ draft: false
 weight: 1
 ---
 # Overview
-<o>Availability: .NET 7</o>
-Rate limiting is built into .NET 7.
+<g>Availability: .NET 7</g>  
+Rate limiting is built into .NET 7.  
 
 # Built-in Rate Limiting Algorithms
 Namespace `System.Threading.RateLimiting ` 
