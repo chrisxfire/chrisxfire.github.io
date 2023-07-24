@@ -6,20 +6,20 @@ weight: 1
 ---
 
 # Terminology
-*Background Service* – the `BackgroundService` type.
-*Hosted Service* – an implementation of `IHostedService`, or `IHostedService` itself.
-*Worker Service* – the [Worker Service template](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new-sdk-templates#web-others) from dotnet new.
+- *Background Service* – the `BackgroundService` type.
+- *Hosted Service* – an implementation of `IHostedService`, or `IHostedService` itself.
+- *Worker Service* – the [Worker Service template](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new-sdk-templates#web-others) from dotnet new.
 
 # [BackgroundService](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.backgroundservice)
-An implementation of [IHostedService](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.ihostedservice).
-Used for long-running, background processes.
-Cross-platform. Can be used in place of a Windows Service.
+- An implementation of [IHostedService](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.ihostedservice).
+- Used for long-running, background processes.
+- Cross-platform. Can be used in place of a Windows Service.
 
 # Worker Service
-dotnet new worker produces:
+`dotnet new worker` produces:  
 `Program.cs`:
 ```cs
-using *SomeNamespace*;
+using SomeNamespace;
 
 // Create the default IHostBuilder:
 IHost host = Host.CreateDefaultBuilder(args).ConfigureServices(services =>
@@ -27,14 +27,13 @@ IHost host = Host.CreateDefaultBuilder(args).ConfigureServices(services =>
     // Add the Worker class as a hosted service:
     services.AddHostedService<Worker>();
 })
-// Build the IHost:
-.Build();
-// Run the app:
-await host.RunAsync();
+.Build(); // Build the IHost
+
+await host.RunAsync(); // Run the app
 ```
 `Worker.cs`:
 ```cs
-namespace *SomeNamespace*;
+namespace SomeNamespace;
 
 public class Worker : BackgroundService 
 { // BackgroundService implements `IHostedService`.
@@ -60,3 +59,9 @@ public class Worker : BackgroundService
 </PropertyGroup>
 ```
 [More info](https://docs.microsoft.com/en-us/dotnet/core/runtime-config/garbage-collector#workstation-vs-server).
+
+# Worker Service with Containers
+Visual Studio provides the option to opt into **Docker support** when creating a Worker service from the template.  Doing so creates a Dockerfile and updates the project file accordingly.
+
+# IHostedService
+<o>Important</o>: Worker services either derive from `IHostedService` or `BackgroundService` (which derives from `IHostedService`).  When overriding `IHostedService`'s `StartAsync` or `StopAsync` methods, call and await the base class method to ensure proper startup/shutdown.
