@@ -1,6 +1,6 @@
 ---
 title: reading recaps > the four agreements
-date: 2023-07-25T00:00:00-06:00
+date: 2023-07-03T00:00:00-06:00
 draft: false
 weight: 1
 ---
