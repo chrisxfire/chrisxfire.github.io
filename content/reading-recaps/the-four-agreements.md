@@ -6,10 +6,9 @@ weight: 1
 ---
 
 # Overview
-This is a summary of <u>The Four Agreements</u> by Don Miguel Ruiz.  
+This is a summary of [<u>The Four Agreements</u> by Don Miguel Ruiz](https://www.miguelruiz.com/the-four-agreements).  
 
 > Notes on two of the sections are incomplete at this time.
-
 
 # The Toltec
 The Toltec were a society of scientists and artists in Mexico thousands of years ago.  Toltecs means *women and men of knowledge.*
