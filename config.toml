@@ -42,8 +42,8 @@ defaultContentLanguage = "en-gb"
   [[menu.main]]
     pageRef = "about"
     name = "about"
-    url = "/about/"
-    weight = 90
+    url = "/about"
+    weight = 40
 
 [outputs]
     home = ["HTML", "RSS", "JSON"]
