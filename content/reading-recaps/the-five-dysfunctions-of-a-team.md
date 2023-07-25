@@ -1,7 +1,8 @@
 ---
-title: reading recaps > leadership > the five dysfunctions of a team
+title: reading recaps > the five dysfunctions of a team
 date: 2023-06-22T00:00:00-06:00
 draft: false
+weight: 1
 ---
 
 # Overview
