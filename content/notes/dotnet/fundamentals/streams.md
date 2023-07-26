@@ -174,4 +174,4 @@ int bytesRead = f.ReadAtLeast(buffer, 10);
 // 10 <= bytesRead <= 10
 ```
 
-<r>Note:</r> Throws an `EndOfStreamException` if the Stream ends before the requested bytes have been read.
+<r>Warning:</r> Throws an `EndOfStreamException` if the Stream ends before the requested bytes have been read.
