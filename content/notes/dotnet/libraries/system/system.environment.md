@@ -1,8 +1,8 @@
 ---
-title: notes > .net > libraries > system.environment > overview
+title: notes > .net > libraries > system.environment
 date: 2021-11-28T12:31:13-0700
 draft: false
-weight: -1
+weight: 1
 ---
 # [System.Environment](https://docs.microsoft.com/en-us/dotnet/api/system.environment?view=net-6.0)
 `Object` –> `Environment`  
@@ -36,3 +36,13 @@ Information about and manipulation of the current environment and platform.
 - `GetFolderPath(Environment.SpecialFolder)` Return the path of SpecialFolder
 - `GetLogicalDrives()` Return all logical drives as an array of strings
 - `SetEnvironmentVariable(string variable, string value)` Set environment variable to value.
+
+# [SpecialFolder](https://docs.microsoft.com/en-us/dotnet/api/system.environment.specialfolder?view=net-6.0)
+`Object` –> `ValueType` –> `Enum` –> `Environment.SpecialFolder`  
+Enumerated constants for special system folders.  
+
+# Fields
+`ApplicationData`
+`MyDocuments`
+`Personal`
+`System`
