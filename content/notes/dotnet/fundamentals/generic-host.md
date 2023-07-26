@@ -4,13 +4,14 @@ date: 2022-06-26T19:15:58-0600
 draft: false
 weight: 1
 ---
-# [Generic Host](https://docs.microsoft.com/en-us/dotnet/core/extensions/generic-host)
-`Microsoft.Extensions.Hosting`
-
+# Generic Host
 A host is an object that encapsulates an app's resources and lifetime functionality. This allows for control over the app's startup and graceful shutdown.
 - Examples: Dependency Injection, Logging, Configuration, `IHostedService` implementations
 
 Generic Host is represented by the `HostBuilder` type.
+
+- Namespace: `Microsoft.Extensions.Hosting`
+- Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/generic-host
 
 # Process
 When a host starts, it calls `IHostedService.StartAsync` on each implementation of `IHostedService` registered in the service container's collection of hosted services. If the implementation is a worker service, it calls `BackgroundService.ExecuteAsync`.
@@ -79,8 +80,8 @@ IHost host = Host.CreateDefaultBuilder(args)
     configHost.AddJsonFile("somefile.json", option: true);
     configHost.AddEnvironmentVariables(prefix: "PREFIX_");
     configHost.AddCommandLine(args);
-})
-.Build();
+    })
+    .Build();
 ```
 
 # App Configuration
@@ -95,9 +96,9 @@ See <https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration>.
 Hosted services are stopped as follows:
 - If the app exits normally with `Main()` completing and neither `Run()` nor `HostingAbstractionsHostExtensions.WaitForShutdown()` is called.
 - The app crashes.
-- The app is sent SIGKILL (Ctrl+Z)
+- The app is sent SIGKILL (<kbd>CTRL</kbd>+<kbd>Z</kbd>)
 - If `ConsoleLifetime` is used, it listens for these signals and attempts graceful shutdown:
-  - SIGINT (Ctrl+C), SIGQUIT (Ctrl+Break), SIGTERM (sent by other apps).
+  - SIGINT (<kbd>Ctrl</kbd>+<kbd>C</kbd>), SIGQUIT (<kbd>Ctrl</kbd>+<kbd>Break</kbd>), SIGTERM (sent by other apps).
 - If the app calls `Environment.Exit()`.
   - Note: `Environment.Exit()` is NOT a graceful shutdown in the Hosting app model.
 
@@ -106,12 +107,8 @@ To gracefully shut down a host on demand, call `IHostApplicationLifetime.StopApp
 # IHostApplicationLifetime
 Inject this service into any class to handle post-startup and graceful shutdown tasks.
 
-Properties:
+These three properties are cancellation tokens used to register app start and app stop event handler methods:
 - `ApplicationStarted`, `ApplicationStopping`, `ApplicationStopped`
-- These properties are triggered on events.
-
-Methods:
-- `StopApplication()`
 
 ## Example
 ```cs
@@ -132,11 +129,15 @@ public class SomeService : IHostedService
     public Task StartAsync(CancellationToken cxlToken) 
     {
         _logger.LogInformation("Starting…");
+
+        return Task.CompletedTask;
     }
 
     public task StopAsync(CancellationToken cxlToken) 
     {
         _logger.LogInformation("Stopping…");
+
+        return Task.CompletedTask;
     }
 
     private void OnStarted() 
