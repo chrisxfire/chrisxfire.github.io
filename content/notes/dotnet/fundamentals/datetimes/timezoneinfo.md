@@ -1,5 +1,5 @@
 ---
-title: notes > .net > libraries > system > timezoneinfo
+title: notes > .net > fundamentals > datetimes > timezoneinfo
 date: 2021-11-11T20:44:35-0700
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > libraries > system > datetime
+title: notes > .net > fundamentals > datetimes > datetime
 date: 2021-11-11T20:08:41-0700
 draft: false
 weight: 1
