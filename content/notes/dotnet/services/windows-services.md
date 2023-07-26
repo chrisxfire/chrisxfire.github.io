@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > services > windows services
+title: notes > .net > services > windows services
 date: 2022-06-27T10:01:47-0600
 draft: false
 weight: 1
