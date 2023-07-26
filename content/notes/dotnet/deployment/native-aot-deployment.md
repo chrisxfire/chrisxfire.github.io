@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > deployment > native aot deployment
+title: notes > .net > deployment > native aot deployment
 date: 2022-11-25T20:53:06-0700
 draft: false
 weight: 1
