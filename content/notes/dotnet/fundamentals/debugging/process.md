@@ -1,5 +1,5 @@
 ---
-title: notes > .net > libraries > system.diagnostics > process
+title: notes > .net > fundamentals > debugging > process
 date: 2022-01-16T15:08:53-0700
 draft: false
 weight: 1

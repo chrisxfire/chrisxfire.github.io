@@ -1,8 +1,8 @@
 ---
-title: notes > .net > fundamentals > debugging
+title: notes > .net > fundamentals > debugging > overview
 date: 2022-01-01T00:00:00-06:00
 draft: false
-weight: 1
+weight: -1
 ---
 
 # Breakpoint
@@ -36,48 +36,6 @@ Shows stack trace but only those from the code (not the runtime).
 
 Debug Console – <kbd>Ctrl+Shift+Y</kdb>
 - You can enter expressions into the console which will be evaluated against the current state.
-
-# Logging and Tracing
-## `System.Diagnostics.Trace` 
-- Enabled for both `--configuration debug` and `release`.  
-- Writes to attached Listeners (by default, `DefaultTraceListener`).
-- Use this when creating logs that will be enabled in most builds.
-
-## `System.Diagnostics.Debug`
-- Only enabled for `--configuration debug`.
-- Writes to an attached debugger.
-- Calls to `Debug.WriteLine` will not trigger on `--configuration release`.
-
-## Trace Listeners
-The `DefaultTraceListener` writes to the DEBUG console.
-
-### Configuring
-```cs
-Trace.Listeners.Add(new TextWriterTraceListener(File.CreateText(path)));
-```
-
-Text writers use buffers to improve performance.  Optionally enable AutoFlush to ensure traces are written right away instead of buffered:
-```cs
-Trace.AutoFlush = true;
-```
-
-### Configuring in `appsettings.json`
-```json
-{
-  "MySwitch": {
-    "Level": "Info"
-  }
-}
-```
-
-## Trace Levels
-0 – Off  
-1 – Error  
-2 – Warning  
-3 – Info  
-4 – Verbose  
-
-*Edge case* — An extreme of a parameter.
 
 # Defensive programming
 - A way of programming where the application behaves in a consistent, predictable manner, regardless of input.
