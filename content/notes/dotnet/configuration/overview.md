@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > configuration > overview
+title: notes > .net > configuration > overview
 date: 2021-12-30T14:12:34-0700
 draft: false
 weight: -1
