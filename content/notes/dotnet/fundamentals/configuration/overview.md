@@ -7,12 +7,15 @@ weight: -1
 # [Configuraton Providers](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration-providers)
 Configuration providers exist for settings files, environment variables, Azure key vault, Azure app configuration, command-line arguments, custom providers, key-per-file, and in-memory .NET objects.
 
+Prefer `Microsoft.Extensions.Configuration` over `System.Configuration`.  
+Prefer `Microsoft.Extensions.ConfigurationManager` over `System.ConfigurationManager`.
+
 # Packages
-Microsoft.Extensions.Configuration
-Microsoft.Extensions.HostingNot required unless using a GenericHost.
-[Microsoft.Extensions.Configuration.Binder](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder)Bind an object to data in configuration providers.
-[Microsoft.Extensions.Configuration.Json](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json)JSON configuration provider.
-[Microsoft.Extensions.Configuration.EnvironmentVariables](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.EnvironmentVariables)Environment variables provider.
+- Microsoft.Extensions.Configuration
+- Microsoft.Extensions.Hosting — Not required unless using a Generic Host.
+- Microsoft.Extensions.Configuration.Binder — Bind an object to data in configuration providers.
+- Microsoft.Extensions.Configuration.Json — JSON configuration provider.
+- Microsoft.Extensions.Configuration.EnvironmentVariables — Environment variables provider.
 
 Note: `System.Configuration.ConfigurationBuilder` != `Microsoft.Extensions.Configuration.ConfigurationBuilder`.
 
