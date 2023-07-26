@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > benchmarking
+title: notes > .net > benchmarking
 date: 2022-01-16T00:00:00-06:00
 draft: false
 weight: 1
