@@ -1,12 +1,12 @@
 ---
-title: notes > .net > libraries > system.diagnostics.codeanalysis
+title: notes > .net > code analysis > overview
 date: 2023-07-15T00:00:00-06:00
 draft: false
-weight: 1
+weight: -1
 ---
 
 # Overview
-Classes used to analyze code for conformance to coding conventions.
+Classes in the `System.Diagnostics.CodeAnalysis` namespace are used to analyze code for conformance to coding conventions.
 | Class                                   | Description                                                                                                                                                                 |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `AllowNullAttribute`                    | Specifies that null is allowed as an input even if the corresponding type disallows it.                                                                                     |
