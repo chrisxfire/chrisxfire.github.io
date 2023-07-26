@@ -1,5 +1,5 @@
 ---
-title: notes > .net > libraries > system.text.json > jsonserializeroptions
+title: notes > .net > fundamentals > serialization > json > jsonserializeroptions
 date: 2021-12-23T16:21:39-0700
 draft: false
 weight: 1

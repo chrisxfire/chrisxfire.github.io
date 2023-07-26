@@ -1,9 +1,10 @@
 ---
-title: notes > .net > libraries > system.text.json > jsondocument and jsonelement
+title: notes > .net > fundamentals > serialization > json > jsondocument and jsonelement
 date: 2022-01-30T12:11:30-0700
 draft: false
 weight: 1
 ---
+
 # [JsonDocument](https://docs.microsoft.com/en-us/dotnet/api/system.text.json.jsondocument?view=net-6.0)
 Build a read-only DOM by using `Utf8JsonReader`. Access the elements via `JsonElement`.
 
