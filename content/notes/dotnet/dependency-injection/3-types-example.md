@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > dependency injection > 3 types example
+title: notes > .net > dependency injection > 3 types example
 date: 2022-08-26T07:37:34-0600
 draft: false
 weight: 1

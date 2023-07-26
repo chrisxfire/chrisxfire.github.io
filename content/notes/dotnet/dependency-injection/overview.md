@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > dependency injection > overview
+title: notes > .net > dependency injection > overview
 date: 2022-08-23T16:03:38-0600
 draft: false
 weight: -1
