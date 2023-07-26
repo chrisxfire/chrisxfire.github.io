@@ -20,7 +20,7 @@ weight: 1
   - [x] Dependency injection
   - [x] Startup
   - [x] Environments
-  - [] Logging
+  - [ ] Logging
   - [x] Handle errors
   - [x] SignalR
   - [x] Static files
@@ -38,7 +38,7 @@ weight: 1
   - [ ] Event handling
   - [x] Lifecycle
   - [ ] Virtualization
-  - [ ] Rendering
+  - [x] Rendering
   - [x] Templated components
   - [ ] CSS isolation
   - [ ] Dynamically-rendered components
