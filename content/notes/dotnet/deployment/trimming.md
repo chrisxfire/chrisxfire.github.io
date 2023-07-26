@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > deployment > trimming
+title: notes > .net > deployment > trimming
 date: 2023-07-24T00:00:00-06:00
 draft: false
 weight: 1
