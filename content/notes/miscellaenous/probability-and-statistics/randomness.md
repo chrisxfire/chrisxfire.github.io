@@ -19,7 +19,6 @@ Characteristics:
 - Deterministic — a given sequence of numbers can be reproduced if the starting point in the sequence is known.
 - Periodic — the sequence will eventually repeat itself.
 
-
 # True Random Number Generators (TRNGs)
 TRNGs extract randomness from physical phenomena.  Also known as Hardware Random Number Generators (HRNGs).  
 
