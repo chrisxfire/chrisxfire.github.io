@@ -1,5 +1,5 @@
 ---
-title: notes > dotnet > fundamentals > serialization > json
+title: notes > .net > fundamentals > serialization > json
 date: 2023-07-26T00:00:00-06:00
 draft: false
 weight: 1
