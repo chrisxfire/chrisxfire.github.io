@@ -1,7 +1,7 @@
 ---
 title: notes > asp.net > web apps > blazor > components > lifecycle > component rendering
 date: 2023-07-26T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
