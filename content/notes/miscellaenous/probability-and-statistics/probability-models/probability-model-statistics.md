@@ -27,14 +27,15 @@ Definitions:
 
 # Standard Deviation (Population)
 Definitions:
-- `sd = sqrt(variance)`
-- sd(X) = average distance of values from mean(X)
-- sd(X) indicates how spread out the Probability Density Function of X is aorund its mean
+- $\sigma$ = standard deviation
+- $\sigma^2$ = variance
+- $\sigma(x)$ = average distance of values from $\overline{x}$
+- $\sigma(x)$ indicates how spread out the Probability Density Function of $x$ is around its mean
 
 # Means, Variances, Standard Deviations (Sample)
 - For Samples,  `mean = (sum of values) / (number of values - 1)`
 - This changes the output of variance and standard deviation.
-- Sample mean Y/n is an unbiased estimate of the population mean E(X).
+- Sample mean $Y \over n$ is an unbiased estimate of the population mean $\sum_{x}$
 
 ```r
 mean(x)	# calculate the sample mean of x
