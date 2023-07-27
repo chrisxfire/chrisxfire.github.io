@@ -5,16 +5,14 @@ draft: false
 weight: 1
 ---
 
-# [JsonDocument](https://docs.microsoft.com/en-us/dotnet/api/system.text.json.jsondocument?view=net-6.0)
-Build a read-only DOM by using `Utf8JsonReader`. Access the elements via `JsonElement`.
-
-# Parsing into a JsonDocument
+# Serializing and Deserializing with JsonDocument
+## Parsing into a JsonDocument
 ```cs
 JsonDocument doc = JsonDocument.Parse(json); // MUST dispose.
 ```
-Once a `JsonDocument` is diposed, all instances of `JsonElement` are also lost.
+Once a `JsonDocument` is disposed, all instances of `JsonElement` are also lost.
 
-# [JsonElement](https://docs.microsoft.com/en-us/dotnet/api/system.text.json.jsonelement?view=net-6.0)
+## JsonElement
 ```cs
 JsonElement root = doc.RootElement;
 
@@ -30,7 +28,7 @@ foreach (JsonElement prop in propertyElement.EnumerateArray())
     }
 }
 ```
-# Use JsonDocument to Write JSON
+## Use JsonDocument to Write JSON
 ```cs
 using FileStream fs = File.Create(outputFile);
 using var writer = new Utf8JsonWriter(fs);

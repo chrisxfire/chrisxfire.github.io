@@ -5,39 +5,47 @@ draft: false
 weight: 1
 ---
 # [JsonNode](https://docs.microsoft.com/en-us/dotnet/api/system.text.json.nodes.jsonnode?view=net-6.0)
+Types: `JsonNode`, `JsonArray`, `JsonObject`, `JsonValue`, `JsonNodeOptions`
 ```cs
 using System.Text.Json.Nodes;
-```
 
-Types: `JsonNode`, `JsonArray`, `JsonObject`, `JsonValue`, `JsonNodeOptions`
+// Create a JsonNode DOM from a JSON string.
+JsonNode forecastNode = JsonNode.Parse(jsonString)!; // Parse can also parse a JsonArray or JsonObject
 
-```cs
-// Create a JsonNode DOM from JSON data:
-JsonNode node = JsonNode.Parse(json); // Parse can also parse a JSON array or JSON object.
+// Write JSON from a JsonNode
+var options = new JsonSerializerOptions { WriteIndented = true };
+Console.WriteLine(forecastNode!.ToJsonString(options));
 
-// Print the JSON:
-var options = new JsonSerializerOptions { writeIndented = true; }
-Console.WriteLine(node.ToJsonString(options); }
+// Get value from a JsonNode.
+JsonNode temperatureNode = forecastNode!["Temperature"]!;
+Console.WriteLine($"Type={temperatureNode.GetType()}"); // Type = System.Text.Json.Nodes.JsonValue`1[System.Text.Json.JsonElement]
+Console.WriteLine($"JSON={temperatureNode.ToJsonString()}"); // JSON = 25
 
-// Optionally, get the DOM root:
-JsonNode root = node.Root;
+// Get a typed value from a JsonNode.
+int temperatureInt = (int)forecastNode!["Temperature"]!;
+Console.WriteLine($"Value={temperatureInt}"); // Value=25
 
-// Check to see if a node is a JSON object, array, or value:
-node.GetType() // System.Text.Json.Nodes.JsonObject, JsonArray, JsonValue
+// Get a JSON object from a JsonNode.
+JsonNode temperatureRanges = forecastNode!["TemperatureRanges"]!;
+Console.WriteLine($"Type={temperatureRanges.GetType()}"); // Type = System.Text.Json.Nodes.JsonObject
+Console.WriteLine($"JSON={temperatureRanges.ToJsonString()}"); // JSON = { "Cold":{ "High":20,"Low":-10},"Hot":{ "High":60,"Low":20} }
 
-// Get a JSON object, array, or value (depending on what "Property" is) from a JsonNode:
-JsonNode someNode = node["Property"]
+// Get a JSON array from a JsonNode.
+JsonNode datesAvailable = forecastNode!["DatesAvailable"]!;
+Console.WriteLine($"Type={datesAvailable.GetType()}"); // datesAvailable Type = System.Text.Json.Nodes.JsonArray
+Console.WriteLine($"JSON={datesAvailable.ToJsonString()}"); // datesAvailable JSON =["2019-08-01T00:00:00", "2019-08-02T00:00:00"]
 
-// Get a typed value from a JsonNode:
-int someInt = (int) node["Property"]
+// Get an array element value from a JsonArray.
+JsonNode firstDateAvailable = datesAvailable[0]!;
+Console.WriteLine($"Type={firstDateAvailable.GetType()}"); // Type = System.Text.Json.Nodes.JsonValue`1[System.Text.Json.JsonElement]
+Console.WriteLine($"JSON={firstDateAvailable.ToJsonString()}"); // JSON = "2019-08-01T00:00:00"
 
-// Get a typed value from a JsonNode with GetValue<T>:
-int someInt = node["Property"].GetValue<int>();
+// Get a typed value by chaining references.
+int coldHighTemperature = (int)forecastNode["TemperatureRanges"]!["Cold"]!["High"]!;
+Console.WriteLine($"TemperatureRanges.Cold.High={coldHighTemperature}"); // TemperatureRanges.Cold.High = 20
 
-// Get a typed value by chaining references:
-int someInt = (int) node["Prop1"]!["Prop2"]!["Prop3"];
-
-// Get a subsection of a JSON payload:
-JsonObject someSubSection = node["Property"].AsObject();
-JsonArray someSubSection2 = node["AnotherProperty"].AsArray();
+// Parse a JSON array
+var datesNode = JsonNode.Parse(@"[""2019-08-01T00:00:00"",""2019-08-02T00:00:00""]");
+JsonNode firstDate = datesNode![0]!.GetValue<DateTime>();
+Console.WriteLine($"firstDate={ firstDate}");  // firstDate = "2019-08-01T00:00:00"
 ```
