@@ -1,0 +1,9 @@
+CacheExpires: "6h"
+DirectoryPath: "public/"
+EnforcedHTML5: true
+EnforceHTTPS: true
+IgnoreDirs:
+ - "categories"
+ - "fonts"
+ - "icons"
+ - "js"
