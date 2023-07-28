@@ -106,6 +106,9 @@ Using `git reset --hard COMMIT-ID`:
 - The working directory is reset to match that of `COMMIT-ID`
 - <r>All pending work is lost</r>
 
+# Undoing Merges
+TODO...
+
 # Rebasing
 - Rebasing makes for a cleaner history.
 - A rebased branch appears as if all the work happened in a series, even when it actually happened in parallel.
