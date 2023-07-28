@@ -70,7 +70,7 @@ a1e8fb5 Make some important changes to hello.txt
 9773e52 Initial import
 ```
 
-Although `e2f9a78` and `872fa7e` no longer exist in the commit history, *they still exist in the remote repo*.  A `git push` will now fail.
+Although `e2f9a78` and `872fa7e` no longer exist in the commit history, *they still exist in the remote repo*.  A `git push` will now fail.  Use `git push origin BRANCH-NAME --force` <r>with consequences</r>.
 
 # Checkout vs Reset
 Assume this commit history:  
