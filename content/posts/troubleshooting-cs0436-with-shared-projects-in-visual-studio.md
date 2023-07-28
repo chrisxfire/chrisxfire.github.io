@@ -5,17 +5,17 @@ draft: false
 ---
 
 ### overview
-I recently ran into [compiler warning cs0436](cs-0436) while working on a [solution](solutions-and-projects) with a [shared project](shared-projects) in VS2022. If you run into the same, this might help you troubleshoot. 
+I recently ran into [compiler warning cs0436](https://learn.microsoft.com/en-us/dotnet/csharp/misc/cs0436) while working on a [solution](https://learn.microsoft.com/en-us/visualstudio/ide/solutions-and-projects-in-visual-studio?view=vs-2022) with a [shared project](https://learn.microsoft.com/en-us/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) in VS2022. If you run into the same, this might help you troubleshoot. 
 
 ### scenario
-You're working on a solution that contains a project, `alpha` (which is also the name of its namspace). That project contains a [project reference](project-reference) to another project, `bravo`:  
+You're working on a solution that contains a project, `alpha` (which is also the name of its namspace). That project contains a [project reference](https://learn.microsoft.com/en-us/visualstudio/ide/managing-references-in-a-project?view=vs-2022) to another project, `bravo`:  
 
 ```powershell
 alpha
   |--bravo
 ```
 
-Shared project, `charlie`, contains code that is used by `alpha`, `bravo`, and other projects. Because of this, a [shared project reference](shared-project-reference) from `bravo` to `charlie` already exists. You also add a shared project reference from `alpha` to `charlie`:  
+Shared project, `charlie`, contains code that is used by `alpha`, `bravo`, and other projects. Because of this, a [shared project reference](https://learn.microsoft.com/en-us/visualstudio/ide/how-to-add-or-remove-references-by-using-the-reference-manager?view=vs-2022#shared-projects-tab) from `bravo` to `charlie` already exists. You also add a shared project reference from `alpha` to `charlie`:  
 
 ```powershell
 alpha
@@ -24,7 +24,7 @@ alpha
 ```
 
 ### problem
-If the references to `charlie` were [project-to-project references](project-to-project), there would be no issue. In such a case, `charlie` is essentially a [portable class library](pcl) and Visual Studio references its DLL. However, `charlie` is a shared project, which means its code is compiled into the executable project (`alpha` and/or `bravo`) just as if it were included natively in that project. This now result in a cs-0436 that reads:  
+If the references to `charlie` were [project-to-project references](https://learn.microsoft.com/en-us/visualstudio/ide/managing-references-in-a-project?view=vs-2022#project-to-project-references), there would be no issue. In such a case, `charlie` is essentially a [portable class library](https://learn.microsoft.com/en-us/xamarin/cross-platform/app-fundamentals/pcl?tabs=windows) and Visual Studio references its DLL. However, `charlie` is a shared project, which means its code is compiled into the executable project (`alpha` and/or `bravo`) just as if it were included natively in that project. This now result in a cs-0436 that reads:  
 <br>
 
 > The type 'SomeType' in 'alpha' conflicts with the imported type 'SomeType2' in 'alpha'. Using the type defined in 'alpha'.  
@@ -47,11 +47,3 @@ alpha
   |--bravo
        |--charlie
 ```
-
-[cs-0436]: https://learn.microsoft.com/en-us/dotnet/csharp/misc/cs0436
-[pcl]: https://learn.microsoft.com/en-us/xamarin/cross-platform/app-fundamentals/pcl?tabs=windows
-[project-references]: https://learn.microsoft.com/en-us/visualstudio/ide/managing-references-in-a-project?view=vs-2022
-[project-to-project]: https://learn.microsoft.com/en-us/visualstudio/ide/managing-references-in-a-project?view=vs-2022#project-to-project-references
-[shared-projects]: https://learn.microsoft.com/en-us/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows
-[shared-project-reference]: https://learn.microsoft.com/en-us/visualstudio/ide/how-to-add-or-remove-references-by-using-the-reference-manager?view=vs-2022#shared-projects-tab
-[solutions-and-projects]: https://learn.microsoft.com/en-us/visualstudio/ide/solutions-and-projects-in-visual-studio?view=vs-2022
