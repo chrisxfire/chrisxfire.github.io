@@ -63,6 +63,10 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
+      - name: Run htmltest
+        uses: wjdp/htmltest-action@master
+        with:
+          config: .htmltest.yml
 
   # Deployment job
   deploy:
