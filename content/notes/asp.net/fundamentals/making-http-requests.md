@@ -6,10 +6,11 @@ weight: 1
 ---
 
 # Overview
-Use `IHttpClientFactory`.
+- See [Problems with HttpClient](../../dotnet/web/http/ihttpclientfactory.md#problems-with-httpclient)
 
-# Basic (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
-## Configuring
+# From PluralSight
+## Via `HttpClient` (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
+### Configuring
 `Program.cs`
 ```cs
 builder.Services.AddScoped(sp => 
@@ -18,7 +19,7 @@ builder.Services.AddScoped(sp =>
         BaseAddress = new Uri("http://*some-api-endpoint*")
     });
 ```
-## Using
+### Using
 `SomeComponent.razor.cs`
 ```cs
 // In a Razor component, you must use the [Inject] attribute instead of the constructor dependency injection approach:
@@ -31,8 +32,8 @@ protected override async Task OnInitializedAsync()
 }
 ```
 
-# `IHttpClientFactory` (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
-## Configuring
+## Via `IHttpClientFactory` (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
+### Configuring
 ```posh
 dotnet add package microsoft.extensions.http
 ```
@@ -44,7 +45,7 @@ builder.Services.AddHttpClient<IEmployeeDataService, EmployeeDataService>(client
     client.BaseAddress = new Uri("https://localhost:44340/"));
 ```
 
-## Using
+### Using
 `EmployeeDataService.cs`
 ```cs
 public class EmployeeDataService : IEmployeeDataService
@@ -57,24 +58,31 @@ public class EmployeeDataService : IEmployeeDataService
     }
 }
 ```
-# Basic (From ASP.NET Core docs)
-```cs
+# Via `IHttpClientFactory` (From ASP.NET Core docs)
+- Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0
+
+Register `IHttpClientFactory` in the DI container:
+```cs {hl_lines=3}
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddHttpClient();
 ```
-Or, with DI:
-```cs
+
+Inject an `IHttpClientFactory`:
+```cs {hl_lines=[3,5]}
 public class BasicModel : PageModel
 {
     private readonly IHttpClientFactory _httpClientFactory;
+
     public BasicModel(IHttpClientFactory httpClientFactory) => _httpClientFactory = httpClientFactory;
+
     public IEnumerable<GitHubBranch>? GitHubBranches { get; set; }
 
     public async Task OnGet()
     {
-        var httpRequestMessage = new HttpRequestMessage(HttpMethod.Get, "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches")
+        var httpRequestMessage = new HttpRequestMessage(
+            HttpMethod.Get,
+            "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches")
         {
             Headers =
             {

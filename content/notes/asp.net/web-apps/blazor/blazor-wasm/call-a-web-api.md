@@ -32,13 +32,27 @@ See: https://learn.microsoft.com/en-us/aspnet/core/blazor/call-web-api?view=aspn
     @inject HttpClient Http
     ```
 
-3. Send requests from the component in the `OnInitializedAsync()` method after the component has finished initializing.
+3. Send requests from the component in the `OnInitializedAsync()` method after the component has finished initializing:
+    `SomeComponent.razor`
+    ```cs
+    @code {
+    private TodoItem[]? todoItems;
+
+    protected override async Task OnInitializedAsync() => 
+        todoItems = await Http.GetFromJsonAsync<TodoItem[]>("api/TodoItems");
+    }
+    ```
 
 # Using the `IHttpClientFactory`
 Instead of injecting a preconfigured `HttpClient`, `IHttpClientFactory` can be used instead, similar to [how it is used in other .NET apps](../../../../dotnet/web/http/ihttpclientfactory.md).
 
 Both named and typed clients are supported.
-Add the named or typed client to the DI container in `Program.cs` as you would in any other .NET app.
+
+In `Program.cs`:
+```cs
+builder.Services.AddHttpClient("NAMED_CLIENT_NAME", client => 
+    client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress));
+```
 
 ## Named Client Example  
 `SomeComponent.razor`
@@ -51,8 +65,8 @@ Add the named or typed client to the DI container in `Program.cs` as you would i
     // ...
     protected override async Task OnInitializedAsync()
     {
-        var client = ClientFactory.CreateClient("<NAMED_CLIENT_NAME>");
-        result = await client.GetFromJsonAsync<SomeService[]>("<SOME_SERVICE>");
+        var client = ClientFactory.CreateClient("NAMED_CLIENT_NAME");
+        result = await client.GetFromJsonAsync<SomeModel[]>("SomeModel");
     }
 }
 ```
@@ -64,17 +78,17 @@ Add the named or typed client to the DI container in `Program.cs` as you would i
     public class SomeHttpClient
     {
         private readonly HttpClient http;
-        private SomeService[]? results;
+        private SomeModel[]? results;
 
         public SomeHttpClient(HttpClient http)
         {
             this.http = http;
         }
-        public async Task<SomeService[]> GetResultsAsync()
+        public async Task<SomeModel[]> GetResultsAsync()
         {
-            results = await http.GetFromJsonAsync<SomeService[]>("SomeService");
+            results = await http.GetFromJsonAsync<SomeModel[]>("SomeModel");
 
-            return results ?? Array.Empty<SomeService>();
+            return results ?? Array.Empty<SomeModel>();
         }
     }
     ```
@@ -86,7 +100,7 @@ Add the named or typed client to the DI container in `Program.cs` as you would i
     ```
     ```cs
     @code {
-        private SomeService[]? results;
+        private SomeModel[]? results;
 
         protected override async Task OnInitializedAsync()
         {
@@ -97,18 +111,18 @@ Add the named or typed client to the DI container in `Program.cs` as you would i
 
 # Fetch API Request Options
 Blazor WASM's implementation of `HttpClient` uses Fetch API.  Fetch API can be configured with request-specific options via `HttpRequestMessage` extension methods:
-| Extension Method                   | Use to...                                        |
-| ---------------------------------- | ------------------------------------------------ |
-| SetBrowserRequestCache             |                                                  |
-| SetBrowserRequestCredentials       | ...include credentials in a cross-origin request |
-| SetBrowserRequestIntegrity         |                                                  |
-| SetBrowserRequestMode              |                                                  |
-| SetBrowserResponseStreamingEnabled | ...enable support for response streaming         |
+| Extension Method                     | Use to...                                        |
+| ------------------------------------ | ------------------------------------------------ |
+| `SetBrowserRequestCache`             |                                                  |
+| `SetBrowserRequestCredentials`       | ...include credentials in a cross-origin request |
+| `SetBrowserRequestIntegrity`         |                                                  |
+| `SetBrowserRequestMode`              |                                                  |
+| `SetBrowserResponseStreamingEnabled` | ...enable support for response streaming         |
 
 Additional options can be set via the generic [SetBrowserRequestOption](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.webassembly.http.webassemblyhttprequestmessageextensions.setbrowserrequestoption?view=aspnetcore-7.0) extension method.
 
 # Cross-Origin Resource Sharing (CORS)
-Browser security restricts a web page from making requests to a different domain tha nthe one that served the web page.  This is called the *same-origin policy*.  To make requests from the browser to an endpoint with a different origin (domain), the endpoint must enable CORS.
+Browser security restricts a web page from making requests to a different domain than the one that served the web page.  This is called the *same-origin policy*.  <o>To make requests from the browser to an endpoint with a different origin (domain), the endpoint must enable CORS</o>.
 
 Adjust the names and ports of `WithOrigins` as needed for the app:  
 `Program.cs`
