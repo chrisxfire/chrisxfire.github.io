@@ -74,7 +74,7 @@ builder.Services.AddHttpClient("NAMED_CLIENT_NAME", client =>
 ## Typed Client Example
 1. Add `Microsoft.Extensions.Http` to the app:
     ```powershell
-    dotnet add package https://www.nuget.org/packages/Microsoft.Extensions.Http
+    dotnet add package Microsoft.Extensions.Http
     ```
 2. Create the typed client:  
     `SomeHttpClient.cs`
