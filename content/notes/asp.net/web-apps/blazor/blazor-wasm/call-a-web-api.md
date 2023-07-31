@@ -35,7 +35,7 @@ See: https://learn.microsoft.com/en-us/aspnet/core/blazor/call-web-api?view=aspn
 3. Send requests from the component in the `OnInitializedAsync()` method after the component has finished initializing.
 
 # Using the `IHttpClientFactory`
-Instead of injecting a preconfigured HttpClient, IHttpClientFactory can be used instead, similar to [how it is used in other .NET apps](../../../../dotnet/libraries/system.net.http/ihttpclientfactory.md).
+Instead of injecting a preconfigured `HttpClient`, `IHttpClientFactory` can be used instead, similar to [how it is used in other .NET apps](../../../../dotnet/web/http/ihttpclientfactory.md).
 
 Both named and typed clients are supported.
 Add the named or typed client to the DI container in `Program.cs` as you would in any other .NET app.
