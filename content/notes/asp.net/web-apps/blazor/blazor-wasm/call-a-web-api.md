@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview
-Blazor WASM apps call web APIs using a preconfigured `HttpClient` service which is focused on making requests back to the server of origin.  Create `HttpClient` service configurations manually for requests to other web APIs.
+Blazor WASM apps call web APIs using a preconfigured `HttpClient` service which is focused on <o>making requests back to the server of origin</o> (not a 3rd party API).  Create `HttpClient` service configurations manually for requests to other web APIs.
 
 ## Sending PATCH Requests
 If sending HTTP PATCH requests, there are additional considerations beyond those listed in these notes.  
@@ -48,13 +48,13 @@ Instead of injecting a preconfigured `HttpClient`, `IHttpClientFactory` can be u
 
 Both named and typed clients are supported.
 
-In `Program.cs`:
+## Named Client Example  
+`Program.cs`:
 ```cs
 builder.Services.AddHttpClient("NAMED_CLIENT_NAME", client => 
     client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress));
 ```
 
-## Named Client Example  
 `SomeComponent.razor`
 ```html
 @inject IHttpClientFactory ClientFactory
@@ -72,7 +72,11 @@ builder.Services.AddHttpClient("NAMED_CLIENT_NAME", client =>
 ```
 
 ## Typed Client Example
-1. Create the typed client:  
+1. Add `Microsoft.Extensions.Http` to the app:
+    ```powershell
+    dotnet add package https://www.nuget.org/packages/Microsoft.Extensions.Http
+    ```
+2. Create the typed client:  
     `SomeHttpClient.cs`
     ```cs
     public class SomeHttpClient
@@ -92,7 +96,7 @@ builder.Services.AddHttpClient("NAMED_CLIENT_NAME", client =>
         }
     }
     ```
-2. Use the typed client:  
+3. Use the typed client:  
     `SomeComponent.razor`
     ```html
     @inject SomeHttpClient Http
