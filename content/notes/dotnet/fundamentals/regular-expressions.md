@@ -129,7 +129,7 @@ Anchors cause a match to succeed or fail depending on the current position, but 
 | `^` or `\A` | start at beginning of string                        |         |                                        |
 | `$` or `\Z` | occur at the end of the string or before the \n     |         |                                        |
 | `\z`        | occur at the end of the string                      |         |                                        |
-| `\G`        | occur at point where previous match ended           | \G\\d\  | "(1)" "(3)" "(5)" in "(1)(3)(5)[7](9)" |
+| `\G`        | occur at point where previous match ended           | \G\\d\  | "(1)" "(3)" "(5)" in `(1)(3)(5)[7](9)` |
 | `\b`        | occur on a boundary between a \w and a \W character |         |                                        |
 | `\B`        | NOT occur on a \b boundary                          |         |                                        |
 
