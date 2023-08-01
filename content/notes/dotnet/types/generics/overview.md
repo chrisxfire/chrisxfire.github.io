@@ -77,8 +77,8 @@ public string Method() => default;
 - Generic methods can appear on both generic and nongeneric types.  Just because a type is generic does not mean its methods are.
   - A method is generic only if it has its own list of type parameters.
 - Generic type safety is enforced at *compile time*.
-- [Generic collection](../../collections/generic/) types generally perform better for storing and manipulating value types because they do not need to [box](../../fundamentals/boxing-and-unboxing/) the value types.
-- [Enumerations](../value-types/enums.md) cannot have generic type parameters.
+- [Generic collection]({{< ref "../../collections/generic" >}}) types generally perform better for storing and manipulating value types because they do not need to [box]({{< ref "../../fundamentals/boxing-and-unboxing/" >}}) the value types.
+- [Enumerations]({{< ref "../value-types/enums" >}}) cannot have generic type parameters.
 - The CLR considers a type that is nested in a generic type to be generic even if it does not have generic type parameters of its own.
   - To create an instance of such a type, you must specify type arguments for all enclosing generic types.
 
