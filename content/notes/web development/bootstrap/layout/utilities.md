@@ -8,8 +8,7 @@ weight: 1
 # Overview
 Utilities for layouts.
 - Documentation: https://getbootstrap.com/docs/5.3/layout/utilities/
-- Notes for these utilities are under [bootstrap/utilities](../../utilities)
-- [Display utilities](../../utilities/display) — for responsively toggling values of the `display` property
-- [Flex utilities](../../utilities/flex) — if you need to add `display: flex` to an element, do so with `.d-flex`
-- [Spacing utilities](../../utilities/spacing) — for margin and padding
-- [Visibility utilities](../../utilities/visibility) — for toggling visibility
+- Display utilities — for responsively toggling values of the `display` property
+- Flex utilities — if you need to add `display: flex` to an element, do so with `.d-flex`
+- Spacing utilities — for margin and padding
+- Visibility utilities — for toggling visibility
