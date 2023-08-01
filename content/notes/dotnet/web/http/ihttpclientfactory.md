@@ -15,6 +15,8 @@ weight: 1
 - A central location for naming and configuring `HttpClient` objects.
 - Also implements `IHttpMessageHandlerFactory`.  Manages the caching and lifetime of the underlying `HttpClientHandler` instances.
 - Works with `Polly`-based middleware.
+- Documentation: https://learn.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests?source=recommendations
+- Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0
 
 # Requirements
 ```powershell

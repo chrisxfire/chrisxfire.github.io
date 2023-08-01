@@ -7,6 +7,7 @@ weight: 1
 
 # Overview
 Blazor WASM apps call web APIs using a preconfigured `HttpClient` service which is focused on <o>making requests back to the server of origin</o> (not a 3rd party API).  Create `HttpClient` service configurations manually for requests to other web APIs.
+- Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/call-web-api?view=aspnetcore-7.0&pivots=webassembly
 
 ## Sending PATCH Requests
 If sending HTTP PATCH requests, there are additional considerations beyond those listed in these notes.  
@@ -90,7 +91,7 @@ builder.Services.AddHttpClient("NAMED_CLIENT_NAME", client =>
         }
         public async Task<SomeModel[]> GetResultsAsync()
         {
-            results = await http.GetFromJsonAsync<SomeModel[]>("SomeModel");
+            results = await http.GetFromJsonAsync<SomeModel[]>("/api/endpoint");
 
             return results ?? Array.Empty<SomeModel>();
         }

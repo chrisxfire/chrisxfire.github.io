@@ -7,6 +7,7 @@ weight: 1
 
 # Overview
 - See [Problems with HttpClient](../../dotnet/web/http/ihttpclientfactory.md#problems-with-httpclient)
+- Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0
 
 # From PluralSight
 ## Via `HttpClient` (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
@@ -40,7 +41,7 @@ dotnet add package microsoft.extensions.http
 
 `Program.cs`
 ```cs
-// the AddHttpClient extension method is what brings in support for IHttpClient
+// the AddHttpClient extension method is what brings in support for IHttpClientFactory
 builder.Services.AddHttpClient<IEmployeeDataService, EmployeeDataService>(client => 
     client.BaseAddress = new Uri("https://localhost:44340/"));
 ```
