@@ -27,16 +27,16 @@ These notes are for `System.Text.Json`.
 See notes on [how to enable the source generation method](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation-modes?pivots=dotnet-7-0).
 
 # Serializing and Deserializing with JsonSerializer
-See [notes](./jsonserializer.md).
+See [notes](./jsonserializer/).
 
 # Serializing and Deserializing with JSON DOM
 Use the DOM when you receive JSON that doesn't have a fixed schema and must be inspected to know what it contains.  
 Two JSON DOM approaches:  
-1.  `JsonDocument` (see [notes](./jsondocument-and-jsonelement.md))
+1.  `JsonDocument` (see [notes](./jsondocument-and-jsonelement/))
     1.  A read-only (immutable) DOM. Cannot be changed after creation. Faster.
     2.  Uses JsonElements.
         1.  `JsonElement` has JSON Array and Object enumerators.
-2.  `JsonNode` (see [notes](./jsonnode.md))
+2.  `JsonNode` (see [notes](./jsonnode/))
     1.  A mutable DOM. Can be changed after creation. Slower.
     2.  Uses `JsonNode`, `JsonObject`, `JsonArray`, `JsonValue`, and `JsonElement.`
 
