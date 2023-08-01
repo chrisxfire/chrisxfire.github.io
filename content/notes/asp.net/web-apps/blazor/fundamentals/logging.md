@@ -65,7 +65,7 @@ Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals
 ```
 
 # Logging in Blazor Server
-There are no special logging considerations for Blazor Server.  See the notes for [logging in ASP.NET Core](../../../fundamentals/logging/overview.md).
+There are no special logging considerations for Blazor Server.  See the notes for [logging in ASP.NET Core]({{< ref "../../../fundamentals/logging/overview" >}}).
 
 # Logging in Blazor WASM
 Configure logging in Blazor WASM apps with the `WebAssemblyHostBuilder.Logging` property via extension methods on `builder.Logging`.
