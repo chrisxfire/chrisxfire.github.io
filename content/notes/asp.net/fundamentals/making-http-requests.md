@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview
-- See [Problems with HttpClient](../../dotnet/web/http/ihttpclientfactory.md#problems-with-httpclient)
+- See [Problems with HttpClient]({{< ref "../../dotnet/web/http/ihttpclientfactory.md#problems-with-httpclient" >}})
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0
 
 # From PluralSight

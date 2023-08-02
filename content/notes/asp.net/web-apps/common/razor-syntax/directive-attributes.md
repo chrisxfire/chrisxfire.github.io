@@ -7,7 +7,7 @@ weight: 1
 
 # Overview
 Directive attributes change the way a component element is parsed or functions.  
-These only apply to Raozr components (`.razor`).  See [Components](../../blazor/fundamentals/components/overview.md).
+These only apply to Razor components (`.razor`).  See [Components]({{< ref "../../blazor/components/" >}}).
 ```cs
 @attributes
 @bind
