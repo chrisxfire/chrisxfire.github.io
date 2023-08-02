@@ -8,6 +8,8 @@ weight: 1
 A host is an object that encapsulates an app's resources and lifetime functionality. This allows for control over the app's startup and graceful shutdown.
 - Examples: Dependency Injection, Logging, Configuration, `IHostedService` implementations
 
+[Test](./options-pattern)
+
 Generic Host is represented by the `HostBuilder` type.
 
 - Namespace: `Microsoft.Extensions.Hosting`
