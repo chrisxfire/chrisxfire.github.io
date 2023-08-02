@@ -23,7 +23,7 @@ Track a variable state across time or functions.
 - Right-click variable in Variables panel and select **Add to watch**.
 	
 # Call Stack panel
-![call stack panel]({{< ref "call-stack-panel.png" >}}))
+![call stack panel]({{< ref "./call-stack-panel.png" >}}))
 Shows stack trace but only those from the code (not the runtime).
 
 ## Control Execution
