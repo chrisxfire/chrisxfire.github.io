@@ -6,16 +6,16 @@ weight: 1
 ---
 
 # Concepts
-Log *providers* — an implementation of `ILogger<T>` that outputs logs 
-Log *categories* — a string associated with each log message
-Log *levels*
-- `Trace` = 0
-- `Debug` = 1
-- `Information` = 2 (default if no level specified)
-- `Warning` = 3
-- `Error` = 4
-- `Critical` = 5
-- `None` = 6 (use this level to suppress log messages)
+- Log *providers* — an implementation of `ILogger<T>` that outputs logs 
+- Log *categories* — a string associated with each log message
+- Log *levels*:
+    - `Trace` = (<r>Warning</r>: may contain sensitive app data; do not enable in production)
+    - `Debug` = 1 (<o>Caution</o>: may produce a high volume of logs)
+    - `Information` = 2 (default if no level specified)
+    - `Warning` = 3 (errors and conditions that do not cause the app to fail)
+    - `Error` = 4 (errors and exceptions in the scope of the current operation (not app-wide) that cannot be handled)
+    - `Critical` = 5 (failures that require immediate attention)
+    - `None` = 6 (use this level to suppress log messages)
 
 # Creating
 Logging with Generic Host
@@ -24,7 +24,7 @@ class Program {
 	static Task Main(string[] args) {
 		// Create the host:
 		IHost host = Host.CreateDefaultBuilder(args)
-			// By default, these logging providers are added: Console, Debug, EventSource, EventLog (Windows only)
+			// By default, these logging providers are added by CreateDefaultBuilder: Console, Debug, EventSource, EventLog (Windows only)
 			.ConfigureLogging(logging => {
 				logging.ClearProviders(); // Clear the default logging providers.
 				logging.SetMinimumLevel(LogLevel.Warning); // Set the minimum log level if not found in configuration.
@@ -60,8 +60,7 @@ class Program {
 ```
 
 # Categories
-When an `ILogger` object is created, a category is arbitrarily specified.  
-The category is included with each message of that ILogger instance.  
+When an `ILogger` object is created, a category is arbitrarily specified. The category is included with each message of that `ILogger` instance.  
 By convention, the category is the class name.  In this example, the category may be "`Example.DefaultService`":
 ```cs
 namespace Example;
@@ -129,14 +128,15 @@ _logger.LogInformation(…);
 }
 ```
 
-# [Event IDs](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-event-id)
-An `EventId` is a struct than an Id and optional Name readonly properties.  The event ID can associate a set of events.
-The `Debug` provider does not show event IDs.
-The `Console` provider shows event IDs in brackets after the category: 
+# Event IDs
+- An `EventId` is a struct than an Id and optional Name readonly properties.  The event ID can associate a set of events.
+- Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-event-id
+
+The `Debug` provider does not show event IDs.  The `Console` provider shows event IDs in brackets after the category: 
 ```posh
 info: Example.DefaultService.GetAsync[1001]
 ```
-# Creating Event IDs
+## Creating Event IDs
 ```cs
 internal static class AppLogEvents
 {
@@ -164,11 +164,17 @@ catch (Exception ex)
 }
 ```
 
-# [Filters](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#filter-function)
-See :  https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#apply-log-filter-rules-in-code
+# Filters
+See this documentation:  
+- https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#apply-log-filter-rules-in-code
+- https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#filter-function
 
-# [Message Templates](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-message-template)
-Log APIs use a message template that can contains placeholders for arguments provided:
+# Message Templates
+- Log APIs use a message template that can contains placeholders for arguments provided.
+- This enables logging providers to imlpement structured (semantic) logging.
+- This also allows you to avoid the use of string interpolation which has performance consequences.
+- Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-message-template
+
 ```cs
 int value1 = 3;
 int value2 = 9;
@@ -177,8 +183,16 @@ _logger.LogInformation("Values: {v2}, {v1}", value1, value2); // output: 3, 9
 
 <o>Use the above technique instead of string interpolation to avoid performance problems.</o>
 
-# [Scopes](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-scopes)
+## Formatting Message Templates
+Log message templates utilize the base [formatting types](https://learn.microsoft.com/en-us/dotnet/standard/base-types/formatting-types):
+
+```cs
+_logger.LogInformation("Logged on {PlaceHolderName:MMMM dd, yyyy}", DateTimeOffset.UtcNow); // Logged on January 06, 2022
+```
+
+# Scopes
 A scope groups a set of logical operations.  For example, every log created as part of processing a transaction can include the transaction ID.
+- Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-scopes
 
 Scopes are supported by the `Console`, `AzureAppServicesFile`, and AzureAppServic`esBlob providers.
 
@@ -196,14 +210,17 @@ Built-in providers include:
 - `AzureAppServicesBlob` — writes logs to text files in blob storage in an Azure Storage account
 - `dotnet trace` tool — see [dotnet-trace diagnostic tool - .NET CLI | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-trace) and [Debug high CPU usage - .NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/debug-highcpu?tabs=windows)
 
-# Overriding `Host.CreateDefaultBuilder`'s Default Logging Providers
-Call `ClearProviders`:
+# Creating Logs in Main
+Get an ILogger instance from DI immediately after building the host:
 ```cs
-static IHostBuilder CreateHostBuilder(string[] args) =>
-    Host.CreateDefaultBuilder(args)
-        .ConfigureLogging(logging =>
-        {
-            logging.ClearProviders();
-            logging.AddConsole();
-        });
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+
+using IHost host = Host.CreateApplicationBuilder(args).Build();
+
+var logger = host.Services.GetRequiredService<ILogger<Program>>();
+logger.LogInformation("Host created.");
+
+await host.RunAsync();
 ```

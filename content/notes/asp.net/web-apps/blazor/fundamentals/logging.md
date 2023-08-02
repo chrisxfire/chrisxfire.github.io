@@ -10,10 +10,13 @@ At default log levels, and with no additional providers:
 - Blazor Server logs to the server-side .NET console in Development environment at `LogLevel.Information` or higher.
 - Blazor WASM logs to the client-side browser developer tools console at `LogLevel.Information` or higher.
 
-Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/logging?view=aspnetcore-7.0
+Notes & Documentation
+- [Notes on Logging in .NET]({{< ref "../../../../dotnet/fundamentals/logging" >}}) apply to these notes as well.
+- [Notes on Logging in ASP.NET Core]({{< ref "../../../fundamentals/logging/overview" >}}) apply to these notes as well.
+- Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/logging?view=aspnetcore-7.0
 
 # Logging in Components
-## Injecting an ILogger  
+## Injecting an ILogger\<T\>  
 `Pages/Counter1.razor`
 ```html
 @page "/counter-1"
@@ -86,6 +89,7 @@ await host.RunAsync();
 ```
 
 ## Log Categories
+See [these notes]({{< ref "../../../../dotnet/fundamentals/logging.md#categories" >}}).  
 `Pages/Counter.razor`
 ```cs
 var logger = LoggerFactory.CreateLogger("CustomCategory");
@@ -93,6 +97,7 @@ logger.LogWarning("Someone has clicked me!");
 ```
 
 ## Log Event ID
+See [these notes]({{< ref "../../../../dotnet/fundamentals/logging.md#event-ids" >}}).  
 `LogEvent.cs`
 ```cs
 public class LogEvent
@@ -109,12 +114,14 @@ logger.LogWarning(LogEvent.Event2, "Someone has clicked me!");
 ```
 
 ## Log Message Templates
+See [these notes]({{< ref "../../../../dotnet/fundamentals/logging.md#message-templates" >}}).  
 `Pages/Counter.razor`
 ```cs
 logger.LogInformation("Someone clicked me at {CurrentDT}!", DateTime.UtcNow);
 ```
 
 ## Log Exception Parameters
+See [these notes]({{< ref "../../../../dotnet/fundamentals/logging.md#exceptions" >}}).  
 `Pages/Counter.razor`
 ```cs
 currentCount++;
@@ -134,6 +141,7 @@ catch (Exception ex)
 ```
 
 ## Filter Functions
+See [these notes]({{< ref "../../../../dotnet/fundamentals/logging.md#filters" >}}).  
 `Program.cs`
 ```cs
 builder.Logging.AddFilter((provider, category, logLevel) =>

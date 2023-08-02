@@ -20,7 +20,7 @@ weight: 1
   - [x] Dependency injection
   - [x] Startup
   - [x] Environments
-  - [ ] Logging
+  - [x] Logging
   - [x] Handle errors
   - [x] SignalR
   - [x] Static files
