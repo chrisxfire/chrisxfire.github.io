@@ -78,30 +78,31 @@ Blazor WASM supports the following .NET logging features:
 - Configure logging in Blazor WASM apps with the `WebAssemblyHostBuilder.Logging` property via extension methods on `builder.Logging`.
 
 To configure logging in Blazor WASM:
-```powershell
-dotnet add package microsoft.extensions.logging.configuration
-```
-
-`wwwroot/appsettings.json`  
-```json
-{
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information",
-      // ...
+1. Add the logging configuration extension package:
+    ```powershell
+    dotnet add package microsoft.extensions.logging.configuration
+    ```
+2. Add the appsettings file:
+    `wwwroot/appsettings.json`  
+    ```json
+    {
+      "Logging": {
+        "LogLevel": {
+          "Default": "Information",
+          // ...
+        }
+        // ...
+      }
     }
-    // ...
-  }
-}
-```
+    ```
+3. Add the logging configuration to the app's configuration:
+    `Program.cs`
+    ```cs
+    builder.Logging.AddConfiguration(
+        builder.Configuration.GetSection("Logging"));
+    ```
 
-`Program.cs`
-```cs
-builder.Logging.AddConfiguration(
-    builder.Configuration.GetSection("Logging"));
-```
-
-## Log in Program.cs
+## Logging in Program.cs
 This is supported after the `WebAssemblyHostBuilder` is built:
 ```cs
 var host = builder.Build();
@@ -114,7 +115,7 @@ logger.LogInformation("Logged after the app is built in Program.cs.");
 await host.RunAsync();
 ```
 
-## Log Categories
+## Logging Categories
 See [these notes]({{< ref "../../../../dotnet/fundamentals/logging.md#categories" >}}).  
 `Pages/Counter.razor`
 ```cs
@@ -122,7 +123,7 @@ var logger = LoggerFactory.CreateLogger("CustomCategory");
 logger.LogWarning("Someone has clicked me!");
 ```
 
-## Log Event ID
+## Logging Event ID
 See [these notes]({{< ref "../../../../dotnet/fundamentals/logging.md#event-ids" >}}).  
 `LogEvent.cs`
 ```cs
@@ -139,14 +140,14 @@ logger.LogInformation(LogEvent.Event1, "Someone has clicked me!");
 logger.LogWarning(LogEvent.Event2, "Someone has clicked me!");
 ```
 
-## Log Message Templates
+## Logging Message Templates
 See [these notes]({{< ref "../../../../dotnet/fundamentals/logging.md#message-templates" >}}).  
 `Pages/Counter.razor`
 ```cs
 logger.LogInformation("Someone clicked me at {CurrentDT}!", DateTime.UtcNow);
 ```
 
-## Log Exception Parameters
+## Logging Exception Parameters
 See [these notes]({{< ref "../../../../dotnet/fundamentals/logging.md#exceptions" >}}).  
 `Pages/Counter.razor`
 ```cs
@@ -209,7 +210,7 @@ builder.Services.PostConfigure<LoggerFilterOptions>(options =>
 ## Custom Logging Provider
 See https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/logging?view=aspnetcore-7.0#custom-logger-provider-blazor-webassembly
 
-## Log Scopes
+## Logging Scopes
 The Blazor WASM developer tools console <u>does not</u> support log scopes. A custom logger that supports log scopes would need to be implemented.
 
 # Hosted Blazor WASM Logging

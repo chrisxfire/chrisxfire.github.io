@@ -190,6 +190,12 @@ Log message templates utilize the base [formatting types](https://learn.microsof
 _logger.LogInformation("Logged on {PlaceHolderName:MMMM dd, yyyy}", DateTimeOffset.UtcNow); // Logged on January 06, 2022
 ```
 
+Message templates also support the `@` structure capturing operator.  This allows you to log the values of an object's properties:  
+```cs
+Person person = new Person() { FirstName = "John", LastName = "Doe" };
+_logger.LogInformation("Found {@Person}", person); // output: Found Person { FirstName="John", LastName="Doe" }
+```
+
 # Scopes
 A scope groups a set of logical operations.  For example, every log created as part of processing a transaction can include the transaction ID.
 - Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-scopes
