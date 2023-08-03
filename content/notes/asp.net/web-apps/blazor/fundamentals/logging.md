@@ -71,9 +71,34 @@ Notes & Documentation
 There are no special logging considerations for Blazor Server.  See the notes for [logging in ASP.NET Core]({{< ref "../../../fundamentals/logging/overview" >}}).
 
 # Logging in Blazor WASM
-Configure logging in Blazor WASM apps with the `WebAssemblyHostBuilder.Logging` property via extension methods on `builder.Logging`.
+- Configure logging in Blazor WASM apps with the `WebAssemblyHostBuilder.Logging` property via extension methods on `builder.Logging`.
 
 Blazor WASM supports the following .NET logging features:
+
+## Logging Configuration
+To configure logging in Blazor WASM:
+```powershell
+dotnet add package microsoft.extensions.logging.configuration
+```
+
+`wwwroot/appsettings.json`  
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      // ...
+    }
+    // ...
+  }
+}
+```
+
+`Program.cs`
+```cs
+builder.Logging.AddConfiguration(
+    builder.Configuration.GetSection("Logging"));
+```
 
 ## Log in Program.cs
 This is supported after the `WebAssemblyHostBuilder` is built:
