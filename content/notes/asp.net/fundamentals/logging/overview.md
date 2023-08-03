@@ -98,8 +98,7 @@ To create logs, resolve an `ILogger<TCategoryName>` service from DI and call log
 public class SomeClass {
     private readonly ILogger<SomeClass> _logger;
     
-    public SomeMethod(Context context, ILogger<SomeClass> logger) {
-        _context = conetxt;
+    public SomeMethod(ILogger<SomeClass> logger) {
         _logger = logger;
     }
     
