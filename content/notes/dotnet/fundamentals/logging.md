@@ -9,7 +9,7 @@ weight: 1
 - Log *providers* — an implementation of `ILogger<T>` that outputs logs 
 - Log *categories* — a string associated with each log message
 - Log *levels*:
-    - `Trace` = (<r>Warning</r>: may contain sensitive app data; do not enable in production)
+    - `Trace` = 0 (<r>Warning</r>: may contain sensitive app data; do not enable in production)
     - `Debug` = 1 (<o>Caution</o>: may produce a high volume of logs)
     - `Information` = 2 (default if no level specified)
     - `Warning` = 3 (errors and conditions that do not cause the app to fail)
