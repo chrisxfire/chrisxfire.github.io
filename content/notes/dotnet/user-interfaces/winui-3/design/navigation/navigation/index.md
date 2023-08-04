@@ -47,13 +47,13 @@ element like a navigation view control.
 
 <img src="DESIGN_Navigation-image5.png" style="width:1.50833in;height:0.88333in" />  
 
-Breadcrumb (BreadcrumbBar)
+## Breadcrumb (BreadcrumbBar)
 - A horizontal list of links to pages at each of the higher levels
 - Use when
   - you want to show the path to the current location
   - you have many levels of navigation
 
-Left navigation
+## Left navigation
 - A vertical list of links to top-level pages
 - Use when
   - the pages exist at the top level
@@ -62,12 +62,9 @@ Left navigation
 
 <img src="DESIGN_Navigation-image6.png" style="width:1.53333in;height:0.88333in" />  
 
-List/details
+## List/details
 - Displays a list of items
 - Use when
   - users need to switch between child items frequently  
 
 <img src="DESIGN_Navigation-image7.png" style="width:1.525in;height:0.90833in" />  
-
-Hyperlinks
-TODO...

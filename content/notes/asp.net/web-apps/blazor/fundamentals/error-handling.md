@@ -83,5 +83,3 @@ To process errors in a component:
     }
 }
 ```
-# [Logging Errors](https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/handle-errors?view=aspnetcore-7.0#log-errors-with-a-persistent-provider)
-TODO...

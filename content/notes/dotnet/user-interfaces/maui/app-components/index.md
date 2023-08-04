@@ -31,9 +31,6 @@ An `AppShell` derives from the `Shell` class and contains three main hierarchica
 # ContentPage
 `ContentPage` can contain only a single child, either a view or a layout with child views. `ContentPage.Content` property is set to this child.
 
-# Flyout
-TODO...
-
 # Pages
 - The root of the UI hierarchy inside of a `Shell`.
 - An example is `MainPage`, which derives from `ContentPage`.

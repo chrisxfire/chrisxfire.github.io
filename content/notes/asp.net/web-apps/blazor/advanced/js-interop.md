@@ -8,8 +8,7 @@ weight: 1
 # Overview
 .NET can invoke JavaScript and vice-versa.
 
-<!-- TODO: WARNING -->
-<r>JavaScript code must only be executed **after** the Component is fully rendered.</r>  Invoke JavaScript from the `OnAfterRenderAsync` method.
+<r>Warning</r>: JavaScript code must only be executed **after** the Component is fully rendered.  Invoke JavaScript from the `OnAfterRenderAsync` method.
 
 # Invoking JavaScript from .NET
 ## 1. Add the script to `wwwroot` or as an inline script with `<script>` tag
