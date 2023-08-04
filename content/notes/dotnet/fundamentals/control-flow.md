@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # `if` - `else if` - `else`
-```csharp
+```cs
 if (condition) && (condition2) || (condition3) { … }
 else if (condition) { … }
 else { … }
