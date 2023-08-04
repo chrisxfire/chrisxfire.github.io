@@ -6,16 +6,16 @@ weight: 1
 ---
 
 # Hosts
-<!-- TODO: hyperlink -->
-See also:  Generic Host  
 ASP.NET now uses a Generic Host.  The Web Host is provided only for backward compatibility.  
 ASP.NET creates a `WebApplicationBuilder` and a `WebApplication` which eliminates the need for a Startup class.
 
-The host encapsulates DI, Logging, Configuration, and IHostedService implementations.
+The host encapsulates DI, logging, configuration, and `IHostedService` implementations.
+
+See also:  [Generic Host]({{< ref "../../dotnet/generic-host" >}})
 
 # Create a Host with an IHostedService Implementation
 ## `CreateDefaultBuilder`
-```csharp
+```cs
 await Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
     {

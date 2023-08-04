@@ -45,8 +45,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 ```
 
 # Service Lifetimes
-<!-- TODO: Link "service lifetimes" to corresponding .NET notes page -->
-ASP.NET uses the standard .NET service lifetimes.
+ASP.NET uses the standard [.NET service lifetimes]({{< ref "../../dotnet/dependency-injection/overview#service-lifetimes" >}}).
 
 To inject scoped services, either:
 - Inject the service into middleware's Invoke or InvokeAsync method.
