@@ -278,5 +278,3 @@ app.UseHttpsRedirection();
 app.UseHeaderPropagation();
 app.MapControllers();
 ```
-# Use Polly-based handlers
-TODO...
