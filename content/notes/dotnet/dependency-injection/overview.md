@@ -23,22 +23,20 @@ weight: -1
 - Disposition — managing the dependency's lifetime.
 
 # Two Types of Services
-## Framework-provided services
-
-| Service Type                                                                                                                                                               | Lifetime  |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| [Microsoft.Extensions.DependencyInjection.IServiceScopeFactory](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.iservicescopefactory) | Singleton |
-| [IHostApplicationLifetime](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.ihostapplicationlifetime)                                              | Singleton |
-| [Microsoft.Extensions.Logging.ILogger<TCategoryName>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger-1)                                  | Singleton |
-| [Microsoft.Extensions.Logging.ILoggerFactory](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.iloggerfactory)                                     | Singleton |
-| [Microsoft.Extensions.ObjectPool.ObjectPoolProvider](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.objectpool.objectpoolprovider)                       | Singleton |
-| [Microsoft.Extensions.Options.IConfigureOptions<TOptions>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.iconfigureoptions-1)                   | Transient |
-| [Microsoft.Extensions.Options.IOptions<TOptions>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptions-1)                                     | Singleton |
-| [System.Diagnostics.DiagnosticListener](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.diagnosticlistener)                                                 | Singleton |
-| [System.Diagnostics.DiagnosticSource](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.diagnosticsource)                                                     | Singleton |
-
-## Application services
-Services created by the developer; must be registered explicitly.
+There are two types of services: 
+1. *Framework-provided services* — provided by the .NET framework:
+    | Service Type                                                                                                                                                               | Lifetime  |
+    | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+    | [Microsoft.Extensions.DependencyInjection.IServiceScopeFactory](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.iservicescopefactory) | Singleton |
+    | [IHostApplicationLifetime](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.ihostapplicationlifetime)                                              | Singleton |
+    | [Microsoft.Extensions.Logging.ILogger<TCategoryName>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger-1)                                  | Singleton |
+    | [Microsoft.Extensions.Logging.ILoggerFactory](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.iloggerfactory)                                     | Singleton |
+    | [Microsoft.Extensions.ObjectPool.ObjectPoolProvider](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.objectpool.objectpoolprovider)                       | Singleton |
+    | [Microsoft.Extensions.Options.IConfigureOptions<TOptions>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.iconfigureoptions-1)                   | Transient |
+    | [Microsoft.Extensions.Options.IOptions<TOptions>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptions-1)                                     | Singleton |
+    | [System.Diagnostics.DiagnosticListener](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.diagnosticlistener)                                                 | Singleton |
+    | [System.Diagnostics.DiagnosticSource](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.diagnosticsource)                                                     | Singleton |
+2. *Application services* — services created by the developer; must be registered explicitly.
 
 # Adding dependencies
 Use the `Add` method to register generic dependencies (application services):
