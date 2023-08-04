@@ -23,6 +23,3 @@ Common pattern of relationship between elements such as app layering, menus, nav
 ## Tab View silhouette
 - TabView on app's base layer  
 <img src="DESIGN_Silhouettes-image4.png" style="width:5.09167in;height:3.85833in" />  
-
-## Title bar
-TODO...

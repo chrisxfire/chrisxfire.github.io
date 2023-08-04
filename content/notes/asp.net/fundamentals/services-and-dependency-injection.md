@@ -84,9 +84,3 @@ By default, Entity Framework contexts are added to the service container using t
 
 ## Requesting Services
 Use `HttpContext.RequestServices` which will expose the scoped service provider.
-
-# [Dependency Injection with MVC Controllers](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/dependency-injection?view=aspnetcore-7.0)
-TODO...
-
-# [Dependency Injection of Options](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-7.0)
-TODO...
