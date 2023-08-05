@@ -1,4 +1,15 @@
 {
     "editor.wordSeparators": "`~!#$%^&*=+[{]}\\|;:'\",/?",
-    "markdown.extension.math.enabled": false
+    "markdown.extension.math.enabled": false,
+    "cSpell.words": [
+        "appsettings",
+        "opentelemetry",
+        "otel",
+        "Otlp",
+        "parameterless",
+        "reloadable",
+        "SIGINT",
+        "SIGQUIT",
+        "SIGTERM"
+    ]
 }
