@@ -1,6 +1,6 @@
 DirectoryPath: "public"
 CacheExpires: 168h # 1 week
-CheckExternal: false
+CheckExternal: true
 CheckInternalHash: false
 EnforceHTTPS: false
 IgnoreAltEmpty: true # Ignore alt=""
