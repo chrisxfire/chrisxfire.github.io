@@ -15,7 +15,7 @@ Routing in Razor Pages is file-based.  URLs are routed to pages based on their l
 
 | URL                            | Maps to this Razor page      |
 | ------------------------------ | ---------------------------- |
-| www.domain.com                 | `Pages/Index.cshtml`           |
-| www.domain.com/index           | `Pages/Index.cshtml`           |
-| www.domain.com/products        | `Pages/Products/Index.cshtml`  |
-| www.domain.com/products/create | `Pages/Products/Create.cshtml` |
+| www.example.com                 | `Pages/Index.cshtml`           |
+| www.example.com/index           | `Pages/Index.cshtml`           |
+| www.example.com/products        | `Pages/Products/Index.cshtml`  |
+| www.example.com/products/create | `Pages/Products/Create.cshtml` |
