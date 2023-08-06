@@ -7,9 +7,11 @@
         "otel",
         "Otlp",
         "parameterless",
+        "QUIC",
         "reloadable",
         "SIGINT",
         "SIGQUIT",
-        "SIGTERM"
+        "SIGTERM",
+        "unmanaged"
     ]
 }
