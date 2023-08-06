@@ -1,5 +1,5 @@
 ---
-title: notes > .net > code analysis > overview
+title: notes > .net > tools and diagnostics > code analysis > overview
 date: 2023-07-15T00:00:00-06:00
 draft: false
 weight: -1

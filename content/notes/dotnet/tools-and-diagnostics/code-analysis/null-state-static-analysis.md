@@ -1,5 +1,5 @@
 ---
-title: notes > .net > code analysis > null state static analysis
+title: notes > .net > tools and diagnostics > code analysis > null state static analysis
 date: 2022-11-19T08:48:52-0700
 draft: false
 weight: 1
