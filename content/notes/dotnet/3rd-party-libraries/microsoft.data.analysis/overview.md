@@ -1,5 +1,5 @@
 ---
-title: notes > .net > libraries > microsoft.data.analysis > overview
+title: notes > .net > 3rd party libraries > microsoft.data.analysis > overview
 date: 2022-01-25T13:17:40-0700
 draft: false
 weight: -1
