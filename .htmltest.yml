@@ -12,3 +12,5 @@ IgnoreInternalEmptyHash: true # Ignore href="#"
 IgnoreURLs:
 - ".*index.xml" # Ignore index.xml files
 - ".*example.com.*"
+- ".*contoso.com.*"
+- ".*xmlsoap.org.*"
