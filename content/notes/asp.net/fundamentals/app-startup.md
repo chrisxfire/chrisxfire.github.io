@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview
-This template supports Razor Pages, MVC controllers with views, Web API controllers, and Minimial APIs app models.
+This template supports Razor Pages, MVC controllers with views, Web API controllers, and Minimal APIs app models.
 - Configures required services
     - `ILogger<T>` is provided by the ASP.NET framework
 - Creates the request handling pipeline via middleware
