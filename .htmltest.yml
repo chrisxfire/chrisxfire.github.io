@@ -3,7 +3,7 @@ CacheExpires: 168h # 1 week
 CheckExternal: true
 CheckInternalHash: true
 EnforceHTTPS: false
-IgnoreAltEmpty: true # Ignore alt=""
+IgnoreAltEmpty: false # Ignore alt=""
 IgnoreAltMissing: true
 IgnoreCanonicalBrokenLinks: true
 IgnoreDirectoryMissingTrailingSlash: true
