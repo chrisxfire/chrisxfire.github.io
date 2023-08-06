@@ -8,6 +8,7 @@
         "Backreferences",
         "Blazor",
         "byref",
+        "Combinators",
         "concat",
         "Contravariance",
         "dataframe",

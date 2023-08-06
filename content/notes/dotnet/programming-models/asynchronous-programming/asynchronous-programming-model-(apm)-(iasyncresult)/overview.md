@@ -37,14 +37,16 @@ Uses two methods: `BeginOperationName` and `EndOperationName`
 
 # Performing additional work (no blocking needed)
 ## Polling for operation completion
-`IAsyncResult result = BeginOperationName(…, null, null);`
+```cs
+IAsyncResult result = BeginOperationName(…, null, null);
 
-`while (result.IsCompleted != true)`
-`{`
-    `// Do additional work`
-`}`
+while (result.IsCompleted != true)
+{
+    // Do additional work
+}
 
-`var returnValue = EndOperationName(result);`
+var returnValue = EndOperationName(result);
+```
 
 ## Use `AsyncCallback`
 

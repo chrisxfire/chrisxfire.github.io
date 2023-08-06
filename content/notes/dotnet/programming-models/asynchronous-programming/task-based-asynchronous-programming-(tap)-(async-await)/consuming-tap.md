@@ -8,11 +8,11 @@ weight: 1
 In this pattern, callbacks achieve waiting without blocking. Language-based async support hides the callbacks.
 
 # Await keyword
-The await keyword suspends execution. It installs a callback by using continuation. The callback resumes the async method at the point of suspension. When the async method is resumed:
+The `await` keyword suspends execution. It installs a callback by using continuation. The callback resumes the async method at the point of suspension. When the async method is resumed:
 - If operation completed successfully and was a `Task<TResult>`, then `TResult` is returned.
-- If awaited task ended in Canceled state, an `OperationCanceledException` is thrown.
-- If awaited task ended in Faulted state, the exception that caused the fault is thrown.
-  - If multiple exceptions caused the fault, the Task.Exception property holds an `AggregateException` of all errors.
+- If awaited task ended in `Canceled` state, an `OperationCanceledException` is thrown.
+- If awaited task ended in `Faulted` state, the exception that caused the fault is thrown.
+  - If multiple exceptions caused the fault, the `Task.Exception` property holds an `AggregateException` of all errors.
 - When awaiting a `Task`, the await expression is of type `void`.
 - When awaiting a `Task<TResult>`, the await expression is of type `TResult`.
 

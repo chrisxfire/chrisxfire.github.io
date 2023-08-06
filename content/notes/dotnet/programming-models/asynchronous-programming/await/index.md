@@ -33,12 +33,12 @@ int intResult = await returnedTaskTResult;
 # Await Decision Table
 The Task.Wait* methods are synchronous, not asynchronous.
 
-| Goal | Use this | Not this |
-|------|----------|----------|
-Retrieve the result of a background Task | `await` | `Task.Wait` or `Task.Result`
-Waiting for any task to complete | `await Task.WhenAny` | `Task.WaitAny`
-Waiting for all tasks to complete | `await Task.WhenAll` | `Task.WaitAll`
-Waiting for a period of time | `await Task.Delay` | `Thread.Sleep`
+| Goal                                     | Use this             | Not this                     |
+| ---------------------------------------- | -------------------- | ---------------------------- |
+| Retrieve the result of a background Task | `await`              | `Task.Wait` or `Task.Result` |
+| Waiting for any task to complete         | `await Task.WhenAny` | `Task.WaitAny`               |
+| Waiting for all tasks to complete        | `await Task.WhenAll` | `Task.WaitAll`               |
+| Waiting for a period of time             | `await Task.Delay`   | `Thread.Sleep`               |
 
 Example  
 <img src="await.png" width="50%" height="50%">
@@ -64,5 +64,3 @@ Example
 
 # Async Code & LINQ
 Use caution.  LINQ uses deferred (lazy) execution, so async calls won't happen immediately (unless iteration is forced via `.ToList()` or `.ToArray()`)
-
-
