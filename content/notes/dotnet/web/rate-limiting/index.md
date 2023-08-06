@@ -1,5 +1,5 @@
 ---
-title: notes > .net > rate limiting
+title: notes > .net > web > rate limiting
 date: 2023-03-03T09:35:03-0700
 draft: false
 weight: 1
