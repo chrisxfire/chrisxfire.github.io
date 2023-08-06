@@ -9,6 +9,7 @@
         "Blazor",
         "byref",
         "Combinators",
+        "commandline",
         "concat",
         "Contravariance",
         "dataframe",

@@ -1,11 +1,15 @@
 ---
-title: notes > .net > libraries > system.commandline > overview
+title: notes > .net > fundamentals > cli apps > system.commandline
 date: 2022-01-31T20:07:53-0700
 draft: false
-weight: -1
+weight: 1
 ---
-# [System.CommandLine](https://learn.microsoft.com/en-us/dotnet/standard/commandline/)
-<o>Pre-release.</o>   
+
+# Overview
+- System.CommandLine is <o>pre-release</o>.
+- Documentation: https://learn.microsoft.com/en-us/dotnet/standard/commandline/
+
+Installation:  
 ```powershell
 dotnet add package system.commandline --pre-release
 ```
@@ -27,7 +31,7 @@ rootCommand.Add(someCommand);
 
 # Commands
 Commands are actions performed by the program. They should be verbs.  
-Commands are represented by the Command class:  
+Commands are represented by the `Command` class:  
 ```cs
 Command actionCommand = new Command("actionCommand", "Perform an action.");
 ```
