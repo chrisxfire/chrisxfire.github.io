@@ -1,5 +1,5 @@
 ---
-title: notes > cli > dotnet > tools > overview
+title: notes > .net > tools and diagnostics > dotnet cli > tools > overview
 date: 2023-05-30T00:00:00-06:00
 draft: false
 weight: -1
@@ -18,8 +18,8 @@ dotnet tool install <package_name>
 ```
 
 # Diagnostic tools
-| Tool              | Use                                                                                             |
-| ----------------- | ----------------------------------------------------------------------------------------------- |
+| Tool            | Use                                                                                             |
+| --------------- | ----------------------------------------------------------------------------------------------- |
 | dotnet-counters | for first-level health monitoring and performance investigation                                 |
 | dotnet-dump     | for collecting and analyzing Windows and Linux core dumps without a native debugger             |
 | dotnet-gcdump   | for collecting garbage collector dumps of live .NET processes                                   |

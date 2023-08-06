@@ -1,10 +1,13 @@
 ---
-title: notes > cli > dotnet > overview
-date: 2022-02-16T16:39:46-0700
+title: notes > .net > tools and diagnostics > dotnet cli > dotnet
+date: 2023-08-06T00:00:00-06:00
 draft: false
-weight: -1
+weight: 1
 ---
-# [dotnet command](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet)
+
+# Overview
+- Documentation: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet
+
 # Compiling
 `dotnet build` Build (compile) the executable for the app.
 
@@ -46,8 +49,8 @@ dotnet new -i <package> # Install a template.
 # Managing Projects
 ```powershell
 dotnet new console # Create a new console project in the CWD.
-                    -f framework # Create a new console project using framework version framework.
-                    -o appname # Create a new console project in subfolder appname.
+                    -f FRAMEWORK # Create a new console project using framework version framework.
+                    -o APPNAME # Create a new console project in subfolder APPNAME.
 dotnet restore # Install dependencies for a new or cloned project.
 ```
 
@@ -68,6 +71,33 @@ dotnet watch run # Start a file watch that runs a command when a file changes. U
 ```powershell
 dotnet test # Run all discovered tests.
             --list-test # List all discovered tests.
+```
+
+# dotnet watch
+A file watcher.  If the application supports hot reload, this command hot reloads the application whenever a code change is detected.  If not, it restarts the application.
+- `dotnet watch` can run any command dispatched via the `dotnet` executable.  If you can run `dotnet COMMAND`, you can run `dotnet watch COMMAND`.
+- While `dotnet watch` is running, you can force a restart from the shell with <kbd>Ctrl</kbd>+<kbd>R</kbd>.
+- Arguments passed after `--` are sent to the child `dotnet` process.  If running `dotnet watch run`, these arguments are options for `dotnet run`.
+
+## Options
+- `--list` — list all discovered files 
+- `--no-hot-reload` — watch, but do not hot reload on change
+- `--non-interactive` — prevent console input from being requested
+
+## Files Watched by Default
+All items in the `Compile`, `EmbeddedResource`, and `Watch` groups of the project file that match these glob patterns:
+- `**/*.cs`
+- `*.csproj`
+- `**/*.resx`
+- `wwwroot/**` 
+
+To add or remove watched files:
+`SomeProject.csproj`
+```xml
+<ItemGroup>
+    <Watch Include="**\*.js" 
+           Exclude="bin\**\*" />
+</ItemGroup>
 ```
 
 # dotnet workload
