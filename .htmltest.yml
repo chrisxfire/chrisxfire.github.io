@@ -1,7 +1,7 @@
 DirectoryPath: "public"
 CacheExpires: 168h # 1 week
 CheckExternal: true
-CheckInternalHash: false
+CheckInternalHash: true
 EnforceHTTPS: false
 IgnoreAltEmpty: true # Ignore alt=""
 IgnoreAltMissing: true
@@ -11,3 +11,4 @@ IgnoreEmptyHref: true # Ignore href=""
 IgnoreInternalEmptyHash: true # Ignore href="#"
 IgnoreURLs:
 - ".*index.xml" # Ignore index.xml files
+- ".*example.com.*"
