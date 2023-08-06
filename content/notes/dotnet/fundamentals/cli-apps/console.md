@@ -1,12 +1,14 @@
 ---
-title: notes > .net > libraries > system > console
+title: notes > .net > fundamentals > cli apps > console
 date: 2021-11-19T15:50:28-0700
 draft: false
 weight: 1
 ---
-# [System.Console](https://docs.microsoft.com/en-us/dotnet/api/system.console?view=net-6.0)
+
+# [System.Console]
 `STDIN`, `STDOUT`, `STDERR` streams.  
 `Object` –> `Console`
+- Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.console?view=net-6.0
 
 # Properties
 - `BufferHeight` - Get or set the buffer height
