@@ -14,3 +14,4 @@ IgnoreURLs:
 - ".*example.com.*"
 - ".*contoso.com.*"
 - ".*xmlsoap.org.*"
+- ".*graph.microsoft.com.*"
