@@ -1,13 +1,13 @@
 ---
-title: notes > .net > libraries > system.environment
+title: notes > .net > fundamentals > system.environment
 date: 2021-11-28T12:31:13-0700
 draft: false
 weight: 1
 ---
-# [System.Environment](https://docs.microsoft.com/en-us/dotnet/api/system.environment?view=net-6.0)
+# System.Environment
 `Object` –> `Environment`  
-
-Information about and manipulation of the current environment and platform.
+- Information about and manipulation of the current environment and platform.
+- Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.environment?view=net-6.0
 
 # Properties
 - `CommandLine` Returns the command line arguments as a string where the first term is the command itself
