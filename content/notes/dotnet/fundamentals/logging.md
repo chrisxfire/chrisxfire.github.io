@@ -171,7 +171,7 @@ See this documentation:
 
 # Message Templates
 - Log APIs use a message template that can contains placeholders for arguments provided.
-- This enables logging providers to imlpement structured (semantic) logging.
+- This enables logging providers to implement structured (semantic) logging.
 - This also allows you to avoid the use of string interpolation which has performance consequences.
 - Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-message-template
 
@@ -200,7 +200,7 @@ _logger.LogInformation("Found {@Person}", person); // output: Found Person { Fir
 A scope groups a set of logical operations.  For example, every log created as part of processing a transaction can include the transaction ID.
 - Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-scopes
 
-Scopes are supported by the `Console`, `AzureAppServicesFile`, and AzureAppServic`esBlob providers.
+Scopes are supported by the `Console`, `AzureAppServicesFile`, and `AzureAppService`'s Blob providers.
 
 # No Async Methods
 Logging should be so fast that it is not worth the performance cost of asynchronous code.

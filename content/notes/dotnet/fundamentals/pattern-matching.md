@@ -187,7 +187,7 @@ static string Classify(double measurement) => measurement switch
 Switch expressions simplify switch statements and are useful where all cases return a value to set a single variable:
 ```cs
 message = s switch {
-	FileStream writeableFile when s.Canwrite
+	FileStream writeableFile when s.CanWrite
 	  => "The stream is a file that I can write to.",
 	FileStream readOnlyFile
 	  => "The stream is a read-only file.",

@@ -10,10 +10,10 @@ weight: 1
 
 # Properties
 - `BufferHeight` - Get or set the buffer height
-- `BufferWidt`h
+- `BufferWidth`
 - `CursorSize` - Get or set the size of the console cursor.
 - `WindowHeight` - Get or set the console window height
-- `WindowWidt`h
+- `WindowWidth`
 - `WindowTop` - Get or set the top position of the console window.
 - `WindowsLeft` - Get or set the left position of the console window.
 

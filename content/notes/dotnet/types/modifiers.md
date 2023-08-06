@@ -13,7 +13,7 @@ weight: 1
 - `protected internal` – Combination of protected + internal.
 - `private protected` – Combination of private + protected.
 
-| Modifer              | This Assembly (Derived Type) | This Assembly (Other Type) | External Assembly (Derived Type) | External Assembly (Other Type) |
+| Modifier              | This Assembly (Derived Type) | This Assembly (Other Type) | External Assembly (Derived Type) | External Assembly (Other Type) |
 | -------------------- | ---------------------------- | -------------------------- | -------------------------------- | ------------------------------ |
 | public               | yes                          | yes                        | yes                              | yes                            |
 | private              | no                           | no                         | no                               | no                             |

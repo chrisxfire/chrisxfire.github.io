@@ -30,12 +30,12 @@ Casting between reference types does not change the run-time type of the underly
 Explicit conversion is required; will throw an `InvalidCastException` at run time if the right-side object is not the left-side type:
 ```cs
 Giraffe g = new();
-Animal a = g; // Implict conversion: safe.
-Giraffe g2 = (Giraffe)a; // If a is not a Giraffce, throw InvalidCastException.
+Animal a = g; // Implicit conversion: safe.
+Giraffe g2 = (Giraffe)a; // If a is not a Giraffe, throw InvalidCastException.
 ```
 
 # User-defined Conversions
-Special methods that enable explicit and implict conversions between custom types that do not have a base–derived class relationship.
+Special methods that enable explicit and implicit conversions between custom types that do not have a base–derived class relationship.
 
 # Conversions with Helper Classes
 Used to convert between non-compatible types like `int` and `DateTime.`
@@ -98,7 +98,7 @@ if (a is Mammal m) {
 Equivalent to:
 ```cs
 if (a is Mammal) {
-	Mammel m = (Mammal)a;
+	Mammal m = (Mammal)a;
 }
 ```
 

@@ -21,7 +21,7 @@ Identifiers start with a letter or `_` and use PascalCase.
 C# is strongly typed, so all variables need to be typed: 
 ```cs 
 type identifier; // Declare a variable.
-type identifer = value;	// Declare and initialize (instantiate).
+type identifier = value;	// Declare and initialize (instantiate).
 ```
 
 # Implicit Typing

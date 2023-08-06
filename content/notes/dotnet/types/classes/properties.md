@@ -20,27 +20,27 @@ Write-only properties are rare and generally used to restrict access to sensitiv
 public class Person 
 {
     // This is a backing field:
-    private string _firstname;
+    private string _firstName;
     private string _location;
 
     // This is a manual read-only property:
-    public string Firstname 
+    public string FirstName 
     {
-        get { return _firstname; }
+        get { return _firstName; }
 
         // The *value* parameter holds the value passed to the constructor during instantiation.
         // It's type is the type of the property:
-        set { _firstname = value; }
+        set { _firstName = value; }
     }
 
     // Auto-implemented Properties  
     // If one accessor is auto, both must be. The compiler adds a hidden backing field:
-    public string Lastname { get; set; } // The compiler adds *readonly* to the get accessor.
+    public string LastName { get; set; } // The compiler adds *readonly* to the get accessor.
 
     // This is an auto read-only property. It will be set to the default value for its type.
     public int Age { get; }
 
-    // Auto-implemented properties can be intialized to a default value:
+    // Auto-implemented properties can be initialized to a default value:
     public string FavoriteColor { get; set; } = "Red";
 
     // This property uses expression body syntax definitions:
@@ -75,7 +75,7 @@ public string FirstName { get; }
 // Illegal: Person p = new Person() { FirstName = "Jane" };
 // Legal: Person p = new Person("Jane");
 ```
-Init-only properties are read-only propertis that support object-initializer syntax:
+Init-only properties are read-only properties that support object-initializer syntax:
 ```cs
 public string FirstName { get; init; }
 // Legal: Person p = new Person() { FirstName = "Jane" };

@@ -31,7 +31,7 @@ Limitations:
     ```xml
     <PublishAot>true</PublishAot>
     ```
-2. Publish the app for a specific runtime identifer:
+2. Publish the app for a specific runtime identifier:
     ```powershell
     dotnet publish -r <RUNTIME-IDENTIFIER> -c Release
     ```
@@ -42,10 +42,10 @@ This capability also allows for publishing .NET class libraries that can be cons
 # AOT-Compatibility Analyzers
 <g>Availability: .NET 8</g>  
 
-Use the IsAotComptible property to provide analyzers for AOT compatibility:  
+Use the `IsAotCompatible` property to provide analyzers for AOT compatibility:  
 `SomeProject.csproj`  
 ```xml
 <PropertyGroup>
-    <IsAotCompatible>true</IsAotComptible>
+    <IsAotCompatible>true</IsAotCompatible>
 </PropertyGroup>
 ```

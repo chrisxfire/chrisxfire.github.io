@@ -11,7 +11,7 @@ Represents a time interval.
 Subtracting one `DateTime` from another results in a `TimeSpan`.  
 
 # Uses
-- Reflecting interval betweent two dates or times.
+- Reflecting interval between two dates or times.
 - Measuring elapsed time
 
 # Construction

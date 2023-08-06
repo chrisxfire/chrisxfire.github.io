@@ -39,7 +39,7 @@ CustomGraphics cg = new();
 ```
 
 # `new`
-The new modifer tells the compiler that you are aware that a derived class method hides a base class method of the same name:
+The new modifier tells the compiler that you are aware that a derived class method hides a base class method of the same name:
 ```cs
 class BC 
 {

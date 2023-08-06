@@ -21,7 +21,7 @@ JsonElement propertyElement = root.GetProperty("property"); // Get a JsonElement
 // Assuming prop is a JSON Array:
 foreach (JsonElement prop in propertyElement.EnumerateArray()) 
 {
-    // Try to get Property from prop and store it in output if succesful:
+    // Try to get Property from prop and store it in output if successful:
     if (prop.TryGetProperty("Property", out JsonElement output) 
     {
         value = output;

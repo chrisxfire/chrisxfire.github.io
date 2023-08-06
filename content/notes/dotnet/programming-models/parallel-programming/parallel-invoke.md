@@ -20,7 +20,7 @@ Parallel.Invoke(() =>
             GetMostCommonWords(words);
         },
         {
-            GetCountForWrod(words, "booger");
+            GetCountForWord(words, "booger");
         },
     …
 ); // close Parallel.Invoke

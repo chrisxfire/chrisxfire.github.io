@@ -12,7 +12,7 @@ A value type that encapsulates data and related functionality.
 - Equality: *Value* (albeit inefficient)
 - Semantics: *Value* (a variable of a struct type contains an instance of that type)
 - Inheritance: *None* (sealed)
-- Mutability: *Mutable* (but, recommended to be made immutable with `readonly` modifer)
+- Mutability: *Mutable* (but, recommended to be made immutable with `readonly` modifier)
 
 ## Use When
 - You need a small, data-centric type with little or no behavior
@@ -35,7 +35,7 @@ public struct Point
 ```
 
 ## Initialization
-Uninitailized fields are assigned their default value.
+Uninitialized fields are assigned their default value.
 
 If all instance fields of a struct are accessible, the struct can be instantiated without the `new` operator.
 

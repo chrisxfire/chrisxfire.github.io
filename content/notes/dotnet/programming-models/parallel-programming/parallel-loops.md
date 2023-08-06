@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 # `Parallel.For`
-Note: Use `Interlocked` to execute atomic operations which will avoid mulitple threads modifying a variable simultaneousy.
+Note: Use `Interlocked` to execute atomic operations which will avoid multiple threads modifying a variable simultaneously.
 
 `Parallel.For`
 - Returns a `System.Threading.Tasks.ParallelLoopResult` object that includes information such as last iteration completed
@@ -38,7 +38,7 @@ Parallel.ForEach(numbers, number =>
 ```
 To use `Parallel.ForEach` with a non-generic collection, use `Enumerable.Cast` to convert the collection to generic:
 ```cs
-Parallel.ForEach(someNonGenericCollection.Cast<object>(), currentElement =>
+Parallel.ForEach(somenon-genericCollection.Cast<object>(), currentElement =>
 {
     // …
 });

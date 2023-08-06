@@ -22,7 +22,7 @@ A modifier is an `Action<JsonTypeInfo>` or a `static void` method with a `JsonTy
 - Create a new property using `JsonTypeInfo.CreateJsonPropertyInfo(Type, String)` and add it to the `JsonTypeInfo.Properties` collection
 
 ### Modifications
-The following modificatinos can be made:  
+The following modifications can be made:  
 | Modification                                  | Applicable to this JsonTypeInfo.Kind | How                                                                 |
 | --------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------- |
 | Customize a property's value                  | `JsonTypeInfoKind.Object`            | Modify the `Get` or `Set` delegate of the `JsonPropertyInfo` object |

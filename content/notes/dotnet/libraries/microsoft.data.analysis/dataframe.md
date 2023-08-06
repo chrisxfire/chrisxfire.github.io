@@ -126,9 +126,9 @@ df1.Merge<DateTime>(df2, "Date", "Date");
 ## Comparison Methods
 - `ElementwiseEquals`
 - `ElementwiseGreaterThan`
-- `ElementwiseGreaterThanorEqual`
+- `ElementwiseGreaterThanOrEqual`
 - `ElementwiseLessThan`
-- `ElementwiseLessThanorEqual`
+- `ElementwiseLessThanOrEqual`
 - `ElementwiseNotEquals`
 
 ## Mathematical Methods

@@ -53,7 +53,7 @@ List<Bouquet> bouquets = new()
 {
     new Bouquet { Flowers = new List<string> { "sunflower", "daisy", "daffodil", "larkspur" }},
     new Bouquet { Flowers = new List<string> { "tulip", "rose", "orchid" }},
-    new Bouquet { Flowers = new List<string> { "gladiolis", "lily", "snapdragon", "aster", "protea" }},
+    new Bouquet { Flowers = new List<string> { "gladioli", "lily", "snapdragon", "aster", "protea" }},
     new Bouquet { Flowers = new List<string> { "larkspur", "lilac", "iris", "dahlia" }}
 };
 

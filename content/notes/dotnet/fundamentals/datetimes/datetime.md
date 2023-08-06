@@ -23,8 +23,8 @@ Also: <https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date
 # Construction
 ```cs
 DateTime(yyyy, mm, dd, hh, mm, ss) // hh, mm, ss are optional.
-DateTime(yyyy, mm, dd, hh, mm, ss, ms) // ms is optiona
-DateTime(ticks) // where ticks is an Int64
+DateTime(yyyy, mm, dd, hh, mm, ss, ms) // ms is optional.
+DateTime(ticks) // where ticks is an Int64.
 ```
 
 # Properties
@@ -43,7 +43,7 @@ DateTime.DaysInMonth(mm, yyyy)
 DateTime.IsLeapYear(year)
 
 .GetDateTimeFormats()
-.IsDaylightSavingsTime() // Boolean if this instance is within the daylight savings time range for the curretimezone.
+.IsDaylightSavingsTime() // Boolean if this instance is within the daylight savings time range for the current timezone.
 ```
 
 ## Converting

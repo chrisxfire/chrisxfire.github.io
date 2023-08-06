@@ -25,7 +25,7 @@ int MyFunc(int x)
 int MyFunc(int x) => x;
 ```
 
-# Lambas in Anonymous Methods
+# Lambdas in Anonymous Methods
 ```cs
 Func<int, int> = delegate (int x) { return x; };
 ```
@@ -95,7 +95,7 @@ Func<int, int> square = (x) => x * x; // Since this only has one input parameter
 Lambdas can be used when code requires instances of delegate types like in `Task.Run(Action)`.
 
 # Input Parameters of Lambda Expressions
-Input parameters are enclosed in parantheses:
+Input parameters are enclosed in parentheses:
 ```cs
 Action line = () => Console.WriteLine();
 ```
@@ -115,7 +115,7 @@ Func<int, int, int> constant = (_, _) => 42;
 ```
 
 # Tuples
-Lambdas can contain tuples as a comma-delimited list of components in parantheses:
+Lambdas can contain tuples as a comma-delimited list of components in parentheses:
 ```cs
 Func<(int, int, int), (int, int, int)> doubleThem = ns => (2 * ns.Item1, 2 * ns.Item2, 2 * ns.Item3);
 var numbers = (2, 3, 4);

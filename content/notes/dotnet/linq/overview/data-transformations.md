@@ -17,7 +17,7 @@ List<Student> students = new() { … };
 List<Teacher> teachers = new() { … };
 
 string peopleInDenver = (
-    from student in studnets
+    from student in students
     where student.City == "Denver"
     select student.Last)
     .Concat(

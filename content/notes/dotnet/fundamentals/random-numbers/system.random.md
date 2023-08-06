@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview
-Psuedo-random number generator.
+Pseudo-random number generator.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/api/system.random?view=net-7.0
 
 # Thread Safety

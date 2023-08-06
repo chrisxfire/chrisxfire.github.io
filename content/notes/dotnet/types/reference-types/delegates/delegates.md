@@ -210,7 +210,7 @@ public class BookDB
 # Delegates as Events
 There are two pre-defined *delegates* to use as *events*:
 ```cs
-public delegate void EventHanlder(object? sender, EventArgs e);
+public delegate void EventHandler(object? sender, EventArgs e);
 
 public delegate void EventHandler<TEventArgs>(object? sender, TEventArgs e);
 ```

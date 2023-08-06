@@ -61,12 +61,14 @@ log.Information("Log entry");
 ```cs
 var count = 456;
 Log.Information("Retrieved {Count} records", count);
-Logfile: { "Count": 456 }
+```
+Output: `{ "Count": 456 }`
 
+```cs
 var fruit = new[] { "Apple", "Pear", "Orange" };
 Log.Information("In my bowl I have {Fruit}", fruit);
-Logfile: { "Fruit": ["Apple", "Pear", "Orange"] }
 ```
+Output: `{ "Fruit": ["Apple", "Pear", "Orange"] }`
 
 ## Destructuring
 Use `@` operator to pull values out of structured data:  

@@ -81,7 +81,7 @@ public void PrintOrderDetails(int orderNum, string productName, string sellerNam
 ```
 Instead of position arguments, you can specify named arguments when invoking methods in any order:
 ```cs
-PrintOrderDetails(sellerName: "Gift Shop", productName: "Red Mug", ordeNum: 11);
+PrintOrderDetails(sellerName: "Gift Shop", productName: "Red Mug", orderNum: 11);
 ```
 
 However, if named and positional arguments are mixed, they <u>must</u> be in the correct position:

@@ -98,7 +98,7 @@ Use:
 variable ??= expression;
 ```
 
-# Avoid Non-nullable Reference Variables Being Uninitailized
+# Avoid Non-nullable Reference Variables Being Uninitialized
 ```cs
 public class Person {
 	public string FirstName { get; set; }

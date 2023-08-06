@@ -74,7 +74,7 @@ public string Method() => default;
 ```
 
 # Considerations
-- Generic methods can appear on both generic and nongeneric types.  Just because a type is generic does not mean its methods are.
+- Generic methods can appear on both generic and non-generic types.  Just because a type is generic does not mean its methods are.
   - A method is generic only if it has its own list of type parameters.
 - Generic type safety is enforced at *compile time*.
 - [Generic collection]({{< ref "../../collections/generic" >}}) types generally perform better for storing and manipulating value types because they do not need to [box]({{< ref "../../fundamentals/boxing-and-unboxing/" >}}) the value types.
@@ -95,7 +95,7 @@ A covariant type parameter is marked with the `out` keyword.
 
 ## Contravariance
 Enables the use of a less derived (less specific) type than originally specified.
-- An instance of `IEnuemrable<Animal>` can be assigned to a variable of type `IEnumerable<Dog>`.
+- An instance of `IEnumerable<Animal>` can be assigned to a variable of type `IEnumerable<Dog>`.
 
 ### Defining
 A contravariant type parameter is marked with the `in` keyword.

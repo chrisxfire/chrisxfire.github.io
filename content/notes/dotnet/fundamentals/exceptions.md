@@ -87,7 +87,7 @@ class CustomException : Exception {
 	This constructor sets the message property and InnerException:
 	public CustomException(string message, Exception inner) : base(message, inner) { }
 	
-	This constructor creates serialization, which is needed when an exception propogates from a remote server to the client:
+	This constructor creates serialization, which is needed when an exception propagates from a remote server to the client:
 	CustomException(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context) : base(info, context) { }
 }
 

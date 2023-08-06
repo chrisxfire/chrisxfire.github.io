@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview
-Generic interfaces are type-safe counterparts to nongeneric interfaces for ordering and equality comparisons and for functionality shared by generic collection types.
+Generic interfaces are type-safe counterparts to non-generic interfaces for ordering and equality comparisons and for functionality shared by generic collection types.
 - <g>Availability: .NET 7</g>
 
 # Framework-provided Generic Interfaces
@@ -19,5 +19,5 @@ Generic interfaces are type-safe counterparts to nongeneric interfaces for order
 ## For Collection Functionality
 - `ICollection<T>` — the basic interface for generic collection types; methods for adding, removing, copying, and enumerating elements; inherits from `IEnumerable<T>` and `IEnumerable`.
 - `IList<T>` — extends `ICollection<T>` with methods for indexed retrieval
-- `IDcitionary<TKey, TValue>` — extends `ICollection<T>` with methods for keyed retrieval
-- `IEnumerable<T>` — provides a generic enumerator structure; inherits `IEnumerator`, so any consumer of the nongeneric interface can also consume this generic one
+- `IDictionary<TKey, TValue>` — extends `ICollection<T>` with methods for keyed retrieval
+- `IEnumerable<T>` — provides a generic enumerator structure; inherits `IEnumerator`, so any consumer of the non-generic interface can also consume this generic one

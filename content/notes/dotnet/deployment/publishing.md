@@ -19,8 +19,8 @@ RIDs: `win-x64`, `win10-x64`, `win-x86`, `linux-x64`, `rhel-x64`
 --verbosity <level> # Levels are (q)uiet, (m)inimal, (n)ormal, (d)etailed, (diag)nostic.
 ```
 Publishing modes:
-- Framework-dependentincludes application and its dependencies. Users must install .NET runtime.
-- Self-containedincludes application, its dependencies, .NET runtime, and libraries.
+- Framework-dependent — includes application and its dependencies. Users must install .NET runtime.
+- Self-contained — includes application, its dependencies, .NET runtime, and libraries.
 
 | Framework-dependent executable | Self-contained executable | Cross-platform binary | Current Platform | Specific Platform | Command                                          |
 | ------------------------------ | ------------------------- | --------------------- | ---------------- | ----------------- | ------------------------------------------------ |

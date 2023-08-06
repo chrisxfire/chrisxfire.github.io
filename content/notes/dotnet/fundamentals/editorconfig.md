@@ -57,8 +57,8 @@ For any property, a value of `unset` removes the effect of that property, even i
 
 ## Creating
 Project > **Add New Item** > **editorconfig**
-- editorconfig File (default) comes prepopulated with two items.
-- editorconfig File (.NET) comes prepopulated with .NET code style rules.
+- editorconfig File (default) comes pre-populated with two items.
+- editorconfig File (.NET) comes pre-populated with .NET code style rules.
 
 ## Applying
 EditorConfig files are searched for in the current directory and all parent directories until the root file is found or the root of the filesystem is reached.

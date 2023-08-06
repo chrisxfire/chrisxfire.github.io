@@ -12,7 +12,7 @@ Inheritance
 
 A doubly-linked list. Each element is a *node* which has a reference to its previous and next items.
 - Nodes are ordered one after another.
-- Nodes are not stored continguously.
+- Nodes are not stored contiguously.
 - Nodes are linked using pointers.
 - Nodes do not have indices.
 The size of a linked list is dynamic.

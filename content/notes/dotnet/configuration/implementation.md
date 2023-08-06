@@ -6,10 +6,10 @@ weight: 1
 ---
 # Example
 Install packages:
-`dotnet add package microsoft.extensions.configuration`
-`dotnet add package microsoft.extensions.configuration.json`
-`dotnet add package microsoft.extensions.configuration.binder`
-`dotnet add package microsoft.extensions.configuration.environmentvariables` # Only if using environment variables.
+`dotnet add package Microsoft.Extensions.Configuration`
+`dotnet add package Microsoft.Extensions.Configuration.Json`
+`dotnet add package Microsoft.Extensions.Configuration.Binder`
+`dotnet add package Microsoft.Extensions.Configuration.EnvironmentVariables` # Only if using environment variables.
 
 Assuming this appsettings.json file:
 `{`

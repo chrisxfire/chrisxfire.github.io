@@ -14,4 +14,4 @@ weight: -1
 
 ## dynamic (`System.Object`)
 Functions like Type `object`.    
-At compile time, an elemented typed dynamic is assumed to support any operation.
+At compile time, an element typed `dynamic` is assumed to support any operation.

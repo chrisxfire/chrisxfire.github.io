@@ -17,7 +17,7 @@ dotnet add package mailkit
 var message = new MimeMessage();
 message.From.Add(new MailboxAddress("Joey", "joey@friends.com"));
 message.To.Add(new MailboxAddress("Alice", "alice@wonderland.com"));
-message.Subject = "How you doin?";
+message.Subject = "How you doing?";
 
 message.Body = new TextPart("plain") 
 {

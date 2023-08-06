@@ -51,11 +51,11 @@ Function streams cannot exist on their own but can only be "plugged onto" other 
 
 ### Example
 ```cs
-StreamWriter tw = File.CreateText(*textfile*); // TextWriter
+StreamWriter tw = File.CreateText(PATH_TO_TEXT_FILE); // TextWriter
 tw.WriteLine("*some text*");
 tw.Close(); // Close the file and release resources.
 
-StreamReader tr = File.OpenText(*textfile*); // TextReader
+StreamReader tr = File.OpenText(PATH_TO_TEXT_FILE); // TextReader
 WriteLine(tr.ReadToEnd());
 tr.Close();
 ```
@@ -75,7 +75,7 @@ FileStream? xmlFileStream = null;
 XMLWriter? xml = null;
 
 using (xmlFileStream = File.Create(file.xml)) // The using statement automatically generates a finally statement
-{							// that calls Dipose on any object that implements IDisposable.
+{							// that calls Dispose on any object that implements IDisposable.
 	using (xml = XmlWriter.Create(xmlFileStream, // Wrap the file stream in an XML writer stream helper.
 	  new XmlWriterSettings { Indent = true} ))  // Automatically indent nested elements.
 	{

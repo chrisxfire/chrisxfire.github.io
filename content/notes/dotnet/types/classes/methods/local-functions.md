@@ -17,13 +17,13 @@ Local functions support the following modifiers:
 - `extern`
   - An external local function must be static.
 
-All local functions are intrinsicly private.
+All local functions are intrinsically private.
 
 # Variables in Local Functions
 All local variables that are defined in the containing member, including its method parameters, are accessible to a local function (so long as it is not a static local function).
 
 # Attributes in Local Functions
-Attributes can be applied to a lcoal function, its parameters, and type parameters:
+Attributes can be applied to a local function, its parameters, and type parameters:
 ```cs
 private static void Process(string?[] lines, string mark) 
 {
@@ -37,7 +37,7 @@ private static void Process(string?[] lines, string mark)
 ```
 
 # Exceptions in Local Functions
-Local functions can allow exceptions to surface immediately. This makes them especiall useful in:
+Local functions can allow exceptions to surface immediately. This makes them especially useful in:
 - Method iterators, where exceptions are only surfaced when the returned sequence is enumerated, not when the iterator is retrieved (when the IEnumerable is instantiated).
 - Async methods, where exceptions thrown are not observed until the returned task is awaited.
 

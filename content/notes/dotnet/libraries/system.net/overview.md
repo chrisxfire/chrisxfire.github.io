@@ -30,7 +30,7 @@ IPHostEntry entry = Dns.GetHostEntry(uri.Host);
 
 foreach (IPAddress address in entry.AddressList) 
 {
-    // addressreturns 151.101.193.69
-    // address.AddressFamilyreturns InterNetwork
+    // address returns 151.101.193.69
+    // address.AddressFamily returns InterNetwork
 }
 ```

@@ -13,7 +13,7 @@ Use this when you must perform additional query operations on a query after a gr
 var percentileQuery =
     from country in countries
     let percentile = (int)country.Population / 10_000_000 // Group according to population in ranges of 10M.
-    group country by percentile into countryGroup  // countryGroup is the temporary identifer.
+    group country by percentile into countryGroup  // countryGroup is the temporary identifier.
     where countryGroup.Key >= 20 // Additional query operations.
     orderby countryGroup.Key
     select countryGroup;

@@ -45,7 +45,7 @@ public static bool IsValidCurrency(string currencyValue)
 | Compiled    | Slower  | Faster    | Calling regex methods with a specific regex frequently   |
 
 ## Backtracking
-Ordinarily, the regex engine uses linear progression to traverse an input strig and compare it to a regex pattern. Indeterminate quantifiers like `*`, `+`, and `?` allow the regex engine to give up a partial successful match to search for a successful match in the entire pattern. This is *backtracking*.  
+Ordinarily, the regex engine uses linear progression to traverse an input string and compare it to a regex pattern. Indeterminate quantifiers like `*`, `+`, and `?` allow the regex engine to give up a partial successful match to search for a successful match in the entire pattern. This is *backtracking*.  
 
 Backtracking can significantly degrade performance. Worst case, execution time doubles for each additional character in input.
 If backtracking is not necessary, either:
@@ -149,11 +149,11 @@ Lookahead and lookbehind assertions are anchors that, without moving the pointer
 | ------------- | ------------------- | -------------------------------------------------------------------------------- |
 | `(?= check)`  | Positive lookahead  | Assert what immediately follows the current position in the string is check      |
 | `(?! check)`  | Negative lookahead  | Assert what immediately follows the current position in the string is NOT check  |
-| `(?<= check)` | Postive lookbehind  | Assert what immediately precedes the current position in the string is check     |
+| `(?<= check)` | Positive lookbehind  | Assert what immediately precedes the current position in the string is check     |
 | `(?<! check)` | Negative lookbehind | Assert what immediately precedes the current position in the string is NOT check |
 
 # Quantifiers
-| Quantifer   | Matches the previous element…                       | Pattern     | Matches                  |
+| Quantifier   | Matches the previous element…                       | Pattern     | Matches                  |
 | ----------- | --------------------------------------------------- | ----------- | ------------------------ |
 | \` (greedy) | zero or more times                                  | `a.c`       | "abcbc" in "abcbc"       |
 | `?` (lazy)  | zero or more times, but as few times as possible    | `a.?c`      | "abc" in "abcbc"         |

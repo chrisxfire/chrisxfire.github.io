@@ -7,7 +7,7 @@ weight: 1
 # Finalizers
 Each type can have a single finalizer that is called by the runtime when resources need to be released.  
 They release unmanaged resources like windows, files, network connections, or mutexes controlled by the OS.  
-They are also known as *destructors* (not *deconstructors*) because they destory objects in memory.  
+They are also known as *destructors* (not *deconstructors*) because they destroy objects in memory.  
 
 Finalizers do not take modifiers and they do not have parameters.  
 - They cannot be defined in structs.  
@@ -39,7 +39,7 @@ public class Animal : IDisposable
     { // Called by a developer using this type to deallocate both managed and
         Dispose(true); // unmanaged resources.
 
-        GC.SupressFinalize(this); // Tell GC it does not need to call the finalizer.
+        GC.SuppressFinalize(this); // Tell GC it does not need to call the finalizer.
     }
 
     protected virtual void Dispose(bool disposing) 
@@ -69,7 +69,7 @@ protected override void Finalize()
     }
     finally 
     {
-        base.Finalize(); // This ensures all finaliers up the call stack are invoked.
+        base.Finalize(); // This ensures all finalizers up the call stack are invoked.
     }
 }
 ```

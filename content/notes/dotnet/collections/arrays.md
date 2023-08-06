@@ -97,7 +97,7 @@ a[^n] // Return the nth item from the end of the array.
 a[m..n] // Return the mth item to the nth item, exclusive.
 ```
 # Implicitly Typed Arrays
-Implicity-typed arrays are usually used in query expressions together with anonymous types and object and collection initializers.
+Implicitly-typed arrays are usually used in query expressions together with anonymous types and object and collection initializers.
 
 Single-dimension, implicitly-typed:
 ```cs

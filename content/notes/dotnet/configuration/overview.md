@@ -4,7 +4,7 @@ date: 2021-12-30T14:12:34-0700
 draft: false
 weight: -1
 ---
-# [Configuraton Providers](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration-providers)
+# [Configuration Providers](https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration-providers)
 Configuration providers exist for settings files, environment variables, Azure key vault, Azure app configuration, command-line arguments, custom providers, key-per-file, and in-memory .NET objects.
 
 Prefer `Microsoft.Extensions.Configuration` over `System.Configuration`.  
@@ -28,7 +28,7 @@ IConfigurationRootThe root of an IConfiguration hierarchy.
 IConfigurationSectionA section of configuration values.
 # Configuration Provider Priority
 1.  Command Line
-2.  App Secrets (Secret Manager) in development enviornment
+2.  App Secrets (Secret Manager) in development environment
 3.  Environment Variables
 4.  XML / JSON / INI
 
@@ -37,7 +37,7 @@ This means #1 will override #2 and so on.
 ```cs
 using IHost host = Host.CreateDefaultBuilder(args).ConfigureAppConfiguration((hostingContext, configuration) =>
 {
-    // Clear all providers that were added from CreateDefaultBuidler():
+    // Clear all providers that were added from CreateDefaultBuilder():
     configuration.Sources.Clear();
 
     IHostEnvironment env = hostingContext.HostingEnvironment;
@@ -96,7 +96,7 @@ configuration.AddCommandLine(args);
 # INI Configuration Provider
 Same code as above, except:
 ```cs
-configruation.AddIniFile(appsettings.ini", optional: true, reloadOnChange: true)
+configuration.AddIniFile(appsettings.ini", optional: true, reloadOnChange: true)
 ```
 
 # Memory Configuration Provider

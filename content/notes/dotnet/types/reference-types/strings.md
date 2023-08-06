@@ -37,7 +37,7 @@ string x = "str";
 ```
 
 # Accessing
-Use `String.IsNullorEmpty(string)` to verify the value of a string before accessing it.
+Use `String.IsNullOrEmpty(string)` to verify the value of a string before accessing it.
 
 # Formatted Strings
 Use `string.Format()` for formatted strings:
@@ -106,7 +106,7 @@ Percentage:
 - `{var1:P2}` (2 digits of precision)
 
 ## Ternary operator in interpolated expression
-Since `:` has special meaning in interpolation expressions, when using it as the conditional operator, wrap it in paratheses:
+Since `:` has special meaning in interpolation expressions, when using it as the conditional operator, wrap it in parentheses:
 ```cs
 $"My house is: {(a < 1 ? "red" : "blue")}"
 ```
@@ -190,7 +190,7 @@ All methods and operators that appear to modify a string actually  — return a 
 - `Remove(s, n)` — Remove the substring starting at index s for n characters.  
 - `Replace("substr1", "substr2", ignoreCase=)` — Replace substr1 with substr2.  
   - `ignoreCase` is boolean and optional.  
-  - If `substr2` is null, all occurences of `substr1` are removed.  
+  - If `substr2` is null, all occurrences of `substr1` are removed.  
 - `Split("delim", options)` — Returns a string array containing subsets of the string split at delim.  
   - options can be `StringSplitOptions.RemoveEmptyEntries` and `TrimEntries`  
 - `ToCharArray()` — Convert the string to a character array  

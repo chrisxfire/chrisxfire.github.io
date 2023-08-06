@@ -16,7 +16,7 @@ They trigger the C# compiler to transform the code into a state machine.
 
 An async void method is used only for event handlers:
 - Such a method cannot be awaited.
-- The caller of such a method cannot catch exceptiosns that the method throws.
+- The caller of such a method cannot catch exceptions that the method throws.
 
 # Threads and Tasks
 `Thread` objects create new threads and manage them.  These can be difficult to work with.  

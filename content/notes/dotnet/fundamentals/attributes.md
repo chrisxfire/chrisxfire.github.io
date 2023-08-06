@@ -52,7 +52,7 @@ With a named parameter:
 [DllImport("user32.dll", SetLastError=false)]
 ```
 
-This attribute markes the class obsolete:
+This attribute marks the class obsolete:
 ```cs
 [Obsolete("SomeClass is obsolete.  Use SomeOtherClass instead.")]
 public class SomeClass { }
@@ -108,7 +108,7 @@ class SampleClass { … }
 
 Conceptually, this is equivalent:
 ```cs
-Author anononymousAuthorObject = new Author("C. H.");
+Author anonymousAuthorObject = new Author("C. H.");
 anonymousAuthorObject.version = 0.1;
 ```
 

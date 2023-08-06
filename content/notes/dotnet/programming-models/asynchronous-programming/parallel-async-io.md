@@ -28,7 +28,7 @@ public async Task SimpleParallelWriteAsync()
 
 ## Fine Control Example
 ```cs
-public async Task ProcessMulitpleWritesAsync()
+public async Task ProcessMultipleWritesAsync()
 {
     IList<FileStream> sourceStreams = new List<FileStream>();
 

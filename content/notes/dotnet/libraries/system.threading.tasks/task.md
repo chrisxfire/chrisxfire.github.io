@@ -66,7 +66,7 @@ Task.WaitAll(t1, t2, …)
 ```
 
 ### Notes
-While waiting on one or more Tasks to complete, exceptions thrown are propogated to the thread that called the `Wait` method:
+While waiting on one or more Tasks to complete, exceptions thrown are propagated to the thread that called the `Wait` method:
 ```cs
 try
 {

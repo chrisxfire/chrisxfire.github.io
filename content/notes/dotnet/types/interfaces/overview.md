@@ -91,7 +91,7 @@ Interface fields cannot be `static virtual`/`abstract`.
 - Interfaces are the only type a struct can inherit.
 
 # Default Implementations
-For interfance methods that define default implementations, any class inherting that interface also inherits that implementation.
+For interface methods that define default implementations, any class inheriting that interface also inherits that implementation.
 - The class instance must be cast to the interface type to access the default implementation of the interface method.
 
 ## Versioning
@@ -164,7 +164,7 @@ public class PersonComparer : IComparer<Person>
 
         if (result == 0) 
         { // If they are equal…
-            return x.Name.Compareto(y.Name); // …then compare by the Names…
+            return x.Name.CompareTo(y.Name); // …then compare by the Names…
         }
         else 
         { 

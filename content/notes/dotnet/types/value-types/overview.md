@@ -8,7 +8,7 @@ weight: -1
 Value types store on the stack.
 
 ## Signed integrals
-For Integers (zero, postive, and negative whole numbers).
+For Integers (zero, positive, and negative whole numbers).
 | .NET Type      | C# Alias | Range                                        | Suffix |
 | -------------- | -------- | -------------------------------------------- | ------ |
 | `System.Sbyte` | `sbyte`  | -128 to 127                                  |        |
@@ -17,7 +17,7 @@ For Integers (zero, postive, and negative whole numbers).
 | `System.Int64` | `long`   | -9223372036854775808 to 9223372036854775807l | or L   |
 
 ## Unsigned integrals
-For Cardinals (zero and postive whole numbers).
+For Cardinals (zero and positive whole numbers).
 | .NET Type       | C# Alias | Range                       | Suffix |
 | --------------- | -------- | --------------------------- | ------ |
 | `System.Byte`   | `byte`   | 0 to 255                    |        |

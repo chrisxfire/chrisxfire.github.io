@@ -8,7 +8,7 @@ weight: 1
 # Continuations
 - A continuation task (continuation) is an async task that is invoked by another task (the antecedent) when the antecedent finishes.
 - Continuations allow descendant operations to consume the results of an ancestor.  In this way, you can chain tasks.
-- A continuation is created in the WaitingForActivation state and activated automatically when its antecendent task completes.
+- A continuation is created in the WaitingForActivation state and activated automatically when its antecedent task completes.
 
 ## Blocking
 Continuations, like any Task, do not block the current thread.  

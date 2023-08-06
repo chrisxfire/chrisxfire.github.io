@@ -16,7 +16,7 @@ A first-in, first-out collection of objects.
 # Notes
 - A queue contains elements in the order they were added.
 - Queues are FIFO: Elements are inserted at the end (enqueue) and removed from the beginning (dequeue).
-- Queues do not have indicies.
+- Queues do not have indices.
 
 # Other Queues
 `PriorityQueue`

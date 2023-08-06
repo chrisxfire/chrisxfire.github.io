@@ -11,4 +11,4 @@ A quantifying operation return Boolean for whether some or all of the elements i
 | ---------- | ------------------------------------------------------------- | ---------------- |
 | `All`      | Bool whether all elements in a collection satisfy a condition | N/A              |
 | `Any`      | Bool whether any elements in a collection satisfy a condition | N/A              |
-| `Contains` | Bools whether a collection contains a specified element       | N/A              |
+| `Contains` | Bool whether a collection contains a specified element       | N/A              |
