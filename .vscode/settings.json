@@ -3,7 +3,10 @@
     "markdown.extension.math.enabled": false,
     "cSpell.words": [
         "appsettings",
+        "globbing",
         "httpclient",
+        "httprepl",
+        "openapi",
         "opentelemetry",
         "otel",
         "Otlp",
