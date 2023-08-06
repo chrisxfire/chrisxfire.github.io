@@ -1,5 +1,5 @@
 ---
-title: notes > .net > programming models > parallel programming > overview
+title: notes > .net > programming models > parallel programming (tpl) > overview
 date: 2023-02-16T14:28:40-0700
 draft: false
 weight: -1

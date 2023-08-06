@@ -1,5 +1,5 @@
 ---
-title: notes > .net > programming models > parallel programming > thread local and partition local variables
+title: notes > .net > programming models > parallel programming (tpl) > thread local and partition local variables
 date: 2023-02-16T15:07:11-0700
 draft: false
 weight: 1
