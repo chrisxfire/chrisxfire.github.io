@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.5.3](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.2...v1.5.3) (2023-07-28)
+
+
+### :bug: Bug Fixes
+
+* bold font on active menu item ([#88](https://github.com/hugo-sid/hugo-blog-awesome/issues/88)) ([88cfd5d](https://github.com/hugo-sid/hugo-blog-awesome/commit/88cfd5dfd097b9c43ea4a91351ee8c739d318862))
+
+## [1.5.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.1...v1.5.2) (2023-07-26)
+
+
+### :bug: Bug Fixes
+
+* allow setting default theme(color mode) in no-script browsers closes [#50](https://github.com/hugo-sid/hugo-blog-awesome/issues/50) (PR [#85](https://github.com/hugo-sid/hugo-blog-awesome/issues/85)) ([970bdd9](https://github.com/hugo-sid/hugo-blog-awesome/commit/970bdd9f85b3ad2641bb26724f0b2eb7515c570b))
+* change `fadein` keyframe value from 0.8 to 1 (for opacity 100%) ([#86](https://github.com/hugo-sid/hugo-blog-awesome/issues/86)) ([79a3101](https://github.com/hugo-sid/hugo-blog-awesome/commit/79a31018c35e9991c50ddce435e1c2ed129ffa0b))
+
 ## [1.5.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.0...v1.5.1) (2023-07-12)
 
 
