@@ -56,7 +56,7 @@ git config --global commit.gpgsign true
 
 ## Associate an Email with GPG Key
 The GPG key you use must be associated with a GitHub verified email that matches your committer identity.
-1. [Find the key](#check-keys)
+1. [Find the key](#check-existing-keys)
 2. Edit the key to add an email address:
 ```bash
 gpg --edit-key KEY-ID

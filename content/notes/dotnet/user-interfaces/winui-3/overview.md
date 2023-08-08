@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# [WinUI](https://www.microsoft.com/windows/apps/desktop)
+# [WinUI](https://learn.microsoft.com/en-us/windows/apps/desktop/)
 Windows UI library — the native UI framework of Windows 10/11
 - Build desktop applications with C# or C++
 - Part of the Windows App SDK
