@@ -16,6 +16,23 @@ weight: 1
 - Toasts are automatically slightly translucent to blend in with their background
 
 # Creating
+## A Simple Toast
+![A simple toast that displays a message stating "Hello, world!  This is a toast message."](image.png)
+```html
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src="..." class="rounded me-2" alt="...">
+    <strong class="me-auto">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div>
+```
+
+## Positioned and Stacked Toasts
 These toasts are positioned in the upper right and stack:
 
 ![Two toasts that stack positioned in the upper right](toasts.png)

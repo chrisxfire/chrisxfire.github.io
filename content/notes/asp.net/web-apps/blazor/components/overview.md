@@ -22,7 +22,8 @@ Components can be nested, reused, shared among projects, and used in MVC and Raz
     2. Register the service with DI:
        `Program.cs`
        ```cs
-       builder.Services.AddScoped<ServiceName>(); // use a Scoped lifetime for correct behavior for both Blazor Server and Blazor WebAssembly apps
+       // use a Scoped lifetime for correct behavior for both Blazor Server and Blazor WebAssembly apps
+       builder.Services.AddScoped<ServiceName>(); 
        ```
     3. Add the service to global imports:
        `_Imports.razor`
