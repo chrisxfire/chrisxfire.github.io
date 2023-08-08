@@ -16,6 +16,10 @@ weight: 1
 - Toasts are automatically slightly translucent to blend in with their background
 
 # Creating
+These toasts are positioned in the upper right and stack:
+
+![Two toasts that stack positioned in the upper right](toasts.png)
+
 ```html
 <div aria-live="polite" aria-atomic="true" class="position-relative">
   <!-- Use a toast container to stack multiple toasts automatically: -->
