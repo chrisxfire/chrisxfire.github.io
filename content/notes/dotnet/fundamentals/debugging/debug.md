@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > debugging > debug
+title: debug
 date: 2021-12-15T14:32:47-0700
 draft: false
 weight: 1

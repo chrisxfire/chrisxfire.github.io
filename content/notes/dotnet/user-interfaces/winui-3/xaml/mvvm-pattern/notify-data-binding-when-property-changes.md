@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > mvvm pattern > notify data binding when property changes
+title: notify data binding when property changes
 date: 2022-12-14T18:56:52-0700
 draft: false
 weight: 1

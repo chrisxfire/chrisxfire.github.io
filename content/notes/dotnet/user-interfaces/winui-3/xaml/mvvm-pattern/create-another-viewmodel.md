@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > mvvm pattern > create another viewmodel
+title: create another viewmodel
 date: 2022-12-14T19:21:02-0700
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > collections > spans
+title: spans
 date: 2022-01-09T18:14:15-0700
 draft: false
 weight: 1

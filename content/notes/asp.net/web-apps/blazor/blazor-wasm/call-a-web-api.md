@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > web apps > blazor > blazor wasm > call a web api
+title: call a web api
 date: 2023-07-21T00:00:00-06:00
 draft: false
 weight: 1

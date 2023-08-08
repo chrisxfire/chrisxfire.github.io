@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > ef core > blazor server considerations
+title: blazor server considerations
 date: 2023-05-24T00:00:00-06:00
 draft: false
 weight: 1

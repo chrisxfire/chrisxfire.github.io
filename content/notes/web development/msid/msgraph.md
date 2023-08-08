@@ -1,5 +1,5 @@
 ---
-title: notes > web development > msid > msgraph
+title: msgraph
 date: 2022-05-11T13:35:11-0600
 draft: false
 weight: 1

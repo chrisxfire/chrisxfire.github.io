@@ -1,5 +1,5 @@
 ---
-title: notes > web development > msid > msal
+title: msal
 date: 2022-05-10T17:32:57-0600
 draft: false
 weight: 1

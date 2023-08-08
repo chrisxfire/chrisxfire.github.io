@@ -1,5 +1,5 @@
 ---
-title: notes > web development > msid > microsoft identity platform
+title: microsoft identity platform
 date: 2022-05-10T16:54:55-0600
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > serialization > json > jsondocument and jsonelement
+title: jsondocument and jsonelement
 date: 2022-01-30T12:11:30-0700
 draft: false
 weight: 1

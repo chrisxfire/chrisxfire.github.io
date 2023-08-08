@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > standard query operators > sort
+title: sort
 date: 2022-11-07T21:31:15-0700
 draft: false
 weight: 1

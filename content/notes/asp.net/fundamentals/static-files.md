@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > fundamentals > static files
+title: static files
 date: 2023-01-11T00:00:00-06:00
 draft: false
 weight: 1

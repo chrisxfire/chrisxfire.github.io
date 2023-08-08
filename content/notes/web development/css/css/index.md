@@ -1,5 +1,5 @@
 ---
-title: notes > web development > css > css
+title: css
 date: 2023-04-26T15:58:15-0600
 draft: false
 weight: 1

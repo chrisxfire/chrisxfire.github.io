@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > web apps > blazor > blazor wasm > lazy loading
+title: lazy loading
 date: 2023-05-12T00:00:00-07:00
 draft: false
 weight: 1

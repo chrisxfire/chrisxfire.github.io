@@ -1,5 +1,5 @@
 ---
-title: notes > .net > libraries > system > uri
+title: uri
 date: 2021-11-28T08:30:06-0700
 draft: false
 weight: 1

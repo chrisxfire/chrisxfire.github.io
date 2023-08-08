@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > overview
+title: overview
 date: 2022-02-16T16:22:37-0700
 draft: false
 weight: -1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > serialization > json > serialization behavior with attributes and JsonSerializerOptions
+title: serialization behavior with attributes and JsonSerializerOptions
 date: 2023-07-27T00:00:00-06:00
 draft: false
 weight: 1

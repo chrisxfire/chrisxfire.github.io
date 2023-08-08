@@ -1,5 +1,5 @@
 ---
-title: notes > web development > html > images
+title: images
 date: 2023-04-26T17:22:39-0600
 draft: false
 weight: 1

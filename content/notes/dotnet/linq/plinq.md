@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > plinq
+title: plinq
 date: 2022-05-09T19:48:01-0600
 draft: false
 weight: 1

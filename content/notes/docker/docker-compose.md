@@ -1,5 +1,5 @@
 ---
-title: notes > docker > docker compose
+title: docker compose
 date: 2023-03-16T00:00:00-06:00
 draft: false
 weight: 1

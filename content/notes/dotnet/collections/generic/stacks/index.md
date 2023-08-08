@@ -1,5 +1,5 @@
 ---
-title: notes > .net > collections > generic > stacks
+title: stacks
 date: 2021-11-15T16:42:50-0700
 draft: false
 weight: 1

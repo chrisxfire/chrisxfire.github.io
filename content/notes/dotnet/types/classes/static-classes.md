@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > static classes
+title: static classes
 date: 2022-02-17T20:46:19-0700
 draft: false
 weight: 1

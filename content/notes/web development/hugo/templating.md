@@ -1,5 +1,5 @@
 ---
-title: notes > web development > hugo > templating
+title: templating
 date: 2023-03-20T12:37:48-0600
 draft: false
 weight: 1

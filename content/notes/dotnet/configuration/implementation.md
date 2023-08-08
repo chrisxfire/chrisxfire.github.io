@@ -1,5 +1,5 @@
 ---
-title: notes > .net > configuration > implementation
+title: implementation
 date: 2022-08-23T17:15:19-0600
 draft: false
 weight: 1

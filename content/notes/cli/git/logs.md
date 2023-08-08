@@ -1,5 +1,5 @@
 ---
-title: notes > cli > git > logs
+title: logs
 date: 2022-10-23T16:05:41-0600
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > usercontrols
+title: usercontrols
 date: 2022-12-12T13:39:26-0700
 draft: false
 weight: 1

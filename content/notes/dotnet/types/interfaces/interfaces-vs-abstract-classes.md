@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > interfaces > interfaces vs abstract classes
+title: interfaces vs abstract classes
 date: 2022-05-28T21:30:35-0600
 draft: false
 weight: 1

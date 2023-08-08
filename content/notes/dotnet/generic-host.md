@@ -1,5 +1,5 @@
 ---
-title: notes > .net > generic host
+title: generic host
 date: 2022-06-26T19:15:58-0600
 draft: false
 weight: 1

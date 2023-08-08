@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > methodologies > rational unified process
+title: rational unified process
 date: 2023-02-22T11:13:19-0700
 draft: false
 weight: 1

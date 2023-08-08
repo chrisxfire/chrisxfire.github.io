@@ -1,5 +1,5 @@
 ---
-title: notes > web development > html > graphics > canvas element
+title: canvas element
 date: 2023-04-27T09:50:36-0600
 draft: false
 weight: 1

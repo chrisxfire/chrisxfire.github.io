@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > building a layout
+title: building a layout
 date: 2022-12-11T18:27:01-0700
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > web development > hugo > configuration
+title: configuration
 date: 2023-03-17T13:20:55-0600
 draft: false
 weight: 1

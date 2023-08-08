@@ -1,5 +1,5 @@
 ---
-title: notes > .net > collections > overview
+title: overview
 date: 2022-02-16T16:22:14-0700
 draft: false
 weight: -1

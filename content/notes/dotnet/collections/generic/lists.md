@@ -1,5 +1,5 @@
 ---
-title: notes > .net > collections > generic > lists
+title: lists
 date: 2021-11-13T11:21:00-0700
 draft: false
 weight: 1

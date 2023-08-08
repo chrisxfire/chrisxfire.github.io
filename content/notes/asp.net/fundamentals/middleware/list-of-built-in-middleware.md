@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > fundamentals > middleware > list of built in middleware
+title: list of built in middleware
 date: 2023-01-08T00:00:00-06:00
 draft: false
 weight: 1

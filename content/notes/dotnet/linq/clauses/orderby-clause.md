@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > clauses > orderby clause
+title: orderby clause
 date: 2022-04-25T21:09:01-0600
 draft: false
 weight: 1

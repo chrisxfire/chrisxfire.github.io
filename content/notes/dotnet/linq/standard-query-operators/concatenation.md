@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > standard query operators > concatenation
+title: concatenation
 date: 2022-11-13T19:06:04-0700
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > reference types > delegates > action func predicate
+title: action func predicate
 date: 2022-05-08T17:27:26-0600
 draft: false
 weight: 1

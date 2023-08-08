@@ -1,5 +1,5 @@
 ---
-title: notes > .net > collections > concurrent
+title: concurrent
 date: 2021-12-23T11:36:04-0700
 draft: false
 weight: 1

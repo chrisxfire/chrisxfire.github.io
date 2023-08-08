@@ -1,5 +1,5 @@
 ---
-title: notes > .net > programming models > asynchronous programming > streams
+title: streams
 date: 2022-11-23T10:22:25-0700
 draft: false
 weight: 1

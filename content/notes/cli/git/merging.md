@@ -1,5 +1,5 @@
 ---
-title: notes > cli > git > merging
+title: merging
 date: 2022-10-23T16:07:02-0600
 draft: false
 weight: 1

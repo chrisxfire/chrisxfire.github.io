@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > hateoas
+title: hateoas
 date: 2023-02-22T12:03:00-0700
 draft: false
 weight: 1

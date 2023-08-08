@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > creational > singleton
+title: singleton
 date: 2023-03-05T15:30:17-0700
 draft: false
 weight: 1

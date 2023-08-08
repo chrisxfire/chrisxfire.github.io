@@ -1,5 +1,5 @@
 ---
-title: notes > web development > hugo > content management
+title: content management
 date: 2023-05-01T00:00:00-06:00
 draft: false
 weight: 1

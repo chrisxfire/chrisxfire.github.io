@@ -1,5 +1,5 @@
 ---
-title: notes > .net > programming models > asynchronous programming > exceptions
+title: exceptions
 date: 2022-02-16T16:30:13-0700
 draft: false
 weight: 1

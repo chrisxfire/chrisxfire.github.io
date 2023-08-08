@@ -252,3 +252,23 @@ mark {
   color: #000;
   border-radius: 3px;
 }
+
+
+// Breadcrumbs
+.breadcrumb {
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.breadcrumb li {
+  display: inline;
+  white-space: nowrap;
+}
+
+.breadcrumb li+li:before {
+  content: ">";
+  padding: 0.3rem;
+}

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > 3rd party libraries > mailkit
+title: mailkit
 date: 2022-01-21T14:22:06-0700
 draft: false
 ---

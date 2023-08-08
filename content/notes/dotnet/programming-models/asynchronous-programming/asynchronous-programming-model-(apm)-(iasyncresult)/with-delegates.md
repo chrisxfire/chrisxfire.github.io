@@ -1,5 +1,5 @@
 ---
-title: notes > .net > programming models > asynchronous programming > asynchronous programming model (APM) (iasyncresult) > with delegates
+title: with delegates
 date: 2023-02-17T08:54:08-0700
 draft: false
 weight: 1

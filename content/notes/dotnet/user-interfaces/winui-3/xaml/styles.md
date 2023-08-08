@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > styles
+title: styles
 date: 2022-12-31T09:16:27-0700
 draft: false
 weight: 1

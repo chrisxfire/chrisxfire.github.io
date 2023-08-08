@@ -1,5 +1,5 @@
 ---
-title: notes > .net > 3rd party libraries > microsoft.data.analysis > dataframerow
+title: dataframerow
 date: 2022-01-25T13:50:25-0700
 draft: false
 weight: 1

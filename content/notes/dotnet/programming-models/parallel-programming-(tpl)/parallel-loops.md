@@ -1,5 +1,5 @@
 ---
-title: notes > .net > programming models > parallel programming (tpl) > parallel loops
+title: parallel loops
 ate: 2023-02-16T15:06:39-0700
 draft: false
 weight: 1

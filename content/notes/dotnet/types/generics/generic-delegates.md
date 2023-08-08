@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > generics > generic delegates
+title: generic delegates
 date: 2022-04-28T20:40:46-0600
 draft: false
 weight: 1

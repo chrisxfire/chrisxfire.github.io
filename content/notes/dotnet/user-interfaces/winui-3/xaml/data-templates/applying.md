@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > data templates > applying
+title: applying
 date: 2022-12-28T20:58:21-0700
 draft: false
 weight: 1

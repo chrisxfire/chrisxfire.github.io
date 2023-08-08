@@ -1,5 +1,5 @@
 ---
-title: notes > .net > data validation
+title: data validation
 date: 2022-11-16T19:47:49-0700
 draft: false
 weight: 1

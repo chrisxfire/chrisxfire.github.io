@@ -1,5 +1,5 @@
 ---
-title: notes > .net > 3rd party libraries > plotly.net
+title: plotly.net
 date: 2022-04-20T10:07:37-0600
 draft: false
 ---

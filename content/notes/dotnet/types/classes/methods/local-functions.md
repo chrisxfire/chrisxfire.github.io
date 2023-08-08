@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > methods > local functions
+title: local functions
 date: 2022-01-02T20:27:50-0700
 draft: false
 weight: 1

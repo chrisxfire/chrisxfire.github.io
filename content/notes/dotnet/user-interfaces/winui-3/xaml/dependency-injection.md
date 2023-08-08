@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > dependency injection
+title: dependency injection
 date: 2022-12-29T21:44:48-0700
 draft: false
 weight: 1

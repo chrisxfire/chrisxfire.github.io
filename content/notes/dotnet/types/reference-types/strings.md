@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > reference types > strings
+title: strings
 date: 2021-11-06T16:38:02-0600
 draft: false
 weight: 1

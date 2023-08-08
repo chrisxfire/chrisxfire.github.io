@@ -1,5 +1,5 @@
 ---
-title: notes > cli > git > help
+title: help
 date: 2022-10-23T16:04:18-0600
 draft: false
 weight: 1

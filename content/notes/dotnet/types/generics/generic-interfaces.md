@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > generics > generic interfaces
+title: generic interfaces
 date: 2023-07-17T00:00:00-06:00
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > reference types > delegates > delegates
+title: delegates
 date: 2022-01-02T20:36:26-0700
 draft: false
 weight: 1

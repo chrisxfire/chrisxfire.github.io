@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > fundamentals > security and identity
+title: security and identity
 date: 2023-05-05T00:00:00-06:00
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > serialization > json > jsonserializer
+title: jsonserializer
 date: 2021-11-11T10:57:32-0700
 draft: false
 weight: 1

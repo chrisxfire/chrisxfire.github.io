@@ -1,5 +1,5 @@
 ---
-title: notes > web development > yaml > yaml
+title: yaml
 date: 2023-01-15T19:56:46-0700
 draft: false
 weight: 1

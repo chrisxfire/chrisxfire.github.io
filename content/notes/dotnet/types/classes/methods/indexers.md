@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > methods > indexers
+title: indexers
 date: 2021-11-06T11:26:41-0600
 draft: false
 weight: 1

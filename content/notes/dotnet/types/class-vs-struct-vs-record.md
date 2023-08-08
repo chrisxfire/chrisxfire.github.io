@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > class vs struct vs record
+title: class vs struct vs record
 date: 2022-11-03T18:41:48-0600
 draft: false
 weight: 1

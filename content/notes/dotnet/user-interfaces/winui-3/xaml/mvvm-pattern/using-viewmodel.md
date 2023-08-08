@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > mvvm pattern > using viewmodel
+title: using viewmodel
 date: 2022-12-12T20:58:19-0700
 draft: false
 weight: 1

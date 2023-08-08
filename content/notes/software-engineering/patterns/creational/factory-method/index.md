@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > creational > factory method
+title: factory method
 date: 2023-03-04T20:28:08-0700
 draft: false
 weight: 1

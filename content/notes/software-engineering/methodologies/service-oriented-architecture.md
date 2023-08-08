@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > methodologies > service oriented architecture
+title: service oriented architecture
 date: 2023-02-22T11:30:23-0700
 draft: false
 weight: 1

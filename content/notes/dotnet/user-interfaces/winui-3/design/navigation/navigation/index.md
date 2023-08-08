@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > design > navigation > navigation
+title: navigation
 date: 2023-01-02T17:27:02-0700
 draft: false
 weight: 1

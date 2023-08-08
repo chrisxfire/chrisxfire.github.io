@@ -1,5 +1,5 @@
 ---
-title: notes > .net > deployment > publishing
+title: publishing
 date: 2022-02-16T16:42:47-0700
 draft: false 
 weight: 1

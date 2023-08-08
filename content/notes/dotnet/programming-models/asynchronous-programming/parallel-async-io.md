@@ -1,5 +1,5 @@
 ---
-title: notes > .net > programming models > asynchronous programming > parallel async io
+title: parallel async io
 date: 2022-11-23T00:00:00-06:00
 draft: false
 weight: 1

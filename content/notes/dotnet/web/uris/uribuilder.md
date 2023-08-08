@@ -1,5 +1,5 @@
 ---
-title: notes > .net > libraries > system > uribuilder
+title: uribuilder
 date: 2021-11-28T09:03:08-0700
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > design patterns
+title: design patterns
 date: 2022-11-14T09:55:57-0700
 draft: false
 weight: 1

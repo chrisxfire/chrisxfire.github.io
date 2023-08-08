@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > standard query operators > generate
+title: generate
 date: 2022-11-10T20:42:58-0700
 draft: false
 weight: 1

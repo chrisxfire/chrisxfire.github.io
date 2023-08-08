@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > extension methods > examples
+title: examples
 date: 2022-05-08T18:54:48-0600
 draft: false
 weight: 1

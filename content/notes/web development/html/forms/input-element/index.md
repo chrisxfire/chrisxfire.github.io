@@ -1,5 +1,5 @@
 ---
-title: notes > web development > html > forms > input element
+title: input element
 date: 2023-04-27T09:42:47-0600
 draft: false
 weight: 1

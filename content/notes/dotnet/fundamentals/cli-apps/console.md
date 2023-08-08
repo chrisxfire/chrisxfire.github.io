@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > cli apps > console
+title: console
 date: 2021-11-19T15:50:28-0700
 draft: false
 weight: 1

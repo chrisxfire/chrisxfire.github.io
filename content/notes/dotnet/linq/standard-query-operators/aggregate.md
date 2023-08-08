@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > standard query operators > aggregate
+title: aggregate
 date: 2022-11-13T19:07:11-0700
 draft: false
 weight: 1

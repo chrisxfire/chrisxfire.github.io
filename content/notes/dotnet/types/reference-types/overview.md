@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > reference types > overview
+title: overview
 date: 2022-02-16T16:13:51-0700
 draft: false
 weight: -1

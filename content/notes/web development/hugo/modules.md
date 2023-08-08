@@ -1,5 +1,5 @@
 ---
-title: notes > web development > hugo > modules
+title: modules
 date: 2023-03-17T13:31:33-0600
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > standard query operators > group
+title: group
 date: 2022-11-10T20:15:40-0700
 draft: false
 weight: 1

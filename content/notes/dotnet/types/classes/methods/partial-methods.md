@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > methods > partial methods
+title: partial methods
 date: 2022-03-06T18:24:23-0700
 draft: false
 weight: 1

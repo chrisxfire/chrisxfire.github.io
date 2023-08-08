@@ -1,5 +1,5 @@
 ---
-title: notes > web development > html > graphics > svg element
+title: svg element
 date: 2023-04-27T09:56:59-0600
 draft: false
 weight: 1

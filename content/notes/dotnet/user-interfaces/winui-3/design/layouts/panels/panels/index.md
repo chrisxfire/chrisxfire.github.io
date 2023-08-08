@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > design > layouts > panels > panels
+title: panels
 date: 2023-01-02T21:31:13-0700
 draft: false
 weight: 1

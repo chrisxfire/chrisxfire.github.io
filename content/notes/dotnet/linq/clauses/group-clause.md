@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > clauses > group clause
+title: group clause
 date: 2022-04-25T20:57:23-0600
 draft: false
 weight: 1

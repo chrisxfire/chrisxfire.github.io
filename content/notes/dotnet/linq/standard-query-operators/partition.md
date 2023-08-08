@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > standard query operators > partition
+title: partition
 date: 2022-11-08T21:36:23-0700
 draft: false
 weight: 1

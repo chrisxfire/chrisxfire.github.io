@@ -1,7 +1,7 @@
 {{- define "main" -}}
 <div class="wrapper list-page">
     <header class="header">
-        <h1 class="header-title center">{{ .Title }}</h1>
+        <h3 class="header-title center">{{ partial "breadcrumb" . }}</h3>
     </header>
     <main class="page-content" aria-label="Content">
         {{ range .Pages.GroupBy "Weight" }}

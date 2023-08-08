@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > web apps > blazor > components > childcontent, renderfragment, and templated components
+title: childcontent, renderfragment, and templated components
 date: 2023-07-12T00:00:00-06:00
 draft: false
 weight: 1

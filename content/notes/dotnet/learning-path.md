@@ -1,5 +1,5 @@
 ---
-title: notes > .net > learning path (.net fundamentals)
+title: learning path (.net fundamentals)
 date: 2023-08-05T00:00:00-06:00
 draft: true
 weight: 1

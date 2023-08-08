@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > structural > proxy
+title: proxy
 date: 2023-03-05T15:52:33-0700
 draft: false
 weight: 1

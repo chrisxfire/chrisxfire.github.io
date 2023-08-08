@@ -1,5 +1,5 @@
 ---
-title: notes > miscellaenous > probability and statistics > probability models > overview
+title: overview
 date: 2021-06-12T00:00:00-06:00
 draft: false
 weight: -1

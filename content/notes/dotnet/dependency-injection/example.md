@@ -1,5 +1,5 @@
 ---
-title: notes > .net > dependency injection > example
+title: example
 date: 2022-08-23T16:03:38-0600
 draft: false
 weight: 1

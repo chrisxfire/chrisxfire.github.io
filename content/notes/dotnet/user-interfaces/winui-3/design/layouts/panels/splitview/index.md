@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > design > layouts > panels > splitview
+title: splitview
 date: 2023-01-02T22:00:22-0700
 draft: false
 weight: 1

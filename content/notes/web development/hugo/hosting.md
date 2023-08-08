@@ -1,5 +1,5 @@
 ---
-title: notes > web development > hugo > hosting
+title: hosting
 date: 2023-03-17T13:34:53-0600
 draft: false
 weight: 1

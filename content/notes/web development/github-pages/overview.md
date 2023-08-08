@@ -1,5 +1,5 @@
 ---
-title: notes > web development > github pages > overview
+title: overview
 date: 2022-12-21T00:00:00-07:00
 draft: false
 weight: -1

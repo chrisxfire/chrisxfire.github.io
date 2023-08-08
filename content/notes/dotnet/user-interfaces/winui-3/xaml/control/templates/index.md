@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > control > templates
+title: templates
 date: 2023-01-01T09:12:52-0700
 draft: false
 weight: 1

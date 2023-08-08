@@ -1,5 +1,5 @@
 ---
-title: notes > operating systems > windows > windows sandbox
+title: windows sandbox
 date: 2023-07-02T00:00:00-06:00
 draft: false
 weight: 1

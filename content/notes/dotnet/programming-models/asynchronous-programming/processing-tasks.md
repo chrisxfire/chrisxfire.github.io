@@ -1,5 +1,5 @@
 ---
-title: notes > .net > programming models > asynchronous programming > processing tasks
+title: processing tasks
 date: 2022-11-23T10:36:13-0700
 draft: false
 weight: 1

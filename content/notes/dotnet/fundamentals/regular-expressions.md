@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > regular expressions
+title: regular expressions
 date: 2022-01-22T08:22:40-0700
 draft: false
 weight: 1

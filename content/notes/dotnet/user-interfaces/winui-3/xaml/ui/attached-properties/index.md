@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > ui > attached properties
+title: attached properties
 date: 2022-12-12T13:16:42-0700
 draft: false
 weight: 1

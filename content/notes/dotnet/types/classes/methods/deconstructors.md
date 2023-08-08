@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > methods > deconstructors
+title: deconstructors
 date: 2021-12-31T10:31:57-0700
 draft: false
 weight: 1

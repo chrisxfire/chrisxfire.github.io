@@ -1,5 +1,5 @@
 ---
-title: notes > .net > collections > generic > trees
+title: trees
 date: 2021-11-16T07:51:53-0700
 draft: false
 weight: 1

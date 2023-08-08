@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > principles > overview
+title: overview
 date: 2023-03-16T17:24:53-0600
 draft: false
 weight: -1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > reference types > stringbuilder
+title: stringbuilder
 date: 2021-11-11T16:38:01-0700
 draft: false
 weight: 1

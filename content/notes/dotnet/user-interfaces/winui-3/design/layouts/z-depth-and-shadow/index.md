@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > design > layouts > z depth and shadow
+title: z depth and shadow
 date: 2023-01-05T19:14:16-0700
 draft: false
 weight: 1

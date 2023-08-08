@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > resources
+title: resources
 date: 2022-12-28T19:51:32-0700
 draft: false
 weight: 1

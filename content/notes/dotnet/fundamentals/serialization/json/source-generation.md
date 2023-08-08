@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > serialization > json > source generation
+title: source generation
 date: 2023-07-27T00:00:00-06:00
 draft: true
 weight: 1

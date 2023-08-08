@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > serialization > json > jsonnode
+title: jsonnode
 date: 2022-01-30T12:35:13-0700
 draft: false
 weight: 1

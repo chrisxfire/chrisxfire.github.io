@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > subqueries
+title: subqueries
 date: 2022-04-27T18:56:35-0600
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: "on delegation"
+title: on delegation
 date: 2019-08-30T09:26:49-06:00
 draft: false
 ---
@@ -38,7 +38,7 @@ Delegation, when leveraged appropriately, is a tool that is truly an extension o
 It is the lever you pull to not only get things done on a broader scale, but to develop your team at the same time. 
 It is a means of extending trust while at the same time instilling empowerment. Practice this skill just as much as any other in your toolkit.
 
-> “If you want to do a few small things right, do them yourself. If you want to do great things and make a big impact, learn to delegate.” —John C. Maxwell, American author
+> ï¿½If you want to do a few small things right, do them yourself. If you want to do great things and make a big impact, learn to delegate.ï¿½ ï¿½John C. Maxwell, American author
 
 Practice, and be well.
 

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > 3rd party libraries > scottplot
+title: scottplot
 date: 2022-04-20T13:32:51-0600
 draft: false
 ---

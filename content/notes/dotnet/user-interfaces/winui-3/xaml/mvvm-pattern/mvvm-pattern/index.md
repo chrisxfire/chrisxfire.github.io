@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > mvvm pattern > mvvm pattern
+title: mvvm pattern
 date: 2022-12-12T17:00:55-0700
 draft: false
 weight: 1

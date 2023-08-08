@@ -1,5 +1,5 @@
 ---
-title: notes > cli > git > commit
+title: commit
 date: 2022-10-23T16:07:37-0600
 draft: false
 weight: 1

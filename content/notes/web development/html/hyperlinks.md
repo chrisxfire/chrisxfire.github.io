@@ -1,5 +1,5 @@
 ---
-title: notes > web development > html > hyperlinks
+title: hyperlinks
 date: 2023-04-26T17:22:15-0600
 draft: false
 weight: 1

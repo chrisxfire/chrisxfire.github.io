@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > standard query operators > convert
+title: convert
 date: 2022-11-13T18:58:51-0700
 draft: false
 weight: 1

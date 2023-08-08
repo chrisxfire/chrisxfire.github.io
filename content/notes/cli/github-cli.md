@@ -1,5 +1,5 @@
 ---
-title: notes > cli > github cli
+title: github cli
 date: 2022-12-22T00:00:00-07:00
 draft: false
 weight: 1

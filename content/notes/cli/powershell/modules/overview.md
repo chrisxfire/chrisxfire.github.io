@@ -1,5 +1,5 @@
 ---
-title: notes > cli > powershell > modules > overview
+title: overview
 date: 2022-06-02T00:00:00-06:00
 draft: false
 weight: -1
