@@ -4,7 +4,7 @@ CheckExternal: true
 CheckInternalHash: true
 EnforceHTTPS: true
 IgnoreAltEmpty: false # Ignore alt=""
-IgnoreAltMissing: true
+IgnoreAltMissing: false
 IgnoreCanonicalBrokenLinks: true
 IgnoreDirectoryMissingTrailingSlash: true
 IgnoreEmptyHref: true # Ignore href=""

@@ -78,7 +78,7 @@ graph TD;
 
 <img src="mermaid.png" width="50%" height="50%">
 
-## [Math](http://en.wikibooks.org/wiki/LaTeX/Mathematics)
+## [Math](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
 Delimit expressions with $:
 ```markdown
 This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
