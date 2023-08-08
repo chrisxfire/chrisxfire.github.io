@@ -1,14 +1,10 @@
-<!-- 
-    <nav aria-label="breadcrumb">
-    <ol>
-        {{ range .Ancestors.Reverse }}
-        <li>
-            <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-        </li>
-        {{ end }}
-        <li class="active">
-            <a aria-current="page" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-        </li>
-    </ol>
-</nav>
--->
+<!-- Hugo Codex's version -->
+<!-- My modifications changed '.Title' to '.LinkTitle' -->
+<div class="breadcrumb">
+    <ul>
+        {{- range .Ancestors.Reverse }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{- end }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    </ul>
+</div>
