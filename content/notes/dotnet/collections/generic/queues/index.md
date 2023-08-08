@@ -1,5 +1,5 @@
 ---
-title: notes > .net > collections > generic > queues
+title: queues
 date: 2021-11-15T16:23:15-0700
 draft: false
 weight: 1

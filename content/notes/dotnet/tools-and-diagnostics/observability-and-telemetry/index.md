@@ -1,5 +1,5 @@
 ---
-title: notes > .net > tools and diagnostics > observability and telemetry
+title: observability and telemetry
 date: 2023-08-05T00:00:00-06:00
 draft: false
 weight: 1

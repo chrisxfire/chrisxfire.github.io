@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > clauses > join clause
+title: join clause
 date: 2022-04-27T18:45:49-0600
 draft: false
 weight: 1

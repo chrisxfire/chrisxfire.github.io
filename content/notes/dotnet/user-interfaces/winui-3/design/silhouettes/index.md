@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > design > silhouettes
+title: silhouettes
 date: 2023-01-05T18:49:55-0700
 draft: false
 weight: 1

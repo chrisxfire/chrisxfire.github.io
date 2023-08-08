@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > programming models > multitasking and multithreading
+title: multitasking and multithreading
 date: 2022-03-19T16:03:07-0600
 draft: false
 weight: 1

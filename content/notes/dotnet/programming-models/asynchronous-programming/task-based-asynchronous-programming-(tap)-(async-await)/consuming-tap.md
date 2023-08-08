@@ -1,5 +1,5 @@
 ---
-title: notes > .net > programming models > asynchronous programming > task-based asynchronous pattern (tap) (async await) > consuming tap
+title: consuming tap
 date: 2022-11-21T22:06:24-0700
 draft: false
 weight: 1

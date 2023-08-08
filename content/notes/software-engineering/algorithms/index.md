@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > algorithms
+title: algorithms
 date: 2022-02-17T19:00:29-0700
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > debugging > stopwatch
+title: stopwatch
 date: 2021-12-24T15:52:31-0700
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > services > worker services
+title: worker services
 date: 2022-06-27T08:19:08-0600
 draft: false
 weight: 1

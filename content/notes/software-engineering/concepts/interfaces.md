@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > concepts > interfaces
+title: interfaces
 date: 2023-03-16T17:35:39-0600
 draft: false
 weight: 1

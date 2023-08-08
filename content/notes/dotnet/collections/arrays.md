@@ -1,5 +1,5 @@
 ---
-title: notes > .net > collections > arrays
+title: arrays
 date: 2021-11-06T11:43:18-0600
 draft: false
 weight: 1

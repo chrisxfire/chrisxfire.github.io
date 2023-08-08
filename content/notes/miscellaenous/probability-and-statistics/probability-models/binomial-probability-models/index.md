@@ -1,5 +1,5 @@
 ---
-title: notes > miscellaenous > probability and statistics > probability models > binomial probability models
+title: binomial probability models
 date: 2021-06-17T00:00:00-06:00
 draft: false
 weight: 1

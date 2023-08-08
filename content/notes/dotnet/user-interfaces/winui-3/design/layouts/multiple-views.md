@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > design > layouts > multiple views
+title: multiple views
 date: 2023-01-02T20:53:42-0700
 draft: false
 weight: 1

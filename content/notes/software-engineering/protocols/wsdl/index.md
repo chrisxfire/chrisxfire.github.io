@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > protocols > wsdl
+title: wsdl
 date: 2022-06-21T14:10:55-0600
 draft: false
 weight: 1

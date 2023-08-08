@@ -1,5 +1,5 @@
 ---
-title: notes > .net > programming models > asynchronous programming > task-based asynchronous pattern (tap) (async await) > overview
+title: overview
 date: 2022-11-21T21:16:58-0700
 draft: false
 weight: -1

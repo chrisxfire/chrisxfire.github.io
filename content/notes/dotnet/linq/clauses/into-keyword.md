@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > clauses > into keyword
+title: into keyword
 date: 2022-04-25T21:03:34-0600
 draft: false
 weight: 1

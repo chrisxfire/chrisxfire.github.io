@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > reading > architecting modern web apps > 1 traditional web apps vs spas
+title: 1 traditional web apps vs spas
 date: 2023-04-14T00:00:00-06:00
 draft: false
 weight: 1

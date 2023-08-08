@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > controls
+title: controls
 date: 2023-01-05T19:25:29-0700
 draft: false
 weight: 1

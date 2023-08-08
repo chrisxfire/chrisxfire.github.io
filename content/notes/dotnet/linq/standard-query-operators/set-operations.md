@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > standard query operators > set operations
+title: set operations
 date: 2022-11-08T20:37:38-0700
 draft: false
 weight: 1

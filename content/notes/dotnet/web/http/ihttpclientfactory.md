@@ -1,5 +1,5 @@
 ---
-title: notes > .net > web > http > ihttpclientfactory
+title: ihttpclientfactory
 date: 2022-07-22T09:36:06-0600
 draft: false
 weight: 1

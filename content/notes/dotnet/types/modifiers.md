@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > modifiers
+title: modifiers
 date: 2022-11-25T21:11:47-0700
 draft: false
 weight: 1

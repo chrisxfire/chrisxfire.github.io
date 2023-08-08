@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > behavioral > mediator
+title: mediator
 date: 2023-03-05T15:55:00-0700
 draft: false
 weight: 1

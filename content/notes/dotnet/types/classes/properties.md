@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > properties
+title: properties
 date: 2021-11-06T11:25:46-0600
 draft: false
 weight: 1

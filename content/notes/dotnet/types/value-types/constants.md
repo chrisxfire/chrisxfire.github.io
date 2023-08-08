@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > value types > constants
+title: constants
 date: 2022-02-19T11:32:28-0700
 draft: false
 weight: 1

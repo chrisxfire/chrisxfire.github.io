@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > web apps > blazor > learning path
+title: learning path
 date: 2023-05-24T00:00:00-06:00
 draft: true
 weight: 1

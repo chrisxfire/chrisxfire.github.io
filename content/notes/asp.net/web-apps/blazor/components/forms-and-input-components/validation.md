@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > web apps > blazor > components > forms and input components > validation
+title: validation
 date: 2023-07-18T00:00:00-06:00
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > toolkits > communitytoolkit.diagnostics
+title: communitytoolkit.diagnostics
 date: 2023-02-28T15:58:54-0700
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > concepts > stack and heap
+title: stack and heap
 date: 2022-01-02T21:54:37-0700
 draft: false
 weight: 1

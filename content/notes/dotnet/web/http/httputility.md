@@ -1,5 +1,5 @@
 ---
-title: notes > .net > web > http > httputility
+title: httputility
 date: 2021-11-28T09:17:19-0700
 draft: false
 weight: 1

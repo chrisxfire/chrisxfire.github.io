@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > expression bodied members
+title: expression bodied members
 date: 2022-02-16T16:38:07-0700
 draft: false
 weight: 1

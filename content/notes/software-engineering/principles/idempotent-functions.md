@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > principles > idempotent functions
+title: idempotent functions
 date: 2022-08-23T08:58:15-0600
 draft: false
 weight: 1

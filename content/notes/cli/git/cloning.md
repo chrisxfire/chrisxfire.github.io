@@ -1,5 +1,5 @@
 ---
-title: notes > cli > git > cloning
+title: cloning
 date: 2022-10-23T16:10:04-0600
 draft: false
 weight: 1

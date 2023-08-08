@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > behavioral > template method
+title: template method
 date: 2023-03-05T15:53:38-0700
 draft: false
 weight: 1

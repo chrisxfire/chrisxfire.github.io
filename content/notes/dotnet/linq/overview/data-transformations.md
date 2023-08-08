@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > overview > data transformations
+title: data transformations
 date: 2022-11-05T22:14:36-0600
 draft: false
 weight: 1

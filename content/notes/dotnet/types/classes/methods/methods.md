@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > methods > methods
+title: methods
 date: 2021-11-06T10:44:24-0600
 draft: false
 weight: 1

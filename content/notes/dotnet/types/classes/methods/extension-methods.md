@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > methods > extension methods
+title: extension methods
 date: 2022-02-26T21:38:42-0700
 draft: false
 weight: 1

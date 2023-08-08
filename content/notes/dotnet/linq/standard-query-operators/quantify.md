@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > standard query operators > quantify
+title: quantify
 date: 2022-11-08T21:02:55-0700
 draft: false
 weight: 1

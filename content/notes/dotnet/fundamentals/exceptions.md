@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > exceptions
+title: exceptions
 date: 2021-11-09T00:00:00-06:00
 draft: false
 weight: 1

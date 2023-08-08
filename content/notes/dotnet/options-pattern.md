@@ -1,5 +1,5 @@
 ---
-title: notes > .net > options pattern
+title: options pattern
 date: 2022-08-23T17:16:31-0600
 draft: false
 weight: 1

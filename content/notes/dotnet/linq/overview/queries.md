@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > overview > queries
+title: queries
 date: 2022-11-05T21:40:53-0600
 draft: false
 weight: 1

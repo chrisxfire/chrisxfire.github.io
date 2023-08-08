@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > generics > overview
+title: overview
 date: 2021-11-07T19:58:42-0700
 draft: false
 weight: -1

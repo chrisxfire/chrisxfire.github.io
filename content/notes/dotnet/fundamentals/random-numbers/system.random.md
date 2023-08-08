@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > random numbers > system.random
+title: system.random
 date: 2021-11-10T18:43:00-0700
 draft: false
 weight: 1

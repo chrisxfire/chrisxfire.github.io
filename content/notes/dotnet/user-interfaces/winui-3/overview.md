@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > overview
+title: overview
 date: 2022-12-09T19:58:34-0700
 draft: false
 weight: -1

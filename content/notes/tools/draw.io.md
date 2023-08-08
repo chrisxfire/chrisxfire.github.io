@@ -1,5 +1,5 @@
 ---
-title: notes > tools > draw.io
+title: draw.io
 date: 2022-01-18T00:00:00-06:00
 draft: false
 weight: 1

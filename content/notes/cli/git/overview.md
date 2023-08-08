@@ -1,5 +1,5 @@
 ---
-title: notes > cli > git > overview
+title: overview
 date: 2021-05-26T10:13:25-0600
 draft: false
 weight: -1

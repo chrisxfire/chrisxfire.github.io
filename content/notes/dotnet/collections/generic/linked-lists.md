@@ -1,5 +1,5 @@
 ---
-title: notes > .net > collections > generic > linked lists
+title: linked lists
 date: 2021-11-15T14:18:34-0700
 draft: false
 weight: 1

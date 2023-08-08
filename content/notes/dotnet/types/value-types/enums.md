@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > value types > enums
+title: enums
 date: 2021-11-05T21:33:38-0600
 draft: false
 weight: 1

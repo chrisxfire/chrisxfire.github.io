@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > concepts > delegates
+title: delegates
 date: 2023-02-22T11:10:19-0700
 draft: false
 weight: 1

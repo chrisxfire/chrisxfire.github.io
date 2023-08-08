@@ -1,5 +1,5 @@
 ---
-title: notes > .net > 3rd party libraries > microsoft.data.analysis > dataframecolumn
+title: dataframecolumn
 date: 2022-01-25T13:39:48-0700
 draft: false
 weight: 1

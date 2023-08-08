@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > data binding
+title: data binding
 date: 2022-12-12T16:39:12-0700
 draft: false
 weight: 1

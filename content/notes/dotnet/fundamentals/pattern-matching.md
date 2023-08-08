@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > pattern matching
+title: pattern matching
 date: 2021-11-19T00:00:00-06:00
 draft: false
 weight: 1

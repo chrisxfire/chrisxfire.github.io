@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > concepts > sets and bags
+title: sets and bags
 date: 2022-05-08T17:04:09-0600
 draft: false
 weight: 1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > value types > ref structs
+title: ref structs
 date: 2022-11-03T20:34:52-0600
 draft: false
 weight: 1

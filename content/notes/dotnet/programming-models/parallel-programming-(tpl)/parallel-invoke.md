@@ -1,5 +1,5 @@
 ---
-title: notes > .net > programming models > parallel programming (tpl) > parallel invoke
+title: parallel invoke
 date: 2023-02-17T09:58:06-0700
 draft: false
 weight: 1

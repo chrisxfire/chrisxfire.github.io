@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > fields
+title: fields
 date: 2021-12-30T16:57:31-0700
 draft: false
 weight: 1

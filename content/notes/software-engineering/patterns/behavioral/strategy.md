@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > behavioral > strategy
+title: strategy
 date: 2023-03-05T15:55:22-0700
 draft: false
 weight: 1

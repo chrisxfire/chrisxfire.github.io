@@ -1,5 +1,5 @@
 ---
-title: notes > .net > web > http > httpclient
+title: httpclient
 date: 2021-11-11T09:41:47-0700
 draft: false
 weight: 1

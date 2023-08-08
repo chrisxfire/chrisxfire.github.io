@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > design > commanding
+title: commanding
 date: 2023-01-02T17:19:09-0700
 draft: false
 weight: 1

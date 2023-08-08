@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > standard query operators > join
+title: join
 date: 2022-11-10T20:06:48-0700
 draft: false
 weight: 1

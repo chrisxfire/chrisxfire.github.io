@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > reference types > records
+title: records
 date: 2021-11-07T19:30:56-0700
 draft: false
 weight: 1

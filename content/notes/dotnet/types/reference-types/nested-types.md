@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > reference types > nested types
+title: nested types
 date: 2022-03-06T18:11:19-0700
 draft: false
 weight: 1

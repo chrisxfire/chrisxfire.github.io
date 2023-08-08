@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > methods > finalizers
+title: finalizers
 date: 2022-01-03T21:10:32-0700
 draft: false
 weight: 1

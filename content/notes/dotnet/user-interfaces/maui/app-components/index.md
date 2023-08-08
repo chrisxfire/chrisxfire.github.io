@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > maui > app components
+title: app components
 date: 2022-09-02T12:24:49-0600
 draft: false
 weight: 1

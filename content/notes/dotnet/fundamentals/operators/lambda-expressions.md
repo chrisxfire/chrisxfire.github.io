@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > operators > lambda expressions
+title: lambda expressions
 date: 2022-05-07T00:00:00-06:00
 draft: false
 weight: 1

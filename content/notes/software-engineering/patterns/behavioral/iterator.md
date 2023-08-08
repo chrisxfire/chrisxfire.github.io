@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > behavioral > iterator
+title: iterator
 date: 2023-03-05T15:53:16-0700
 draft: false
 weight: 1

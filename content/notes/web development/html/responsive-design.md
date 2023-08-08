@@ -1,5 +1,5 @@
 ---
-title: notes > web development > html > responsive design
+title: responsive design
 date: 2023-04-26T20:48:26-0600
 draft: false
 weight: 1

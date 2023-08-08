@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > behavioral > command
+title: command
 date: 2023-03-05T15:53:50-0700
 draft: false
 weight: 1

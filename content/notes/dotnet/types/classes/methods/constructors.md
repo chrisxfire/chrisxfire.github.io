@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > methods > constructors
+title: constructors
 date: 2021-11-06T11:25:27-0600
 draft: false
 weight: 1

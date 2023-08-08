@@ -1,5 +1,5 @@
 ---
-title: notes > web development > html > http status codes
+title: http status codes
 date: 2023-03-28T08:57:35-0600
 draft: false
 weight: 1

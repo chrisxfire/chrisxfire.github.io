@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > logging
+title: logging
 date: 2022-06-22T00:00:00-06:00
 draft: false
 weight: 1

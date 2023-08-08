@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > project structure
+title: project structure
 date: 2023-01-02T16:54:04-0700
 draft: false
 weight: 1

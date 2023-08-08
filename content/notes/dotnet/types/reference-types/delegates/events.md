@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > reference types > delegates > events
+title: events
 date: 2021-11-06T11:28:28-0600
 draft: false
 weight: 1

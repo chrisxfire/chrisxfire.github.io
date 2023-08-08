@@ -1,5 +1,5 @@
 ---
-title: notes > web development > hugo > directory structure
+title: directory structure
 date: 2023-03-17T13:20:38-0600
 draft: false
 weight: 1

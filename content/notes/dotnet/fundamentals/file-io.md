@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > file io
+title: file io
 date: 2021-11-10T00:00:00-06:00
 draft: false
 weight: 1

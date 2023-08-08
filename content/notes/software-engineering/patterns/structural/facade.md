@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > structural > facade
+title: facade
 date: 2023-03-05T15:52:14-0700
 draft: false
 weight: 1

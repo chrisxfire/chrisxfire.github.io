@@ -1,5 +1,5 @@
 ---
-title: notes > operating systems > linux > debian > pki > fixing legacy trusted.gpg keyring issue
+title: fixing legacy trusted.gpg keyring issue
 date: 2023-07-02T00:00:00-06:00
 draft: false
 weight: 1

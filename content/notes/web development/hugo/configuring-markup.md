@@ -1,5 +1,5 @@
 ---
-title: notes > web development > hugo > configuring markup
+title: configuring markup
 date: 2023-03-17T13:21:01-0600
 draft: false
 weight: 1

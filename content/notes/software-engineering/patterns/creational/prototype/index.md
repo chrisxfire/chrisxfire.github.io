@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > creational > prototype
+title: prototype
 date: 2023-03-05T15:08:44-0700
 draft: false
 weight: 1

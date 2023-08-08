@@ -1,5 +1,5 @@
 ---
-title: notes > web development > html > lists
+title: lists
 date: 2023-04-26T17:34:30-0600
 draft: false
 weight: 1

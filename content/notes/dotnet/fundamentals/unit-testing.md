@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > unit testing
+title: unit testing
 date: 2023-05-04T00:00:00-06:00
 draft: false
 weight: 1

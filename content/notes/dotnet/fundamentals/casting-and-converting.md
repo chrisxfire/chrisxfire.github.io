@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > casting and converting
+title: casting and converting
 date: 2022-01-01T00:00:00-06:00
 draft: false
 weight: 1

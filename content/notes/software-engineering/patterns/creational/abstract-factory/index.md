@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > patterns > creational > abstract factory
+title: abstract factory
 date: 2023-03-04T18:52:25-0700
 draft: false
 weight: 1

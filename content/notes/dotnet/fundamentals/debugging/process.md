@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > debugging > process
+title: process
 date: 2022-01-16T15:08:53-0700
 draft: false
 weight: 1

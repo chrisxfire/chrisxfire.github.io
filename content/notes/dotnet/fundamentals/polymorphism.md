@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > polymorphism
+title: polymorphism
 date: 2022-02-17T20:22:18-0700
 draft: false
 weight: 1

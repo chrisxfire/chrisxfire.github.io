@@ -1,5 +1,5 @@
 ---
-title: notes > software engineering > principles > prefer composition over inheritance
+title: prefer composition over inheritance
 date: 2023-03-16T17:38:39-0600
 draft: false
 weight: 1

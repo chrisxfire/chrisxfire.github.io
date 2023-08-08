@@ -1,5 +1,5 @@
 ---
-title: notes > cli > git > remotes
+title: remotes
 date: 2022-10-23T16:05:11-0600
 draft: false
 weight: 1

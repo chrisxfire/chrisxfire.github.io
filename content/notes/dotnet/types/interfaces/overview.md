@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > interfaces > overview
+title: overview
 date: 2021-11-05T21:26:07-0600
 draft: false
 weight: -1

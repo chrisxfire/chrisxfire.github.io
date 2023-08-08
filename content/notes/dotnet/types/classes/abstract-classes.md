@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > classes > abstract classes
+title: abstract classes
 date: 2022-02-17T20:25:50-0700
 draft: false
 weight: 1

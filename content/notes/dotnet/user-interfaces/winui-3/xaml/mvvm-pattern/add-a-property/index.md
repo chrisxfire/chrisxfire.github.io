@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > mvvm pattern > add a property
+title: add a property
 date: 2022-12-14T18:55:12-0700
 draft: false
 weight: 1

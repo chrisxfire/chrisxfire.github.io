@@ -1,5 +1,5 @@
 ---
-title: notes > .net > types > reference types > objects > objects
+title: objects
 date: 2021-11-09T20:44:08-0700
 draft: false
 weight: 1

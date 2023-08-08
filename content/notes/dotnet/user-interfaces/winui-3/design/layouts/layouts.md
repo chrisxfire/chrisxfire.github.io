@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > design > layouts > layouts
+title: layouts
 date: 2023-01-02T20:33:28-0700
 draft: false
 weight: 1

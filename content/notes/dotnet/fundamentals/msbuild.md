@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > msbuild
+title: msbuild
 date: 2023-03-14T21:16:15-0600
 draft: false
 weight: 1

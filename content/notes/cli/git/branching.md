@@ -1,5 +1,5 @@
 ---
-title: notes > cli > git > branching
+title: branching
 date: 2021-05-30T18:28:35-0600
 draft: false
 weight: 1

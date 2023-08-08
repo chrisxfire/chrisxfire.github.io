@@ -1,5 +1,5 @@
 ---
-title: notes > tools > autohotkey > scripting
+title: scripting
 date: 2023-04-26T13:15:39-0600
 draft: false
 weight: 1

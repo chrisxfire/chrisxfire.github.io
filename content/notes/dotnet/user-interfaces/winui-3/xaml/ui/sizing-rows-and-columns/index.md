@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > ui > sizing rows and columns
+title: sizing rows and columns
 date: 2022-12-11T18:40:59-0700
 draft: false
 weight: 1

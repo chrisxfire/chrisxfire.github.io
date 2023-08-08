@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > random numbers > system.security.cryptography.randomnumbergenerator
+title: system.security.cryptography.randomnumbergenerator
 date: 2023-07-27T00:00:00-06:00
 draft: false
 weight: 1

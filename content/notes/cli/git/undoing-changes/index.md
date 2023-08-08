@@ -1,5 +1,5 @@
 ---
-title: notes > cli > git > undoing changes
+title: undoing changes
 date: 2022-10-23T16:04:59-0600
 draft: false
 weight: 1

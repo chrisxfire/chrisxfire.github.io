@@ -1,5 +1,5 @@
 ---
-title: notes > .net > tools and diagnostics > containerization
+title: containerization
 date: 2023-03-10T13:32:54-0700
 draft: false
 weight: 1

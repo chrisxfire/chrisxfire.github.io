@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > editorconfig
+title: editorconfig
 date: 2022-11-17T15:45:22-0700
 draft: false
 weight: 1

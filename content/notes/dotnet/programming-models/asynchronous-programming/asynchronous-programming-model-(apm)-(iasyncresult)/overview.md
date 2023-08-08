@@ -1,5 +1,5 @@
 ---
-title: notes > .net > programming models > asynchronous programming > asynchronous programming model (APM) (iasyncresult) > overview
+title: overview
 date: 2023-02-14T17:14:31-0700
 draft: false
 weight: -1

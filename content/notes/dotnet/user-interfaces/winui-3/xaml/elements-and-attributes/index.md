@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > winui 3 > xaml > elements and attributes
+title: elements and attributes
 date: 2022-12-09T20:33:41-0700
 draft: false
 weight: 1

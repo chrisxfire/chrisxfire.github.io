@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > web apps > blazor > 3rd party
+title: 3rd party
 date: 2023-07-19T00:00:00-06:00
 draft: false
 weight: 1

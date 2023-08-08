@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > serialization > xml
+title: xml
 date: 2021-12-23T16:29:42-0700
 draft: false
 weight: 1

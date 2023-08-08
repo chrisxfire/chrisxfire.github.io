@@ -1,5 +1,5 @@
 ---
-title: notes > .net > collections > generic > hashset
+title: hashset
 date: 2021-11-15T20:30:01-0700
 draft: false
 weight: 1

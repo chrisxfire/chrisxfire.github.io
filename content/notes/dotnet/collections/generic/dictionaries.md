@@ -1,5 +1,5 @@
 ---
-title: notes > .net > collections > generic > dictionaries
+title: dictionaries
 date: 2021-11-13T11:20:41-0700
 draft: false
 weight: 1

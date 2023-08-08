@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > standard query operators > standard query operators
+title: standard query operators
 date: 2022-11-06T09:37:07-0700
 draft: false
 weight: 1

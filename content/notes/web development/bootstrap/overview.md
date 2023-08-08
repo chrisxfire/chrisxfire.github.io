@@ -1,5 +1,5 @@
 ---
-title: notes > web development > bootstrap > overview
+title: overview
 date: 2023-04-27T11:05:24-0600
 draft: false
 weight: -1

@@ -1,5 +1,5 @@
 ---
-title: notes > .net > linq > clauses > where clause
+title: where clause
 date: 2022-04-25T21:06:54-0600
 draft: false
 weight: 1

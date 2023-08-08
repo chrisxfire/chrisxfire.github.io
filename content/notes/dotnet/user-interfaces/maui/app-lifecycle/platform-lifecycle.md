@@ -1,5 +1,5 @@
 ---
-title: notes > .net > user interfaces > maui > app lifecycle > platform lifecycle
+title: platform lifecycle
 date: 2022-10-09T19:43:58-0600
 draft: false
 weight: 1

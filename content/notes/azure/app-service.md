@@ -1,5 +1,5 @@
 ---
-title: notes > azure > app service
+title: app service
 date: 2023-01-13T20:57:52-0700
 draft: false
 weight: 1

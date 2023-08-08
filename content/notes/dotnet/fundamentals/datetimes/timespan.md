@@ -1,5 +1,5 @@
 ---
-title: notes > .net > fundamentals > datetimes > timespan
+title: timespan
 date: 2021-11-11T20:40:42-0700
 draft: false
 weight: 1

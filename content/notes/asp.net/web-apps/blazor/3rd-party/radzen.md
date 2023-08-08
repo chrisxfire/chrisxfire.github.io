@@ -1,5 +1,5 @@
 ---
-title: notes > asp.net > web apps > blazor > 3rd party > radzen
+title: radzen
 date: 2023-06-12T00:00:00-06:00
 draft: false
 weight: 1

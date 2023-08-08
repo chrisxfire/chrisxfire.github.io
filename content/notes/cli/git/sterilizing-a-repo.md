@@ -1,5 +1,5 @@
 ---
-title: notes > cli > git > sterilizing a repo
+title: sterilizing a repo
 date: 2022-03-04T20:41:48-0700
 draft: false
 weight: 1
