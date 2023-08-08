@@ -21,7 +21,7 @@ Dynamic transition models (like Markov) quantify probabilities of future states 
 - Total Rate = sum of type-specific rates
 - The different types compete to be the next one to occur.
 
-![alpha, beta, lambda, rho](image.png)
+![alpha, beta, lambda, rho](image.png)  
 alpha, beta, lambda, rho
 
 - From state W, two events compete to be next:
