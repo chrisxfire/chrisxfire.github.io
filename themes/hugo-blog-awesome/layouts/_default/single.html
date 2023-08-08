@@ -1,30 +1,33 @@
 {{ define "main" }}
+
 <div class="wrapper post">
-    <main class="page-content" aria-label="Content">
-        <article>
-            <header class="header">
-                <h3 class="header-title">
-                    {{ .Title }}
-                </h3>
+    <article>
+        <header class="header">
+            <h3 class="header-title center">
+                {{ partial "breadcrumb" . }}
+            </h3>
 
-                    {{ if gt .ReadingTime 1 }}
-                        {{ .Scratch.Set "timeUnit" "mins" }}
-                    {{ else }}
-                        {{ .Scratch.Set "timeUnit" "min" }}
-                    {{ end }}
+            {{ if gt .ReadingTime 1 }}
+            {{ .Scratch.Set "timeUnit" "mins" }}
+            {{ else }}
+            {{ .Scratch.Set "timeUnit" "min" }}
+            {{ end }}
 
-                {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" .Date }}
-                {{ $last_mod_time := dateFormat "2006-01-02" .Lastmod }}
-                <div class="post-meta">
-                        <time datetime="{{ $ISO_time }}" itemprop="datePublished"> published {{ .Date | time.Format "2006-01-02" }}</time>
-                        <time datetime="{{ .Lastmod }}" itemprop="dateModified"> last modified {{ .Date | time.Format "2006-01-02" }}</time>  
-                        {{ if .Site.Params.showReadingTime }}
-                            {{.WordCount}} words (approximately {{.ReadingTime}} {{ .Scratch.Get "timeUnit" }})
-                        {{ else }}
-                            {{.WordCount}} words
-                        {{ end }}
-                </div>
-            </header>
+            {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" .Date }}
+            {{ $last_mod_time := dateFormat "2006-01-02" .Lastmod }}
+            <div class="post-meta">
+                <time datetime="{{ $ISO_time }}" itemprop="datePublished"> published {{ .Date | time.Format "2006-01-02"
+                    }}</time>
+                <time datetime="{{ .Lastmod }}" itemprop="dateModified"> last modified {{ .Date | time.Format
+                    "2006-01-02" }}</time>
+                {{ if .Site.Params.showReadingTime }}
+                {{.WordCount}} words (approximately {{.ReadingTime}} {{ .Scratch.Get "timeUnit" }})
+                {{ else }}
+                {{.WordCount}} words
+                {{ end }}
+            </div>
+        </header>
+        <main class="page-content" aria-label="Content">
             {{- if or .Params.toc .Site.Params.toc }}
             <details class="toc">
                 <summary><b>Table of Contents</b></summary>
@@ -34,10 +37,10 @@
             <div class="page-content">
                 {{ .Content }}
             </div>
-        </article>
-        <footer>
-            {{ partial "partials/giscus.html" . }}
-          </footer>
+    </article>
+    <footer>
+        {{ partial "partials/giscus.html" . }}
+    </footer>
     </main>
 </div>
 {{ end }}
