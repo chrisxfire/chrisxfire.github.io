@@ -35,6 +35,6 @@ Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=
   - [ ] Health checks
 - [x] HttpContext
 - [x] Routing
-- [ ] Error handling
+- [x] Error handling
 - [x] Making HTTP requests
 - [x] Static files
