@@ -8,7 +8,7 @@ weight: 1
 # Overview
 - OpenAI is a research and development organization that developed ChatGPT, among other models.
 - Azure OpenAI Service is Microsoft's Azure service that provides access to these models.
-- Documentation: https://devblogs.microsoft.com/dotnet/getting-started-azure-openai-dotnet/
+- Documentation: https://devblogs.microsoft.com/_net/getting-started-azure-openai-dotnet/
 
 # OpenAI Models
 - Generative Pretrained Transformers (GPT) — a model that can understand and generate writing and code.

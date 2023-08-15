@@ -45,7 +45,7 @@ See: https://learn.microsoft.com/en-us/aspnet/core/blazor/call-web-api?view=aspn
     ```
 
 # Using the `IHttpClientFactory`
-Instead of injecting a preconfigured `HttpClient`, `IHttpClientFactory` can be used instead, similar to [how it is used in other .NET apps]({{< ref "../../../../dotnet/web/http/ihttpclientfactory.md" >}}).
+Instead of injecting a preconfigured `HttpClient`, `IHttpClientFactory` can be used instead, similar to [how it is used in other .NET apps]({{< ref "../../../../_net/web/http/ihttpclientfactory.md" >}}).
 
 Both named and typed clients are supported.
 
@@ -124,7 +124,7 @@ Blazor WASM's implementation of `HttpClient` uses Fetch API.  Fetch API can be c
 | `SetBrowserRequestMode`              |                                                  |
 | `SetBrowserResponseStreamingEnabled` | ...enable support for response streaming         |
 
-Additional options can be set via the generic [SetBrowserRequestOption](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.webassembly.http.webassemblyhttprequestmessageextensions.setbrowserrequestoption?view=aspnetcore-7.0) extension method.
+Additional options can be set via the generic [SetBrowserRequestOption](https://learn.microsoft.com/en-us/_net/api/microsoft.aspnetcore.components.webassembly.http.webassemblyhttprequestmessageextensions.setbrowserrequestoption?view=aspnetcore-7.0) extension method.
 
 # Cross-Origin Resource Sharing (CORS)
 Browser security restricts a web page from making requests to a different domain than the one that served the web page.  This is called the *same-origin policy*.  <o>To make requests from the browser to an endpoint with a different origin (domain), the endpoint must enable CORS</o>.
@@ -143,4 +143,4 @@ app.UseCors(policy => policy
 See also: https://learn.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-7.0
 
 # Testing a Web API
-Blazor framework's reference source has `HttpClient` test assets: https://github.com/dotnet/aspnetcore/tree/main/src/Components/test/testassets/BasicTestApp/HttpClientTest
+Blazor framework's reference source has `HttpClient` test assets: https://github.com/_net/aspnetcore/tree/main/src/Components/test/testassets/BasicTestApp/HttpClientTest

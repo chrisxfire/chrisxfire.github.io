@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview
-- See [Problems with HttpClient]({{< ref "../../dotnet/web/http/ihttpclientfactory.md#problems-with-httpclient" >}})
+- See [Problems with HttpClient]({{< ref "../../_net/web/http/ihttpclientfactory.md#problems-with-httpclient" >}})
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0
 
 # From PluralSight
@@ -83,7 +83,7 @@ public class BasicModel : PageModel
     {
         var httpRequestMessage = new HttpRequestMessage(
             HttpMethod.Get,
-            "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches")
+            "https://api.github.com/repos/_net/AspNetCore.Docs/branches")
         {
             Headers =
             {
@@ -133,7 +133,7 @@ public class NamedClientModel : PageModel
     public async Task OnGet()
     {
         var httpClient = _httpClientFactory.CreateClient("GitHub");
-        var httpResponseMessage = await httpClient.GetAsync("repos/dotnet/AspNetCore.Docs/branches");
+        var httpResponseMessage = await httpClient.GetAsync("repos/_net/AspNetCore.Docs/branches");
 
         if (httpResponseMessage.IsSuccessStatusCode)
         {
@@ -166,7 +166,7 @@ public class GitHubService
     }
 
     public async Task<IEnumerable<GitHubBranch>?> GetAspNetCoreDocsBranchesAsync() =>
-        await _httpClient.GetFromJsonAsync<IEnumerable<GitHubBranch>>("repos/dotnet/AspNetCore.Docs/branches");
+        await _httpClient.GetFromJsonAsync<IEnumerable<GitHubBranch>>("repos/_net/AspNetCore.Docs/branches");
 }
 ```
 Instead of configuring in the typed client's constructor as above, configuration can be supplied during registration:

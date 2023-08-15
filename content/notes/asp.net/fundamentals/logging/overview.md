@@ -8,7 +8,7 @@ weight: -1
 # Overview
 ASP.NET Core supports logging with built-in and third-party logging providers:  Console, Debug, Event Tracing, Windows Event Log, TraceSource, Azure App Service, Azure Application Insights.
 
-- [Notes on Logging in .NET]({{< ref "../../../dotnet/fundamentals/logging" >}}) apply to these notes as well.
+- [Notes on Logging in .NET]({{< ref "../../../_net/fundamentals/logging" >}}) apply to these notes as well.
 - Documentation:
     - [Logging in .NET Core and ASP.NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-7.0)
     - [HTTP Logging in .NET Core and ASP.NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-logging/?view=aspnetcore-7.0)
@@ -134,7 +134,7 @@ Logging configuration is provided by the `Logging` section of `appsettings.ENVIR
 }
 ```
 
-The `Logging` property can contain `LogLevel` and logging provider properties.  See [Notes on Log Levels]({{< ref "../../../dotnet/fundamentals/logging#concepts" >}}).
+The `Logging` property can contain `LogLevel` and logging provider properties.  See [Notes on Log Levels]({{< ref "../../../_net/fundamentals/logging#concepts" >}}).
 
 # Creating Logs in Program.cs
 The logger is available in `app` immediately after calling `builder.Builder()`:
@@ -186,22 +186,22 @@ app.Run();
 | Microsoft.EntityFrameworkCore       | General Entity Framework Core diagnostics. Database activity and configuration, change detection, migrations.     |
 
 # Filtering
-See [these notes]({{< ref "../../../dotnet/fundamentals/logging#filters" >}}).
+See [these notes]({{< ref "../../../_net/fundamentals/logging#filters" >}}).
 
 # Log Categories
-See [these notes]({{< ref "../../../dotnet/fundamentals/logging#categories" >}}).
+See [these notes]({{< ref "../../../_net/fundamentals/logging#categories" >}}).
 
 # Log Event IDs
-See [these notes]({{< ref "../../../dotnet/fundamentals/logging#event-ids" >}}).
+See [these notes]({{< ref "../../../_net/fundamentals/logging#event-ids" >}}).
 
 # Log Message Templates
-See [these notes]({{< ref "../../../dotnet/fundamentals/logging#message-templates" >}}).
+See [these notes]({{< ref "../../../_net/fundamentals/logging#message-templates" >}}).
 
 # Exceptions
-See [these notes]({{< ref "../../../dotnet/fundamentals/logging#exceptions" >}}).
+See [these notes]({{< ref "../../../_net/fundamentals/logging#exceptions" >}}).
 
 # Scopes
-See [these notes]({{< ref "../../../dotnet/fundamentals/logging#scopes" >}}).
+See [these notes]({{< ref "../../../_net/fundamentals/logging#scopes" >}}).
 
 ## ActivityTrackingOptions
 Logging providers implicitly create a scope object with `SpanId`, `TraceId`, `ParentId`, `Baggage` and `Tags`.  This is configured via `ActivityTrackingOptions`:

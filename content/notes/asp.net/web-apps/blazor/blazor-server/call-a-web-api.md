@@ -48,7 +48,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        var request = new HttpRequestMessage(HttpMethod.Get, "https://api.github.com/repos/dotnet/AspNetCore.Docs/branches");
+        var request = new HttpRequestMessage(HttpMethod.Get, "https://api.github.com/repos/_net/AspNetCore.Docs/branches");
         request.Headers.Add("Accept", "application/vnd.github.v3+json");
         request.Headers.Add("User-Agent", "HttpClientFactory-Sample");
 

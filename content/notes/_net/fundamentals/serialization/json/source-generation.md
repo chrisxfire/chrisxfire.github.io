@@ -1,0 +1,9 @@
+---
+title: source generation
+date: 2023-07-27T00:00:00-06:00
+draft: true
+weight: 1
+---
+
+# Overview
+- Documentation: https://learn.microsoft.com/en-us/_net/standard/serialization/system-text-json/source-generation-modes?pivots=dotnet-7-0

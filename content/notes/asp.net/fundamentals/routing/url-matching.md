@@ -57,7 +57,7 @@ Assume the route template `/a{b}c{d}` and the URL path `/abcd`:
 If the above URL path was `/aabcd` instead, it would not match because after `b` is matched to route parameter `{b}`, no route template remains to match the remaining `a`.
 
 # [Routing with Special Characters](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#routing-with-special-characters)
-Route parameters are not always URL-encoded.  See [this GitHub issue](https://github.com/dotnet/aspnetcore/issues/11544).
+Route parameters are not always URL-encoded.  See [this GitHub issue](https://github.com/_net/aspnetcore/issues/11544).
 
 # [Route Constraints](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#route-constraints)
 Route constraints are used to disambiguate similar routes.  Do not use route constraints for input validation.  Invalid input would result in an HTTP/404 Not Found and instead should result in HTTP/400 Bad Request.
@@ -73,7 +73,7 @@ Note:  when using the regex constraint, ASP.NET Core automatically passes a time
 
 ## Custom Route Constraints
 These can be created by implementing `IRouteConstraint`.  
-See also:  https://github.com/dotnet/aspnetcore/tree/main/src/Http/Routing/src/Constraints
+See also:  https://github.com/_net/aspnetcore/tree/main/src/Http/Routing/src/Constraints
 
 # Route Parameter Transformers
 Transformers transform a parameter's value when generating links and matching actions and pages to URLs.  They execute when generating a link.

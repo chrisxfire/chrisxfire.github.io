@@ -45,7 +45,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 ```
 
 # Service Lifetimes
-ASP.NET uses the standard [.NET service lifetimes]({{< ref "../../dotnet/dependency-injection/overview#service-lifetimes" >}}).
+ASP.NET uses the standard [.NET service lifetimes]({{< ref "../../_net/dependency-injection/overview#service-lifetimes" >}}).
 
 To inject scoped services, either:
 - Inject the service into middleware's Invoke or InvokeAsync method.
@@ -53,7 +53,7 @@ To inject scoped services, either:
 - Use [Factory-based middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/extensibility?view=aspnetcore-7.0).
 
 # Service Registration Methods
-ASP.NET uses standard [.NET service registration methods]({{< ref "../../dotnet/dependency-injection/overview#service-registration-methods" >}}).
+ASP.NET uses standard [.NET service registration methods]({{< ref "../../_net/dependency-injection/overview#service-registration-methods" >}}).
 
 Notes:
 - If a service is registered with only an implementation type, you have registered that service with the same implementation and service type.

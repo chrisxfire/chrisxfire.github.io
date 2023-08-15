@@ -193,7 +193,7 @@ private void ConfigureOrder(EntityTypeBuilder<Order> builder)
 &nbsp;  
 Consider that the `ShipToAddress` property is of type `Address.`  `Address` is a value object with several other properties (`Street`, `City`, etc).  EF Core maps the `Order` object to its table with one column per Address property and prefixes each column name with the name of the property.  The `Order` table would include columns such as `ShipToAddress_Street` and `ShipToAddress_City.`  
 
-# [Execution strategies and explicit transactions using BeginTransaction and multiple DbContexts](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/work-with-data-in-asp-net-core-apps#execution-strategies-and-explicit-transactions-using-begintransaction-and-multiple-dbcontexts)
+# [Execution strategies and explicit transactions using BeginTransaction and multiple DbContexts](https://learn.microsoft.com/en-us/_net/architecture/modern-web-apps-azure/work-with-data-in-asp-net-core-apps#execution-strategies-and-explicit-transactions-using-begintransaction-and-multiple-dbcontexts)
 
 # Other Persistence Options
 4 Types of Azure Storage  
