@@ -5,12 +5,13 @@ draft: false
 weight: 1
 ---
 
-From Pluralsight/ASP.NET Core 6 Fundamentals
 
 # Model Responsibilities
-A group of classes that make up domain data — POCO classes.  
-Also contains classes that manage the data — repository classes.  
-Hides details of managing the data.  
+> Documentation: From Pluralsight/ASP.NET Core 6 Fundamentals
+
+- A group of classes that make up domain data — POCO classes.  
+- Also contains classes that manage the data — repository classes.  
+- Hides details of managing the data.  
 
 Repository classes abstract away how data is persisted; this allows other code to use these classes without this concern.
 ```cs
@@ -78,14 +79,14 @@ public class LoginViewModel
     public bool RememberMe { get; set; }
 }
 ```
-| Validation Attribute | Validates… |
-|----------------------|------------|
-`Required` | that a value is provided
-`StringLength(int)` | that a string's length is no longer than specified
-`Range` | that a value is within a range
-`RegularExpression` | that a value satisfies a regex
-`EmailAddress` | that the value is a valid email address
-`PhonenNumber` | that the value is a valid phone number
+| Validation Attribute | Validates…                                         |
+| -------------------- | -------------------------------------------------- |
+| `Required`           | that a value is provided                           |
+| `StringLength(int)`  | that a string's length is no longer than specified |
+| `Range`              | that a value is within a range                     |
+| `RegularExpression`  | that a value satisfies a regex                     |
+| `EmailAddress`       | that the value is a valid email address            |
+| `PhoneNumber`        | that the value is a valid phone number             |
 
 # Validation Summary Tag Helper
 This tag helper is used to display model validation errors to the user, usually at the top of the page:

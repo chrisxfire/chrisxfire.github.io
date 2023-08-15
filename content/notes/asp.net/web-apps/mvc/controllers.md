@@ -5,9 +5,9 @@ draft: false
 weight: 1
 ---
 
-From Pluralsight/ASP.NET 6 Core Fundamentals
-
 # Overview
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/actions?view=aspnetcore-7.0
+
 A controller defines a set of actions.  An **action** is a method on a controller which handles requests.  Requests are mapped to actions through routing.  
 A controller is responsible for initial processing of the request and instantiation of the model.  Business logic should remain in the model.
 
@@ -16,11 +16,15 @@ The controller:
 - takes the result of the model's processing (if any) 
 - returns either the appropriate proper view or the result of the API call.
 
-The controller's responsibilities do not include data access or business logic; it instead delegates to services handling these concerns.  Business concerns should be represented as services that the controller accesses through DI.
+The controller's responsibilities do not include data access or business logic it instead delegates to services handling these concerns.  Business concerns should be represented as services that the controller accesses through DI.
 
 Controllers reside in `Controller/` and inherit from `Microsoft.AspNetCore.Mvc.Controller`.
 
-Controller classes are instantiable; usually public; suffixed with `Controller`; has the `[Controller]` attribute.
+Controller classes:
+- are instantiable
+- are usually public
+- are suffixed with "Controller"
+- have the `[Controller]` attribute
 
 # Approach
 If multiple controller actions require the same service, use constructor injection to request the dependencies.
