@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-From ["Architect Modern Web Applications with ASP.NET Core and Azure"][book] eBook
+Documentation: https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/  
 
 # Traditional Web Apps
 - Perform most app logic on the server
@@ -18,8 +18,8 @@ From ["Architect Modern Web Applications with ASP.NET Core and Azure"][book] eBo
 - Using CI/CD may be more difficult
 - Choose when:
 	- App must expose a rich UI with many features
-			§ SPAs load more quickly; user actions are more responsive
-			§ SPAs support incremental updates, saving partially completed forms/docs; drag-and-drop; disconnected mode
+    	- SPAs load more quickly; user actions are more responsive
+    	- SPAs support incremental updates, saving partially completed forms/docs; drag-and-drop; disconnected mode
 	- Team is familiar with JavaScript / TypeScript / Blazor WASM
 	- App must already expose an API for other clients
 
@@ -28,5 +28,3 @@ From ["Architect Modern Web Applications with ASP.NET Core and Azure"][book] eBo
 - Choose when
 	- App must expose a rich UI with many features
 	- Team is more comfortable with .NET vs. JavaScript / TypeScript
-
-[book]: https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/
