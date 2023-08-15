@@ -6,6 +6,8 @@ weight: -1
 ---
 
 # Overview
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0
+
 Routing is matching incoming HTTP requests and dispatching them to the app's executable endpoints.  
 Endpoints are the app's units of executable request-handling code.
 
@@ -25,7 +27,7 @@ app.MapGet("/", () => "Hello World!"); // When a request is sent to /, "Hello Wo
 app.Run();
 ```
 
-If the request is not a GET request or the root of the URL is not /, no route is matched and an HTTP/404 is returned.
+If the request is not a GET request or the root of the URL is not `/`, no route is matched and an HTTP/404 is returned.
 
 [More Topics…](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0)
 - URL generation reference

@@ -66,7 +66,7 @@ app.UseRouting();
 app.MapGet("/Routing", () => "Routing."); // Endpoints are always terminal.
 ```
 Other considerations:
-- Positioning  —  Terminal middleware can be positioned anywhere in the pipeline.  Routing endpoints will execute whereever `UseEndpoints` is called.
+- Positioning  —  Terminal middleware can be positioned anywhere in the pipeline.  Routing endpoints will execute wherever `UseEndpoints` is called.
 - Matching  —  Terminal middleware allows for custom matching logic.
 - Interfacing with other middleware  —  Routing endpoints interface automatically with other middleware like `UseAuthorization` and `UseCors.`  Terminal middleware requires manual interfacing.
 

@@ -6,62 +6,11 @@ weight: 1
 ---
 
 # Overview
-- See [Problems with HttpClient]({{< ref "../../_net/web/http/ihttpclientfactory.md#problems-with-httpclient" >}})
-- Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0
 
-# From PluralSight
-## Via `HttpClient` (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
-### Configuring
-`Program.cs`
-```cs
-builder.Services.AddScoped(sp => 
-    new HttpClient() 
-    {
-        BaseAddress = new Uri("http://*some-api-endpoint*")
-    });
-```
-### Using
-`SomeComponent.razor.cs`
-```cs
-// In a Razor component, you must use the [Inject] attribute instead of the constructor dependency injection approach:
-[Inject]
-public HttpClient HttpClient { get; set; }
-// ...
-protected override async Task OnInitializedAsync()
-{
-    Employees = await Httpclient.GetFromJsonAsync<Employee[]>("api/employee");
-}
-```
+See [Problems with HttpClient]({{< ref "../../_net/web/http/ihttpclientfactory#problems-with-httpclient" >}})
 
-## Via `IHttpClientFactory` (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
-### Configuring
-```posh
-dotnet add package microsoft.extensions.http
-```
-
-`Program.cs`
-```cs
-// the AddHttpClient extension method is what brings in support for IHttpClientFactory
-builder.Services.AddHttpClient<IEmployeeDataService, EmployeeDataService>(client => 
-    client.BaseAddress = new Uri("https://localhost:44340/"));
-```
-
-### Using
-`EmployeeDataService.cs`
-```cs
-public class EmployeeDataService : IEmployeeDataService
-{
-    private readonly HttpClient _httpClient;
-
-    public EmployeeDataService(HttpClient httpClient)
-    {
-        _httpClient = httpClient;
-    }
-}
-```
-# Via `IHttpClientFactory` (From ASP.NET Core docs)
-- Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0
-
+# Via `IHttpClientFactory` 
 Register `IHttpClientFactory` in the DI container:
 ```cs {hl_lines=3}
 var builder = WebApplication.CreateBuilder(args);
@@ -202,7 +151,9 @@ public class TypedClientModel : PageModel
     }
 }
 ```
-# [Outgoing request middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0#outgoing-request-middleware)
+# Outgoing request middleware
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0#outgoing-request-middleware
+
 `IHttpClientFactory` enables you to build an outgoing request middleware.
 In this pattern, handlers are defined for each named client.
 
@@ -277,4 +228,55 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 app.UseHeaderPropagation();
 app.MapControllers();
+```
+
+# From PluralSight
+## Via `HttpClient` (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
+### Configuring
+`Program.cs`
+```cs
+builder.Services.AddScoped(sp => 
+    new HttpClient() 
+    {
+        BaseAddress = new Uri("http://*some-api-endpoint*")
+    });
+```
+### Using
+`SomeComponent.razor.cs`
+```cs
+// In a Razor component, you must use the [Inject] attribute instead of the constructor dependency injection approach:
+[Inject]
+public HttpClient HttpClient { get; set; }
+// ...
+protected override async Task OnInitializedAsync()
+{
+    Employees = await Httpclient.GetFromJsonAsync<Employee[]>("api/employee");
+}
+```
+
+## Via `IHttpClientFactory` (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
+### Configuring
+```posh
+dotnet add package microsoft.extensions.http
+```
+
+`Program.cs`
+```cs
+// the AddHttpClient extension method is what brings in support for IHttpClientFactory
+builder.Services.AddHttpClient<IEmployeeDataService, EmployeeDataService>(client => 
+    client.BaseAddress = new Uri("https://localhost:44340/"));
+```
+
+### Using
+`EmployeeDataService.cs`
+```cs
+public class EmployeeDataService : IEmployeeDataService
+{
+    private readonly HttpClient _httpClient;
+
+    public EmployeeDataService(HttpClient httpClient)
+    {
+        _httpClient = httpClient;
+    }
+}
 ```

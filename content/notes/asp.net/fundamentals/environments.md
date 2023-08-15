@@ -6,6 +6,8 @@ weight: 1
 ---
 
 # Overview
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-7.0
+
 ASP.NET reads the following env vars to determine the environment:
 - `DOTNET_ENVIRONMENT`
 - `ASPNETCORE_ENVIRONMENT` — the default when `WebApplication.CreateBuilder` is used, which is part of the default template.  This will override `DOTNET_ENVIRONMENT`.

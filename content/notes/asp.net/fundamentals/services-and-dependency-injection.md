@@ -5,9 +5,12 @@ draft: false
 weight: 1
 ---
 
-# [Dependency Injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0)
-Makes configured services available throughout an app.
-ASP.NET Core templates automatically register over 250 services including:
+# Dependency Injection
+> Documentation: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0
+
+See notes on [Dependency Injection in .NET]({{< ref "../../_net/dependency-injection/overview.md" >}}).
+
+Makes configured services available throughout an app. ASP.NET Core templates automatically register over 250 services including:
 - `IApplicationBuilderFactory`
 - `IServiceProvider` as a built-in service container
 - `ILogger<T>` (so a logger services does not need to be registered separately)
@@ -45,7 +48,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 ```
 
 # Service Lifetimes
-ASP.NET uses the standard [.NET service lifetimes]({{< ref "../../_net/dependency-injection/overview#service-lifetimes" >}}).
+ASP.NET Core uses the standard [.NET service lifetimes]({{< ref "../../_net/dependency-injection/overview#service-lifetimes" >}}).
 
 To inject scoped services, either:
 - Inject the service into middleware's Invoke or InvokeAsync method.
@@ -53,7 +56,7 @@ To inject scoped services, either:
 - Use [Factory-based middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/extensibility?view=aspnetcore-7.0).
 
 # Service Registration Methods
-ASP.NET uses standard [.NET service registration methods]({{< ref "../../_net/dependency-injection/overview#service-registration-methods" >}}).
+ASP.NET Core uses standard [.NET service registration methods]({{< ref "../../_net/dependency-injection/overview#service-registration-methods" >}}).
 
 Notes:
 - If a service is registered with only an implementation type, you have registered that service with the same implementation and service type.
@@ -84,3 +87,24 @@ By default, Entity Framework contexts are added to the service container using t
 
 ## Requesting Services
 Use `HttpContext.RequestServices` which will expose the scoped service provider.
+<o>Note:</o> Prefer requesting services via constructor parameters vs. this approach as the former results in classes that are either to test.
+
+# Disposal of Services
+<o><b>Note</b>: never dispose of services resolved from the DI container</o>. The container calls `Dispose` for the `IDisposable` services it creates.
+
+Here, `Service1`, `Service2`, and `Service3` are created by the DI container:
+```cs
+builder.Services.AddScoped<Service1>();
+builder.Services.AddSingleton<Service2>();
+
+var myKey = builder.Configuration["MyKey"];
+builder.Services.AddSingleton<IService3>(sp => new Service3(myKey));
+```
+
+Here, they are not:
+```cs
+builder.Services.AddSingleton(new Service1());
+builder.Services.AddSingleton(new Service2());
+```
+
+In the second example, `Service1` and `Service2` must be disposed of manually.

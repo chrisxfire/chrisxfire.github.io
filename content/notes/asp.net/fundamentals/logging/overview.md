@@ -6,11 +6,12 @@ weight: -1
 ---
 
 # Overview
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-7.0
+
 ASP.NET Core supports logging with built-in and third-party logging providers:  Console, Debug, Event Tracing, Windows Event Log, TraceSource, Azure App Service, Azure Application Insights.
 
 - [Notes on Logging in .NET]({{< ref "../../../_net/fundamentals/logging" >}}) apply to these notes as well.
 - Documentation:
-    - [Logging in .NET Core and ASP.NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-7.0)
     - [HTTP Logging in .NET Core and ASP.NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-logging/?view=aspnetcore-7.0)
     - [W3CLogger in .NET Core and ASP.NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/w3c-logger/?view=aspnetcore-7.0)
 

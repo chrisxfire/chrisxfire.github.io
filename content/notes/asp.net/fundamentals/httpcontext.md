@@ -6,6 +6,8 @@ weight: 1
 ---
 
 # Overview
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/use-http-context?view=aspnetcore-7.0
+
 `HttpContext` encapsulates all information about an HTTP request and response.
 - Initialized when HTTP request is received
 - Accessible by middleware and app frameworks

@@ -5,15 +5,17 @@ draft: false
 weight: 1
 ---
 
-# Hosts
-ASP.NET now uses a Generic Host.  The Web Host is provided only for backward compatibility.  
-ASP.NET creates a `WebApplicationBuilder` and a `WebApplication` which eliminates the need for a Startup class.
+# Generic Host
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-7.0
+
+ASP.NET Core now uses a Generic Host.  The Web Host is provided only for backward compatibility.  
+ASP.NET Core creates a `WebApplicationBuilder` and a `WebApplication` which eliminates the need for a `Startup` class.
 
 The host encapsulates DI, logging, configuration, and `IHostedService` implementations.
 
 See also:  [Generic Host]({{< ref "../../_net/generic-host" >}})
 
-# Create a Host with an IHostedService Implementation
+# Create a Host with an `IHostedService` Implementation
 ## `CreateDefaultBuilder`
 ```cs
 await Host.CreateDefaultBuilder(args)
@@ -42,22 +44,22 @@ await Host.CreateDefaultBuilder(args)
     .Build()
     .RunAsync();
 ```
-ConfigureWebHostDefaults:
+`ConfigureWebHostDefaults`:
 - Loads host configuration from env vars (prefixed with `ASPNETCORE_`) 
 - Sets Kestrel as the web server and configures it
 - Adds Host Filtering middleware
 - Adds Forwarded Headers middleware if `ASPNETCORE_FORWARDEDHEADERS_ENALED` == true
 - Enables IIS integration
 
-# IHostEnvironment
+# `IHostEnvironment`
 Inject `IHostEnvironment` into a class to get information about `ApplicationName`, `EnvironmentName`, and `ContentRootPath.`
 
 Web apps implement `IWebHostEnvironment` which inherits `IHostEnvironment` and adds the `WebRootPath.`
 
 # Host Configuration
 Host configuration is for the properties of `IHostEnvironment.`
-Available from `HostBuliderContext.Configuration` inside `ConfigureAppConfiguration` method.
-- After `ConfigureAppConfiguration` method, `HostBuliderContext.Configuration` is set to the app configuration.
+Available from `HostBuilderContext.Configuration` inside `ConfigureAppConfiguration` method.
+- After `ConfigureAppConfiguration` method, `HostBuilderContext.Configuration` is set to the app configuration.
 
 Call `ConfigureHostConfiguration` on `IHostBuilder`:
 ```cs

@@ -122,7 +122,7 @@ if (!app.Environment.IsDevelopment())
 }
 ```
 # Make HTTP Requests
-An implementation of `IHttpClientFactory` is available for creating HttpClient instances.
+An implementation of `IHttpClientFactory` is available for creating `HttpClient` instances.
 Register and configure one client for calling an API.  Register and configure the default client for all other purposes.
 
 # Content Root
@@ -133,5 +133,5 @@ Content root can be changed when building the host.
 
 # Web Root
 The base path for public, static resource files:  Stylesheets, JavaScript, Images.
-Default path = `*content root*/wwwroot`.
+Default path = `CONTENT_ROOT/wwwroot`.
 Web root can be changed when building the host.
