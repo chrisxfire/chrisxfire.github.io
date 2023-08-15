@@ -1,7 +1,7 @@
 ---
 title: overview (controllers)
 date: 2023-08-15T00:00:00-06:00
-draft: true
+draft: false
 weight: -1
 ---
 
@@ -208,4 +208,23 @@ public class ConsumesController : ControllerBase
     public IActionResult PostForm([FromForm] IEnumerable<int> values) =>
         Ok(new { Consumes = "application/x-www-form-urlencoded", Values = values });
 }
+```
+
+# Analyzers
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/analyzers?view=aspnetcore-7.0
+
+The MVC analyzers package works with controllers annotated with `ApiControllerAttribute` and builds on [web API conventions]({{< ref "./action-return-types#web-api-conventions" >}}). 
+
+Analyzers inspect controller actions and notify you of any that:
+- return an undeclared status code
+- return an undeclared success result
+- document a status code that is not returned
+- include an explicit model validation check
+
+## Enabling
+`.csproj`
+```xml
+<PropertyGroup>
+    <IncludeOpenAPIAnalyzers>true</IncludeOpenAPIAnalyzers>
+</PropertyGroup>
 ```
