@@ -4,14 +4,15 @@ date: 2022-02-16T16:22:14-0700
 draft: false
 weight: -1
 ---
+
 # Collections
 - Collections of objects.
 - Documentation: https://docs.microsoft.com/en-us/_net/api/system.collections?view=net-6.0
 
 # Namespaces
-- System.Collections — .NET Framework 1.0; Legacy;
-- System.Collections.Generic — .NET Framework 2.0; no thread synchronization
-- System.Collections.Concurrent — .NET Framework 4.0; thread-safe
+- `System.Collections` — .NET Framework 1.0; Legacy;
+- `System.Collections.Generic` — .NET Framework 2.0; no thread synchronization
+- `System.Collections.Concurrent` — .NET Framework 4.0; thread-safe
 
 # Common Features
 - All collections implement the `ICollection/<T>` interface. This means they must have a `Count` property.
