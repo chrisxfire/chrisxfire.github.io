@@ -54,9 +54,9 @@ When an HTTP request is received, ASP.NET Core follows this flow chart for conte
 
 There are separate formatters for input and output. Output formatters are used to format responses. Input formatters are used by model binding.
 
-- [Add XML format support]({{< ref "https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#add-xml-format-support-2" >}})
-- [Configure System.Text.Json-based formatters]({{< ref "https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#configure-systemtextjson-based-formatters-2" >}})
-- [Format ProblemDetails and ValidationProblemDetails responses]({{< ref "https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#format-problemdetails-and-validationproblemdetails-responses" >}})
+- [Add XML format support](https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#add-xml-format-support-2)
+- [Configure System.Text.Json-based formatters](https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#configure-systemtextjson-based-formatters-2)
+- [Format ProblemDetails and ValidationProblemDetails responses](https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#format-problemdetails-and-validationproblemdetails-responses)
 
 # Specify a Format
 Response formats can be restricted with the [Produces] filter.
