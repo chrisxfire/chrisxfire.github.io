@@ -228,3 +228,8 @@ Analyzers inspect controller actions and notify you of any that:
     <IncludeOpenAPIAnalyzers>true</IncludeOpenAPIAnalyzers>
 </PropertyGroup>
 ```
+
+# JSON Patch
+[JSON Patch](https://datatracker.ietf.org/doc/html/rfc6902) is standard for applying updates to a resource.  JSON Patch support in ASP.NET Core web API is based on `Newtonsoft.Json` and requires the `Microsoft.AspNetCore.Mvc.NewtonsoftJson` package.
+
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/jsonpatch?view=aspnetcore-7.0
