@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-This note includes Learn > .NET > ASP.NET Core > Fundamentals > Configuration | Option | Environments
+These notes include: Learn > .NET > ASP.NET Core > Fundamentals > Options | Environments
 
 # Overview
 ASP.NET Core web applications function as console applications.
@@ -96,14 +96,6 @@ ASP.NET Core apps use an HTTP server to listen for HTTP requests.  In Windows, t
 - Kestrel—cross-platform; can run as a reverse proxy; can run as a public-facing edge server exposed to the Internet.
 - IIS HTTP Server—ASP.NET Core app and IIS run in the same process.
 - HTTP.sys
-
-# Configuration
-See also:  [Configuration in ASP.NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0)
-Default configuration sources:  appsettings.json, environment variables, command line arguments, more.
-- Values from environment variables override those in appsettings.json.
-
-For confidential configuration data, use [Secret Manager](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-6.0#secret-manager).
-For production secrets, use [Azure Key Vault](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-6.0).
 
 # Options
 See also:  [Options pattern in ASP.NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-7.0)
