@@ -90,7 +90,7 @@ XML comments enables debug information for undocumented types and members. Most 
     <NoWarn>$(NoWarn);1591</NoWarn>
     </PropertyGroup>
     ```
-3. Configure Swagger UI to use the XML file:
+3. Customize the API documentation:
     `Program.cs`  
     ```cs
     builder.Services.AddSwaggerGen(options =>
@@ -112,10 +112,6 @@ XML comments enables debug information for undocumented types and members. Most 
                 Url = new Uri("https://example.com/license")
             }
         });
-
-        // using System.Reflection;
-        var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-        options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
     });
     ```
 
