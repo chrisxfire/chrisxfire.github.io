@@ -25,7 +25,7 @@ Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=
   - [ ] WebApplication and WebApplicationBuilder
   - [x] Generic Host
   - [x] Web Host (notes not needed; only provided for backward compatibility)
-- [ ] Configuration
+- [x] Configuration
 - [ ] Options
 - [x] Environments (dev, stage, prod)
 - [ ] Logging and monitoring...
