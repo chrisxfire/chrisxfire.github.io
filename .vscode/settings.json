@@ -55,6 +55,7 @@
         "toolkits",
         "trimmable",
         "typeof",
-        "unmanaged"
+        "unmanaged",
+        "wwwroot"
     ]
 }
