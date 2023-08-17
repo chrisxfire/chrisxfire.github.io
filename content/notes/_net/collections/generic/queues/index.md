@@ -6,7 +6,7 @@ weight: 1
 ---
 # [Queue](https://docs.microsoft.com/en-us/_net/api/system.collections.generic.queue-1?view=net-6.0)
 A first-in, first-out collection of objects.  
-<img src="queue.png" width="25%" height="25%">  
+<img src="queue.png" alt="A diagram depicting a queue" width="25%" height="25%">  
 
 ## Namespace  
 `Systems.Collections.Generic`  

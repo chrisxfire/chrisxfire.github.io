@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image1.png" width="50%" height="%50" />  
+<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image1.png" alt="A diagram depicting alignment" width="50%" height="%50" />  
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image4.png" width="50%" height="%50" />  
+<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image4.png" alt="A diagram depicting margin" width="50%" height="%50" />  
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image5.png" width="65%" height="%65" />  
+<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image5.png" alt="A diagram depicting padding" width="65%" height="%65" />  
 
 # Dimensions
 Dimensions should be set in increments of 4 effective pixels.
