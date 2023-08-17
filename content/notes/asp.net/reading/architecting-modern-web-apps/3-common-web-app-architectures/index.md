@@ -11,7 +11,7 @@ An entire application deployed as a single unit.
 - Generally a single project compiled to a single assembly deployed as a single unit.
 
 Organization of a Monolithic Application  
-<img src="monolithic-app-folder-structure.png" width="50%" height="50%">
+<img alt="" src="monolithic-app-folder-structure.png" width="50%" height="50%">
 
 Separation of concerns is achieved through folders.
 
@@ -24,7 +24,7 @@ Separation of concerns is achieved through folders.
 - Testing business logic in this architecture is difficult and requires a test database.
 
 VS Solution for N-Layer App (3 projects):  
-<img src="n-layer-app-folder-structure.png" width="40%" height="40%">
+<img alt="" src="n-layer-app-folder-structure.png" width="40%" height="40%">
 
 Even though it has 3 layers, it is still deployed as a single unit.
 
@@ -35,11 +35,11 @@ Even though it has 3 layers, it is still deployed as a single unit.
 
 In this architecture, infrastructure and implementation details depend on the Application Core.  
 Achieved by definining abstractions (interfaces) in the App Core, which are then implemented by types defined in the Infrastructure layer:  
-<img src="clean-architecture-1.png" width="50%" height="50%">  
+<img alt="" src="clean-architecture-1.png" width="50%" height="50%">  
 
-<img src="clean-architecture-2.png" width="50%" height="50%">  
+<img alt="" src="clean-architecture-2.png" width="50%" height="50%">  
 
-<img src="clean-architecture-3.png" width="50%" height="50%">
+<img alt="" src="clean-architecture-3.png" width="50%" height="50%">
 
 ## Organizing Code in Clean Architecture
 Application Core

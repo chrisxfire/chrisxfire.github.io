@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-<img src="Creational_Prototype-image1.png" style="width:3.375in;height:2.975in" />  
+<img alt="" src="Creational_Prototype-image1.png" style="width:3.375in;height:2.975in" />  
 
 # Prototype
 Type: Creational  

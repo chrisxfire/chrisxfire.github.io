@@ -6,11 +6,11 @@ weight: 1
 ---
 # In XAML
 `Grid.Column` is an *attached property*; it is a property defined in the `Grid` class but set on the `Rectangle.`  
-<img src="XAML_UI_Attached-Properties-image1.png" style="width:5.00833in;height:2.06667in" />  
+<img alt="" src="XAML_UI_Attached-Properties-image1.png" style="width:5.00833in;height:2.06667in" />  
 
 Set `Grid.Row="1"` to move to the second row of the grid.  
 
-<img src="XAML_UI_Attached-Properties-image2.png" style="width:5.025in;height:2.61667in" />
+<img alt="" src="XAML_UI_Attached-Properties-image2.png" style="width:5.025in;height:2.61667in" />
 
 # In C#
 ```cs

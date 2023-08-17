@@ -4,7 +4,7 @@ date: 2023-03-05T15:51:03-0700
 draft: false
 weight: 1
 ---
-<img src="Structural_Adapter-image1.png" style="width:5.28333in;height:3.4in" />
+<img alt="" src="Structural_Adapter-image1.png" style="width:5.28333in;height:3.4in" />
 
 # Adapter
 Type: Structural  

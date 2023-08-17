@@ -87,7 +87,7 @@ When this Component is used, the content of the Component (the value between the
 `SomeComponent.razor`
 ```html
 <ProfilePicture>
-    <img src="images/pic.jpg">
+    <img alt="" src="images/pic.jpg">
 </ProfilePicture>
 ```
 

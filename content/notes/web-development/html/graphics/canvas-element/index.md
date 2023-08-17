@@ -15,7 +15,7 @@ Syntax:
 <canvas id="myCanvas"width="200"height="100"style="border:1px solid #000000;">
 </canvas>
 ```
-<img src="xHTML_Graphics---canvas--Element-image1.png" style="width:1.40833in;height:0.7in" />  
+<img alt="" src="xHTML_Graphics---canvas--Element-image1.png" style="width:1.40833in;height:0.7in" />  
 
 # Line
 ```html
@@ -30,7 +30,7 @@ Your browser does not support the HTML canvas tag.</canvas>
     ctx.stroke();
 </script>
 ```
-<img src="xHTML_Graphics---canvas--Element-image2.png" style="width:1.5in;height:0.81667in" />  
+<img alt="" src="xHTML_Graphics---canvas--Element-image2.png" style="width:1.5in;height:0.81667in" />  
 
 # Circle
 ```html
@@ -42,7 +42,7 @@ Your browser does not support the HTML canvas tag.</canvas>
     ctx.stroke();
 </script>
 ```
-<img src="xHTML_Graphics---canvas--Element-image3.png" style="width:1.46667in;height:0.75in" />  
+<img alt="" src="xHTML_Graphics---canvas--Element-image3.png" style="width:1.46667in;height:0.75in" />  
 
 # Text
 ```html
@@ -54,7 +54,7 @@ Your browser does not support the HTML canvas tag.</canvas>
     ctx.fillText("Hello World", 10, 50);
 </script>
 ```
-<img src="xHTML_Graphics---canvas--Element-image4.png" style="width:1.5in;height:0.79167in" />  
+<img alt="" src="xHTML_Graphics---canvas--Element-image4.png" style="width:1.5in;height:0.79167in" />  
 
 # Gradient
 ```html
@@ -74,6 +74,6 @@ Your browser does not support the HTML canvas tag.</canvas>
 </script>
 ```
 
-<img src="xHTML_Graphics---canvas--Element-image5.png" style="width:1.50833in;height:0.775in" />
+<img alt="" src="xHTML_Graphics---canvas--Element-image5.png" style="width:1.50833in;height:0.775in" />
 
 

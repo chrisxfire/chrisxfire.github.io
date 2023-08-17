@@ -67,4 +67,4 @@ public static ThreadSafeSingleton getInstanceDoubleLocking()
 }
 ```
 
-<img src="Creational_Singleton-image2.png" style="width:5.18333in;height:2.90833in" />
+<img alt="" src="Creational_Singleton-image2.png" style="width:5.18333in;height:2.90833in" />

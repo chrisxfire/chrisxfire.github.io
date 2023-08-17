@@ -113,12 +113,12 @@ Given this body:
     <p>How to use CSS</p>
     <div class="tutorial" id="tutorial-1">
         <h2>Tutorial 1</h2>
-        <img src="https://via.placeholder.com/150">
+        <img alt="" src="https://via.placeholder.com/150">
         <p>To begin with tutorial 1...</p>
     </div>
     <div class="tutorial" id="tutorial-2">
         <h2>Tutorial 2</h2>
-        <img src="https://via.placeholder.com/100">
+        <img alt="" src="https://via.placeholder.com/100">
         <p>To begin thsi tutorial 2...</p>
     </div>
 </body>
@@ -178,13 +178,13 @@ Use combinators to select a specific child of a parent:
 
 # Box Model
 Every element is in a box:  
-<img src="CSS-image1.png" style="width:3.09167in;height:1.75in" />  
+<img alt="" src="CSS-image1.png" style="width:3.09167in;height:1.75in" />  
 
 The classic box model adds the border and padding to the amount of an element:  
-<img src="CSS-image2.png" style="width:3in;height:1.725in" />  
+<img alt="" src="CSS-image2.png" style="width:3in;height:1.725in" />  
 
 The box-sizing: border-box; rule renders the padding and margin inside the box:  
-<img src="CSS-image3.png" style="width:3in;height:1.71667in" />  
+<img alt="" src="CSS-image3.png" style="width:3in;height:1.71667in" />  
 
 To apply this rule to all elements:
 ```css

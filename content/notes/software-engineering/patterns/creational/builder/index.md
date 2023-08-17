@@ -126,4 +126,4 @@ public static void Main(string[] args)
     builder.GetProduct().ListParts();
 }
 ```
-<img src="Creational_Builder-image2.png" width="65%" height="65%" />  
+<img alt="" src="Creational_Builder-image2.png" width="65%" height="65%" />  

@@ -35,9 +35,9 @@ Define a maximum number of concurrent requests that can access a resource.
 
 ## Sliding window limit
 
-<img src="sliding-window-1.png" width="50%" height="50%">  
-<img src="sliding-window-2.png" width="50%" height="50%">  
-<img src="sliding-window-3.png" width="50%" height="50%">
+<img alt="" src="sliding-window-1.png" width="50%" height="50%">  
+<img alt="" src="sliding-window-2.png" width="50%" height="50%">  
+<img alt="" src="sliding-window-3.png" width="50%" height="50%">
 
 ## Partitioned rate limiter
 

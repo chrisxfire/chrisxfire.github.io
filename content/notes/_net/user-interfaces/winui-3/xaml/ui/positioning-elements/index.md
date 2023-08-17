@@ -5,13 +5,13 @@ draft: false
 weight: 1
 ---
 # Positioning Elements with Layout Properties
-<img src="XAML_UI_Positioning-Elements-image1.png" style="width:4.79167in;height:1.95in" />  
+<img alt="" src="XAML_UI_Positioning-Elements-image1.png" style="width:4.79167in;height:1.95in" />  
 
 `HorizontalAlignment` property has values of `Left`, `Center`, `Right`, `Stretch`  
 `VerticalAlignment` property has values of `Top`, `Center`, `Bottom`, `Stretch`  
 
 When `Width` and `Height` properties are set, the element will not grow or shrink:  
-<img src="XAML_UI_Positioning-Elements-image2.png" style="width:4.85in;height:1.99167in" />  
+<img alt="" src="XAML_UI_Positioning-Elements-image2.png" style="width:4.85in;height:1.99167in" />  
 
 ## Margin
 `Margin="<Left Top Right Bottom>"`  

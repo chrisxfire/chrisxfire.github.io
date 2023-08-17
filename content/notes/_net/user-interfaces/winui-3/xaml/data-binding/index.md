@@ -11,7 +11,7 @@ weight: 1
 
 Bind the `Firstname` textbox to the selected item in the `ListView`:
 
-<img src="XAML_Data-Binding-image1.png" style="width:5.25833in;height:2.88333in" />  
+<img alt="" src="XAML_Data-Binding-image1.png" style="width:5.25833in;height:2.88333in" />  
 
 This is the ListView that holds the names. Add an `x:Name` to it:
 ```xml

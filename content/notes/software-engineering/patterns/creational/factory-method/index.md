@@ -91,4 +91,4 @@ class Client
 }
 ```
 
-<img src="Creational_Factory-Method-image2.png" width="65%" height="65%" />  
+<img alt="" src="Creational_Factory-Method-image2.png" width="65%" height="65%" />  

@@ -9,7 +9,7 @@ From Pluralsight/ASP.NET Core 6 Fundamentals
 
 # Overview
 Project type = ASP.NET Core Web App (`dotnet new mvc`)  
-<img src="mvc-diagram.png" width="45%" height="45%">
+<img alt="" src="mvc-diagram.png" width="45%" height="45%">
 
 # MVC Pattern
 Requests are routed to a *controller*.  Controllers have *actions*—public methods associated with a URL.  

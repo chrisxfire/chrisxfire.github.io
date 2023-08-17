@@ -13,7 +13,7 @@ HTML elements represent formatted text, images, form inputs, and other structure
 # CSS
 CSS controls the look and layout of HTML elements.
 CSS styles can be applied to:  
-<img src="css-hierarchy.png" width="100%" height="100%">
+<img alt="" src="css-hierarchy.png" width="100%" height="100%">
 
 ## CSS preprocessors
 CSS stylesheets do not support conditional logic, variables, or other programming language features.  

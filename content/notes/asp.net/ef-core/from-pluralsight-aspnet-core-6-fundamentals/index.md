@@ -10,7 +10,7 @@ weight: 1
 # Overview
 Prior to Entity Framework Core, the approach to bring data into a web app was ADO.NET. This was low-level and required developers to know a lot of SQL. EF Core makes this easier.
 
-<img src="Notes-from-ASP.NET-Core-6-Fundamentals-Pluralsight-course-image1.png" style="width:7.09167in;height:1.38333in" />
+<img alt="" src="Notes-from-ASP.NET-Core-6-Fundamentals-Pluralsight-course-image1.png" style="width:7.09167in;height:1.38333in" />
 
 EF Core looks for a property named `Id` or `ClassNameId` and makes that the Primary Key in the database.
 

@@ -26,7 +26,7 @@ Set the control's `x:Name` attribute:
 ```
 
 Properties can be set in the properties window:  
-<img src="Controls-image1.png" style="width:3.25833in;height:1.80833in" alt="Intellisense in XAML part 1" />  
+<img src="Controls-image1.png" width="25%" height="25%" alt="Intellisense in XAML part 1" />  
 
 Or in XAML:
 ```xml
@@ -39,7 +39,7 @@ Button1.Foreground = new SolidColorBrush(Windows.UI.Colors.Beige);
 
 # Create an Event Handler
 Select the control and then click the Events tab at the top of the Properties window:  
-<img src="Controls-image2.png" style="width:3.54167in;height:1.35in" />  
+<img alt="A screenshot of an event handler." src="Controls-image2.png" width="25%" height="25%" />  
 
 Or in code:
 ```cs
@@ -50,7 +50,7 @@ private void Button_Click(object sender, RoutedEventArgs e)
 }
 ```
 Or in XAML — then, double-click `<New Event Handler>`:  
-<img src="Controls-image3.png" style="width:4.2in;height:1.20833in" alt="Intellisense for the click event" />
+<img src="Controls-image3.png" width="25%" height="25%" alt="Intellisense for the click event" />
 
 Associate an event with its event handler in code:
 ```cs

@@ -12,7 +12,7 @@ weight: -1
 - Documentation: https://learn.microsoft.com/en-us/_net/maui/
 - Documentation: https://dotnet.microsoft.com/apps/maui
 
-<img src="overview-1.png" style="width:6.625in;height:2.91667in" />
+<img alt="A diagram showing how MAUI can share C# code among iOS, Android, Windows and macOS applications." src="overview-1.png" width="25%" height="25%" />
  
 # Cross-Platform
 - Each supported platform (iOS, Android, macOS, Windows) has its own set of APIs.
@@ -24,11 +24,11 @@ weight: -1
 
 # Web
 Blazor Hybrid (Blazor + .NET MAUI) — Share Razor components with a .NET MAUI App.  
-<img src="overview-2.png" style="width:6.56667in;height:2.5in" />
+<img alt="A diagram showing how Razor components are shared across platforms." src="overview-2.png" width="25%" height="25%" />
  
 # UI
 In MAUI, UI's can be created in XAML or C#.
 
 # Handlers
 MAUI uses handlers to carry out UI operations:  
-<img src="overview-3.png" style="width:5.95833in;height:3.56667in" />
+<img alt="A diagram showing how platform-specific handlers take care of UI operations." src="overview-3.png" width="25%" height="25%" />

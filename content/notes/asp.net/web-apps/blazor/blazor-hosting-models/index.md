@@ -41,7 +41,7 @@ Cons:
 - Scaling apps requires more instances
 - ASP.NET Core web server is required to serve the app; no CDN support
 
-<img src="blazor-server-model.png" width="657" height="250">
+<img alt="" src="blazor-server-model.png" width="657" height="250">
 
 # Blazor WASM
 A SPA framework for interactive, client-side web apps.
@@ -74,7 +74,7 @@ Cons:
 - Signficantly larger download size than Blazor Server
 - Slower startup vs. Blazor Server
 
-<img src="blazor-wasm-model.png" width="686" height="250">
+<img alt="" src="blazor-wasm-model.png" width="686" height="250">
 
 # Blazor Hybrid
 - Runs as a native app on the client

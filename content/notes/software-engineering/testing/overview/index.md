@@ -37,5 +37,5 @@ UI | Tests the UI of an app; mimics clicks and interactions.
 Similar to TDD, but greater focus on acceptance tests.  
 The developer works with the business to define a set of tests that list the needed criteria for the product.  
 BDD focuses on documenting different stages of expectations for the functionality:  
-<img src="bdd.png" width="50%" height="50%">
+<img alt="" src="bdd.png" width="50%" height="50%">
 

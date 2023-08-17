@@ -55,7 +55,7 @@ Example:
 Margin="0", Padding="0"
 ```
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image2.png" style="width:2.775in;height:0.625in" />
+<img alt="A diagram depicting a textbox with no margin or padding." src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image2.png" width="20%" height="20%" />
 
 ```xml
 <Grid BorderBrush="Blue" BorderThickness="4" Width="200">
@@ -63,5 +63,5 @@ Margin="0", Padding="0"
 </Grid>
 ```
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image3.png" style="width:3.63333in;height:1.875in" />  
+<img alt="A diagram depicting a textbox with a border." src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image3.png" width="20%" height="20%" />  
 

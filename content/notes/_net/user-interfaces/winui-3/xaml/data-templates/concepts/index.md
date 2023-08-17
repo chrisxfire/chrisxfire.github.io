@@ -22,7 +22,7 @@ Instead of relying on the `ToString` result, you can use a DataTemplate to defin
 - You can bind to the properties of the object that was assigned to the `Content` property.  
 
 `DataTemplate` is an object that is assigned to `ContentTemplate` property of `ContentControl`:  
-<img src="XAML_Data-Templates-(Concepts)-image1.png" style="width:2.3in;height:2.40833in" />  
+<img alt="" src="XAML_Data-Templates-(Concepts)-image1.png" style="width:2.3in;height:2.40833in" />  
 
 # ItemsControl
 `ContentControl` is for a single object. `ItemsControl` is for a collection of objects.  
@@ -34,4 +34,4 @@ Instead of relying on the `ToString` result, you can use a DataTemplate to defin
 
 # DataTemplate
 A DataTemplate can be assigned to `ItemsControl`'s `ItemTemplate` property:  
-<img src="XAML_Data-Templates-(Concepts)-image2.png" style="width:2.33333in;height:2.375in" />  
+<img alt="" src="XAML_Data-Templates-(Concepts)-image2.png" style="width:2.33333in;height:2.375in" />  

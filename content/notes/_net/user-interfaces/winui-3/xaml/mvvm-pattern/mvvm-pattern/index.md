@@ -22,7 +22,7 @@ weight: 1
 - `Customer` class
 - `DataProvider` class — in this case, a Customer DataProvider class that loads and saves customers (in a file, a database, or a web API, etc)  
 
-<img src="XAML_MVVM-Pattern-image1.png" style="width:7.41667in;height:3.26667in" />  
+<img alt="" src="XAML_MVVM-Pattern-image1.png" style="width:7.41667in;height:3.26667in" />  
 
 # Advantages of MVVM
 - ViewModel and Model are UI-independent
