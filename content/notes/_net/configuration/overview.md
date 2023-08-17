@@ -23,9 +23,10 @@ Note: `System.Configuration.ConfigurationBuilder` != `Microsoft.Extensions.Confi
 Configuration values can be bound to instances of .NET objects.
 
 Interfaces:
-IConfigurationRepresents a set of key/value configuration properties.
-IConfigurationRootThe root of an IConfiguration hierarchy.
-IConfigurationSectionA section of configuration values.
+- `IConfiguration` — Represents a set of key/value configuration properties.
+- `IConfigurationRoot` — The root of an IConfiguration hierarchy.
+- `IConfigurationSection` — A section of configuration values.
+
 # Configuration Provider Priority
 1.  Command Line
 2.  App Secrets (Secret Manager) in development environment
