@@ -4,9 +4,13 @@ date: 2022-12-09T20:33:41-0700
 draft: false
 weight: 1
 ---
-<img alt="" src="XAML_Elements-&-Attributes-image1.png" style="width:3.175in;height:2.09167in" />  
+
 
 # Elements & Attributes
+<img alt="A diagram showing that Element is mapped to a class, Attribute is mapped to a property, and another 
+          attribute is mapped to an event." 
+     src="XAML_Elements-&-Attributes-image1.png" style="width:3.175in;height:2.09167in" />  
+
 ## Attribute Syntax
 `Button` is an *element*; in XAML, elements are mapped to Classes.  
 ```xml
@@ -56,18 +60,18 @@ This element is in *Class.Property* form; it maps to the `Content` property of t
 ```
 
 The resulting Button:  
-<img alt="" src="XAML_Elements-&-Attributes-image2.png" style="width:1.84167in;height:0.59167in" />  
+<img alt="A button with a person icon that contains a '+' and the text 'Add customer'" src="XAML_Elements-&-Attributes-image2.png" style="width:1.84167in;height:0.59167in" />  
 
 ## Content Syntax
 Use to set content directly in an object element.
 
 How it works:  
-<img alt="" src="XAML_Elements-&-Attributes-image3.png" style="width:5.425in;height:3.49167in" />    
+<img alt="A diagram showing how to set properties with Content Syntax" src="XAML_Elements-&-Attributes-image3.png" style="width:5.425in;height:3.49167in" />    
 
 Content syntax is always used when you put content in an object element without the property element.
 
 ## Collection Syntax
 Instead of assigning a value to a property, the XAML parser calls the Add method on the collection to add every element to the collection:  
-<img alt="" src="XAML_Elements-&-Attributes-image4.png" style="width:5.40833in;height:2.625in" />  
+<img alt="A diagram showing how to use Collection Syntax" src="XAML_Elements-&-Attributes-image4.png" style="width:5.40833in;height:2.625in" />  
 
 `ContentControl` is a base class of `Button`.

@@ -11,13 +11,13 @@ Assume an `Add` method in the ViewModel that should be called every time a `Butt
 
 ## Okay Approach
 Use the `Button`'s `Click` event; install an event handler in the View's code-behind file:  
-<img alt="" src="XAML_MVVM-Pattern_Executing-Logic-in-a-ViewModel-image1.png" style="width:5.63333in;height:3.13333in" />   
+<img alt="A diagram with a View on the left that contains a Button and a Button_Click. On the right is a ViewModel with an Add method. There is a dotted arrow going from the Button to the Button_Click and another from the Button_Click to the Add method." src="XAML_MVVM-Pattern_Executing-Logic-in-a-ViewModel-image1.png" style="width:5.63333in;height:3.13333in" />   
 
 Disadvantage: An event handler needs to be installed in the code-behind file for every method of the ViewModel that needs to be called.  
 
 ## Better Approach: Bind Events to Methods with x:Bind
 Bind the `Click` event to the `Add` method with `x:Bind`:  
-<img alt="" src="XAML_MVVM-Pattern_Executing-Logic-in-a-ViewModel-image2.png" style="width:5.675in;height:3.16667in" />  
+<img alt="A diagram with a View on the left containing a Button.  On the right is a ViewModel containing an Add method. There is a dotted line between the Button and the Add method with the label 'x:Bind'" src="XAML_MVVM-Pattern_Executing-Logic-in-a-ViewModel-image2.png" style="width:5.675in;height:3.16667in" />  
 
 `MainViewModel.cs`
 ```cs
