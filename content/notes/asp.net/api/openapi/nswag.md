@@ -36,7 +36,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUi3();
 }
 // ...
-
 ```
 
 ## Configuring API Information and Description
