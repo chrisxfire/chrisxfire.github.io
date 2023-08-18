@@ -84,7 +84,7 @@ public string Method() => default;
 
 # Variance
 As it pertains to generics, these concepts apply to the generic type parameter of the generic type.
-- Documentation: https://learn.microsoft.com/en-us/_net/standard/generics/covariance-and-contravariance
+- Documentation: https://learn.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance
 
 ## Covariance
 Enables the use of a more derived (more specific) type than originally specified.

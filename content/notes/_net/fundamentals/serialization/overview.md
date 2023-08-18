@@ -10,5 +10,5 @@ weight: -1
 
 - *Serialization* — Converting types/objects to JSON.
 - *Deserialization* — Converting JSON to types/objects.
-- Documentation: https://learn.microsoft.com/en-us/_net/standard/serialization/
+- Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/
  

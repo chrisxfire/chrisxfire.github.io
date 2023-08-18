@@ -146,7 +146,7 @@ derived classes.
 ## Required modifier
 <g>Availability: C# 11</g>  
 The `required` modifier indicates that a *field* or *property* it's applied to <u>must</u> be initialized by an object initializer, so any new instance of the type must initialize all required members.
-- Documentation: https://learn.microsoft.com/en-us/_net/csharp/language-reference/keywords/required
+- Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/required
 
 Considerations:
 - Available on `struct`, `record`, `record struct`, and `class` types.  Not available on `interface` types.

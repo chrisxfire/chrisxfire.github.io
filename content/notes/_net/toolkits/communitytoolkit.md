@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 # [.NET Community Toolkit](https://github.com/CommunityToolkit/dotnet)  
-<https://learn.microsoft.com/en-us/_net/communitytoolkit/>  
+<https://learn.microsoft.com/en-us/dotnet/communitytoolkit/>  
 - A collection of helpers and APIs; UI platform agnostic
 - Includes the MVVM Toolkit which was formerly a separate toolkit
 
@@ -17,6 +17,6 @@ weight: 1
 - Helpers, extensions, and custom controls for UWP apps on Windows 10/11
 - .NET Community Toolkit was historically part of Windows Community Toolkit
 
-# [.NET MAUI Community Toolkit](https://learn.microsoft.com/en-us/_net/communitytoolkit/maui/)
+# [.NET MAUI Community Toolkit](https://learn.microsoft.com/en-us/dotnet/communitytoolkit/maui/)
 - Reusable elements for .NET MAUI applications
 - Includes animations, behaviors, converters, effects, and helpers

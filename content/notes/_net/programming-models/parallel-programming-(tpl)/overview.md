@@ -21,7 +21,7 @@ When a parallel loop runs, TPL partitions the collection so that the loop can op
 - In parallel loops, synchronous calls (like `Console.WriteLine`) will significantly degrade performance.
 
 # Data Structures
-## [Systems.Collections.Concurrent](https://learn.microsoft.com/en-us/_net/standard/collections/thread-safe/)
+## [Systems.Collections.Concurrent](https://learn.microsoft.com/en-us/dotnet/standard/collections/thread-safe/)
 Efficient, thread-safe operations for access collection items from multiple threads.
 Concurrent collection classes do not require user code to take any locks when accessing items.
 
@@ -46,7 +46,7 @@ Types:
 - `SpinLock` — a mutex lock primitive that causes the thread trying to acquire the lock to loop (*spin*) before yielding. Use when wait fo the lock is expected to be short.
 - `SpinWait` — like `SpinLock` but spins for a specified amount of time before putting thread into wait state.
 
-## [Lazy Initialization](https://learn.microsoft.com/en-us/_net/framework/performance/lazy-initialization)
+## [Lazy Initialization](https://learn.microsoft.com/en-us/dotnet/framework/performance/lazy-initialization)
 With lazy initialization, memory for an object is not allocated until it is needed. Spreads object allocations evenly across the lifetime of an app.
 Enable lazy initialization for any custom type by wrapping `System.Lazy<T>`.
 

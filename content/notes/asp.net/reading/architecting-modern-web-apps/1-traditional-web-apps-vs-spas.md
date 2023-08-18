@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-Documentation: https://learn.microsoft.com/en-us/_net/architecture/modern-web-apps-azure/  
+Documentation: https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/  
 
 # Traditional Web Apps
 - Perform most app logic on the server

@@ -6,4 +6,4 @@ weight: 1
 ---
 
 # Overview
-- Documentation: https://learn.microsoft.com/en-us/_net/standard/serialization/system-text-json/source-generation-modes?pivots=dotnet-7-0
+- Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation-modes?pivots=dotnet-7-0

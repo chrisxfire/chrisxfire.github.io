@@ -10,7 +10,7 @@ weight: 1
 - Any exceptions that go unhandled in body of task are marshalled to the output task and task ends in `Faulted` state.
   - Except when an `OperationCanceledException` goes unhandled; then task ends in `Canceled` state.
 
-# [Generating TAP Methods Manually](https://learn.microsoft.com/en-us/_net/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern#generating-tap-methods-manually)
+# [Generating TAP Methods Manually](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern#generating-tap-methods-manually)
 
 # Hybrid Approach
 ```cs
@@ -71,7 +71,7 @@ Compute-bound tasks end in `Canceled` if:
 If another exception goes unhandled in body of task, task ends in `Faulted` state.
 - Any attempts to await task or access its result causes an exception to be thrown.
 
-# [I/O-bound](https://learn.microsoft.com/en-us/_net/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern#io-bound-tasks)
+# [I/O-bound](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern#io-bound-tasks)
 Use `TaskCompletionSource<TResult>` to create a task that is not backed by a thread for its entire execution.
 - Exposes a Task property and returns a `Task<TResult>` instance.
 - Lifecycle controlled by methods on the type such as `SetResult`, `SetException`, `SetCanceled`.

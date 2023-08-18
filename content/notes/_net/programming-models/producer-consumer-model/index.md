@@ -8,7 +8,7 @@ weight: 1
 # Overview
 - Channels, from the `System.Threading.Channels` namespace, are an implementation of the producer/consumer model in .NET.  
 - This namespace provides synchronization data structures for passing data between producers and consumers asynchronously.
-- Documentation: https://learn.microsoft.com/en-us/_net/core/extensions/channels 
+- Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/channels 
 
 # Channels
 Channels can be thought of as any other common generic collection type such as `List<T>`. This collection manages synchronization and provides various 

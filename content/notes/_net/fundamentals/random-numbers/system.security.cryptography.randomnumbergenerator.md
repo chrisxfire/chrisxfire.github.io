@@ -7,7 +7,7 @@ weight: 1
 
 # Overview
 A cryptographically-secure random number generator.  Implements `IDisposable`.
-- Documentation: https://learn.microsoft.com/en-us/_net/api/system.security.cryptography.randomnumbergenerator?view=net-7.0
+- Documentation: https://learn.microsoft.com/en-us/dotnet/api/system.security.cryptography.randomnumbergenerator?view=net-7.0
 
 # Use
 Create a random number generator:

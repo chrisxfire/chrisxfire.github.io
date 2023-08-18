@@ -24,7 +24,7 @@ These notes are for `System.Text.Json`.
 1. Using reflection at run time (default)
 2. Using source generation
 
-See notes on [how to enable the source generation method](https://learn.microsoft.com/en-us/_net/standard/serialization/system-text-json/source-generation-modes?pivots=dotnet-7-0).
+See notes on [how to enable the source generation method](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation-modes?pivots=dotnet-7-0).
 
 # Serializing and Deserializing with JsonSerializer
 See [notes]({{< ref "jsonserializer">}}).

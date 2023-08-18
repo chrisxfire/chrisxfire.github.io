@@ -70,8 +70,8 @@ To quickly find editorconfig files, use `dir .editorconfig /s`
 
 # Code Style & Code Quality Rules
 EditorConfig can also express code style and quality rules.
-- [Code style language rules - .NET | Microsoft Learn](https://learn.microsoft.com/en-us/_net/fundamentals/code-analysis/style-rules/language-rules)
-- [Code quality rules overview - .NET | Microsoft Learn](https://learn.microsoft.com/en-us/_net/fundamentals/code-analysis/quality-rules/)
+- [Code style language rules - .NET | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/language-rules)
+- [Code quality rules overview - .NET | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/)
 
 This format is only understood by Visual Studio while coding, not the compiler:  
 `dotnet_style_readonly_field = true:suggestion`
@@ -97,7 +97,7 @@ This format is understood by the compiler at build time:
 `#pragma warning disable CAXXXX`
 
 # AnalyzerConfig
-[Configuration files for code analysis rules - .NET | Microsoft Learn](https://learn.microsoft.com/en-us/_net/fundamentals/code-analysis/configuration-files#global-analyzerconfig)  
+[Configuration files for code analysis rules - .NET | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-files#global-analyzerconfig)  
 Like EditorConfig, but project-level configuration options.  
 Use when you have project files outside the project folder.  
 

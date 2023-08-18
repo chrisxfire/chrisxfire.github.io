@@ -7,7 +7,7 @@ weight: 1
 
 # Overview
 <g>Availability: .NET 7</g>
-- Documentation: https://learn.microsoft.com/en-us/_net/standard/serialization/system-text-json/polymorphism?pivots=dotnet-7-0
+- Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/polymorphism?pivots=dotnet-7-0
 
 `System.Text.Json` supports polymorphic type hierarchies with these attributes:
 - `[JsonDerivedType]` — indicates that the specified subtype should be opted into polymorphic serialization

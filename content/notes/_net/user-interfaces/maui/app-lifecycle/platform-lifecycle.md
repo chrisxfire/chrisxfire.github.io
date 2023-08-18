@@ -10,7 +10,7 @@ Namespace: `Microsoft.Maui.LifecycleEvents`
 - .NET MAUI uses delegates that are invoked in response to a platform lifecycle event being raised.
 - You can create handlers for these delegates.
 
-# [Android](https://learn.microsoft.com/en-us/_net/maui/fundamentals/app-lifecycle#android)
+# [Android](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/app-lifecycle#android)
 Each delegate has an identically named extension method used to register a handler for that delegate.
 
 ## Responding to Android Lifecycle Delegates
@@ -50,7 +50,7 @@ namespace PlatformLifecycleDemo
 }
 ```
 
-# [iOS](https://learn.microsoft.com/en-us/_net/maui/fundamentals/app-lifecycle#ios)
+# [iOS](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/app-lifecycle#ios)
 Each delegate has an identically named extension method used to register a handler for that delegate.
 
 ## Responding to iOS Lifecycle Delegates
@@ -87,7 +87,7 @@ namespace PlatformLifecycleDemo
     }
 }
 ```
-# [Windows](https://learn.microsoft.com/en-us/_net/maui/fundamentals/app-lifecycle#windows)
+# [Windows](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/app-lifecycle#windows)
 .NET MAUI exposes some native Windows messages as a lifecycle event via the `OnPlatformMessage` delegate. This delegate includes the `WindowsPlatformMessageEventArgs` object, which includes a `uint MessageId` property.  
 - More information: [Window Messages (Get Started with Win32 and C++) - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/learnwin32/window-messages) and [Window Notifications - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/winmsg/window-notifications)
 

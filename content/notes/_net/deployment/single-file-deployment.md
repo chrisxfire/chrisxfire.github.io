@@ -7,7 +7,7 @@ weight: 1
 
 # Overview
 Single-file deployment bundles all application-dependent files into a single binary.  This deployment method is supported for both framework-dependent and self-contained apps.
-- Documentation: https://learn.microsoft.com/en-us/_net/core/deploying/single-file/overview?tabs=cli 
+- Documentation: https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tabs=cli 
 
 # Publishing a Single-file App
 1. Update the project file:  

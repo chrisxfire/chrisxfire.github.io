@@ -124,7 +124,7 @@ Blazor WASM's implementation of `HttpClient` uses Fetch API.  Fetch API can be c
 | `SetBrowserRequestMode`              |                                                  |
 | `SetBrowserResponseStreamingEnabled` | ...enable support for response streaming         |
 
-Additional options can be set via the generic [SetBrowserRequestOption](https://learn.microsoft.com/en-us/_net/api/microsoft.aspnetcore.components.webassembly.http.webassemblyhttprequestmessageextensions.setbrowserrequestoption?view=aspnetcore-7.0) extension method.
+Additional options can be set via the generic [SetBrowserRequestOption](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.webassembly.http.webassemblyhttprequestmessageextensions.setbrowserrequestoption?view=aspnetcore-7.0) extension method.
 
 # Cross-Origin Resource Sharing (CORS)
 Browser security restricts a web page from making requests to a different domain than the one that served the web page.  This is called the *same-origin policy*.  <o>To make requests from the browser to an endpoint with a different origin (domain), the endpoint must enable CORS</o>.

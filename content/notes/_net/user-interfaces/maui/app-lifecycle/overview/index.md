@@ -79,5 +79,5 @@ public class MyWindow : Window
 ```
 Then, override the `CreateWindow` method in `App` class and return a `MyWindow` instance.
 
-# [Custom Lifecycle Events](https://learn.microsoft.com/en-us/_net/maui/fundamentals/app-lifecycle#custom-lifecycle-events)
+# [Custom Lifecycle Events](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/app-lifecycle#custom-lifecycle-events)
 <img src="app-lifecycle.png" style="width:4.76667in;height:2.275in" alt=".NET MAUI app lifecycle" />

@@ -7,7 +7,7 @@ weight: 1
 
 # Overview
 - System.CommandLine is <o>pre-release</o>.
-- Documentation: https://learn.microsoft.com/en-us/_net/standard/commandline/
+- Documentation: https://learn.microsoft.com/en-us/dotnet/standard/commandline/
 
 Installation:  
 ```powershell

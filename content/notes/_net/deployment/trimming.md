@@ -11,7 +11,7 @@ Assembly trimming removes unused parts of libraries from the application package
 Trimming is <u>only available for self-contained deployments</u>.
 
 # Considerations
-<o>Trimming has known incompatibilities.</o>  See https://learn.microsoft.com/en-us/_net/core/deploying/trimming/incompatibilities
+<o>Trimming has known incompatibilities.</o>  See https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/incompatibilities
 
 # Enabling
 To enable trimming:  
@@ -68,10 +68,10 @@ Assemblies that are not trimmed is considered "rooted."  Additional assemblies c
 - `TrimmerRemoveSymbols` is boolean to remove symbols (such as PDBs) from the trimmed application.
 
 # Framework Features Automatically Disabled When Trimming
-See: https://learn.microsoft.com/en-us/_net/core/deploying/trimming/trimming-options?pivots=dotnet-7-0#framework-features-disabled-when-trimming
+See: https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-7-0#framework-features-disabled-when-trimming
 
 # Preparing a Library for Trimming
-See https://learn.microsoft.com/en-us/_net/core/deploying/trimming/prepare-libraries-for-trimming
+See https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/prepare-libraries-for-trimming
 
 # Trimming Framework Library Features
-See: https://learn.microsoft.com/en-us/_net/core/deploying/trimming/trimming-options?pivots=dotnet-7-0#trimming-framework-library-features
+See: https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/trimming-options?pivots=dotnet-7-0#trimming-framework-library-features

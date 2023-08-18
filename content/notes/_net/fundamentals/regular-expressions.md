@@ -176,9 +176,9 @@ Lookahead and lookbehind assertions are anchors that, without moving the pointer
 | `\n`       | Match the value of subexpression n.    |
 | `\k<name>` | Match the value of subexpression name. |
 
-# [Alternation Constructs](https://learn.microsoft.com/en-us/_net/standard/base-types/regular-expression-language-quick-reference#alternation-constructs)
+# [Alternation Constructs](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference#alternation-constructs)
 
-# [Substitutions](https://learn.microsoft.com/en-us/_net/standard/base-types/regular-expression-language-quick-reference#substitutions)
+# [Substitutions](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference#substitutions)
 
 # Comments
 - `(?# comment)` // an inline comment

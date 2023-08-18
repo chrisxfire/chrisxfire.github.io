@@ -15,8 +15,8 @@ Limitations:
 - Availability: 
   - GA: .NET 7: Console applications only
   - Preview: ASP.NET Core 8 
-- All [limitations of trimming](https://learn.microsoft.com/en-us/_net/core/deploying/trimming/incompatibilities) apply.
-- All [limitations of single-file deployments](https://learn.microsoft.com/en-us/_net/core/deploying/single-file/overview?tabs=cli#api-incompatibility) apply.
+- All [limitations of trimming](https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/incompatibilities) apply.
+- All [limitations of single-file deployments](https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tabs=cli#api-incompatibility) apply.
 - No dynamic loading (`Assembly.LoadFile`)
 - No runtime code generation (`System.Reflection.Emit`)
 - Apps include required runtime libraries (like all self-contained apps), so their size is larger than framework-dependent apps.

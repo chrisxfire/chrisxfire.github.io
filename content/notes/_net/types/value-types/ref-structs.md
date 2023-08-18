@@ -4,7 +4,7 @@ date: 2022-11-03T20:34:52-0600
 draft: false
 weight: 1
 ---
-# [ref Structs](https://learn.microsoft.com/en-us/_net/csharp/language-reference/builtin-types/ref-struct)
+# [ref Structs](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/ref-struct)
 Instances of a `ref` struct are allocated on the stack and cannot escape to the managed heap.
 
 Restrictions:

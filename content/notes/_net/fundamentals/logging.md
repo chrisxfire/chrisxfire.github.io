@@ -166,8 +166,8 @@ catch (Exception ex)
 
 # Filters
 See this documentation:  
-- https://learn.microsoft.com/en-us/_net/core/extensions/logging?tabs=command-line#apply-log-filter-rules-in-code
-- https://learn.microsoft.com/en-us/_net/core/extensions/logging?tabs=command-line#filter-function
+- https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#apply-log-filter-rules-in-code
+- https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#filter-function
 
 # Message Templates
 - Log APIs use a message template that can contains placeholders for arguments provided.
@@ -184,7 +184,7 @@ _logger.LogInformation("Values: {v2}, {v1}", value1, value2); // output: 3, 9
 <o>Use the above technique instead of string interpolation to avoid performance problems.</o>
 
 ## Formatting Message Templates
-Log message templates utilize the base [formatting types](https://learn.microsoft.com/en-us/_net/standard/base-types/formatting-types):
+Log message templates utilize the base [formatting types](https://learn.microsoft.com/en-us/dotnet/standard/base-types/formatting-types):
 
 ```cs
 _logger.LogInformation("Logged on {PlaceHolderName:MMMM dd, yyyy}", DateTimeOffset.UtcNow); // Logged on January 06, 2022
@@ -214,7 +214,7 @@ Built-in providers include:
 - `EventLog` — the Windows Event Log; does not inherit default non-provider settings; defaults to `LogLevel.Warning`
 - `AzureAppServicesFile` — writes logs to text files in an Azure App Service app's file system
 - `AzureAppServicesBlob` — writes logs to text files in blob storage in an Azure Storage account
-- `dotnet trace` tool — see [dotnet-trace diagnostic tool - .NET CLI | Microsoft Learn](https://learn.microsoft.com/en-us/_net/core/diagnostics/dotnet-trace) and [Debug high CPU usage - .NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/_net/core/diagnostics/debug-highcpu?tabs=windows)
+- `dotnet trace` tool — see [dotnet-trace diagnostic tool - .NET CLI | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-trace) and [Debug high CPU usage - .NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/debug-highcpu?tabs=windows)
 
 # Creating Logs in Main
 Get an ILogger instance from DI immediately after building the host:

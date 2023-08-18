@@ -20,12 +20,12 @@ By default:
 - Enums are supported as numbers
 
 # JsonSerializerOptions Web Defaults
-The defaults in ASP.NET Core apps are different than .NET apps.  See: https://learn.microsoft.com/en-us/_net/standard/serialization/system-text-json/configure-options#web-defaults-for-jsonserializeroptions
+The defaults in ASP.NET Core apps are different than .NET apps.  See: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/configure-options#web-defaults-for-jsonserializeroptions
 
 # Guidance for Using JsonSerializerOptions
 1. <o>Caution:</o> Do not create a new instance of `JsonSerializerOptions` each time you use it.
 2. If you need a `JsonSerializerOptions` instance that has all default options, use the `JsonSerializerOptions.Default` property.
-- Documentation: https://learn.microsoft.com/en-us/_net/standard/serialization/system-text-json/configure-options?pivots=dotnet-7-0
+- Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/configure-options?pivots=dotnet-7-0
 
 # Overriding Default Behavior
 ## Properties
@@ -115,6 +115,6 @@ There are three approaches:
 | Allow trailing commas in JSON             | Set `JsonSerializerOptions`'s `AllowTrailingCommas` property to `true`                                                                                   | N/A                           |
 | Serialize numbers in quotes               | Set `JsonSerializerOptions`'s `NumberHandling` property to `JsonNumberHandling.AllowReadingFromString`                                                   | N/A                           |
 | Deserialize numbers in quotes             | Set `JsonSerializerOptions`'s `NumberHandling` property to `JsonNumberHandling.WriteAsString`                                                            | N/A                           |
-| Handle overflow JSON                      | See [this page](https://learn.microsoft.com/en-us/_net/standard/serialization/system-text-json/handle-overflow?pivots=dotnet-7-0#handle-overflow-json) | N/A                           |
-| Handle references and circular references | See [this page](https://learn.microsoft.com/en-us/_net/standard/serialization/system-text-json/preserve-references?pivots=dotnet-7-0)                  | N/A                           |
-| Deserialize to immutable types            | See [this page](https://learn.microsoft.com/en-us/_net/standard/serialization/system-text-json/immutability?pivots=dotnet-7-0)                         | N/A                           |
+| Handle overflow JSON                      | See [this page](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/handle-overflow?pivots=dotnet-7-0#handle-overflow-json) | N/A                           |
+| Handle references and circular references | See [this page](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/preserve-references?pivots=dotnet-7-0)                  | N/A                           |
+| Deserialize to immutable types            | See [this page](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/immutability?pivots=dotnet-7-0)                         | N/A                           |

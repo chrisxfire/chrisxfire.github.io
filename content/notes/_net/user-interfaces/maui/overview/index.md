@@ -9,7 +9,7 @@ weight: -1
 - Multi-platform Application User Interface.
 - Generates native code for the target device.
 - MAUI leverages WinUI 3 (via Windows App SDK) for Windows apps.
-- Documentation: https://learn.microsoft.com/en-us/_net/maui/
+- Documentation: https://learn.microsoft.com/en-us/dotnet/maui/
 - Documentation: https://dotnet.microsoft.com/apps/maui
 
 <img src="overview-1.png" style="width:6.625in;height:2.91667in" />

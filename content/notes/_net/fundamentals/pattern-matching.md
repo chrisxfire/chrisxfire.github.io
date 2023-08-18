@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-[Pattern Matching](https://learn.microsoft.com/en-us/_net/csharp/fundamentals/functional/pattern-matching#type-tests)
+[Pattern Matching](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching#type-tests)
 See also: [C# 9.0: Pattern Matching in Switch Expressions – Thomas Claudius Huber](https://www.thomasclaudiushuber.com/2021/02/25/c-9-0-pattern-matching-in-switch-expressions/)
 
 # Declaration and Type Patterns

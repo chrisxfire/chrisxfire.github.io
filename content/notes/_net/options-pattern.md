@@ -4,7 +4,7 @@ date: 2022-08-23T17:16:31-0600
 draft: false
 weight: 1
 ---
-# [Overview](https://learn.microsoft.com/en-us/_net/core/extensions/options)
+# [Overview](https://learn.microsoft.com/en-us/dotnet/core/extensions/options)
 The Configuration Options pattern uses classes to provide access to strongly-typed groups of related settings.
 
 This supports two software engineering principles:

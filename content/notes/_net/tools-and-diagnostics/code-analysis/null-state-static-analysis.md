@@ -10,7 +10,7 @@ The `System.Diagnostics.CodeAnalysis` contains attributes interpreted by the C# 
 - These attributes help to fully describe the null-state of arguments and return values in your APIs.
 - Adding these attributes gives the compiler more information about the rules for an API.
 - These attributes do not enable more checks.
-- Documentation: https://learn.microsoft.com/en-us/_net/csharp/language-reference/attributes/nullable-analysis
+- Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/attributes/nullable-analysis
 
 # Preconditions
 The `AllowNull` and `DisallowNull` are used to specify that preconditions on variables may not match the nullable annotations on those variables.

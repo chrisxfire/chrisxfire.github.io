@@ -9,7 +9,7 @@ weight: 1
 - `System.Text.Json` creates a JSON *contract* for each .NET type that determines how it is serialized and deserialized.  
 - The contract is created based on the shape of the type — its properties, fields and interfaces it implements.
 - Types are mapped to contracts either at run time (via reflection) or compile time (via source generation).
-- Documentation: https://learn.microsoft.com/en-us/_net/standard/serialization/system-text-json/custom-contracts
+- Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/custom-contracts
 
 # Customizing JSON Contracts
 <g>Availability: .NET 7</g> 

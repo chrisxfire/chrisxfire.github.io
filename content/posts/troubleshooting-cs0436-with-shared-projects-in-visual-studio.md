@@ -5,7 +5,7 @@ draft: false
 ---
 
 ### overview
-I recently ran into [compiler warning cs0436](https://learn.microsoft.com/en-us/_net/csharp/misc/cs0436) while working on a [solution](https://learn.microsoft.com/en-us/visualstudio/ide/solutions-and-projects-in-visual-studio?view=vs-2022) with a [shared project](https://learn.microsoft.com/en-us/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) in VS2022. If you run into the same, this might help you troubleshoot. 
+I recently ran into [compiler warning cs0436](https://learn.microsoft.com/en-us/dotnet/csharp/misc/cs0436) while working on a [solution](https://learn.microsoft.com/en-us/visualstudio/ide/solutions-and-projects-in-visual-studio?view=vs-2022) with a [shared project](https://learn.microsoft.com/en-us/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) in VS2022. If you run into the same, this might help you troubleshoot. 
 
 ### scenario
 You're working on a solution that contains a project, `alpha` (which is also the name of its namspace). That project contains a [project reference](https://learn.microsoft.com/en-us/visualstudio/ide/managing-references-in-a-project?view=vs-2022) to another project, `bravo`:  

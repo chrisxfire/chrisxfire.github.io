@@ -15,7 +15,7 @@ weight: 1
 - A central location for naming and configuring `HttpClient` objects.
 - Also implements `IHttpMessageHandlerFactory`.  Manages the caching and lifetime of the underlying `HttpClientHandler` instances.
 - Works with `Polly`-based middleware.
-- Documentation: https://learn.microsoft.com/en-us/_net/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests?source=recommendations
+- Documentation: https://learn.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests?source=recommendations
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0
 
 # Requirements
@@ -219,6 +219,6 @@ public async Task CreateItemAsync(Item item)
 ```
 
 # More Documentation:
-- https://learn.microsoft.com/en-us/_net/core/extensions/httpclient-factory#httpclient-lifetime-management
-- https://learn.microsoft.com/en-us/_net/core/extensions/httpclient-factory#configure-the-httpmessagehandler
-- https://learn.microsoft.com/en-us/_net/core/extensions/httpclient-factory#using-ihttpclientfactory-together-with-socketshttphandler
+- https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory#httpclient-lifetime-management
+- https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory#configure-the-httpmessagehandler
+- https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory#using-ihttpclientfactory-together-with-socketshttphandler

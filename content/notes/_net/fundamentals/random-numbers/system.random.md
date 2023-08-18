@@ -7,7 +7,7 @@ weight: 1
 
 # Overview
 Pseudo-random number generator.
-- Documentation: https://learn.microsoft.com/en-us/_net/api/system.random?view=net-7.0
+- Documentation: https://learn.microsoft.com/en-us/dotnet/api/system.random?view=net-7.0
 
 # Thread Safety
 <r>Warning:</r> `System.Random` is not thread safe.

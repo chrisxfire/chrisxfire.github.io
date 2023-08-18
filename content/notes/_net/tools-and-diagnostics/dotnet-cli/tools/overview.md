@@ -8,7 +8,7 @@ weight: -1
 # Overview
 - Tools are CLI apps installed from NuGet packages.  
 - Tools are managed and used with the `dotnet tool` command.
-- Documentation: https://learn.microsoft.com/en-us/_net/core/tools/
+- Documentation: https://learn.microsoft.com/en-us/dotnet/core/tools/
 
 # Installing
 ```powershell

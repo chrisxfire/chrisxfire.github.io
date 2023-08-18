@@ -155,7 +155,7 @@ ENTRYPOINT ["dotnet", "blsrpt.dll"]
 docker build -t *registry*/*image-name*:*tag* .
 ```
 
-# [Publish App as Container Image](https://learn.microsoft.com/en-us/_net/core/docker/publish-as-container)
+# [Publish App as Container Image](https://learn.microsoft.com/en-us/dotnet/core/docker/publish-as-container)
 Requires docker.
 ```powershell
 # For non-web apps:

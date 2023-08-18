@@ -5,4 +5,4 @@ draft: false
 weight: 1
 ---
 
-# [Overview](https://learn.microsoft.com/en-us/_net/architecture/modern-web-apps-azure/test-asp-net-core-mvc-apps)
+# [Overview](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/test-asp-net-core-mvc-apps)

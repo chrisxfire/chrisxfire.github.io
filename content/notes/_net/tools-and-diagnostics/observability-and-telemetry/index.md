@@ -17,7 +17,7 @@ Observability approaches in .NET:
 
 These notes focus on approach #1 above.
 
-Documentation: https://learn.microsoft.com/en-us/_net/core/diagnostics/observability-with-otel
+Documentation: https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel
 
 # OpenTelemetry
 A cross-platform, open standard for collecting and emitting telemetry data.  OTel is supported by a wide variety of APM systems including [Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/oss/grafana/), [Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview?tabs=net), and [many others](https://opentelemetry.io/ecosystem/vendors/).
@@ -217,16 +217,16 @@ Resource associated with Activity:
 
 ## Collecting Metrics with Prometheus
 Prometheus is a metrics collection, aggregation, and time-series database system.  
-Follow [this documentation](https://learn.microsoft.com/en-us/_net/core/diagnostics/observability-with-otel#71-install-and-configure-prometheus) to install and configure Prometheus.
+Follow [this documentation](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel#71-install-and-configure-prometheus) to install and configure Prometheus.
 
 ## Creating a Dashboard with Grafana
 Grafana is a dashboard creation tool that can create dashboards and alerts from Prometheus and other data sources.  
-Follow [this documentation](https://learn.microsoft.com/en-us/_net/core/diagnostics/observability-with-otel#8-use-grafana-to-create-a-metrics-dashboard) to install and configure Grafana.
+Follow [this documentation](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel#8-use-grafana-to-create-a-metrics-dashboard) to install and configure Grafana.
 
 ## Distributed Tracing with Jaeger
 Jaeger is an open source tool to collect information on *activities* (units of work) and visualize this information.  
-Follow [this documentation](https://learn.microsoft.com/en-us/_net/core/diagnostics/observability-with-otel#9-distributed-tracing-with-jaeger) to install and configure Jaeger.
+Follow [this documentation](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel#9-distributed-tracing-with-jaeger) to install and configure Jaeger.
 
 # Observability with Application Insights (Azure Monitor)
 Application Insights, part of Azure Monitor, is an APM system that combines metrics collection, dashboards, and distributed tracing.  
-Follow [this documentation](https://learn.microsoft.com/en-us/_net/core/diagnostics/observability-with-otel#example-use-azure-monitor-and-application-insights) to use Azure Monitor and Application Insights.
+Follow [this documentation](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel#example-use-azure-monitor-and-application-insights) to use Azure Monitor and Application Insights.

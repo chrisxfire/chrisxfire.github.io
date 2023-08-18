@@ -128,4 +128,4 @@ or, equivalently using a `TaskFactory.StartNew`, but this method is no longer re
 - If cancellation requested but result/exception produced, task ends in `RanToCompletion` or `Faulted` state
 
 # Progress Reporting
-- See https://learn.microsoft.com/en-us/_net/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap#progress-reporting-optional
+- See https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap#progress-reporting-optional
