@@ -6,8 +6,8 @@ weight: 1
 ---
 
 Microsoft Learn > ASP.NET Core > Web Apps > Advanced
-- [ ] Application parts
-- [ ] Application model
+- [x] Application parts
+- [x] Application model
 - [ ] Areas
 - [ ] Filters
 - [ ] Razor SDK
