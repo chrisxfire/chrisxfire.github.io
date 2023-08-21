@@ -1,8 +1,8 @@
 ---
-title: overview (controllers)
+title: 1. overview (controllers)
 date: 2023-08-15T00:00:00-06:00
 draft: false
-weight: -1
+weight: 1
 ---
 
 # Overview
@@ -52,7 +52,7 @@ Common attributes:
 | `[Consumes]`      | Specifies the data types that an action accepts                  |
 | `[Produces]`      | Specifies data types that an action returns                      |
 
-## `ApiController` attribute
+# `ApiController` attribute
 `[ApiController]` is applied to a class to specify that it is a *controller* and enables:
 - the attribute routing requirement
 - automatic HTTP 400 responses
@@ -70,7 +70,7 @@ var builder = WebApplication.CreateBuilder(args);
 // ...
 ```
 
-### Attribute Routing Requirement
+## Attribute Routing Requirement
 A class that inherits from ControllerBase (a *controller*) and that is decorated with the `[ApiController]` attribute **must** define a route with the `[Route]` attribute:
 ```cs
 [ApiController]
@@ -78,7 +78,7 @@ A class that inherits from ControllerBase (a *controller*) and that is decorated
 public class WeatherForecastController : ControllerBase
 ```
 
-### Automatic HTTP 400 Responses
+## Automatic HTTP 400 Responses
 The `[ApiController]` attribute makes model validation errors automatically trigger an HTTP 400 response.  So, in such a controller's action method, the following code is not needed:
 ```cs
 if (!ModelState.IsValid)
@@ -89,7 +89,7 @@ if (!ModelState.IsValid)
 
 The default response type for an HTTP 400 response is `ValidationProblemDetails`. Instead of calling `BadRequest`, call `ValidationProblem`, which returns a `ValidationProblemDetails` object as well as the automatic response.
 
-#### Logging Automatic HTTP 400 Responses
+### Logging Automatic HTTP 400 Responses
 Set `InvalidModelStateResponseFactory` when calling `ConfigureApiBehaviorOptions`:
 ```cs
 var builder = WebApplication.CreateBuilder(args);
@@ -125,7 +125,7 @@ app.MapControllers();
 app.Run();
 ```
 
-#### Disabling Automatic HTTP 400 Responses
+### Disabling Automatic HTTP 400 Responses
 Set `SuppressModelStateInvalidFilter` to `true`:
 ```cs {hl_lines=10}
 using Microsoft.AspNetCore.Mvc;
@@ -153,12 +153,59 @@ app.MapControllers();
 app.Run();
 ```
 
-### Binding Source Parameter Inference
+# Binding Source Parameter Inference
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-7.0#binding-source-parameter-inference
 
-A binding source attribute defines the location at which an action parameter's value is found.
+A binding source attribute defines the location at which an action parameter's value is found:
 
-### Multi-part/form Data Request Inference
+| Attribute        | Binding source                                   |
+| ---------------- | ------------------------------------------------ |
+| `[FromBody]`     | The HTTP request body                            |
+| `[FromForm]`     | HTTP form data in the request body               |
+| `[FromHeader]`   | The HTTP request header                          |
+| `[FromQuery]`    | The query string portion of the HTTP request     |
+| `[FromRoute]`    | The route data of the current request            |
+| `[FromServices]` | The HTTP request injected as an action parameter |
+| `[AsParameters]` | Method parameters                                |
+
+Without the `[ApiController]` attribute or the binding source attributes above, ASP.NET Core attempts to use the *complex object model binder*. This subsystem pulls data from *value providers* in a defined order.
+
+## Inference Rules
+The `[ApiController]` attribute applies these inference rules for the default data sources of action parameters:
+- `[FromServices]` — inferred for complex type parameters registered in the DI container.
+- `[FromBody]` — inferred for complex type parameters *not* registered in the DI container.
+- `[FromForm]` — inferred for action parameters of type `IFormFile` and `IFormFileCollection`; not inferred for any simple or user-defined types.
+- `[FromRoute]` — inferred for any action parameter name matching a parameter in the route template.
+- `[FromQuery]` — inferred for any other action parameters.
+
+### FromBody Considerations
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-7.0#frombody-inference-notes
+
+### FromService Considerations
+The parameter binding subsystem binds parameters through dependency injection when the type is configured as a service. Thus, it is not required to explicitly apply the `[FromServices]` attribute to a parameter.
+
+<o>In rare cases, automatic DI can break apps that have a type in DI that is also accepted in an API controller's action  methods</o>. It's not common to have a type in DI and as an argument in an API controller action.  
+
+To disable `[FromServices]` inference globally:
+```cs
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.DisableImplicitFromServicesParameters = true;
+});
+```
+
+## Disabling All Inference Rules
+```cs
+builder.Services.AddControllers()
+    .ConfigureApiBehaviorOptions(options =>
+    {
+        // ...
+        options.SuppressInferBindingSourcesForParameters = true;
+        // ...
+    });
+```
+
+## Multi-part/form Data Request Inference
 The `[ApiController]` attribute applies an inference rule for action parameters of type `IFormFile` and `IFormFileCollection`.  The `multipart/form-data` content type is inferred for these types.
 
 To disable:
@@ -166,11 +213,12 @@ To disable:
 builder.Services.AddControllers()
     .ConfigureApiBehaviorOptions(options =>
     {
+        // ...
         options.SuppressConsumesConstraintForFormFileParameters = true;
         // ...
 ```
 
-### Problem Details for Error Status Codes
+# Problem Details for Error Status Codes
 MVC transforms an error result (HTTP status code 400+) to a result with `ProblemDetails`.
 
 To disable:
@@ -182,10 +230,10 @@ builder.Services.AddControllers()
         // ...
 ```
 
-## `[Consumes]` Attribute
+# `[Consumes]` Attribute
 By default, actions support all available request content types. The `[Consumes]` attribute constrains this. It can be applied to a controller or an action.
 
-In this example, content type `application/xml` is specified, and any requests that do not specify this `Content-Type` will receive a 415/Unsupported Media Type response:
+In this example, content type `application/xml` is specified, and any requests that do not specify this content type will receive a 415/Unsupported Media Type response:
 ```cs
 [HttpPost]
 [Consumes("application/xml")]
