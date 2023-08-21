@@ -11,7 +11,7 @@ At default log levels, and with no additional providers:
 - Blazor WASM logs to the client-side browser developer tools console at `LogLevel.Information` or higher.
 
 Notes & Documentation
-- [Notes on Logging in .NET]({{< ref "../../../../_net/fundamentals/logging" >}}) apply to these notes as well.
+- [Notes on Logging in .NET]({{< ref "../../../../_net/fundamentals/logging/overview" >}}) apply to these notes as well.
 - [Notes on Logging in ASP.NET Core]({{< ref "../../../fundamentals/logging/overview" >}}) apply to these notes as well.
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/logging?view=aspnetcore-7.0
 
@@ -116,7 +116,7 @@ await host.RunAsync();
 ```
 
 ## Logging Categories
-See [these notes]({{< ref "../../../../_net/fundamentals/logging.md#categories" >}}).  
+See [these notes]({{< ref "../../../../_net/fundamentals/logging/overview.md#categories" >}}).  
 `Pages/Counter.razor`
 ```cs
 var logger = LoggerFactory.CreateLogger("CustomCategory");
@@ -124,7 +124,7 @@ logger.LogWarning("Someone has clicked me!");
 ```
 
 ## Logging Event ID
-See [these notes]({{< ref "../../../../_net/fundamentals/logging.md#event-ids" >}}).  
+See [these notes]({{< ref "../../../../_net/fundamentals/logging/overview.md#event-ids" >}}).  
 `LogEvent.cs`
 ```cs
 public class LogEvent
@@ -141,14 +141,14 @@ logger.LogWarning(LogEvent.Event2, "Someone has clicked me!");
 ```
 
 ## Logging Message Templates
-See [these notes]({{< ref "../../../../_net/fundamentals/logging.md#message-templates" >}}).  
+See [these notes]({{< ref "../../../../_net/fundamentals/logging/overview.md#message-templates" >}}).  
 `Pages/Counter.razor`
 ```cs
 logger.LogInformation("Someone clicked me at {CurrentDT}!", DateTime.UtcNow);
 ```
 
 ## Logging Exception Parameters
-See [these notes]({{< ref "../../../../_net/fundamentals/logging.md#exceptions" >}}).  
+See [these notes]({{< ref "../../../../_net/fundamentals/logging/overview.md#exceptions" >}}).  
 `Pages/Counter.razor`
 ```cs
 currentCount++;
@@ -168,7 +168,7 @@ catch (Exception ex)
 ```
 
 ## Filter Functions
-See [these notes]({{< ref "../../../../_net/fundamentals/logging.md#filters" >}}).  
+See [these notes]({{< ref "../../../../_net/fundamentals/logging/overview.md#filters" >}}).  
 `Program.cs`
 ```cs
 builder.Logging.AddFilter((provider, category, logLevel) =>
