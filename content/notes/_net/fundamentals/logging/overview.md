@@ -1,14 +1,18 @@
 ---
-title: logging
+title: overview
 date: 2022-06-22T00:00:00-06:00
 draft: false
-weight: 1
+weight: -1
 ---
 
+# Overview
+> Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line
+.NET's logging API supports a variety of built-in and third-party logging providers.
+
 # Concepts
-- Log *providers* — an implementation of `ILogger<T>` that outputs logs 
-- Log *categories* — a string associated with each log message
-- Log *levels*:
+- Logging *providers* — an implementation of `ILogger<T>` that outputs logs 
+- Logging *categories* — a string associated with each log message
+- Logging *levels*:
     - `Trace` = 0 (<r>Warning</r>: may contain sensitive app data; do not enable in production)
     - `Debug` = 1 (<o>Caution</o>: may produce a high volume of logs)
     - `Information` = 2 (default if no level specified)
@@ -17,8 +21,26 @@ weight: 1
     - `Critical` = 5 (failures that require immediate attention)
     - `None` = 6 (use this level to suppress log messages)
 
-# Creating
-Logging with Generic Host
+# Providers
+> Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logging-providers
+
+Built-in providers include:
+- `Debug` — uses `System.Diagnostics.Debug` via `Debug.WriteLine` method and only when a debugger is attached
+	- `DebugLoggerProvider` creates `DebugLogger` instances which implement `ILogger.`
+- `Console` — logs output to the console
+- `EventSource` — a cross-platform event source; on Windows, Event Trace for Windows (ETW)
+  - Note: `dotnet-trace` depends on `EventSource.`
+- `EventLog` — the Windows Event Log; <o>does not inherit default non-provider settings</o>; defaults to `LogLevel.Warning`
+- `AzureAppServicesFile` — writes logs to text files in an Azure App Service app's file system
+- `AzureAppServicesBlob` — writes logs to text files in blob storage in an Azure Storage account
+- `dotnet trace` tool — see [dotnet-trace diagnostic tool - .NET CLI | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-trace) and [Debug high CPU usage - .NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/debug-highcpu?tabs=windows)
+
+The default providers in the Worker app template are `Console`, `Debug`, `EventSource`, and `EventLog` (Windows only).
+
+# Registering Logging Services
+In .NET 6+, logging services register a generic `ILogger<T>` instead of a non-generic `ILogger`.
+
+Logging with Generic Host:
 ```cs
 class Program {
 	static Task Main(string[] args) {
@@ -40,7 +62,7 @@ class Program {
 }
 ```
 
-Logging without a Generic Host
+Logging without a Generic Host:
 ```cs
 class Program {
 	static void Main(string[] args) {
@@ -59,52 +81,8 @@ class Program {
 }
 ```
 
-# Categories
-When an `ILogger` object is created, a category is arbitrarily specified. The category is included with each message of that `ILogger` instance.  
-By convention, the category is the class name.  In this example, the category may be "`Example.DefaultService`":
-```cs
-namespace Example;
-
-public class DefaultService : IService {
-    private readonly ILogger<DefaultService> _logger;
-    
-    public DefaultService(ILogger<DefaultService> logger) =>
-        _logger = logger;
-        // ...
-    }
-}
-```
-To specify the category:
-```cs
-public DefaultService(ILoggerFactory loggerFactory) =>
-    _logger = loggerFactory.CreateLogger("CustomCategory");
-```
-`ILogger<T>` is equivalent to calling `CreateLogger.`
-
-# Logging Configuration
-Configure in `appsettings.json`:
-```json
-{
-  "Logging": {
-    "LogLevel": { // The minimum level to log for these categories:
-	 // Default, Microsoft, and Microsoft.Hosting.Lifetime are categories.
-      "Default": "Information",
-      "Microsoft": "Warning", // This category applies to all categories that start with "Microsoft".
-      "Microsoft.Hosting.Lifetime": "Information" // More specific than "Microsoft"; logs at Information and higher.
-    }
-  }
-}
-```
-
-# Log Level Extension Methods
-`Log` has extension methods:
-```cs
-_logger.Log(LogLevel.Information, …);
-// …is equivalent to…
-_logger.LogInformation(…);
-```
-
-# [Configuration](https://docs.microsoft.com/en-us/_net/core/extensions/logging?tabs=command-line#set-log-level-by-command-line-environment-variables-and-other-configuration)
+# Configuration
+> Documentation: https://docs.microsoft.com/en-us/_net/core/extensions/logging?tabs=command-line#set-log-level-by-command-line-environment-variables-and-other-configuration
 ```json
 {
     "Logging": { // This is the "Logging" property.
@@ -128,15 +106,77 @@ _logger.LogInformation(…);
 }
 ```
 
-# Event IDs
-- An `EventId` is a struct than an Id and optional Name readonly properties.  The event ID can associate a set of events.
-- Documentation: https://docs.microsoft.com/en-us/_net/core/extensions/logging?tabs=command-line#log-event-id
+## Reloading Configuration
+To reload configuration that changed in code while the app is running, call `IConfigurationRoot.Reload`.
+
+# Creating Logs
+Retrieve an `ILogger<T>` from DI:
+```cs
+public sealed class Worker : BackgroundService
+{
+    private readonly ILogger<Worker> _logger;
+
+    public Worker(ILogger<Worker> logger) =>
+        _logger = logger;
+
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        while (!stoppingToken.IsCancellationRequested)
+        {
+            _logger.LogInformation("Worker running at: {time}", DateTimeOffset.UtcNow);
+            await Task.Delay(1_000, stoppingToken);
+        }
+    }
+}
+```
+
+## Log Level Extension Methods
+`ILogger` has extension methods:
+```cs
+_logger.Log(LogLevel.Information, …);
+// …is equivalent to…
+_logger.LogInformation(…);
+```
+
+# Logging Features
+## Categories
+`ILogger<T>`'s category is an arbitrary string (by convention it is the class name). The category is included with each message of that `ILogger` instance:
+```cs
+namespace Example;
+
+public class DefaultService : IService {
+    private readonly ILogger<DefaultService> _logger;
+    
+    public DefaultService(ILogger<DefaultService> logger) =>
+        _logger = logger;
+        // ...
+    }
+}
+```
+
+To explicitly specify the category:
+```cs
+public class DefaultService : IService {
+    private readonly ILogger _logger;
+
+    public DefaultService(ILoggerFactory loggerFactory) =>
+        _logger = loggerFactory.CreateLogger("CustomCategory");
+}
+```
+`ILogger<T>` is equivalent to calling `CreateLogger(T).`
+
+## Event IDs
+> Documentation: https://docs.microsoft.com/en-us/_net/core/extensions/logging?tabs=command-line#log-event-id
+
+An `EventId` is a struct with an `Id` and optional `Name` readonly properties.  The event ID can associate a set of events.
 
 The `Debug` provider does not show event IDs.  The `Console` provider shows event IDs in brackets after the category: 
 ```posh
 info: Example.DefaultService.GetAsync[1001]
 ```
-## Creating Event IDs
+
+### Using Event IDs
+Create a class like this:
 ```cs
 internal static class AppLogEvents
 {
@@ -153,7 +193,9 @@ The `Log*` methods have overloads to accept an event ID:
 _logger.LogWarning(AppLogEvents.ReadNotFound, "GetAsync({Id}) not found", id);
 ```
 
-# Exceptions
+<o>Note</o>: The `Debug` logging provider does not show event IDs.
+
+## Exceptions
 The logger methods have overloads that take an exception parameter:
 ```cs
 catch (Exception ex)
@@ -164,12 +206,13 @@ catch (Exception ex)
 }
 ```
 
-# Filters
-See this documentation:  
-- https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#apply-log-filter-rules-in-code
+## Filters
+When an `ILogger<T>` object is created, `ILoggerFactory` selects a single rule per provider to apply to that logger. Messages written by that instance are filtered based on the rule. The most specific rule for each provider and category pair is selected.
+
+> Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#how-filtering-rules-are-applied
 - https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#filter-function
 
-# Message Templates
+## Message Templates
 - Log APIs use a message template that can contains placeholders for arguments provided.
 - This enables logging providers to implement structured (semantic) logging.
 - This also allows you to avoid the use of string interpolation which has performance consequences.
@@ -183,7 +226,7 @@ _logger.LogInformation("Values: {v2}, {v1}", value1, value2); // output: 3, 9
 
 <o>Use the above technique instead of string interpolation to avoid performance problems.</o>
 
-## Formatting Message Templates
+### Formatting Message Templates
 Log message templates utilize the base [formatting types](https://learn.microsoft.com/en-us/dotnet/standard/base-types/formatting-types):
 
 ```cs
@@ -196,28 +239,18 @@ Person person = new Person() { FirstName = "John", LastName = "Doe" };
 _logger.LogInformation("Found {@Person}", person); // output: Found Person { FirstName="John", LastName="Doe" }
 ```
 
-# Scopes
+## Log Scopes
+> Documentation: https://docs.microsoft.com/en-us/_net/core/extensions/logging?tabs=command-line#log-scopes
+
 A scope groups a set of logical operations.  For example, every log created as part of processing a transaction can include the transaction ID.
-- Documentation: https://docs.microsoft.com/en-us/_net/core/extensions/logging?tabs=command-line#log-scopes
 
 Scopes are supported by the `Console`, `AzureAppServicesFile`, and `AzureAppService`'s Blob providers.
 
 # No Async Methods
 Logging should be so fast that it is not worth the performance cost of asynchronous code.
 
-# Providers
-Built-in providers include:
-- `Debug` — uses `System.Diagnostics.Debug` via `Debug.WriteLine` method and only when a debugger is attached
-	- `DebugLoggerProvider` creates `DebugLogger` instances which implement `ILogger.`
-- `Console` — logs output to the console
-- `EventSource` — a cross-platform event source; on Windows, Event Trace for Windows (ETW)
-- `EventLog` — the Windows Event Log; does not inherit default non-provider settings; defaults to `LogLevel.Warning`
-- `AzureAppServicesFile` — writes logs to text files in an Azure App Service app's file system
-- `AzureAppServicesBlob` — writes logs to text files in blob storage in an Azure Storage account
-- `dotnet trace` tool — see [dotnet-trace diagnostic tool - .NET CLI | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-trace) and [Debug high CPU usage - .NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/debug-highcpu?tabs=windows)
-
 # Creating Logs in Main
-Get an ILogger instance from DI immediately after building the host:
+Get an `ILogger` instance from DI immediately after building the host:
 ```cs
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
