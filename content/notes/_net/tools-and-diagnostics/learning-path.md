@@ -21,8 +21,8 @@ weight: 1
 - [ ] Diagnostics and instrumentation
   - [ ] Overview
   - [ ] Managed debuggers
-  - [ ] Logging and tracing options
-  - [ ] ILogger logging
+  - [x] Logging and tracing options
+  - [x] ILogger logging (via notes/.net/fundamentals/logging/overview)
   - [x] Observability with OpenTelemetry
   - [ ] Metrics...
   - [ ] Distributed tracing...
