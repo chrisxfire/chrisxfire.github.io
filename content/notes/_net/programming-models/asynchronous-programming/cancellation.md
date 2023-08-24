@@ -5,8 +5,13 @@ draft: false
 weight: 1
 ---
 
+# Overview
+Cancellation allows asynchronous or long-running operations to stop cleanly.
+
 # Cancellation
-Cancellation tokens are created with `CancellationTokenSource` objects.  The CTS's Token property returns the cancellation token that is signaled when the CTS's Cancel method is called:
+An object that invokes a cancelable operation (ie: creating new threads or tasks) passes a `CancellationToken` to each downstream operation. Downstream operations can pass that same token to other operations. 
+
+Cancellation tokens are created with `CancellationTokenSource` objects.  The CTS's `Token` property returns the `CancellationToken` (CT) that is signaled when the CTS's `Cancel` method is called:
 ```cs
 var cts = new CancellationTokenSource();
 string result = await DownloadStringTaskAsync(url, cts.Token);
@@ -14,17 +19,23 @@ string result = await DownloadStringTaskAsync(url, cts.Token);
 cts.Cancel();
 ```
 
+A call to `Cancel` is a *cancellation request*; it means that the operation should stop as soon as possible after any required cleanup is performed.
+
 A single token can cancel multiple asynchronous invocations.
 
 # Disposable
 `CancellationTokenSource` is disposable.
 
 # Listening for and Processing Cancellation
-`CancellationToken` has its `IsCancellationRequested` property set to true once Cancel is called on the CTS.  Poll this value at interval to check for a cancellation request.
+`CancellationToken` has its `IsCancellationRequested` property set to `true` once `Cancel` is called on the CTS.  Poll this value at interval to check for a cancellation request.
 
 This property can only be set once, so the CT cannot be reused after being canceled.
 
-After receiving a cancellation request, perform cleanup then call `CancellationToken.ThrowIfCancellationRequest()`.
+After receiving a cancellation request, perform cleanup, then either:
+1. return, or;
+2. call `CancellationToken.ThrowIfCancellationRequest()`.
+
+Option 2 throws an `OperationCanceledException`. This exception can be caught by upstream operations to signal that cancellation was requested downstream.
 
 Pass `CancellationToken.None` to a method to indicate that cancellation will never be requested.  The method will then optimize.
 
