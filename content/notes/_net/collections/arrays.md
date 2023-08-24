@@ -4,9 +4,9 @@ date: 2021-11-06T11:43:18-0600
 draft: false
 weight: 1
 ---
-# [Arrays](https://docs.microsoft.com/en-us/_net/api/system.array?view=net-6.0)
+# [Arrays](https://docs.microsoft.com/en-us/dotnet/api/system.array?view=net-6.0)
 - Use arrays when working with a fixed number of strongly typed items.
-- Arrays are objects that have properties and methods in the [System.Array](https://docs.microsoft.com/en-us/_net/api/system.array?view=net-6.0) class.
+- Arrays are objects that have properties and methods in the [System.Array](https://docs.microsoft.com/en-us/dotnet/api/system.array?view=net-6.0) class.
 - An array's length (the number of elements it has) and its dimensions are set when the array instance is created and cannot be changed.
 - Arrays implement IList and IEnumerable. Single-dimensional arrays also implement IList<T> and IEnumerable<T>.
 

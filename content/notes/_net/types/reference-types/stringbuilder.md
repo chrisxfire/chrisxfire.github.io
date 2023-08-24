@@ -4,7 +4,7 @@ date: 2021-11-11T16:38:01-0700
 draft: false
 weight: 1
 ---
-# [StringBuilder](https://docs.microsoft.com/en-us/_net/api/system.text.stringbuilder?view=net-6.0)
+# [StringBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.text.stringbuilder?view=net-6.0)
 `Object` –> `StringBuilder`  
 
 # Construction

@@ -4,7 +4,7 @@ date: 2021-11-11T09:41:47-0700
 draft: false
 weight: 1
 ---
-# [HttpClient](https://docs.microsoft.com/en-us/_net/api/system.net.http.httpclient?view=net-6.0)
+# [HttpClient](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-6.0)
 `Object` –> `HttpMessageInvoker` –> `HttpClient`  
 
 Sending HTTP requests and receiving HTTP responses via URI.
@@ -15,7 +15,7 @@ Sending HTTP requests and receiving HTTP responses via URI.
 ## Thread Safety
 <r>Warning</r>:  `HttpClient` is **not thread safe**. However, all HTTP verb methods, except `Send()`, *are* thread safe.
 
-## [Flaw](https://docs.microsoft.com/en-us/_net/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests)
+## [Flaw](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests)
 When the `HttpClient` object gets disposed of, the underlying socket is not immediately released, which can lead to a socket exhaustion problem.
 
 Mitigation: create `HttpClient` as a static object.

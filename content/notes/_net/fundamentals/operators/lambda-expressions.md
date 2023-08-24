@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# [Lambda Expression](https://docs.microsoft.com/en-us/_net/csharp/language-reference/operators/lambda-expressions)
+# [Lambda Expression](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 Lambda expressions are anonymous functions.  
 The lambda operator `=>` ("returns") separates a lambda's parameter list from its body.
 

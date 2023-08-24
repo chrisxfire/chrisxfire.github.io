@@ -4,7 +4,7 @@ date: 2022-02-16T16:42:47-0700
 draft: false 
 weight: 1
 ---
-# [Publishing](https://docs.microsoft.com/en-us/_net/core/tools/dotnet-publish)
+# [Publishing](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish)
 ```powershell
 dotnet publish [options] <proj|sltn> # Publish the application and its dependencies for hosting.
 --arch <x64|x86 # Specify the target architecture. Don't use `--runtime`.
@@ -36,7 +36,7 @@ Add this to the project file:
 PDB files are used to debug exceptions.
 You can choose not to include them with the deployment. Save them if so.
 
-# [ReadyToRun](https://docs.microsoft.com/en-us/_net/core/deploying/ready-to-run)
+# [ReadyToRun](https://docs.microsoft.com/en-us/dotnet/core/deploying/ready-to-run)
 ReadyToRun images improve startup time but are larger in size.
 ReadyToRun requires targeting a specific runtime environments.
 ```powershell

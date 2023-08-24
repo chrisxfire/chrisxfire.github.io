@@ -5,8 +5,8 @@ draft: false
 weight: -1
 ---
 # Interfaces
-[Interfaces - define behavior for multiple types | Microsoft Docs](https://docs.microsoft.com/en-us/_net/csharp/fundamentals/types/interfaces)  
-[Safely update interfaces using default interface methods in C# | Microsoft Docs](https://docs.microsoft.com/en-us/_net/csharp/whats-new/tutorials/default-interface-methods-versions)  
+[Interfaces - define behavior for multiple types | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces)  
+[Safely update interfaces using default interface methods in C# | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/default-interface-methods-versions)  
 Interfaces require classes or structs to implement certain members. They define a *contract*. They define "*can-do*" relationships.
 Interfaces can be declared in namespace or class scope.
 Interfaces cannot contain *instance state*.

@@ -118,4 +118,4 @@ public class UnitOptionsValidator : IValidateOptions<UnitOptions>
 - Supports change notifications, named options, reloadable configuration, select options validation.
 
 # Using Named Options
-<https://docs.microsoft.com/en-us/_net/core/extensions/options#named-options-support-using-iconfigurenamedoptions>
+<https://docs.microsoft.com/en-us/dotnet/core/extensions/options#named-options-support-using-iconfigurenamedoptions>

@@ -82,7 +82,7 @@ class Program {
 ```
 
 # Configuration
-> Documentation: https://docs.microsoft.com/en-us/_net/core/extensions/logging?tabs=command-line#set-log-level-by-command-line-environment-variables-and-other-configuration
+> Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#set-log-level-by-command-line-environment-variables-and-other-configuration
 ```json
 {
     "Logging": { // This is the "Logging" property.
@@ -166,7 +166,7 @@ public class DefaultService : IService {
 `ILogger<T>` is equivalent to calling `CreateLogger(T).`
 
 ## Event IDs
-> Documentation: https://docs.microsoft.com/en-us/_net/core/extensions/logging?tabs=command-line#log-event-id
+> Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-event-id
 
 An `EventId` is a struct with an `Id` and optional `Name` readonly properties.  The event ID can associate a set of events.
 
@@ -216,7 +216,7 @@ When an `ILogger<T>` object is created, `ILoggerFactory` selects a single rule p
 - Log APIs use a message template that can contains placeholders for arguments provided.
 - This enables logging providers to implement structured (semantic) logging.
 - This also allows you to avoid the use of string interpolation which has performance consequences.
-- Documentation: https://docs.microsoft.com/en-us/_net/core/extensions/logging?tabs=command-line#log-message-template
+- Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-message-template
 
 ```cs
 int value1 = 3;
@@ -240,7 +240,7 @@ _logger.LogInformation("Found {@Person}", person); // output: Found Person { Fir
 ```
 
 ## Log Scopes
-> Documentation: https://docs.microsoft.com/en-us/_net/core/extensions/logging?tabs=command-line#log-scopes
+> Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-scopes
 
 A scope groups a set of logical operations.  For example, every log created as part of processing a transaction can include the transaction ID.
 

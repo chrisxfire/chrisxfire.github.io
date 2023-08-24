@@ -11,7 +11,7 @@ weight: 1
 # `Stream` class
 - The abstract base class of all streams.  
 - All streams implement `IDisposable`, giving them a `Dispose()` method to release unmanaged resources.
-- Documentation: https://docs.microsoft.com/en-us/_net/api/system.io.stream?view=net-6.0
+- Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-6.0
 
 ## Operations
 Steams can be operated on as follows:

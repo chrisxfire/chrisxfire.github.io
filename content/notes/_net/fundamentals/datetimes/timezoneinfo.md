@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# [TimeZoneInfo](https://docs.microsoft.com/en-us/_net/api/system.timezoneinfo?view=net-6.0)
+# [TimeZoneInfo](https://docs.microsoft.com/en-us/dotnet/api/system.timezoneinfo?view=net-6.0)
 `Object` –> `TimeZoneInfo`  
 
 Represents any time zone in the world.  

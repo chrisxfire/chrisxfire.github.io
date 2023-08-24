@@ -40,7 +40,7 @@ public class NestedSettings
     public string Message { get; set; } = null!;
 }
 ```
-## [Hosted Approach](https://docs.microsoft.com/en-us/_net/core/extensions/configuration#basic-example-with-hosting)
+## [Hosted Approach](https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration#basic-example-with-hosting)
 ```cs
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

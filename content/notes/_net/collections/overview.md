@@ -7,7 +7,7 @@ weight: -1
 
 # Collections
 - Collections of objects.
-- Documentation: https://docs.microsoft.com/en-us/_net/api/system.collections?view=net-6.0
+- Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.collections?view=net-6.0
 
 # Namespaces
 - `System.Collections` — .NET Framework 1.0; Legacy;

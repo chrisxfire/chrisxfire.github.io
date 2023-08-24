@@ -4,7 +4,7 @@ date: 2022-01-25T13:50:25-0700
 draft: false
 weight: 1
 ---
-# [DataFrameRow](https://docs.microsoft.com/en-us/_net/api/microsoft.data.analysis.dataframerow?view=ml-dotnet-preview)
+# [DataFrameRow](https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.analysis.dataframerow?view=ml-dotnet-preview)
 `Object` –> `DataFrameRow`  
 
 A collection of values that represent a row in a `DataFrame`.

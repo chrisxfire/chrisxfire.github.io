@@ -235,4 +235,4 @@ rootCommand.Invoke(args);
 return rootCommand.InvokeAsync(args).Result;
 ```
 
-# [Response Files](https://docs.microsoft.com/en-us/_net/standard/commandline/syntax#response-files)
+# [Response Files](https://docs.microsoft.com/en-us/dotnet/standard/commandline/syntax#response-files)

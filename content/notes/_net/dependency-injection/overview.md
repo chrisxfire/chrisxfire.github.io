@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-[Dependency injection guidelines - .NET | Microsoft Docs](https://docs.microsoft.com/en-us/_net/core/extensions/dependency-injection-guidelines)
+[Dependency injection guidelines - .NET | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection-guidelines)
 [Dependency Injection Design Pattern in C# – ScottLilly.com](https://scottlilly.com/c-design-patterns-the-dependency-injection-pattern/)
 [Understanding Dependency Injection in .NET Core (auth0.com)](https://auth0.com/blog/dependency-injection-in-dotnet-core/)
 
@@ -27,15 +27,15 @@ There are two types of services:
 1. *Framework-provided services* — provided by the .NET framework:
     | Service Type                                                                                                                                                               | Lifetime  |
     | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-    | [Microsoft.Extensions.DependencyInjection.IServiceScopeFactory](https://docs.microsoft.com/en-us/_net/api/microsoft.extensions.dependencyinjection.iservicescopefactory) | Singleton |
-    | [IHostApplicationLifetime](https://docs.microsoft.com/en-us/_net/api/microsoft.extensions.hosting.ihostapplicationlifetime)                                              | Singleton |
-    | [Microsoft.Extensions.Logging.ILogger<TCategoryName>](https://docs.microsoft.com/en-us/_net/api/microsoft.extensions.logging.ilogger-1)                                  | Singleton |
-    | [Microsoft.Extensions.Logging.ILoggerFactory](https://docs.microsoft.com/en-us/_net/api/microsoft.extensions.logging.iloggerfactory)                                     | Singleton |
-    | [Microsoft.Extensions.ObjectPool.ObjectPoolProvider](https://docs.microsoft.com/en-us/_net/api/microsoft.extensions.objectpool.objectpoolprovider)                       | Singleton |
-    | [Microsoft.Extensions.Options.IConfigureOptions<TOptions>](https://docs.microsoft.com/en-us/_net/api/microsoft.extensions.options.iconfigureoptions-1)                   | Transient |
-    | [Microsoft.Extensions.Options.IOptions<TOptions>](https://docs.microsoft.com/en-us/_net/api/microsoft.extensions.options.ioptions-1)                                     | Singleton |
-    | [System.Diagnostics.DiagnosticListener](https://docs.microsoft.com/en-us/_net/api/system.diagnostics.diagnosticlistener)                                                 | Singleton |
-    | [System.Diagnostics.DiagnosticSource](https://docs.microsoft.com/en-us/_net/api/system.diagnostics.diagnosticsource)                                                     | Singleton |
+    | [Microsoft.Extensions.DependencyInjection.IServiceScopeFactory](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.iservicescopefactory) | Singleton |
+    | [IHostApplicationLifetime](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.ihostapplicationlifetime)                                              | Singleton |
+    | [Microsoft.Extensions.Logging.ILogger<TCategoryName>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger-1)                                  | Singleton |
+    | [Microsoft.Extensions.Logging.ILoggerFactory](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.iloggerfactory)                                     | Singleton |
+    | [Microsoft.Extensions.ObjectPool.ObjectPoolProvider](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.objectpool.objectpoolprovider)                       | Singleton |
+    | [Microsoft.Extensions.Options.IConfigureOptions<TOptions>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.iconfigureoptions-1)                   | Transient |
+    | [Microsoft.Extensions.Options.IOptions<TOptions>](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.options.ioptions-1)                                     | Singleton |
+    | [System.Diagnostics.DiagnosticListener](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.diagnosticlistener)                                                 | Singleton |
+    | [System.Diagnostics.DiagnosticSource](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.diagnosticsource)                                                     | Singleton |
 2. *Application services* — services created by the developer; must be registered explicitly.
 
 # Adding dependencies

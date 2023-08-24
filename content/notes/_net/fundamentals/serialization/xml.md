@@ -7,7 +7,7 @@ weight: 1
 
 # Overview
 - Namespace: `System.Xml.Serialization`
-- Documentation: https://docs.microsoft.com/en-us/_net/api/system.xml.serialization?view=net-6.0
+- Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization?view=net-6.0
 
 # Serializing
 When serializing a type with `XmlSerializer`, only public fields and properties are included, and the type must have a parameterless constructor.

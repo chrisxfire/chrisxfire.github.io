@@ -4,7 +4,7 @@ date: 2021-12-24T15:52:31-0700
 draft: false
 weight: 1
 ---
-# [Stopwatch](https://docs.microsoft.com/en-us/_net/api/system.diagnostics.stopwatch?view=net-6.0)
+# [Stopwatch](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.stopwatch?view=net-6.0)
 `Object` –> `Stopwatch`  
 
 # Example

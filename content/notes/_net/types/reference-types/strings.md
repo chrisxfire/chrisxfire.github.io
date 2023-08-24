@@ -4,7 +4,7 @@ date: 2021-11-06T16:38:02-0600
 draft: false
 weight: 1
 ---
-# [Strings](https://docs.microsoft.com/en-us/_net/api/system.string?view=net-6.0)
+# [Strings](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0)
 A sequence of UTF-16 code units.  
 Stored internally as a sequential read-only collection of `Char` objects.  
 - `Length` property represents the number of `Char` objects contained, not the number of code units.

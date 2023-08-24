@@ -4,7 +4,7 @@ date: 2021-11-15T14:18:34-0700
 draft: false
 weight: 1
 ---
-# [Linked Lists](https://docs.microsoft.com/en-us/_net/api/system.collections.generic.linkedlist-1?view=net-6.0)
+# [Linked Lists](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.linkedlist-1?view=net-6.0)
 Namespace  
 `Systems.Collections.Generic`
 Inheritance  

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# [System.Text.RegularExpressions](https://docs.microsoft.com/en-us/_net/api/system.text.regularexpressions.regex?view=net-6.0)
+# [System.Text.RegularExpressions](https://docs.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex?view=net-6.0)
 Represents the .NET regular expression engine.  
 
 Instantiating a regular expression object is an expensive operation.

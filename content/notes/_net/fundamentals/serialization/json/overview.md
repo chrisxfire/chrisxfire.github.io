@@ -11,7 +11,7 @@ There are two major .NET libraries for JSON serialization/deserialization:
 - Use `Newtonsoft.Json` (aka Json.NET) for a large feature set and developer productivity.  
 
 These notes are for `System.Text.Json`.
-- Documentation: https://docs.microsoft.com/en-us/_net/api/system.text.json?view=net-6.0
+- Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.text.json?view=net-6.0
 
 # Security
 `System.Text.Json` has a threat model.  See: https://github.com/_net/runtime/blob/main/src/libraries/System.Text.Json/docs/ThreatModel.md
@@ -42,4 +42,4 @@ Two JSON DOM approaches:
 
 # Deserialize with HttpClient and HttpContent Extension Methods
 This technique still requires that you create a response class.
-- Documentation: https://docs.microsoft.com/en-us/_net/standard/serialization/system-text-json-how-to?pivots=dotnet-6-0#httpclient-and-httpcontent-extension-methods
+- Documentation: https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to?pivots=dotnet-6-0#httpclient-and-httpcontent-extension-methods

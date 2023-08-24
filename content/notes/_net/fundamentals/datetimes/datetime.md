@@ -4,7 +4,7 @@ date: 2021-11-11T20:08:41-0700
 draft: false
 weight: 1
 ---
-# [DateTime](https://docs.microsoft.com/en-us/_net/api/system.datetime?view=net-6.0)
+# [DateTime](https://docs.microsoft.com/en-us/dotnet/api/system.datetime?view=net-6.0)
 `Object` –> `ValueType` –> `DateTime`  
 Represents an instant in time.  
 
@@ -12,7 +12,7 @@ Note: Time values are measured in 100-nanosecond units called ticks.
 Note: `System.DateOnly` is useful if working with dates only. This type maps to date columns in SQL server.  
 Note: `System.TimeOnly` is useful if working with times only. This type maps to time columns in SQL server.  
 
-Also: <https://docs.microsoft.com/en-us/_net/standard/base-types/standard-date-and-time-format-strings>
+Also: <https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings>
 
 # Uses
 - Work with dates only or times only
@@ -64,5 +64,21 @@ DateTime.SpecifyKind(DateTime, DateTimeKind)
 .Parse(string) // Parse string into a DateTime object.
 .TryParse(string, out DateTime result) // Try to parse string into DateTime result.
 ```
+
+## Adding and Subtracting
+```cs
+.Add()
+.AddDays()
+.AddHours()
+.AddMilliseconds()
+.AddMinutes()
+.AddMonths()
+.AddTicks()
+.AddYears()
+```
+
+Note: add negative numbers to subtract.
+
 # Format Specifiers
-<https://docs.microsoft.com/en-us/_net/api/system.datetime.tostring?view=net-6.0>
+<https://docs.microsoft.com/en-us/dotnet/api/system.datetime.tostring?view=net-6.0>
+

@@ -8,10 +8,10 @@ weight: 1
 # Terminology
 - *Background Service* – the `BackgroundService` type.
 - *Hosted Service* – an implementation of `IHostedService`, or `IHostedService` itself.
-- *Worker Service* – the [Worker Service template](https://docs.microsoft.com/en-us/_net/core/tools/dotnet-new-sdk-templates#web-others) from dotnet new.
+- *Worker Service* – the [Worker Service template](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new-sdk-templates#web-others) from dotnet new.
 
-# [BackgroundService](https://docs.microsoft.com/en-us/_net/api/microsoft.extensions.hosting.backgroundservice)
-- An implementation of [IHostedService](https://docs.microsoft.com/en-us/_net/api/microsoft.extensions.hosting.ihostedservice).
+# [BackgroundService](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.backgroundservice)
+- An implementation of [IHostedService](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.hosting.ihostedservice).
 - Used for long-running, background processes.
 - Cross-platform. Can be used in place of a Windows Service.
 
@@ -52,13 +52,13 @@ public class Worker : BackgroundService
 }
 ```
 ## No Server Garbage Collection
-[Server GC](https://docs.microsoft.com/en-us/_net/standard/garbage-collection/workstation-server-gc#server-gc) is not enabled by default. To do so, add this to project file:
+[Server GC](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/workstation-server-gc#server-gc) is not enabled by default. To do so, add this to project file:
 ```xml
 <PropertyGroup>
 <ServerGarbageCollection>true</ServerGarbageCollection>
 </PropertyGroup>
 ```
-[More info](https://docs.microsoft.com/en-us/_net/core/runtime-config/garbage-collector#workstation-vs-server).
+[More info](https://docs.microsoft.com/en-us/dotnet/core/runtime-config/garbage-collector#workstation-vs-server).
 
 # Worker Service with Containers
 Visual Studio provides the option to opt into **Docker support** when creating a Worker service from the template.  Doing so creates a Dockerfile and updates the project file accordingly.

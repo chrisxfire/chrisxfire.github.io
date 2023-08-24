@@ -4,12 +4,12 @@ date: 2021-11-28T08:30:06-0700
 draft: false
 weight: 1
 ---
-# [System.Uri](https://docs.microsoft.com/en-us/_net/api/system.uri?view=net-6.0)
+# [System.Uri](https://docs.microsoft.com/en-us/dotnet/api/system.uri?view=net-6.0)
 `Object` –> `Uri`  
 
 An object representation of a URI.  
 
-# [Construction](https://docs.microsoft.com/en-us/_net/api/system.uri?view=net-6.0#constructors)
+# [Construction](https://docs.microsoft.com/en-us/dotnet/api/system.uri?view=net-6.0#constructors)
 ## From String
 ```cs
 Uri uri = new Uri("https://user:password@www.contoso.com:80/Home/Index.htm?q1=1&q2=v2#FragmentName");
@@ -23,7 +23,7 @@ Uri uri = new Uri(Uri baseUri, string "relativeUriString");
 Uri uri = new Uri(Uri baseUri, Uri relativeUri);
 ```
 
-# [Fields](https://docs.microsoft.com/en-us/_net/api/system.uri.schemedelimiter?view=net-6.0)
+# [Fields](https://docs.microsoft.com/en-us/dotnet/api/system.uri.schemedelimiter?view=net-6.0)
 Various fields are available for different URI schemes such as File, FTP, SSH, Telnet, etc.
 
 # Properties

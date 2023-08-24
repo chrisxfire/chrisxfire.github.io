@@ -37,7 +37,7 @@ The default value could also be defined:
 - `new int()`
 - `default(int)`
 
-Optional parameters can also be defined with [OptionalAttribute](https://docs.microsoft.com/en-us/_net/api/system.runtime.interopservices.optionalattribute?view=net-6.0).
+Optional parameters can also be defined with [OptionalAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.optionalattribute?view=net-6.0).
 
 # Instance vs. Static Methods
 Methods are either instance (actions an object does to itself) or static (actions the type does).

@@ -8,7 +8,7 @@ weight: 1
 # [System.Console]
 `STDIN`, `STDOUT`, `STDERR` streams.  
 `Object` –> `Console`
-- Documentation: https://docs.microsoft.com/en-us/_net/api/system.console?view=net-6.0
+- Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.console?view=net-6.0
 
 # Properties
 - `BufferHeight` - Get or set the buffer height

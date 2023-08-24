@@ -12,7 +12,7 @@ weight: -1
 # System.Threading.Tasks
 `Object` –> `Task`  
 - Types for writing concurrent and asynchronous code.
-- Documentation: https://docs.microsoft.com/en-us/_net/api/system.threading.tasks?view=net-6.0
+- Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks?view=net-6.0
 
 ## Classes
 - `TaskFactory` — Static methods for creating and starting tasks.
@@ -26,7 +26,7 @@ weight: -1
 `Object` –> `Task`  
 - Represents a single asynchronous operation that does not return a value.  
 - This class is a wrapper around a thread that enables easier creation and management.  
-- Documentation: https://docs.microsoft.com/en-us/_net/api/system.threading.tasks.task?view=net-6.0
+- Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-6.0
 
 ## Construction
 - `Task t1 = new(MethodA);` — Instantiated, but not started.

@@ -11,7 +11,7 @@ A host is an object that encapsulates an app's resources and lifetime functional
 Generic Host is represented by the `HostBuilder` type.
 
 - Namespace: `Microsoft.Extensions.Hosting`
-- Documentation: https://docs.microsoft.com/en-us/_net/core/extensions/generic-host
+- Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/generic-host
 
 # Process
 When a host starts, it calls `IHostedService.StartAsync` on each implementation of `IHostedService` registered in the service container's collection of hosted services. If the implementation is a worker service, it calls `BackgroundService.ExecuteAsync`.
@@ -90,7 +90,7 @@ This can be called repeatedly; the last value set on a given key is used.
 
 The host configuration is contained within `HostBuilderContext.Configuration` within the `ConfigureAppConfiguration` method.
 
-See <https://docs.microsoft.com/en-us/_net/core/extensions/configuration>.
+See <https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration>.
 
 # Host Shutdown
 Hosted services are stopped as follows:

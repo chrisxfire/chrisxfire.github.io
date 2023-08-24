@@ -7,7 +7,7 @@ weight: 1
 # System.Environment
 `Object` –> `Environment`  
 - Information about and manipulation of the current environment and platform.
-- Documentation: https://docs.microsoft.com/en-us/_net/api/system.environment?view=net-6.0
+- Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.environment?view=net-6.0
 
 # Properties
 - `CommandLine` Returns the command line arguments as a string where the first term is the command itself
@@ -37,7 +37,7 @@ weight: 1
 - `GetLogicalDrives()` Return all logical drives as an array of strings
 - `SetEnvironmentVariable(string variable, string value)` Set environment variable to value.
 
-# [SpecialFolder](https://docs.microsoft.com/en-us/_net/api/system.environment.specialfolder?view=net-6.0)
+# [SpecialFolder](https://docs.microsoft.com/en-us/dotnet/api/system.environment.specialfolder?view=net-6.0)
 `Object` –> `ValueType` –> `Enum` –> `Environment.SpecialFolder`  
 Enumerated constants for special system folders.  
 

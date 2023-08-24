@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview
-- Documentation: https://docs.microsoft.com/en-us/_net/core/tools/dotnet
+- Documentation: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet
 
 # Compiling
 `dotnet build` Build (compile) the executable for the app.

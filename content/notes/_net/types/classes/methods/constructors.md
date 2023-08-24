@@ -4,7 +4,7 @@ date: 2021-11-06T11:25:27-0600
 draft: false
 weight: 1
 ---
-# [Constructors](https://docs.microsoft.com/en-us/_net/csharp/programming-guide/classes-and-structs/constructors)
+# [Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors)
 Whenever a Class or Struct is created, its *constructor* is called.
 
 # Instance Constructors
@@ -60,14 +60,14 @@ public class Employee : Person
 }
 ```
 
-# [Static Constructors](https://docs.microsoft.com/en-us/_net/csharp/programming-guide/classes-and-structs/static-constructors)
+# [Static Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-constructors)
 Static constructors initialize a class itself (not an instance of the class).  
 They initialize static members of the class or struct.  
 They are called automatically, once, immediately before any static fields are accessed.  
 They are created with the static prefix.  
 They are parameterless.  
 
-# [Private Constructors](https://docs.microsoft.com/en-us/_net/csharp/programming-guide/classes-and-structs/private-constructors)
+# [Private Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/private-constructors)
 Private constructors are generally used in classes that only have static members.  
 - If this is the case, consider making the whole class static.
 Classes with private constructors cannot be instantiated.  
@@ -79,7 +79,7 @@ class Employee
 }
 ```
 
-# [Copy Constructors](https://docs.microsoft.com/en-us/_net/csharp/programming-guide/classes-and-structs/how-to-write-a-copy-constructor)
+# [Copy Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-write-a-copy-constructor)
 Copy constructors are used to copy an object, including the values of its properties, to a new instance of that type.
 In C#, records provide a copy constructor for objects. Classes do not, so one must be written:
 ```cs

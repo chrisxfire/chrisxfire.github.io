@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# [System.UriBuilder](https://docs.microsoft.com/en-us/_net/api/system.uribuilder?view=net-6.0)
+# [System.UriBuilder](https://docs.microsoft.com/en-us/dotnet/api/system.uribuilder?view=net-6.0)
 `Object` –> `UriBuilder`  
 
 Construct and modify URIs for the Uri class.  
 
-# [Construction](https://docs.microsoft.com/en-us/_net/api/system.uribuilder?view=net-6.0#constructors)
+# [Construction](https://docs.microsoft.com/en-us/dotnet/api/system.uribuilder?view=net-6.0#constructors)
 - `UriBuilder()` — Returns a new UriBuilder instance.
 - `UriBuilder(string)` — Returns a new UriBuilder instance from string.
 - `UriBuilder(Uri)` — Returns a new UriBuilder instance from Uri.

@@ -5,13 +5,13 @@ draft: false
 weight: 1
 ---
 
-# [DateTimeOffset](https://docs.microsoft.com/en-us/_net/api/system.datetimeoffset?view=net-6.0)
+# [DateTimeOffset](https://docs.microsoft.com/en-us/dotnet/api/system.datetimeoffset?view=net-6.0)
 `Object` –> `ValueType` –> `DateTimeOffset`  
 Represents a date and time with an offset against UTC.  
 Includes all functionality from DateTime as well as (some) time zone awareness.  
 Consider this the default date and time type.  
 
-See also: <https://docs.microsoft.com/en-us/_net/standard/base-types/standard-date-and-time-format-strings>  
+See also: <https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings>  
 
 # Notes
 - The time component is measured in ticks
@@ -31,7 +31,7 @@ DateTimeOffset(ticks, TimeSpan)
 ```
 
 # Casting & Conversions
-<https://docs.microsoft.com/en-us/_net/standard/datetime/converting-between-datetime-and-offset>  
+<https://docs.microsoft.com/en-us/dotnet/standard/datetime/converting-between-datetime-and-offset>  
 ```cs
 DateTime dt;  
 DateTimeOffset dto;  
