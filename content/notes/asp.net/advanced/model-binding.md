@@ -1,7 +1,7 @@
 ---
 title: model binding
 date: 2023-05-03T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
@@ -71,6 +71,10 @@ By default, <o>properties are not bound</o> for HTTP GET requests. This is becau
 public string? ApplicationInsightsCookie { get; set; }
 ```
 
+# Data Types for Model Binding
+- *Simple type* — a type converted from a single string (using a `TypeConverter` or `TryParse` method).
+- *Complex type* — a type converted from multiple input values.
+
 # Model Binding Sources
 The default sources for HTTP requests are:
 1. Form fields
@@ -99,14 +103,13 @@ public class Instructor
 
 These attributes have a `Name` property that can be used when the property name does not match the value in the request:
 ```cs
-public void OnGet([FromHeader(Name = "Accept-Language")] string language)
+public void OnGet( [FromHeader(Name = "Accept-Language")] string language )
 ```
 
 ## `[FromBody]` Attribute
 When applied to a complex type parameter, any binding source attributes applied to its properties are ignored:
 ```cs
-// FromBody attribute applied:
-public ActionResult<Pet> Create([FromBody] Pet pet)
+public ActionResult<Pet> Create( [FromBody] Pet pet ) // FromBody attribute applied.
 ```
 ```cs
 public class Pet
@@ -130,6 +133,178 @@ Source data is provided to the model binding system by *value providers*. Custom
 By default, if no value is found for a model property, a model state error **is not** created. That property is set to `null` or a default value.
 
 To force a model state error when no value is found for a property, use the `[BindRequired]` attribute.
+* <o>Note</o>: This attribute applies only to *posted form* data, not JSON or XML data which is handled by *input formatters*.
 
 ## Type Conversion Errors
 If a source is found but cannot be converted to the target type, a model state error **is** created (`ModelState.IsValid = false`).
+
+# Binding Simple Types
+Model binding can convert source strings into various simple types.
+
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#simple-types
+
+# Binding Complex Types
+To bind, a complex type must have a public default constructor and public writable properties. 
+
+## How Model Binding Matches Properties to Sources
+For each property, model binding looks through the sources for `PREFIX.PROPERTY_NAME`. If not found, it looks for `PROPERTY_NAME`.
+
+For query `?Instructor.Id=100&Name=Foo`, and given method `OnGet(Instructor instructor)`, model binding will bind `Id` to `100` and `Name` to `null`. This is because `Instructor.Id` was used for the first query parameter, so it expected `Instructor.Name` (instead of just `Name`) for the second parameter.
+
+## Attributes for Complex Type Targets
+<o>Note</o>: these attributes apply to *posted form data* only. They do not apply to *input formatters* which process posted JSON and XML bodies.
+
+### `[Bind]` 
+Specifies which properties of a model should be included in model binding.
+
+Can be applied to a class...
+```cs
+[Bind("LastName,FirstMidName,HireDate")]
+public class Instructor
+```
+
+...or a method:
+```cs
+[HttpPost]
+public IActionResult OnPost( [Bind("LastName,FirstMidName,HireDate")] Instructor instructor )
+```
+
+### `[ModelBinder]`
+Specifies the type of model binder used to bind the instance or type.
+
+Can be applied to a parameter...
+```cs
+[HttpPost]
+public IActionResult OnPost( [ModelBinder(typeof(MyInstructorModelBinder))] Instructor instructor )
+```
+
+...or property (in this cse, changing the name of the property when it is bound)...
+```cs
+public class Instructor
+{
+    [ModelBinder(Name = "instructor_id")]
+    public string Id { get; set; }
+}
+```
+
+...or a type.
+
+### `[BindRequired]`
+Causes model binding to add a model state error if binding cannot occur for a property:
+```cs
+public class InstructorBindRequired
+{
+    // ...
+
+    [BindRequired]
+    public DateTime HireDate { get; set; }
+}
+```
+
+### `[BindNever]`
+Prevents model binding from setting a model's property.  Can be applied to a property or a type.  When applied to a type, excludes all properties of that type from model binding.
+
+## Collections
+For collection targets, model binding looks for matches to `PARAMETER_NAME` or `PROPERTY_NAME`.  Avoid using a parameter or property named `index` or `Index` if it is adjacent to a collection value since model binding attempts to use `index` as the index for the collection.
+
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#collections)
+
+## Dictionaries
+For Dictionary targets, model binding looks for matches to `PARAMETER_NAME` or `PROPERTY_NAME`.
+
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#dictionaries
+
+## Record Types
+Model binding and model validation have special considerations with record types:
+1. Model binding (and model validation) supports record types with a single constructor:
+    ```cs
+    public record Person( [Required] string Name, [Range(0, 150)] int Age, [BindNever] int Id );
+
+    public class PersonController
+    {
+        public IActionResult Index() => View();
+
+        [HttpPost]
+        public IActionResult Index(Person person)
+        {
+            // ...
+        }
+    }
+    ```
+2. Binding and validation metadata is used only on parameters and ignored on properties:
+    ```cs
+    public record Person (string Name, int Age)
+    {
+        [BindProperty(Name = "SomeName")] // This does not get used
+        [Required] // This does not get used
+        public string Name { get; init; }
+    }
+    ```
+3. `TryUpdateModel` does not update parameters on a record type:
+    ```cs
+    public record Person(string Name)
+    {
+        public int Age { get; set; }
+    }
+
+    var person = new Person("initial-name");
+    TryUpdateModel(person, ...);
+    ```
+
+# Input Formatters (Data in Request Body (JSON & XML))
+ASP.NET Core includes a JSON-based input formatter for handling JSON data.
+
+To use the built-in XML input formatters:
+1. Add the middleware:  
+    `Program.cs`
+    ```cs
+    builder.Services.AddControllers()
+                    .AddXmlSerializerFormatters();
+    ```
+2. Apply the `Consumes` attribute to controller classes or action methods that expect XML:
+    ```cs
+    [HttpPost]
+    [Consumes("application/xml")]
+    public ActionResult<Pet> Create(Pet pet)
+    ```
+
+## Configuring Input Formatters
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#customize-model-binding-with-input-formatters
+
+# Excluding Specified Types from Model Binding
+To disable model binding on all models of a specified type (ie: `System.Version`):
+```cs
+builder.Services.AddRazorPages()
+    .AddMvcOptions(options =>
+    {
+        options.ModelMetadataDetailsProviders.Add(new ExcludeBindingMetadataProvider(typeof(Version)));
+        options.ModelMetadataDetailsProviders.Add(new SuppressChildValidationMetadataProvider(typeof(Guid)));
+    });
+```
+
+To disable validation on properties of a specified type (ie: `System.Guid`):
+```cs
+builder.Services.AddRazorPages()
+    .AddMvcOptions(options =>
+    {
+        options.ModelMetadataDetailsProviders.Add(new ExcludeBindingMetadataProvider(typeof(Version)));
+        options.ModelMetadataDetailsProviders.Add(new SuppressChildValidationMetadataProvider(typeof(Guid)));
+    });
+```
+
+# Invoking Model Binding Manually
+<o>Note</o>: this is typically used in Razor Pages and MVC apps to prevent over-posting, or web APIs that consume form data, query strings, and route data.
+Use the `TryUpdateModelAsync` method of both the `ControllerBase` and `PageModel` classes. Overloads accept a prefix and value provider:
+```cs
+if (await TryUpdateModelAsync(newInstructor, "Instructor", x => x.Name, x => x.HireDate!))
+{
+    _instructorStore.Add(newInstructor);
+    return RedirectToPage("./Index");
+}
+
+return Page();
+```
+
+# Other topics
+- [Globalization behavior of model binding route data and query strings](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#globalization-behavior-of-model-binding-route-data-and-query-strings)
+- [Special data types](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#special-data-types)
