@@ -8,9 +8,9 @@ weight: 1
 # Overview
 Cancellation allows asynchronous or long-running operations to stop cleanly.
 
-# Cancellation
-An object that invokes a cancelable operation (ie: creating new threads or tasks) passes a `CancellationToken` to each downstream operation. Downstream operations can pass that same token to other operations. 
+Some objects invoke long-running, cancelable operations. These objects can pass a `CancellationToken` to those downstream operation. Downstream operations can pass that same token to other operations. When the cancellation token is invoked, it is a *cancellation request*; it means that the operation should stop as soon as possible after any required cleanup is performed. A single token can cancel multiple asynchronous invocations.
 
+# Creating
 Cancellation tokens are created with `CancellationTokenSource` objects.  The CTS's `Token` property returns the `CancellationToken` (CT) that is signaled when the CTS's `Cancel` method is called:
 ```cs
 var cts = new CancellationTokenSource();
@@ -19,11 +19,6 @@ string result = await DownloadStringTaskAsync(url, cts.Token);
 cts.Cancel();
 ```
 
-A call to `Cancel` is a *cancellation request*; it means that the operation should stop as soon as possible after any required cleanup is performed.
-
-A single token can cancel multiple asynchronous invocations.
-
-# Disposable
 `CancellationTokenSource` is disposable.
 
 # Listening for and Processing Cancellation
