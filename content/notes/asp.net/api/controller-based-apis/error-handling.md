@@ -100,8 +100,7 @@ builder.Services.AddControllers()
 And can be configured via `IProblemDetailsService`, `ProblemDetailsFactory`, or `ApiBehaviorOptions`:
 
 ## `IProblemDetailsService`
-[Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc7807.html) can be created via `IProblemDetailsService`.
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/handle-errors?view=aspnetcore-7.0#problem-details-service
+See [notes on Problem Details]({{< ref "../../fundamentals/error-handling#problem-details" >}}).
 
 ## `ProblemDetailsFactory`
 To customize the problem details response with `ProblemDetailsFactory`, register a custom implementation:  
