@@ -59,3 +59,27 @@ static async Task Main()
     Console.WriteLine("Application ending.");
 }
 ```
+
+# Registering Callbacks for Cancellation Requests
+> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/threading/cancellation-in-managed-threads#listening-by-registering-a-callback
+> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/threading/how-to-register-callbacks-for-cancellation-requests
+
+You can register a delegate that is invoked when `Cancel` is called on a `CancellationToken`:
+```cs
+public void SomeMethod(CancellationToken token)
+{
+    // ...do some work...
+    token.Register(() => 
+    {
+        Console.WriteLine("Cancellation requested!");
+        CancelMethod();
+    });
+}
+
+public void CancelMethod() 
+{
+    // clean up work...
+}
+```
+
+Even if cancellation has already been requested when the callback is registered, the callback is still guaranteed to be called.
