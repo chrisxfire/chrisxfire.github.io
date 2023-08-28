@@ -153,3 +153,34 @@ Use custom attributes in scenarios where built-in attributes are insufficient.
 Model-bound top-level nodes (action parameters; controller properties; page handler parameters; page model properties) are validated in addition to model properties.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-7.0#top-level-node-validation
+
+# Maximum Errors, Maximum Recursion
+Validation stops after the maximum number of validation errors is reached (default=200).  To configure:
+```cs
+builder.Services.AddRazorPages()
+    .AddMvcOptions(options =>
+    {
+        options.MaxModelValidationErrors = 50;
+    });
+
+// ...
+```
+
+For models that are deep or infinitely recursive, validation may result in a stack overflow. The validation depth (default=32) can be configured:
+```cs
+builder.Services.AddRazorPages()
+    .AddMvcOptions(options =>
+    {
+        options.MaxValidationDepth(128);
+    });
+
+// ...
+```
+
+# Client-side Validation
+Prevents submission until the form is valid. There is a jQuery Unobtrusive Validation script that is a custom Microsoft library built on the jQuery Validation plug-in. Prevents having to code validation logic both server side and client side. 
+
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-7.0#client-side-validation
+
+# Problem Details
+See [notes on Problem Details]({{< ref "../fundamentals/error-handling#problem-details" >}})
