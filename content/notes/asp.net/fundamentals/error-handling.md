@@ -170,9 +170,33 @@ Any request not handled by the app is handled by the server.
 This is handled by the host.  See:
 - https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/web-host?view=aspnetcore-7.0#capture-startup-errors
 - https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/web-host?view=aspnetcore-7.0#detailed-errors
-	
-# [Database error page](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#database-error-page)
-# [Exception filters](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#exception-filters)
-# [Model state errors](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#model-state-errors)
-# [Problem details](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#problem-details)
-# [Produce a `ProblemDetails` payload for exceptions](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#produce-a-problemdetails-payload-for-exceptions)
+
+# Problem Details
+Problem Details are details of errors in an HTTP response.  They are standardized in [RFC 7807](https://www.rfc-editor.org/rfc/rfc7807.html). The problem details service implements `IProblemDetailsService` to create problem details.
+
+To add the problem details service:
+```cs
+builder.Services.AddProblemDetails();
+```
+
+When the problem details service is used, the following middleware generates problem details HTTP responses:
+- ExceptionHandlerMiddleware — generates a problem details response when a custom handler is not defined
+- StatusCodePageSMiddleware — generates a problem details response by default
+- DeveloperExceptionPageMiddleware — generates a problem details response in development when the `Accept` request HTTP header does not include `text/html`.
+
+## Customizing Problem Details
+Problem details responses can be customized.
+
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#customize-problem-details
+
+## Producing a ProblemDetails Payload for Exceptions
+Exceptions can contain Problem Details.
+
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#produce-a-problemdetails-payload-for-exceptions
+
+# Other Topics
+- [Database error page](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#database-error-page)
+- [Exception filters](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#exception-filters)
+- [Model state errors](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#model-state-errors)
+- [Problem details](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#problem-details)
+- [Produce a `ProblemDetails` payload for exceptions](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#produce-a-problemdetails-payload-for-exceptions)
