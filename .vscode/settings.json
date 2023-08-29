@@ -21,6 +21,7 @@
         "globbing",
         "Grayscale",
         "httpclient",
+        "httpenv",
         "httprepl",
         "jsondocument",
         "jsonelement",
