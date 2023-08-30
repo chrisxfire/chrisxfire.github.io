@@ -25,6 +25,9 @@ dotnet tool install <package_name>
 | dotnet-gcdump   | for collecting garbage collector dumps of live .NET processes                                   |
 | dotnet-monitor  | for monitoring .NET applications in production environments and to collect diagnostic artifacts |
 
+## dotnet-httprepl
+See [notes on HttpRepl]({{< ref "../../../../asp.net/api/testing-with-httprepl" >}})
+
 ## dotnet-monitor
 | Subcommand                 | Description                                                                                    |
 | -------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -32,18 +35,18 @@ dotnet tool install <package_name>
 | dotnet-monitor config show | Shows dotnet-monitor's current configuration                                                   |
 | dotnet-monitor generatekey | Generate an API key and hash for HTTP authentication                                           |
 
-# dotnet-openapi
+# Other Tools
+## dotnet-openapi
 Manages OpenAPI references in a project.  
 Package: `microsoft.dotnet-openapi`
 
-## Subcommands
+### Subcommands
 The `Add` subcommands add an OpenAPI reference to the project file:
 ```xml
 <OpenAPiReference Include="openapi.json" />
 ```
 
-### `add <file>`
-
+#### `add <file>`
 ```powershell
 dotnet openapi add file
     [-p project] # the project to operate on
@@ -51,7 +54,7 @@ dotnet openapi add file
     <file> # like ./OpenAPI.json 
 ```
 
-### `add <url>`
+#### `add <url>`
 ```powershell
 dotnet openapi add url
     [-p project] # the project to operate on
@@ -60,7 +63,7 @@ dotnet openapi add url
     <url> # like https://www.example.com/openapi.json 
 ```
 
-### `remove`
+#### `remove`
 Deletes the OpenAPI reference. Clients will not be generated.
 ```powershell
 dotnet openapi remove 
@@ -68,10 +71,11 @@ dotnet openapi remove
     <file> # like ./OpenAPI.json
 ```
 
-### `refresh`
+#### `refresh`
 Refresh the local file with the latest content from the URL:
 ```powershell
 dotnet openapi refresh
     [-p project] # the project to operate on
     <url> # like https://www.example.com/openapi.json 
 ```
+
