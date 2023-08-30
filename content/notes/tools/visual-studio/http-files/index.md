@@ -85,7 +85,7 @@ Accept-Language: en-US,en;q=0.5
 - **Add** > **New Item** > ASP.NET Core > General > **HTTP File**
 - Save the file
 - Click the green "run" arrow.  The response pulls up next to the request:  
-<img alt="A screenshot of the Visual Studio HTTP file experience" src="image.png" width="50%" height="50%">
+<img alt="A screenshot of the Visual Studio HTTP file experience" src="image.png" width="66%" height="66%">
 
 ## With Endpoints Explorer
 - View > Other Windows > Endpoints Explorer
@@ -130,7 +130,7 @@ GET https://{{TemplatesApi_HostAddress}}/api/templatepack/{{numToSkip}}/{{numToT
 ```
 
 An environment picker is now available:  
-<img alt="A screenshot of Visual Studio showing the environment picker available in the upper right" src="image-1.png" width="50%" height="50%">
+<img alt="A screenshot of Visual Studio showing the environment picker available in the upper right" src="image-1.png" width="66%" height="66%">
 
 ## Environments — User-specific
 Create a `httpenv.json.user` file. These files are useful if you want to test something but don't want to change the environment file the rest of the team is using. By default, `*.user` files are excluded from version control.
