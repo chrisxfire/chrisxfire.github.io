@@ -90,6 +90,14 @@ Configuration for Kestrel provided in `appsettings.json` **overrides all cross-s
 ## Adding Configuration from an External Assembly
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/platform-specific-configuration?view=aspnetcore-7.0
 
+## Adding Configuration via Extension Methods
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#combining-service-collection
+
+## Adding Configuration with a Delegate
+Options configured in a delegate override the values set in the configuration providers.
+
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#configure-options-with-a-delegate
+
 # Accessing Configuration
 ## `ConfigurationBinder.GetValue`
 `ConfigurationBinder` has extension methods for `IConfiguration`.  Use to access a single value from configuration:
@@ -161,5 +169,38 @@ public void SomeMethod()
 }
 ```
 
+## Accessing Configuration in `Program.cs`
+`appsettings.json`
+```json
+{
+  ...
+  "KeyOne": "Key One Value",
+  "KeyTwo": 1999,
+  "KeyThree": true
+}
+```
+
+`Program.cs`
+```cs
+var builder = WebApplication.CreateBuilder(args);
+
+var key1 = builder.Configuration.GetValue<string>("KeyOne");
+
+var app = builder.Build();
+
+app.MapGet("/", () => "Hello World!");
+
+var key2 = app.Configuration.GetValue<int>("KeyTwo");
+var key3 = app.Configuration.GetValue<bool>("KeyThree");
+
+app.Logger.LogInformation("KeyOne: {KeyOne}", key1);
+app.Logger.LogInformation("KeyTwo: {KeyTwo}", key2);
+app.Logger.LogInformation("KeyThree: {KeyThree}", key3);
+
+app.Run();
+```
+
 # Other Configuration
-Other configuration includes configuration for the development environment
+Other configuration includes configuration for the development environment (ie: `launch.json` / `launchSettings.json` and `web.config`)
+
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#other-configuration
