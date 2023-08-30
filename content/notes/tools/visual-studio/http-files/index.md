@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0  
 > Documentation: https://devblogs.microsoft.com/visualstudio/safely-use-secrets-in-http-requests-in-visual-studio-2022/?ocid=visualstudio_eml_tnp_autoid21_title
 
 <g>Availability</g>: ASP.NET Core 8? (documentation is unclear), Visual Studio 2022 v17.6+
@@ -72,14 +72,14 @@ Accept-Language: en-US,en;q=0.5
 ```
 
 ## Built-in Functions
-| Function         | Description                                                                                                                                                                          |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `$randomInt`     | Generates a random integer. Format: `{{$randomInt [min max]}}` where the min and max values are optional.                                                                            |
-| `$datetime`      | Generates a datetime string. Formats supported include ISO8601, RFC1123 or a custom format. Format: `{{$datetime rfc1123 “custom format” [offset option]}}`.                         |
-| `$timestamp`     | Generates a UTC timestamp. Default behavior generates a timestamp from the current time. With options you can generate an offset timestamp. Format: `{{$timestamp [offset option]}}. |
-| `$localdatetime` | Generates a datetime string in your local time zone. Format: `{{$localdatetime rfc1123 iso8601 “custom format” [offset option]}}`.                                                   |
-| `$processenv`    | Returns the value of the provided process environment variable. Format: `{{$processEnv envVarName}}`.                                                                                |
-| `$dotenv`        | Returns the value of the provided variable in a .env file. Format: `{{$dotenv variableName}}`.                                                                                       |
+| Function         | Description                                                                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `$randomInt`     | Generates a random integer. Syntax: `{{$randomInt [min max]}}` where the min and max values are optional.                                                                             |
+| `$datetime`      | Generates a datetime string. Formats supported include ISO8601, RFC1123 or a custom format. Syntax: `{{$datetime <rfc1123 \| iso8601 \| “custom format”> [offset option]}}`.          |
+| `$timestamp`     | Generates a UTC timestamp. Default behavior generates a timestamp from the current time. With options you can generate an offset timestamp. Syntax: `{{$timestamp [offset option]}}`. |
+| `$localdatetime` | Generates a datetime string in your local time zone. Syntax: `{{$localdatetime <rfc1123 \| iso8601 \| “custom format”> [offset option]}}`.                                            |
+| `$processenv`    | Returns the value of the provided process environment variable. Syntax: `{{$processEnv envVarName}}`.                                                                                 |
+| `$dotenv`        | Returns the value of the provided variable in a .env file. Syntax: `{{$dotenv variableName}}`.                                                                                        |
 
 # Usage
 - **Add** > **New Item** > ASP.NET Core > General > **HTTP File**
