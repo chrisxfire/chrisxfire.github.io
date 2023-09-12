@@ -18,6 +18,16 @@ Find locked user accounts:
 Search-AdAccount -LockedOut
 ```
 
+Unlock user accounts:
+```powershell
+Unlock-ADAccount -Identity 'lockeduser'
+```
+
+Or, both in one command:
+```powershell
+Search-ADAccount -LockedOut | Unlock-ADAccount
+```
+
 ### Find the Source of Locked Accounts
 1. Find the Domain Controller with the PDCe role:
     ```powershell
@@ -26,7 +36,9 @@ Search-AdAccount -LockedOut
 
 2. Check the Event Log for lockouts (ID 4740):
     ```powershell
-    Get-WinEvent -ComputerName $pdce -FilterHashTable @{'LogName' ='Security';'Id' = 4740}
+    $filter = @{'LogName' = 'Security';'Id' = 4740}
+    $events = Get-WinEvent -ComputerName $pdce -FilterHashTable $filter
+    $events | Select-Object @{'Name' ='UserName'; Expression={$_.Properties[0]}}, @{'Name' ='ComputerName';Expression={$_.Properties[1]}}
     ```
 
 
