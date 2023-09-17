@@ -1,3 +1,7 @@
+# "[It is] necessary to consider carefully the ability of the computing mechanism to take our intention incorrectly.
+# And the person controlling the machine must foresee where it can go astray, and prescribe in advance for all contingencies."
+# -- John von Neumann, 1948
+
 baseURL = 'https://chriscodes.net/'
 languageCode = 'en-us'
 title = 'chrisxfires blog'
@@ -37,7 +41,7 @@ defaultContentLanguage = "en-gb"
   [[menu.main]]
     pageRef = "readings"
     name = "readings"
-    url = "/reading-recaps/"
+    url = "/readings/"
     weight = 30
   [[menu.main]]
     pageRef = "about"
