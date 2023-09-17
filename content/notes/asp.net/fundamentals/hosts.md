@@ -8,10 +8,9 @@ weight: 1
 # Generic Host
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-7.0
 
-ASP.NET Core now uses a Generic Host.  The Web Host is provided only for backward compatibility.  
-ASP.NET Core creates a `WebApplicationBuilder` and a `WebApplication` which eliminates the need for a `Startup` class.
-
 The host encapsulates DI, logging, configuration, and `IHostedService` implementations.
+
+ASP.NET Core creates a `WebApplicationBuilder` and a `WebApplication` (a form of the Generic Host) which eliminates the need for a `Startup` class.
 
 See also:  [Generic Host]({{< ref "../../_net/generic-host" >}})
 
@@ -73,8 +72,7 @@ Host.CreateDefaultBuilder(args)
     });
 ```
 # App Configuration
-Call `ConfigureAppConfiguration` on `IHostBuilder.`
-Available at `HostBuilderContext.Configuration` and as a service from DI.
+Call `ConfigureAppConfiguration` on `IHostBuilder.` Available at `HostBuilderContext.Configuration` and as a service from DI.
 
 # Host Settings for All App Types
 All of these settings can be set in env vars with `DOTNET_` or `ASPNETCORE_` prefixes:
@@ -91,7 +89,7 @@ Set via env vars with `DOTNET_` or `ASPNETCORE_` prefixes or extension methods o
 
 ```cs
 Host.CreateDefaultBuilder(args)
-    .ConfigureWebHostDefaults(webBuilder =>
+    .ConfigureWebHostDefaults(webHostBuilder =>
     {
         // ...
     });
