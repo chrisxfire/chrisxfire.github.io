@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<style>
+    blockquote {
+        text-align: left;
+    }
+
+    aside {
+        text-align: right;
+    }
+</style>
 {{- $defaultColor := .Site.Params.defaultColor | default "auto" -}}
 
 {{/* allow website developer to enforce default dark mode */}}
@@ -16,22 +25,28 @@
     {{- partial "scriptsBodyStart.html" . -}}
     {{- partial "header.html" . -}}
     <div class="wrapper">
+        <aside>
+            <blockquote>
+                "[It is] necessary to consider carefully the ability of the computing mechanism to take our intention correctly.
+                And the person controlling the machine must foresee where it can go astray, and prescribe in advance for all contingencies."
+            </blockquote>
+            —John von Neumann, 1948
+        </aside>
         {{ partial "bio" . }}
-        <main aria-label="Content">
-            <h3 class="posts-item-note" aria-label="Recent Notes">Recent Notes</h3>
-            {{/* Show last 5 posts in reverse date order */}}
-            {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
-            {{ $posts := $pagesToShow.ByDate.Reverse }}
-            {{ range first 10 $posts }}
-            {{ partial "postCard" . }}
+        <h3 class="posts-item-note" aria-label="Recent Notes">Recent Notes</h3>
+        {{/* Show last 5 posts in reverse date order */}}
+        {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+        {{ $posts := $pagesToShow.ByDate.Reverse }}
+        {{ range first 10 $posts }}
+        {{ partial "postCard" . }}
+        {{ end }}
+        {{ if gt (len $posts) 5 }}
+        <p>
+            {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
+            <a href="{{ $firstSection.Permalink }}">See all notes</a>
             {{ end }}
-            {{ if gt (len $posts) 5 }}
-            <p>
-                {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
-                <a href="{{ $firstSection.Permalink }}">See all notes</a>
-                {{ end }}
-            </p>
-            {{ end }}
+        </p>
+        {{ end }}
         </main>
     </div>
     {{- partial "footer.html" . -}}
