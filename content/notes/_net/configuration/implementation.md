@@ -6,21 +6,24 @@ weight: 1
 ---
 # Example
 Install packages:
-`dotnet add package Microsoft.Extensions.Configuration`
-`dotnet add package Microsoft.Extensions.Configuration.Json`
-`dotnet add package Microsoft.Extensions.Configuration.Binder`
-`dotnet add package Microsoft.Extensions.Configuration.EnvironmentVariables` # Only if using environment variables.
+```dotnet add package Microsoft.Extensions.Configuration
+dotnet add package Microsoft.Extensions.Configuration.Json
+dotnet add package Microsoft.Extensions.Configuration.Binder
+dotnet add package Microsoft.Extensions.Configuration.EnvironmentVariables # Only if using environment variables.
+```
 
 Assuming this appsettings.json file:
-`{`
-`"Settings": {`
-`"KeyOne": 1,`
-`"KeyTwo": true,`
-`"KeyThree": {`
-`"Message": "Oh, that's nice..."`
-`}`
-`}`
-`}`
+```json
+{
+    "Settings": {
+        "KeyOne": 1,
+        "KeyTwo": true,
+        "KeyThree": {
+            "Message": "Oh, that's nice..."
+        }
+    }
+}
+```
 
 Set the file properties:
 - `Build action` = `Content`
