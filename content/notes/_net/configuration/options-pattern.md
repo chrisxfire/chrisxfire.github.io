@@ -347,6 +347,44 @@ Class-level validation can be performed on the options class itself by:
 1. Implementing `IValidatableObject` and its `Validate` method on the class
 2. Calling `ValidateDataAnnotations` in `Program.cs`
 
+## Complex Validation with `CustomValidationAttribute`
+Mark the member to be validated with `[CustomValidation]` and create a custom validation method: 
+
+When annotating with the `CustomValidation` attribute, its first argument is the type of the validation method that will be used, and its second argument is the name of the validation method that will be used:
+```cs {hl_lines=11}
+public class MyConfigOptions
+{
+    public const string MyConfig = "MyConfig";
+
+    [RegularExpression(@"^[a-zA-Z''-'\s]{1,40}$")]
+    public string Key1 { get; set; }
+    
+    [Range(0, 1000, ErrorMessage = "Value for {0} must be between {1} and {2}.")]
+    public int Key2 { get; set; }
+    
+    [CustomValidation(typeof(Validate), nameof(IsKey3NonNegative))]
+    public int Key3 { get; set; }
+}
+```
+
+The custom validation method must:
+1. Be public
+2. Be static
+3. Return ValidationResult
+4. Accept a parameter of the same type as the member being validated
+
+```cs {hl_lines=3}
+public class Validate 
+{
+    public static ValidationResult IsKey3NonNegative(int key) 
+    {
+        return key < 0 
+            ? new ValidationResult("key cannot be negative")
+            : ValidationResult.Success;
+    }
+}
+```
+
 # Post-configuration
 Post-configuration runs after all options configuration occurs. It is useful when you need to override configuration without changing the configuration file itself:
 ```cs
