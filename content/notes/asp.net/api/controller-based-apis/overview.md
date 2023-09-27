@@ -14,6 +14,19 @@ weight: 1
 
 Knowledge of MVC controllers is needed to use them in controller-based APIs. See [Notes on MVC Controllers]({{< ref "../../web-apps/mvc/controllers" >}}).
 
+# High-Level Process
+![A diagram depicting the design of the app. On the left, a box named "Client." On the right, a box labeled "MVC app" with a controller, model, and data access layer. From the client, an arrow to the controller labeled "HTTP request". From the controller, a to/from arrow to the data access layer labeled "read/write". From the controller, an arrow to the client labeled "HTTP response" and a resposne object {Name:"todo1"}. From the model, an arrow to the response object labeled "serialize".](image.png)  
+
+The high-level process for implementing controller-based APIs:
+1. VS > File > New > Project > **ASP.NET Core Web API**
+   1. **Framework** = **.NET 7.0**
+   2. Check **Use controllers**
+2. Add a model class
+3. Add a database context
+4. Register the database context
+5. Scaffold a controller
+6. Add routing to the controller action methods
+
 # ControllerBase Methods
 `CreatedAtAction` is an *action method* in `ControllerBase` that returns a 201 status code.  Other methods:   
 | Method                | Description                                      |
@@ -278,6 +291,6 @@ Analyzers inspect controller actions and notify you of any that:
 ```
 
 # JSON Patch
-[JSON Patch](https://datatracker.ietf.org/doc/html/rfc6902) is standard for applying updates to a resource.  JSON Patch support in ASP.NET Core web API is based on `Newtonsoft.Json` and requires the `Microsoft.AspNetCore.Mvc.NewtonsoftJson` package.
+[JSON Patch](https://datatracker.ietf.org/doc/html/rfc6902) is a standard for applying updates to a resource.  JSON Patch support in ASP.NET Core web API is based on `Newtonsoft.Json` and requires the `Microsoft.AspNetCore.Mvc.NewtonsoftJson` package.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/jsonpatch?view=aspnetcore-7.0
