@@ -28,9 +28,9 @@ await Host.CreateDefaultBuilder(args)
 CreateDefaultBuilder:
 - Sets content root to `GetCurrentDirectory`
 - Loads host configuration from env vars (prefixed with `DOTNET_`) then command line args
-- Loads app configuration (`appsettings.json` —> `appsettings.{Enviornment}.json` —> User secrets (in `Development` environment) —> Env vars —> command line args)
+- Loads app configuration (`appsettings.json` —> `appsettings.{Environment}.json` —> User secrets (in `Development` environment) —> Env vars —> command line args)
 - Adds logging providers:  `Console`, `Debug`, `EventSource`, `EventLog` (Windows only)
-- Enables scope validation and dependency validation if environment == `Development`
+- If `HostingEnvironment` == "Development", enables scope validation and dependency validation
 
 ## `ConfigureWebHostDefaults`
 For an HTTP workload, call `ConfigureWebHostDefaults` instead of `ConfigureServices`:
@@ -76,13 +76,13 @@ Call `ConfigureAppConfiguration` on `IHostBuilder.` Available at `HostBuilderCon
 
 # Host Settings for All App Types
 All of these settings can be set in env vars with `DOTNET_` or `ASPNETCORE_` prefixes:
-| Key | Default | Env  | Alternate way to set |
-|-----|---------|------|----------------------|
-| `applicationName` (string) | Name of app assembly | `PREFIX_APPLICATIONNAME` | Env var |
-| `contentRoot` (string) | Folder of app assembly | `PREFIX_CONTENTROOT` | `UseContentRoot` on `IHostBuilder` |
-| `environment` (string) | Production | `PREFIX_ENVIRONMENT` | `UseEnvironment` <br> Can be any value; `Development` and `Staging` are common. |
-| `shutdownTimeoutSeconds` (int) | 5 seconds | `PREFIX_SHUTDOWNTIMEOUTSECONDS` | configure `HostOptions` <br> Sets timeout for `StopAsync` |
-| `hostBuilder:reloadConfigOnChange` (bool) | true | `PREFIX_hostBuilder:reloadConfigOnChange` | EnvVar |
+| Key                                       | Default                | Env                                       | Alternate way to set                                                            |
+| ----------------------------------------- | ---------------------- | ----------------------------------------- | ------------------------------------------------------------------------------- |
+| `applicationName` (string)                | Name of app assembly   | `PREFIX_APPLICATIONNAME`                  | Env var                                                                         |
+| `contentRoot` (string)                    | Folder of app assembly | `PREFIX_CONTENTROOT`                      | `UseContentRoot` on `IHostBuilder`                                              |
+| `environment` (string)                    | Production             | `PREFIX_ENVIRONMENT`                      | `UseEnvironment` <br> Can be any value; `Development` and `Staging` are common. |
+| `shutdownTimeoutSeconds` (int)            | 5 seconds              | `PREFIX_SHUTDOWNTIMEOUTSECONDS`           | configure `HostOptions` <br> Sets timeout for `StopAsync`                       |
+| `hostBuilder:reloadConfigOnChange` (bool) | true                   | `PREFIX_hostBuilder:reloadConfigOnChange` | EnvVar                                                                          |
 
 # Host Settings for HTTP Workloads Only
 Set via env vars with `DOTNET_` or `ASPNETCORE_` prefixes or extension methods on `IWebHostBuilder`:  
@@ -95,18 +95,18 @@ Host.CreateDefaultBuilder(args)
     });
 ```
 
-| Key | Default | Env Var | Alternate way to set |
-|-----|---------|---------|----------------------|
-| `captureStartupErrors` (bool)<br>If `false`, errors during startup result in host exit| false<br>(unless running as Kestrel behind IIS) | `PREFIX_CAPTURESTARTUPERRORS` | `webBuilder.CaptureStartupErrors();` |
-| `detailedErrors` (bool)<br>Capture detailed errors<br>Also enabled if environment == `Development` | `false` | `PREFIX_DETAILEDERRORS` | `webBuilder.UseSetting(WebHostDefaults.DetailedErrors Key, "true");` |
-| `hostingStartupAssemblies` (string)<br>Semicolon-delimited string of startup assemblies to load on startup | (empty) | `PREFIX_HOSTINGSTARTUP`<br>`ASSEMBLIES` | `webBuilder.UseSetting(WebHostDefaults.HostingStartupAssembliesKey, "assembly1;assembly2");` |
-| `hostingStartupExcludeAssemblies` (string) | (empty) | `PREFIX_HOSTING`<br>`STARTUPEXCLUDEASSEMBLIES` | `webBuilder.UseSetting(WebHostDefaults.HostingStartupExcludeAssembliesKey "assembly1;assembly2");` |
-| `https_port` (string) | (empty) | `PREFIX_HTTPS_PORT` | `webBuilder.UseSetting("https_port", "8080");` |
-| `preferHostingUrls` (bool)<br>Listen on URLs configured with `IServer`  | `true` | `PREFIX_PREFERHOSTINGURLs` | `webBuilder.PreferHostingUrls(true);` |
-| `preventHostingStartup` (bool) | `false` | `PREFIX_PREVENTHOSTINGSTARTUP` | `webBuilder.UseSetting(WebHostDefaults.PreventHostingStartupKey, "true");` |
-| `suppressStatusMessages` (bool)<br>Suppress hosting startup status messages. | `false` | `PREFIX_SUPRESSSTATUSMESSAGES` | `webBuilder.UseSetting(WebHostDefaults.SuppressStatusMessagesKey, "true");` |
-| `urls` (string)<br>A list of IP addresses or host addresses with ports and<br>protocols that the server should listen on for requests. | string | `PREFIX_URLS` | `webBuilder.UseUrls("https://*:5000;http://localhost:5001;…");` |
-| `webroot` (string)<br>The relative path to the app's static assets | `wwwroot` | `PREFIX_WEBROOT` | `webBuilder.UseWebRoot("public");` |
+| Key                                                                                                                                    | Default                                         | Env Var                                        | Alternate way to set                                                                               |
+| -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `captureStartupErrors` (bool)<br>If `false`, errors during startup result in host exit                                                 | false<br>(unless running as Kestrel behind IIS) | `PREFIX_CAPTURESTARTUPERRORS`                  | `webBuilder.CaptureStartupErrors();`                                                               |
+| `detailedErrors` (bool)<br>Capture detailed errors<br>Also enabled if environment == `Development`                                     | `false`                                         | `PREFIX_DETAILEDERRORS`                        | `webBuilder.UseSetting(WebHostDefaults.DetailedErrors Key, "true");`                               |
+| `hostingStartupAssemblies` (string)<br>Semicolon-delimited string of startup assemblies to load on startup                             | (empty)                                         | `PREFIX_HOSTINGSTARTUP`<br>`ASSEMBLIES`        | `webBuilder.UseSetting(WebHostDefaults.HostingStartupAssembliesKey, "assembly1;assembly2");`       |
+| `hostingStartupExcludeAssemblies` (string)                                                                                             | (empty)                                         | `PREFIX_HOSTING`<br>`STARTUPEXCLUDEASSEMBLIES` | `webBuilder.UseSetting(WebHostDefaults.HostingStartupExcludeAssembliesKey "assembly1;assembly2");` |
+| `https_port` (string)                                                                                                                  | (empty)                                         | `PREFIX_HTTPS_PORT`                            | `webBuilder.UseSetting("https_port", "8080");`                                                     |
+| `preferHostingUrls` (bool)<br>Listen on URLs configured with `IServer`                                                                 | `true`                                          | `PREFIX_PREFERHOSTINGURLs`                     | `webBuilder.PreferHostingUrls(true);`                                                              |
+| `preventHostingStartup` (bool)                                                                                                         | `false`                                         | `PREFIX_PREVENTHOSTINGSTARTUP`                 | `webBuilder.UseSetting(WebHostDefaults.PreventHostingStartupKey, "true");`                         |
+| `suppressStatusMessages` (bool)<br>Suppress hosting startup status messages.                                                           | `false`                                         | `PREFIX_SUPRESSSTATUSMESSAGES`                 | `webBuilder.UseSetting(WebHostDefaults.SuppressStatusMessagesKey, "true");`                        |
+| `urls` (string)<br>A list of IP addresses or host addresses with ports and<br>protocols that the server should listen on for requests. | string                                          | `PREFIX_URLS`                                  | `webBuilder.UseUrls("https://*:5000;http://localhost:5001;…");`                                    |
+| `webroot` (string)<br>The relative path to the app's static assets                                                                     | `wwwroot`                                       | `PREFIX_WEBROOT`                               | `webBuilder.UseWebRoot("public");`                                                                 |
 
 
 # Manage the Host Lifetime
