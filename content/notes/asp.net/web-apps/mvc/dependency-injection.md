@@ -8,7 +8,7 @@ weight: 1
 # Dependency Injection into Controllers
 Code sample: [View or download sample code (github.com)](https://github.com/_net/AspNetCore.Docs/tree/main/aspnetcore/mvc/controllers/dependency-injection/sample)
 
-MVC controllers request dependencies explicitly via constructors.
+MVC controllers request dependencies *explicitly* via constructors.
 Assuming an `IDateTime` service:
 ```cs
 public class HomeController : Controller
@@ -29,7 +29,8 @@ public IActionResult About([FromServices] IDateTime dateTime) =>
     Content( $"Current server time: {dateTime.Now}");
 ```
 
-# [Options Pattern to Access Settings](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/dependency-injection?view=aspnetcore-7.0#access-settings-from-a-controller)
+# Options Pattern to Access Settings
+Generally, do not inject `IConfiguration` into a controller. Instead, use the [Options Pattern]({{< ref "../../../_net/configuration/options-pattern" >}}).
 
 # Dependency Injection into Views
 Displaying a configuration value in a Razor Pages view:
