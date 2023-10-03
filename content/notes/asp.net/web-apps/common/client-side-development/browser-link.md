@@ -34,7 +34,7 @@ Uses:
 # Using
 With an ASP.NET Core project open in Visual Studio, on the Debug toolbar, the Browser Link toolbar control is added:  
 
-<img alt="A screenshot of Visual Studio showing the Debug toolbar with the Browser Link control" src="image.png" width="50%" height="50%">  
+<img alt="A screenshot of Visual Studio showing the Debug toolbar with the Browser Link control" src="screenshot.png" width="50%" height="50%">  
 
 From this control, open **Browser Link Dashboard** and check **Enable Browser Link**.
 
