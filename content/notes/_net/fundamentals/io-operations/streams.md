@@ -5,66 +5,101 @@ draft: false
 weight: 1
 ---
 
-# Streams
-*Stream* – A sequence of bytes that can be read from and written to.
+# Overview
+> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/io/
 
-# `Stream` class
-- The abstract base class of all streams.  
-- All streams implement `IDisposable`, giving them a `Dispose()` method to release unmanaged resources.
-- Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-6.0
+A *stream* is a sequence of bytes that can be read from and written to.  
 
-## Operations
-Steams can be operated on as follows:
+Streams involve three fundamental operations:
 - `Read` – The transfer of data from a stream into a data structure.
 - `Write` – The transfer or data from a data structure into a stream.
 - `Seek` – Querying and modifying the current position within a stream.
 
-## Bit Bucket
+Depending on a stream's underlying data source, a stream may only support some subset of these operations. 
+This can be tested with `CanRead`, `CanWrite`, and `CanSeek` properties.
+
+# Overview of Types for Streams
+See [here]({{< ref "./overview#overview-of-types-for-streams" >}}).
+
+# Composing Streams
+> Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-6.0  
+> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/io/composing-streams
+
+`Stream` is the abstract base class of all streams. All streams implement `IDisposable`.
+
+A *backing store* is a storage medium such as disk or memory. Each backing store implements its own stream as an implementation
+of the `Stream` class.  
+A *base stream* is a stream that connect to a backing store. They have constructors with the necessary parameters to 
+connect the stream to the backing store.
+
+Base streams can be attached to one or more *pass-through streams* that provide specific functionality. In this example,
+the base stream is a `FileStream` and the pass-through stream is a `StreamReader` composed of that base stream: 
+```cs {hl_lines=[13,15]}
+using System;
+using System.IO;
+
+public class CompBuf
+{
+    private const string FILE_NAME = "MyFile.txt";
+
+    public static void Main()
+    {
+        if (!File.Exists(FILE_NAME))
+			throw new Exception();
+
+        FileStream fsIn = new FileStream(FILE_NAME, FileMode.Open, FileAccess.Read, FileShare.Read);
+        
+		using (StreamReader sr = new StreamReader(fsIn))
+        {
+            string input;
+            // While not at the end of the file, read lines from the file.
+            while (sr.Peek() > -1)
+            {
+                input = sr.ReadLine();
+                Console.WriteLine(input);
+            }
+        }
+    }
+}
+```
+
+# Bit Bucket
 A stream with no backing store.  To create this, use the `Null` field to retrieve an instance of a stream.
 
-## Concrete Stream Classes
-Concrete (instantiable) classes that inherit the `Stream` class include:  
-- `BufferedStream` for wrapping a buffered stream around another to improve read/write performance.
-- `FileStream` for bytes stored in a filesystem.
-  - Reads from, writes to, opens, and closes files on a filesystem.
-  - Buffers input/output automatically.
-- `MemoryStream` for bytes stored in memory in the current process.
-- `System.Net.Sockets.NetworkStream` for bytes stored at a network location.
+# Readers and Writers
+The `System.IO` namespace contains types for reading encoded characters from and writing to streams. 
+These types handle conversion of encoded characters to and from bytes. Each reader and writer class is associated 
+with a stream accessible via its `BaseStream` property.
 
-## Function Stream Classes
-Function streams cannot exist on their own but can only be "plugged onto" other streams to add functionality:
-- `System.Security.Cryptography.CryptoStream` — Encrypts/decrypts a stream.
-- `System.IO.Compression.GZipStream` — Compresses a stream.
-- `System.IO.Compression.DeflateStream` — Decompresses a stream.
-- `System.Net.Security.AuthenticatedStream` — Sends credentials across a stream.
+| Helper Class                      | Use                                                                                               |
+| --------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `BinaryReader` and `BinaryWriter` | Reading and writing primitive data types as binary values                                         |
+| `StreamReader` and `StreamWriter` | Reading and writing characters by using an encoding value to convert the characters to/from bytes |
+| `StringReader` and `StringWriter` | Reading and writing characters to/from strings                                                    |
+| `TextReader` and `TextWriter`     | The abstract base class for other readers and writers of text data (but not binary data)          |
 
 # Stream Helpers
 ## StreamReader 
-- A `TextReader` that reads characters (not bytes) from a stream in a particular encoding (like UTF-8).
+A `TextReader` that reads characters (not bytes) from a stream in a particular encoding (like UTF-8).
 - Implements `IDisposable`.
-- <r>Not thread safe</r>. See `TextReader.Synchronized`.
+- <r>Warning</r>: Not thread safe. See `TextReader.Synchronized`.
 
-## StreamWriter
-- A `TextWriter` that writes characters (not bytes) from a stream in a particular encoding (like UTF-8).  
-- Implements `IDisposable`.
-- <r>Not thread safe</r>. See `TextWriter.Synchronized`.
-
-### Example
 ```cs
 StreamWriter tw = File.CreateText(PATH_TO_TEXT_FILE); // TextWriter
 tw.WriteLine("*some text*");
 tw.Close(); // Close the file and release resources.
+```
 
+## StreamWriter
+A `TextWriter` that writes characters (not bytes) from a stream in a particular encoding (like UTF-8).  
+- Implements `IDisposable`.
+- <r>Warning</r>: Not thread safe. See `TextWriter.Synchronized`.
+
+```cs
 StreamReader tr = File.OpenText(PATH_TO_TEXT_FILE); // TextReader
 WriteLine(tr.ReadToEnd());
 tr.Close();
 ```
-
-## BinaryReader & BinaryWriter
-For reading and writing primitive data (but not character strings) as binary values.
-
-## StringReader & StringWriter
-For reading and writing characters to/from strings.
 
 # Writing to XML Streams
 Use `WriteStartElement` and `WriteEndElement` when an element may have child elements.  
@@ -155,7 +190,7 @@ StreamWriter w = new(stream, Encoding.Encoding); // Text will be encoded as byte
 ```
 
 # `ReadExactly` and `ReadAtLeast`
-`Stream.Read()` may return less data than what is available in the Stream and less data than the buffer being passed in. `ReadExactly` and `ReadAtLeast` address this limitation.
+`Stream.Read()` may return less data than what is available in the stream and less data than the buffer being passed in. `ReadExactly` and `ReadAtLeast` address this limitation.
 
 ## `ReadExactly`
 Guaranteed to read exactly the number of bytes requested:
@@ -174,4 +209,4 @@ int bytesRead = f.ReadAtLeast(buffer, 10);
 // 10 <= bytesRead <= 10
 ```
 
-<r>Warning:</r> Throws an `EndOfStreamException` if the Stream ends before the requested bytes have been read.
+<r>Warning:</r> Throws an `EndOfStreamException` if the stream ends before the requested bytes have been read.
