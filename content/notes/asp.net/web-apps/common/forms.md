@@ -6,6 +6,7 @@ weight: 1
 ---
 
 From Pluralsight/ASP.NET Core 6 Fundamentals
+
 # Creating a Form Using Tag Helpers
 ASP.NET Core has built-in Tag Helpers for creating forms:
 - `Form`

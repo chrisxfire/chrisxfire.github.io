@@ -5,7 +5,7 @@ draft: true
 weight: 1
 ---
 
-Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-7.0&tabs=windows
+[Microsoft Learn > ASP.NET Core > Fundamentals]({{< ref "https://learn.microsoft.com/en-us/aspnet/core/fundamentals/?view=aspnetcore-7.0&tabs=windows" >}}
 
 - [x] Overview
 - [x] App startup

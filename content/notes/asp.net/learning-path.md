@@ -1,0 +1,103 @@
+---
+title: learning path
+date: 2023-09-27T00:00:00-06:00
+draft: true
+weight: 1
+---
+
+https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-7.0
+
+- [ ] Overview...
+- [ ] Get started
+- [ ] What's new...
+- [ ] Tutorials... 
+- [ ] [Fundamentals...]({{< ref "./fundamentals/learning-path" >}})
+- [ ] [Web apps...]({{< ref "./web-apps/learning-path" >}})
+- [ ] [APIs...]({{< ref "./api/learning-path" >}})
+- [ ] Real-time apps...
+- [ ] Remote Procedure Call apps...
+- [ ] Best practices
+- [ ] Servers...
+  - [ ] Overview
+  - [ ] Kestrel...
+    - [x] Overview
+    - [ ] Endpoints
+    - [ ] Options
+    - [ ] Diagnostics
+    - [x] HTTP/2
+    - [x] HTTP/3
+    - [ ] Connection middleware
+    - [ ] When to use a reverse proxy
+    - [ ] Host filtering
+    - [ ] Request draining
+  - [ ] IIS...
+  - [ ] HTTP.sys
+- [ ] Test...
+  - [ ] .NET Hot Reload
+  - [ ] Visual Studio dev tunnels
+  - [ ] HttpRepl...
+    - [ ] Overview
+    - [ ] OpenTelemetry
+    - [ ] Test Minimal API
+    - [ ] Razor Pages unit tests
+    - [ ] MVC controllers unit tests --> ASP.NET Core > Web Apps > MVC > Unit test
+    - [ ] Integration tests
+    - [ ] Load and stress testing
+    - [ ] Test middleware
+- [ ] Debug...
+  - [ ] Debug with Visual Studio
+  - [ ] Remote debugging
+  - [ ] Snapshot debugging in Azure
+  - [ ] Snapshot debugging in Visual Studio
+  - [ ] Visual Studio Dev Tunnels with Power Platform
+- [ ] Troubleshoot...
+  - [ ] Troubleshoot and debug
+  - [ ] Troubleshoot Azure and IIS
+  - [ ] Azure and IIS errors reference
+- [z] Code analysis... (a list of diagnostics for ASP.NET Core)
+- [ ] Data access...
+  - [ ] Tutorials...
+  - [ ] EF 6 with ASP.NET Core
+  - [ ] Azure SQL database with Azure App Service
+  - [ ] Azure Storage with Visual Studio...
+- [ ] Host and deploy...
+  - [ ] Overview
+  - [ ] Azure App Service...
+  - [ ] DevOps...
+  - [ ] Publish to IIS tutorial
+  - [ ] Windows service
+  - [ ] Linux with Nginx
+  - [ ] Linux with Apache
+  - [ ] Docker...
+  - [ ] Proxy and load balancer configuration
+  - [ ] Scaling apps on Azure
+  - [ ] Web farm
+  - [ ] Visual Studio publish profiles
+  - [z] Visual Studio for Mac publish to folder
+  - [ ] Directory structure
+- [ ] Security and Identity...
+  - [ ] Overview
+  - [ ] Authentication...
+  - [ ] Authorization...
+  - [ ] Data protection...
+  - [ ] Secrets management...
+  - [ ] Enforce HTTPS
+  - [ ] Host Docker with HTTPS
+  - [ ] Docker Compose with HTTPS
+  - [ ] EU GDPR support
+  - [ ] Prevent XSRF/CSRF attacks
+  - [ ] Prevent open redirect attacks
+  - [ ] Prevent XSS
+  - [ ] Enable CORS
+  - [ ] Share cookies among apps
+  - [ ] SameSite cookies
+  - [ ] IP safelist
+- [ ] Performance...
+- [ ] Globalization and localization...
+- [ ] Advanced...
+  - [x] Model binding
+  - [ ] Custom model binding
+  - [x] Model validation
+  - [ ] ...
+- [ ] Migration and updates...
+- [ ] API reference

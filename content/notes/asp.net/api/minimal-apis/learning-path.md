@@ -10,7 +10,7 @@ Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minima
 - [ ] Overview
 - [ ] Tutorial
 - [ ] Minimal APIs quick reference
-- [ ] WebApplication and WebApplicationBuilder
+- [x] WebApplication and WebApplicationBuilder
 - [ ] Route Handlers
 - [ ] Parameter binding
 - [ ] Create responses

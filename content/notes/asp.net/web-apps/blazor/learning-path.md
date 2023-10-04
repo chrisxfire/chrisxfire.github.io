@@ -5,7 +5,7 @@ draft: true
 weight: 1
 ---
 
-[Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-7.0)
+[Microsoft Learn > ASP.NET Core > Web Apps > Blazor](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-7.0)
 - [x] Overview
 - [x] Supported platforms
 - [x] Tooling
@@ -13,7 +13,7 @@ weight: 1
 - [x] Hosting models
 - [ ] Blazor Hybrid...
 - [x] Project structure
-- [] Fundamentals...
+- [x] Fundamentals...
   - [x] Overview
   - [x] Routing and navigation
   - [x] Configuration
@@ -46,7 +46,7 @@ weight: 1
   - [ ] Prerender and integrate components
   - [ ] Class libraries
   - [ ] JavaScript apps and SPA frameworks
-  - [ ] Buit-in components
+  - [ ] Built-in components
 - [ ] Globalization and localization
 - [x] Forms and input components
   - [x] [Validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#basic-validation)
@@ -72,7 +72,7 @@ weight: 1
   - [ ] Load and stress testing
   - [ ] Event counters
 - [ ] Test components
-- [ ] Progress Web Applications
+- [x] Progress Web Applications
 - [ ] Host and deploy...
   - [ ] Overview
   - [ ] Blazor Server
@@ -84,8 +84,8 @@ weight: 1
 - [ ] Advanced scenarios
 
 3rd party Component Libraries
-- [ ] [Blazored](https://blazored.github.io/)
+- [x] [Blazored](https://blazored.github.io/)
 - [ ] [Blazor Bootstrap](https://getblazorbootstrap.com/)
 - [ ] [Fluent UI Blazor](https://github.com/microsoft/fluentui-blazor)
-- [ ] [MudBlazor](https://www.mudblazor.com)
-- [ ] [Radzen](https://www.radzen.com/blazor-components/)
+- [x] [MudBlazor](https://www.mudblazor.com)
+- [x] [Radzen](https://www.radzen.com/blazor-components/)
