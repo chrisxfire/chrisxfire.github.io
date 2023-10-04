@@ -18,6 +18,30 @@ weight: 1
   - [ ] Serialization...
   - [ ] System.CommandLine...
   - [ ] File and stream I/O...
+    - [x] Overview
+    - [ ] File path formats on Windows systems
+    - [x] Common I/O tasks
+      - [x] Common I/O tasks
+      - [x] How to copy directories
+      - [x] How to enumerate directories and files
+      - [x] How to read and write a newly created data file
+      - [x] How to open and append to a log file
+      - [x] How to write text to a file
+      - [x] How to read text from a file
+      - [x] How to read characters from a string
+      - [x] How to write characters to a string
+      - [z] How to add or remove access control list entries (N/A: .NET Framework only)
+      - [x] How to compress and extract files
+      - [x] Composing streams
+    - [x] Asynchronous file I/O
+    - [x] Handle I/O errors
+    - [z] Isolated storage... (deprecated)
+    - [ ] Pipes...
+      - [ ] Pipes
+      - [ ] ...
+    - [ ] Pipelines
+    - [ ] Work with buffers
+    - [ ] Memory-mapped files
   - [ ] The System.Console class
   - [ ] Dependency injection...
   - [ ] Configuration...
