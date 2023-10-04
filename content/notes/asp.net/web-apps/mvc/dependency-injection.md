@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Dependency Injection into Controllers
-Code sample: [View or download sample code (github.com)](https://github.com/_net/AspNetCore.Docs/tree/main/aspnetcore/mvc/controllers/dependency-injection/sample)
+Code sample: [View or download sample code (github.com)](https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/mvc/controllers/dependency-injection/sample)
 
 MVC controllers request dependencies *explicitly* via constructors.
 Assuming an `IDateTime` service:

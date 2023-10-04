@@ -7,7 +7,7 @@ weight: 1
 
 # Problems with HttpClient
 - `HttpClient` implements `IDisposable`, but when the object gets disposed of, the underlying socket is not immediately released. This can lead to [socket exhaustion](https://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/).
-- When using a shared instances of `HttpClient` in long-running processes, the if instantiated as a singleton or static object, `HttpClient` will fail to [handle DNS changes](https://github.com/_net/runtime/issues/18348).
+- When using a shared instances of `HttpClient` in long-running processes, the if instantiated as a singleton or static object, `HttpClient` will fail to [handle DNS changes](https://github.com/dotnet/runtime/issues/18348).
 
 # Overview
 `IHttpClientFactory` offers these benefits:

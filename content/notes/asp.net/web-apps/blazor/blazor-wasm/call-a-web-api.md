@@ -143,4 +143,4 @@ app.UseCors(policy => policy
 See also: https://learn.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-7.0
 
 # Testing a Web API
-Blazor framework's reference source has `HttpClient` test assets: https://github.com/_net/aspnetcore/tree/main/src/Components/test/testassets/BasicTestApp/HttpClientTest
+Blazor framework's reference source has `HttpClient` test assets: https://github.com/dotnet/aspnetcore/tree/main/src/Components/test/testassets/BasicTestApp/HttpClientTest

@@ -90,8 +90,8 @@ This format is understood by the compiler at build time:
 | Default                      | default                      | Corresponds to the default severity of the rule. To determine what the default value for a rule is, look in the Properties window.                                        | Corresponds to the default severity of the rule.                                                      |
 
 # Sample editorconfig Files
-- Roslyn's editorconfig: [roslyn/.editorconfig at main · dotnet/roslyn (github.com)](https://github.com/_net/roslyn/blob/main/.editorconfig)
-- .NET runtime's editorconfig: [runtime/.editorconfig at main · dotnet/runtime (github.com)](https://github.com/_net/runtime/blob/main/.editorconfig)
+- Roslyn's editorconfig: [roslyn/.editorconfig at main · dotnet/roslyn (github.com)](https://github.com/dotnet/roslyn/blob/main/.editorconfig)
+- .NET runtime's editorconfig: [runtime/.editorconfig at main · dotnet/runtime (github.com)](https://github.com/dotnet/runtime/blob/main/.editorconfig)
 
 # Suppressing EditorConfig Violations
 `#pragma warning disable CAXXXX`

@@ -9,7 +9,7 @@ weight: 1
 ![app-models](app-models1.png)  
 ![app-models](app-models2.png)  
 
-https://github.com/_net/standard/blob/release/3.0/docs/metaphor.md
+https://github.com/dotnet/standard/blob/release/3.0/docs/metaphor.md
 
 # C# is...
 - Strongly-typed:

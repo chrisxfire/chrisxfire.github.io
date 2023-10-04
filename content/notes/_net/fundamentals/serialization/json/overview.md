@@ -14,7 +14,7 @@ These notes are for `System.Text.Json`.
 - Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.text.json?view=net-6.0
 
 # Security
-`System.Text.Json` has a threat model.  See: https://github.com/_net/runtime/blob/main/src/libraries/System.Text.Json/docs/ThreatModel.md
+`System.Text.Json` has a threat model.  See: https://github.com/dotnet/runtime/blob/main/src/libraries/System.Text.Json/docs/ThreatModel.md
 
 # Thread Safety
 <r>Warning</r>: JsonDocument is not thread safe.  All other aspects of `System.Text.Json` are thread safe.
