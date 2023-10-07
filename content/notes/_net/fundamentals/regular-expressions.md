@@ -240,4 +240,8 @@ The result from a single capturing group.
 ```cs
 // Matches <<https://service5.ultipro.com/personnel/v1/employee-multi-phone-numbers?page=2&per_page=30>>; rel="next"
 @"^<[\S]+>;\s+rel=""[\w]+""$"
+
+// Given <img alt="" src="" width="100%" height="100%">
+// Matches contents of alt tag (optional), contents of src tag (required), contents of alt tag (optional)
+@"(?:alt="([\w\s\-]+)".*)?(?:src="(.*\.[a-z]{3}))"(?:.*alt="([\w\s]+)")?.*"
 ```
