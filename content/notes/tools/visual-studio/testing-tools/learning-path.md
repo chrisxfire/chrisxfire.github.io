@@ -5,7 +5,7 @@ draft: true
 weight: 1
 ---
 
-[Microsoft Learn > Visual Studio > Testing]({{< ref "https://learn.microsoft.com/en-us/visualstudio/test/?view=vs-2022" >}})
+[Microsoft Learn > Visual Studio > Testing](https://learn.microsoft.com/en-us/visualstudio/test/?view=vs-2022)
 
 - [x] Overview...
 - [x] Tutorials...

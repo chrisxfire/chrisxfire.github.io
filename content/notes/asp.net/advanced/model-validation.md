@@ -28,7 +28,7 @@ public async Task<IActionResult> Create(Movie movie)
 }
 ```
 
-Note: Web API controllers do not need to check `ModelState.IsValid` if they are decorated with `[ApiController]` — assuming [automatic HTTP 400]({{< ref "../api/controller-based-apis/overview#automatic-http-400-responses" >}}) responses are enabled (default).
+Note: Web API controllers do not need to check `ModelState.IsValid` if they are decorated with `[ApiController]` — assuming [automatic HTTP 400](../api/controller-based-apis/overview#automatic-http-400-responses) responses are enabled (default).
 
 
 # Repeating Validation
@@ -73,7 +73,7 @@ public class Movie
 }
 ```
 
-See also: [Notes on Data Validation]({{< ref "../../_net/data-validation" >}})
+See also: [Notes on Data Validation](../../_net/data-validation)
 
 ## Error Messages
 Validation attributes allow for defining the error message that is displayed on invalid input:
@@ -183,4 +183,4 @@ Prevents submission until the form is valid. There is a jQuery Unobtrusive Valid
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-7.0#client-side-validation
 
 # Problem Details
-See [notes on Problem Details]({{< ref "../fundamentals/error-handling#problem-details" >}})
+See [notes on Problem Details](../fundamentals/error-handling#problem-details)

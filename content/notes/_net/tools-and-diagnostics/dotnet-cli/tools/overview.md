@@ -26,7 +26,7 @@ dotnet tool install <package_name>
 | dotnet-monitor  | for monitoring .NET applications in production environments and to collect diagnostic artifacts |
 
 ## dotnet-httprepl
-See [notes on HttpRepl]({{< ref "../../../../asp.net/api/testing-with-httprepl" >}})
+See [notes on HttpRepl](../../../../asp.net/api/testing-with-httprepl)
 
 ## dotnet-monitor
 | Subcommand                 | Description                                                                                    |
