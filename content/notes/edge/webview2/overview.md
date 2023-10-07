@@ -10,7 +10,7 @@ weight: -1
 
 Edge WebView2 is a *control* that allows for embedding web technologies (HTML/CSS/JS) into native apps. It uses Microsoft Edge as the rendering engine to display the web content in the app.
 
-<img alt="A diagram showing an app with both native UI components and WebView2 controls" src="image.png" width="50%" height="50%">
+![A diagram showing an app with both native UI components and WebView2 controls](./image.png)
 
 WebView2 provides a hybrid approach between the extremes of websites and PWAs on one end of the spectrum and fully native apps on the other end.
 

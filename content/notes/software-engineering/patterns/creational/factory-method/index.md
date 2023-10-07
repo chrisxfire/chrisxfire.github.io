@@ -16,7 +16,7 @@ Popularity: 3/3
 In .NET: A logger factory  
 
 # Overview
-<img src="Creational_Factory-Method-image1.png" width="65%" height="65%" alt="The structure of the Factory Method pattern" />  
+![The structure of the Factory Method pattern](./Creational_Factory-Method-image1.png)
 
 1.  The Product declares the interface, which is common to all objects that can be produced by the creator and its subclasses.
 2.  Concrete Products are different implementations of the product interface.
@@ -91,4 +91,4 @@ class Client
 }
 ```
 
-<img src="Creational_Factory-Method-image2.png" width="65%" height="65%" />  
+![](./Creational_Factory-Method-image2.png)

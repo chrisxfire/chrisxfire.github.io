@@ -7,7 +7,7 @@ weight: 1
 # Overview
 [SplitView class (microsoft.com)](https://learn.microsoft.com/en-us/windows/windows-app-sdk/api/winrt/microsoft.UI.Xaml.Controls.SplitView)  
 SplitView controls have an expandable / collapsible pane and a content area:  
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)_SplitView-image1.png" style="width:5in;height:3.33333in" alt="Microsoft Edge split view example" />  
+![Microsoft Edge split view example](./Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)_SplitView-image1.png)
 
 SplitView's content area is always visible.
 The pane has four modes:

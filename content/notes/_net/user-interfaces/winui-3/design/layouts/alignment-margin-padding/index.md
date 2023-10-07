@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image1.png" width="50%" height="%50" />  
+![](./Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image1.png)
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image4.png" width="50%" height="%50" />  
+![](./Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image4.png)
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image5.png" width="65%" height="%65" />  
+![](./Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image5.png)
 
 # Dimensions
 Dimensions should be set in increments of 4 effective pixels.
@@ -55,7 +55,7 @@ Example:
 Margin="0", Padding="0"
 ```
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image2.png" style="width:2.775in;height:0.625in" />
+![](./Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image2.png)
 
 ```xml
 <Grid BorderBrush="Blue" BorderThickness="4" Width="200">
@@ -63,5 +63,5 @@ Margin="0", Padding="0"
 </Grid>
 ```
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image3.png" style="width:3.63333in;height:1.875in" />  
+![](./Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image3.png)
 

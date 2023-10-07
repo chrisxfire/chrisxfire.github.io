@@ -22,14 +22,14 @@ A mechanism to distribute data evenly across servers.
 
 ### Implementing
 1. For each object, hash its key with a hashing function (like MD5):  `serverIndex = hash(object_key) % N` where `N` is the size of the server pool  
-   <img src="Consistent-Hashing-image1.png" style="width:3.25in;height:1.60833in" />
+   ![](./Consistent-Hashing-image1.png)
 
 2. Perform modulo operation on the hash against the number of servers:  `hash(object_key) % numberOfServers`
 
     This determines which server the object belongs to.  As long as the number of servers stays the same, an object key will always map to the same server.
 
     Assuming a cluster of 4 servers:  
-    <img src="Consistent-Hashing-image2.png" style="width:3.28333in;height:2.16667in" />
+    ![](./Consistent-Hashing-image2.png)
 
     If Server 1 goes offline:
     - The modulo operation changes from 4 to 3.
@@ -40,13 +40,13 @@ A mechanism to distribute data evenly across servers.
 
 ## Consistent Hashing
 Hashing the object keys but also the server hostnames (or IP addresses) with the same hashing function to the same range of values:  
-<img src="Consistent-Hashing-image3.png" style="width:3.38333in;height:1.66667in" />
+![](./Consistent-Hashing-image3.png)
 
 *Hash space*: the range of `x0` to `xN`:  
-<img src="Consistent-Hashing-image4.png" style="width:3.44167in;height:0.7in" />
+![](./Consistent-Hashing-image4.png)
 
 *Hash ring*: created by connecting the end of the hash range:  
-<img src="Consistent-Hashing-image5.png" style="width:1.43333in;height:1.75in" />
+![](./Consistent-Hashing-image5.png)
 
 Consistent hashing is used by:
 - Apache Cassandra and Amazon DynamoDB for data partitioning
@@ -56,22 +56,22 @@ Consistent hashing is used by:
 ### Implementing
 1. Hash the server by its hostname or IP and place it on the hash ring.
 2. Hash the object key using the same hash function from step #1 and place it into the hash ring. The hash is used directly to map the object keys onto the ring:  
-   <img src="Consistent-Hashing-image6.png" style="width:4.66667in;height:2.24167in" />
+   ![](./Consistent-Hashing-image6.png)
    * To locate a server for a particular object, go clockwise from the location of the object key on the ring until a server is found.
    * If another server is added, only a fraction of the keys need to be redistributed:  
-     <img src="Consistent-Hashing-image7.png" style="width:4.76667in;height:2.625in" />
+     ![](./Consistent-Hashing-image7.png)
    * If server 1 is removed, only k1 needs to be remapped (to s2); the rest of the keys are unaffected:  
-     <img src="Consistent-Hashing-image8.png" style="width:4.825in;height:2.70833in" />
+     ![](./Consistent-Hashing-image8.png)
 
 ### Size of Segments
 If server 1 is removed, the segment for server 2 is now twice the size as the ones for server 0 and server 3:  
-<img src="Consistent-Hashing-image9.png" style="width:3.15833in;height:2.93333in" />
+![](./Consistent-Hashing-image9.png)
 
 This is solved via *virtual nodes*. Each server appears multiple times on the ring. Each location is a virtual node representing a server:  
-<img src="Consistent-Hashing-image10.png" style="width:4.625in;height:2.81667in" />
+![](./Consistent-Hashing-image10.png)
 
 Each server handles multiple segments on the ring (one for each of its virtual nodes):  
-<img src="Consistent-Hashing-image11.png" style="width:4.65833in;height:4.34167in" />
+![](./Consistent-Hashing-image11.png)
 
 As the number of virtual nodes increases, the distribution of objects becomes more balanced. But more virtual nodes means taking more space for the metadata of those nodes. This is a tradeoff.
 

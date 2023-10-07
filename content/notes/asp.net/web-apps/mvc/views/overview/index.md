@@ -11,7 +11,7 @@ From Pluralsight/ASP.NET Core 6 Fundamentals
 A view is an HTML template as a `.cshtml` file with embedded Razor markup (code that interactions w/HTML to render a page).
 - Views handle data presentation and user interaction.
 - Views are organized like this where each folder on `Views/` is named for each of the app's controllers:
-- <img src="view-folder-structure.png" width="20%" height="20%">   
+- ![](./view-folder-structure.png)
 	
     - In `Views/Home`, when a user requests either `Index`, `Contact`, or `About`, the `Home` controller determines which of the views is used to build and return that page to the user.
 

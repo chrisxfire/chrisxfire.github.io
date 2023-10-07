@@ -54,7 +54,7 @@ scatterPlot.MarkerShape = MarkerShape.filledDiamond;
 
 plot.Add(scatterPlot);
 ```
-<img alt="A manually-created scatter plot" src="image.png" width="50%" height="50%">
+![A manually-created scatter plot](./image.png)
 
 ## Plotting DataTime Data
 1. Use `DateTime.ToOADate()` to convert a `DateTime[]` to a `double[]`:
@@ -72,7 +72,7 @@ plot.Add(scatterPlot);
     ```cs
     plot.XAxis.DateTimeFormat(true)
     ```
-<img alt="A scatter plot with DateTimes on the X axis" src="image-4.png" width="50%" height="50%">
+![A scatter plot with DateTimes on the X axis](./image-4.png)
 
 # Customizing 
 ## Axis Customization
@@ -115,13 +115,13 @@ Remove the grid:
 ```cs
 plot.Grid(false)
 ```
-<img alt="A plot with no grid" src="image-2.png" width="50%" height="50%">
+![A plot with no grid](./image-2.png)
 
 Remove just the vertical (X axis) grid:
 ```cs
 plot.XAxis.Grid(false)
 ```
-<img alt="A plot with only a horizontal grid" src="image-3.png" width="50%" height="50%"> 
+![A plot with only a horizontal grid](./image-3.png)
 
 ## Legends
 Documentation: https://scottplot.net/cookbook/4.1/#legend  
@@ -130,7 +130,7 @@ For plottables that support them, add a legend:
 ```cs
 plot.Legend();
 ```
-<img alt="A plot with two scatter plot plottables and a legend" src="image-1.png" width="50%" height="50%">
+![A plot with two scatter plot plottables and a legend](./image-1.png)
 
 # Managing Plottables
 Add a plottable:

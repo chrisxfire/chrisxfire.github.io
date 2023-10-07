@@ -17,7 +17,7 @@ Popularity: 3/3
 In .NET: `StringBuilder`, `ApplicationBuilder`, EF `CoreModelBuilder`  
 
 # Overview
-<img src="Creational_Builder-image1.png" style="width:5.06667in;height:6.38333in" alt="Structure of the Builder design pattern" />  
+![Structure of the Builder design pattern](./Creational_Builder-image1.png)
 
 1.  The Builder interface declares product construction steps that are common to all types of builders.
 2.  Concrete Builders provide different implementations of the construction steps. Concrete builders may produce products that don’t follow the common interface.
@@ -126,4 +126,4 @@ public static void Main(string[] args)
     builder.GetProduct().ListParts();
 }
 ```
-<img src="Creational_Builder-image2.png" width="65%" height="65%" />  
+![](./Creational_Builder-image2.png)

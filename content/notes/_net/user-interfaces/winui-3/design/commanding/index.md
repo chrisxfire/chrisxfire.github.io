@@ -16,19 +16,19 @@ weight: 1
 
 ## Command surfaces
 - App canvas (content area)  
-<img src="DESIGN_Commanding-image1.png" style="width:1.7in;height:1.675in" />
+![](./DESIGN_Commanding-image1.png)
 - Command bars and menu bars  
-<img src="DESIGN_Commanding-image2.png" style="width:1.80833in;height:1.03333in" />
+![](./DESIGN_Commanding-image2.png)
 - Menus and context menus—CommandBarFlyout  
-<img src="DESIGN_Commanding-image3.png" style="width:1.58333in;height:0.95833in" />
+![](./DESIGN_Commanding-image3.png)
 
 # Providing Command Feedback
 - Command bar  
-<img src="DESIGN_Commanding-image4.png" style="width:1.8in;height:1.03333in" />
+![](./DESIGN_Commanding-image4.png)
 - Flyouts—lightweight contextual popups  
-<img src="DESIGN_Commanding-image5.png" style="width:1.40833in;height:0.625in" />
+![](./DESIGN_Commanding-image5.png)
 - Dialog controls—usually must be explictly dismissed  
-<img src="DESIGN_Commanding-image6.png" style="width:1.375in;height:0.88333in" />
+![](./DESIGN_Commanding-image6.png)
 
 
 

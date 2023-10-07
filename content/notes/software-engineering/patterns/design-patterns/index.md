@@ -55,9 +55,9 @@ weight: 1
 </table>
 
 
-<img src="Design-Patterns-image1.png" style="width:10.9in;height:13.98333in" />
+![](./Design-Patterns-image1.png)
 
-<img src="Design-Patterns-image2.png" style="width:10.925in;height:14.34167in" />
+![](./Design-Patterns-image2.png)
 
 # Concepts
 Factory—a method or class that produces something:

@@ -6,7 +6,7 @@ weight: 1
 ---
 # Trees
 A collection of nodes where each node can be linked to more nodes.  
-<img src="tree.png" width="15%" height="15%">  
+![](./tree.png)
 
 Nodes are collected by *links*.  
 - Useful for nonlinear data.  
@@ -17,7 +17,7 @@ Nodes are collected by *links*.
 A tree whose nodes have no more than 2 children.
 
 ## Binary Search Trees  
-<img src="tree2.png" width="15%" height="15%">  
+![](./tree2.png)
 
 A binary tree that is ordered.
 - Items to the left must be less than the parent.

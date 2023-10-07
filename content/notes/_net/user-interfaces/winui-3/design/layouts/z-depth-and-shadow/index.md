@@ -31,7 +31,7 @@ To apply to an element in a `Popup`, apply a `ThemeShadow` to the element's `Sha
 // Elevate the rectangle by 32px
 PopupRectangle.Translation += new Vector3(0, 0, 32);
 ```
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Z-depth-&-Shadow-image1.png" style="width:2.575in;height:1.31667in" alt="A single rectangular popup with a shadow." />  
+![](./Design---Layouts-(Responsive-Layouts-w-XAML)_Z-depth-&-Shadow-image1.png)
 
 ## Automatic `ThemeShadow` on `Flyout` Controls
 Controls based on `Flyout`, `DatePickerFlyout`, `MenuFlyout`, or `TimePickerFlyout` automatically use `ThemeShadow` to caste a shadow.

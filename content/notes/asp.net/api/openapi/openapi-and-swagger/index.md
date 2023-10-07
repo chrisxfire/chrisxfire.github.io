@@ -112,6 +112,6 @@ Example:
 
 # Swagger UI
 A tool from SmartBear that provides a web-based UI with information about an API service:  
-<img alt="A screenshot of Swagger UI" src="image.png" width="50%" height="50%">
+![A screenshot of Swagger UI](./image.png)
 
 There are two implementations of OpenAPI in .NET: Swashbuckle and NSwag.  Both include an embedded version of Swagger UI.
