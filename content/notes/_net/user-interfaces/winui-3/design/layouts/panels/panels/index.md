@@ -52,7 +52,7 @@ Upper left is default location.
 </RelativePanel>
 ```
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image2.png" style="width:3.375in;height:3.03333in" alt="Relative panel" />  
+![Relative panel](./Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image2.png)
 
 # StackPanel
 Arrange UI elements into a single line that can be oriented horizontally or vertically (default) via Orientation property.
@@ -67,7 +67,7 @@ Arrange UI elements into a single line that can be oriented horizontally or vert
 </StackPanel>
 ```
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image3.png" style="width:1.28333in;height:1.41667in" alt="Stack panel" />  
+![Stack panel](./Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image3.png)
 
 # Grid
 Arrange UI elements in multi-row and multi-column layouts via RowDefinitions and ColumnDefinitions properties.
@@ -93,7 +93,7 @@ To make elements span multiple rows or columns, use Grid.RowSpan and Grid.Column
 </Grid>
 ```
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image4.png" style="width:1.90833in;height:1.90833in" alt="Grid" />  
+![Grid](./Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image4.png)
 
 ## Grid Star Sizing
 | Column     | Sizing | Description                                                                                                                            |
@@ -116,7 +116,7 @@ To make elements span multiple rows or columns, use Grid.RowSpan and Grid.Column
 </Grid>
 ```
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image1.png" style="width:8.18333in;height:0.975in" alt="A 4 column grid in the Visual Studio designer" />  
+![A 4 column grid in the Visual Studio designer](./Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image1.png)
 
 
 # `VariableSizedWrapGrid`
@@ -141,7 +141,7 @@ Use `VariableSizeWrapGrid.ColumnSpan` / `RowSpan` attached properties to specify
 </VariableSizedWrapGrid>
 ```
 
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image5.png" style="width:1.59167in;height:1.59167in" alt="Variable size wrap grid" />  
+![Variable size wrap grid](./Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image5.png)
 
 # Canvas
 Arrange UI elements using fixed coordinate points by setting Canvas.Top and Canvas.Left attached properties on each element.
@@ -157,4 +157,4 @@ Use Canvas.Zindex attached property to change the draw order of elements at runt
     <Rectangle Fill="Orange" Height="44" Width="44" Canvas.Left="60" Canvas.Top="60"/>
 </Canvas>
 ```
-<img src="Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image6.png" style="width:1.90833in;height:1.90833in" alt="Canvas" />  
+![Canvas](./Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image6.png)

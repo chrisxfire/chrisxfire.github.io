@@ -4,7 +4,7 @@ date: 2023-03-05T15:51:03-0700
 draft: false
 weight: 1
 ---
-<img src="Structural_Adapter-image1.png" style="width:5.28333in;height:3.4in" />
+![](./Structural_Adapter-image1.png)
 
 # Adapter
 Type: Structural  
@@ -18,7 +18,7 @@ Popularity: 3/3
 
 # Overview
 ## Object Adapter
-<img src="Structural_Adapter-image2.png" style="width:5.475in;height:3.025in" alt="Structure of the Adapter design pattern (the object adapter)" />  
+![](./Structural_Adapter-image2.png)
 
 1.  The Client is a class that contains the existing business logic of the program.
 2.  The Client Interface describes a protocol that other classes must follow to be able to collaborate with the client code.

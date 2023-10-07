@@ -10,16 +10,16 @@ Common pattern of relationship between elements such as app layering, menus, nav
 ## Top Navigation silhouette
 - NavigationView is used in content layer
 - Navigation is on same row as commands  
-<img src="DESIGN_Silhouettes-image1.png" style="width:5.18333in;height:3.875in" />  
+![](./DESIGN_Silhouettes-image1.png)
 
 ## Menu Bar silhouette
 - MenuBar used as the base layer along with a CommandBar  
-<img src="DESIGN_Silhouettes-image2.png" style="width:5.14167in;height:3.88333in" />  
+![](./DESIGN_Silhouettes-image2.png)
 
 ## Left Navigation silhouette
 - NavigationView on top of app's base layer  
-<img src="DESIGN_Silhouettes-image3.png" style="width:5.075in;height:3.40833in" />  
+![](./DESIGN_Silhouettes-image3.png)
 
 ## Tab View silhouette
 - TabView on app's base layer  
-<img src="DESIGN_Silhouettes-image4.png" style="width:5.09167in;height:3.85833in" />  
+![](./DESIGN_Silhouettes-image4.png)

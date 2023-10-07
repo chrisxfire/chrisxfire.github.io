@@ -12,7 +12,7 @@ ASP.NET Core Identity (built in) has support for local user accounts and externa
 (An external option is [Identity Server (github.com)(https://github.com/IdentityServer/IdentityServer4)])
 
 ASP.NET Core Identity is included in projects if Individual Accounts is selected.  
-<img src="identity.png" width="50%" height="50%">
+![](./identity.png)
 
 
 ## Configuring Identity
@@ -164,7 +164,7 @@ public void ConfigureServices(IServiceCollection services)
 This policy would then be used in Authorize attribute.
 
 ## Securing web APIs  
-<img src="token-based-authentication.png" width="40%" height="40%">
+![](./token-based-authentication.png)
 
 Web APIs used token-based authentication.
 The most common form is JSON Web Token (JWT or "jot").

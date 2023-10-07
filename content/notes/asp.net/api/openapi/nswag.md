@@ -115,7 +115,7 @@ XML comments enables debug information for undocumented types and members. Most 
     ```
 
 This renders:  
-<img src="image.png" alt="A screenshot showing Swagger UI with API information and description populated" width="50%" height="50%">
+![A screenshot showing Swagger UI with API information and description populated](./image.png)
 
 # Using Swagger
 ## Accessing Swagger
@@ -157,7 +157,7 @@ To access the Swagger UI, navigate to `https://localhost:<port>/swagger`.
     ```
 
     This renders:  
-    <img src="image-1.png" alt="A screenshot of Swagger UI showing the use of XML comments" width="50%" height="50%">
+    ![A screenshot of Swagger UI showing the use of XML comments](./image-1.png)
 
 2. Add data annotations to the model: 
     ```cs
@@ -190,7 +190,7 @@ To access the Swagger UI, navigate to `https://localhost:<port>/swagger`.
     ```
 
     This renders:  
-    <img alt="A screenshot of Swagger UI showing the result of annotating the model and adding attributes to controllers" src="image-2.png" width="50%" height="50%">
+    ![A screenshot of Swagger UI showing the result of annotating the model and adding attributes to controllers](./image-2.png)
 
 *API conventions* can be used in place of attributes if desired.
 

@@ -19,4 +19,4 @@ It implements a superset of *inner joins* and *outer joins.*
 | `Join`      | Join two sequences based on key-selector functions and extract pairs of values.                       | join … in … on … equals …        |
 | `GroupJoin` | Join two sequences based on key-selector functions and group the resulting matches from each element. | join … in … on … equals … into … |
 
-<img src="Standard-Query-Operators_Join-image1.png" style="width:2.11667in;height:1.475in" alt="Two overlapping circles showing inner/outer." />
+![](./Standard-Query-Operators_Join-image1.png)

@@ -41,7 +41,7 @@ The Task.Wait* methods are synchronous, not asynchronous.
 | Waiting for a period of time             | `await Task.Delay`   | `Thread.Sleep`               |
 
 Example  
-<img src="await.png" width="50%" height="50%">
+![](./await.png)
 
 1. `someOtherMethod()` calls and awaits `GetUrlContentLengthAsync()`.
 2. `GetUrlContentLengthAsync()` creates an HTTP client and calls `GetStringAsync()`.

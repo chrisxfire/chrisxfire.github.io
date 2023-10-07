@@ -24,7 +24,7 @@ Projects
 [Vertical Slices | DevIQ](https://deviq.com/practices/vertical-slices) | [ASP.NET Core - Feature Slices for ASP.NET Core MVC | Microsoft Learn](https://learn.microsoft.com/en-us/archive/msdn-magazine/2016/september/asp-net-core-feature-slices-for-asp-net-core-mvc)
 
 ASP.NET Core MVC applications can be organized by feature instead of by file type by using Areas.  
-<img src="areas-folder-structure.png" width="20%" height="20%">
+![](./areas-folder-structure.png)
 
 Areas work by:  
 1. Decorating controllers with the name of their respective area:
@@ -90,7 +90,7 @@ Authentication, model validation rules, output caching and error handling are al
 
 ## Filters
 Use [filters](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters) to run code before or after certain steps in the request processing pipeline:  
-<img src="filters.png" width="10%" height="10%">
+![](./filters.png)
 
 Filters can also eliminate duplication in error handling policies for APIs.  
 Instead of validating a model manually and returning BadRequest is validation fails...  

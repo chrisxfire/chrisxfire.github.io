@@ -4,7 +4,7 @@ date: 2022-12-09T20:33:41-0700
 draft: false
 weight: 1
 ---
-<img src="XAML_Elements-&-Attributes-image1.png" style="width:3.175in;height:2.09167in" />  
+![](./XAML_Elements-&-Attributes-image1.png)
 
 # Elements & Attributes
 ## Attribute Syntax
@@ -56,18 +56,18 @@ This element is in *Class.Property* form; it maps to the `Content` property of t
 ```
 
 The resulting Button:  
-<img src="XAML_Elements-&-Attributes-image2.png" style="width:1.84167in;height:0.59167in" />  
+![](./XAML_Elements-&-Attributes-image2.png)
 
 ## Content Syntax
 Use to set content directly in an object element.
 
 How it works:  
-<img src="XAML_Elements-&-Attributes-image3.png" style="width:5.425in;height:3.49167in" />    
+![](./XAML_Elements-&-Attributes-image3.png)
 
 Content syntax is always used when you put content in an object element without the property element.
 
 ## Collection Syntax
 Instead of assigning a value to a property, the XAML parser calls the Add method on the collection to add every element to the collection:  
-<img src="XAML_Elements-&-Attributes-image4.png" style="width:5.40833in;height:2.625in" />  
+![](./XAML_Elements-&-Attributes-image4.png)
 
 `ContentControl` is a base class of `Button`.

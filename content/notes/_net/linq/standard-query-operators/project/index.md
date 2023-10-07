@@ -19,7 +19,7 @@ The output sequence of a zip operation is never longer in length than the shorte
 # Details
 ## `Select`
 `Select` produces one output value for every input value, like so:  
-<img src="Standard-Query-Operators_Project-image1.png" style="width:4.56667in;height:2.36667in" />
+![](./Standard-Query-Operators_Project-image1.png)
 
 ```cs
 List<string> words = new() { "an", "apple", "a", "day" };
@@ -32,7 +32,7 @@ foreach (string r in result)
 
 ## `SelectMany`
 `SelectMany` produces a single output that contains the concatenated sub-collections from each input value. The transform function that is passed must return an enumerable sequence of values for each source value. These enumerable sequences are then concatenated to create one large sequence, like so:
-<img src="Standard-Query-Operators_Project-image2.png" style="width:4.625in;height:3in" />
+![](./Standard-Query-Operators_Project-image2.png)
 
 ```cs
 List<string> phrases = new() { "an apple a day", "the quick brown fox" };

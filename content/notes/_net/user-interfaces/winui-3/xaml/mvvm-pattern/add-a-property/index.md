@@ -5,14 +5,14 @@ draft: false
 weight: 1
 ---
 # Add a SelectedCustomer Property
-<img src="XAML_MVVM-Pattern_Add-a-Property-image1.png" style="width:6.575in;height:3.525in" />  
+![](./XAML_MVVM-Pattern_Add-a-Property-image1.png)
 
 This is the current state. The `Text` property of the `TextBox` is bound to the `SelectedItem` property of the `ListView` so that the `FirstName` of the selected customer displays in the `TextBox`.  
 
 However, the binding was achieved through UI logic in XAML. The `ViewModel` has no idea what `Customer` is selected.  
 
 To solve for this, created a `SelectedCustomer` property in the ViewModel and bind it to the `SelectedItem` in the `ListView`. The `SelectedCustomer` has a `FirstName` property; bind it to the `Text` in the `TextBox`. This effectively moves the selection logic to the ViewModel:  
-<img src="XAML_MVVM-Pattern_Add-a-Property-image2.png" style="width:6.6in;height:3.50833in" />  
+![](./XAML_MVVM-Pattern_Add-a-Property-image2.png)
 
 `MainViewModel.cs`
 ```cs

@@ -14,20 +14,20 @@ There are *user controls* and *custom controls*:
 
 # Define the Look of a Custom Control
 Starting with a normal grey button…  
-<img src="XAML_Control-Templates-image1.png" style="width:6.04167in;height:1.675in" />  
+![](./XAML_Control-Templates-image1.png)
 
 Now:
 1.  Assign a `ControlTemplate` with target type `Button` to the `Button`'s `Template` property.
 2.  Create the UI for the Button (using any UI element like `Shape`, `Panel`, etc) inside the `ControlTemplate` tag.
 
 You now have an orange circular button:  
-<img src="XAML_Control-Templates-image2.png" style="width:6.10833in;height:1.70833in" />  
+![](./XAML_Control-Templates-image2.png)
 
 # Setting the Button's `Background` property to Blue has no effect because it is overriden by the `ControlTemplate`:  
-<img src="XAML_Control-Templates-image3.png" style="width:5.975in;height:1.53333in" />  
+![](./XAML_Control-Templates-image3.png)
 
 # Use the `TemplateBinding` static markup extension to reference a property:  
-<img src="XAML_Control-Templates-image4.png" style="width:5.975in;height:1.49167in" />  
+![](./XAML_Control-Templates-image4.png)
 
 # A `ControlTemplate` can also be defined in a Style:  
-<img src="XAML_Control-Templates-image5.png" style="width:3.825in;height:1.79167in" />  
+![](./XAML_Control-Templates-image5.png)

@@ -54,21 +54,21 @@ An `AppShell` derives from the `Shell` class and contains three main hierarchica
 - *Controls* — buttons, labels, text boxes.
 - *Layout* — defines the rules by which controls are displayed.
   - Technically, a layout is also a *control*, so it can be added to a *view*.  
-<img src="components-1.png" style="width:1.99167in;height:1.99167in" />
+![](./components-1.png)
 
 
 ## Common Controls
 - `VerticalStackLayout` and `HorizontalStackLayout`
   - Or, `StackLayout`, with a `StackOrientation` property that can be set to `Horizontal` or `Vertical`.
   - This is how screens can change orientation dynamically from portrait to landscape:  
-<img src="components-2.png" style="width:4.15833in;height:1.38333in" />
+![](./components-2.png)
 
 - `AbsoluteLayout` — set exact coordinates for controls.
 - `FlexLayout` — like `StackLayout`, but allows wrapping child controls if they don't fit in a single row or column.
   - Includes options for alignment to different screen sizes:  
-<img src="components-3.png" style="width:4.94167in;height:3.94167in" />  
+![](./components-3.png)
 - `Grid` — lays out controls according to a column and row location the developer defines:  
-<img src="components-4.png" style="width:4.1in;height:2.15833in" />
+![](./components-4.png)
 
 ## Controls: Properties & Events
 - All controls have *properties* to alter visualization.

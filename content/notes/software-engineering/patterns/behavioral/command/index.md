@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-<img src="Behavioral_Command-image1.png" style="width:5.36667in;height:5.25in" />  
+![](./Behavioral_Command-image1.png)
 
 # Command
 Type:  Behavioral  
@@ -119,7 +119,7 @@ public static void Main()
 ```
 
 # Visual
-<img src="Behavioral_Command-image2.png" style="width:5.95in;height:3.49167in" alt="Structure of the Command design pattern" />  
+![Structure of the Command design pattern](./Behavioral_Command-image2.png)
 
 1. The Sender class (aka invoker) is responsible for initiating requests. This class must have a field for storing a reference to a command object. The sender triggers that command instead of sending the request directly to the receiver. Note that the sender isn’t responsible for creating the command object. Usually, it gets a pre-created command from the client via the constructor.
 2. The Command interface usually declares just a single method for executing the command.  

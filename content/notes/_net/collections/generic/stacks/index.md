@@ -6,7 +6,7 @@ weight: 1
 ---
 # [Stack](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.stack-1?view=net-6.0)
 A last-in, first-out collection of objects.  
-<img src="stack.png" width="25%" height="25%">  
+![](./stack.png)
 
 ## Namespace
 `Systems.Collections.Generic`

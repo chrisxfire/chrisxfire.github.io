@@ -22,7 +22,7 @@ Inspect and debug web pages with DevTools.
 # Elements
 The Elements tab displays the DOM tree:  
 
-<img alt="A screenshot of DevTools open to the Elements tab" src="image-1.png" width="50%" height="50%">
+![A screenshot of DevTools open to the Elements tab](./image-1.png)
 
 # Main Toolbar
-<img alt="A screenshot of the main DevTools toolbar" src="image.png" width="50%" height="50%">
+![A screenshot of the main DevTools toolbar](./image.png)

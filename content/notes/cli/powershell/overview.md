@@ -82,9 +82,10 @@ gci -Path <starting-path> `
 
 ## "grep"
 ```powershell
-Get-ChildItem -Path ./*.<EXT> | Select-String 
+Get-ChildItem -Path ./*.<EXT> -Recurse | Select-String 
   -Pattern "<REGEX>" <# The pattern to match #>`
   -Context n,m <# Add n lines before and m lines after the match; matches are denoted with > #>
+  -Raw # Don't output file names
 ```
 
 ## Pipe to a File

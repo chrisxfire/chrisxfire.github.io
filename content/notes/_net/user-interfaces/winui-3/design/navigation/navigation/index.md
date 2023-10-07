@@ -7,21 +7,21 @@ weight: 1
 # Overview
 An app is a collection of *pages*. *Navigation* is the act of moving between pages and within a page.
 
-<img src="DESIGN_Navigation-image1.png" style="width:6.00833in;height:1.69167in" />
+![](./DESIGN_Navigation-image1.png)
 
 # Navigation Structures
 ## Flat/Lateral
 - Pages exist side by side
 - Able to navigate from one page to another in any order  
 
-<img src="DESIGN_Navigation-image3.png" style="width:1.95in;height:0.675in" />  
+![](./DESIGN_Navigation-image3.png)
 
 ## Hierarchical
 - Each child page has one parent, but a parent can have
 more than one child.
 - To reach a child page, you must navigate through parent.  
 
-<img src="DESIGN_Navigation-image2.png" style="width:1.94167in;height:1.09167in" />  
+![](./DESIGN_Navigation-image2.png)
 
 # Navigation Controls
 ## Frame
@@ -29,7 +29,7 @@ more than one child.
 - The app's main page contains a Frame and a primary navigation
 element like a navigation view control.  
 
-<img src="DESIGN_Navigation-image4.png" style="width:1.56667in;height:0.85833in" />  
+![](./DESIGN_Navigation-image4.png)
 
 ## Top Navigation (NavigationView)
 - A horizontal list of links to pages on the same level
@@ -45,7 +45,7 @@ element like a navigation view control.
   - you expect there might be a large number of tabs open at once
   - your users need to easily move tabs between windows  
 
-<img src="DESIGN_Navigation-image5.png" style="width:1.50833in;height:0.88333in" />  
+![](./DESIGN_Navigation-image5.png)
 
 ## Breadcrumb (BreadcrumbBar)
 - A horizontal list of links to pages at each of the higher levels
@@ -60,11 +60,11 @@ element like a navigation view control.
   - there are 5+ navigation items
   - users don't switch between pages frequently  
 
-<img src="DESIGN_Navigation-image6.png" style="width:1.53333in;height:0.88333in" />  
+![](./DESIGN_Navigation-image6.png)
 
 ## List/details
 - Displays a list of items
 - Use when
   - users need to switch between child items frequently  
 
-<img src="DESIGN_Navigation-image7.png" style="width:1.525in;height:0.90833in" />  
+![](./DESIGN_Navigation-image7.png)

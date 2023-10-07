@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-<img src="Creational_Prototype-image1.png" style="width:3.375in;height:2.975in" />  
+![](./Creational_Prototype-image1.png)
 
 # Prototype
 Type: Creational  
@@ -20,14 +20,14 @@ In .NET: `System.Net.Http.Headers`
 
 # Overview
 ## Basic Implementation
-<img src="Creational_Prototype-image2.png" style="width:5in;height:3.99167in" alt="The structure of the Prototype design pattern" />
+![The structure of the Prototype design pattern](./Creational_Prototype-image2.png)
 
 1.  The Prototype interface declares the cloning methods. In most cases, it’s a single clone method.
 2.  The Concrete Prototype class implements the cloning method. In addition to copying the original object’s data to the clone, this method may also handle some edge cases of the cloning process related to cloning linked objects, untangling recursive dependencies, etc.
 3.  The Client can produce a copy of any object that follows the prototype interface.
 
 ## Prototype registry implementation
-<img src="Creational_Prototype-image3.png" style="width:5in;height:4.35in" alt="The prototype registry" />  
+![The prototype registry](./Creational_Prototype-image3.png)
 
 1.  The Prototype Registry provides an easy way to access frequently-used prototypes. It stores a set of pre-built objects that are ready to be copied. The simplest prototype registry is a name → prototype hash map. However, if you need better search criteria than a simple name, you can build a much more robust version of the registry.
 
