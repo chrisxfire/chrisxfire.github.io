@@ -13,7 +13,7 @@ Configuration consists of *host* and *app* configuration providers.  The `WebApp
 var builder = WebApplication.CreateBuilder(args);
 ```
 
-See also: [Configuration in .NET]({{< ref "../../_net/configuration/overview" >}})
+See also: [Configuration in .NET](../../_net/configuration/overview)
 
 # Concepts
 ## Host Configuration

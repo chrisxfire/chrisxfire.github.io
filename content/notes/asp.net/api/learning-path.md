@@ -8,5 +8,5 @@ weight: 1
 Microsoft Learn > ASP.NET Core > APIs
 
 - [x] Overview
-- [ ] [Controller-based APIs...]({{< ref "./controller-based-apis/learning-path" >}})
-- [ ] [Minimal APIs...]({{< ref "./minimal-apis/learning-path.md" >}})
+- [ ] [Controller-based APIs...](./controller-based-apis/learning-path)
+- [ ] [Minimal APIs...](./minimal-apis/learning-path.md)

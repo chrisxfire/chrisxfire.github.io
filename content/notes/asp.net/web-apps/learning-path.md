@@ -8,9 +8,9 @@ weight: 1
 Microsoft Learn > ASP.NET Core > Web Apps
 
 - [x] Choose an ASP.NET Core UI
-- [ ] [Razor Pages...]({{< ref "./razor-pages/learning-path" >}})
-- [ ] [MVC...]({{< ref "./mvc/learning-path" >}})
-- [ ] [Blazor...]({{< ref "./blazor/learning-path" >}})
+- [ ] [Razor Pages...](./razor-pages/learning-path)
+- [ ] [MVC...](./mvc/learning-path)
+- [ ] [Blazor...](./blazor/learning-path)
 - [ ] Client-side development...
   - [ ] Single Page Apps...
     - [ ] Overview
@@ -31,4 +31,4 @@ Microsoft Learn > ASP.NET Core > Web Apps
 - [x] Razor syntax
 - [x] Razor class libraries
 - [x] Tag Helpers...
-- [ ] [Advanced...]({{< ref "./common/advanced/learning-path" >}})
+- [ ] [Advanced...](./common/advanced/learning-path)

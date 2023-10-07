@@ -36,7 +36,7 @@ Model binding performs these steps:
 
 ASP.NET Core then calls `GetById(2, true)`.
 
-After each property is bound, [model validation]({{< ref "./model-validation" >}}) occurs for that property. The record of what data is bound to the model and any validation errors that occurred are stored in `ControllerBase.ModelState` or `PageModel.ModelState`. 
+After each property is bound, [model validation](./model-validation) occurs for that property. The record of what data is bound to the model and any validation errors that occurred are stored in `ControllerBase.ModelState` or `PageModel.ModelState`. 
 
 # Model Binding Targets
 Model binding has the following *targets*:

@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview of Types for Files/Directories
-See [here]({{< ref "./overview#overview-of-types-for-filesdirectories" >}}).
+See [here](./overview#overview-of-types-for-filesdirectories).
 
 # File & Directory IO
 All methods return `void` unless otherwise specified.

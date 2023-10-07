@@ -12,7 +12,7 @@ The host encapsulates DI, logging, configuration, and `IHostedService` implement
 
 ASP.NET Core creates a `WebApplicationBuilder` and a `WebApplication` (a form of the Generic Host) which eliminates the need for a `Startup` class.
 
-See also:  [Generic Host]({{< ref "../../_net/generic-host" >}})
+See also:  [Generic Host](../../_net/generic-host)
 
 # Create a Host with an `IHostedService` Implementation
 ## `CreateDefaultBuilder`

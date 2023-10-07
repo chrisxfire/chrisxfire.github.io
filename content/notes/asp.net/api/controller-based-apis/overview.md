@@ -12,7 +12,7 @@ weight: 1
   - If derived from `Controller`, this would add support for views (for handling web pages rather than API requests).
 - Controllers are activated and disposed on a per-request basis.
 
-Knowledge of MVC controllers is needed to use them in controller-based APIs. See [Notes on MVC Controllers]({{< ref "../../web-apps/mvc/controllers" >}}).
+Knowledge of MVC controllers is needed to use them in controller-based APIs. See [Notes on MVC Controllers](../../web-apps/mvc/controllers).
 
 # High-Level Process
 ![A diagram depicting the design of the app. On the left, a box named "Client." On the right, a box labeled "MVC app" with a controller, model, and data access layer. From the client, an arrow to the controller labeled "HTTP request". From the controller, a to/from arrow to the data access layer labeled "read/write". From the controller, an arrow to the client labeled "HTTP response" and a resposne object {Name:"todo1"}. From the model, an arrow to the response object labeled "serialize".](image.png)  
@@ -274,7 +274,7 @@ public class ConsumesController : ControllerBase
 # Analyzers
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/analyzers?view=aspnetcore-7.0
 
-The MVC analyzers package works with controllers annotated with `ApiControllerAttribute` and builds on [web API conventions]({{< ref "./action-return-types#web-api-conventions" >}}). 
+The MVC analyzers package works with controllers annotated with `ApiControllerAttribute` and builds on [web API conventions](./action-return-types#web-api-conventions). 
 
 Analyzers inspect controller actions and notify you of any that:
 - return an undeclared status code
