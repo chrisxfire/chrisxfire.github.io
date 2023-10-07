@@ -11,7 +11,8 @@ weight: 1
 Key points:
 * Use unit tests as both design documentation and functional specifications.
 * Visual Studio installs the Microsoft unit testing frameworks for managed and native code (MSTest).
-* Visual Studio Test Explorer also supports 3rd-party testing frameworks (xUnit, NUnit, others).
+  * Note: MSTest is both a *framework* and an *adapter* to that framework.
+* Visual Studio Test Explorer also supports 3rd-party adapters to the MSTest framework: xUnit, NUnit, others(?).
 
 # Generating Unit Tests and Generating Code
 ## Generating Unit Tests from Existing Code
@@ -29,6 +30,8 @@ See [here](https://learn.microsoft.com/en-us/visualstudio/test/how-to-create-a-d
 ![A screenshot demonstrating the above steps](tdd.png)
 
 # Configuring Unit Tests (w/MSTest Framework)
+> Documentation: https://learn.microsoft.com/en-us/visualstudio/test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests?view=vs-2022
+
 Example test method:
 ```cs
 [TestMethod]
@@ -192,4 +195,3 @@ classes to verify specific functionality. A unit test only reports correctness o
 | `AssertFailedException`       | Thrown whenever a test fails. <br /> A failure is a test timeout, unexpected exception, or an assert statement that produces a Failed result |
 | `AssertInconclusiveException` | Thrown whenever a test produces a result of Inconclusive. <br /> Added to tests not yet ready to be run (still being developed).             |
 | `Assert.ThrowException`       | Asserts that an exception you expect to be thrown by a method is actually thrown                                                             |
-

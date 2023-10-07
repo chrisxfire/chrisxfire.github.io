@@ -21,10 +21,13 @@ weight: 1
   - [ ] Write unit tests for managed code...
     - [x] Walkthrough: Create and run unit tests for managed code
     - [ ] Walkthrough: Test driven development
-    - [ ] Use the MSTest framework in unit tests
-    - [ ] Use the assert classes
+    - [x] Use the MSTest framework in unit tests
+    - [x] Use the assert classes
     - [ ] Microsoft Fakes...
-      - [ ] ...
+      - [x] Isolate code under test
+      - [x] Use stubs to isolate parts of your app
+      - [x] Use shims to isolate your app from other assemblies
+      - [ ] Code generation, compilation, and naming conventions
     - [ ] Data-driven unit tests...
       - [ ] ...
     - [ ] Unit tests for generic methods
