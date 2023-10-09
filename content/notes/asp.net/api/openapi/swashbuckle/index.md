@@ -21,7 +21,7 @@ dotnet add package swashbuckle.aspnetcore
 
 # Configuration
 `Program.cs`
-```cs {hl_lines=[5,7]}
+```cs {hl_lines=[5,8]}
 // ...
 builder.Services.AddControllers();
 
