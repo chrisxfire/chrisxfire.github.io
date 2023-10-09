@@ -33,11 +33,14 @@ Extensions are defined:
 ```cs
 public static class LoggerExtensions 
 {
-        public static void PriorityItemProcessed(this ILogger logger, WorkItem workItem) => s_processingPriorityItem(logger, workItem, default!);
+        public static void PriorityItemProcessed(this ILogger logger, WorkItem workItem) => 
+            s_processingPriorityItem(logger, workItem, default!);
 
-        public static void FailedToProcessWorkItem(this ILogger logger, Exception ex) => s_failedToProcessWorkItem(logger, ex);
+        public static void FailedToProcessWorkItem(this ILogger logger, Exception ex) => 
+            s_failedToProcessWorkItem(logger, ex);
 
-        public static IDisposable? ProcessingWorkScope(this ILogger logger, DateTime time) => s_processingWorkScope(logger, time);
+        public static IDisposable? ProcessingWorkScope(this ILogger logger, DateTime time) => 
+            s_processingWorkScope(logger, time);
 }
 ```
 
