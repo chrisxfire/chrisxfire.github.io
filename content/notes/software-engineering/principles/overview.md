@@ -4,6 +4,7 @@ date: 2023-03-16T17:24:53-0600
 draft: false
 weight: -1
 ---
+
 # DRY – Don't repeat yourself
 
 # Inversion of Control
@@ -30,13 +31,22 @@ A mechanism that allows high-level components to depend on abstraction rather th
 - Also: allows a derived class to override an inherited action.
 
 # Principle of Least Astonishment
-A component of a system should behave in a way that most users will expect it to behave.
-If a feature has a high astonishment factor, it may be necessary to redesign the feature.
-People are a part of the system. The design should match the user's experience, expectations, and mental models.
+- A component of a system should behave in a way that most users will expect it to behave.
+- If a feature has a high astonishment factor, it may be necessary to redesign the feature.
+- People are a part of the system. The design should match the user's experience, expectations, and mental models.
+
+# Referential Transparency
+A function has referential transparency if the parameters in its signature are all of the sources a function uses:
+```cs
+public int Sum(int a, int b) 
+{
+  return a + b;
+}
+```
 
 # Robustness Principle
-Be conservative in what you send; be liberal in what you accept.
-(Postel's law—Jon Postel when defining TCP)
+- Be conservative in what you send; be liberal in what you accept.
+- (Postel's law—Jon Postel when defining TCP)
 
 Other versions:
 Be contravariant in the input type and covariant in the output type.
@@ -54,15 +64,11 @@ Be contravariant in the input type and covariant in the output type.
 Don't add layers of architecture that only may be needed in the future.
 
 # Agile vs. Waterfall
-Don't consider Waterfall dead.
-Use Agile when innovating or discvoering a problem space.
-Consider Waterfall when the problem space and scope of work is well-defined.
-# 
+- Don't consider Waterfall dead.
+- Use Agile when innovating or discovering a problem space.
+- Consider Waterfall when the problem space and scope of work is well-defined.
+
 # API Design Principles
 ## Single Owner Principle
 - Only 1 service can write to a given component or piece of data.
 - All other services must call that owner via the API.
-
-# Team Dynamics Principles
-## Borderless Engineering
-The practice of engineers floating from team to team for short periods to assist with work.

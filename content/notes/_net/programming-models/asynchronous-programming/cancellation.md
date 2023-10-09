@@ -35,6 +35,8 @@ Option 2 throws an `OperationCanceledException`. This exception can be caught by
 Pass `CancellationToken.None` to a method to indicate that cancellation will never be requested.  The method will then optimize.
 
 # Canceling Tasks After a Period of Time
+> Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/cancel-async-tasks-after-a-period-of-time
+
 Use `CancellationTokenSource`'s `CancelAfter` method to schedule the cancellation of any tasks that are not complete within a period of time:
 ```cs
 static async Task Main()
@@ -83,3 +85,12 @@ public void CancelMethod()
 ```
 
 Even if cancellation has already been requested when the callback is registered, the callback is still guaranteed to be called.
+
+# Other Notes
+- For methods that cannot be canceled, do not provide an overload that accepts a `CancellationToken`.
+- If a cancellation request results in work ending prematurely, the method returns a task in `Canceled` state.
+- Code that is asynchronously waiting for a task that is canceled receives a `OperationCanceledException`.
+- Code blocked waiting through `Wait` or `WaitAll` on a task that is canceled continues to run with an exception.
+- If cancellation is requested before the async method starts, the async method should return `Canceled` task.
+- If cancellation is requested after the async method starts, the async method decides whether to cancel. Cancellation is a request.
+- If cancellation is requested but a result/exception produced, the task ends in `RanToCompletion` or `Faulted` state.

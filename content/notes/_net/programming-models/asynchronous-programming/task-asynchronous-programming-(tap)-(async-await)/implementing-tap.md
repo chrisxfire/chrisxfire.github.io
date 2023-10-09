@@ -4,20 +4,52 @@ date: 2022-11-21T22:06:15-0700
 draft: false
 weight: 1
 ---
-# Implementing Task-based Asynchronous Pattern
-- Create TAP methods by using the `async` keyword. Compiler will perform necessary transformations.
+
+# Overview
+> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern
+
+The TAP pattern can be implemented via the C# compiler, manually, or in a hybrid of both.
+
+# Creating TAP Methods
+## Compiler Approach
+Create TAP methods by using the `async` keyword. Compiler will automatically perform necessary transformations to implement TAP.
 - TAP methods must return `Task` or `Task<T>`.
 - Any exceptions that go unhandled in body of task are marshalled to the output task and task ends in `Faulted` state.
   - Except when an `OperationCanceledException` goes unhandled; then task ends in `Canceled` state.
 
-# [Generating TAP Methods Manually](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern#generating-tap-methods-manually)
+## Manual Approach
+1. Create a `TaskCompletionSource<TResult>` object
+2. Perform the async operation
+3. When the async operation completes, call `{Try}SetResult`, `{Try}SetException`, or `{Try}SetCanceled`
+4. Return the resulting task
 
-# Hybrid Approach
+Example:
 ```cs
-// This method verifies arguments outside the compiler-generated async method:
+public static Task<int> ReadTask(this Stream stream, byte[] buffer, int offset, int count, object state)
+{
+    var tcs = new TaskCompletionSource<int>(); // #1
+    stream.BeginRead(buffer, offset, count, ar => // #2
+    {
+        try { 
+            tcs.SetResult(stream.EndRead(ar)); // #3
+        }
+        catch (Exception exc) { 
+            tcs.SetException(exc); 
+        }
+    }, state);
+
+    return tcs.Task; // #4
+}
+```
+
+## Hybrid Approach
+This method verifies arguments outside the compiler-generated async method:
+```cs
 public Task<int> MethodAsync(string input)
 {
-    if (input == null) throw new ArgumentNullException("input");
+    if (input == null) 
+        throw new ArgumentNullException("input");
+    
     return MethodAsyncInternal(input);
 }
 
@@ -29,19 +61,19 @@ private async Task<int> MethodAsyncInternal(string input)
 }
 ```
 # Workloads
-If a method is purely computational, it should be exposed only as a synchronous operation.
-If a method is I/O bound, it should be exposed only as an asynchronous operation.
+If a method is purely computational, it should be exposed only as a synchronous operation.  
+If a method is I/O bound, it should be exposed only as an asynchronous operation.  
 
-# Compute-bound
-- Use `Task.Run` (a shortcut to `TaskFactory.StartNew`). Tasks created this way target the thread pool.
+## Compute-bound Tasks
+- Use `Task.Run` (a shortcut to `TaskFactory.StartNew` which is no longer recommended). Tasks created this way target the thread pool.
   - Use `TaskFactory.StartNew` only when fine-grained control is required.
 - Use constructors of `Task` type or the `Start` method to generate and schedule a task separately.
   - Public method must only return tasks that have been started.
 - Use overloads of `Task.ContinueWith` method which creates a new task that is scheduled when another completes.
 - Use `TaskFactory.ContinueWhenAll` and `ContinueWhenAny` to create a new task that is scheduled when all/any of the supplied tasks complete.
 
-## Cancellation in Compute-bound Tasks
-In compute-bound tasks, `CancellationToken` can be passed to the async code that monitors for the token, or the `Run` or `StartNew` methods.
+### Cancellation in Compute-bound Tasks
+In compute-bound tasks, a `CancellationToken` can be passed to the async code that monitors for the token, or the `Run` or `StartNew` methods.
 
 Example
 ```cs
@@ -64,19 +96,22 @@ internal Task<Bitmap> RenderAsync(ImageData data, CancellationToken cancellation
     }, cancellationToken);
 }
 ```
+
 Compute-bound tasks end in `Canceled` if:
-1.  cancellation request arrives before task moves to `Running` state, or
+1.  Cancellation request arrives before task moves to `Running` state, or
 2.  An `OperationCanceledException` goes unhandled in the body of the task, that exception contains the same `CancellationToken` that is passed in, and the token shows cancellation is requested.
 
 If another exception goes unhandled in body of task, task ends in `Faulted` state.
 - Any attempts to await task or access its result causes an exception to be thrown.
 
-# [I/O-bound](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern#io-bound-tasks)
+## IO-bound Tasks
+> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern#io-bound-tasks
+
 Use `TaskCompletionSource<TResult>` to create a task that is not backed by a thread for its entire execution.
 - Exposes a Task property and returns a `Task<TResult>` instance.
 - Lifecycle controlled by methods on the type such as `SetResult`, `SetException`, `SetCanceled`.
 
-# Mixed (Compute-bound and I/O-bound)
+## Mixed (Compute-bound and I/O-bound)
 ```cs
 public async Task<Bitmap> DownloadDataAndRenderImageAsync(CancellationToken cancellationToken)
 {

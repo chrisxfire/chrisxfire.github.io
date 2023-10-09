@@ -15,10 +15,8 @@ public class HomeController : Controller
 {
     private readonly IDateTime _dateTime;
 
-    public HomeController(IDateTime dateTime) =>
-        _dateTime = dateTime;
-    
-    …
+    public HomeController(IDateTime dateTime) => _dateTime = dateTime;
+    // …
 }
 ```
 
