@@ -13,7 +13,7 @@ Unlike [Swashbuckle](./swashbuckle/), it also includes code generation capabilit
 
 # Installation
 ```powershell
-dotnet add package nswag.aspnetcore
+dotnet add package NSwag.AspNetCore
 ```
 
 # Configuration
@@ -155,10 +155,8 @@ To access the Swagger UI, navigate to `https://localhost:<port>/swagger`.
         return CreatedAtAction(nameof(Get), new { id = item.Id }, item);
     }
     ```
-
     This renders:  
-    ![A screenshot of Swagger UI showing the use of XML comments](./image-1.png)
-
+    ![A screenshot of Swagger UI showing the result of annotating the model and adding attributes to controllers](./image-1.png)
 2. Add data annotations to the model: 
     ```cs
     using System.ComponentModel;
@@ -188,9 +186,6 @@ To access the Swagger UI, navigate to `https://localhost:<port>/swagger`.
         // ...
     }
     ```
-
-    This renders:  
-    ![A screenshot of Swagger UI showing the result of annotating the model and adding attributes to controllers](./image-2.png)
 
 *API conventions* can be used in place of attributes if desired.
 
