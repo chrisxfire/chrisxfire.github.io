@@ -3,4 +3,4 @@ title: dotnet application models
 date: 2023-03-20T10:21:24-06:00
 draft: false
 ---
-![dotnet app models](./dotnet-application-models.png)
+![dotnet app models](../../assets/dotnet-application-models.png)
