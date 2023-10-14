@@ -31,7 +31,7 @@ you need to isolate your code from external assemblies.
 3. From the test project, add a project reference to HexFile.
 4. Add a Fakes Assembly:
    1. Solution Explorer > **TestProject** > [**Assemblies**, **Projects** or **Packages**] 
-   2. Right-click the `System` assembly > **Add Fakes Assembly*  
+   2. Right-click the `System` assembly > **Add Fakes Assembly**  
       ![Visual Studio screenshot showing the system assembly being selected](select-system-assembly.png)
 5. Modify `Fakes/mscorlib.fakes` to exclude types that cannot be used with shims:
     ```xml

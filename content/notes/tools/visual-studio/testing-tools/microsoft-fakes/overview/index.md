@@ -36,3 +36,4 @@ Microsoft Fakes achieves code isolation using *stubs* and *shims*:
 # Creating a Microsoft Fakes Assembly
  1. Solution Explorer > **TEST_PROJECT_NAME** > [**Assemblies**, **Projects** or **Packages**] 
  2. Right-click the assembly that contains class definitions to be stubbed > **Add Fakes Assembly**
+ ![A screenshot showing the above steps](./select-system-assembly.png)

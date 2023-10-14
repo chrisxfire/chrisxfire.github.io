@@ -32,7 +32,7 @@ int intResult = await returnedTaskTResult;
 
 TODO: 
 # Await Decision Table
-The Task.Wait* methods are synchronous, not asynchronous.
+The `Task.Wait`* methods are synchronous, not asynchronous.
 
 | Goal                                     | Use this             | Not this                     |
 | ---------------------------------------- | -------------------- | ---------------------------- |
@@ -40,28 +40,6 @@ The Task.Wait* methods are synchronous, not asynchronous.
 | Waiting for any task to complete         | `await Task.WhenAny` | `Task.WaitAny`               |
 | Waiting for all tasks to complete        | `await Task.WhenAll` | `Task.WaitAll`               |
 | Waiting for a period of time             | `await Task.Delay`   | `Thread.Sleep`               |
-
-Example  
-![](./await.png)
-
-1. `someOtherMethod()` calls and awaits `GetUrlContentLengthAsync()`.
-2. `GetUrlContentLengthAsync()` creates an HTTP client and calls `GetStringAsync()`.
-3. `GetStringAsync()` is blocking (waiting for a website to download).  
-   - Since it's an async method, it is suspended.  It returns a `Task<string>` to `GetUrlContentLengthAsync()`.
-   - The Task is a promise to produce a string when complete.  Meanwhile, it yields control to `GetUrlContentLengthAsync()`.
-4. Since `getStringTask` has not yet been awaited, `GetUrlContentLengthAsync()` continues with `DoIndependentWork()`.
-   - Note:  If there was no independent work to do, this could be simplified like this:
-    ```cs
-    string contents = await client.GetStringAsync("…");
-    ```
-5. `DoIndependentWork()` does its work and returns to `GetUrlContentLengthAsync()`.
-6. `GetUrlContentLengthAsync()` has no more work to do without a result from `getStringTask`.  
-   - `getStringTask` is now awaited.  Control is yielded to `someOtherMethod()`.
-   - `GetUrlContentLengthAsync()` returns a `Task<int>` to `someOtherMethod()`.
-     - The task is a promise to produce an int when it is complete.
-7. `GetStringAsync()` finishes and produces a string result.  This result is stored in the `Task<string>` it returned in (3).
-   - The await retrieves the result from `getStringTask`, which is then assigned to contents.
-8. `GetUrlContentLengthAsync()` receives its string result.
 
 # Async Code & LINQ
 Use caution.  LINQ uses deferred (lazy) execution, so async calls won't happen immediately (unless iteration is forced via `.ToList()` or `.ToArray()`)
