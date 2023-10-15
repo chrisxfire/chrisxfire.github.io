@@ -20,7 +20,7 @@ SVG defines vector-based graphics in XML format.
 </body>
 </html>
 ```
-<img src="xHTML_Graphics---svg--Element-image1.png" style="width:0.95in;height:0.79167in" />  
+![A screenshot of a canvas with a green circle with yellow fill](./xHTML_Graphics---svg--Element-image1.png)
 
 # Rectangle
 ```html
@@ -28,7 +28,7 @@ SVG defines vector-based graphics in XML format.
     <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
 </svg>
 ```
-<img src="xHTML_Graphics---svg--Element-image2.png" style="width:1.275in;height:0.34167in" />  
+![A screenshot of a canvas with a blue rectangle](./xHTML_Graphics---svg--Element-image2.png)
 
 # Rounded Rectangle
 ```html
@@ -37,7 +37,7 @@ SVG defines vector-based graphics in XML format.
         style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
 </svg>
 ```
-<img src="xHTML_Graphics---svg--Element-image3.png" style="width:0.88333in;height:0.84167in" />  
+![A screenshot of a canvas with a red square with 50% opacity](./xHTML_Graphics---svg--Element-image3.png)
 
 # Star
 ```html
@@ -46,7 +46,7 @@ SVG defines vector-based graphics in XML format.
     style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
 </svg>
 ```
-<img src="xHTML_Graphics---svg--Element-image4.png" style="width:1.20833in;height:1.075in" />
+![A screenshot of a canvas with a purple star whose points are filled green](./xHTML_Graphics---svg--Element-image4.png)
 
 # Logo
 ```html
@@ -62,4 +62,4 @@ SVG defines vector-based graphics in XML format.
     Sorry, your browser does not support inline SVG.
 </svg>
 ```
-<img src="xHTML_Graphics---svg--Element-image5.png" style="width:1.325in;height:0.95in" />
+![A screenshot of a canvas with a logo that reads 'SVG' with yellow (left) to red (right) gradient](./xHTML_Graphics---svg--Element-image5.png)

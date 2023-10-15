@@ -20,7 +20,7 @@ Component lifecycle events are processed in a set of lifecycle methods.  These m
   - Call `OnParametersSet{Async}`
   - Render  
 
-<img src="lifecycle1.png" width="50%" height="50%">
+![A diagram that depicts the above lifecycle](./lifecycle1.png)
 
 # [SetParametersAsync()](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/lifecycle?view=aspnetcore-7.0#when-parameters-are-set-setparametersasync)
 Sets the value of each property with the `[Parameter]` or `[CascadingParameter]` attribute that has a corresponding value in the `ParameterView`.  `ParameterView` contains the component parameter values for the Component

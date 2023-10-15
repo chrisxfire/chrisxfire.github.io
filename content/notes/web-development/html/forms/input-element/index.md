@@ -17,7 +17,7 @@ weight: 1
     <inputtype="text"id="lname"name="lname">
 </form>
 ```
-<img src="xHTML_Forms---form--Element_Forms---input--Element-image1.png" style="width:2.00833in;height:1.075in" />  
+![A screenshot of a form with two fields labeled 'first name' and 'last name'](./xHTML_Forms---form--Element_Forms---input--Element-image1.png)
 
 ```html
 <input type="radio">Displays a radio button (for selecting one of many choices)
@@ -30,7 +30,7 @@ weight: 1
     <label for="javascript">JavaScript</label>
 </form>
 ```
-<img src="xHTML_Forms---form--Element_Forms---input--Element-image2.png" style="width:2.61667in;height:1.1in" />
+![A screenshot of a form with a heading 'Displays a radio button (for selecting one of many choices)' and three radio buttons labeled 'HTML', 'CSS', and 'JavaScript'](./xHTML_Forms---form--Element_Forms---input--Element-image2.png)
 
 ```html
 <input type="checkbox">Displays a checkbox (for selecting zero or more of many choices)
@@ -43,7 +43,7 @@ weight: 1
     <label for="vehicle3"> I have a boat</label>
 </form>
 ```
-<img src="xHTML_Forms---form--Element_Forms---input--Element-image3.png" style="width:1.54167in;height:0.88333in" />
+![A screenshot of a form with 3 checkbox items labeled 'I have a bike', 'I have a car', and 'I have a boat'](./xHTML_Forms---form--Element_Forms---input--Element-image3.png)
 
 A server-side script (perhaps in PHP) handles the submitted form.
 

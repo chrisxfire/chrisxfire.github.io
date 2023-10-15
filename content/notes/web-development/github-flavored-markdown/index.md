@@ -56,7 +56,7 @@ puts markdown.to_html
 ````
 
 # Color Models
-<img src="color-models.png" width="50%" height="50%">
+![A diagram showing the color models HEX, RGB, and HSL](./color-models.png)
 
 # Comments
 ```markdown
@@ -76,7 +76,7 @@ graph TD;
 ```
 ````
 
-<img src="mermaid.png" width="50%" height="50%">
+![A mermaid diagram made of the code above](./mermaid.png)
 
 ## [Math](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
 Delimit expressions with $:
@@ -84,7 +84,7 @@ Delimit expressions with $:
 This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 ```
 
-<img src="math.png" width="50%" height="50%">
+![A mathematical expression of the code above](./math.png)
 
 ### Math Expressions as Blocks
 Use a math code block:
@@ -95,7 +95,7 @@ Use a math code block:
 ```
 ````
 
-<img src="math2.png" width="50%" height="50%">
+![A mathematical expression of the code above](./math2.png)
 
 # [Emoji](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 ```markdown
@@ -140,7 +140,7 @@ You can also use words, to fit your writing style more closely[^note].
 ```markdown
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 ```
-<img src="images.png" width="50%" height="50%">
+![An example image of the GitHub Octocat](./images.png)
 
 # Keyboard Shortcuts
 ```markdown

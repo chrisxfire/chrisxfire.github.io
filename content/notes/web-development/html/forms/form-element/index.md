@@ -20,7 +20,7 @@ Creates a form — a container for different types of input elements.
     <input type="submit" value="Submit">
 </form>
 ```
-<img src="xHTML_Forms---form--Element-image1.png" style="width:1.74167in;height:1.28333in" />   
+![A screenshot of a form with two fields labeled 'first name' and 'last name' and a button labeled 'submit'](./xHTML_Forms---form--Element-image1.png)
 
 ## Other `<form>` Attributes
 | Attribute        | Values                                           | Description                                                              |
@@ -85,7 +85,7 @@ Group related data in a form and caption it:
     </fieldset>
 </form>
 ```
-<img src="xHTML_Forms---form--Element-image2.png" style="width:1.88333in;height:1.5in" />  
+![A screenshot of a form with two fields labeled 'first name' and 'last name' and a button labeled 'submit'](./xHTML_Forms---form--Element-image2.png)
 
 ## `<datalist>` Element
 Define a list of pre-defined options for an `<input>` element with a dropdown list:

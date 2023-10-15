@@ -22,7 +22,7 @@ weight: 1
 # Examples
 ## Static modals
 This modal is **static**:  
-<img src="image.png" width="33%" height="33%">
+![A static modal](./image.png)
 
 ```html
 <div class="modal" tabindex="-1">
@@ -83,7 +83,7 @@ A modal can be **vertically centered** on the page...
 ```
 
 Modals can use the **grid system**:  
-<img src="image-1.png" width="33%" height="33%">
+![A modal using the grid system](./image-1.png)
 
 ```html
 <div class="modal-body">

@@ -178,13 +178,13 @@ Use combinators to select a specific child of a parent:
 
 # Box Model
 Every element is in a box:  
-<img src="CSS-image1.png" style="width:3.09167in;height:1.75in" />  
+![A diagram depicting a border, margin, and padding](./CSS-image1.png)
 
 The classic box model adds the border and padding to the amount of an element:  
-<img src="CSS-image2.png" style="width:3in;height:1.725in" />  
+![A diagram of the classic box model](./CSS-image2.png)
 
-The box-sizing: border-box; rule renders the padding and margin inside the box:  
-<img src="CSS-image3.png" style="width:3in;height:1.71667in" />  
+The `box-sizing: border-box;` rule renders the padding and margin inside the box:  
+![A diagram depicting the box-sizing border-box rule](./CSS-image3.png)
 
 To apply this rule to all elements:
 ```css
