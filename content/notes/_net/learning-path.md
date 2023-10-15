@@ -37,8 +37,9 @@ weight: 1
     - [x] Handle I/O errors
     - [z] Isolated storage... (deprecated)
     - [ ] Pipes...
-      - [ ] Pipes
-      - [ ] ...
+      - [x] Pipes
+      - [ ] How to: Use anonymous pipes for local interprocess communication
+      - [ ] How to: Use named pipes for network interprocess communication
     - [ ] Pipelines
     - [ ] Work with buffers
     - [ ] Memory-mapped files
