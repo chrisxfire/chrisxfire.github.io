@@ -7,7 +7,7 @@ IgnoreAltEmpty: false # Ignore alt=""
 IgnoreAltMissing: false
 IgnoreCanonicalBrokenLinks: true
 IgnoreDirectoryMissingTrailingSlash: true
-IgnoreEmptyHref: false # Ignore href=""
+IgnoreEmptyHref: true # Ignore href=""
 IgnoreInternalEmptyHash: true # Ignore href="#"
 IgnoreURLs:
 - ".*index.xml" # Ignore index.xml files
