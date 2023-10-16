@@ -17,7 +17,7 @@ Popularity: 2/3
 <r>This pattern is not natively thread-safe.</r>
 
 # Overview
-![The structure of the Singleton pattern](./Creational_Singleton-image1.png)
+![The structure of the Singleton pattern](./Creational_Singleton-image2.png)
 
 1.  The Singleton class declares the static method getInstance that returns the same instance of its own class.
 
@@ -66,5 +66,3 @@ public static ThreadSafeSingleton getInstanceDoubleLocking()
     return instance;
 }
 ```
-
-![](./Creational_Singleton-image2.png)

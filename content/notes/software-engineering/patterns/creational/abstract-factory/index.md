@@ -24,7 +24,7 @@ In .NET: `IHttpClientFactory`
 
 # Implementing
 Create a matrix of distinct product types and their variants.  
-![](./Creational_Abstract-Factory-image2.png)
+![A matrix of product types and their variants](./Creational_Abstract-Factory-image2.png)
 
 Declare abstract product interfaces for all product types. Make all concrete product classes implement these.
 ```cs
@@ -92,5 +92,5 @@ public class Client
 }
 ```
 Refactor existing code: Scan through code and find all direct class to product constructors. Replace them with calls to the appropriate creation method on the factory object.  
-![](./Creational_Abstract-Factory-image3.png)
+![A diagram depicting a sample implementation of the abstract factory pattern](./Creational_Abstract-Factory-image3.png)
 

@@ -64,6 +64,6 @@ Source generation has two modes: *metadata collection* mode and *serialization o
 ## Enabling Source Generation
 Follow [instructions here](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation?pivots=dotnet-7-0) to enable source generation.
 
-# Deserialize with HttpClient and HttpContent Extension Methods
+# Deserialize with `HttpClient` and `HttpContent` Extension Methods
 This technique still requires that you create a response class.
 - Documentation: https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to?pivots=dotnet-6-0#httpclient-and-httpcontent-extension-methods

@@ -5,13 +5,13 @@ draft: false
 weight: 1
 ---
 
-![](./Creational_Prototype-image1.png)
+![A diagram depicting the prototype pattern](./Creational_Prototype-image1.png)
 
 # Prototype
 Type: Creational  
 Purpose: Copy (clone) existing objects without making your code dependent on their classes.  
 Use to:
-- Prevent a depenency on the concrete classes of objects needing cloned.
+- Prevent a dependency on the concrete classes of objects needing cloned.
 - Reduce the number of subclasses that only differ in the way they initialize their respective objects.  
 Principles:  
 Complexity: 1/3  

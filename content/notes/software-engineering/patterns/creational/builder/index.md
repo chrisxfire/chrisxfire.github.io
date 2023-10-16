@@ -126,4 +126,4 @@ public static void Main(string[] args)
     builder.GetProduct().ListParts();
 }
 ```
-![](./Creational_Builder-image2.png)
+![A diagram depicting an example implementation of the builder pattern](./Creational_Builder-image2.png)

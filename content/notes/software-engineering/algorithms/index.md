@@ -21,15 +21,17 @@ Used to describe time and space complexities of algorithms:
 A mechanism to distribute data evenly across servers.
 
 ### Implementing
-1. For each object, hash its key with a hashing function (like MD5):  `serverIndex = hash(object_key) % N` where `N` is the size of the server pool  
-   ![](./Consistent-Hashing-image1.png)
+1. For each object, hash its key with a hashing function (like MD5):  
+  `serverIndex = hash(object_key) % N` where `N` is the size of the server pool  
+  ![A diagram depicting the above formula](./Consistent-Hashing-image1.png)
 
-2. Perform modulo operation on the hash against the number of servers:  `hash(object_key) % numberOfServers`
+3. Perform modulo operation on the hash against the number of servers:  
+    `hash(object_key) % numberOfServers`
 
     This determines which server the object belongs to.  As long as the number of servers stays the same, an object key will always map to the same server.
 
     Assuming a cluster of 4 servers:  
-    ![](./Consistent-Hashing-image2.png)
+    ![A diagram depicting the above function with 4 servers](./Consistent-Hashing-image2.png)
 
     If Server 1 goes offline:
     - The modulo operation changes from 4 to 3.
@@ -40,38 +42,38 @@ A mechanism to distribute data evenly across servers.
 
 ## Consistent Hashing
 Hashing the object keys but also the server hostnames (or IP addresses) with the same hashing function to the same range of values:  
-![](./Consistent-Hashing-image3.png)
+![A diagram depicting how both objects and servers use the same hashing function](./Consistent-Hashing-image3.png)
 
 *Hash space*: the range of `x0` to `xN`:  
-![](./Consistent-Hashing-image4.png)
+![A diagram depicting hash space from range x0 to xN](./Consistent-Hashing-image4.png)
 
 *Hash ring*: created by connecting the end of the hash range:  
-![](./Consistent-Hashing-image5.png)
+![A diagram depicting the hash ring](./Consistent-Hashing-image5.png)
 
 Consistent hashing is used by:
 - Apache Cassandra and Amazon DynamoDB for data partitioning
-- CDNs to distribute web content evently
-- Load balanaces to distribute persistent connections evenly
+- CDNs to distribute web content evenly
+- Load balances to distribute persistent connections evenly
 
 ### Implementing
 1. Hash the server by its hostname or IP and place it on the hash ring.
 2. Hash the object key using the same hash function from step #1 and place it into the hash ring. The hash is used directly to map the object keys onto the ring:  
-   ![](./Consistent-Hashing-image6.png)
+   ![A diagram depicting the above two steps](./Consistent-Hashing-image6.png)
    * To locate a server for a particular object, go clockwise from the location of the object key on the ring until a server is found.
    * If another server is added, only a fraction of the keys need to be redistributed:  
-     ![](./Consistent-Hashing-image7.png)
+     ![A diagram depicting how k0 is redistributed from s0 to s4](./Consistent-Hashing-image7.png)
    * If server 1 is removed, only k1 needs to be remapped (to s2); the rest of the keys are unaffected:  
-     ![](./Consistent-Hashing-image8.png)
+     ![A diagram depicting how k1 is remapped to s2 if s1 is deleted](./Consistent-Hashing-image8.png)
 
 ### Size of Segments
 If server 1 is removed, the segment for server 2 is now twice the size as the ones for server 0 and server 3:  
-![](./Consistent-Hashing-image9.png)
+![A diagram depicting s2's segment twice as large as s3](./Consistent-Hashing-image9.png)
 
 This is solved via *virtual nodes*. Each server appears multiple times on the ring. Each location is a virtual node representing a server:  
-![](./Consistent-Hashing-image10.png)
+![A diagram depicting two virtual nodes each for s0 and s1](./Consistent-Hashing-image10.png)
 
 Each server handles multiple segments on the ring (one for each of its virtual nodes):  
-![](./Consistent-Hashing-image11.png)
+![A diagram depicting how each server handles multiple segments on the ring via virtual nodes](./Consistent-Hashing-image11.png)
 
 As the number of virtual nodes increases, the distribution of objects becomes more balanced. But more virtual nodes means taking more space for the metadata of those nodes. This is a tradeoff.
 
@@ -105,7 +107,7 @@ setting 10 to null results in:
 # Queues
 - A queue contains elements in the order they were added.  
 - Queues are FIFO: Elements are inserted at the end (enqueue) and removed from the beginning (dequeue).  
-- Queues do not have indicies.
+- Queues do not have indices.
 
 ## Blocking Queue
 > Credit: [ByteByteGo blog](https://blog.bytebytego.com/)  
