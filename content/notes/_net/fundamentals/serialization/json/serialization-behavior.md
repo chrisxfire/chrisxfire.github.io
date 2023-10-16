@@ -1,9 +1,14 @@
 ---
-title: serialization behavior with attributes and JsonSerializerOptions
+title: control serialization behavior
 date: 2023-07-27T00:00:00-06:00
 draft: false
 weight: 1
 ---
+
+# Overview
+> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/configure-options?pivots=dotnet-7-0
+
+JSON serialization/deserialization behavior can be controlled through `JsonSerializerOptions` and various attributes.
 
 # Serialization Behavior
 By default:

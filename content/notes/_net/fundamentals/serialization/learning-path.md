@@ -10,13 +10,28 @@ weight: 1
 - [ ] Overview
 - [ ] JSON serialization...
   - [x] Overview
-  - [ ] Reflection vs. source generation
+  - [x] Reflection vs. source generation
   - [x] How to serialize and deserialize JSON
   - [ ] Control serialization behavior...
+    - [x] Instantiate JsonSerializerOptions
+    - [x] Enable case-insensitive matching
+    - [x] Customize property names and values
+    - [x] Ignore properties
+    - [x] Require properties
+    - [x] Allow invalid JSON
+    - [x] Handle missing members
+    - [x] Handle overflow jSON, use JsonElement or JsonNode
+    - [x] Preserve references, handle circular references
+    - [x] Deserialize to immutable types, non-public accessors
+    - [x] Polymorphic serialization
   - [ ] Read/write JSON without using JsonSerializer...
-  - [x] Migrate from Newtonsoft.Json (N/A)
-  - [x] Visual Basic support (N/A)
+    - [x] Use DOM
+    - [ ] Use Utf8JsonWriter
+    - [ ] Use Utf8JsonReader
+  - [z] Migrate from Newtonsoft.Json (N/A)
+  - [z] Visual Basic support (N/A)
   - [ ] Supported collection types 
+  - [ ] Advanced...
 - [ ] XML and SOAP serialization...
   - [ ] Overview
   - [ ] XML serialization in depth
