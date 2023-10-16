@@ -55,11 +55,11 @@ JsonSerializer = 84, NewtonsoftJsonSerializer = 94, JsonNode = 155, Utf8JsonRead
 
 Source generation has two modes: *metadata collection* mode and *serialization optimization* mode:
 
-| Mode                                                | Support for <br /> public properties | Support for <br /> private accessors | Support for <br /> required properties |
-| --------------------------------------------------- | ------------------------------------ | ------------------------------------ | -------------------------------------- |
-| Reflection                                          | Yes                                  | Yes                                  | Yes                                    |
-| Source generation <br /> Metadata collection        | Yes                                  | Yes                                  | Yes                                    |
-| Source generation <br /> Serialization optimization | Yes                                  | No                                   | No                                     |
+| Mode                                                | Support for <br /> public properties | Support for <br /> private accessors | Support for <br /> `required` and `init` members |
+| --------------------------------------------------- | ------------------------------------ | ------------------------------------ | ------------------------------------------------ |
+| Reflection                                          | Yes                                  | Yes                                  | Yes                                              |
+| Source generation <br /> Metadata collection        | Yes                                  | Yes                                  | Yes (.NET 8)                                     |
+| Source generation <br /> Serialization optimization | Yes                                  | No                                   | No                                               |
 
 ## Enabling Source Generation
 Follow [instructions here](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation?pivots=dotnet-7-0) to enable source generation.
