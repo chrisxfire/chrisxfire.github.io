@@ -33,17 +33,17 @@ https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=a
   - [ ] IIS...
   - [ ] HTTP.sys
 - [ ] Test...
-  - [ ] .NET Hot Reload
-  - [ ] Visual Studio dev tunnels
-  - [ ] HttpRepl...
-    - [ ] Overview
-    - [ ] OpenTelemetry
-    - [ ] Test Minimal API
-    - [ ] Razor Pages unit tests
-    - [ ] MVC controllers unit tests --> ASP.NET Core > Web Apps > MVC > Unit test
-    - [ ] Integration tests
-    - [ ] Load and stress testing
-    - [ ] Test middleware
+  - [x] .NET Hot Reload --> tools/visual studio/testing tools/hot reload
+  - [x] Visual Studio dev tunnels --> tools/visual studio/testing tools/dev tunnels
+  - [x] HttpRepl... 
+    - [x] Overview
+    - [x] Telemetry
+  - [ ] Test Minimal API
+  - [ ] Razor Pages unit tests
+  - [x] MVC controllers unit tests --> ASP.NET Core > Web Apps > MVC > Unit test
+  - [ ] Integration tests
+  - [x] Load and stress testing
+  - [ ] Test middleware
 - [ ] Debug...
   - [ ] Debug with Visual Studio
   - [ ] Remote debugging

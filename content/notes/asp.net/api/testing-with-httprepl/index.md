@@ -213,3 +213,6 @@ Create a launch configuration:
       }
     }
 ```
+
+# Telemetry
+HttpRepl collects telemetry. Set `DOTNET_HTTPREPL_TELEMETRY_OPTOUT` to `1` or `true` to opt out.
