@@ -83,6 +83,18 @@ Using stubs effectively requires application design such that each component dep
     and generic methods.
 8. Run the test.
 
+<o>Note</o>: If the solution fails to compile, it may be due the Fakes framework failing to find necessary classes. Here is sample
+`.fakes` file that fixes this:
+```xml
+<Fakes xmlns="http://schemas.microsoft.com/fakes/2011/">
+	<Assembly Name="EdrApi"/>
+	<StubGeneration>
+		<Clear />
+		<Add FullName="EdrApi.!" />
+	</StubGeneration>
+</Fakes>
+```
+
 ## Stub Behavior
 Each generated stub type receives an `IStubBehavior` through the `IStub.InstanceBehavior` property. Whenever a client calls a member 
 with *no attached custom delegate*, this behavior is invoked. If no behavior has been set, it uses `StubBehaviors.Current` which throws

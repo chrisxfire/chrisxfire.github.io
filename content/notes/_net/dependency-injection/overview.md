@@ -5,9 +5,10 @@ draft: false
 weight: -1
 ---
 
-[Dependency injection guidelines - .NET | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection-guidelines)
-[Dependency Injection Design Pattern in C# – ScottLilly.com](https://scottlilly.com/c-design-patterns-the-dependency-injection-pattern/)
-[Understanding Dependency Injection in .NET Core (auth0.com)](https://auth0.com/blog/dependency-injection-in-dotnet-core/)
+# Overview
+> https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection-guidelines
+> https://scottlilly.com/c-design-patterns-the-dependency-injection-pattern/
+> https://auth0.com/blog/dependency-injection-in-dotnet-core/
 
 *Dependency Injection* is a design pattern used to achieve Inversion of Control between classes and their dependencies.
 *A dependency* is an object that another object depends on.
