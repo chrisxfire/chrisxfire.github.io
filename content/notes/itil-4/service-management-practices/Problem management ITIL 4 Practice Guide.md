@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the problem management practice is to reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing workarounds and known errors.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the problem management practice is to reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing workarounds and known errors.</p></td></tr></tbody></table>
 
 No product or service is perfect. Every product has errors which can cause incidents. Errors may originate in any of the four dimensions of service management. For example, a mistake in a third-party contract is as likely to cause an incident as a technical component failure. Many errors are identified and resolved during design, development, or testing before a product goes live, and don’t affect the service. However, some errors will remain undiscovered and proceed to the live environment, and these may cause incidents.
 
@@ -324,8 +324,7 @@ However, indications of errors in other systems should not be neglected. In comp
 
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Description</strong></td></tr><tr><td>Review of the submitted information</td><td>Depending on the source and the subject, the submitted information is reviewed by a specialist or a specialist group. The review includes checks for duplicates, applicability, common sense, and ongoing incidents potentially related to the submitted information.</td></tr><tr><td>Problem registration</td><td>If the need for problem control is confirmed, a problem record is registered. This can be done by a dedicated role or by a wider group of specialist roles.</td></tr><tr><td>Initial problem categorization and assignment</td><td>The person registering a problem performs the initial categorization. The information usually includes some of the following (if known or reasonably assumed):<br>- source<br>- description<br>- associated CIs and/or CI classes<br>- estimated impact and probability of incidents<br>- associated and potentially affected services<br>- impact on the organization and customers.<p>Based on the initial categorization, the problem is assigned to a specialist group responsible for the associated CI, service, or product. Where applicable and expected, the problem initiator may be notified about the problem registration.</p></td></tr></tbody></table>
 
-#### 
-3.1.2 Reactive problem identification
+#### 3.1.2 Reactive problem identification
 
 This process includes the activities listed in Table 3.4, and transforms the inputs into outputs.
 
@@ -349,8 +348,7 @@ This process varies slightly depending on the trigger. The variations are illust
 
 <table><tbody><tr><td><strong>Ac</strong><strong>tivity</strong></td><td><strong>Triggered by ongoing incident</strong></td><td><strong>Triggered by incident records analysis</strong></td></tr><tr><td>Problem registration</td><td>The team working on the incident identifies the need for problem investigation. In some cases, a problem record is linked to one or more incident records for tracking the investigation. It may be especially important where multiple incidents in numerous locations are being handled by different teams and require a coordinated problem investigation, or where problem investigation will be done by a dedicated team.<p>In other cases, the team working with the incident may continue investigating the incident’s causes and document the problem after the incident is resolved. The problem may still need to be registered, especially if the causes of the incident were not removed during incident resolution and new incidents may arise from the same problem.</p></td><td>A specialist team responsible for a system, service, or product performs regular reviews of the incident records associated with their area of responsibility. If they detect a reason for a problem investigation, they register a problem record. These reasons may include:<br>- a high number of similar incidents<br>- a high percentage of incidents resolved after the target resolution time<br>- major incidents<br>- availability below the target level.</td></tr><tr><td>Initial problem categorization and assignment</td><td>When registering a problem, the person doing so performs initial categorization. This usually includes some of the following (if known or reasonably assumed):<br>- description<br>- associated CIs and/or CI classes<br>- estimated impact and probably of incidents<br>- associated and potentially affected services<br>- impact on the organization and customers.<p>If the problem is registered before the problem investigation, the problem is assigned to the appropriate specialist group.</p><p>If the problem is registered after the problem investigation, the information includes the steps made, the results, and the current status of the problem. If the problem is not solved at the time of registration, it is assigned to the appropriate group.</p></td><td>When registering a problem, the person doing so performs initial categorization. This usually includes some of the following (if known or reasonably assumed):<br>- description<br>- associated incidents and their solutions<br>- associated CIs and/or CI classes<br>- estimated impact and probability of future incidents<br>- associated and potentially affected services<br>- impact on the organization and customers<br>- estimated impact and probability of incidents.<p>Based on initial categorization, the problem is assigned to a specialist group, responsible for the associated CI, service, or product.</p></td></tr></tbody></table>
 
-#### 
-3.1.3 Problem control
+#### 3.1.3 Problem control
 
 This process focuses on the investigation of the problem. It includes the activities shown in Table 3.6 and transforms the inputs into outputs.
 
@@ -364,8 +362,7 @@ Figure 3.3 Workflow of the problem control process
 
 Table 3.7 provides examples of the process activities.
 
-##### 
-Table 3.7 Activities of the problem control process
+##### Table 3.7 Activities of the problem control process
 
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Description</strong></td></tr><tr><td>Problem investigation</td><td>The specialist team assigned to the problem investigates the possible causes of the incident and/or verifies the reported errors in the CIs and the organization’s other resources. . The methods and procedures vary depending on how the problem has been identified. For problems identified reactively, localization starts with understanding which CIs may have errors causing past or ongoing incidents. For most problems identified proactively, CIs or CI classes would have been identified during their registration. After the problem is localized to the level of CIs, further diagnostics may be needed to identify errors within the suspicious CIs. This and the following activities may be performed by different teams (teams re-assigned based on the problem localization). If the reported problem is irrelevant to the organization (for example, a publicly reported vulnerability in software that does not affect the versions used by the organization), the problem record may be closed. If the investigated problem is relevant to the organization, it is assigned the known error status for further control and resolution. Actions and results of the investigations are recorded in the problem records.</td></tr><tr><td>Known error communication</td><td>The results of problem investigation are communicated to the problem initiator and relevant teams. . These may include product development teams, technical specialists, the service desk team, users, and suppliers. If there are ongoing incidents associated with the problem that is being investigated, the results of the problem localization are communicated to the incident investigation teams. It is possible that understanding the errors is enough to define an incident resolution. In this case, a recommended solution for the incident should be registered in the problem records and communicated to the teams working with the incident.</td></tr></tbody></table>
 
@@ -376,15 +373,13 @@ To investigate problems, organizations use various analysis techniques. These ma
 
 It is important to remember that the concept of a single root cause has a very limited applicability in complex evolving environments. Quite often, incidents are caused by improbable combinations of improbable factors. This means that investigation of problems (especially identified reactively) should not be limited to the identification of the first possible cause of incidents. Problem investigation should always consider all four dimensions of service management.
 
-#### 
-3.1.4 Error control  
+#### 3.1.4 Error control  
 
 This process focuses on the monitoring and control of the status of the known errors (problems that are analysed but not resolved) and their resolution. It helps to ensure that the negative impacts of the known errors on services are understood and minimized; the solutions for related incidents are effective; and the mitigation approach for the known error is valid, effective, and efficient.
 
 This process includes the activities shown in Table 3.8 and transforms the inputs into outputs.
 
-##### 
-Table 3.8 Inputs, activities, and outputs of the error control process
+##### Table 3.8 Inputs, activities, and outputs of the error control process
 
 <table><tbody><tr><td><strong>Key inputs</strong></td><td><strong>Activities</strong></td><td><strong>Key outputs</strong></td></tr><tr><td>Problem records<p>Service configuration data</p><p>Technical information about CIs, products, and services</p><p>Incident records</p><p>Monitoring data</p><p>Knowledge management data</p></td><td>Problem solution development<p>Problem resolution initiation</p><p>Known error monitoring and review<br>Problem closure</p></td><td>Problem records<p>Problem models</p><p>Change requests</p><p>Improvement initiatives</p><p>Problem solutions</p></td></tr></tbody></table>
 
@@ -394,16 +389,13 @@ Figure 3.4 shows a workflow diagram of the process.
 
 Figure 3.4 Workflow of the error control process
 
-##### 
-Table 3.9 Activities of the error control process
+##### Table 3.9 Activities of the error control process
 
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Example</strong></td></tr><tr><td>Problem solution development</td><td>The team (assigned or re-assigned based on the problem investigation) looks for a way to solve the problem. This includes defining an approach to the mitigation (see Table 2.1) and development of the actual solution within the selected approach. If there is no viable solution for the problem, the supporting information is recorded and the error goes to periodic review.</td></tr><tr><td>Problem resolution initiation</td><td>In most cases, problem resolution requires change. The responsible team submits change requests, following the organization’s procedures for change initiation and implementation. In other cases, required actions are not classified as changes and can be initiated and performed following other procedures. Either way, the team initiates the actions required for the defined (and, if needed, approved) problem resolution. This initiation may need to be supported with relevant justification (including financial, risk, compliance, technical, and other considerations).</td></tr><tr><td>Known error monitoring and review</td><td><strong>If a solution is approved for the known error</strong><strong><br></strong><strong><br></strong>The implementation of the solution is controlled and confirmed using pre-agreed criteria. This is usually done by the team that initiated the resolution, or another pre-agreed role, such as problem manager.<br>For reactively identified problems, this can be done based on the change in incident dynamics (related incidents are resolved or prevented). For proactively identified problems, resolution control is based on the success of the initiated changes and may include a period of monitoring any service that might have been affected by the errors.<br>If the resolution of the problem is unconfirmed, the team returns to the problem solution development step of the process.<br><strong><br></strong><strong>If no viable solution is found for the known error</strong><strong><br></strong><strong><br></strong>An assigned specialist team should monitor the known error. This is usually the team responsible for the CI, service, or product with which the known error is associated. The team monitors the status of the known error as defined in the mitigation strategy. Monitored parameters may include:<br>- the dynamics of the associated incidents<br>- the effectiveness of the incident solutions<br>- the effectiveness of the problem workarounds<br>- changes in the statuses of the resources needed to solve a problem (budget, updates from the vendor, specialists, new infrastructure, and so on).<p>The team should conduct problem reviews periodically (in line with the agreed mitigation approach) or based on outstanding monitoring results.</p><p>If the review confirms that the mitigation approach is valid and up to date (the problem exists, the impact assessment is up to date, incident solutions are effective, the problem workaround is effective, and no viable problem fix is available), then known error monitoring continues.</p><p>If the mitigation approach becomes invalid, the problem solution development activity is initiated to review and redefine the mitigation approach. This may include developing and implementing a problem solution or updating the incident solutions for any associated incidents.</p><p>If the problem no longer exists (for example, it has been removed with planned software or hardware updates or by decommissioning the affected CIs), problem closure is initiated.</p><p>If the problem demonstrated a new pattern that suggests the amendment or creation of a problem model, a problem model is documented and communicated as part of the problem review activity.</p><p>Problem records are updated with monitoring data.</p></td></tr><tr><td>Problem closure</td><td>The specialist (or team) acting as a problem manager/coordinator, reviews the results and formally closes the problem record.<p>If the resolution is confirmed, they document the resolution control results and formally close the problem record.</p><p>Closed problem records should be available as part of the organization’s knowledge base, especially if there is a chance that similar problems may recur.</p></td></tr></tbody></table>
 
-## 
-3.2 Value stream contribution
+## 3.2 Value stream contribution
 
-#### 
-3.2.1 Service value streams  
+#### 3.2.1 Service value streams  
 
 To perform certain tasks or respond to particular situations, organizations create service value streams. These are specific combinations of activities and practices, and each one is designed for a particular scenario. Once designed, value streams should be subject to continual improvement.
 
@@ -419,8 +411,7 @@ Many organizations follow best practice recommendations for various service mana
 
 However, the practices have often been adopted and organized in a siloed, isolated manner, just as they were presented in the service management bodies of knowledge. In reality, a flow of work required to create or restore value for a customer or another stakeholder is almost never limited to one practice.
 
-#### 
-3.2.2 Problem management in service value streams
+#### 3.2.2 Problem management in service value streams
 
 Problem management is likely to be involved in several service value streams. The most obvious one is the restoration of normal operations in case of an incident. This service value stream is not limited to the incident management practice, but involves many other practices, including problem management.
 
@@ -440,8 +431,7 @@ In all cases, the practice is involved for the same purposes listed above: provi
 
 There is no single operating model fitting all organizations. Different solutions work for different organizations, involving different value streams which in turn involve different management practices.
 
-#### 
-3.2.3 Analysing a service value stream
+#### 3.2.3 Analysing a service value stream
 
 ##### 3.2.3.1 The key steps of a service value stream analysis
 
@@ -478,8 +468,7 @@ Walk or directly experience the steps and information flow as they go in practic
 
 **Using the ‘to be’ VSM, plan improvements** Refer to the continual improvement practice guide for a practical improvement model.
 
-##### 
-3.2.3.2 Problem management considerations in a service value stream analysis
+##### 3.2.3.2 Problem management considerations in a service value stream analysis
 
 To ensure that relevant problem management activities are included in service value streams, the following steps can be added to the above recommendations.
 
@@ -502,8 +491,7 @@ Remember, roles are not job titles. One person can take on multiple roles and on
 
 Roles are described in the context of processes and activities. Each role is characterized with a competency profile based on the model shown in Table 4.1.
 
-##### 
-Table 4.1 Competency codes and profiles
+##### Table 4.1 Competency codes and profiles
 
 <table><tbody><tr><td><strong>Competency code</strong></td><td><strong>Competency profile (activities and skills)</strong></td></tr><tr><td>L</td><td><strong>Leader</strong> Decision-making, delegating, overseeing other activities, providing incentives and motivation, and evaluating outcomes</td></tr><tr><td>A</td><td><strong>Administrator</strong> Assigning and prioritizing tasks, record-keeping, ongoing reporting, and initiating basic improvements</td></tr><tr><td>C</td><td><strong>Coordinator/communicator </strong>Coordinating multiple parties, maintaining communication between stakeholders, and running awareness campaigns</td></tr><tr><td>M</td><td><strong>Methods and techniques expert</strong> Designing and implementing work techniques, documenting procedures, consulting on processes, work analysis, and continual improvement</td></tr><tr><td>T</td><td><strong>Technical expert</strong> Providing technical (subject matter) expertise and conducting expertise-based assignments</td></tr></tbody></table>
 
@@ -524,15 +512,13 @@ This role is usually responsible for managing and coordinating the specialist ac
 * coordinating known error monitoring and review
 * the formal problem closure.
 
-#### 
-4.1.2 Problem coordinator role
+#### 4.1.2 Problem coordinator role
 
 In more complex organizations, some responsibilities for the problem management practice may be delegated to the problem coordinator. The problem coordinator focuses on routine problem management activities, such as the review of submitted information about possible problems, problem review, and problem closure.
 
 Examples of other roles which can be involved in the problem management activities are listed in Table 4.2, together with the associated competency profiles and specific skills.
 
-##### 
-Table 4.2 Examples of roles with responsibility for problem management activities
+##### Table 4.2 Examples of roles with responsibility for problem management activities
 
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Responsible roles</strong></td><td><strong>Competency profile</strong></td><td><strong>Specific skill</strong>s</td></tr><tr><td><em>Proactive problem identification process</em></td><td></td><td></td><td></td></tr><tr><td>Review of the submitted information</td><td>CI owner<p>Problem coordinator</p><p>Problem manager</p><p>Product owner</p><p>Service owner</p></td><td>T</td><td>Good knowledge of the product, including its architecture and configuration</td></tr><tr><td>Problem registration</td><td>CI owner<p>Problem coordinator</p><p>Problem manager</p><p>Product owner</p><p>Service owner</p></td><td>TA</td><td>Knowledge of the registration tools and procedures</td></tr><tr><td>Initial problem categorization and assignment</td><td>CI owner<p>Problem coordinator</p><p>Problem manager</p><p>Product owner</p><p>Service owner</p></td><td>TAC</td><td>Good knowledge of the product, service architecture, and business impact Understanding of the responsibilities and competencies across the teams</td></tr><tr><td><em>Reactive problem identification process</em></td><td></td><td></td><td></td></tr><tr><td>Problem registration</td><td>CI owner<p>Incident manager</p><p>Problem coordinator</p><p>Problem manager</p><p>Product owner</p><p>Service owner</p></td><td>TA</td><td>Knowledge of the registration tools and procedures</td></tr><tr><td><em>Problem control process</em></td><td></td><td></td><td></td></tr><tr><td>Problem investigation</td><td>CI owner<p>Problem coordinator</p><p>Problem manager</p><p>Product owner</p><p>Service owner</p><p>Supplier</p><p>Technical specialist</p></td><td>CT</td><td>Good knowledge of the product, service architecture, and business impact.<br>Good knowledge of diagnostic, investigation, and analysis methods and tools.</td></tr><tr><td>Known error communication</td><td>CI owner<p>Incident manager</p><p>Problem coordinator</p><p>Problem manager</p></td><td>TC</td><td>Understanding of stakeholders and responsibilities<br>Knowledge of the communication tools and procedures</td></tr><tr><td><em>Error control process</em></td><td></td><td></td><td></td></tr><tr><td>Problem solution development</td><td>CI owner<p>Problem coordinator</p><p>Problem manager</p><p>Product owner</p><p>Service owner</p><p>Supplier</p><p>Technical specialist</p></td><td>TMC</td><td>Good knowledge of the product and service architecture, configuration, and technical details<br>Creativity<br>Systems thinking</td></tr><tr><td>Problem resolution initiation</td><td>CI owner<p>Problem coordinator</p><p>Problem manager</p><p>Product owner</p><p>Service owner</p><p>Supplier</p><p>Technical specialist</p></td><td>CT</td><td>No specific skills required</td></tr><tr><td>Known error monitoring and review</td><td>CI owner<p>Problem coordinator</p><p>Problem manager</p><p>Product owner</p><p>Service owner</p><p>Supplier</p><p>Technical specialist</p></td><td>TAC</td><td>Good knowledge of the product and service architecture and business impact</td></tr><tr><td>Problem closure</td><td>CI owner<p>Problem coordinator</p><p>Problem manager</p><p>Product owner</p><p>Service owner</p></td><td>TCA</td><td>Good knowledge of the product, service architecture, and business impact</td></tr></tbody></table>
 
@@ -562,15 +548,13 @@ This information may take various forms. The key inputs and outputs of the pract
 
 The problem management practice can significantly benefit from automation. The term automation is used in this and other ITIL publications to refer to the use of digital technology to enable, support, or enhance various activities. This includes, but is not limited to the full automation of activities where technology solutions remove the need for human intervention. Table 5.1 provides a list of the key automation supporting the practice and their most common application.
 
-##### 
-Table 5.1 Automation solutions for the problem management practice
+##### Table 5.1 Automation solutions for the problem management practice
 
 <table><tbody><tr><td><strong>Automation tools</strong></td><td><strong>Application in problem management</strong></td></tr><tr><td>Workflow management and collaboration tools</td><td>Reactive problem identification (analysis of incident records)<p>Management of problem and known error records</p><p>Support of collaboration during problem investigation and resolution</p><p>Support of problem impact analysis and root cause analysis (through records of other management practices, including incidents and changes)</p></td></tr><tr><td>Monitoring and event management tools</td><td>Proactive problem identification<p>Support of trend analysis for problem impact assessment</p><p>Monitoring of the effectiveness of the resolution</p></td></tr><tr><td>Service configuration management tools</td><td>Problem categorization and investigation</td></tr><tr><td>Analysis and reporting tools</td><td>Problem investigation<br>Practice measurement and reporting</td></tr><tr><td>Knowledge management tools</td><td>Retrieving, managing, and communicating known solutions for incidents and problems</td></tr></tbody></table>
 
 Detailed descriptions of how these tools support the practice’s activities are outlined in Table 5.2.
 
-##### 
-Table 5.2 Details of automation of the problem management activities
+##### Table 5.2 Details of automation of the problem management activities
 
 <table><tbody><tr><td><strong>Process activity</strong></td><td><strong>Means of automation</strong></td><td><strong>Key functionality</strong></td><td><strong>Impact on the effectiveness of the prac</strong><strong>tice</strong></td></tr><tr><td><em>Proactive problem identification process</em></td><td></td><td></td><td></td></tr><tr><td>Review of the submitted information</td><td>Monitoring and event management tools<p>Workflow management and collaboration tools</p></td><td>Collection and overview of information from various sources, including data analysis and team collaboration</td><td>High</td></tr><tr><td>Problem registration</td><td>Workflow management and collaboration tools</td><td>Management of problem records integrated with other service management data</td><td>High</td></tr><tr><td>Initial problem categorization and assignment</td><td>Workflow management and collaboration tools<p>Service configuration management tools</p></td><td>Management of problem records integrated with other service management data, backlog management, communication, and collaboration support</td><td>High</td></tr><tr><td><em>Reactive problem identification process</em></td><td></td><td></td><td></td></tr><tr><td>Problem registration</td><td>Workflow management and collaboration tools</td><td>Machine-learning-based problem identification based on analysis of past and ongoing incidents<br>Management of problem records integrated with other service management data<br></td><td>High</td></tr><tr><td>Initial problem categorization and assignment</td><td>Workflow management and collaboration tools<p>Service configuration management tools</p></td><td>Management of problem records integrated with other service management data, backlog management, communication, collaboration support, and CI impact assessment</td><td>High</td></tr><tr><td>Problem control process</td><td></td><td></td><td></td></tr><tr><td>Problem investigation</td><td>Analysis and reporting tools<p>Service configuration management tools</p></td><td>Dependencies analysis, what-if analysis, cause and-effect analysis, and modelling</td><td>High</td></tr><tr><td>Known error communication</td><td>Workflow management and collaboration tools</td><td>Communication and collaboration support</td><td>Medium</td></tr><tr><td><em>Error control process</em></td><td></td><td></td><td></td></tr><tr><td>Problem solution development</td><td>Analysis and reporting tools<br>Service configuration management tools</td><td>Solution design and validation</td><td>Medium to very high, depending on the solution architecture</td></tr><tr><td>Problem resolution initiation</td><td>Workflow management and collaboration tools</td><td>Communication and collaboration support</td><td>Medium</td></tr><tr><td>Known error monitoring and review</td><td>Monitoring and event management tools<p>Workflow management and collaboration tools</p></td><td>Collection and overview of information from various sources, data analysis, and team collaboration<p>Verification that known errors exist and workarounds work</p><p>Creating and linking knowledge articles to known errors</p></td><td>Medium to high</td></tr><tr><td>Problem closure</td><td>Workflow management and collaboration tools</td><td>Communication and collaboration support, automatic posts into collaboration tools</td><td>Medium</td></tr></tbody></table>
 
@@ -635,15 +619,13 @@ This approach results in every practice having up to 30 capability criteria base
 
 Table 7.1 outlines the capability criteria that are defined in the ITIL maturity model for the problem management practice.
 
-##### 
-Table 7.1 Problem management capability criteria
+##### Table 7.1 Problem management capability criteria
 
 <table><tbody><tr><td><strong>PSF</strong></td><td><strong>Criterion</strong></td><td><strong>Dimension</strong></td><td><strong>Capability level</strong></td></tr><tr><td>Identifying and understanding the problems and their impact on services</td><td>The causes of important incidents are identified and investigated</td><td>Value streams and processes</td><td>2</td></tr><tr><td></td><td>The errors in products and services, which might lead to incidents, are identified and investigated</td><td>Value streams and processes</td><td>2</td></tr><tr><td></td><td>Problem identification and control address the errors in technology solutions</td><td>Information and technology</td><td>3</td></tr><tr><td></td><td>Problem identification and control address the errors within the organization</td><td>Organizations and people</td><td>3</td></tr><tr><td></td><td>Problem identification and control address the errors in third-party services and dependencies</td><td>Partners and suppliers</td><td>3</td></tr><tr><td></td><td>Problem identification and control address the errors in value streams, processes, and other workflows</td><td>Value streams and processes</td><td>3</td></tr><tr><td></td><td>Problem identification and control are integrated into value streams</td><td>Value streams and processes</td><td>3</td></tr><tr><td></td><td>Problem identification and control information is tracked and managed using an integrated information system</td><td>Information and technology</td><td>3</td></tr><tr><td></td><td>The competencies required to identify and investigate problems are identified and qualified human resources are available</td><td>Organizations and people</td><td>3</td></tr><tr><td></td><td>Problem identification and control are integrated across the organization’s supply network</td><td>Partners and suppliers</td><td>4</td></tr><tr><td></td><td>The effectiveness of problem identification and control is measured and reported</td><td>Value streams and processes</td><td>4</td></tr><tr><td></td><td>The effectiveness of problem identification and control is regularly reviewed and continually improved</td><td>Value streams and processes</td><td>5</td></tr><tr><td>Optimizing problem resolution and mitigation</td><td>Where reasonably possible, errors in products and services are fixed</td><td>Value streams and processes</td><td>2</td></tr><tr><td></td><td>Where errors cannot be fixed, they are controlled and mitigated</td><td>Value streams and processes</td><td>2</td></tr><tr><td></td><td>When error resolutions are considered, they address the technology solutions</td><td>Information and technology</td><td>3</td></tr><tr><td></td><td>When error resolutions are considered, they address the organization and competencies</td><td>Organizations and people</td><td>3</td></tr><tr><td></td><td>When error resolutions are considered, they address third-party services and dependencies</td><td>Partners and suppliers</td><td>3</td></tr><tr><td></td><td>When error resolutions are considered, they address value streams, processes, and other workflows</td><td>Value streams and processes</td><td>3</td></tr><tr><td></td><td>Information about known errors is tracked and managed using an integrated information system</td><td>Information and technology</td><td>3</td></tr><tr><td></td><td>Known errors are regularly reviewed and the relevant information is updated</td><td>Value streams and processes</td><td>4</td></tr><tr><td></td><td>The effectiveness of the error control is measured and reported</td><td>Value streams and processes</td><td>4</td></tr><tr><td></td><td>The effectiveness of the error control is regularly reviewed and continually improved</td><td>Value streams and processes</td><td>5</td></tr></tbody></table>
 
 These capability criteria can be used by organizations for self-assessment and improvement of the practice.
 
-## 
-7.2 Capability self-assessment
+## 7.2 Capability self-assessment
 
 The self-assessment can be conducted by the service provider’s internal audit team, if the service provider has one, or by the respective team of the parent organization. If there is no specialized team in the organization, the assessment can be done by a team of practice owners and managers responsible for other management practices of the service provider, or a mixed team of the service provider’s executive leaders and managers.
 
@@ -679,8 +661,7 @@ A common misconception is that problem management is an administrative process, 
 
 Problem management is a business-led practice, which supports quality, efficiency, risk reduction and creation of business value.
 
-## 
-8.2 Getting started
+## 8.2 Getting started
 
 Start where you are and progress iteratively with feedback. There is no need to cover all types of problems in all products from day one. Use the capability criteria (see section 7.2) as guidance. Start identifying problems in the most critical products and services and then develop the capabilities and expand the scope to increase business value from the practice.
 
@@ -689,8 +670,7 @@ It is important consider the who the right person or people are to drive the pra
 * Do they have the right skills for the relevant phases of the practice?
 * What do they need from the leadership to support the practice and ensure that it is understood across the organization?
 
-## 
-8.3 Making problem management work
+## 8.3 Making problem management work
 
 Once the first problems have been identified, it is useful to look at data on the backlog, identify links with incidents and changes, look at other relevant activities happening in the organization, and seek out feedback from users on what is really affecting them. Context is important to fully understand the problems.
 
@@ -700,8 +680,7 @@ Visibility and transparency of problems and their impact is also recommended. Th
 
 A simple way to test whether problem management is working is to check if the prioritized list of problems is known and agreed upon by key stakeholders, particularly the leadership team.
 
-## 
-8.4 Demonstrating value to the organization
+## 8.4 Demonstrating value to the organization
 
 It is not uncommon for organizations to have defined and implemented a problem management workflow, and yet still not be able to demonstrate its business value. This highlights the fact that success in problem management requires focus on people, collaboration, and business focus, as much as on process and technology.
 
@@ -725,8 +704,7 @@ Most of the content of the practice guides should be taken as a suggestion of ar
 
 Table 8.1 outlines recommendations for the success of the problem management practice, linked to the relevant guiding principles.
 
-##### 
-Table 8.1 Recommendations for the success of problem management
+##### Table 8.1 Recommendations for the success of problem management
 
 <table><tbody><tr><td><strong>Recommendation</strong></td><td><strong>Comments</strong></td><td><strong>ITIL guiding principles</strong></td></tr><tr><td>Start logging problems, now</td><td>This starts to build up data<p>This also gets people to think about long term problems and remove barriers to getting them raised and fixed. They might, for example, be concerned that they will have to take on the problem, and so not log it.</p></td><td>Start where you are<p>Keep it simple and practical</p></td></tr><tr><td>Think carefully about getting the right people in problem roles</td><td>The people doing problem management roles and tasks need to have the right skills and attributes for the relevant phases<p>This includes</p><p>Data analytics, reporting, trends analytics, information presentation<br>Risk analysis, business case analysis<br>Project management, leadership, influencing and communications skills</p></td><td>Focus on value<p>Think and work holistically</p><p>Keep it simple and practical</p></td></tr><tr><td>Problem management is not an administrative function</td><td>Some administrative skills are required to manage work and promote issues, but this is not the main function or value of problem management<p>Problem management wont simply work by itself, particularly when starting the practice; this needs drive and focus</p></td><td>Think and work holistically<p>Keep it simple and practical</p></td></tr><tr><td>The problem manager or problem team won’t fix all the problems</td><td>Problems need to be owned and acted upon by the whole business/team/department.<p>Problem management facilitates (business) fixes rather than delivering all (technical) fixes</p><p>Those raising problems are not necessarily the same as those who will fix them</p></td><td>Collaborate and promote visibility<p>Keep it simple and practical</p></td></tr><tr><td>Prioritize problems in order of value to the organization</td><td>Risk, opportunity, cost and quality should drive prioritization not technical or team focus.<p>Problems should be highlighted in business terms for approval/decision on action</p></td><td>Focus on value<p>Keep it simple and practical</p></td></tr><tr><td>Publish a list of top business problems</td><td>Transparency of current high priority problems ensures focus and shared goals<p>Everyone should know the list of top problems</p><p>Open visibility also helps to use the cumulative experience across a team to speed up ideas and actions for resolution</p></td><td>Focus on value<p>Collaborate and promote visibility</p><p>Keep it simple and practical</p></td></tr><tr><td>Problem Management needs a swarming approach</td><td>Problems will often be raised through the tiered support model, but this is not always effective when collaboration and management support is needed<p>All technical teams should be expected to participate in collaborative problem-solving activities and swarm teams</p></td><td>Focus on value<p>Collaborate and promote visibility</p></td></tr><tr><td>SLAs don’t apply to problems, but problem management improves service quality</td><td>Problems are not predictable and don’t always follow a linear process path<p>Problem management should be measured and appreciated as a contributor to business value, for reporting</p><p>Problem management can also be used to drive improvement targets for incident reduction</p></td><td>Focus on value<p>Progress iteratively with feedback</p><p>Start where you are</p><p>Keep it simple and practical</p></td></tr><tr><td>Get user/customer input on their problems</td><td>It is essential to get end user feedback on their problems (which also might not be defined or logged)<p>It is also beneficial to get an external view on what really matters to the business</p></td><td>Progress iteratively with feedback<p>Focus on value</p><p>Keep it simple and practical</p></td></tr><tr><td>Use AI and automation tools where possible</td><td>AI can interrogate data to identify trends<p>For example, AI and RPA can be used to remove repeat and underlying issues</p></td><td>Optimize and automate</td></tr></tbody></table>
 

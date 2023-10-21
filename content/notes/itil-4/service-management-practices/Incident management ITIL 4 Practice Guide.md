@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the incident management practice is to minimize the negative impact of incidents by restoring normal service operation as quickly as possible.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the incident management practice is to minimize the negative impact of incidents by restoring normal service operation as quickly as possible.</p></td></tr></tbody></table>
 
 The definition refers to a ‘normal service operation’. Conditions of normal service operation are typically defined within service level agreements (SLAs), or other forms of service quality specification, either agreed with the customer or defined by the service provider. In some cases, internal service provider’s specification can include more quality criteria than were initially agreed with the customers (see more on this in the service level management practice guide). The incident management practice is not limited to the service quality perceived by users. It includes restoration of the normal operation of services and resources, even when their failure or deviation is not visible to the service consumers. In this case, normal operation can be defined in the technical specifications of services or configuration items (CIs). Finally, if there is no documented specification of a normal operation, an expert opinion may be used to assess the status of the resources and services.
 
@@ -99,8 +99,7 @@ There are a number of activities and areas of responsibility that are not includ
 
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Practice guide</strong></td></tr><tr><td>Investigating causes of incidents</td><td>Problem management</td></tr><tr><td>Communicating with users</td><td>Service desk</td></tr><tr><td>Implementation of changes to products and services</td><td>Change enablement; deployment management; infrastructure and platform; project management; release management; software development management</td></tr><tr><td>Monitoring technology, teams, and supplier performance</td><td>Monitoring and event management</td></tr><tr><td>Management of improvement initiatives</td><td>Continual improvement</td></tr><tr><td>Management and fulfilment of service requests</td><td>Service request management</td></tr><tr><td>Restoring normal operations in case of a disaster</td><td>Service continuity management</td></tr></tbody></table>
 
-### 
-2.4 Practice success factors
+### 2.4 Practice success factors
 
 <table><tbody><tr><td><strong>Definition: Practice success factor</strong></td></tr><tr><td>A complex functional component of a practice that is required for the practice to fulfil its purpose.</td></tr></tbody></table>
 
@@ -111,8 +110,7 @@ The incident management practice includes the following PSFs:
 * resolving incidents quickly and efficiently
 * continually improving incident management.
 
-#### 
-2.4.1 Detecting incidents early
+#### 2.4.1 Detecting incidents early
 
 Previously, it was a common practice to register most incidents based on information from end users and IT specialists. This method of sourcing information is still widely used, but good practice currently suggests detecting and registering incidents automatically wherever possible. This can be done immediately after incidents occur and before they start affecting users. This approach has multiple benefits:
 * Earlier incident detection decreases the time of the service unavailability or degradation, which in turn decreases the losses and other negative business impact caused by incidents.
@@ -177,15 +175,13 @@ Periodic reviews provide an opportunity to analyse the stakeholders’ satisfact
 
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The importance of data</td></tr><tr><td>Effective reviews will always need data; therefore, it is important to agree the requirements for documenting it. Data should be:<p>- <strong>Concurrent</strong>: It is useful to know exactly what was done when, to assist in continual improvement. This requires stakeholders to update incident records during, not after, the event. Also, an accurate timeline may be useful for investigating the problem.</p><p>- <strong>Complete</strong>: A considerable amount of activity can be hidden behind a simple statement. For example, a statement such as ‘We restarted the cluster and normal function was observed after 45 minutes’ may hide useful detail. It could mean: ‘We restarted Server 1, then 2, then 3 and found that Server 4, which was operating normally, stopped. We checked the manual and restarted Servers 2 and 4, then 1 and 3. All were processing data correctly after 10 minutes.’</p><p>- <strong>Comprehensive</strong>: Describing why an action was taken can be just as important as describing the action itself.</p></td></tr></tbody></table>
 
-### 
-2.5 Key metrics
+### 2.5 Key metrics
 
 The practice metrics should be applied to a specific context such as type of incident, services, specialist groups, or periods of time.
 
 The effectiveness and performance of the ITIL practices should be assessed within the context of the value streams to which the practices contribute. The context of the business and the value streams is important to define what is considered good or not so good performance of a practice. This is why this practice guide cannot recommend universal key performance indicators for incident management: the target values for each metric can only be defined in the organization’s context.
 
-##### 
-Table 2.2 Key metrics for incident management
+##### Table 2.2 Key metrics for incident management
 
 <table><tbody><tr><td><strong>Practice success factors</strong></td><td><strong>Key metrics</strong></td></tr><tr><td>Detecting incidents early</td><td>Time between incident occurrence and detection<br>Percentage of incidents detected via monitoring and event management</td></tr><tr><td>Resolving incidents quickly and efficiently</td><td>Time between incident detection and acceptance for diagnosis<br>Time of diagnosis<br>Number of reassignments<br>Percentage of waiting time in the overall incident handling time<br>First-time resolution rate<br>Meeting the agreed resolution time<br>User satisfaction with incident handling and resolution<br>Percentage of the incident resolved automatically<br>Percentage of incidents resolved before being reported by users</td></tr><tr><td>Continually improving incident management</td><td>Percentage of incident resolutions using previously identified and recorded solutions<br>Percentage of incidents resolved using incident models<br>Improvement of the key practice indicators over time<br>Balance between the speed and effectiveness metrics for incident resolution</td></tr></tbody></table>
 
@@ -197,13 +193,11 @@ Incident management activities form two processes:
 * **Incident handling and resolution** This process is focused on the handling and resolution of individual incidents, from detection to closure.
 * **Periodic incident review** This process ensures that the lessons from incident handling and resolution are learned and that approaches to incident management are continually improved.
 
-#### 
-3.1.1 Incident handling and resolution
+#### 3.1.1 Incident handling and resolution
 
 This process includes the activities listed in Table 3.1, and transforms the inputs into outputs.
 
-##### 
-Table 3.1 Inputs, activities, and outputs of the incident handling and resolution process
+##### Table 3.1 Inputs, activities, and outputs of the incident handling and resolution process
 
 <table><tbody><tr><td><strong>Key inputs</strong></td><td><strong>Activities</strong></td><td><strong>Key outputs</strong></td></tr><tr><td>Monitoring and event data</td><td>Incident detection</td><td>Incident records</td></tr><tr><td>User queries</td><td>Incident registration</td><td>Incident status communications</td></tr><tr><td>Configuration information</td><td>Incident classification</td><td>Problem investigation requests</td></tr><tr><td>IT asset information</td><td>Incident diagnosis</td><td>Change request</td></tr><tr><td>Service catalogue</td><td>Incident resolution</td><td>Incident reports</td></tr><tr><td>SLAs with consumers and suppliers/partners</td><td>Incident closure</td><td>Updates to the knowledge base</td></tr><tr><td>Capacity and performance information</td><td></td><td>Restored CIs and services</td></tr><tr><td>Continuity policies and plans</td><td></td><td></td></tr><tr><td>Information security policies and plans</td><td></td><td></td></tr><tr><td>Problem records</td><td></td><td></td></tr><tr><td>Knowledge base</td><td></td><td></td></tr></tbody></table>
 
@@ -221,20 +215,17 @@ The process may vary significantly, depending on the incident model. Table 3.2 p
 
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Manually processed user-detected incidents</strong></td><td><strong>Automatically detected and processed incidents</strong></td></tr><tr><td>Incident detection</td><td>A user detects a malfunction in service operation and contacts the service provider’s service desk through the agreed channel(s). A service desk agent performs the initial triage of the user query, confirming that the query does indeed refer to an incident.</td><td>An event is detected by a monitoring system and identified as an incident based on a pre-defined classification.</td></tr><tr><td>Incident registration</td><td>The service desk agent performs incident registration, adding the available data to the incident record.</td><td>An incident record is registered and associated with the CI where the event has been detected. Pre-defined technical data is registered. If needed, a notification is sent to the relevant technical specialists.</td></tr><tr><td>Incident classification</td><td>The service desk agent performs initial classification of the incident; this helps to qualify incident impact, identify the team responsible for the failed CIs and/or services, and to link the incident to other past and ongoing events, incidents, and/or problems. In some cases, classification helps to reveal a previously defined solution for this type of content.</td><td>Based on pre-defined rules, the following is automatically discovered:<p>- the incident's impact on services and users<br>- the solutions available<br>- the technical team(s) responsible for the incident resolution if automated solutions are ineffective or unavailable.</p></td></tr><tr><td>Incident diagnosis</td><td>If classification does not provide an understanding of a solution, technical specialist teams perform incident diagnosis. This may involve transfer of the incident between the teams (also known as functional escalation), or joint techniques, such as swarming.<p>If classification does not provide an understanding of a solution, technical specialist teams perform incident diagnosis. This may involve transfer of the incident between the teams (also known as functional escalation), or joint techniques, such as swarming.</p><p>If classification is wrong because of an incorrect CI assignment, this information should be communicated to those responsible for configuration control (see the service configuration practice guide).</p></td><td>If the automated solution is ineffective or unavailable, the incident is escalated to the responsible technical team to manual diagnosis. It may involve transfer of the incident between the teams, or joint techniques, such as swarming.<br>If an automated solution failed because of an incorrect CI association, this information should be communicated to those responsible for the configuration control (see the service configuration practice guide).</td></tr><tr><td>Incident resolution</td><td>When a solution is found, the relevant specialist teams attempt to apply it, working sequentially or in parallel. It may require the initiation of a change. If the solution does not work, additional diagnosis is performed.</td><td>If there is an automated solution available, it is applied, tested, and confirmed. If a manual intervention is required, a relevant specialist team attempts to apply it. It may require the initiation of a change. If the solution proves not to work, additional diagnosis is performed.</td></tr><tr><td>Incident closure</td><td>After the incident is successfully resolved, several formal closure procedures may be needed:<br>- user confirmation of service restoration<br>- resolution costs calculation and reporting<br>- resolution price calculation and invoicing<br>- problem investigation initiation<br>- incident review.<p>After all the required actions are completed and the incident records are updated accordingly, the incident is formally closed. This can be done by the product owner, service owner, incident manager, or service desk agent, depending on the agreed incident model.</p></td><td>If the automated solution proves effective, incident records are automatically updated and closed. A report is sent to the responsible technical team. If information about the incident has been communicated to other stakeholders at any of the previous steps, the closure of the incident should also be communicated.</td></tr></tbody></table>
 
-#### 
-3.1.2 Periodic incident review
+#### 3.1.2 Periodic incident review
 
 This process is focused on the continual improvement of the incident management practice, incident models, and incident handling procedures. It is either performed regularly or triggered by incident reports highlighting inefficiencies and other improvement opportunities. Regular reviews may take place every two to three months or more frequently, depending on the effectiveness of the existing models and procedures.
 
 This process includes the activities listed in Table 3.3 and transforms the inputs into outputs.
 
-##### 
-Table 3.3 Inputs, activities, and outputs of the periodic incident review process
+##### Table 3.3 Inputs, activities, and outputs of the periodic incident review process
 
 <table><tbody><tr><td><strong>Key inputs</strong></td><td><strong>Activities</strong></td><td><strong>Key outputs</strong></td></tr><tr><td>Current incident models and procedures<p>Incident records</p><p>Incident reports</p></td><td>Incident review and incident records analysis</td><td>Updated incident models</td></tr><tr><td>Policies and regulatory requirements</td><td>Incident model improvement initiation</td><td>Updated incident handling procedures</td></tr><tr><td>Configuration information IT asset information</td><td>Incident model update communication</td><td>Incident records</td></tr><tr><td>SLAs with consumers and suppliers/ partners</td><td></td><td>Change requests Improvement initiatives Incident review reports</td></tr><tr><td>Capacity and performance information</td><td></td><td></td></tr><tr><td>Continuity policies and plans</td><td></td><td></td></tr><tr><td>Security policies and plans</td><td></td><td></td></tr></tbody></table>
 
-##### 
-Figure 3.2 shows a workflow diagram of the process.
+##### Figure 3.2 shows a workflow diagram of the process.
 
 ![](Incident%20management%20ITIL%204%20Practice%20Guide/ITIL_Incident_management_3_2.jpg)
 
@@ -354,8 +345,7 @@ Roles are described in the context of processes and activities. Each role is cha
 
 <table><tbody><tr><td><strong>Competency code</strong></td><td><strong>Competency profile (activities and skills)</strong></td></tr><tr><td>L</td><td><span><strong>Leader </strong></span><span>Decision-making, delegating, overseeing other activities, providing incentives and motivation, and evaluating outcomes</span></td></tr><tr><td>A</td><td><strong>Administrator</strong> Assigning and prioritizing tasks, record-keeping, ongoing reporting, and initiating basic improvements</td></tr><tr><td>C</td><td><strong>Coordinator/communicator </strong>Coordinating multiple parties, maintaining communication between stakeholders, and running awareness campaigns</td></tr><tr><td>M</td><td><strong>Methods and techniques expert </strong>Designing and implementing work techniques, documenting procedures, consulting on processes, work analysis, and continual improvement</td></tr><tr><td>T</td><td><strong>Technical expert </strong>Providing technical (subject matter) expertise and conducting expertise-based assignments</td></tr></tbody></table>
 
-#### 
-4.1.1 Incident manager role
+#### 4.1.1 Incident manager role
 
 In many organizations, the incident manager role is performed by a dedicated person, sometimes under the incident manager job title. In other organizations, the responsibilities of an incident manager are taken by the person or team responsible for the CI, service, or product with which the incident is associated; this may be the resource owner, service owner, or product owner.
 
@@ -371,20 +361,17 @@ In some cases, organizations may introduce an additional role of the major incid
 
 The competency profile for these roles is CMAT, though the importance of each of these competencies varies from activity to activity.
 
-#### 
-4.1.2 Other roles involved in incident management activities
+#### 4.1.2 Other roles involved in incident management activities
 
 Examples of other roles which can be involved in incident management activities are listed in Table 4.2, together with the associated competency profiles and specific skills.
 
-##### 
-Table 4.2 Examples of roles with responsibility for incident management activities
+##### Table 4.2 Examples of roles with responsibility for incident management activities
 
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Responsible roles</strong></td><td><strong>Competency profile</strong></td><td><strong>Specific sk</strong><strong>ills</strong></td></tr><tr><td><em>Incident handling and resolution process</em></td><td></td><td></td><td></td></tr><tr><td>Incident detection</td><td>Technical specialist<br>User</td><td>TC</td><td>Understanding of the service design, resource configuration, and business impact of events and symptoms</td></tr><tr><td>Incident registration</td><td>Incident manager<br>Service desk agent<br>Technical specialist</td><td>AT</td><td><span>Good knowledge of IT service management (ITSM) tools and procedures</span></td></tr><tr><td>Incident classification</td><td>Incident manager<br>Service desk agent<br>Technical specialist</td><td>TC</td><td>Understanding of the service design, resource configuration, and business impact<br>Good knowledge of requirements and commitments for incident resolution<br>Good knowledge of incident models</td></tr><tr><td>Incident diagnosis</td><td>Supplier<br>Technical specialist</td><td>TC</td><td>Understanding of the service design, resource configuration, and business impact<br>Knowledge of incident models, diagnostic tools, methods<br>Analytical skills</td></tr><tr><td>Incident resolution</td><td>Supplier<br>Technical specialist<br>User</td><td>T</td><td>Understanding of methods and procedures required for incident resolutions</td></tr><tr><td>Incident closure</td><td>Incident manager<br>Service desk agent<br>Technical specialist</td><td>ACT</td><td>Understanding of the service design, resource configuration, and business impact<br>Good knowledge of the requirements and commitments for incident resolution</td></tr></tbody></table>
 
 <table><tbody><tr><td>Incident review and incident records analysis</td><td>Incident manager<br>Product owner<br>Service owner<br>Supplier</td><td>TCL</td><td>Understanding of the service design, resource configuration, and business impact<br>Good knowledge of the requirements and commitments for incident resolution<br>Knowledge of incident models, diagnostic tools, methods, and analytic skills</td></tr><tr><td>Incident model improvement initiation</td><td>Incident manager<br>Product owner<br>Service owner</td><td>TMC</td><td>Understanding of the service design, resource configuration, and business impact<br>Good knowledge of the requirements and commitments for incident resolution<br>Knowledge of incident models, diagnostic tools, and methods<br>Knowledge of the organization's continual improvement and change enablement practices</td></tr><tr><td>Incident module update communication</td><td>Incident manager<br>Product owner<br>Service desk agent<br>Service owner</td><td>CA</td><td>Knowledge of communication procedures and tools</td></tr></tbody></table>
 
-### 
-4.2 Organizational structures and teams
+### 4.2 Organizational structures and teams
 
 Organizational structure and the size of organization influences how the incident management practice is performed and how it is integrated in the organization’s value streams. Incident management involves specialists with different areas and levels of expertise; these specialists may belong to different organizational teams. Typical methods of grouping specialists include, among others:
 * technical domain
@@ -394,15 +381,13 @@ Organizational structure and the size of organization influences how the inciden
 
 The method of organization will vary, depending on the organization’s needs and resources. The incident management practice should take a flexible approach to its organization, involving resources from various internal and external teams as necessary. Either way, it is crucial to ensure effective cooperation between members of different teams involved in handling and resolution of incidents.
 
-#### 
-4.2.1 Tiered versus flat team structures
+#### 4.2.1 Tiered versus flat team structures
 
 Historically, teams working on incidents had a tiered or levelled structure in which competency, expertise, and specialization increased with each level. It aimed to resolve most of the incidents at the lowest level possible to reduce costs. Incidents were transferred to the upper level, or escalated, if they could not be resolved in the current level. In such teams, there were clear boundaries between levels and clear procedures for the escalation of incidents. Unfortunately, such structures can restrain collaboration and information flow, resulting in prolonged resolution time. So, for high-priority incidents, teams collaborate to facilitate speedy resolution.
 
 The expansion of Agile methods and evolution of IT systems (such as self-healing systems) call for the wider use of horizontal team structures, rather than hierarchical team structures. Flatter structures and respective collaboration methods, such as swarming, replace tiered ones to facilitate cooperation and the free flow of information. The main driver of such change is the rejection of rigid tiering and its replacement by a more dynamic, self-organized collaboration.
 
-#### 
-4.2.2 Team dynamics
+#### 4.2.2 Team dynamics
 
 The incident management practice is the foundation of team dynamics, because they affect the functioning of the support operation. The following issues regularly recur:
 * incidents are bounced between teams
@@ -419,18 +404,15 @@ This leads to numerous negative effects, such as:
 
 Furthermore, trust between team members breaks down. Approaches such as DevOps and techniques such as swarming show some of the characteristics needed to encourage a positive culture, although it is not necessary to follow these approaches to achieve the correct team dynamic. The following three main areas need to be addressed.
 
-##### 
-4.2.2.1 Collective responsibility
+##### 4.2.2.1 Collective responsibility
 
 If resolving incidents is the primary responsibility, that is what individuals within the teams will focus on. Team dynamics should come second to achieving the SLA or meeting a deadline. The first step in changing this is to build a culture where team members share successes and failures. Teams that share responsibility may have a single person who sees an incident through to resolution, but they should be encouraged to engage other experienced people in the process. When this occurs, the organization will benefit from a fast restoration of normal service as well as knowledge-sharing.
 
-##### 
-4.2.2.2 No-blame culture
+##### 4.2.2.2 No-blame culture
 
 There should be a no-blame culture within teams, otherwise this will lead to the deterioration of trust between individuals, teams, and suppliers. Incident investigations and reviews need to address incident resolution and service restoration. Incident teams must be encouraged to act without fear of retribution if their idea fails to work. This requires transparency and positive leadership. Mistakes should be treated as shared learning opportunities rather than personal failures.
 
-##### 
-4.2.2.3 Continual learning
+##### 4.2.2.3 Continual learning
 
 Team members need to share the lessons that they have learned from experimenting so they can learn and improve. This can prove to be a significant cultural leap in many environments, particularly those with a large percentage of outsourcing.
 
@@ -466,8 +448,7 @@ Additional information that will be exchanged and recorded during the incident m
 
 Any actions taken should be documented to produce an accurate timeline. If it is not practical to document actions in real time, the documentation should specify when the action was started and completed to avoid the creation of a false history log. It is preferable, however, to capture real-time actions if the customer can see the information through a portal. Where possible, the registration of actions should be automated.
 
-### 
-5.2 Automation and tooling
+### 5.2 Automation and tooling
 
 The incident management practice can significantly benefit from automation. The term automation is used in this and other ITIL publications to refer to the use of digital technology to enable, support, or enhance various activities. This includes, but is not limited to the full automation of activities where technology solutions remove the need for human intervention. Table 5.1 provides a list of the key automation supporting the practice and their most common application.
 
@@ -487,8 +468,7 @@ Note that automation tools used in the incident management practice could includ
 
 <table><tbody><tr><td colspan="4"><em>Periodic incident review process</em></td></tr><tr><td>Incident review and incident records analysis</td><td>Analysis and reporting tools<br>Workflow management and collaboration tools<br>Survey tools</td><td>Remote collaboration, incident data analysis, and users survey data analysis and reports</td><td>Medium to high, especially for high volumes of incidents.</td></tr><tr><td>Incident model improvement initiation</td><td>Workflow management and collaboration tools</td><td>Registration and tracking of the improvement initiatives</td><td>Low to medium</td></tr><tr><td>Incident model update communications</td><td>Workflow management and collaboration tools</td><td>Communicating updates to the relevant teams</td><td>Medium to high, especially when organization is large, and number of updates is high</td></tr></tbody></table>
 
-#### 
-5.2.1 Recommendations for automation of incident management
+#### 5.2.1 Recommendations for automation of incident management
 
 The following recommendations can help when applying automation to incident management:
 * **Automate the value stream** Although incident management is often one of the first practices to be developed by a service provider, the implementation of ITSM automation systems also often starts with the incident management processes. Even if other practices may not be mature at this stage, it is important to define requirements and design workflows that will support the full value stream, from detection, to resolution of incidents. For incident resolution that requires changes, the automation tool should allow for a simple change tracking workflow; for recurring incidents, it should be possible to capture and reuse of proven solutions. Think and work holistically.

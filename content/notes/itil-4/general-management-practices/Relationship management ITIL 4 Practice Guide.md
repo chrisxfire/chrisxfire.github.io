@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the relationship management practice is to establish and nurture the links between the organization and its stakeholders at strategic and tactical levels. It includes the identification, analysis, monitoring, and continual improvement of relationships with and between stakeholders.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the relationship management practice is to establish and nurture the links between the organization and its stakeholders at strategic and tactical levels. It includes the identification, analysis, monitoring, and continual improvement of relationships with and between stakeholders.</p></td></tr></tbody></table>
 
 The relationship management practice is focused on ensuring successful relationships within an organization, as well as between an organization and external parties, including: customers, users, partners, suppliers, and others. To make this possible, this practice aims to establish a common approach to relationships and relationship management that can be adopted and followed across the organization. This approach is an important component of an organization’s culture.
 
@@ -47,7 +47,7 @@ Both internal and external relationship management practices should address the 
 
 There are multiple typologies for relationship management based on these and other factors, and organizations adopt the most relevant and effective approaches for particular situations.
 
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>Any type of relationship is an interaction between people, therefore, human nature and values should be accounted for whenever people connect with each other.</p></td></tr></tbody></table>
+**Key Message**: Any type of relationship is an interaction between people, therefore, human nature and values should be accounted for whenever people connect with each other.</p></td></tr></tbody></table>
 
 ## 2.2 Terms and concepts
 
@@ -90,8 +90,7 @@ Emerging paradigms of work, such as Agile methods, are more effective in teams w
 
 Organizations, like individuals and teams, engage in different types of relationships that can be characterized by different levels of communality. *ITIL*<sup><em>®</em></sup> *4:* *Drive Stakeholder Value* describes three relationship types, similar to those described above.
 
-### 
-Table 2.2 Types of service relationships between organizations<sup>3</sup>
+### Table 2.2 Types of service relationships between organizations<sup>3</sup>
 
 <table><tbody><tr><td><p><strong>Service relationship type</strong></p></td><td><p><strong>Basic relationship</strong></p></td><td><p><strong>Cooperative relationship</strong></p></td><td><p><strong>Partnership</strong></p></td></tr><tr><td><p>Typical focus</p></td><td><p>Support and efficiency</p></td><td><p>Improvement and effectiveness</p></td><td><p>Innovation and growth</p></td></tr><tr><td><p>Typical organizational level involved in the relationship</p></td><td><p>Operational</p></td><td><p>Operational and tactical</p></td><td><p>Operational, tactical, and strategic</p></td></tr><tr><td><p>Typical level of relationship maturity</p></td><td><p>Ad hoc, order taker</p></td><td><p>Service provider, trusted adviser</p></td><td><p>Strategic partner</p></td></tr><tr><td><p>Typical service types</p></td><td><p>Commercial off-the-shelf services, out-of-the-box services, highly standardized commodity services, or goods supply</p></td><td><p>Services that must be configured or customized to fulfil the needs of the service consumer</p></td><td><p>Custom or bespoke services with unique value propositions</p></td></tr><tr><td><p>Typical types of agreement</p></td><td><p>Standard contracts, service level agreements (SLAs), and experience-based agreements, mostly for mass market</p></td><td><p>Advanced SLAs, experience-based agreements, or outcome-based agreements</p></td><td><p>Bespoke contracts, outcome-based agreements, or no agreement</p></td></tr><tr><td><p>Examples</p></td><td><p>Service consumers articulate their expectations quite clearly, as the service provider expects. Examples can be found in the standardized services offered to a wide group of individual external service consumers. This is how mobile operators, broadband service providers, and transport companies usually operate.</p></td><td><p>Depending on the relationship between the service provider and the service consumer, it can be difficult for the provider to fully understand the outcomes that the service consumer wants to achieve. In some cases, they will work together to define the desired outcomes. For example, relationship managers in internal IT or HR departments may regularly talk with customers and discuss their needs and expectations.</p></td><td><p>Services based on service offerings and products that have been planned and built in accordance with requirements specified by the customer</p><p>Agile product development where the service consumer and the service provider co-create the product in shared teams</p></td></tr></tbody></table>
 
@@ -187,8 +186,7 @@ The relationship management practice includes the following PSFs:
 * ensuring effective and healthy relationships within the organization
 * ensuring effective and healthy relationships between the organization and its external stakeholders.
 
-### 
-2.4.1 Establishing and continually improving an effective approach to relationship management across the organization
+### 2.4.1 Establishing and continually improving an effective approach to relationship management across the organization
 
 A shared approach to relationship management is an important part of the organization’s culture. It is based on a common set of values and principles adopted by everyone within the organization. Often, the organization’s values explicitly address concepts such as: openness, collaboration, no-blame, and psychological safety.
 

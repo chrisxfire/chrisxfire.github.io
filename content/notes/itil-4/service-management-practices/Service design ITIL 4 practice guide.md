@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the service design practice is to design products and services that are fit for purpose and use, and that can be delivered by the organization and its ecosystem. This includes planning and organizing people, partners and suppliers, information, communication, technology, and practices for new or changed products and services, and the interaction between the organization and its customers.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the service design practice is to design products and services that are fit for purpose and use, and that can be delivered by the organization and its ecosystem. This includes planning and organizing people, partners and suppliers, information, communication, technology, and practices for new or changed products and services, and the interaction between the organization and its customers.</p></td></tr></tbody></table>
 
 If products and services, or practices are not designed properly, they will not necessarily fulfil customer needs or facilitate value creation. If they evolve without proper architecture, interfaces or controls, they are less able to deliver the overall vision and needs of the organization and its internal and external customers.
 
@@ -163,8 +163,7 @@ When identifying risk for IT services, these questions are more important than t
 
 <table><tbody><tr><td><p><strong>Old focus</strong></p></td><td><p><strong>New focus</strong></p></td></tr><tr><td><p>What percentage of availability is needed?</p></td><td><p>What is the organization trying to achieve?</p><p>For example, business objectives, what good looks like.</p></td></tr><tr><td><p>What is the target service restoration time?</p></td><td><p>Is this a fundamental business activity?</p><p>For example , one of the top business processes.</p></td></tr><tr><td><p>When can maintenance be done?</p></td><td><p>What elements of the business activity would stop if IT was not available?</p><p>For example, if the financial ledger was unavailable, no new contracts could be opened.</p></td></tr><tr><td><p>What data loss can be sustained?</p></td><td><p>What would be the impact to the organization if the data was leaked, corrupted, or unavailable?</p><p>The following questions should be considered in this case:</p><ul><li>are there GDPR considerations?</li><li>what’s the implication of incorrect data?</li></ul><ul><li>at what point does the lack of data become critical enough to trigger a severity 1 incident or invocation of DR?</li></ul></td></tr></tbody></table>
 
-#### 
-2.2.4.3 Service design orchestration
+#### 2.2.4.3 Service design orchestration
 
 <table><tbody><tr><td><p><strong>Service design orchestration</strong></p></td></tr><tr><td><p>Service design orchestration ensures all resources required to achieve the outcome, including suppliers, information, technology, people, processes and operating models, are considered when designing and transitioning IT services<em>.</em></p></td></tr></tbody></table>
 

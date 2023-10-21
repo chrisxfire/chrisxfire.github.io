@@ -25,7 +25,7 @@ Please refer to the relevant syllabus document for details.
 
 ## **2.1 Purpose and description**
 
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the service continuity management practice is to ensure that the availability and performance of a service are maintained at sufficient levels in case of a disaster. The practice provides a framework for building organizational resilience with the capability of producing an effective response that safeguards the interests of key stakeholders and the organization’s reputation, brand, and value-creating activities.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the service continuity management practice is to ensure that the availability and performance of a service are maintained at sufficient levels in case of a disaster. The practice provides a framework for building organizational resilience with the capability of producing an effective response that safeguards the interests of key stakeholders and the organization’s reputation, brand, and value-creating activities.</p></td></tr></tbody></table>
 
 <table><tbody><tr><td><p><strong>Definition: Disaster</strong></p></td></tr><tr><td><p>A sudden unplanned event that causes great damage or serious loss to an organization. To be classified as a disaster, the event must match certain business-impact criteria that are predefined by the organization.</p></td></tr></tbody></table>
 

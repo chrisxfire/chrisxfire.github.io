@@ -9,13 +9,13 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the OCM practice is to ensure that changes in an organization are implemented smoothly and successfully, and that lasting benefits are achieved by managing the human aspects of the changes.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the OCM practice is to ensure that changes in an organization are implemented smoothly and successfully, and that lasting benefits are achieved by managing the human aspects of the changes.</p></td></tr></tbody></table>
 
 OCM is a practice that serves the continually emerging wish and need for organizational growth, improvement, and evolution.
 
 To improve product and service portfolio, organizational structure or underlying technology, people are essential for the transformation to be successful. Organizational evolution enables a change in their capabilities, the way they work, feel, and behave. These changes should not be forced upon people but should lead to a new valuable system, so people could willingly adopt new ways of behaviour and work.
 
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>People are responsible for changes in behaviour as a response to changed circumstances (i.e. Changes to the system in which we work).</p></td></tr></tbody></table>
+**Key Message**: People are responsible for changes in behaviour as a response to changed circumstances (i.e. Changes to the system in which we work).</p></td></tr></tbody></table>
 
 OCM aims to build a value-driven environment across the organization and enable successful organizational changes of a required scope. According to the organizational vision and need, all stakeholders should adopt new ways of working, as well as minimize risks and possible negative impacts of any change to the quality of service/products and consumer experience.
 
@@ -395,8 +395,7 @@ Antonina Klentsova.
 
 Roman Jouravlev.
 
-## 
-References
+## References
 
 1.  Based on articles and methods https://www.teamcoachingzone.com/wp- content/uploads/2015/01/RSI-White-Paper.pdf and https://www.crrglobal.com/relationship-systems- intelligence.html \[Accessed 25th October 2019\]
 2.  Quotations from [https://www.valuescentre.com/wp-](https://www.valuescentre.com/wp-content/uploads/PDF_Resources/Additional_Articles/Article_Importance_of_Values.pdf)[content/uploads/PDF\_Resources/Additional\_Articles/Article\_Importance\_of\_Values.pdf](https://www.valuescentre.com/wp-content/uploads/PDF_Resources/Additional_Articles/Article_Importance_of_Values.pdf) \[Accessed 25th October 2019\]

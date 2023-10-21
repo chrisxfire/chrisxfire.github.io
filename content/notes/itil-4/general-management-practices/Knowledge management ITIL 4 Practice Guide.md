@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the knowledge management practice is to maintain and improve the effective, efficient, and convenient use of information and knowledge across the organization.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the knowledge management practice is to maintain and improve the effective, efficient, and convenient use of information and knowledge across the organization.</p></td></tr></tbody></table>
 
 The knowledge management practice is a way of transforming information and organizational intellectual capital into persistent value for employees and service consumers. This practice aims to provide the right information to the right people at the right moment to build an evolutionary environment where:
 * absorptive capacity is continually improved
@@ -51,8 +51,7 @@ To be able to trust the analysed information and accept potential knowledge, the
 
 The value of data, information, and knowledge is determined by the outcomes that it produces for stakeholders and consumers. Knowledge does not have an intrinsic value. Knowledge should be only be considered valuable and effective when it leads to the desired outputs and outcomes. Outcomes may be assessed in terms of the organization’s goals and strategy, consumer satisfaction, improved practices, and so on, depending on the context<sup>4</sup>.
 
-### 
-2.2.3 Knowledge assets and multi-base knowledge management environment
+### 2.2.3 Knowledge assets and multi-base knowledge management environment
 
 Organizations manage many different information assets including documents, records, databases, and so on. These assets are also connected to many external information sources with various levels of access to the information. Many of these assets and sources are specific to service management activities and are useful in an organization’s development and realization of an organization’s mission and strategy. Record management and the general administration of information assets are often the responsibilities of specific teams that are driven by respective practices. For example, financial records are managed as a part of the service financial management practice, and configuration records are managed as a part of the service configuration management practice.
 
@@ -116,7 +115,7 @@ There is tremendous amount of explicit knowledge both discovered and hidden, str
 
 The knowledge management practice aims to create an environment where it will be possible to discover who knows what, who needs to know what, how the organization may benefit from the individuals’ knowledge, how to make it sharable, and how to respect the individuals’ privacy. Code of conducts, ethical concerns, and inspiring people to transform tacit knowledge into explicit can support these objectives.
 
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>Dave Snowden has proposed a series of knowledge management principles that can help in dealing with employees’ knowledge across the organization. They include<sup>10</sup>:</p><ul><li>Knowledge can only be volunteered; it cannot be forced.</li><li>You cannot make someone share their knowledge as you can never measure what they know.</li><li>We only know what we know when we need to know it.</li><li>Human knowledge is deeply contextual and requires stimulus for recall.</li><li>The way we know things is not the way we report we know things.</li><li>Failure facilitates learning better than success.</li><li>We always know more than we can say, and we will always say more than we can write down.</li></ul></td></tr></tbody></table>
+**Key Message**: Dave Snowden has proposed a series of knowledge management principles that can help in dealing with employees’ knowledge across the organization. They include<sup>10</sup>:</p><ul><li>Knowledge can only be volunteered; it cannot be forced.</li><li>You cannot make someone share their knowledge as you can never measure what they know.</li><li>We only know what we know when we need to know it.</li><li>Human knowledge is deeply contextual and requires stimulus for recall.</li><li>The way we know things is not the way we report we know things.</li><li>Failure facilitates learning better than success.</li><li>We always know more than we can say, and we will always say more than we can write down.</li></ul></td></tr></tbody></table>
 
 No matter how experienced and capable a person is their possibilities are still limited. Diverse teams build a stronger knowledge system when they cooperate and collaborate openly. The greater the team’s diversity in terms of background, perspective, culture, and education, the greater the opportunity for decisive action. Generally, a homogeneous team is more efficient but less creative.
 

@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the service financial management practice is to support the organization’s strategies and plans for service management by ensuring that the organization’s financial resources and investments are being used effectively.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the service financial management practice is to support the organization’s strategies and plans for service management by ensuring that the organization’s financial resources and investments are being used effectively.</p></td></tr></tbody></table>
 
 The service financial management practice supports decision-making at many levels of the organization by providing reliable financial information. It provides visibility into the budgeting, costing, and accounting activities related to the products and services.
 
@@ -129,7 +129,7 @@ In other cases, there is no reasonable way to allocate costs to selected cost ob
 
 To understand the full costs of a cost object, after calculating the direct and indirect costs that can be reasonably allocated, a total overhead is usually distributed across the cost objects as agreed in the organization’s approach to the practice. It may be a simple even distribution or a function of the allocated costs, revenue, profit, or some other factor.
 
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>In management accounting, decisions about cost allocation are made by the organization in a way that meets the decision-makers’ requirements.</p><p>These include:</p><p>• identifying cost objects</p><p>• calculating the full cost of a cost object</p><p>• allocating drivers for indirect costs</p><p>• categorizing certain costs as overhead</p><p>• allocating overhead to the cost objects.</p></td></tr></tbody></table>
+**Key Message**: In management accounting, decisions about cost allocation are made by the organization in a way that meets the decision-makers’ requirements.</p><p>These include:</p><p>• identifying cost objects</p><p>• calculating the full cost of a cost object</p><p>• allocating drivers for indirect costs</p><p>• categorizing certain costs as overhead</p><p>• allocating overhead to the cost objects.</p></td></tr></tbody></table>
 
 #### 2.2.2.1 Activity-based costing
 
@@ -158,7 +158,7 @@ Costs can be classified as fixed or variable. If selected cost objects are produ
 
 Costs can be classified as fixed or variable only in the context of a defined variation range. The range is usually limited by the capacity of the respective resources. For example, the cost of a software used by the organization does not change if the number of users increases, so long as it remains within the available license pool, so it is classified as a fixed cost. When the number of users reaches the limit of the license pool, a need to buy more resources (licenses) arises, so the cost should be classified as variable. Costs like these are known as ‘semi-variable’; most fixed costs are actually semi-variable and they change if service consumption exceeds a certain threshold.
 
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>In management accounting, decisions about fixed and variable costs should reflect the capacity and elasticity of the organization’s resources, as well as the active terms and conditions of contracts with suppliers and partners. The organization’s approach to the service financial management practice should include practical guidance on the fixed/variable classification.</p></td></tr></tbody></table>
+**Key Message**: In management accounting, decisions about fixed and variable costs should reflect the capacity and elasticity of the organization’s resources, as well as the active terms and conditions of contracts with suppliers and partners. The organization’s approach to the service financial management practice should include practical guidance on the fixed/variable classification.</p></td></tr></tbody></table>
 
 Understanding cost variability is important for capacity planning and budgeting for products and services. For example, if business plans include growth in service consumption, budgets should include the respective expected growth of the relevant variable costs.
 

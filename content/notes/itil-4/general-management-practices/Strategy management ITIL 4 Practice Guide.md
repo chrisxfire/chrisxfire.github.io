@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the strategy management practice is to formulate the goals of the organization and adopt the courses of action and allocation of resources necessary for achieving those goals. Strategy management establishes the organization’s direction, focuses effort, defines or clarifies the organization’s priorities, and provides consistency or guidance in response to the environment.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the strategy management practice is to formulate the goals of the organization and adopt the courses of action and allocation of resources necessary for achieving those goals. Strategy management establishes the organization’s direction, focuses effort, defines or clarifies the organization’s priorities, and provides consistency or guidance in response to the environment.</p></td></tr></tbody></table>
 
 The starting point for the strategy management practice is to understand the context of the organization and define the desired outcomes. The strategy of the organization establishes criteria and mechanisms to decide how to best prioritize resources, capabilities, and investment to achieve those outcomes. This practice ensures that the strategy is defined, agreed, maintained, and achieved.
 
@@ -326,8 +326,7 @@ Figure 3.3 shows a workflow diagram of the process.
   
 Table 3.4 provides examples of the process activities.
 
-#### 
-Table 3.4 Activities of the *ad hoc strategic decision-making* process
+#### Table 3.4 Activities of the *ad hoc strategic decision-making* process
 
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Example</strong></p></td></tr><tr><td><p>Detection of a strategic exception</p></td><td><p>When an extraordinary event of strategic importance occurs is detected or organization cannot operate within direction and constraints provided by the strategy, the situation is escalated to the strategic decision makers. These are usually the executive leaders of the organization.</p></td></tr><tr><td><p>Situational orientation and assessment</p></td><td><p>Strategic decision makers assess the reported situation. If a strategic exception is confirmed and the situation cannot be managed within the current strategy, they proceed to discussing a course of action.</p><p>If the situation is within tolerance and can be effectively addressed by the current strategy, this is communicated to relevant stakeholders for normal execution, and the leadership team proceeds to review of the escalation.</p></td></tr><tr><td><p>Discussing and agreeing decision</p></td><td><p>The decision makers discuss the situation with relevant stakeholders and propose a course of action, considering the level of complexity, associated risks, level of urgency, and other available information.</p><p>Where relevant, strategic analysts (consultants, advisors) are involved in the discussion.</p></td></tr><tr><td><p>Decisions communication</p></td><td><p>The decisions made are communicated to relevant stakeholders for execution. Control over the execution and, if necessary, correction of the course may be performed directly by the decision makers or delegated.</p></td></tr><tr><td><p>Review</p></td><td><p>Executive leaders of the organization together with relevant stakeholders review the situation, including relevance of the escalation, the decision-making process and effectiveness of the decisions.</p><p>Resulting review report serves as an input to the strategy generation and continual development process.</p></td></tr></tbody></table>
 

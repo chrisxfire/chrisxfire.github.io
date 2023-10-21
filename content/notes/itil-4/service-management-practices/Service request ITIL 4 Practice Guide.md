@@ -124,8 +124,7 @@ What the organization defines to be service requests must be contained within th
 
 The service request catalogue view is expected to be tailored for service level agreements (SLAs) that are applicable to the user accessing the view, so that all information reflects the conditions and targets agreed for the user. The more relevant the information in the request catalogue is, the more efficient the service request fulfilment will be, and the higher the user satisfaction. Refer to the service catalogue management practice guide for more information about customizing catalogue views.
 
-## 
-2.3 Scope
+## 2.3 Scope
 
 The scope of the service request management practice includes:
 * managing service request models
@@ -194,8 +193,7 @@ Service request management activities form two processes:
 
 This process includes the activities listed in Table 3.1 and transforms the inputs into outputs.
 
-##### 
-Table 3.1 Inputs, activities, and outputs of the service request fulfilment control process
+##### Table 3.1 Inputs, activities, and outputs of the service request fulfilment control process
 
 <table><tbody><tr><td><strong>Key inputs</strong></td><td><strong>Activities</strong></td><td><strong>Key outputs</strong></td></tr><tr><td>Service request queries</td><td>Request categorization</td><td>Fulfilled service requests</td></tr><tr><td>Service request models</td><td>Service request model initiation and control</td><td>Fulfilment actions records and reports</td></tr><tr><td>Service level agreements</td><td>Ad hoc fulfilment control</td><td>User satisfaction surveys</td></tr><tr><td>Fulfilment actions records and reports</td><td>Fulfilment review</td><td></td></tr></tbody></table>
 
@@ -231,8 +229,7 @@ Table 3.4 provides a description of the process activities.
 
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Description</strong></td></tr><tr><td>Service request records and reports analysis</td><td>The service request practice owner, together with the service owners and other relevant stakeholders, perform a review of the selected service requests and related metrics over the period and/or relevant repeating changes from the change enablement practice. They identify opportunities for new service request models and/or improvement of current service request models.</td></tr><tr><td>Service request model improvement initiation</td><td>The service request practice owner registers the improvement initiatives, which are submitted for processing with the involvement of the continual improvement and/or change enablement practice(s).<p>If testing does not confirm the effectiveness of the proposed service request model, it is returned for further analysis.</p></td></tr><tr><td>Service request model update communication</td><td>If the service request model is successfully updated, it is communicated to the relevant stakeholders. This is usually done by the service request practice owner or the service owner.</td></tr></tbody></table>
 
-## 
-3.2 Value stream contribution
+## 3.2 Value stream contribution
 
 #### 3.2.1 Service value streams
 

@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the service level management practice is to set clear business-based targets for service levels, and to ensure that delivery of services is properly assessed, monitored, and managed against these targets.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the service level management practice is to set clear business-based targets for service levels, and to ensure that delivery of services is properly assessed, monitored, and managed against these targets.</p></td></tr></tbody></table>
 
 The service level management practice helps to set and manage a shared view of the quality of services between the service provider and the service consumer, aimed at all key stakeholders on both sides. This shared view is usually described in an agreement document, which may be written in various levels of formality. This applies to both the expected and actual service quality, from initial contact to the present, and covers service offerings and proposed value throughout the entirety of the service relationship. The service level management practice also includes monitoring and evaluation of the actual service quality and continual improvement of the services and agreements. Figure 2.1 illustrates the key activities of the practice.
 
@@ -126,8 +126,7 @@ The term ‘service level’ can be defined in multiple ways with various levels
 
 **Figure 2.3 Out-of-the-box services: from consumer needs to SLA** 
 
-### 
-Table 2.2 Key aspects of service quality and examples of service level metrics
+### Table 2.2 Key aspects of service quality and examples of service level metrics
 
 <table><tbody><tr><td><p><strong>Service quality aspect</strong></p></td><td><p><strong>Examples of service level metrics</strong></p></td></tr><tr><td><p>Functionality</p></td><td><p>Completeness of the functions available<br>Correctness of the functions operations<br>Integrated functionality index</p></td></tr><tr><td><p>Availability</p></td><td><p>Maximum duration of service outage<br>Total time of unavailability<br>Percentage of availability<br>Mean time between system incidents (MTBSI)</p></td></tr><tr><td><p>Performance</p></td><td><p>Mean time of service action execution</p><p>Response time</p><p>Number and percentage of incidents related to execution and response time<br>Service throughput</p></td></tr><tr><td><p>Timeliness</p></td><td><p>Number and percentage of incidents related to service actions completed after the agreed deadline</p></td></tr><tr><td><p>User support</p></td><td><p>Timeliness of support request processing</p><p>Quality of support request processing</p></td></tr><tr><td><p>Accuracy</p></td><td><p>Number and impact of errors in the data and information</p></td></tr><tr><td><p>User experience (UX)</p></td><td><p>Number and frequency of user errors</p><p>Number and frequency of returns to a previous step (for example, back-button usage)<br></p><p>Number and frequency of interface help requests</p><p>Number and percentage of interrupted service actions (quitting the interface without completing a service action)</p></td></tr></tbody></table>
 
