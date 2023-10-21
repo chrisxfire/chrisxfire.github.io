@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the capacity and performance management practice is to ensure that services achieve the agreed and expected levels of performance and satisfy current and future demand in a cost-effective way.</p></td></tr></tbody></table>
 
 The capacity and performance management practice usually covers service performance and the performance of the resources which support services, such as infrastructure, applications, and third-party services. In many organizations, this practice also covers the capacity and performance of staff, especially when staff are directly involved in service transactions.

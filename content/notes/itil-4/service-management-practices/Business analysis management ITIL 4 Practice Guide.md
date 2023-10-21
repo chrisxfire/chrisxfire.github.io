@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the business analysis practice is to analyse a part or the entirety of a business, define its needs, and recommend solutions to address these needs and/or solve a business problem. The solutions must facilitate value creation for the stakeholders. Business analysis enables an organization to communicate its needs in a meaningful way and express the rationale for change. This practice enables an organization to design and describe solutions that enable value creation, in alignment with the organization’s objectives.</p></td></tr></tbody></table>
 
 The business analysis practice identifies and articulates an organization’s and customers’ needs. This practice then identifies and justifies the solution needed to fulfil that need. This practice includes assessing the requirements for people, technology, products, and services. However, the activities performed by this practice can vary between organizations. It can include tasks from the tactical and strategic analysis of the service consumer’s business processes, to a relatively narrow focus on information system analysis and the definition of the technical requirements.

@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the infrastructure and platform management practice is to oversee the infrastructure and platforms used by an organization. When carried out properly, this practice enables the monitoring of technology solutions available to the organization, including the technology and external service providers.</p></td></tr></tbody></table>
 
 The infrastructure and platform management practice ensures that the organization has a high-quality IT infrastructure that efficiently meets its current and anticipated needs. ‘IT infrastructure’ as a concept includes all of the hardware, software, networks, and facilities that are required to develop, test, deliver, monitor, manage, and support IT services.

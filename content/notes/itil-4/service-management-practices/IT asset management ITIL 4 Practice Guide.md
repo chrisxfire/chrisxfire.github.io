@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 IT assets are increasing in number and can come in many forms. ITIL defines an IT asset as follows.
 
 <table><tbody><tr><td><p><strong>Definition: IT asset</strong></p></td></tr><tr><td><p>Any financially valuable component, resource, or capability that could contribute to the delivery of an IT product or service. The types of IT assets have grown in recent years to include physical assets like servers, desktops, laptops, and network hardware, as well as less tangible assets such as virtual servers, cloud resources, software and software licenses, developed code, databases, information, and knowledge.</p></td></tr></tbody></table>

@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the project management practice is to ensure that all projects in the organization are successfully delivered. This is achieved by planning, delegating, monitoring, and maintaining control of all aspects of a project, and ensuring motivation for the people involved.</p></td></tr></tbody></table>
 
 <table><tbody><tr><td><strong>ITIL architect's note</strong></td></tr><tr><td><p>When the architecture of ITIL 4 was designed, it seemed a revolutionary decision to include the project management practice in the scope of ITIL. The ability to manage projects effectively is important to every organization, especially if it is good at tailoring various methods to its needs and environment. Therefore, project management was added. However, as we were working through details of the practices, we came to a conclusion that this is not enough, as projects should never be managed in isolation; they should contribute to a greater purpose defined by an organization and/or a programme. As a result, this practice guide covers project and programme management; the purpose of the practice can be updated to the following:</p><ul><li>The purpose of the programme and project management practice(s) is to ensure that all projects in the organization are successfully delivered and contribute to creation of value for stakeholders of the organization and its programmes.</li><li>The practice is referred to as PPM (programme and project management) in this guide; in the sections and paragraphs focused on project management or programme management specifically, we used specific terms referring to projects or programmes.</li><li>We hope that this expansion of the scope will prove to be valuable for the practitioners, and we plan to reflect it in the next editions of ITIL Foundation and other ITIL publications with references to project management.</li></ul></td></tr></tbody></table>

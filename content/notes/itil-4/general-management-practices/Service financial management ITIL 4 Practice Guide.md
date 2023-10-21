@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the service financial management practice is to support the organization’s strategies and plans for service management by ensuring that the organization’s financial resources and investments are being used effectively.</p></td></tr></tbody></table>
 
 The service financial management practice supports decision-making at many levels of the organization by providing reliable financial information. It provides visibility into the budgeting, costing, and accounting activities related to the products and services.

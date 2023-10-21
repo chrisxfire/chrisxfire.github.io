@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the service level management practice is to set clear business-based targets for service levels, and to ensure that delivery of services is properly assessed, monitored, and managed against these targets.</p></td></tr></tbody></table>
 
 The service level management practice helps to set and manage a shared view of the quality of services between the service provider and the service consumer, aimed at all key stakeholders on both sides. This shared view is usually described in an agreement document, which may be written in various levels of formality. This applies to both the expected and actual service quality, from initial contact to the present, and covers service offerings and proposed value throughout the entirety of the service relationship. The service level management practice also includes monitoring and evaluation of the actual service quality and continual improvement of the services and agreements. Figure 2.1 illustrates the key activities of the practice.

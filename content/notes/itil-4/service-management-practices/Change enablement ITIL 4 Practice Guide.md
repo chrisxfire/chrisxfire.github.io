@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the change enablement practice is to maximize the number of successful service and product changes by ensuring that risks have been properly assessed, authorizing changes to proceed, and managing the change schedule.</p></td></tr></tbody></table>
 
 The change enablement practice aims to ensure that changes to services and their components are controlled and that they meet the organization’s change-related needs. Authorized changes should enable the desired outcomes and meet the organization’s requirements regarding change throughput (the number of changes made and the speed of change realization) and risk management. Flexibility and agility permeate this practice because they are key aspects of a modern organization.

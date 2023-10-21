@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the continual improvement practice is to align the organization’s practices and services with changing business needs through the ongoing improvement of products, services, practices, or any element involved in the management of products and services.</p></td></tr></tbody></table>
 
 When a service provider adopts a practice to formalize, encourage, and manage improvement as part of its regular activities, it embarks on continual improvement.

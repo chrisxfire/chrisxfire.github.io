@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the knowledge management practice is to maintain and improve the effective, efficient, and convenient use of information and knowledge across the organization.</p></td></tr></tbody></table>
 
 The knowledge management practice is a way of transforming information and organizational intellectual capital into persistent value for employees and service consumers. This practice aims to provide the right information to the right people at the right moment to build an evolutionary environment where:

@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the strategy management practice is to formulate the goals of the organization and adopt the courses of action and allocation of resources necessary for achieving those goals. Strategy management establishes the organization’s direction, focuses effort, defines or clarifies the organization’s priorities, and provides consistency or guidance in response to the environment.</p></td></tr></tbody></table>
 
 The starting point for the strategy management practice is to understand the context of the organization and define the desired outcomes. The strategy of the organization establishes criteria and mechanisms to decide how to best prioritize resources, capabilities, and investment to achieve those outcomes. This practice ensures that the strategy is defined, agreed, maintained, and achieved.

@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the service configuration management practice is to ensure that accurate and reliable information about the configuration of services, and the configuration items that support them, is available when and where it is needed. This includes information on how configuration items are configured and the relationships between them.</p></td></tr></tbody></table>
 
 Organizations use resources to create and deliver products and services. These resources may belong to the organization, or they may be available as part of a service the organization consumes. The service configuration management practice collects and manages information about a variety of resources, typically including hardware, software, networks, buildings, people, suppliers, products, services, and documentation. The resources in the scope of the practice are called configuration items (CIs).

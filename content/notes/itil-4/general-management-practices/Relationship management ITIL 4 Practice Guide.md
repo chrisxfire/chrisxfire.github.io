@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the relationship management practice is to establish and nurture the links between the organization and its stakeholders at strategic and tactical levels. It includes the identification, analysis, monitoring, and continual improvement of relationships with and between stakeholders.</p></td></tr></tbody></table>
 
 The relationship management practice is focused on ensuring successful relationships within an organization, as well as between an organization and external parties, including: customers, users, partners, suppliers, and others. To make this possible, this practice aims to establish a common approach to relationships and relationship management that can be adopted and followed across the organization. This approach is an important component of an organization’s culture.

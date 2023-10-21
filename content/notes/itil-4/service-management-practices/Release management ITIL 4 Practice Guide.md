@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the release management practice is to make new and changed services and features available for use.</p></td></tr></tbody></table>
 
 The release management practice ensures that services are available to use in line with organization’s policies and agreements between the organization and its service consumers.

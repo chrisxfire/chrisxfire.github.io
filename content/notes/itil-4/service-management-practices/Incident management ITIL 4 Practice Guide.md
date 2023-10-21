@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the incident management practice is to minimize the negative impact of incidents by restoring normal service operation as quickly as possible.</p></td></tr></tbody></table>
 
 The definition refers to a ‘normal service operation’. Conditions of normal service operation are typically defined within service level agreements (SLAs), or other forms of service quality specification, either agreed with the customer or defined by the service provider. In some cases, internal service provider’s specification can include more quality criteria than were initially agreed with the customers (see more on this in the service level management practice guide). The incident management practice is not limited to the service quality perceived by users. It includes restoration of the normal operation of services and resources, even when their failure or deviation is not visible to the service consumers. In this case, normal operation can be defined in the technical specifications of services or configuration items (CIs). Finally, if there is no documented specification of a normal operation, an expert opinion may be used to assess the status of the resources and services.

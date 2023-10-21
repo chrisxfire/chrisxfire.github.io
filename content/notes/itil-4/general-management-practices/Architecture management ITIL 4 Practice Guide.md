@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the architecture management practice is to explain the different elements that form an organization. This practice explains how the elements interrelate to enable the organization to effectively achieve its current and future objectives. It provides the principles, standards, and tools that enable an organization to manage complex change in a structured and agile way.</p></td></tr></tbody></table>
 
 A comprehensive architecture management practice applies to all levels of an organization’s architecture. This includes the following:

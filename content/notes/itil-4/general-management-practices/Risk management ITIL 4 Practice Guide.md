@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 The purpose of the risk management practice is to ensure that the organization understands and effectively handles risks. Managing risk is essential to ensuring the ongoing sustainability of an organization and co-creating value for its customers. Risk management is an integral part of all organizational activities and therefore central to the organization’s service value system (SVS).
 
 Risk management is performed at all levels of the organization. Strategic risk management considers long-term risks that may impact the ability of the organization to perform its mission. Programme and project risk management considers risks that may affect medium-term goals and objectives. Operational risk management is focused on short-term goals and objectives. Risk management at each of these levels must be based on direction from the governors of the organization.

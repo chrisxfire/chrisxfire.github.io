@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the supplier management practice is to ensure that the organization’s suppliers and their performances are managed appropriately to support the seamless provision of quality products and services. This includes creating closer, more collaborative relationships with key suppliers to uncover and realize new value and reduce the risk of failure.</p></td></tr></tbody></table>
 
 Supplier management ensures effective use of third-party services by establishing a common approach to sourcing strategy and managing supplier relationships and by maintaining a single point of control over the active and planned supplier contracts and services.

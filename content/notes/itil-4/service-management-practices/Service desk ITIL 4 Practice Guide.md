@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The purpose of the service desk practice is to capture demand for incident resolution and service requests. It should also be the entry point and single point of contact for the service provider for all users.</td></tr></tbody></table>
 
 Note: In some organizations, the main purpose of the service desk practice is establishing an effective communication interface between a service provider and its users, with incidents and service requests being just two subjects of communication. In these organizations, the purpose of this practice could be to establish an effective entry point and single point of contact with all users and to capture demand for incident resolution and service requests. Organizations can and should adjust the practice purpose statements and the other recommendations of ITIL according to their objectives and circumstances.

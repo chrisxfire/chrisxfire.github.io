@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the workforce and talent management practice is to ensure that the organization has the right people, with the appropriate skills and knowledge, in the correct roles to support its business objectives. This practice covers a broad set of activities focused on successfully engaging with the organization’s employees and people resources, including: planning, recruitment, onboarding, learning and development, performance measurement, and succession planning.</p></td></tr></tbody></table>
 
 The workforce and talent management practice is focused on the effective management of the organizations and the people dimension of service management within organizations. The scope, form, and institutionalization of this practice might vary depending on multiple factors, including the organization’s mission and the positioning, business and operating models, architecture, competence model, and others.

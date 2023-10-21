@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the OCM practice is to ensure that changes in an organization are implemented smoothly and successfully, and that lasting benefits are achieved by managing the human aspects of the changes.</p></td></tr></tbody></table>
 
 OCM is a practice that serves the continually emerging wish and need for organizational growth, improvement, and evolution.

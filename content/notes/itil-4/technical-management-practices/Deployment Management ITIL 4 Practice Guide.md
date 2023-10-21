@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the deployment management practice is to move new or changed hardware, software, documentation, processes, or any other component to live environments. It may also be involved in deploying components to other environments for testing or staging.</p></td></tr></tbody></table>
 
 <table><tbody><tr><td><p><strong>Definition: Deployment</strong></p></td></tr><tr><td><p>The movement of any service component into any environment.</p></td></tr></tbody></table>

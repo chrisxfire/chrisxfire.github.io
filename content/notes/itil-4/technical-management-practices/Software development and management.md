@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 The purpose of the software development and management practice is to ensure that applications meet internal and external stakeholder needs, in terms of functionality, reliability, maintainability, compliance, and auditability.
 
 The software development and management practice focuses on the development and management of *application* software. However, many of the principles are also applicable to the software that is part of the infrastructure on which applications are developed and managed. Software engineering is increasingly important for infrastructure and platform management, for example in the application of Infrastructure as Code. This concept uses machine-readable definition files to manage and provision IT infrastructure and platforms, instead of physically configuring hardware components.

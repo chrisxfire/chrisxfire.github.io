@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The purpose of the monitoring and event management practice is to support the normal operation of service components by observing, analyzing, and appropriately responding to changes of state in those components.</td></tr></tbody></table>
 
 The definition of ‘normal operation of services components’ is based on the level of service defined in service level agreements (SLAs) as well as instructions or manuals from vendors and system creators that specify actions required to maintain the effective operation of each service component. Other forms of service quality specification could also be used to define normal operation, such as company policies, regulatory compliance, and learning documented in journals by service component managers. This practice identifies and prioritizes infrastructure, application, service, business process, and information security events, and establishes the appropriate response to those events. Responses include identifying potential faults, responding to conditions that could lead to incidents, and performing activities required for services to perform at agreed levels.

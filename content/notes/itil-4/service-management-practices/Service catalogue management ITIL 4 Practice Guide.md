@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of service catalogue management practice is to provide a single source of consistent information on all services and service offerings, and to ensure that it is available to the relevant audience.</p></td></tr></tbody></table>
 
 The service catalogue management practice ensures that all stakeholders refer to a single, consistent source of information about services and service offerings. It also helps to provide all stakeholders with relevant views on services and service offerings, matching their needs and level of access.

@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the portfolio management practice is to ensure that the organization has the right mix of programmes, projects, products, and services to execute the organization’s strategy within its funding and resource constraints.</p></td></tr></tbody></table>
 
 <table><tbody><tr><td><p><strong>Definition: Portfolio</strong></p></td></tr><tr><td><p>A collection of assets into which an organization chooses to invest its resources in order to receive the best return.</p></td></tr></tbody></table>

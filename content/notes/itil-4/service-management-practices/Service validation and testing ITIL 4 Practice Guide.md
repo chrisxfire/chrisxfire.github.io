@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><strong>Key message&nbsp;</strong></td></tr><tr><td><p>The purpose of the service validation and testing practice is to ensure that new or changed products and services meet defined requirements. The definition of service value is based on input from customers, business objectives, and regulatory requirements and is documented as part of the design and transition value chain activity. These inputs are used to establish measurable quality and performance indicators that support the definition of assurance criteria and testing requirements.</p></td></tr></tbody></table>
 
 The service validation and testing practice involves reducing the risks and uncertainties that new or changed products and services introduce to the live environment. The practice does this by planning and performing appropriate tests.

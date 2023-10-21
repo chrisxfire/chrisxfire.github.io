@@ -5,7 +5,10 @@ draft: true
 weight: 1
 ---
 
-# 1. Overview
+# 1. Source
+Axelos International (https://www.axelos.com)
+
+# 2. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the problem management practice is to reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing workarounds and known errors.</p></td></tr></tbody></table>
 
 No product or service is perfect. Every product has errors which can cause incidents. Errors may originate in any of the four dimensions of service management. For example, a mistake in a third-party contract is as likely to cause an incident as a technical component failure. Many errors are identified and resolved during design, development, or testing before a product goes live, and don’t affect the service. However, some errors will remain undiscovered and proceed to the live environment, and these may cause incidents.
