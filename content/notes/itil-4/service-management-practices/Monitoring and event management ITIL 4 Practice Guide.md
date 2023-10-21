@@ -5,35 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this guide
-
-This guide provides practical guidance for the monitoring and event management practice. It is split into seven main sections, covering: 
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice
-
-*   information on assessing and developing the capability of the practice
-*   recommendations for succeeding in the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this guide is examinable as a part of the following syllabuses: 
-
-*   **ITIL** **Specialist** Create, Deliver and Support
-
-*   **ITIL** **Specialist** Direct, Plan and Improve
-*   **ITIL** **Specialist** Monitoring and Event Management
-*   **ITIL** **Specialist** Monitor, Support and Fulfil
-
-Please refer to the respective syllabus documents for details. 
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The purpose of the monitoring and event management practice is to support the normal operation of service components by observing, analyzing, and appropriately responding to changes of state in those components.</td></tr></tbody></table>
 
 The definition of ‘normal operation of services components’ is based on the level of service defined in service level agreements (SLAs) as well as instructions or manuals from vendors and system creators that specify actions required to maintain the effective operation of each service component. Other forms of service quality specification could also be used to define normal operation, such as company policies, regulatory compliance, and learning documented in journals by service component managers. This practice identifies and prioritizes infrastructure, application, service, business process, and information security events, and establishes the appropriate response to those events. Responses include identifying potential faults, responding to conditions that could lead to incidents, and performing activities required for services to perform at agreed levels.

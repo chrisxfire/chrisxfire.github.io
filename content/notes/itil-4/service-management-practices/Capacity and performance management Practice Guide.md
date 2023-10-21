@@ -5,28 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabus:
-
-*   **ITIL Specialist** High-velocity IT.
-
-Please refer to the relevant syllabus document for details.
-
-## 2. General information
-
-#### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the capacity and performance management practice is to ensure that services achieve the agreed and expected levels of performance and satisfy current and future demand in a cost-effective way.</p></td></tr></tbody></table>
 
 The capacity and performance management practice usually covers service performance and the performance of the resources which support services, such as infrastructure, applications, and third-party services. In many organizations, this practice also covers the capacity and performance of staff, especially when staff are directly involved in service transactions.

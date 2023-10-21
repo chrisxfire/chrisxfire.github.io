@@ -5,28 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabus:
-
-*   **ITIL Specialist** High-velocity IT
-
-Please refer to the respective syllabus document for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the infrastructure and platform management practice is to oversee the infrastructure and platforms used by an organization. When carried out properly, this practice enables the monitoring of technology solutions available to the organization, including the technology and external service providers.</p></td></tr></tbody></table>
 
 The infrastructure and platform management practice ensures that the organization has a high-quality IT infrastructure that efficiently meets its current and anticipated needs. ‘IT infrastructure’ as a concept includes all of the hardware, software, networks, and facilities that are required to develop, test, deliver, monitor, manage, and support IT services.

@@ -5,28 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabus:
-
-*   **ITIL Leader –** Digital and IT Strategy
-
-Please refer to the syllabus document for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the service financial management practice is to support the organization’s strategies and plans for service management by ensuring that the organization’s financial resources and investments are being used effectively.</p></td></tr></tbody></table>
 
 The service financial management practice supports decision-making at many levels of the organization by providing reliable financial information. It provides visibility into the budgeting, costing, and accounting activities related to the products and services.

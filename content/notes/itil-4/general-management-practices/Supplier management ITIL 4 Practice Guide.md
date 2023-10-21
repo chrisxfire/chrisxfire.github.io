@@ -5,30 +5,7 @@ draft: true
 weight: 1
 ---
 
-This guide provides practical guidance for the supplier management practice.
-
-## 1. About this document
-
-It is split into main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabus:
-
-*   **ITIL Specialist** Drive Stakeholder Value
-
-Please refer to the syllabus document for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the supplier management practice is to ensure that the organization’s suppliers and their performances are managed appropriately to support the seamless provision of quality products and services. This includes creating closer, more collaborative relationships with key suppliers to uncover and realize new value and reduce the risk of failure.</p></td></tr></tbody></table>
 
 Supplier management ensures effective use of third-party services by establishing a common approach to sourcing strategy and managing supplier relationships and by maintaining a single point of control over the active and planned supplier contracts and services.

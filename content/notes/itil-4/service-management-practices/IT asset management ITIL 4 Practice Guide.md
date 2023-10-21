@@ -5,33 +5,7 @@ draft: true
 weight: 1
 ---
 
-This guide provides practical guidance for the IT asset management practice.
-
-## 1. About this guide
-
-This guide provides practical guidance for the IT asset management practice. It is split into seven main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their contributions to the service value streams
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice
-*   information on assessing and developing the capability of the practice
-*   recommendations for succeeding in the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this guide is examinable as a part of the following syllabuses:
-
-*   **ITIL Practitioner** IT Asset Management
-*   **ITIL Specialist** Plan, Implement and Control
-
-Please refer to the respective syllabus documents for details.
-
-## 2. General information
-
-#### 2.1 Purpose and description
-
+# Overview
 IT assets are increasing in number and can come in many forms. ITIL defines an IT asset as follows.
 
 <table><tbody><tr><td><p><strong>Definition: IT asset</strong></p></td></tr><tr><td><p>Any financially valuable component, resource, or capability that could contribute to the delivery of an IT product or service. The types of IT assets have grown in recent years to include physical assets like servers, desktops, laptops, and network hardware, as well as less tangible assets such as virtual servers, cloud resources, software and software licenses, developed code, databases, information, and knowledge.</p></td></tr></tbody></table>

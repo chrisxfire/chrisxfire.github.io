@@ -5,35 +5,7 @@ draft: true
 weight: 1
 ---
 
-This guide provides practical guidance for the problem management practice.
-
-## 1. About this guide
-
-It is split into seven main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-*   information on assessing and developing the capability of the practice
-*   recommendations for succeeding in the practice.  
-    
-
-#### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this guide is examinable as a part of the following syllabuses:
-
-*   **ITIL Specialist** Create, Deliver and Support
-*   **ITIL Specialist** Problem Management
-*   **ITIL Specialist** Monitor, Support, and Fulfil
-
-Please refer to the respective syllabus documents for details.  
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the problem management practice is to reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing workarounds and known errors.</p></td></tr></tbody></table>
 
 No product or service is perfect. Every product has errors which can cause incidents. Errors may originate in any of the four dimensions of service management. For example, a mistake in a third-party contract is as likely to cause an incident as a technical component failure. Many errors are identified and resolved during design, development, or testing before a product goes live, and don’t affect the service. However, some errors will remain undiscovered and proceed to the live environment, and these may cause incidents.

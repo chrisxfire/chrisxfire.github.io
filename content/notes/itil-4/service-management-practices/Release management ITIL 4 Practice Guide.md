@@ -5,31 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this guide
-
-This guide provides practical guidance for the release management practice. It is split into seven main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice
-
-#### 1.1 ITIL 4 qualification scheme
-
-Selected content of this document is examinable as a part of the following syllabuses:
-
-*   **ITIL Specialist** Create, Deliver and Support
-*   **ITIL Specialist** High-Velocity IT
-*   **ITIL Practitioner** Release Management
-*   **ITIL Specialist** Plan, Implement and Control
-
-Please refer to the relevant syllabus documents for details.
-
-## 2. General information
-
-#### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the release management practice is to make new and changed services and features available for use.</p></td></tr></tbody></table>
 
 The release management practice ensures that services are available to use in line with organization’s policies and agreements between the organization and its service consumers.

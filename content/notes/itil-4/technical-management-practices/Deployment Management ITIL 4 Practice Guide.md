@@ -5,35 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this guide
-
-This guide provides practical guidance for the deployment management practice. It is split into seven main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice
-*   information on assessing and developing the capability of the practice
-    
-*   recommendations for succeeding in the practice.
-    
-
-#### 1.1 ITIL® 4 qualification scheme
-
-Selected content of this document is examinable as a part of the following syllabus:
-
-*   **ITIL Specialist** Create, Deliver and Support
-*   **ITIL Specialist** High-velocity IT
-*   **ITIL Practitioner** Deployment Management
-*   **ITIL Specialist** Plan, Implement and Control.
-
-Please refer to the respective syllabus documents for details.
-
-## 2. General information
-
-#### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the deployment management practice is to move new or changed hardware, software, documentation, processes, or any other component to live environments. It may also be involved in deploying components to other environments for testing or staging.</p></td></tr></tbody></table>
 
 <table><tbody><tr><td><p><strong>Definition: Deployment</strong></p></td></tr><tr><td><p>The movement of any service component into any environment.</p></td></tr></tbody></table>

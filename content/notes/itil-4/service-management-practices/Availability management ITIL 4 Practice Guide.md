@@ -5,24 +5,7 @@ draft: true
 weight: 1
 ---
 
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL<sup>®</sup> 4 qualification scheme
-
-Selected content of this document is examinable as a part of the following syllabus:
-
-*   **ITIL Specialist** High-velocity IT
-
-Please refer to the respective syllabus document for details.
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the availability management practice is to ensure that services deliver the agreed levels of availability to meet the needs of customers and users.</p></td></tr></tbody></table>
 
 The availability management practice ensures that requirements for the availability of services and resources are understood and fulfilled efficiently and in line with the organization’s strategy and commitments. To enable this, this practice is applied throughout the organization’s product and service lifecycle, from ideation to operations.

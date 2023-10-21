@@ -5,28 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the processes and activities of service design and their roles in the service value chain
-*   the organizations and people involved with service design
-*   the information and technology supporting service design
-*   considerations for partners and suppliers for service design.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content of this document is examinable as a part of the following syllabus:
-
-*   ITIL Specialist: Create, deliver and support.
-
-Please refer to the respective syllabus document for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the service design practice is to design products and services that are fit for purpose and use, and that can be delivered by the organization and its ecosystem. This includes planning and organizing people, partners and suppliers, information, communication, technology, and practices for new or changed products and services, and the interaction between the organization and its customers.</p></td></tr></tbody></table>
 
 If products and services, or practices are not designed properly, they will not necessarily fulfil customer needs or facilitate value creation. If they evolve without proper architecture, interfaces or controls, they are less able to deliver the overall vision and needs of the organization and its internal and external customers.

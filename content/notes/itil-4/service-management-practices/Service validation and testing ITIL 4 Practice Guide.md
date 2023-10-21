@@ -5,25 +5,7 @@ draft: true
 weight: 1
 ---
 
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabuses:
-
-*   ITIL Specialist Create, Deliver and Support
-*   ITIL Specialist High Velocity IT.
-
-Please refer to the respective syllabus documents for details.
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><strong>Key message&nbsp;</strong></td></tr><tr><td><p>The purpose of the service validation and testing practice is to ensure that new or changed products and services meet defined requirements. The definition of service value is based on input from customers, business objectives, and regulatory requirements and is documented as part of the design and transition value chain activity. These inputs are used to establish measurable quality and performance indicators that support the definition of assurance criteria and testing requirements.</p></td></tr></tbody></table>
 
 The service validation and testing practice involves reducing the risks and uncertainties that new or changed products and services introduce to the live environment. The practice does this by planning and performing appropriate tests.

@@ -5,29 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain the organizations and
-*   people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabuses:
-
-*   ITIL Specialist: Create, Deliver and Support
-*   ITIL Specialist: Direct, Plan and Improve
-
-Please refer to the respective syllabus documents for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the knowledge management practice is to maintain and improve the effective, efficient, and convenient use of information and knowledge across the organization.</p></td></tr></tbody></table>
 
 The knowledge management practice is a way of transforming information and organizational intellectual capital into persistent value for employees and service consumers. This practice aims to provide the right information to the right people at the right moment to build an evolutionary environment where:

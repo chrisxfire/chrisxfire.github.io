@@ -5,28 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1\. 1 ITIL® 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabus:
-
-*   **ITIL Specialist** Drive Stakeholder Value
-
-Please refer to the respective syllabus document for details.
-
-## 2. General information
-
-### 2\. 1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the relationship management practice is to establish and nurture the links between the organization and its stakeholders at strategic and tactical levels. It includes the identification, analysis, monitoring, and continual improvement of relationships with and between stakeholders.</p></td></tr></tbody></table>
 
 The relationship management practice is focused on ensuring successful relationships within an organization, as well as between an organization and external parties, including: customers, users, partners, suppliers, and others. To make this possible, this practice aims to establish a common approach to relationships and relationship management that can be adopted and followed across the organization. This approach is an important component of an organization’s culture.

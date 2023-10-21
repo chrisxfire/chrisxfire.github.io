@@ -5,29 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL<sup>®</sup> 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabuses:
-
-*   **ITIL Specialist** High-velocity IT
-*   **ITIL Specialist** Direct, Plan and Improve
-
-Please refer to the respective syllabus documents for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the portfolio management practice is to ensure that the organization has the right mix of programmes, projects, products, and services to execute the organization’s strategy within its funding and resource constraints.</p></td></tr></tbody></table>
 
 <table><tbody><tr><td><p><strong>Definition: Portfolio</strong></p></td></tr><tr><td><p>A collection of assets into which an organization chooses to invest its resources in order to receive the best return.</p></td></tr></tbody></table>

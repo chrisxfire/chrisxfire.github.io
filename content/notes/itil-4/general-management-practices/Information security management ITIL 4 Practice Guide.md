@@ -5,28 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content of this document is examinable as a part of the following syllabuses:
-
-*   **ITIL Specialist** High velocity IT
-
-Please refer to the respective syllabus documents for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the information security management practice is to protect the information needed by the organization to conduct its business. This includes understanding and managing risks to the confidentiality, integrity, and availability of information, as well as other aspects of information security such as authentication and non-repudiation.</p></td></tr></tbody></table>
 
 Information security is becoming an increasingly important but difficult task. The information security management practice is increasingly important in the context of digital transformation. This is due to the growth of digital services across industries, where information security breaches might have a major effect on an organization’s business. The wider use of cloud solutions and the wider integration with partners’ and service consumers’ digital services creates new critical dependencies, with limited ability to control how information is collected, stored, shared, and used. Partners and service consumers are in the same situation, and usually invest in data protection and information security solutions. However, a lack of integration and consistency between organizations creates new vulnerabilities, which need to be understood and addressed. The information security management practice in conjunction with other practices (including: availability management, capacity and performance management, information security management, risk management, service design, relationship management, architecture management, supplier management and other practices) ensures that an organization’s products and services meet the required level of information security for all involved parties.

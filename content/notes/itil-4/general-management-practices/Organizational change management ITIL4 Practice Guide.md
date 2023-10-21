@@ -5,29 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-#### 1.1 ITIL® 4 Qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabuses:
-
-*   **ITIL Specialist**: Create, Deliver and Support
-*   **ITIL Specialist**: Direct, Plan and Improve.
-
-Please refer to the relevant syllabus documents for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the OCM practice is to ensure that changes in an organization are implemented smoothly and successfully, and that lasting benefits are achieved by managing the human aspects of the changes.</p></td></tr></tbody></table>
 
 OCM is a practice that serves the continually emerging wish and need for organizational growth, improvement, and evolution.

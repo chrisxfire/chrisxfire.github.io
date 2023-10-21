@@ -5,23 +5,7 @@ draft: true
 weight: 1
 ---
 
-It is split into five main sections, which cover:
-
-*   general information about risk management
-*   the processes and activities of risk management and their roles in the service value chain
-*   the organizations and people involved in risk management
-*   the information and technology supporting risk management
-*   considerations for partners and suppliers for risk management.
-
-### 1.1 ITIL® 4 Qualification scheme
-
-Selected content of this document is examinable as a part of the following syllabuses:
-
-*   ITIL Specialist: Create, deliver and support
-*   ITIL Specialist: Direct, plan, improve.
-
-### 2.1 Purpose and description
-
+# Overview
 The purpose of the risk management practice is to ensure that the organization understands and effectively handles risks. Managing risk is essential to ensuring the ongoing sustainability of an organization and co-creating value for its customers. Risk management is an integral part of all organizational activities and therefore central to the organization’s service value system (SVS).
 
 Risk management is performed at all levels of the organization. Strategic risk management considers long-term risks that may impact the ability of the organization to perform its mission. Programme and project risk management considers risks that may affect medium-term goals and objectives. Operational risk management is focused on short-term goals and objectives. Risk management at each of these levels must be based on direction from the governors of the organization.

@@ -5,33 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this guide
-
-It is split into seven main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-*   information on assessing and developing the capability of the practice
-*   recommendations for succeeding in the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this guide is examinable as a part of the following syllabuses:
-
-*   ITIL Specialist Create, Deliver and Support
-*   ITIL Specialist Drive Stakeholder Value
-*   ITIL Specialist Service Desk
-*   ITIL Specialist Monitor, Support, and Fulfil
-
-Please refer to the respective syllabus documents for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The purpose of the service desk practice is to capture demand for incident resolution and service requests. It should also be the entry point and single point of contact for the service provider for all users.</td></tr></tbody></table>
 
 Note: In some organizations, the main purpose of the service desk practice is establishing an effective communication interface between a service provider and its users, with incidents and service requests being just two subjects of communication. In these organizations, the purpose of this practice could be to establish an effective entry point and single point of contact with all users and to capture demand for incident resolution and service requests. Organizations can and should adjust the practice purpose statements and the other recommendations of ITIL according to their objectives and circumstances.

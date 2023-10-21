@@ -5,24 +5,7 @@ draft: true
 weight: 1
 ---
 
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabus:
-
-*   **ITIL Leader** Digital and IT Strategy
-
-Please refer to the relevant syllabus document for details.
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The purpose of the measurement and reporting practice is to support good decision-making and continual improvement by decreasing the levels of uncertainty. This is achieved through the collection of relevant data on various managed objects and the valid assessment of this data in an appropriate context. Managed objects include, but are not limited to, products and services, practices and value chain activities, teams and individuals, suppliers and partners, and the organization as a whole.</td></tr></tbody></table>
 
 Many of these managed objects are connected, as are their respective metrics and indicators. For example, to set clear objectives for the measurement and reporting practice, it is important to understand the organizational objectives. These can be based on areas such as customer/market relevance and operational excellence. It is important to clarify the relationship between higher-level and lower-level objectives.

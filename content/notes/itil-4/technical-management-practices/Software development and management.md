@@ -5,29 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-The five main sections are :
-
-*   general information about the practice
-*   the processes and activities of software development and management and their roles in the service value chain
-*   the organizations and people involved in software development and management
-*   the information and technology supporting software development and management
-*   considerations for partners and suppliers for software development and management.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabuses:
-
-*   ITIL Specialist: Create, Deliver and Support
-*   ITIL Specialist: High-velocity IT
-
-Please refer to the respective syllabus documents for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 The purpose of the software development and management practice is to ensure that applications meet internal and external stakeholder needs, in terms of functionality, reliability, maintainability, compliance, and auditability.
 
 The software development and management practice focuses on the development and management of *application* software. However, many of the principles are also applicable to the software that is part of the infrastructure on which applications are developed and managed. Software engineering is increasingly important for infrastructure and platform management, for example in the application of Infrastructure as Code. This concept uses machine-readable definition files to manage and provision IT infrastructure and platforms, instead of physically configuring hardware components.

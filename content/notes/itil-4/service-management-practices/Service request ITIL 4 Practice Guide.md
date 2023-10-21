@@ -5,34 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this guide
-
-It is split into seven main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice
-*   information on assessing and developing the capability of the practice
-*   recommendations for succeeding in the practice.  
-    
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this guide is examinable as a part of the following syllabuses:
-
-*   ITIL Specialist Create, Deliver and Support
-*   ITIL Specialist Service Request Management
-*   ITIL Specialist Monitor, Support and Fulfil
-*   ITIL Specialist High-velocity IT.
-
-Please refer to the respective syllabus documents for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The purpose of the service request management practice is to support the agreed quality of a service by handling all predefined, user-initiated service requests in an effective and user- friendly manner.</td></tr></tbody></table>
 
 Service request management presents a significant value proposition for both the service consuming organization and the service providing organization.

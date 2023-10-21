@@ -5,34 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this guide
-
-It is split into seven main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice
-*   information on assessing and developing the capability of the practice
-*   recommendations for succeeding in the practice.
-
-#### **  
-1.1 ITIL 4 qualification scheme**
-
-Selected content of this guide is examinable as a part of the following syllabuses:
-
-*   ITIL Specialist Create, Deliver and Support
-
-*   ITIL Specialist High-velocity IT
-*   ITIL Specialist Monitor, Support, and Fulfil
-
-Please refer to the respective syllabus documents for details.
-
-## 2. General information
-
-#### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the incident management practice is to minimize the negative impact of incidents by restoring normal service operation as quickly as possible.</p></td></tr></tbody></table>
 
 The definition refers to a ‘normal service operation’. Conditions of normal service operation are typically defined within service level agreements (SLAs), or other forms of service quality specification, either agreed with the customer or defined by the service provider. In some cases, internal service provider’s specification can include more quality criteria than were initially agreed with the customers (see more on this in the service level management practice guide). The incident management practice is not limited to the service quality perceived by users. It includes restoration of the normal operation of services and resources, even when their failure or deviation is not visible to the service consumers. In this case, normal operation can be defined in the technical specifications of services or configuration items (CIs). Finally, if there is no documented specification of a normal operation, an expert opinion may be used to assess the status of the resources and services.

@@ -5,33 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-It is split into seven main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice
-*   information on assessing and developing the capability of the practice
-*   recommendations for succeeding in the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content of this document is examinable as a part of the following syllabus:
-
-*   **ITIL Specialist** Create, Deliver and Support
-*   **ITIL Specialist** High-velocity IT
-*   **ITIL Specialist** Plan, Implement, and Control
-*   **ITIL Practitioner** Change Enablement
-
-Please refer to the respective syllabus for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the change enablement practice is to maximize the number of successful service and product changes by ensuring that risks have been properly assessed, authorizing changes to proceed, and managing the change schedule.</p></td></tr></tbody></table>
 
 The change enablement practice aims to ensure that changes to services and their components are controlled and that they meet the organization’s change-related needs. Authorized changes should enable the desired outcomes and meet the organization’s requirements regarding change throughput (the number of changes made and the speed of change realization) and risk management. Flexibility and agility permeate this practice because they are key aspects of a modern organization.

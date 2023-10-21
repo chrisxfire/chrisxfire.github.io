@@ -5,28 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabus:
-
-*   **ITIL Leader** Digital and IT Strategy.
-
-Please refer to the syllabus document for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the workforce and talent management practice is to ensure that the organization has the right people, with the appropriate skills and knowledge, in the correct roles to support its business objectives. This practice covers a broad set of activities focused on successfully engaging with the organization’s employees and people resources, including: planning, recruitment, onboarding, learning and development, performance measurement, and succession planning.</p></td></tr></tbody></table>
 
 The workforce and talent management practice is focused on the effective management of the organizations and the people dimension of service management within organizations. The scope, form, and institutionalization of this practice might vary depending on multiple factors, including the organization’s mission and the positioning, business and operating models, architecture, competence model, and others.

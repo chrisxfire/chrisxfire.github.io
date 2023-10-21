@@ -5,28 +5,7 @@ draft: true
 weight: 1
 ---
 
-## 1. About this document
-
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabus:
-
-*   **ITIL Specialist** Drive Stakeholder Value.
-
-Please refer to the syllabus document for details.
-
-## 2. General information
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of service catalogue management practice is to provide a single source of consistent information on all services and service offerings, and to ensure that it is available to the relevant audience.</p></td></tr></tbody></table>
 
 The service catalogue management practice ensures that all stakeholders refer to a single, consistent source of information about services and service offerings. It also helps to provide all stakeholders with relevant views on services and service offerings, matching their needs and level of access.

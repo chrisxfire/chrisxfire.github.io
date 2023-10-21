@@ -5,24 +5,7 @@ draft: true
 weight: 1
 ---
 
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL® 4 qualification scheme
-
-Selected content from this document is examinable as a part of the following syllabus:
-
-*   **ITIL Leader** Digital and IT Strategy
-
-Please refer to the syllabus documents for details.
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the strategy management practice is to formulate the goals of the organization and adopt the courses of action and allocation of resources necessary for achieving those goals. Strategy management establishes the organization’s direction, focuses effort, defines or clarifies the organization’s priorities, and provides consistency or guidance in response to the environment.</p></td></tr></tbody></table>
 
 The starting point for the strategy management practice is to understand the context of the organization and define the desired outcomes. The strategy of the organization establishes criteria and mechanisms to decide how to best prioritize resources, capabilities, and investment to achieve those outcomes. This practice ensures that the strategy is defined, agreed, maintained, and achieved.

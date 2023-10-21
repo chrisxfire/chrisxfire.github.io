@@ -5,25 +5,7 @@ draft: true
 weight: 1
 ---
 
-It is split into five main sections, covering:
-
-*   general information about the practice
-*   the practice’s processes and activities and their roles in the service value chain
-*   the organizations and people involved in the practice
-*   the information and technology supporting the practice
-*   considerations for partners and suppliers for the practice.
-
-### 1.1 ITIL® 4 QUALIFICATION SCHEME
-
-Selected content from this document is examinable as a part of the following syllabuses:
-
-*   **ITIL Specialist** Create, Deliver and Support
-*   **ITIL Specialist** Direct, Plan and Improve
-
-Please refer to the respective syllabus documents for details.
-
-### 2.1 Purpose and description
-
+# Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the continual improvement practice is to align the organization’s practices and services with changing business needs through the ongoing improvement of products, services, practices, or any element involved in the management of products and services.</p></td></tr></tbody></table>
 
 When a service provider adopts a practice to formalize, encourage, and manage improvement as part of its regular activities, it embarks on continual improvement.
