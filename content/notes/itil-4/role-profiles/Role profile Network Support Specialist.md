@@ -52,7 +52,6 @@ Key skills you will need include:
 *   Track reliability data against relevant service level agreements.
 
 
-
  |
 | 
 
@@ -68,7 +67,6 @@ Key skills you will need include:
 *   Optimize system or component performance.
 
 
-
  |
 | 
 
@@ -81,7 +79,6 @@ Key skills you will need include:
 *   Document all activities during installation and records deviations and remedial activities
 *   Measure system performance before, during and after system integration
 *   Verify that integrated systems capabilities and efficiency match specifications.
-
 
 
  |
@@ -108,7 +105,6 @@ Key skills you will need include:
 *   Provide support to the Availability Managers.
 
 
-
  |
 | 
 
@@ -131,7 +127,6 @@ Key skills you will need include:
 
 *   Share information with team members to help them be effective
 *   Support colleagues to help them achieve goals
-
 
 
  |

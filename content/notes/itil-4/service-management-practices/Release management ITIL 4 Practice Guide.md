@@ -5,7 +5,6 @@ draft: true
 weight: 1
 ---
 
-
 ## 1. About this guide
 
 This guide provides practical guidance for the release management practice. It is split into seven main sections, covering:

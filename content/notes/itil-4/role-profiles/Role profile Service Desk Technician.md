@@ -76,7 +76,6 @@ Key skills you will need include:
 *   Structure written and oral communication to ensure clarity.
 
 
-
  |
 | 
 

@@ -5,7 +5,6 @@ draft: true
 weight: 1
 ---
 
-
 ## 1. About this document
 
 This guide provides practical guidance for the service configuration management practice. It is split into seven main sections, covering:

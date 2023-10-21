@@ -5,7 +5,6 @@ draft: true
 weight: 1
 ---
 
-
 ## 1. About this document
 
 It is split into five main sections, covering:

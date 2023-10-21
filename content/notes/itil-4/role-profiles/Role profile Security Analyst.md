@@ -49,7 +49,6 @@ Information Security Management
 *   Systematically scan the environment to identify and define vulnerabilities and threats.
 
 
-
  |
 | 
 
@@ -59,7 +58,6 @@ Staff Awareness and Development
 
 *   Provide briefing/training sessions to individuals and groups
 *   Use specialist knowledge to advise, coach and guide individuals.
-
 
 
  |
@@ -73,7 +71,6 @@ Information Analysis
 *   Report information using a variety of presentational techniques to convey key metrics and findings and make them meaningful to the target audience.
 
 
-
  |
 | 
 
@@ -84,7 +81,6 @@ Communication and Knowledge Sharing
 *   Actively listen to others to understand their point of view
 *   Confidently present messages in a clear and precise manner
 *   Structure written and oral communication to ensure clarity.
-
 
 
  |
