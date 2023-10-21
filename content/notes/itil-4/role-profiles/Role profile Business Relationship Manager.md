@@ -5,7 +5,7 @@ draft: true
 weight: 1
 ---
 
-#### 1.1 Job Purpose
+### 1.1 Job Purpose
 
 As a Business Relationship Manager (BRM) you’ll take the lead in building strong working relationships between the IT organization and one or more business units, and for ensuring IT services meet their needs.
 
@@ -13,7 +13,7 @@ You’ll need an excellent understanding of your customer's business, how it wor
 
 You’ll work with the business to shape and prioritize their IT requirements (for example, improvement in efficiency or service quality, standardization or revenue growth), and then with the IT function to decide whether these requirements can be met through an existing service, or if a new or changed service is needed. By helping the business to make best use of available IT services, you will play a key role in maximizing the overall return from IT assets and investment.
 
-#### 1.2 Key Responsibilities
+### 1.2 Key Responsibilities
 
 * Build strategic relationships with senior business stakeholders
 * Educate customers on available IT services
@@ -21,7 +21,7 @@ You’ll work with the business to shape and prioritize their IT requirements (f
 * Lead negotiations to provide new and enhanced products or services
 * Implement systems to capture feedback and monitor customer satisfaction.
 
-#### 2.1 Job Skills
+### 2.1 Job Skills
 
 Alongside your IT knowledge, you will need well-developed business and interpersonal skills to establish credibility, and build trust and relationships between the IT organization and their business customers.
 
@@ -127,7 +127,7 @@ Sales management
 
  |
 
-#### 2.2 Relevant qualifications
+### 2.2 Relevant qualifications
 
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)

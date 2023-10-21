@@ -7,9 +7,9 @@ weight: 1
 
 This profile describes the roles and responsibilities of a Chief Information Officer, Head of IT or IT Director.
 
-## 1. Job purpose and responsibilities
+# 1. Job purpose and responsibilities
 
-#### 1.1 Job Purpose
+### 1.1 Job Purpose
 
 As Chief Information Officer (CIO), you have overall responsibility for information and information technology strategy and governance, and for the management of IT resources. You will take the lead in recognizing potential areas of growth that need increased IT support, and for leading the design and delivery of an IT strategy that builds these essential capabilities within the IT area.
 
@@ -17,7 +17,7 @@ This is a senior manager role which requires broad knowledge of all aspects of I
 
 As a leader in the business, you will work collaboratively with other senior managers to define, articulate and champion the goals in the organization's strategic and operational plans.
 
-#### 1.2 Job responsibilities
+### 1.2 Job responsibilities
 
 * Define the company’s strategy for IT
 * Manage all Information Services (IS) department activity
@@ -26,9 +26,9 @@ As a leader in the business, you will work collaboratively with other senior man
 * Make recommendations to senior general management
 * Ensure the reliability, confidentiality, security and integrity of all information systems including compliance with service level agreements.
 
-## 2. Skills and qualifications
+# 2. Skills and qualifications
 
-#### 2.1 Job Skills
+### 2.1 Job Skills
 
 Critical skills for the CIO role include strategic planning and being able to work with other senior leaders to define and champion an information services strategy that relates to the organization’s business.
 
@@ -147,7 +147,7 @@ Planning and Organization
 
  |
 
-#### 2.2 Relevant qualifications
+### 2.2 Relevant qualifications
 
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)

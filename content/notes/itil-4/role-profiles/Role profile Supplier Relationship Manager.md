@@ -5,7 +5,7 @@ draft: true
 weight: 1
 ---
 
-#### 1.1 Job Purpose
+### 1.1 Job Purpose
 
 As Supplier Relationship Manager, you will be responsible for procuring IT products and services on behalf of the IT function and the wider business, using your networks and negotiation skills to achieve best value and service levels.
 
@@ -13,31 +13,31 @@ Your role will include sourcing suppliers, negotiating contracts, managing deliv
 
 You will contribute to enhancing the framework of procurement policies and processes that govern management of supplier relationships.
 
-#### 1.2 Job responsibilities
+### 1.2 Job responsibilities
 
 * Work with the business to identify requirements and opportunities for cost savings
 * Supplier identification and competitive analysis
 * Contract negotiation and placement
 * Proactively manage relationships with key suppliers.
 
-#### 2.1 Job Skills
+### 2.1 Job Skills
 
 Alongside sound relationship building skills, you need to be an effective negotiator with a sound understanding of the business you represent, and strong analytical skills to work with suppliers and assess how their products and service can deliver what the business needs.
 
 Key skills you will need include:
 
 | 
-##### **Skill**
+#### **Skill**
 
  | 
 
-##### **You should be able to:**
+#### **You should be able to:**
 
  |
 | --- | --- |
 | 
 
-##### **Purchasing**
+#### **Purchasing**
 
  | 
 
@@ -50,7 +50,7 @@ Key skills you will need include:
  |
 | 
 
-##### **Contract management**
+#### **Contract management**
 
  | 
 
@@ -64,7 +64,7 @@ Key skills you will need include:
  |
 | 
 
-##### **Negotiation**
+#### **Negotiation**
 
  | 
 
@@ -77,7 +77,7 @@ Key skills you will need include:
  |
 | 
 
-##### **Financial management**
+#### **Financial management**
 
  | 
 
@@ -88,7 +88,7 @@ Key skills you will need include:
  |
 | 
 
-##### **Relationship management**
+#### **Relationship management**
 
  | 
 
@@ -100,7 +100,7 @@ Key skills you will need include:
  |
 | 
 
-##### **Communication and knowledge sharing**
+#### **Communication and knowledge sharing**
 
  | 
 
@@ -113,7 +113,7 @@ Key skills you will need include:
 
  |
 
-#### 2.2  Relevant qualifications
+### 2.2  Relevant qualifications
 
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Direct, plan and improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)

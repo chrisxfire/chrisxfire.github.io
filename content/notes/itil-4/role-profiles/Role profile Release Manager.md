@@ -7,15 +7,15 @@ weight: 1
 
 This profile describes the roles and responsibilities of a Release Manager. Also called: Deployment Manager, Transition Manager.
 
-## 1. Job purpose and responsibilities
+# 1. Job purpose and responsibilities
 
-#### 1.1 Job Purpose
+### 1.1 Job Purpose
 
 You will specialize in planning and managing the release of new or changed software and hardware into test and live environments. This means being able to bring together the multiple project deliverables that are required for release and to ensure that they work as an integrated package.
 
 You will own and plan the full release lifecycle, taking responsibility as early as the requirements stage to define the release plan and ensure there is lead time for all the co-dependent pieces to be developed together, tested and operate effectively prior to release. You’ll need the skills to work collaboratively with others in the project team to monitor progress, communicate and coordinate release activities.
 
-#### 1.2 Job responsibilities
+### 1.2 Job responsibilities
 
 * Schedule and communicate release details and schedules to the business after ensuring absence of conflicts
 * Manage the process and tools used for software build
@@ -23,9 +23,9 @@ You will own and plan the full release lifecycle, taking responsibility as early
 * Record details of the configuration in the configuration management database (CMDB)
 * Carry out back-out plans to remove the new version if necessary.
 
-## 2. Skills and qualifications
+# 2. Skills and qualifications
 
-#### 2.1 Job Skills
+### 2.1 Job Skills
 
 Alongside a technical background, you’ll typically need some experience in release management or project management, as well as sound written and oral communication skills, and the ability to coordinate activities cross functional teams.
 
@@ -128,10 +128,10 @@ Quality Orientation (Attention to Detail)
 
  |
 
-#### 2.2 Relevant qualifications
+### 2.2 Relevant qualifications
 
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
 * [ITIL<sup>®</sup> 4: Direct, plan and improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
 
-## Related Content
+# Related Content

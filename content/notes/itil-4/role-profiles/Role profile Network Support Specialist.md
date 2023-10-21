@@ -5,7 +5,7 @@ draft: true
 weight: 1
 ---
 
-#### 1.1 Job Purpose
+### 1.1 Job Purpose
 
 As Network Support Specialist, you will be responsible for designing, installing and maintaining various segments of network systems, and other computing environments used across the enterprise.
 
@@ -15,7 +15,7 @@ A key part of your role will be to ensure network availability to all users. You
 
 You will also assist with research and recommending policies and strategies for the organization’s network infrastructure, and be involved in developing and distributing networking best practice recommendations across the organization.
 
-#### 1.2 Job responsibilities
+### 1.2 Job responsibilities
 
 * Installing new software and/or hardware
 * Setting up user accounts, permissions and passwords
@@ -24,24 +24,24 @@ You will also assist with research and recommending policies and strategies for 
 * Technical support for people using the network
 * Planning future improvements.
 
-#### 2.1 Job Skills
+### 2.1 Job Skills
 
 You will need solid technical skills and experience with the network protocols, software and hardware used in the LAN/WAN for the organization. Strong diagnostic and analytical skills are also key, as is the ability to stay calm under pressure when there is network failure.
 
 Key skills you will need include:
 
 | 
-##### **Skill**
+#### **Skill**
 
  | 
 
-##### **You should be able to:**
+#### **You should be able to:**
 
  |
 | --- | --- |
 | 
 
-##### **Service Delivery**
+#### **Service Delivery**
 
  | 
 
@@ -55,7 +55,7 @@ Key skills you will need include:
  |
 | 
 
-##### **Problem Management**
+#### **Problem Management**
 
  | 
 
@@ -70,7 +70,7 @@ Key skills you will need include:
  |
 | 
 
-##### **Component Integration**
+#### **Component Integration**
 
  | 
 
@@ -84,7 +84,7 @@ Key skills you will need include:
  |
 | 
 
-##### **Capacity Management**
+#### **Capacity Management**
 
  | 
 
@@ -95,7 +95,7 @@ Key skills you will need include:
  |
 | 
 
-##### **Availability Management**
+#### **Availability Management**
 
  | 
 
@@ -108,7 +108,7 @@ Key skills you will need include:
  |
 | 
 
-##### **IT Change Management**
+#### **IT Change Management**
 
  | 
 
@@ -121,7 +121,7 @@ Key skills you will need include:
  |
 | 
 
-##### **Communication and Knowledge Sharing**
+#### **Communication and Knowledge Sharing**
 
  | 
 
@@ -132,7 +132,7 @@ Key skills you will need include:
  |
 | 
 
-##### Leadership and Teamwork
+#### Leadership and Teamwork
 
  | 
 
@@ -141,7 +141,7 @@ Key skills you will need include:
 
  |
 
-#### 2.2 Relevant qualifications
+### 2.2 Relevant qualifications
 
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)

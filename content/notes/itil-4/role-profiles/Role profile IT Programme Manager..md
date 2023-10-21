@@ -5,19 +5,19 @@ draft: true
 weight: 1
 ---
 
-## Role profile: IT Programme Manager
+# Role profile: IT Programme Manager
 
 This profile describes the roles and responsibilities of an IT Programme Manager.
 
-## 1. Job purpose and responsibilities
+# 1. Job purpose and responsibilities
 
-#### 1.1 Job Purpose
+### 1.1 Job Purpose
 
 You will be responsible for providing leadership, management, coordination, and direction to teams delivering IT projects as part of a programme of change. You will be responsible for leading and managing the setting up of the programme through to the delivery of the new capabilities and realization of benefits.
 
 You will be an experienced project professional with a deep understanding of change planning and implementation. You will be skilled in applying high level programme and project management methodologies such as PRINCE2® and Managing Successful Programmes® (MSP) to control management of scope, risks and issues, and budget, as well as having superb communication and interpersonal skills to keep all the players coordinated on delivering progress and achieving business benefits.
 
-#### 1.2 Key Responsibilities
+### 1.2 Key Responsibilities
 
 * Assuring governance and quality of the programme
 * Benefits management and realization
@@ -29,18 +29,18 @@ You will be an experienced project professional with a deep understanding of cha
 * Stakeholder management and leadership
 * Strategic alignment of programme to achieve organizational objectives.
 
-## 2. Skills and qualifications
+# 2. Skills and qualifications
 
-#### 2.1. Job Skills
+### 2.1. Job Skills
 
 Key skills you need include:
 
 | 
-##### ****Skill****
+#### ****Skill****
 
  | 
 
-##### ****You should be able to:****
+#### ****You should be able to:****
 
  |
 | --- | --- |
@@ -177,7 +177,7 @@ Key skills you need include:
 
  |
 
-#### **2.2 Relevant Qualifications**
+### **2.2 Relevant Qualifications**
 
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)

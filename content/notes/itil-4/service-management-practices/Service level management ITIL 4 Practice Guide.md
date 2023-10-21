@@ -5,7 +5,7 @@ draft: true
 weight: 1
 ---
 
-# Overview
+# 1. Overview
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the service level management practice is to set clear business-based targets for service levels, and to ensure that delivery of services is properly assessed, monitored, and managed against these targets.</p></td></tr></tbody></table>
 
 The service level management practice helps to set and manage a shared view of the quality of services between the service provider and the service consumer, aimed at all key stakeholders on both sides. This shared view is usually described in an agreement document, which may be written in various levels of formality. This applies to both the expected and actual service quality, from initial contact to the present, and covers service offerings and proposed value throughout the entirety of the service relationship. The service level management practice also includes monitoring and evaluation of the actual service quality and continual improvement of the services and agreements. Figure 2.1 illustrates the key activities of the practice.
@@ -14,7 +14,7 @@ The service level management practice helps to set and manage a shared view of t
 
 **Figure 2.1 Key activities of the service level management practice**
 
-### 2.2 Terms and concepts
+## 2.2 Terms and concepts
 
 <table><tbody><tr><td><p><strong>Definition: Service quality</strong></p></td></tr><tr><td><p>The totality of a service’s characteristics that are relevant to its ability to satisfy stated and implied needs.</p></td></tr></tbody></table>
 
@@ -36,7 +36,7 @@ In some instances, not all of the characteristics of service quality can be agre
 
 To make sure that the service level management practice is focused on value, it is important to combine the definition and control of the measurable service level with the collection and analysis of relevant feedback. This becomes especially important when customers have not been involved in the definition of the service level, as described in the note above.
 
-#### 2.2.1 Utility and warranty
+### 2.2.1 Utility and warranty
 
 <table><tbody><tr><td><p><strong>Definition: Utility</strong></p></td></tr><tr><td><p>The functionality offered by a product or service to meet a particular need. Utility can be summarized as ‘what the service does’ and can be used to determine whether a service is ‘fit for purpose’. To have utility, a service must either support the performance of the consumer or remove constraints from the consumer. Many services do both.</p></td></tr></tbody></table>
 
@@ -46,7 +46,7 @@ It is possible to assume from the definition that the service quality (and servi
 
 To summarize, service quality includes both the functional and non-functional characteristics of services and therefore so should the service level.
 
-#### 2.2.2. Financial viability of services
+### 2.2.2. Financial viability of services
 
 It is quite common to limit the formal liability of the service provider to the agreed service level, rather than the implied or expected service quality. However, a sustainable service relationship is only possible if the agreed service level is constantly achieved and, most importantly, customers and users are satisfied. This satisfaction is based on their service experience and includes both agreed and implied service quality. Because of this, service providers often aim to exceed the agreed service level to make sure that their users and customers are satisfied. However, service provision is often budgeted based on the agreed service level, and extra efforts result in extra costs for the provider.
 
@@ -60,7 +60,7 @@ When internal service providers are subsidized by the wider organization, the sp
 
 Regardless of the service relationship model, the service level management practice contributes to the financial viability of services by managing customers’ and users’ expectations and agreeing on service levels that satisfy the requirements of sponsors. It also supports service design and budgeting, with information on the expected gap between the agreed service level and the expected service quality, and on any need for a dedicated budget to address this gap.
 
-### 2.3 Scope
+## 2.3 Scope
 
 The scope of the service level management practice includes:
 * Tactical and operational communications with customers regarding expected, agreed, and actual service quality, as well as their service experience. This includes the collection of feedback
@@ -71,11 +71,11 @@ The scope of the service level management practice includes:
 
 There are a number of activities and areas of responsibility that are not included in the service level management practice, although they are still closely related to it. These are listed in Table 2.1, along with references to the practices in which they can be found. It is important to remember that ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.
 
-#### Table 2.1 Activities related to the service level management practice described in other practice guides
+### Table 2.1 Activities related to the service level management practice described in other practice guides
 
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Strategic communications with customers and sponsors</p></td><td><p>Relationship management</p></td></tr><tr><td><p>Operational communications with users</p></td><td><p>Service desk</p></td></tr><tr><td><p>Establishing and managing of contracts with suppliers and partners</p></td><td><p>Supplier management</p></td></tr><tr><td><p>Identification and documentation of services</p></td><td><p>Service catalogue management</p></td></tr><tr><td><p>Design of products and services</p></td><td><p>Service design</p></td></tr><tr><td><p>Analysis of innovation opportunities and new requirements for services outside of existing utility and warranty options</p></td><td><p>Business analysis</p></td></tr><tr><td><p>Design and control of financial models for commercial service delivery</p></td><td><p>Service financial management</p></td></tr><tr><td><p>Ongoing management and implementation of improvements</p></td><td><p>Continual improvement</p></td></tr><tr><td><p>Implementation of changes to products and services</p></td><td><p>Change enablement, project management, and other practices</p></td></tr><tr><td><p>Monitoring technology, team and supplier performance</p></td><td><p>Monitoring and event management</p></td></tr></tbody></table>
 
-### 2.4 Practice success factors
+## 2.4 Practice success factors
 
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -87,7 +87,7 @@ The service level management practice includes the following PSFs:
 * Performing service reviews to ensure that the current set of services continues to meet the needs of the organization and its customers.
 * Capturing and reporting on improvement opportunities, including performance against defined service levels and stakeholder satisfaction.
 
-#### 2.4.1 Establishing a shared view of target service levels with customers
+### 2.4.1 Establishing a shared view of target service levels with customers
 
 Interactions with customers vary significantly across different service relationship models; for example, between internal and external service provisions; between large organizations and between individuals; and between tailored and out-of-the-box services. The latter has the strongest effect on the approach to establishing a shared view of target service levels with customers.
 
@@ -123,7 +123,7 @@ The term ‘service level’ can be defined in multiple ways with various levels
 
 **Figure 2.3 Out-of-the-box services: from consumer needs to SLA** 
 
-####   
+### 
 Table 2.2 Key aspects of service quality and examples of service level metrics
 
 <table><tbody><tr><td><p><strong>Service quality aspect</strong></p></td><td><p><strong>Examples of service level metrics</strong></p></td></tr><tr><td><p>Functionality</p></td><td><p>Completeness of the functions available<br>Correctness of the functions operations<br>Integrated functionality index</p></td></tr><tr><td><p>Availability</p></td><td><p>Maximum duration of service outage<br>Total time of unavailability<br>Percentage of availability<br>Mean time between system incidents (MTBSI)</p></td></tr><tr><td><p>Performance</p></td><td><p>Mean time of service action execution</p><p>Response time</p><p>Number and percentage of incidents related to execution and response time<br>Service throughput</p></td></tr><tr><td><p>Timeliness</p></td><td><p>Number and percentage of incidents related to service actions completed after the agreed deadline</p></td></tr><tr><td><p>User support</p></td><td><p>Timeliness of support request processing</p><p>Quality of support request processing</p></td></tr><tr><td><p>Accuracy</p></td><td><p>Number and impact of errors in the data and information</p></td></tr><tr><td><p>User experience (UX)</p></td><td><p>Number and frequency of user errors</p><p>Number and frequency of returns to a previous step (for example, back-button usage)<br></p><p>Number and frequency of interface help requests</p><p>Number and percentage of interrupted service actions (quitting the interface without completing a service action)</p></td></tr></tbody></table>
@@ -134,11 +134,11 @@ Despite the best efforts to capture and meet expectations, the agreed service le
 
 Nevertheless, it is very important for the success of the service relationship that the service provider and consumer have a shared view of the service quality. This can be ensured by applying the ITIL guiding principles, as shown in Table 2.3. Please note that the guiding principles should be applied to the whole service level management practice, so Table 2.3 should only be used as an example.
 
-#### Table 2.3 Application of the ITIL guiding principles in establishing a shared view of target service levels
+### Table 2.3 Application of the ITIL guiding principles in establishing a shared view of target service levels
 
 <table><tbody><tr><td><p><strong>ITIL principle</strong></p></td><td><p><strong>Application</strong></p></td></tr><tr><td><p>Focus on value</p></td><td><p>Focus on outcomes for the service consumer organization and on user experience more than on technical details and associated metrics.</p></td></tr><tr><td><p>Start where you are</p></td><td><p>Base your agreements on previous experience as well as the current relationship between the service provider and consumer. If there is a sufficient level of trust based on the history of the relationship, agreements can be focused on outcomes and implied promises, rather than on formal obligations. Consider using industry benchmarks if no previous experience is available.</p></td></tr><tr><td><p>Progress iteratively with feedback</p></td><td><p>Acknowledge that not all relevant characteristics of service quality will be understood and/or achieved from the beginning, and that expectations and requirements will continually change. Be ready for continual review of the agreed service level based on achievements and feedback.</p></td></tr><tr><td><p>Collaborate and promote visibility</p></td><td><p>Involve relevant stakeholders (such as key users) in the discussion. Discuss the agreed service level with those it will affect and inform them of any constraints to establish realistic expectations. Also, provide sufficient operational transparency to promote a sense of ownership and manage expectations.</p></td></tr><tr><td><p>Think and work holistically</p></td><td><p>Do not focus on only a few service quality characteristics, but make sure to cover utility and warranty. Consider outcomes required as well as the components of service offerings (goods/access resources/service actions).</p></td></tr><tr><td><p>Keep it simple and practical</p></td><td><p>Do not try to put everything in the agreement but focus on what matters and what can be realistically measured and managed.</p></td></tr><tr><td><p>Optimize and automate</p></td><td><p>Periodically review the agreements. Optimize their structure and content to reflect the needs of stakeholders and remove excess content. Consider the provision of dashboards and other forms of automated SLA reporting.</p></td></tr></tbody></table>
 
-#### 2.4.2 Overseeing how the organization meets the defined service levels
+### 2.4.2 Overseeing how the organization meets the defined service levels
 
 When a shared understanding of the target service level is established, and actual service delivery has started, the service provider should control the actual quality of the services from three main perspectives:
 * **Achieved service level** Against the agreed service level, based on agreed measurements.
@@ -163,7 +163,7 @@ Service level dashboards can be used to present the current status of service(s)
 
 The service level management practice does not include the design and execution of the collection of service level data. This is done using the service design, monitoring and event management, and measurement and reporting practices. The service level management practice is focused on making sense out of the data collected. It then focuses on communicating and reviewing the data with stakeholders, starting with the customers.
 
-#### 2.4.3 Performing service reviews
+### 2.4.3 Performing service reviews
 
 The aim of service reviews is to establish a shared view of the achieved service quality and value enabled by the service, and to initiate necessary service improvements, where appropriate. In commercial service relationships, service reviews can also be a prerequisite for invoicing the consumer or a trigger to adjust bills.
 
@@ -177,7 +177,7 @@ For example, a service provider can perform a monthly review of the services pro
 
 Regardless of the form the review takes and whether it occurs jointly or separately, service reviews are a very important part of the service provision and consumption. Moreover, there is a direct correlation between the quality of the review and the resulting quality of the services and stakeholder satisfaction. Aside from the other benefits they provide, service reviews are also the main source of service improvement opportunities.
 
-#### 2.4.4 Capturing and reporting on improvement opportunities
+### 2.4.4 Capturing and reporting on improvement opportunities
 
 The service level management practice includes the identification of improvement opportunities and the initiation of service improvements. These improvements may aim to correct actual service quality (so that it meets the agreed service level) or to improve user and customer satisfaction with the service. Improvements can also be initiated in areas such as the practice’s processes, tools, or other resources, with the aim to improve the practice and associated customer experience.
 
@@ -187,13 +187,13 @@ All practice-related improvements should follow the model used by the organizati
 
 It is important to make sure that service improvements are not only initiated but also effectively implemented. An approach to implementing improvements is described in the continual improvement practice guide. Nonetheless, it is vital to use multiple practices in the context of value streams, to maintain the momentum of the continual improvement of services.
 
-### 2.5 Key metrics
+## 2.5 Key metrics
 
 The effectiveness and performance of the ITIL practices should be assessed within the context of the value streams to which each practice contributes. As with the performance of any tool, the practice’s performance can only be assessed within the context of its application. However, tools can differ greatly in design and quality, and these differences define a tool’s potential or capability to be effective when used according to its purpose. Further guidance on metrics, key performance indicators (KPIs), and other techniques that can help with this can be found in the measurement and reporting practice guide.
 
 Key metrics for the service level management practice are mapped to its PSFs. They can be used as KPIs in the context of value streams to assess the contribution of the practice to the effectiveness and efficiency of those value streams. Some examples of key metrics are given in Table 2.4.
 
-#### Table 2.4 Examples of key metrics for the practice success factors
+### Table 2.4 Examples of key metrics for the practice success factors
 
 <table><tbody><tr><td><p><strong>Practice success factors</strong></p></td><td><p><strong>Key metrics</strong></p></td></tr><tr><td><p>Establishing a shared view of target service levels with customers</p></td><td><ul><li>Customer satisfaction with SLA content</li><li>Percentage of SLAs that are overdue for review<br>Percentage of service-related operations</li></ul><ul><li>(incidents, changes, etc.) without an agreed target level</li></ul></td></tr><tr><td><p>Overseeing how the organization meets the defined service levels</p></td><td><ul><li>Percentage of SLAs with a service level measurement approach defined</li><li>Percentage of services with regular SLA reports produced</li><li>Percentage of services/SLAs with dashboards for service level monitoring</li><li><p>Percentage of services with satisfaction data that has been systematically collected</p></li></ul></td></tr><tr><td><p>Performing service reviews</p></td><td><ul><li>Customer satisfaction with service reporting</li><li>Percentage of services/customers/SLAs with regular service review scheduled</li><li>Customer satisfaction with service reviews</li></ul></td></tr><tr><td><p>Capturing and reporting on improvement opportunities</p></td><td><ul><li>Average service quality index over last three months/average service quality index over last 12 months</li><li>Service improvement productivity index<sub><em>a</em></sub></li></ul></td></tr></tbody></table>
 
@@ -201,9 +201,9 @@ Key metrics for the service level management practice are mapped to its PSFs. Th
 
 The correct aggregation of metrics into complex indicators will make it easier to use the data for the ongoing management of value streams, and for the periodic assessment and continual improvement of the service level management practice. There is no single best solution. Metrics will be based on the overall service strategy and priorities of an organization, as well as on the goals of the value streams to which the practice contributes.
 
-## 3. Value streams and processes
+# 3. Value streams and processes
 
-### 3.1 Value streams contribution
+## 3.1 Value streams contribution
 
 Like any other ITIL management practice, the service level management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The service level management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
 * plan
@@ -212,7 +212,7 @@ Like any other ITIL management practice, the service level management practice c
 
 The contribution of the service level management practice to the service value chain is shown in Figure 3.1.
 
-### 3.2 Processes
+## 3.2 Processes
 
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
@@ -226,11 +226,11 @@ Service level management activities form two processes:
 * **Management of SLAs** This process is focused on agreements and their lifecycle.
 * **Oversight of service levels and service quality** This process ensures continual service improvement based on a good understanding of service quality.
 
-#### 3.2.1 Management of SLAs
+### 3.2.1 Management of SLAs
 
 This process includes the activities listed in Table 3.1, and transforms the inputs into outputs.
 
-#### Table 3.1 Inputs, activities, and outputs of the management of SLAs
+### Table 3.1 Inputs, activities, and outputs of the management of SLAs
 
 <table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Customer requirements</li><li>Service catalogue</li><li>Service specifications</li></ul><ul><li>Service models and configuration models</li><li>Agreements with suppliers and partners</li><li>User and customer feedback Improvement plans and registers Financial information</li></ul></td><td><ul><li>Definition of customer requirements</li><li>Viability analysis Drafting an SLA SLA negotiation</li><li>SLA communication and enablement</li><li>SLA review</li><li>SLA prolongation SLA withdrawal</li></ul></td><td><ul><li>Service level requirements (documented)</li><li>Draft SLAs</li><li>Signed SLAs</li><li>Onboarding communications</li><li>Change requests</li><li>Withdrawn SLAs</li></ul></td></tr></tbody></table>
 
@@ -242,11 +242,11 @@ Figure 3.2 shows a workflow diagram of the process.
 
 This process may vary, depending on the type of service or service relationship model to which it is applied. Table 3.2 provides an overview of these variations.
 
-#### Table 3.2 Activities of the SLA management process
+### Table 3.2 Activities of the SLA management process
 
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Out-of-the-box pre-defined services</strong></p></td><td><p><strong>Tailored services</strong></p></td></tr><tr><td><p>Definition of customer requirements</p></td><td><p>These are based on the existing service catalogue with clearly defined options for service levels. The customers select the most appropriate options/combinations for the services that they need. Service provider representatives from a customer-facing team help to navigate the catalogue to find the most relevant services and service levels.</p></td><td><ul><li>Customers communicate their requirements for services based on their business needs. They may refer to the existing catalogue, but usually the requirements are not limited to pre-defined options.</li><li>Service provider representatives from a customer-facing or business analysis team, or product and service owners, are involved in documenting the requirements.</li></ul></td></tr><tr><td><p>Viability analysis</p></td><td><p>A quick check of resource availability is performed to confirm that the defined requirements can be fulfilled. This activity follows pre-defined patterns and may be fully automated. This leads to confirmation of service requirements or an adjustment, if necessary.</p></td><td><ul><li>A manual or semi-automated analysis of resource requirements may be needed to define whether it is possible to fulfil these requirements, and how much it would cost. A quote with estimated costs/price and a timeline for fulfilment is the main output.</li><li>This analysis should include agreements with the service provider’s suppliers and partners to make sure that they would support the required service level.</li></ul></td></tr><tr><td><p>Drafting an SLA</p></td><td><p>A standardized SLA is drafted for the customer to review and confirm. It may be fully or largely automated.</p></td><td><p>The service designer, service owner, and relationship manager take part in drafting an agreement based on the viability analysis. It is recommended that existing services and specifications be used as building blocks, but this work is still likely to require expert knowledge and collaboration between people.</p></td></tr><tr><td><p>SLA negotiation</p></td><td><p>The customer reviews the draft SLA and accepts its terms and conditions or returns it for analysis. If it is returned or the customer needs assistance, a service provider representative from a customer-facing team may guide the customer through the draft SLA and answer questions. In other cases, this activity may be fully automated. The acceptance of the SLA is formally confirmed by the customer.</p></td><td><p>The customer and service provider representatives (which may include the service owner, relationship manager, service designer, and others) discuss the draft SLA and negotiate changes where needed, or accept it for sign-off. If not accepted, the draft is returned for viability analysis. It may take several iterations to agree on an acceptable version. When the draft is agreed, it is formally confirmed by the parties.</p></td></tr><tr><td><p>SLA communication and enablement</p></td><td><ul><li>When the SLA is confirmed by the parties, the service provider initiates the required changes and communications to make the agreed services available for the user. The changes and onboarding communications may be fully or largely automated.</li><li>These changes and communications are triggered by the service level management practice but need other practices to be fulfilled.</li></ul></td><td><ul><li>When the SLA is confirmed by the parties, the service provider initiates the required changes and communications to make the agreed services available for the user. This may require significant manual and automated changes to all types of the provider’s resources and may also require changes to the consumer resources. In some cases, this will lead to an implementation project or programme.</li><li>These changes and communications are triggered by the service level management practice but need other practices to be fulfilled.</li></ul></td></tr><tr><td><p>SLA review</p></td><td><p>A formal review of the SLA may be interval-based or triggered by an event (such as a customer request, policy change, service review, or organizational change). Where reviews are interval-based, and both the customer and provider are happy with the SLA’s content and terms and conditions, the SLA is usually confirmed for prolongation. If the customer requirements have changed, the process may start again with the definition of requirements. Finally, if the service is no longer needed, SLA withdrawal is initiated.</p></td><td><ul><li>A formal review of the SLA may be interval-based or triggered by an event (such as a customer request, policy change, service review, or organizational change).</li></ul><ul><li>First reviews after initial SLA negotiation may lead to improvements to the SLA wording, with no changes required to the service. Regardless of whether the wording is changed, the amended SLA goes for prolongation. If the customer requirements have changed, the process may start again with the definition of requirements. Finally, if the service is no longer needed, SLA withdrawal is initiated.</li><li>SLA reviews are performed by the customer (sponsor and key users may be involved), together with service provider representatives (typically the service owner and/or relationship manager).</li></ul></td></tr><tr><td><p>SLA prolongation</p></td><td><p>If the SLA is confirmed for prolongation, it may require communications and changes (for example, prolongation of supporting contracts with suppliers). This may be fully or partially automated.</p></td><td><p>These changes and communications are triggered by the service level management practice but need other practices to be fulfilled.</p></td></tr><tr><td><p>SLA withdrawal</p></td><td><ul><li>When the SLA is confirmed for withdrawal, the service provider initiates the required changes and communications to make the agreed services unavailable for the user. The changes and offboarding communications may be fully or partially automated.</li><li>These changes and communications are triggered by the service level management practice but need other practices to be fulfilled.</li></ul></td><td><ul><li>When the SLA is confirmed for withdrawal, the service provider initiates the required changes and communications to make the agreed services unavailable for the user.</li><li>This may require significant manual and automated changes to all types of the provider’s resources and may also require changes to the consumer’s resources. In some cases, this will lead to an offboarding project or programme. These changes and communications are triggered by the service level management practice but need <u>other practices to be fulfilled.</u></li></ul></td></tr></tbody></table>
 
-#### 3.2.2 Oversight of service levels and service quality
+### 3.2.2 Oversight of service levels and service quality
 
 This process is focused on the monitoring and review of the service levels and service quality, rather than the SLA documents. SLAs are used extensively in this process, depending on the quality and completeness of the agreed service level information. In some cases, however, agreements are high level and vague, and service quality is monitored and assessed based on data that is less structured and less objective.
 
@@ -254,7 +254,7 @@ Whichever way the process is carried out, the service provider needs to monitor 
 
 This process includes the activities listed in Table 3.3 and transforms the inputs into outputs.
 
-#### Table 3.3 Inputs, activities, and outputs of the oversight of service levels and service quality
+### Table 3.3 Inputs, activities, and outputs of the oversight of service levels and service quality
 
 | **Key inputs** | **Activities** | **Key outputs** |
 | --- | --- | --- |
@@ -285,7 +285,7 @@ Figure 3.3 shows a workflow diagram of the process.
 
 The oversight process may vary, depending on the level of formalization of the target service level for the services to which it is applied. Table 3.4 provides an overview of these variations.
 
-#### Table 3.4 Activities of the service level and quality oversight process
+### Table 3.4 Activities of the service level and quality oversight process
 
 | **Activity** | **High level of formalization (detailed SLA)** | 
 **Low level of formalization (implied service level and high-level agreement)**
@@ -352,13 +352,13 @@ The service provider produces reports and dashboards demonstrating service level
 
 Service level management activities are performed by the service provider and service consumer, as described in Tables 3.2 and 3.4. They may involve suppliers and partners. These activities are also supported (and sometimes fully or partially automated) by a number of tools and technologies. All are described in the following sections.
 
-## 4. Organizations and people
+# 4. Organizations and people
 
 The ITIL practices do not describe the practice management roles such as practice owner, practice lead, or practice coach. They focus instead on the specialist roles that are specific to each practice. The structure and naming of each role may differ from organization to organization, so any roles defined in ITIL should not be treated as mandatory, or even recommended. Remember, roles are not job titles. One person can take on multiple roles and one role can be assigned to multiple people.
 
 Roles are described in the context of processes and activities. Each role is characterized with a competency profile based on the model shown in Table 4.1.
 
-#### Table 4.1 Competency codes and profiles 
+### Table 4.1 Competency codes and profiles 
 
 | **Competency code** | **Competency profile (activities and skills)** |
 | --- | --- |
@@ -389,7 +389,7 @@ Roles are described in the context of processes and activities. Each role is cha
 
 The role accountable for all service level management activities is usually the service owner. The competency profile for this role in the context of the service level management practice is CLA, though the importance of each of these competencies varies from activity to activity. Examples of the roles which are responsible for service level management activities are listed in Table 4.2, together with the associated competency profiles.
 
-#### Table 4.2 Examples of roles with responsibility for service level management activities
+### Table 4.2 Examples of roles with responsibility for service level management activities
 
 | **Activity****Management of  SLAs process** | **Responsible roles** | **Competency profile** | **Specific skills** |
 | --- | --- | --- | --- |
@@ -613,7 +613,7 @@ Service review
 
  |
 
-#### 4.1.1 Service owner role
+### 4.1.1 Service owner role
 
 The most important role in the service level management practice is the service owner.
 
@@ -636,13 +636,13 @@ The service owner is accountable for the end-to-end management of a specific IT 
 
 The service owner is responsible for the continual improvement and management of change affecting the service for which they are accountable. The service owner is a primary stakeholder in all the underlying ITIL practices which enable and support the service they own.
 
-### 4.2 Organizational structures and teams
+## 4.2 Organizational structures and teams
 
 Although the roles of product owner, service owner, account manager, and relationship manager may be supported with formal positions and job descriptions, it is not common to see a dedicated organizational structure for the service level management practice. Some organizations create committees (service committees, service quality committees, etc.) focused on the strategic and tactical management of service provision. These committees may include service reviews in their agendas, usually at a high level, such as ‘services for private clients’ or ‘services in the North American region’. Similarly, when organizations provide services to external consumers, they are likely to have dedicated customer-facing teams (sales teams, account managers, etc.) focused on the relationship management practice and often heavily involved in service level management activities.
 
-## 5. Information and technology
+# 5. Information and technology
 
-### 5.1 Information exchange: inputs and outputs
+## 5.1 Information exchange: inputs and outputs
 
 The effectiveness of the service level management practice is based on the quality of the information used. This includes, but is not limited to, information about:
 * customers and users
@@ -659,15 +659,15 @@ The effectiveness of the service level management practice is based on the quali
 
 This information may take various forms, depending on the service relationship (internal or external service provision, tailored or out-of-the-box services, etc.). The key inputs and outputs of the practice are listed in section 3.
 
-## 5.2 Automation and tooling
+# 5.2 Automation and tooling
 
 In some cases, the work of the service level management practice can significantly benefit from automation (see section 3 for more details). Where this is the case, and automation is possible and effective, it may involve the solutions outlined in Table 5.1.
 
-#### Table 5.1 Automation solutions for service level management activities
+### Table 5.1 Automation solutions for service level management activities
 
 <table><tbody><tr><td><p><strong>Process activity</strong></p></td><td><p><strong>Means of automation</strong></p></td><td><p><strong>Key functionality</strong></p></td><td><p><strong>Impact on the effectiveness of the practice</strong></p></td></tr><tr><td><p>Management of SLAs process</p></td><td><p>Management of SLAs process</p></td><td><p>Management of SLAs process</p></td></tr><tr><td><p>Definition of customer requirements</p></td><td><p>Service catalogue and service portals</p></td><td><p>Selection of services and service level option to order</p></td><td><p>Very high where the volume of standardized services is high</p></td></tr><tr><td><p>Viability analysis</p></td><td><p>Configuration management database (CMDB), service models, availability and capacity monitoring and management tools, and asset management tools</p></td><td><p>Control of availability and capacity of resources needed to provide the requested services</p></td><td><p>Very high where the volume of standardized services is high</p></td></tr><tr><td><p>Drafting an SLA</p></td><td><p>Contracting tools and service portals</p></td><td><p>Drafting of a quote/SLA</p></td><td><p>High where the volume of standardized services is high, especially if ordered over the internet</p></td></tr><tr><td><p>SLA negotiation</p></td><td><p>Contracting tools, and service portals and apps</p></td><td><p>Selection of alternative options</p></td><td><p>Medium</p></td></tr><tr><td>SLA communication and enablement</td><td><p>Change initiation and control tools, email and other communication channels, billing and payment tools, asset management tools, including licence control, work management tools, user support tools, knowledge management tools, and document repositories</p></td><td><p>Change initiation, asset re-allocation, task assignment, billing and payment processing, training and communication, user support, providing a definitive source of agreed service levels</p></td><td><p>High where the volume of standardized services is high, especially if delivered digitally</p></td></tr><tr><td><p>SLA review<br>SLA prolongation<br>SLA withdrawal</p></td><td><p>Document control tools</p></td><td><p>Control of expiry dates, version control, and archiving of documents</p></td><td><p>Low to high, depending on the volume of documents to manage</p></td></tr><tr><td><p>Oversight of service levels and service quality process</p></td><td><p>Oversight of service levels and service quality process</p></td><td><p>Oversight of service levels and service quality process</p></td><td><p>Oversight of service levels and service quality process</p></td></tr><tr><td><p>Customer and user satisfaction survey</p></td><td><p>Survey tools, analytical tools, communication systems, and social media</p></td><td><p>Distribution and promotion of surveys, collection of feedback, processing of the data, publication of the findings</p></td><td><p>Very high, especially where the number of respondents is high</p></td></tr><tr><td><p>Ongoing service quality monitoring</p></td><td><p>Infrastructure and application monitoring and reporting tools, built-in user behaviour monitoring tools, dashboarding and reporting tools, advanced analytics tools, survey and satisfaction monitoring tools, user portals and apps, and social media</p></td><td><p>Collection of system and service health data, collection of user and customer feedback, processing and analysis, and dashboard and report design and presentation</p></td><td><p>High where the volume of standardized services is high, especially if delivered digitally</p></td></tr><tr><td><p>Service review</p></td><td><p>Reporting tools, contracting tools, and service portals and apps</p></td><td><p>Report presentation, SLA prolongation, and logging of improvement initiatives</p></td><td><p>Low to medium, depending on the volume of standardized services</p></td></tr><tr><td><p>Service quality reporting</p></td><td><p>Reporting and dashboarding tools, service portals and apps, email and other communication tools, and social media</p></td><td><p>Report presentation</p></td><td><p>Low to high, depending on the volume of standardized services and which stakeholders must be reported to</p></td></tr></tbody></table>
 
-## 6. Partners and suppliers
+# 6. Partners and suppliers
 
 Very few services are delivered using only an organization’s own resources. Many organizations depend on services provided by third parties (see section 2.4 of ITIL 4 Foundation: ITIL 4 Edition for a model of a service relationship). Relationships and dependencies introduced by supporting services are described in the practice guides for service design, architecture management, and supplier management. Information about dependencies on third-party services is used in the service level management practice as part of service design information, primarily for the activity of viability analysis. It is also used in improvement planning, especially where service levels have not been met and significant improvements are required.
 
@@ -681,7 +681,7 @@ Another opportunity to delegate the service level management practice to a third
 
 At the same time, using external or outsourced resources as part of an organization’s service level management practice is a very common situation. These may include people, automation tools, and supporting services such as satisfaction surveys and other data collection services. Nonetheless, service ownership and oversight remain a responsibility of the organization.
 
-## 7. Important reminder
+# 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the ITIL Practice guides, organizations should always follow the ITIL guiding principles:
 * focus on value
@@ -694,14 +694,14 @@ Most of the content of the practice guides should be taken as a suggestion of ar
 
 More information on the guiding principles and their application can be found in section 4.3 of *ITIL Foundation: ITIL 4 Edition*.
 
-## 8. Acknowledgements
+# 8. Acknowledgements
 
 Axelos Ltd is grateful to everyone who has contributed to the development of this guidance. These practice guides incorporate an unprecedented level of enthusiasm and feedback from across the ITIL community. In particular, Axelos would like to thank the following people.
 
-### 8.1 Authors
+## 8.1 Authors
 
 Dmitriy Isaychenko, Roman Jouravlev.
 
-### 8.2 Reviewers
+## 8.2 Reviewers
 
 Akshay Anand, Pavel Demin, Sofi Fahlberg, Piia Karvonen, Antonina Klentsova, Mark O’Loughlin, Anton Lykov, Paula Määttänen, Christian F. Nissen, Tatiana Orlova, Elina Pirjanti, Stuart Rance.

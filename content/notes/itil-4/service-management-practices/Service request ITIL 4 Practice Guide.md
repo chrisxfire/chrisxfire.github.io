@@ -5,7 +5,7 @@ draft: true
 weight: 1
 ---
 
-# Overview
+# 1. Overview
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The purpose of the service request management practice is to support the agreed quality of a service by handling all predefined, user-initiated service requests in an effective and user- friendly manner.</td></tr></tbody></table>
 
 Service request management presents a significant value proposition for both the service consuming organization and the service providing organization.
@@ -51,7 +51,7 @@ What an organization defines as a request will depend upon how they define their
 
 Standardized processes (i.e. risk analysis as part of change enablement) should be excluded from consideration as service requests, as well. A team that is evaluating a change is executing change enablement, not service request management. Service request management should define, optimize, and automate fulfilment procedures – not the processes of other practices.
 
-### 2.2 Terms and concepts
+## 2.2 Terms and concepts
 
 The main characteristics of a service request include the following:
 * It is initiated by a user or a user representative.
@@ -64,7 +64,7 @@ Service requests, and their fulfilment, may impact service quality, as well as t
 
 Service requests are a form of user query and a way to initiate certain predefined activities significant to service experience. The same activities may be initiated differently, and although technical operations may be identical, their role in the user experience would be different, as shown in Table 2.1.
 
-###### Table 2.1 Examples of using different records and workflows involving the same operating procedures
+##### Table 2.1 Examples of using different records and workflows involving the same operating procedures
 
 <table><tbody><tr><td><strong>Example</strong></td><td><strong>Records</strong></td><td><strong>Management pr</strong><strong>actices</strong></td></tr><tr><td>A user monitors the status of a printer. When the printer signals ‘low toner’, the user requests toner refill. The service provider’s technician replaces the toner cartridge. Except for the replacement procedure, printing is not interrupted.</td><td>Service request</td><td>Service desk<p>Service request management</p><p>Infrastructure and platform management</p></td></tr><tr><td>IA printer communicates its status and events to the operations team. When a ‘low toner’ event occurs, the service provider’s technician replaces the toner cartridge. Except for the replacement procedure, printing is not interrupted.</td><td>Event</td><td>Monitoring and event management<p>Infrastructure and platform management</p></td></tr><tr><td>In this case, something has gone wrong in the above scenarios. The ‘low toner’ status is not reported in time (the cartridge is not replaced in time, or is replaced incorrectly). The printing is interrupted. Users report the situation to the service provider. The service provider’s technician replaces the toner cartridge. Printing is restored.</td><td>Incident</td><td>Service desk<p>Incident management</p><p>Infrastructure and platform management</p></td></tr></tbody></table>
 
@@ -89,7 +89,7 @@ This service request lifecycle always utilizes multiple practices. A typical val
 
 Other practices may be integrated, as needed. The synergies and procedures for fulfilling every type of service request are documented within service request models.
 
-##### 2.2.1 Service request models
+#### 2.2.1 Service request models
 
 **Definition: Service request model**  
 A repeatable predefined approach to the fulfilment of a particular type of service requests.
@@ -104,7 +104,7 @@ Service request models describe the conditions and procedures for service reques
 
 As service requests are initiated by users or their representatives, they should be available to users in a convenient and actionable way. The most common approach is to include the available service requests in user-facing views of the organization’s service catalogue. Management of the catalogue is within the scope of the service catalogue management practice, but information for it is provided by the service request management practice.
 
-##### 2.2.2 Request catalogue
+#### 2.2.2 Request catalogue
 
 **Definition: Request catalogue**  
 A view of the service catalogue, providing details on service requests for existing and new services, which is made available to the user.
@@ -121,7 +121,7 @@ What the organization defines to be service requests must be contained within th
 
 The service request catalogue view is expected to be tailored for service level agreements (SLAs) that are applicable to the user accessing the view, so that all information reflects the conditions and targets agreed for the user. The more relevant the information in the request catalogue is, the more efficient the service request fulfilment will be, and the higher the user satisfaction. Refer to the service catalogue management practice guide for more information about customizing catalogue views.
 
-###   
+## 
 2.3 Scope
 
 The scope of the service request management practice includes:
@@ -132,11 +132,11 @@ The scope of the service request management practice includes:
 
 There are several activities and areas of responsibilities that are not included in the service request management practice, although they are closely related to service request management. They are listed in Table 2.2, along with references to the practices in which they can be found. Management practices should be combined to form service value streams, as described in section 3.2.  
 
-###### Table 2.2 Activities related to the service request management practice described in other practice guides
+##### Table 2.2 Activities related to the service request management practice described in other practice guides
 
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Practice guide</strong></td></tr><tr><td>Resolving incidents</td><td>Incident management</td></tr><tr><td>Communicating with users</td><td>Service desk</td></tr><tr><td>Management and realization of changes to products and services</td><td>Change enablement<p>Deployment management</p><p>Release management</p></td></tr><tr><td>Monitoring services and technology</td><td>Monitoring and event management</td></tr><tr><td>Ongoing management and implementation of improvements</td><td>Continual improvement</td></tr><tr><td>Management of request catalogue</td><td>Service catalogue management</td></tr><tr><td>Management and provision of access to services</td><td>Information security management</td></tr><tr><td>Creating service request models</td><td>Service design</td></tr></tbody></table>
 
-### 2.4 Practice success factors
+## 2.4 Practice success factors
 
 <table><tbody><tr><td><strong>Definition: Practice success factors</strong></td></tr><tr><td>A complex functional component of a practice that is required for the practice to fulfil its purpose.</td></tr></tbody></table>
 
@@ -147,7 +147,7 @@ The service request management practice includes the following PSFs:
 * ensuring that all service requests are fulfilled according to the agreed procedures and to user satisfaction.  
     
 
-##### 2.4.1 Ensuring that the service request fulfilment procedures for all services are optimized
+#### 2.4.1 Ensuring that the service request fulfilment procedures for all services are optimized
 
 The development of the service request procedures should be integrated early into the product and service lifecycle management. The service request practice should contribute to business analysis, architecture management, and service design activities. Depending on the decisions that are made at those stages, a service may be optimized for a no-request operation or include multiple requests available to users as a part of normal consumption. In the first case, generic requests, such as compliments, complaints, or how-to requests are still available to service users. In the second case, there may be various requests specific to service utility. The fulfilment of these requests becomes an important contributor to service quality. Service requests can also be a differentiator between different levels of service offerings. For example, more requests may be available to users of higher trims of the service.
 
@@ -157,27 +157,27 @@ Service request fulfilment procedures should be subject to continual improvement
 
 Service request fulfilment procedures are documented within the service request models, along with resources, responsibilities, and other relevant information.
 
-##### 2.4.2 Ensuring that all service requests are fulfilled according to the agreed procedures and to user satisfaction
+#### 2.4.2 Ensuring that all service requests are fulfilled according to the agreed procedures and to user satisfaction
 
 If the fulfilment procedures are optimized and documented, and responsibilities are clear, service requests are easy to plan and fulfil. Statistics on every type of request can help to optimize resource planning and to ensure the timely processing of all requests. Unlike incidents, service requests do not need to be fulfilled urgently; they allow for more comfortable planning and should be completed within an agreed timeframe.
 
 Requests may require a review after fulfilment. The review can be limited to a satisfaction survey or include a detailed internal review (usually necessary if something went wrong, or user satisfaction is low).
 
-### 2.5 Key metrics
+## 2.5 Key metrics
 
 The effectiveness and performance of the ITIL practices should be assessed within the context of the value streams to which each practice contributes. As with the performance of any tool, the practice’s performance can only be assessed within the context of its application. However, tools can differ greatly in design and quality, and these differences define a tool’s potential or capability to be effective when used according to its purpose. Further guidance on metrics, key performance indicators (KPIs), and other techniques that can help with this can be found in the measurement and reporting practice guide.
 
 Key metrics for the service request management practice are mapped to its PSFs. They can be used as KPIs in the context of value streams to assess the contribution of the service request practice to the effectiveness and efficiency of those value streams. The key metrics are listed in Table 2.3.
 
-###### Table 2.3 Key metrics for service request management
+##### Table 2.3 Key metrics for service request management
 
 <table><tbody><tr><td><strong>Practice success factors</strong></td><td><strong>Key metrics</strong></td></tr><tr><td>Ensuring that the service request fulfilment procedures for all services are optimized</td><td>Completeness of the service request catalogue; number and percentage of service requests that are not supported with fulfilment procedures<p>Number and percentage of service requests that could not be fulfilled by following the agreed procedure due to errors/inefficiencies in the procedure</p><p>Satisfaction of the team members fulfilling the requests with instructions provided</p><p>Average time and cost needed to fulfil requests (by types/models)</p><p>Percentage of service requests with fully or largely automated fulfilment (number, percentage in the catalogue, percentage in total number, and fulfilment time)</p></td></tr><tr><td>Ensuring that all service requests are fulfilled according to the agreed procedures and to user satisfaction</td><td>Number and percentage of requests fulfilled according to the SLA<p>Impact of incidents caused by the incorrect fulfilment of service requests</p><p>User satisfaction with request fulfilment</p><p>Number and percentage of requests fulfilled with deviations from the agreed procedures</p></td></tr></tbody></table>
 
 The correct aggregation of metrics into complex indicators will make them easier to use for the ongoing management of value streams and for the periodic assessment and continual improvement of the service request management practice. There is no single best solution. Metrics will be based on the overall service strategy and priorities of an organization, as well as on the goals of the value streams to which the practice contributes.
 
-## 3. Value streams and processes
+# 3. Value streams and processes
 
-### 3.1 Processes
+## 3.1 Processes
 
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
@@ -187,11 +187,11 @@ Service request management activities form two processes:
 * service request fulfilment control
 * service request review and optimization.
 
-##### 3.1.1 Service request fulfilment control
+#### 3.1.1 Service request fulfilment control
 
 This process includes the activities listed in Table 3.1 and transforms the inputs into outputs.
 
-######   
+##### 
 Table 3.1 Inputs, activities, and outputs of the service request fulfilment control process
 
 <table><tbody><tr><td><strong>Key inputs</strong></td><td><strong>Activities</strong></td><td><strong>Key outputs</strong></td></tr><tr><td>Service request queries</td><td>Request categorization</td><td>Fulfilled service requests</td></tr><tr><td>Service request models</td><td>Service request model initiation and control</td><td>Fulfilment actions records and reports</td></tr><tr><td>Service level agreements</td><td>Ad hoc fulfilment control</td><td>User satisfaction surveys</td></tr><tr><td>Fulfilment actions records and reports</td><td>Fulfilment review</td><td></td></tr></tbody></table>
@@ -204,15 +204,15 @@ Figure 3.1 Workflow of the service request fulfilment control process
 
 The process may vary depending on the service request model. Table 3.2 provides an example of variations.
 
-###### Table 3.2 Service request fulfilment control process activities
+##### Table 3.2 Service request fulfilment control process activities
 
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Manual or incomplete service request model</strong></td><td><strong>Highly automated service request model</strong></td></tr><tr><td>Request categorization</td><td>All the prerequisites for the service request and user eligibility are checked in a completely or partially manual fashion. Missing information or paperwork is requested from the user.<p>The service desk agent chooses the appropriate service request model.</p></td><td>In a highly automated environment, a service request is automatically checked for all the prerequisites. If additional information or paperwork is needed, the system contacts the user and asks for the missing prerequisites.<p>An appropriate model and set of automated procedures are chosen based on the service request characteristics.</p></td></tr><tr><td>Service request model initiation and control</td><td>The service desk agent may need to manually select the right support team or specialists, according to the service request model. The assigned teams follow the service request fulfilment procedures defined within the model.<p>If necessary, additional approvals are obtained, according to the service request procedures.</p><p>In some cases, several service request tasks need to be fulfilled. Manual assignment and control by the service desk agent is needed, as well as notifications to the user.</p><p>Responsible teams fulfil the entire service request or specific tasks.</p><p>If necessary, the responsible team updates the relevant configuration items.</p><p>Upon fulfilment, the service request is routed to fulfilment review.</p></td><td>Request fulfilment according to the chosen service request model is initiated and the system controls the flow of procedures and scripts invoked to fulfil the request.<p>Upon fulfilment, the service request is routed to fulfilment review.</p></td></tr><tr><td>Ad hoc fulfilment control</td><td>There are cases when fulfilment of a service request requires some non-standard/tailored work, or there are some new circumstances that were not taken into consideration when the service request was planned.<p>When following the procedure will not produce the desired result, the service request is routed for an ad hoc fulfilment.</p><p>Ad hoc fulfilment is an exception and should be treated as such.</p><p>A decision should be made about whether to act upon the exception or simply deny the fulfilment. This decision is usually defined by the service request model and the way the model handles exceptions.</p><p>Regardless of the decision made, details of a case should become an input into the service request model review and optimization process, so that this case is well-defined and added to the model, or additional checks are categorized and added to triage, to sort such cases out of the model.</p></td><td>N/A</td></tr><tr><td>Fulfillment review</td><td>Service request fulfillment is checked according to the service request model.<p>The fulfilment review should be described by the service request model. The fulfilment review may contain some procedures to check to what extent the fulfilment has produced the desired result.</p><p>The fulfilment review may also involve collecting user feedback and measuring user satisfaction.</p><p>The reports and record of the fulfilment review serve as inputs into the service request review and optimization process.</p></td><td>N/A</td></tr></tbody></table>
 
-##### 3.1.2 Service request review and optimization
+#### 3.1.2 Service request review and optimization
 
 The process is focused on the continual improvement of service request models, including their management and execution. It is recommended to perform this process regularly or when trigged by user survey results. This process includes the activities listed in Table 3.3 and transforms the inputs into outputs.
 
-###### Table 3.3 Inputs, activities, and outputs of the service request review and optimization process
+##### Table 3.3 Inputs, activities, and outputs of the service request review and optimization process
 
 <table><tbody><tr><td><strong>Key inputs</strong></td><td><strong>Activities</strong></td><td><strong>Key outputs</strong></td></tr><tr><td>Current service request models<p>User survey results</p><p>Related changes and change models</p><p>Policies and regulatory requirements</p><p>Service catalogue</p><p>Service level agreements</p><p>IT asset information</p><p>CMDB</p><p>Capacity and performance information</p></td><td>Service request records and reports analysis<p>Service request model improvement initiation</p><p>Service request model update communication</p></td><td>Updated service request model<p>Updated service request procedures and working instructions</p></td></tr></tbody></table>
 
@@ -224,14 +224,14 @@ Figure 3.2 Workflow of the service request review and optimization process
 
 Table 3.4 provides a description of the process activities.
 
-###### Table 3.4 Activities of the service request review and optimization process
+##### Table 3.4 Activities of the service request review and optimization process
 
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Description</strong></td></tr><tr><td>Service request records and reports analysis</td><td>The service request practice owner, together with the service owners and other relevant stakeholders, perform a review of the selected service requests and related metrics over the period and/or relevant repeating changes from the change enablement practice. They identify opportunities for new service request models and/or improvement of current service request models.</td></tr><tr><td>Service request model improvement initiation</td><td>The service request practice owner registers the improvement initiatives, which are submitted for processing with the involvement of the continual improvement and/or change enablement practice(s).<p>If testing does not confirm the effectiveness of the proposed service request model, it is returned for further analysis.</p></td></tr><tr><td>Service request model update communication</td><td>If the service request model is successfully updated, it is communicated to the relevant stakeholders. This is usually done by the service request practice owner or the service owner.</td></tr></tbody></table>
 
-###   
+## 
 3.2 Value stream contribution
 
-##### 3.2.1 Service value streams
+#### 3.2.1 Service value streams
 
 To perform certain tasks or respond to situations, organizations create service value streams. These are specific combinations of activities and practices, and each one is designed for a particular scenario.
 
@@ -247,9 +247,9 @@ Many organizations have been following best practice recommendations for various
 
 However, the practices have often been adopted and organized in a siloed, isolated manner, just as they were presented in the service management bodies of knowledge. In reality, a flow of work required to facilitate or enable value for a customer or other stakeholder is almost never limited to just as single practice.  
 
-### 3.2.2 Service request management in the service value streams
+## 3.2.2 Service request management in the service value streams
 
-###### 3.2.2.1 Service request fulfilment value stream
+##### 3.2.2.1 Service request fulfilment value stream
 
 The majority of the service requests received by a service provider cannot be fulfilled solely by the service request management practice. Section 3.1.1 described the activities of request fulfilment control; however, the real-life workflow may include the activities outlined in Table 3.5, which are described within other management practices:
 
@@ -263,7 +263,7 @@ Opportunities to increase value-adding activities can be found across the servic
 
 Value streams should be defined by organizations for all of their products and services. Depending upon the organization’s strategy, value streams can be redefined to react to changing demand and other circumstances, or remain stable for a significant period of time. In any case, they should be continually reviewed and improved to ensure that the organization achieves its objectives in an optimal way.  
 
-###### 3.2.2.2 Service request management in other service value streams
+##### 3.2.2.2 Service request management in other service value streams
 
 The primary value stream involving service request management is described in section 3.2.2.1. Unlike most other practices, service request management is rarely involved in other value streams.
 
@@ -280,9 +280,9 @@ Design and development of a new service may involve both the definition of servi
 
 Similarly, request fulfilment review provides an input into continual improvement which may include redesign of the existing or creation of new request models as part of the improvement of the respective products and services. The service request management practice can be involved in design, planning, and testing of these request models.  
 
-#### 3.2.3 Analyzing a service value stream
+### 3.2.3 Analyzing a service value stream
 
-###### 3.2.3.1 The key steps of a service value stream analysis
+##### 3.2.3.1 The key steps of a service value stream analysis
 
 The following are some simple and practical recommendations for service value stream analysis and mapping:
 * **Identify the scope of the value stream analysis**Service value streams can be mapped to a particular product or service or applied to most or all of them. Similarly, service value streams may differ for different consumers; for example, service requests can be fulfilled and communicated differently for internal and external customers, for B2B and B2C products, or for services based on products that are developed in-house or sourced externally.
@@ -315,7 +315,7 @@ Typically, the criteria for evaluation are:
 * **Create a ‘to be’ VSM** This informs and drives improvement. The value stream should be considered holistically to ensure end-to-end efficiency and value creation, not just local improvements.
 * **Using the ‘to be’ VSM, plan improvements** Refer to the continual improvement practice guide for a practical improvement model.
 
-###### 3.2.3.2 Service request management considerations in a service value stream analysis
+##### 3.2.3.2 Service request management considerations in a service value stream analysis
 
 To ensure that relevant service request management activities are included in service value streams, the following steps can be added to the above recommendations:
 * During scoping (task 1), identify the IT and business services related to the value stream and the involved business stakeholders.
@@ -325,9 +325,9 @@ To ensure that relevant service request management activities are included in se
 * At the reflection and planning steps (tasks 4-5), ensure that the service request management flow is optimized for business value throughout the stream, not only within the service request management practice activities.
 * Include creation or update of service request models (see section 2.3.2) in the value stream improvement plans (task 6).
 
-## 4. Organizations and people
+# 4. Organizations and people
 
-#### 4.1 Roles, competencIes, and responsibilities
+### 4.1 Roles, competencIes, and responsibilities
 
 The practice guides do not describe the practice management roles such as practice owner, practice lead, or practice coach. They focus instead on specialist roles that are specific to each practice. The structure and naming of each role may differ from organization to organization, so any roles defined in ITIL should not be treated as mandatory, or even recommended.
 
@@ -335,7 +335,7 @@ Remember, roles are not job titles. One person can take on multiple roles and on
 
 Roles are described in the context of processes and activities. Each role is characterized by a competency profile based on the model shown in Table 4.1.
 
-###### Table 4.1 Competency codes and profiles
+##### Table 4.1 Competency codes and profiles
 
 <table><tbody><tr><td><strong>Competency code</strong></td><td><strong>Competency profile (activities and skills)</strong></td></tr><tr><td>L</td><td><strong>Leader</strong> Decision-making, delegating, overseeing other activities, providing incentives and motivation, and evaluating outcomes</td></tr><tr><td>A</td><td><strong>Administrator </strong>Assigning and prioritizing tasks, record-keeping, ongoing reporting, and initiating basic improvement</td></tr><tr><td>C</td><td><strong>Coordinator/communicator </strong>Coordinating multiple parties, maintaining communication between stakeholders, and running awareness campaigns</td></tr><tr><td>M</td><td><strong>Methods and techniques expert </strong>Designing and implementing work techniques, documenting procedures, consulting on processes, work analysis, and continual improvement</td></tr><tr><td>T</td><td><strong>Technical expert</strong> Providing technical (subject matter) expertise and conducting expertise-based assignments</td></tr></tbody></table>
 
@@ -343,19 +343,19 @@ There are no specialist roles specific to the service request management practic
 
 Examples of other roles which can be involved in the service request management activities are listed in Table 4.2, together with the associated competency profiles and specific skills.
 
-###### Table 4.2 Examples of roles with responsibility for service request management activities
+##### Table 4.2 Examples of roles with responsibility for service request management activities
 
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Responsible roles</strong></td><td><strong>Competency profile</strong></td><td><strong>Specific skill</strong><strong>s</strong></td></tr><tr><td><em>Service request fulfilment control process</em></td><td></td><td></td><td></td></tr><tr><td>Request categorization</td><td>User support agent<br>Product owner<br>Service owner<br>Technical specialist</td><td>CTM</td><td>Good knowledge of the organization's products and services<p>Knowledge of service catalogue, SLAs, request models</p></td></tr><tr><td>Service request model initiation and control</td><td>User support agent<br>Service owner<br>Technical specialist</td><td>CAT</td><td>Good knowledge of the service request models and of the service provider organization</td></tr><tr><td>Ad hoc fulfilment control</td><td><p>Service owner<br>Technical team leader<br></p></td><td>CTA</td><td>Good knowledge of products, services, and SLAs<p>Understanding of business needs<br>Authoring to assign resources and plan ad hoc work</p></td></tr><tr><td>Fulfilment review</td><td>Service owner<br>Practice owner<br>Practice manager/coordinator</td><td>MCT</td><td>Good knowledge of products, services, and SLAs<p>Understanding of business needs</p><p>Good knowledge of the service request models and of the service provider organization.</p></td></tr><tr><td><em>Service request and review optimization process</em></td><td></td><td></td><td></td></tr><tr><td>Service request records and reports analysis</td><td>Product owner<br>Service owner<br>Practice owner<br>Practice manager/coordinator</td><td>TM</td><td>Good knowledge of the service and products and service request models</td></tr><tr><td>Service request model improvement initiation</td><td>Practice owner<br>Practice manager/coordinator<br>Product owner<br>Service owner<br>Resource owner<br>ITSM tool consultant</td><td>TCA</td><td>Good knowledge of the service, products, and service request models<p>Good knowledge of available tools and methods</p></td></tr><tr><td>Service request model update communication</td><td>Practice owner<br>Practice manager/coordinator<br>Product owner<br>Service owner<br>Resource owner</td><td>C</td><td>Understanding the service request models<p>Communication skills</p></td></tr></tbody></table>
 
-#### 4.2 Organizational structures and teams
+### 4.2 Organizational structures and teams
 
 It is unusual to see dedicated organizational structures for the service request management practice. This practice is integrated into the daily operational activities of service delivery and facilitated by a team or technicians that are defined in advance within the service request model definition. Usually, the same team structures are used for service request management and incident management. Typically, a service desk acts as the initial point of capturing, reviewing, and actioning or escalating service requests. Please refer to the ITIL 4 service desk practice guide for more information.
 
 However, in situations where services include service requests as part of the service utility, and demand is very high, dedicated teams can be formed to process and fulfil all or some specific types of service requests. In many cases, automation can decrease the need for such teams and improve overall service quality.
 
-## 5. Information and technology
+# 5. Information and technology
 
-### 5.1 Information exchange
+## 5.1 Information exchange
 
 The effectiveness of the service request management practice is based on the quality of the information used. This information includes, but is not limited to, information about:
 * Customers, users, and key stakeholders, including service request initiators and any reviewers and/ or approvers
@@ -366,21 +366,21 @@ The effectiveness of the service request management practice is based on the qua
 
 This information may take various forms. The key inputs and outputs of the practice are listed in the value streams and processes section of this guide.
 
-### 5.2 Automation and tooling
+## 5.2 Automation and tooling
 
 The service request management practice can significantly benefit from automation. The term automation is used in this and other ITIL publications to refer to the use of digital technology to enable, support, or enhance various activities. This includes, but is not limited to the full automation of activities where technology solutions remove the need for human intervention. Table 5.1 provides a list of the key automation supporting the practice and their most common application.
 
-###### Table 5.1 Automation solutions for the service request management practice
+##### Table 5.1 Automation solutions for the service request management practice
 
 <table><tbody><tr><td><strong>Automation tools</strong></td><td><strong>Application in service request management</strong></td></tr><tr><td>Workflow management and collaboration tools</td><td>Handling of service requests from initiation to fulfilment and review Design, communication, application, and control of service request models</td></tr><tr><td>Monitoring and event management tools</td><td>Support of service request model execution and control<br>Support of ad hoc request fulfilment</td></tr><tr><td>Publishing tools</td><td>Communication of new and improved service request models</td></tr><tr><td>Social media</td><td>Communication of new and improved service request models</td></tr><tr><td>Analysis and reporting tools</td><td>Practice measurement and reporting</td></tr><tr><td>Work planning and prioritization tools</td><td>Planning and tracking of improvement initiatives</td></tr></tbody></table>
 
 Detailed descriptions of how these tools support the practice’s activities are outlined in Table 5.2.
 
-###### Table 5.2 Details of automation of the service request management activities
+##### Table 5.2 Details of automation of the service request management activities
 
 <table><tbody><tr><td><strong>Process activity</strong></td><td><strong>Means of automation</strong></td><td><strong>Key functionality</strong></td><td><strong>Impact on the e</strong><strong>ffectives of the practice</strong></td></tr><tr><td><em>Service request fulfilment control</em></td><td></td><td></td><td></td></tr><tr><td>Request categorization</td><td>Workflow management and collaboration tools</td><td>Request catalogue management<br>Work assignment<br>Pre-defined routing</td><td>High</td></tr><tr><td>Service request model initiation and control</td><td>Workflow management and collaboration tools</td><td>Work assignment<br>Predefined routing<br>Collaboration, task</td><td>High</td></tr><tr><td>Ad hoc fulfilment control</td><td>Workflow management and collaboration<br>Monitoring and event management tools</td><td>Monitoring work progress<br>Communications<br>Notifications, escalation</td><td>Medium to high</td></tr><tr><td>Fulfilment review</td><td>Workflow management and collaboration tools</td><td>Communication and collaboration<br>Reporting and analytics</td><td>Medium</td></tr><tr><td><em>Service request and review optimization</em></td><td></td><td></td><td></td></tr><tr><td>Service request records and reports analysis</td><td>Analysis and reporting tools</td><td>Statistical analysis of service request workloads and flows</td><td>High</td></tr><tr><td>Service request model improvement initiation</td><td>Workflow management and collaboration tools</td><td>Backlog and workflow management and visualization<br>Communication and collaboration</td><td>Medium to high</td></tr><tr><td>Service request model update communication</td><td>Content management tools<br>Social media<br>Workflow management and collaboration tools</td><td>Mail<br>Push notifications<br>Web portal<br>Awareness posts</td><td>High</td></tr></tbody></table>
 
-##### 5.2.1 Recommendations for automation of service request management
+#### 5.2.1 Recommendations for automation of service request management
 
 The following recommendations can help when applying automation to service request management:
 * **Design for value streams** Some service requests can be fulfilled by one team - potentially the service desk. Others require coordinated actions from multiple groups within and outside the IT service provider. Automation of the full value stream, from request submission to successful fulfilment, rather than just of the initial categorization, is an important requirement. Value streams should be supported by the integration of multiple practices, including service desk, change enablement, release management, knowledge management, and others.
@@ -390,7 +390,7 @@ The following recommendations can help when applying automation to service reque
 * **Ensure that self-help capabilities are available and convenient** Some service requests can be fulfilled by users. User-facing interfaces should be clear, easy to use, informative, and customizable to meet the needs of the organization and the specific requirements of different types of service requests.
 * **Consider leveraging super-users** If the organization is likely to involve super users in the fulfilment of any requests, ensure that the software functionality, rights and permissions, and licensing allow for this accommodation to be both affordable and flexible.
 
-## 6. Partners and suppliers
+# 6. Partners and suppliers
 
 Very few services are delivered using only an organization’s own resources. Most, if not all, depend on other services, often provided by third parties outside the organization (see section 2.4 of ITIL Foundation: ITIL 4 Edition for a model of a service relationship). Relationships and dependencies introduced by supporting services are described in the practice guides for service design, architecture management, and supplier management.
 
@@ -398,7 +398,7 @@ The following sections describe how third parties can support the service reques
 
 Partners and suppliers may support the development, management, and execution of the service request management practice. The potential forms of support are outlined in the following sections.
 
-#### 6.1 Performing service request management activities
+### 6.1 Performing service request management activities
 
 Some service request management activities can be largely or completely performed by a specialized supplier. Due to the characteristics of service requests, such as being pre-defined, pre-approved, and predictable, it is common for organizations to outsource all or part of service request management. It is important to ensure effective integration of third parties in the request-related workflows and information exchange, as well as their adherence to relevant policies. Service request management has a direct impact on user satisfaction and the use of third parties can have both positive and negative impacts on the value of the service.
 
@@ -406,7 +406,7 @@ Service request models should define how third parties are involved in service r
 
 Defined standard interfaces may become an easy way to communicate conditions and requirements for a supplier to become a part of the organization’s ecosystem. The description of such interfaces may include rules of data exchange, tools, and processes that will create a common language in a multi- vendor environment.
 
-##### 6.1.1 Service integration and management
+#### 6.1.1 Service integration and management
 
 Service integration and management (SIAM) refers to an approach whereby organizations manage and integrate multiple suppliers in a value stream. SIAM can be delivered using different models, although the basic concept, that the delivery of outsourced products and services is managed by a single entity, regardless of the number of vendors, remains the same.
 
@@ -429,17 +429,17 @@ Figure 6.1 Service integration models
 
 Where organizations aim to ensure a fast and effective service request management practice, they usually try to agree to close cooperation with their partners and suppliers, removing formal bureaucratic barriers in communication, collaboration, and decision-making. Refer to the supplier management practice guide for more information.
 
-### 6.2 Provision of software tools
+## 6.2 Provision of software tools
 
 Most software tools used for service request management are shared with other practices. However, implementation and use of integrated service management information systems or suites often starts with automating service request management (and service desk) activities. In this case, the owner of the service request management practice and the managers of the teams involved in service request management should define requirements and interact with other teams and practices of the service provider to ensure that the required tools are procured, implemented, and used in an optimal way.
 
-### 6.3 Consulting and advisory
+## 6.3 Consulting and advisory
 
 Specialized suppliers who have developed expertise in service request management can help establish and develop the practice, adopt methods and techniques (such as automation), and initially develop service request models.
 
-## 7. Capability assessment and development
+# 7. Capability assessment and development
 
-### 7.1 The practice capability levels
+## 7.1 The practice capability levels
 
 The practice success factors described in section 2.4 cannot be accomplished overnight. The ITIL maturity model defines the following capability levels applicable to any management practice:
 **Level 1** The practice is not well organized; it is performed as initial or intuitive. It may occasionally or partially achieve its purpose through an incomplete set of activities.
@@ -464,13 +464,13 @@ This approach results in every practice having up to 30 capability criteria base
 
 Table 7.1 outlines the capability criteria that are defined in the ITIL maturity model for the service request management practice.  
 
-###### Table 7.1 Service request management capability criteria
+##### Table 7.1 Service request management capability criteria
 
 <table><tbody><tr><td><strong>PSF</strong></td><td><strong>Criterion</strong></td><td><strong>Dimensions</strong></td><td><strong>Capability level</strong></td></tr><tr><td>Ensuring that the service request fulfilment procedures for all services are optimized</td><td>Service request fulfilment procedures are defined and agreed for the key user-facing services</td><td>Value streams and processes</td><td>2</td></tr><tr><td></td><td>Responsibilities for request fulfilment are clearly defined</td><td>Value streams and processes</td><td>3</td></tr><tr><td></td><td>Service request fulfilment procedures are aligned with relevant standards and approaches adopted by the organization</td><td>Value streams and processes</td><td>4</td></tr><tr><td></td><td>The effectiveness of the service request fulfilment procedures is monitored and evaluated</td><td>Value streams and processes</td><td>4</td></tr><tr><td></td><td>Service request fulfilment procedures are regularly reviewed and continually improved</td><td>Value streams and processes</td><td>5</td></tr><tr><td>Ensuring that all service requests are fulfilled according to the agreed procedures and to user satisfaction</td><td>Service requests are usually fulfilled within agreed service levels</td><td>Value streams and processes</td><td>2</td></tr><tr><td></td><td>User satisfaction with fulfilment of service requests is measured and reported</td><td>Value streams and processes</td><td>2</td></tr><tr><td></td><td>The competencies requires to fulfil and manage service requests are identified, and qualified human resources are available</td><td>Organizations and people</td><td>3</td></tr><tr><td></td><td>Communication and other technology solutions to fulfil and manage service requests are identified and implemented</td><td>Information and technology</td><td>3</td></tr><tr><td></td><td>Third-party services required to fulfil and manage service requests are identified and available</td><td>Partners and suppliers</td><td>3</td></tr><tr><td></td><td>The effectiveness, efficiency, and user satisfaction with request fulfilment are measured and assessed in the context of the value streams</td><td>Value streams and processes</td><td>4</td></tr><tr><td></td><td>Request fulfilment is regularly reviewed and continually improved</td><td>Value streams and processes</td><td>5</td></tr></tbody></table>
 
 These capability criteria can be used by organizations for self-assessment and improvement of the practice.
 
-### 7.2 Capability self-assessment
+## 7.2 Capability self-assessment
 
 The self-assessment can be conducted by the service provider’s internal audit team, if the service provider has one, or by the respective team of the parent organization. If there is no specialized team within the organization, the assessment can be done by a team of practice owners and managers responsible for other management practices of the service provider, or a mixed team of the service provider’s executive leaders and managers.
 
@@ -482,7 +482,7 @@ To perform a quick self-assessment using the capability criteria, the following 
 4.  If not all criteria of level 2 are met, the practice is considered to be at level 1. Focus on the criteria that are not met. What is missing in the organization? Why? How can it affect service request management and fulfilment? What can be done to meet the criteria that are currently missed?
 5.  The same approach is applied at every next level; the practice is considered to be at the level where all criteria are met. It is important to focus on the missing capabilities and improvement opportunities, rather than on a formal achievement of a high capability level.
 
-### 7.3 Service request management capability development
+## 7.3 Service request management capability development
 
 Management practices should support achievement of the organization’s objectives and enable creation of value for the stakeholders. Depending on the service provider’s strategy, positioning, and business and operating models, some practices may be more important and therefore require a higher level of capability. There is no organization that requires all management practices to be at capability level 5. Higher capability level provides higher assurance of the fulfilment of the practice’s purpose, but it comes at a price: the cost of management, automation, and training, for example. To achieve optimal performance with sufficient levels of assurance, organizations should define a target capability level for each management practice.
 
@@ -492,11 +492,11 @@ Figure 7.2 and table 7.2 show the capability development model, which can be app
 
 Figure 7.2 The capability development steps and levels
 
-###### Table 7.2 The service request management capability development steps
+##### Table 7.2 The service request management capability development steps
 
 <table><tbody><tr><td><strong>Capability level</strong></td><td><strong>Define, agree, and implement</strong></td><td><strong>Comment for service request management</strong></td><td><strong>Chapter (for recommendation</strong><strong>s)</strong></td></tr><tr><td>2</td><td>Purpose and objectives<br><span>Scope</span></td><td>Key stakeholder groups</td><td>2.1<br>2.3</td></tr><tr><td></td><td>Process and activities<p>Roles and responsibilities</p><p>Tools and procedures</p></td><td>Workflows; service request models; service request catalogue; roles and responsibilities; automation and information</td><td>3<br>4<br>5</td></tr><tr><td>3</td><td>Dependencies and integration</td><td>Use of an integrated information system<br>Suppliers and other parties involved in service request management</td><td>5<br>6</td></tr><tr><td>4</td><td>Measurement and reporting</td><td>Metrics</td><td>2.5</td></tr><tr><td>5</td><td>Continual improvement</td><td>Regular review of the practice and the progress of the development of the capability</td><td>2.4, 2.5, 7</td></tr></tbody></table>
 
-## 8. Recommendations for practice success
+# 8. Recommendations for practice success
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
 * focus on value
@@ -511,22 +511,22 @@ More information on the guiding principles and their application can be found in
 
 Table 8.1 outlines recommendations for the success of the service request management practice, linked to the relevant guiding principles.
 
-###### Table 8.1 Recommendations for the success of service request management
+##### Table 8.1 Recommendations for the success of service request management
 
 <table><tbody><tr><td><strong>R</strong><strong>ecommendations</strong></td><td><strong>Comments</strong></td><td><strong>ITIL guiding principles</strong></td></tr><tr><td>Focus on value for users</td><td>The practice should enable users to use IT services and enable business value; it should not be used solely to delegate the IT maintenance responsibilities of users.</td><td>Focus on value</td></tr><tr><td>Ensure clear and user-friendly interfaces and procedures</td><td>Service request management is an important touchpoint in the service relationship. It impacts the overall user experience as well as the image of the service provider.</td><td>Collaborate and promote visibility<br>Keep it simple and practical</td></tr><tr><td>Consider monitoring and event management for maintenance-focused events</td><td>Where possible, use monitoring to detect the need for regular maintenance, rather than delegate it to users. Allow users to focus on using the services, not on servicing the technology.</td><td>Focus on value<br>Optimize and automate</td></tr><tr><td>Focus on the service value stream</td><td>The fulfillment of service requests may involve other management practices such as: change enablement, deployment management, release management, information security management, and others. Manage the end-to-end service value stream, ensuring that the flow is seamless for both users and IT teams,</td><td>Think and work holistically<br>Focus on value</td></tr><tr><td>Start with the most popular service requests</td><td>If complete and current service and request catalogues do not yet exist, start with the most popular requests received by the service desk. Understand and optimize their fulfilment, then proceed to the second most popular, and so on</td><td>Start where you are<br>Progress iteratively with feedback</td></tr><tr><td>Include feedback capturing in all service request models</td><td>Continually capture and analyse user feedback and improve the service request models accordingly. Use service request management to demonstrate a commitment to continual improvement</td><td>Progress iteratively with feedback</td></tr></tbody></table>
 
-## 9. Acknowledgements
+# 9. Acknowledgements
 
 PeopleCert is grateful to everyone who has contributed to the development of this guidance. These practice guides incorporate an unprecedented level of enthusiasm and feedback from across the ITIL community. In particular, PeopleCert would like to thank the following people.
 
-##### Authors
+#### Authors
 
 Miroslav Hlohovsky, Don Page, Robert Pinnington
 
-##### Reviewers
+#### Reviewers
 
 Dinara Adyrbayeva, Cheryl Grimes, Roman Jouravlev, Georges Kemmerling, Henny Kerkvliet, Niels Loader, Anton Lykov, Paulo Tourinho
 
-##### 2023 Revision
+#### 2023 Revision
 
 David Cannon, Antonina Douannes, Peter Farenden, Adam Griffith, Roman Jouravlev, Kaimar Karu, Barclay Rae, Stuart Rance, Nicola Reeves

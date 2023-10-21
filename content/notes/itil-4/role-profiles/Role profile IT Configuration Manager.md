@@ -5,13 +5,13 @@ draft: true
 weight: 1
 ---
 
-## Role profile: IT Configuration Manager
+# Role profile: IT Configuration Manager
 
 This profile describes the roles and responsibilities of a IT Configuration Manager, Asset Manager or Configuration Engineer.
 
-## 1. Job purpose and responsibilities
+# 1. Job purpose and responsibilities
 
-#### 1.1 Job Purpose
+### 1.1 Job Purpose
 
 Being able to provide 100% accurate information about the IT configuration is critical for planning, for resolution of incidents and to ensure continuity of service with recovery plans. You will manage this complex dataset for accuracy, and provide actionable and useful information to the IT teams.
 
@@ -19,27 +19,27 @@ As IT Configuration Manager, you will have responsibility for the identification
 
 You will be responsible for tracking configuration items through their full lifecycle from requisition through to retirement, and will play a role in optimizing technology spend and procurement, and for developing the processes, systems and tools for asset/configuration management.
 
-#### 1.2 Job responsibilities
+### 1.2 Job responsibilities
 
 * Devise and implement processes and procedures for tracking assets (e.g. hardware, software, licences and warranties)
 * Populate and manage the configuration management database (check-in, check-out, tagging)
 * Track each asset in order to maintain warranty information, refresh and renewal dates
 * Identify savings opportunities for renewals and software licensing.
 
-## 2. Skills and qualifications
+# 2. Skills and qualifications
 
-#### 2.1 Job Skills
+### 2.1 Job Skills
 
 A thorough understanding of configuration concepts and tools, strong organizational and communication skills and keen attention to detail are all critical in this role.
 
 Key skills you will need include:
 
 | 
-##### **Skill**
+#### **Skill**
 
  | 
 
-##### **You should be able to:**
+#### **You should be able to:**
 
  |
 | --- | --- |
@@ -131,7 +131,7 @@ Leadership and Teamwork
 
  |
 
-#### 2.2 Relevant qualifications
+### 2.2 Relevant qualifications
 
 * [ITIL<sup>®</sup> 4: Create, Deliver and Support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
 * [ITIL<sup>®</sup> 4: High-velocity IT](https://www.axelos.com/certifications/itil-service-management/managing-professional/high-velocity-it)

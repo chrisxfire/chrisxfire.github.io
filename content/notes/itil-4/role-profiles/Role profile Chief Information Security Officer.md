@@ -7,9 +7,9 @@ weight: 1
 
 This profile describes the roles and responsibilities of a Chief Information Security Officer or Supervisory IT Specialist (Security).
 
-## 1. Job purpose and responsibilities
+# 1. Job purpose and responsibilities
 
-#### 1.1 Job Purpose
+### 1.1 Job Purpose
 
 As the senior level executive with overall responsibility to safeguard the IT infrastructure of the business and any privileged or proprietary information that the business possesses, your influence reaches the whole organization.
 
@@ -17,7 +17,7 @@ This is a wide mandate that begins with responsibility for physical and software
 
 Depending on the size and complexity of the organization, the CISO may manage a team of security analysts and security managers.
 
-#### 1.2 Job responsibilities
+### 1.2 Job responsibilities
 
 * Create and maintain the enterprise security architecture design
 * Oversee development of information security policies, standards, baselines, guidelines and procedures
@@ -25,9 +25,9 @@ Depending on the size and complexity of the organization, the CISO may manage a 
 * Ensure the promotion of the IT security policy and that the organization meets all mandated security and compliance materials
 * Coordinate work with all suppliers, contractors and consultants to maintain and enhance data security.
 
-## 2. Skills and qualifications
+# 2. Skills and qualifications
 
-#### 2.1 Job Skills
+### 2.1 Job Skills
 
 As with other Executive roles you will need a blend of business and technical skills. These include:
 
@@ -113,7 +113,7 @@ Leadership and Teamwork
 
  |
 
-#### 2.2 Relevant qualifications
+### 2.2 Relevant qualifications
 
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)

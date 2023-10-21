@@ -5,7 +5,7 @@ draft: true
 weight: 1
 ---
 
-#### 1.1 Job purpose
+### 1.1 Job purpose
 
 As a specialist in application support, you will provide support for the live application software that business users are dependent on. Usually you will be working on incidents that have been escalated from frontline support on the service desk. You will be responsible for diagnosing the root cause of the incident and either fixing the problem or managing it through to resolution within defined service levels.
 
@@ -15,14 +15,14 @@ You will be an expert in the application or group of applications assigned to yo
 
 You will help with training of new staff and will provide expert advice to the business, and to staff on the service desk.
 
-#### 1.2 Job responsibilities
+### 1.2 Job responsibilities
 
 * Investigate, diagnose and solve application-related problems
 * Install and upgrade software
 * Schedule installation work to meet priorities and minimize disruption
 * Maintain security and functionality through application of programme temporary fixes.
 
-#### 2.1 Job Skills
+### 2.1 Job Skills
 
 You will need the ability to get up to speed quickly with the application or group of applications you are responsible for, the problems they tend to have and how to fix them.
 
@@ -99,7 +99,7 @@ Communication and Knowledge Sharing
 
  |
 
-#### 2.2 Relevant qualifications
+### 2.2 Relevant qualifications
 
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Create, Deliver and Support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)

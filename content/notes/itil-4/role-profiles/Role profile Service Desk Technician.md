@@ -5,22 +5,22 @@ draft: true
 weight: 1
 ---
 
-#### 1.1 Job Purpose
+### 1.1 Job Purpose
 
 You will be the initial port of call for providing technical support to end-users who need assistance with their computer hardware or software. This could involve fixing a technical fault, answering a query, fulfilling a service request – anything that is needed to allow the user to return to work satisfactorily. You will also assist with user rights, passwords, user accounts and basic level security administration.
 
 You’ll be committed to delivering excellent customer service. Your strong communication skills will help you to diagnose the user’s issue and to explain technical issues in way that non-experts can understand. Most of your work will take place over the phone, by email and through fault finding programmes that enable you to diagnose and fix customer problems remotely.
 
-#### 1.2 Job responsibilities
+### 1.2 Job responsibilities
 
 * Identify and diagnose issues and problems
 * Advise users on action to take
 * Categorize and record reported queries
 * Escalate unresolved problems.
 
-## Skills and qualifications
+# Skills and qualifications
 
-#### 2.1 Job Skills
+### 2.1 Job Skills
 
 Key skills you will need include:
 
@@ -100,7 +100,7 @@ Key skills you will need include:
 
  |
 
-#### 2.2 Relevant qualifications
+### 2.2 Relevant qualifications
 
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)

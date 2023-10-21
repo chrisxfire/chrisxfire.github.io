@@ -5,7 +5,7 @@ draft: true
 weight: 1
 ---
 
-#### 1.1 Job Purpose
+### 1.1 Job Purpose
 
 This is a key role with responsibility for ensuring that there are plans in place for the organization to continue to function in the event of a disaster or catastrophic event.
 
@@ -15,7 +15,7 @@ You will work closely with the IT Security Manager and IT Architects to develop 
 
 Critically the plan needs to be workable, and you will coordinate testing of the plan, and be responsible for keeping it up to date as changes take place and as new risks emerge in the business.
 
-#### 2.2 Job responsibilities
+### 2.2 Job responsibilities
 
 * Scenario planning and risk assessment
 * Prioritize the businesses to be recovered
@@ -24,7 +24,7 @@ Critically the plan needs to be workable, and you will coordinate testing of the
 * Make sure all IT staff with responsibilities for fighting disasters are aware of their responsibilities
 * Develop status reports on actions being taken to reduce vulnerability.
 
-## 2.1 Job Skills
+# 2.1 Job Skills
 
 You will be an experienced IT professional, with a good understanding of the sector in which the organization operates.
 
@@ -104,7 +104,7 @@ Planning and organization
 
  |
 
-#### 2.2 Relevant qualifications
+### 2.2 Relevant qualifications
 
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)

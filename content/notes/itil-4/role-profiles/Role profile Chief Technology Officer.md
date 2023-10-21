@@ -7,33 +7,33 @@ weight: 1
 
 This profile describes the roles and responsibilities of a Chief Technology Officer, Head of IT or IT Director.
 
-## 1. Job purpose and responsibilities
+# 1. Job purpose and responsibilities
 
-#### 1.1 Job Purpose
+### 1.1 Job Purpose
 
 As Chief Technology Officer (CTO), your challenge is to make the right technology choices for the organization. You need to research potential changes in the world of technology, strategically examine the needs of the organization, and be able to orchestrate short and long term plans to ensure that the organization remains productive, competitive, and progressive within the marketplace.
 
 You will have a detailed knowledge of the organization’s IT infrastructure and the skills to shape the organization’s development strategy. Integrating these technology-based activities into the corporate strategy requires the ability to nurture effective relationships with key people throughout the company, and the tactical managerial skills to lead the IT team in attaining the company’s technology goals.
 
-#### 1.2 Job responsibilities
+### 1.2 Job responsibilities
 
 * Set overall technology standards and practices
 * Make recommendations on technology solutions to senior managers
 * Manage the implementation of technology systems, and monitor their effectiveness
 * Provide technical leadership.
 
-## 2. Skills and qualifications
+# 2. Skills and qualifications
 
-#### 2.1  Job Skills
+### 2.1  Job Skills
 
 Key skills you will need include:
 
 | 
-##### **Skill**
+#### **Skill**
 
  | 
 
-##### **You should be able to:**
+#### **You should be able to:**
 
  |
 | --- | --- |
@@ -107,7 +107,7 @@ Planning and Organisation
 
  |
 
-#### 2.2 Relevant qualifications
+### 2.2 Relevant qualifications
 
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
