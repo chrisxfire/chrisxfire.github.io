@@ -331,9 +331,7 @@ Like any other ITIL management practice, service continuity management contribut
 
 The contribution of the service continuity management practice to the service value chain is shown in Figure 3.1.
 
-![](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Service_value_stream_service_continuity_management.png)
-
-**Figure 3.1 Heat map of the contribution of the service continuity management practice to value chain activities**
+![Figure 3.1 Heat map of the contribution of the service continuity management practice to value chain activities](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Service_value_stream_service_continuity_management.png)
 
 ## **3.2 Processes**
 
@@ -358,9 +356,7 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_3.2_continuity_management.png)
-
-**Figure 3.2 Workflow for the governance of service continuity management**
+![Figure 3.2 Workflow for the governance of service continuity management](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_3.2_continuity_management.png)
 
 These activities may be carried out with varying levels of formality by many people in the organization. Table 3.2 describes these activities further.
 
@@ -378,9 +374,7 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 Figure 3.3 shows a workflow diagram of the process
 
-![](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_3.3_Workflow_of_the_business_impact_analysis_process.png)
-
-**Figure 3.3 Workflow of the business impact analysis process**
+![Figure 3.3 Workflow of the business impact analysis process](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_3.3_Workflow_of_the_business_impact_analysis_process.png)
 
 These activities may be carried out with varying levels of formality by many people in the organization. Table 3.4 outlines these activities further.
 
@@ -398,9 +392,7 @@ This process includes the activities listed in Table 3.5 and transforms the inpu
 
 Figure 3.4 shows a workflow diagram of the process.
 
-![](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_3.4_Workflow_of_the_developing_and_maintaining_service_continuity_plans_process.png)
-
-**Figure 3.4 Workflow of the developing and maintaining service continuity plans process**
+![Figure 3.4 Workflow of the developing and maintaining service continuity plans process](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_3.4_Workflow_of_the_developing_and_maintaining_service_continuity_plans_process.png)
 
 These activities may be carried out with varying levels of formality by many people in the organization. Table 3.6 outlines these activities further.
 
@@ -418,9 +410,7 @@ This process includes the activities listed in Table 3.7 and transforms the inpu
 
 Figure 3.5 shows a workflow diagram of the process.
 
-![](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/figure_3.5_service_continuity_management.png)
-
-**Figure 3.5 Workflow of the testing service continuity plans process**
+![Figure 3.5 Workflow of the testing service continuity plans process](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/figure_3.5_service_continuity_management.png)
 
 These activities may be carried out with varying levels of formality by many people in the organization. Table 3.8 outlines these activities further.
 
@@ -438,9 +428,7 @@ This process includes the activities described in Table 3.9 and transforms input
 
 Figure 3.6 shows a workflow diagram of the process.
 
-![](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_3.6_service_continuity_management.png)
-
-**Figure 3.6 Workflow of the response and recovery process.**
+![Figure 3.6 Workflow of the response and recovery process.](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_3.6_service_continuity_management.png)
 
 These activities may be carried out with varying levels of formality by many people in the organization. Table 3.10 outlines these activities further.
 

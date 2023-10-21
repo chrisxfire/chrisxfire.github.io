@@ -166,13 +166,9 @@ Like any other ITIL management practice, software development and management con
 * obtain/build
 * deliver and support.
 
-![](ITIL%204%20Practice%20Guide/Picture1newnew.jpg)
+![Figure 3.1 Heat map showing the main value chain activities, to which software development and management contribute.](ITIL%204%20Practice%20Guide/Picture1newnew.jpg)
 
-**Figure 3.1 Heat map showing the main value chain activities, to which software development and management contribute.**
-
-![](ITIL%204%20Practice%20Guide/Picture2.png)
-
-**Figure 3.2 Code, build and run correspond with the service value chain activities obtain/build and deliver and support**
+![Figure 3.2 Code, build and run correspond with the service value chain activities obtain/build and deliver and support](ITIL%204%20Practice%20Guide/Picture2.png)
 
 ## 3.2 Processes
 
@@ -286,9 +282,7 @@ Effective information exchange is essential for the success of the software deve
 
 Requirements, support requests, and incidents are the primary input for software development and management, and access to and information about the operational application are the primary output.
 
-![](ITIL%204%20Practice%20Guide/20190910_Software_development_and_management_input_and_output.png)
-
-**Figure 5.1 software development and management input and output**
+![Figure 5.1 software development and management input and output](ITIL%204%20Practice%20Guide/20190910_Software_development_and_management_input_and_output.png)
 
 It is important information exchange is clear and reliable. It should be designed to be efficient both among team members, possibly widely distributed geographically, and also with external teams.
 

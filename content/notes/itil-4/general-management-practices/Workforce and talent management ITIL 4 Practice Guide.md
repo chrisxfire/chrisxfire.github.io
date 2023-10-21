@@ -200,9 +200,7 @@ The organizational culture is an important part of an organization’s identity,
 
 Culture maps are described in *ITIL® 4: Drive Stakeholder Value* as a useful tool for designing products and services for different audiences. Culture maps are also useful in organizational design, where organizations have significant cultural diversity. Figure 2.5 shows the culture of two groups of people mapped to eight dimensions to identify similarities and differences. In this figure, each dimension is represented as a spectrum of opposite extremes.<sup>11</sup>
 
-![](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture1.1.png)
-
-**Figure 2.5 Culture maps comparing similarities and differences**
+![Figure 2.5 Culture maps comparing similarities and differences](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture1.1.png)
 
 The workforce and talent management practice, in conjunction with other practices (including the strategy management and relationship management practices, among others) ensures that the culture of an organization is based on shared and clearly articulated values and principles and that the cultural differences are effectively addressed. Organizations should embrace and inspire diversity, including cultural diversity and diversity in personal background.
 
@@ -358,9 +356,7 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/chart_workforce_and_talent_management.png)
-
-**Figure 3.2 Workflow of the organizational planning process**
+![Figure 3.2 Workflow of the organizational planning process](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/chart_workforce_and_talent_management.png)
 
 Table 3.2 provides examples of the activities of the organizational planning process
 

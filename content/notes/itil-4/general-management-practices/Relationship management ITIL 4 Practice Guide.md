@@ -255,9 +255,7 @@ The relationship management practice contributes to all value streams. It is imp
 
 The contribution of the relationship management practice to the service value chain is shown in Figure 3.1.
 
-![](Relationship%20management%20ITIL%204%20Practice%20Guide/Relationship_management_heat_map.gif)
-
-**Figure 3.1 Heat map of the contribution of the relationship management practice to value chain activities**
+![Figure 3.1 Heat map of the contribution of the relationship management practice to value chain activities](Relationship%20management%20ITIL%204%20Practice%20Guide/Relationship_management_heat_map.gif)
 
 ## 3.2 Processes
 

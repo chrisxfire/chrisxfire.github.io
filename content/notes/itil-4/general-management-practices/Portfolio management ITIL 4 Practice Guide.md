@@ -22,9 +22,7 @@ Portfolio management encompasses several portfolios, including:
 
 Portfolios can also be created to manage resources (for example: applications), customer groups, business segments, and so on. The key concepts behind portfolio management are the same regardless of the items being managed in the portfolio; it helps to achieve optimal return on the investment from a holistic system of assets, as Figure 2.1 shows.
 
-![](Portfolio%20management%20ITIL%204%20Practice%20Guide/Portfolio_management.png)
-
-**Figure 2.1 Organization’s portfolios enable return on investments**
+![Figure 2.1 Organization’s portfolios enable return on investments](Portfolio%20management%20ITIL%204%20Practice%20Guide/Portfolio_management.png)
 
 The portfolio management practice can be applied at every level of an organization. Every team should decide how best to distribute existing or potential resources among new and ongoing initiatives.
 

@@ -238,9 +238,7 @@ The continual improvement practice is unique in that it contributes to the value
 
 The contribution of the continual improvement practice to the service value chain is shown in Figure 3.1.
 
-![](Continual%20improvement%20ITIL%204%20Practice%20Guide/Picture2.jpg)
-
-**Figure 3.1 Heat map of the contribution of the problem management practice to value****chain activities**
+![Figure 3.1 Heat map of the contribution of the problem management practice to value****chain activities](Continual%20improvement%20ITIL%204%20Practice%20Guide/Picture2.jpg)
 
 ## 
 3.2 Processes

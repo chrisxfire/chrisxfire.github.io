@@ -107,9 +107,7 @@ Managing suppliers involves ensuring that contracts are cost effective and provi
 
 Every organization acts as a service provider and as a service consumer. Service relationships with suppliers follow the same journey as service relationships with the organization’s service consumers, although the journey is perceived from the other side. The service relationship journey steps are shown in Figure 2.1 (see section 1.2 of *ITIL*<sup><em>®</em></sup> *4: Drive Stakeholder Value* for more details on the service relationship journey).
 
-![](Supplier%20management%20ITIL%204%20Practice%20Guide/Figure_2.1.png)
-
-**Figure 2.1 The service relationship journey**
+![Figure 2.1 The service relationship journey](Supplier%20management%20ITIL%204%20Practice%20Guide/Figure_2.1.png)
 
 When organizations act as the service consumer, they follow the customer’s side of the journey, and suppliers follow the service provider’s side. Each step of the journey should be supported with procedures, skills and competencies, information, and tools; sometimes external services are used too. Many of these are considered part of the supplier management practice, but input from and the involvement of other practices is needed at every step, as is shown in Table 2.2.  
 

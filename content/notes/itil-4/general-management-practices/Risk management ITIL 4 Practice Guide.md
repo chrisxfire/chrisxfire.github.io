@@ -191,9 +191,7 @@ The analysis of risks involves understanding the likelihood and potential impact
 
 Qualitative risk analysis uses a simple scale, such as high, medium or low to distinguish between different levels of likelihood and impact. Qualitative risk analysis will often utilize a table, which is used to derive an overall risk level from the levels of impact and likelihood, as shown in Figure 2.1.
 
-![](Risk%20management%20ITIL%204%20Practice%20Guide/20190910_Practice_Risk_Management_Example_matrix_for_qualitative_risk_analysis.png)
-
-**Figure 2.1 Example matrix for qualitative risk analysis**
+![Figure 2.1 Example matrix for qualitative risk analysis](Risk%20management%20ITIL%204%20Practice%20Guide/20190910_Practice_Risk_Management_Example_matrix_for_qualitative_risk_analysis.png)
 
 The output of this risk analysis determines the level of risk which is documented in a risk register and used to decide the required risk treatment. In the example in figure 2.1, a risk that has a medium likelihood and a high impact would be rated as a high risk. This result is specific to the organization and cannot be compared with risk analysis from a different organization.
 
@@ -249,9 +247,7 @@ Each practice may include one or more processes and activities that may be neces
 
 <table><tbody><tr><td></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
-![](Risk%20management%20ITIL%204%20Practice%20Guide/Picture2_(1).jpg)
-
-**Figure 3.1 Heat map of the contribution of the risk management practice to value chain activities**
+![Figure 3.1 Heat map of the contribution of the risk management practice to value chain activities](Risk%20management%20ITIL%204%20Practice%20Guide/Picture2_(1).jpg)
 
 Risk management activities form three processes:
 * governance of risk management
@@ -268,9 +264,7 @@ This process includes the activities listed in Table 3.1 and transforms the foll
 
 Figure 3.2 Shows a workflow process
 
-![](Risk%20management%20ITIL%204%20Practice%20Guide/Picture3_(1).jpg)
-
-**Figure 3.2 Workflow of the governance of the risk management process**
+![Figure 3.2 Workflow of the governance of the risk management process](Risk%20management%20ITIL%204%20Practice%20Guide/Picture3_(1).jpg)
 
 Many of the governance activities required for a successful risk management are not specific to the risk management practice. These activities are required by the governing body in order to govern the organization.
 
@@ -288,9 +282,7 @@ This process includes the activities listed in Table 3.3, and transforms the inp
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![](Risk%20management%20ITIL%204%20Practice%20Guide/Picture4_(1).png)
-
-**Figure 3.3 Workflow of the risk identification, analysis, and treatment process**
+![Figure 3.3 Workflow of the risk identification, analysis, and treatment process](Risk%20management%20ITIL%204%20Practice%20Guide/Picture4_(1).png)
 
 These activities may be performed by many people in the organization, with varying levels of formality. This is shown in Table 3.4.
 
@@ -308,9 +300,7 @@ This process includes the activities listed in Table 3.5, and transforms the fol
 
 Figure 3.4 shows a workflow diagram of the risk monitoring and review process
 
-![](Risk%20management%20ITIL%204%20Practice%20Guide/Picture5_(1).png)
-
-**Figure 3.4 Workflow of the risk monitoring and review process**
+![Figure 3.4 Workflow of the risk monitoring and review process](Risk%20management%20ITIL%204%20Practice%20Guide/Picture5_(1).png)
 
 ### Table 3.6 Activities of the risk monitoring and review process
 

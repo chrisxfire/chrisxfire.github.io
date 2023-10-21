@@ -720,9 +720,7 @@ For each practice, the ITIL maturity model defines criteria for every capability
 
 Each criterion is mapped to one of the four dimensions of service management and to the supported capability level. The higher the capability level, the more comprehensive realization of the practice is expected. For example, criteria related to practice automation are typically defined at levels 3 or higher because effective automation is only possible if the practice is well-defined and organized.
 
-![](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Figure_7.1.PNG)
-
-**Figure 7.1 Design of the capability criteria**
+![Figure 7.1 Design of the capability criteria](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Figure_7.1.PNG)
 
 This approach results in every practice having up to 30 capability criteria based on the practice PSFs and mapped to the four dimensions of service management. The number of criteria at each level differs: the four dimensions are comprehensively covered starting from level 3, so this level typically has more criteria than others.
 
@@ -756,9 +754,7 @@ Management practices should support the achievement of the organization’s obje
 
 Figure 7.2 and Table 7.2 show the capability development model, which can be applied to every management practice. The structure of this publication is aligned with the development steps.
 
-![](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Figure_7.2.PNG)
-
-**Figure 7.2 The capability development steps and levels**
+![Figure 7.2 The capability development steps and levels](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Figure_7.2.PNG)
 
 Table 7.2 The service configuration management capability development steps
 

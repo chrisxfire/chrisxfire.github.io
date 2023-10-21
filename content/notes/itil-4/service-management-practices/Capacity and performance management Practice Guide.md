@@ -111,9 +111,7 @@ Like any other ITIL management practice, the capacity and performance management
 
 The contribution of the capacity and performance management practice to the service value chain is shown in Figure 3.1.
 
-![](Capacity%20and%20performance%20management%20Practice%20Guide/Capacity_and_performance_management.png)
-
-**Figure 3.1** **Heat map of the contribution of the capacity and performance management practice to value chain activities**
+![Figure 3.1** **Heat map of the contribution of the capacity and performance management practice to value chain activities](Capacity%20and%20performance%20management%20Practice%20Guide/Capacity_and_performance_management.png)
 
 ## 3.2 Processes
 

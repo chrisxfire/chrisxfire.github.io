@@ -96,9 +96,7 @@ Service design packages are delivered through interaction between service manage
 The concept of SDPs is not new to ITIL. However, the importance is significantly raised when viewed from the perspective of value streams. An SDP connects demand to value, regardless of delivery methodology or scope of service provision. Its purpose is to provide a clear statement of ‘what good looks like’ to designers and similar consumers; it must be used in conjunction with risk modelling of IT services as the best SDPs are flexible and adaptable depending on various criteria.  
 For an SDP to be effective, it should address all four dimensions of the service and be focused on customer and user experience. This is shown in figure 2.1.
 
-![](Service%20design%20ITIL%204%20practice%20guide/5zP8HcoLx5PWxjHcAAAAASUVORK5CYII=.png)
-
-**Figure 2.1- High-level architecture of a service design package**
+![Figure 2.1- High-level architecture of a service design package](Service%20design%20ITIL%204%20practice%20guide/5zP8HcoLx5PWxjHcAAAAASUVORK5CYII=.png)
 
 #### 2.2.3.1 Defining an SDP
 
@@ -226,9 +224,7 @@ Risk modelling can and should be done at different levels of service. The reason
 
 These three levels may legitimately have different risk profiles. An example is shown below in figure 2.2.
 
-![](Service%20design%20ITIL%204%20practice%20guide/rlxwaJyooZZFhGIZhGIYZnkifk27HE0888cQTTzzxxBNPPPHEE0888cQTTzzxNODpnnv+fxRCkoEp+aL2AAAAAElFTkSuQmCC.png)
-
-**Figure 2.2 Example of risk profiles**
+![Figure 2.2 Example of risk profiles](Service%20design%20ITIL%204%20practice%20guide/rlxwaJyooZZFhGIZhGIYZnkifk27HE0888cQTTzzxxBNPPPHEE0888cQTTzzxNODpnnv+fxRCkoEp+aL2AAAAAElFTkSuQmCC.png)
 
 Opening a new leasing contract is viewed as a critical business service line for the organization and is rated tier 1. Supporting the business service line are two customer journeys, both of which directly support the service line and are considered tier 1. When the IT Service layer is unravelled, whilst the leasing contract tool itself is part of the service, business continuity measures are in place to take information manually and input later. It is therefore rated a tier 2 service. However, without the CRM and ledger tools, the business would not be able to open a new leasing contract. They are tier 1.
 
@@ -355,9 +351,7 @@ This process is focused on the continual improvement of the service design pract
 
 Figure 3.1 shows a workflow diagram of the process.
 
-![](Service%20design%20ITIL%204%20practice%20guide/20191111_Diagram_Service_design_Workflow_of_the_service_design_planning_process.png)
-
-**Figure 3.1 Workflow of the service design planning process**
+![Figure 3.1 Workflow of the service design planning process](Service%20design%20ITIL%204%20practice%20guide/20191111_Diagram_Service_design_Workflow_of_the_service_design_planning_process.png)
 
 Table 3.2 provides an example of the process activities.
 

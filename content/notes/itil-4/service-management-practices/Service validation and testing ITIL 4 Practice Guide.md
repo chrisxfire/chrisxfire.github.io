@@ -120,9 +120,7 @@ Finally, some risks are only testable in the real production environment.
 
 Figure 2.1 represents the environments in which the majority of tests are performed.
 
-![](Service%20validation%20and%20testing%20ITIL%204%20Practice%20Guide/triangle.png)
-
-**Figure 2.1 Testing triangle**
+![Figure 2.1 Testing triangle](Service%20validation%20and%20testing%20ITIL%204%20Practice%20Guide/triangle.png)
 
 Most risks can be tested for early, in a development environment. Most of those remaining can be tested for in an in-team test environment. Most of those remaining can be tested for in a staging environment. Those remaining can be tested for in the production environment.
 
@@ -413,9 +411,7 @@ Like any other ITIL management practice, the service validation and testing prac
 
 The contribution of the service validation and testing practice to the service value chain is shown in Figure 3.1.
 
-![](Service%20validation%20and%20testing%20ITIL%204%20Practice%20Guide/Picturenew.jpg)
-
-**Figure 3.1 Heat map of the contribution of the service validation and testing practice to value chain activities.**
+![Figure 3.1 Heat map of the contribution of the service validation and testing practice to value chain activities.](Service%20validation%20and%20testing%20ITIL%204%20Practice%20Guide/Picturenew.jpg)
 
 ## 3.2 Processes
 

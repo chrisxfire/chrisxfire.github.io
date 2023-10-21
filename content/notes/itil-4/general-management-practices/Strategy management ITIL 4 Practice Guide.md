@@ -303,9 +303,7 @@ This process is focused on defining, agreeing, and communicating of strategy and
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![](Strategy%20management%20ITIL%204%20Practice%20Guide/Figure_3.2.png)
-
-**Figure 3.2 Workflow of the strategy generation and continual development process**
+![Figure 3.2 Workflow of the strategy generation and continual development process](Strategy%20management%20ITIL%204%20Practice%20Guide/Figure_3.2.png)
 
 #### **Table 3.2 Activities of strategy generation and continual development** **process**
 

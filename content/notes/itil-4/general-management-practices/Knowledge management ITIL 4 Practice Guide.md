@@ -91,9 +91,7 @@ The SECI model identifies four ways of how knowledge is combined, transferred, a
 
 The use and exchange of knowledge is a continual process. Figure 2.1 includes a spiral to represent the continuity and evolution of knowledge. Knowledge sharing supports organizations and individuals by providing them with data for data-driven decisions. It also helps to accumulate, combine, and share knowledge to make insight-driven decisions.
 
-![](Knowledge%20management%20ITIL%204%20Practice%20Guide/Picture1.png)
-
-**Figure 2.1 The development of knowledge sharing**
+![Figure 2.1 The development of knowledge sharing](Knowledge%20management%20ITIL%204%20Practice%20Guide/Picture1.png)
 
 ### 2.2.5 Data-driven and insight-driven decisions
 
@@ -243,9 +241,7 @@ Like any other ITIL management practice, the knowledge management practice contr
 
 The contribution of the knowledge management practice to the service value chain is shown in Figure 3.1.
 
-![](Knowledge%20management%20ITIL%204%20Practice%20Guide/Pictureknowledge.jpg)
-
-**Figure 3.1 The contribution of the knowledge management practice to the service value chain**
+![Figure 3.1 The contribution of the knowledge management practice to the service value chain](Knowledge%20management%20ITIL%204%20Practice%20Guide/Pictureknowledge.jpg)
 
 ## 3.2 Processes
 
