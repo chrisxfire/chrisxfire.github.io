@@ -15,10 +15,10 @@ The IT Security Architect will interface with colleagues in the systems and netw
 
 #### 1.2 Job responsibilities
 
-*   Assess business and technical needs
-*   Conduct research and provide advice regarding selection and implementation of IT products
-*   Lead design of architecture for, and integration of, new and upgraded ICT solutions
-*   Provide technical leadership to designers and developers.
+* Assess business and technical needs
+* Conduct research and provide advice regarding selection and implementation of IT products
+* Lead design of architecture for, and integration of, new and upgraded ICT solutions
+* Provide technical leadership to designers and developers.
 
 #### 2.1 Job Skills
 
@@ -39,8 +39,8 @@ Information Security Strategy Development
 
  | 
 
-*   Define and present an information security policy (e.g. access control, anti-virus policy) for approval by the senior management of the organization
-*   Apply relevant standards, best practices and legal requirements to create objectives and management measures for information integrity, availability, and data privacy.
+* Define and present an information security policy (e.g. access control, anti-virus policy) for approval by the senior management of the organization
+* Apply relevant standards, best practices and legal requirements to create objectives and management measures for information integrity, availability, and data privacy.
 
  |
 | 
@@ -49,12 +49,12 @@ Information Security Management
 
  | 
 
-*   Implement information security policy
-*   Coordinate analysis of security risks with respect to enterprise data, and develop preventative action plans for critical risks
-*   Monitor security incidents and take action against intrusion, fraud and security breaches or leaks
-*   Evaluate security management measures and indicators and decide if compliant to information security policy
-*   Proactively analyze the business environment to identify new sources of risk and vulnerabilities to intrusion and attack
-*   Coordinate/carry out audits of ICT processes and environment.
+* Implement information security policy
+* Coordinate analysis of security risks with respect to enterprise data, and develop preventative action plans for critical risks
+* Monitor security incidents and take action against intrusion, fraud and security breaches or leaks
+* Evaluate security management measures and indicators and decide if compliant to information security policy
+* Proactively analyze the business environment to identify new sources of risk and vulnerabilities to intrusion and attack
+* Coordinate/carry out audits of ICT processes and environment.
 
  |
 | 
@@ -63,9 +63,9 @@ Continuity Management
 
  | 
 
-*   Define security disaster scenarios and assess their impact on business processes
-*   Assist with the identification and prioritization of critical business processes for recovery
-*   Contribute to development and testing of the business continuity plan.
+* Define security disaster scenarios and assess their impact on business processes
+* Assist with the identification and prioritization of critical business processes for recovery
+* Contribute to development and testing of the business continuity plan.
 
  |
 | 
@@ -74,9 +74,9 @@ Staff Awareness and Development
 
  | 
 
-*   Identity/organize the identification of training needs and skill gaps
-*   Gain commitment and secure resources
-*   Lead or support selection of training and development options to meet individual and business needs.
+* Identity/organize the identification of training needs and skill gaps
+* Gain commitment and secure resources
+* Lead or support selection of training and development options to meet individual and business needs.
 
  |
 | 
@@ -85,11 +85,11 @@ Technology trend monitoring
 
  | 
 
-*   Establish understanding of evolving technologies
+* Establish understanding of evolving technologies
     
-*   Identify business advantages of adopting emerging technologies
-*   Devise innovative solutions for integration of new technology into existing products, applications or services or for the creation of new solutions
-*   Provide expert guidance and advice to the leadership team to support strategic decision-making.
+* Identify business advantages of adopting emerging technologies
+* Devise innovative solutions for integration of new technology into existing products, applications or services or for the creation of new solutions
+* Provide expert guidance and advice to the leadership team to support strategic decision-making.
 
  |
 | 
@@ -98,12 +98,12 @@ Technology trend monitoring
 
  | 
 
-*   Adopt a wide range of styles, tools and techniques to get messages across
-*   Share information, good practice and expertise with others
-*   Use persuasive logic to win support or change views
-*   Deliver difficult/unpopular messages with clarity and diplomacy
-*   Listen actively and objectively without interrupting
-*   Respond to and discuss issues without being defensive.
+* Adopt a wide range of styles, tools and techniques to get messages across
+* Share information, good practice and expertise with others
+* Use persuasive logic to win support or change views
+* Deliver difficult/unpopular messages with clarity and diplomacy
+* Listen actively and objectively without interrupting
+* Respond to and discuss issues without being defensive.
 
  |
 | 
@@ -112,17 +112,17 @@ Technology trend monitoring
 
  | 
 
-*   Establish goals and identify priorities for the organization
-*   Use project management principles to plan work
-*   Identify resources and people needed to complete work and factor their availability into the plan
-*   Make adjustments to priorities, timelines and approach when appropriate
-*   Use time effectively and stay focused.
+* Establish goals and identify priorities for the organization
+* Use project management principles to plan work
+* Identify resources and people needed to complete work and factor their availability into the plan
+* Make adjustments to priorities, timelines and approach when appropriate
+* Use time effectively and stay focused.
 
  |
 
 #### 2.2 Relevant qualifications
 
-*   [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
-*   [ITIL<sup>®</sup> 4: High-velocity IT](https://www.axelos.com/certifications/itil-service-management/managing-professional/high-velocity-it)
-*   [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
-*   [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
+* [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
+* [ITIL<sup>®</sup> 4: High-velocity IT](https://www.axelos.com/certifications/itil-service-management/managing-professional/high-velocity-it)
+* [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
+* [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)

@@ -9,18 +9,18 @@ weight: 1
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><p>The purpose of the knowledge management practice is to maintain and improve the effective, efficient, and convenient use of information and knowledge across the organization.</p></td></tr></tbody></table>
 
 The knowledge management practice is a way of transforming information and organizational intellectual capital into persistent value for employees and service consumers. This practice aims to provide the right information to the right people at the right moment to build an evolutionary environment where:
-*   absorptive capacity is continually improved
-*   people are eager to learn new knowledge, unlearn old knowledge, and gain and share their experience and insights
-*   decision-making capabilities are improved
-*   an adaptive change culture exists
-*   performance improves, supporting the organizational strategy
-*   data-driven and insight-driven approaches are used throughout the organization.
+* absorptive capacity is continually improved
+* people are eager to learn new knowledge, unlearn old knowledge, and gain and share their experience and insights
+* decision-making capabilities are improved
+* an adaptive change culture exists
+* performance improves, supporting the organizational strategy
+* data-driven and insight-driven approaches are used throughout the organization.
 
 This is achieved by establishing integrated and systematic processes for knowledge asset management, building a high interoperability knowledge environment and empowering people to develop and share knowledge. This includes knowing and using modern technologies, data/information/knowledge management methods, approaches for training and mentoring according to the organizational vision and needs.
 
 The knowledge management practice contributes to every component of the ITIL service value stream. This practice incorporates the following premises:
-*   Knowledge is processed and used in the context of value streams. This practice is integrated into value streams and ensures that information is provided effectively and on time to meet the stakeholders’ expectations.
-*   This practice should focus on discovering and providing high-quality information (available, accurate, reliable, relevant, complete, timely, and compliant in a defined scope).
+* Knowledge is processed and used in the context of value streams. This practice is integrated into value streams and ensures that information is provided effectively and on time to meet the stakeholders’ expectations.
+* This practice should focus on discovering and providing high-quality information (available, accurate, reliable, relevant, complete, timely, and compliant in a defined scope).
 
 ### 2.2 Terms and concepts
 
@@ -56,9 +56,9 @@ Organizations manage many different information assets including documents, reco
 <table><tbody><tr><td><strong>Knowledge asset</strong></td></tr><tr><td>This is an organization's specific information resource that is important for that organization's operations and value co-creation.</td></tr></tbody></table>
 
 The knowledge management practice adds a knowledge focused view on an organization’s information sources and assets. From this perspective, information assets are evaluated and managed as knowledge assets. The importance of knowledge assets can be characterized by its criticality, rarity, and appropriability:
-*   Critical knowledge assets have a significant impact on an organization’s performance and strategy realization.
-*   Rare knowledge assets are hard to find and hard to replace in the event of a loss.
-*   Appropriate knowledge assets can be transferred from one organization to another without a significant loss in value.
+* Critical knowledge assets have a significant impact on an organization’s performance and strategy realization.
+* Rare knowledge assets are hard to find and hard to replace in the event of a loss.
+* Appropriate knowledge assets can be transferred from one organization to another without a significant loss in value.
 
 The knowledge management practice aims to identify the most important knowledge assets across the organization and ensure that they are effectively managed and utilized (see section 3.2.3 for details). It is also important to ensure that an organization’s knowledge assets are effectively integrated into a knowledge management system, where information can be accessed and used in the most effective and efficient way.
 
@@ -73,12 +73,12 @@ To provide informational support for innovations and an adaptive change culture,
 The socialization, externalization, combination, internalization (SECI) model of knowledge dimension was developed by Ikujiro Nonaka and refined by Hirotaka Takeuchi. It is used to described knowledge sharing and the transformation process at any level of an organization.
 
 The model is based on two types of knowledge, explicit and tacit:
-*   **Explicit knowledge** can be transferred to others, codified, assessed, verbalized, and stored. It includes information from books, databases, descriptions, and so on.
-*   **Tacit knowledge** is difficult to transfer to others, difficult to express, codify, and assess. It is based on experience, values, capabilities, and skills.
+* **Explicit knowledge** can be transferred to others, codified, assessed, verbalized, and stored. It includes information from books, databases, descriptions, and so on.
+* **Tacit knowledge** is difficult to transfer to others, difficult to express, codify, and assess. It is based on experience, values, capabilities, and skills.
 
 It also considers two dimensions for knowledge creation:
-*   The conversion of tacit knowledge to explicit knowledge and vice versa.
-*   The transfer of knowledge from an individual to groups/organizations.
+* The conversion of tacit knowledge to explicit knowledge and vice versa.
+* The transfer of knowledge from an individual to groups/organizations.
 
 The SECI model identifies four ways of how knowledge is combined, transferred, accepted, and shared.  
 
@@ -97,11 +97,11 @@ The use and exchange of knowledge is a continual process. Figure 2.1 includes a 
 An organization’s existing knowledge system is a key factor in the development of new knowledge. Data is at the core of the personal and organizational decision-making process and evolution. Yet, data is not the only source of knowledge used in decision-making. In fact, the term data-driven often implies that data equals or includes insight<sup>6</sup>.
 
 If data is assembled from facts, statistics, quantities, symbols, and so on, the exclusive use of a data-driven approach may limit an organization’s potential to evolve and prove to be unwise<sup>7</sup>. The reasons for this include:
-*   Data is merely a partial reflection of reality. The interpretation of the data relies heavily on an individual’s experience. Different people can come to different conclusions based on the same data, or to the same conclusion based on different data.
-*   Any amount of data is still insufficient. There is always missing data. Sometimes the missing data is irrelevant for the decision, sometimes it is extremely important.
-*   Certain data needs to be interpreted by an individual who possesses the relevant expertise, and who has the motivation and ability to learn and use the data<sup>8</sup>. Otherwise, the data may not bring enough or any value.
-*   The available knowledge may limit innovations. There is a risk of functional fixedness, where the adopted patterns and context prevent individuals from acting in a creative manner. Instructions and habits may create biases about situations and objects. Many people find it hard to overcome biases, making it difficult to find new perspectives and develop innovative ideas.
-*   Too much overlapping or conflicting data may cause overthinking and lead to conclusions too complex or made too late. This is sometimes referred to as analysis paralysis.
+* Data is merely a partial reflection of reality. The interpretation of the data relies heavily on an individual’s experience. Different people can come to different conclusions based on the same data, or to the same conclusion based on different data.
+* Any amount of data is still insufficient. There is always missing data. Sometimes the missing data is irrelevant for the decision, sometimes it is extremely important.
+* Certain data needs to be interpreted by an individual who possesses the relevant expertise, and who has the motivation and ability to learn and use the data<sup>8</sup>. Otherwise, the data may not bring enough or any value.
+* The available knowledge may limit innovations. There is a risk of functional fixedness, where the adopted patterns and context prevent individuals from acting in a creative manner. Instructions and habits may create biases about situations and objects. Many people find it hard to overcome biases, making it difficult to find new perspectives and develop innovative ideas.
+* Too much overlapping or conflicting data may cause overthinking and lead to conclusions too complex or made too late. This is sometimes referred to as analysis paralysis.
 
 Insight is the ability to gain an accurate and deep understanding of a subject. It may be interpreted as knowing and feeling the underlying nature of things. Insights are a result of human intelligence (emotions, experience, and feelings). Insights are a supplementary component of the data and are a result of an individual’s experience and personality. Thus, the greater the experience and expertise of an individual, the more useful their insights will be<sup>8</sup>. Insights cannot be completed by artificial intelligence.
 
@@ -148,10 +148,10 @@ The knowledge management practice together with the portfolio management, strate
 ### 2.3 Scope
 
 The knowledge management practice supports all value streams and can be used with any other practice as they all create and use data and knowledge. The knowledge management practice includes data/information/knowledge collection, research, processing, analysis, improvement, presentation, and technical assistance. This practice is also aligned with training, skills development, learning, as well as innovation and research initiatives. The scope of the knowledge management practice includes:
-*   Establishing an organization wide environment for effective information exchange and knowledge management, including culture, techniques and procedures, and tools and skills.
-*   Understanding knowledge assets and providing recommendations for their effective management and use.
-*   Monitoring and improving effectiveness of knowledge use across the organization.
-*   Discovering and providing information on demand, where no readily available knowledge is available. 
+* Establishing an organization wide environment for effective information exchange and knowledge management, including culture, techniques and procedures, and tools and skills.
+* Understanding knowledge assets and providing recommendations for their effective management and use.
+* Monitoring and improving effectiveness of knowledge use across the organization.
+* Discovering and providing information on demand, where no readily available knowledge is available. 
 
 #### Table 2.2 Activities related to the knowledge management practice that are described in other practice guides
 
@@ -164,8 +164,8 @@ The knowledge management practice supports all value streams and can be used wit
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The knowledge management practice includes the following PSFs:
-*   creating and maintaining valuable knowledge and transferring and using it across an organization
-*   effectively using information to enable decision-making across an organization.
+* creating and maintaining valuable knowledge and transferring and using it across an organization
+* effectively using information to enable decision-making across an organization.
 
 #### 2.4.1 Creating and maintaining valuable knowledge and transferring and using it across an organization
 
@@ -174,15 +174,15 @@ The culture of effective knowledge sharing and application is a system of belief
 The knowledge management practice describes techniques and tools that can only be effective when used within the correct cultural context, in the correct way, at the right moment, and with commitment from the stakeholders. The knowledge management practice culture varies between organizations and may be a source of a competitive advantage. When developing a knowledge transfer strategy and culture, an organization should find a way to overcome each of these barriers according to its needs.
 
 The culture of knowledge transfer can be established by stressing the value and importance of sharing knowledge and creating an open atmosphere both within and across the teams. In essence, an organization must create a work environment that encourages people to:
-*   task questions
-*   challenge existing knowledge and consider alternative perspectives
-*   hear others and be heard
-*   learn and unlearn
-*   increase intelligence in the areas where needs have been identified (conversational, emotional, social, intrapersonal, interpersonal, and so on)
-*   help people overcome their fear of punishment due to their mistakes
-*   help people overcome their fear of judgement when asking or documenting data
-*   help people overcome their worry about being replaced if they share knowledge
-*   set a priority for sharing knowledge in a complicated operational routine (due to a lack of time or meeting places for sharing).
+* task questions
+* challenge existing knowledge and consider alternative perspectives
+* hear others and be heard
+* learn and unlearn
+* increase intelligence in the areas where needs have been identified (conversational, emotional, social, intrapersonal, interpersonal, and so on)
+* help people overcome their fear of punishment due to their mistakes
+* help people overcome their fear of judgement when asking or documenting data
+* help people overcome their worry about being replaced if they share knowledge
+* set a priority for sharing knowledge in a complicated operational routine (due to a lack of time or meeting places for sharing).
 
 This change in culture will not only impact internal relationships but will also affect cooperation with service consumers, partners, and suppliers.
 
@@ -193,18 +193,18 @@ It is important to use such practices as workforce and talent management, organi
 The knowledge management practice includes the identification and usage of methods and tools to create a knowledge management system to support decision-making across the organization. Organizations that are more successful in implementing the knowledge management practice develop both technology and people- oriented aspects (like developing a learning culture and focusing on the competencies to use, collect, and share information throughout the organization).
 
 According to surveys results<sup>12</sup> [](https://my.axelos.com/resource-hub/practice/knowledge-management-itil-4-practice-guide#_bookmark13)there are three important areas where information systems should be used to improve decision-making:
-*   getting the right information at the right time
-*   ensuring access to information in multiple places (location, means, and time)
-*   sending instant alerts when things go wrong.
+* getting the right information at the right time
+* ensuring access to information in multiple places (location, means, and time)
+* sending instant alerts when things go wrong.
 
 The quality of information is also vitally important for the knowledge management practice. There are several factors which affect the quality of information, that should be considered when designing and maintaining knowledge management systems<sup>13 14</sup>:
-*   errors in the information collected (for example customers or employees enter inaccurate data, service desk agent enter incomplete data to save time), data collection design (for example asking the wrong questions or the wrong respondents)
-*   information from different external and internal systems are not aligned in the entry standards and format
-*   poor system design which causes information loss
-*   potentially valuable information is not shared and is lost in an organization’s unstructured data
-*   loss of information in the migration from one system to another
-*   loss of information in poorly integrated systems
-*   ineffective presentation or hard to use interfaces.
+* errors in the information collected (for example customers or employees enter inaccurate data, service desk agent enter incomplete data to save time), data collection design (for example asking the wrong questions or the wrong respondents)
+* information from different external and internal systems are not aligned in the entry standards and format
+* poor system design which causes information loss
+* potentially valuable information is not shared and is lost in an organization’s unstructured data
+* loss of information in the migration from one system to another
+* loss of information in poorly integrated systems
+* ineffective presentation or hard to use interfaces.
 
 Information about the past is available through databases, web-based resources, and other data sources. To predict the future, those making decisions should rely on an insight-based approach, which uses intuitive and creative thinking, combined with forecasting tools and intelligent data analysis. These tools may also assess the effects of alternative decisions.
 
@@ -235,8 +235,8 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, the knowledge management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The knowledge management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-*   improve
-*   deliver and support.
+* improve
+* deliver and support.
 
 The contribution of the knowledge management practice to the service value chain is shown in Figure 3.1.
 
@@ -251,19 +251,19 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong>Process</strong></p></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more define inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies&nbsp;</td></tr></tbody></table>
 
 Knowledge management activities form three processes:
-*   establishing and maintaining the knowledge management environment
-*   on demand information discovery
-*   information model management and integration
+* establishing and maintaining the knowledge management environment
+* on demand information discovery
+* information model management and integration
 
 #### 3.2.1 Establishing and maintaining the knowledge management environment
 
 The process ensures the existence and improvement of the environment where all stakeholders understand the nature of knowledge and are willing to create, use, and transfer it<sup>15</sup>. The process is focused on:
-*   changing obsolete patterns of knowledge usage
-*   building and the continual improvement of the organizational culture that enables valuable knowledge usage and transfer
-*   empowering the learning environment within an organization
-*   continual improvement of knowledge management practice in general
-*   identifying the knowledge asset within an organization
-*   identifying the way to create and transfer knowledge and manage knowledge assets (tacit to explicit, structured and unstructured).
+* changing obsolete patterns of knowledge usage
+* building and the continual improvement of the organizational culture that enables valuable knowledge usage and transfer
+* empowering the learning environment within an organization
+* continual improvement of knowledge management practice in general
+* identifying the knowledge asset within an organization
+* identifying the way to create and transfer knowledge and manage knowledge assets (tacit to explicit, structured and unstructured).
 
 When developing the principles of the knowledge management practice culture and building the knowledge management capabilities, an organization should consider all four dimensions of service management as well as external factors. (See *ITIL*<sup><em>®</em></sup> *Foundation: ITIL 4 Edition,* Chapter 3 for more information.)
 
@@ -284,10 +284,10 @@ When developing the principles of the knowledge management practice culture and 
 This process focuses on the discovery and provision of new information in response to unusual and non-routine requests. It requires extra effort and competencies in the investigation and integration of findings into an organization’s knowledge system. This process is used when a unique or rare request for information is raised, and the information requested cannot be obtained via the available information systems and patterns.
 
 Examples of scenarios where this process is used include:
-*   non-standard business analysis to validate a hypothesis
-*   assessment of emerging technology or business practice
-*   assessment of other external influences, such as new regulations
-*   complex requests that are rare, and therefore have not been standardized or automated.
+* non-standard business analysis to validate a hypothesis
+* assessment of emerging technology or business practice
+* assessment of other external influences, such as new regulations
+* complex requests that are rare, and therefore have not been standardized or automated.
 
 The process supports these knowledge needs by accessing resources and the people with the required information inside and outside the organization.
 
@@ -344,16 +344,16 @@ Roles are described in the context of processes and activities. Each role is cha
 The knowledge manager role can be performed by a dedicated person or the responsibilities can be taken by the person or team responsible for the specific knowledge management practice area and is capable enough to coordinate it efficiently.
 
 The role of the knowledge manager should focus less on coordinating and completing actions through knowledge asset management, but rather to create a knowledge management culture and competencies for the organization’s evolution. The role is typically responsible for:
-*   co-ordinating the knowledge management culture and capabilities building process
-*   defining and assigning knowledge team roles
-*   ensuring that the knowledge asset management process is known and run in relevant SVS parts according to the organizations structure, strategy, and needs
-*   empowering, mentoring, and leading the knowledge team
-*   formally communicating decisions through the knowledge management practice lifecycle to the stakeholders and affected parties
-*   monitoring and reviewing the activities of the teams that are involved in the knowledge management practice
-*   conducting regular and ad hoc practice analyses, and initiating improvements to the practice, procedures, used methods, and tools
-*   developing the organization’s expertise in the methods and approaches for the knowledge management practice
-*   creating an environment permeated by psychological safety, mutual respect, and trust where employees choose to learn, unlearn, use and share knowledge in agreed way
-*   holding the knowledge team accountable and empowering commitment.
+* co-ordinating the knowledge management culture and capabilities building process
+* defining and assigning knowledge team roles
+* ensuring that the knowledge asset management process is known and run in relevant SVS parts according to the organizations structure, strategy, and needs
+* empowering, mentoring, and leading the knowledge team
+* formally communicating decisions through the knowledge management practice lifecycle to the stakeholders and affected parties
+* monitoring and reviewing the activities of the teams that are involved in the knowledge management practice
+* conducting regular and ad hoc practice analyses, and initiating improvements to the practice, procedures, used methods, and tools
+* developing the organization’s expertise in the methods and approaches for the knowledge management practice
+* creating an environment permeated by psychological safety, mutual respect, and trust where employees choose to learn, unlearn, use and share knowledge in agreed way
+* holding the knowledge team accountable and empowering commitment.
 
 The competency profile for these roles is LACMT, though the importance of each of these competencies varies from activity to activity. Examples of the roles which can be involved in knowledge management activities are listed in Table 4.2, together with the associated competency profiles and required skills.
 
@@ -379,15 +379,15 @@ Formal teams for the practice may include a knowledge management team and tempor
 
 ### 5.1 Information exchange
 
-*   The effectiveness of the knowledge management practice is based on the quality of the information used. This includes, but is not limited to, information about: organizational strategy and values organizational structure
-*   knowledge management methods and tools
-*   services and their architecture
-*   partners and suppliers
-*   policies and requirements which regulate organizational structure
-*   requested knowledge, including:
-    *   expected benefits for the employees and the organization as whole
-    *   estimated time and cost of information and knowledge research, use, share
-*   regulations affecting the information and knowledge stakeholder satisfaction with the practice.
+* The effectiveness of the knowledge management practice is based on the quality of the information used. This includes, but is not limited to, information about: organizational strategy and values organizational structure
+* knowledge management methods and tools
+* services and their architecture
+* partners and suppliers
+* policies and requirements which regulate organizational structure
+* requested knowledge, including:
+    * expected benefits for the employees and the organization as whole
+    * estimated time and cost of information and knowledge research, use, share
+* regulations affecting the information and knowledge stakeholder satisfaction with the practice.
 
 This information may take various forms. The key inputs and outputs of the knowledge management practice are listed in section 3.
 
@@ -416,13 +416,13 @@ Where organizations aim to ensure fast and effective knowledge management practi
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of *ITIL*<sup><em>® </em></sup> *Foundation: ITIL 4 Edition.*
 

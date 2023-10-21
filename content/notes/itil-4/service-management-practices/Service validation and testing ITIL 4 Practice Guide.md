@@ -11,8 +11,8 @@ weight: 1
 The service validation and testing practice involves reducing the risks and uncertainties that new or changed products and services introduce to the live environment. The practice does this by planning and performing appropriate tests.
 
 The larger and more complex a system is, the more testing is required. However, exhaustive testing, even of smaller, simple systems, is typically impossible due to time and cost constraints. Therefore, choosing what to test is important. The key considerations when defining the scope and level of validation and testing are the:
-*   agreed requirements that a product or service must meet
-*   impact and likelihood of deviations from the agreed requirements.
+* agreed requirements that a product or service must meet
+* impact and likelihood of deviations from the agreed requirements.
 
 Understanding the requirements in the context of the likelihood and impact of deviations facilitates an informed perspective of the important areas to test.
 
@@ -39,15 +39,15 @@ Effective validation and testing are based on close collaboration between tester
 Another important trend is expanding validation and testing beyond the technical aspects of products and services to include user experience and perception.
 
 Traditionally, service testing was the act of confirming expectations relating to explicit requirements by checking the expectations on how the software should or should not work, based on prior knowledge that is defined through requirement specifications. Today, testing also involves exploring and uncovering information about unexpected things, such as product risks and variables regarding:
-*   software
-*   ideas for software solutions
-*   artefacts created from the ideas
-*   user experience and user interface designs
-*   models and wireframes
-*   architecture and code designs
-*   code
-*   tooling
-*   processes.
+* software
+* ideas for software solutions
+* artefacts created from the ideas
+* user experience and user interface designs
+* models and wireframes
+* architecture and code designs
+* code
+* tooling
+* processes.
 
 ### 2.2 Terms and concepts
 
@@ -72,36 +72,36 @@ For example, in software development, it is extremely rare for agile user story 
 After identification, risks should be captured. Mind maps are a common tool for this because they create a risk map that is accessible, lightweight, readable, and ready to be used throughout the product lifecycle service design activities and explorative testing at the later stages.
 
 Identifying different kinds of product risks can be difficult, but there are ways to structure acceptance criteria and testing activities that improve the chances of success, such as:
-*   Consider the object of testing on a holistic level, then granularly, including the tangible and intangible artefacts. Actively consider the product's, service's, or component's:
-    *   potential purposes
-    *   properties
-    *   kinds of users
-    *   integrated parts
-    *   architecture
-    *   etc.
-*   Explore the variables of each of those aspects.
-*   Identify and discuss product risks relating to the variables. Examples of risks that could be identified include:
-    *   accessibility risks
-    *   availability risks
-    *   charisma/likeability risks
-    *   compatibility risks
-    *   environment integration risks
-    *   functional risks
-    *   interface risks
-    *   localization risks
-    *   maintainability risks
-    *   observability risks
-    *   performance risks
-    *   portability risks
-    *   reliability risks
-    *   responsiveness risks
-    *   scalability risks
-    *   security risks
-    *   stability risks
-    *   testability risks
-    *   usability risks.
-*   Assess the risks and decide whether to invest further time and effort in mitigating or testing it. For more information on this topic, refer to the risk management practice guide.
-*   For significant risks, create a risk map. Risk maps are artefacts for service designers and developers. They also help to stem the test charters, which involves structuring exploratory testing by testing for specific risks in specific areas.
+* Consider the object of testing on a holistic level, then granularly, including the tangible and intangible artefacts. Actively consider the product's, service's, or component's:
+    * potential purposes
+    * properties
+    * kinds of users
+    * integrated parts
+    * architecture
+    * etc.
+* Explore the variables of each of those aspects.
+* Identify and discuss product risks relating to the variables. Examples of risks that could be identified include:
+    * accessibility risks
+    * availability risks
+    * charisma/likeability risks
+    * compatibility risks
+    * environment integration risks
+    * functional risks
+    * interface risks
+    * localization risks
+    * maintainability risks
+    * observability risks
+    * performance risks
+    * portability risks
+    * reliability risks
+    * responsiveness risks
+    * scalability risks
+    * security risks
+    * stability risks
+    * testability risks
+    * usability risks.
+* Assess the risks and decide whether to invest further time and effort in mitigating or testing it. For more information on this topic, refer to the risk management practice guide.
+* For significant risks, create a risk map. Risk maps are artefacts for service designers and developers. They also help to stem the test charters, which involves structuring exploratory testing by testing for specific risks in specific areas.
 
 ##### 2.2.2 Testing in different environments
 
@@ -128,18 +128,18 @@ Most risks can be tested for early, in a development environment. Most of those 
 Testing provides information for decision-making in regard to a product or a service. Information is either known or unknown.
 
 There are two states of known information:
-*   explicit information
-*   tacit information.
+* explicit information
+* tacit information.
 
 There are two states of unknown information:
-*   information that is known to exist, but which has not been accessed
-*   information that is not known to exist.
+* information that is known to exist, but which has not been accessed
+* information that is not known to exist.
 
 For further details on types of information and the related practical implications, refer to the knowledge management practice guide.
 
 Based on the different states of information, there are two perspectives regarding software testing:
-*   Assertive (or scripted) testing aims to verify that a component, product, or service meets pre- defined criteria that are based on agreed requirements.
-*   Exploratory (or investigative) testing aims to uncover unknown information about a service component, product, service, or environment in order to identify risks that have not been addressed by pre-defined criteria.
+* Assertive (or scripted) testing aims to verify that a component, product, or service meets pre- defined criteria that are based on agreed requirements.
+* Exploratory (or investigative) testing aims to uncover unknown information about a service component, product, service, or environment in order to identify risks that have not been addressed by pre-defined criteria.
 
 The two approaches should be combined and balanced; adherence to one alone decreases the quality of information about products and services, which may lead to sub-optimal management decisions. Figure 2.2 illustrates how testing influences the information available.
 
@@ -176,11 +176,11 @@ Validation and testing activities create important feedback loops, which inform 
 ### 2.3 Scope
 
 The scope of the service validation and testing practice includes:
-*   translating the requirements for products or services into deployment and release management acceptance criteria
-*   establishing test approaches and defining test plans for new or changed products and services
-*   eliminating risk and uncertainty of new or changed products and services by testing
-*   discovering new information about new or changed products and services by testing
-*   continually reviewing test approaches and methods to improve the efficiency of the tests.
+* translating the requirements for products or services into deployment and release management acceptance criteria
+* establishing test approaches and defining test plans for new or changed products and services
+* eliminating risk and uncertainty of new or changed products and services by testing
+* discovering new information about new or changed products and services by testing
+* continually reviewing test approaches and methods to improve the efficiency of the tests.
 
 There are a number of activities and areas of responsibility that are not included in the service validation and testing practice, although they are still closely related to service validation and testing. These are listed in Table 2.2, along with references to the practices in which they can be found. It is important to remember that ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.
 
@@ -195,8 +195,8 @@ There are a number of activities and areas of responsibility that are not includ
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The service validation and testing practice includes the following PSFs:
-*   defining and agreeing an approach to the validation and testing of the organization's products, services, and components in line with the organization's requirements for speed and quality of service changes
-*   ensuring that new and changed components, products, and services meet agreed criteria
+* defining and agreeing an approach to the validation and testing of the organization's products, services, and components in line with the organization's requirements for speed and quality of service changes
+* ensuring that new and changed components, products, and services meet agreed criteria
 
 #### 2.4.1 Defining and agreeing approaches to the validation and testing of the organization's products, services, and components in line with the organization's requirements for speed and quality of service changes
 
@@ -207,22 +207,22 @@ A test strategy defines how testing should be implemented, considering the proje
 The test strategy defines the test phases (or levels) and types that are in scope.
 
 The testing phases include:
-*   **Unit** Undertaken by the developers to verify that what they have developed meets the requirements. A unit is typically a component of the overall system that is tested in isolation.
-*   **Integration** Undertaken when development is complete enough to start integrating different systems, concerned with the testing of the integration between systems.
-*   **System** Undertaken when it has been verified that the system’s components can be integrated, system testing considers the end-to-end functionality of the system.
-*   **Acceptance** User acceptance testing (UAT) is the formal test phase where end users verify and validate that what is to be delivered meets their requirements.
+* **Unit** Undertaken by the developers to verify that what they have developed meets the requirements. A unit is typically a component of the overall system that is tested in isolation.
+* **Integration** Undertaken when development is complete enough to start integrating different systems, concerned with the testing of the integration between systems.
+* **System** Undertaken when it has been verified that the system’s components can be integrated, system testing considers the end-to-end functionality of the system.
+* **Acceptance** User acceptance testing (UAT) is the formal test phase where end users verify and validate that what is to be delivered meets their requirements.
 
 In each of these test phases, the test strategy must consider which test types are appropriate.
 
 Test types include:
-*   **Functional** Testing what the system being delivered will do.
-*   **Non-functional** Testing the aspects of the system that are not directly related to its functional requirements. Common non-functional aspects are:
-    *   **Performance** Behaviour under normal conditions.
-    *   **Load** Behaviour with increasing load.
-    *   **Stress** Behaviour when approaching the upper operational limits.
-    *   **Security** Authorization and authentication system controls.
-    *   **Usability** How well the users of the system can engage with the system.
-*   **Regression** New developments (progression) and bug fixes (debugging) can introduce unexpected system behaviour. Regression testing aims to verify that the system still functions as required following change.
+* **Functional** Testing what the system being delivered will do.
+* **Non-functional** Testing the aspects of the system that are not directly related to its functional requirements. Common non-functional aspects are:
+    * **Performance** Behaviour under normal conditions.
+    * **Load** Behaviour with increasing load.
+    * **Stress** Behaviour when approaching the upper operational limits.
+    * **Security** Authorization and authentication system controls.
+    * **Usability** How well the users of the system can engage with the system.
+* **Regression** New developments (progression) and bug fixes (debugging) can introduce unexpected system behaviour. Regression testing aims to verify that the system still functions as required following change.
 
 Test plans define the detailed activities, estimates, and schedules for each test phase. Therefore, the test strategy defines the overall scope and approach, whereas the test plans detail each of the test phases. This is outlined in Table 2.3.
 
@@ -233,23 +233,23 @@ Test plans define the detailed activities, estimates, and schedules for each tes
 #### 2.4.2 Ensuring that new and changed components, products, and services meet agreed criteria
 
 No two projects are the same, and test strategies must be appropriate for the relevant project and organizational structure. Each test strategy should aim to:
-*   achieve the optimum test coverage in the time available by balancing effectiveness with efficiency
-*   be pragmatic and suit the needs of the programme, available resources, and available skills
-*   be aligned to the development methodology, technologies being employed, and the nature of the system being developed
-*   establish a high level of confidence in the delivery of software as early as possible
-*   confirm the accuracy of the software that is delivered (functional attributes)
-*   mitigate the level of business risk associated with implementing new software
-*   continue to improve and optimize the test process as the project unfolds
-*   identify test related risks, issues, and areas that are vulnerable and provide appropriate recommendations.
+* achieve the optimum test coverage in the time available by balancing effectiveness with efficiency
+* be pragmatic and suit the needs of the programme, available resources, and available skills
+* be aligned to the development methodology, technologies being employed, and the nature of the system being developed
+* establish a high level of confidence in the delivery of software as early as possible
+* confirm the accuracy of the software that is delivered (functional attributes)
+* mitigate the level of business risk associated with implementing new software
+* continue to improve and optimize the test process as the project unfolds
+* identify test related risks, issues, and areas that are vulnerable and provide appropriate recommendations.
 
 To achieve this, the test strategy needs to address:
-*   test organization
-*   test planning and control
-*   test analysis and design
-*   test preparation and implementation
-*   test progress and reporting
-*   incident management
-*   test closure and exit criteria.
+* test organization
+* test planning and control
+* test analysis and design
+* test preparation and implementation
+* test progress and reporting
+* incident management
+* test closure and exit criteria.
 
 The test strategy must consider the development methodology being employed. A waterfall development model often allows for the early static testing and validation of captured user requirements. A more iterative methodology may not deliver fully-formed user requirements before coding starts. The test strategy needs to be appropriate.
 
@@ -272,10 +272,10 @@ If the software development lifecycle follows a sprint-based methodology, testin
 Releases made available to testing consist of progression payloads (things that are new) and regression impacts (things that need testing to validate that they continue to function as required).
 
 In terms of progression and regression, the threats to any release typically comprise of:
-*   New functionality being introduced to meet a requirement (progression and regression threat). This threat originates from the existing project.
-*   Bug fixes to new functionality (progression and regression threat). This threat originates from the existing project.
-*   Hotfixes to a production service (regression threat). This threat originates from the production service provider(s).
-*   Maintenance releases for a production service (regression threat). This threat originates from the production service provider(s).
+* New functionality being introduced to meet a requirement (progression and regression threat). This threat originates from the existing project.
+* Bug fixes to new functionality (progression and regression threat). This threat originates from the existing project.
+* Hotfixes to a production service (regression threat). This threat originates from the production service provider(s).
+* Maintenance releases for a production service (regression threat). This threat originates from the production service provider(s).
 
 ##### 2.4.2.3 Test analysis and design
 
@@ -284,10 +284,10 @@ Reporting on test progress only in terms of the percentage of overall coverage d
 Each release to testing includes a payload. The payload can be divided into payload elements (PE). Each PE has a discrete test pack that is reported on.
 
 For example, in a web-based order entry system, the programme schedule has defined a sprint to:
-*   PE 1: deliver the customer short code lookup facility (a progression deliverable with a regression impact)
-*   PE 2: allow payments to be made via credit card (a progression deliverable with a regression impact)
-*   PE 3: deliver the total order value as an automatically updated field on the order entry web page, thus replacing the need for the user to manually use the ‘calculate order total’ function (a progression deliverable with a regression impact)
-*   PE 4: up to ten development hours of bug fixes to be delivered in this sprint for open bugs from previous sprints (a progression and regression deliverable).
+* PE 1: deliver the customer short code lookup facility (a progression deliverable with a regression impact)
+* PE 2: allow payments to be made via credit card (a progression deliverable with a regression impact)
+* PE 3: deliver the total order value as an automatically updated field on the order entry web page, thus replacing the need for the user to manually use the ‘calculate order total’ function (a progression deliverable with a regression impact)
+* PE 4: up to ten development hours of bug fixes to be delivered in this sprint for open bugs from previous sprints (a progression and regression deliverable).
 
 Testing has reviewed the programme schedule, obtained copies of the requirements and functional design documentation, and estimated that 45 test cases are required to cover all of the sprint’s progression deliverables. Additionally, when considering the regression risk of the sprint, testing identified a further 25 test cases that should be run as the sprint developments impacted the system’s core functionality.
 
@@ -382,9 +382,9 @@ At a minimum, daily and weekly test status reports detailing test execution cove
 Once the final testing has been completed (the exit criteria has been met), test closure can be initiated. Depending on the nature of the system, this may be triggered at the end of testing. In other cases, this may follow a successful early life support (ELS) or hypercare phase following deployment and release. Often, key test resources are retained during a pre-defined ELS phase while the system stabilizes in the production environment.
 
 This will involve:
-*   formally releasing resources from test activities and transitioning into business as usual (BAU) operations
-*   archiving and indexing test assets, including test strategies, plans, reports, and scripts
-*   transitioning to BAU will likely require reference to the test assets, especially when considering regression testing packs that the BAU support operation will need to maintain.
+* formally releasing resources from test activities and transitioning into business as usual (BAU) operations
+* archiving and indexing test assets, including test strategies, plans, reports, and scripts
+* transitioning to BAU will likely require reference to the test assets, especially when considering regression testing packs that the BAU support operation will need to maintain.
 
 Lessons learned from testing should be captured, including both what did and did not work well. To support the Continual Improvement Practice, it is important to ensure that lessons learned are incorporated into the test strategy. Detailing which lessons are being addressed/repeated/not addressed. Those lessons not addressed and/or repeated should be transitioned by default to the next lessons-learned session.
 
@@ -405,8 +405,8 @@ Metrics will be based on the overall service strategy and priorities of an organ
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, the service validation and testing practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The service validation and testing practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-*   design and transition
-*   obtain/build.
+* design and transition
+* obtain/build.
 
 The contribution of the service validation and testing practice to the service value chain is shown in Figure 3.1.
 
@@ -421,9 +421,9 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><strong>Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Service validation and testing activities form three processes:
-*   testing approach and models management
-*   service validation
-*   performing a test.
+* testing approach and models management
+* service validation
+* performing a test.
 
 #### 3.2.1 Testing approach and models management
 
@@ -512,19 +512,19 @@ This role can be fulfilled by service designers or architects to ensure that acc
 #### 4.2.3 Service testing specialist
 
 This is a core role within the practice, often called a ‘tester’ or a ‘QA engineer’. Their responsibilities include:
-*   conducting tests as defined in the test plans and designs
-*   recording and reporting on test results, including raising bug or incident records for unsuccessful tests
-*   administering test environments and associated resources.
+* conducting tests as defined in the test plans and designs
+* recording and reporting on test results, including raising bug or incident records for unsuccessful tests
+* administering test environments and associated resources.
 
 ### 5.1 Information exchange
 
 The effectiveness of service validation and testing is based on the quality of the information used. This information includes, but is not limited to, information about:
-*   testing strategy
-*   testing standards
-*   test models
-*   test plans
-*   test records
-*   test results and reports.
+* testing strategy
+* testing standards
+* test models
+* test plans
+* test records
+* test results and reports.
 
 This information may take various forms. The key inputs and outputs of the practice are listed in section 3.
 
@@ -543,13 +543,13 @@ Where an external commercial service provider manages the service delivery value
 Where organizations aim to ensure fast and effective service validation and testing, they usually try to agree close cooperation with their partners and suppliers, removing formal bureaucratic barriers in communication, collaboration, and decision making (see the supplier management practice guide for more information).
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of *ITIL Foundation: ITIL 4 Edition*.
 

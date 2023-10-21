@@ -19,13 +19,13 @@ You will be skilled in applying best practice processes such as ITIL to ensure a
 
 #### 1.2 Key Responsibilities
 
-*   Implement and manage IT services using the principles and methods associated with industry best practices (e.g. ITIL)
-*   Manage the provision of the service desk and problem resolution
-*   Monitor and analyse performance, problem trends and client feedback reports
-*   Build a network of experts
-*   Develop service level agreement (SLA) templates and negotiate complex SLAs
-*   Track problems, acting as a point of escalation for user of IT infrastructure services
-*   Promote a culture that emphasizes service excellence and recommend continual improvement in service management strategy.
+* Implement and manage IT services using the principles and methods associated with industry best practices (e.g. ITIL)
+* Manage the provision of the service desk and problem resolution
+* Monitor and analyse performance, problem trends and client feedback reports
+* Build a network of experts
+* Develop service level agreement (SLA) templates and negotiate complex SLAs
+* Track problems, acting as a point of escalation for user of IT infrastructure services
+* Promote a culture that emphasizes service excellence and recommend continual improvement in service management strategy.
 
 ## 2. Skills and qualifications
 
@@ -50,10 +50,10 @@ Key skills you need are as follows:
 
  | 
 
-*   **Ensure service delivery in accordance with established service level agreements**
-*   **Programme the schedule of operational tasks to ensure stable and secure applications and IT infrastructure**
-*   **Manage the costs and budget according to the internal procedures and external constraints**
-*   **Identify the optimum number of people required to resource the operational management of the IS infrastructure.**
+* **Ensure service delivery in accordance with established service level agreements**
+* **Programme the schedule of operational tasks to ensure stable and secure applications and IT infrastructure**
+* **Manage the costs and budget according to the internal procedures and external constraints**
+* **Identify the optimum number of people required to resource the operational management of the IS infrastructure.**
 
  |
 | 
@@ -62,11 +62,11 @@ Key skills you need are as follows:
 
  | 
 
-*   **Manage the support process and be accountable for ensuring the operation meets agreed service levels**
-*   **Plan resourcing of the service desk to meet defined service levels**
-*   **Develop customer support policies, procedures and standards**
-*   **Ensure rigorous application of information security/information assurance policies, principles and practices in the delivery of customer support services**
-*   **Monitor solutions outcomes and customer satisfaction.**
+* **Manage the support process and be accountable for ensuring the operation meets agreed service levels**
+* **Plan resourcing of the service desk to meet defined service levels**
+* **Develop customer support policies, procedures and standards**
+* **Ensure rigorous application of information security/information assurance policies, principles and practices in the delivery of customer support services**
+* **Monitor solutions outcomes and customer satisfaction.**
 
  |
 | 
@@ -75,12 +75,12 @@ Key skills you need are as follows:
 
  | 
 
-*   **Provide leadership and be accountable for the problem management process**
-*   **Schedule and ensure well trained people, tools and diagnostic equipment are available to manage emergency incidents**
-*   **Monitor progress of issues through lifecycle and communicate effectively**
-*   **Deploy a knowledge system based on recurrence of common errors**
-*   **Demonstrate a depth of expertise to anticipate critical component failure and make provision for recovery with minimum downtime**
-*   **Construct escalation procedures to ensure that appropriate resources can be applied to each incident.**
+* **Provide leadership and be accountable for the problem management process**
+* **Schedule and ensure well trained people, tools and diagnostic equipment are available to manage emergency incidents**
+* **Monitor progress of issues through lifecycle and communicate effectively**
+* **Deploy a knowledge system based on recurrence of common errors**
+* **Demonstrate a depth of expertise to anticipate critical component failure and make provision for recovery with minimum downtime**
+* **Construct escalation procedures to ensure that appropriate resources can be applied to each incident.**
 
  |
 | 
@@ -89,10 +89,10 @@ Key skills you need are as follows:
 
  | 
 
-*   **Identify and lead introduction of relevant best practice processes, tools and models**
-*   **Promote adoption of best practice processes, tools and models**
-*   **Provide advice, coaching and technical support to embed use of best practice processes, tools and models**
-*   **Evaluate effectiveness of best practice processes, tools and models in area of specialism.**
+* **Identify and lead introduction of relevant best practice processes, tools and models**
+* **Promote adoption of best practice processes, tools and models**
+* **Provide advice, coaching and technical support to embed use of best practice processes, tools and models**
+* **Evaluate effectiveness of best practice processes, tools and models in area of specialism.**
 
  |
 | 
@@ -101,10 +101,10 @@ Key skills you need are as follows:
 
  | 
 
-*   **Convey complex messages and issues clearly and credibly**
-*   **Use a mix of communication methods to promote shared understanding across diverse audiences**
-*   **Use persuasive logic to win support or change views**
-*   **Deliver difficult /unpopular messages with clarity and diplomacy.**
+* **Convey complex messages and issues clearly and credibly**
+* **Use a mix of communication methods to promote shared understanding across diverse audiences**
+* **Use persuasive logic to win support or change views**
+* **Deliver difficult /unpopular messages with clarity and diplomacy.**
 
  |
 | 
@@ -113,16 +113,16 @@ Key skills you need are as follows:
 
  | 
 
-*   **Build commitment to a shared vision for delivering excellent customer service**
-*   **Support others to take decisions independently and take the lead in their area of expertise**
-*   **Win, through your performance, trust and support for your leadership**
-*   **Create an environment where team members consistently push to improve performance and productivity**
-*   **Recognize shared objectives and priorities, and work co-operatively with colleagues to achieve them, putting them before personal preferences and objectives.**
+* **Build commitment to a shared vision for delivering excellent customer service**
+* **Support others to take decisions independently and take the lead in their area of expertise**
+* **Win, through your performance, trust and support for your leadership**
+* **Create an environment where team members consistently push to improve performance and productivity**
+* **Recognize shared objectives and priorities, and work co-operatively with colleagues to achieve them, putting them before personal preferences and objectives.**
 
  |
 
 #### **2.2 Relevant Qualifications**
 
-*   [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
-*   [ITIL<sup>®</sup> 4: Create, Deliver and Support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
-*   [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
+* [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
+* [ITIL<sup>®</sup> 4: Create, Deliver and Support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
+* [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)

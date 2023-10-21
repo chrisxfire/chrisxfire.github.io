@@ -15,10 +15,10 @@ You will contribute to enhancing the framework of procurement policies and proce
 
 #### 1.2 Job responsibilities
 
-*   Work with the business to identify requirements and opportunities for cost savings
-*   Supplier identification and competitive analysis
-*   Contract negotiation and placement
-*   Proactively manage relationships with key suppliers.
+* Work with the business to identify requirements and opportunities for cost savings
+* Supplier identification and competitive analysis
+* Contract negotiation and placement
+* Proactively manage relationships with key suppliers.
 
 #### 2.1 Job Skills
 
@@ -41,11 +41,11 @@ Key skills you will need include:
 
  | 
 
-*   Engage with key stakeholders to understand business requirements and shape requirements specification(s) with tightly defined outputs and outcomes
-*   Research suppliers and identify the costs of existing or similar service provision in the market
-*   Liaise with expert stakeholders to determine most appropriate route for procurement, ensuring compliance with procurement procedures, existing supplier frameworks and legislation
-*   Evaluate and select suppliers based on the specification and evaluation criteria
-*   Engage with the successful supplier and prepare contracts with input from legal specialist.
+* Engage with key stakeholders to understand business requirements and shape requirements specification(s) with tightly defined outputs and outcomes
+* Research suppliers and identify the costs of existing or similar service provision in the market
+* Liaise with expert stakeholders to determine most appropriate route for procurement, ensuring compliance with procurement procedures, existing supplier frameworks and legislation
+* Evaluate and select suppliers based on the specification and evaluation criteria
+* Engage with the successful supplier and prepare contracts with input from legal specialist.
 
  |
 | 
@@ -54,12 +54,12 @@ Key skills you will need include:
 
  | 
 
-*   Provide and negotiate contract in accordance with organizational processes
-*   Ensure that contracts and deliverables are provided on time, meet quality standards and conform to compliance requirements
-*   Measure performance, address non-compliance, escalate significant issues, drive recovery plans and if necessary amend contracts
-*   Maintain budget integrity
-*   Assess and address supplier compliance to legal, health and safety and security standards
-*   Actively pursue regular supplier communication.
+* Provide and negotiate contract in accordance with organizational processes
+* Ensure that contracts and deliverables are provided on time, meet quality standards and conform to compliance requirements
+* Measure performance, address non-compliance, escalate significant issues, drive recovery plans and if necessary amend contracts
+* Maintain budget integrity
+* Assess and address supplier compliance to legal, health and safety and security standards
+* Actively pursue regular supplier communication.
 
  |
 | 
@@ -68,11 +68,11 @@ Key skills you will need include:
 
  | 
 
-*   Understand the commercial drivers that influence all parties and the levers that can be used in negotiating/influencing contractual arrangements
-*   Engage in collaborative problem solving, identifying a range of positions and evaluating them openly
-*   Build support for preferred alternative by showing how they meet the other parties needs
-*   Present sound and well-reasoned arguments to convince others
-*   Effectively close a negotiation.
+* Understand the commercial drivers that influence all parties and the levers that can be used in negotiating/influencing contractual arrangements
+* Engage in collaborative problem solving, identifying a range of positions and evaluating them openly
+* Build support for preferred alternative by showing how they meet the other parties needs
+* Present sound and well-reasoned arguments to convince others
+* Effectively close a negotiation.
 
  |
 | 
@@ -81,9 +81,9 @@ Key skills you will need include:
 
  | 
 
-*   Manage expenditure, ensuring that all financial targets are met
-*   Investigate any risk areas where budgets and expenditure may exceed their agreed tolerances, and report these
-*   Ensure accurate allocation and apportionment of all incurred costs.
+* Manage expenditure, ensuring that all financial targets are met
+* Investigate any risk areas where budgets and expenditure may exceed their agreed tolerances, and report these
+* Ensure accurate allocation and apportionment of all incurred costs.
 
  |
 | 
@@ -92,10 +92,10 @@ Key skills you will need include:
 
  | 
 
-*   Establish and maintain positive business relationships with customers, partners and suppliers (internal or external) deploying and complying with organizational processes
-*   Address business needs and manage supply chain communications, showing empathy with stakeholders
-*   Collate information and feedback to understand business needs and requirements
-*   Ensure that stakeholder concerns or complaints are addressed in accordance with organizational policy.
+* Establish and maintain positive business relationships with customers, partners and suppliers (internal or external) deploying and complying with organizational processes
+* Address business needs and manage supply chain communications, showing empathy with stakeholders
+* Collate information and feedback to understand business needs and requirements
+* Ensure that stakeholder concerns or complaints are addressed in accordance with organizational policy.
 
  |
 | 
@@ -104,17 +104,17 @@ Key skills you will need include:
 
  | 
 
-*   Get messages understood by adopting a wide range of styles, tools and techniques
-*   Share information, good practice and expertise with others
-*   Use persuasive logic to win support or change views
-*   Deliver difficult/unpopular messages with clarity and diplomacy
-*   Listen actively and objectively without interrupting
-*   Respond to and discuss issues without being defensive.
+* Get messages understood by adopting a wide range of styles, tools and techniques
+* Share information, good practice and expertise with others
+* Use persuasive logic to win support or change views
+* Deliver difficult/unpopular messages with clarity and diplomacy
+* Listen actively and objectively without interrupting
+* Respond to and discuss issues without being defensive.
 
  |
 
 #### 2.2  Relevant qualifications
 
-*   [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
-*   [ITIL<sup>®</sup> 4: Direct, plan and improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
-*   [ITIL<sup>®</sup> 4: Drive stakeholder value](https://www.axelos.com/certifications/itil-service-management/managing-professional/drive-stakeholder-value)
+* [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
+* [ITIL<sup>®</sup> 4: Direct, plan and improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
+* [ITIL<sup>®</sup> 4: Drive stakeholder value](https://www.axelos.com/certifications/itil-service-management/managing-professional/drive-stakeholder-value)

@@ -11,35 +11,35 @@ weight: 1
 The change enablement practice aims to ensure that changes to services and their components are controlled and that they meet the organization’s change-related needs. Authorized changes should enable the desired outcomes and meet the organization’s requirements regarding change throughput (the number of changes made and the speed of change realization) and risk management. Flexibility and agility permeate this practice because they are key aspects of a modern organization.
 
 The change enablement practice incorporates three premises:
-*   Changes are planned and realized in the context of value streams. The practice is integrated into value streams and ensures that changes are effective, safe, and timely in order to meet stakeholders’ expectations.
-*   The practice does not aim to unify all the changes planned and carried out in an organization into one big picture: in a digital environment, where hundreds of changes may be happening simultaneously, this is neither possible nor required.
-*   The practice should focus on balancing effectiveness, throughput, compliance, and risk control for all changes in the defined scope.
+* Changes are planned and realized in the context of value streams. The practice is integrated into value streams and ensures that changes are effective, safe, and timely in order to meet stakeholders’ expectations.
+* The practice does not aim to unify all the changes planned and carried out in an organization into one big picture: in a digital environment, where hundreds of changes may be happening simultaneously, this is neither possible nor required.
+* The practice should focus on balancing effectiveness, throughput, compliance, and risk control for all changes in the defined scope.
 
 The change enablement practice has multiple benefits for both service providers and consumers.
 
 Benefits for the service provider include:
-*   improved visibility of end-to-end value streams
-*   improved risk management capabilities
-*   improved ability to respond to novel situations
-*   improved security and compliance; and adherence to (audit) standards.
+* improved visibility of end-to-end value streams
+* improved risk management capabilities
+* improved ability to respond to novel situations
+* improved security and compliance; and adherence to (audit) standards.
 
 Benefits for the consumer include:
-*   improved speed of moving from ideas to working solutions
-*   improved speed in delivering ROI from changed services
-*   reduced negative impact on services and service components
-*   reduced negative impacts on users.
+* improved speed of moving from ideas to working solutions
+* improved speed in delivering ROI from changed services
+* reduced negative impact on services and service components
+* reduced negative impacts on users.
 
 ### 2.2 Terms and concepts
 
 <table><tbody><tr><td><p><strong>Definition: Change</strong></p></td></tr><tr><td><p>The addition, modification, or removal of anything that could have a direct or indirect effect on services.</p></td></tr></tbody></table>
 
 The change enablement practice helps to build and maintain an organizational environment that supports creating intended outputs and achieving intended outcomes. The practice aims to balance the different and sometimes conflicting requirements and expectations from various stakeholders by:
-*   Making sure the expected value is understood from the viewpoint of and by all stakeholders, following the guiding principle ‘focus on value’, among others.
-*   Considering the stakeholders’ interest in transparency and communications at the right level and in the right format when it comes to tracking the progress of value enabled by the changes, rather than just the technical details.
+* Making sure the expected value is understood from the viewpoint of and by all stakeholders, following the guiding principle ‘focus on value’, among others.
+* Considering the stakeholders’ interest in transparency and communications at the right level and in the right format when it comes to tracking the progress of value enabled by the changes, rather than just the technical details.
     
-*   Tracking and responding to the unintended negative and positive effects of changes on stakeholders and their objectives that are not necessarily directly linked to the changes in question.
+* Tracking and responding to the unintended negative and positive effects of changes on stakeholders and their objectives that are not necessarily directly linked to the changes in question.
     
-*   Keeping in mind the importance of those technical details for the success of the changes from the execution, measurement, and continual improvement point of view.
+* Keeping in mind the importance of those technical details for the success of the changes from the execution, measurement, and continual improvement point of view.
     
 
 Changes that are implemented with technical precision, but which fail to enable the desired outcomes, fall short of expectations. Additionally, changes may have unintended outcomes, including negative impacts on users, service downtime, degradation, and destabilization. It might not be possible to avoid these outcomes, but it is important to control these within possibilities.
@@ -65,21 +65,21 @@ Changes can be standardized and automated where uncertainty is low, which helps 
 <table><tbody><tr><td><p><strong>Definition: Standard change</strong></p></td></tr><tr><td><p>A low-risk, pre-authorized change that is well understood and fully documented, and which can be implemented without needing additional authorization.</p></td></tr></tbody></table>
 
 Examples of standard changes include:
-*   fulfilment of a service request
-*   standard incident resolutions
-*   standard responses to disasters (as per DRP)
-*   maintenance of infrastructure
-*   routine testing of contingency measures
-*   highly automated changes flowing through the CI/CD pipeline
-*   routine software updates.
+* fulfilment of a service request
+* standard incident resolutions
+* standard responses to disasters (as per DRP)
+* maintenance of infrastructure
+* routine testing of contingency measures
+* highly automated changes flowing through the CI/CD pipeline
+* routine software updates.
 
 Organizations with an automated pipeline for CI/CD often automate most of the change enablement practice processes. Some steps (such as service request registration and approvals) may become practically invisible. Highly automated and fully documented processes can provide additional value for audit-related activities; rather than relying on manual entries and recollections when queried, every step of the process is already fully documented, including all decision points and exceptions. This provides an additional layer of transparency, saves time, and increases trust.
 
 When the procedure for a standard change is created or modified, the procedure should be authorized and undergo a full risk assessment. This risk assessment does not need to be repeated for every change; it is needed only if the procedure itself undergoes another modification.
 
 Although standard changes are usually associated with business-as-usual situations, there are multiple examples of standardization in situations with higher levels of uncertainty. These include:
-*   standard incident resolutions
-*   standard responses to disasters.
+* standard incident resolutions
+* standard responses to disasters.
 
 These may help organizations to decrease uncertainty in extreme situations by following a pre- defined routine and applying pre-tested solutions.
 
@@ -102,12 +102,12 @@ Change models provide guidance for handling normal changes. Organizations usuall
 <table><tbody><tr><td><p><strong>Definition: Change model</strong></p></td></tr><tr><td><p>A repeatable approach to the management of a particular type of change.</p></td></tr></tbody></table>
 
 Change models can be defined based on factors such as:
-*   systems/technologies to be changed
-*   scale of change
-*   locations/territories where the change occurs
-*   customers affected by the change
+* systems/technologies to be changed
+* scale of change
+* locations/territories where the change occurs
+* customers affected by the change
 
-*   regulatory requirements affecting the change.
+* regulatory requirements affecting the change.
 
 The models may determine an approach to the change enablement practice in all four dimensions of service management which is shown in Table 2.1.
 
@@ -126,8 +126,8 @@ The change enablement practice should ensure that changes are implemented effect
 Although some emergency scenarios may be predicted and provided with a standard solution (including standard changes required), many situations do not have a ready solution or the time for safe-to-fail testing. Change models for emergency changes often include bypassed or delayed procedures, such as change request registration or updating of the change schedule. They may also determine a dedicated change authority of high power and availability, together with other special arrangements. The aim is to accelerate changes while keeping risks at an acceptable level.
 
 Two important considerations regarding emergency changes:
-*   ‘Emergency’ does not mean ‘no rules or control’. Emergency changes can be standardized and automated. This can accelerate them without compromising control. Emergency does not always mean completely unpredictable and unknown.
-*   Some emergency changes do deal with unpredictable and unknown situations. They may need fast implementation of the best available solution without sufficient information or time for testing. This applies to situations where the cost of delay is equal to or higher than the risks associated with unsuccessful change.
+* ‘Emergency’ does not mean ‘no rules or control’. Emergency changes can be standardized and automated. This can accelerate them without compromising control. Emergency does not always mean completely unpredictable and unknown.
+* Some emergency changes do deal with unpredictable and unknown situations. They may need fast implementation of the best available solution without sufficient information or time for testing. This applies to situations where the cost of delay is equal to or higher than the risks associated with unsuccessful change.
 
 Figure 2.2 and table 2.2 outline the key characteristics of different types of changes.
 
@@ -148,11 +148,11 @@ The change enablement practice supports all value streams and can be used with a
 Typically, the practice is used for changes to the information and technology dimension of the organization’s products and services. Other practices may significantly contribute to the enablement of changes in the three other dimensions of service management. Respective changes, although formally covered by the change definition, may be excluded from the scope of the change enablement practice (see Table 2.3 for examples of changes).
 
 Organizations define which changes, at which level of control, should be addressed by the change enablement practice. This is based on several considerations, usually including:
-*   **Level of risk** Risks that are addressed and introduced by the change should be considered to determine the level of control.
-*   **Costs and losses** Costs of the change and losses addressed by the change should be evaluated to determine the level of control.
-*   **Scope of configuration and asset control** Registered configuration items and assets usually require control of modifications. The change enablement practice provides means for this.
-*   **Internal and external regulatory requirements** The organization may be obliged to comply with explicit change-related requirements.
-*   **Need for visibility of the change impact** In the environment where components are dynamically interconnected, the visibility of planned and ongoing changes and change progress is important.
+* **Level of risk** Risks that are addressed and introduced by the change should be considered to determine the level of control.
+* **Costs and losses** Costs of the change and losses addressed by the change should be evaluated to determine the level of control.
+* **Scope of configuration and asset control** Registered configuration items and assets usually require control of modifications. The change enablement practice provides means for this.
+* **Internal and external regulatory requirements** The organization may be obliged to comply with explicit change-related requirements.
+* **Need for visibility of the change impact** In the environment where components are dynamically interconnected, the visibility of planned and ongoing changes and change progress is important.
 
 #### Table 2.3 Examples of changes in the four dimensions of service management
 
@@ -189,13 +189,13 @@ Again, the primary means of achieving sufficient levels of control are by decrea
 ### 2.3 Scope
 
 The scope of the change enablement practice includes:
-*   planning changes to controlled environments in the organization
-*   planning change models and change standardization
-*   planning individual change workflows, activities, and controls
-*   scheduling and coordinating all ongoing changes
-*   controlling the progress of changes from initiation to completion
-*   communicating change plans and progress to relevant stakeholders
-*   assessing change success, including outputs, outcomes, efficiency, risks, and costs.
+* planning changes to controlled environments in the organization
+* planning change models and change standardization
+* planning individual change workflows, activities, and controls
+* scheduling and coordinating all ongoing changes
+* controlling the progress of changes from initiation to completion
+* communicating change plans and progress to relevant stakeholders
+* assessing change success, including outputs, outcomes, efficiency, risks, and costs.
 
 There are several activities and areas of responsibility not included in the change enablement practice, although they are still closely related to changes. These are listed in Table 2.3, along with references to the practice guides in which they can be found. It is important to remember that the ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.
 
@@ -210,10 +210,10 @@ There are several activities and areas of responsibility not included in the cha
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The change enablement practice includes the following PSFs:
-*   ensuring that changes are realized in a timely and effective manner
-*   minimizing the negative impacts of changes
-*   ensuring stakeholder satisfaction
-*   meeting change-related governance and compliance requirements.
+* ensuring that changes are realized in a timely and effective manner
+* minimizing the negative impacts of changes
+* ensuring stakeholder satisfaction
+* meeting change-related governance and compliance requirements.
 
 #### 2.4.1 Ensuring that changes are realized in a timely and effective manner
 
@@ -230,11 +230,11 @@ The timeliness of change is a measure of meeting the expectations and requiremen
 Sometimes failure to meet timeliness requirements makes a change ineffective, useless, or harmful.
 
 Effectiveness and timeliness of changes can be improved by:
-*   decreasing the size of individual changes
-*   standardizing and automating changes
-*   including a feedback loop in every iteration of change planning and realization
-*   capturing expectations and communicating the progress of changes
-*   effectively integrating multiple ITIL practices for changes in the context of value streams.
+* decreasing the size of individual changes
+* standardizing and automating changes
+* including a feedback loop in every iteration of change planning and realization
+* capturing expectations and communicating the progress of changes
+* effectively integrating multiple ITIL practices for changes in the context of value streams.
 
 #### 2.4.2 Minimizing the negative impact of changes
 
@@ -245,21 +245,21 @@ To balance the timeliness, effectiveness, and risk level of change, organization
 #### 2.4.3 Ensuring stakeholder satisfaction
 
 Many stakeholders have an interest in changes, including:
-*   service provider teams
-*   users
-*   customers
-*   sponsors of service provision
-*   sponsors of service consumption
-*   suppliers and partners.
+* service provider teams
+* users
+* customers
+* sponsors of service provision
+* sponsors of service consumption
+* suppliers and partners.
 
 The change enablement practice ensures that stakeholders are identified and that their expectations are captured, considered, and met as appropriate. This is done in conjunction with the relationship management, risk management, and business analysis practices, among others. The change enablement practice mostly focuses on the continual monitoring of stakeholder engagement and satisfaction during change realization and after the change is complete. Ongoing communication, status updates, and feedback collection are important components of satisfaction management.
 
 #### 2.4.4 Meeting change-related governance and compliance requirements
 
 Many change-related governance and compliance requirements affect the change enablement practice in general as well as individual changes. It is important that organizations capture them, understand them, and ensure that they are met. The change enablement practice supports this by:
-*   including required controls in change models, processes, and procedures
-*   providing required information
-*   initiating improvement to prevent or correct non-compliance.
+* including required controls in change models, processes, and procedures
+* providing required information
+* initiating improvement to prevent or correct non-compliance.
 
 ### 2.5 Key metrics
 
@@ -282,8 +282,8 @@ Each practice may include processes and activities that may be necessary to fulf
 <table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Change enablement activities form two processes:
-*   **Change enablement planning and optimization** This process is focused on the planning and continual improvement of the change enablement practice, change models, and standard change procedures.
-*   **Change lifecycle management** This process facilitates the change, and manages it through registration, assessment, authorization, execution, and closure.
+* **Change enablement planning and optimization** This process is focused on the planning and continual improvement of the change enablement practice, change models, and standard change procedures.
+* **Change lifecycle management** This process facilitates the change, and manages it through registration, assessment, authorization, execution, and closure.
 
 #### 3.1.1 Change enablement planning and optimization
 
@@ -413,11 +413,11 @@ Walk through or directly experience the steps and information flow as they go in
 **c. Evaluate the workflow steps**
 
 Typically, the criteria for evaluation are:
-*   value for the stakeholder (does the step add value for the business stakeholder?)
-*   effectiveness or performance (is the step performed well?)
-*   availability (are required resources available to execute the step?)
-*   capacity (are required resources enough?)
-*   flexibility (are the required resources interchangeable within the step?).
+* value for the stakeholder (does the step add value for the business stakeholder?)
+* effectiveness or performance (is the step performed well?)
+* availability (are required resources available to execute the step?)
+* capacity (are required resources enough?)
+* flexibility (are the required resources interchangeable within the step?).
 
 **d. Map the activities and the information flows**
 
@@ -444,12 +444,12 @@ Refer to the continual improvement practice guide for a practical improvement mo
 As stated earlier, the change enablement practice supports many other practices either by enabling continual improvement activities (from planning to realization) or by providing mechanisms for following through with individual changes. The following is a list of recommendations to consider when analysing service value streams through the lens of change enablement.
 
 ● At step (1), keep in mind that the change enablement practice has multiple layers that need to be tailored specifically for different parts or levels in the organization. Change enablement provides assistance with:
-*   the continual improvement practice across the organization,
-*   major change initiatives (often managed as portfolios, programmes, and projects; please see the project management practice guide for more details),
-*   changes to practices and value streams,
-*   changes to processes and procedures,
-*   changes to individual products and services,
-*   changes to service components or configuration items.
+* the continual improvement practice across the organization,
+* major change initiatives (often managed as portfolios, programmes, and projects; please see the project management practice guide for more details),
+* changes to practices and value streams,
+* changes to processes and procedures,
+* changes to individual products and services,
+* changes to service components or configuration items.
 
 It is important to ensure the practice does not increase unnecessary bureaucracy in any of the service value streams. The focus should remain on enabling change, not making it unnecessarily difficult.
 
@@ -484,13 +484,13 @@ Three roles specific to the change enablement practice may be found in organizat
 #### 4.1.1 Change manager and change coordinator roles
 
 The change manager is typically responsible for:
-*   the initial processing and verification of change requests
-*   allocating changes to appropriate teams for assessment and authorization, according to the change model
-*   in some instances, communicating decisions of change authorities to affected parties
-*   monitoring and reviewing the activities of the teams that build and test changes
-*   publishing the change schedule and ensuring that it is available as needed
-*   conducting regular and ad hoc service review analyses; and initiating improvements to the practice, the change models, and the standard change procedures
-*   developing the organization’s expertise in the processes and methods of the change enablement practice.
+* the initial processing and verification of change requests
+* allocating changes to appropriate teams for assessment and authorization, according to the change model
+* in some instances, communicating decisions of change authorities to affected parties
+* monitoring and reviewing the activities of the teams that build and test changes
+* publishing the change schedule and ensuring that it is available as needed
+* conducting regular and ad hoc service review analyses; and initiating improvements to the practice, the change models, and the standard change procedures
+* developing the organization’s expertise in the processes and methods of the change enablement practice.
 
 In some cases, organizations introduce an additional role of change coordinator that has similar responsibilities but a more limited scope (specific types of changes, or territory, or part of the organization).
 
@@ -547,18 +547,18 @@ The organizational structures accountable for change enablement, deployment mana
 ### 5.1 Information exchange
 
 The effectiveness of the change enablement practice is based on the quality of the information used. This includes, but is not limited to, information about:
-*   customers and users
-*   services and their architecture and design
-*   partners and suppliers, including contract and SLA information on the services they provide
-*   policies and requirements which regulate service provision
-*   proposed changes
-*   expected benefits for the consumers and the organization
-*   user stories
-*   estimated time and cost of change realization
-*   regulations affecting the change
-*   lessons learned from similar changes in the past
-*   past and ongoing changes
-*   stakeholder satisfaction with the practice.
+* customers and users
+* services and their architecture and design
+* partners and suppliers, including contract and SLA information on the services they provide
+* policies and requirements which regulate service provision
+* proposed changes
+* expected benefits for the consumers and the organization
+* user stories
+* estimated time and cost of change realization
+* regulations affecting the change
+* lessons learned from similar changes in the past
+* past and ongoing changes
+* stakeholder satisfaction with the practice.
 
 This information may take various forms. The key inputs and outputs of the change enablement practice are listed in chapter 3.
 
@@ -591,16 +591,16 @@ Knowledge management tools are used throughout the service lifecycle as well as 
 #### 5.2.1 Recommendation for the automation of change enablement
 
 The following recommendations can help when applying automation to change enablement:
-*   **Automate the value stream** Changes can originate from any practice, process, or service, and changes need to be deployed and released. When analysing the change enablement supported value streams for automation opportunities, map the inputs and outputs of related practices and their processes as well. This includes, but is not limited to deployment management, release management, problem management, service request management, project management, service configuration management, and continual improvement.
-*   **Allow different workflows for different types of changes** Firstly: minor, medium, and major changes can all have different workflows starting with change registration and ending with change review and closure. Secondly: standard, normal, and emergency changes can also all have different workflows. And thirdly: changes affecting a service configuration item, the service itself, a practice, a process, or a procedure can all have different workflows. Some types of changes can have multiple authorization stages that require manual input, whereas other changes can be automated together with their deployment and release throughout all steps.
+* **Automate the value stream** Changes can originate from any practice, process, or service, and changes need to be deployed and released. When analysing the change enablement supported value streams for automation opportunities, map the inputs and outputs of related practices and their processes as well. This includes, but is not limited to deployment management, release management, problem management, service request management, project management, service configuration management, and continual improvement.
+* **Allow different workflows for different types of changes** Firstly: minor, medium, and major changes can all have different workflows starting with change registration and ending with change review and closure. Secondly: standard, normal, and emergency changes can also all have different workflows. And thirdly: changes affecting a service configuration item, the service itself, a practice, a process, or a procedure can all have different workflows. Some types of changes can have multiple authorization stages that require manual input, whereas other changes can be automated together with their deployment and release throughout all steps.
     
-*   **Do not overcomplicate the workflows and business rules** While visibility of the entirety of the workflow is necessary for some roles, it is not important for many others. When different roles are pulled into the change enablement workflows and related service value streams, provide them with enough information so that they can fulfil their role, but do not overburden them with, for example, all authorization steps or change analysis workflows. Present the stakeholders whose input is required with concise information and clear requests when involving them.
+* **Do not overcomplicate the workflows and business rules** While visibility of the entirety of the workflow is necessary for some roles, it is not important for many others. When different roles are pulled into the change enablement workflows and related service value streams, provide them with enough information so that they can fulfil their role, but do not overburden them with, for example, all authorization steps or change analysis workflows. Present the stakeholders whose input is required with concise information and clear requests when involving them.
     
-*   **Pay attention to measurement and reporting from the beginning** The success criteria for the change, either through assessing the outputs or the outcomes, need to be defined and clearly communicated to stakeholders before the work on the change begins. Various aspects of workflow and value stream efficiency and effectiveness can and should be measured for, among other things, input into the change optimization process. When analysing value streams, the steps taken before the change is registered should also be measured for unnecessary delays or other types of waste, among other aspects. Workflow management and collaboration tools can provide vast amounts of data for change enablement metrics.
+* **Pay attention to measurement and reporting from the beginning** The success criteria for the change, either through assessing the outputs or the outcomes, need to be defined and clearly communicated to stakeholders before the work on the change begins. Various aspects of workflow and value stream efficiency and effectiveness can and should be measured for, among other things, input into the change optimization process. When analysing value streams, the steps taken before the change is registered should also be measured for unnecessary delays or other types of waste, among other aspects. Workflow management and collaboration tools can provide vast amounts of data for change enablement metrics.
     
-*   **Communications are important** While the reason for the change should be understood by all stakeholders, the progress of the change can also be important for stakeholders to identify any delays or deviations and take necessary action. Make sure that stakeholders are properly identified, and stakeholder management plans have been created for all non-trivial changes that have the chance of a medium or higher impact on people’s work.
+* **Communications are important** While the reason for the change should be understood by all stakeholders, the progress of the change can also be important for stakeholders to identify any delays or deviations and take necessary action. Make sure that stakeholders are properly identified, and stakeholder management plans have been created for all non-trivial changes that have the chance of a medium or higher impact on people’s work.
     
-*   **Pay attention to integrations** As the realization of different types of changes can be managed in different tools (for example, project management software for those changes managed as projects, automated release and deployment tools for software changes, Kanban boards for product-related changes, and so on) it might be difficult to have good visibility of the progress of work. Many tools come with integration capabilities that allow aggregating relevant information for different management purposes without requiring all teams to use the same software tools for managing their work.
+* **Pay attention to integrations** As the realization of different types of changes can be managed in different tools (for example, project management software for those changes managed as projects, automated release and deployment tools for software changes, Kanban boards for product-related changes, and so on) it might be difficult to have good visibility of the progress of work. Many tools come with integration capabilities that allow aggregating relevant information for different management purposes without requiring all teams to use the same software tools for managing their work.
     
 
 ## 6. Partners and suppliers
@@ -610,12 +610,12 @@ Very few services are delivered using only an organization’s own resources. Mo
 ### 6.1 Dependencies on third parties
 
 RFCs can come from many sources from both inside and outside of the organization, and procedures should be created and communicated to support the initiation of RFCs by suppliers and other third parties, where applicable. When putting these procedures in place, it is useful to consider the following questions:
-*   What is the easiest way for the customer to submit an RFC?
-*   What does the workflow look like for service request based standard changes?
-*   How do the customers submit their change requests for products, services, or procedures?
-*   Will they be forced to use specialized software or can they submit it via regular channels (for example, by email)?
-*   Can partners also submit RFCs in an efficient manner?
-*   How are third parties connected to continual improvement activities and what are the feedback flows to ensure that submitted ideas and requests are properly responded to?
+* What is the easiest way for the customer to submit an RFC?
+* What does the workflow look like for service request based standard changes?
+* How do the customers submit their change requests for products, services, or procedures?
+* Will they be forced to use specialized software or can they submit it via regular channels (for example, by email)?
+* Can partners also submit RFCs in an efficient manner?
+* How are third parties connected to continual improvement activities and what are the feedback flows to ensure that submitted ideas and requests are properly responded to?
 
 The organization may depend on various partners to assess the proposed change before it can be authorized or rejected. Again, procedures should be put in place to ensure this step doesn’t introduce delays and other types of waste.
 
@@ -697,13 +697,13 @@ Figure 7.2 The capability development steps and levels
 ## 8. Recommendations for practice success
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 In Table 8.1, recommendations for the success of the change enablement practice are linked to the relevant guiding principles affecting the approach the most. All guiding principles should be considered at all times and their value is best realized through their combination.
 

@@ -51,8 +51,8 @@ To summarize, service quality includes both the functional and non-functional ch
 It is quite common to limit the formal liability of the service provider to the agreed service level, rather than the implied or expected service quality. However, a sustainable service relationship is only possible if the agreed service level is constantly achieved and, most importantly, customers and users are satisfied. This satisfaction is based on their service experience and includes both agreed and implied service quality. Because of this, service providers often aim to exceed the agreed service level to make sure that their users and customers are satisfied. However, service provision is often budgeted based on the agreed service level, and extra efforts result in extra costs for the provider.
 
 To maintain an effective service relationship, services should be financially viable for both service providers and service consumers. This is usually a key concern of sponsors:
-*   Sponsors of service consumption (as defined in ITIL Foundation: ITIL 4 Edition) require an optimal price of the service for the service consumer.
-*   Sponsors of service provision (a role authorizing budget for service provision) require an optimal cost of service provision.
+* Sponsors of service consumption (as defined in ITIL Foundation: ITIL 4 Edition) require an optimal price of the service for the service consumer.
+* Sponsors of service provision (a role authorizing budget for service provision) require an optimal cost of service provision.
 
 These roles can be performed by different people in different scenarios:
 
@@ -63,11 +63,11 @@ Regardless of the service relationship model, the service level management pract
 ### 2.3 Scope
 
 The scope of the service level management practice includes:
-*   Tactical and operational communications with customers regarding expected, agreed, and actual service quality, as well as their service experience. This includes the collection of feedback
-*   Negotiating, entering, and maintaining SLAs with customers.
-*   Understanding the design and architecture of services and dependencies between services and other configuration items.
-*   Continual review of achieved service levels versus agreed and expected service levels.
-*   Initiating service improvements, including improvements to agreements, monitoring, and reporting.
+* Tactical and operational communications with customers regarding expected, agreed, and actual service quality, as well as their service experience. This includes the collection of feedback
+* Negotiating, entering, and maintaining SLAs with customers.
+* Understanding the design and architecture of services and dependencies between services and other configuration items.
+* Continual review of achieved service levels versus agreed and expected service levels.
+* Initiating service improvements, including improvements to agreements, monitoring, and reporting.
 
 There are a number of activities and areas of responsibility that are not included in the service level management practice, although they are still closely related to it. These are listed in Table 2.1, along with references to the practices in which they can be found. It is important to remember that ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.
 
@@ -82,10 +82,10 @@ A practice success factor (PSF) is more than a task or activity; it includes com
 <table><tbody><tr><td><p><strong>Definition: Practice Success Factor</strong></p></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
 
 The service level management practice includes the following PSFs:
-*   Establishing a shared view of target service levels with customers.
-*   Overseeing how the organization meets the defined service levels through the collection, analysis, storage, and reporting of the relevant metrics for the identified services.
-*   Performing service reviews to ensure that the current set of services continues to meet the needs of the organization and its customers.
-*   Capturing and reporting on improvement opportunities, including performance against defined service levels and stakeholder satisfaction.
+* Establishing a shared view of target service levels with customers.
+* Overseeing how the organization meets the defined service levels through the collection, analysis, storage, and reporting of the relevant metrics for the identified services.
+* Performing service reviews to ensure that the current set of services continues to meet the needs of the organization and its customers.
+* Capturing and reporting on improvement opportunities, including performance against defined service levels and stakeholder satisfaction.
 
 #### 2.4.1 Establishing a shared view of target service levels with customers
 
@@ -94,22 +94,22 @@ Interactions with customers vary significantly across different service relation
 <table><tbody><tr><td><p><strong>Service: tailored or ‘out of the box'?</strong></p></td></tr><tr><td><p>‘Tailored service’ here means that there is a significant flexibility in target service levels that should be agreed before service delivery and consumption start. On the other hand, an ‘out-of-the-box’ service has one or more pre-defined service levels to choose from, without much flexibility.</p></td></tr></tbody></table>
 
 When a service provider and a customer establish a shared view of a tailored service, they usually discuss customer needs and expectations, aiming to create a service specification that would satisfy all stakeholders, including:
-*   The customers, users, and sponsors of service consumption on the consumer side.
-*   The service delivery teams and the service provision sponsors on the provider side.
+* The customers, users, and sponsors of service consumption on the consumer side.
+* The service delivery teams and the service provision sponsors on the provider side.
 
 If the service being discussed has not been created yet, it should involve service architects and service designers, as well as business analysts and service development teams. However, these teams may not be needed if the services have already been designed and are currently available to customers.
 
 Usually, the scope of the service quality being discussed is narrowed with every step in the process, from the outlining of consumer needs, to the agreement of the SLA. For example:
-*   When customers express their expectations to the service provider, they only partially represent the needs of the organization.
-*   When customers and service provider representatives agree on the service requirements (based on the communicated expectations), the scope of what is being discussed is narrowed again.
-*   Finally, after the service provider creates a description of a service level that can be delivered with the required level of assurance and liability, the scope becomes even narrower (Figure 2.2).
+* When customers express their expectations to the service provider, they only partially represent the needs of the organization.
+* When customers and service provider representatives agree on the service requirements (based on the communicated expectations), the scope of what is being discussed is narrowed again.
+* Finally, after the service provider creates a description of a service level that can be delivered with the required level of assurance and liability, the scope becomes even narrower (Figure 2.2).
 
 For out-of-the-box services, available service levels are usually pre-defined by the service provider based on a mixture of market and business intelligence. For example:
-*   Consumer needs are explored and analysed by the marketing and business analysis teams of the service provider. These are likely to be different from the needs of any single given consumer.
-*   The service provider’s architects and designers create a service and supporting service quality specification, based on assumptions made about the consumer’s needs. This does not usually meet all of the captured needs of the consumer.
-*   Some of the characteristics of the specification are then announced to potential consumers as service offerings (sometimes with different service levels, such as gold, silver, bronze, and so on.)
+* Consumer needs are explored and analysed by the marketing and business analysis teams of the service provider. These are likely to be different from the needs of any single given consumer.
+* The service provider’s architects and designers create a service and supporting service quality specification, based on assumptions made about the consumer’s needs. This does not usually meet all of the captured needs of the consumer.
+* Some of the characteristics of the specification are then announced to potential consumers as service offerings (sometimes with different service levels, such as gold, silver, bronze, and so on.)
 
-*   Finally, some components of the announced offering are affirmed in a formally agreed SLA (Figure 2.3).
+* Finally, some components of the announced offering are affirmed in a formally agreed SLA (Figure 2.3).
 
 All metrics that are defined as an agreed service level should have a clear approach to measurement and reporting. For tailored services, defining this approach can be a part of the initial target service level negotiation. For out-of-the-box services, available metrics and means of measurement are usually pre-defined during service design, with measurement and reporting tools integrated into the service.
 
@@ -141,17 +141,17 @@ Nevertheless, it is very important for the success of the service relationship t
 #### 2.4.2 Overseeing how the organization meets the defined service levels
 
 When a shared understanding of the target service level is established, and actual service delivery has started, the service provider should control the actual quality of the services from three main perspectives:
-*   **Achieved service level** Against the agreed service level, based on agreed measurements.
-*   **User satisfaction with the service** Based on impromptu feedback, transaction-based feedback and periodic surveys.
-*   **Customer satisfaction with the service** Based on periodic discussions, surveys, or real-time scanning of the customer sentiment on social media.
+* **Achieved service level** Against the agreed service level, based on agreed measurements.
+* **User satisfaction with the service** Based on impromptu feedback, transaction-based feedback and periodic surveys.
+* **Customer satisfaction with the service** Based on periodic discussions, surveys, or real-time scanning of the customer sentiment on social media.
 
 Data from these sources should be collected, stored, analysed, and the resulting information reported to relevant stakeholders on both the provider’s and consumer’s sides. These may include (but are not limited to):
-*   Consumer stakeholders:  
+* Consumer stakeholders:  
     sponsors  
     customers  
     users
 
-*   Provider stakeholders:  
+* Provider stakeholders:  
     roles/teams responsible for the customer relationship  
     product and service owners  
     leads of the teams involved in the delivery of the service  
@@ -206,9 +206,9 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value streams contribution
 
 Like any other ITIL management practice, the service level management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The service level management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-*   plan
-*   engage
-*   improve.
+* plan
+* engage
+* improve.
 
 The contribution of the service level management practice to the service value chain is shown in Figure 3.1.
 
@@ -223,8 +223,8 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong></strong><span><strong>Definition: Process</strong></span></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs.<br>A process takes one or more defined inputs and turns them into defined outputs.<br>Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Service level management activities form two processes:
-*   **Management of SLAs** This process is focused on agreements and their lifecycle.
-*   **Oversight of service levels and service quality** This process ensures continual service improvement based on a good understanding of service quality.
+* **Management of SLAs** This process is focused on agreements and their lifecycle.
+* **Oversight of service levels and service quality** This process ensures continual service improvement based on a good understanding of service quality.
 
 #### 3.2.1 Management of SLAs
 
@@ -259,21 +259,21 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 | **Key inputs** | **Activities** | **Key outputs** |
 | --- | --- | --- |
 | 
-*   Service performance data SLA
-*   User and customer feedback, including compliments and complaints
-*   Service improvement plan
+* Service performance data SLA
+* User and customer feedback, including compliments and complaints
+* Service improvement plan
 
  | 
 
-*   Customer and user satisfaction surveys
-*   Ongoing service quality monitoring
-*   Service review
-*   Service quality reporting
+* Customer and user satisfaction surveys
+* Ongoing service quality monitoring
+* Service review
+* Service quality reporting
 
  | 
 
-*   Service quality dashboards and reports for various stakeholder
-*   Service improvement initiatives
+* Service quality dashboards and reports for various stakeholder
+* Service improvement initiatives
 
  |
 
@@ -313,8 +313,8 @@ Ongoing service quality monitoring
 
  | 
 
-*   The service provider monitors the performance of resources used to deliver services (this work involves many practices) and collects data relevant for the services as defined in the SLA. Simultaneously, impromptu feedback is collected from users and other relevant stakeholders. The service owners and relationship managers of the service provider monitor the services to ensure that they are delivered as agreed.
-*   Some of the service quality data may be available for users and customers on a dashboard in an agreed format, so that they can also monitor service quality.
+* The service provider monitors the performance of resources used to deliver services (this work involves many practices) and collects data relevant for the services as defined in the SLA. Simultaneously, impromptu feedback is collected from users and other relevant stakeholders. The service owners and relationship managers of the service provider monitor the services to ensure that they are delivered as agreed.
+* Some of the service quality data may be available for users and customers on a dashboard in an agreed format, so that they can also monitor service quality.
 
  | 
 
@@ -330,9 +330,9 @@ The service owner conducts a review of service quality over a designated period 
 
  | 
 
-*   Customers conduct a review of service quality, involving key users and, where possible, service provider representatives.
-*   The main outputs are a service value report for sponsors and other consumer stakeholders, and improvement initiatives to be discussed with the service provider. These initiatives serve as inputs for the service reviews of the provider.
-*   The service reviews of the customers and provider may be conducted jointly and may lead to joint improvement initiatives. This is usual for tailored services of either level of formalization, but relatively rare for out-of-the-box mass market services.
+* Customers conduct a review of service quality, involving key users and, where possible, service provider representatives.
+* The main outputs are a service value report for sponsors and other consumer stakeholders, and improvement initiatives to be discussed with the service provider. These initiatives serve as inputs for the service reviews of the provider.
+* The service reviews of the customers and provider may be conducted jointly and may lead to joint improvement initiatives. This is usual for tailored services of either level of formalization, but relatively rare for out-of-the-box mass market services.
 
  |
 | 
@@ -345,8 +345,8 @@ The service provider produces reports and dashboards demonstrating service level
 
  | 
 
-*   The service provider produces reports (and sometimes dashboards) demonstrating satisfaction levels and selected service level achievements (commonly accepted in the industry and relevant for user satisfaction).
-*   These are communicated by a previously agreed means.
+* The service provider produces reports (and sometimes dashboards) demonstrating satisfaction levels and selected service level achievements (commonly accepted in the industry and relevant for user satisfaction).
+* These are communicated by a previously agreed means.
 
  |
 
@@ -394,27 +394,27 @@ The role accountable for all service level management activities is usually the 
 | **Activity****Management of  SLAs process** | **Responsible roles** | **Competency profile** | **Specific skills** |
 | --- | --- | --- | --- |
 | 
-*   Definition of customer requirements
-*   Relationship manager
-*   Service architect
-*   Service designer
-*   Service owner
+* Definition of customer requirements
+* Relationship manager
+* Service architect
+* Service designer
+* Service owner
 
  | Customer | CTA | 
 
-*   Good knowledge of the service consumer’s business
-*   Good knowledge of the service provider’s portfolio
-*   Communication and coordination
+* Good knowledge of the service consumer’s business
+* Good knowledge of the service provider’s portfolio
+* Communication and coordination
 
  |
 | 
 
-*   Viability analysis
-*   Service architect
-*   Service designer
-*   Service owner
-*   Supplier manager
-*   Technical expert
+* Viability analysis
+* Service architect
+* Service designer
+* Service owner
+* Supplier manager
+* Technical expert
 
  | 
 
@@ -422,9 +422,9 @@ Product owner
 
  | TC | 
 
-*   Business analysis
-*   Risk analysis
-*   Good knowledge of the service provider’s portfolio
+* Business analysis
+* Risk analysis
+* Good knowledge of the service provider’s portfolio
 
  |
 | 
@@ -433,15 +433,15 @@ Drafting an SLA
 
  | 
 
-*   Relationship manager
-*   Service designer
-*   Service owner
+* Relationship manager
+* Service designer
+* Service owner
 
  | CAT | 
 
-*   Good knowledge of the service provider’s portfolio
-*   Good knowledge of the products, including their architecture and configuration
-*   Business analysis
+* Good knowledge of the service provider’s portfolio
+* Good knowledge of the products, including their architecture and configuration
+* Business analysis
 
  |
 | 
@@ -450,14 +450,14 @@ SLA negotiation
 
  | 
 
-*   Customer
-*   Relationship manager
-*   Service owner
+* Customer
+* Relationship manager
+* Service owner
 
  | CA | 
 
-*   Communication and negotiation
-*   Good knowledge of the product, including its architecture and configuration
+* Communication and negotiation
+* Good knowledge of the product, including its architecture and configuration
 
  |
 | 
@@ -466,12 +466,12 @@ SLA communication and enablement
 
  | 
 
-*   Product owner
-*   Project manager
-*   Service desk agent
+* Product owner
+* Project manager
+* Service desk agent
     
-*   Service owner
-*   Supplier manager
+* Service owner
+* Supplier manager
 
  | 
 
@@ -479,22 +479,22 @@ CAT
 
  | 
 
-*   Management and coordination
-*   Communication skills
+* Management and coordination
+* Communication skills
 
  |
 | SLA review | 
 
-*   Customer
-*   Relationship manager
-*   Service designer
-*   Service owner
+* Customer
+* Relationship manager
+* Service designer
+* Service owner
 
  | CA | 
 
-*   Analytical skills Understanding of the services
-*   Understanding of the consumer context
-*   Knowledge of the agreements and expectations
+* Analytical skills Understanding of the services
+* Understanding of the consumer context
+* Knowledge of the agreements and expectations
 
  |
 | 
@@ -503,9 +503,9 @@ SLA prolongation
 
  | 
 
-*   Account manager
-*   Service owner
-*   Technical expert
+* Account manager
+* Service owner
+* Technical expert
     
 
  | 
@@ -514,8 +514,8 @@ CA
 
  | 
 
-*   Coordination and communication
-*   Knowledge of the agreements and expectations
+* Coordination and communication
+* Knowledge of the agreements and expectations
 
  |
 | 
@@ -524,9 +524,9 @@ SLA withdrawal
 
  | 
 
-*   Account manager
-*   Service owner
-*   Technical expert
+* Account manager
+* Service owner
+* Technical expert
     
 
  | 
@@ -535,9 +535,9 @@ CAT
 
  | 
 
-*   Good knowledge of the product, including its architecture and configuration
-*   Knowledge of the agreements
-*   Management and coordination
+* Good knowledge of the product, including its architecture and configuration
+* Knowledge of the agreements
+* Management and coordination
 
  |
 | 
@@ -546,33 +546,33 @@ Customer and user satisfaction survey
 
  | 
 
-*   Account management
-*   Product Owner
-*   Relationship manager
-*   Service owner
+* Account management
+* Product Owner
+* Relationship manager
+* Service owner
 
  | CA | 
 
-*   Knowledge of the agreements and expectations
-*   Understanding of the consumer context
-*   Communication
+* Knowledge of the agreements and expectations
+* Understanding of the consumer context
+* Communication
 
  |
 | Ongoing service quality monitoring | 
 
-*   Product owner
-*   Service owner
-*   Supplier manager
+* Product owner
+* Service owner
+* Supplier manager
     
-*   Technical expert
+* Technical expert
     
 
  | TC | 
 
-*   Analytical skills
-*   Knowledge of the agreements and expectations
-*   Understanding of the consumer context
-*   Good knowledge of the product, including its architecture and configuration
+* Analytical skills
+* Knowledge of the agreements and expectations
+* Understanding of the consumer context
+* Good knowledge of the product, including its architecture and configuration
 
  |
 | 
@@ -581,35 +581,35 @@ Service review
 
  | 
 
-*   Customer
+* Customer
 
-*   Product owner
-*   Relationship manager
-*   Service owner
-*   Supplier manager
-*   Technical expert
+* Product owner
+* Relationship manager
+* Service owner
+* Supplier manager
+* Technical expert
 
  | CT | 
 
-*   Analytical skills
-*   Knowledge of the agreements and expectations
-*   Understanding of the consumer context
-*   Good knowledge of the product, including its architecture and configuration
-*   Management and coordination
+* Analytical skills
+* Knowledge of the agreements and expectations
+* Understanding of the consumer context
+* Good knowledge of the product, including its architecture and configuration
+* Management and coordination
     
 
  |
 | Service quality reporting | 
 
-*   Customer
-*   Relationship manager
-*   Service owner
+* Customer
+* Relationship manager
+* Service owner
 
  | CA | 
 
-*   Knowledge of the agreements and expectations
-*   Understanding of the consumer context
-*   Communication and negotiation
+* Knowledge of the agreements and expectations
+* Understanding of the consumer context
+* Communication and negotiation
 
  |
 
@@ -618,21 +618,21 @@ Service review
 The most important role in the service level management practice is the service owner.
 
 The service owner is accountable for the end-to-end management of a specific IT service. The service owner’s accountability for a specific service is independent of where the underpinning technology components, services, or competencies reside. Service ownership is critical to service management. It is possible to combine this role with that of product owner. In some cases, it is combined with the role of account manager or relationship manager, especially if the service is created or tailored for a specific consumer or group of consumers. The service owner has the following responsibilities (the responsibilities associated with the service level management practice are given in italics):
-*   ensuring that the ongoing provision of services meets agreed customer requirements
-*   understanding and translating customer requirements into service designs and draft SLAs
-*   ensuring consistent and appropriate communication with customers for service-related enquiries and issues
-*   assisting in defining service models and assessing the impact of new services or changes to existing services
-*   identifying opportunities for service improvements, discussing these with the customer, and starting improvement initiatives
-*   liaising with the appropriate stakeholders throughout the service value streams
-*   soliciting required data and reports for analysis and to facilitate effective service monitoring and performance
-*   representing the service across the organization
-*   understanding the service (components etc.)
-*   serving as the point of escalation (notification) for major incidents relating to the service
-*   controlling changes to the service
-*   conducting service reviews
-*   ensuring that information about the service (in the service catalogue and other records) is accurate and up to date
-*   negotiating SLAs relating to the service
-*   identifying improvement opportunities and initiating and driving improvements to the service.
+* ensuring that the ongoing provision of services meets agreed customer requirements
+* understanding and translating customer requirements into service designs and draft SLAs
+* ensuring consistent and appropriate communication with customers for service-related enquiries and issues
+* assisting in defining service models and assessing the impact of new services or changes to existing services
+* identifying opportunities for service improvements, discussing these with the customer, and starting improvement initiatives
+* liaising with the appropriate stakeholders throughout the service value streams
+* soliciting required data and reports for analysis and to facilitate effective service monitoring and performance
+* representing the service across the organization
+* understanding the service (components etc.)
+* serving as the point of escalation (notification) for major incidents relating to the service
+* controlling changes to the service
+* conducting service reviews
+* ensuring that information about the service (in the service catalogue and other records) is accurate and up to date
+* negotiating SLAs relating to the service
+* identifying improvement opportunities and initiating and driving improvements to the service.
 
 The service owner is responsible for the continual improvement and management of change affecting the service for which they are accountable. The service owner is a primary stakeholder in all the underlying ITIL practices which enable and support the service they own.
 
@@ -645,17 +645,17 @@ Although the roles of product owner, service owner, account manager, and relatio
 ### 5.1 Information exchange: inputs and outputs
 
 The effectiveness of the service level management practice is based on the quality of the information used. This includes, but is not limited to, information about:
-*   customers and users
-*   services (their architecture and design)
-*   partners and suppliers, including contract and SLA information on the services they provide
-*   policies and requirements which regulate service provision
-*   ongoing service delivery, including:
-    *   Information about the current operational status of services
-    *   information about incidents
-    *   information about planned and ongoing changes
-    *   information about user and customer satisfaction
-    *   information about the financial status of service delivery (costs, revenue, overdue bills, and so on.)  
-*   the status of service improvements.
+* customers and users
+* services (their architecture and design)
+* partners and suppliers, including contract and SLA information on the services they provide
+* policies and requirements which regulate service provision
+* ongoing service delivery, including:
+    * Information about the current operational status of services
+    * information about incidents
+    * information about planned and ongoing changes
+    * information about user and customer satisfaction
+    * information about the financial status of service delivery (costs, revenue, overdue bills, and so on.)  
+* the status of service improvements.
 
 This information may take various forms, depending on the service relationship (internal or external service provision, tailored or out-of-the-box services, etc.). The key inputs and outputs of the practice are listed in section 3.
 
@@ -684,13 +684,13 @@ At the same time, using external or outsourced resources as part of an organizat
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the ITIL Practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of *ITIL Foundation: ITIL 4 Edition*.
 

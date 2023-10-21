@@ -17,12 +17,12 @@ You will also assist with research and recommending policies and strategies for 
 
 #### 1.2 Job responsibilities
 
-*   Installing new software and/or hardware
-*   Setting up user accounts, permissions and passwords
-*   Day to day monitoring of network use
-*   Fixing network faults
-*   Technical support for people using the network
-*   Planning future improvements.
+* Installing new software and/or hardware
+* Setting up user accounts, permissions and passwords
+* Day to day monitoring of network use
+* Fixing network faults
+* Technical support for people using the network
+* Planning future improvements.
 
 #### 2.1 Job Skills
 
@@ -45,11 +45,11 @@ Key skills you will need include:
 
  | 
 
-*   Carry out maintenance to ensure stable and secure applications and ICT infrastructure
-*   Update operational document library and log all service incidents
-*   Systematically analyze performance data and communicate findings to senior experts
-*   Escalate potential service failures and security risks and recommend actions to improve service reliability
-*   Track reliability data against relevant service level agreements.
+* Carry out maintenance to ensure stable and secure applications and ICT infrastructure
+* Update operational document library and log all service incidents
+* Systematically analyze performance data and communicate findings to senior experts
+* Escalate potential service failures and security risks and recommend actions to improve service reliability
+* Track reliability data against relevant service level agreements.
 
 
  |
@@ -59,12 +59,12 @@ Key skills you will need include:
 
  | 
 
-*   Investigate incidents to establish the root cause, and resolve or escalate
-*   Make sound decisions in emotionally charged environments on appropriate action required to minimize business impact
-*   Check the knowledge system to find out if a similar problem has occurred in the past
-*   Rapidly identify failing components, selecting alternatives such as repair, replace or configure
-*   Update knowledge base to facilitate future resolution of common errors
-*   Optimize system or component performance.
+* Investigate incidents to establish the root cause, and resolve or escalate
+* Make sound decisions in emotionally charged environments on appropriate action required to minimize business impact
+* Check the knowledge system to find out if a similar problem has occurred in the past
+* Rapidly identify failing components, selecting alternatives such as repair, replace or configure
+* Update knowledge base to facilitate future resolution of common errors
+* Optimize system or component performance.
 
 
  |
@@ -74,11 +74,11 @@ Key skills you will need include:
 
  | 
 
-*   Integrate new software or software upgrades into an existing or a new system
-*   Comply with established processes and procedures such as, configuration management and package maintenance
-*   Document all activities during installation and records deviations and remedial activities
-*   Measure system performance before, during and after system integration
-*   Verify that integrated systems capabilities and efficiency match specifications.
+* Integrate new software or software upgrades into an existing or a new system
+* Comply with established processes and procedures such as, configuration management and package maintenance
+* Document all activities during installation and records deviations and remedial activities
+* Measure system performance before, during and after system integration
+* Verify that integrated systems capabilities and efficiency match specifications.
 
 
  |
@@ -88,9 +88,9 @@ Key skills you will need include:
 
  | 
 
-*   Monitor utilization
-*   Produce regular and ad-hoc usage/growth reports
-*   Provide support to the Capacity Manager.
+* Monitor utilization
+* Produce regular and ad-hoc usage/growth reports
+* Provide support to the Capacity Manager.
 
  |
 | 
@@ -99,10 +99,10 @@ Key skills you will need include:
 
  | 
 
-*   Perform analysis of service availability and outage
-*   Build reports and communicate aspects of availability management if required
-*   Coordinate parties to investigate and identify root cause of issues through analysis of information
-*   Provide support to the Availability Managers.
+* Perform analysis of service availability and outage
+* Build reports and communicate aspects of availability management if required
+* Coordinate parties to investigate and identify root cause of issues through analysis of information
+* Provide support to the Availability Managers.
 
 
  |
@@ -112,11 +112,11 @@ Key skills you will need include:
 
  | 
 
-*   Follow guidelines to implement requests for change, avoiding service disruptions and cohering to service levels and information security requirements
-*   Apply change control procedures.
-*   Actively listen to others to understand their point of view
-*   Confidently present messages in a clear and precise manner
-*   Structure written and oral communication to ensure clarity.
+* Follow guidelines to implement requests for change, avoiding service disruptions and cohering to service levels and information security requirements
+* Apply change control procedures.
+* Actively listen to others to understand their point of view
+* Confidently present messages in a clear and precise manner
+* Structure written and oral communication to ensure clarity.
 
  |
 | 
@@ -125,8 +125,8 @@ Key skills you will need include:
 
  | 
 
-*   Share information with team members to help them be effective
-*   Support colleagues to help them achieve goals
+* Share information with team members to help them be effective
+* Support colleagues to help them achieve goals
 
 
  |
@@ -136,12 +136,12 @@ Key skills you will need include:
 
  | 
 
-*   Foster team spirit and promote team goals
-*   Take the lead in areas of specialism and personal strength.
+* Foster team spirit and promote team goals
+* Take the lead in areas of specialism and personal strength.
 
  |
 
 #### 2.2 Relevant qualifications
 
-*   [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
-*   [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
+* [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
+* [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)

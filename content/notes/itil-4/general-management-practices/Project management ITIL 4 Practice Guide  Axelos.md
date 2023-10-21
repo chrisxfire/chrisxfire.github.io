@@ -17,9 +17,9 @@ A programme may be comprised of projects across different areas of the organizat
 A project is typically focused on delivering a specific output; a programme’s focus is on the outcomes and benefits of enabling value for the organization and other stakeholders. Programmes usually last longer than individual projects.
 
 Both programmes and projects are distinguished from ongoing operations (often called ‘business as usual’) as they:
-*   introduce significant changes
-*   are temporary structures
-*   bring risks and opportunities above and beyond the normality of business as usual.
+* introduce significant changes
+* are temporary structures
+* bring risks and opportunities above and beyond the normality of business as usual.
 
 ### 2.2 Terms and Concepts
 
@@ -30,10 +30,10 @@ A BoK is a resource; providing the concepts, functions, and activities that make
 All project management BoKs describe how projects should be directed, managed, and delivered, however they all differ in terminology and lifecycle, which is why it is important to understand which BoK is behind the project that is driving the change. The main project management BoKs are the APM body of knowledge (APMBoK®), and the PMI body of knowledge (PMBoK®), although there are others to do with change management (CMBoK) and cybersecurity (CYBoK).
 
 In this practice guide, key terms and definitions are based on AXELOS PPM BoKs and methods, including:
-*   PRINCE2<sup>®</sup>
-*   PRINCE2 Agile<sup>®</sup>
-*   Managing Successful Projects<sup>®</sup>
-*   P3O<sup>®</sup>.
+* PRINCE2<sup>®</sup>
+* PRINCE2 Agile<sup>®</sup>
+* Managing Successful Projects<sup>®</sup>
+* P3O<sup>®</sup>.
 
 #### 2.2.1 Programme
 
@@ -122,29 +122,29 @@ There are three key levels of control in the PPM practice: direction, management
 #### 2.2.8 Managing programmes
 
 To manage a programme successfully, it requires:
-*   leadership
-*   vision
-*   focus on value.
+* leadership
+* vision
+* focus on value.
 
 ##### 2.2.8.1 Leadership
 
 Programmes translate the strategic objectives of the organization into specific purposes and objectives for individual projects. Leading and directing a programme provides the bridge between strategic objectives, business operations, and project delivery. Therefore, the key principles for effective leadership includes:
-*   the ability to create a compelling vision portraying a beneficial future and communicate it to a range of stakeholders
-*   empowered decision-making, giving individuals the autonomy to fulfil their roles effectively
-*   visible commitment and authority
-*   relevant skills and experience to provide active management.
+* the ability to create a compelling vision portraying a beneficial future and communicate it to a range of stakeholders
+* empowered decision-making, giving individuals the autonomy to fulfil their roles effectively
+* visible commitment and authority
+* relevant skills and experience to provide active management.
 
 ##### 2.2.8.2 Vision
 
 A vision is a picture of a better future and is the vital focus and enabler for the acceptance, motivation, and activity alignment of the large community of stakeholders involved in any programme. The vision statement encapsulates the vision and is used to communicate a high-level impression of the desired ‘to-be’ state. A good vision statement:
-*   is written as a future state: a snapshot of the organization in the future
-*   can be easily understood by a wide variety of stakeholders
-*   is written for the broadest groupings of stakeholders as the target audience
-*   describes a compelling future
-*   matches the degree of the transformational change with the boldness of the vision conveyed
-*   avoids target dates, unless the vision is truly time-dependent
-*   is sufficiently flexible
-*   is short and memorable.
+* is written as a future state: a snapshot of the organization in the future
+* can be easily understood by a wide variety of stakeholders
+* is written for the broadest groupings of stakeholders as the target audience
+* describes a compelling future
+* matches the degree of the transformational change with the boldness of the vision conveyed
+* avoids target dates, unless the vision is truly time-dependent
+* is sufficiently flexible
+* is short and memorable.
 
 ##### 2.2.8.3 Focus on value
 
@@ -161,66 +161,66 @@ Figure 2.7 illustrates the extent of the impact of benefits management within a 
 #### 2.2.9 Directing projects
 
 To direct a project successfully, the duties of a project board include:
-*   **Accountability** The project board is accountable to programme or corporate management for the success or failure of the project within the constraints defined in a project mandate.
-*   **Unified direction** This is about teamwork at project board level. While each project board member has accountability for satisfying the interests of a particular stakeholder category, it is crucial that a cohesive overall direction for the project is agreed and communicated.
-*   **Effective delegation** Project board members must delegate effectively using the PRINCE2 organization structure and controls designed for this purpose. A key feature of the method in this respect is the implementation of management stages: delegating the day-to-day management of the project to the project manager on a stage-by-stage basis. The project board defines the framework for how projects will be executed to ensure consistency across the enterprise.
-*   **Cross-functional integration** The project management team is a temporary, almost always cross-functional, structure that is set up with specific responsibility for the project. Project board members must ensure that this is recognized and respected in the functional or line management organizations and that the project board’s authority is not undermined.
-*   **Commitment of resources** Project board members are responsible for committing the resources necessary for the successful completion of the project. It is an important criterion that, collectively, they should be able to deliver all the resources required for the success of the project.
-*   **Effective decision-making** The project board makes the key decisions in the project. Decision-making is the means by which control is exerted, and PRINCE2 provides an optimized framework for this purpose.
-*   **Support for the project manager** The project manager is the focus of the day-to-day management of the project, which is often a busy and stressful role. The project board can relieve some of this stress and remove some of the obstacles by demonstrating visible and sustained support for the project manager.
-*   **Effective communication** The project manager must ensure communication is timely and effective, both within the project and with the key external stakeholders.
+* **Accountability** The project board is accountable to programme or corporate management for the success or failure of the project within the constraints defined in a project mandate.
+* **Unified direction** This is about teamwork at project board level. While each project board member has accountability for satisfying the interests of a particular stakeholder category, it is crucial that a cohesive overall direction for the project is agreed and communicated.
+* **Effective delegation** Project board members must delegate effectively using the PRINCE2 organization structure and controls designed for this purpose. A key feature of the method in this respect is the implementation of management stages: delegating the day-to-day management of the project to the project manager on a stage-by-stage basis. The project board defines the framework for how projects will be executed to ensure consistency across the enterprise.
+* **Cross-functional integration** The project management team is a temporary, almost always cross-functional, structure that is set up with specific responsibility for the project. Project board members must ensure that this is recognized and respected in the functional or line management organizations and that the project board’s authority is not undermined.
+* **Commitment of resources** Project board members are responsible for committing the resources necessary for the successful completion of the project. It is an important criterion that, collectively, they should be able to deliver all the resources required for the success of the project.
+* **Effective decision-making** The project board makes the key decisions in the project. Decision-making is the means by which control is exerted, and PRINCE2 provides an optimized framework for this purpose.
+* **Support for the project manager** The project manager is the focus of the day-to-day management of the project, which is often a busy and stressful role. The project board can relieve some of this stress and remove some of the obstacles by demonstrating visible and sustained support for the project manager.
+* **Effective communication** The project manager must ensure communication is timely and effective, both within the project and with the key external stakeholders.
 
 #### 2.2.10 Managing projects
 
 Managing projects under an Agile approach requires a slightly different style compared with a waterfall project method. In traditional projects, the project manager is much more central to the decision-making process on a day-to-day basis. Whereas in an Agile situation, the team is empowered to make decisions within set parameters, and the project manager facilitates the evolution of the products rather than directs the work.
 
 To enable collaboration and self-organization, a project manager should:
-*   trust the team to deliver and not be as involved
-*   leave the team to work independently and not stifle their creativity
-*   trust the people who know best to deliver the right solution
-*   ensure that the project board understands exactly what ‘empowerment’ means so that the team will be supported and not overruled
-*   involve the team in release planning for a truly honest view of what can be released and when
-*   focus on having a stable team to drive innovation and the right solution
-*   insist on customer involvement all the way through and that they deliver input when required
-*   ensure that the team recognises that the customer is fully integrated into the team so that they deliver the business need.
+* trust the team to deliver and not be as involved
+* leave the team to work independently and not stifle their creativity
+* trust the people who know best to deliver the right solution
+* ensure that the project board understands exactly what ‘empowerment’ means so that the team will be supported and not overruled
+* involve the team in release planning for a truly honest view of what can be released and when
+* focus on having a stable team to drive innovation and the right solution
+* insist on customer involvement all the way through and that they deliver input when required
+* ensure that the team recognises that the customer is fully integrated into the team so that they deliver the business need.
 
 To maintain transparency and communication, a project manager should:
-*   clearly communicate the product vision to the team so that they know what they are building and why
-*   deliver something frequently that the customer/user can relate to in order to get fast feedback
-*   ensure the whole team, including the customer, is involved in the vision to gain maximum motivation
-*   ensure the team has a minimum viable product that is truly a ‘minimum’
-*   ensure the project board and senior stakeholders understand MoSCoW prioritization techniques so that their expectations can be set early
-*   engage with and understand the project stakeholders to avoid misunderstandings
-*   understand and communicate the benefits and any threats to them so that the team does not fixate on products alone
-*   ensure the needs of the customer representative are being met and that the evolving solution meets the business need.
+* clearly communicate the product vision to the team so that they know what they are building and why
+* deliver something frequently that the customer/user can relate to in order to get fast feedback
+* ensure the whole team, including the customer, is involved in the vision to gain maximum motivation
+* ensure the team has a minimum viable product that is truly a ‘minimum’
+* ensure the project board and senior stakeholders understand MoSCoW prioritization techniques so that their expectations can be set early
+* engage with and understand the project stakeholders to avoid misunderstandings
+* understand and communicate the benefits and any threats to them so that the team does not fixate on products alone
+* ensure the needs of the customer representative are being met and that the evolving solution meets the business need.
 
 To maintain a healthy and inspiring work environment, a project manager should:
-*   work with the team managers to ensure the team bonds well
-*   make sure the team is trained in Scrum and has a good grounding in Agile delivery
-*   ensure the team knows what type of Agile approach is being used so that it can be tailored appropriately
-*   be clear about the delivery process with the stakeholders so as to set their expectations properly
-*   collaborate with product owners
-*   ensure the team is set up to make releases on demand so that the technical infrastructure does not get the way of release delivery
-*   ensure the team is co-located as much as possible to promote collaboration and communication
-*   ensure the team understands the role of the ‘servant leader’ so that they understand the difference between coaching and direction.
+* work with the team managers to ensure the team bonds well
+* make sure the team is trained in Scrum and has a good grounding in Agile delivery
+* ensure the team knows what type of Agile approach is being used so that it can be tailored appropriately
+* be clear about the delivery process with the stakeholders so as to set their expectations properly
+* collaborate with product owners
+* ensure the team is set up to make releases on demand so that the technical infrastructure does not get the way of release delivery
+* ensure the team is co-located as much as possible to promote collaboration and communication
+* ensure the team understands the role of the ‘servant leader’ so that they understand the difference between coaching and direction.
 
 To successfully plan, monitor, and control, a project manager should:
-*   attend the daily stand-ups to know the status of the project
-*   focus on removing problems so that there are no blockers for the work
-*   make sure retrospectives are held frequently to improve delivery
-*   make sure the team knows ‘what to fix’ versus ‘what to flex’ to maximize the value to the business
-*   ensure the project information/reports (team boards) are intelligible to enable progress tracking
-*   ensure project level requirements are prioritized as soon as possible to assist in focusing on the business need
-*   use product-based planning and link the products to benefits so that the right outputs are created at the right time with a view to delivering benefits early
-*   agree the reporting metrics to have confidence that progress is reported correctly
-*   synchronize sprint teams across the project to keep the interfaces relevant
-*   ensure the teams are not continually deferring the ‘difficult’ stuff to later sprints to avoid the integrity of the evolving solution becoming compromised.
+* attend the daily stand-ups to know the status of the project
+* focus on removing problems so that there are no blockers for the work
+* make sure retrospectives are held frequently to improve delivery
+* make sure the team knows ‘what to fix’ versus ‘what to flex’ to maximize the value to the business
+* ensure the project information/reports (team boards) are intelligible to enable progress tracking
+* ensure project level requirements are prioritized as soon as possible to assist in focusing on the business need
+* use product-based planning and link the products to benefits so that the right outputs are created at the right time with a view to delivering benefits early
+* agree the reporting metrics to have confidence that progress is reported correctly
+* synchronize sprint teams across the project to keep the interfaces relevant
+* ensure the teams are not continually deferring the ‘difficult’ stuff to later sprints to avoid the integrity of the evolving solution becoming compromised.
 
 #### 2.2.11 Delivering products in an Agile environment
 
 The delivery of products in an Agile environment relies on considering two major aspects that are inextricably linked:
-*   what to fix and what to flex
-*   prioritization and timeboxing/sprints.
+* what to fix and what to flex
+* prioritization and timeboxing/sprints.
 
 ##### 2.2.11.1 What to fix and what to flex
 
@@ -239,21 +239,21 @@ Table 2.2 demonstrates PRINCE2 Agile views.
 Having decided what to fix and what to flex, the team needs to apply prioritization to those aspects they are going to flex in order to remain within the set timeframes.
 
 Prioritization may be based on the MoSCoW technique. The rules are quite specific:
-*   **Must have** requirements will provide the minimum viable product, which can be guaranteed to be delivered. This can be achieved by ensuring that no more than 60% of the effort in the timeframe is allocated to must have requirements.
-*   **Should have** requirements are important but not vital. The business may find it difficult if these are left out. It may necessitate and leave them with a costly workaround.
-*   **Could have** requirements are even less important and can be seen as a wish list with far fewer consequences on the end solution if left out. It is recommended that up to 20% of the effort of the timeframe be allocated to this category, providing a 20% tolerance for the timeframe.
-*   **Won’t have (this time)** requirements are the requirements that the project team has agreed will not be delivered in this particular timeframe. This does not mean they will never be delivered as they may be available later in the project in a different category.
+* **Must have** requirements will provide the minimum viable product, which can be guaranteed to be delivered. This can be achieved by ensuring that no more than 60% of the effort in the timeframe is allocated to must have requirements.
+* **Should have** requirements are important but not vital. The business may find it difficult if these are left out. It may necessitate and leave them with a costly workaround.
+* **Could have** requirements are even less important and can be seen as a wish list with far fewer consequences on the end solution if left out. It is recommended that up to 20% of the effort of the timeframe be allocated to this category, providing a 20% tolerance for the timeframe.
+* **Won’t have (this time)** requirements are the requirements that the project team has agreed will not be delivered in this particular timeframe. This does not mean they will never be delivered as they may be available later in the project in a different category.
 
 With the priorities set, the team may now carry out the detailed planning at the timebox or sprint planning level, bearing in mind the percentages allocated to the various MoSCoW priorities. The timebox is a fixed period of time (usually between 2 to 4 weeks) during which a number of iterations are carried out by the developers with the sole intent of delivering as much as possible in that period. However, the first care is to deliver the must have requirements followed by the ‘shoulds’ and then the ‘coulds’. If time is running low, the business decides which of the ‘coulds’ will be abandoned first so that the higher priority requirements can be accommodated. This means that the business must adopt a new mindset regarding what it will and will not receive. However, as they are complicit in the delivery, nothing will come as a surprise.
 
 ### 2.3 Scope
 
 The PPM practice draws on the abilities of the managers to plan, monitor, and control all aspects of a programme or project and motivate all those involved to achieve the objectives on time and to the specified cost, quality, and performance. This is achieved by:
-*   defining and continually aligning the project management approach with the stakeholders
-*   ensuring the project management approach is adopted and embedded in the organization
-*   directing projects
-*   managing projects
-*   continually reviewing the practice for improvements.
+* defining and continually aligning the project management approach with the stakeholders
+* ensuring the project management approach is adopted and embedded in the organization
+* directing projects
+* managing projects
+* continually reviewing the practice for improvements.
 
 There are several activities and areas of responsibility that are not included in the PPM practice, although they are still closely related to programme and project management. These are listed in Table 2.3, along with references to the practices in which they can be found. It is important to remember that ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.
 
@@ -268,8 +268,8 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The PPM practice includes the following PSFs:
-*   establishing and maintaining an effective approach to programme and project management across the organization
-*   ensuring the successful realization of programmes and projects.
+* establishing and maintaining an effective approach to programme and project management across the organization
+* ensuring the successful realization of programmes and projects.
 
 #### 2.4.1 Establishing and maintaining an effective approach to programme and project management across the organization
 
@@ -290,25 +290,25 @@ Ensuring consistency in the delivery of programmes and projects requires an obse
 There are many reasons why projects might fail, this can include: setting unrealistic expectations, poor methodology and requirements, inadequate resources, poor project management, and untrained team members. However, these things can be avoided by adopting effective practices and project management techniques that will help to establish a clear understanding of expectations and processes between all the stakeholders.
 
 Generally, there is a simple set of five rules that can help prevent projects failing:
-*   begin with the end in mind: start with a clear project scope
-*   build a project plan: visualize everything that needs to be done on a timeline
-*   do not be so connected to the plan: things can change and so does the plan
-*   check, update, and monitor: check the timeline for progress, update the timeline with actual performance, monitor the use of your resources
-*   keep an eye on the quality: you cannot retrofit quality and poor quality delivers poor benefits.
+* begin with the end in mind: start with a clear project scope
+* build a project plan: visualize everything that needs to be done on a timeline
+* do not be so connected to the plan: things can change and so does the plan
+* check, update, and monitor: check the timeline for progress, update the timeline with actual performance, monitor the use of your resources
+* keep an eye on the quality: you cannot retrofit quality and poor quality delivers poor benefits.
 
 It is also important to look for signs showing that the project may be in trouble. Some of them could be:
-*   team morale starts to decline
-*   quality of outputs starts to deteriorate
-*   lack of communication.
+* team morale starts to decline
+* quality of outputs starts to deteriorate
+* lack of communication.
 
 In organizations that embrace Agile, the ITIL guiding principles provide a useful extension to the five rules above:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 ### 2.5 Key metrics
 
@@ -325,8 +325,8 @@ Key metrics for the PPM practice are mapped to its PSFs. They can be used as KPI
 ### 3.1 Value streams contribution
 
 Like any other ITIL management practice, the PPM practice contributes to multiple value streams. It is important to remember that a value stream is never formed of a single practice. The PPM practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-*   design and transition
-*   obtain/build.
+* design and transition
+* obtain/build.
 
 The contribution of the PPM practice to the service value chain is shown in Figure 3.1.
 
@@ -341,10 +341,10 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 The PPM practice activities form five major processes:
-*   managing the organization’s approach to PPM
-*   directing projects
-*   managing projects
-*   managing product delivery.
+* managing the organization’s approach to PPM
+* directing projects
+* managing projects
+* managing product delivery.
 
 #### 3.2.1 Managing the organization’s approach to PPM
 
@@ -446,24 +446,24 @@ The role accountable for all PPM activities is usually the practice owner. The c
 #### 4.1.1 Programme manager
 
 The responsibilities of the programme manager typically include:
-*   day-to-day management of the programme, including taking the programme forward from appointment, supervising, and controlling and closing the programme
-*   being the day-to-day agent on behalf of the programme sponsors, ensuring the successful delivery of the new capability
-*   planning and designing the programme and proactively monitoring its overall progress, resolving issues, and initiating corrective action where appropriate
-*   developing and implementing the programme’s governance framework
-*   effectively coordinating the projects and their interdependencies
-*   managing and resolving any risks and other issues that may arise
-*   maintaining the overall integrity and coherence of the programme and developing and maintaining the programme environment to support each individual project within it
-*   managing the programme’s budget and monitoring the expenditures and costs against benefits as the programme progresses
-*   facilitating the appointment of individuals to the project delivery teams
-*   ensuring that the delivery of outputs or services from the projects meets programme requirements in line with the programme blueprint, and is to the appropriate quality, on time, and within budgets
-*   facilitating the development of the blueprint with input and approval of the relevant stakeholders
-*   managing the blueprint and ensuring that the capabilities delivered are aligned with it
-*   managing the performance of the programme team
-*   maximizing the efficient allocation of resources and skills across the projects within the programme
-*   managing internal and external suppliers to the programme
-*   managing communications with stakeholders
-*   initiating extra activities and other management interventions where gaps in the programme are identified or issues arise
-*   reporting on the progress of the programme at regular intervals to the programme sponsors.
+* day-to-day management of the programme, including taking the programme forward from appointment, supervising, and controlling and closing the programme
+* being the day-to-day agent on behalf of the programme sponsors, ensuring the successful delivery of the new capability
+* planning and designing the programme and proactively monitoring its overall progress, resolving issues, and initiating corrective action where appropriate
+* developing and implementing the programme’s governance framework
+* effectively coordinating the projects and their interdependencies
+* managing and resolving any risks and other issues that may arise
+* maintaining the overall integrity and coherence of the programme and developing and maintaining the programme environment to support each individual project within it
+* managing the programme’s budget and monitoring the expenditures and costs against benefits as the programme progresses
+* facilitating the appointment of individuals to the project delivery teams
+* ensuring that the delivery of outputs or services from the projects meets programme requirements in line with the programme blueprint, and is to the appropriate quality, on time, and within budgets
+* facilitating the development of the blueprint with input and approval of the relevant stakeholders
+* managing the blueprint and ensuring that the capabilities delivered are aligned with it
+* managing the performance of the programme team
+* maximizing the efficient allocation of resources and skills across the projects within the programme
+* managing internal and external suppliers to the programme
+* managing communications with stakeholders
+* initiating extra activities and other management interventions where gaps in the programme are identified or issues arise
+* reporting on the progress of the programme at regular intervals to the programme sponsors.
 
 The skillset of a programme manager is more focused on decision-making and business management.
 
@@ -474,13 +474,13 @@ The project manager is the single focus for the day-to-day management of a proje
 The skills needed for a project manager are more ‘hard-skills’, oriented to execute some responsibility or some activity in different areas of knowledge.
 
 The project manager’s professionalism is based on the proficiency in the following competency areas:
-*   management control
-*   benefits management
-*   financial management
-*   stakeholder engagement
-*   risk management
-*   organizational governance
-*   resource management.
+* management control
+* benefits management
+* financial management
+* stakeholder engagement
+* risk management
+* organizational governance
+* resource management.
 
 The project manager is responsible for the work in the managing projects and managing product delivery process. The project manager also delegates responsibility for the managing product delivery process to the team manager(s).
 
@@ -497,42 +497,42 @@ The team manager’s prime responsibility is to ensure that the products are pro
 #### 4.1.4 Scrum master
 
 The Scrum master serves the product owner in several ways, including:
-*   ensuring that the goals, scope, and product domain are well understood by everyone on the Scrum team
-*   finding techniques for effective product backlog management
-*   helping the Scrum team understand the need for clear and concise product backlog items
-*   understanding product planning in an empirical environment
-*   ensuring the product owner knows how to arrange the product backlog to maximize value
-*   understanding and practising agility
-*   facilitating scrum events as requested or needed.
+* ensuring that the goals, scope, and product domain are well understood by everyone on the Scrum team
+* finding techniques for effective product backlog management
+* helping the Scrum team understand the need for clear and concise product backlog items
+* understanding product planning in an empirical environment
+* ensuring the product owner knows how to arrange the product backlog to maximize value
+* understanding and practising agility
+* facilitating scrum events as requested or needed.
 
 The Scrum master serves the development team in several ways, including:
-*   coaching the development team in self-organization and cross-functionality
-*   helping the development team to create high-value products
-*   removing impediments to the development team’s progress
-*   facilitating Scrum events as requested or needed
-*   coaching the development team in organizational environments in which Scrum is not yet fully adopted and understood.
+* coaching the development team in self-organization and cross-functionality
+* helping the development team to create high-value products
+* removing impediments to the development team’s progress
+* facilitating Scrum events as requested or needed
+* coaching the development team in organizational environments in which Scrum is not yet fully adopted and understood.
 
 The Scrum master serves the organization in several ways, including:
-*   leading and coaching the organization in its Scrum adoption
-*   planning Scrum implementations within the organization
-*   helping employees and stakeholders understand Scrum and practical product development
-*   causing a change that increases the productivity of the Scrum team
-*   working with other Scrum masters to increase the effectiveness of the application of Scrum in the organization.
+* leading and coaching the organization in its Scrum adoption
+* planning Scrum implementations within the organization
+* helping employees and stakeholders understand Scrum and practical product development
+* causing a change that increases the productivity of the Scrum team
+* working with other Scrum masters to increase the effectiveness of the application of Scrum in the organization.
 
 ### 4.2 Organizational structures and teams
 
 The structure of project teams may vary from project to project, and depends heavily on the approach taken for project management.
 
 In PRINCE2, there are nine roles which are defined with specific responsibilities. They relate to project direction, project management, and project delivery; although in the case of project delivery, PRINCE2 only refers to the team manager and not the members of the delivery team. The roles are listed below:
-*   project board
-*   executive
-*   senior user
-*   senior supplier
-*   project manager
-*   team manager
-*   project assurance
-*   change authority
-*   project support.
+* project board
+* executive
+* senior user
+* senior supplier
+* project manager
+* team manager
+* project assurance
+* change authority
+* project support.
 
 Please refer to the *Managing Successful Projects with PRINCE2®* for the detailed description of the roles.
 
@@ -545,13 +545,13 @@ The structure of the team should be decided for each project based on the organi
 ### 5.1 Information exchange, inputs/outputs
 
 The effectiveness of the PPM practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-*   customers, users, and other project stakeholders
-*   the product of project, user, and customer requirements
-*   the organization’s approach to change and projects
-*   the market environment and consumer groups
-*   services and their architecture and design
-*   the partners and suppliers used in the project, including contracts on the services they provide
-*   the organization’s strategy, portfolio, and programmes.
+* customers, users, and other project stakeholders
+* the product of project, user, and customer requirements
+* the organization’s approach to change and projects
+* the market environment and consumer groups
+* services and their architecture and design
+* the partners and suppliers used in the project, including contracts on the services they provide
+* the organization’s strategy, portfolio, and programmes.
 
 This information may take various forms, depending on the nature of the projects. The key inputs and outputs of the practice are listed section 3.
 
@@ -589,14 +589,14 @@ Develop and agree the PPM approach
 
  | 
 
-*   Collaboration and communication tools
-*   Mind mapping and brainstorming tools
-*   Workflow modelling and visualization tools, communication and collaboration tools
+* Collaboration and communication tools
+* Mind mapping and brainstorming tools
+* Workflow modelling and visualization tools, communication and collaboration tools
 
  | 
 
-*   Collaboration, information exchange
-*   Workflow modelling, visualization, activities, and responsibilities mapping
+* Collaboration, information exchange
+* Workflow modelling, visualization, activities, and responsibilities mapping
 
  | 
 
@@ -648,13 +648,13 @@ Authorize initiation
 
  | 
 
-*   Communication and collaboration tools
-*   Workflow automation tools
+* Communication and collaboration tools
+* Workflow automation tools
 
  | 
 
-*   Collaboration and remote work, dashboarding
-*   Business process, workflow, and approval automation
+* Collaboration and remote work, dashboarding
+* Business process, workflow, and approval automation
 
  | 
 
@@ -667,13 +667,13 @@ Authorize the project
 
  | 
 
-*   Communication and collaboration tools
-*   Workflow automation tools
+* Communication and collaboration tools
+* Workflow automation tools
 
  | 
 
-*   Collaboration and remote work, dashboarding
-*   Business process, workflow, and approval automation
+* Collaboration and remote work, dashboarding
+* Business process, workflow, and approval automation
 
  | 
 
@@ -686,17 +686,17 @@ Authorize a stage or exception plan
 
  | 
 
-*   Communication and collaboration tools
-*   Workflow automation tools
-*   Reporting tools
-*   Documentation tools
+* Communication and collaboration tools
+* Workflow automation tools
+* Reporting tools
+* Documentation tools
 
  | 
 
-*   Collaboration and remote work
-*   Business process, workflow, and approval automation
-*   Reports creation and publishing, dashboarding
-*   Documents depository and archive
+* Collaboration and remote work
+* Business process, workflow, and approval automation
+* Reports creation and publishing, dashboarding
+* Documents depository and archive
 
  | 
 
@@ -726,17 +726,17 @@ Authorize project closure
 
  | 
 
-*   Communication and collaboration tools
-*   Workflow automation tools
-*   Reporting tools
-*   Documentation tools
+* Communication and collaboration tools
+* Workflow automation tools
+* Reporting tools
+* Documentation tools
 
  | 
 
-*   Collaboration and remote work
-*   Business process, workflow, and approval automation
-*   Reports creation and publishing, dashboarding
-*   Documents depository and archive
+* Collaboration and remote work
+* Business process, workflow, and approval automation
+* Reports creation and publishing, dashboarding
+* Documents depository and archive
 
  | 
 
@@ -754,17 +754,17 @@ Starting up a project
 
  | 
 
-*   Communication and collaboration tools
-*   Documentation tools
-*   Workflow automation tools
-*   Reporting tools
+* Communication and collaboration tools
+* Documentation tools
+* Workflow automation tools
+* Reporting tools
 
  | 
 
-*   Collaboration and remote work
-*   Documents depository and archive
-*   Business process, workflow, and approval automation
-*   Reports creation and publishing, dashboarding
+* Collaboration and remote work
+* Documents depository and archive
+* Business process, workflow, and approval automation
+* Reports creation and publishing, dashboarding
 
  | 
 
@@ -777,17 +777,17 @@ Initiating a project
 
  | 
 
-*   Communication and collaboration tools
-*   Documentation tools
-*   Workflow automation tools
-*   Project management tools
+* Communication and collaboration tools
+* Documentation tools
+* Workflow automation tools
+* Project management tools
 
  | 
 
-*   Collaboration and remote work
-*   Documents depository and archive
-*   Business process, workflow, and approval automation
-*   Scope, statement of work, backlog, tasks assignment, risks, timeframe control
+* Collaboration and remote work
+* Documents depository and archive
+* Business process, workflow, and approval automation
+* Scope, statement of work, backlog, tasks assignment, risks, timeframe control
 
  | 
 
@@ -800,21 +800,21 @@ Controlling a stage
 
  | 
 
-*   Communication and collaboration tools
-*   Documentation management tools
-*   Workflow automation tools
-*   Reporting and distribution tools
-*   Project management tools
+* Communication and collaboration tools
+* Documentation management tools
+* Workflow automation tools
+* Reporting and distribution tools
+* Project management tools
 
  | 
 
-*   Collaboration and remote work
-*   Documents depository and archive
-*   Business process, workflow, and approval automation
-*   Reports creation and publishing, dashboarding
-*   Scope, work breakdown structure, schedule, resources, budget management, risks, task assignment and control
-*   Backlog management, task assignment and Kanban boards, sprints management, user stories/epic management
-*   Retrospective and risks and lessons learnt logging
+* Collaboration and remote work
+* Documents depository and archive
+* Business process, workflow, and approval automation
+* Reports creation and publishing, dashboarding
+* Scope, work breakdown structure, schedule, resources, budget management, risks, task assignment and control
+* Backlog management, task assignment and Kanban boards, sprints management, user stories/epic management
+* Retrospective and risks and lessons learnt logging
 
  | 
 
@@ -827,21 +827,21 @@ Managing a stage boundary
 
  | 
 
-*   Communication and collaboration tools
-*   Documentation management tools
-*   Workflow automation tools
-*   Reporting tools
-*   Project management tools
-*   Budget management tools
+* Communication and collaboration tools
+* Documentation management tools
+* Workflow automation tools
+* Reporting tools
+* Project management tools
+* Budget management tools
 
  | 
 
-*   Collaboration and remote work
-*   Documents depository and archive
-*   Business process, workflow, and approval automation
-*   Reporting, dashboarding, data visualization
-*   Scope, statement of work, backlog, tasks assignment, risks, timeframe control
-*   Costs consolidation, budget management and reporting, financial analysis
+* Collaboration and remote work
+* Documents depository and archive
+* Business process, workflow, and approval automation
+* Reporting, dashboarding, data visualization
+* Scope, statement of work, backlog, tasks assignment, risks, timeframe control
+* Costs consolidation, budget management and reporting, financial analysis
 
  | 
 
@@ -854,18 +854,18 @@ Closing a project
 
  | 
 
-*   Communication and collaboration tools
-*   Workflow automation tools
-*   Reporting tools
-*   Documentation tools
+* Communication and collaboration tools
+* Workflow automation tools
+* Reporting tools
+* Documentation tools
 
  | 
 
-*   Collaboration and remote work
-*   Business process, workflow, and approval automation
-*   Reports creation and publishing, dashboarding
-*   Documents depository and archive
-*   Retrospective and risks and lessons learnt logging
+* Collaboration and remote work
+* Business process, workflow, and approval automation
+* Reports creation and publishing, dashboarding
+* Documents depository and archive
+* Retrospective and risks and lessons learnt logging
 
  | 
 
@@ -883,16 +883,16 @@ Accept a work package
 
  | 
 
-*   Communication and collaboration tools
-*   Workflow automation tools
-*   Backlog management tools
-*   WBS management tools
+* Communication and collaboration tools
+* Workflow automation tools
+* Backlog management tools
+* WBS management tools
 
  | 
 
-*   Collaboration and remote work
-*   Business process, workflow, and approval automation
-*   Backlog items /work packages /tasks assignment and control
+* Collaboration and remote work
+* Business process, workflow, and approval automation
+* Backlog items /work packages /tasks assignment and control
 
  | 
 
@@ -905,13 +905,13 @@ Execute a work package
 
  | 
 
-*   Communication and collaboration tools
-*   Workflow automation tools
+* Communication and collaboration tools
+* Workflow automation tools
 
  | 
 
-*   Collaboration and remote work
-*   Workflow and approval automation
+* Collaboration and remote work
+* Workflow and approval automation
 
  | 
 
@@ -924,15 +924,15 @@ Deliver a work package
 
  | 
 
-*   Communication and collaboration tools
-*   Workflow automation tools
-*   Reporting tools
+* Communication and collaboration tools
+* Workflow automation tools
+* Reporting tools
 
  | 
 
-*   Collaboration and remote work
-*   Workflow and approval automation
-*   Reports creation and publishing, dashboarding, automated notifications
+* Collaboration and remote work
+* Workflow and approval automation
+* Reports creation and publishing, dashboarding, automated notifications
 
  | 
 
@@ -957,13 +957,13 @@ Organizations switch from outsourcing the function or process in the overall pro
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of *ITIL Foundation: ITIL 4 Edition*.
 

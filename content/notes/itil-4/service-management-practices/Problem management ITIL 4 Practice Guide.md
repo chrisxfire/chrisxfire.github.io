@@ -15,19 +15,19 @@ The increasing complexity of the business and technology environment adds to unc
 The problem management practice is adopted and developed by service providers to ensure that errors in the live environment are identified, analysed, and, where required and possible, removed or fixed.
 
 This practice is beneficial for both IT service providers and their service consumers. Benefits for service providers include:
-*   increased reliability of IT services
-*   reduced losses and costs caused by IT service unavailability or degradation
-*   fulfilment of the service quality targets
-*   reduced technical debt
-*   more even and predictable utilization of IT support resources.
+* increased reliability of IT services
+* reduced losses and costs caused by IT service unavailability or degradation
+* fulfilment of the service quality targets
+* reduced technical debt
+* more even and predictable utilization of IT support resources.
     
     Benefits for service consumers include:
     
-*   increased reliability of business operations and business services
-*   reduced business risks
+* increased reliability of business operations and business services
+* reduced business risks
 
-*   reduced losses caused by business service unavailability
-*   better image due to uninterrupted business services.
+* reduced losses caused by business service unavailability
+* better image due to uninterrupted business services.
 
 #### 2.2 Terms and concepts
 
@@ -66,30 +66,30 @@ A reactive approach is focussed on investigating the causes of incidents that ha
 A proactive approach is focussed on identifying problems before they cause incidents, assessing the related risks, and optimizing the response with the aim of minimizing the probability and/or the impact of incidents. Proactive problem identification and is based on information about vulnerabilities and errors in the live environment which became known from sources other than incident management.
 
 The information sources include:
-*   vendors providing information on vulnerabilities in their products
-*   developers, designers, or testers discovering errors in live versions while working with subsequent versions
-*   user and specialist communities sharing their experiences of other organizations
-*   monitoring of the infrastructure discovering deviations in systems performance that do not yet qualify as incidents
-*   technical audits and other assessments.
+* vendors providing information on vulnerabilities in their products
+* developers, designers, or testers discovering errors in live versions while working with subsequent versions
+* user and specialist communities sharing their experiences of other organizations
+* monitoring of the infrastructure discovering deviations in systems performance that do not yet qualify as incidents
+* technical audits and other assessments.
 
 <table><tbody><tr><td><strong>Reactive or proactive?</strong></td></tr><tr><td>Problem identification is always reactive to problems: it does not prevent them from occuring the first time. The proactive/reactive distinction refers to how problem identification and investigation relates to incidents:<p>- proactive problem management helps to prevent incidents from occurring the first time.<br>- reactive problem management helps to prevent incidents from recurring and may help to resolve open incidents.</p></td></tr></tbody></table>
 
 Problem identification leads to the registration of a problem record. The problem records include information on the initial categorization and initial assessment of the business impact and urgency.
 
 The purpose of problem categorization is to identify the team or specialist who will be responsible for the problem investigation. Therefore, categories usually reflect how the IT service provider teams are organized. In product-focused organizations, where teams with mixed technical expertise are formed around products, categorization may be based on the product or service catalogue. In more traditional organizations with teams formed based on the technical domain (applications, networks, databases, and so on), categorization is also likely to be based on the technical domains. Some problems occur outside of technical domains and may be related to other dimensions of service management:
-*   value streams and processes (errors in procedures, processes, value streams)
-*   organizations and people (lack of knowledge, unclear responsibilities, errors in incentives schemes)
-*   partners and suppliers (errors in contracts, unclear responsibilities, lack of due diligence).
+* value streams and processes (errors in procedures, processes, value streams)
+* organizations and people (lack of knowledge, unclear responsibilities, errors in incentives schemes)
+* partners and suppliers (errors in contracts, unclear responsibilities, lack of due diligence).
 
 It is important to remember that initial categorization is likely to change at the problem control phase: many problems are found in overlaps of different technical domains, or different products and services. The purpose of categorization is to identify the team most suitable for leading the investigation, not performing 100% of the related activities.
 
 Impact and urgency are important inputs for problem prioritization. The initial assessment of the business impact and urgency will differ for problems that are identified proactively or reactively.
 
 The business impact of problems that are identified through available information about incidents can be estimated based on:
-*   the individual impact of the incidents
-*   the number and frequency of the incidents
-*   trends in the occurrence of incidents
-*   the expected change of the impact due to business cycles (for example, seasonal business activities).
+* the individual impact of the incidents
+* the number and frequency of the incidents
+* trends in the occurrence of incidents
+* the expected change of the impact due to business cycles (for example, seasonal business activities).
 
 The urgency of the problem investigation in such cases depends on the availability and effectiveness of incident resolutions. If the incidents have no effective resolution, and the problem needs to be investigated for the incidents to be solved, the urgency of the problem investigation is based on the agreed time to resolve the incidents, and the problem investigation will be initially focused on finding the cause(s) of the incidents and an acceptable resolution for those incidents. If the incidents have an effective resolution, and their impact is effectively minimized through the incident management practice, the urgency of the problem investigation is lower, and this may lower the problem priority at the problem control phase.
 
@@ -111,24 +111,24 @@ However, the team may have other tasks waiting in a backlog, including other pro
 
 Prioritization is a tool for assigning tasks to people in the context of a team. If an incident is handled by multiple teams, it will be prioritized within each team depending on resource availability, target resolution time, and estimated processing time. If several tasks need to be performed by different teams working in parallel, each team will be prioritizing their own task.
 
-*   Prioritization is needed only when there is a resource conflict. Where there are sufficient resources to process every task within the time constraints, prioritization is unnecessary.
-*   In each team, all types of tasks (including problems) should await prioritization and assignment in a single backlog, together with other tasks (planned and unplanned).
-*   Visualization tools, such as Kanban, and Lean principles, such as the limiting of work in progress, are useful for effective prioritization.
+* Prioritization is needed only when there is a resource conflict. Where there are sufficient resources to process every task within the time constraints, prioritization is unnecessary.
+* In each team, all types of tasks (including problems) should await prioritization and assignment in a single backlog, together with other tasks (planned and unplanned).
+* Visualization tools, such as Kanban, and Lean principles, such as the limiting of work in progress, are useful for effective prioritization.
 
 The following are some specific guidelines on the prioritization of problems:
-*   The target completion time for problem control is defined based on the problem impact and urgency assessed at the problem identification phase. They may be reassessed as new relevant information is discovered by problem investigation.
-*   The target completion time for problem control is different from the target resolution time. The target resolution time for problems can only be planned after the problem control phase is completed, as it is based on the understanding of the error(s) and available ways to fix them. It is also possible that the problem control phase concludes that there is no need or reasonable way to fix the problem.
-*   Problems should be prioritized within a single backlog which includes all tasks assigned to the team.
-*   Problem investigation may require the creation of multiple tasks related to one problem for several teams to work in parallel. These tasks are created by the team which leads the problem investigation, they should include target completion time and sufficient supporting information.
-*   In many cases, a temporary team combining different competencies is created to start problem investigation. This is often more effective than assigning parallel tasks to different teams, especially if the problem is likely to be in an overlap of areas of expertise and responsibilities. This technique is known as swarming.
+* The target completion time for problem control is defined based on the problem impact and urgency assessed at the problem identification phase. They may be reassessed as new relevant information is discovered by problem investigation.
+* The target completion time for problem control is different from the target resolution time. The target resolution time for problems can only be planned after the problem control phase is completed, as it is based on the understanding of the error(s) and available ways to fix them. It is also possible that the problem control phase concludes that there is no need or reasonable way to fix the problem.
+* Problems should be prioritized within a single backlog which includes all tasks assigned to the team.
+* Problem investigation may require the creation of multiple tasks related to one problem for several teams to work in parallel. These tasks are created by the team which leads the problem investigation, they should include target completion time and sufficient supporting information.
+* In many cases, a temporary team combining different competencies is created to start problem investigation. This is often more effective than assigning parallel tasks to different teams, especially if the problem is likely to be in an overlap of areas of expertise and responsibilities. This technique is known as swarming.
 
 <table><tbody><tr><td><strong>Definition: Swarming</strong></td></tr><tr><td>A technique for solving various complex tasks. In swarming, multiple people with different areas of expertise work together on a task until it becomes clear which competencies are the most relevant and needed.</td></tr></tbody></table>
 
 During the problem control phase, one or more of the following is done, based on the results of problem investigation:
-*   Previously unknown errors are identified, assessed, and assigned to a relevant team for error control.
-*   Proactively identified errors are assessed and assigned to a relevant team for error control.
-*   Recommendations for incident resolution based on an understanding of the causes are developed, recorded, and communicated to the relevant teams. These can be systemic resolutions or workarounds for incidents.
-*   Problems with significantly low impact and probability and problems that have been identified mistakenly are documented and closed.
+* Previously unknown errors are identified, assessed, and assigned to a relevant team for error control.
+* Proactively identified errors are assessed and assigned to a relevant team for error control.
+* Recommendations for incident resolution based on an understanding of the causes are developed, recorded, and communicated to the relevant teams. These can be systemic resolutions or workarounds for incidents.
+* Problems with significantly low impact and probability and problems that have been identified mistakenly are documented and closed.
 
 <table><tbody><tr><td><strong>Definition: Workaround</strong></td></tr><tr><td>A solution that reduces or eliminates the impact of an incident or problem for which a full resolution is not yet available. Some workarounds reduce the likelihood of incidents.</td></tr></tbody></table>
 
@@ -143,8 +143,8 @@ Problems that have not been dismissed at the problem control phase are assigned 
 When a problem has been analysed (meaning the errors in the products have been localized and their impact on services has been assessed), it should be continually managed until resolved or closed without resolution.
 
 Problem records may be closed only if one of the following conditions is met:
-*   The problem is solved: the risk of incidents associated with the problem is removed or decreased to an acceptable level.
-*   The problem no longer affects the organization.
+* The problem is solved: the risk of incidents associated with the problem is removed or decreased to an acceptable level.
+* The problem no longer affects the organization.
 
 If an error in the organization’s products still has significant impact and probability of related incidents, but does not have an acceptable resolution, it should remain open and be regularly reviewed.
 
@@ -175,20 +175,20 @@ To summarize, possible types of problem mitigation are listed in Table 2.2.
 ##### 2.2.4 Problem models
 
 Different sources and types of problem may require different approaches to problem identification and control. For example, one or more of the following problem types may require a special approach to the problem management practice. These can be problems in:
-*   Information and technology  
+* Information and technology  
     \- software  
     \- hardware  
     \- data, including that which is sensitive
-*   Value streams and processes  
+* Value streams and processes  
     \- procedures  
     \- processes and ways of working
-*   Partners and suppliers  
+* Partners and suppliers  
     \- third-party components  
     \- contracts and agreements
-*   Organizations and people  
+* Organizations and people  
     \- skills and competencies  
     \- training
-*   The service consumer’s resources.
+* The service consumer’s resources.
 
 To optimize the handling and resolution of these and other types of problems, service providers define problem models. Problem models help to manage problems effectively and efficiently, often with better results because of the application of relevant proven and tested methods.
 
@@ -199,11 +199,11 @@ The creation and use of problem models are important activities in the problem m
 ### 2.3 Scope
 
 The scope of the problem management practice includes:
-*   the identification and analysis of problems, including the analysis and control of known errors
-*   the initiation of changes to fix or reduce the impact of problems
-*   the ownership and co-ordination of problem resolution
-*   providing information about problems to the relevant stakeholders
-*   monitoring of known errors and continual improvement of workarounds.
+* the identification and analysis of problems, including the analysis and control of known errors
+* the initiation of changes to fix or reduce the impact of problems
+* the ownership and co-ordination of problem resolution
+* providing information about problems to the relevant stakeholders
+* monitoring of known errors and continual improvement of workarounds.
 
 There are several activities and areas of responsibility that are not included in the problem management practice, although they are still closely related to problems. These are listed in Table 2.3, along with references to the practice guides in which they can be found.
 
@@ -218,8 +218,8 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The problem management practice includes the following PSFs:
-*   identifying and understanding the problems and their impact on services
-*   optimizing problem resolution and mitigation.  
+* identifying and understanding the problems and their impact on services
+* optimizing problem resolution and mitigation.  
     
 
 ##### 2.4.1 Identifying and understanding the problems and their impact on services
@@ -245,11 +245,11 @@ When problems have been identified, they should be handled effectively and effic
 As problem investigation and resolution may require significant resources, it is important to maintain awareness and support of the practice at all levels of the service provider.
 
 Some organizations find it useful to have and share across the teams a list of the most important open problems. This is a simple yet effective way to:
-*   demonstrate management attention to the problems
-*   raise awareness of the prioritized problems across the service provider
-*   involve people from different teams in suggesting ideas and solutions
-*   keep track of the status and progress of the problem investigation and resolution
-*   keep business stakeholders informed and maintain their interest and support.  
+* demonstrate management attention to the problems
+* raise awareness of the prioritized problems across the service provider
+* involve people from different teams in suggesting ideas and solutions
+* keep track of the status and progress of the problem investigation and resolution
+* keep business stakeholders informed and maintain their interest and support.  
     
 
 ### 2.5 Key metrics
@@ -287,10 +287,10 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
 
 Problem management activities form four processes:
-*   proactive problem identification
-*   reactive problem identification
-*   problem control
-*   error control.  
+* proactive problem identification
+* reactive problem identification
+* problem control
+* error control.  
     
 
 ##### 3.1.1 Proactive problem identification
@@ -367,9 +367,9 @@ Table 3.7 Activities of the problem control process
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Description</strong></td></tr><tr><td>Problem investigation</td><td>The specialist team assigned to the problem investigates the possible causes of the incident and/or verifies the reported errors in the CIs and the organization’s other resources. . The methods and procedures vary depending on how the problem has been identified. For problems identified reactively, localization starts with understanding which CIs may have errors causing past or ongoing incidents. For most problems identified proactively, CIs or CI classes would have been identified during their registration. After the problem is localized to the level of CIs, further diagnostics may be needed to identify errors within the suspicious CIs. This and the following activities may be performed by different teams (teams re-assigned based on the problem localization). If the reported problem is irrelevant to the organization (for example, a publicly reported vulnerability in software that does not affect the versions used by the organization), the problem record may be closed. If the investigated problem is relevant to the organization, it is assigned the known error status for further control and resolution. Actions and results of the investigations are recorded in the problem records.</td></tr><tr><td>Known error communication</td><td>The results of problem investigation are communicated to the problem initiator and relevant teams. . These may include product development teams, technical specialists, the service desk team, users, and suppliers. If there are ongoing incidents associated with the problem that is being investigated, the results of the problem localization are communicated to the incident investigation teams. It is possible that understanding the errors is enough to define an incident resolution. In this case, a recommended solution for the incident should be registered in the problem records and communicated to the teams working with the incident.</td></tr></tbody></table>
 
 To investigate problems, organizations use various analysis techniques. These may include:
-*   root cause analysis techniques, such as 5 Whys, Kepner and Fourie, and fault tree analysis
-*   impact analysis techniques, such as component failure impact analysis and business impact analysis
-*   risk analysis techniques.
+* root cause analysis techniques, such as 5 Whys, Kepner and Fourie, and fault tree analysis
+* impact analysis techniques, such as component failure impact analysis and business impact analysis
+* risk analysis techniques.
 
 It is important to remember that the concept of a single root cause has a very limited applicability in complex evolving environments. Quite often, incidents are caused by improbable combinations of improbable factors. This means that investigation of problems (especially identified reactively) should not be limited to the identification of the first possible cause of incidents. Problem investigation should always consider all four dimensions of service management.
 
@@ -426,12 +426,12 @@ Problem management is likely to be involved in several service value streams. Th
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Practice</strong></td></tr><tr><td>Incident detection</td><td>Service desk (for user-reported incidents)<br>or<br>Monitoring and event management</td></tr><tr><td>Incident registration<br>Incident classification</td><td>Incident management</td></tr><tr><td>Incident diagnosis</td><td>Incident management<p>Knowledge management<br><strong><br>Problem management</strong></p></td></tr><tr><td>Incident resolution</td><td>Incident management and one or more of:<br><strong>Problem management</strong><p>Change enablement</p><p>Software development and management</p><p>Service validation and testing</p><p>Deployment management</p><p>Release management</p><p>Service desk</p><p>Infrastructure and platform management</p><p>Supplier management</p></td></tr><tr><td>Incident closure</td><td>Incident management<p>Service desk</p><p>Monitoring and event management</p><p><strong>Problem management</strong></p><p>Knowledge management</p><p>Business relationship management</p></td></tr></tbody></table>
 
 In this value stream, the problem management practice may be used to:
-*   provide information about currently open problems
-*   provide information about previously identified solutions for similar incidents
-*   urgently investigate the causes of the incident(s) and find ways to resolve the incident(s)
-*   capture information about the incident(s) to update knowledge about errors, symptoms, and resolutions. Similarly, problem management may be involved in other value streams, including:
-*   design, development and implementation of new and changed products and services
-*   routine operations of IT systems.
+* provide information about currently open problems
+* provide information about previously identified solutions for similar incidents
+* urgently investigate the causes of the incident(s) and find ways to resolve the incident(s)
+* capture information about the incident(s) to update knowledge about errors, symptoms, and resolutions. Similarly, problem management may be involved in other value streams, including:
+* design, development and implementation of new and changed products and services
+* routine operations of IT systems.
 
 In all cases, the practice is involved for the same purposes listed above: providing previously identified solutions and other relevant information or capturing information about new problems.
 
@@ -459,11 +459,11 @@ Walk or directly experience the steps and information flow as they go in practic
 **b. Collect data as you walk**
 
 **c. Evaluate the workflow steps**Typically, the criteria for evaluation are:
-*   value for the stakeholder (does the step add value for the business stakeholder?)
-*   effectiveness or performance (is the step performed well?)
-*   availability (are required resources available to execute the step?)
-*   capacity (are required resources enough?)
-*   flexibility (are the required resources interchangeable within the step?).
+* value for the stakeholder (does the step add value for the business stakeholder?)
+* effectiveness or performance (is the step performed well?)
+* availability (are required resources available to execute the step?)
+* capacity (are required resources enough?)
+* flexibility (are the required resources interchangeable within the step?).
 
 **d. Map the activities and the information flows** In an ideal situation, the flow goes smoothly without delays and pauses, there are no disconnections between the steps, and the workload is level with minimal (and agreed) variation.
 
@@ -480,14 +480,14 @@ Walk or directly experience the steps and information flow as they go in practic
 
 To ensure that relevant problem management activities are included in service value streams, the following steps can be added to the above recommendations.
 
-*   At the scoping step (1), identify the IT and business services related to the value stream and the involved business stakeholders. For example, should the problem management practice be involved in the investigation of problems causing business service incidents, or should it be limited to problems in IT services?
+* At the scoping step (1), identify the IT and business services related to the value stream and the involved business stakeholders. For example, should the problem management practice be involved in the investigation of problems causing business service incidents, or should it be limited to problems in IT services?
 
-*   Make sure the value stream is understood (step 2) from the standpoint of the business, not only of the service provider.
+* Make sure the value stream is understood (step 2) from the standpoint of the business, not only of the service provider.
 
-*   During the service value stream walk (3a), identify other practices involved in dealing with problems at every step. Which practices provide required information (configuration data, asset data, financial information, agreed timelines for the service restoration…)? How are changes initiated if required for problem resolution? What if a resolution initiates a project? How are third parties involved in problem investigation and error control? How information about vulnerabilities in third-party products is obtained from the suppliers?
-*   During the workflow steps evaluation (3c), evaluate the step’s impact on the business value. Special attention should be paid to steps with low business value, low performance, and availability or capacity issues. It is not unusual to find steps which serve some internal control or bureaucratic purposes but delay the incident resolution.
-*   At the reflection and planning steps (4-5), ensure that the problem management processes are optimized for business value throughout the stream, not only at the within the problem management practice.
-*   Consider including the creation or updating of problem models (see section 2.2.4) in the value stream improvement plans (step 6).
+* During the service value stream walk (3a), identify other practices involved in dealing with problems at every step. Which practices provide required information (configuration data, asset data, financial information, agreed timelines for the service restoration…)? How are changes initiated if required for problem resolution? What if a resolution initiates a project? How are third parties involved in problem investigation and error control? How information about vulnerabilities in third-party products is obtained from the suppliers?
+* During the workflow steps evaluation (3c), evaluate the step’s impact on the business value. Special attention should be paid to steps with low business value, low performance, and availability or capacity issues. It is not unusual to find steps which serve some internal control or bureaucratic purposes but delay the incident resolution.
+* At the reflection and planning steps (4-5), ensure that the problem management processes are optimized for business value throughout the stream, not only at the within the problem management practice.
+* Consider including the creation or updating of problem models (see section 2.2.4) in the value stream improvement plans (step 6).
 
 ## 4. Organizations and people
 
@@ -513,13 +513,13 @@ These roles are often introduced in organizations where the number of problems i
 Where a dedicated problem manager role is defined, it is usually assigned to specialists combining good knowledge of the organization’s products (architecture, configurations, and interdependencies) with solid analytical and leadership skills (the ability and authority to coordinate teamwork and provide good risk management). The competency profile for this role is CLMT.
 
 This role is usually responsible for managing and coordinating the specialist activities in the problem management processes, including:
-*   conducting and coordinating problem registration based on the submitted information
-*   the initial categorization of the problems
-*   coordinating problem investigation and solution implementation control
-*   coordinating the communication with the teams responsible for incident resolution and change implementation
-*   developing and communicating problem models, where applicable
-*   coordinating known error monitoring and review
-*   the formal problem closure.
+* conducting and coordinating problem registration based on the submitted information
+* the initial categorization of the problems
+* coordinating problem investigation and solution implementation control
+* coordinating the communication with the teams responsible for incident resolution and change implementation
+* developing and communicating problem models, where applicable
+* coordinating known error monitoring and review
+* the formal problem closure.
 
 #####   
 4.1.2 Problem coordinator role
@@ -546,12 +546,12 @@ Problem management is a cross-functional collaborative practice, and requires su
 ### 5.1 Information exchange
 
 The effectiveness of the problem management practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-*   products and services and their architecture and design, including configuration information
-*   customers and users
-*   partners and suppliers, including contract and SLA information on the services they provide
-*   ongoing and past incidents
-*   planned, ongoing, and past changes
-*   a third-party’s products and components, including vulnerabilities and incidents.
+* products and services and their architecture and design, including configuration information
+* customers and users
+* partners and suppliers, including contract and SLA information on the services they provide
+* ongoing and past incidents
+* planned, ongoing, and past changes
+* a third-party’s products and components, including vulnerabilities and incidents.
 
 This information may take various forms. The key inputs and outputs of the practice are listed in section 3.
 
@@ -574,36 +574,36 @@ Table 5.2 Details of automation of the problem management activities
 ##### 5.2.1 Recommendations on automation of problem management
 
 The following recommendations can help when applying automation to problem management:
-*   **Distinguish between problem control and error control** Whether problems and known errors are different objects or different statuses of the same object in the automation tool, make sure they support clear separation between investigation (problem control) and periodic review and resolution (error control).
-*   **Ensure integration with other practices** At the least, it should be possible to link problem records to incident records, change records, configuration items, and services.
-*   **Ensure integration with knowledge base(s)** At the least, information about errors and related recommendations (symptoms of possible incidents, workarounds) should be available. Consider integration (and automated analysis) of the vendors’ and suppliers’ knowledge bases, bug reports, release notes and so on. If applicable, capture information shared by other users of the same third-party products about their experience, problems and resolutions.
-*   **Pay attention to measurement and reporting from the beginning** Ensure visibility of the problem management status and progress, including the four processes (reactive and proactive identification, problem control and error control).
-*   **Leverage machine learning capabilities** Problem identification based on incident records or on monitoring data; cause-effect analysis; impact analysis, search for resolutions, and other activities of the problem management practice can be automated with the use of machine learning (ML). Effective use of ML requires high-quality data and effective integration with various sources of information. If used properly, it can significantly improve the problem management practice.
-*   **Automate monitoring of known errors** For known errors requiring periodic control, the conditions of the control can be defined for automated monitoring. For example, if the error is expected to be resolved after a software update is released by a vendor, it is possible to automate monitoring of the updates and notification (or assignment) to a relevant specialist. If a resolution has been applied and a certain type of incident is supposed to be prevented by the resolution, incident monitoring can automatically reassign the problem for further investigation (if the incidents occur), or for review and closure (if the incidents do not occur for an agreed period of time).
+* **Distinguish between problem control and error control** Whether problems and known errors are different objects or different statuses of the same object in the automation tool, make sure they support clear separation between investigation (problem control) and periodic review and resolution (error control).
+* **Ensure integration with other practices** At the least, it should be possible to link problem records to incident records, change records, configuration items, and services.
+* **Ensure integration with knowledge base(s)** At the least, information about errors and related recommendations (symptoms of possible incidents, workarounds) should be available. Consider integration (and automated analysis) of the vendors’ and suppliers’ knowledge bases, bug reports, release notes and so on. If applicable, capture information shared by other users of the same third-party products about their experience, problems and resolutions.
+* **Pay attention to measurement and reporting from the beginning** Ensure visibility of the problem management status and progress, including the four processes (reactive and proactive identification, problem control and error control).
+* **Leverage machine learning capabilities** Problem identification based on incident records or on monitoring data; cause-effect analysis; impact analysis, search for resolutions, and other activities of the problem management practice can be automated with the use of machine learning (ML). Effective use of ML requires high-quality data and effective integration with various sources of information. If used properly, it can significantly improve the problem management practice.
+* **Automate monitoring of known errors** For known errors requiring periodic control, the conditions of the control can be defined for automated monitoring. For example, if the error is expected to be resolved after a software update is released by a vendor, it is possible to automate monitoring of the updates and notification (or assignment) to a relevant specialist. If a resolution has been applied and a certain type of incident is supposed to be prevented by the resolution, incident monitoring can automatically reassign the problem for further investigation (if the incidents occur), or for review and closure (if the incidents do not occur for an agreed period of time).
 
 ## 6. Partners and suppliers
 
 Very few services are delivered using only an organization’s own resources. Most, if not all, depend on other services, often provided by third parties outside the organization (see section 2.4 of ITIL Foundation: ITIL 4 Edition for a model of a service relationship). Relationships and dependencies introduced by supporting services are described in the ITIL practices for service design, architecture management, and supplier management. Information about dependencies on third-party services is used in all problem management processes.
 
 Partners and suppliers may support the development, management, and execution of the problem management practice. The forms of support include the following:
-*   **Performing problem management activities** Some problem management activities can be largely or completely performed by a specialized supplier. Third parties are often involved in problem investigation and resolution. It is important to ensure effective integration of these third parties in the problem-related workflows and information exchange, as well as their adherence to relevant policies.
+* **Performing problem management activities** Some problem management activities can be largely or completely performed by a specialized supplier. Third parties are often involved in problem investigation and resolution. It is important to ensure effective integration of these third parties in the problem-related workflows and information exchange, as well as their adherence to relevant policies.
     
     Problem models should define how third parties are involved in problem control and how the organization ensures effective collaboration with them. This depends on the architecture and design solutions for products, services, and value streams. Quite often, after the correct model is selected for a problem, further consideration of third-party dependencies is needed within the processes of problem and error control.
     
     The problem management practice often discovers errors in third-party products used by the organization. The possibility of solving these errors, and the effectiveness of the solution, depends on multiple factors, including:
     
 
-*   the architecture of the solution
-*   the flexibility of the supplier
-*   the importance of the service relationship with the organization for the supplier
-*   the contract terms and conditions.
+* the architecture of the solution
+* the flexibility of the supplier
+* the importance of the service relationship with the organization for the supplier
+* the contract terms and conditions.
 
 It is important to understand how the organization depends on third-party components and how it aims to estalish effective and efficient collaboration with its key suppliers and partners around many activities, including those of the problem management practice.
 
 Where organizations aim to ensure fast and effective problem management, they usually try to agree close cooperation with their partners and suppliers, removing formal bureaucratic barriers in communication, collaboration, and decision-making (see the supplier management practice guide for more information).
 
-*   **Provision of software tools** Most software tools used for problem management are shared with other practices. Problem management is never the first management practice to be automated and rarely one of the most important; this sometimes results in problem management requirements being deprioritized, and the practice affected by ineffective or partial use of software tools. It is important to ensure that specific requirements such as the aggregation of problem information from different sources, cross-team collaboration, or changeable impact and categorization, are met by the software tools.
-*   **Consulting and advisory** Specialized suppliers who have developed expertise in problem management can help to establish and develop the practice, adopt methods and techniques (such as swarming or ‘5 Why’ analysis), and initially develop the problem models.
+* **Provision of software tools** Most software tools used for problem management are shared with other practices. Problem management is never the first management practice to be automated and rarely one of the most important; this sometimes results in problem management requirements being deprioritized, and the practice affected by ineffective or partial use of software tools. It is important to ensure that specific requirements such as the aggregation of problem information from different sources, cross-team collaboration, or changeable impact and categorization, are met by the software tools.
+* **Consulting and advisory** Specialized suppliers who have developed expertise in problem management can help to establish and develop the practice, adopt methods and techniques (such as swarming or ‘5 Why’ analysis), and initially develop the problem models.
 
 ## 7. Capability assessment and development
 
@@ -682,9 +682,9 @@ Problem management is a business-led practice, which supports quality, efficienc
 Start where you are and progress iteratively with feedback. There is no need to cover all types of problems in all products from day one. Use the capability criteria (see section 7.2) as guidance. Start identifying problems in the most critical products and services and then develop the capabilities and expand the scope to increase business value from the practice.
 
 It is important consider the who the right person or people are to drive the practice development:
-*   Do they understand the value and definition of problem management?
-*   Do they have the right skills for the relevant phases of the practice?
-*   What do they need from the leadership to support the practice and ensure that it is understood across the organization?
+* Do they understand the value and definition of problem management?
+* Do they have the right skills for the relevant phases of the practice?
+* What do they need from the leadership to support the practice and ensure that it is understood across the organization?
 
 ###   
 8.3 Making problem management work
@@ -703,22 +703,22 @@ A simple way to test whether problem management is working is to check if the pr
 It is not uncommon for organizations to have defined and implemented a problem management workflow, and yet still not be able to demonstrate its business value. This highlights the fact that success in problem management requires focus on people, collaboration, and business focus, as much as on process and technology.
 
 Although there are useful metrics that can be used to evaluate the performance of the practice (see section 2.5), its value should be articulated in business terms:
-*   Showing the decrease in costs and losses from the reduction of incidents and service interruptions
-*   Identifying the reduced risk levels associated with the prevention of incidents and resolution of problems
-*   Demonstrating improvements in customer/user satisfaction ratings due to reduced interruptions and improved service quality
-*   Highlighting the quality improvements in service delivery and performance achieved through problem resolution
-*   Showing the return on investments in upgrades, legacy removals, replacements, resource changes, and use of external services.
+* Showing the decrease in costs and losses from the reduction of incidents and service interruptions
+* Identifying the reduced risk levels associated with the prevention of incidents and resolution of problems
+* Demonstrating improvements in customer/user satisfaction ratings due to reduced interruptions and improved service quality
+* Highlighting the quality improvements in service delivery and performance achieved through problem resolution
+* Showing the return on investments in upgrades, legacy removals, replacements, resource changes, and use of external services.
 
 It is important to show the value of problem management to the organization in order to maintain support and investment in the practice.
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 Table 8.1 outlines recommendations for the success of the problem management practice, linked to the relevant guiding principles.
 

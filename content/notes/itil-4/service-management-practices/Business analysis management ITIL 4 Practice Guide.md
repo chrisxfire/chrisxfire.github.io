@@ -41,10 +41,10 @@ SWOT (strengths, weaknesses, opportunities, and threats) analysis is often used 
 A SWOT analysis involves four specific aspects of an organization: the internal strengths, internal weaknesses, external opportunities, and external threats. A model SWOT analysis is shown in Figure 2.1.
 
 It is important to remember the following key points when completing a SWOT analysis:
-*   strengths can be developed
-*   weaknesses must be managed or turned into strengths
-*   opportunities should be identified
-*   threats must be managed.
+* strengths can be developed
+* weaknesses must be managed or turned into strengths
+* opportunities should be identified
+* threats must be managed.
 
 ![Image of Figure 2.1 shows a SWOT analysis diagram](Business%20analysis%20management%20ITIL%204%20Practice%20Guide/Picture1.png)
 
@@ -57,12 +57,12 @@ User story mapping is a common method of articulating service requirements. A us
 The analyst might gather data about the customer’s needs and communicate the requirements in user stories. A user story has a very specific and simple form. The user might require something to enable a certain benefit.
 
 The INVEST acronym provides a useful reminder that user stories should be:
-*   independent
-*   negotiable
-*   valuable
-*   estimable
-*   small
-*   testable.
+* independent
+* negotiable
+* valuable
+* estimable
+* small
+* testable.
 
 More information on user story mapping can be found in *ITIL*<sup><em>®</em></sup>*4: Drive Stakeholder Value,* Section 5.2.5.
 
@@ -71,10 +71,10 @@ SWOT analysis and user story mapping are just examples of different business ana
 ### 2.3 Scope
 
 The scope of the business analysis practice includes:
-*   analysing organizations, architectures, business processes, products, and services, in the changing internal and external context<sup>1</sup>
-*   identifying and documenting the stakeholders’ needs and requirements
-*   evaluating options and proposing actions that can be taken to address the stakeholders’ needs and/or requirements
-*   communicating recommended solutions to relevant people and teams.
+* analysing organizations, architectures, business processes, products, and services, in the changing internal and external context<sup>1</sup>
+* identifying and documenting the stakeholders’ needs and requirements
+* evaluating options and proposing actions that can be taken to address the stakeholders’ needs and/or requirements
+* communicating recommended solutions to relevant people and teams.
 
 There are several activities and areas of responsibility that are not included in the business analysis practice, although they are still closely related to this practice. These are listed in Table 2.1, along with references to the practices in which they can be found. It is important to remember that ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.
 
@@ -90,8 +90,8 @@ A practice success factor (PSF) is more than a task or activity, as it includes 
 
   
 The business analysis practice includes the following PSFs:
-*   establishing and continually improving an organization-wide approach to business analysis to ensure that it is conducted in a consistent and effective manner
-*   ensuring that current and future needs of the organization and its customers are understood, analysed, and supported with timely, efficient, and effective solution proposals.  
+* establishing and continually improving an organization-wide approach to business analysis to ensure that it is conducted in a consistent and effective manner
+* ensuring that current and future needs of the organization and its customers are understood, analysed, and supported with timely, efficient, and effective solution proposals.  
     
 
 #### 2.4.1 Establishing and continually improving an organization-wide approach to business analysis to ensure that it is conducted in a consistent and effective manner
@@ -102,10 +102,10 @@ Maintaining an understanding of the organization's internal and external environ
 
 Business analysis is an intellectual discipline. It involves identifying and assessing the information needed for making investment decisions, and realize the solutions that fulfil the business objectives. As such, business analysts utilize multiple models to help them with the intellectual challenge of processing information, for example with: concepts, data, decisions, organizations, processes, scopes, and states. These models are used to support business analysis activities, including:  
 
-*   gathering information such as goals, requirements, and constraints from stakeholders
-*   providing stakeholders with the information needed to fulfil their roles
-*   identifying business needs and translating these into well-articulated requirements and/or solution proposals
-*   assessing the actual solution’s performance and value, and recommending further improvements.
+* gathering information such as goals, requirements, and constraints from stakeholders
+* providing stakeholders with the information needed to fulfil their roles
+* identifying business needs and translating these into well-articulated requirements and/or solution proposals
+* assessing the actual solution’s performance and value, and recommending further improvements.
 
 #### 2.4.2 Ensuring that current and future needs of the organization and its customers are understood, analysed, and supported with timely, efficient, and effective solution proposals
 
@@ -136,12 +136,12 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, the business analysis practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The business analysis practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-*   design and transition
-*   deliver and support
-*   engage
-*   improve
-*   obtain/build
-*   plan.
+* design and transition
+* deliver and support
+* engage
+* improve
+* obtain/build
+* plan.
 
 The contribution of the business analysis practice to the service value chain is shown in Figure 3.1.
 
@@ -214,10 +214,10 @@ The key role in this practice is the business analyst, who can be specialized on
 A business analyst role is similar to an investigator. They need to face the unknown, collect evidence, question the witnesses, and derive a hypothesis that they can then validate. This role might not require specific technical skills and knowledge, but it does require agility, systemic thinking, and creativeness.
 
 It is not uncommon for organizations to hire highly experienced business analysts to explore a potentially new solution space, either in the business domain, or with solution technology, or both. The first stage is to grasp and articulate the issues that a stakeholder needs to solve, and to gather possible solutions. There are a few personality traits that make a person proficient in the role of a business analyst, such as:
-*   persistency and analytical thinking
-*   strong command of various problem-solving approaches
-*   ability to quickly grasp new models and find the most important object and relationships in them
-*   openness to new ideas.
+* persistency and analytical thinking
+* strong command of various problem-solving approaches
+* ability to quickly grasp new models and find the most important object and relationships in them
+* openness to new ideas.
 
 Business analysts play a pivotal role in communicating business requirements in technical terms. A business analyst should be the primary source of knowledge for any requirement-related requests for information along the lifecycle of the solution, regardless of the development and delivery methods in use.
 
@@ -226,25 +226,25 @@ Business analysts play a pivotal role in communicating business requirements in 
 ### 5.1 Information exchange
 
 The effectiveness of the business analysis practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-*   organization’s strategy
-*   organization’s environment and key stakeholders
-*   organization’s portfolios: resources, products and services, and customers
-*   organization’s architecture roadmap
-*   strategy, architecture, and operating model of the organization’s service consumers
-*   service configuration and IT asset information
-*   change schedule
-*   continual improvement register
-*   organizational structure
-*   technology trends.
+* organization’s strategy
+* organization’s environment and key stakeholders
+* organization’s portfolios: resources, products and services, and customers
+* organization’s architecture roadmap
+* strategy, architecture, and operating model of the organization’s service consumers
+* service configuration and IT asset information
+* change schedule
+* continual improvement register
+* organizational structure
+* technology trends.
 
 This information may take various forms. The key inputs and outputs of the business analysis practice are listed in section 3.
 
 ### 5.2 Automation and tooling
 
 The automation of the business analysis practice is focused around three main areas that enhance information exchange:
-*   office automation tools: document, spreadsheet, and presentation tools
-*   analysis and modelling tools, such as computer-aided design, diagramming, and data modelling tools
-*   communication tools, such as workflow, task management, and communication systems.
+* office automation tools: document, spreadsheet, and presentation tools
+* analysis and modelling tools, such as computer-aided design, diagramming, and data modelling tools
+* communication tools, such as workflow, task management, and communication systems.
 
 Table 5.1 lists the specific means of automation relevant to each activity of the business analysis practice.
 
@@ -267,13 +267,13 @@ Good understanding of the organization’s dependencies and partnerships is crit
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the ITIL practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of the *ITIL® Foundation: ITIL 4 Edition publication*.
 

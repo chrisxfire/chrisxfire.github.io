@@ -35,8 +35,8 @@ Incorrect information may be worse than not having any information at all. For e
 <table><tbody><tr><td><p><strong></strong><span><strong>Definition: Authentication</strong></span></p></td></tr><tr><td><span>Verification that a characteristic or attribute which appears or is claimed to be true, is in fact true.</span></td></tr></tbody></table>
 
 Authentication is used to establish the identity of people and things. For example:
-*   Usernames and passwords are often used to authenticate people, although more rigorous authentication using biometrics and security tokens is often preferred.
-*   Certificates and encryptions may be used by web sites to provide authentication.
+* Usernames and passwords are often used to authenticate people, although more rigorous authentication using biometrics and security tokens is often preferred.
+* Certificates and encryptions may be used by web sites to provide authentication.
 
 <table><tbody><tr><td><p><strong></strong><span><strong>Definition: Non-repudiation</strong></span></p></td></tr><tr><td><p>Providing undeniable proof that an alleged event happened, or an alleged action was performed, and that this event or action was performed by a particular entity.</p></td></tr></tbody></table>
 
@@ -71,23 +71,23 @@ The risk management terms are defined in Table 2.1.
 The purpose of the information security management practice, as described in section 2.1, is to “protect the information needed by the organization to conduct its business”. This information may be stored and processed on information systems, but equally it may be recorded on paper, or communicated in speech. This practice is concerned with the confidentiality, integrity, and availability of this information, regardless of where and how it is stored and processed. Although the focus is on information, this practice is concerned with all four dimensions of service management.
 
 Each organization must define the scope of its information security management practice, which will typically include:
-*   IT systems and services
-*   IT infrastructure and platforms
-*   software and applications
-*   network infrastructure, including: IT networks, voice, wireless, and so on.
-*   client devices, such as phones, laptops, and tablets, including: all hardware, firmware, software, and applications
-*   IoT devices, which typically have network connectivity and processing capabilities and might also have sensors and actuators which interact with the physical world
-*   physical infrastructure, such as: buildings, data centres, or manufacturing facilities
-*   business processes
-*   people, including understanding the risks they pose and how these risks are managed
-*   partners and suppliers who play a part in the provision, management, or support of services
-*   data and information, whether it is stored, processed, or communicated, and the format it is in.
+* IT systems and services
+* IT infrastructure and platforms
+* software and applications
+* network infrastructure, including: IT networks, voice, wireless, and so on.
+* client devices, such as phones, laptops, and tablets, including: all hardware, firmware, software, and applications
+* IoT devices, which typically have network connectivity and processing capabilities and might also have sensors and actuators which interact with the physical world
+* physical infrastructure, such as: buildings, data centres, or manufacturing facilities
+* business processes
+* people, including understanding the risks they pose and how these risks are managed
+* partners and suppliers who play a part in the provision, management, or support of services
+* data and information, whether it is stored, processed, or communicated, and the format it is in.
 
 Within this scope, the information security management practice should ensure that:
-*   assets that need to be protected are identified
-*   risks that could impact these assets are identified and analysed
-*   appropriate measures are taken to manage these risks
-*   monitoring and continual improvement are in place to ensure that information security risks continue to be appropriately managed.
+* assets that need to be protected are identified
+* risks that could impact these assets are identified and analysed
+* appropriate measures are taken to manage these risks
+* monitoring and continual improvement are in place to ensure that information security risks continue to be appropriately managed.
 
 Some important aspects of the information security management practice are described in other practice guides. These are listed in Table 2.2, along with references to the practices in which they can be found.
 
@@ -104,10 +104,10 @@ A complex functional component of a practice that is required for the practice t
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The information security management practice includes the following PSFs:
-*   developing and managing information security policies and plans
-*   mitigating information security risks
-*   exercising and testing information security management plans
-*   embedding information security into all aspects of the service value system.
+* developing and managing information security policies and plans
+* mitigating information security risks
+* exercising and testing information security management plans
+* embedding information security into all aspects of the service value system.
 
 #### 2.4.1 Developing and managing information security policies and plans
 
@@ -116,19 +116,19 @@ Organizations develop and maintain information security policies and plans to su
 An organization should understand the internal and external requirements of information security, to develop and manage its policies and plans. An assessment of how these requirements affect an organization’s resources, products, services, and practices can then be performed, and the correct information security controls implemented. This activity will be continuously performed; due to the changing nature of both the information security requirements and the context of the organization. Changes in requirements and the sufficiency of policies and plans should be continually reviewed, on an interval-based and event-based basis. Improvements should be initiated based on these reviews.
 
 Information security management policies and plans may address the following aspects:
-*   an overall information security management practice approach
-*   use and misuse of IT assets
-*   access control
-*   password control
-*   communications and social media
-*   malware protection
-*   information classification
-*   remote access
-*   suppliers’ access to an organization’s information and resources
-*   intellectual property
-*   record management and retention
-*   personal data protection
-*   other relevant aspects of information security.
+* an overall information security management practice approach
+* use and misuse of IT assets
+* access control
+* password control
+* communications and social media
+* malware protection
+* information classification
+* remote access
+* suppliers’ access to an organization’s information and resources
+* intellectual property
+* record management and retention
+* personal data protection
+* other relevant aspects of information security.
 
 To ensure the effective management of information security, organizations might establish a formal information security management system, which follows relevant standards such as ISO/IEC 27001<sup>1</sup>.
 
@@ -143,17 +143,17 @@ The analysis of information security risks includes ascertaining the likelihood 
 The management of information security risks includes defining and managing the controls, which manage the wide range of risks that might impact information security. This is performed in conjunction with risk management and other risk-focused practices, such as capacity and performance management, availability management, and service continuity management practices. The agreed information security controls are often implemented as part of other practices, such as service design, software development and management, infrastructure and platform management, architecture management, service request management, continual improvement, workforce and talent management depending on the nature of the control.
 
 The established policies and plans should drive behaviour and implement controls to maintain a balance between:
-*   Prevention – ensuring that security incidents don’t occur
-*   Detection – rapidly and reliably detecting incidents that can’t be prevented
-*   Correction – recovering from incidents after they are detected.
+* Prevention – ensuring that security incidents don’t occur
+* Detection – rapidly and reliably detecting incidents that can’t be prevented
+* Correction – recovering from incidents after they are detected.
 
 More preventative countermeasures should be adopted if risk analysis indicates an earlier and greater impact on the service. If the initial impact is smaller and takes longer to develop, a more economically effective approach would be to invest in detection and correction countermeasures.
 
 Controls may involve any of the four dimensions of service management. For example:
-*   organization and people controls such as training, policies, or separation of duties
-*   value stream and process controls such as backup, patch management, or peer review
-*   information and technology controls such as firewalls, encryption, or anti-virus software
-*   partner and supplier controls such as contractual requirements, process audits, or third-party certification.
+* organization and people controls such as training, policies, or separation of duties
+* value stream and process controls such as backup, patch management, or peer review
+* information and technology controls such as firewalls, encryption, or anti-virus software
+* partner and supplier controls such as contractual requirements, process audits, or third-party certification.
 
 When choosing an information security countermeasure, the effectiveness and efficiency of each option should be assessed. The effectiveness and efficiency of information security countermeasures must be continually controlled and validated.
 
@@ -172,34 +172,34 @@ The information security management practice must be embedded into every part of
 ##### 2.4.4.1 Guiding principles
 
 When using the ITIL guiding principles, it is important to consider this practice. For example:
-*   focus on value: value can be realized through an improvement in the quality of information
-*   collaborate and promote visibility: also high-level consider information confidentiality.
+* focus on value: value can be realized through an improvement in the quality of information
+* collaborate and promote visibility: also high-level consider information confidentiality.
 
 ##### 2.4.4.2 Governance
 
 Governance is essential for an effective information security management practice. Even the smallest organization needs to establish the governance of this practice to:
-*   establish the organization’s attitude to this practice
-*   define high-level requirements for this practice
-*   communicate high-level requirements to management
-*   monitor the organization to ensure that these requirements are being met.
+* establish the organization’s attitude to this practice
+* define high-level requirements for this practice
+* communicate high-level requirements to management
+* monitor the organization to ensure that these requirements are being met.
 
 2.4.4.3 Service value chain and value streams
 
 Every value stream should include appropriate information security management practice activities. Usually, these will be embedded within the steps of the value stream and at multiple points in the service value chain.
 
 For example, consider a value stream that creates a new or significantly changed service:
-*   acknowledge and document the service requirements (engage)
-    *   this step will include documenting service requirements for information security
-*   decide whether to invest in the new service (plan)
-    *   in this step, consider the information security issues that could pose a risk to the organization
-*   design the new service to meet customer requirements (design and transition)
-    *   this step will include designing and architecting to meet security requirements
-*   build, configure, or buy service components (obtain/build)
-    *   each component will need to be built, configured, or specified to meet security requirements
-*   deploy service components in preparation for launch (design and transition)
-    *   deployment should be secure, to ensure components haven’t been tampered with
-*   release new service to customers and users (deliver and support).
-    *   users and IT staff may require training, including security training, as part of the release.
+* acknowledge and document the service requirements (engage)
+    * this step will include documenting service requirements for information security
+* decide whether to invest in the new service (plan)
+    * in this step, consider the information security issues that could pose a risk to the organization
+* design the new service to meet customer requirements (design and transition)
+    * this step will include designing and architecting to meet security requirements
+* build, configure, or buy service components (obtain/build)
+    * each component will need to be built, configured, or specified to meet security requirements
+* deploy service components in preparation for launch (design and transition)
+    * deployment should be secure, to ensure components haven’t been tampered with
+* release new service to customers and users (deliver and support).
+    * users and IT staff may require training, including security training, as part of the release.
 
 ##### 2.4.4.4 Practices
 
@@ -250,13 +250,13 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><span><strong>Definition: Process</strong></span></p></td></tr><tr><td><p><span>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</span></p></td></tr></tbody></table>
 
 Many information security management practice activities are embedded into processes from other practices. For example:
-*   designing security into new and changed IT services is part of the service design practice
-*   integrating security controls into applications is part of the software development and management practice
-*   ensuring that people are entitled to use a service before granting them access is part of the service request management practice.
+* designing security into new and changed IT services is part of the service design practice
+* integrating security controls into applications is part of the software development and management practice
+* ensuring that people are entitled to use a service before granting them access is part of the service request management practice.
 
 The information security management practice forms two processes:
-*   security incident management
-*   audit and review.
+* security incident management
+* audit and review.
 
 #### 3.2.1 Security incident management
 
@@ -327,15 +327,15 @@ Roles are described in the context of processes and activities. Each role is cha
 Many organizations have a board member who is responsible for the information security management practice. This role is usually called a chief information security officer (CISO).
 
 The CISO is typically responsible for:
-*   establishing the overall information security strategy for the organization, based on an understanding of the organizations business strategy, and the information security risks that might impact this
-*   ensuring that the organization takes a balanced approach to information security, which provides sufficient protection without having an adverse impact on the ability to conduct business
-*   strategic communication about information security to the board, and to other stakeholders such as regulators, law enforcement, press, customers, suppliers, and partners
-*   developing the information security policies and procedures
-*   overseeing the staff responsible for all other aspects of information security, including:
-    *   developing, testing, and improving processes, especially for security incident management
-    *   selecting, testing, and deploying security products such as firewalls or anti-virus software
-    *   defining standards and guidelines for procuring, developing, testing, deploying and the ongoing management of infrastructure and applications that have security implications, such as servers, operating systems, SaaS products, in-house applications, middleware, and client devices
-    *   operational activities such as security event monitoring, and routine management of security products.
+* establishing the overall information security strategy for the organization, based on an understanding of the organizations business strategy, and the information security risks that might impact this
+* ensuring that the organization takes a balanced approach to information security, which provides sufficient protection without having an adverse impact on the ability to conduct business
+* strategic communication about information security to the board, and to other stakeholders such as regulators, law enforcement, press, customers, suppliers, and partners
+* developing the information security policies and procedures
+* overseeing the staff responsible for all other aspects of information security, including:
+    * developing, testing, and improving processes, especially for security incident management
+    * selecting, testing, and deploying security products such as firewalls or anti-virus software
+    * defining standards and guidelines for procuring, developing, testing, deploying and the ongoing management of infrastructure and applications that have security implications, such as servers, operating systems, SaaS products, in-house applications, middleware, and client devices
+    * operational activities such as security event monitoring, and routine management of security products.
 
 #### 4.1.2 Other roles involved in information security management
 
@@ -601,27 +601,27 @@ Communicating with a wide range of stakeholders, including senior management
 #### 4.1.3 Security competence for all roles
 
 Everyone within an organization has some responsibility for the information security management practice. Every role should include some security management requirements. Those who are aware of their information security management practice capabilities can contribute to:
-*   **Preventing** information security incidents and breaches by following all required policies, implementing required controls, and noticing and reporting vulnerabilities
-*   **Detecting** information security incidents and breaches by noticing and reporting the unusual behaviour of technology, people, or suppliers
-*   **Correcting** information security incidents and breaches by following the required processes and procedures when incidents occur.
+* **Preventing** information security incidents and breaches by following all required policies, implementing required controls, and noticing and reporting vulnerabilities
+* **Detecting** information security incidents and breaches by noticing and reporting the unusual behaviour of technology, people, or suppliers
+* **Correcting** information security incidents and breaches by following the required processes and procedures when incidents occur.
 
 People can also contribute to each of these in a negative way, if they don’t have the appropriate skills, competence, and motivation. There are many things that can be done to help ensure that everyone in the organization contributes to information security in a positive way.
 
 #### 4.1.3.1 Security awareness training
 
 Security awareness training should help staff recognize risks and take the appropriate actions. The training typically includes issues such as:
-*   user authentication, password safety, multifactor and biometrics
-*   secure web browsing and use of social media
-*   appropriate use of email, phones, and other communication channels
-*   endpoint security, including phones, tablets, laptops, use of removable media, personal devices, and so on
-*   remote and mobile working, including use of public Wi-Fi
-*   social engineering, phishing, and identity theft
-*   malware, including: viruses, ransomware, keyloggers, adware, spyware, and so on.
-*   advanced persistent threats
-*   personally identifiable information (PII) and data privacy
-*   classification and appropriate handling of information and other assets
-*   security incident reporting and management
-*   understanding relevant parts of the organization’s information security policies and controls.
+* user authentication, password safety, multifactor and biometrics
+* secure web browsing and use of social media
+* appropriate use of email, phones, and other communication channels
+* endpoint security, including phones, tablets, laptops, use of removable media, personal devices, and so on
+* remote and mobile working, including use of public Wi-Fi
+* social engineering, phishing, and identity theft
+* malware, including: viruses, ransomware, keyloggers, adware, spyware, and so on.
+* advanced persistent threats
+* personally identifiable information (PII) and data privacy
+* classification and appropriate handling of information and other assets
+* security incident reporting and management
+* understanding relevant parts of the organization’s information security policies and controls.
 
 Security awareness training should be held regularly, as well as for new staff. Some organizations have annual refresher training that covers the entire required material. Other organizations deliver more regular training that only covers part of the material in each training event, but include everything needed over the course of a year.
 
@@ -638,22 +638,22 @@ Regular reinforcement of security information ensures that security is at the fo
 In organizations with a dedicated IT department, the role of the CISO is usually outside of IT, to ensure that the scope of the practice is not simply restricted to IT. Typically, the CISO will have a number of direct reports, who are able to develop policies and processes, perform security audits and provide information security guidance to other staff.
 
 Many organizations have a dedicated IT security team, that provides expertise across the whole of the organization, but it is also important to have information security expertise in other IT teams. For example:
-*   Service architects and service designers must be able to architect and design secure IT services. They must possess enough knowledge and understanding to perform much of the work themselves, even if they might require assistance from specialist security staff.
-*   Application developers must be able to write secure code. This requires an understanding of secure coding practices and of common mistakes to avoid.
-*   Service desk staff must be able to recognize security incidents, and take appropriate action based on the organization’s security policy and security incident response plans.
-*   All staff must be aware of their responsibility to detect common security attacks and know how they should react to these attacks.
+* Service architects and service designers must be able to architect and design secure IT services. They must possess enough knowledge and understanding to perform much of the work themselves, even if they might require assistance from specialist security staff.
+* Application developers must be able to write secure code. This requires an understanding of secure coding practices and of common mistakes to avoid.
+* Service desk staff must be able to recognize security incidents, and take appropriate action based on the organization’s security policy and security incident response plans.
+* All staff must be aware of their responsibility to detect common security attacks and know how they should react to these attacks.
 
 ## 5. Information and technology
 
 ### 5.1 Information exchange
 
 The effectiveness of information security management is based on the quality of the information used. This information includes, but is not limited to, information about:
-*   consumer’s business processes
-*   services, its architecture, and design
-*   partners and suppliers, and information on the services they provide
-*   regulatory requirements regarding information security
-*   technology and services available on the market, which might be relevant to information security
-*   security standards and best practices.
+* consumer’s business processes
+* services, its architecture, and design
+* partners and suppliers, and information on the services they provide
+* regulatory requirements regarding information security
+* technology and services available on the market, which might be relevant to information security
+* security standards and best practices.
 
 This information may take various forms. The key inputs and outputs of the practice are listed in section 3.
 
@@ -674,20 +674,20 @@ Partners and suppliers might provide critical products and service components. T
 Partners and suppliers might also provide information security services and solutions, such as: vulnerability assessments, threat assessments, security incident management, provision of security relevant infrastructure or applications, and so on. In this case, they should also be involved in the testing and reviewing of these services and solutions.
 
 If suppliers have access to the organization’s network, servers, or other resources, it could be a security breach. This risk needs to be identified and controlled. Typically, this is controlled with:
-*   network isolation: preventing the supplier from accessing more sensitive parts of the network
-*   strong authentication and encryption: preventing the supplier from accessing sensitive data and systems
-*   contractual terms with regular audits: ensuring the supplier understands what is expected of them and meets these expectations.
+* network isolation: preventing the supplier from accessing more sensitive parts of the network
+* strong authentication and encryption: preventing the supplier from accessing sensitive data and systems
+* contractual terms with regular audits: ensuring the supplier understands what is expected of them and meets these expectations.
 
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of the *ITIL® Foundation: ITIL 4 Edition*.
 

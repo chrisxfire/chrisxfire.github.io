@@ -19,15 +19,15 @@ You will be an experienced project professional with a deep understanding of cha
 
 #### 1.2 Key Responsibilities
 
-*   Assuring governance and quality of the programme
-*   Benefits management and realization
-*   Business case development
-*   Programme plan development
-*   Monitoring and controlling
-*   Resource management
-*   Risk and issue management
-*   Stakeholder management and leadership
-*   Strategic alignment of programme to achieve organizational objectives.
+* Assuring governance and quality of the programme
+* Benefits management and realization
+* Business case development
+* Programme plan development
+* Monitoring and controlling
+* Resource management
+* Risk and issue management
+* Stakeholder management and leadership
+* Strategic alignment of programme to achieve organizational objectives.
 
 ## 2. Skills and qualifications
 
@@ -48,10 +48,10 @@ Business Case Development
 
  | 
 
-*   Engage and influence senior stakeholders to build a shared understanding of the expected outcomes, and to establish success criteria
-*   Evaluate options for delivery
-*   Shape and contribute to the business case establishing rationale, benefits and return on investment
-*   Obtain formal agreement from a large and diverse group of potentially senior stakeholders to the proposed scope and approach.
+* Engage and influence senior stakeholders to build a shared understanding of the expected outcomes, and to establish success criteria
+* Evaluate options for delivery
+* Shape and contribute to the business case establishing rationale, benefits and return on investment
+* Obtain formal agreement from a large and diverse group of potentially senior stakeholders to the proposed scope and approach.
 
  |
 | 
@@ -60,10 +60,10 @@ Business Case Development
 
  | 
 
-*   Engage and influence senior stakeholders to build a shared understanding of the expected outcomes, and to establish success criteria
-*   Evaluate options for delivery
-*   Shape and contribute to the business case establishing rationale, benefits and return on investment
-*   Obtain formal agreement from a large and diverse group of potentially senior stakeholders to the proposed scope and approach.
+* Engage and influence senior stakeholders to build a shared understanding of the expected outcomes, and to establish success criteria
+* Evaluate options for delivery
+* Shape and contribute to the business case establishing rationale, benefits and return on investment
+* Obtain formal agreement from a large and diverse group of potentially senior stakeholders to the proposed scope and approach.
 
  |
 | 
@@ -72,11 +72,11 @@ Business Case Development
 
  | 
 
-*   Communicate the vision for change, and the associated benefits
-*   Facilitate the business to develop specific measures and mechanisms for measuring benefits
-*   Establish ownership and responsibility within the business for realizing the benefits
-*   Support the business to plan integration of project outputs into the business operation, and to prepare people to exploit the new operational business environment
-*   Review the business case regularly to assess progress towards benefits realization, and change or stop activities that are no longer adding value.
+* Communicate the vision for change, and the associated benefits
+* Facilitate the business to develop specific measures and mechanisms for measuring benefits
+* Establish ownership and responsibility within the business for realizing the benefits
+* Support the business to plan integration of project outputs into the business operation, and to prepare people to exploit the new operational business environment
+* Review the business case regularly to assess progress towards benefits realization, and change or stop activities that are no longer adding value.
 
  |
 | 
@@ -85,9 +85,9 @@ Business Case Development
 
  | 
 
-*   Establish the organization structure and coordinating mechanisms (e.g. steering group/project board), and define roles and responsibilities
-*   Define the framework necessary for policy decision-making
-*   Establish the project support office and strategies to support the management of the project/programme such as quality management, change control, issues, risks.
+* Establish the organization structure and coordinating mechanisms (e.g. steering group/project board), and define roles and responsibilities
+* Define the framework necessary for policy decision-making
+* Establish the project support office and strategies to support the management of the project/programme such as quality management, change control, issues, risks.
 
  |
 | 
@@ -96,9 +96,9 @@ Business Case Development
 
  | 
 
-*   Tailor and apply best practice processes and tools to meet the needs of a specific project or work area
-*   Provide advice, coaching and technical support to embed use
-*   Stay up to date with emerging techniques and assess their potential relevance and value.
+* Tailor and apply best practice processes and tools to meet the needs of a specific project or work area
+* Provide advice, coaching and technical support to embed use
+* Stay up to date with emerging techniques and assess their potential relevance and value.
 
  |
 | 
@@ -107,11 +107,11 @@ Business Case Development
 
  | 
 
-*   Map stakeholder interest and influence to determine priorities for engagement and communication
-*   Establish constructive working relationships quickly with senior stakeholders and build a climate of trust
-*   Positively communicate the purpose/direction of the project/programme and build commitment
-*   Set up reporting and communication channels
-*   Resolve organizational or professional conflicts and in a positive and constructive manner.
+* Map stakeholder interest and influence to determine priorities for engagement and communication
+* Establish constructive working relationships quickly with senior stakeholders and build a climate of trust
+* Positively communicate the purpose/direction of the project/programme and build commitment
+* Set up reporting and communication channels
+* Resolve organizational or professional conflicts and in a positive and constructive manner.
 
  |
 | 
@@ -120,11 +120,11 @@ Business Case Development
 
  | 
 
-*   Coordinate planning activities across the project/programme, ensuring all sub-project plans are integrated into the main plan
-*   Identify cross project and sub project dependencies and reflect these in the plan
-*   Determine resource requirements to support implementation and perform resource analysis and levelling to optimize resource efficiency
-*   Analyze precedence relationships, to reduce phase duration and the critical path
-*   Integrate project baselines and agrees plans with stakeholders.
+* Coordinate planning activities across the project/programme, ensuring all sub-project plans are integrated into the main plan
+* Identify cross project and sub project dependencies and reflect these in the plan
+* Determine resource requirements to support implementation and perform resource analysis and levelling to optimize resource efficiency
+* Analyze precedence relationships, to reduce phase duration and the critical path
+* Integrate project baselines and agrees plans with stakeholders.
 
  |
 | 
@@ -133,9 +133,9 @@ Business Case Development
 
  | 
 
-*   Implement processes, tools and techniques for the identification, assessment and management of risks
-*   Collect information on how risks are being managed including contingency plans that have been put into place
-*   Engage to act on significant risks or issues, implementing project and programme recovery strategies as required.
+* Implement processes, tools and techniques for the identification, assessment and management of risks
+* Collect information on how risks are being managed including contingency plans that have been put into place
+* Engage to act on significant risks or issues, implementing project and programme recovery strategies as required.
 
  |
 | 
@@ -144,9 +144,9 @@ Business Case Development
 
  | 
 
-*   Develop systems for monitoring and assessing progress against the plan
-*   Scan the environment and anticipate factors that might affect successful achievement of outcomes
-*   Lead effective and constructive stage reviews to assess the ‘health’ and achievements of the project/programme and to confirm its continuing viability.
+* Develop systems for monitoring and assessing progress against the plan
+* Scan the environment and anticipate factors that might affect successful achievement of outcomes
+* Lead effective and constructive stage reviews to assess the ‘health’ and achievements of the project/programme and to confirm its continuing viability.
 
  |
 | 
@@ -155,10 +155,10 @@ Business Case Development
 
  | 
 
-*   Convey complex messages and issues clearly and credibly
-*   Use a mix of communication methods to promote shared understanding across diverse audiences
-*   Use persuasive logic to win support or change views
-*   Deliver difficult /unpopular messages with clarity and diplomacy
+* Convey complex messages and issues clearly and credibly
+* Use a mix of communication methods to promote shared understanding across diverse audiences
+* Use persuasive logic to win support or change views
+* Deliver difficult /unpopular messages with clarity and diplomacy
 
  |
 | 
@@ -167,23 +167,23 @@ Business Case Development
 
  | 
 
-*   Establish clear goals
-*   Foster a culture that is focused on meeting customer and business needs
-*   Provide constructive feedback, coach and support others to make the best of their abilities
-*   Clearly agree what you expect of others and hold them to account
-*   Manage conflict within the team.
+* Establish clear goals
+* Foster a culture that is focused on meeting customer and business needs
+* Provide constructive feedback, coach and support others to make the best of their abilities
+* Clearly agree what you expect of others and hold them to account
+* Manage conflict within the team.
 
  |
 
 #### 2.2. Relevant Qualifications
 
-*   [PRINCE2 Foundation](https://www.axelos.com/certifications/propath/prince2-project-management/prince2-foundation)
-*   [PRINCE2 Practitioner](https://www.axelos.com/certifications/propath/prince2-project-management/prince2-practitioner)
-*   [Managing Successful Programmes (MSP) Foundation](https://www.axelos.com/certifications/propath/msp-programme-management/msp-foundation)
-*   [Management of Value (MoV) Foundation](https://www.axelos.com/certifications/mov-value-management/mov-foundation)
-*   [ITIL Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
-*   [Managing Successful Programmes (MSP) Practitioner](https://www.axelos.com/certifications/propath/msp-programme-management/msp-practitioner)
-*   [Management of Risk 4 (M\_o\_R Practitioner)](https://www.axelos.com/certifications/propath/mor-risk-management/mor-4-practitioner)
-*   [P3O Foundation](https://www.axelos.com/certifications/propath/p3o-project-offices/p3o-foundation)
+* [PRINCE2 Foundation](https://www.axelos.com/certifications/propath/prince2-project-management/prince2-foundation)
+* [PRINCE2 Practitioner](https://www.axelos.com/certifications/propath/prince2-project-management/prince2-practitioner)
+* [Managing Successful Programmes (MSP) Foundation](https://www.axelos.com/certifications/propath/msp-programme-management/msp-foundation)
+* [Management of Value (MoV) Foundation](https://www.axelos.com/certifications/mov-value-management/mov-foundation)
+* [ITIL Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
+* [Managing Successful Programmes (MSP) Practitioner](https://www.axelos.com/certifications/propath/msp-programme-management/msp-practitioner)
+* [Management of Risk 4 (M\_o\_R Practitioner)](https://www.axelos.com/certifications/propath/mor-risk-management/mor-4-practitioner)
+* [P3O Foundation](https://www.axelos.com/certifications/propath/p3o-project-offices/p3o-foundation)
 
 ## Related Content

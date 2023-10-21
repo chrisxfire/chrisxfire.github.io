@@ -45,10 +45,10 @@ Request catalogues are addressed to users and can also be used by the service pr
 ### 2.3 Scope
 
 The scope of the service catalogue management practice includes:
-*   defining the appropriate service description structure for the service catalogue to be well-structured and meeting the needs of stakeholders, including the agreed mandatory attributes and relationships
-*   capturing the service information and keeping it up to date, ensuring the quality of data in the service catalogue
-*   defining the different tailored views of the service catalogue for the relevant groups of stakeholders and, once agreed, implementing the views and changes to the service catalogue structure
-*   publishing the service catalogue and managing different views for different stakeholders.
+* defining the appropriate service description structure for the service catalogue to be well-structured and meeting the needs of stakeholders, including the agreed mandatory attributes and relationships
+* capturing the service information and keeping it up to date, ensuring the quality of data in the service catalogue
+* defining the different tailored views of the service catalogue for the relevant groups of stakeholders and, once agreed, implementing the views and changes to the service catalogue structure
+* publishing the service catalogue and managing different views for different stakeholders.
 
 There are several activities and areas of responsibility that are not included in the service catalogue management practice, although they are still closely related to service catalogue management. These are listed in Table 2.1, along with references to the practices in which they can be found. It is important to remember that ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.
 
@@ -63,47 +63,47 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The service catalogue management practice includes the following PSFs:
-*   ensuring that the organization’s service catalogues’ structure and scope meet organizational requirements
-*   ensuring that the information in service catalogues meets stakeholders’ current and anticipated needs.
+* ensuring that the organization’s service catalogues’ structure and scope meet organizational requirements
+* ensuring that the information in service catalogues meets stakeholders’ current and anticipated needs.
 
 #### 2.4.1 Ensuring that the organization’s service catalogues’ structure and scope meet organizational requirements
 
 The structure and scope of service catalogue should reflect the organization’s architecture of business, products, and services. To ensure this occurs, the service catalogue practice should be based on input from the strategy management, architecture management, and portfolio management practices. This input helps to answer the following questions:
-*   Who is the target audience for service catalogue views?
-*   What are their requirements for service catalogue views?
-*   What services and service offerings should be included in the service catalogue?
-*   What is the reasonable granularity of the service description?
-*   What level of detail is needed to present services to stakeholders in an understandable way?
-*   What set of service attributes can be sufficient to describe all the services and be applicable to all the services?
-*   How should product and service relationships be reflected?
-*   What service-related information is needed and where should it be sourced from?
-*   How is the service catalogue published?
-*   How should service catalogue information be updated?
-*   What are the access requirements and controls?
+* Who is the target audience for service catalogue views?
+* What are their requirements for service catalogue views?
+* What services and service offerings should be included in the service catalogue?
+* What is the reasonable granularity of the service description?
+* What level of detail is needed to present services to stakeholders in an understandable way?
+* What set of service attributes can be sufficient to describe all the services and be applicable to all the services?
+* How should product and service relationships be reflected?
+* What service-related information is needed and where should it be sourced from?
+* How is the service catalogue published?
+* How should service catalogue information be updated?
+* What are the access requirements and controls?
 
 Other sources of information for service catalogue planning include the following practices: service level management, service request management, relationship management, service configuration management, service financial management, and supplier management. These practices maintain information that is usually included in service catalogue views.
 
 After analysing the requirements and expectations of an organization, service catalogue design is performed. It covers all four dimensions of service management:
-*   **organizations and people** roles and responsibilities, service owners, and teams involved in development and operations
-*   **information and technology** data and technology used, any data, or technology pre-requisites
-*   **partners and suppliers** third-parties’ involvement, existing agreements and contracts, levels of support from partners
-*   **value streams and processes** procedures and workflows.
+* **organizations and people** roles and responsibilities, service owners, and teams involved in development and operations
+* **information and technology** data and technology used, any data, or technology pre-requisites
+* **partners and suppliers** third-parties’ involvement, existing agreements and contracts, levels of support from partners
+* **value streams and processes** procedures and workflows.
 
 Service catalogue design is subject to continual improvement. The main sources of improvements are:
-*   regular reviews
-*   catalogues of user feedback
-*   changes in requirements
-*   changes in the organization’s architecture
-*   technology opportunities.
+* regular reviews
+* catalogues of user feedback
+* changes in requirements
+* changes in the organization’s architecture
+* technology opportunities.
 
 #### 2.4.2 Ensuring that the information in service catalogues meets stakeholders’ current and anticipated needs
 
 Maintaining, updating, and providing the service catalogue should be automated as much as possible. It is uncommon to create service catalogue views manually upon request; typically, they are agreed with relevant stakeholders and updated and provided automatically. Where tailoring is needed, it is usually achieved by providing users with view-setting features.
 
 This practice ensures that different stakeholder groups are considered, and tailored views are defined for them in the service catalogue based on the expectations of the respective stakeholders’ groups. The most popular and useful views may include:
-*   **User view** Providing the information on the services and service offerings, containing the respective details from a user perspective. For example, service description, prerequisites, procedure to request a service, service level agreements, technology and channel usage, and information on service support. All this information should be filtered based on the user status and entitlement to the services.
-*   **Customer view** Providing the information from a business perspective, containing information about agreed service levels, financial data, service performance and measurement, contractual requirements, and so on. This view may include service offerings describing services and service levels available to the customer. The customer view needs to be filtered to only reflect services and service offerings relevant to the customer and/or customer group. Views for new and existing customers differ in the details and scope of services.
-*   **Service provider view** Providing technical, security-, risk-, and process-related information for use in service delivery. This includes technical requirements to use a service, technical solution details, security requirements, potential risks and possible mitigating measures, incident and problem information regarding the service, and so on. Multiple views are usually defined for service provider’s teams depending on their needs. For example, supplier managers and business analysts are likely to need different details of services. This tailoring can be achieved by creating different pre-set views or by providing flexible settings for internal catalogue users.
+* **User view** Providing the information on the services and service offerings, containing the respective details from a user perspective. For example, service description, prerequisites, procedure to request a service, service level agreements, technology and channel usage, and information on service support. All this information should be filtered based on the user status and entitlement to the services.
+* **Customer view** Providing the information from a business perspective, containing information about agreed service levels, financial data, service performance and measurement, contractual requirements, and so on. This view may include service offerings describing services and service levels available to the customer. The customer view needs to be filtered to only reflect services and service offerings relevant to the customer and/or customer group. Views for new and existing customers differ in the details and scope of services.
+* **Service provider view** Providing technical, security-, risk-, and process-related information for use in service delivery. This includes technical requirements to use a service, technical solution details, security requirements, potential risks and possible mitigating measures, incident and problem information regarding the service, and so on. Multiple views are usually defined for service provider’s teams depending on their needs. For example, supplier managers and business analysts are likely to need different details of services. This tailoring can be achieved by creating different pre-set views or by providing flexible settings for internal catalogue users.
 
 While multiple tailored views of the service catalogue are possible and useful, the creation of separate or isolated service catalogues within different technology systems should be avoided as this will increase segregation and complexity within the organization. Instead, a single repository of service data should be used to generate the agreed tailored views, which is beneficial for the organization. Service catalogue is usually built and managed as a database with a central repository for the services data and additional external data sources for service-related data; it is fed from other tools, providing role-based views and service dashboards. For example, for any given service, core service data is stored in the service catalogue, but also data from the financial, monitoring and event, and customer and user service systems is used seamlessly under the service catalogue interface.
 
@@ -112,12 +112,12 @@ To ensure that service catalogues are used and meet stakeholders’ requirements
 An understanding of the quality of service catalogue information and stakeholders’ satisfaction should be used as input for the continual improvement of the service catalogue and the practice.
 
 The service catalogue management practice includes promoting the service catalogue and ensuring the catalogue is adopted across target audiences. Adoption is based on the positive experience of catalogue users. Several approaches and techniques can be useful for understanding and improving this experience, including:
-*   agreeing on the service catalogue utility and warranty and ensuring the agreements are met
-*   designing for usability
-*   ensuring new users are enabled for effective catalogue use
-*   treating internal and external users equally
-*   monitoring and improving user satisfaction
-*   monitoring and addressing feedback.
+* agreeing on the service catalogue utility and warranty and ensuring the agreements are met
+* designing for usability
+* ensuring new users are enabled for effective catalogue use
+* treating internal and external users equally
+* monitoring and improving user satisfaction
+* monitoring and addressing feedback.
 
 Service catalogue views for users and customers is an important factor of the overall satisfaction with the organization’s services. It is one of the key interfaces between the service provider and service consumers. It is also one of the most used tools within a service provider, and therefore should be easy to use.
 
@@ -140,9 +140,9 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, the service catalogue management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The service catalogue management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-*   engage
-*   design and transition
-*   deliver and support.
+* engage
+* design and transition
+* deliver and support.
 
 The contribution of the service catalogue management practice to the service value chain is shown in Figure 3.1.
 
@@ -157,8 +157,8 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Service catalogue management activities form two main processes:
-*   defining and maintaining service catalogue data and standard service catalogue views
-*   providing and maintaining up-to-date service catalogue views to the agreed target audience.
+* defining and maintaining service catalogue data and standard service catalogue views
+* providing and maintaining up-to-date service catalogue views to the agreed target audience.
 
 #### 3.2.1 Defining and maintaining service catalogue data and standard service catalogue views
 
@@ -227,12 +227,12 @@ Table 4.2 shows the roles involved in service management practice activities.
 #### 4.1.1 Service catalogue manager role
 
 The service catalogue manager is responsible for the service catalogue in the organization. This role has the following main responsibilities:
-*   defining, designing, and maintaining the service catalogue
-*   understanding and managing stakeholder relationships
-*   continually improving the service catalogue structure, automation, and views
-*   effectively integrating the service catalogue into value streams
-*   effectively cooperating with other teams and roles
-*   continually improving the practice.
+* defining, designing, and maintaining the service catalogue
+* understanding and managing stakeholder relationships
+* continually improving the service catalogue structure, automation, and views
+* effectively integrating the service catalogue into value streams
+* effectively cooperating with other teams and roles
+* continually improving the practice.
 
 In larger organizations, it is common to see job positions fully dedicated to this role, with one or more employees.
 
@@ -241,9 +241,9 @@ In larger organizations, it is common to see job positions fully dedicated to th
 If an organization employs more than one service catalogue manager, a service catalogue management team may be formed. This team may be formed from members of different organizational structures, or can be supported by an organizational structure of its own.
 
 It is more common to have a dedicated team for service catalogue management when one of the following conditions are met:
-*   The service catalogue is complex and critical for the organization’s business.
-*   There is no sufficient automation of the catalogue data updates, so manual work is required.
-*   Requirements for the catalogue’s structure and content are constantly changing.
+* The service catalogue is complex and critical for the organization’s business.
+* There is no sufficient automation of the catalogue data updates, so manual work is required.
+* Requirements for the catalogue’s structure and content are constantly changing.
 
 Together, members of the service catalogue management team should develop the competencies and skills described in Table 4.2.
 
@@ -252,24 +252,24 @@ Together, members of the service catalogue management team should develop the co
 ### 5.1 Information exchange
 
 The effectiveness of the service catalogue management practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-*   the organization’s strategy, portfolios, and architectures
-*   the organizational structure and stakeholder groups
-*   service consumer groups, customers, and users
-*   services and their architecture and design, statuses, and configurations
-*   partners and suppliers, including contracts and agreements
-*   legislation, policies, and requirements that regulate service provision
-*   the financial aspects of services and service offerings (prices, promotions, offers, terms and conditions)
-*   the service provision procedures and workflows
-*   service delivery and support teams’ contact details and work schedules.
+* the organization’s strategy, portfolios, and architectures
+* the organizational structure and stakeholder groups
+* service consumer groups, customers, and users
+* services and their architecture and design, statuses, and configurations
+* partners and suppliers, including contracts and agreements
+* legislation, policies, and requirements that regulate service provision
+* the financial aspects of services and service offerings (prices, promotions, offers, terms and conditions)
+* the service provision procedures and workflows
+* service delivery and support teams’ contact details and work schedules.
 
 This information may take various forms. The key inputs and outputs of the practice are listed in section 3.
 
 The volume of information used in the service catalogue may vary depending on its agreed purpose and structure. However, there is key service data that is usually included:
-*   service name
-*   service description
-*   service status
-*   service owner
-*   service target audience.
+* service name
+* service description
+* service status
+* service owner
+* service target audience.
 
 Table 5.1 includes examples of information that is usually included in a service catalogue from other sources.
 
@@ -420,9 +420,9 @@ Medium
 ## 6. Partners and suppliers
 
 Very few services are delivered using only an organization’s own resources. Most, if not all, depend on other services, often provided by third parties outside the organization (see *section 2.4 of ITIL Foundation: ITIL 4 Edition* for a model of a service relationship). These dependencies are likely to affect the service catalogue management practice and be reflected in the service catalogue. There are three major considerations for the practice:
-*   third-party services reflected in the service catalogue
-*   suppliers’ access to the organization’s service catalogue
-*   using third-party tools for service catalogue automation.
+* third-party services reflected in the service catalogue
+* suppliers’ access to the organization’s service catalogue
+* using third-party tools for service catalogue automation.
 
 ### 6.1 Third-party services reflected in the service catalogue
 
@@ -445,13 +445,13 @@ The service catalogue management practice depends greatly on automation, and it 
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the ITIL practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of *ITIL Foundation: ITIL 4 Edition*.
 

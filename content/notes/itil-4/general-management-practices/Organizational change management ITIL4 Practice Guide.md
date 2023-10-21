@@ -19,9 +19,9 @@ OCM aims to build a value-driven environment across the organization and enable 
 This is achieved by recognizing and understanding stakeholders’ expectations and values, having the vision, co-creating plans and actions, communicating effectively, empowering employees, and anchoring a new cultural approach.
 
 OCM contributes to every part of the service value system (SVS). It incorporates three premises:
-*   The practice is integrated into value streams and ensures that changes are effective, safe, and meet stakeholders’ expectations.
-*   The practice does not aim to unify all the changes planned and carried out in an organization into one big picture: this is neither possible or required.
-*   The practice should focus on balancing effectiveness, agility, compliance, and risk control for all changes in the defined scope.  
+* The practice is integrated into value streams and ensures that changes are effective, safe, and meet stakeholders’ expectations.
+* The practice does not aim to unify all the changes planned and carried out in an organization into one big picture: this is neither possible or required.
+* The practice should focus on balancing effectiveness, agility, compliance, and risk control for all changes in the defined scope.  
     
 
 ### 2.2 Terms and concepts
@@ -83,36 +83,36 @@ An example of a set of principles that can help guide the organizational changes
 
 **Clear and relevant objectives** 
 
-*   The objectives of the change must be based on the vision and values of the organization, and clear for the stakeholders. The change must be of real value.
+* The objectives of the change must be based on the vision and values of the organization, and clear for the stakeholders. The change must be of real value.
 
 **Strong and committed leadership**
 
-*   A well-designed process uses leadership capabilities anywhere within the organization. Anyone can contribute or lead a change initiative at any stage. The potentially complex and dynamic nature of a transformation or change should be considered, and leadership should be flexible and open rather than fixed.
-*   This practice should aim to create an environment where people may participate in change leadership as a shared practice.
+* A well-designed process uses leadership capabilities anywhere within the organization. Anyone can contribute or lead a change initiative at any stage. The potentially complex and dynamic nature of a transformation or change should be considered, and leadership should be flexible and open rather than fixed.
+* This practice should aim to create an environment where people may participate in change leadership as a shared practice.
 
 **Willing and prepared participants**
 
 The employee’s strengths should be the focus. Organizations should shift from overcoming employees’ resistance towards encouraging and supporting human intellectual capital for the purpose of organizational improvement.
 
-*   Change stakeholders are valuable change agents: they can make vital contribution to an organizational transformation. People are naturally problem solvers with a unique capacity to adapt to a continually developing environment.
-*   Human-centred design of the OCM process. The needs and values of stakeholders should be understood.
-*   Map stakeholders’ and organizational values.
-*   Base a change on intrinsic motivation, rather than extrinsic reinforcement. Autonomy, competence, and relatedness.<sup>4</sup>
+* Change stakeholders are valuable change agents: they can make vital contribution to an organizational transformation. People are naturally problem solvers with a unique capacity to adapt to a continually developing environment.
+* Human-centred design of the OCM process. The needs and values of stakeholders should be understood.
+* Map stakeholders’ and organizational values.
+* Base a change on intrinsic motivation, rather than extrinsic reinforcement. Autonomy, competence, and relatedness.<sup>4</sup>
 
 **Sustained improvement**
 
-*   Keep co-creation as the centre approach for organizational change. Therefore, every area of an organization is open for feedback and improvement. Co-creation is a choice that joins different parties to produce a mutually valued outcome.
+* Keep co-creation as the centre approach for organizational change. Therefore, every area of an organization is open for feedback and improvement. Co-creation is a choice that joins different parties to produce a mutually valued outcome.
     
-*   To maintain the achieved good result for organizational change, systems should continually evolve depending on organizational needs and vision.
+* To maintain the achieved good result for organizational change, systems should continually evolve depending on organizational needs and vision.
 
 ### 2.3 Scope
 
 The scope of the OCM practice includes:
-*   designing, implementing, and continually improving an adaptive approach for a developing environment in an organization
-*   planning and improving organizational change approaches and methods
-*   scheduling and coordinating all ongoing changes through the whole lifecycle
-*   communicating change plans and progress to relevant stakeholders
-*   assessing change success, including outputs, outcomes, efficiency, risks, and costs.
+* designing, implementing, and continually improving an adaptive approach for a developing environment in an organization
+* planning and improving organizational change approaches and methods
+* scheduling and coordinating all ongoing changes through the whole lifecycle
+* communicating change plans and progress to relevant stakeholders
+* assessing change success, including outputs, outcomes, efficiency, risks, and costs.
 
 This practice supports all value streams and can be used with any other practice as they can all initiate organizational changes. However, organizations usually limit the application of the OCM practice to a finite number of changes, where behaviour, capabilities, responsibilities and/or roles are to be changed.
 
@@ -135,9 +135,9 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity, as it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The OCM practice includes the following PSFs:
-*   creating and maintaining a change-enabling culture across the organization
-*   establishing and maintaining a holistic approach and continual improvement for organizational change management
-*   ensuring organizational changes are realized in an effective manner, leading to stakeholders’ satisfaction and meeting compliance requirements.
+* creating and maintaining a change-enabling culture across the organization
+* establishing and maintaining a holistic approach and continual improvement for organizational change management
+* ensuring organizational changes are realized in an effective manner, leading to stakeholders’ satisfaction and meeting compliance requirements.
 
 #### 2.4.1 Creating and maintaining a change-enabling culture across the organization
 
@@ -148,10 +148,10 @@ OCM technics and instruments can only be effective when they are used in the rig
 An organization that adapts changes can be established by creating an atmosphere where people are encouraged to speak up, challenge the way things are done, and listen and communicate effectively. Adaptive environments stimulate discussions and input for changes, considers agile vision, and new ways of operation. This culture may not only impact internal communication within an organization, but also cooperation with partners and suppliers.
 
 To assist OCM practice with creating and maintaining an efficient change-enabling culture, it is important to use the following practices:
-*   workforce and talent management
-*   relationship management
-*   strategy management
-*   continual improvement management.
+* workforce and talent management
+* relationship management
+* strategy management
+* continual improvement management.
 
 #### 2.4.2 Establishing and maintaining a holistic approach and continual improvement for organizational change management
 
@@ -162,21 +162,21 @@ It is important to ensure that service improvements are not only initiated, but 
 #### 2.4.3 Ensuring organizational changes are realized in effective manner, leading to stakeholders’ satisfaction and meeting compliance requirements
 
 Organizations should specify and execute a process to manage organizational changes. The OCM practice ensures that the most suitable process for organization’s values and vision is in use. Many stakeholders have an interest in organizational changes. This includes:
-*   service provider teams
-*   users
-*   customers
-*   sponsors of service provision
-*   sponsors of service consumption
-*   suppliers and partners.
+* service provider teams
+* users
+* customers
+* sponsors of service provision
+* sponsors of service consumption
+* suppliers and partners.
 
 This practice ensures that stakeholders are identified and that their values and expectations are captured, considered, and met as appropriate. This is done in combination with the relationship management, risk management, and business analysis practices.
 
 Organizations should focus on the continual monitoring of stakeholder engagement and satisfaction during change planning, realization, and after the change is complete. Ongoing communication, status updates, and feedback collection are important components of managing satisfaction and the workforce and talent management practice.
 
 Many change-related governance and compliance requirements affect the OCM practice. It is important that organizations capture them, understand them, and ensure that they are met. The practice supports this by:
-*   including required controls in change plans, processes, and procedures
-*   providing required information
-*   initiating improvement to prevent or correct non-compliance.
+* including required controls in change plans, processes, and procedures
+* providing required information
+* initiating improvement to prevent or correct non-compliance.
 
 As the IT world is constantly changing, many organizations do not have a static end state of the change it requires. Therefore, it should maintain flexibility in structures to support constant improvement according to recent needs; this will lead to a change adaptive environment and enable capacity to fulfil them in the most beneficial way.
 
@@ -197,10 +197,10 @@ The correct combination of metrics into complex indicators will make it easier t
 ### 3.1 Value stream contribution
 
 Like any other ITIL practice, the OCM practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. This practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-*   design and transition
-*   engage
-*   improve
-*   plan.
+* design and transition
+* engage
+* improve
+* plan.
 
 The contribution of the OCM practice to the service value chain is shown in Figure 3.1.
 
@@ -215,8 +215,8 @@ For more detailed description of OCM’s contribution to value streams, see *ITI
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
 OCM activities form two processes:
-*   organizational change lifecycle management
-*   management of change adaptive environment.
+* organizational change lifecycle management
+* management of change adaptive environment.
 
 #### 3.2.1 Organizational change lifecycle management
 
@@ -285,15 +285,15 @@ A change leader role is also known as change lead or change coach in different o
 The role of a change leader should focus less on pushing through a change project, and more on creating the change-enabling environment, where stakeholders can choose to adapt for the new required state of the organizational system.
 
 This role is typically responsible for:
-*   The initial processing and verification of a change request by coordinating an action of understanding the change need and scope.
-*   Coordinating the identification, nomination, and creation of a change team.
-*   Empowering, mentoring, and leading a change team through the whole change lifecycle.
-*   Formally communicating decisions made through the change lifecycle to the stakeholders and affected parties.
-*   Monitoring and reviewing the activities of the teams that are involved in a change.
-*   Conducting regular ad hoc practice analyses, and initiating improvements to the practice, procedures, used methods, and tools.
-*   Developing the organization’s expertise in the methods and approaches for the OCM practice.
-*   Creating an environment that embraces psychological safety, mutual respect, and trust; where employees can realize potential as self-initiating change agents.
-*   Reinforcing conformity with the change mandate by holding the change team accountable.
+* The initial processing and verification of a change request by coordinating an action of understanding the change need and scope.
+* Coordinating the identification, nomination, and creation of a change team.
+* Empowering, mentoring, and leading a change team through the whole change lifecycle.
+* Formally communicating decisions made through the change lifecycle to the stakeholders and affected parties.
+* Monitoring and reviewing the activities of the teams that are involved in a change.
+* Conducting regular ad hoc practice analyses, and initiating improvements to the practice, procedures, used methods, and tools.
+* Developing the organization’s expertise in the methods and approaches for the OCM practice.
+* Creating an environment that embraces psychological safety, mutual respect, and trust; where employees can realize potential as self-initiating change agents.
+* Reinforcing conformity with the change mandate by holding the change team accountable.
 
 The competency profile for these roles is LACM, though the importance of each of these competencies varies from activity to activity.
 
@@ -308,13 +308,13 @@ A change team and a change lead are responsible for defining, communicating, and
 When organizational change is a part of a big project or program, it is also supported by a project management team.
 
 A change team member should demonstrate the following types of behaviour to support change processes:
-*   taking risks
-*   eager to learn new ways of working
-*   unlearning old methods
-*   assuming new responsibilities and letting go obsolete ones
-*   gathering feedback
-*   discussing errors
-*   celebrating and acknowledging small and big wins.
+* taking risks
+* eager to learn new ways of working
+* unlearning old methods
+* assuming new responsibilities and letting go obsolete ones
+* gathering feedback
+* discussing errors
+* celebrating and acknowledging small and big wins.
 
 ### 4.2 Organizational structures and teams
 
@@ -327,21 +327,21 @@ Many organizations may include a change team and temporary teams assigned for a 
 ### 5.1 Information exchange
 
 The effectiveness of the OCM practice is based on the quality of the information used. This includes, but is not limited to, information about:
-*   organizational strategy and values
-*   organizational structure
-*   reflection of employees’ values to organizational values
-*   services and their architecture and design
-*   partners and suppliers
-*   policies and requirements which regulate organizational structure
-*   methods and technics to run organizational changes
-*   proposed changes, including:
-*   expected benefits for the employees and the organization as whole
-*   estimated time and cost of change realization
-*   regulations affecting the change
+* organizational strategy and values
+* organizational structure
+* reflection of employees’ values to organizational values
+* services and their architecture and design
+* partners and suppliers
+* policies and requirements which regulate organizational structure
+* methods and technics to run organizational changes
+* proposed changes, including:
+* expected benefits for the employees and the organization as whole
+* estimated time and cost of change realization
+* regulations affecting the change
 
-*   lessons learned from similar changes in the past
-*   past and ongoing changes
-*   stakeholder satisfaction with the practice.
+* lessons learned from similar changes in the past
+* past and ongoing changes
+* stakeholder satisfaction with the practice.
 
 This information may take various forms. The key inputs and outputs of the OCM practice are listed in section 3.2.
 
@@ -370,13 +370,13 @@ Some organizational change activities may be outsourced to the third parties suc
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of *ITIL*<sup><em>® </em></sup> *Foundation: ITIL 4 Edition.*
 

@@ -21,10 +21,10 @@ You will be responsible for tracking configuration items through their full life
 
 #### 1.2 Job responsibilities
 
-*   Devise and implement processes and procedures for tracking assets (e.g. hardware, software, licences and warranties)
-*   Populate and manage the configuration management database (check-in, check-out, tagging)
-*   Track each asset in order to maintain warranty information, refresh and renewal dates
-*   Identify savings opportunities for renewals and software licensing.
+* Devise and implement processes and procedures for tracking assets (e.g. hardware, software, licences and warranties)
+* Populate and manage the configuration management database (check-in, check-out, tagging)
+* Track each asset in order to maintain warranty information, refresh and renewal dates
+* Identify savings opportunities for renewals and software licensing.
 
 ## 2. Skills and qualifications
 
@@ -49,12 +49,12 @@ Configuration Management
 
  | 
 
-*   Implement and manage the CMS
-*   Define standard processes and procedures for version and change control updates to maintain integrity of the CMS
-*   Explain processes and best practices to those affected
-*   Perform regular checks to ensure the information in the CMS is complete and an accurate representation of the configuration items actually installed in the production environments
-*   Track configurations for change detection and management.
-*   Implement and manage the CMS
+* Implement and manage the CMS
+* Define standard processes and procedures for version and change control updates to maintain integrity of the CMS
+* Explain processes and best practices to those affected
+* Perform regular checks to ensure the information in the CMS is complete and an accurate representation of the configuration items actually installed in the production environments
+* Track configurations for change detection and management.
+* Implement and manage the CMS
 
  |
 | 
@@ -63,10 +63,10 @@ Information and Knowledge Management
 
  | 
 
-*   Define standard processes and procedures for version and change control updates to maintain integrity of the CMS
-*   Explain processes and best practices to those affected
-*   Perform regular checks to ensure the information in the CMS is complete and an accurate representation of the configuration items actually installed in the production environments
-*   Track configurations for change detection and management.
+* Define standard processes and procedures for version and change control updates to maintain integrity of the CMS
+* Explain processes and best practices to those affected
+* Perform regular checks to ensure the information in the CMS is complete and an accurate representation of the configuration items actually installed in the production environments
+* Track configurations for change detection and management.
 
  |
 | 
@@ -75,9 +75,9 @@ Information and Knowledge Management
 
  | 
 
-*   Apply relevant best practice processes, tools and methods
-*   Promote use of best practices and builds commitment to engage with the approach
-*   Provide advice, technical support and coaching to embed use of relevant tools, methods and models.
+* Apply relevant best practice processes, tools and methods
+* Promote use of best practices and builds commitment to engage with the approach
+* Provide advice, technical support and coaching to embed use of relevant tools, methods and models.
 
  |
 | 
@@ -86,11 +86,11 @@ Planning and Organization
 
  | 
 
-*   Establish goals and identify priorities for the organization and the customer
-*   Use project management principles to plan work
-*   Identify resources and people needed to complete work and factor their availability into the plan
-*   Make adjustments to priorities, timelines and approach when appropriate
-*   Use time effectively and stay focused.
+* Establish goals and identify priorities for the organization and the customer
+* Use project management principles to plan work
+* Identify resources and people needed to complete work and factor their availability into the plan
+* Make adjustments to priorities, timelines and approach when appropriate
+* Use time effectively and stay focused.
 
  |
 | 
@@ -99,9 +99,9 @@ Quality Orientation (Attention to Detail)
 
  | 
 
-*   Accurately and carefully follow established procedures
-*   Check work to ensure it is complete and free from errors
-*   Act promptly to correct quality defects.
+* Accurately and carefully follow established procedures
+* Check work to ensure it is complete and free from errors
+* Act promptly to correct quality defects.
 
  |
 | 
@@ -110,12 +110,12 @@ Communication and Knowledge Sharing
 
  | 
 
-*   Get messages understood by adopting a wide range of styles, tools and techniques
-*   Share information, good practice and expertise with others
-*   Use persuasive logic to win support or change views
-*   Deliver difficult/unpopular messages with clarity and diplomacy
-*   Listen actively and objectively without interrupting
-*   Respond to and discuss issues without being defensive.
+* Get messages understood by adopting a wide range of styles, tools and techniques
+* Share information, good practice and expertise with others
+* Use persuasive logic to win support or change views
+* Deliver difficult/unpopular messages with clarity and diplomacy
+* Listen actively and objectively without interrupting
+* Respond to and discuss issues without being defensive.
 
  |
 | 
@@ -124,16 +124,16 @@ Leadership and Teamwork
 
  | 
 
-*   Create a sense of common purpose and commitment
-*   Agree what you expect of others and hold them to account
-*   Encourage, coach and advise others to make the best of their abilities
-*   Provide constructive feedback and recognize contributions.
+* Create a sense of common purpose and commitment
+* Agree what you expect of others and hold them to account
+* Encourage, coach and advise others to make the best of their abilities
+* Provide constructive feedback and recognize contributions.
 
  |
 
 #### 2.2 Relevant qualifications
 
-*   [ITIL<sup>®</sup> 4: Create, Deliver and Support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
-*   [ITIL<sup>®</sup> 4: High-velocity IT](https://www.axelos.com/certifications/itil-service-management/managing-professional/high-velocity-it)
-*   [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
-*   [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
+* [ITIL<sup>®</sup> 4: Create, Deliver and Support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
+* [ITIL<sup>®</sup> 4: High-velocity IT](https://www.axelos.com/certifications/itil-service-management/managing-professional/high-velocity-it)
+* [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
+* [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)

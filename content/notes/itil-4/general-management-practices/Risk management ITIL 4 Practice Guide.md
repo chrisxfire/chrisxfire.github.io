@@ -45,16 +45,16 @@ Some organizations choose to take significant risks to make significant gains. O
 #### 2.2.4 Risk register
 
 It is important to keep a record of identified risks, that records the risk’s current status and history. This record is known as a risk register. Each entry in the risk register shows the history and status of a single risk. Typically, this will include the following information (but this can vary depending on the needs of the organization):
-*   unique ID
-*   category (to group similar types of risk)
-*   description
-*   probability
-*   impact
-*   overall rating or score
-*   owner
-*   treatment
-*   updated rating or score after treatment (residual risk)
-*   action date (s).
+* unique ID
+* category (to group similar types of risk)
+* description
+* probability
+* impact
+* overall rating or score
+* owner
+* treatment
+* updated rating or score after treatment (residual risk)
+* action date (s).
 
 An organization may have more than one risk register depending on the size and structure of the organization, and the number and types of risks that are being managed.
 
@@ -93,14 +93,14 @@ Risk treatment does not usually eliminate a risk completely. Therefore, after th
 ### 2.3 Scope
 
 The scope of risk management is very broad. Most activities and all people within an organization, have some role to play in risk management. The service provider must understand and manage the many risks that are relevant to each service and to each customer. Many of the management practices described in ITIL 4 require risk management as part of their activities. These include:
-*   project management
-*   information security management
-*   portfolio management
-*   problem management
-*   incident management
-*   service continuity management
-*   continual improvement
-*   service level management.
+* project management
+* information security management
+* portfolio management
+* problem management
+* incident management
+* service continuity management
+* continual improvement
+* service level management.
 
 There are several activities and areas of responsibility not included in the risk management practice, although they are still closely related to the management of risk. These are listed in Table 2.3, along with references to the practice guides in which they can be found. It is important to remember that the ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.
 
@@ -159,10 +159,10 @@ Good service level reporting includes the identification of risks that may impac
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The risk management practice includes the following PSFs:
-*   establishing governance of risk management
-*   nurturing a risk management culture and identifying risks
-*   analysing and evaluating risks
-*   treating, monitoring, and reviewing risks.
+* establishing governance of risk management
+* nurturing a risk management culture and identifying risks
+* analysing and evaluating risks
+* treating, monitoring, and reviewing risks.
 
 #### 2.4.1 Establishing governance of risk management
 
@@ -251,9 +251,9 @@ Each practice may include one or more processes and activities that may be neces
 **Figure 3.1 Heat map of the contribution of the risk management practice to value chain activities**
 
 Risk management activities form three processes:
-*   governance of risk management
-*   risk identification, analysis, and treatment
-*   risk monitoring and review.
+* governance of risk management
+* risk identification, analysis, and treatment
+* risk monitoring and review.
 
 #### 3.2.1 Governance of risk management
 
@@ -343,10 +343,10 @@ The risk management framework established by the risk management committee defin
 ### 5.1 Information exchange, inputs/outputs
 
 The effectiveness of the risk management practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-*   the risks that the risk owners own
-*   raising a new risk record
-*   an easily identifiable and objective risk importance
-*   forecasted and appropriately assigned tasks.
+* the risks that the risk owners own
+* raising a new risk record
+* an easily identifiable and objective risk importance
+* forecasted and appropriately assigned tasks.
 
 This information may take various forms. The key inputs and outputs of the practice are listed in section 3.
 
@@ -369,13 +369,13 @@ Although the actual risk mitigation activities are likely to be covered by the o
 Where organizations aim to ensure fast and effective risk management practice, they usually try to agree to close cooperation with their partners and suppliers, removing formal bureaucratic barriers in communication, collaboration, and decision-making. All parties in such relationships should aim for mutual transparency and visibility of the changes that may affect the other parties (see the supplier management practice guide for more information).
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the ITIL Practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of the *ITIL® Foundation: ITIL 4 Edition* publication.
 

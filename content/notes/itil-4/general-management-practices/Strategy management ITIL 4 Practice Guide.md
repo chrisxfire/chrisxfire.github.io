@@ -17,23 +17,23 @@ An important factor affecting an organizations’ strategic positioning and obje
 Other external factors (political, economic, social, legal, and environmental) also continually affect organizations. Consequently, organizations must adjust its strategic objectives, plans, and priorities, or sometimes its vision of the desired future state.
 
 The strategy management practice ensures that:
-*   organization’s vision, objectives and direction are defined and continually validated or redefined
-*   actions that are needed to realize the vision are identified, agreed, and communicated
-*   execution of the strategy is continually evaluated, challenged, and improved.
+* organization’s vision, objectives and direction are defined and continually validated or redefined
+* actions that are needed to realize the vision are identified, agreed, and communicated
+* execution of the strategy is continually evaluated, challenged, and improved.
 
 These three aspects of the practice can be described as long-term, medium-term, and short-term strategy management.<sup>1</sup>
 
 The strategy management practice is typically the responsibility of the executive leaders of the organization. However, it is important to engage a broad group of internal and external stakeholders in the strategy development. The executive strategic team has the critical role of organizing and making the final decisions. Yet, the more stakeholders that are involved in the strategic planning, the more effective and relevant the strategy, and the greater the stakeholders’ engagement.
 
 The strategy management practice provides the necessary inputs for many practices, including:
-*   architecture management
-*   workforce and talent management
-*   risk management
-*   service financial management
-*   project management
-*   organizational change management
-*   portfolio management
-*   relationship management.
+* architecture management
+* workforce and talent management
+* risk management
+* service financial management
+* project management
+* organizational change management
+* portfolio management
+* relationship management.
 
 These practices ensure that the organization-wide approaches, methods, and plans are developed and adopted by the organization. Strategic alignment is needed to ensure that these approaches are appropriate to the organization. Strategic alignment can be achieved by involving experts in the strategy management practice and establishing frequent communication and feedback between the practices.
 
@@ -44,12 +44,12 @@ These practices ensure that the organization-wide approaches, methods, and plans
 Business strategy is how an organization defines and achieves its purpose. Every organization has a business strategy. Some organizations maintain a formal set of processes and documents. Other organizations rely on the less formal communication, decision-making criteria, and patterns of behaviour established the governing body and executives.
 
 Regardless of the rigour of the strategy management practice, a business strategy will encompass:
-*   a way of defining, refining, and communicating the vision of the organization
-*   a way of defining the goals of the organization
-*   the organization’s business model and operating model (see 2.2.4)
-*   a means of aligning the different parts of the organization’s ecosystem to achieve its goals; for example, its people, information and technology, value streams, processes, and partners/suppliers
-*   guiding principles that determine how decisions are made and what actions are taken
-*   agreements of the actions that the organization will take and how to allocate resources to ensure those actions, often in the form of strategic plans.
+* a way of defining, refining, and communicating the vision of the organization
+* a way of defining the goals of the organization
+* the organization’s business model and operating model (see 2.2.4)
+* a means of aligning the different parts of the organization’s ecosystem to achieve its goals; for example, its people, information and technology, value streams, processes, and partners/suppliers
+* guiding principles that determine how decisions are made and what actions are taken
+* agreements of the actions that the organization will take and how to allocate resources to ensure those actions, often in the form of strategic plans.
 
 The level of formality of a business strategy is determined by the culture of the organization and the demand for formality by the organization’s stakeholders and environment, for example regulatory requirements.
 
@@ -58,23 +58,23 @@ In a technology-enabled organization, the role of technology in the organization
 <table><tbody><tr><td><strong>Definition: digital strategy</strong></td></tr><tr><td><p>A business strategy that is based on all or in part on using digital technology to achieve its goals and purpose.</p></td></tr></tbody></table>
 
 Digitalization of the business strategy helps to achieve the following objectives:
-*   exploit an opportunity in the market that has been created due to customers using a new digital technology
-*   use digital technology to engage with customers and improve their experience with the products and services
-*   relaunch existing products and services with new features and delivery methods made possible by digital technology
-*   use digital technology to improve the performance or efficiency of the organization’s operations
-*   create new technology-enabled products and services.
+* exploit an opportunity in the market that has been created due to customers using a new digital technology
+* use digital technology to engage with customers and improve their experience with the products and services
+* relaunch existing products and services with new features and delivery methods made possible by digital technology
+* use digital technology to improve the performance or efficiency of the organization’s operations
+* create new technology-enabled products and services.
 
 The term IT Strategy is used in three ways:
-*   as a synonym for, or component of, digital strategy, in the sense that all digital technology comprises IT. This term has been largely replaced by the term digital strategy
-*   as a technology strategy and corresponding architecture that supports the digital strategy
-*   as a strategy for the back office and administrative elements of information technology, for example, the data centre, HR and financial systems, infrastructure, and networking.
+* as a synonym for, or component of, digital strategy, in the sense that all digital technology comprises IT. This term has been largely replaced by the term digital strategy
+* as a technology strategy and corresponding architecture that supports the digital strategy
+* as a strategy for the back office and administrative elements of information technology, for example, the data centre, HR and financial systems, infrastructure, and networking.
 
 Regardless of the terminology adopted by the organization, it is important to ensure that:
-*   technology is included in the organization’s strategy as a key enabling element
-*   technology-based innovations are considered an important business driver and potential disruptor
-*   technology-related risks are addressed
-*   technology competence of the organization is seen as a priority
-*   all uses of IT are included in the strategy, including any IT used in business-facing and support activities.
+* technology is included in the organization’s strategy as a key enabling element
+* technology-based innovations are considered an important business driver and potential disruptor
+* technology-related risks are addressed
+* technology competence of the organization is seen as a priority
+* all uses of IT are included in the strategy, including any IT used in business-facing and support activities.
 
 ![Image of Figure 2.1 shows Business, Digital IT strategy model](Strategy%20management%20ITIL%204%20Practice%20Guide/Picture1.png)
 
@@ -115,9 +115,9 @@ Digitally-enabled organizations often make innovativeness a key part of its stra
 <table><tbody><tr><td><strong>Definition: Innovation</strong></td></tr><tr><td><p>The adoption of a new technology or way of working that has led to the significant improvement of an organization, product, or service.</p></td></tr></tbody></table>
 
 The definition above highlights the fact that on its own, new technology or ways of working are not innovations, and are not guaranteed to improve a situation. New technology or ways of working are required for innovations to happen, however the fact that they are new is not enough. There are many new technologies and approaches being created and offered outside and within organizations, but these are only innovative if its adoption leads to improved value. The key capabilities essential for an organization to benefit from innovations are:
-*   research and development to generate and identify innovation opportunities
-*   continual analysis of opportunities
-*   effective implementation of selected methods and devices.
+* research and development to generate and identify innovation opportunities
+* continual analysis of opportunities
+* effective implementation of selected methods and devices.
 
 These introduce requirements to multiple practices (business analysis, portfolio management, project management, change enablement, organizational change management, workforce and talent management, relationship management and other practices). It is likely that the management of innovations will be supported by a dedicated value stream. All of these are ways to implement a strategic objective of becoming an innovative organization, but the first step would be to recognize the need for innovativeness and to set it as a strategic objective.
 
@@ -164,9 +164,9 @@ A strategy is not limited to a collection of principles and objectives; it shoul
 A business model describes how all the pieces of an organization should be configured to provide the intended value proposition to customers, based on the strategic choices and consequences discussed in the strategy. The business model shows how all of the components work together to provide value, rather than only focusing on how each product or service provides value individually. Business models therefore reflect the system of choices and consequences of strategy.
 
 Business models are frameworks that consist of three major themes:
-*   How an organization works to create a value proposition through its products and services. This includes resources of the four dimensions, key activities, and cost structures associated with value creation.
-*   How an organization makes its value proposition. This includes relationships with service consumers, channels, customers segments, and revenue streams.
-*   How an organization fulfils the promises it has made and the expectations it has set.
+* How an organization works to create a value proposition through its products and services. This includes resources of the four dimensions, key activities, and cost structures associated with value creation.
+* How an organization makes its value proposition. This includes relationships with service consumers, channels, customers segments, and revenue streams.
+* How an organization fulfils the promises it has made and the expectations it has set.
 
 The strength of the business model as a planning tool is that it is a concept and therefore a flexible tool. It allows those who define strategy, to mix and match several competitive business models and different organizational configurations, without getting tied into complex details. As a planning tool, the business model assists strategists in analysing, testing, and validating ideas against individual business elements, as well as how those ideas will perform across the entire business model.
 
@@ -175,20 +175,20 @@ The flexibility of business models means that it can be easily copied by competi
 If business models are used to describe how an organization creates value, then operating models are used to describe how the organization is run. Operating models represent a series of practices and choices and how they interact to allow the organization to fulfil its defined value proposition and hold its market position. Operating models ensure that each of these choices and practices, such as which competencies to acquire and develop, what technology needs to be deployed, and which suppliers to engage with, work together in a unified way.
 
 An operating model, like a business model, is an abstract tool to facilitate the design and configuration of how an organization is run, to enable the value outlined by the business model. There are two key themes in an operating model:
-*   The key work that takes place. At the centre of an operating model is the organization’s value chain, which illustrates the main work an organization needs to do in the form of value streams.
-*   The context in which the value streams will be performed, including:
-    *   how suppliers or partners will be involved in the value streams and the creation of value
-    *   where the work done in the value stream will be located and what resources and practices are needed to perform the work, and how they interact
-    *   how targets will be set and performance measured to ensure that value streams are functioning optimally.
+* The key work that takes place. At the centre of an operating model is the organization’s value chain, which illustrates the main work an organization needs to do in the form of value streams.
+* The context in which the value streams will be performed, including:
+    * how suppliers or partners will be involved in the value streams and the creation of value
+    * where the work done in the value stream will be located and what resources and practices are needed to perform the work, and how they interact
+    * how targets will be set and performance measured to ensure that value streams are functioning optimally.
 
 The strategy management practice ensures that the organization follows the agreed operating models and that business and operating models are up-to-date, effective, continually reviewed, and improved.
 
 ### 2.3 Scope
 
 The strategy management practice includes:
-*   defining and communicating the organization’s purpose, vision, and objectives
-*   defining, communicating, and continually improving the business and operating models
-*   reviewing the organization’s performance and adjusting the way it works, where needed.
+* defining and communicating the organization’s purpose, vision, and objectives
+* defining, communicating, and continually improving the business and operating models
+* reviewing the organization’s performance and adjusting the way it works, where needed.
 
 There are several activities and areas of responsibility that are not included in the strategy management practice, although they are still closely related to it. These are listed in Table 2.1, along with references to the practices in which they can be found. It is important to remember that ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.  
 
@@ -203,18 +203,18 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The strategy management practice includes the following PSFs:
-*   ensuring that the organization's strategies are effective and sustainable, and meet the stakeholders' evolving needs
-*   ensuring that the agreed strategies and models are communicated across the organization and embedded into the organizations' practices and value streams.
+* ensuring that the organization's strategies are effective and sustainable, and meet the stakeholders' evolving needs
+* ensuring that the agreed strategies and models are communicated across the organization and embedded into the organizations' practices and value streams.
 
 ##### 2.4.1 Ensuring that the organization's strategies are effective and sustainable, and meet stakeholders' evolving needs
 
 Effective strategies correctly translate the organization’s purpose and the needs and requirements of the stakeholders into the organization’s vision, objectives, business and operating models. They ensure the fulfilment of the agreed objectives across the organization, considering internal and external constraints and influences.
 
 To create and execute an effective strategy, organizations<sup>7</sup> must:
-*   explore the strategy at distinct intervals (long-term, mid-term and short-term, as described in section 2.1)
-*   constantly reinvent and stimulate the strategic dialogue
-*   engage the broad organization
-*   invest in execution and monitoring.
+* explore the strategy at distinct intervals (long-term, mid-term and short-term, as described in section 2.1)
+* constantly reinvent and stimulate the strategic dialogue
+* engage the broad organization
+* invest in execution and monitoring.
 
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>‘With strategic planning — unlike sports or music — repetitive practice doesn’t make perfect.’<span></span></p></td></tr><tr><td><em></em><span><em>Four Best Practices for Strategic Planning by Nicolas Kachaner, Kermit King and Sam Stewart</em></span><em></em></td></tr></tbody></table>
 
@@ -241,10 +241,10 @@ Techniques such as ALOE<sup>10</sup> (asking, listening, observing, empathizing)
 A strategy is as effective as it is executed. Without the adoption and implementation of the strategy across the organization’s practices, value streams, products and services, the strategy management practice is just a planning exercise.
 
 The key factors of successful execution of strategies are:
-*   effective communication
-*   continual improvement
-*   effective organizational change management
-*   embedding the vision and the principles in the organizational culture.
+* effective communication
+* continual improvement
+* effective organizational change management
+* embedding the vision and the principles in the organizational culture.
 
 The principles of good communication described in *ITIL 4 Direct, Plan and Improve* publication help to ensure that strategic communications are effective. Table 2.2 explains how the principles can be adopted for this purpose.
 
@@ -287,8 +287,8 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Strategy management activities form two processes:
-*   strategy generation and continual development
-*   ad hoc strategic decision-making.
+* strategy generation and continual development
+* ad hoc strategic decision-making.
 
 ##### 3.2.1 Strategy generation and continual development
 
@@ -349,13 +349,13 @@ Examples of other roles which can be involved in the strategy management activit
 ##### 4.1.1 Strategic decision-makers
 
 The role of the strategic decision-maker is usually performed by the executive leaders and the governing body of the organization. Strategic decision-making as well as effective strategy communication and leadership require the following key competencies:
-*   emotional, social, and systems intelligence
-*   cognitive flexibility
-*   self-leadership
-*   discerning thinking
-*   complexity thinking
-*   data-driven and insight-driven analysis and decision-making
-*   conversational intelligence, multimodal communication skills.
+* emotional, social, and systems intelligence
+* cognitive flexibility
+* self-leadership
+* discerning thinking
+* complexity thinking
+* data-driven and insight-driven analysis and decision-making
+* conversational intelligence, multimodal communication skills.
 
 ### 4.2 Organizational structures and teams
 
@@ -364,13 +364,13 @@ The strategy management practice is performed by the organization’s leaders su
 ### 5.1 Information exchange
 
 The effectiveness of the strategy management practice is based on the quality of the information used. This includes, but is not limited to, information about:
-*   organization’s vision, values, and principles
-*   guidance from the governing body
-*   stakeholders’ needs and requirements
-*   relevant external factors (PESTLE)
-*   organization’s architectures
-*   culture and climate of the organization
-*   ongoing performance of the organization.
+* organization’s vision, values, and principles
+* guidance from the governing body
+* stakeholders’ needs and requirements
+* relevant external factors (PESTLE)
+* organization’s architectures
+* culture and climate of the organization
+* ongoing performance of the organization.
 
 This information may take various forms. The key inputs and outputs of the practice are listed in section 3.
 
@@ -389,13 +389,13 @@ Specific strategies, policies, and guidelines to support organization’s strate
 External strategic analysts, such as consultants and advisors might be involved in the strategy management processes in a capacity similar to the internal ones, as described in sections 3.2.1, 3.2.2 and 4.2. However, the main benefit of involving external analysts is to provide additional insight for strategic assessment and planning. Strategic decision-making should remain a responsibility of the organization’s governing body and executive leaders.
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the ITIL practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of the *ITIL® Foundation: ITIL 4 Edition.*
 

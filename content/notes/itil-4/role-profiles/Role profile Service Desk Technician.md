@@ -13,10 +13,10 @@ You’ll be committed to delivering excellent customer service. Your strong comm
 
 #### 1.2 Job responsibilities
 
-*   Identify and diagnose issues and problems
-*   Advise users on action to take
-*   Categorize and record reported queries
-*   Escalate unresolved problems.
+* Identify and diagnose issues and problems
+* Advise users on action to take
+* Categorize and record reported queries
+* Escalate unresolved problems.
 
 ## Skills and qualifications
 
@@ -39,9 +39,9 @@ Key skills you will need include:
 
  | 
 
-*   Effectively question users to establish symptoms
-*   Follow guidelines and applies basic product knowledge to resolve user requests
-*   Escalate unresolved incidents.
+* Effectively question users to establish symptoms
+* Follow guidelines and applies basic product knowledge to resolve user requests
+* Escalate unresolved incidents.
 
  |
 | 
@@ -50,8 +50,8 @@ Key skills you will need include:
 
  | 
 
-*   Identify and classify incident types and service interruptions to build the knowledge system
-*   Record incidents cataloguing them by symptoms and resolutions.
+* Identify and classify incident types and service interruptions to build the knowledge system
+* Record incidents cataloguing them by symptoms and resolutions.
 
  |
 | 
@@ -60,8 +60,8 @@ Key skills you will need include:
 
  | 
 
-*   Ensure service delivery in accordance with established service level agreements (SLAs)
-*   Act under guidance to record and track reliability data against the SLA.
+* Ensure service delivery in accordance with established service level agreements (SLAs)
+* Act under guidance to record and track reliability data against the SLA.
 
  |
 | 
@@ -70,10 +70,10 @@ Key skills you will need include:
 
  | 
 
-*   Listen to others to understand their point of view
-*   Confidently present messages in a clear and precise manner
-*   Share information with team members to help them become more effective
-*   Structure written and oral communication to ensure clarity.
+* Listen to others to understand their point of view
+* Confidently present messages in a clear and precise manner
+* Share information with team members to help them become more effective
+* Structure written and oral communication to ensure clarity.
 
 
  |
@@ -83,9 +83,9 @@ Key skills you will need include:
 
  | 
 
-*   Accurately and carefully follow established procedures
-*   Check work to ensure it is complete and free from errors
-*   Act promptly to correct quality defects.
+* Accurately and carefully follow established procedures
+* Check work to ensure it is complete and free from errors
+* Act promptly to correct quality defects.
 
  |
 | 
@@ -94,13 +94,13 @@ Key skills you will need include:
 
  | 
 
-*   Build and sustain positive relationships with team members and customers
-*   Respect and value others and be sensitive to difference opinions and perspectives
-*   Be responsive to changing team priorities.
+* Build and sustain positive relationships with team members and customers
+* Respect and value others and be sensitive to difference opinions and perspectives
+* Be responsive to changing team priorities.
 
  |
 
 #### 2.2 Relevant qualifications
 
-*   [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
-*   [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
+* [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
+* [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)

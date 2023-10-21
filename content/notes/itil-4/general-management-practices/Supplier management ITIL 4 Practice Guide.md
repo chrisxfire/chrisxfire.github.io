@@ -43,27 +43,27 @@ The suppliers must be appraised against defined performance targets to assess th
 ### 2.3 Scope
 
 The supplier management practice focuses on three key aspects:
-*   evaluating, selecting, and onboarding suppliers, and maintaining of their information in the supplier management information systems
-*   negotiating of contracts and ensuring that suppliers adhere to them, meeting all contractual obligations and deliverables and managing the contracts through their lifecycle
-*   measuring, tracking, and reporting on supplier performance and triggering the reward or penalty aspects of the contract, ensuring that the organization obtains value for money from the contracts.
+* evaluating, selecting, and onboarding suppliers, and maintaining of their information in the supplier management information systems
+* negotiating of contracts and ensuring that suppliers adhere to them, meeting all contractual obligations and deliverables and managing the contracts through their lifecycle
+* measuring, tracking, and reporting on supplier performance and triggering the reward or penalty aspects of the contract, ensuring that the organization obtains value for money from the contracts.
 
 The scope of the supplier management practice includes:
-*   enforcing the supplier management policy
-*   creating and maintaining the supplier selection and performance evaluation criteria and procedures
-*   establishing and maintaining the sourcing strategy and supplier categorization standards in accordance with the sourcing strategy
-*   defining of sourcing requirements and evaluation parameters for supplier selection
-*   creating and maintaining standard contract terms and conditions
-*   evaluating and selecting suppliers
-*   developing, negotiating, and agreeing contracts
-*   reviewing, renewing, and terminating contracts
-*   auditing the suppliers’ adherence to the contract
-*   measuring and reporting on supplier performance
-*   creating, maintaining, and using supplier onboarding and offboarding procedures
-*   creating and maintaining supplier performance measurement criteria
-*   collaborating and resolving conflicts with suppliers
-*   maintaining the data in supplier management information systems
-*   categorizing suppliers and managing risk
-*   identifying, tracking, and reporting on continual improvement measures related to the supplier management practice or suppliers.
+* enforcing the supplier management policy
+* creating and maintaining the supplier selection and performance evaluation criteria and procedures
+* establishing and maintaining the sourcing strategy and supplier categorization standards in accordance with the sourcing strategy
+* defining of sourcing requirements and evaluation parameters for supplier selection
+* creating and maintaining standard contract terms and conditions
+* evaluating and selecting suppliers
+* developing, negotiating, and agreeing contracts
+* reviewing, renewing, and terminating contracts
+* auditing the suppliers’ adherence to the contract
+* measuring and reporting on supplier performance
+* creating, maintaining, and using supplier onboarding and offboarding procedures
+* creating and maintaining supplier performance measurement criteria
+* collaborating and resolving conflicts with suppliers
+* maintaining the data in supplier management information systems
+* categorizing suppliers and managing risk
+* identifying, tracking, and reporting on continual improvement measures related to the supplier management practice or suppliers.
 
 There are several activities and areas of responsibility that are not included in the supplier management practice, although they are still closely related to supplier management. These are listed in Table 2.1, along with references to the practices in which they can be found. It is important to remember that ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.
 
@@ -78,19 +78,19 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The supplier management practice includes the following PSFs:
-*   ensuring that the sourcing strategy and guidelines effectively support the organization’s strategy
-*   ensuring that service relationships with all suppliers and partners are managed effectively and in line with internal and external regulations
-*   ensuring the effective integration of third-party services into the organization’s products and services.
+* ensuring that the sourcing strategy and guidelines effectively support the organization’s strategy
+* ensuring that service relationships with all suppliers and partners are managed effectively and in line with internal and external regulations
+* ensuring the effective integration of third-party services into the organization’s products and services.
 
 ##### 2.4.1 Ensuring that the sourcing strategy and guidelines effectively support the organization’s strategy
 
 As part of strategy management, organizations define their sourcing policy, including principles and criteria for sourcing resources. According to this policy, a sourcing strategy is developed and maintained to ensure the alignment of the business needs and supplier targets. Apart from the sourcing principles and criteria, it includes supplier categorization, requirements for suppliers of each category, and basic rules of supplier relationship management.
 
 The sourcing strategy is supported with guidelines covering key aspects of the practice, including:
-*   the management of the service relationship at every step of the service journey
-*   the management of contracts and agreements with suppliers
-*   supplier performance management and reporting
-*   the integration of third-party services into the organization’s products and services.
+* the management of the service relationship at every step of the service journey
+* the management of contracts and agreements with suppliers
+* supplier performance management and reporting
+* the integration of third-party services into the organization’s products and services.
 
 Organizations need to have the right procedures to identify suppliers as potential sourcing partners and categorize them based on the sourcing strategy. These procedures establish a framework to drive contractual compliance by suppliers, conduct periodic audits, and measure, analyse, review, and report on the performance of each supplier. This forms the key input for the supplier reviews and for the organizations to reward or penalize suppliers based on their performance.
 
@@ -125,10 +125,10 @@ Also, depending on the type of service relationship, the supplier performance me
 #### 2.4.3 Ensure the effective integration of third-party services into the organization’s products and services
 
 Third-party services form an important part of resources that organizations manage in order to create and deliver their products and services. Depending on the sourcing strategy, the level of integration of third-party services into organizations may vary, but most organizations have critical dependencies where core products and services may become unavailable in case of a major disruption of some of external services. The following is critical to effectively manage external services in the organization’s context:
-*   understanding the external service’s scope, nature, and terms of provision
-*   understanding the dependencies
-*   understanding the risks
-*   considering the dependencies and associated risks from the early steps of product design and along the product and service lifecycle.
+* understanding the external service’s scope, nature, and terms of provision
+* understanding the dependencies
+* understanding the risks
+* considering the dependencies and associated risks from the early steps of product design and along the product and service lifecycle.
 
 To ensure these, the supplier management practice should be used in conjunction with other practices, including the architecture management, risk management, service design, business analysis, service configuration management, and service financial management practices.
 
@@ -153,12 +153,12 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, the supplier management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The supplier management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-*   engage
-*   design and transition
-*   deliver and support
-*   improve
-*   obtain/build
-*   plan.
+* engage
+* design and transition
+* deliver and support
+* improve
+* obtain/build
+* plan.
 
 The contribution of the supplier management practice to the service value chain is shown in Figure 3.1.
 
@@ -173,8 +173,8 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong></strong><span><strong>Definition: Process</strong></span></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 The supplier management practice activities form two main processes:
-*   managing a common approach to supplier management
-*   managing supplier journeys.
+* managing a common approach to supplier management
+* managing supplier journeys.
 
 #### 3.2.1 Managing a common approach to supplier management
 
@@ -233,48 +233,48 @@ Two practice-specific roles may be found in organizations: supplier manager and 
 #### 4.1.1 Supplier manager
 
 The supplier manager is typically responsible for:
-*   gathering business requirements for outsourcing or seeking products or services
-*   approving prerequisites for supplier selection
-*   involving intermediaries for creating RfXs and/or managing the RfX process
-*   categorizing suppliers based on their importance to the organization
-*   approving RfX-sent suppliers
-*   handling due diligence and the contract negotiation process
-*   providing direction to onboard or offboard suppliers and/or services
-*   designing and instituting governance and compliance organizational and conflict-resolving procedures
-*   chairing and conducting governance and compliance and supplier review meetings
-*   ensuring the inclusion of clauses related to conflict resolving as part of the contract
-*   providing decisions on conflicts, rewards, penalties, and exceptions
-*   defining, agreeing, and implementing supplier performance criteria
-*   contributing towards performance clauses during contract or amendment creation
-*   monitoring supplier performance and publishing supplier reports, dashboards, and scorecards
-*   providing recommendations for performance appreciation, rewards, and penalties
-*   providing inputs for contract review, renewal, and/or termination
-*   orchestrating contracts finalization and required approvals.
+* gathering business requirements for outsourcing or seeking products or services
+* approving prerequisites for supplier selection
+* involving intermediaries for creating RfXs and/or managing the RfX process
+* categorizing suppliers based on their importance to the organization
+* approving RfX-sent suppliers
+* handling due diligence and the contract negotiation process
+* providing direction to onboard or offboard suppliers and/or services
+* designing and instituting governance and compliance organizational and conflict-resolving procedures
+* chairing and conducting governance and compliance and supplier review meetings
+* ensuring the inclusion of clauses related to conflict resolving as part of the contract
+* providing decisions on conflicts, rewards, penalties, and exceptions
+* defining, agreeing, and implementing supplier performance criteria
+* contributing towards performance clauses during contract or amendment creation
+* monitoring supplier performance and publishing supplier reports, dashboards, and scorecards
+* providing recommendations for performance appreciation, rewards, and penalties
+* providing inputs for contract review, renewal, and/or termination
+* orchestrating contracts finalization and required approvals.
 
 #### 4.1.2 Supplier coordinator
 
 The supplier coordinator is typically responsible for:
-*   formulating prerequisites for supplier selection
-*   collating business requirements for RfXs
-*   releasing RfXs to suppliers and communicating the updates related to the selection process and eventual decisions to the suppliers
-*   coordinating with various stakeholders and assisting the supplier manager during the RfX process
-*   maintain supplier information in supplier management tools
-*   drafting and publishing agenda for the governance and compliance, supplier review meetings, and relevant information/details
-*   documenting and publishing minutes of governance and compliance and supplier review meetings
-*   preparing performance reports and details of pending actions and the exception requests
-*   keeping a supplier risk register
-*   creating or maintaining a supplier dependency matrix along with the mapping of tools
-*   onboarding and offboarding suppliers, people, process, services, and tools
-*   feeding updates to the service catalogue
-*   tracking progress of knowledge acquisition, knowledge transfer, and training
-*   ascertaining that delivery risks are appropriately captured during supplier onboarding and offboarding
-*   ensuring that the access to supplier team members are invoked or revoked as applicable
-*   recovering assets assigned to or managed by supplier team members
-*   transferring licenses from suppliers, if applicable
-*   publishing on/offboarding statuses and reports
-*   monitoring and auditing adherence to contracts
-*   capturing requirements for new contracts or amendments
-*   making decisions on contract renewal, termination, or expiration and ensuring timely review and renewal or termination of contracts.
+* formulating prerequisites for supplier selection
+* collating business requirements for RfXs
+* releasing RfXs to suppliers and communicating the updates related to the selection process and eventual decisions to the suppliers
+* coordinating with various stakeholders and assisting the supplier manager during the RfX process
+* maintain supplier information in supplier management tools
+* drafting and publishing agenda for the governance and compliance, supplier review meetings, and relevant information/details
+* documenting and publishing minutes of governance and compliance and supplier review meetings
+* preparing performance reports and details of pending actions and the exception requests
+* keeping a supplier risk register
+* creating or maintaining a supplier dependency matrix along with the mapping of tools
+* onboarding and offboarding suppliers, people, process, services, and tools
+* feeding updates to the service catalogue
+* tracking progress of knowledge acquisition, knowledge transfer, and training
+* ascertaining that delivery risks are appropriately captured during supplier onboarding and offboarding
+* ensuring that the access to supplier team members are invoked or revoked as applicable
+* recovering assets assigned to or managed by supplier team members
+* transferring licenses from suppliers, if applicable
+* publishing on/offboarding statuses and reports
+* monitoring and auditing adherence to contracts
+* capturing requirements for new contracts or amendments
+* making decisions on contract renewal, termination, or expiration and ensuring timely review and renewal or termination of contracts.
 
 Examples of other roles which can be involved in the supplier management activities are listed in Table 4.2, together with the associated competency profiles and specific skills.
 
@@ -291,15 +291,15 @@ It is unusual to see a dedicated organizational structure for the supplier manag
 ### 5.1 Information exchange
 
 The effectiveness of the supplier management practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-*   customers and users
-*   services and their mapping to suppliers
-*   the organization’s requirements for the services and service dependencies
-*   existing partners and suppliers, including contract, SLA, and KPI information on the services they provide
-*   policies and requirements which regulate supplier management, supplier on/offboarding, supplier collaboration, contract formulation and governance, and conflict resolving and performance management
-*   improvement initiatives by suppliers and related value realization
-*   on/offboarding status, contract adherence, supplier performance, and conflicts
-*   stakeholder satisfaction with the suppliers
-*   market state and trends, emerging technologies, services, and suppliers.
+* customers and users
+* services and their mapping to suppliers
+* the organization’s requirements for the services and service dependencies
+* existing partners and suppliers, including contract, SLA, and KPI information on the services they provide
+* policies and requirements which regulate supplier management, supplier on/offboarding, supplier collaboration, contract formulation and governance, and conflict resolving and performance management
+* improvement initiatives by suppliers and related value realization
+* on/offboarding status, contract adherence, supplier performance, and conflicts
+* stakeholder satisfaction with the suppliers
+* market state and trends, emerging technologies, services, and suppliers.
 
 This information may take various forms. The key inputs and outputs of the practice are listed in section 3.
 
@@ -324,13 +324,13 @@ The supplier management practice enables the evaluation, selection, and sourcing
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of *ITIL Foundation: ITIL 4 Edition*.
 

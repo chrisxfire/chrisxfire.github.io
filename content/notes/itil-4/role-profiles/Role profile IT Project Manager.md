@@ -15,15 +15,15 @@ You will lead the planning and implementation of IT projects, working with inter
 
 #### 1.2 Key responsibilities
 
-*   Project planning and development of project initiation documentation (PID)
-*   Stakeholder management and communication
-*   Monitoring and minimizing impact of risk
-*   Phase, milestone and final project review
-*   Providing leadership to the project team
-*   Identification of customer requirements
-*   Purchasing and contracts for IT services, equipment and products
-*   Change control and release management
-*   Testing.
+* Project planning and development of project initiation documentation (PID)
+* Stakeholder management and communication
+* Monitoring and minimizing impact of risk
+* Phase, milestone and final project review
+* Providing leadership to the project team
+* Identification of customer requirements
+* Purchasing and contracts for IT services, equipment and products
+* Change control and release management
+* Testing.
 
 ## 2. Skills and qualifications
 
@@ -46,9 +46,9 @@ You will need to be a good people manager as well as having technical project ma
 
  | 
 
-*   **Work with the project sponsor to understand the objectives and business benefits targeted by the project**
-*   **Advise on options and cost of delivery**
-*   **Contribute to preparation of a business case setting out return on investment.**
+* **Work with the project sponsor to understand the objectives and business benefits targeted by the project**
+* **Advise on options and cost of delivery**
+* **Contribute to preparation of a business case setting out return on investment.**
 
  |
 | 
@@ -57,14 +57,14 @@ You will need to be a good people manager as well as having technical project ma
 
  | 
 
-*   **Define roles, responsibilities and accountabilities within the project**
-*   **Develop and document a structured plan for project delivery**
-*   **Monitor and report actual performance and achievement against the plan**
-*   **Implement corrective action to bring a project back on track**
-*   **Assess and prioritize risk**
-*   **Manage follow up activity to monitor and minimize risk probability/adverse impact or to maximize the realization of opportunity**
-*   **Design and coordinate the processes that enable the project to manage changes to scope, requirements and/or deliverables in a controlled way**
-*   **Plan/contribute to a quality plan to assure the deliverables from the project are “fit for purpose”.**
+* **Define roles, responsibilities and accountabilities within the project**
+* **Develop and document a structured plan for project delivery**
+* **Monitor and report actual performance and achievement against the plan**
+* **Implement corrective action to bring a project back on track**
+* **Assess and prioritize risk**
+* **Manage follow up activity to monitor and minimize risk probability/adverse impact or to maximize the realization of opportunity**
+* **Design and coordinate the processes that enable the project to manage changes to scope, requirements and/or deliverables in a controlled way**
+* **Plan/contribute to a quality plan to assure the deliverables from the project are “fit for purpose”.**
 
  |
 | 
@@ -73,9 +73,9 @@ You will need to be a good people manager as well as having technical project ma
 
  | 
 
-*   **Promote the change programme vision to staff at all levels of the business operation**
-*   **Work with senior people responsible for the line business operation, to maximize benefits in business operations as groups of projects deliver their products into operational use**
-*   **Review the business case(s) for funding regularly to confirm continuing business viability, and change or stop activities that are no longer adding value.**
+* **Promote the change programme vision to staff at all levels of the business operation**
+* **Work with senior people responsible for the line business operation, to maximize benefits in business operations as groups of projects deliver their products into operational use**
+* **Review the business case(s) for funding regularly to confirm continuing business viability, and change or stop activities that are no longer adding value.**
 
  |
 | 
@@ -84,10 +84,10 @@ You will need to be a good people manager as well as having technical project ma
 
  | 
 
-*   **Prepare a budget for an agreed set of work activities**
-*   **Manage expenditure ensuring that all financial targets are met**
-*   **Investigate any risk areas where budgets and expenditure may exceed their agreed tolerances, and report these**
-*   **Ensure accurate allocation and apportionment of all incurred costs.**
+* **Prepare a budget for an agreed set of work activities**
+* **Manage expenditure ensuring that all financial targets are met**
+* **Investigate any risk areas where budgets and expenditure may exceed their agreed tolerances, and report these**
+* **Ensure accurate allocation and apportionment of all incurred costs.**
 
  |
 | 
@@ -96,9 +96,9 @@ You will need to be a good people manager as well as having technical project ma
 
  | 
 
-*   **Tailor and apply best practice processes and tools to meet the needs of a specific project or work area**
-*   **Provide advice, coaching and technical support to embed their use**
-*   **Stay up-to-date with emerging techniques and assess their potential relevance and value.**
+* **Tailor and apply best practice processes and tools to meet the needs of a specific project or work area**
+* **Provide advice, coaching and technical support to embed their use**
+* **Stay up-to-date with emerging techniques and assess their potential relevance and value.**
 
  |
 | 
@@ -107,10 +107,10 @@ You will need to be a good people manager as well as having technical project ma
 
  | 
 
-*   **Convey complex messages and issues clearly and credibly**
-*   **Use a mix of communication methods to promote shared understanding across diverse audiences**
-*   **Use persuasive logic to win support or change views**
-*   **Deliver difficult/unpopular messages with clarity and diplomacy.**
+* **Convey complex messages and issues clearly and credibly**
+* **Use a mix of communication methods to promote shared understanding across diverse audiences**
+* **Use persuasive logic to win support or change views**
+* **Deliver difficult/unpopular messages with clarity and diplomacy.**
 
  |
 | 
@@ -119,10 +119,10 @@ You will need to be a good people manager as well as having technical project ma
 
  | 
 
-*   **Identify stakeholders and gather information to understand their needs and expectations**
-*   **Confidently engage with stakeholders to build commitment and support**
-*   **Communicate progress regularly (no surprises) to the project sponsor, any key stakeholders and project team members**
-*   **Recognize when there are conflicts, acknowledge the feelings and views of the people involved and redirect their energy to a common goal.**
+* **Identify stakeholders and gather information to understand their needs and expectations**
+* **Confidently engage with stakeholders to build commitment and support**
+* **Communicate progress regularly (no surprises) to the project sponsor, any key stakeholders and project team members**
+* **Recognize when there are conflicts, acknowledge the feelings and views of the people involved and redirect their energy to a common goal.**
 
  |
 | 
@@ -131,19 +131,19 @@ You will need to be a good people manager as well as having technical project ma
 
  | 
 
-*   **Establish clear goals**
-*   **Foster a culture that is focused on meeting customer and business needs**
-*   **Provide constructive feedback, coach and support others to make the best of their abilities**
-*   **Clearly agree what you expect of others and hold them to account**
-*   **Manage conflict within the team**
+* **Establish clear goals**
+* **Foster a culture that is focused on meeting customer and business needs**
+* **Provide constructive feedback, coach and support others to make the best of their abilities**
+* **Clearly agree what you expect of others and hold them to account**
+* **Manage conflict within the team**
 
  |
 
 #### 2.2 Relevant Qualifications
 
-*   [ITIL® 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
-*   [ITIL® 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
-*   [PRINCE2 Foundation](https://www.axelos.com/certifications/propath/prince2-project-management/prince2-foundation)
-*   [PRINCE2 Practitioner](https://www.axelos.com/certifications/propath/prince2-project-management)
-*   [Management of Risk 4](https://www.axelos.com/certifications/propath/mor-risk-management/mor-4-practitioner) 
-*   [P3O Foundation](https://www.axelos.com/certifications/propath/p3o-project-offices/p3o-foundation)
+* [ITIL® 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
+* [ITIL® 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
+* [PRINCE2 Foundation](https://www.axelos.com/certifications/propath/prince2-project-management/prince2-foundation)
+* [PRINCE2 Practitioner](https://www.axelos.com/certifications/propath/prince2-project-management)
+* [Management of Risk 4](https://www.axelos.com/certifications/propath/mor-risk-management/mor-4-practitioner) 
+* [P3O Foundation](https://www.axelos.com/certifications/propath/p3o-project-offices/p3o-foundation)

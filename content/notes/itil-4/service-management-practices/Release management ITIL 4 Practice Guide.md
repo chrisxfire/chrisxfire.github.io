@@ -19,23 +19,23 @@ From the customer and user journey perspective, release management supports onbo
 The release management practice is beneficial for both IT service providers and their service consumers.
 
 Benefits for the service provider include:
-*   Controlled enablement of new and changed services for users
-*   Ability to experiment and test hypotheses with different user groups
+* Controlled enablement of new and changed services for users
+* Ability to experiment and test hypotheses with different user groups
     
-*   Reduced risks and losses resulting from releases
+* Reduced risks and losses resulting from releases
     
-*   Better image due to smooth and timely release of IT services
+* Better image due to smooth and timely release of IT services
     
-*   Higher user and customer satisfaction.
+* Higher user and customer satisfaction.
     
 
 Benefits for the service consumer include:
-*   Controlled enablement of new and changed business services for users
-*   Reduced risks and losses resulting from releases
+* Controlled enablement of new and changed business services for users
+* Reduced risks and losses resulting from releases
     
-*   Better image due smooth and timely release of business services
+* Better image due smooth and timely release of business services
     
-*   Higher client and employee satisfaction.
+* Higher client and employee satisfaction.
     
 
 #### 2.2 Terms and concepts
@@ -63,11 +63,11 @@ If an organization manages products of different architectures, it is likely tha
 
 This model includes, but is not limited to:  
 
-*   agreed high-level approach
-*   target user audience of releases and rules for user enablement
-*   push/pull conditions
-*   verification and acceptance criteria
-*   terms and conditions of release usage for hypothesis verification and experimentation.
+* agreed high-level approach
+* target user audience of releases and rules for user enablement
+* push/pull conditions
+* verification and acceptance criteria
+* terms and conditions of release usage for hypothesis verification and experimentation.
 
 It is possible to have more than one release management model for a product. For example, when a product is used to provide services on different markets or to business and individual service consumers.
 
@@ -80,31 +80,31 @@ One of the decisions made during the development of the release management model
 A ‘push’ approach implies that new or changed components of services are enabled for users without their specific consent(or the users consent to the updates by continuing to use the service), and users are obliged to use these versions. In contrast, the ‘pull’ approach makes new components and services available to users, but users can decide whether they prefer using these new versions, stick to older ones, or not using the service at all.
 
 Typically, organizations do not apply a single approach; they define conditions where the ‘pull’ or ‘push’ approach would work better. Considerations are common for internal and external service providers include:
-*   the benefits of having a single version across the user base (maintainability, compatibility)
-*   the benefits of allowing users to have more freedom (better image, flexible pricing options)
-*   technical and organizational ability to manage multiple versions in a live environment
-*   emergency changes (an update addressing a critical security vulnerability is likely to be ‘pushed’)
-*   functional and other customer’s requirements (if a required new functionality is implemented, customers may mandate the update for all users)
-*   regulatory requirements.
+* the benefits of having a single version across the user base (maintainability, compatibility)
+* the benefits of allowing users to have more freedom (better image, flexible pricing options)
+* technical and organizational ability to manage multiple versions in a live environment
+* emergency changes (an update addressing a critical security vulnerability is likely to be ‘pushed’)
+* functional and other customer’s requirements (if a required new functionality is implemented, customers may mandate the update for all users)
+* regulatory requirements.
 
 ##### 2.2.4 Hypothesis testing and experimentation
 
 Release management may be used to validate a hypothesis and to experiment. When an organization needs to test a hypothesis with a sample user audience, new or updated services may be released to sample user groups (sometimes called treatment groups). This approach is widely used by providers of mass services, such as social networks, but also applied to small user groups. Related techniques include blue/green releases, canary releases, and A/B testing.
 
 These experiments require the involvement of other practices. This includes, but not limited to:
-*   infrastructure and platform management
-*   software development and management
-*   service validation and testing
-*   deployment management
-*   architecture management
-*   service desk
-*   incident management.
+* infrastructure and platform management
+* software development and management
+* service validation and testing
+* deployment management
+* architecture management
+* service desk
+* incident management.
 
 #### 2.3 Scope
 
 The scope of the release management practice includes the following:
-*   Development and maintenance of the organization’s approach to release new and changed services[1](https://my.axelos.com/resource-hub/practice/release-management-itil-4-practice-guide#_bookmark0) and components.
-*   Management and coordination of all release instances in line with the defined approach, from planning, to implementation, and review.
+* Development and maintenance of the organization’s approach to release new and changed services[1](https://my.axelos.com/resource-hub/practice/release-management-itil-4-practice-guide#_bookmark0) and components.
+* Management and coordination of all release instances in line with the defined approach, from planning, to implementation, and review.
 
 1 Removal of services and components from users is included in ‘new and changed’ here.
 
@@ -123,17 +123,17 @@ Some of those key areas are listed in Table 2.1, and includes references to the 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The release management practice includes the following PSFs:
-*   establishing and maintaining effective approaches to the release of services and service components across the organization
-*   ensuring an effective release of services and service components in the context of the organization’s value streams and service relationships.
+* establishing and maintaining effective approaches to the release of services and service components across the organization
+* ensuring an effective release of services and service components in the context of the organization’s value streams and service relationships.
 
 ##### 2.4.1 Establishing and maintaining effective approaches to the release of services and service components across the organization
 
 The release management practice includes defining and agreeing approaches and models to follow for the release of new and changed services and service components. Organizations are likely to combine several approaches and to define several release management models for every product they manage.
 
 Apart from organization’s and product’s characteristics, release models are defined by service relationships between the organization and its service consumers. This includes factors such as:
-*   internal or external service consumers
-*   individual or corporate service consumption
-*   out-of-the-box or tailored services
+* internal or external service consumers
+* individual or corporate service consumption
+* out-of-the-box or tailored services
 
 See *ITIL® 4: Drive Stakeholder Value* for more details on how these factors influence service provision.
 
@@ -146,8 +146,8 @@ Release approaches, models, and the practice in general, should be subject to co
 Ensuring an effective release may require organizing resources in all four dimensions of service management.
 
 Depending on the release management model, activities and resources that are required to implement a release instance, vary significantly:
-*   A release of a new version of mobile application for all users in a certain country or region may be performed by changing the status of the previously deployed version of the software, related release notes, and user documentation. Relevant stakeholders within the service provider organization. No further actions may be required.
-*   A release of a new custom-made ERP system with on premises installation and a need for user equipment upgrade may be managed as a large-scale project, involving many teams and practices across and from outside of the organization.
+* A release of a new version of mobile application for all users in a certain country or region may be performed by changing the status of the previously deployed version of the software, related release notes, and user documentation. Relevant stakeholders within the service provider organization. No further actions may be required.
+* A release of a new custom-made ERP system with on premises installation and a need for user equipment upgrade may be managed as a large-scale project, involving many teams and practices across and from outside of the organization.
 
 In any case, effective coordination, use of automation, and good planning of the release model from the early steps of product lifecycle are crucial for the success of release.
 
@@ -178,8 +178,8 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Release management activities form two processes:
-*   **Release model development and improvement** This process is focused on the continual improvement of the release management practice, release approaches, and models.
-*   **Release planning and coordination** This process is focused on managing the lifecycle of individual releases.
+* **Release model development and improvement** This process is focused on the continual improvement of the release management practice, release approaches, and models.
+* **Release planning and coordination** This process is focused on managing the lifecycle of individual releases.
 
 ##### 3.1.1 Release model development and improvement
 
@@ -277,11 +277,11 @@ Walk through or directly experience the steps and information flow as they go in
 **c. Evaluate the workflow steps**
 
 Typically, the criteria for evaluation are:
-*   value for the stakeholder (does the step add value for the business stakeholder?)
-*   effectiveness or performance (is the step performed well?)
-*   availability (are required resources available to execute the step?)
-*   capacity (are the required resources enough?)
-*   flexibility (are the required resources interchangeable within the step?).
+* value for the stakeholder (does the step add value for the business stakeholder?)
+* effectiveness or performance (is the step performed well?)
+* availability (are required resources available to execute the step?)
+* capacity (are the required resources enough?)
+* flexibility (are the required resources interchangeable within the step?).
 
 **d. Map the activities and the information flows**
 
@@ -307,12 +307,12 @@ Refer to the continual improvement practice guide for a practical improvement mo
 
 To ensure that relevant release management activities are included in service value streams, the following steps can be added to the above recommendations.
 
-*   At the scoping step (1), identify the IT and business services related to the value stream and the involved business stakeholders. This depends on the value stream purpose and context. See Table 3.5 for examples.
-*   Make sure the value stream is understood (step 2) from the standpoint of the business, not only from the standpoint of the service provider.
-*   During the service value stream walk (3a), identify other practices assisting in release management at every step. Which practices provide required information (service configuration data, asset data, change schedules, and so on)? What if release execution involves third parties?
-*   During the workflow steps evaluation (3c), evaluate the step’s impact on the value creation or restoration. Special attention should be paid to steps with low business value, low performance, and availability or capacity issues. It is not unusual to find steps which serve some internal control or bureaucratic purposes but delay the change implementation.
-*   At the reflection and planning steps (4-5), ensure that the release management flow is optimized for business value throughout the stream, not only at the release management practice activities.
-*   Include the creating or updating of release models (see section 3.1.1) in the value stream improvement plans (step 6).
+* At the scoping step (1), identify the IT and business services related to the value stream and the involved business stakeholders. This depends on the value stream purpose and context. See Table 3.5 for examples.
+* Make sure the value stream is understood (step 2) from the standpoint of the business, not only from the standpoint of the service provider.
+* During the service value stream walk (3a), identify other practices assisting in release management at every step. Which practices provide required information (service configuration data, asset data, change schedules, and so on)? What if release execution involves third parties?
+* During the workflow steps evaluation (3c), evaluate the step’s impact on the value creation or restoration. Special attention should be paid to steps with low business value, low performance, and availability or capacity issues. It is not unusual to find steps which serve some internal control or bureaucratic purposes but delay the change implementation.
+* At the reflection and planning steps (4-5), ensure that the release management flow is optimized for business value throughout the stream, not only at the release management practice activities.
+* Include the creating or updating of release models (see section 3.1.1) in the value stream improvement plans (step 6).
 
 ## 4. Organizations and people
 
@@ -333,12 +333,12 @@ There is one practice-specific role in release management that may be found in t
 Where a release manager role is defined, it is usually assigned to specialists that have strong knowledge of the organization’s business, products and services, technology, platforms, frameworks, and processes. The role will require strong planning and project management skills, ability, and authority to coordinate teamwork.
 
 The competence profile for this role is CTMA. This role is usually responsible for planning, managing, and coordinating release management as a practice as well as individual release instances, including:
-*   reviewing and developing the release approaches and models
-*   promoting the adoption of the agreed release management approaches and models across the organization
-*   planning complex releases
-*   managing and communicating the release schedule
-*   ensuring the practice is aligned and coordinated with other practices
-*   reviewing and continually developing the practice.
+* reviewing and developing the release approaches and models
+* promoting the adoption of the agreed release management approaches and models across the organization
+* planning complex releases
+* managing and communicating the release schedule
+* ensuring the practice is aligned and coordinated with other practices
+* reviewing and continually developing the practice.
 
 In some complex organizations, part of the release manager’s responsibilities may be delegated to the role of release coordinators.
 
@@ -363,12 +363,12 @@ However, the role (and a dedicated job position) of a release manager may still 
 #### 5.1 Information exchange
 
 The effectiveness of release management is dependent on the quality of information used. This information includes, but is not limited to, information about:
-*   product architecture
-*   service consumer organizations and users
-*   software development and management practice
-*   planned and ongoing deployments
-*   ongoing and past incidents
-*   emerging release management techniques.
+* product architecture
+* service consumer organizations and users
+* software development and management practice
+* planned and ongoing deployments
+* ongoing and past incidents
+* emerging release management techniques.
 
 This information may take various forms. The detailed list of inputs and outputs of the practice are listed in chapter 3.
 
@@ -387,11 +387,11 @@ Release management in a digital environment is highly automated. But even in leg
 ##### 5.2.1 Recommendations for the automation of release management
 
 The following recommendations can help when applying automation to release management:
-*   **Automate the value stream** Automation of releases should be integrated into the value streams including deployment management, change enablement, service validation and testing, and, where relevant, activities of other management practices. Lack of integration complicates the value streams and reduces their effectiveness and efficiency. Consider implementing a CI/CD toolchain to support the end-to-end flow from development to operations but maintain the end-to-end approach to other value streams as well.
-*   **Allow for a variety of release models** Do not try to squeeze all releases in one universal workflow. Ensure that the software tools support different release models and allow to plan a release instance based on a model.
-*   **Automate release management for all product architectures used by the organization** Different models apply to products developed in-house, products developed for the organization by a third party, and products based on the off-the-shelf solutions. Make sure that release models relevant for these and other configurations are supported by the automation tools.
-*   **Communication is important** Informing relevant people about planned, ongoing, and completed releases, both on the service consumer side and within the service provider, is a crucial part of release management. Relevant and proactive communication significantly helps to optimize resources and improve user and customer satisfaction.
-*   **Ensure effective measurement and reporting from the beginning** In all value streams where release management is involved, release timeliness and effectiveness significantly affect the overall value stream performance. Make sure that the key metrics of the practice are captured and reported correctly and, wherever possible, automatically.
+* **Automate the value stream** Automation of releases should be integrated into the value streams including deployment management, change enablement, service validation and testing, and, where relevant, activities of other management practices. Lack of integration complicates the value streams and reduces their effectiveness and efficiency. Consider implementing a CI/CD toolchain to support the end-to-end flow from development to operations but maintain the end-to-end approach to other value streams as well.
+* **Allow for a variety of release models** Do not try to squeeze all releases in one universal workflow. Ensure that the software tools support different release models and allow to plan a release instance based on a model.
+* **Automate release management for all product architectures used by the organization** Different models apply to products developed in-house, products developed for the organization by a third party, and products based on the off-the-shelf solutions. Make sure that release models relevant for these and other configurations are supported by the automation tools.
+* **Communication is important** Informing relevant people about planned, ongoing, and completed releases, both on the service consumer side and within the service provider, is a crucial part of release management. Relevant and proactive communication significantly helps to optimize resources and improve user and customer satisfaction.
+* **Ensure effective measurement and reporting from the beginning** In all value streams where release management is involved, release timeliness and effectiveness significantly affect the overall value stream performance. Make sure that the key metrics of the practice are captured and reported correctly and, wherever possible, automatically.
 
 ## 6. Partners and suppliers
 
@@ -469,13 +469,13 @@ Figure 7.2 The capability development steps and levels
 ## 8. Recommendations for practice success
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 In Table 8.1, recommendations for success of the release management practice are linked to the relevant guiding principles.
 

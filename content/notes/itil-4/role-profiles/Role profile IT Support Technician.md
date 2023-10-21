@@ -15,11 +15,11 @@ Alongside incident resolution, you will also assist with other jobs including ad
 
 #### 1.2 Job responsibilities
 
-*   Identify software and hardware problems and repair
-*   Perform regular maintenance on hardware and software components
-*   Run diagnostic programs or use test equipment to locate source of problems
-*   Communicate effectively with end users and customer management
-*   Maintain security and functionality through application of programme temporary fixes.
+* Identify software and hardware problems and repair
+* Perform regular maintenance on hardware and software components
+* Run diagnostic programs or use test equipment to locate source of problems
+* Communicate effectively with end users and customer management
+* Maintain security and functionality through application of programme temporary fixes.
 
 ## 2.1 Job Skills
 
@@ -42,12 +42,12 @@ You should be able to:
 
  | 
 
-*   Effectively question users to establish symptoms
-*   Use experience and interrogate database for potential solutions
-*   Deploy support tools to systematically trace source of error or technical failure
-*   Escalate complex or unresolved incidents
-*   Record and track issues from outset to conclusion
-*   Minimize interruptions in customers’ ability to carry out critical business activities.
+* Effectively question users to establish symptoms
+* Use experience and interrogate database for potential solutions
+* Deploy support tools to systematically trace source of error or technical failure
+* Escalate complex or unresolved incidents
+* Record and track issues from outset to conclusion
+* Minimize interruptions in customers’ ability to carry out critical business activities.
 
  |
 | 
@@ -56,11 +56,11 @@ You should be able to:
 
  | 
 
-*   Carry out maintenance to ensure stable and secure applications and ICT infrastructure
-*   Update operational document library and log all service incidents
-*   Systematically analyze performance data and communicate findings to senior experts
-*   Escalate potential service failures and security risks and recommend actions to improve service reliability
-*   Track reliability data against relevant service level agreements.
+* Carry out maintenance to ensure stable and secure applications and ICT infrastructure
+* Update operational document library and log all service incidents
+* Systematically analyze performance data and communicate findings to senior experts
+* Escalate potential service failures and security risks and recommend actions to improve service reliability
+* Track reliability data against relevant service level agreements.
 
  |
 | 
@@ -69,10 +69,10 @@ You should be able to:
 
  | 
 
-*   Listen to others to understand their point of view
-*   Confidently present messages in a clear and precise manner
-*   Share information with team members to help them become more effective
-*   Structure written and oral communication to ensure clarity.
+* Listen to others to understand their point of view
+* Confidently present messages in a clear and precise manner
+* Share information with team members to help them become more effective
+* Structure written and oral communication to ensure clarity.
 
  |
 | 
@@ -81,13 +81,13 @@ You should be able to:
 
  | 
 
-*   Support colleagues to help them achieve goals
-*   Foster team spirit and promote team goals
-*   Take the lead in areas of specialism and personal strength.
+* Support colleagues to help them achieve goals
+* Foster team spirit and promote team goals
+* Take the lead in areas of specialism and personal strength.
 
  |
 
 #### 2.2 Relevant qualifications
 
-*   [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
-*   [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
+* [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
+* [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)

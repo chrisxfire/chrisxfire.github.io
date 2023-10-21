@@ -17,23 +17,23 @@ The practice is usually applied to digital and physical IT components, including
 The deployment management practice is a key practice of service management. Effective deployment management is beneficial for both the service provider and service consumer.
 
 Benefits for the service provider include:
-*   Faster time to market by delivering working software and hardware to users quickly and efficiently
+* Faster time to market by delivering working software and hardware to users quickly and efficiently
 
-*   Reduced risk of errors and downtime related to product and service updates
+* Reduced risk of errors and downtime related to product and service updates
 
-*   Controlled and efficient deployment of service components to different environments
+* Controlled and efficient deployment of service components to different environments
 
-*   Improved agility supporting faster and more efficient software development and release
-*   Effective integration of deployments into the service provider’s value streams.
+* Improved agility supporting faster and more efficient software development and release
+* Effective integration of deployments into the service provider’s value streams.
     
 
 Benefits for the service consumer include:
-*   Support of business agility; faster time to market for new and improved business products and services
-*   Seamless updates of business products and services
+* Support of business agility; faster time to market for new and improved business products and services
+* Seamless updates of business products and services
     
-*   Reduced risks and losses caused by product and service updates
+* Reduced risks and losses caused by product and service updates
     
-*   Reduced costs of product and service updates.
+* Reduced costs of product and service updates.
     
 
 #### 2.2 Terms and concepts
@@ -55,27 +55,27 @@ For products and components sourced outside the organization, development enviro
 ##### 2.2.2 Continuous integration, continuous delivery, and continuous deployment (CI/CD)
 
 The key concepts for deployment in Agile and DevOps are:
-*   **Continuous integration** Integrating, building, and testing code within the software development environment.
-*   **Continuous delivery** Continuous delivery means that built software can be released to production at any time. Frequent deployments are possible, but deployment decisions are taken on a case-by-case basis, usually because organizations prefer a slower rate of deployment.
-*   **Continuous deployment** Changes go through the pipeline and are automatically put into the production environment, enabling multiple production deployments per day. Continuous deployment relies on continuous delivery.
+* **Continuous integration** Integrating, building, and testing code within the software development environment.
+* **Continuous delivery** Continuous delivery means that built software can be released to production at any time. Frequent deployments are possible, but deployment decisions are taken on a case-by-case basis, usually because organizations prefer a slower rate of deployment.
+* **Continuous deployment** Changes go through the pipeline and are automatically put into the production environment, enabling multiple production deployments per day. Continuous deployment relies on continuous delivery.
 
 These approaches are supported by the software development and management, service validation and testing, deployment management, infrastructure and platform management, and release management practices. These practices involve specific skills, processes, procedures, automation tools, and agreements with third parties. They enable the continuous pipeline for integration, delivery, and deployment. This also affects the design of other practices, such as service configuration management, monitoring and event management, incident management, and others.
 
 #### 2.3 Scope
 
 The scope of the deployment management practice includes:
-*   the effective movement (transition) of products, services, and service components between controlled environments, such as the development, test, staging, and live environments.
-*   the effective removal of products, services, and service components from designated environments.
+* the effective movement (transition) of products, services, and service components between controlled environments, such as the development, test, staging, and live environments.
+* the effective removal of products, services, and service components from designated environments.
 
 These additions, modifications, and removals can be part of authorized changes or releases which can be triggered by:
-*   new or changed service requirements
-*   new features or releases
-*   technical and operational changes
-*   third-party change requirements
-*   service retirements and removals
-*   support or troubleshooting
-*   service requests
-*   service and component maintenance.
+* new or changed service requirements
+* new features or releases
+* technical and operational changes
+* third-party change requirements
+* service retirements and removals
+* support or troubleshooting
+* service requests
+* service and component maintenance.
     
 
 Several activities and areas of responsibility are not included in the deployment management practice, although they are still closely related to deployment. These are listed in Table 2.2, along with references to the practices in which they can be found. It is important to remember that ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.
@@ -93,8 +93,8 @@ Several activities and areas of responsibility are not included in the deploymen
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The deployment management practice includes the following PSFs:
-*   establishing and maintaining effective approaches to the deployment of services and service components across the organization
-*   ensuring the effective deployment of services and service components in the context of the organization’s value streams.
+* establishing and maintaining effective approaches to the deployment of services and service components across the organization
+* ensuring the effective deployment of services and service components in the context of the organization’s value streams.
 
   
 
@@ -107,15 +107,15 @@ The deployment management practice includes defining and agreeing a model or sev
 These models may use one deployment approach or combine deployment approaches, depending on their specific services and requirements, as well as the sizes, types, and impacts of the service components that are being deployed.
 
 Models can be defined for deploying services or service components of similar types. Such deployment models could be defined based on several factors, including:
-*   automation considerations
-*   costs/resource limitations
-*   expected frequency of the deployments
-*   rate of change of customer requirements
-*   rate of change of technology
-*   risks of flaws in components
-*   source of components
-*   user adoption behaviours and preferences
-*   visibility of the technology change to service consumers.
+* automation considerations
+* costs/resource limitations
+* expected frequency of the deployments
+* rate of change of customer requirements
+* rate of change of technology
+* risks of flaws in components
+* source of components
+* user adoption behaviours and preferences
+* visibility of the technology change to service consumers.
 
 Based on these and other relevant considerations, organizations define a set of models for the deployment of different service components. These models may describe different solutions in all four dimensions of service management. Table 2.3 outlines some example models.
 
@@ -160,8 +160,8 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Deployment management activities form two processes:
-*   Deployment model development and improvement
-*   Deployment lifecycle management.
+* Deployment model development and improvement
+* Deployment lifecycle management.
 
 ##### 3.1.1 Deployment model development and improvement
 
@@ -258,12 +258,12 @@ Walk through or directly experience the steps and information flow as they go in
 **c. Evaluate the workflow steps**
 
 Typically, the criteria for evaluation are:
-*   value for the stakeholder (does the step add value for the business stakeholder?)
-*   effective or performance (is the step performed well?)
-*   efficiency (is the step being performed in an optimal manner?)
-*   availability (are required resources available to execute the step?)
-*   capacity (are required resources enough?)
-*   flexibility (are the required resources interchangable within the step?).
+* value for the stakeholder (does the step add value for the business stakeholder?)
+* effective or performance (is the step performed well?)
+* efficiency (is the step being performed in an optimal manner?)
+* availability (are required resources available to execute the step?)
+* capacity (are required resources enough?)
+* flexibility (are the required resources interchangable within the step?).
 
 **d. Map the activities and the information flows**
 
@@ -289,16 +289,16 @@ This informs and drives improvement. The value stream should be considered holis
 
 To ensure that relevant deployment management activities are included in service value streams, the following steps can be added to the above recommendations.
 
-*   At the scoping step (1), identify the IT and business services related to the value stream and the involved business stakeholders. For example, when an IT service provider deploys IT services or software or hardware components desired by the business users who in turn provide services to the business clients, should the deployment value stream involve full deployment or incremental deployment in the live environment for the clients, or should it be limited to the deployment in the staging or test environment? 
+* At the scoping step (1), identify the IT and business services related to the value stream and the involved business stakeholders. For example, when an IT service provider deploys IT services or software or hardware components desired by the business users who in turn provide services to the business clients, should the deployment value stream involve full deployment or incremental deployment in the live environment for the clients, or should it be limited to the deployment in the staging or test environment? 
     
-*   Make sure the value stream is understood (step 2) from the standpoint of the business, not only of the service provider.
+* Make sure the value stream is understood (step 2) from the standpoint of the business, not only of the service provider.
     
-*   During the service value stream walk (3a), identify other practices involved in dealing with deployments at every step. Which practices provide required information (service configuration, CI information, target destination, solution architecture, and so on)? What if the deployment activities involve third parties?
+* During the service value stream walk (3a), identify other practices involved in dealing with deployments at every step. Which practices provide required information (service configuration, CI information, target destination, solution architecture, and so on)? What if the deployment activities involve third parties?
     
-*   During the evaluation of workflow steps (3c), evaluate the step’s impact on the transition of new or changed hardware, software, documentation, processes, or any other component to live environments or any other stage such as test or staging environments. Special attention should be paid to steps with low business value, low performance, waiting time, manual activities and availability or capacity issues. It is not unusual to find steps which serve some internal control or bureaucratic purposes but delay the deployment velocity.
-*   At the reflection and planning steps (4-5), ensure that the deployment management flow is optimized for business value throughout the stream, not only at the deployment management practice activities.
+* During the evaluation of workflow steps (3c), evaluate the step’s impact on the transition of new or changed hardware, software, documentation, processes, or any other component to live environments or any other stage such as test or staging environments. Special attention should be paid to steps with low business value, low performance, waiting time, manual activities and availability or capacity issues. It is not unusual to find steps which serve some internal control or bureaucratic purposes but delay the deployment velocity.
+* At the reflection and planning steps (4-5), ensure that the deployment management flow is optimized for business value throughout the stream, not only at the deployment management practice activities.
     
-*   Include the creation or update of deployment models (see section 3.1.1) in the value stream improvement plans (step 6).
+* Include the creation or update of deployment models (see section 3.1.1) in the value stream improvement plans (step 6).
     
 
 ## 4. Organizations and people
@@ -318,27 +318,27 @@ Two practice-specific roles may be found in organizations: deployment manager an
 ##### 4.1.1 Deployment manager role
 
 A deployment manager role calls for a strong knowledge of the organization’s business, products and services, technology, platforms, frameworks, and processes. The role requires strong planning and project management skills and the ability and authority to coordinate teamwork. The competency profile for this role is LACM. This role is usually responsible for the planning, management, and coordination of deployment management as a practice as well as the deployment of individual releases, including:
-*   planning deployments
-*   ensuring the alignment of deployment plans with change/release plans, requirements, and objectives
-*   planning, coordinating, and ensuring the availability of the resources needed for the effective completion of deployments
-*   effectively managing overlaps or conflicts among multiple deployments
-*   implementing and maintaining effective control and governance to ensure the integrity of components throughout the deployment practice
-*   managing and/or ensuring effective interfaces between and coordination with other practices and stakeholders
-*   managing and optimizing deployment resources to ensure optimum levels of availability, capability, and capacity to manage deployments
-*   monitoring, reporting, analysing, and improving deployment performance against defined KPIs.
+* planning deployments
+* ensuring the alignment of deployment plans with change/release plans, requirements, and objectives
+* planning, coordinating, and ensuring the availability of the resources needed for the effective completion of deployments
+* effectively managing overlaps or conflicts among multiple deployments
+* implementing and maintaining effective control and governance to ensure the integrity of components throughout the deployment practice
+* managing and/or ensuring effective interfaces between and coordination with other practices and stakeholders
+* managing and optimizing deployment resources to ensure optimum levels of availability, capability, and capacity to manage deployments
+* monitoring, reporting, analysing, and improving deployment performance against defined KPIs.
 
 In more complex organizations, some of the deployment management responsibilities may be delegated to the role of deployment coordinators, team leaders, or any other similar additional roles.
 
 ##### 4.1.2 Deployment practitioner role
 
 A deployment practitioner role calls for strong technical skills and effective teamwork. The competency profile for this role is TAC. This role is usually responsible for effective deployments to the target environments in alignment with applicable requirements, objectives, and targets, including:
-*   acquiring, maintaining, and continually improving the skills and capabilities required for technical aspects of deployments
-*   contributing and assisting in deployment planning
-*   ensuring the integrity of components throughout the deployment practice
-*   managing and coordinating deployment documentation, records, and communications, including for training purposes
-*   coordinating with other practices and stakeholders and facilitating interfaces between groups
-*   verifying and providing feedback on deployments to stakeholders
-*   contributing to monitoring, reporting, analysing, and improving deployment performance against defined KPIs.
+* acquiring, maintaining, and continually improving the skills and capabilities required for technical aspects of deployments
+* contributing and assisting in deployment planning
+* ensuring the integrity of components throughout the deployment practice
+* managing and coordinating deployment documentation, records, and communications, including for training purposes
+* coordinating with other practices and stakeholders and facilitating interfaces between groups
+* verifying and providing feedback on deployments to stakeholders
+* contributing to monitoring, reporting, analysing, and improving deployment performance against defined KPIs.
 
 In some organizational contexts, the deployment practitioner role can be divided into multiple categories and levels based on the types and requirements of the deployments and platforms, the complexity of organization’s products and services, and so on.
 
@@ -361,9 +361,9 @@ In a DevOps environment, deployment is often automated through the continual dep
 ##### 4.2.1 Team structures for deployment management
 
 Typically, in large organizations with significant volumes and complexity of deployments, deployment teams are structured in one of three ways:
-*   Product/service based
-*   Practice-based
-*   Deployment as a service.
+* Product/service based
+* Practice-based
+* Deployment as a service.
 
 ###### 4.2.1.1 Product/service based
 
@@ -382,20 +382,20 @@ The purpose of a deployment as a service team is to enable and support value str
 #### 5.1 Information exchange
 
 The effectiveness of the deployment management practice is dependent on the quality of the information used. This information includes, but is not limited to, information about:
-*   authorized repositories of service components and assets, such as IT asset databases and DML
-*   assets and configurations
-*   change and release plans
-*   deployment communications
-*   deployment documentation and records
-*   deployment plans
-*   deployment metrics and reports
-*   entry, exit, and acceptance criteria for each stage of deployment
-*   feedback from deployment
-*   issues and errors identified during deployment
-*   platforms and environments within deployment’s scope
-*   products and services and their architecture and design
-*   requirements and expectations about changes and releases
-*   stakeholder needs, expectations, and contact details.
+* authorized repositories of service components and assets, such as IT asset databases and DML
+* assets and configurations
+* change and release plans
+* deployment communications
+* deployment documentation and records
+* deployment plans
+* deployment metrics and reports
+* entry, exit, and acceptance criteria for each stage of deployment
+* feedback from deployment
+* issues and errors identified during deployment
+* platforms and environments within deployment’s scope
+* products and services and their architecture and design
+* requirements and expectations about changes and releases
+* stakeholder needs, expectations, and contact details.
 
 This information may take various forms. The key inputs and outputs of the practice are listed in Chapter 3.
 
@@ -416,12 +416,12 @@ Where automation is possible and effective for deployment, it may involve the so
 ##### 5.2.1 Recommendations for the automation of deployment management
 
 The following recommendations can help when applying automation to deployment management:
-*   **Automate the end-to-end value stream** Automation of the deployment lifecycles should be integrated into the value streams including release management, change enablement, and, where relevant, activities of other management practices. A lack of integration complicates the value streams and reduces their effectiveness and efficiency. Consider implementing a CI/CD toolchain to support the end-to-end flow from development to operations but maintain the end-to-end approach to other value streams as well.
-*   **Infrastructure as code**  The adoption of digital infrastructure allows for the automation of deployment of infrastructure components using tools and methods similar to those used for the deployment of application software. This supports better integration of deployment in the value streams, faster deployment execution, and more effective control of the service components.
+* **Automate the end-to-end value stream** Automation of the deployment lifecycles should be integrated into the value streams including release management, change enablement, and, where relevant, activities of other management practices. A lack of integration complicates the value streams and reduces their effectiveness and efficiency. Consider implementing a CI/CD toolchain to support the end-to-end flow from development to operations but maintain the end-to-end approach to other value streams as well.
+* **Infrastructure as code**  The adoption of digital infrastructure allows for the automation of deployment of infrastructure components using tools and methods similar to those used for the deployment of application software. This supports better integration of deployment in the value streams, faster deployment execution, and more effective control of the service components.
     
-*   **Utilize environment configuration and management tools** Ensure that the scope of deployment models includes the verification and, if necessary, configuration of the target environments. Management of environments should include version control; ensure integration with service configuration and asset management data.
+* **Utilize environment configuration and management tools** Ensure that the scope of deployment models includes the verification and, if necessary, configuration of the target environments. Management of environments should include version control; ensure integration with service configuration and asset management data.
     
-*   **Ensure effective integration with validation and testing** Although service validation and testing is a different practice, in highly automated environments deployment and testing are closely integrated. Ensure that all steps of deployment models include relevant validation and testing.
+* **Ensure effective integration with validation and testing** Although service validation and testing is a different practice, in highly automated environments deployment and testing are closely integrated. Ensure that all steps of deployment models include relevant validation and testing.
 
 ## 6. Partners and suppliers
 
@@ -440,15 +440,15 @@ The deployment management practice and its PSFs can be enabled and enhanced thro
 <table><tbody><tr><td><p><strong>Sourcing area</strong></p></td><td><p><strong>Details</strong></p></td></tr><tr><td><p>People</p></td><td><p>Where deployment management activities are manual, resources could be sourced from a partner. Key considerations include the schedule of deployments, availability of internal resources, cost, and so on.</p></td></tr><tr><td><p>Technical/Non- technical skills and capabilities</p></td><td><p>Sourcing specific skills, including technical (about specific systems, technologies, platforms) and non-technical (planning, governing, and execution capabilities), are useful or even required in many deployment management activities. Key considerations include the variety and complexity of technical/service environments, dynamic technology environments, lack of appropriate internal resources, and so on.</p></td></tr><tr><td><p>Outsourced deployment management</p></td><td><p>In certain contexts, it may be necessary or useful to source the entire deployment management practice from a partner.</p></td></tr><tr><td><p>Tools and technologies for deployment</p></td><td><p>Several areas of the deployment management practice can be enhanced through the adoption of tools and technologies. Except in minor cases, these technologies, tools, and tool-chains are sourced from specific product/service providers.</p></td></tr></tbody></table>
 
 Partners and suppliers may support the development, management, and execution of the deployment management practice. The forms of support include the following:
-*   **Performing the deployment management activities** Some deployment management activities can be largely or completely performed by a specialized supplier. Third parties may get involved in deployment and the automation of deployment management activities. It is important to ensure effective integration of the third parties in the deployment, release management and software development management workflows and information exchange, as well as their adherence/compliance to relevant policies.
+* **Performing the deployment management activities** Some deployment management activities can be largely or completely performed by a specialized supplier. Third parties may get involved in deployment and the automation of deployment management activities. It is important to ensure effective integration of the third parties in the deployment, release management and software development management workflows and information exchange, as well as their adherence/compliance to relevant policies.
     
     Deployment strategy, practices and value streams should define how third parties are involved in deployment management and how the organization ensures effective collaboration. Once the end-to-end value stream is defined considering deployment management and key interfacing practices such as release management, service validation and testing and software development and management, further consideration of third-party dependencies is needed during building, testing and deployment activities.
     
     Defined standard interfaces may become an easy way to communicate the necessary conditions and requirements for a supplier to become a part of the organization's ecosystem. Such interface description may include rules of data exchange, tools, and processes that will create a common language, practice and value streams in the multi-vendor environment.  
     Where organizations aim to ensure faster and more effective delivery of hardware and software in the live environments, they usually try to agree close cooperation with their partners and suppliers, removing formal bureaucratic barriers in communication, collaboration, and decision-making (see the supplier management practice guide for more information).
     
-*   **Provision of software tools** Most software tools used for deployment management such as software configuration management, continuous testing, continuous delivery and continuous deployment tools are shared with other practices such as release management. However, the implementation and use of integrated CI/CD pipeline often starts with automating coding, building, testing and deployment activities. In this case, the stakeholders of the deployment management practice and the managers of the teams involved in release management, service validation testing and software deployment management should define requirements and interact with other teams and practices of the service provider to ensure that the required tools are procured, implemented, and used in an optimal way.
-*   **Consulting and advisory** Specialized suppliers who have developed expertise in deployment management with capabilities in agile and DEVOPS practices and technologies can help establish and develop practices, adopt methods, deploy tools and techniques in automating the CI/CD pipeline along with relevant deployment management activities.
+* **Provision of software tools** Most software tools used for deployment management such as software configuration management, continuous testing, continuous delivery and continuous deployment tools are shared with other practices such as release management. However, the implementation and use of integrated CI/CD pipeline often starts with automating coding, building, testing and deployment activities. In this case, the stakeholders of the deployment management practice and the managers of the teams involved in release management, service validation testing and software deployment management should define requirements and interact with other teams and practices of the service provider to ensure that the required tools are procured, implemented, and used in an optimal way.
+* **Consulting and advisory** Specialized suppliers who have developed expertise in deployment management with capabilities in agile and DEVOPS practices and technologies can help establish and develop practices, adopt methods, deploy tools and techniques in automating the CI/CD pipeline along with relevant deployment management activities.
 
 ## 7. Capability assessment and development
 
@@ -514,13 +514,13 @@ Figure 7.2 The capability development steps and levels
 ## 8. Recommendations for practice success
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 In Table 8.1, recommendations for the success of the deployment management practice are linked to the relevant guiding principles.
 

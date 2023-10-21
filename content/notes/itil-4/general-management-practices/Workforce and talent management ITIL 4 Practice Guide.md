@@ -13,22 +13,22 @@ The workforce and talent management practice is focused on the effective managem
 People are the most valuable asset of every organization; therefore, the effective management of the workforce is critical for an organization’s success. In a digital business environment, competent and motivated teams are extremely important for the creation and continual improvement of digital products. Formed around the organization’s products, these teams are instrumental for the product development and success.
 
 The workforce and talent management practice is often supported by specialized roles and organizational structures; these can be positioned in various ways to support the IT and digital teams:
-*   Most organizations have dedicated human resources (HR) management teams responsible for effective workforce and talent management.
-*   HR teams may have different levels of expertise and focus to support IT teams:
-    *   In some organizations, HR teams focus on core business units, with little resources dedicated to IT workforce and talent management. In these organizations, IT managers take responsibility for many aspects of IT workforce and talent management.
-    *   In some organizations, HR professionals pay significant attention to IT workforce and talent management, applying the organization’s workforce and talent management approach to IT teams and employees, teams, competencies, and skills.
-    *   In digital and IT-focused organizations, HR teams are primarily focused on IT workforce and talent management.
+* Most organizations have dedicated human resources (HR) management teams responsible for effective workforce and talent management.
+* HR teams may have different levels of expertise and focus to support IT teams:
+    * In some organizations, HR teams focus on core business units, with little resources dedicated to IT workforce and talent management. In these organizations, IT managers take responsibility for many aspects of IT workforce and talent management.
+    * In some organizations, HR professionals pay significant attention to IT workforce and talent management, applying the organization’s workforce and talent management approach to IT teams and employees, teams, competencies, and skills.
+    * In digital and IT-focused organizations, HR teams are primarily focused on IT workforce and talent management.
 
 Either way, it is important to ensure that IT leaders, managers, and teams share responsibilities for effective workforce and talent management with the organization’s HR professionals; teams’ effectiveness, culture and competence, cannot be developed solely by HR professionals or IT managers and the value which HR management brings to an organization, cannot be delivered: it should be co-created by HR professionals, IT managers, and IT staff together.
 
 In today’s VUCA (volatile, uncertain, complex, and ambiguous) environment, effective workforce and talent management cannot be based on a fixed set of rules and procedures, rigid organizational structures, and predefined sets of competencies. The workforce and talent management practice should be based on the following premises to be effective:
-*   organizations are open systems, their relationships with other systems cannot be ignored
-*   an organization’s strategies continual evolve, so should the HR strategy
-*   digital technologies change the way organizations work and the skills that organizations need
-*   decisions should be driven by principles, not rules
-*   organizations should recognize and embrace complexity and complexity-driven heuristics
-*   organizational agility, adaptability, and efficiency should be enabled by the organizational structure and management practices
-*   workforce and talent management is the responsibility of every team, manager, and leader in the organization, not only HR professionals.
+* organizations are open systems, their relationships with other systems cannot be ignored
+* an organization’s strategies continual evolve, so should the HR strategy
+* digital technologies change the way organizations work and the skills that organizations need
+* decisions should be driven by principles, not rules
+* organizations should recognize and embrace complexity and complexity-driven heuristics
+* organizational agility, adaptability, and efficiency should be enabled by the organizational structure and management practices
+* workforce and talent management is the responsibility of every team, manager, and leader in the organization, not only HR professionals.
 
 ### 2.2 Terms and concepts
 
@@ -53,13 +53,13 @@ A strategic focus on employees has changed an organizations’ approaches to the
 #### 2.2.2 Holistic approach
 
 The workforce and talent management practice cannot be limited to administrative tasks, although these tasks are important. It is more than just recruiting, training, and reviewing employees’ performances, although these are the most visible activities. The practice must be holistic to contribute to value co-creation and the overall strategy of an organization. A well-known and widely adopted human resources management model is the ‘7-S model’ offered by Thomas J. Peters and Robert H. Waterman in their book *In Search of Excellence*<sup><em>3 </em></sup> and known as the ‘McKinsey 7S Framework.<sup>4</sup> The model describes the following elements that need to be managed and balanced for the organization to be successful:
-*   shared values (also known as superordinate goals in earlier versions)
-*   strategy
-*   structure
-*   system
-*   style
-*   staff
-*   skills.
+* shared values (also known as superordinate goals in earlier versions)
+* strategy
+* structure
+* system
+* style
+* staff
+* skills.
 
 These seven elements are equally important and should be aligned and balanced, as seen in Figure 2.3.
 
@@ -81,10 +81,10 @@ The organizational structure, system of management, and culture (known as struct
 
 There are many organizational forms that are designed to optimize how human resources are positioned and managed to ensure optimal performance and strategic alignment. These forms aim to optimize solutions for the four universal problems of organizing:<sup>6</sup>
 
-*   task division and allocation
-*   integrated coordination
-*   reward distribution
-*   information provision.
+* task division and allocation
+* integrated coordination
+* reward distribution
+* information provision.
 
 The fundamental types of organizations are hierarchies, markets, and communities.
 
@@ -111,9 +111,9 @@ The terminology of the workforce and talent management practice has evolved, ado
 Workforce management is closely connected with organizational planning (see 2.2.3), talent management (see 2.2.5), and other practices, such as the capacity and performance management, organizational change management, and relationship management practices (see respective practice guides). It is also important to consider the supplier management practice and the organization’s sourcing strategy, which is likely to impact on the organization’s attitude towards workforce sourcing.
 
 Workforce management includes:
-*   ensuring that the organization has enough people to fulfil its plans and accommodate all necessary unplanned work
-*   ensuring a good balance between the cost of the workforce and the value enabled by the workforce
-*   ensuring a positive employee experience.
+* ensuring that the organization has enough people to fulfil its plans and accommodate all necessary unplanned work
+* ensuring a good balance between the cost of the workforce and the value enabled by the workforce
+* ensuring a positive employee experience.
 
 To achieve these goals, organizations must identify, manage, and continually optimize the employee journey for all people in the organization, whether they are permanent, temporary, or part of a partner or supplier’s staff working within the organization.
 
@@ -137,24 +137,24 @@ Table 2.2 describes the basic activities involved in each step of the employee j
 <table><tbody><tr><td><strong>Definitions:</strong></td></tr><tr><td><ul><span><strong>Employee persona</strong></span></ul>A fictional yet realistic description of a typical or target employee of an organization.<ul><li><strong>Employee journey model</strong></li></ul><p>A detailed description of the organization’s approach to the management of the employee journey, tailored for a specific employee persona.</p></td></tr></tbody></table>
 
 The employee journey models typically include:
-*   an employee persona description
-*   possible positions in the organization
-*   forms of employment
-*   sources of candidates
-*   the searching and recruiting approach
-*   work contract terms
-*   the negotiation approach
-*   the onboarding approach
-*   the performance management approach, including performance review and development planning
-*   the training and development approach
-*   the exception handling approach
-*   the life events handling approach
-*   the offboarding approach.
+* an employee persona description
+* possible positions in the organization
+* forms of employment
+* sources of candidates
+* the searching and recruiting approach
+* work contract terms
+* the negotiation approach
+* the onboarding approach
+* the performance management approach, including performance review and development planning
+* the training and development approach
+* the exception handling approach
+* the life events handling approach
+* the offboarding approach.
 
 The employee journey models aim to ensure value co-creation for the organization and the employee by:
-*   creating a positive employee experience
-*   maintaining employee satisfaction, loyalty, and commitment
-*   monitoring, maintaining, and continually improving employees competence.
+* creating a positive employee experience
+* maintaining employee satisfaction, loyalty, and commitment
+* monitoring, maintaining, and continually improving employees competence.
 
 The employee experience is created through the physical work environment, social interactions, work interactions, and the essence of work to be done. To improve the employee experience, organizations employ approaches such as personalization, transparency, simplicity, authenticity, and responsiveness[<sup>8</sup>](https://my.axelos.com/resource-hub/practice/workforce-and-talent-management-itil-4-practice-guide#_ftn1). The ITIL guiding principles can be helpful for this purpose, as shown in Table 2.3.
 
@@ -169,9 +169,9 @@ Talent management describes work that ensures organizations can meet current and
 Talent management is focused on the competencies of employees, which includes knowledge and skills.
 
 In its simplest and most widely adopted form, talent management considers the competencies of individual employees and small teams. Less commonly, an organization can adopt a holistic approach to understand and develop a competency pool of the whole organization. Other approaches to talent management include:
-*   technical expertise only (hard skills) versus a holistic skill set (hard and soft skills)
-*   formally recorded competencies versus implicit competence<sup>9</sup>
-*   based on objectives versus based on competency models.<sup>10</sup>
+* technical expertise only (hard skills) versus a holistic skill set (hard and soft skills)
+* formally recorded competencies versus implicit competence<sup>9</sup>
+* based on objectives versus based on competency models.<sup>10</sup>
 
 These and other options are usually selected and defined by the organization’s workforce and talent management strategy, which is agreed as a part of the organizational design.
 
@@ -208,19 +208,19 @@ The workforce and talent management practice, in conjunction with other practice
 Leadership and leaders are an important driver of an organization’s success. Successful leaders embrace more than just an understanding of value and what makes a good vision and plan.
 
 Good leadership competencies include:
-*   emotional, social, and systems intelligence
-*   cognitive flexibility
-*   self-leadership
-*   discerning thinking
-*   complexity thinking
-*   conversational intelligence, multimodal communication skills.
+* emotional, social, and systems intelligence
+* cognitive flexibility
+* self-leadership
+* discerning thinking
+* complexity thinking
+* conversational intelligence, multimodal communication skills.
 
 Effective leaders:
-*   engage, inspire, and motivate people by behaving with integrity to generate respect and empower employees
-*   focus on value by being prepared to reprioritize to stay aligned with the overall vision
-*   create a healthy culture by consistently following the organization’s values
-*   create and communicate a clear vision
-*   show a commitment to knowledge and continual learning.
+* engage, inspire, and motivate people by behaving with integrity to generate respect and empower employees
+* focus on value by being prepared to reprioritize to stay aligned with the overall vision
+* create a healthy culture by consistently following the organization’s values
+* create and communicate a clear vision
+* show a commitment to knowledge and continual learning.
 
 In a VUCA business environment, more organizations should adopt sustainable values that are supported by conscious leadership.
 
@@ -229,12 +229,12 @@ Conscious leadership balances the common global good and individual self-interes
 ### 2.3 Scope
 
 The workforce and talent management includes:
-*   holistic organizational planning, including the organizational structure, culture, competencies, and other factors
-*   managing and improving the organization’s identity and image
-*   managing the organization’s workforce
-*   managing the organization’s talents
-*   managing and improving the employees’ journeys and experience
-*   ensuring ongoing oversight of people’s roles, behaviours, and experiences in the organization.
+* holistic organizational planning, including the organizational structure, culture, competencies, and other factors
+* managing and improving the organization’s identity and image
+* managing the organization’s workforce
+* managing the organization’s talents
+* managing and improving the employees’ journeys and experience
+* ensuring ongoing oversight of people’s roles, behaviours, and experiences in the organization.
 
 There are some activities and areas of responsibility that are not included in the workforce and talent management practice, although they are still closely related to workforce and talent management. These are listed in Table 2.5, along with references to the practices in which they can be found. It is important to remember that ITIL practices are combined in the context of value streams to enable value creation.
 
@@ -249,49 +249,49 @@ There are some activities and areas of responsibility that are not included in t
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The workforce and talent management practice includes the following PSFs:
-*   ensuring the continual alignment of the workforce and talent management approach to the organization's business strategy
-*   ensuring that motivated and competent people effectively contribute to the achievement of the organization's objectives
-*   ensuring that the administrative processes for this practice effectively support the organization's strategy and objectives.
+* ensuring the continual alignment of the workforce and talent management approach to the organization's business strategy
+* ensuring that motivated and competent people effectively contribute to the achievement of the organization's objectives
+* ensuring that the administrative processes for this practice effectively support the organization's strategy and objectives.
 
 #### 2.4.1 Ensuring the continual alignment of the workforce and talent management approach to the organization's business strategy
 
 Organizations’ strategies continually evolve. In a digital economy with high levels of volatility, uncertainty, complexity, and ambiguity, organizations move from long-term, rigid, and detailed plans to an agile approach with goals that are continually redefined and adjusted based on the analysis of external and internal factors. (See more on this in the strategy management practice guide and *ITIL® 4: Digital and IT Strategy*).
 
 To support these changes in strategy management, organizations must adopt an agile approach to organizational planning. This implies:
-*   adopting organizational forms that are optimized for agility and efficiency
-*   nurturing an organizational culture that is optimized for agility, creativity, and efficiency
-*   inspiring and promoting servant leadership
-*   planning for changes that are in demand in the organization’s workforce.
+* adopting organizational forms that are optimized for agility and efficiency
+* nurturing an organizational culture that is optimized for agility, creativity, and efficiency
+* inspiring and promoting servant leadership
+* planning for changes that are in demand in the organization’s workforce.
 
 Organizations optimized for agility, evolution, and efficiency tend to demonstrate the following features:<sup>13</sup>
 
-*   They scale-up by adopting small teams and flatter structures. The adoption of adaptable organization systems (such as holacracy, cells, network, and so on) allows organizations to expand or reduce without significant changes to its organizational structure. Organizations can also add new capabilities, experiment, and innovate.
-*   They utilize a connected workforce. People working in different locations form effective teams, by using digital technologies to collaborate and communicate. This approach increases efficiency, velocity, and resilience. The wide adoption of remote working, including working from home, ensures continuity in times of disruption, such as environmental and social events.
-*   Employees are encouraged to think like entrepreneurs. They should think and work holistically, focus on value, innovate, and voice their opinions. This increases the organization’s innovative potential, safety culture, and stimulates the individuals’ development and growth opportunities.
-*   They focus on needs, rather than on formal requirements. Organizations should aim to enable value for stakeholders by addressing their wants and needs, not focusing solely on the customers’ articulated requirements. This improves the customer and user experience and stimulates the organization’s development. The essential principles for this feature are: focus on value, holistic thinking, and iterative progress based on feedback.
-*   Agility and adaptability are key features of successful digital organizations. Successful organizations adopt and promote agile ways of planning, execution, and improvement. They continually adapt to the changing environment and the internal circumstances. This approach includes flexible planning, the adoption of Agile and Lean methods, optimizing for complexity, and experimentation.
-*   They demonstrate creativity and innovation. Creative and innovative solutions improve the organization’s positioning, create competitive advantages, and optimize the internal methods of work. Techniques such as design thinking are widely adopted to support creativity and innovation.
-*   They adopt emerging digital technology. Many of the features mentioned here are supported by digital technology. The most important features include: collaboration and communication solutions, cloud solutions, machine learning, and advanced analytics. The early adopters of these technologies often demonstrate better performance than their more conservative competitors.
-*   They embrace and promote diversity. In a diverse world, diversity, inclusivity, and equality are not only the ethical choices of responsible organizations; they also ensure a diversity of cultures, backgrounds, and approaches. This helps organizations to: innovate, see opportunities, and understand and cater to diverse consumer groups and societies.
-*   They embrace democratized learning and development. Organizations move from a directive long-term approach to learning and development, to a more democratic and flexible approach. This includes peer-to-peer consulting, coaching, and mentoring, and on-demand training, even if the topic is not directly linked to the employee’s work responsibilities. Organizations inspire employees to learn what is important and relevant to them and share knowledge by forming internal and external communities. Additional details on knowledge-sharing tools and techniques can be found in the knowledge management practice guide.
-*   They embrace the triple bottom line approach, as well as sustainability. Organizations move from purely financial objectives and indicators to more holistic values, principles, and goals. The most common approach is the triple bottom line approach which consists of three parts: financial, societal, and environmental values and goals. This is also known as 3-P: people, profit, and planet, with all three Ps being equally important.
+* They scale-up by adopting small teams and flatter structures. The adoption of adaptable organization systems (such as holacracy, cells, network, and so on) allows organizations to expand or reduce without significant changes to its organizational structure. Organizations can also add new capabilities, experiment, and innovate.
+* They utilize a connected workforce. People working in different locations form effective teams, by using digital technologies to collaborate and communicate. This approach increases efficiency, velocity, and resilience. The wide adoption of remote working, including working from home, ensures continuity in times of disruption, such as environmental and social events.
+* Employees are encouraged to think like entrepreneurs. They should think and work holistically, focus on value, innovate, and voice their opinions. This increases the organization’s innovative potential, safety culture, and stimulates the individuals’ development and growth opportunities.
+* They focus on needs, rather than on formal requirements. Organizations should aim to enable value for stakeholders by addressing their wants and needs, not focusing solely on the customers’ articulated requirements. This improves the customer and user experience and stimulates the organization’s development. The essential principles for this feature are: focus on value, holistic thinking, and iterative progress based on feedback.
+* Agility and adaptability are key features of successful digital organizations. Successful organizations adopt and promote agile ways of planning, execution, and improvement. They continually adapt to the changing environment and the internal circumstances. This approach includes flexible planning, the adoption of Agile and Lean methods, optimizing for complexity, and experimentation.
+* They demonstrate creativity and innovation. Creative and innovative solutions improve the organization’s positioning, create competitive advantages, and optimize the internal methods of work. Techniques such as design thinking are widely adopted to support creativity and innovation.
+* They adopt emerging digital technology. Many of the features mentioned here are supported by digital technology. The most important features include: collaboration and communication solutions, cloud solutions, machine learning, and advanced analytics. The early adopters of these technologies often demonstrate better performance than their more conservative competitors.
+* They embrace and promote diversity. In a diverse world, diversity, inclusivity, and equality are not only the ethical choices of responsible organizations; they also ensure a diversity of cultures, backgrounds, and approaches. This helps organizations to: innovate, see opportunities, and understand and cater to diverse consumer groups and societies.
+* They embrace democratized learning and development. Organizations move from a directive long-term approach to learning and development, to a more democratic and flexible approach. This includes peer-to-peer consulting, coaching, and mentoring, and on-demand training, even if the topic is not directly linked to the employee’s work responsibilities. Organizations inspire employees to learn what is important and relevant to them and share knowledge by forming internal and external communities. Additional details on knowledge-sharing tools and techniques can be found in the knowledge management practice guide.
+* They embrace the triple bottom line approach, as well as sustainability. Organizations move from purely financial objectives and indicators to more holistic values, principles, and goals. The most common approach is the triple bottom line approach which consists of three parts: financial, societal, and environmental values and goals. This is also known as 3-P: people, profit, and planet, with all three Ps being equally important.
 
 #### 2.4.2 Ensuring that motivated and competent people effectively contribute to the achievement of the organization's objectives
 
 Ensuring that motivated and competent people effectively contribute to the achievement of the organization's objectives, depends on an effective workforce management practice (see 2.2.4) and talent management practice (See 2.2.5), in conjunction with other practices.
 
 To ensure the realization of this PSF, organizations create and maintain effective approaches to:
-*   the management of the employee journey
-*   continual learning and development
-*   maintaining a healthy organizational culture
-*   conscious leadership.
+* the management of the employee journey
+* continual learning and development
+* maintaining a healthy organizational culture
+* conscious leadership.
 
 By combining these approaches, organizations:
-*   identify the organization’s needs in its workforce and competencies
-*   ensure that the required workforce and competencies are available when needed
-*   ensure that the people in the organization share the organization’s values, understand the objectives, and follow a shared set of principles
-*   ensure that the people in the organization satisfy their needs for safety, autonomy, professional and personal development, and purposeful contribution
-*   ensure that the physical, social, and work environment and interactions in the organization are optimized for the effective contribution to the organization’s objectives and aligned with the organizational culture and principles.
+* identify the organization’s needs in its workforce and competencies
+* ensure that the required workforce and competencies are available when needed
+* ensure that the people in the organization share the organization’s values, understand the objectives, and follow a shared set of principles
+* ensure that the people in the organization satisfy their needs for safety, autonomy, professional and personal development, and purposeful contribution
+* ensure that the physical, social, and work environment and interactions in the organization are optimized for the effective contribution to the organization’s objectives and aligned with the organizational culture and principles.
 
 #### 2.4.3 Ensuring that the administrative processes for this practice effectively support the organization's strategy and objectives
 
@@ -300,10 +300,10 @@ The workforce and talent management practice includes an important administrativ
 The workforce and talent management practice ensures the effective integration of the administrative procedures into the organization’s teams, practices, value streams, policies, processes, and procedures. The aim is to ensure a sufficient level of control, conformance, and compliance without excessive bureaucracy or a negative effect on performance and motivation.
 
 To achieve this, it is recommended to follow the ITIL guiding principles, especially:
-*   focus on value: introduce controls that clearly contribute to value creation for stakeholders
-*   think and work holistically: analyse and optimize controls in the wider context of the organization and environment
-*   progress iteratively with feedback: listen to feedback from employees and other stakeholders, optimize administrative procedures and controls following their requirements and suggestions
-*   optimize and automate: many controls and communications can be effectively and conveniently automated to minimize extra efforts, associated costs, and distractions.
+* focus on value: introduce controls that clearly contribute to value creation for stakeholders
+* think and work holistically: analyse and optimize controls in the wider context of the organization and environment
+* progress iteratively with feedback: listen to feedback from employees and other stakeholders, optimize administrative procedures and controls following their requirements and suggestions
+* optimize and automate: many controls and communications can be effectively and conveniently automated to minimize extra efforts, associated costs, and distractions.
 
 ### 2.5 Key metrics
 
@@ -322,9 +322,9 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, the workforce and talent management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The workforce and talent management practice combines with other practices to provide high-quality products and services to consumers. The main value chain activities to which the practice contributes are:
-*   plan
-*   design and transition
-*   improve.
+* plan
+* design and transition
+* improve.
 
 The contribution of the workforce and talent management practice to the service value chain is shown in Figure 3.1.
 
@@ -339,9 +339,9 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Workforce and talent management activities form three processes:
-*   organizational planning
-*   employees’ journey management
-*   talent management.
+* organizational planning
+* employees’ journey management
+* talent management.
 
 #### 3.2.1 Organizational planning
 
@@ -424,23 +424,23 @@ Examples of other roles which are responsible for workforce and talent managemen
 The key role specific to this practice is the HR manager. This role can be combined with the team manager role, depending on the practice’s scope, but it is more likely to be a dedicated job or even a team. The evolution of the practice and its role in organizations, has led to the evolution of the role of the HR manager.
 
 The HR manager’s professionalism is based on:
-*   core professional knowledge, usually obtained with relevant education
-*   industry-specific knowledge, obtained with practice and supported by specialized training and certification, and with professional communities
-*   organization-specific knowledge, obtained with practice and internal communities
-*   professional code of ethics
-*   knowledge of adjacent subject matter areas.
+* core professional knowledge, usually obtained with relevant education
+* industry-specific knowledge, obtained with practice and supported by specialized training and certification, and with professional communities
+* organization-specific knowledge, obtained with practice and internal communities
+* professional code of ethics
+* knowledge of adjacent subject matter areas.
 
 To keep their competencies relevant, HR professionals continually maintain their professional development and engage in professional communities, to share and exchange knowledge and experience.
 
 The key competencies of an HR manager are similar to those of a successful leader and include:
-*   emotional, social, and systems intelligence
-*   cognitive flexibility
-*   self-leadership
-*   discerning thinking
-*   complexity thinking
-*   strategic thinking
-*   conversational intelligence, multimodal communication skills
-*   empathy and collaboration skills.
+* emotional, social, and systems intelligence
+* cognitive flexibility
+* self-leadership
+* discerning thinking
+* complexity thinking
+* strategic thinking
+* conversational intelligence, multimodal communication skills
+* empathy and collaboration skills.
 
 The responsibilities of an HR manager include all aspects of the workforce and talent management, as described in Table 4.2. The specific allocation of duties to professional HR managers, the organization’s leaders, and team managers is subject to the design of the workforce and talent management practice of the particular organization.
 
@@ -459,25 +459,25 @@ The examples described in Table 4.3 are extremes, whereas real-life scenarios ar
 ### 5.1 Information exchange
 
 The effectiveness of the workforce and talent management practice is based on the quality of the information used. This includes, but is not limited to, information about:
-*   the organization’s strategy
-*   the organization’s environment and key stakeholders
-*   the organization’s portfolios: resources, products and services, and customers
-*   the organization’s architectures
-*   industry trends and opportunities
-*   the labour market situation and trends
-*   the workforce and talent management methods, tools, and techniques
-*   the culture and climate of the organization
-*   the ongoing performance of the organization
+* the organization’s strategy
+* the organization’s environment and key stakeholders
+* the organization’s portfolios: resources, products and services, and customers
+* the organization’s architectures
+* industry trends and opportunities
+* the labour market situation and trends
+* the workforce and talent management methods, tools, and techniques
+* the culture and climate of the organization
+* the ongoing performance of the organization
 
 This information may take various forms. The key inputs and outputs of the practice are listed in section 3.
 
 ### 5.2. Automation and tooling
 
 The automation of the practice is evolving, with technology becoming increasingly important. For example:
-*   The utilization of machine learning and advanced analytics creates new opportunities for analysis, planning, and forecasting.
-*   Communication and collaboration technologies enable new forms of learning and knowledge sharing.
-*   Learning and content management systems make online training and collaboration easier and more efficient.
-*   Technology connects organizations, creating a decentralized, organic community where market-based organizational forms are both possible and effective.
+* The utilization of machine learning and advanced analytics creates new opportunities for analysis, planning, and forecasting.
+* Communication and collaboration technologies enable new forms of learning and knowledge sharing.
+* Learning and content management systems make online training and collaboration easier and more efficient.
+* Technology connects organizations, creating a decentralized, organic community where market-based organizational forms are both possible and effective.
 
 Table 5.1 lists the specific means of automation that are relevant to each activity of the workforce and talent management practice.
 
@@ -498,13 +498,13 @@ Practice-specific roles and teams are described in sections 4.1.1 and 4.2; these
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the ITIL practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of *ITIL Foundation: ITIL 4 Edition.*
 

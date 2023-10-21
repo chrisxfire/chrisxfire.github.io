@@ -17,12 +17,12 @@ If service design is not formed, products and services can be quite expensive to
 It is important that a holistic, results-driven approach to all aspects of service design is adopted, and that when changing or amending any of the individual elements of a service design, all other aspects are considered. Therefore, the coordination aspect of service design with the whole organization’s service value system (SVS) is essential.
 
 Designing a new or changed product or service should not be done in isolation, but should consider the impact it will have on:
-*   other products and services
-*   all relevant parties, including customers, users, and suppliers
-*   the existing architectures
-*   the required technology
-*   the service management practices
-*   the necessary measurements and metrics.
+* other products and services
+* all relevant parties, including customers, users, and suppliers
+* the existing architectures
+* the required technology
+* the service management practices
+* the necessary measurements and metrics.
 
 Considering these factors will not only ensure that the design addresses the functional elements of the service, but also that the management and operational requirements are regarded as a fundamental part of the design, not added as an afterthought.
 
@@ -33,14 +33,14 @@ Not every change to a product or service will require the same level of service 
 Organizations must define what level of design activity is required for each category of change and ensure that everyone within the organization is clear on this criteria.
 
 Service design ensures that the products and services created:
-*   are business- and customer-oriented, focused, and driven
-*   are created for users to have a good experience
-*   are cost-effective
-*   meet the information and physical security requirements of the organization and any external customers
-*   are flexible and adaptable, yet fit for purpose at the point of delivery
-*   can absorb an ever-increasing demand in the volume and speed of change
-*   meet increasing organizational and customer demands for continuous operation
-*   are managed and operated to an acceptable level of risk.
+* are business- and customer-oriented, focused, and driven
+* are created for users to have a good experience
+* are cost-effective
+* meet the information and physical security requirements of the organization and any external customers
+* are flexible and adaptable, yet fit for purpose at the point of delivery
+* can absorb an ever-increasing demand in the volume and speed of change
+* meet increasing organizational and customer demands for continuous operation
+* are managed and operated to an acceptable level of risk.
 
 With many pressures on the organization, there can be a temptation to ‘cut corners’ on the coordination of practices and relevant parties for service design activities, or to ignore them completely. This should be avoided, as integration and coordination are essential to the overall quality of the products and services that are delivered.
 
@@ -53,14 +53,14 @@ With many pressures on the organization, there can be a temptation to ‘cut cor
 Design thinking can be viewed as a complementary approach to Lean and Agile methodologies. It draws upon logic, imagination, intuition, and system thinking to explore possibilities and to create desired outcomes that benefit customers.
 
 Design thinking includes an iterative approach to a variety of activities, such as:
-*   **Inspiration and empathy** Through direct observation of people and how they work or interact with products and services, as well as identifying how they might interact differently with other solutions.
-*   **Ideation** Combines divergent and convergent thinking. Divergent thinking is the ability to offer different, unique, or variant ideas, while convergent thinking is the ability to find the preferred solution to a given problem. Divergent thinking ensures that many possible solutions are explored, and convergent thinking narrows these down to a final preferred solution.
+* **Inspiration and empathy** Through direct observation of people and how they work or interact with products and services, as well as identifying how they might interact differently with other solutions.
+* **Ideation** Combines divergent and convergent thinking. Divergent thinking is the ability to offer different, unique, or variant ideas, while convergent thinking is the ability to find the preferred solution to a given problem. Divergent thinking ensures that many possible solutions are explored, and convergent thinking narrows these down to a final preferred solution.
 
-*   **Prototyping** Where ideas are tested early, iterated, and refined. A prototype helps to gather feedback and improve an idea. Prototypes speed up the process of innovation by allowing service designers to better understand the strengths and weaknesses of new solutions.
+* **Prototyping** Where ideas are tested early, iterated, and refined. A prototype helps to gather feedback and improve an idea. Prototypes speed up the process of innovation by allowing service designers to better understand the strengths and weaknesses of new solutions.
 
-*   **Implementation** Concepts are brought to life. This should be coordinated with all relevant service management practices and other parties. Agile methodology can be employed to develop and implement the solution in an iterative way.
+* **Implementation** Concepts are brought to life. This should be coordinated with all relevant service management practices and other parties. Agile methodology can be employed to develop and implement the solution in an iterative way.
 
-*   **Evaluation** In conjunction with other practices, including project management and release management, this measures the actual performance of product or service implementation to ensure acceptance criteria are met, and to find any opportunities for improvement.
+* **Evaluation** In conjunction with other practices, including project management and release management, this measures the actual performance of product or service implementation to ensure acceptance criteria are met, and to find any opportunities for improvement.
 
 Design thinking is best applied by multi-disciplinary teams; because it balances the perspectives of customers, technology, the organization, partners, and suppliers, it is highly integrative, aligns well with the organization’s SVS, and can be a key enabler of digital transformation.
 
@@ -75,10 +75,10 @@ Service experience refers to the recognition that service consumers value a serv
 Lean user experience (Lean UX) design is a mindset, a culture, and a process that embraces Lean– Agile methods. It implements functionality in minimum viable increments and determines success by measuring results against an outcome hypothesis. Lean UX is incredibly useful when working on projects where Agile development methods are used. The core objective is to focus on obtaining feedback as early as possible so that it can be used to make quick decisions.
 
 Typical questions for Lean UX might include the following:
-*   Who are the customers of this product/service and what will it be used for?
-*   When is it used and under what circumstances?
-*   What will be the most important functionality?
-*   What are the biggest risks?
+* Who are the customers of this product/service and what will it be used for?
+* When is it used and under what circumstances?
+* What will be the most important functionality?
+* What are the biggest risks?
 
 There may be more than one answer to each question, which creates a greater number of assumptions than it might be practical to handle. The team will then prioritize these assumptions by the risks they represent to the organization and its customers.
 
@@ -102,20 +102,20 @@ For an SDP to be effective, it should address all four dimensions of the service
 The definition of an SDP requires a holistic view since it is, in effect, the presentation layer for other practices. The service design practice does not necessarily define all the elements of the SDP, but rather coordinates and consolidates the expected outcomes from other practice owners.
 
 There are several key considerations to define an SDP:
-*   Design and document a service design strategy, including the agreed number of different service design packages available. The service design strategy needs to be developed alongside the organization’s risk appetite, as the two must be intrinsically linked.
-*   It is important to make sure that all four dimensions of service management are covered within service design packages.
-    *   organizations and people: operating model and support matrix, training needs
-    *   information and technology: tooling, monitoring, data management, and vulnerability
-    *   partners and suppliers: appropriate contracts, service integration, critical success factors
-    *   value streams and processes: critical path analysis of IT service, expedited processes.
+* Design and document a service design strategy, including the agreed number of different service design packages available. The service design strategy needs to be developed alongside the organization’s risk appetite, as the two must be intrinsically linked.
+* It is important to make sure that all four dimensions of service management are covered within service design packages.
+    * organizations and people: operating model and support matrix, training needs
+    * information and technology: tooling, monitoring, data management, and vulnerability
+    * partners and suppliers: appropriate contracts, service integration, critical success factors
+    * value streams and processes: critical path analysis of IT service, expedited processes.
 
-*   Develop a template which identifies the types of information needed. For example, description, guidance notes, and outcome parameters.
-*   Engage with the relevant stakeholders to agree the parameters for each practice by level of service design package.
-*   Develop a communications and training strategy to ensure the service design packages can be embedded effectively into the process of designing and provisioning services.
-*   Embed the process of using the service design packages into value stream relating to design/transition, obtain/build, and deliver/support. This would include activities such as:
-    *   design checks – definition of done/requirements analysis, customer/user experience
-    *   transition checks – warranty considerations
-    *   backlog items relating to service protection embedded in to tooling.
+* Develop a template which identifies the types of information needed. For example, description, guidance notes, and outcome parameters.
+* Engage with the relevant stakeholders to agree the parameters for each practice by level of service design package.
+* Develop a communications and training strategy to ensure the service design packages can be embedded effectively into the process of designing and provisioning services.
+* Embed the process of using the service design packages into value stream relating to design/transition, obtain/build, and deliver/support. This would include activities such as:
+    * design checks – definition of done/requirements analysis, customer/user experience
+    * transition checks – warranty considerations
+    * backlog items relating to service protection embedded in to tooling.
 
 The service design needs to be embedded into the value stream for onboarding new or changing services.
 
@@ -128,22 +128,22 @@ Service Design has distinct key aspects.
 ##### 2.2.4.1 Service planning
 
 Service planning is a strategic phase which designs and develops ‘what good looks like’. This relates to end-to-end service provision and ensures that customer/user experience is inherent in the service level offerings available to any consumers. In developing this service, an organization needs to consider the following questions:
-*   How the design supports the required business outcomes?
-*   How the value is created and how sustainable is the value creation?
-*   What is the risk appetite of the organization?
-*   How should tiers of service be organised?
-*   How should service change across those tiers?
+* How the design supports the required business outcomes?
+* How the value is created and how sustainable is the value creation?
+* What is the risk appetite of the organization?
+* How should tiers of service be organised?
+* How should service change across those tiers?
 
 The answers are driven by the four dimensions of service management, and define organization’s ability to respond to the consumers’ demand for value realisation.
 
-*   Organizations and people - Principles around resilience; are the resources sufficient and appropriate?
-*   Principles around the operating model for a service; who, what, when, where, why, how?
-*   Information and technology - Principles around resilience; are the resources across the design sufficient and appropriate. This is relevant regardless of where a service is provisioned, for example, on premise, co-located, or cloud provisioned.  
+* Organizations and people - Principles around resilience; are the resources sufficient and appropriate?
+* Principles around the operating model for a service; who, what, when, where, why, how?
+* Information and technology - Principles around resilience; are the resources across the design sufficient and appropriate. This is relevant regardless of where a service is provisioned, for example, on premise, co-located, or cloud provisioned.  
     Principles around data; are the controls and monitoring in place sufficient and appropriate?
 
-*   Partners and suppliers - Principles around resilience; are there appropriate contracts in place?  
+* Partners and suppliers - Principles around resilience; are there appropriate contracts in place?  
     Principles around culture; do the third parties fit with the values and culture of the organization?
-*   Value streams and processes - Principles around resilience; are the procedures, controls, and standards in place appropriate? Principles around collaboration and integration; how will teams across both the organization and its suppliers / partners work together.
+* Value streams and processes - Principles around resilience; are the procedures, controls, and standards in place appropriate? Principles around collaboration and integration; how will teams across both the organization and its suppliers / partners work together.
 
 Whilst the service design practice is responsible for providing direction in these areas, there is a very close working relationship with portfolio management. This is associated with investment decisions and strategy management, which will outline an organization’s risk appetite, depending on the culture, circumstance, and vision of the organization.
 
@@ -152,9 +152,9 @@ Whilst the service design practice is responsible for providing direction in the
 This includes the governance of how risks are identified when designing new or changing services; ensuring that these services are appropriate to the identified level of risk.
 
 The following questions should be considered:
-*   what is the organization trying to achieve?
-*   What are their objectives?
-*   what does good look like?
+* what is the organization trying to achieve?
+* What are their objectives?
+* what does good look like?
 
 When identifying risk for IT services, these questions are more important than the traditional IT service level questions that have previously been asked. Therefore, the focus should shift when looking for risks. Table 2.1 gives some examples of questions that help to determine the target quality and level when designing the IT service.
 
@@ -169,8 +169,8 @@ When identifying risk for IT services, these questions are more important than t
 
   
 Service design orchestration utilizes the principles of service integration and management to ensure the level of risk posed to the organization is managed appropriately by:
-*   designing an operating model, including the supplier eco-system, appropriate to the level of risk
-*   designing IT services and their components to the capabilities matched to the level of risk.
+* designing an operating model, including the supplier eco-system, appropriate to the level of risk
+* designing IT services and their components to the capabilities matched to the level of risk.
 
 <table><tbody><tr><td><p><strong>Service integration and management</strong></p></td></tr><tr><td><p>Service integration and management is an approach to manage multiple suppliers of services (business services as well as information technology services) and integrating them to provide a single business-facing IT organization.</p></td></tr></tbody></table>
 
@@ -197,29 +197,29 @@ Table 2.2 below shows some examples of considerations.
 #### 2.2.5 Risk modelling
 
 Modelling risk involves both the service design practice and the risk management practice. There should be several elements involved in risk modelling:
-*   A questionnaire to enable the organization to articulate potential impacts, examples of common themes covered are below. The questionnaire may require some free-form answers, but the core will require an agreed set of possible answers to allow for a consistent assessment across all services.
-    *   data (confidentiality, integrity and availability)
-    *   financial impacts
-    *   regulatory obligations
-    *   known risks and constraints
-    *   reputational/brand damage
-    *   disaster scenario.
+* A questionnaire to enable the organization to articulate potential impacts, examples of common themes covered are below. The questionnaire may require some free-form answers, but the core will require an agreed set of possible answers to allow for a consistent assessment across all services.
+    * data (confidentiality, integrity and availability)
+    * financial impacts
+    * regulatory obligations
+    * known risks and constraints
+    * reputational/brand damage
+    * disaster scenario.
 
-*   An agreed risk impact matrix, detailing possible impact types and parameters of likely levels of impact. The impacts stated should be at the business operations level, not a technology level and related to the question themes held within the questionnaire. Consider using best practice such as IRAM2 to help define what to ask and impact assess against
+* An agreed risk impact matrix, detailing possible impact types and parameters of likely levels of impact. The impacts stated should be at the business operations level, not a technology level and related to the question themes held within the questionnaire. Consider using best practice such as IRAM2 to help define what to ask and impact assess against
 
-*   An algorithm for calculating the results of those answers. There are four things that an organization needs to agree in developing one:
-    *   The number of tiers of service they want
-    *   How to distribute scores to questions (for example, 10 for critical, 7 for severe)
-    *   Establish what would constitute a maximum score
-    *   What percentage of IT services should be at each level (for example, 2% Tier 1, 10% Tier 2, 30% Tier 3, 58% Tier 4)
-        *   Once these four questions are detailed, the next step is to identify an appropriate selection of tier representative IT services to calibrate the algorithm.
+* An algorithm for calculating the results of those answers. There are four things that an organization needs to agree in developing one:
+    * The number of tiers of service they want
+    * How to distribute scores to questions (for example, 10 for critical, 7 for severe)
+    * Establish what would constitute a maximum score
+    * What percentage of IT services should be at each level (for example, 2% Tier 1, 10% Tier 2, 30% Tier 3, 58% Tier 4)
+        * Once these four questions are detailed, the next step is to identify an appropriate selection of tier representative IT services to calibrate the algorithm.
 
-*   A result detailing the most appropriate service design package
+* A result detailing the most appropriate service design package
 
 Risk modelling can and should be done at different levels of service. The reasons are detailed below:
-*   IT organizations need to understand where the highest levels of potential risk exposure lie across the IT estate.
-*   Business operations and retail teams need to understand where the most likely impact to consumers is going to be; equally, they also need to understand where the impact to front line teams, such as contact centres or branches is going to be.
-*   Strategic planners and architects need to understand the overarching potential risk exposure of a service line.
+* IT organizations need to understand where the highest levels of potential risk exposure lie across the IT estate.
+* Business operations and retail teams need to understand where the most likely impact to consumers is going to be; equally, they also need to understand where the impact to front line teams, such as contact centres or branches is going to be.
+* Strategic planners and architects need to understand the overarching potential risk exposure of a service line.
 
 These three levels may legitimately have different risk profiles. An example is shown below in figure 2.2.
 
@@ -236,12 +236,12 @@ It is important to identify that the service level management structure should m
 ### 2.3 Scope
 
 The scope of the service design practice includes:
-*   ensuring services are fit for purpose and fit for use
-*   the identification and documentation of risk aligned service tiers/packages, incorporating standards, non-functional requirements, and capabilities approved by subject matter experts and other practice/process owners
-*   governing and orchestrating the holistic design approach
-*   integrating teams involved in service design and promoting information exchange between all stakeholders
-*   updating service design package through the lifecycle of the service
-*   continually improving service design practice.
+* ensuring services are fit for purpose and fit for use
+* the identification and documentation of risk aligned service tiers/packages, incorporating standards, non-functional requirements, and capabilities approved by subject matter experts and other practice/process owners
+* governing and orchestrating the holistic design approach
+* integrating teams involved in service design and promoting information exchange between all stakeholders
+* updating service design package through the lifecycle of the service
+* continually improving service design practice.
 
 There are several activities and areas of responsibility that are not included in the service design practice, although they are still closely related to service design. These are listed in Table 2.3 along with references to the practices in which they can be found. It is important to remember that ITIL practices are merely tools to use in the context of value streams; they should be combined as necessary depending on the situation.
 
@@ -256,23 +256,23 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity as it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The service design practice includes the following PSFs:
-*   establishing and maintaining an effective organization-wide approach to service design
-*   ensuring that services are fit for purpose and fit for use throughout their lifecycle.
+* establishing and maintaining an effective organization-wide approach to service design
+* ensuring that services are fit for purpose and fit for use throughout their lifecycle.
 
 #### 2.4.1 Establishing and maintaining an effective organization-wide approach to service design
 
 Service design practice includes defining and agreeing approaches and models to follow for designing new and changed services and service components. Organizations are likely to combine several approaches and to define several service design models to accommodate for every type of product or service they design and manage.
 
 This should start from assessing organization’s objectives and customer requirements, and the impact the service design has. As service design is about orchestrating design efforts and should be holistic, before choosing a design approach, an organization must assess the following factors:
-*   strategic goals and services portfolio
-*   current and potential customers of the products and services
-*   ways of communication and information exchange with the customers and users, and the ability to obtain and process feedback
-*   the current and desired ability to innovate, embrace change, and re-invent itself
-*   resource constraints for the service design
-*   the resources available to experiment
-*   risk appetite and approach to risk management
-*   the way organizations manage projects and implement changes
-*   the ecosystem of partners and suppliers and their ability to support the service design approach.
+* strategic goals and services portfolio
+* current and potential customers of the products and services
+* ways of communication and information exchange with the customers and users, and the ability to obtain and process feedback
+* the current and desired ability to innovate, embrace change, and re-invent itself
+* resource constraints for the service design
+* the resources available to experiment
+* risk appetite and approach to risk management
+* the way organizations manage projects and implement changes
+* the ecosystem of partners and suppliers and their ability to support the service design approach.
 
 These factors mean that each organization’s approach to service design may be different. It may mean better involvement of customers and users in the service design process, or implementing a holistic approach to designing services and focus on using service design packages, transforming processes to introduce faster changes and shorter design lifecycle, while eliminating rework, or introducing more iterative and experimental approach.
 
@@ -285,26 +285,26 @@ The service design approach and models, and the practice in general, should be a
 Ensuring effective service design requires orchestrating resources in all four dimensions.
 
 Depending on the service design model, the activities and resources needed to implement a design may vary significantly:
-*   A design of a simple application similar to ones designed before, may use the existing model and service design package of the previous design, and follow the procedures planned for the model, organized in a linear sequence.
-*   When designing a new, innovative service, a new approach may be needed. Existing models for service design and SPDs may need to be reviewed. Some experimenting, hypothesis checking, iterative design with fast feedback methods may be used for any phase of the service design process, from ideation to evaluation. There should be special attention for stakeholder interactions and feedback processing. The service design may be managed as a project or a part in a major project, involving many teams and practices across and from outside of the organization and requiring different levels of resource involvement, formality, and documentation.
+* A design of a simple application similar to ones designed before, may use the existing model and service design package of the previous design, and follow the procedures planned for the model, organized in a linear sequence.
+* When designing a new, innovative service, a new approach may be needed. Existing models for service design and SPDs may need to be reviewed. Some experimenting, hypothesis checking, iterative design with fast feedback methods may be used for any phase of the service design process, from ideation to evaluation. There should be special attention for stakeholder interactions and feedback processing. The service design may be managed as a project or a part in a major project, involving many teams and practices across and from outside of the organization and requiring different levels of resource involvement, formality, and documentation.
 
 In any case, effective coordination, ensuring holistic approach to the design, information flow, stakeholder involvement and good planning of the design models from the early steps of service lifecycle are crucial for success.
 
 During the service lifecycle, effective combination of practices and cooperation of teams are necessary. Service design practice is focused on identifying the tasks, key information, and coordinating the participants of the design implementation. It also provides recommendations on procedures and techniques to use during implementation.
 
 Effective coordination of the following is especially important:
-*   project management
-*   change enablement
-*   software development and management
-*   infrastructure and platform management
-*   business analysis
-*   service validation and testing
-*   release management
-*   availability management
-*   continuity management
-*   capacity and performance management
-*   service level management
-*   supplier management.
+* project management
+* change enablement
+* software development and management
+* infrastructure and platform management
+* business analysis
+* service validation and testing
+* release management
+* availability management
+* continuity management
+* capacity and performance management
+* service level management
+* supplier management.
 
 ### 2.5 Key metrics
 
@@ -323,10 +323,10 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, service design contributes to multiple value streams. It is important to remember that a value stream is not constructed of a single practice. Service design is combined with other practices to provide high-quality services to consumers. The main value chain activities to which service design contributes are:
-*   design and transition
-*   improve
-*   obtain/build
-*   plan.
+* design and transition
+* improve
+* obtain/build
+* plan.
 
 ![Image of 3.1 shows Heat map of the contribution of Service Design to Value Chain activities](Service%20design%20ITIL%204%20practice%20guide/Picture3.png)
 
@@ -339,8 +339,8 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong>Process</strong></p></td></tr><tr><td><p>A set&nbsp;of interrelated or interacting activities that transform inputs into outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 The service design practice activities form two processes:
-*   service design planning
-*   service design coordination.
+* service design planning
+* service design coordination.
 
 #### 3.2.1 Service design planning process
 
@@ -399,10 +399,10 @@ Three practice-specific roles may be found in organizations: service design lead
 #### 4.1.1 Service design leader role
 
 Where a dedicated service design role is defined, it is usually assigned to specialists combining good knowledge of the organization’s products (architecture, services and interdependencies) with solid design thinking skills (to develop strategic design patterns, determine appropriateness of design, coordinate teamwork and good risk management skills). The competence profile for this role is LMC. This role is usually responsible for the management and maturity of the specialist activities in service design processes, including:
-*   strategic direction and maturity of service design practice
-*   development of a service design practice, including training, communications, and processes
-*   governance of service design processes and controls
-*   building, utilizing, and governing service design packages.  
+* strategic direction and maturity of service design practice
+* development of a service design practice, including training, communications, and processes
+* governance of service design processes and controls
+* building, utilizing, and governing service design packages.  
     
 
 In more complex organizations, some service design responsibilities may be delegated to the service design consultant. The service design consultant focuses on developing and industrialising service design activities, relating to more detailed procedures, the elements of service design packages, provisioning of consultancy to change initiatives and orchestrating service provisioning. The competence profile for this role is MC.
@@ -424,12 +424,12 @@ In more service-based organizations, there may be dedicated service design consu
 ### 5.1 Information exchange
 
 The effectiveness of service design is based on the quality of the information used. This information includes, but is not limited to, information about:
-*   products and services and their existing architecture and design, including a baseline of functional and non-functional characteristics of those products and services
-*   risk categories and risk appetite as defined through the risk management practice
-*   customers and users
-*   partners and suppliers, including contract and SLA information on the services they provide
-*   intended use and scope of products and services, including potential risk exposure to the organization
-*   a third party’s contract, including vulnerabilities and gaps compared to an organization’s expectations.
+* products and services and their existing architecture and design, including a baseline of functional and non-functional characteristics of those products and services
+* risk categories and risk appetite as defined through the risk management practice
+* customers and users
+* partners and suppliers, including contract and SLA information on the services they provide
+* intended use and scope of products and services, including potential risk exposure to the organization
+* a third party’s contract, including vulnerabilities and gaps compared to an organization’s expectations.
 
 The key information generated by the design coordination process is included in the SDP, which contains everything necessary for service design. SDP can also support the service in later lifecycle stages. The SDP may consist of multiple documents, which may be used in knowledge base, service catalogue, configuration management tools, and so on.
 
@@ -438,11 +438,11 @@ The key information generated by the design coordination process is included in 
 There can be significant benefit from automation within the administrative activities of service design. Whilst there can still be benefit of automating the service design consultant role, the skills required for the role include a higher degree of interpretation and appropriateness that would require a complex decision-making automation.
 
 For service design practice, automation and tools bring the most value by the following:
-*   collaboration tools, to provide communications between teams and different stakeholder groups and track tasks
-*   requirement tracking tools, feedback gathering, and processing tools
-*   knowledge management tools to promote innovation and education
-*   visualization tools to help visualize information on requirements, designs solutions, teams and components integrations, and so on
-*   artificial intelligence tools to imitate user behaviour or integrate user behaviour into design analysis, hypothesis testing, and so on.
+* collaboration tools, to provide communications between teams and different stakeholder groups and track tasks
+* requirement tracking tools, feedback gathering, and processing tools
+* knowledge management tools to promote innovation and education
+* visualization tools to help visualize information on requirements, designs solutions, teams and components integrations, and so on
+* artificial intelligence tools to imitate user behaviour or integrate user behaviour into design analysis, hypothesis testing, and so on.
 
 ## 6. Partners and suppliers
 
@@ -453,13 +453,13 @@ Service design often uncovers vulnerabilities within services offered by third p
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of *ITIL® Foundation: ITIL 4 Edition*.
 

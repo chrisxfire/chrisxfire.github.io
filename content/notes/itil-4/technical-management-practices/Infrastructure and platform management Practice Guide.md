@@ -99,20 +99,20 @@ Automation is also used to improve a system’s maintainability. Repeatable acti
 ### 2.3. Scope
 
 The scope of the infrastructure and platform practice includes:
-*   activities used to plan, design, develop, deliver, maintain, and support infrastructure and platform technology
-*   infrastructure and platform technology including:
-    *   hardware (servers, desktops, routers, switches, storage, cabling, and data centre)
-    *   software (operating systems, desktop applications, and middleware)
-    *   management tools (monitoring, management tools, deployment, inventory)
-    *   web hosting
-    *   cloud infrastructure and platform
-    *   identification systems and single sign-on (SSO).
-*   infrastructure and platform management skills, including:
-    *   technical architecture and engineering
-    *   technical administration and operations
-    *   execution and enforcement of policies and procedures connected to infrastructure and platform management (planning, decision making, oversight).
-*   integration with other practices
-*   skills required for infrastructure and platform management, including infrastructure architecture, engineering, and administration.
+* activities used to plan, design, develop, deliver, maintain, and support infrastructure and platform technology
+* infrastructure and platform technology including:
+    * hardware (servers, desktops, routers, switches, storage, cabling, and data centre)
+    * software (operating systems, desktop applications, and middleware)
+    * management tools (monitoring, management tools, deployment, inventory)
+    * web hosting
+    * cloud infrastructure and platform
+    * identification systems and single sign-on (SSO).
+* infrastructure and platform management skills, including:
+    * technical architecture and engineering
+    * technical administration and operations
+    * execution and enforcement of policies and procedures connected to infrastructure and platform management (planning, decision making, oversight).
+* integration with other practices
+* skills required for infrastructure and platform management, including infrastructure architecture, engineering, and administration.
 
 There are many activities and areas of responsibility that are not included in the infrastructure and platform management practice, although they are still closely related to infrastructure and platform management. These are listed in Table 2.1, along with references to the practices in which they can be found. It is important to remember that ITIL practices combine value chain activities through value streams to deliver value.
 
@@ -127,8 +127,8 @@ There are many activities and areas of responsibility that are not included in t
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The infrastructure and platform practice includes the following PSFs:
-*   establishing an infrastructure and platform management approach to meet evolving organizational needs
-*   ensuring that the infrastructure and platform solutions meet the organization’s current and anticipated needs.
+* establishing an infrastructure and platform management approach to meet evolving organizational needs
+* ensuring that the infrastructure and platform solutions meet the organization’s current and anticipated needs.
 
 #### 2.4.1 Establishing an infrastructure and platform management approach to meet evolving organizational needs
 
@@ -149,9 +149,9 @@ The main focus of the infrastructure and platform management practice should be 
 When the organization needs a technical solution, requirements are defined in order to ensure that the solution meets the organization’s needs. The solution design should include technical and business requirements. The infrastructure and platform management practice is involved in analysing requirements to create a high-level design (in conjunction with the architecture management, business analysis, and service design practices, and others).
 
 The requirements for infrastructure and platform solutions may come from different sources, including:
-*   architectural standards and guidelines
-*   compliance requirements, if the organization is subject to legislation
-*   direct requirements from customers, if a solution is a service or service component that will be directly released to customers.
+* architectural standards and guidelines
+* compliance requirements, if the organization is subject to legislation
+* direct requirements from customers, if a solution is a service or service component that will be directly released to customers.
 
 Where possible, the infrastructure and platform management practice ensures that standards can be defined and utilized in order to simplify the management of infrastructure and platform solutions. The enforcement of these standards ensures the reliability and maintainability of solutions. Standards enable efficient and effective operations and may include the hardware and software versions, configuration settings, management and monitoring tools, and support structures. Through standards, solutions are easier to operate, monitor, and upgrade.
 
@@ -190,10 +190,10 @@ The correct aggregation of metrics into complex indicators will make them easier
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, the infrastructure and platform management practice contributes to multiple value streams. Remember, no value stream is made up of a single practice. The infrastructure and platform management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which this practice contributes are:
-*   deliver and support
-*   design and transition
-*   obtain/build
-*   plan.
+* deliver and support
+* design and transition
+* obtain/build
+* plan.
 
 The contribution of the infrastructure and platform management practice to the service value chain is shown in Figure 3.1.
 
@@ -210,9 +210,9 @@ Each practice may include one or more processes and activities that may be neces
 There are numerous models to structure activities of the infrastructure and platform management practice. These span several decades and range from waterfall and manual, to iterative and incremental.
 
 This practice is one of the two ITIL practices (the other is the software development and management practice) where activities do not always form processes that could be described as sequences at the level of detail appropriate to this guide. This is because the infrastructure and platform management activities are always performed in a context of one or another value stream, and always in conjunction with other practices. However, activities of this practice can be categorized in three groups:
-*   technology planning
-*   product development
-*   technology operations.
+* technology planning
+* product development
+* technology operations.
 
 #### 3.2.1 Technology planning activities
 
@@ -291,12 +291,12 @@ Roles are described in the context of processes and activities. Each role is cha
 The key role for this practice is infrastructure specialist. This is a generic term to describe roles that can be specified either by the technology, like network, SRE, and so on (for example, network specialist, site reliability engineer, or virtualization specialist) or by the phase in product lifecycle, like design, testing, or operations (for example,. infrastructure designer/development specialist, testing specialist, or operations administrator).
 
 Those distinctions are defined by the organization’s size and structure, but the general set of competencies are similar, and usually includes:
-*   technology subject matter expertise
-*   good understanding of the organization’s architecture
-*   knowledge of the frameworks and techniques adopted by the organization
-*   knowledge of organization’s products and services
-*   service mindset
-*   good knowledge of organization’s operating model and value streams.
+* technology subject matter expertise
+* good understanding of the organization’s architecture
+* knowledge of the frameworks and techniques adopted by the organization
+* knowledge of organization’s products and services
+* service mindset
+* good knowledge of organization’s operating model and value streams.
 
 Examples of other roles which can be involved in infrastructure and platform management activities are listed in Table 4.2, together with the associated competency profiles and specific skills.
 
@@ -313,23 +313,23 @@ The infrastructure and platform management practice needs to allow for organizat
 ### 5.1 Information exchange
 
 The effectiveness of the infrastructure and platform management practice is based on the quality of the information used. This information includes, but is not limited to:
-*   business services and processes
-*   customers and users
-*   partner and suppliers including contracts and service levels
-*   SLAs
-*   architecture and design documentation
-*   portfolio and project management plans
-*   policies, requirements, and controls
-*   change records
-*   incident records
-*   request records
-*   problem records
-*   release records
-*   financial information
-*   application development and testing information
-*   system information (versions, baselines, configurations)
-*   monitoring and event information
-*   IT assets and inventory information.
+* business services and processes
+* customers and users
+* partner and suppliers including contracts and service levels
+* SLAs
+* architecture and design documentation
+* portfolio and project management plans
+* policies, requirements, and controls
+* change records
+* incident records
+* request records
+* problem records
+* release records
+* financial information
+* application development and testing information
+* system information (versions, baselines, configurations)
+* monitoring and event information
+* IT assets and inventory information.
 
 ### 5.2 Automation and tooling
 
@@ -352,25 +352,25 @@ The infrastructure and platform management practice allows for many outsourcing 
 With a large amount of opportunity within this space, understanding and managing outsourcing risks is an important activity to ensure that services meet customer expectations. This should be done in a close conjunction with other practices, such as the risk management and supplier management practices.
 
 Some examples of these risks are:
-*   loss of flexibility due to constraints of agreement
-*   additional unplanned costs if the scope needs to be modified or if consumption exceeds the contractual terms
-*   contractual service levels may not align with customer expectations
-*   security and policy adherence of providers
-*   loss of internal talent as role moves from performing activities to oversight of those activities
-*   lack of visibility.
+* loss of flexibility due to constraints of agreement
+* additional unplanned costs if the scope needs to be modified or if consumption exceeds the contractual terms
+* contractual service levels may not align with customer expectations
+* security and policy adherence of providers
+* loss of internal talent as role moves from performing activities to oversight of those activities
+* lack of visibility.
 
 Although all functions can be outsourced, it is recommended to retain oversight and architecture functions. Oversight ensures providers are delivering to their committed levels and allows insight into potential improvements to the existing agreement. To effectively support and continue to deliver services, the knowledge of how solutions connect across providers must be well understood by the internal team. As the specific knowledge in specific technologies moves to the provider, there should be an architectural role internally that understands the design and operations of the infrastructure environment.
 
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the ITIL practice guides, organizations should always follow the ITIL guiding principles:
-*   focus on value
-*   start where you are
-*   progress iteratively with feedback
-*   collaborate and promote visibility
-*   think and work holistically
-*   keep it simple and practical
-*   optimize and automate.
+* focus on value
+* start where you are
+* progress iteratively with feedback
+* collaborate and promote visibility
+* think and work holistically
+* keep it simple and practical
+* optimize and automate.
 
 More information on the guiding principles and their application can be found in section 4.3 of *ITIL Foundation: ITIL 4 Edition*.
 

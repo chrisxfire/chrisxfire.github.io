@@ -17,11 +17,11 @@ You will be committed to customer service and play a key role in minimizing disr
 
 #### 1.2 Job responsibilities
 
-*   Identify hardware problems and repair
-*   Perform regular maintenance on hardware components
-*   Install and configure desktop/laptop PCs, printers and other hardware
-*   Run diagnostic programmes or use test equipment to locate source of problems
-*   Communicate effectively with end users and customer management.
+* Identify hardware problems and repair
+* Perform regular maintenance on hardware components
+* Install and configure desktop/laptop PCs, printers and other hardware
+* Run diagnostic programmes or use test equipment to locate source of problems
+* Communicate effectively with end users and customer management.
 
 ## 2. Skills and qualifications
 
@@ -44,11 +44,11 @@ Service Delivery
 
  | 
 
-*   Carry out maintenance to ensure stable and secure applications and ICT infrastructure
-*   Update operational document library and logs all service incidents
-*   Systematically analyze performance data and communicates findings to senior experts
-*   Escalate potential service failures and security risks and recommends actions to improve service reliability
-*   Track reliability data against relevant service level agreements.
+* Carry out maintenance to ensure stable and secure applications and ICT infrastructure
+* Update operational document library and logs all service incidents
+* Systematically analyze performance data and communicates findings to senior experts
+* Escalate potential service failures and security risks and recommends actions to improve service reliability
+* Track reliability data against relevant service level agreements.
 
  |
 | 
@@ -57,12 +57,12 @@ Problem Management
 
  | 
 
-*   Investigate incidents to establish the root cause, and resolve or escalate
-*   Make sound decisions in emotionally-charged environments on appropriate action required to minimize business impact
-*   Check the knowledge system to find out if a similar problem has occurred in the past
-*   Rapidly identify failing components, selecting alternatives such as repair, replace or configure
-*   Update knowledge base to facilitate future resolution of common errors
-*   Optimize system or component performance.
+* Investigate incidents to establish the root cause, and resolve or escalate
+* Make sound decisions in emotionally-charged environments on appropriate action required to minimize business impact
+* Check the knowledge system to find out if a similar problem has occurred in the past
+* Rapidly identify failing components, selecting alternatives such as repair, replace or configure
+* Update knowledge base to facilitate future resolution of common errors
+* Optimize system or component performance.
 
  |
 | 
@@ -71,11 +71,11 @@ Component Integration
 
  | 
 
-*   Integrate new software or software upgrades into an existing or a new system
-*   Comply with established processes and procedures such as configuration management and package maintenance
-*   Document all activities during installation and records deviations and remedial activities
-*   Measure system performance before, during and after system integration
-*   Verify that integrated systems capabilities and efficiency match specifications.
+* Integrate new software or software upgrades into an existing or a new system
+* Comply with established processes and procedures such as configuration management and package maintenance
+* Document all activities during installation and records deviations and remedial activities
+* Measure system performance before, during and after system integration
+* Verify that integrated systems capabilities and efficiency match specifications.
 
  |
 | 
@@ -84,8 +84,8 @@ IT Change Management
 
  | 
 
-*   Follow guidelines to implement requests for change, avoiding service disruptions and adhering to service levels and information security requirements
-*   Apply change control procedures.
+* Follow guidelines to implement requests for change, avoiding service disruptions and adhering to service levels and information security requirements
+* Apply change control procedures.
 
  |
 | 
@@ -94,15 +94,15 @@ Communication and Knowledge Sharing
 
  | 
 
-*   Actively listen to others to understand their point of view
-*   Confidently present messages in a clear and precise manner
-*   Structure written and oral communication to ensure clarity
-*   Share information with team members to help them be effective.
+* Actively listen to others to understand their point of view
+* Confidently present messages in a clear and precise manner
+* Structure written and oral communication to ensure clarity
+* Share information with team members to help them be effective.
 
  |
 
 #### 2.2 Relevant qualifications
 
-*   [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
-*   [ITIL<sup>®</sup> 4: Drive Stakeholder Value](https://www.axelos.com/certifications/itil-service-management/managing-professional/drive-stakeholder-value)
-*   [ITIL<sup>®</sup> 4: Create, Deliver and Support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
+* [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
+* [ITIL<sup>®</sup> 4: Drive Stakeholder Value](https://www.axelos.com/certifications/itil-service-management/managing-professional/drive-stakeholder-value)
+* [ITIL<sup>®</sup> 4: Create, Deliver and Support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
