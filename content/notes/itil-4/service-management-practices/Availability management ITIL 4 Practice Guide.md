@@ -18,7 +18,6 @@ Availability is an important service characteristic from the consumers’ perspe
 
   
 Theoretically, availability is simple to measure and understand; it depends on how frequently the service fails and how quickly it recovers after a failure. These characteristics are often expressed as mean time between failures (MTBF) and mean time to restore service (MTRS):
-
 *   **MTBF**  
     measures how frequently the service fails. For example, on average, a service with a MTBF of four weeks fails 13 times each year.
 *   **MTRS**  
@@ -51,7 +50,6 @@ This distinction between vital and non-vital functions is important and should i
 #### 2.2.2 Availability for different types of services
 
 Availability can be defined differently for different types of service offerings. For example, if the service offering:
-
 *   Enables business operations (such as a loan approval process or financial reporting process), availability is normally defined in terms of the execution of business operations.
 *   Provides access to a resource (such as network, print, or email services), availability is defined and measured in terms of resource availability.
 *   Includes fulfilment actions (such as user support), availability is often not an applicable measure. Instead, the focus should be on timely request completion.
@@ -63,7 +61,6 @@ Defining availability requirements for services is often complicated. A service 
 Quite often for non-functional requirements, the line between underperformance (the service being slow, unsecure, non‑compliant, and so on) and unavailability is difficult to identify.
 
 When defining service availability, it is essential to consider the following:
-
 *   the criticality of business functions that are enabled by the service
 *   thresholds for various forms of underperformance and unavailability; for example, delays in sending or receiving e-mail may be treated as service level degradation, not service unavailability, until they reach the agreed threshold
 *   the number of users, business units, and/or sites that are impacted; for example, the service may only be considered unavailable if more than a certain percentage of users are impacted
@@ -83,13 +80,11 @@ This formula can be useful, especially for resource provision services, but it d
 The ideal availability metric would measure financial losses due to service unavailability. Unfortunately, it is often difficult or impossible to measure or estimate such a metric. Therefore, the service provider and the customer should define a set of acceptable metrics that reflect how the consumer loses money due to service outages, even if these metrics may be slightly inaccurate.
 
 The following factors should be considered:
-
 *   The longer the cumulative service downtime is, the higher the losses are.
 *   The longer a single service outage is, the higher the losses are. In most cases, financial losses grow exponentially during an outage. The service provider may face fines, regulatory judgments, diminished competitive advantage, reputational damage, and so on.
 *   The more frequent the outages are, the higher the losses are, because the expenses associated with managing a loss event and restarting business operations are high.
 
 Availability can be measured, assessed, and reported in various ways. These include, but are not limited to, the following metrics:
-
 *   MTBF
 *   minimum time between failures
 *   number of service disruptions
@@ -117,7 +112,6 @@ Incident records
  | 
 
 Incident records usually include the timestamps when the incident was identified and resolved so that the duration of outage can be calculated. However, this method has limitations, including:
-
 *   The incident may not be identified and recorded at the same time as the service becoming unavailable.
 *   The incident may not be resolved, and its resolution may not be recorded, at the same time as service availability is restored.
 *   Not all incidents are availability incidents (see section 2.2.3 for details about availability criteria).
@@ -134,7 +128,6 @@ IT infrastructure monitoring
 Infrastructure monitoring tools are also sources of availability data. However, such tools measure CI availability, not service availability. Service and configuration models might be used to understand service availability based on components’ availability data.
 
 However, this method’s limitations should be considered:
-
 *   The service component outage may not cause a service outage.
 *   Service unavailability may be caused by underperformance, as well as the outage, of components.
 
@@ -151,7 +144,6 @@ Business transaction monitoring/real user monitoring
 Business transaction monitoring is a way of measuring the availability and performance of IT services from a business operations/transactions perspective. A variety of data collection methods might be used for the purpose, including network packet sniffing, log parsing, agent-based middleware protocol sniffing, reading database records, and others.
 
 Two particular methods of business transaction monitoring are:
-
 *   **Synthetic monitoring** A method for monitoring applications by simulating users’ activity. Synthetic monitoring uses simulated transactions from a robot client that mimic typical user actions.
 *   **Real user monitoring (RUM)** RUM may capture server-side data in order to reconstruct end-user experience or directly monitor user interactions with the application and what users experience at the point of service consumption.
 
@@ -265,7 +257,6 @@ Availability management generally focuses on identifying and eliminating single 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The availability management practice includes the following PSFs:
-
 *   identifying service availability requirements
 *   measuring, assessing, and reporting service availability
 *   treating service availability risks.
@@ -277,7 +268,6 @@ To effectively manage availability, the service provider should identify the ser
 Identifying a service’s availability requirements may be a separate activity, but it is more commonly a part of service level negotiation within the SLM practice, or a broader BIA performed jointly with the service continuity management practice.
 
 Identifying service availability requirements includes:
-
 *   understanding customer requirements for service availability
 *   determining availability criteria
 *   determining availability metrics and setting targets.
@@ -289,7 +279,6 @@ The business analysis and SLM practices normally involve communicating with cust
 #### 2.4.1.2 Determining availability criteria
 
 The line between availability and unavailability should be clearly defined. The following factors should be considered when determining service availability criteria:
-
 *   the criticality of business functions that are enabled by a service
 *   thresholds for underperformance and complete unavailability (there may be acceptable delays that should not be considered service unavailability)
 *   scale factor (number of users, business units, sites impacted)
@@ -307,7 +296,6 @@ Availability is the most crucial service quality indicator because service custo
 Service providers must be able to measure, assess, and report availability correctly. It is a widely accepted practice to report availability as a percentage, which can be calculated using a simple formula based on uptime and downtime. Although it can be suitable in many cases (especially for resource provision services), this method lacks visibility of the business impacts of complicated service disruption scenarios.
 
 It is important to consider various ways of measuring, assessing, and reporting availability, including, but not limited to, the following metrics (see 2.2.4 for details):
-
 *   MTBF
 *   minimum time between failures
 *   number of service disruptions
@@ -341,7 +329,6 @@ When choosing an availability control, the effectiveness and efficiency of each 
 It is usually cheaper to design the right level of service availability into a service from the start, rather than try and add it subsequently. Also, once a service gets a reputation for unreliability, it becomes very difficult to repair.
 
 The following forms of loss, proposed by FAIR<sup>3</sup>, might be useful when assessing service availability risks:
-
 *   **productivity** the reduction in a service provider’s ability to deliver services
 *   **response** expenses associated with managing a loss event
 *   **replacement** the intrinsic value of an asset, or the expense associated with replacing lost or damaged assets (e.g. purchasing a replacement server)
@@ -368,7 +355,6 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value streams contribution
 
 Like any other ITIL management practice, the availability management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The availability management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which availability management contributes are:
-
 *   plan
 *   deliver and support
 *   design and transition
@@ -388,7 +374,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
 
 Availability management activities form two processes:
-
 *   establishing service availability control
 *   analysing and improving service availability.
 
@@ -464,7 +449,6 @@ Because availability is impacted by almost every ITIL practice, it is a good ide
 #### 5.1 Information exchange, inputs/outputs
 
 The effectiveness of the availability management practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-
 *   consumer’s business processes
 *   services and their architecture and design
 *   partners and suppliers and information on the services they provide
@@ -623,7 +607,6 @@ Partners and suppliers may provide critical products and service components. The
 Partners and suppliers may also provide services and solutions for ensuring resilience, such as fault-tolerant and clustering technologies, load balancing, multi-level backup systems, monitoring tools, and so on. In these cases, they should consider service availability when designing and planning service provision.
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

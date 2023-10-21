@@ -45,7 +45,6 @@ Some organizations choose to take significant risks to make significant gains. O
 #### 2.2.4 Risk register
 
 It is important to keep a record of identified risks, that records the risk’s current status and history. This record is known as a risk register. Each entry in the risk register shows the history and status of a single risk. Typically, this will include the following information (but this can vary depending on the needs of the organization):
-
 *   unique ID
 *   category (to group similar types of risk)
 *   description
@@ -94,7 +93,6 @@ Risk treatment does not usually eliminate a risk completely. Therefore, after th
 ### 2.3 Scope
 
 The scope of risk management is very broad. Most activities and all people within an organization, have some role to play in risk management. The service provider must understand and manage the many risks that are relevant to each service and to each customer. Many of the management practices described in ITIL 4 require risk management as part of their activities. These include:
-
 *   project management
 *   information security management
 *   portfolio management
@@ -161,7 +159,6 @@ Good service level reporting includes the identification of risks that may impac
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The risk management practice includes the following PSFs:
-
 *   establishing governance of risk management
 *   nurturing a risk management culture and identifying risks
 *   analysing and evaluating risks
@@ -254,7 +251,6 @@ Each practice may include one or more processes and activities that may be neces
 **Figure 3.1 Heat map of the contribution of the risk management practice to value chain activities**
 
 Risk management activities form three processes:
-
 *   governance of risk management
 *   risk identification, analysis, and treatment
 *   risk monitoring and review.
@@ -347,7 +343,6 @@ The risk management framework established by the risk management committee defin
 ### 5.1 Information exchange, inputs/outputs
 
 The effectiveness of the risk management practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-
 *   the risks that the risk owners own
 *   raising a new risk record
 *   an easily identifiable and objective risk importance
@@ -374,7 +369,6 @@ Although the actual risk mitigation activities are likely to be covered by the o
 Where organizations aim to ensure fast and effective risk management practice, they usually try to agree to close cooperation with their partners and suppliers, removing formal bureaucratic barriers in communication, collaboration, and decision-making. All parties in such relationships should aim for mutual transparency and visibility of the changes that may affect the other parties (see the supplier management practice guide for more information).
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the ITIL Practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

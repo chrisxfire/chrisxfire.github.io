@@ -59,7 +59,6 @@ The agreed criteria for a proposed product of service, reflecting functional and
 The scope of software development and management is defined in terms of activities and the resources affected by the activities.
 
 The activities supported by the software development and management practice include:
-
 *   application development
 *   software and software artefacts management
 *   operating the application (in close collaboration with infrastructure and platform management).
@@ -67,7 +66,6 @@ The activities supported by the software development and management practice inc
 The resources within the scope of the software development and management practice are the concrete application artefacts within the various environments that are used. The major application artefacts are specifications, designs, source code, object code, and documentation.
 
 In terms of responsibilities, the software development and management practice is positioned between:
-
 *   the owners of the application, who determine the requirements for development and/or management
 *   infrastructure management, that (a) provides the environments for software development and management and (b) manages the production environment in which software management operates the applications
 *   users that require support regarding the use of applications
@@ -88,7 +86,6 @@ There are many activities and areas of responsibility that are not included in t
 A PSF is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The software development and management practice includes the following PSFs:
-
 *   agree and improve an organization's approach to development and management of software
 *   ensure that software continually meets organization's requirements and quality criteria throughout its lifecycle.
 
@@ -105,7 +102,6 @@ This Practice Success Factor for software development and management concerns it
 This tactical choice depends on how much information is available about both the work to be completed and the resources that are needed to execute the work. The work to be completed can be subdivided into the requirements and the priority with which they must be fulfilled. Depending on the how much information is available about the requirements, priorities, and required resources, an appropriate approach can be selected.
 
 Some examples:
-
 *   A waterfall approach can be an effective choice when the requirements and priorities are known, and when it is also known how to develop the software, and which resources are needed.
 *   A timeboxing approach in which the most important work items are developed first, could be a better choice when the requirements and priorities are known, but it is not yet known how to develop the software and which resources are needed.
 
@@ -116,7 +112,6 @@ Some examples:
 Different approaches require different combinations of resources. These resources span all four dimensions of service management and are addressed in sections 3 to 6 of this document.
 
 Commonly encountered combination of resources:
-
 *   Small, relatively independent, multi-functional, product-based development/maintenance teams in which a product owner manages the priority of the work to be done.
 *   Platform-based teams that support the development/maintenance teams with the (self-)provision of the required infrastructure for development/maintenance and production.
 
@@ -128,7 +123,6 @@ Several practices are involved in realizing this PSF. The requirements for the a
 #### 2.4.2 Ensure that software continually meets organization's requirements and quality criteria throughout its lifecycle
 
 Software quality is used to describe software as a product and in its use, commonly in terms such as:
-
 *   product quality: functional suitability, performance efficiency, compatibility, usability, reliability, security, maintainability, and portability
 *   quality in use: effectiveness, efficiency, satisfaction, freedom from risk, and context coverage.
 
@@ -141,7 +135,6 @@ Maintenance is not only influenced by maintainability but also influences it. Th
 Many of the requirements for these software quality characteristics are input for software development and management. They are determined by the owner of the software. However, some characteristics are not the primary concern of software development and management. For example, effectiveness is determined by the users’ understanding of the software and how they use it and the information or devices that the software enables.
 
 The most important components of this Practice Success Factor are:
-
 *   understanding the source code, how the various modules are interrelated, and the application architecture
 *   understanding the requirements and the context in which the application is used
 *   ensuring that non-functional (warranty) requirements are included in the Definition of Done
@@ -167,7 +160,6 @@ The ITIL practices are means, or tools, for the management of products and servi
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, software development and management contribute to multiple value streams. Remember, no value stream is made up of a single practice. Software development and management combines with other practices to provide high-quality services to consumers. The main value chain activities to which software development and management contributes are:
-
 *   obtain/build
 *   deliver and support.
 
@@ -220,7 +212,6 @@ Examples of roles which can be involved in the software development and manageme
 #### 4.1.2 Software developer/team member
 
 The key role for the software development and management practice is the developer, or an engineer. This is the most common type of a knowledge worker in the IT field. The algorithmic thinking is a core of the skillset for a software developer. Other aspects of the core software developer knowledge and skill set are:
-
 *   programming languages, environments, and technologies
 *   object oriented software design
 *   contemporary system architectures, such as Event Driven Architecture (EDA)
@@ -228,14 +219,12 @@ The key role for the software development and management practice is the develop
 *   problem-solving techniques.
 
 However, a modern software developer needs to have a strong command of a broad spectrum of technical and communication competencies:
-
 *   knowledge of technologies adjacent to the technology stack that they work in
 *   techniques to plan and priorities activities, decisions, and risk mitigation measures within their scope of control, be it themselves, or the team they manage
 *   skills in interpersonal, bi-directional, and broadcasting communications, including ability to highlight issues, transfer ideas and concepts, and document and present the solutions
 *   continuous learning ability to keep up with the pace of technology evolution.
 
 There are also a set of personal traits that a software developer must maintain and harness:
-
 *   Willingness to quickly advance on a problem resolution journey to explore new possibilities, to experiment, and to take reasonable risks (see for example the OODA Loop approach, High- velocity IT).
 *   Eagerness to review what has been done, such as bug fixing, code refactoring, legacy software maintenance, and technical debt tasks.
 *   Systemic approach to the operations tasks, with an outlook to automate deployment, maintenance, backup, monitoring and other mundane chores related to operating of the software.
@@ -248,7 +237,6 @@ It is common for a software developer to go through a career progression from a 
 One career path open to a senior developer is a team leader, colloquially known as a ‘team lead’ role. A team leader can in some organizational environments carry a managerial designation (especially in traditional teams) but is first and foremost a servant leader for their team of developers (read more on Servant Leadership in *High-velocity IT* and *Create, Deliver and Support*).
 
 The primary task of a team leader is to be an effective liaison for their software development team within a broader business or service provider context. Apart from skills and behaviours listed for a software developer, the following should be prominent in a team leader:
-
 *   understanding of the business problem the software is solving
 *   understanding of impediments their team is facing
 *   understanding of the service provider context and value streams that the service provider which the development team is part of owns
@@ -278,7 +266,6 @@ The software development and management practice may be realised in a service pr
 However talented or productive, a single development team can rarely satisfy *all* the demand for new or updated services. As the size of a team is conventionally defined around natural ability to manage directly, i.e. 5 to 7 staff per manager, the number of development teams is a primary organizational variable, determining the human resource investment in the software development and management practice.
 
 Although all software development and management teams perform similar activities, they can be grouped together differently, depending on relative importance of software products in the service offerings and on overall organizational design, for example:
-
 *   the purpose and functionality of the software
 *   the functionality of the software
 *   the platform on which the software runs
@@ -309,7 +296,6 @@ Depending on specific toolset or a method in use, the items can bear different n
 It is nevertheless generally accepted that items of a backlog should be processed in a unified lean manner, much like the value stream method suggests. The development team should plan the work, look for bottlenecks, and focus its activities and information exchange on the value it delivers.
 
 An agreed amount of documentation must be produced to support:
-
 *   ongoing development
 *   operations
 *   use.
@@ -331,7 +317,6 @@ Very few services are delivered using only an organization’s own resources. Ma
 Development teams represent a highly specialised capability that most organisations would not have suitable means to manage. It is common for contemporary internal service providers to outsource the software development and management capabilities to third parties. When either or both development and management of business applications and other software is sourced commercially, the service provider management should consider all complexities that accompany defining what good output from that external provider must look like.
 
 There are several important quality criteria that need to be negotiated, agreed, and defined in the respective software sourcing contract:
-
 *   The definitions of service. As obvious as it can be, the exact and explicit definition of the service offerings for a development and management contract is an absolute must. The activities within this practice provide an overall range of things that a development team can do in order to ensure software quality. That list is not limited to simple new coding and bug-fixing but encompasses whole software lifecycle. The parties should consciously negotiate the required activities from the range and consider both pricing, and partnership benefits that are most important to both.
 *   People and organisations. The parties must agree on the organizational structure, expected knowledge transfer mechanisms, expected turnover rates, vetting principles, and geographical location of the staff that will populate the development teams.
 
@@ -344,7 +329,6 @@ Arguably a systemic cost-benefit analysis yields results quite different from an
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the ITIL Practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

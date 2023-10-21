@@ -19,7 +19,6 @@ From the customer and user journey perspective, release management supports onbo
 The release management practice is beneficial for both IT service providers and their service consumers.
 
 Benefits for the service provider include:
-
 *   Controlled enablement of new and changed services for users
 *   Ability to experiment and test hypotheses with different user groups
     
@@ -31,7 +30,6 @@ Benefits for the service provider include:
     
 
 Benefits for the service consumer include:
-
 *   Controlled enablement of new and changed business services for users
 *   Reduced risks and losses resulting from releases
     
@@ -82,7 +80,6 @@ One of the decisions made during the development of the release management model
 A ‘push’ approach implies that new or changed components of services are enabled for users without their specific consent(or the users consent to the updates by continuing to use the service), and users are obliged to use these versions. In contrast, the ‘pull’ approach makes new components and services available to users, but users can decide whether they prefer using these new versions, stick to older ones, or not using the service at all.
 
 Typically, organizations do not apply a single approach; they define conditions where the ‘pull’ or ‘push’ approach would work better. Considerations are common for internal and external service providers include:
-
 *   the benefits of having a single version across the user base (maintainability, compatibility)
 *   the benefits of allowing users to have more freedom (better image, flexible pricing options)
 *   technical and organizational ability to manage multiple versions in a live environment
@@ -95,7 +92,6 @@ Typically, organizations do not apply a single approach; they define conditions 
 Release management may be used to validate a hypothesis and to experiment. When an organization needs to test a hypothesis with a sample user audience, new or updated services may be released to sample user groups (sometimes called treatment groups). This approach is widely used by providers of mass services, such as social networks, but also applied to small user groups. Related techniques include blue/green releases, canary releases, and A/B testing.
 
 These experiments require the involvement of other practices. This includes, but not limited to:
-
 *   infrastructure and platform management
 *   software development and management
 *   service validation and testing
@@ -107,7 +103,6 @@ These experiments require the involvement of other practices. This includes, but
 #### 2.3 Scope
 
 The scope of the release management practice includes the following:
-
 *   Development and maintenance of the organization’s approach to release new and changed services[1](https://my.axelos.com/resource-hub/practice/release-management-itil-4-practice-guide#_bookmark0) and components.
 *   Management and coordination of all release instances in line with the defined approach, from planning, to implementation, and review.
 
@@ -128,7 +123,6 @@ Some of those key areas are listed in Table 2.1, and includes references to the 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The release management practice includes the following PSFs:
-
 *   establishing and maintaining effective approaches to the release of services and service components across the organization
 *   ensuring an effective release of services and service components in the context of the organization’s value streams and service relationships.
 
@@ -137,7 +131,6 @@ The release management practice includes the following PSFs:
 The release management practice includes defining and agreeing approaches and models to follow for the release of new and changed services and service components. Organizations are likely to combine several approaches and to define several release management models for every product they manage.
 
 Apart from organization’s and product’s characteristics, release models are defined by service relationships between the organization and its service consumers. This includes factors such as:
-
 *   internal or external service consumers
 *   individual or corporate service consumption
 *   out-of-the-box or tailored services
@@ -153,7 +146,6 @@ Release approaches, models, and the practice in general, should be subject to co
 Ensuring an effective release may require organizing resources in all four dimensions of service management.
 
 Depending on the release management model, activities and resources that are required to implement a release instance, vary significantly:
-
 *   A release of a new version of mobile application for all users in a certain country or region may be performed by changing the status of the previously deployed version of the software, related release notes, and user documentation. Relevant stakeholders within the service provider organization. No further actions may be required.
 *   A release of a new custom-made ERP system with on premises installation and a need for user equipment upgrade may be managed as a large-scale project, involving many teams and practices across and from outside of the organization.
 
@@ -186,7 +178,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Release management activities form two processes:
-
 *   **Release model development and improvement** This process is focused on the continual improvement of the release management practice, release approaches, and models.
 *   **Release planning and coordination** This process is focused on managing the lifecycle of individual releases.
 
@@ -279,7 +270,6 @@ Make sure the stakeholder’s concerns are clearly understood, since they are th
 **Do the service value stream walk**
 
 Walk through or directly experience the steps and information flow as they go in practice (consider the Lean technique of Gemba walk):
-
 **a. Identify the workflow steps**
 
 **b. Collect data as you walk**
@@ -287,7 +277,6 @@ Walk through or directly experience the steps and information flow as they go in
 **c. Evaluate the workflow steps**
 
 Typically, the criteria for evaluation are:
-
 *   value for the stakeholder (does the step add value for the business stakeholder?)
 *   effectiveness or performance (is the step performed well?)
 *   availability (are required resources available to execute the step?)
@@ -344,7 +333,6 @@ There is one practice-specific role in release management that may be found in t
 Where a release manager role is defined, it is usually assigned to specialists that have strong knowledge of the organization’s business, products and services, technology, platforms, frameworks, and processes. The role will require strong planning and project management skills, ability, and authority to coordinate teamwork.
 
 The competence profile for this role is CTMA. This role is usually responsible for planning, managing, and coordinating release management as a practice as well as individual release instances, including:
-
 *   reviewing and developing the release approaches and models
 *   promoting the adoption of the agreed release management approaches and models across the organization
 *   planning complex releases
@@ -375,7 +363,6 @@ However, the role (and a dedicated job position) of a release manager may still 
 #### 5.1 Information exchange
 
 The effectiveness of release management is dependent on the quality of information used. This information includes, but is not limited to, information about:
-
 *   product architecture
 *   service consumer organizations and users
 *   software development and management practice
@@ -400,7 +387,6 @@ Release management in a digital environment is highly automated. But even in leg
 ##### 5.2.1 Recommendations for the automation of release management
 
 The following recommendations can help when applying automation to release management:
-
 *   **Automate the value stream** Automation of releases should be integrated into the value streams including deployment management, change enablement, service validation and testing, and, where relevant, activities of other management practices. Lack of integration complicates the value streams and reduces their effectiveness and efficiency. Consider implementing a CI/CD toolchain to support the end-to-end flow from development to operations but maintain the end-to-end approach to other value streams as well.
 *   **Allow for a variety of release models** Do not try to squeeze all releases in one universal workflow. Ensure that the software tools support different release models and allow to plan a release instance based on a model.
 *   **Automate release management for all product architectures used by the organization** Different models apply to products developed in-house, products developed for the organization by a third party, and products based on the off-the-shelf solutions. Make sure that release models relevant for these and other configurations are supported by the automation tools.
@@ -426,7 +412,6 @@ Naturally, consulting on automation of the practice may be combined with provisi
 #### 7.1 The practice capability levels
 
 The practice success factors described in section 2.4 cannot be developed overnight. The ITIL maturity model defines the following capability levels applicable to any management practice:
-
 **Level 1** The practice is not well organized; it’s performed as initial or intuitive. It may occasionally or partially achieve its purpose through an incomplete set of activities.
 
 **Level 2** The practice systematically achieves its purpose through a basic set of activities supported by specialized resources.
@@ -484,7 +469,6 @@ Figure 7.2 The capability development steps and levels
 ## 8. Recommendations for practice success
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

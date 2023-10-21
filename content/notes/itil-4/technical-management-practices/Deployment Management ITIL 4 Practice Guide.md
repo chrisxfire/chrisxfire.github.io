@@ -17,7 +17,6 @@ The practice is usually applied to digital and physical IT components, including
 The deployment management practice is a key practice of service management. Effective deployment management is beneficial for both the service provider and service consumer.
 
 Benefits for the service provider include:
-
 *   Faster time to market by delivering working software and hardware to users quickly and efficiently
 
 *   Reduced risk of errors and downtime related to product and service updates
@@ -29,7 +28,6 @@ Benefits for the service provider include:
     
 
 Benefits for the service consumer include:
-
 *   Support of business agility; faster time to market for new and improved business products and services
 *   Seamless updates of business products and services
     
@@ -57,7 +55,6 @@ For products and components sourced outside the organization, development enviro
 ##### 2.2.2 Continuous integration, continuous delivery, and continuous deployment (CI/CD)
 
 The key concepts for deployment in Agile and DevOps are:
-
 *   **Continuous integration** Integrating, building, and testing code within the software development environment.
 *   **Continuous delivery** Continuous delivery means that built software can be released to production at any time. Frequent deployments are possible, but deployment decisions are taken on a case-by-case basis, usually because organizations prefer a slower rate of deployment.
 *   **Continuous deployment** Changes go through the pipeline and are automatically put into the production environment, enabling multiple production deployments per day. Continuous deployment relies on continuous delivery.
@@ -67,12 +64,10 @@ These approaches are supported by the software development and management, servi
 #### 2.3 Scope
 
 The scope of the deployment management practice includes:
-
 *   the effective movement (transition) of products, services, and service components between controlled environments, such as the development, test, staging, and live environments.
 *   the effective removal of products, services, and service components from designated environments.
 
 These additions, modifications, and removals can be part of authorized changes or releases which can be triggered by:
-
 *   new or changed service requirements
 *   new features or releases
 *   technical and operational changes
@@ -98,7 +93,6 @@ Several activities and areas of responsibility are not included in the deploymen
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The deployment management practice includes the following PSFs:
-
 *   establishing and maintaining effective approaches to the deployment of services and service components across the organization
 *   ensuring the effective deployment of services and service components in the context of the organization’s value streams.
 
@@ -113,7 +107,6 @@ The deployment management practice includes defining and agreeing a model or sev
 These models may use one deployment approach or combine deployment approaches, depending on their specific services and requirements, as well as the sizes, types, and impacts of the service components that are being deployed.
 
 Models can be defined for deploying services or service components of similar types. Such deployment models could be defined based on several factors, including:
-
 *   automation considerations
 *   costs/resource limitations
 *   expected frequency of the deployments
@@ -167,7 +160,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Deployment management activities form two processes:
-
 *   Deployment model development and improvement
 *   Deployment lifecycle management.
 
@@ -248,7 +240,6 @@ It is important to ensure the effective integration of the deployment management
 ##### 3.2.3.1 The key steps of a service value stream analysis
 
 The following are some simple and practical recommendations for service value stream analysis and mapping:
-
 **1\. Identify the scope of the value stream analysis**
 
 This can be mapped to a particular product or service or applied to most or all of them. Similarly, service value streams may differ for different consumers; for example, Deployments can be performed differently for internal and external service consumers, or for B2B and B2C products, Service category, services based on products developed inhouse or sourced externally, automated or manual deployment method, change models, waterfall or agile approach followed by the organization.
@@ -260,7 +251,6 @@ Make sure the stakeholders’ outcomes or concerns are clearly understood, since
 **3\. Do the value stream walk**
 
 Walk through or directly experience the steps and information flow as they go in practice (consider the Lean technique of Gemba walk):
-
 **a. Identify the workflow steps**
 
 **b. Collect data as you walk**
@@ -268,7 +258,6 @@ Walk through or directly experience the steps and information flow as they go in
 **c. Evaluate the workflow steps**
 
 Typically, the criteria for evaluation are:
-
 *   value for the stakeholder (does the step add value for the business stakeholder?)
 *   effective or performance (is the step performed well?)
 *   efficiency (is the step being performed in an optimal manner?)
@@ -329,7 +318,6 @@ Two practice-specific roles may be found in organizations: deployment manager an
 ##### 4.1.1 Deployment manager role
 
 A deployment manager role calls for a strong knowledge of the organization’s business, products and services, technology, platforms, frameworks, and processes. The role requires strong planning and project management skills and the ability and authority to coordinate teamwork. The competency profile for this role is LACM. This role is usually responsible for the planning, management, and coordination of deployment management as a practice as well as the deployment of individual releases, including:
-
 *   planning deployments
 *   ensuring the alignment of deployment plans with change/release plans, requirements, and objectives
 *   planning, coordinating, and ensuring the availability of the resources needed for the effective completion of deployments
@@ -344,7 +332,6 @@ In more complex organizations, some of the deployment management responsibilitie
 ##### 4.1.2 Deployment practitioner role
 
 A deployment practitioner role calls for strong technical skills and effective teamwork. The competency profile for this role is TAC. This role is usually responsible for effective deployments to the target environments in alignment with applicable requirements, objectives, and targets, including:
-
 *   acquiring, maintaining, and continually improving the skills and capabilities required for technical aspects of deployments
 *   contributing and assisting in deployment planning
 *   ensuring the integrity of components throughout the deployment practice
@@ -374,7 +361,6 @@ In a DevOps environment, deployment is often automated through the continual dep
 ##### 4.2.1 Team structures for deployment management
 
 Typically, in large organizations with significant volumes and complexity of deployments, deployment teams are structured in one of three ways:
-
 *   Product/service based
 *   Practice-based
 *   Deployment as a service.
@@ -396,7 +382,6 @@ The purpose of a deployment as a service team is to enable and support value str
 #### 5.1 Information exchange
 
 The effectiveness of the deployment management practice is dependent on the quality of the information used. This information includes, but is not limited to, information about:
-
 *   authorized repositories of service components and assets, such as IT asset databases and DML
 *   assets and configurations
 *   change and release plans
@@ -431,7 +416,6 @@ Where automation is possible and effective for deployment, it may involve the so
 ##### 5.2.1 Recommendations for the automation of deployment management
 
 The following recommendations can help when applying automation to deployment management:
-
 *   **Automate the end-to-end value stream** Automation of the deployment lifecycles should be integrated into the value streams including release management, change enablement, and, where relevant, activities of other management practices. A lack of integration complicates the value streams and reduces their effectiveness and efficiency. Consider implementing a CI/CD toolchain to support the end-to-end flow from development to operations but maintain the end-to-end approach to other value streams as well.
 *   **Infrastructure as code**  The adoption of digital infrastructure allows for the automation of deployment of infrastructure components using tools and methods similar to those used for the deployment of application software. This supports better integration of deployment in the value streams, faster deployment execution, and more effective control of the service components.
     
@@ -456,7 +440,6 @@ The deployment management practice and its PSFs can be enabled and enhanced thro
 <table><tbody><tr><td><p><strong>Sourcing area</strong></p></td><td><p><strong>Details</strong></p></td></tr><tr><td><p>People</p></td><td><p>Where deployment management activities are manual, resources could be sourced from a partner. Key considerations include the schedule of deployments, availability of internal resources, cost, and so on.</p></td></tr><tr><td><p>Technical/Non- technical skills and capabilities</p></td><td><p>Sourcing specific skills, including technical (about specific systems, technologies, platforms) and non-technical (planning, governing, and execution capabilities), are useful or even required in many deployment management activities. Key considerations include the variety and complexity of technical/service environments, dynamic technology environments, lack of appropriate internal resources, and so on.</p></td></tr><tr><td><p>Outsourced deployment management</p></td><td><p>In certain contexts, it may be necessary or useful to source the entire deployment management practice from a partner.</p></td></tr><tr><td><p>Tools and technologies for deployment</p></td><td><p>Several areas of the deployment management practice can be enhanced through the adoption of tools and technologies. Except in minor cases, these technologies, tools, and tool-chains are sourced from specific product/service providers.</p></td></tr></tbody></table>
 
 Partners and suppliers may support the development, management, and execution of the deployment management practice. The forms of support include the following:
-
 *   **Performing the deployment management activities** Some deployment management activities can be largely or completely performed by a specialized supplier. Third parties may get involved in deployment and the automation of deployment management activities. It is important to ensure effective integration of the third parties in the deployment, release management and software development management workflows and information exchange, as well as their adherence/compliance to relevant policies.
     
     Deployment strategy, practices and value streams should define how third parties are involved in deployment management and how the organization ensures effective collaboration. Once the end-to-end value stream is defined considering deployment management and key interfacing practices such as release management, service validation and testing and software development and management, further consideration of third-party dependencies is needed during building, testing and deployment activities.
@@ -472,7 +455,6 @@ Partners and suppliers may support the development, management, and execution of
 #### 7\. 1 The practice capability levels
 
 The practice success factors described in section 2.4 cannot be developed overnight. The ITIL maturity model defines the following capability levels applicable to any management practice:
-
 **Level 1** The practice is not well organized; it’s performed as initial or intuitive. It may occasionally or partially achieve its purpose through an incomplete set of activities.
 
 **Level 2** The practice systematically achieves its purpose through a basic set of activities supported by specialized resources.
@@ -532,7 +514,6 @@ Figure 7.2 The capability development steps and levels
 ## 8. Recommendations for practice success
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

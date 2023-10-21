@@ -9,7 +9,6 @@ weight: 1
 <table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the architecture management practice is to explain the different elements that form an organization. This practice explains how the elements interrelate to enable the organization to effectively achieve its current and future objectives. It provides the principles, standards, and tools that enable an organization to manage complex change in a structured and agile way.</p></td></tr></tbody></table>
 
 A comprehensive architecture management practice applies to all levels of an organization’s architecture. This includes the following:
-
 *   business architecture
 *   product and service architecture
 *   information systems architecture, including data and applications architecture
@@ -19,7 +18,6 @@ A comprehensive architecture management practice applies to all levels of an org
 The scope of the practice is defined by an organization’s position, vision, and strategy. For example, the architecture management practice of an internal IT service provider is likely to focus on the architecture of its products, services, information systems and technology. In other cases, the lower levels of technology architecture might be excluded from the scope, if third parties provide the infrastructure and platform for the organization. This is also likely to be reflected in the IT systems architecture. However, the architecture management practice should be developed consistently at all levels of the organization, as well as at all levels of the architecture.
 
 The architecture management practice should describe the organization’s service value system and resources of all four dimensions of service management, which are:
-
 *   organization and people
 *   information and technology
 *   processes and value streams
@@ -32,7 +30,6 @@ This is illustrated in Figure 2.1.
 **Figure 2.1 Architecture levels and the four dimensions of service management**
 
 The architecture management practice ensures that:
-
 *   the organization’s current architecture is understood and mapped to the organization’s strategy
 *   the target organization’s architecture is identified and agreed
 *   the organization’s architecture is continually optimized to achieve the target architecture.
@@ -78,7 +75,6 @@ The architecture management practice includes the definition of the scope and st
 ### 2.3 Scope
 
 The scope of the architecture management practice includes:
-
 *   understanding and describing the organization’s current architecture
 *   defining the target organization’s architecture and agreeing it with the relevant stakeholders
 *   continual optimization of the organization to meet the target architecture
@@ -97,7 +93,6 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective*.*
 
 The architecture management practice includes the following PSFs:
-
 *   ensuring that the organization's strategy is supported with a target architecture
 *   ensuring that the organization's architecture is continually evolving to the target state.
 
@@ -106,7 +101,6 @@ The architecture management practice includes the following PSFs:
 The organization’s architecture should be optimized to achieve and support its strategy. This will require a target architecture model.
 
 To develop an effective and realistic target architecture, architects need to understand the following:
-
 *   the organization’s strategy and its current performance
 *   the organization’s current architecture, benefits, and constraints
 *   major pain points and its mapping to the architecture
@@ -116,7 +110,6 @@ To develop an effective and realistic target architecture, architects need to un
 *   other relevant trends and factors.
 
 Analysing these areas will lead to an understanding of the current and desired state of the organization from the architecture perspective. Current and target architecture models can be developed based on this. The effectiveness of the architecture can be expressed in some of the following characteristics, depending on the organization’s strategy:
-
 *   scalability
 *   cost-effectiveness
 *   compatibility with other organizations
@@ -156,7 +149,6 @@ Key metrics for the architecture management practice are mapped to its PSFs. The
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, the architecture management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The architecture management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which this practice contributes are:
-
 *   engage
 *   deliver and support
 *   design and transition
@@ -177,7 +169,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Architecture management activities form three processes:
-
 *   architecture governance
 *   development of a target architecture and road map
 *   ongoing architectural control.
@@ -265,7 +256,6 @@ The key practice-specific role is the architect. This role can be specialized, s
 The role of an architect is key for the architecture management practice. As described in table 4.2 above, most practice activities are performed or managed by architects.
 
 The key competencies of an architect include:
-
 *   understanding the business strategy, business model, and operating model of the organization and the service consumers’ organizations
 *   understanding the environment in which the organization operates
 *   knowledge of technologies used by the organization and of developing technologies available to the organization
@@ -291,7 +281,6 @@ The architecture committee, which is sometimes called an architecture board, usu
 ### 5.1 Information exchange
 
 The effectiveness of the architecture management practice is based on the quality of the information used. This includes, but is not limited to, information about:
-
 *   organization’s strategy
 *   organization’s environment, key stakeholders
 *   organization’s portfolios: resources, products and services, customers
@@ -307,7 +296,6 @@ This information may take various forms. The key inputs and outputs of the pract
 ### 5.2 Automation and tooling
 
 The automation of the architecture management practice is focused around three main areas that enhance information exchange:
-
 *   office automation tools: document, spreadsheet, and presentation tools
 *   analysis and modelling tools, such as: computer-aided design, diagramming, and data modelling tools
 *   Communication tools, such as: workflow, task management, and omnichannel communication systems.
@@ -329,7 +317,6 @@ Both business and technology trends influence the product and service architectu
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the ITIL practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

@@ -45,7 +45,6 @@ The scope of the capacity and performance management is very broad. Many practic
 A practice success factor (PSF) is more than a task or activity, as it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The capacity and performance management practice includes the following PSFs:
-
 *   identifying service capacity and performance requirements
 *   measuring, assessing, and reporting service performance and capacity
 *   treating service performance and capacity risks.
@@ -53,7 +52,6 @@ The capacity and performance management practice includes the following PSFs:
 #### 2.4.1 Identifying service capacity and performance requirements
 
 Identifying service capacity and performance requirements includes:
-
 *   **Understanding customer requirements for service performance** The business analysis and SLM practices are normally used to communicate with customers in order to understand their performance and capacity requirements for IT services and negotiate the service level requirements (SLRs). The capacity and performance management practice supports and inputs into the SLM, business analysis, and service design practices. Capacity and performance management can be crucial for optimizing a service design to meet increasing capacity demands while deferring an increase in costs.
 *   **Determining performance and capacity criteria**The line between high and low performance should be clearly defined. The following factors should be considered when determining service performance criteria:
     *   service actions/functionality/vital business functions; service performance is defined by critical service actions
@@ -80,7 +78,6 @@ The capacity and performance management practice is not only about planning and 
 In the context of risk management, the risk identification, prioritization, and measurement stages are key to the capacity and performance management practice.
 
 The capacity and performance management practice ensures that risks will be treated effectively by:
-
 *   assessing the impacts of components’ capacity and performance on the end-to-end performance of products and services and identifying related vulnerabilities and constraints
 *   assessing the impacts of products’ and services’ capacity and performance on the user and customer experience
 *   designing effective controls and countermeasures to prevent, detect, and mitigate capacity and performance risks
@@ -103,7 +100,6 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, the capacity and performance management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The capacity and performance management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-
 *   deliver and support
 *   design and transition
 *   improve
@@ -123,7 +119,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 The capacity and performance management practice activities form two processes:
-
 *   establishing capacity and performance control
 *   analysing and improving service capacity and performance.
 
@@ -201,7 +196,6 @@ Managers and practitioners should complement their technical knowledge with comm
 ### 5.1 Information exchange
 
 The effectiveness of the capacity and performance management practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-
 *   component-based reports
 *   service-based reports
 *   performance exception reports
@@ -234,7 +228,6 @@ Where organizations aim to ensure fast and effective capacity and performance ma
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

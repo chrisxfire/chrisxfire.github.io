@@ -11,13 +11,11 @@ weight: 1
 The service financial management practice supports decision-making at many levels of the organization by providing reliable financial information. It provides visibility into the budgeting, costing, and accounting activities related to the products and services.
 
 The practice is mainly concerned with the economics of services, including:
-
 *   understanding and optimizing the financial aspects of service delivery and consumption
 *   understanding and optimizing the costs of the organization’s products throughout their lifecycle
 *   providing high-quality financial information about products and services to stakeholders.
 
 The practice typically does not cover those financial activities of an organization which are not directly related to the management of products and services, such as:
-
 *   investments and investment analysis
 *   credit, loans, and interest
 *   financial instruments that are not directly involved in product and service management.
@@ -25,7 +23,6 @@ The practice typically does not cover those financial activities of an organizat
 The practice supports these financial management activities with information about products and services, associated costs and revenue, cost allocation and dynamics, and other relevant data, analysis, and forecasts.
 
 The practice helps to ensure that the organization’s products and services are sufficiently funded by:
-
 *   providing information about the costs of products and services throughout their lifecycle
 *   planning and managing budgets for products and services
 *   anticipating and monitoring revenues from service delivery, if applicable.
@@ -37,7 +34,6 @@ Financial management in organizations is usually supported by specialized roles 
 <table><tbody><tr><td><p><strong>Examples:</strong></p></td></tr><tr><td><ul><li>In organizations where digital technology is treated as a minor supporting resource, the service financial management of this resource is the responsibility of the digital and IT team (or department). Details of the management of digital and IT product and service accounts are of low importance to the organization, as long as the total cost of the organization’s IT remains within the agreed budget.</li></ul><ul><li>Management decisions that may benefit from financial information about digital products and services reside within the digital and IT team. This typically results in a rudimentary service financial management practice for digital products and services; the key roles of the practice are performed by the executive IT manager and their management team.</li></ul><ul><li>In the age of business digitization and organizational digital transformation, organizations are realizing the ineffectiveness of this approach. The role of the service financial management practice for digital products and services is changing.</li></ul><ul><li>In digital organizations where the role of digital technology in the business is seen as core, the importance of digital products and services is much higher, as are the IT costs in the organization’s budget. In these organizations, decision-making at strategic and tactical levels relies on detailed and reliable financial information about digital products and services. As a result, the practice is supported by dedicated staff, tools, and management efforts.</li></ul></td></tr></tbody></table>
 
 The two example scenarios are extremes, and most organizations are somewhere in between. Either way, it is important to combine expertise in two areas:
-
 *   product and service management, with a particular focus on the following practices:
     *   architecture management
     *   workforce and talent management
@@ -51,7 +47,6 @@ The two example scenarios are extremes, and most organizations are somewhere in 
     *   financial analysis.
 
 Organizational solutions for this include:
-
 *   including financial professionals (finance business partners) in digital product teams, focusing on the service financial management practice
 *   including digital and IT business partner(s) within the finance team, focusing on digital products and services
 *   including a dedicated finance team within the IT department, focusing on the service financial management practice and collaborating with the finance team in the wider organization
@@ -60,7 +55,6 @@ Organizational solutions for this include:
 ### 2.2 Terms and concepts
 
 The service financial management practice helps decision-makers to understand and optimize the costs of digital products and services. This requires them to understand, capture, and model the:
-
 *   costs of resources used to create and deliver products and services
 *   distribution of the resources (and their costs) between products and services.
 
@@ -73,7 +67,6 @@ The resulting cost model is an important part of the organization’s approach t
 Once costs of products and services are understood, it is possible to allocate these costs to service consumers, customers and other cost objects.
 
 Based on this financial information, organizations can:
-
 *   optimize planning, procurement and utilization of resources
 *   improve portfolio decisions
 *   plan, optimize and control budgets
@@ -83,7 +76,6 @@ Based on this financial information, organizations can:
 #### 2.2.1 The cost of resources
 
 ITIL 4 suggests organizing organizations’ resources into four groups, known as ‘the four dimensions of service management’. They are:
-
 *   organizations and people
 *   information and technology
 *   partners and suppliers
@@ -94,7 +86,6 @@ All of the costs of all resources can be associated with one of these groups. Fr
 <table><tbody><tr><td><p><strong>Definitions:</strong></p></td></tr><tr><td><p>Cost</p><p>The amount of money spent on a specific activity or resource.</p><p>Cost type</p><p>The highest level of category to which costs are assigned in budgeting and accounting.</p></td></tr></tbody></table>
 
 Examples of cost elements in each of these categories include:
-
 *   organizations and people
     *   payroll
     *   travel
@@ -111,7 +102,6 @@ Examples of cost elements in each of these categories include:
     *   management activities.
 
 The cost elements above should be documented with more detail, down to the specific costs. This will lead to the discovery of costs that belong to different cost types. When organizations define and agree their approach to the practice, they should provide guidance for these situations. For example:
-
 *   Training for organization’s employees may be provided by an external provider, which could be categorized as either a ‘people’ or ‘supplier’ cost type.
 *   An IT server could be provided in a cloud by an external provider, which could be categorized as either a ‘technology’ or ‘supplier’ cost type.
 *   An audit of a product may be conducted by a joint team that includes external and internal auditors, which could be categorized as a ‘management’, ‘people’, or ‘supplier’ cost type.
@@ -145,7 +135,6 @@ In many cases, reasonably allocating indirect costs is difficult because a signi
 This method involves analysing all of the activities required to manage a product or deliver a service. The resources required to perform each activity (including both time and materials) are documented, the amount of each activity performed for each cost object is measured, and the agreed costs of that activity are allocated to the cost object.
 
 This is an accurate, but expensive and complex, method. It should only be used if:
-
 *   the costs of people’s activities constitute a significant part of the overhead
 *   a better understanding of the cost distribution across the cost objects may result in a significant improvement in decision-making
 *   there are sufficiently reliable and affordable ways to calculate or estimate the allocation of people’s time to the selected cost objects.
@@ -183,7 +172,6 @@ Budgeting consists of a periodic negotiation of future budgets and the ongoing m
 <table><tbody><tr><td><p><strong>Definition: Budget</strong></p></td></tr><tr><td><p>A documented estimate of all of the spending and earning of money during a particular period or initiative.</p></td></tr></tbody></table>
 
 Budgeting is the key mechanism of planning and providing funding for the resources necessary to meet the organization’s objectives. Budgeting answers fundamental business questions and helps to ensure that the answers are properly executed. Example questions include:
-
 *   Does the organization have the resources needed to meet its objectives?
 *   How many/much of the resources will we need and when?
 *   Where will the resources come from?
@@ -193,7 +181,6 @@ Budgeting is the key mechanism of planning and providing funding for the resourc
 Many of these questions cannot be answered without a good understanding of the organization’s costs. Good budgeting is based on a good cost model. However, budgeting is not limited to cost planning; it also includes estimating funding, whether it comes from sponsors (for example, an organization may sponsor all costs of its internal IT service delivery), service consumers paying for the services, or other sources.
 
 If funding includes or is fully based on the revenue from service delivery, charging becomes an important subject of financial planning. It includes:
-
 *   Pricing: defining prices and the associated terms and conditions for the service offerings. This include defining price units (chargeable units of service consumption), tariffs and plans, payment options, and so on. Pricing options include:
     *   **Cost-based pricing** Prices for service consumers are defined based on estimated or actual costs of the services for the service provider
     *   **Market prices** are based on the established price level on a particular market
@@ -205,7 +192,6 @@ If the agreed charging approach includes receiving money for the services provid
 ### 2.3 Scope
 
 The scope of the service financial management practice includes:
-
 *   defining and communicating an organization’s approach to service financial management
 *   planning product- and service-related costs and funding, and communicating and controlling budgets
 *   monitoring the actual costs and funding of products and services
@@ -224,7 +210,6 @@ There are some activities and areas of responsibility that are not included in t
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The service financial management practice includes the following PSFs:
-
 *   ensuring that the organization's service financial management supports its overall strategy and stakeholder requirements
 *   ensuring that reliable financial information is available as needed to support decision-making.
 
@@ -247,13 +232,11 @@ By following these principles, an effective service financial management approac
 Even where the service financial management practice is a subset of the wider organization’s financial management, it is important to ensure that this practice is not only focused on compliance and control. Its primary focus should be the provision of reliable financial information to the organization’s stakeholders. Management accounts should not be shared outside of organization, and service financial data is often classified as internal or confidential. At the same time, data should be available to the relevant stakeholders when needed in the best form to support decision-making.
 
 To achieve this, the practice should be used in close conjunction with other practices, especially those focused on providing management information. These include:
-
 *   knowledge management
 *   service configuration management
 *   IT asset management.
 
 In turn, the service financial management practice should inform management decisions in the scope of the other practices, including:
-
 *   strategy management
 *   risk management
 *   capacity and performance management
@@ -295,7 +278,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Service financial management activities form three processes:
-
 *   managing the organization’s approach to service financial management
 *   financial planning
 *   management accounting.
@@ -826,7 +808,6 @@ Good knowledge of the financial management approach
 #### 4.1.1 Service financial manager
 
 The role of the service financial manager is usually performed by team managers, programme and project managers, product owners, or service owners, depending on the service financial management approach adopted by the organization. This role requires the following competencies:
-
 *   analytical skills
 *   knowledge of financial management theory and practice
 *   good understanding of the organization’s architectures, products, and services
@@ -837,7 +818,6 @@ The role of the service financial manager is usually performed by team managers,
 ### 4.2 Organizational structures and teams
 
 As described in section 2.1, organizational solutions for the service financial management practice depend on the role of IT and IT management in the organization. Depending on this, the solutions may involve:
-
 *   including financial professionals (finance business partners) in digital product teams, focusing on the service financial management practice
 *   including digital and IT business partner(s) within the finance team, focusing on digital products and services
 *   including a dedicated finance team within the IT department, focusing on the service financial management practice and collaborating with the finance team in the wider organization
@@ -848,7 +828,6 @@ As described in section 2.1, organizational solutions for the service financial 
 ### 5.1 Information exchange
 
 The effectiveness of the service financial management practice is based on the quality of the information used. This includes, but is not limited to, information about:
-
 *   the organization’s strategy
 *   stakeholders’ needs and requirements
 *   the organization’s architectures
@@ -1208,7 +1187,6 @@ It is important to note that the service financial management information produc
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the ITIL practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

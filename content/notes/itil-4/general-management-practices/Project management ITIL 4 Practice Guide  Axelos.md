@@ -17,7 +17,6 @@ A programme may be comprised of projects across different areas of the organizat
 A project is typically focused on delivering a specific output; a programme’s focus is on the outcomes and benefits of enabling value for the organization and other stakeholders. Programmes usually last longer than individual projects.
 
 Both programmes and projects are distinguished from ongoing operations (often called ‘business as usual’) as they:
-
 *   introduce significant changes
 *   are temporary structures
 *   bring risks and opportunities above and beyond the normality of business as usual.
@@ -31,7 +30,6 @@ A BoK is a resource; providing the concepts, functions, and activities that make
 All project management BoKs describe how projects should be directed, managed, and delivered, however they all differ in terminology and lifecycle, which is why it is important to understand which BoK is behind the project that is driving the change. The main project management BoKs are the APM body of knowledge (APMBoK®), and the PMI body of knowledge (PMBoK®), although there are others to do with change management (CMBoK) and cybersecurity (CYBoK).
 
 In this practice guide, key terms and definitions are based on AXELOS PPM BoKs and methods, including:
-
 *   PRINCE2<sup>®</sup>
 *   PRINCE2 Agile<sup>®</sup>
 *   Managing Successful Projects<sup>®</sup>
@@ -124,7 +122,6 @@ There are three key levels of control in the PPM practice: direction, management
 #### 2.2.8 Managing programmes
 
 To manage a programme successfully, it requires:
-
 *   leadership
 *   vision
 *   focus on value.
@@ -132,7 +129,6 @@ To manage a programme successfully, it requires:
 ##### 2.2.8.1 Leadership
 
 Programmes translate the strategic objectives of the organization into specific purposes and objectives for individual projects. Leading and directing a programme provides the bridge between strategic objectives, business operations, and project delivery. Therefore, the key principles for effective leadership includes:
-
 *   the ability to create a compelling vision portraying a beneficial future and communicate it to a range of stakeholders
 *   empowered decision-making, giving individuals the autonomy to fulfil their roles effectively
 *   visible commitment and authority
@@ -141,7 +137,6 @@ Programmes translate the strategic objectives of the organization into specific 
 ##### 2.2.8.2 Vision
 
 A vision is a picture of a better future and is the vital focus and enabler for the acceptance, motivation, and activity alignment of the large community of stakeholders involved in any programme. The vision statement encapsulates the vision and is used to communicate a high-level impression of the desired ‘to-be’ state. A good vision statement:
-
 *   is written as a future state: a snapshot of the organization in the future
 *   can be easily understood by a wide variety of stakeholders
 *   is written for the broadest groupings of stakeholders as the target audience
@@ -166,7 +161,6 @@ Figure 2.7 illustrates the extent of the impact of benefits management within a 
 #### 2.2.9 Directing projects
 
 To direct a project successfully, the duties of a project board include:
-
 *   **Accountability** The project board is accountable to programme or corporate management for the success or failure of the project within the constraints defined in a project mandate.
 *   **Unified direction** This is about teamwork at project board level. While each project board member has accountability for satisfying the interests of a particular stakeholder category, it is crucial that a cohesive overall direction for the project is agreed and communicated.
 *   **Effective delegation** Project board members must delegate effectively using the PRINCE2 organization structure and controls designed for this purpose. A key feature of the method in this respect is the implementation of management stages: delegating the day-to-day management of the project to the project manager on a stage-by-stage basis. The project board defines the framework for how projects will be executed to ensure consistency across the enterprise.
@@ -181,7 +175,6 @@ To direct a project successfully, the duties of a project board include:
 Managing projects under an Agile approach requires a slightly different style compared with a waterfall project method. In traditional projects, the project manager is much more central to the decision-making process on a day-to-day basis. Whereas in an Agile situation, the team is empowered to make decisions within set parameters, and the project manager facilitates the evolution of the products rather than directs the work.
 
 To enable collaboration and self-organization, a project manager should:
-
 *   trust the team to deliver and not be as involved
 *   leave the team to work independently and not stifle their creativity
 *   trust the people who know best to deliver the right solution
@@ -192,7 +185,6 @@ To enable collaboration and self-organization, a project manager should:
 *   ensure that the team recognises that the customer is fully integrated into the team so that they deliver the business need.
 
 To maintain transparency and communication, a project manager should:
-
 *   clearly communicate the product vision to the team so that they know what they are building and why
 *   deliver something frequently that the customer/user can relate to in order to get fast feedback
 *   ensure the whole team, including the customer, is involved in the vision to gain maximum motivation
@@ -203,7 +195,6 @@ To maintain transparency and communication, a project manager should:
 *   ensure the needs of the customer representative are being met and that the evolving solution meets the business need.
 
 To maintain a healthy and inspiring work environment, a project manager should:
-
 *   work with the team managers to ensure the team bonds well
 *   make sure the team is trained in Scrum and has a good grounding in Agile delivery
 *   ensure the team knows what type of Agile approach is being used so that it can be tailored appropriately
@@ -214,7 +205,6 @@ To maintain a healthy and inspiring work environment, a project manager should:
 *   ensure the team understands the role of the ‘servant leader’ so that they understand the difference between coaching and direction.
 
 To successfully plan, monitor, and control, a project manager should:
-
 *   attend the daily stand-ups to know the status of the project
 *   focus on removing problems so that there are no blockers for the work
 *   make sure retrospectives are held frequently to improve delivery
@@ -229,7 +219,6 @@ To successfully plan, monitor, and control, a project manager should:
 #### 2.2.11 Delivering products in an Agile environment
 
 The delivery of products in an Agile environment relies on considering two major aspects that are inextricably linked:
-
 *   what to fix and what to flex
 *   prioritization and timeboxing/sprints.
 
@@ -250,7 +239,6 @@ Table 2.2 demonstrates PRINCE2 Agile views.
 Having decided what to fix and what to flex, the team needs to apply prioritization to those aspects they are going to flex in order to remain within the set timeframes.
 
 Prioritization may be based on the MoSCoW technique. The rules are quite specific:
-
 *   **Must have** requirements will provide the minimum viable product, which can be guaranteed to be delivered. This can be achieved by ensuring that no more than 60% of the effort in the timeframe is allocated to must have requirements.
 *   **Should have** requirements are important but not vital. The business may find it difficult if these are left out. It may necessitate and leave them with a costly workaround.
 *   **Could have** requirements are even less important and can be seen as a wish list with far fewer consequences on the end solution if left out. It is recommended that up to 20% of the effort of the timeframe be allocated to this category, providing a 20% tolerance for the timeframe.
@@ -261,7 +249,6 @@ With the priorities set, the team may now carry out the detailed planning at the
 ### 2.3 Scope
 
 The PPM practice draws on the abilities of the managers to plan, monitor, and control all aspects of a programme or project and motivate all those involved to achieve the objectives on time and to the specified cost, quality, and performance. This is achieved by:
-
 *   defining and continually aligning the project management approach with the stakeholders
 *   ensuring the project management approach is adopted and embedded in the organization
 *   directing projects
@@ -281,7 +268,6 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The PPM practice includes the following PSFs:
-
 *   establishing and maintaining an effective approach to programme and project management across the organization
 *   ensuring the successful realization of programmes and projects.
 
@@ -304,7 +290,6 @@ Ensuring consistency in the delivery of programmes and projects requires an obse
 There are many reasons why projects might fail, this can include: setting unrealistic expectations, poor methodology and requirements, inadequate resources, poor project management, and untrained team members. However, these things can be avoided by adopting effective practices and project management techniques that will help to establish a clear understanding of expectations and processes between all the stakeholders.
 
 Generally, there is a simple set of five rules that can help prevent projects failing:
-
 *   begin with the end in mind: start with a clear project scope
 *   build a project plan: visualize everything that needs to be done on a timeline
 *   do not be so connected to the plan: things can change and so does the plan
@@ -312,13 +297,11 @@ Generally, there is a simple set of five rules that can help prevent projects fa
 *   keep an eye on the quality: you cannot retrofit quality and poor quality delivers poor benefits.
 
 It is also important to look for signs showing that the project may be in trouble. Some of them could be:
-
 *   team morale starts to decline
 *   quality of outputs starts to deteriorate
 *   lack of communication.
 
 In organizations that embrace Agile, the ITIL guiding principles provide a useful extension to the five rules above:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback
@@ -342,7 +325,6 @@ Key metrics for the PPM practice are mapped to its PSFs. They can be used as KPI
 ### 3.1 Value streams contribution
 
 Like any other ITIL management practice, the PPM practice contributes to multiple value streams. It is important to remember that a value stream is never formed of a single practice. The PPM practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-
 *   design and transition
 *   obtain/build.
 
@@ -359,7 +341,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 The PPM practice activities form five major processes:
-
 *   managing the organization’s approach to PPM
 *   directing projects
 *   managing projects
@@ -465,7 +446,6 @@ The role accountable for all PPM activities is usually the practice owner. The c
 #### 4.1.1 Programme manager
 
 The responsibilities of the programme manager typically include:
-
 *   day-to-day management of the programme, including taking the programme forward from appointment, supervising, and controlling and closing the programme
 *   being the day-to-day agent on behalf of the programme sponsors, ensuring the successful delivery of the new capability
 *   planning and designing the programme and proactively monitoring its overall progress, resolving issues, and initiating corrective action where appropriate
@@ -494,7 +474,6 @@ The project manager is the single focus for the day-to-day management of a proje
 The skills needed for a project manager are more ‘hard-skills’, oriented to execute some responsibility or some activity in different areas of knowledge.
 
 The project manager’s professionalism is based on the proficiency in the following competency areas:
-
 *   management control
 *   benefits management
 *   financial management
@@ -518,7 +497,6 @@ The team manager’s prime responsibility is to ensure that the products are pro
 #### 4.1.4 Scrum master
 
 The Scrum master serves the product owner in several ways, including:
-
 *   ensuring that the goals, scope, and product domain are well understood by everyone on the Scrum team
 *   finding techniques for effective product backlog management
 *   helping the Scrum team understand the need for clear and concise product backlog items
@@ -528,7 +506,6 @@ The Scrum master serves the product owner in several ways, including:
 *   facilitating scrum events as requested or needed.
 
 The Scrum master serves the development team in several ways, including:
-
 *   coaching the development team in self-organization and cross-functionality
 *   helping the development team to create high-value products
 *   removing impediments to the development team’s progress
@@ -536,7 +513,6 @@ The Scrum master serves the development team in several ways, including:
 *   coaching the development team in organizational environments in which Scrum is not yet fully adopted and understood.
 
 The Scrum master serves the organization in several ways, including:
-
 *   leading and coaching the organization in its Scrum adoption
 *   planning Scrum implementations within the organization
 *   helping employees and stakeholders understand Scrum and practical product development
@@ -548,7 +524,6 @@ The Scrum master serves the organization in several ways, including:
 The structure of project teams may vary from project to project, and depends heavily on the approach taken for project management.
 
 In PRINCE2, there are nine roles which are defined with specific responsibilities. They relate to project direction, project management, and project delivery; although in the case of project delivery, PRINCE2 only refers to the team manager and not the members of the delivery team. The roles are listed below:
-
 *   project board
 *   executive
 *   senior user
@@ -570,7 +545,6 @@ The structure of the team should be decided for each project based on the organi
 ### 5.1 Information exchange, inputs/outputs
 
 The effectiveness of the PPM practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-
 *   customers, users, and other project stakeholders
 *   the product of project, user, and customer requirements
 *   the organization’s approach to change and projects
@@ -983,7 +957,6 @@ Organizations switch from outsourcing the function or process in the overall pro
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

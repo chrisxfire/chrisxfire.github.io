@@ -65,7 +65,6 @@ The service desk practice is also used for collecting information about user sat
 ### 2.3 Scope
 
 The scope of the service desk practice includes:
-
 *   establishing and maintaining communication channels and interfaces between the service provider and users
 *   communicating with users
 *   enabling, logging, and tracking communications between the service provider and users.
@@ -83,7 +82,6 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The service desk practice includes the following PSFs:
-
 *   enabling and continually improving effective, efficient, and convenient communications between the service provider and its users
 *   enabling the effective integration of user communications into value streams.  
     
@@ -93,7 +91,6 @@ The service desk practice includes the following PSFs:
 The support channels available to users and customers should be efficient, effective, and convenient. Convenience can be achieved by providing users and customers with channels which meet their needs. Users’ needs may change depending on the geographical region, time of day, preferred language, and accessibility requirements. The more convenient the service becomes, the better the user experience will be.
 
 The choice of communication channels and interfaces is defined by multiple factors, including:
-
 *   service relationship model  
     \- internal or external  
     \- commercial or subsidized  
@@ -125,7 +122,6 @@ When service channels are selected and designed, it is important to consider use
 <table><tbody><tr><td><strong>Communication channels</strong></td><td><strong>Challenges</strong></td></tr><tr><td>Voice and video calls</td><td>Limited scalability<br>Unstructured information<br>Subjective attitudes and emotions</td></tr><tr><td>Live chat</td><td>Limited accessibility<br>Limited scalability<br>Unstructured information<br>Subjective attitudes and emotions</td></tr><tr><td>E-mail</td><td>Limited accessibility<br>Delayed response<br>Gaps in communication flow<br>Unstructured information</td></tr><tr><td>Walk-in</td><td>Incomplete or delayed recording<br>Limited accessibility<br>Very limited scalability<br>Unstructured information<br>Subjective attitudes and emotions</td></tr><tr><td>Social media and messengers</td><td>Viral effect, high exposure of mistakes and conflicts<br>Subjective attitudes and emotions<br>Unstructured information<br>Security constraints</td></tr></tbody></table>
 
 These challenges can be addressed with the following solutions:
-
 *   investing in support agents’ professional development, emotional intelligence, awareness of diverse cultures, and interests
 *   limiting human support to where it is needed and justified
 *   leveraging available resources to automate the logging of unstructured information, where appropriate
@@ -137,7 +133,6 @@ These challenges can be addressed with the following solutions:
 <table><tbody><tr><td><strong>Communication channels</strong></td><td><strong>Challenges</strong></td></tr><tr><td>Web portals, interactive voice (phone) menus, mobile applications, chatbots, and so on</td><td>Limited range of tasks can be fulfilled by users at their security level<br>Insufficient and inadequate data<br>Insufficient and inadequate user technology skills<br>Lack of service empathy<br>Limited applicability to complicated and complex situations</td></tr></tbody></table>
 
 These challenges can be addressed with the following solutions:
-
 *   Assess user skills and available range of support actions before implementing self-help.
 *   Use channels and interfaces familiar to users.
 *   Ensure a high quality of support history data and knowledge.
@@ -184,7 +179,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
 
 Service desk activities form three processes:
-
 *   user query handling
 *   communicating to users
 *   service desk optimization.  
@@ -351,7 +345,6 @@ Roles are described in the context of processes and activities. Each role is cha
 The common roles of the service desk practice are service desk manager and service desk agent.
 
 The service desk manager is responsible for planning, coordination and improvement of the service desk team(s) within the service provider organization. This involves:
-
 *   Understanding of the skills and competencies required to fulfil the roles of the team in the service desk and other management practices
 *   Understanding, planning, and ensuring the capacity and performance of the service desk team
 *   Onboarding, training, development, and promotion of the service desk agents
@@ -363,7 +356,6 @@ The service desk manager is responsible for planning, coordination and improveme
 The service desk manager usually also acts as the service desk practice manager, ensuring the practice ongoing performance and continual improvement. In this role, a service desk manager is also responsible for effective automation of the practice, its integration in the service provider’s value streams, and effective use of the third-party resources.
 
 The service desk agent, also often called the service desk analyst, is a member of the service desk team. Service desk agents:
-
 *   Perform the service desk activities described in section 3
 *   Act as relationship agents, ensuring a great user experience and high user satisfaction
 *   Participate in the activities of other practices as required in the context of the service value streams
@@ -400,7 +392,6 @@ There are several common ways of organizing a dedicated user communication team,
 This organizational model works when the service desk is physically capable of managing omnichannel communication. In other words, where the user base is compactly located; for example, in a single office space for all of the customer service staff, a single team is available even for the walk-in channel, and the local service desk organization is applicable.
 
 This advantages of this are:
-
 *   Quick and efficient communications within the team and across the service provider organization. The service desk team should, where possible, be physically located between other service provider teams so that it can learn about news and changes quickly.
 *   Easy human-to-human contact. The service desk team creates trust and presents the service provider as accessible resource.
 
@@ -415,12 +406,10 @@ Physical proximity can cause dependencies on specific individuals, rather than s
 This model is similar to the local service desk team model; the user base is spread over multiple locations but there are still physical communication channels between the users and the service desk team. Each geographical area of users is linked to a dedicated service desk team, and each service desk team coordinates their efforts through the application of common communication standards.
 
 The advantages of this are:
-
 *   Ability to expand the service provider presence as the customer organization or the number of customers grows, while maintaining presence and communication standards. Service actions are an important component of any service offering; ensuring that service actions are observable is important for maintaining a positive and cooperative reputation.
 *   Swiftness of reaction to user queries. The distributed service desk organization is most beneficial to users, as they receive the same consistent and swift response to their service queries across all locations.
 
 The challenges of this are:
-
 *   Coordination and automation. As teams are distributed, they require a consistent collaboration environment understand current organizational events. All teams require similar and consistent training and controls. Some service providers adapt to workplace commute times (for example, when all team members are within the same metropolitan area) by adopting a single roster for distributed teams to manage demand fluctuations and relieve duties.
 *   Distributed service desk results in the duplication of expertise and managerial overhead, however much it is automatically coordinated. Generally, the more non-communication tasks are handled by service desk staff (handling model incidents, IMAC requests, or providing support to users), the more duplication of effort can occur among teams. A service provider should critically examine the valueof a distributed service desk (for example, face-to-face interactions) against the coordination challenges and shared costs of a redundant arrangement.  
     
@@ -428,7 +417,6 @@ The challenges of this are:
 ###### 4.2.1.3 Hybrid service desk organization
 
 Most service providers need to choose an optimal point on the spectrum between a local and virtual organizational model. Several known compromises can be made in this trade-off:
-
 *   **Concierge service** Instead of having a distributed network of redundant service desk teams, a service provider can decide to have a limited number of staff and service actions delivered on customer sites, with a centralized tracking system for user queries. The concierge service is an arrangement where a small number of service desk agents are present on customer premises to handle walk-in queries during business hours. These agents can autonomously address basic end- user tasks, such as OS glitches and business application support, major announcements, and customer communication (as opposed to user communication), or even minor IMAC queries, if a small stock of minor components (keyboards, batteries, and so on) can be maintained on site. If issues exceed their expertise or if the queue to their bar exceeds a certain threshold, they escalate the query via a known route. These queries are managed at a central virtual location. Concierge- handled queries must be recorded in a central query management tool alongside other queries (phone, online, and so on). This is a reasonable and highly anticipated compromise to a distributed service desk team, aligning closely with digital transformation efforts in the corporate world.
 *   **Offshore and shared service desk teams** This is a practice inherited from call centres where, depending on the origin of a call, an operator uses different ‘playbooks’ to process a caller’s requests. Some large global service providers and consumer technology vendors create large service desk hubs in low labour cost locations to provide a relatively low-cost service desk practice. Despite the challenges of this highly virtualized approach, the low price can significantly drive demand for this model.  
     
@@ -442,19 +430,16 @@ A virtual service desk team may structurally resemble the local or distributed t
 Lack of physical (walk-in) interactions between the virtual service desk agents and users is partially compensated by more advanced communication channels such as video calls and conferences.
 
 The advantages are of the virtual service desk are:
-
 *   Less pressure on the team. A technology barrier helps to create cadence and reduces improper communication between parties.
 *   Lower costs. Reduced or completely removed costs of the service desk location(s) (office) may significantly optimize overall costs of the team and the practice.
 
 The challenges are:
-
 *   The service provider must commit to extensive and ongoing investments in automation tools that enable various communication channels and record management. Automated tools (described in section 5.2) should ensure that customers can submit queries quickly and conveniently and find relevant service provider communications easily. Users who seek human-to-human interaction, should be provided with a variety of convenient and highly available tools, such as online chat, video and audio calls.  
     
 
 ##### 4.2.2 Service desk sizing
 
 There is no single method of determining how many service desk teams a service provider needs. Analysis can start with a simple mind map of the key factors that influence the workload. The factors include:
-
 *   service desk organization type
 *   the queueing theory or Erlang variables (query arrival rate, acceptable waiting time, dropout rate, length of queue, and so on)
 *   additional workload generated for the service desk team by other practices (incidents, service requests, surveys, and so on)
@@ -466,7 +451,6 @@ There is no single method of determining how many service desk teams a service p
 ### 5.1 Information exchange
 
 The effectiveness of the service desk practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-
 *   users
 *   services, including service catalogue and request catalogue, and service levels
 *   knowledge management systems
@@ -495,7 +479,6 @@ Detailed descriptions of how these tools support the practice’s activities are
 5.2.1 Recommendations for automation of service desk
 
 The following recommendations can help when applying automation to the service desk:
-
 *   Design for the value streams Service desk as point of contact provides interface to various value streams; it has little value when implemented and automated in isolation. Even if at the beginning the integration is limited to handling of incidents and service requests, make sure that wider integration with other practices is supported by the automation system.
 *   Make it omnichannel Ensure that the toolset supports seamless integration with multiple communication channels, including social media, email, phone, in-app chats, corporate collaboration systems and more. It may be not necessary to activate all available channels at once, but make sure that the integration is possible.
 *   Ensure integration with knowledge management system Service desk team is very likely to be involved in multiple value streams, providing consultations and resolutions to the users. Although these activities are out of scope of the service desk practice, they usually involve both service desk team and service desk information system.
@@ -509,7 +492,6 @@ The following recommendations can help when applying automation to the service d
 Very few services are delivered using only an organization’s own resources. Most, if not all, depend on other services, often provided by third parties outside the organization (see section 2.4 of the ITIL Foundation: ITIL 4 Edition publication for a model of a service relationship). Relationships and dependencies introduced by supporting services are described in the ITIL practice guides for supplier management and service level management.
 
 Partners and suppliers may support the development, management, and execution of the service desk practice. The forms of support include the following:
-
 *   **Performing service desk activities** Service desk teams are often considered as a first step in the career ladder of the IT service provider. Together with high workload and sometimes high level of stress, this leads to a high turnover rate in many service desk teams. This, in turn, creates the need for fast onboarding of new service desk agents, supported by well-documented and highly formalized procedures that can be learned and followed after minimal training. All these have made outsourcing and out-staffing of service desk work possible, and many organizations experiment with third-party resources working in the service desk teams.
 
 The applicability and success of this approach depend on many factors, including:
@@ -529,7 +511,6 @@ The applicability and success of this approach depend on many factors, including
 ### 7.1 The practice capability levels
 
 The practice success factors described in section 2.4 cannot be developed overnight. The ITIL maturity model defines the following capability levels applicable to any management practice:
-
 **Level 1** The practice is not well organized; it’s performed as initial or intuitive. It may occasionally or partially achieve its purpose through an incomplete set of activities.
 
 **Level 2** The practice systematically achieves its purpose through a basic set of activities supported by specialized resources.
@@ -589,7 +570,6 @@ Figure 7.2 The capability development steps and levels
 ## 8. Recommendations for practice success
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the ITIL practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

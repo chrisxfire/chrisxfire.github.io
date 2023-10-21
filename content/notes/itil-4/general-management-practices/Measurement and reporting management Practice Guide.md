@@ -27,14 +27,12 @@ Measurement is not the only aid to successful management. Many management challe
 Measurements provide information that can be used to make decisions and pinpoint issues, which can be tackled with management efforts and assure a reliable foundation for motivation.
 
 Measurements have no intrinsic value. They only become valuable when applied in a management context. Measurements can help with four management tasks<sup>1</sup>:
-
 *   **Influencing behaviour** By defining measurable targets, an organization sets the direction for activities and expectations for outcomes. Each objective should have one or more indicators to enable the assessment of progress.
 *   **Justifying changes** Any improvement initiative (or any change) requires justification. Metrics that display negative trends or deviations from target values are quantitative arguments for change.
 *   **Validating decisions** Measurements help to ensure that activities have been completed, staff work towards targets, and decisions yield the desired outcomes.
 *   **Intervening** Metrics, especially leading indicators (see section 2.2.2.5), are triggers for corrective actions.
 
 The most common measurement categories are:
-
 *   **Performance** What is achieved by the managed object?
 *   **Maturity** Does the object have necessary capabilities to fulfil its purpose?
 *   **Compliance** Does the object comply with internal and/or external requirements?
@@ -42,7 +40,6 @@ The most common measurement categories are:
 ##### 2.2.1.2 Methods of measurement
 
 There are two common methods of measurement:
-
 *   calculations based on data from tracking and monitoring tools
 *   surveys.
 
@@ -99,7 +96,6 @@ KPIs help to assess the state of an object in terms such as ‘good’ or ‘bad
 The majority of indicators used for services and practices also have a ‘target trend’: they should either rise or decline. For example, the timeliness of completing changes should increase, and time-to-market (TTM) should decrease. In these examples, the bands of tolerance are mono-directional. If the target trend of an indicator is growth, then its tolerance will be lower than the target value.
 
 To use metrics as KPIs, it is important to:
-
 *   identify the key metrics
 *   define target values and trends
 *   define tolerances.
@@ -117,12 +113,10 @@ Information based on measurement is usually presented as reports or dashboards. 
 Reports and dashboards should make it easy for the stakeholder to see what needs to be done and take action.
 
 A good report or dashboard should answer two main questions:
-
 *   where are we compared to the agreed targets?
 *   what prevents us from achieving better results?
 
 To support decision-making, reports usually include data analysis, such as a comparison of:
-
 *   current metrics’ values with targets
 *   current metrics’ values with past values
 *   different (relevant) current metrics.
@@ -140,7 +134,6 @@ Operational reports are fact-based, including calculations, comparisons, correla
 If automated, operational reports can be produced promptly and often (daily or multiple times per day). This makes operational reports sources of very recent data.
 
 A dashboard is an operational report with the following key properties:
-
 *   It displays only the most relevant data.
 *   All data is presented on a single screen.
 *   It is accessible online (in contrast to paginated reports, which are usually distributed through email or on paper).
@@ -158,7 +151,6 @@ Analytical reports are usually paginated and published in a designated area or s
 ### 2.3 Scope
 
 For the agreed managed objects, the measurement and reporting practice includes:
-
 *   defining a measurement and reporting approach
 *   ensuring that the agreed approach is followed across the organization
 *   consistently integrating measurement and reporting activities into the organization’s value streams
@@ -178,7 +170,6 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The measurement and reporting practice includes the following PSFs:
-
 *   ensuring that measurements are driven by objectives
 *   ensuring the quality and availability of measurement data
 *   ensuring effective reporting to support decision-making.
@@ -242,7 +233,6 @@ Aggregating KPIs can be difficult because they are often expressed in different 
 where K is the actual value of the metric, T is the target value, and M is the threshold.
 
 This formula helps to express various metrics in normalized percentage ratings. Their values can be grouped into zones:
-
 *   a green zone representing achieved target (100%)
 *   a yellow zone representing performance between threshold and target values
 *   a red zone for performance below the threshold (0%).
@@ -260,7 +250,6 @@ There are multiple approaches to aggregating KPIs, including weighted arithmetic
 ##### 2.4.1.6 Summary
 
 So, there are five steps:
-
 *   define the objectives
 *   identify success factors
 *   select metrics and measurement tools
@@ -276,7 +265,6 @@ The example below illustrates how the described approach could be applied to a m
 #### 2.4.2 Ensuring the quality and availability of measurement data
 
 Without data, there are no reports. If data is incomplete, inaccurate, or inconsistent, poor decisions might be made. Ensuring data quality and availability is a critical part of the measurement and reporting practice. High-quality data should be intrinsically good, contextually appropriate for the task, clearly represented, and accessible to the data consumer:
-
 *   **Intrinsically good** includes the accuracy, objectivity, believability, and reputation of the data source.<sup>3</sup>
 *   **Contextually appropriate** data is useful and valuable in the given context. It includes completeness, relevancy, timeliness, and volume.
 *   **Clearly** represented data is understandable, consistent, and interpretable.
@@ -289,7 +277,6 @@ The practice also defines requirements for monitoring and measurement tools (see
 #### 2.4.3 Ensuring effective reporting to support decision-making
 
 To ensure that reports help with decision-making, reports should be designed to answer the following questions:
-
 *   **Who is the report consumer?** The report consumer is the manager whose decisions will be supported by the report. This person is the main source of requirements.
 *   **What is the purpose of the report?** What decisions it is supposed to support?
 *   **Who will generate and work with the report?**  
@@ -317,7 +304,6 @@ The correct aggregation of metrics into complex indicators (see 2.4.1) will make
 ### 3.1 Value streams contribution
 
 Like any other ITIL management practice, the measurement and reporting practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The measurement and reporting practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-
 *   plan
 *   improve
 *   design and transition
@@ -338,7 +324,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
 
 The measurement and reporting practice forms two processes:
-
 *   designing the measurement and reporting system
 *   reporting and evaluating.
 
@@ -566,7 +551,6 @@ Practical aspects of the measurement system development and the ongoing manageme
 ### 5.1 Information exchange, inputs/outputs
 
 The effectiveness of the measurement and reporting practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-
 *   organization’s objectives of various levels
 *   organization’s portfolios and service offerings
 *   external reporting requirements
@@ -581,7 +565,6 @@ Information which is gathered and processed is primarily used for producing repo
 Metrics are usually presented as reports or dashboards, which are intended to support good decision-making. They should be relevant to the recipients of the information and related to the required topic. Reports and dashboards should make it easy for the recipient to see what needs to be done and then take action.
 
 The content, structure, and representation of information in reports directly impact the efficiency of decision-making. To support the decision-making process, reports should include not only the measured data, but also the result of processing, and sometimes data analysis, including:
-
 *   targets vs actual values, to detect deviations from and assessment of the current state
 *   KPI behavior over time, to identify trends and dynamics
 *   comparing and correlating KPIs, to analyse trends and identify bottlenecks.
@@ -603,7 +586,6 @@ Suppliers and partners provide services to the organization and contribute to th
 Suppliers might also play a significant role in measurement and reporting, enhancing the organization’s capabilities with data management, reporting, and analytics. The development of reporting and dashboarding tools and apps for advanced analytics made external measurement and reporting services very popular. Also, there are many built-in monitoring tools, built-in reporting and analytics functionalities within service management tools, and others that are available as a part of vendors’ service offerings.
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

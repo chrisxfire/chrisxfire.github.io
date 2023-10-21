@@ -8,7 +8,6 @@ weight: 1
 ## 1. About this document
 
 It is split into five main sections, covering:
-
 *   general information about the practice
 *   the practice’s processes and activities and their roles in the service value chain
 *   the organizations and people involved in the practice
@@ -18,7 +17,6 @@ It is split into five main sections, covering:
 ### **1.1 ITIL® 4 Qualification scheme**
 
 Selected content of this document is examinable as a part of the following syllabus:
-
 *   **ITIL Specialist** High-Velocity IT
 
 Please refer to the relevant syllabus document for details.
@@ -64,7 +62,6 @@ ISO defines a disaster as ‘a situation with a high level of uncertainty that d
 It is usually a good idea to explicitly define the list of events which are considered to be disasters. Doing so helps when developing a proper set of service continuity plans, which ensures organizational readiness for disruptive events.
 
 A list of disasters generally includes:
-
 *   cyber attacks
 *   electricity outages
 *   failures of strategic partners
@@ -75,12 +72,10 @@ A list of disasters generally includes:
 *   natural disasters.
 
 Defining those events which are not disasters is equally important. Usually, the service continuity management practice does not cover:
-
 *   **Minor failures**. Failures should be considered minor or major based on business impact. It is important to consider factors such as the service actions that are affected, the scale of failure, time of failure, and so on<sup>2</sup>.
 *   Strategic, political, market, or industry events.
 
 To successfully recover from a disaster, a service provider should define the service continuity requirements. Service continuity requirements include:
-
 *   recovery time objective (RTO)
 *   recovery point objective (RPO)
 *   minimum service continuity levels (see Figure 2.1).
@@ -94,7 +89,6 @@ Figure 2.1 Service continuity requirements: RTO, RPO, minimum target service lev
 <table><tbody><tr><td><p><strong>Definition: Recovery time objective</strong></p></td></tr><tr><td><p>The maximum period of time following a service disruption that can elapse before the lack of business functionality severely impacts the organization. This represents the maximum agreed time within which a product or an activity must be resumed, or resources must be recovered.</p></td></tr></tbody></table>
 
 The main factors that should be considered in estimating the RTO are:
-
 *   the reduction in a service provider’s ability to deliver services and the costs associated with this reduction
 *   Service level agreement fines and regulatory judgments
 *   losses associated with diminished competitive advantage and reputation.
@@ -102,7 +96,6 @@ The main factors that should be considered in estimating the RTO are:
 Business continuity professionals also use the term ‘maximum tolerable period of disruption/maximum acceptable outage (MAO)’ and distinguish them from the RTO.
 
 ISO 22301:2012 provides the following definitions:
-
 *   MAO The time it would take for adverse impacts, which might arise as a result of not providing a product/service or performing an activity, to become unacceptable.
 *   RTO The period of time following an incident within which a product or an activity must be resumed, or resources must be recovered.
 
@@ -115,7 +108,6 @@ Following this logic, the RTO should be less than the MAO by an amount which acc
 RPO defines the period of time of acceptable data loss. If the RPO is 30 minutes, there should be at least one backup 30 minutes prior to a disruptive event so that, when the service is recovered, the data from the time 30 minutes or less prior to the disruptive event will be available when service delivery is resumed.
 
 The main factors that should be considered in estimating the RPO are:
-
 *   criticality of the service that used the data
 *   criticality of the data
 *   data-production rate.
@@ -131,7 +123,6 @@ The RPO defines the requirement for backup frequency. Backup management must ens
 While recovering from a disaster, a service provider should usually provide the service at some minimum target service level. Even though there are no specific requirements from the customer, achieving a minimum service level can help to minimize losses.
 
 The minimum target service level is usually defined in terms of:
-
 *   list of specific service actions and functionality points that should available to the users during a disruption
 *   limited number of users or specific group of users who should have access to the service during a disruption
 *   limited number of transactions per time period that users should be able to process during a disruption.
@@ -143,7 +134,6 @@ The minimum target service level is usually defined in terms of:
 Business impact analysis (BIA) is a process of analysing activities and the effect that a disruption might have on them<sup>5</sup>.
 
 According ISO 22301, business impact analysis should include:
-
 *   identifying activities that support the provision of products and services
 *   assessing the impacts over time of not performing these activities
 *   setting prioritized timeframes for resuming these activities at a specified minimum acceptable levels, considering the time within which the impacts of not resuming them would become unacceptable
@@ -156,13 +146,11 @@ According ISO 22301, business impact analysis should include:
 Service continuity plans guide the service provider when responding, recovering, and restoring a service to normal levels following disruption.
 
 Service continuity plans usually include:
-
 *   Response plan This defines how the service provider initially reacts to a disruptive event in order to prevent damage, such as in cases of fire or cyber-attack.
 *   Recovery plan This defines how the service provider recovers the service in order to achieve the RTO and RPO.
 *   Plan of returning to normal operations This defines how the service provider resumes normal operations following recovery. For example, if an alternative data centre has been in use, then this phase will bring the primary data centre back into operation and restore the ability to invoke IT service continuity plans again.
 
 In many a case, there is also a need for business continuity planning. Business continuity plans may include:
-
 *   emergency response to interface with all emergency services and activities
 *   evacuation plan to ensure the safety of personnel
 *   crisis management and public relations plan plans for the command and control of different crises and the management of the media and public relations
@@ -174,7 +162,6 @@ These plans are usually developed as part of the business continuity management 
 ### **2.3 Scope**
 
 The service continuity management practice includes the following areas:
-
 *   performing BIA to quantify the impact of service unavailability to the service provider and service consumers
 *   developing service continuity strategies (and integrating them into the business continuity management strategy, if relevant). This should include elements of risk mitigation measures as well as the selection of appropriate, comprehensive recovery options
 *   developing and managing service continuity plans (and providing a clear interface to business continuity plans, if relevant)
@@ -229,7 +216,6 @@ An effective service continuity management practice can contribute significantly
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The service continuity management practice includes the following PSFs:
-
 *   developing and managing service continuity plans
 *   mitigating service continuity risks
 *   ensuring awareness and readiness.
@@ -241,7 +227,6 @@ To effectively respond to and recover from disasters, a service provider needs s
 Therefore, in order to develop and manage service continuity plans, the service provider should first perform BIA, then select the proper set of service continuity requirements, then define the service continuity strategy.
 
 The Business Continuity Institute (BCI) defines the following continuity strategies<sup>6</sup>:
-
 *   diversification
 *   replication
 *   standby
@@ -305,7 +290,6 @@ Recovery plans that have not been tested, often do not work as intended, if at a
 Testing service continuity plans is the way to check and increase readiness. By regularly revising the plans and procedures, recovery teams discover flaws and inefficiencies, then update the service continuity plans in order to reflect their findings.
 
 BCI defines the following types of exercises<sup>10</sup>:
-
 *   walkthrough
 *   table-top exercises
 *   command-post exercises
@@ -339,7 +323,6 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### **3.1 Value stream contribution**
 
 Like any other ITIL management practice, service continuity management contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The service continuity management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-
 *   deliver and support
 *   design and transition
 *   improve
@@ -359,7 +342,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Service continuity management activities form five processes:
-
 *   governance of service continuity management
 *   business impact analysis
 *   developing and maintaining service continuity plans
@@ -499,7 +481,6 @@ During the recovery process, the organizational structure is generally based aro
 ### **5.1 Information exchange, inputs/outputs**
 
 The effectiveness of the service continuity management practice is based on the quality of the information used. This information can include:
-
 *   consumer’s business processes
 *   services and their architecture and design
 *   partners and suppliers and information on the services they provide
@@ -529,7 +510,6 @@ Partners and suppliers may also provide continuity services and solutions, such 
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

@@ -13,7 +13,6 @@ weight: 1
 Portfolio management plays an important role in allocating, deploying, and managing resources across the organization.
 
 Portfolio management encompasses several portfolios, including:
-
 *   **Product and service portfolio** The complete set of products and services that are managed by the organization, representing the organization’s commitments and investments across all of its customers and market spaces. It also represents current contractual commitments, new product and service development, and ongoing improvement plans.
 *   **Programme and project portfolio** Used to manage and coordinate projects, ensuring that objectives are met within time and cost constraints and to their specifications. The project portfolio also ensures that projects are not duplicated and stay within the agreed scope, and that resources are available for each project. It is used to manage single projects as well as large-scale programmes. It supports organization’s product and service portfolio and improvements to the organization’s practices and service value system (SVS).
 *   **Customer portfolio** Reflects the organization’s commitment to serving certain service consumer groups and market spaces. It might influence the structure and content of the product and service portfolio and the project portfolio. The customer portfolio is used to ensure that the relationship between business outcomes, customers, and services is well understood.
@@ -41,7 +40,6 @@ The portfolio management practice includes identifying and quantifying constrain
 The key principle for the portfolio management practice is focus on value. In the context of this practice, prioritization is a process of determining where investments will add the most value. Prioritization means identifying which portfolio initiatives should be funded and implemented first, suspended, or retired.
 
 The factors that are considered in prioritization include:
-
 *   degree of strategic alignment
 *   resource availability or quality
 *   effort required
@@ -73,7 +71,6 @@ A/B testing is one of the faster, more efficient cost-benefit techniques that is
 A portfolio is optimized when the organization managing the portfolio generates the highest value return by selecting the most appropriate investments.
 
 Portfolio items should be reviewed and assigned one of the following categories:
-
 *   **Retain** Portfolio items that perform according to the initial value proposition, have positive value realization monitoring reports, and are aligned with and relevant to the organization’s strategy.
 *   **Promote** Portfolio items that exceed the planned value realization, gain a better market share or get better market response than expected, and that are aligned with and relevant to the organization’s strategy. These portfolio items may get additional investment.
 *   **Retire** These portfolio items no longer meet a business objective or strategy. They may be identified by customers or technical groups, but many will only be identified during the service portfolio review.
@@ -81,7 +78,6 @@ Portfolio items should be reviewed and assigned one of the following categories:
 *   **Renew or rationalize** These portfolio items still have value realization potential, but they need to be renewed to align with the changed technology, operational, market, or consumer requirements. Rationalization also applies to portfolio items with unclear or overlapping business functionalities.
 
 There is a simpler technique called buy/hold/sell that follows the same approach:
-
 *   **Buy** invest in improving or extending the product
 *   **Hold** spend as little as possible to maintain the product, as long as the costs are affordable
 *   **Sell** invest in retiring, reducing, or replacing the product.
@@ -91,7 +87,6 @@ Organizations choose the prioritization approach that suits them. It is importan
 ### 2.3 Scope
 
 The portfolio management practice is a coordinated collection of strategic decisions that enable the most effective balance of organizational change and business as usual. The practice achieves this by:
-
 *   developing and applying a systematic framework to define and deliver a portfolio of products, services, programmes, and projects that support specific strategies and objectives
 *   defining products and services and linking them to the achievement of agreed outcomes, thereby ensuring that all value chain activities are aligned with value definition and the related success factors
 *   evaluating and prioritizing incoming product, service, or project proposals and other change initiatives based on resource constraints, existing commitments, and the organization’s strategy and objectives
@@ -113,7 +108,6 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The portfolio management practice includes the following PSFs:
-
 *   ensuring sound investment decisions for programmes, projects, products, and services within the organization's resource constraints
 *   ensuring the continual monitoring, review, and optimization of the organization's portfolios.
 
@@ -136,7 +130,6 @@ Appropriate resources, activities, and tools are needed to achieve this outcome.
 To be able to ensure sound investment decisions, the portfolio management practice should be based on the organization’s self-knowledge and understanding of its key resources, as well as how valuable those resources are to the organization’s stakeholders, especially external customers
 
 Key resources come from all four dimensions of service management:
-
 *   **organizations and people** competence, leaders, experience, knowledge, and cultural advantages
 *   **value streams and processes** work methods, frameworks, and approaches
 *   **information and technology** applications, data, hardware, and intellectual property
@@ -177,7 +170,6 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, the portfolio management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The portfolio management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-
 *   design and transition
 *   engage
 *   improve
@@ -197,7 +189,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Portfolio management activities form two processes:
-
 *   managing the organization’s approach to portfolios
 *   managing the portfolios’ lifecycles.
 
@@ -264,14 +255,12 @@ Examples of the roles that can be involved in portfolio management activities ar
 ### 4.2 Portfolio owner and portfolio manager roles
 
 The portfolio owner:
-
 *   defines the portfolio strategy
 *   monitors and evaluates portfolio achievements, such as return on investment
 *   obtains relevant approvals for the portfolio strategy and implementation plan
 *   secures the funding for the portfolio.
 
 The portfolio manager:
-
 *   approves new initiatives and manages prioritization
 *   provides awareness sessions on the portfolio management
 *   ensures that portfolio is reviewed and optimized
@@ -288,7 +277,6 @@ The organizational structure for the portfolio management practice will depend o
 ### 5.1 Information exchange
 
 The effectiveness of the portfolio management practice is based on the quality of the information used. This includes, but is not limited to, information about:
-
 *   organizational strategy and values
 *   organizational structure
 *   the organization’s resources
@@ -325,7 +313,6 @@ Where organizations aim to ensure effective portfolio management, they usually t
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

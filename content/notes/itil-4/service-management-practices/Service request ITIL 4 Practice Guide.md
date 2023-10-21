@@ -11,7 +11,6 @@ weight: 1
 Service request management presents a significant value proposition for both the service consuming organization and the service providing organization.
 
 Benefits for the service provider include:
-
 *   clear and structured patterns and methods of working
 *   reduced costs associated request handling and fulfilment
 *   realistic fulfilment expectations and higher resulting levels of user satisfaction
@@ -19,7 +18,6 @@ Benefits for the service provider include:
 *   improved standing or reputation with the service consumer due to higher service quality and clear user expectations.
 
 Benefits for the service consumer include:
-
 *   convenient methods of service request submission
 *   predictable and timely handling and fulfilment of service requests
 *   minimized impact to business operations
@@ -28,7 +26,6 @@ Benefits for the service consumer include:
 <table><tbody><tr><td><strong>Definition: Service request</strong></td></tr><tr><td>A request from a user or a user’s authorized representative that initiates a service action which has been agreed as a normal part of service delivery.</td></tr></tbody></table>
 
 Service requests are an important type of user query and an important part of the user experience. Typically, service requests include the following:
-
 *   a request initiating a service action (performed by the service provider or jointly with the user)
 *   a request for information
 *   a request for access to a resource, service, or service offering
@@ -39,7 +36,6 @@ Fulfilling service requests may include changes to services or their components,
 The development and testing of the procedures are performed at the respective stages of the product and service lifecycle and involve multiple practices, such as business analysis, service design, risk management, change enablement, service catalogue management, and service level management, among others.
 
 Some service requests require authorization, according to financial, information security, or other policies. To handle this appropriately, the service request management practice should follow these guidelines:
-
 *   service requests and their fulfilment should be standardized and automated as much as possible
 *   policies should be established depending on which service requests can be fulfilled with limited or no additional approvals to streamline fulfilment
 *   the creation, submission, and fulfilment of requests should be shifted left to the greatest extent possible by empowering users through self-service techniques, such as embedding links to appropriate forms within knowledgebase articles, portals, policy documents, frequently asked question lists, etc.
@@ -58,7 +54,6 @@ Standardized processes (i.e. risk analysis as part of change enablement) should 
 ### 2.2 Terms and concepts
 
 The main characteristics of a service request include the following:
-
 *   It is initiated by a user or a user representative.
 *   It requires an action from the service provider.
 *   It triggers one or more actions that have an agreed upon service outcome. This means the service outcome was tested in advance, the approval flow and fulfilment flow for the request were pre- approved, people were trained, and service components were setup to fulfil it.
@@ -76,7 +71,6 @@ Service requests are a form of user query and a way to initiate certain predefin
 Similarly, service requests may initiate changes. These are usually standard changes, but can sometimes trigger a normal change. The need for change is defined by the change typology adopted by the organization. There is mandatory correlation between service requests and changes. For example, moving an employee from one desk to another within the office is likely to be managed as a service request; whether it needs a change or multiple changes, depends upon the technical impact of the move and the criteria for changes agreed by the organization as part of the change enablement practice. Some service requests of this type may need one or more changes while others would be fulfilled without the change enablement practice involved.
 
 Frequently, the lifecycle of a service request proceeds through a series of common phases or stages that include:
-
 *   submission
 *   assessment and assignment
 *   fulfilment
@@ -86,7 +80,6 @@ Frequently, the lifecycle of a service request proceeds through a series of comm
 *   review and analysis.
 
 This service request lifecycle always utilizes multiple practices. A typical value stream to fulfil a service request is likely to involve:
-
 *   service desk: to process the user query
 *   service request management: to route and guide the request fulfilment
 *   infrastructure and platform management: to perform the necessary technical operations
@@ -104,7 +97,6 @@ A repeatable predefined approach to the fulfilment of a particular type of servi
 Service request models are usually produced during product and service design. The models are tested and deployed to operations along with other components of the service. The service request management practice is involved at all stages to ensure that the models are realistic and accepted by everyone engaged or participating in their management and execution. The continual improvement of products and services may include the improvement of the related service request models.
 
 Service request models describe the conditions and procedures for service request fulfilment, covering all four dimensions of service management:
-
 *   procedures and workflows, including possible options and decisions
 *   roles and teams responsible (usually as a RACI matrix)
 *   automation and tools used
@@ -118,7 +110,6 @@ As service requests are initiated by users or their representatives, they should
 A view of the service catalogue, providing details on service requests for existing and new services, which is made available to the user.
 
 Usually, the following information about the available service requests is documented in a request catalogue:
-
 *   service(s) to which a service request belongs, directly or indirectly
 *   prerequisites/conditions for a service request invitation
 *   information required to initiate the request
@@ -134,7 +125,6 @@ The service request catalogue view is expected to be tailored for service level 
 2.3 Scope
 
 The scope of the service request management practice includes:
-
 *   managing service request models
 *   processing service requests submitted by users or their representatives
 *   managing the fulfilment of service requests according to the agreed models
@@ -153,7 +143,6 @@ There are several activities and areas of responsibilities that are not included
 A practice success factor (PSF) is more than a task or activity as it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The service request management practice includes the following PSFs:
-
 *   ensuring that the service request fulfilment procedures for all services are optimized
 *   ensuring that all service requests are fulfilled according to the agreed procedures and to user satisfaction.  
     
@@ -195,7 +184,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
 
 Service request management activities form two processes:
-
 *   service request fulfilment control
 *   service request review and optimization.
 
@@ -280,7 +268,6 @@ Value streams should be defined by organizations for all of their products and s
 The primary value stream involving service request management is described in section 3.2.2.1. Unlike most other practices, service request management is rarely involved in other value streams.
 
 As defined in section 2.2, service requests:
-
 *   are initiated by a user or a user’s authorized representative;
 *   require an action from the service provider;
 *   trigger one or more actions that have an agreed upon service outcome. This means the service outcome was tested in advance, the approval flow and fulfilment flow for the request were pre- approved, people were trained, and service components were setup to fulfil it.
@@ -298,7 +285,6 @@ Similarly, request fulfilment review provides an input into continual improvemen
 ###### 3.2.3.1 The key steps of a service value stream analysis
 
 The following are some simple and practical recommendations for service value stream analysis and mapping:
-
 *   **Identify the scope of the value stream analysis**Service value streams can be mapped to a particular product or service or applied to most or all of them. Similarly, service value streams may differ for different consumers; for example, service requests can be fulfilled and communicated differently for internal and external customers, for B2B and B2C products, or for services based on products that are developed in-house or sourced externally.
 *   **Define the purpose of the value stream from the business standpoint**  
     Since stakeholders define value, it is essential that their concerns are clearly understood. With service request management, the primary stakeholder may be the request initiator or benefactor; however, there are certainly other interested parties to consider. For example, since requests can have financial and/or information security implications, maintaining compliance will require that these aspects are documented and relevant stakeholders are informed. The outcomes of service value streams should be comprehended from the business perspective, not solely from the user perspective.
@@ -332,7 +318,6 @@ Typically, the criteria for evaluation are:
 ###### 3.2.3.2 Service request management considerations in a service value stream analysis
 
 To ensure that relevant service request management activities are included in service value streams, the following steps can be added to the above recommendations:
-
 *   During scoping (task 1), identify the IT and business services related to the value stream and the involved business stakeholders.
 *   Make sure the value stream is understood (task 2) from the standpoint of the business, not only of the service provider.
 *   During the service value stream walk (task 3a), identify other practices involved in the handling or processing of service requests at every step. Which practices provide required information (configuration data, asset data, previously identified solutions, agreed timeline for fulfilment, and so on)? What if fulfilling the service request requires one or more changes? What if fulfilling the service request involves third parties?
@@ -373,7 +358,6 @@ However, in situations where services include service requests as part of the se
 ### 5.1 Information exchange
 
 The effectiveness of the service request management practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-
 *   Customers, users, and key stakeholders, including service request initiators and any reviewers and/ or approvers
 *   services, along with the associated service request models and entries in the request catalogue
 *   partners and suppliers, including information about the services they provide
@@ -399,7 +383,6 @@ Detailed descriptions of how these tools support the practice’s activities are
 ##### 5.2.1 Recommendations for automation of service request management
 
 The following recommendations can help when applying automation to service request management:
-
 *   **Design for value streams** Some service requests can be fulfilled by one team - potentially the service desk. Others require coordinated actions from multiple groups within and outside the IT service provider. Automation of the full value stream, from request submission to successful fulfilment, rather than just of the initial categorization, is an important requirement. Value streams should be supported by the integration of multiple practices, including service desk, change enablement, release management, knowledge management, and others.
 *   **Include service request models** Service requests follow a pre-defined model which includes activities, information flow, controls, and communications. An automation solution should allow for the creation, testing, and use of such models.
 *   **Consider workforce planning and reporting** Service request fulfilment includes standardized and well-known activities performed by pre-assigned roles. The required work time can therefore be planned and reported with sufficient precision, which in turn can be used for accounting, reporting, and billing or charging. If this is applicable for the service provider, make sure that time and labour costs are included both in the service request models and in all financial calculations.
@@ -428,14 +411,12 @@ Defined standard interfaces may become an easy way to communicate conditions and
 Service integration and management (SIAM) refers to an approach whereby organizations manage and integrate multiple suppliers in a value stream. SIAM can be delivered using different models, although the basic concept, that the delivery of outsourced products and services is managed by a single entity, regardless of the number of vendors, remains the same.
 
 There are four main models in this area (Figure 6.1). Organizations must consider the best model for their circumstances in order to transition to a more coordinated service-supplier landscape:
-
 *   Retained service integration: Where the retained organization manages all vendors and coordinates the service integration and management function itself.
 *   Single provider: Where the vendor provides all services as well as the service integration and management function.
 *   Service guardian: Where a vendor provides the service integration and management function, and one or more delivery functions, in addition to managing other vendors.
 *   Service integration as a service: Where a vendor provides the service integration and management function and manages all the other suppliers, even though the vendor does not deliver any services to the organization.
 
 SIAM is increasing in importance, owing to a variety of factors:
-
 *   Vendors increasingly specialize in niche areas, which has led to an increased number of vendors working with a single typical organization.
 *   The commodification of some types of service component means that vendors can be regularly replaced by other vendors to leverage a better pricing or service experience.
 *   The increasing complexity of technology products and services means using multiple vendors to support the organization.
@@ -461,7 +442,6 @@ Specialized suppliers who have developed expertise in service request management
 ### 7.1 The practice capability levels
 
 The practice success factors described in section 2.4 cannot be accomplished overnight. The ITIL maturity model defines the following capability levels applicable to any management practice:
-
 **Level 1** The practice is not well organized; it is performed as initial or intuitive. It may occasionally or partially achieve its purpose through an incomplete set of activities.
 
 **Level 2** The practice systematically achieves its purpose through a basic set of activities supported by specialized resources.
@@ -519,7 +499,6 @@ Figure 7.2 The capability development steps and levels
 ## 8. Recommendations for practice success
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

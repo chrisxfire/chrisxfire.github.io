@@ -11,7 +11,6 @@ weight: 1
 The relationship management practice is focused on ensuring successful relationships within an organization, as well as between an organization and external parties, including: customers, users, partners, suppliers, and others. To make this possible, this practice aims to establish a common approach to relationships and relationship management that can be adopted and followed across the organization. This approach is an important component of an organization’s culture.
 
 In the context of an organization’s culture, the relationship management practice may include:
-
 *   shared or mutually recognized goals
 *   no-blame cooperation and collaboration
 *   continuous learning
@@ -19,7 +18,6 @@ In the context of an organization’s culture, the relationship management pract
 *   conflict prevention and mediation.
 
 The relationship management practice can address the relationships between individuals, teams, or larger groups of stakeholders. The identification and management of stakeholders and their interests is also an important aspect of this practice. Stakeholders may include:
-
 *   internal teams and individual team members
 *   managers
 *   executives
@@ -36,7 +34,6 @@ The relationship management practice can address the relationships between indiv
 *   professional communities.
 
 Both internal and external relationship management practices should address the cultural differences between the individuals and groups involved, as well as other differentiating factors, including whether the relationship is:
-
 *   commercial or non-commercial
 *   formal or informal
 *   group or individual
@@ -72,7 +69,6 @@ Similarly, relationships between teams may demonstrate features of cooperation o
 <table><tbody><tr><td><p><strong>Definitions:</strong></p></td></tr><tr><td><p><strong>Cooperation</strong></p><p>Working with others to achieve your own goals.</p><p><strong><br></strong><strong>Collaboration</strong></p><p><br>Working with others to achieve common shared goals.</p></td></tr></tbody></table>
 
 A qualitative study of firm-to-firm relationships by D. Haytko<sup>1</sup> found that there were three types of work relationships:
-
 *   business associate
 *   business friend
 *   personal friend.
@@ -97,7 +93,6 @@ Table 2.2 Types of service relationships between organizations<sup>3</sup>
 <table><tbody><tr><td><p><strong>Service relationship type</strong></p></td><td><p><strong>Basic relationship</strong></p></td><td><p><strong>Cooperative relationship</strong></p></td><td><p><strong>Partnership</strong></p></td></tr><tr><td><p>Typical focus</p></td><td><p>Support and efficiency</p></td><td><p>Improvement and effectiveness</p></td><td><p>Innovation and growth</p></td></tr><tr><td><p>Typical organizational level involved in the relationship</p></td><td><p>Operational</p></td><td><p>Operational and tactical</p></td><td><p>Operational, tactical, and strategic</p></td></tr><tr><td><p>Typical level of relationship maturity</p></td><td><p>Ad hoc, order taker</p></td><td><p>Service provider, trusted adviser</p></td><td><p>Strategic partner</p></td></tr><tr><td><p>Typical service types</p></td><td><p>Commercial off-the-shelf services, out-of-the-box services, highly standardized commodity services, or goods supply</p></td><td><p>Services that must be configured or customized to fulfil the needs of the service consumer</p></td><td><p>Custom or bespoke services with unique value propositions</p></td></tr><tr><td><p>Typical types of agreement</p></td><td><p>Standard contracts, service level agreements (SLAs), and experience-based agreements, mostly for mass market</p></td><td><p>Advanced SLAs, experience-based agreements, or outcome-based agreements</p></td><td><p>Bespoke contracts, outcome-based agreements, or no agreement</p></td></tr><tr><td><p>Examples</p></td><td><p>Service consumers articulate their expectations quite clearly, as the service provider expects. Examples can be found in the standardized services offered to a wide group of individual external service consumers. This is how mobile operators, broadband service providers, and transport companies usually operate.</p></td><td><p>Depending on the relationship between the service provider and the service consumer, it can be difficult for the provider to fully understand the outcomes that the service consumer wants to achieve. In some cases, they will work together to define the desired outcomes. For example, relationship managers in internal IT or HR departments may regularly talk with customers and discuss their needs and expectations.</p></td><td><p>Services based on service offerings and products that have been planned and built in accordance with requirements specified by the customer</p><p>Agile product development where the service consumer and the service provider co-create the product in shared teams</p></td></tr></tbody></table>
 
 Generally, non-service relationships between organizations can be described using the same ‘exchange-communality’ scale, with key characteristics such as:
-
 *   control versus trust
 *   exchange versus communality
 *   protectiveness versus self-disclosure
@@ -119,7 +114,6 @@ However, toxic behaviours can develop in a collaboration-based organization as a
 #### 2.2.3 Communication
 
 Relationships are built on communication. *ITIL*<sup><em>®</em></sup> *4: Direct, Plan and Improve* highlights principles of effective communication such as:
-
 *   communication is a two-way process
 *   we are all communicating all the time
 *   timing and frequency matter
@@ -144,7 +138,6 @@ Relationships with identified stakeholders should be managed according to their 
 #### 2.2.5 Relationship journey
 
 Relationships are a journey, the steps of which vary depending on the type of relationship (whether between individuals, an individual and a team, teams, or organizations, and so on). Nonetheless, all relationships at the highest level include the following steps:
-
 *   exploration
 *   connection
 *   negotiation
@@ -165,7 +158,6 @@ Relationships are a journey, the steps of which vary depending on the type of re
 The relationship management practice supports all value streams and all management practices, as every value stream and practice relies on people and their relationships.
 
 The scope of the relationship management practice includes:
-
 *   developing and promoting an organization-wide approach to relationships and integrating this approach into the organization’s culture
 *   identifying and managing stakeholders
 *   preventing and solving conflicts
@@ -188,7 +180,6 @@ A complex functional component of a practice that is required for the practice t
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure the effectiveness of the practice.
 
 The relationship management practice includes the following PSFs:
-
 *   establishing and continually improving an effective approach to the relationship management practice across the organization
 *   ensuring effective and healthy relationships within the organization
 *   ensuring effective and healthy relationships between the organization and its external stakeholders.
@@ -229,7 +220,6 @@ Regardless of its role in the service relationship, organizations use the relati
 #### 2.4.3.2 Non-service relationship
 
 Besides the service relationship, organizations are constantly involved in non-service relationships with various groups of stakeholders. These groups include, but are not limited to:
-
 *   governments and regulators
 *   societies and communities
 *   industry competition
@@ -255,7 +245,6 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value stream contribution
 
 The relationship management practice contributes to all value streams. It is important to remember that a value stream is never formed from a single practice. The relationship management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which this practice contributes are:
-
 *   plan
 *   improve
 *   engage
@@ -274,7 +263,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong></strong><span><strong>Definition: Process</strong></span></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 The relationship management practice activities form two main processes:
-
 *   managing a common approach to relationships
 *   managing service relationship journeys.
 
@@ -341,7 +329,6 @@ Examples of other roles which can be involved in relationship management activit
 There are two roles specific to the relationship management practice: the relationship manager and the relationship agent.
 
 The relationship manager is responsible for:
-
 *   developing and maintaining relationship models
 *   communicating, training, and supporting relationship agents
 *   reviewing relationships
@@ -353,7 +340,6 @@ The relationship manager role can be performed by a team manager, business line 
 It is unusual to have a general relationship manager role that is responsible for all types of relationships. In many cases (mostly to manage external relationships), a specific group of stakeholders or a major stakeholder are assigned a dedicated relationship agent, who represents the organization in the relationship journey. This role can be performed by account managers, personal advisors, customer relationship managers, sales agents, and others, depending on the organizational structure and the type of relationship. Relationship agent is a generic term that is not usually used by organizations within the context of a relationship journey, as organizations prefer to name the role in a contextualized way, appealing to the stakeholder’s expectations and language.
 
 The relationship agent is responsible for:
-
 *   maintaining healthy relationships with stakeholders
 *   following the agreed relationship model
 *   coordinating ongoing interactions between the stakeholder(s) and members of the organization
@@ -371,7 +357,6 @@ The internal relationship management practice is not usually supported with dedi
 ### 5.1 Information exchange
 
 The effectiveness of the relationship management practice is based on the quality of the information used. This includes, but is not limited to, information about:
-
 *   organizational strategy and values
 *   organizational culture
 *   organizational structure
@@ -403,7 +388,6 @@ Other organizations prefer to build and maintain direct relationships with key s
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

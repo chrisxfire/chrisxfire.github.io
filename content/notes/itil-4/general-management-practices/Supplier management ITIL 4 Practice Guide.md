@@ -43,13 +43,11 @@ The suppliers must be appraised against defined performance targets to assess th
 ### 2.3 Scope
 
 The supplier management practice focuses on three key aspects:
-
 *   evaluating, selecting, and onboarding suppliers, and maintaining of their information in the supplier management information systems
 *   negotiating of contracts and ensuring that suppliers adhere to them, meeting all contractual obligations and deliverables and managing the contracts through their lifecycle
 *   measuring, tracking, and reporting on supplier performance and triggering the reward or penalty aspects of the contract, ensuring that the organization obtains value for money from the contracts.
 
 The scope of the supplier management practice includes:
-
 *   enforcing the supplier management policy
 *   creating and maintaining the supplier selection and performance evaluation criteria and procedures
 *   establishing and maintaining the sourcing strategy and supplier categorization standards in accordance with the sourcing strategy
@@ -80,7 +78,6 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The supplier management practice includes the following PSFs:
-
 *   ensuring that the sourcing strategy and guidelines effectively support the organization’s strategy
 *   ensuring that service relationships with all suppliers and partners are managed effectively and in line with internal and external regulations
 *   ensuring the effective integration of third-party services into the organization’s products and services.
@@ -90,7 +87,6 @@ The supplier management practice includes the following PSFs:
 As part of strategy management, organizations define their sourcing policy, including principles and criteria for sourcing resources. According to this policy, a sourcing strategy is developed and maintained to ensure the alignment of the business needs and supplier targets. Apart from the sourcing principles and criteria, it includes supplier categorization, requirements for suppliers of each category, and basic rules of supplier relationship management.
 
 The sourcing strategy is supported with guidelines covering key aspects of the practice, including:
-
 *   the management of the service relationship at every step of the service journey
 *   the management of contracts and agreements with suppliers
 *   supplier performance management and reporting
@@ -129,7 +125,6 @@ Also, depending on the type of service relationship, the supplier performance me
 #### 2.4.3 Ensure the effective integration of third-party services into the organization’s products and services
 
 Third-party services form an important part of resources that organizations manage in order to create and deliver their products and services. Depending on the sourcing strategy, the level of integration of third-party services into organizations may vary, but most organizations have critical dependencies where core products and services may become unavailable in case of a major disruption of some of external services. The following is critical to effectively manage external services in the organization’s context:
-
 *   understanding the external service’s scope, nature, and terms of provision
 *   understanding the dependencies
 *   understanding the risks
@@ -158,7 +153,6 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value stream contribution
 
 Like any other ITIL management practice, the supplier management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The supplier management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-
 *   engage
 *   design and transition
 *   deliver and support
@@ -179,7 +173,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong></strong><span><strong>Definition: Process</strong></span></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 The supplier management practice activities form two main processes:
-
 *   managing a common approach to supplier management
 *   managing supplier journeys.
 
@@ -240,7 +233,6 @@ Two practice-specific roles may be found in organizations: supplier manager and 
 #### 4.1.1 Supplier manager
 
 The supplier manager is typically responsible for:
-
 *   gathering business requirements for outsourcing or seeking products or services
 *   approving prerequisites for supplier selection
 *   involving intermediaries for creating RfXs and/or managing the RfX process
@@ -262,7 +254,6 @@ The supplier manager is typically responsible for:
 #### 4.1.2 Supplier coordinator
 
 The supplier coordinator is typically responsible for:
-
 *   formulating prerequisites for supplier selection
 *   collating business requirements for RfXs
 *   releasing RfXs to suppliers and communicating the updates related to the selection process and eventual decisions to the suppliers
@@ -300,7 +291,6 @@ It is unusual to see a dedicated organizational structure for the supplier manag
 ### 5.1 Information exchange
 
 The effectiveness of the supplier management practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-
 *   customers and users
 *   services and their mapping to suppliers
 *   the organization’s requirements for the services and service dependencies
@@ -334,7 +324,6 @@ The supplier management practice enables the evaluation, selection, and sourcing
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of topics that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

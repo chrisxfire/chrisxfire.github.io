@@ -51,7 +51,6 @@ To summarize, service quality includes both the functional and non-functional ch
 It is quite common to limit the formal liability of the service provider to the agreed service level, rather than the implied or expected service quality. However, a sustainable service relationship is only possible if the agreed service level is constantly achieved and, most importantly, customers and users are satisfied. This satisfaction is based on their service experience and includes both agreed and implied service quality. Because of this, service providers often aim to exceed the agreed service level to make sure that their users and customers are satisfied. However, service provision is often budgeted based on the agreed service level, and extra efforts result in extra costs for the provider.
 
 To maintain an effective service relationship, services should be financially viable for both service providers and service consumers. This is usually a key concern of sponsors:
-
 *   Sponsors of service consumption (as defined in ITIL Foundation: ITIL 4 Edition) require an optimal price of the service for the service consumer.
 *   Sponsors of service provision (a role authorizing budget for service provision) require an optimal cost of service provision.
 
@@ -64,7 +63,6 @@ Regardless of the service relationship model, the service level management pract
 ### 2.3 Scope
 
 The scope of the service level management practice includes:
-
 *   Tactical and operational communications with customers regarding expected, agreed, and actual service quality, as well as their service experience. This includes the collection of feedback
 *   Negotiating, entering, and maintaining SLAs with customers.
 *   Understanding the design and architecture of services and dependencies between services and other configuration items.
@@ -84,7 +82,6 @@ A practice success factor (PSF) is more than a task or activity; it includes com
 <table><tbody><tr><td><p><strong>Definition: Practice Success Factor</strong></p></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
 
 The service level management practice includes the following PSFs:
-
 *   Establishing a shared view of target service levels with customers.
 *   Overseeing how the organization meets the defined service levels through the collection, analysis, storage, and reporting of the relevant metrics for the identified services.
 *   Performing service reviews to ensure that the current set of services continues to meet the needs of the organization and its customers.
@@ -97,20 +94,17 @@ Interactions with customers vary significantly across different service relation
 <table><tbody><tr><td><p><strong>Service: tailored or ‘out of the box'?</strong></p></td></tr><tr><td><p>‘Tailored service’ here means that there is a significant flexibility in target service levels that should be agreed before service delivery and consumption start. On the other hand, an ‘out-of-the-box’ service has one or more pre-defined service levels to choose from, without much flexibility.</p></td></tr></tbody></table>
 
 When a service provider and a customer establish a shared view of a tailored service, they usually discuss customer needs and expectations, aiming to create a service specification that would satisfy all stakeholders, including:
-
 *   The customers, users, and sponsors of service consumption on the consumer side.
 *   The service delivery teams and the service provision sponsors on the provider side.
 
 If the service being discussed has not been created yet, it should involve service architects and service designers, as well as business analysts and service development teams. However, these teams may not be needed if the services have already been designed and are currently available to customers.
 
 Usually, the scope of the service quality being discussed is narrowed with every step in the process, from the outlining of consumer needs, to the agreement of the SLA. For example:
-
 *   When customers express their expectations to the service provider, they only partially represent the needs of the organization.
 *   When customers and service provider representatives agree on the service requirements (based on the communicated expectations), the scope of what is being discussed is narrowed again.
 *   Finally, after the service provider creates a description of a service level that can be delivered with the required level of assurance and liability, the scope becomes even narrower (Figure 2.2).
 
 For out-of-the-box services, available service levels are usually pre-defined by the service provider based on a mixture of market and business intelligence. For example:
-
 *   Consumer needs are explored and analysed by the marketing and business analysis teams of the service provider. These are likely to be different from the needs of any single given consumer.
 *   The service provider’s architects and designers create a service and supporting service quality specification, based on assumptions made about the consumer’s needs. This does not usually meet all of the captured needs of the consumer.
 *   Some of the characteristics of the specification are then announced to potential consumers as service offerings (sometimes with different service levels, such as gold, silver, bronze, and so on.)
@@ -147,13 +141,11 @@ Nevertheless, it is very important for the success of the service relationship t
 #### 2.4.2 Overseeing how the organization meets the defined service levels
 
 When a shared understanding of the target service level is established, and actual service delivery has started, the service provider should control the actual quality of the services from three main perspectives:
-
 *   **Achieved service level** Against the agreed service level, based on agreed measurements.
 *   **User satisfaction with the service** Based on impromptu feedback, transaction-based feedback and periodic surveys.
 *   **Customer satisfaction with the service** Based on periodic discussions, surveys, or real-time scanning of the customer sentiment on social media.
 
 Data from these sources should be collected, stored, analysed, and the resulting information reported to relevant stakeholders on both the provider’s and consumer’s sides. These may include (but are not limited to):
-
 *   Consumer stakeholders:  
     sponsors  
     customers  
@@ -214,7 +206,6 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Value streams contribution
 
 Like any other ITIL management practice, the service level management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The service level management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes are:
-
 *   plan
 *   engage
 *   improve.
@@ -232,7 +223,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong></strong><span><strong>Definition: Process</strong></span></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs.<br>A process takes one or more defined inputs and turns them into defined outputs.<br>Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Service level management activities form two processes:
-
 *   **Management of SLAs** This process is focused on agreements and their lifecycle.
 *   **Oversight of service levels and service quality** This process ensures continual service improvement based on a good understanding of service quality.
 
@@ -628,7 +618,6 @@ Service review
 The most important role in the service level management practice is the service owner.
 
 The service owner is accountable for the end-to-end management of a specific IT service. The service owner’s accountability for a specific service is independent of where the underpinning technology components, services, or competencies reside. Service ownership is critical to service management. It is possible to combine this role with that of product owner. In some cases, it is combined with the role of account manager or relationship manager, especially if the service is created or tailored for a specific consumer or group of consumers. The service owner has the following responsibilities (the responsibilities associated with the service level management practice are given in italics):
-
 *   ensuring that the ongoing provision of services meets agreed customer requirements
 *   understanding and translating customer requirements into service designs and draft SLAs
 *   ensuring consistent and appropriate communication with customers for service-related enquiries and issues
@@ -656,7 +645,6 @@ Although the roles of product owner, service owner, account manager, and relatio
 ### 5.1 Information exchange: inputs and outputs
 
 The effectiveness of the service level management practice is based on the quality of the information used. This includes, but is not limited to, information about:
-
 *   customers and users
 *   services (their architecture and design)
 *   partners and suppliers, including contract and SLA information on the services they provide
@@ -696,7 +684,6 @@ At the same time, using external or outsourced resources as part of an organizat
 ## 7. Important reminder
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the ITIL Practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

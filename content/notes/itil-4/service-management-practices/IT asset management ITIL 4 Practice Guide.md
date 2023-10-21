@@ -19,7 +19,6 @@ IT assets have a clearly defined lifecycle that consists of stages such as acqui
 IT asset management presents an essential value proposition for both the service consuming organization and the service providing organization.
 
 Benefits for the service provider include:
-
 *   improved identification, tracking, and visibility of all IT assets
 *   better monitoring and management of the lifecycle of all IT assets, including usage and maintenance
     
@@ -37,7 +36,6 @@ Benefits for the service provider include:
     
 
 Benefits for the service consumer include:
-
 *   improved reliability and fewer disruptions resulting from performance and utilization data that can help identify and address issues before they impact service quality
 *   increased cost savings through license consolidation, optimized utilization, and reductions in unnecessary hardware and software purchases
 *   reduced risk of compliance-related penalties and fines
@@ -50,7 +48,6 @@ Benefits for the service consumer include:
 #### 2.2.1 Interdependence between IT assets
 
 ITAM should be integrated with the organization's general asset management. However, there is also interdependence within the practice and among IT asset types; for example, to properly record the number of software licenses that are consumed, it is worthwhile to:
-
 *   conduct a software inventory across all relevant environments (development and integration, test, staging, live and production, and training) and platforms (such as on-premises hardware, cloud, data, and managed datacentres)
 *   consider all deployment techniques (such as automation, DevOps, continuous deployment, machine cloning or imaging, software installation, and containers)
 *   collect all parameters used in the licence model.
@@ -62,7 +59,6 @@ To be successful, ITAM specializations should not be planned or managed apart fr
 Figure 2.1 Example of interdependence of IT assets
 
 The ITAM specializations shown in Figure 2.1 can include:
-
 *   hardware asset management
 *   software asset management
 *   cloud asset management
@@ -78,7 +74,6 @@ Data has become a valuable asset in every organization and should be considered 
 IT asset types may include:
 
 ● hardware, including physical:
-
 *   end-user devices, such as personal computers, tablets, smartphones and SIM cards
 *   network and telecom equipment, such as routers, switches, load balancers, and videoconferencing and voice over-the-Internet protocol systems
     
@@ -92,7 +87,6 @@ IT asset types may include:
     
 
 ● software running on hardware and virtual machines in all environments (development and integration, test, staging, live and production, and training), such as:
-
 *   operating systems
 *   middleware, such as web servers, SSL certificates, enterprise service buses, and database access services
     
@@ -100,7 +94,6 @@ IT asset types may include:
     
 
 ● cloud services which are increasingly replacing hardware and some software (depending on the service model), including:
-
 *   infrastructure as a service (IaaS)
 *   platform as a service (PaaS)
     
@@ -124,7 +117,6 @@ Organizations experience the impacts of data leaks, cyber-attacks, and regulatio
 The ITAM practice requires accurate asset information that should be kept in an asset register. The IT asset register is the main source of the IT asset’s data, and is created when the ITAM approach is formed and updated regularly during the IT asset’s lifecycle.
 
 The IT asset register data structure may include:
-
 *   entities
 *   attributes
 *   relationships
@@ -174,7 +166,6 @@ To keep the IT asset register current, procedures should be established to recor
 <table><tbody><tr><td><p><strong>Definition: IT asset lifecycle</strong></p></td></tr><tr><td><p>The various stages in the life of an IT asset, from planning to disposal. The lifecycle consists of stages represented by the statuses and the status transitions that are permitted, based on the IT asset type.</p></td></tr></tbody></table>
 
 The IT asset goes through the following stages in its lifecycle:
-
 *   planning and budgeting
 *   acquisition
 *   assignment (install, move, add, change (IMAC), including the related creation or modification of records in the IT asset register
@@ -187,7 +178,6 @@ The IT asset goes through the following stages in its lifecycle:
 Figure 2.2 The IT asset lifecycle
 
 The IT asset lifecycle must not be defined as linear or unidirectional. Specific situations or scenarios with specific IT assets or IT asset types may determine that one or more stages may be skipped, repeated, or approached ‘out of sequence’, as shown in Figure 2.3. Some examples of IT asset lifecycle stages being non-linear include:
-
 *   an IT asset with minimal cost and risk, or one that has been sufficiently planned previously requiring little to no planning and budgeting, reporting, or auditing
 *   IT assets being reassigned multiple times throughout their useful life
 *   a decommissioned IT asset being placed on legal hold for an extended period before it is disposed or reassigned.
@@ -225,7 +215,6 @@ Asset assignments must be logged in the IT asset register. Capturing the IT asse
 ##### 2.2.4.4 IT asset utilization, optimization, and reporting
 
 Optimizing asset utilization requires understanding contracts and pricing models. This procedure includes:
-
 *   adapting the stock of hardware and licenses to facilitate supplies according to SLAs
 *   analysing IT asset characteristics and contracts and proposing practical guidance for optimal usage: for example, adapting the installation procedure for a database engine or a virtual machine to minimize license utilization, or charging for allocated assets (such as licenses, hardware, and cloud instances) by the month to encourage their decommissioning when they are not needed any more
 *   monitoring utilization for cloud assets; cloud asset costs have many variables and models, such as pay as you go, or contractual discounts based upon usage volume
@@ -263,7 +252,6 @@ Each stage of the lifecycle requires different support and control activities an
 Lifecycle models should define the processes, controls, and procedures for the IT assets handling based on the IT asset type.
 
 Typically, each IT asset type is supported by a specialized IT asset lifecycle model. IT assets are grouped into types based on their features. This includes, but is not limited to:
-
 *   reporting cycles
 *   financial significance
 *   level of tangibility (from tangible hardware equipment, to intangible licenses, cloud computing capacity, services or subscriptions, and so on)
@@ -275,7 +263,6 @@ Typically, each IT asset type is supported by a specialized IT asset lifecycle m
 *   inventory and record-keeping.
 
 IT asset lifecycle models typically include:
-
 *   IT asset stakeholder group
 *   IT asset reporting cycle
 *   services dependent on the IT asset
@@ -292,7 +279,6 @@ IT asset lifecycle models typically include:
 For each model, a set of controls and procedures should be created to help support the lifecycle of any individual IT asset.
 
 Activity implementation may vary depending on IT asset types. For example:
-
 *   The disposal of software is subject to the license agreement while the disposal of hardware is subject to electronic waste regulations.
 *   The disposal of hardware or a cloud service involves the secure deletion of data contained in it but is unlikely to involve software licenses.
 
@@ -315,7 +301,6 @@ Where available, discovery can be a superior method to initially populate the IT
 The IT asset register indicates what should be found, while audit and verification via inventory and discovery reveal what is found; this occurs during the verification stage of the IT asset lifecycle. Verification is the identification and remediation of gaps between what assets should be found and what assets are actually found.
 
 Verification is often referred to as ‘reconciliation’. Such reconciliation may:
-
 *   trigger an investigation concerning an unknown component found in the organization’s network
 *   trigger an investigation concerning a known component that has experienced a change in its lifecycle status or other information required for management
 *   help to identify and remove an unapproved software that the user has installed
@@ -339,7 +324,6 @@ Verification and auditing should become an integral part of the ITAM practice to
 ### 2.3 Scope
 
 For the chosen types of IT assets, The ITAM practice maintains and provides:
-
 *   trustworthy data about what the organization has in order to be able to manage it
 *   means for the appropriate handling of IT assets according to policies and regulations and in consideration of applicable costs and risks
 *   IT asset lifecycle integration with other practices to achieve greater efficiency and cost-effectiveness.
@@ -347,7 +331,6 @@ For the chosen types of IT assets, The ITAM practice maintains and provides:
 The way in which organizations structure their products and services, the teams that manage them, and the governance of the organization will determine the scope of ITAM.
 
 ITAM will include numerous activities and processes, ensuring they are fit for the purpose of contributing to a variety of the organization’s value streams. ITAM’s scope must also be flexible so that it can remain aligned with and in support of the organization’s dynamic vision, strategy, drivers, goals, and objectives. Adjustment of the scope of ITAM could be triggered by many factors, such as:
-
 *   how value is calculated
 *   regulatory changes
 *   organizational financial policies and procedures
@@ -356,7 +339,6 @@ ITAM will include numerous activities and processes, ensuring they are fit for t
 Therefore, ITAM must reflect organizational scopes to define which assets are within the control of the practice. This helps identify the various business, technical, contractual, legal, regulatory, and compliance requirements to be considered. It also establishes the standards and policies that are critical for successful ITAM. In addition, scoping can introduce technologies useful for optimizing and automating ITAM.
 
 Organizations need to consider the consequences of how they decide to scope their ITAM practices, because for the chosen types of IT assets, the ITAM practice maintains and provides:
-
 *   trustworthy data about what the organization must support and manage
 *   the means for the appropriate handling of IT assets according to policies and regulations, and in consideration of applicable costs and risks
 *   understanding key aspects of asset decisions in areas such as sustainability and warranty
@@ -364,7 +346,6 @@ Organizations need to consider the consequences of how they decide to scope thei
 *   coordination with suppliers or partners that provide or manage specific assets or types of assets.
 
 ITAM’s scope of control is not just defined by the IT asset types. It must also consider the value and the benefit received by managing them, weighed against the level of resource effort needed to do so effectively. There are several factors to consider when determining the proper scope of ITAM for an organization:
-
 *   **Financial** Determine the value of IT assets in terms of a financial benefit and how to account for them in the organization’s financial documentation. Financial characteristics can include the minimal cost of IT assets and the amount of financial loss the organization would absorb should those IT assets be lost. This should also consider the need to manage the return on investment (ROI) of IT assets, the cost of services provided through the IT assets, and the total cost of ownership (TCO) of managing the entire lifecycle of the IT assets, which also includes potential fines and fees for not managing them appropriately. The financial benefits of ITAM are cost reduction, cost control, and cost avoidance.
 *   **Security** There are many IT assets that fall below minimal costs for financial concerns that still need to be managed from a security or risk perspective. Data is an excellent example because it could be described as having more explicit functional value rather than financial. Proper management requires that the organization knows what it has and where it is located; therefore, the security vulnerability of the IT asset must be considered, which is especially important for mobile IT assets.
     
@@ -398,7 +379,6 @@ The ISO/IEC 19770-1:20171 standard suggests a progressive three-tiered approach:
 3.  optimizing efficiency and cost-effectiveness.
 
 This suggestion means that the organization may choose to structure its ITAM practice as a set of modular capabilities to be gradually activated as it is scaled up with:
-
 *   corresponding policies (applicable to all cases or to certain types of IT assets)
 *   procedures, work instructions, and responsibility matrices
 *   special recommendations attached to IT asset types (for example, the purchase of software licenses, which is different from the purchase of hardware).
@@ -412,7 +392,6 @@ Below is an example of a progressive scope implementation for the ITAM practice.
 When implementing the ITAM practice, organizations should consider the following points for the scope of each implementation step
 
 ● **What** (IT assets to be managed):
-
 *   software
 *   hardware
 *   cloud services
@@ -420,13 +399,11 @@ When implementing the ITAM practice, organizations should consider the following
 *   corresponding IT and organizational asset data.
 
 ● **Where** (parts of the organization concerned):
-
 *   countries, regions, and sites
 *   business units, IT departments, service desk, procurement, and finance or accounting department
 *   external service providers, such as contractors.
 
 ● **How** (process activities carried out with related policies and corresponding roles and responsibilities):
-
 *   to acquire and maintain complete and accurate data
 *   to achieve integration with other practices
 *   to optimize IT asset-related costs and risks
@@ -435,19 +412,16 @@ When implementing the ITAM practice, organizations should consider the following
 The idea is to build on past achievements and move forward based upon the organization’s priorities. For example, an organization may plan to expand the scope of its ITAM practice in the following small increments:
 
 ● initial scope:
-
 *   what: PC hardware
 *   where: France
 *   how: consolidated IT asset register between IT and finance with weekly data verification.
 
 ● first scope expansion:
-
 *   what: PC hardware
 *   where: Morocco
 *   how: consolidated IT asset register between IT and finance with weekly data verification
 
 ● second scope expansion:
-
 *   what: most common office software on PCs
 *   where: first in France and then Morocco
 *   how: consolidated IT asset register between IT, finance, and software vendors with weekly data verification.
@@ -471,7 +445,6 @@ IT asset lifecycle types and respective models could also serve as a scope expan
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The ITAM practice includes the following PSFs:
-
 *   ensuring that the organization has relevant information about its IT assets throughout their lifecycle
 *   ensuring that the utilization of IT assets is continually monitored and optimized.
 
@@ -516,7 +489,6 @@ Monitoring of IT asset utilization can help to optimize contracts with vendors a
 <table><tbody><tr><td><p><strong>Definition: Technical debt</strong></p></td></tr><tr><td><p>The total rework backlog accumulated by choosing workarounds instead of systemic solutions that would take longer.</p></td></tr></tbody></table>
 
 Although technical debt is not uncommon, its consequences are often significant for a digital organization. Some examples of IT asset-related technical debt include:
-
 *   servers that are beyond their planned obsolescence date, may not be covered by a maintenance agreement or contract, and may be running an obsolete or unsupported operating system
 *   legacy applications, developed internally or purchased externally, that support critical business services
 *   software tools used by different teams yet provide redundant or overlapping functionalities.
@@ -526,7 +498,6 @@ Technical debt is often considered and incurred due to the costs associated with
 Effective IT asset management can help reduce technical debt by providing organizations with greater visibility into their environments and better understand the costs associated with maintaining and upgrading their IT infrastructure. This allows organizations to identify areas where systems are outdated or require significant resources to maintain, allowing them to make more informed decisions about where and when to invest, prioritize, and allocate resources to update or replace those systems. As a result, organizations can avoid accumulating additional technical debt by investing in more sustainable and efficient IT systems.
 
 Without proper management, technical debt will require an exponentially increasing amount of resources. In addition to hardware and software cost and risk, organizations should evaluate technical debt by considering the consumption of resources that are often overlooked:
-
 *   people and the possible continuation of undocumented knowledge and obsolete skill sets instead of learning new and emerging methods, techniques, and technologies
 *   data centre space, cooling, and electrical power needed to maintain physical IT assets that could be replaced with more efficient physical assets, as well as virtualized or cloud alternatives
 *   increasing risk factors, including larger attack surfaces and new threat vectors and vulnerabilities due to a lack of security protocols, patches, and updates available for obsolete hardware and software.
@@ -558,7 +529,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong></strong><span><strong>Definition: Process</strong></span><strong></strong></p></td></tr><tr><td><p><span>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one of more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</span></p></td></tr></tbody></table>
 
 ITAM activities form three processes:
-
 *   managing a common approach to ITAM
 *   managing the IT asset lifecycle and records
 *   verifying, auditing, and analysing IT assets.
@@ -626,7 +596,6 @@ Verification can be an ongoing activity of verifying and correcting the IT asset
 Also, the need for a dedicated verification effort decreases if the IT asset data is properly captured and verified along the IT asset lifecycle. Therefore, like monitoring, verification should be integrated into the IT asset lifecycle, with relevant procedures for each lifecycle stage.
 
 Along with the constant verification activities, ITAM practitioners may need to run audits as a focused verification activity. The scope and frequency of the audits should be defined and agreed in the IT asset audit procedures:
-
 *   audit of existing IT assets at planned and random intervals
 *   audit of assets acquisition at planned and random intervals
 *   audit of IT asset-related media at planned and random intervals
@@ -694,7 +663,6 @@ The following are some simple and practical recommendations for service value st
 **c. Evaluate the workflow steps**
 
 Typically, the criteria for evaluation are:
-
 *   value for the stakeholder (does the step add value for the business stakeholder?)
 *   effectiveness or performance (is the step performed well?)
 *   availability (are required resources available to execute the step?)
@@ -751,7 +719,6 @@ The role accountable for all ITAM activities is usually the ITAM practice owner.
 The IT asset manager is responsible for overseeing the IT asset lifecycle with related data in their organization, for all IT assets in scope; this role may be local or global. In many organizations, the IT asset manager role is performed by a dedicated person, sometimes under a specialized job title such as software IT asset manager, hardware IT asset manager, or cloud IT asset manager.
 
 This role is typically responsible for:
-
 *   managing the ITAM approach
 *   communicating the ITAM approach and procedures
 *   integrating the ITAM approach into value streams
@@ -819,7 +786,6 @@ Figure 4.2 Example ITAM structure in a small organization
 Digital organizations may find this traditional hierarchy could become burdensome and counterproductive. By using a shift-left approach, the lower levels in Figure 4.2 can be empowered to make decisions and take management action within an appropriately defined scope. This would result in a flatter and less pyramid-shaped organizational chart.
 
 Large organizations are frequently structured around divisions based upon product, legal, or geographic requirements. The needs of the stakeholders within these divisions could differ significantly, based upon factors including:
-
 *   the type of IT assets required
 *   the patterns of usage for IT assets
 *   applicable regulatory requirements based on industry or geography
@@ -857,7 +823,6 @@ For each IT asset custodian or consumer to take their responsibility of the IT a
 Technical teams handle the IT assets. The ITAM practice combines skills scattered in a fragmented way throughout the organization about technology, contracts, procurement, finance, laws, data, processes, taxes, suppliers, products, services, and so on. IT assets represent a significant portion of the organization's expenses and develop stakes that are set to grow with the digital transformation.
 
 Organizations that have a mature ITAM practice have understood this. Consequently, they do not structure their practice around a bureaucratic entity, but as an internal provider which finances itself through the margins it generates. Internal ‘ITAM as a service’ may enable value with:
-
 *   trustworthy data requiring minimal effort thanks to integrated processes and practical technology
 *   one-stop shopping and disposal
 *   transverse stock management to optimize acquisitions
@@ -875,7 +840,6 @@ Organizations that have a mature ITAM practice have understood this. Consequentl
 ### 5.1 Information exchange, inputs/outputs
 
 The effectiveness of the ITAM practice is based on the quality of the information used, such as:
-
 *   the organization’s strategy
 *   the organization’s architectures
 *   the organization’s portfolios
@@ -936,7 +900,6 @@ Third parties can support the IT asset management practice; however, it is impor
 A lack of timely sourcing of IT assets can have severe consequences for many organizations, so these and other similar dependencies should be reflected in service level agreements and procedures. Communications with customers and users should be routine and transparent to establish realistic expectations and smooth request fulfilment. The supplier management practice should be also used to ensure that, where reasonably possible, third parties adjust their level of service to the needs of the organization.
 
 Where service relationships are basic or cooperative and suppliers and partners are independent organizations with their own objectives, the organization should take steps to protect its IT assets and remain in control. These steps include the following:
-
 *   Sign non-disclosure agreements and carefully control the exchange of sensitive IT asset data with suppliers and partners.
 *   Discover conflicts of interest that may cause harm to the organization (such as an outsourced service desk that charges for its services based on the number of assets it provides to users, or a software compliance consulting mission entrusted to a supplier who is also a reseller or auditor on behalf of a software publisher).
 *   Including terms in third-party service contracts about the handling of IT assets, with clear duties and responsibilities for each ITAM activity the suppliers contribute to, such as an outsourced service desk handling activities like the reception of ordered IT assets, secure storage, stock management, allocation / IMAC, detection and handling of special situations (damage, non-compliance, loss), inventory, and so on.
@@ -957,7 +920,6 @@ Specialised suppliers who have developed expertise in IT asset management can he
 ### 7.1 Practice capability levels
 
 The practice success factors described in section 2.4 cannot be accomplished overnight. The ITIL maturity model defines the following capability levels applicable to any management practice:
-
 **Level 1** The practice is not well organized; it is performed as initial or intuitive. It may occasionally or partially achieve its purpose through an incomplete set of activities.
 
 **Level 2** The practice systematically achieves its purpose through a basic set of activities supported by specialised resources.
@@ -1017,7 +979,6 @@ Figure 7.2 The capability development steps and levels
 ## 8. Recommendations for practice success
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback

@@ -19,7 +19,6 @@ The primary objective of the service configuration management practice is to eff
 The service configuration management practice is an important element of service management. This practice is beneficial for both the service provider and their service consumers.
 
 Benefits for the service provider include:
-
 *   improved risk management due to better understanding of the relationship between the CIs
 *   better planning and control of changes
 *   better understanding and management of the capacity, availability, and security of IT services and components
@@ -28,7 +27,6 @@ Benefits for the service provider include:
 *   better cause and effect analysis, which improves effectiveness and efficiency of incident and problem management.
 
 Benefits for the service consumer include:
-
 *   more realistic and accurate service level agreements
 *   higher quality of IT services
 *   better management of IT risks.
@@ -42,7 +40,6 @@ The service configuration management practice involves identifying and documenti
 **Figure 2.1 A high-level service configuration model**
 
 Service configuration models are used for various purposes, including:
-
 *   impact analysis
 *   cause and effect analysis
 *   risk analysis
@@ -100,7 +97,6 @@ In some cases, it is more efficient to retrieve configuration data upon request 
 Services and products comprise numerous CIs and connections between them. When defining and categorizing CIs, an organization should find a presentation method that helps all stakeholders, including non-technical roles, to comprehend these complex structures. To categorize CIs and define data representation levels, the configuration management team should rely on service architecture and continuously collaborate with the service architecture team throughout the lifecycle of the CI.
 
 As an example, CIs may be grouped into the following domains:
-
 *   **Business service domain** These CIs represent the business capability (service offering or business service) that the organization provides to its customers.
 *   **Product domain** These CIs represent products and all the distributed components that each product may encompass (as such they are vital for documentation, images, installation scripts and other aspects of the products). Product CIs may support one or many business services. Business services may include multiple products. Products can contain one or many applications, however they may consist of a wider range of components beyond applications.
     
@@ -140,7 +136,6 @@ CIs of different types have different key attributes. Attributes are data elemen
 <table><tbody><tr><td><p><strong>Infrastructure domain CIs</strong></p></td><td><p><strong>Application domain CIs</strong></p></td><td><p><strong>Business service domain CIs</strong></p></td></tr><tr><td><ul><li>Owner</li><li>Memory</li><li>Processor</li><li>CPU size</li><li>Energy consumption</li><li>Lifecycle state related to the service (pipeline, active, retired)</li></ul></td><td><ul><li>Owner</li><li>Version</li><li>Installation date</li><li>License</li><li>CO2 emission</li><li>Lifecycle state related to the service (pipeline, active, retired)</li></ul></td><td><ul><li>Owner</li><li>Business impact</li><li>Contract</li><li>SLA</li><li>Amount of waste and e-waste</li><li>associated with the service</li><li>Lifecycle state related to the service (pipeline, active, retired)</li></ul></td></tr></tbody></table>
 
 Much of the data required for describing CIs is stored and managed in other databases. This includes data on:
-
 *   customers
     
 
@@ -157,7 +152,6 @@ Much of the data required for describing CIs is stored and managed in other data
 Some attributes can be managed as separate CIs in the scope of the relevant domain and vice versa (for example, location can be an attribute of the hardware domain or separate CI connected to hardware; licence can be an application domain CI attribute, or a separate CI linked to the application). CIs of different domains are mapped to each other, thus another important CI attribute is the relationship between them. The information about the relationships allows for analysis of the dependencies between CI instances when planning changes, diagnosing incidents, or designing a new service. This information is also beneficial for capacity management and calculating the costs of IT services.
 
 The relationship between CIs, along with the relationship type, should be defined, documented, and visualized in the CMDB. Examples of how organizations may categorize different types of relationships include:
-
 *   Dependency: one CI depends on another, for example, a server may depend on a network switch.
 *   Communication: CIs communicate with each other, for example, a web server communicates with a database.
 *   Parent/Child: a CI is made up of other CI, for example, a virtual machine host may contain multiple virtual machines.
@@ -173,7 +167,6 @@ Each CI lifecycle model may have its own lifecycle and management approach. Howe
 Organizations often define a model for each CMDB domain, but a model can also be defined for any specified group of CIs based on the organizational needs. For example, a specific model can be created for CIs in a certain location, or a model can be defined for all the CIs connected to a certain business service.
 
 When creating a model, CIs can be grouped into types based on their features, including, but not limited to, the following attributes:
-
 *   related IT asset type
 *   types of stakeholders
 *   responsible party or parties
@@ -182,7 +175,6 @@ When creating a model, CIs can be grouped into types based on their features, in
 *   location (for example, physically on the premises, physically in co-location or on the provider’s premises, cloud resources, or licences on the organization’s own servers) and method of access.
 
 CI lifecycle models define, for a particular type of CI:
-
 *   CI type owner(s)
 *   naming and labelling policy
 *   key group and individual attributes
@@ -206,13 +198,11 @@ Digital sustainability is a developing area at the intersection of digital servi
 <table><tbody><tr><td><p><strong>Definition: Sustainability</strong></p></td></tr><tr><td><p>A business approach focused on creating long-term value for society and other stakeholders, by addressing the risks and opportunities associated with economic, environmental, and social developments.</p></td></tr></tbody></table>
 
 Service configuration management supports digital sustainability by including relevant attributes in the CI information. These may include:
-
 *   Carbon footprint
 *   Source information (whether the supplier of the CI is known and meets sustainability requirements)
 *   Recycling information (may apply to the CI materials and to the end of CI lifecycle).
 
 The organization may decide to store information in the asset management database, rather than the CMDB. However, even if no sustainability-specific attributes are used in the CMDB, accurate, reliable, and relevant information about CIs and their relationships can make a significant contribution to the following areas of an organization’s sustainability journey:
-
 *   E-waste reduction
 
 *   Energy efficiency
@@ -228,7 +218,6 @@ Beyond supporting sustainability initiatives, the service configuration manageme
 As an important source of information for decision-making, CI records and configuration models are subject to continual verification and regular audits.
 
 Service configuration data should:
-
 *   reflect the actual attributes, statuses, and relationships of the CIs
 *   highlight deviations from the baseline configuration(s)
 *   provide sufficient data to restore or re-create the approved configuration(s).
@@ -250,13 +239,11 @@ In this practice, verification is a continual activity of identifying and correc
 Verification of the CMDB data should ideally be performed through a combination of inventory and discovery.
 
 Depending on the CI types that are in scope and the available automation tools, inventory is performed manually or through integration with discovery tools and other systems that are collecting data about the status of the organization’s resources. The CMDB indicates what should be found, and the inventory reveals what is found. The identification and resolution of gaps between the CMDB and the inventory is verification. When verifying data, it may help to:
-
 *   identify and investigate unregistered CIs found in the organization
 *   identify and document unregistered authorized changes (typically indicating ineffective CI control)
 *   identify, investigate, and revert or otherwise address unauthorized changes.
 
 There are different approaches to dealing with identified gaps between the actual and documented configuration information. The key challenge is to ensure that the data in the CMDB reflects the status of the organization’s resources and that this status is correct (meaning there are no unauthorized changes). Possible solutions include:
-
 *   carefully investigating every finding and correction of the organization’s resources or configuration data, depending on the investigation’s results
 *   (semi-)automatically updating the CMDB to reflect the de-facto situation, regardless of whether the situation is authorized (this decouples the investigation of unauthorized changes from the CMDB verification)
 *   (semi-)automatically correcting the de-facto situation based on the latest configuration baseline, without investigating the gaps’ origins (this is more applicable to digital resources and can be difficult to do with physical resources).
@@ -274,7 +261,6 @@ Verification is an integral part of the service configuration management practic
 #### 2.3 Scope
 
 For the chosen types of CIs, the service configuration management practice ensures that:
-
 *   trustworthy configuration data is provided and maintained, which includes updating the configuration data to reflect ongoing changes in the statuses, attributes, and relationships of CIs
 *   relevant and accurate reports are provided to support decision making
 *   the CI lifecycle is integrated with other practices.
@@ -292,7 +278,6 @@ There are several activities and areas of responsibility that are not included i
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The service configuration management practice includes the following PSFs:
-
 *   ensuring that the organization has relevant configuration information about its products and services
 *   ensuring that the costs of providing configuration information are continually optimized.
 
@@ -303,7 +288,6 @@ The focus of the service configuration management practice is ensuring that rele
 Typically, stakeholders that benefit from configuration information use it in the contexts of other management practices and in the wider context of the organization’s value streams.
 
 As listed in section 2.1, configuration information can be used for:
-
 *   impact analysis
 *   cause and effect analysis
 *   risk analysis
@@ -311,7 +295,6 @@ As listed in section 2.1, configuration information can be used for:
 *   availability analysis and planning.
 
 Table 2.3 shows how these activities contribute to various management practices. These and other ways to use configuration information are applicable to every practice and value stream. However, in every case there should be a justification for adding more data or complexity to the CMDB. Key questions to consider include:
-
 *   Is this information available from other sources?
 *   Is this information critical or optional for decision-making?
 *   What are the initial and ongoing costs of including this information in the CMDB?
@@ -347,7 +330,6 @@ Cost optimization can be achieved in multiple ways, but a good way to drive opti
 <table><tbody><tr><td><p><strong>Guiding principles</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>Focus on value</p></td><td><p>Include only the relevant information required by stakeholders</p></td></tr><tr><td><p>Start where you are</p></td><td><p>Use available sources of information; avoid adding new sources and tools unless they are justified</p></td></tr><tr><td><p>Progress iteratively with feedback</p></td><td><p>Regularly review information use and confirm its relevance, adjusting the CMDB scope if needed</p></td></tr><tr><td><p>Collaborate and promote visibility</p></td><td><p>Explain and promote available sources of configuration information and the best ways to use them, then provide hints and tips for more efficient use</p></td></tr><tr><td><p>Think and work holistically</p></td><td><p>Consider other sources of data for decision-making, do not try to put everything in the CMDB</p></td></tr><tr><td><p>Keep it simple and practical</p></td><td><p>Provide relevant information in the most convenient way; avoid complex interfaces and reports</p></td></tr><tr><td><p>Optimize and automate</p></td><td><p>Continually optimize resource-consuming practice activities. Automate CMDB verification, data collection, relationship discovery, and other activities.</p></td></tr></tbody></table>
 
 There are several sources of costs to consider when managing a CMDB:
-
 *   for the CMS:
 
 \- software (costs of purchasing or licensing the CMDB and other CMS software)
@@ -395,7 +377,6 @@ Each practice may include one or more processes and activities that may be neces
 <table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one of more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
 Service configuration management activities form three processes:
-
 *   managing a common approach to service configuration management
 *   capturing, managing, and providing configuration information
 *   verifying configuration data.
@@ -511,7 +492,6 @@ b. **Collect data as you walk**
 c. **Evaluate the workflow steps**
 
 Typically, the criteria for evaluation are:
-
 *   value for the stakeholder (does the step add value for the business stakeholder?)
 
 *   effectiveness or performance (is the step performed well?)
@@ -577,7 +557,6 @@ The key role of the service configuration management practice is the configurati
 The configuration manager oversees the service configuration management approach and CI models for all CIs that are in scope. In many organizations, the configuration manager role is performed by a dedicated person. In larger organizations operating in many locations or in multiple industries, the configuration manager is supported by a team of configuration coordinators who have very similar responsibilities, but who specialize in a particular territory, industry, or other part of the organization.
 
 This configuration manager role is typically responsible for:
-
 *   managing the service configuration management approach
 *   communicating the service configuration management approach and procedures
 *   integrating the service configuration management approach into value streams
@@ -616,7 +595,6 @@ Larger organizations have a specialized team of configuration manager(s) and con
 In smaller organizations, the configuration management specialist team is usually virtual, formed of people with other roles and tasks to perform. The ongoing activities embedded in the service value streams can be fulfilled by resource owners and coordinated by product and service owners, acting as configuration coordinators.
 
 Wider temporary configuration teams may be formed in such organizations to review and update the service configuration management approach. These teams represent multiple stakeholders and may include:
-
 *   configuration managers
 
 *   practice owners
@@ -639,7 +617,6 @@ Wider temporary configuration teams may be formed in such organizations to revie
 ### 5.1 Information exchange
 
 The effectiveness of the service configuration management practice is based on the quality of the information used. This information includes, but is not limited to, information about:
-
 *   organizational strategy
 *   organizational architecture
 *   the organization’s portfolios
@@ -656,7 +633,6 @@ This information may take various forms, depending on the CI types, organization
 ### 5.2 Automation and tooling
 
 The CMS solution is often a part of integrated service management tools, or else designed for easy integration with them. It ensures the effective exchange of configuration information between the practices. Typically, key functionalities of CMS solutions include:
-
 *   CI discovery
 
 *   Updating and managing CI records
@@ -694,7 +670,6 @@ Detailed descriptions of how tools listed in Table 5.1 support the practice’s 
 #### 5.2.1 Recommendations for the automation of service configuration management
 
 The following recommendations can help when applying automation to service configuration management:
-
 *   **Support the value stream** Configuration information is only valuable in the context of the organization’s service value streams. The CMS tool should be either a part of the ITSM workflow management and collaboration system or have good integration with it. It is important to be able to map CI records to other records such as incidents, problems, changes and so on. Access to information about CIs for different users and situations should be adjustable according to the information security policies. Focus on value. Think and work holistically.
 
 *   **Do not overcomplicate the CI attributes, lifecycle models, and relationships** An up-to-date CMDB with the most important information is more valuable than a comprehensive CMDB which is never up to date. Add new classes of CIs, new attributes, and new types of relationship only when it has a solid justification and demand for the information. Keep it simple and practical.
@@ -728,7 +703,6 @@ Third parties supply automation tools for many management practices, but this ro
 ### 7.1 The practice capability levels
 
 The practice success factors described in section 2.4 cannot be developed overnight. The ITIL maturity model defines the following capability levels applicable to any management practice:
-
 **Level 1** The practice is not well organized; it’s performed as initial or intuitive. It may occasionally or partially achieve its purpose through an incomplete set of activities.
 
 **Level 2** The practice systematically achieves its purpose through a basic set of activities supported by specialized resources.
@@ -790,7 +764,6 @@ Table 7.2 The service configuration management capability development steps
 ## 8. Recommendations for practice success
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 
 *   start where you are

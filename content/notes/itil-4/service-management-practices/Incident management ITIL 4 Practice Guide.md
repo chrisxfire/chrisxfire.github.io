@@ -21,7 +21,6 @@ If users perceive the situation as abnormal, it is recommended to register an in
 The incident management practice is a fundamental element of service management. This practice is beneficial for both IT service provider and their service consumers.
 
 Benefits for service providers include:
-
 *   Reduced losses caused by IT service unavailability
 *   Better image due to uninterrupted IT services
 *   Fulfilment of the SLAs with service consumers
@@ -29,7 +28,6 @@ Benefits for service providers include:
 *   Higher user satisfaction.
 
 Benefits for service consumers include:
-
 *   Reduced losses caused by business service unavailability
 *   Better image due to uninterrupted business services
 *   Higher client and employee satisfaction.
@@ -61,7 +59,6 @@ Although some incidents have a relatively low impact on service operation and on
 A significant business impact is not the only characteristic of a major incident. Major incidents are often associated with a higher level of complexity. Many systems and services are designed for high availability, and single failures are unlikely to cause a significant business impact. Failures in these systems are quickly, and often automatically, detected and fixed. However, if multiple seemingly trivial events coincide, they may lead to a major disruption of multiple services and have a high impact on service consumers. Complex incidents such as this require a special approach to management and resolution.
 
 It is recommended to implement a model to manage all major incidents, even though major incidents rarely recur and usually differ in nature. A model for major incidents typically includes:
-
 *   clear criteria to distinguish major incidents from disasters and other incidents
 *   a special accountable coordinator, sometimes referred to as the major incident manager (MIM)
 *   a dedicated temporary team created to investigate and resolve a major incident
@@ -85,7 +82,6 @@ Workarounds promptly restore the service to an acceptable quality. However, work
 #### 2.3 Scope
 
 The scope of the incident management practice includes:
-
 *   detecting and registering incidents
 *   diagnosing and investigating incidents
 *   restoring the affected services and configuration items to an agreed quality
@@ -108,7 +104,6 @@ There are a number of activities and areas of responsibility that are not includ
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
 The incident management practice includes the following PSFs:
-
 *   detecting incidents early
 *   resolving incidents quickly and efficiently
 *   continually improving incident management.
@@ -117,7 +112,6 @@ The incident management practice includes the following PSFs:
 2.4.1 Detecting incidents early
 
 Previously, it was a common practice to register most incidents based on information from end users and IT specialists. This method of sourcing information is still widely used, but good practice currently suggests detecting and registering incidents automatically wherever possible. This can be done immediately after incidents occur and before they start affecting users. This approach has multiple benefits:
-
 *   Earlier incident detection decreases the time of the service unavailability or degradation, which in turn decreases the losses and other negative business impact caused by incidents.
 *   The higher quality of the initially collected data supports the correct response to and resolution of incidents, including automated resolution, also known as self-healing.
 *   Some incidents remain invisible to users, improving user satisfaction and customer satisfaction.
@@ -131,7 +125,6 @@ When automated incident detection is not possible, incidents are usually detecte
 ##### 2.4.2 Resolving incidents quickly and efficiently
 
 This PSF is vital for the success of the incident management practice and for general service quality. After incidents are detected, they should be handled effectively and efficiently, considering the complexity of the environment:
-
 *   In clear situations, such as recurring and well-known incidents, pre-defined resolution procedures are likely to be effective. These may include automated resolution or standardized routing and handling (according to an appropriate pre-agreed incident model).
 *   In complicated situations, where the exact nature of the incident is unknown but the systems and components are familiar to the support teams and the organization has access to expert knowledge, incidents are usually routed to a specialist group or groups for diagnosis and resolution. Sometimes this can assist in identifying patterns and lead to a model and/or a solution which can be applied to similar incidents in the future.
 *   In complex situations, where it is difficult or impossible to define an expert area and group, or where defined groups of experts fail to find a solution, a collective approach may be useful. This technique is known as swarming.
@@ -151,7 +144,6 @@ As mentioned in section 2.2.1, some incidents recur and can be handled in a well
 In incident management, shift-left can be used to delegate more activities to users: not only reporting an incident, but also self-help using chat bots, FAQ pages, and other resources. Another form of shift-left is training of the service desk agents to diagnose and solve more different types of incidents. Any opportunity to solve incidents without transferring them to other teams should be used, especially as the transfer is likely to take extra time and cost extra money. This should not, however, create unacceptable delays; the speed of incident resolution remains the most important requirement. The shift-left approach works best in clear, well-known situations, where less experienced people can successfully follow well-tested and safe instructions.
 
 Regardless of the complexity, it is important to review and confirm the high quality of the incident data from the first steps of incident handling. This has a strong influence on the:
-
 *   correctness of the decisions made
 *   speed of service recovery
 *   effective use of resources
@@ -165,14 +157,12 @@ Incidents should be resolved as soon as possible. However, the resources of the 
 <table><tbody><tr><td><strong>Definitions</strong></td></tr><tr><td><em>Prioritization</em></td></tr><tr><td>An action of selecting tasks to work on first when it is impossible to assign resources to all tasks in the backlog.</td></tr><tr><td><em>Task priority</em></td></tr><tr><td>The importance of a task relative to other tasks. Tasks with a higher priority should be worked on first. Priority is defined in the context of all the tasks in a backlog.</td></tr></tbody></table>
 
 There are a number of simple guidelines for prioritization which apply to all types of tasks, including incidents:
-
 *   Prioritization is a tool for assigning tasks to people in the context of a team. If an incident is handled by multiple teams, it will be prioritized within each team depending on resource availability, target resolution time, and estimated processing time. If resolution of an incident requires several tasks to be performed by different teams working in parallel, each team will be prioritizing their own task.
 *   Prioritization is needed only when there is a resource conflict. Where there are sufficient resources to process every task within the time constraints, prioritization is unnecessary.
 *   In each team, all types of tasks (including incidents) should await prioritization and assignment in a single backlog, together with other tasks (planned and unplanned).
 *   Visualization tools, such as Kanban, and Lean principles, such as the limiting of work in progress, are useful for effective prioritization.
 
 These rules apply to all types of work, whether planned or unplanned, performed by the service provider’s specialist teams. It is important that they are agreed and followed by everyone involved in the organization’s service management activities, across all practices. Specific to incident management, the following additional recommendations should be considered:
-
 *   Evaluation of the impact and urgency of an incident is performed during the incident classification (see section 3.1.1). This evaluation and the related time constraints for its investigation and resolution (often guided by a service level agreement) is NOT prioritization. However, this evaluation provides important input for prioritization.
 *   Resource availability and estimated processing time are defined by each team. For well-known repeating operations, the processing time may be standardized. The target resolution time may be defined by SLAs and/or the internal service specifications of the service provider. The impact assessment and completion (resolution) time may change as support teams discover new information.
 
@@ -201,7 +191,6 @@ Table 2.2 Key metrics for incident management
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
 
 Incident management activities form two processes:
-
 *   **Incident handling and resolution** This process is focused on the handling and resolution of individual incidents, from detection to closure.
 *   **Periodic incident review** This process ensures that the lessons from incident handling and resolution are learned and that approaches to incident management are continually improved.
 
@@ -307,7 +296,6 @@ There is no single operating model fitting all organizations. Different solution
 ###### 3.2.3.1 The key steps of a service value stream analysis
 
 The following are some simple and practical recommendations for service value stream analysis and mapping:
-
 *   **Identify the scope of the value stream analysis** It can be mapped to a particular product or service or applied to most or all of them. Similarly, service value streams may differ for different consumers; for example, incidents can be solved and communicated differently for internal and external customers, or for B2B and B2C products, or for services based on products developed inhouse or sourced externally.
 *   **Define the purpose of the value stream from the business standpoint** Make sure the stakeholder’s concerns are clearly understood, since they are the ones defining value. In case of incident management, it is usually user who needs to return to normal work as soon as possible; however, there are usually other interested parties. For example, internal users may be unable to provide normal service to a business customer because of the incident, and the value of the value stream should be considered from the business perspective, not solely from the user perspective.
     
@@ -319,7 +307,6 @@ The following are some simple and practical recommendations for service value st
 **b. Collect data as you walk**
 
 **c. Evaluate the workflow steps** Typically, the criteria for evaluation are:
-
 *   value for the stakeholder (does the step add value for the business stakeholder?)
 *   effectiveness or performance (is the step performed well?)
 *   availability (are required resources available to execute the step?)
@@ -370,7 +357,6 @@ Roles are described in the context of processes and activities. Each role is cha
 In many organizations, the incident manager role is performed by a dedicated person, sometimes under the incident manager job title. In other organizations, the responsibilities of an incident manager are taken by the person or team responsible for the CI, service, or product with which the incident is associated; this may be the resource owner, service owner, or product owner.
 
 This role is typically responsible for:
-
 *   the coordination of incident handling in the organization or in a specific area, such as territory, product, or technology, depending on the organizational design
 *   coordinating manual work with incidents, especially those involving multiple teams
 *   monitoring and reviewing the work of teams that handle and resolve incidents
@@ -398,7 +384,6 @@ Table 4.2 Examples of roles with responsibility for incident management activiti
 4.2 Organizational structures and teams
 
 Organizational structure and the size of organization influences how the incident management practice is performed and how it is integrated in the organization’s value streams. Incident management involves specialists with different areas and levels of expertise; these specialists may belong to different organizational teams. Typical methods of grouping specialists include, among others:
-
 *   technical domain
 *   product/service
 *   territory
@@ -417,13 +402,11 @@ The expansion of Agile methods and evolution of IT systems (such as self-healing
 4.2.2 Team dynamics
 
 The incident management practice is the foundation of team dynamics, because they affect the functioning of the support operation. The following issues regularly recur:
-
 *   incidents are bounced between teams
 *   team members experience a lack of autonomy and report being blocked by others
 *   a culture prevails where lone ‘heroes’ are rewarded when incidents are solved.
 
 This leads to numerous negative effects, such as:
-
 *   the incident management practice being out of sync
 
 *   resolutions happening slowly or not at all
@@ -453,7 +436,6 @@ Team members need to share the lessons that they have learned from experimenting
 #### 5.1 Information exchange
 
 The effectiveness of the incident management practice is based on the quality of the information used. This includes, but is not limited to, information about:
-
 *   customers and users
 *   architecture and design of services
 *   partners and suppliers, including contract and SLA information on the services they provide
@@ -463,7 +445,6 @@ The effectiveness of the incident management practice is based on the quality of
 This information may take various forms, depending on the incident models in use. The key inputs and outputs of the practice are listed in chapter 3.
 
 Details of incidents are the most important pieces of information. These usually include:
-
 *   sources of information
 *   a reference to the product, service, or CI that is failing or performing below standard
 *   the impacted users or services
@@ -477,7 +458,6 @@ Details of incidents are the most important pieces of information. These usually
 *   the sequence of events leading up to the observation of the symptom.
 
 Additional information that will be exchanged and recorded during the incident management practice should include details of:
-
 *   the investigation
 *   every action taken, including the results.
 
@@ -508,7 +488,6 @@ Note that automation tools used in the incident management practice could includ
 5.2.1 Recommendations for automation of incident management
 
 The following recommendations can help when applying automation to incident management:
-
 *   **Automate the value stream** Although incident management is often one of the first practices to be developed by a service provider, the implementation of ITSM automation systems also often starts with the incident management processes. Even if other practices may not be mature at this stage, it is important to define requirements and design workflows that will support the full value stream, from detection, to resolution of incidents. For incident resolution that requires changes, the automation tool should allow for a simple change tracking workflow; for recurring incidents, it should be possible to capture and reuse of proven solutions. Think and work holistically.
 *   **Allow different workflows for user- and event- initiated incidents** Detection, classification, communications, and conditions for closing a record are all handled differently for user-initiated and event-initiated incidents, even if the latter are handled manually. Attempts to fit both types of incidents in one workflow with the same forms and business logic are unlikely to be successful. The handling of event-generated incidents can and should be automated.
 *   **Do not overcomplicate the workflows and business rules** Forms filled in manually should be user-friendly and should not take much time to fill in. When designing user journeys and interfaces, treat IT support teams as you would treat external users whose expectations are based on their experience with mobile apps and modern web sites.
@@ -522,7 +501,6 @@ The following recommendations can help when applying automation to incident mana
 Very few services are delivered using only an organization’s own resources. Most, if not all, depend on other services, often provided by third parties outside the organization (see section 2.4 of ITIL Foundation: ITIL 4 Edition for a model of a service relationship). Relationships and dependencies introduced by supporting services are described in the practice guides for service design, architecture management, and supplier management.
 
 Partners and suppliers may support the development, management, and execution of the incident management practice. The forms of support include the following:
-
 *   **Performing incident management activities** Some incident management activities can be largely or completely performed by a specialized supplier. Third parties are often involved in incident diagnosis and resolution, and sometimes in other activities. It is important to ensure effective integration of the third parties in the incident-related workflows and information exchange, as well as their adherence to relevant policies. Incident models should define how third parties are involved in incident resolution and how the organization ensures effective collaboration. This will depend on the architecture and design solutions for products, services, and value streams. Nonetheless, the optimization of incident models supporting these solutions will involve the incident management practice. Generally, after the correct model is selected for an incident, further consideration of third-party dependencies is needed during incident diagnosis, resolution, and review. Defined standard interfaces may become an easy way to communicate the necessary conditions and requirements for a supplier to become a part of the organization’s ecosystem. Such interface description may include rules of data exchange, tools, and processes that will create a common language in the multi-vendor environment. Where organizations aim to ensure fast and effective incident resolution, they usually try to agree close cooperation with their partners and suppliers, removing formal bureaucratic barriers in communication, collaboration, and decision-making (see the supplier management practice guide for more information).
 
 *   **Provision of software tools** Most software tools used for incident management are shared with other practices. However, implementation and use of integrated service management information systems often starts with automating incident management (and service desk) activities. In this case, the owner of the incident management practice and the managers of the teams involved in incident management should define requirements and interact with other teams and practices of the service provider to ensure that the required tools are procured, implemented, and used in an optimal way.
@@ -534,7 +512,6 @@ Partners and suppliers may support the development, management, and execution of
 #### 7.1 The practice capability levels
 
 The practice success factors described in section 2.4 cannot be developed overnight. ITIL maturity model defines the following capability levels applicable to any management practice:
-
 **Level 1** The practice is not well organized; it’s performed as initial or intuitive. It may occasionally or partially achieve its purpose through an incomplete set of activities.
 
 **Level 2** The practice systematically achieves its purpose through a basic set of activities supported by specialized resources.
@@ -592,7 +569,6 @@ Figure 7.2 The capability development steps and levels
 ## 8. Recommendations for practice success
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. When using the content of the practice guides, organizations should always follow the ITIL guiding principles:
-
 *   focus on value
 *   start where you are
 *   progress iteratively with feedback
