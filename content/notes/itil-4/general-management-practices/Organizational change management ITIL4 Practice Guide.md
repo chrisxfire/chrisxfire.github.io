@@ -5,7 +5,6 @@ draft: true
 weight: 1
 ---
 
-This document provides practical guidance for the organizational change management (OCM) practice.
 
 ## 1. About this document
 

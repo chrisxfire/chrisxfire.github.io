@@ -5,7 +5,6 @@ draft: true
 weight: 1
 ---
 
-This document provides practical guidance for the release management practice.
 
 ## 1. About this guide
 
