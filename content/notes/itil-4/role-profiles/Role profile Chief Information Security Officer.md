@@ -8,9 +8,7 @@ weight: 1
 This profile describes the roles and responsibilities of a Chief Information Security Officer or Supervisory IT Specialist (Security).
 
 # 1. Job purpose and responsibilities
-
 ### 1.1 Job Purpose
-
 As the senior level executive with overall responsibility to safeguard the IT infrastructure of the business and any privileged or proprietary information that the business possesses, your influence reaches the whole organization.
 
 This is a wide mandate that begins with responsibility for physical and software security solutions such as firewalls but extends to information assurance as well, where you need to take the lead in policies and procedures for handling sensitive information to prevent it falling into the wrong hands, and for raising awareness and training of staff.
@@ -18,7 +16,6 @@ This is a wide mandate that begins with responsibility for physical and software
 Depending on the size and complexity of the organization, the CISO may manage a team of security analysts and security managers.
 
 ### 1.2 Job responsibilities
-
 * Create and maintain the enterprise security architecture design
 * Oversee development of information security policies, standards, baselines, guidelines and procedures
 * Lead development of the Business Continuity Plan and Disaster Recovery Plan
@@ -26,9 +23,7 @@ Depending on the size and complexity of the organization, the CISO may manage a 
 * Coordinate work with all suppliers, contractors and consultants to maintain and enhance data security.
 
 # 2. Skills and qualifications
-
 ### 2.1 Job Skills
-
 As with other Executive roles you will need a blend of business and technical skills. These include:
 
 | 
@@ -114,7 +109,6 @@ Leadership and Teamwork
  |
 
 ### 2.2 Relevant qualifications
-
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
 * [ITIL<sup>®</sup> 4: Digital and IT Strategy](https://www.axelos.com/certifications/itil-service-management/strategic-leader/digital-and-it-strategy)

@@ -6,7 +6,6 @@ weight: 1
 ---
 
 ### 1.1 Job Purpose
-
 IT change is constant and if poorly managed is disruptive and can result in significant loss of productivity. As the IT change manager, you are at the centre of addressing this challenge with responsibility for standardizing the methods, tools and procedures for proficient and prompt handling of all changes to the IT infrastructure.
 
 You will protect the live environment by ensuring efficient control and scheduling of software and hardware modifications, and by preventing the multiple upgrades that can create unpredictable outcomes. You will be responsible for ensuring that service levels and targets agreed with the business are met during change, and that problems are investigated and resolved in a timely manner to minimize disruption.
@@ -14,25 +13,21 @@ You will protect the live environment by ensuring efficient control and scheduli
 For changes that carry higher risk, you will work with a group of key stakeholders called the change advisory board (CAB) to review and assess the priority of changes.
 
 ### 1.2 Job responsibilities
-
 * Log, schedule and track changes to the IT environment
 * Liaise with stakeholders to coordinate change
 * Review change and maintain change log
 * Establish and enhance change procedures.
 
 ### 2.1 Job Skills
-
 Strong planning and organizational skills together with excellent attention to detail are critical in the change management role. You’ll also need a good understanding of the IT change management process.
 
 Key skills you will need include:
 
 | 
 #### **Skill**
-
  | 
 
 #### **You should be able to:**
-
  |
 | --- | --- |
 | 
@@ -114,7 +109,6 @@ Leadership and Teamwork
  |
 
 ### 2.2 Relevant qualifications
-
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
 * [ITIL<sup>®</sup> 4: Digital and IT Strategy](https://www.axelos.com/certifications/itil-service-management/strategic-leader/digital-and-it-strategy)

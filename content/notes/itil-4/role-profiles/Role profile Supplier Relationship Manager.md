@@ -6,7 +6,6 @@ weight: 1
 ---
 
 ### 1.1 Job Purpose
-
 As Supplier Relationship Manager, you will be responsible for procuring IT products and services on behalf of the IT function and the wider business, using your networks and negotiation skills to achieve best value and service levels.
 
 Your role will include sourcing suppliers, negotiating contracts, managing delivery and acting as a conduit between the business and the supplier when there are performance issues. You will need to be able to forge strong, mutually beneficial relationships between key suppliers and the internal IT teams and business customers, ensuring that opportunities for innovation, security of supply and cost savings are maximized.
@@ -14,31 +13,26 @@ Your role will include sourcing suppliers, negotiating contracts, managing deliv
 You will contribute to enhancing the framework of procurement policies and processes that govern management of supplier relationships.
 
 ### 1.2 Job responsibilities
-
 * Work with the business to identify requirements and opportunities for cost savings
 * Supplier identification and competitive analysis
 * Contract negotiation and placement
 * Proactively manage relationships with key suppliers.
 
 ### 2.1 Job Skills
-
 Alongside sound relationship building skills, you need to be an effective negotiator with a sound understanding of the business you represent, and strong analytical skills to work with suppliers and assess how their products and service can deliver what the business needs.
 
 Key skills you will need include:
 
 | 
 #### **Skill**
-
  | 
 
 #### **You should be able to:**
-
  |
 | --- | --- |
 | 
 
 #### **Purchasing**
-
  | 
 
 * Engage with key stakeholders to understand business requirements and shape requirements specification(s) with tightly defined outputs and outcomes
@@ -51,7 +45,6 @@ Key skills you will need include:
 | 
 
 #### **Contract management**
-
  | 
 
 * Provide and negotiate contract in accordance with organizational processes
@@ -65,7 +58,6 @@ Key skills you will need include:
 | 
 
 #### **Negotiation**
-
  | 
 
 * Understand the commercial drivers that influence all parties and the levers that can be used in negotiating/influencing contractual arrangements
@@ -78,7 +70,6 @@ Key skills you will need include:
 | 
 
 #### **Financial management**
-
  | 
 
 * Manage expenditure, ensuring that all financial targets are met
@@ -89,7 +80,6 @@ Key skills you will need include:
 | 
 
 #### **Relationship management**
-
  | 
 
 * Establish and maintain positive business relationships with customers, partners and suppliers (internal or external) deploying and complying with organizational processes
@@ -101,7 +91,6 @@ Key skills you will need include:
 | 
 
 #### **Communication and knowledge sharing**
-
  | 
 
 * Get messages understood by adopting a wide range of styles, tools and techniques
@@ -114,7 +103,6 @@ Key skills you will need include:
  |
 
 ### 2.2  Relevant qualifications
-
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Direct, plan and improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
 * [ITIL<sup>®</sup> 4: Drive stakeholder value](https://www.axelos.com/certifications/itil-service-management/managing-professional/drive-stakeholder-value)

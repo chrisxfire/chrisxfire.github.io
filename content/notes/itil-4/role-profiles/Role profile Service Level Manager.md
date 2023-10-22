@@ -6,7 +6,6 @@ weight: 1
 ---
 
 ### 1.1 Job Purpose
-
 You’ll be the key point of contact for negotiating service levels and key performance indicators for IT services with the business (e.g. for system availability and performance), and for documenting these in a set of service level agreements (SLAs) and contracts against which business customers can monitor performance.
 
 On the supply side, you will need to ensure that the various IT support teams understand the capabilities they need to deliver effective services. You’ll draw up operational level agreements (OLAs) defining the services that each area is responsible for. This will include managing contracts with third parties/cloud services.
@@ -14,29 +13,24 @@ On the supply side, you will need to ensure that the various IT support teams un
 You’ll be responsible for analysis and reporting performance against targets to business leaders, and for contributing to plans to improve underperforming services.
 
 ### 1.2 Job responsibilities
-
 * Maintain an up-to-date catalogue of IT services
 * Negotiate SLAs with business customers and operational level agreement (OLAs) with IT support teams
 * Monitor and report performance against agreed targets and performance indicators
 * Carry out service reviews to review performance.
 
 ### 2.1 Job Skills
-
 As a Service Level Manager, your interpersonal skills are key. You need to be an effective communicator and negotiator, and an analytical thinker. Key skills you will need include:
 
 | 
 #### **Skill**
-
  | 
 
 #### **You should be able to:**
-
  |
 | --- | --- |
 | 
 
 #### **Service Level Management**
-
  | 
 
 * Ensure the catalogue of current IT services is accurate and up-to-date
@@ -49,7 +43,6 @@ As a Service Level Manager, your interpersonal skills are key. You need to be an
 | 
 
 #### **Relationship management**
-
  | 
 
 * Establish and maintain positive business relationships with customers, suppliers and partners (internal or external)
@@ -61,7 +54,6 @@ As a Service Level Manager, your interpersonal skills are key. You need to be an
 | 
 
 #### **Negotiation**
-
  | 
 
 * Understand the commercial drivers that influence all parties and the levers that can be used in negotiating/influencing contractual arrangements
@@ -74,7 +66,6 @@ As a Service Level Manager, your interpersonal skills are key. You need to be an
 | 
 
 #### **Contract management**
-
  | 
 
 * Communicate regularly with suppliers and foster positive working relationships
@@ -88,7 +79,6 @@ As a Service Level Manager, your interpersonal skills are key. You need to be an
 | 
 
 #### **Communication and knowledge sharing**
-
  | 
 
 * Get messages understood by adopting a wide range of styles, tools and techniques
@@ -101,7 +91,6 @@ As a Service Level Manager, your interpersonal skills are key. You need to be an
  |
 
 ### 2.2 Relevant qualifications
-
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
 * [ITIL<sup>®</sup> 4: Direct, plan and improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)

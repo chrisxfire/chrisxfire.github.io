@@ -8,9 +8,7 @@ weight: 1
 This profile describes the roles and responsibilities of a Help Desk Manager, Lead IT Specialist (Customer Support) or Customer Support Manager.
 
 # 1. Job purpose and responsibilities
-
 ### 1.1 Job Purpose
-
 You will take the lead in establishing the policies and systems for delivery of a quality incident management process, and then work with the business to ensure that these are adopted and adhered to.
 
 You will be responsible for monitoring, analyzing and reporting trends in incidents, issues and risks and compliance with ITIL best practice, cataloguing and prioritizing remedial work in conjunction with senior management to ensure a reduction in future incidents.
@@ -18,7 +16,6 @@ You will be responsible for monitoring, analyzing and reporting trends in incide
 Alongside this you will also be responsible for providing Command and Control during major and significant incidents, bringing together support teams to ensure speedy resolution.
 
 ### 1.2 Job responsibilities
-
 * Coordinate activities to respond to major incidents and serve as an escalation point
 * Direct support resources to where they are most required
 * Escalate lack of progress with incidents.
@@ -26,20 +23,16 @@ Alongside this you will also be responsible for providing Command and Control du
 * analyze and report trends in incidents and contribute to the service improvement roadmap.
 
 # 2. Skills and qualifications
-
 ### 2.1 Job Skills
-
 Incident Managers need to be proactive individuals with excellent communication skills and the ability to build relationships at all levels across IT, stakeholders and suppliers to ensure the resolutions of quick and effective resolution of issues.
 
 You will need skills and abilities in the following areas:
 
 | 
 #### **Skill**
-
  | 
 
 #### **You should be able to:**
-
  |
 | --- | --- |
 | 
@@ -133,7 +126,6 @@ You will need skills and abilities in the following areas:
  |
 
 ### 2.2 Relevant qualifications
-
 * [ITIL<sup>®</sup> 4: Create, Deliver and Support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)

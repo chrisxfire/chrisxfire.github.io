@@ -8,7 +8,6 @@ weight: 1
 This profile describes the roles and responsibilities of an IT Architect, Solution Architect, Project Architect, Technical Architects, Application Architect, Network Architect, Information Architect or IT Specialist.
 
 # 1. Job purpose and responsibilities
-
 1.  **1 JOB PURPOSE**
 
 As an IT Architect, you will be responsible for developing, maintaining and governing the ICT solutions across the organization, and for making sure they meet the current and emerging needs of the business.
@@ -24,9 +23,7 @@ You will use your technical expertise to analyze the organization’s current sy
 * Provide technical leadership to designers and developers
 
 # 2. Skills and qualifications
-
 ### 2.1 Job Skills
-
 Alongside your expert technical skills, you’ll need to show planning and communication skills and the ability to work in and lead teams. Key skills you need include:
 
 | 
@@ -119,7 +116,6 @@ Planning and organization
  |
 
 ### 2.2  Relevant qualifications
-
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
 * [ITIL<sup>®</sup> 4: Digital and IT Strategy](https://www.axelos.com/certifications/itil-service-management/strategic-leader/digital-and-it-strategy)

@@ -8,9 +8,7 @@ weight: 1
 This profile describes the roles and responsibilities of an IT Operations Manager, IT Service Manager, Head of Technical Operations, Supervisory IT Specialist, IT Manager or Service Delivery Manager. 
 
 # 1. Job purpose and responsibilities
-
 ### 1.1 Job Purpose
-
 This is a broad leadership role with responsibility for the effective delivery of a live service operation that meets the expectations and service levels agreed with customers. As a leader of the customer facing operation, you’ll have a strong commitment to delivering exceptional customer service, and be able to embed that within your team.
 
 You will be responsible for leading the service desk and the teams that maintain the IT infrastructure (e.g. backup and recovery). The role involves monitoring and analyzing service provision, planning the processes for incident or problem management that can return services to normal without delay, and managing IT change.
@@ -18,7 +16,6 @@ You will be responsible for leading the service desk and the teams that maintain
 You will be skilled in applying best practice processes such as ITIL to ensure all aspects of the IT infrastructure (hardware, software, data stored on various media, and networks) and support service run smoothly and meet the needs of its business community.
 
 ### 1.2 Key Responsibilities
-
 * Implement and manage IT services using the principles and methods associated with industry best practices (e.g. ITIL)
 * Manage the provision of the service desk and problem resolution
 * Monitor and analyze performance, problem trends and client feedback reports
@@ -28,20 +25,16 @@ You will be skilled in applying best practice processes such as ITIL to ensure a
 * Promote a culture that emphasizes service excellence and recommend continual improvement in service management strategy.
 
 # 2. Skills and qualifications
-
 ### 2.1 Job Skills
-
 You will have extensive experience with supported technology as well as strong leadership and resource management skills to ensure the smooth running of the operation.
 
 Key skills you need are as follows:
 
 | 
 #### ****Skill****
-
  | 
 
 #### ****You should be able to:****
-
  |
 | --- | --- |
 | 
@@ -122,7 +115,6 @@ Key skills you need are as follows:
  |
 
 ### **2.2 Relevant Qualifications**
-
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Create, Deliver and Support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
 * [ITIL<sup>®</sup> 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)

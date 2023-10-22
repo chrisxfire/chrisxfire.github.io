@@ -6,7 +6,6 @@ weight: 1
 ---
 
 ### 1.1 Job Purpose
-
 As IT Security Architect you will take the lead in establishing a security stance through development of security policy, architecture and training processes.
 
 This includes the selection of appropriate security solutions, and oversight of any security audits and assessments. You will be a technical specialist in security models, software and tools.
@@ -14,14 +13,12 @@ This includes the selection of appropriate security solutions, and oversight of 
 The IT Security Architect will interface with colleagues in the systems and network teams as well as with the leaders of the business units to both share the corporate security vision, and to solicit their involvement in achieving higher levels of enterprise security through information sharing and co-operation.
 
 ### 1.2 Job responsibilities
-
 * Assess business and technical needs
 * Conduct research and provide advice regarding selection and implementation of IT products
 * Lead design of architecture for, and integration of, new and upgraded ICT solutions
 * Provide technical leadership to designers and developers.
 
 ### 2.1 Job Skills
-
 Alongside your expert technical skills, you’ll need to show planning and communication skills and the ability to work in and lead teams. Key skills you need include:
 
 | 
@@ -121,7 +118,6 @@ Technology trend monitoring
  |
 
 ### 2.2 Relevant qualifications
-
 * [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)
 * [ITIL<sup>®</sup> 4: High-velocity IT](https://www.axelos.com/certifications/itil-service-management/managing-professional/high-velocity-it)
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)

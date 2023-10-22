@@ -6,19 +6,15 @@ weight: 1
 ---
 
 # Role profile: programme manager
-
 This profile describes the roles and responsibilities of a Programme Manager. Also called: Programme Director.
 
 # 1. Job purpose and responsibilities
-
 ### 1.1 Job Purpose
-
 You’ll be responsible for providing leadership, management, coordination, and direction to teams delivering projects as part of a programme of change.
 
 You will be an experienced project professional with a deep understanding of change planning and implementation. You be skilled in applying high level programme and project management methodologies such as PRINCE2® and Managing Successful Programmes® (MSP) to control management of scope, risks and issues, budget, and have superb communication and interpersonal skills to keep all the players coordinated on delivering progress and achieving business benefits.
 
 ### 1.2 Key Responsibilities
-
 * Assuring governance and quality of the programme
 * Benefits management and realization
 * Business case development
@@ -30,16 +26,13 @@ You will be an experienced project professional with a deep understanding of cha
 * Strategic alignment of programme to achieve organizational objectives.
 
 # 2. Skills and qualifications
-
 Key skills you need include:
 
 | 
 #### **Skill**
-
  | 
 
 #### **You should be able to:**
-
  |
 | --- | --- |
 | 
@@ -176,7 +169,6 @@ Business Case Development
  |
 
 ### 2.2. Relevant Qualifications
-
 * [PRINCE2 Foundation](https://www.axelos.com/certifications/propath/prince2-project-management/prince2-foundation)
 * [PRINCE2 Practitioner](https://www.axelos.com/certifications/propath/prince2-project-management/prince2-practitioner)
 * [Managing Successful Programmes (MSP) Foundation](https://www.axelos.com/certifications/propath/msp-programme-management/msp-foundation)

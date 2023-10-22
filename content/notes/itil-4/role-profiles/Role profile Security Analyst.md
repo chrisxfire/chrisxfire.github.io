@@ -6,7 +6,6 @@ weight: 1
 ---
 
 ### 1.1 Job Purpose
-
 You will plan and carry out security measures to protect the organization’s networks and systems, and to make sure the appropriate controls are in place to protect business information and data from unauthorized access, deliberate attack, theft and corruption.
 
 You will carry out audits, and work closely with key stakeholders from the business and IT teams to assess risks, to investigate security breaches, and to plan for disaster recovery in the event of security breaches.
@@ -14,7 +13,6 @@ You will carry out audits, and work closely with key stakeholders from the busin
 You may also play a role in assisting managers to raise awareness of approved policies, procedures and standards and in providing employees with guidance on how to safeguard information and the organization’s IT infrastructure.
 
 ### 1.2 Job responsibilities
-
 * Perform security audits, risk assessments and analysis
 * Investigate attempted breaches of security
 * Provide technical validation of security tools
@@ -22,7 +20,6 @@ You may also play a role in assisting managers to raise awareness of approved po
 * Contribute to definition of security policies and standards.
 
 ### 2.1 Job Skills
-
 Information security is a knowledge-intensive activity. You will need to stay abreast of trends and developments, and be able to share information in this fast-changing security field. You’ll also need strong communication and analysis skills.
 
 You will need skills and abilities in the following areas:
@@ -98,6 +95,5 @@ Leadership and Teamwork
  |
 
 ### 2.2 Relevant qualifications
-
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)

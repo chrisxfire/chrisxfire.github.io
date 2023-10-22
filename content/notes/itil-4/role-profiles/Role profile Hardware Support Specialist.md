@@ -8,15 +8,12 @@ weight: 1
 This profile describes the roles and responsibilities of a Hardware Support Specialist, Hardware Engineer or Hardware Technician.
 
 # 1. Job purpose and responsibilities
-
 ### 1.1 Job Purpose
-
 As a Hardware Support Specialist you will provide frontline support to end users, troubleshooting and repairing a varied range of hardware including desktops, laptops, printers and tablet computers.
 
 You will be committed to customer service and play a key role in minimizing disruption to the business by restoring operation within the service levels agreed with the business.
 
 ### 1.2 Job responsibilities
-
 * Identify hardware problems and repair
 * Perform regular maintenance on hardware components
 * Install and configure desktop/laptop PCs, printers and other hardware
@@ -24,18 +21,14 @@ You will be committed to customer service and play a key role in minimizing disr
 * Communicate effectively with end users and customer management.
 
 # 2. Skills and qualifications
-
 ### 2.1 Job Skills
-
 You need a thorough knowledge of the hardware, software and network connections, together with strong problem-solving skills and a commitment to delivering excellent customer service. You will need the following skills and abilities for a career in hardware support.
 
 | 
 #### **Skill**
-
  | 
 
 #### **You should be able to:**
-
  |
 | --- | --- |
 | 
@@ -102,7 +95,6 @@ Communication and Knowledge Sharing
  |
 
 ### 2.2 Relevant qualifications
-
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Drive Stakeholder Value](https://www.axelos.com/certifications/itil-service-management/managing-professional/drive-stakeholder-value)
 * [ITIL<sup>®</sup> 4: Create, Deliver and Support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)

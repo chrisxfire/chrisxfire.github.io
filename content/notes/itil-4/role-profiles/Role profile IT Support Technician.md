@@ -6,7 +6,6 @@ weight: 1
 ---
 
 ### 1.1 Job Purpose
-
 You will help to find and fix software and hardware problems, or any incident that is disrupting the IT systems or services that business users depend on. Usually you will be working on incidents that have been escalated from front line support on the service desk. Crucially the systems are live, and so the issues usually need prompt attention. Being able to stay calm and work under pressure is vital.
 
 You will need a wide knowledge of the systems you are responsible for, the problems they tend to have and how to fix them.
@@ -14,7 +13,6 @@ You will need a wide knowledge of the systems you are responsible for, the probl
 Alongside incident resolution, you will also assist with other jobs including administration, monitoring and maintenance of systems, and installation and upgrades.
 
 ### 1.2 Job responsibilities
-
 * Identify software and hardware problems and repair
 * Perform regular maintenance on hardware and software components
 * Run diagnostic programs or use test equipment to locate source of problems
@@ -22,7 +20,6 @@ Alongside incident resolution, you will also assist with other jobs including ad
 * Maintain security and functionality through application of programme temporary fixes.
 
 # 2.1 Job Skills
-
 You need broad experience with supported software and hardware as well as organizational and people management skills to ensure that service level agreements are met and quality targets attained.
 
 Key skills you will need include:
@@ -88,6 +85,5 @@ You should be able to:
  |
 
 ### 2.2 Relevant qualifications
-
 * [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)

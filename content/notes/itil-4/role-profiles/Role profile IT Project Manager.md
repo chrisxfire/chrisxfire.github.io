@@ -8,13 +8,10 @@ weight: 1
 This profile describes the roles and responsibilities of an IT Project Manager or IT Project Lead.
 
 # 1. Job purpose and responsibilities
-
 ### 1.1 Job purpose
-
 You will lead the planning and implementation of IT projects, working with internal and external clients, specialists, consultants, and suppliers to identify requirements, develop budgets and organize the project from initial planning and development through to implementation and maintenance.
 
 ### 1.2 Key responsibilities
-
 * Project planning and development of project initiation documentation (PID)
 * Stakeholder management and communication
 * Monitoring and minimizing impact of risk
@@ -26,18 +23,14 @@ You will lead the planning and implementation of IT projects, working with inter
 * Testing.
 
 # 2. Skills and qualifications
-
 ### 2.1 Job skills
-
 You will need to be a good people manager as well as having technical project management skills. Key skills you need include:
 
 | 
 #### ****Skill****
-
  | 
 
 #### ****You should be able to:****
-
  |
 | --- | --- |
 | 
@@ -140,7 +133,6 @@ You will need to be a good people manager as well as having technical project ma
  |
 
 ### 2.2 Relevant Qualifications
-
 * [ITIL® 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [ITIL® 4: Direct, Plan and Improve](https://www.axelos.com/certifications/itil-service-management/managing-professional/direct-plan-and-improve)
 * [PRINCE2 Foundation](https://www.axelos.com/certifications/propath/prince2-project-management/prince2-foundation)

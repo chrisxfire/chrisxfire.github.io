@@ -37,13 +37,11 @@ When a service is provided to thousands or even millions of people, there is not
 Availability is closely connected to service performance, capacity, continuity, and information security. The ITIL management practice guides that discuss these areas often address the same characteristics of configuration items and services, but focus on different aspects of their quality. These practices can significantly benefit from sharing resources of all four dimensions of service management; however, clear separation of responsibilities is required in some cases, especially in heavily regulated areas, such as service continuity and information security.
 
 ## 2.2 Terms and concepts
-
 Service availability is central to business success, there is a direct correlation between service availability and customer and user satisfaction. However, it is possible to achieve customer satisfaction when services fail. The way in which a service provider reacts in a failed situation has a major influence on customer perception.
 
 It is difficult to improve availability without understanding how the services support the consumer.
 
 ### 2.2.1 Vital business function
-
 Vital business function (VBF) is a term used to reflect the part of a service that is critical to the organization’s success. A service may also support a number of business functions that are not vital.
 
 For example, an e-mail service’s VBFs would be sending and receiving email, and accessing archived messages. The ability to access a calendar may not be vital.
@@ -51,14 +49,12 @@ For example, an e-mail service’s VBFs would be sending and receiving email, an
 This distinction between vital and non-vital functions is important and should influence availability design and associated costs. Generally, the more vital the business function, the more resilient and available it needs to be.
 
 ### 2.2.2 Availability for different types of services
-
 Availability can be defined differently for different types of service offerings. For example, if the service offering:
 * Enables business operations (such as a loan approval process or financial reporting process), availability is normally defined in terms of the execution of business operations.
 * Provides access to a resource (such as network, print, or email services), availability is defined and measured in terms of resource availability.
 * Includes fulfilment actions (such as user support), availability is often not an applicable measure. Instead, the focus should be on timely request completion.
 
 ### 2.2.3 Availability criteria
-
 Defining availability requirements for services is often complicated. A service may have multiple functions and customers, each of whom may have different availability requirements for each function.
 
 Quite often for non-functional requirements, the line between underperformance (the service being slow, unsecure, non‑compliant, and so on) and unavailability is difficult to identify.
@@ -73,7 +69,6 @@ When defining service availability, it is essential to consider the following:
 These factors reflect how the service provider and customers define unavailability. It is good practice to document the agreed availability criteria for the service in a service level agreement.
 
 ### 2.2.4 Availability metrics
-
 Availability is one of the most essential indicators of service quality, so service providers must be able to measure, assess, and report availability. Widely accepted practice is to report availability as a percentage, which can be calculated using a simple formula:
 
 Availability = (agreed service time - downtime ) / agreed service time.
@@ -98,7 +93,6 @@ Availability can be measured, assessed, and reported in various ways. These incl
 When defining metrics to measure availability, it is crucial to reflect the business impact of service disruptions rather than the technical availability of service components.
 
 ### 2.2.5 Availability measurement  
-
 Availability measurements are based on accurately tracked periods of downtime. Therefore, one of the most important objectives for the availability management practice is to design and manage availability monitoring tools and translate the resulting data into meaningful service availability information.
 
 Incident management records are a source of service disruptions data. However, availability data based on incident logs is often unreliable and difficult to align to the agreed service availability metrics.
@@ -106,7 +100,6 @@ Incident management records are a source of service disruptions data. However, a
 Infrastructure monitoring tools are common sources of availability data. However, although information from these tools is useful when measuring the availability of resource provision services, it is less useful when measuring the availability of services that enable business operations. Tools such as real user monitoring and business transaction monitoring are more useful for these services.
 
 ### Table 2.1 outlines the availability measurement methods further.
-
 | Availability measured method | Description |
 | --- | --- |
 | 
@@ -153,13 +146,11 @@ Two particular methods of business transaction monitoring are:
  |
 
 ## 2.3 Scope
-
 The availability management practice ensures that services deliver agreed levels of availability to meet the needs of customers and users cost-effectively. To achieve this, the practice includes the definition, measurement, analysis, and improvement of availability and provides a centre of expertise for availability matters to support other service management practices.
 
 The scope of the availability management practice is very broad. Almost every ITIL practice contributes to service availability, directly or indirectly. Activities of other practices that are closely related to the availability management practice are listed in Table 2.2. It is important to remember that ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.
 
 ### Table 2.2 Activities related to the availability management practice described in other practice guides
-
 | **Activity** | **Practice Guide**  |
 | --- | --- |
 | 
@@ -228,13 +219,11 @@ Continual improvement
  |
 
 ### 2.3.1 The line between availability and continuity
-
 The line between service continuity and availability management is subtle. Both of these practices involve the concept of risk and identifying and preparing for events that threaten to disable services. In both cases, an understanding of VBFs, risk assessment, and business impact analysis (BIA) of service failures is required. Ultimately, both practices ensure the organization's resistance to failures.
 
 Some organizations prefer not to separate availability and continuity management. However, there are some differences, as is outlined in Table 2.3.
 
 ### Table 2.3 The distinction between the availability management and service continuity management practices
-
 <table><tbody><tr><td><p><strong>Availability management</strong></p></td><td><p><strong>Service continuity management</strong></p></td></tr><tr><td><p>Focuses on high-probability risks</p></td><td><p>Focuses on high-impact risks (emergencies, disasters)</p></td></tr><tr><td><p>More proactive</p></td><td><p>More reactive</p></td></tr><tr><td><p>Reduces the likelihood of unwanted events</p></td><td><p>Reduces the impacts of unwanted events</p></td></tr><tr><td><p>Focuses on technical solutions</p></td><td><p>Focuses on organizational measures</p></td></tr><tr><td><p>Focuses on optimization</p></td><td><p>Focuses on creating redundancy</p></td></tr><tr><td><p>Is not a part of the corporate function</p></td><td><p>Often is part of the corporate function</p></td></tr><tr><td><p>Business-as-usual</p></td><td><p>Force-majeure</p></td></tr><tr><td><p>MTRS, MTBF, mean time between</p><p>service incidents</p></td><td><p>Recovery time objective, recovery point objective</p></td></tr></tbody></table>
 
 The service continuity management practice is not interested in minor or short-term failures that do not have serious impacts on the organization. It focuses on risks associated with significant damage, regardless of the likelihood of their occurrence. Often these are emergency situations; disasters such as fires, flooding, power outages, data centre or site failures, and so on. Although the availability management practice does not ignore the negative impacts of failures on the service provider and the consumer, minor interruptions of individual components are also considered in the process.
@@ -246,7 +235,6 @@ The purpose of the availability management practice is to ensure that the availa
 Lastly, the availability management practice works with statistics and analyzes trends, whereas the continuity management practice is concerned with how to respond to disruptive events.
 
 ### 2.3.2 Availability management’s role in managing service risks
-
 The concept of risk is central to the availability management practice. In order to meet service availability targets, the practice needs information about risks, which can be provided by the risk management practice.
 
 An effective availability management practice can therefore contribute significantly to risk management. A large proportion of risk mitigation measures are related in some way to availability controls.
@@ -254,7 +242,6 @@ An effective availability management practice can therefore contribute significa
 Availability management generally focuses on identifying and eliminating single points of failure or unreliable or weak components, when it is cost-justifiable (see 2.4.3 for details).
 
 ## 2.4 Practice success factors
-
 <table><tbody><tr><td><strong>Definition: Practice success factor</strong></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
@@ -265,7 +252,6 @@ The availability management practice includes the following PSFs:
 * treating service availability risks.
 
 ### 2.4.1 Identifying service availability requirements
-
 To effectively manage availability, the service provider should identify the service availability requirements. These requirements should reflect how service customers may be impacted by service outages.
 
 Identifying a service’s availability requirements may be a separate activity, but it is more commonly a part of service level negotiation within the SLM practice, or a broader BIA performed jointly with the service continuity management practice.
@@ -276,11 +262,9 @@ Identifying service availability requirements includes:
 * determining availability metrics and setting targets.
 
 ### 2.4.1.1  Understanding customer requirements for service availability
-
 The business analysis and SLM practices normally involve communicating with customers to understand their availability requirements for IT services and negotiate service level requirements. The availability management practice provides important support and input to the SLM, business analysis, and service design practices. Availability requirements always balance cost and quality; the availability management practice can play a key role in optimizing the availability of a service to meet increasing availability demands while deferring an increase in costs.
 
 ### 2.4.1.2 Determining availability criteria
-
 The line between availability and unavailability should be clearly defined. The following factors should be considered when determining service availability criteria:
 * the criticality of business functions that are enabled by a service
 * thresholds for underperformance and complete unavailability (there may be acceptable delays that should not be considered service unavailability)
@@ -291,11 +275,9 @@ The line between availability and unavailability should be clearly defined. The 
 See section 2.2.3 for more details.
 
 ### 2.4.1.3 Determining availability metrics and setting targets
-
 Availability is the most crucial service quality indicator because service customers typically lose money because of service outages. Availability metrics and targets should accurately reflect how consumers are impacted by service unavailability (see section 2.2.4 for details).
 
 ### 2.4.2 Measuring, assessing, and reporting service availability
-
 Service providers must be able to measure, assess, and report availability correctly. It is a widely accepted practice to report availability as a percentage, which can be calculated using a simple formula based on uptime and downtime. Although it can be suitable in many cases (especially for resource provision services), this method lacks visibility of the business impacts of complicated service disruption scenarios.
 
 It is important to consider various ways of measuring, assessing, and reporting availability, including, but not limited to, the following metrics (see 2.2.4 for details):
@@ -315,13 +297,11 @@ Incident records are one obvious source of service disruptions data. However, it
 Infrastructure monitoring tools are more reliable sources of availability data. However, although they work well for measuring resource provision services, it is very difficult to measure the availability of services that enable business operations correctly based on infrastructure monitoring data. Tools such as real user monitoring, business transaction monitoring, and so on can help with this (see section 2.2.5).
 
 ### 2.4.3 Treating service availability risks
-
 The availability management practice is not only about planning and monitoring availability. This practice includes the definition and management of controls to manage a range of risks that might impact service availability. For this, it is used in conjunction with the risk management practice and other risk-focused practices (including the service continuity management, capacity and performance management, and information security management practice). An effective availability management practice can make a significant contribution to risk management<sup>1</sup>.
 
 The measures outlined in Table 2.4 may be designed and implemented as a part of an overall risk mitigation plan.
 
 ### Table 2.4 The four dimensions of availability management
-
 <table><tbody><tr><td><p><strong>Service management dimension</strong></p></td><td><p><strong>Countermeasures to availability risks</strong></p></td></tr><tr><td><p>Organizations and people</p></td><td><p>Developing the people’s capabilities with training</p></td></tr><tr><td><p>Information and technology</p></td><td><ul><li>The exploitation of fault-tolerant technology to mask the impacts of planned or unplanned component downtime</li><li>Duplexing, or the provision of alternative IT infrastructure components, to allow one component to take over the work of another component</li><li>Improving component reliability by enhancing testing regimes</li><li>Improving software design and development</li><li>Introducing a resilient telecommunication network</li><li>Data protection in operation: RAID arrays and disk mirroring for LAN servers to prevent data loss and ensure the continued availability of data</li><li>Monitoring (to provide prompt alerts)</li></ul></td></tr><tr><td><p>Partners and suppliers</p></td><td><p>Improved externally supplied services, contracts, or agreements</p></td></tr><tr><td><p>Value streams and processes</p></td><td><ul><li>Improved incident management</li><li>Improved testing</li><li>Continuous integration/continuous delivery</li></ul></td></tr></tbody></table>
 
 When choosing an availability control, the effectiveness and efficiency of each option should be assessed<sup>2</sup>. It is also important to continually control and validate the effectiveness and efficiency of availability arrangements.
@@ -344,19 +324,16 @@ It is also important to understand how impacts may change over time. Losses due 
 Agreed availability controls are implemented through service design, software development and management, and infrastructure and platform management practices.
 
 ## 2.5 Key metrics
-
 The effectiveness and performance of ITIL practices should be assessed within the context of the value streams to which each practice contributes. As with the performance of any tool, the practice’s performance can only be assessed within the context of its application. However, tools can differ greatly in design and quality, and these differences define a tool’s potential or capability to be effective when used according to their purpose. Further guidance on metrics, key performance indicators (KPIs), and other tools that can help with this can be found in the measurement and reporting practice guide.
 
 Key metrics for the availability management practice are mapped to its PSFs. They can be used as KPIs in the context of value streams to assess the contribution of the practice to the effectiveness and efficiency of those value streams. Some examples of key metrics are given in Table 2.5.
 
 #### Table 2.5 Example metrics for the practice success factors
-
 <table><tbody><tr><td><p><strong>Practice success factors</strong></p></td><td><p><strong>Key metrics</strong></p></td></tr><tr><td><p>Identifying service availability requirements</p></td><td><ul><li>Percentage of products and services with clearly documented availability criteria</li><li>Percentage of (critical) products and services with availability requirements documented in an SLA</li><li>Timely updating of service availability requirements in case of service changes</li></ul></td></tr><tr><td><p>Measuring, assessing, and reporting service availability</p></td><td><ul><li>Percentage of products and services with determined availability metrics</li><li>Percentage of products and services covered by availability and performance monitoring</li><li>Percentage of products and services included in service availability reports</li></ul></td></tr><tr><td><p>Treating service availability risks</p></td><td><ul><li>MTBF achievement</li><li>Minimum time between failures achievement</li><li>Number of service disruptions achievement</li><li>Total downtime over the period achievement</li><li>Maximum service outage achievement</li><li>MTRS achievement</li><li>Percentage of effective availability controls</li><li>Ratio between actual losses and expected losses</li></ul></td></tr></tbody></table>
 
 The correct aggregation of metrics into complex indicators will make it easier to use the data for the ongoing management of value streams, and for the periodic assessment and continual improvement of the availability management practice. There is no single best solution. Metrics will be based on the overall service strategy and priorities of an organization, as well as the goals of the value streams to which the practice contributes.
 
 ## 3.1 Value streams contribution
-
 Like any other ITIL management practice, the availability management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The availability management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which availability management contributes are:
 * plan
 * deliver and support
@@ -371,7 +348,6 @@ The contribution of the availability management practice to the service value ch
 **Figure 3.1 Heat map of the contribution of the availability management practice to value chain activities**
 
 ## 3.2 Processes
-
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
@@ -381,11 +357,9 @@ Availability management activities form two processes:
 * analysing and improving service availability.
 
 ### 3.2.1 Establishing service availability control
-
 This process includes the activities listed in Table 3.1 and transforms the inputs into outputs.
 
 ### Table 3.1 Inputs, activities, and outputs of the establishing service availability control process
-
 <table><tbody><tr><td><strong>Key inputs</strong></td><td><strong>Activities</strong></td><td><strong>Key outputs</strong></td></tr><tr><td><ul><li>Customer requirements</li><li>SLR drafts</li><li>Information about available resources</li></ul></td><td><ul><li>Identifying service availability requirements</li><li>Agreeing service availability requirements</li><li>Determining availability measurement requirements</li><li>Designing availability metrics and reports</li></ul></td><td><ul><li>Agreed service availability requirements</li><li>Availability measurement requirements</li><li>Availability report template(s)<br></li></ul></td></tr></tbody></table>
 
 ![Workflow diagram of the establishing service availability control processPicture2.png](Availability%20management%20ITIL%204%20Practice%20Guide/Picture2.png)
@@ -396,15 +370,12 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 These activities may be performed with varying levels of formality by many people in the organization. Table 3.2 describes these activities further.
 
 ### Table 3.2 Activities of the establishing service availability control process
-
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>Identifying service availability requirements</p></td><td><ul><li>The organization may have draft SLRs and service availability requirements, but they are rarely defined in a measurable and manageable way. Customers communicate their requirements for service availability based on their business needs.</li><li>The availability management practice should work with the SLM practice to clarify service availability criteria and availability indicators, which should accurately reflect the impacts of service outages on the customer (see sections 2.2.3 and 2.4.1 for details).</li><li>Service provider representatives from a customer-facing team or business-analysis team, or product and service owners, are usually involved in documenting service availability requirements.</li></ul></td></tr><tr><td><p>Agreeing service availability requirements</p></td><td><ul><li>Analysis of resource requirements may be needed to define whether fulfilling availability requirements is possible and affordable. The main output is a quote with estimated costs and a timeline for fulfilment.</li><li>This analysis should include agreements with the service provider’s suppliers and partners to ensure that they will support the required service level.</li></ul></td></tr><tr><td><p>Determining availability measurement requirements</p></td><td><ul><li>In order to analyze, report, and improve service availability, the service provider must measure it. The availability monitoring approach should be defined based on the service availability requirements, reporting policy, customer reporting requirements, type of the service, and available monitoring tools.</li><li>The main task is to define how service outages will be tracked.</li></ul></td></tr><tr><td><p>Designing availability metrics and reports</p></td><td><p>Metrics should be determined based on the service availability requirements. The following availability metrics should be considered:</p><ul><li>availability percentage</li><li>MTBF</li><li>minimum time between failures</li><li>number of service disruptions</li><li>total downtime over the period</li><li>maximum downtime</li><li>MTRS.</li></ul><p>Whatever set of metrics is suitable for the service, is important to reflect the business impact of service disruptions, rather than the technical availability of the service components (see 2.4.2 for details).</p><p>After metrics are chosen, a report or dashboard template should be designed to display the results.</p></td></tr></tbody></table>
 
 ## 3.2. Analysing and improving service availability
-
 This process includes the activities listed in Table 3.3 and transforms the inputs into outputs.
 
 #### Table 3.3 Inputs, activities, and outputs of the analysing and improving service availability process
-
 <table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Monitoring data</li><li>Incident records</li><li>Service models</li><li>Availability report template(s)</li><li>Agreed service availability requirements</li><li>Risk register(s)</li><li>Service specification(s)</li></ul></td><td><ul><li>Service availability analysis</li><li>Reporting service availability</li><li>Planning and designing service availability</li></ul></td><td><ul><li>Service availability report(s)</li><li>Problem records</li><li>Availability management plan(s)</li><li>New and updated controls</li></ul></td></tr></tbody></table>
 
 These activities may be carried out with varying levels of formality by many people in the organization.
@@ -418,17 +389,14 @@ Figure 3.2 shows a workflow diagram of the process.
 Table 3.4 describes these activities further.
 
 ### Table 3.4 Activities of the analysing and improving service availability process
-
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>Service availability analysis</p></td><td><p>The achievement of service availability requirements must be confirmed. All deviations from pre-defined levels must be subject to investigation, and corrective action must be undertaken if a fault is found.</p><p>The availability management practice uses monitoring data, such as incident records, as inputs for the review and analysis of service availability. This analysis may be performed on different levels:</p><ul><li>service components/IT infrastructure level: performed by the availability manager, system administrators, and engineers</li><li>service level: performed by the availability manager, service owner, and SLM manager.</li></ul><p>Trend analysis should be performed to detect flaws that have not yet caused incidents. Problems or risks may be logged.</p><p>Because business needs and customer demand may change, the levels of availability for a service may need to be revised. Such reviews should be part of the SLM practice’s regular service reviews. Inputs from the service continuity management practice, particularly from BIAs and risk assessment exercises, should also be considered regularly.</p><p>Continually considering opportunities to optimize the availability of the IT infrastructure and services is important. The benefits of this regular-review approach are that, enhanced levels of availability, with much lower costs, may be achievable.</p></td></tr><tr><td><p>Reporting service availability</p></td><td><p><sup><sub>The service provider produces reports or dashboards demonstrating service availability achievements. These are communicated by agreed-upon channels.</sub></sup></p><p><sup><sub>Service availability reporting is usually a part of overall service quality reporting through the SLM practice</sub></sup><sup>4</sup><sup><sub>.</sub></sup></p></td></tr><tr><td><p>Planning and designing service availability</p></td><td><p>The service provider should determine an appropriate, cost-effective set of service continuity strategies. More preventive measures need to be adopted for those processes and services that have earlier and higher impacts. For services where the impacts are lower and take longer to develop, greater emphasis should be placed on recovery measures (see section 2.4.3 for details).</p><p>The availability management practice ensures that new or changed services meet the customer’s availability requirements. The work involves producing recommendations, plans, and documents on design guidelines for new and changed services. In some cases, an availability plan may be produced, which will include the following:</p><ul><li>current availability levels</li><li>key service components</li><li>anticipated customer requirement changes</li><li>availability impacts of new requirements</li><li>recommendations of availability controls.</li></ul></td></tr></tbody></table>
 
 ## 4.1 Roles, competencies, and responsibilities
-
 The ITIL practice guides do not describe the practice management roles, such as practice owner, practice lead, or practice coach. They focus instead on the specialist roles that are specific to each practice. The structure and naming of each role may differ from organization to organization, so any roles defined in ITIL should not be treated as mandatory, or even recommended. Remember, roles are not job titles. One person can take on multiple roles and one role can be assigned to multiple people.
 
 Roles are described in the context of processes and activities. Each role is characterized with a competency profile based on the model shown in Table 4.1.
 
 ### Table 4.1 Competency codes and profiles
-
 <table><tbody><tr><td><p><strong>Competency code</strong></p></td><td><p><strong>Competency profile (activities and skills)</strong></p></td></tr><tr><td><p><strong>L</strong></p></td><td><p><strong>Leader </strong>Decision-making, delegating, overseeing other activities, providing incentives and motivation, and evaluating outcomes</p></td></tr><tr><td><p><strong>A</strong></p></td><td><p><strong>Administrator </strong>Assigning and prioritizing tasks, record-keeping, ongoing reporting, and initiating basic improvements</p></td></tr><tr><td><p><strong>C</strong></p></td><td><p><strong>Coordinator/communicator </strong>Coordinating multiple parties, maintaining communication between stakeholders, and running awareness campaigns</p></td></tr><tr><td><p><strong>M</strong></p></td><td><p><strong>Methods and techniques expert </strong>Designing and implementing work techniques, documenting procedures, consulting on processes, work analysis, and continual improvement</p></td></tr><tr><td><p><strong>T</strong></p></td><td><p><strong>Technical expert </strong>Providing technical (IT) expertise and conducting expertise-based assignments</p></td></tr></tbody></table>
 
 Examples of roles that are involved in availability management activities are listed in Table 4.2, together with the associated competency profiles and specific skills.
@@ -436,21 +404,17 @@ Examples of roles that are involved in availability management activities are li
   
 
 ### Table 4.2 Examples of roles with responsibility for availability management activities
-
 <table><tbody><tr><td><p>A<strong>ctivity</strong></p></td><td><p><strong>Responsible roles</strong></p></td><td><p><strong>Competency profile</strong></p></td><td><p><strong>Specific skills</strong></p></td></tr><tr><td><p>Establishing service availability control</p></td></tr><tr><td><p>Identifying service availability requirements</p></td><td><ul><li>Service/product owner</li><li>Relationship manager</li><li>Service designer</li><li>Customer</li></ul></td><td><p>CTA</p></td><td><ul><li>Business analysis</li><li>Good knowledge of the service consumer’s business</li><li>Good knowledge of the products, including their architecture and configuration</li><li>Communication and coordination</li></ul></td></tr><tr><td><p>Agreeing service availability requirements</p></td><td><ul><li>Service owner</li><li>Relationship manager</li><li>Customer</li></ul></td><td><p>CA</p></td><td><ul><li>Communication and negotiation</li><li>Good knowledge of the product, including its architecture and configuration</li></ul></td></tr><tr><td><p>Determining availability measurement requirements</p></td><td><ul><li>Availability manager</li><li>Monitoring tool administrator</li><li>Monitoring and event manager Service designer</li><li>Technical expert</li></ul></td><td><p>TM</p></td><td><ul><li>Good understanding of monitoring tools and techniques</li><li>Awareness of technology available on the market for monitoring and event management</li></ul></td></tr><tr><td><p>Designing availability metrics and reports</p></td><td><ul><li>Availability manager</li><li>Service owner<br>Relationship manager</li><li>IT quality manager</li></ul></td><td><p>CM</p></td><td><ul><li>Communication and negotiation</li><li>Report and dashboard design skills</li></ul></td></tr><tr><td><p>Service availability analysis and improvement</p></td></tr><tr><td><p>Service availability analysis</p></td><td><ul><li>Availability manager</li><li>Service owner</li><li>Technical expert</li><li>IT quality manager</li></ul></td><td><p>MT</p></td><td><ul><li>Excellent analytical skills</li><li>Knowledge of methods and techniques, such as fault-tree analysis, component failure impact analysis, and so on</li><li>Familiarity with analytical tools</li><li>Good understanding of possible business impacts due to service outages</li></ul></td></tr><tr><td><p>Reporting service availability</p></td><td><ul><li>Service owner</li><li>Relationship manager</li><li>Customer</li></ul></td><td><p>CA</p></td><td><ul><li>Knowledge of agreements and expectations</li><li>Understanding the consumer context</li><li>Communication and negotiation</li></ul></td></tr><tr><td><p>Planning and designing service availability</p></td><td><ul><li>Availability manager</li><li>Service designer</li><li>Technical expert</li><li>Architecture manager</li></ul></td><td><p>TM</p></td><td><ul><li>Good understanding of resilience options</li><li>Awareness of existing controls</li><li>Awareness of the technology available on the market</li><li>Good understanding of possible business impacts due to service outages</li></ul></td></tr></tbody></table>
 
 ## 4.2 Organizational structures and teams
-
 Although the role of availability manager may be supported with formal positions and job descriptions, it is unusual to see a dedicated organizational structure for the availability management practice. Service availability is managed by other practices and organizational functions. These functions are outlined in Table 4.3.
 
 ### Table 4.3 Examples of availability management activities connected with other practices and organizational functions
-
 <table><tbody><tr><td><p><strong>Process</strong></p></td><td><p><strong>Activity</strong></p></td><td><p><strong>Common execution scenario</strong></p></td></tr><tr><td><p>Establishing service availability control</p></td><td><p>Identifying service availability requirements</p></td><td><p>Service/product owner</p></td></tr><tr><td></td><td><p>Agreeing service availability requirements</p></td><td><p>May be performed as a part of the SLM practice</p></td></tr><tr><td></td><td><p>Determining availability measurement requirements</p></td><td><ul><li>Monitoring tools administrator</li><li>May be performed as a part of monitoring and event management practice</li></ul></td></tr><tr><td></td><td><p>Designing availability metrics and reports</p></td><td><ul><li>Service/product owner</li><li>May be performed as a part of the SLM or measurement and reporting practices</li></ul></td></tr><tr><td><p>Service availability analysis and improvement</p></td><td><p>Service availability analysis</p></td><td><ul><li>For service components/IT infrastructure: system and infrastructure administrators</li><li>For the service level: service/product owner</li></ul></td></tr><tr><td></td><td><p>Reporting service availability</p></td><td><ul><li>Service/product owner</li><li>May be performed as a part of overall service level reporting within SLM practice</li></ul></td></tr><tr><td></td><td><p>Planning and designing service availability</p></td><td><p>Performed in conjunction with the risk manager and business continuity administrator. Depending on the service lifecycle stage and organizational context, a business analyst, architecture manager, information security manager, and/or system administrator may be involved</p></td></tr></tbody></table>
 
 Because availability is impacted by almost every ITIL practice, it is a good idea to appoint an availability manager who is accountable for ensuring cost‑efficient availability management. This role may be combined with the roles of service continuity administrator or IT risk manager.
 
 ### 5.1 Information exchange, inputs/outputs
-
 The effectiveness of the availability management practice is based on the quality of the information used. This information includes, but is not limited to, information about:
 * consumer’s business processes
 * services and their architecture and design
@@ -462,11 +426,9 @@ The effectiveness of the availability management practice is based on the qualit
 This information may take various forms. The key inputs and outputs of the practice are listed in section 3.
 
 ### 5.2 Automation and tooling
-
 In some cases, the availability management practice can significantly benefit from automation (see section 3 for details). Where this is possible and effective, it may involve the solutions outlined in Table 5.1.
 
 ### Table 5.1 Automation solutions for availability management activities
-
 | 
 **Process activity**
 
@@ -623,15 +585,12 @@ More information on the guiding principles and their application can be found in
 Axelos Ltd is grateful to everyone who has contributed to the development of this guidance. These practice guides incorporate an unprecedented level of enthusiasm and feedback from across the ITIL community. In particular, AXELOS would like to thank the following people.
 
 ## 8.1 Authors
-
 Pavel Demin
 
 ## 8.2 Reviewers
-
 Roman Jouravlev
 
 ## References
-
 1.  *Risk management: ITIL® Practice Guide*.
 2.  For details see Risk management: ITIL® Practice Guide.
 3.  An Introduction to Factor Analysis of Information Risk (FAIR)[ftp://mail.im.tku.edu.tw/Prof_Liang/IRM/10%20An%20Introduction%20to%20Factor%20Analysis%20of%20Information%20Risk.pdf](ftp://mail.im.tku.edu.tw/Prof_Liang/IRM/10%20An%20Introduction%20to%20Factor%20Analysis%20of%20Information%20Risk.pdf)(Accessed 24thFebruary 2020)

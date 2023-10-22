@@ -41,9 +41,7 @@ The strategy management practice provides the necessary inputs for many practice
 These practices ensure that the organization-wide approaches, methods, and plans are developed and adopted by the organization. Strategic alignment is needed to ensure that these approaches are appropriate to the organization. Strategic alignment can be achieved by involving experts in the strategy management practice and establishing frequent communication and feedback between the practices.
 
 ## 2.2 Terms and concepts
-
 #### 2.2.1 Business strategy/digital strategy/IT strategy<sup>2</sup>
-
 Business strategy is how an organization defines and achieves its purpose. Every organization has a business strategy. Some organizations maintain a formal set of processes and documents. Other organizations rely on the less formal communication, decision-making criteria, and patterns of behaviour established the governing body and executives.
 
 Regardless of the rigour of the strategy management practice, a business strategy will encompass:
@@ -84,7 +82,6 @@ Regardless of the terminology adopted by the organization, it is important to en
 **Figure 2.1 Business, digital, and IT strategy**
 
 ### 2.2.2 Purpose, vision and strategic objectives
-
 Many organizations differentiate between its vision and its purpose.
 
 <table><tbody><tr><td><strong>Definitions:</strong></td></tr><tr><td><p><strong>Purpose</strong></p><ul><li>The reason that an organization exists, or its core business.</li></ul><p><strong>Vision</strong></p><ul><li>The defined aspiration of what an organization would like to become in the future.</li></ul></td></tr></tbody></table>
@@ -98,11 +95,9 @@ The strategic objectives of an organization are usually structured around the pu
 Start where you are. The exact structure of the organization’s strategy varies, depending on the organization’s purpose, vision, and current state. It is important to understand the current state, as a strategy rarely develops out of nothing. The organization has resources, architectures, value chain and value streams, products and services, customers, and other stakeholders. All of these are likely to be addressed by the strategy and impact the structure of the strategic objective and initiatives. The current status of the organization provides strategic opportunities, but also imposes constraints. Objectives that are too ambitious and unattainable might make the strategy unrealistic, which will affect its effectiveness and the attitude towards it across the organization. Rather than planning a huge leap towards the vision, progress iteratively with feedback. See section 2.4.1 for more on this topic.
 
 ### 2.2.3 Strategy in a VUCA environment
-
 The business environment is often characterized by high levels of volatility, uncertainty, complexity, and ambiguity (VUCA). Organizations aim to address these in its strategies, embedding capabilities such as agility, resilience, innovativeness, and complexity-thinking.
 
 #### 2.2.3.1 Organizational agility and resilience
-
 For an organization to be successful, it must not only achieve organizational agility to support the internal changes, but also organizational resilience, which will allow it to withstand and even thrive within changing external circumstances. The organization must also be considered and managed as a part of a larger ecosystem of organizations, all delivering, coordinating, and consuming products and services.
 
 <table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td><ul><li>Organizational agility is the ability of an organization to move and adapt quickly, flexibly, and decisively to support internal changes.<sup>3<br></sup></li><li><span>Organizational resilience is the ability of an organization to anticipate, prepare for, respond to, and adapt to both incremental changes and sudden disruptions from an external perspective.</span></li></ul></td></tr></tbody></table>
@@ -112,7 +107,6 @@ External influences could be political, economic, social, technological, legal, 
 The organization’s purpose and vision provide direction to the level of agility and resilience that is expected by the stakeholders. The strategy management practice transforms this direction into strategic objectives, models, and initiatives to achieve the required level of organizational agility and resilience.
 
 #### 2.2.3.2 Innovation
-
 Digitally-enabled organizations often make innovativeness a key part of its strategy. Innovations might arise in any of the four dimensions of service management. Whichever dimension an innovation originates from, it is likely to affect all four dimensions. For example, the introduction of GPS on personal devices led to significant changes in the operation and user experience of taxi and delivery services.
 
 <table><tbody><tr><td><strong>Definition: Innovation</strong></td></tr><tr><td><p>The adoption of a new technology or way of working that has led to the significant improvement of an organization, product, or service.</p></td></tr></tbody></table>
@@ -127,7 +121,6 @@ These introduce requirements to multiple practices (business analysis, portfolio
 Innovativeness, just like any strategic objective, cannot be managed by a small specialized team working in isolation. If chosen as a strategic priority, it should be embedded in the organization’s operation at every level. Identification of the innovation opportunities, supported by the continual monitoring of the relevant sources and by internal research and development work, should be encouraged across the organization. Initiatives should be processed promptly and transparently, with effective feedback loops and should involve the initiative’s originators in its realization wherever possible. The effect of the initiatives should be reviewed and reported, with a high tolerance for failure, as not every idea or initiative will prove to be an innovation. Highly innovative organizations should adopt the Probe-Sense-Respond heuristic for experimentation in a complex environment (see figure 2.2).
 
 #### 2.2.3.3 Adapting for variable complexity
-
 The complexity of the business environment and of internal organizational systems vary from clear, predictable, and structured contexts to complicated, complex, and even chaotic.<sup>4</sup> Different levels of complexity can be addressed with different heuristics and imply different constraints that are imposed by the strategy, as shown in Figure 2.2.
 
 ![Image of Figure 2.2 shows a diagram of the Cynefin framework - adapting for variable complexity](Strategy%20management%20ITIL%204%20Practice%20Guide/Picture2.png)
@@ -147,7 +140,6 @@ In order to be effective in a complicated or complex environment, the strategy s
 In a chaotic environment, no effective constraints are applicable, and even the agreed guiding principles might not apply. In situations like this, decisions are likely to be made impromptu, and tested practices are unlikely to provide the expected results. A strategy might help to prepare for chaotic situations by defining who is in charge of decision-making, how success of the actions should be assessed, and how to identify and exploit opportunities for coming back to a complex and more manageable situation.
 
 #### 2.2.3.4 Sustainability
-
 The concept of a sustainable organization evolved from the focus on environmental matters to a wider understanding of sustainability. It is one of the key aspects of many organizations’ vision and strategy and is increasingly important in the context of VUCA business environments.
 
 <table><tbody><tr><td><strong>Definition: sustainability</strong></td></tr><tr><td><p>A business approach focused on creating long-term value for society and other stakeholders, by addressing the risks and opportunities of economic, environmental, and social developments.</p></td></tr></tbody></table>
@@ -161,7 +153,6 @@ Organizations are moving from a focus on profitability to the triple bottom line
 To enable sustainability as a strategic priority, organizations should embed respective principles, objectives, ways of thinking, and working into all of the organization’s teams, value streams, products, and services. The strategy management practice ensures that the sustainability principles and objectives are clearly defined and communicated, to be embedded into the organization’s approaches and practices, including architecture management, supplier management, business analysis, service financial management, relationship management, service design, portfolio management, and other practices. Considerations, challenges, and suggestions from these practices are an important input to the strategy definition; strategy for sustainability, just like for other aspects, should be developed by the organization, not a small group of executive leaders.
 
 ### 2.2.4 Business models and operating models<sup>6</sup>
-
 A strategy is not limited to a collection of principles and objectives; it should also enable the achievement of the objective by providing a business model and an operating model to the organization.
 
 A business model describes how all the pieces of an organization should be configured to provide the intended value proposition to customers, based on the strategic choices and consequences discussed in the strategy. The business model shows how all of the components work together to provide value, rather than only focusing on how each product or service provides value individually. Business models therefore reflect the system of choices and consequences of strategy.
@@ -187,7 +178,6 @@ An operating model, like a business model, is an abstract tool to facilitate the
 The strategy management practice ensures that the organization follows the agreed operating models and that business and operating models are up-to-date, effective, continually reviewed, and improved.
 
 ## 2.3 Scope
-
 The strategy management practice includes:
 * defining and communicating the organization’s purpose, vision, and objectives
 * defining, communicating, and continually improving the business and operating models
@@ -196,11 +186,9 @@ The strategy management practice includes:
 There are several activities and areas of responsibility that are not included in the strategy management practice, although they are still closely related to it. These are listed in Table 2.1, along with references to the practices in which they can be found. It is important to remember that ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.  
 
 ### Table 2.1 Activities related to the strategy management practice described in other practice guides
-
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Implementing strategic decisions</p></td><td><p>All practices</p></td></tr><tr><td><p>Managing strategic risks</p></td><td><p>Risk management</p></td></tr><tr><td><p>Measuring and reporting strategy performance</p></td><td><p>Measurement and reporting</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-
 <table><tbody><tr><td><strong>Definition: Practice success factor</strong></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
@@ -210,7 +198,6 @@ The strategy management practice includes the following PSFs:
 * ensuring that the agreed strategies and models are communicated across the organization and embedded into the organizations' practices and value streams.
 
 #### 2.4.1 Ensuring that the organization's strategies are effective and sustainable, and meet stakeholders' evolving needs
-
 Effective strategies correctly translate the organization’s purpose and the needs and requirements of the stakeholders into the organization’s vision, objectives, business and operating models. They ensure the fulfilment of the agreed objectives across the organization, considering internal and external constraints and influences.
 
 To create and execute an effective strategy, organizations<sup>7</sup> must:
@@ -240,7 +227,6 @@ Insight is the ability to gain an accurate and deep understanding of a subject. 
 Techniques such as ALOE<sup>10</sup> (asking, listening, observing, empathizing) and the development of emotional, social, and system intelligence, support an organization’s performance and evolution. They work much more effectively when adopted by the strategic decision makers and help to create and maintain an insight-driven strategy.<sup>11</sup>
 
 #### 2.4.2 Ensuring that the agreed strategies and models are communicated across the organization and embedded into the organizations' practices and value streams
-
 A strategy is as effective as it is executed. Without the adoption and implementation of the strategy across the organization’s practices, value streams, products and services, the strategy management practice is just a planning exercise.
 
 The key factors of successful execution of strategies are:
@@ -252,7 +238,6 @@ The key factors of successful execution of strategies are:
 The principles of good communication described in *ITIL 4 Direct, Plan and Improve* publication help to ensure that strategic communications are effective. Table 2.2 explains how the principles can be adopted for this purpose.
 
 #### Table 2.2 Communication principles for strategic communications
-
 <table><tbody><tr><td><p><strong>Communication principles</strong></p></td><td><p><strong>Strategic communications</strong></p></td></tr><tr><td><p>Communication is a two-way process</p></td><td><p>Strategic communications should not be limited to one-way awareness communication or objective setting. Strategy should develop based on the input from stakeholders, including feedback.</p></td></tr><tr><td><p>We are all communicating all the time</p></td><td><p>Non-verbal and non-explicit communications matter, especially when it comes to communicating principles, values, and ways of thinking and working. Leading by example and transparency are key enablers of strategy adoption and fulfilment.</p></td></tr><tr><td><p>Timing and frequency matter</p></td><td><p>Changes in strategy should be communicated when they can be adequately received and processed. Status of the ongoing initiatives, climate in the organization, external events, and other factors should be considered. Empathetic and thoughtful communication is more effective.</p></td></tr><tr><td><p>There is no single method of communicating that works for everyone</p><p>The message is in the medium</p></td><td><p>Different stakeholders prefer different means of communication, from face-to-face meetings to using social networks and online publications. The method, channel, and format should be selected with careful consideration to the information’s sensitivity and information security risks, but wherever possible stakeholders’ preferences should be taken into account.</p></td></tr></tbody></table>
 
 All practices should be designed for strategic alignment and continual improvement. This means that they are planned and executed to support relevant strategic objectives, and they are continually reviewed to ensure that this is achieved. It is important to follow this approach when the practices are developed and applied in an organization. Too often, practice owners focus on the execution of the practices’ processes and do not pay enough attention to strategic alignment and continual improvement. The same recommendations apply to the organization’s value streams, products, and services.
@@ -262,19 +247,16 @@ The adoption and execution of a new strategy often requires organizational chang
 Organizational change management and workforce and talent management practices help to develop a healthy organizational culture and to establish an improvement loop between the culture and the strategy. The two are naturally and mutually enabling; strategy is based on the culture and supported by it as long as it fits the culture and does not contradict people’s beliefs, values, and ways of thinking. At the same time, new values, principles, and ways of thinking and working can be introduced by the strategy and embraced by the organization if they are sufficiently aligned with the current culture and fit the absorptive capacity of the organization. With that said, strategy, particularly in cases of digital transformation, may challenge some people’s beliefs, values, and ways of thinking as it requires a dramatic shift of the entire organization. It is the role of leaders to drive the organizational change, enable changes in competencies and behaviours, and enable a shift to a new culture that supports a new digital vision.
 
 ## 2.5 Key metrics
-
 The effectiveness and performance of the ITIL practices should be assessed within the context of the value streams to which each practice contributes. As with the performance of any tool, the practice’s performance can only be assessed within the context of its application. However, tools can differ greatly in design and quality, and these differences define a tool’s potential or capability to be effective when used according to its purpose. Further guidance on metrics, key performance indicators (KPIs), and other techniques that can help with this can be found in the measurement and reporting practice guide.
 
 Key metrics for the strategy management practice are mapped to its PSFs. They can be used as KPIs in the context of value streams to assess the contribution of the practice to the effectiveness and efficiency of those value streams. Some examples of key metrics are given in Table 2.3.  
 
 ### Table 2.3 Example of key metrics for the practice success factors
-
 <table><tbody><tr><td><p><strong>Practice success factors</strong></p></td><td><p><strong>Key metrics</strong></p></td></tr><tr><td><p>Ensuring that the organization's strategies are effective and sustainable, and meet the stakeholders' evolving needs</p></td><td><ul><li>Stakeholder’s satisfaction</li><li>Number and diversity of stakeholders involved in the strategy planning</li><li>Number and percentage of strategic objectives achieved</li><li>Number and percentage of strategic initiatives successfully fulfilled</li><li>Number and impact of cases where strategy was found to be outdated or irrelevant</li><li>Number and impact of stressful internal and external events that were successfully addressed by the strategy</li></ul></td></tr><tr><td><p>Ensuring that the agreed strategies and models are communicated across the organization and embedded into the organizations' practices and value streams</p></td><td><ul><li>Awareness of the strategic principles, objectives and initiatives across the organization</li><li>Strategic alignment of the organization’s practices, value streams, products and services</li><li>Number and impact of cases where strategic objectives were not supported by practices, value streams, products or services</li></ul></td></tr></tbody></table>
 
 The correct aggregation of metrics into complex indicators will make it easier to use the data for the ongoing management of value streams, and for the periodic assessment and continual improvement of the strategy management practice. There is no single best solution. Metrics will be based on the overall service strategy and priorities of an organization, as well as on the goals of the value streams to which the practice contributes.
 
 ## 3.1 Value stream contribution
-
 Like any other ITIL management practice, the strategy management practice contributes to multiple value streams. It is important to remember that a value stream is never formed from a single practice. The strategy management practice combines with other practices to provide high-quality services to consumers. The main value chain activities to which the practice contributes is plan, however, all other value chain activities are also impacted by the strategy management practice.
 
 The contribution of the strategy management practice to the service value chain is shown in Figure 3.1.
@@ -284,7 +266,6 @@ The contribution of the strategy management practice to the service value chain 
 **Figure 3.1 Heat map of the contribution of the strategy management practice to value chain activities**
 
 ## 3.2 Processes
-
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
 <table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
@@ -294,11 +275,9 @@ Strategy management activities form two processes:
 * ad hoc strategic decision-making.
 
 #### 3.2.1 Strategy generation and continual development
-
 This process is focused on defining, agreeing, and communicating of strategy and its continual improvement. It is the key process of the practice; it is performed continually to support the practice’s purpose and PSFs.
 
 #### Table 3.1 Inputs, activities, and outputs of the strategy generation and continual development process
-
 <table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activity</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Stakeholder needs and requirements</li><li>Organization’s vision, principles, and policies</li><li>Organization’s business strategy</li><li>Organization’s portfolios</li><li>External factors, including risks and opportunities</li><li>Strategy review reports</li></ul></td><td><ul><li>Strategic assessment</li><li>Strategy planning</li><li>Strategy discussion and approval</li><li>Strategy communication and implementation</li><li>Strategy review</li></ul></td><td><ul><li>Strategic assessment report</li><li>Strategic plans and models</li><li>Strategy implementation guidelines</li><li>Strategy communications</li></ul></td></tr></tbody></table>
 
 Figure 3.2 shows a workflow diagram of the process.
@@ -306,15 +285,12 @@ Figure 3.2 shows a workflow diagram of the process.
 ![Figure 3.2 Workflow of the strategy generation and continual development process](Strategy%20management%20ITIL%204%20Practice%20Guide/Figure_3.2.png)
 
 #### **Table 3.2 Activities of strategy generation and continual development** **process**
-
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Example</strong></p></td></tr><tr><td><p>Strategic assessment</p></td><td><p>Executive leaders of the organization together with key stakeholders assess:</p><ul><li>the direction communicated by the governing body</li><li>requirements and needs of relevant stakeholders</li><li>current position of the organization</li><li>strategic review report available from previous iterations of the process.</li></ul><p>The resulting assessment report includes analysis of the current position and performance of the organization, relevance, and execution of the strategy and recommendations for strategy improvement.</p><p>Where relevant, strategic analysts (consultants, advisors) are involved in the assessment.</p></td></tr><tr><td><p>Strategy planning</p></td><td><p>Executive leaders of the organization together with key stakeholders define or update the organization’s vision, principles, and objectives.</p><p>In consultations with key managers of the organization, they develop a portfolio of strategic initiatives to support the objectives. The results of the planning are documented and communicated to wider stakeholder group for discussion and approval.</p><p>Where relevant, strategic analysts (consultants, advisors) are involved in the planning.</p></td></tr><tr><td><p>Strategy discussion and approval</p></td><td><p>The stakeholders discuss and approve the proposed strategy. Where agreement cannot be reached, decisions are made in line with the organization’s decision-making approach. If decisions cannot be made, comments, and concerns are communicated back as input for strategic reassessment.</p><p>Where relevant, strategic analysts (consultants, advisors) are involved in the discussion.</p></td></tr><tr><td><p>Strategy communication and implementation</p></td><td><p>The approved strategy is communicated to relevant stakeholders for consideration and implementation.</p><p>Implementation of the strategy is performed in conjunction with other practices as described in Sections 2.3 and 2.4.</p></td></tr><tr><td><p>Strategy review</p></td><td><p>Assigned owners of the strategic initiatives and other key stakeholders review the progress of the strategy execution.</p><p>Resulting reports might include corrective actions recommended to the implementing teams and/or serve as a trigger for strategic reassessment.</p></td></tr></tbody></table>
 
 ### 3.2.2 Ad hoc strategic decision-making
-
 This process is focused on providing strategic direction in extraordinary circumstances when important decisions to be made are insufficiently supported by the current strategy and supporting guidelines. This process is engaged when the situation has deviated beyond the tolerances established by the current strategy, due to the insufficient resilience and adaptability of the strategy or because of the internal or external crisis. This process includes the activities listed in Table 3.3 and transforms the inputs into outputs.
 
 #### Table 3.3 Inputs, activities, and outputs of the ad hoc strategic decision-making process
-
 <table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activity</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Organization’s principles, policies, and vision</li><li>Organization’s strategies and models</li><li>Internal and external factors</li><li>New needs and requirements from stakeholders</li></ul><ul><li>Risks</li></ul></td><td><ul><li>Detection of a strategic exception</li><li>Situational orientation and assessment</li><li>Discussing and agreeing decision</li><li>Decisions communication and implementation</li><li>Review</li></ul></td><td><ul><li>Assessment records</li><li>Records of discussions and decision-making</li><li>Strategic decisions</li><li>Review reports</li></ul></td></tr></tbody></table>
 
 Figure 3.3 shows a workflow diagram of the process.
@@ -327,27 +303,22 @@ Figure 3.3 shows a workflow diagram of the process.
 Table 3.4 provides examples of the process activities.
 
 #### Table 3.4 Activities of the *ad hoc strategic decision-making* process
-
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Example</strong></p></td></tr><tr><td><p>Detection of a strategic exception</p></td><td><p>When an extraordinary event of strategic importance occurs is detected or organization cannot operate within direction and constraints provided by the strategy, the situation is escalated to the strategic decision makers. These are usually the executive leaders of the organization.</p></td></tr><tr><td><p>Situational orientation and assessment</p></td><td><p>Strategic decision makers assess the reported situation. If a strategic exception is confirmed and the situation cannot be managed within the current strategy, they proceed to discussing a course of action.</p><p>If the situation is within tolerance and can be effectively addressed by the current strategy, this is communicated to relevant stakeholders for normal execution, and the leadership team proceeds to review of the escalation.</p></td></tr><tr><td><p>Discussing and agreeing decision</p></td><td><p>The decision makers discuss the situation with relevant stakeholders and propose a course of action, considering the level of complexity, associated risks, level of urgency, and other available information.</p><p>Where relevant, strategic analysts (consultants, advisors) are involved in the discussion.</p></td></tr><tr><td><p>Decisions communication</p></td><td><p>The decisions made are communicated to relevant stakeholders for execution. Control over the execution and, if necessary, correction of the course may be performed directly by the decision makers or delegated.</p></td></tr><tr><td><p>Review</p></td><td><p>Executive leaders of the organization together with relevant stakeholders review the situation, including relevance of the escalation, the decision-making process and effectiveness of the decisions.</p><p>Resulting review report serves as an input to the strategy generation and continual development process.</p></td></tr></tbody></table>
 
 ## 4.1 Roles, competencies, and responsibilities
-
 The practice guides do not describe the practice management roles such as practice owner, practice lead, or practice coach. They focus instead on the specialist roles that are specific to each practice. The structure and naming of each role may differ from organization to organization, so any roles defined in ITIL should not be treated as mandatory or even recommended. Remember, roles are not job titles. One person can take on multiple roles and one role can be assigned to multiple people.
 
 Roles are described in the context of processes and activities. Each role is characterized with a competency profile based on the following model shown in Table 4.1.
 
 #### Table 4.1 Competency codes and profiles
-
 <table><tbody><tr><td><p><strong>Competency code</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>L</p></td><td><p><strong>Leader</strong> Decision-making, delegating, overseeing other activities, providing incentives and motivation, and evaluating outcomes</p></td></tr><tr><td><p>А</p></td><td><p><strong>Administrator</strong> Assigning and prioritizing tasks, record-keeping, ongoing reporting, and initiating basic improvement</p></td></tr><tr><td><p>C</p></td><td><p><strong>Coordinator/communicator</strong> Coordinating multiple parties, maintaining communication between stakeholders, and running awareness campaigns</p></td></tr><tr><td><p>М</p></td><td><p><strong>Methods and techniques expert</strong> Designing and implementing work techniques, documenting procedures, consulting on processes, work analysis, and continual improvement</p></td></tr><tr><td><p>Т</p></td><td><p><strong>Technical expert</strong> Providing technical (subject matter) expertise and expertise-based assignments</p></td></tr></tbody></table>
 
 Examples of other roles which can be involved in the strategy management activities are listed in Table 4.2, together with the associated competency profiles and specific skills.
 
 #### Table 4.2 Examples of roles with responsibility for strategy management practice activities
-
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Responsible roles</strong></p></td><td><p><strong>Competency profile</strong></p></td><td><p><strong>Specific skills</strong></p></td></tr><tr><td><p>Strategy generation and continual development</p></td></tr><tr><td><p>Strategic assessment</p></td><td><ul><li>Executive leaders</li><li>Key stakeholders</li><li>Strategic analysts</li></ul></td><td><p>TCM</p></td><td><ul><li>Good knowledge of the organization, its environment, position, and current performance</li><li>Good understanding of the current strategy and its performance</li><li>Good knowledge of the relevant technology and ways of working available to the organization</li><li>Excellent analytical skills</li><li>Good communication skills</li></ul></td></tr><tr><td><p>Strategy planning</p></td><td><ul><li>Executive leaders</li><li>Key stakeholders</li><li>Strategic analysts</li></ul></td><td><p>MLTC</p></td><td><ul><li>Good knowledge of the organization, its environment, position, and current performance</li><li>Good understanding of the current strategy and its performance</li><li>Good knowledge of the relevant technology and ways of working available to the organization</li><li>Good knowledge of the outputs of strategic assessment</li><li>Good analytical and communication skills</li></ul></td></tr><tr><td><p>Strategy discussion and approval</p></td><td><p>Key stakeholders</p></td><td><p>MCT</p></td><td><ul><li>Good analytical and communication skills</li><li>Good knowledge of the organization, its environment, position, and current performance</li><li>Good knowledge of the outputs of strategic assessment and planning</li></ul></td></tr><tr><td><p>Strategy communication and implementation</p></td><td><p>Executive leaders</p></td><td><p>LCM</p></td><td><ul><li>Good leadership and communication skills</li><li>Good knowledge of the agreed strategy and its impact on the stakeholders</li></ul></td></tr><tr><td><p>Strategy review</p></td><td><ul><li>Executive leaders</li><li>Key stakeholders</li><li>Strategic analysts</li></ul></td><td><p>TMC</p></td><td><ul><li>Good knowledge of the organization, its environment, position, and current performance</li><li>Good understanding of the current strategy and its performance</li><li>Excellent analytical skills</li><li>Good communication skills</li></ul></td></tr><tr><td><p>Ad hoc strategic decision-making</p></td></tr><tr><td><p>Detection of a strategic exception</p></td><td><p>Any relevant stakeholder</p></td><td><p>T</p></td><td><ul><li>Good knowledge of the organization, its environment, position, and current performance</li><li>Good understanding of the current strategy and its performance</li><li>Good knowledge of the relevant practices and guidelines</li></ul></td></tr><tr><td><p>Situational orientation and assessment</p></td><td><p>Executive leaders</p></td><td><p>TC</p></td><td><ul><li>Good knowledge of the organization, its environment, position, and current performance</li><li>Good understanding of the current strategy and its performance</li><li>Good analytical and communication skills</li><li>Situational analysis and crisis management skills</li></ul></td></tr><tr><td><p>Discussing and agreeing decision</p></td><td><ul><li>Executive leaders</li><li>Key stakeholders</li><li>Strategic analysts</li></ul></td><td><p>MLTC</p></td><td><ul><li>Good knowledge of the situation and context</li><li>Good knowledge of the relevant technology and ways of working available to the organization</li><li>Good analytical and communication skills</li><li>Situational analysis and crisis management skills</li><li>Leadership and communication skills</li></ul></td></tr><tr><td><p>Decisions communication</p></td><td><p>Executive leaders</p></td><td><p>LCM</p></td><td><ul><li>Good leadership and communication skills</li><li>Good knowledge of the agreed decisions and their impact on the stakeholders</li></ul></td></tr><tr><td><p>Review</p></td><td><ul><li>Executive leaders</li><li>Key stakeholders</li><li>Strategic analysts</li></ul></td><td><p>TMC</p></td><td><ul><li>Good knowledge of the situation and context</li><li>Good understanding of the effect of decisions on the organization and other stakeholders</li><li>Excellent analytical skills</li><li>Good communication skills</li></ul></td></tr></tbody></table>
 
 #### 4.1.1 Strategic decision-makers
-
 The role of the strategic decision-maker is usually performed by the executive leaders and the governing body of the organization. Strategic decision-making as well as effective strategy communication and leadership require the following key competencies:
 * emotional, social, and systems intelligence
 * cognitive flexibility
@@ -358,11 +329,9 @@ The role of the strategic decision-maker is usually performed by the executive l
 * conversational intelligence, multimodal communication skills.
 
 ## 4.2 Organizational structures and teams
-
 The strategy management practice is performed by the organization’s leaders supported by multiple stakeholders across the organization. However, in larger organizations, a specialized team of strategic analysts can be established to perform ongoing strategic analysis and advise decision makers. The team sometimes consists of strategic advisors or consultants. Members might specialize in specific subjects such as markets, products, brands, sustainability, innovations, and so on. Strategy reports and plans might be drafted by the members of this team, but the accountability for strategic decisions always remains with governing body and executive leaders of the organization.
 
 ## 5.1 Information exchange
-
 The effectiveness of the strategy management practice is based on the quality of the information used. This includes, but is not limited to, information about:
 * organization’s vision, values, and principles
 * guidance from the governing body
@@ -375,11 +344,9 @@ The effectiveness of the strategy management practice is based on the quality of
 This information may take various forms. The key inputs and outputs of the practice are listed in section 3.
 
 ## 5.2 Automation and tooling
-
 Strategy management is not usually perceived as a highly-automated practice. However, it can significantly benefit from the opportunities offered by advanced analytics, big data, modelling and forecasting. Collaboration and communication tools are also useful for every activity of the practice. Table 5.1 lists the specific means of automation that are relevant to each activity of the strategy management practice.
 
 #### Table 5.1. Automation solutions for strategy management activities
-
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Means of automation</strong></p></td><td><p><strong>Key functionality</strong></p></td><td><p><strong>Impact on the effectiveness of the practice</strong></p></td></tr><tr><td><p>Strategy generation and continual development</p></td></tr><tr><td><p>Strategic assessment</p></td><td><ul><li>Analytical tools</li><li>Sense-making tools</li><li>Communication and collaboration systems</li></ul></td><td><p>Multi-factor analysis, forecasting, trend analysis, sentiments analysis, sense-making</p></td><td><p>Medium to High</p></td></tr><tr><td><p>Strategy planning</p></td><td><ul><li>Analytical tools</li><li>Sense-making tools</li><li>Communication and collaboration systems</li></ul></td><td><p>Planning, modelling, forecasting</p></td><td><p>Medium</p></td></tr><tr><td><p>Strategy discussion and approval</p></td><td><p>Collaboration and communication tools</p></td><td><p>Group communications and collaboration</p></td><td><p>Low to Medium</p></td></tr><tr><td><p>Strategy communication and implementation</p></td><td><ul><li>Collaboration and communication tools</li><li>Monitoring and reporting tools</li></ul></td><td><ul><li>Communication of decisions and feedback</li><li>Monitoring of performance, dashboards and operational reports</li></ul></td><td><p>High</p></td></tr><tr><td><p>Strategy review</p></td><td><ul><li>Analytical tools</li><li>Sense-making tools</li><li>Communication and collaboration systems</li></ul></td><td><p>Multi-factor analysis, forecasting, trend analysis, sentiments analysis, sense-making</p></td><td><p>Medium to High</p></td></tr><tr><td><p>Ad hoc strategic decision-making</p></td></tr><tr><td><p>Detection of a strategic exception</p></td><td><ul><li>Monitoring and reporting tools</li><li>Communication and collaboration systems</li></ul></td><td><p>Monitoring of performance, dashboards, and operational reports</p><p>Communication of exceptions</p></td><td><p>Medium to High</p></td></tr><tr><td><p>Situational orientation and assessment</p></td><td><ul><li>Analytical tools</li><li>Sense-making tools</li><li>Communication and collaboration systems</li></ul></td><td><p>Multi-factor analysis, forecasting, trend analysis, sentiments analysis, sense-making</p></td><td><p>Medium to High</p></td></tr><tr><td><p>Discussing and agreeing decision</p></td><td><ul><li>Analytical tools</li><li>Sense-making tools</li><li>Communication and collaboration systems</li></ul></td><td><ul><li>Planning, modelling, and forecasting</li><li>Group communications and collaboration</li></ul></td><td><p>Medium</p></td></tr><tr><td><p>Decisions communication</p></td><td><ul><li>Collaboration and communication tools</li><li>Monitoring and reporting tools</li></ul></td><td><ul><li>Communication of decisions and feedback</li><li>Monitoring of performance, dashboards and operational reports</li></ul></td><td><p>Medium to High</p></td></tr><tr><td><p>Review</p></td><td><ul><li>Analytical tools</li><li>Sense-making tools</li><li>Communication and collaboration systems</li></ul></td><td><p>Multi-factor analysis, forecasting, trend analysis, sentiments analysis, sense-making</p></td><td><p>Medium to High</p></td></tr></tbody></table>
 
 Very few products and services are delivered using only an organization’s own resources. Most, if not all, depend on other products and services, often provided by third parties outside the organization (see section 2.4 of the *ITIL® Foundation: ITIL 4 Edition* publication for a model of a service relationship). Relationships with suppliers and partners are therefore a key aspect of every organization’s strategy. There are aspects of strategy directly related to suppliers and partners (sourcing strategy), but other strategic principles, objectives and initiatives are likely to affect an organization’s approach to relationships with suppliers and partners. For example, strategic sustainability objectives are likely to change an organization’s approach to the selection and management of suppliers, to ensure that external services and resources are sourced responsibly and meet organization’s sustainability objectives.
@@ -402,19 +369,15 @@ More information on the guiding principles and their application can be found in
 AXELOS Ltd is grateful to everyone who has contributed to the development of this guidance. These practice guides incorporate an unprecedented level of enthusiasm and feedback from across the ITIL community. In particular, AXELOS would like to thank the following people.
 
 ## 8.1 Authors
-
 Antonina Klentsova, Roman Jouravlev.
 
 ## 8.2 Contributors
-
 David Cannon, Erin Casteel, Stuart Rance.
 
 ## 8.3 Reviewers
-
 Akshay Anand, David Cannon, Erin Casteel, Erika Flora, Richard de Kock, Irina Matantseva, Anton Lykov, Stuart Rance.
 
 ## References
-
 1.  Kachaner, N., King, K., and Stewart, S. (2016) Four Best Practices for Strategic Planning. *Boston Consulting Group*, \[online\] Available at: [https://www.bcg.com/publications/2016/growth-four-best-practices-strategic-planning.aspx](https://www.bcg.com/publications/2016/growth-four-best-practices-strategic-planning.aspx) (Accessed 15th April 2020).
     
 2.  For more on the topic, see ITIL 4: Digital and IT Strategy, section 2.8

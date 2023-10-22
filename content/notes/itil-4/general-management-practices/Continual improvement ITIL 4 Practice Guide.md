@@ -18,7 +18,6 @@ The continual improvement practice enables service providers to adapt to changin
 * improve their overall capabilities to deliver and manage services efficiently. Failure to adapt and improve will lead to a reduction in the value of services.
 
 ## 2.2 Terms and concepts
-
 <table><tbody><tr><td><p><strong>Definition: Improvement</strong></p></td></tr><tr><td><p>A deliberately introduced change that results in increased value for one or more stakeholders.</p></td></tr></tbody></table>
 
 Almost every action taken in an organization can be seen as an improvement activity. Improvement means change; there cannot be a change to outcomes without changing the current state.
@@ -55,7 +54,6 @@ Well-constructed feedback mechanisms facilitate an understanding of:
 * Once received, feedback can be analyzed to identify and validate improvement opportunities, risks, or issues.
 
 ### 2.2.1 Involving service consumers
-
 In service relationships, service providers and service consumers may share value stream activities. Therefore:
 * some improvements may involve changes in service consumption
 * some improvements may affect service consumers directly.
@@ -67,7 +65,6 @@ Service consumers should feel comfortable suggesting improvements to the service
 Service providers should work closely with service customers to ensure fast feedback loops and to verify the improvement’s results and effects. Organizations that aim for fast and effective continual improvement usually try to agree close cooperation with their consumers, removing formal bureaucratic barriers in communication, collaboration, and decision-making.
 
 ## 2.3 Scope
-
 The scope of the continual improvement practice includes:
 * establishing and nurturing a continual improvement culture
 * planning and maintaining improvement approaches and methods throughout the organization
@@ -78,11 +75,9 @@ The scope of the continual improvement practice includes:
 There are several activities and areas of responsibility that are not included in the continual improvement practice, although they are still closely related to continual improvement. These are listed in Table 2.1, along with references to the practices in which they can be found. It is important to remember that ITIL practices are merely collections of tools to use in the context of value streams; they should be combined as necessary, depending on the situation.
 
 ### Table 2.1 Activities related to the continual improvement practice described in other practice guides
-
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Implementing improvements</p></td><td><p>Project management</p><p>Software development and management</p><p>Infrastructure and platform management</p><p>Change enablement</p><p>Deployment management</p><p>Release management</p><p>Service validation and testing</p></td></tr><tr><td><p>Definition of vision and strategic objectives</p></td><td><p>Strategy management</p></td></tr><tr><td><p>Analysis of flaws in a value stream</p></td><td><p>Business analysis</p></td></tr><tr><td><p>Change authorization</p></td><td><p>Change enablement</p></td></tr><tr><td><p>Providing tools to measure the current state and impact of improvements</p></td><td><p>Measurement and reporting</p></td></tr><tr><td><p>Decision-making on the funding of big improvement initiatives</p></td><td><p>Portfolio management</p></td></tr><tr><td><p>Assessing risks against the desired improvement outcomes</p></td><td><p>Risk management</p></td></tr><tr><td><p>Negotiating and agreeing joint improvement initiatives with partners and suppliers</p></td><td><p>Supplier management</p><p>Relationship management</p></td></tr><tr><td><p>Informing and agreeing on improvements with service consumers</p></td><td><p>Service level management</p></td></tr><tr><td><p>Providing interfaces between the service provider and users for feedback and improvement ideas</p></td><td><p>Service desk</p></td></tr><tr><td><p>Managing the human aspects of large-scale improvement initiatives</p></td><td><p>Organizational change management</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-
 <table><tbody><tr><td><p><strong>Definition: Practice success factor</strong></p></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
 
 A practice success factor (PSF) is more than a task or activity; it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
@@ -92,9 +87,7 @@ The continual improvement practice includes the following PSFs:
 * ensuring effective and efficient improvement across the organization.
 
 ### 2.4.1 Establishing and maintaining an effective approach to continual improvement
-
 #### **2.4.1.1 Continual improvement model**
-
 The ITIL continual improvement model provides high-level guidance that supports improvement initiatives. Using this model increases the likelihood that improvement initiatives will be successful. The model focuses on customer value and links improvement efforts to the organizational vision.
 
 This model promotes an iterative approach to improvement; work is divided into manageable pieces, which have defined goals that can be incrementally achieved. When using this model, it is important to use logic and common sense. The steps do not need to be carried out in a linear fashion, and it may be necessary to re-evaluate and return to a previous step at various points.
@@ -106,7 +99,6 @@ Figure 2.1 shows the ITIL continual improvement model.
 **Figure 2.1 ITIL continual improvement model**
 
 #### 2.4.1.2 Improvement in complex environments
-
 Large improvements in complex environments create significant change. It is important to define the scale at which an initiative should be delivered using project management practices, rather than BAU.
 
 Although the approach promoted by the ITIL continual improvement model is generic and applicable to any object of improvement, it is important for organizations to adapt the approach and their methods to their specific environment. For example, it is important to consider the typical timeframes in which challenges manifest.
@@ -120,7 +112,6 @@ This approach demonstrates agility overcoming power. The ‘orient’ stage is c
 Organizational design can enable change agents in complex environments to be autonomous and to rationally choose which path to take on their specific continual improvement journey. Considering whether the danger of not improving is immanent or requires a long-term management effort is crucial.
 
 #### 2.4.1.3 Embedding across the organization
-
 A culture of continual improvement:
 * encourages stakeholders to suggest and support improvements
 * encourages stakeholders to express their needs, wants, and concerns and to take risks
@@ -133,7 +124,6 @@ A culture of continual improvement:
 It is critical that senior management is committed to developing a culture of continual improvement in order to embed these values within an organization and enable a successful continual improvement practice.
 
 ### 2.4.1.4 Promote continuous learning
-
 Step 6 of the ITIL continual improvement model (did we get there?) should always be used to capture lessons learned from improvement initiatives.
 
 Successful improvement initiatives should review the achieved positive outcomes, both planned and unexpected. If the expected results of the improvement were not achieved or were achieved in a way that differed from what was planned, the initiative should be reviewed and stakeholders should be told why it failed. This requires a thorough analysis of the improvement initiative, documenting and communicating the lessons learned. The documentation should include a description of what could be done differently in the next iteration, based on the experience gathered.
@@ -143,25 +133,20 @@ Where possible, a lessons learned log should be kept throughout the initiative i
 If Step 6 is skipped, improvements will likely remain isolated and independent initiatives and progress may be lost over time. It may also be difficult to get support for future improvement initiatives and embed continual improvement in the organization’s culture. It is important to remember that a blameless environment, where it is safe to fail and the primary focus is not on blaming someone but on learning the lesson, should be created and maintained.
 
 ### 2.4.2 Ensuring effective and efficient improvement across the organization
-
 #### 2.4.2.1 Capturing opportunities
-
 The continual improvement practice supports the improvement of all other practices, products, and services. It is a core component of the SVS and be must be embedded in all other service management practices. The volume of opportunities that are identified can be used as a metric to assess how well the continual improvement practice has been established within an organization.
 
 #### 2.4.2.2 Prioritization
-
 Prioritization criteria must be transparent and applied impartially to all initiatives. When prioritization is questioned or is unable to be clearly assessed, the initiative should be escalated to a governance committee for further discussion.
 
 Although all agreed outcomes will contribute to achieving the desired state, some will be more critical than others. There may be a certain order in which changes must be made in order to reach these outcomes. Some outcomes will require significant investment and others may be achievable with minimal cost and effort. Low-cost, low-effort initiatives can be prioritized in order to achieve a rapid increase in value for the organization.
 
 #### 2.4.2.3 Ownership
-
 The owners of specific service, product, or practice value streams are accountable for managing relevant continual improvement initiatives. These people should lead by example, demonstrating and reiterating the value of improvement activities.
 
 The continual improvement practice owner is accountable for managing the continual improvement practice. This person ensures that the rest of the organization has the knowledge, skills, and tools needed to identify, assess, fund, perform, and evaluate the outcomes of continual improvement initiatives.
 
 #### 2.4.2.4 Resources
-
 Collaborating in a way that leads to real accomplishment requires information, understanding, and trust. Work and outcomes should be made visible. Hidden agendas should be avoided. Information should be shared as much possible. When people are aware of what is happening and why, they will be more willing to help.
 
 When improvement activities occur with only a small group being aware of the details, assumptions and rumours often prevail. Resistance to change may increase when staff members speculate about what is changing and how it might impact them.
@@ -169,7 +154,6 @@ When improvement activities occur with only a small group being aware of the det
 Working in short iterations that deliver value quickly and visibly reinforces the value that users gain from the work being done, which in turn is motivational and rewarding for the teams delivering it.
 
 #### 2.4.2.5 Funding improvement initiatives
-
 A business case should articulate the reason for undertaking a service or process improvement initiative. As far as possible, data and evidence relating to the costs and expected benefits of undertaking an improvement initiative should be provided, noting that:
 * SVS redesign activities are often more complex and therefore more costly than initially expected
 * organizational change impact is often underestimated.
@@ -205,13 +189,11 @@ An excellent practice that can help to demonstrate return on investment is reque
 When developing business cases it is important to ensure that success criteria and their measurements, including timescales, are clearly defined.
 
 ### 2.4.2.6 Evaluation
-
 When an improvement opportunity is identified, the current state should be assessed so that any improvement made can be measured, or understood, in the context of ‘where we started’.
 
 Quantitative metrics can be used to measure actual performance of services and methods. Qualitative metrics can be used to measure strategy, portfolios, and relationships with other parties.
 
 ## 2.5 Key metrics
-
 The effectiveness and performance of the ITIL practices should be assessed within the context of the value streams to which each practice contributes. As with the performance of any tool, the practice’s performance can only be assessed within the context of its application. However, tools can differ greatly in design and quality, and these differences define a tool’s potential or capability to be effective when used according to its purpose. Further guidance on metrics, key performance indicators (KPIs), and other techniques that can help with this can be found in the measurement and reporting practice guide.
 
 Ideally, continual improvement is measured in terms of the impact of improvement activities on the value generated by the SVS. This can be difficult to quantify because:  
@@ -229,11 +211,9 @@ Other metrics relate to the organizational achievement of continual improvement 
 Key metrics for the continual improvement practice are mapped to its PSFs. They can be used as KPIs in the context of value streams to assess the contribution of the practice to the effectiveness and efficiency of those value streams. Some examples of key metrics are given in Table 2.2.
 
 ### Table 2.2 Examples of key metrics for the practice success factors
-
 <table><tbody><tr><td><p><strong>Practice success factors</strong></p></td><td><p><strong>Key metrics</strong></p></td></tr><tr><td><p>Establishing and maintaining an effective approach to continual improvement</p></td><td><ul><li>Stakeholder satisfaction with the organization’s ability to obtain value from improvement initiatives</li></ul><ul><li>Awareness and adoption of the continual improvement approach across the organization</li><li>Adoption of the continual improvement culture across the organization</li></ul></td></tr><tr><td><p>Ensuring effective and efficient improvement across the organization</p></td><td><ul><li>Return on investment and value on investment</li><li>Percentage of successful improvement initiatives</li><li>Percentage of improvement initiatives realized in line with planned timelines, costs, and other plans</li><li>Percentage and effect of improvement initiatives for which negative outcomes and realized risks outweighed planned positive outcomes</li><li>Continual improvement productivity index<sup>3</sup></li></ul></td></tr></tbody></table>
 
 ## 3.1 Value stream contribution
-
 The continual improvement practice is unique in that it contributes to the value of every other practice and every component of the value stream. It is important to remember that a value stream is never formed from a single practice. The continual improvement practice combines with other practices to provide high-quality services to consumers. The continual improvement practice should not be viewed in isolation: it is a key constituent of all other practices.
 
 The contribution of the continual improvement practice to the service value chain is shown in Figure 3.1.
@@ -241,7 +221,6 @@ The contribution of the continual improvement practice to the service value chai
 ![Figure 3.1 Heat map of the contribution of the problem management practice to value****chain activities](Continual%20improvement%20ITIL%204%20Practice%20Guide/Picture2.jpg)
 
 ## 3.2 Processes
-
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
 <table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
@@ -252,36 +231,30 @@ The continual improvement practice activities form one process:
 The continual improvement practice also includes a set of activities for embedding the practice into the organization.
 
 ### 3.2.1 Management of continual improvement initiatives
-
 This process includes the activities listed in Table 3.1 and transforms the inputs into outputs.
 
 ### Table 3.1 Inputs, activities, and outputs of the management of continual improvement initiatives process
-
 <table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><p>Organization’s vision, mission, and objectives</p><p>Post incident reviews</p><p>Problem outcomes</p><p>Baseline metrics</p><p>Practice target and achievement metrics</p><p>Customer satisfaction metrics</p><p>SLM practice reviews</p><p>User and customer feedback</p><p>Assessment reports</p><p>Audit reports Improvement record</p><p>Continual improvement register (CIR)</p></td><td><p>Identifying and logging improvement opportunities</p><p>Assessing, prioritizing, and approving improvement initiatives</p><p>Planning improvement initiatives</p><p>Facilitating the implementation of improvement initiatives</p><p>Measuring and evaluating the results of improvement initiatives</p></td><td><p>Improvement record Updated CIR</p><p>Draft business justification</p><p>Approved business justification Improvement plans</p><p>Performance measurements</p><p>Change and project records Updated metrics</p><p>Lessons learnt</p></td></tr></tbody></table>
 
 ![](Continual%20improvement%20ITIL%204%20Practice%20Guide/xeZFyVcNBbYSAAAAABJRU5ErkJggg==.png)**Figure 3.2 shows a workflow diagram of the process.**  
 Table 3.2 provides examples of the process activities.
 
 ### Table 3.2 Activities of the management of continual improvement initiatives process
-
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>Identifying and logging improvement opportunities</p></td><td><p>Capturing ideas for improvement is everyone’s responsibility and is a critical part of developing a culture of continual improvement. The initial idea does not need to be detailed; it is a starting point for a conversation about requirements and understanding the delta the current state and the desired future state. The key step in this activity is to log the improvement idea in the CIR, where it is assigned a unique reference number.</p></td></tr><tr><td><p>Assessing, prioritizing, and approving improvement opportunities</p></td><td><p>Improvement outcomes can have positive impacts on value in many areas. Typically, they will provide time or cost savings, enhance the user experience, reduce risk, improve culture, or achieve compliance to regulations.</p><p>In Agile methodologies, reviewing and completing the incoming ideas is referred to as managing the product backlog. The CIR can be adapted to be managed as a backlog as well.</p><p>When CIR items have been prioritized, as should be done regularly, funding and resourcing for the most important improvement initiatives must be secured. A business justification should be used to justify investing in an improvement initiative.</p><p>When asking for resources to begin improvement activities, it is important to communicate appropriately with budget holders, such as by referring to return on investment, clearly defined business outcomes, and the organization’s vision.</p><p>The detail needed in a business case depends on the size of the improvement initiative, not the project methodology being utilized. Large initiatives need to engage formal project management or change enablement methods and techniques in order to be realized.</p><p>Lean Canvas is an approach that can be used to create business justifications to secure funding for small-scale initiatives. Lean Canvas suggests delivering a single-page business model that deconstructs an idea into a set of basic elements, presented concisely. These elements are:</p><ul><li>problem statement for the improvement</li><li>suggested improvement initiative (possibly with options)</li><li>key metrics of the improved object</li><li>value proposition</li><li>unfair advantage of the suggested option</li><li>customer segments</li><li>channels of value delivery</li><li>cost structure</li><li><span>added benefits or revenue forecast.</span></li></ul><p><span>There are alternative models, but the common idea is to perform due diligence for the initiative and gain conscious approval before resources are committed.</span></p></td></tr><tr><td><p>Planning improvement initiatives</p></td><td><p>The planning of approved improvement initiatives should be no different than the planning of projects, changes, or other types of work of a similar scale. The business justification should contain basic resource and timeframe planning according to the improvement initiative’s priority. It is useful to have a priority scale for improvement initiatives consistent with the priorities for other types of work in which teams and resources may be engaged.</p></td></tr><tr><td><p>Facilitating improvement initiatives implementation</p></td><td><p>Whether an initiative is being delivered using waterfall or Agile methodologies, the larger (approved and funded) initiative plan must be separated into smaller tasks.</p><p>Improvement is then realized according to the plan and methodologies that were used.</p></td></tr><tr><td><p>Measuring and evaluating improvement initiative results</p></td><td><p>After an improvement or group of improvement initiatives is completed and ready for delivery, it should be showcased to stakeholders in order to demonstrate and validate value co-creation.</p><p>Value co-creation must be confirmed at every iteration to measure progress from the original state towards the agreed desired state by comparing the outcomes to the agreed success factors and KPIs. If the expected outcomes have not been fully achieved, gaps should be prioritized and addressed in following iterations.</p><p>Lessons learnt should be captured for each improvement initiative.</p></td></tr></tbody></table>
 
 Note: Feedback is an essential element of the continual improvement practice. It is important to establish multiple feedback channels, formal and informal. Not all feedback will trigger changes to the improvement plans, but all feedback must be respected and reviewed. Decisions made as a result of feedback should be relayed back to the originator. If feedback is ignored or unacknowledged, it will become harder to obtain in the future. Feedback that illuminates a further improvement opportunity should be added to the CIR and prioritized.
 
 #### 3.2.2 Embedding the continual improvement practice into the organization
-
 The key outcome of this set of activities is ensuring that the continual improvement practice is an organizational norm. This involves the adoption of various Agile behaviours, concepts, and techniques.
 
 This process includes the activities listed in Table 3.3 and transforms the inputs into outputs.
 
 ### Table 3.3 Inputs, activities, and outputs of the embedding the continual improvement practice into the organization
-
 <table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><p>OCM practices</p><p>Frameworks, methods, standards, philosophies, and/or bodies of knowledge, such as ITIL, Lean, Agile, DevOps, CMMI, Six Sigma and COBIT</p></td><td><p>Integration into organizational culture</p><p>Identification of relevant and valuable principles</p><p>Knowledge sharing and capability uplift</p></td><td><p>Cultural change</p><p>Adoption of best practice that best serves the organization’s needs</p></td></tr></tbody></table>
 
 Table 3.4 provides examples of the activities.
 
 ### Table 3.4 Activities of the embedding the continual improvement practice into the organization process
-
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>Integration into organizational culture</p></td><td><p>Senior management is important when changing behaviour. Senior managers must be role models; if they do not adopt the practice, others will not adopt it either.</p><p>Senior managers should ensure that people are rewarded for compliance. For continual improvement, this means ongoing monitoring, analysing, reviewing, reporting, identifying, and implementing initiatives.</p><p>It is necessary to ensure that the job descriptions are updated, employee’s goals and objectives consider service management responsibilities, and general expectations include continual improvement activities.</p></td></tr><tr><td><p>Identification of relevant and valuable principles</p></td><td><p>A successful continual improvement practice relies on several key principles:</p><ul><li><strong>Focus on making incremental changes </strong>Large changes are riskier and take longer to show results.</li><li><strong>Learn from mistakes </strong>Some initiatives will not result in the planned outcomes.</li><li><strong>Encourage ideas throughout the organization </strong>Many successful initiatives in large organizations originate with employees at the operational level.</li><li><strong>Measure </strong>Without measurement, it is impossible to know whether improvement efforts are successful.</li></ul></td></tr><tr><td><p>Knowledge sharing and capability uplift</p></td><td><p>Knowledge sharing is a critical factor in the success of the continual improvement practice. In cultures where knowledge sharing is not the norm, successful improvements are likely to be limited and new concepts are typically restricted to individuals or teams, rather than being shared around the organization.</p><p>In organizations where knowledge is seen as a personal asset rather than an organizational capability, it will be difficult to benefit from the continual improvement practice.</p><p>A knowledge sharing culture must be promoted by senior managers.</p></td></tr></tbody></table>
 
   
@@ -292,7 +265,6 @@ Various systems of record may be sources of improvement suggestions, either via 
 In organizations with a defined product owner role, improvement suggestions are first submitted to the product owner of the relevant product. The product owner may then filter and adjust the suggestions and add them to the CIR.
 
 ## 4.1 Roles, competencies, and responsibilities  
-
 The practice guides do not describe the practice management roles such as practice owner, practice lead, or practice coach. They focus instead on the specialist roles that are specific to each practice. The structure and naming of each role may differ from organization to organization, so any roles defined in ITIL should not be treated as mandatory, or even recommended.
 
 Remember, roles are not job titles. One person can take on multiple roles and one role can be assigned to multiple people.
@@ -300,33 +272,26 @@ Remember, roles are not job titles. One person can take on multiple roles and on
 Roles are described in the context of processes and activities. Each role is characterized with a competency profile based on the model shown in Table 4.1.
 
 ### Table 4.1 Competency codes and profiles
-
 <table><tbody><tr><td><p><strong>Competency profile (activities and skills)</strong></p></td></tr><tr><td><p><strong>Leader </strong>Decision-making, delegating, overseeing other activities, providing incentives and motivation, and evaluating outcomes</p></td></tr><tr><td><p><strong>Administrator </strong>Assigning and prioritizing tasks, record-keeping, ongoing reporting, and initiating basic improvements</p></td></tr><tr><td><p><strong>Coordinator/communicator </strong>Coordinating multiple parties, maintaining communication between stakeholders, and running awareness campaigns</p></td></tr><tr><td><p><strong>Methods and techniques expert </strong>Designing and implementing work techniques, documenting procedures, consulting on processes, work analysis, and continual improvement</p></td></tr><tr><td><p><strong>Technical expert </strong>Providing technical (IT) expertise and conducting expertise-based assignments</p></td></tr></tbody></table>
 
 Examples of roles which can be involved in the continual improvement activities are listed in the Table 4.2, together with the associated competency profiles and specific skills.
 
 ### Table 4.2, Examples of roles which can be involved in the continual improvement activities together with the associated competency profiles and specific skills
-
 <table><tbody><tr><td><p><strong>Competence code</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p><strong>L</strong></p></td><td><p><u>Leader</u>. This role focuses on leadership skills and authority. Activities associated with this role include decision making, delegation, oversight of other activities, incentives and motivation, and the evaluation of outcomes.</p></td></tr><tr><td><p><strong>А</strong></p></td><td><p><u>Administrator</u>. This role focuses on administrative skills. Activities associated with this role include the assignment and prioritization of</p><p>tasks, record keeping, ongoing reporting, and basic improvement initiatives.</p></td></tr><tr><td><p><strong>C</strong></p></td><td><p><u>Coordinator/communicator</u>. This role focuses on</p><p>communication and coordination skills. Activities associated with this role include the coordination of multiple parties, communication between stakeholders, and the running of</p><p>awareness campaigns.</p></td></tr><tr><td><p><strong>М</strong></p></td><td><p><u>Methods and techniques expert</u>. This role focuses on consulting skills and expertise in work methods. Activities associated with this role include the</p><p>design and implementation of work techniques, the documentation of procedures, consulting</p><p>on processes, work analysis, and continual improvement.</p></td></tr><tr><td><p><strong>Т</strong></p></td><td><p><u>Technical expert.</u> This role focuses on technical (IT) expertise and expertise- based assignments.</p></td></tr></tbody></table>
 
 ### Table 4.3 Examples of roles with responsibility for continual improvement activities
-
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Responsible roles</strong></p></td><td><p><strong>Competency profile</strong></p></td><td><p><strong>Specific skills</strong></p></td></tr><tr><td><p>Management of continual improvement initiatives</p></td></tr><tr><td><p>Identifying and logging improvement opportunities</p></td><td><p>Service provider staff (leaders and team members)</p><p>Stakeholders (possibly via product owners)</p></td><td><p>CMT</p></td><td><p>Submissions will be improved if the submitter has a good knowledge of the service, product, or value stream to be improved</p></td></tr><tr><td><p>Assessing, prioritizing, and approving improvements</p></td><td><p>A team member, manager, or coach</p><p>External consultant</p><p>(Any team members may provide input to assessment)</p></td><td><p>LACTM</p></td><td><p>Good understanding of the ITIL continual improvement proficiency model and the object of the improvement</p></td></tr><tr><td><p>Making business cases</p><p>for improvement action</p></td><td><p>Team leader</p><p>Responsible team member</p></td><td><p>MTC</p></td><td><p>Ability to concisely present</p><p>ideas in a Lean-style single page document</p></td></tr><tr><td><p>Facilitating improvements implementation</p></td><td><p>A team leader or another relevant authority</p></td><td><p>CAMTL</p></td><td><p>Ability to advocate for ideas and present them convincingly, relating to the organization’s objectives and success factors</p><p>Excellent knowledge of standards and policies that&nbsp;might constrain potential improvements</p><p>Knowledge of the established value stream that may be impacted by the initiative?</p></td></tr><tr><td><p>Measuring and evaluating improvement results</p></td><td><p>Team leader Project manager Compliance officer Security officer</p><p>Internal auditors</p></td><td><p>CMA</p></td><td><p>Statistical methods and measurement techniques</p></td></tr><tr><td><p>Embedding the continual improvement practice into the organization</p></td><td><p>Embedding the continual improvement practice into the organization</p></td><td><p>Embedding the continual improvement practice into the organization</p></td><td><p>Embedding the continual improvement practice into the organization</p></td></tr><tr><td><p>Integration into organizational culture</p></td><td><p>Senior Manager</p><p>Team leaders</p><p>Organizational change consultants</p></td><td><p>LCM</p></td><td><p>Excellent knowledge of the service provider's organizational culture</p><p>Ability to lead by example</p><p>Strong command of OCM techniques and planning</p><p>Strong strategic thinking</p></td></tr><tr><td><p>Identification of relevant and valuable principles</p></td><td><p>Senior managers</p></td><td><p>MC</p></td><td><p>Excellent knowledge of the service provider's organizational culture</p><p>Ability to lead by example</p><p>Strong command of OCM techniques and planning</p><p>Strong strategic thinking</p></td></tr><tr><td><p>Knowledge sharing and capability uplift</p></td><td><p>Senior managers</p><p>Team leaders</p></td><td><p>CA</p></td><td><p>Excellent knowledge of the service provider's organizational culture</p><p>Ability to lead by example</p><p>Strong command of OCM techniques and planning</p><p>Strong strategic thinking</p></td></tr></tbody></table>
 
 ### 4.2 Organizational structures and teams
-
 ### 4.2.1 A continual improvement team
-
 It is unlikely that a service provider will maintain any teams specifically dedicated to the continual improvement practice. Teams are responsible for improving themselves, how they interact with other internal teams, and how they interact with external suppliers, partners, and customers.
 
 However, a service provider may introduce an individual role of continual improvement coordinator or CIR administrator. When implementing a continual improvement framework, the service provider might give this role to a person skilled in coaching. Depending on the size of the organization and the strategies for embedding continual improvement activities, this could be a full-time position. As the proficiencies of teams throughout the organization increase, the service provider might eliminate the role or make it part-time.
 
 ### 4.2.2 Structuring teams for continual improvement
-
 Several attributes or aspects of a team facilitate and enhance its capabilities for improvement, including diversity and a safe-to-fail environment.
 
 #### 4.2.2.1 Diversity
-
 Studies on the impact of diversity on team performance are inconclusive. Some studies show marked differences between socially homogenous teams and socially and culturally diverse teams. Other studies fail to reproduce these results. Some studies demonstrate benefits when experts are in teams with less experienced staff. However, it can be difficult argue for staffing a team with less experienced people. There is a lack of information about the impact of changes to diversity on a single team.
 
 Immediate economic benefit is only one aspect that should influencing team staffing. Other factors include the:
@@ -338,7 +303,6 @@ Immediate economic benefit is only one aspect that should influencing team staff
 Thinking in terms of categories and types of people might obstruct the building of a cohesive and well-performing team. There is no formula for selecting the ‘right’ staff. Rather, the team manager should focus on techniques that foster trust and respect and recognize unique individual contributions.
 
 #### 4.2.2.2 Safe-to-fail environment
-
 Incremental, iterative improvement techniques rely on the team’s willingness to experiment. They allow improvements to fail frequently and on a small scale, thereby limiting the probability of large-scale failure, reducing the potential impacts of failure, and increasing the ease with which teams can recover from failure.
 
 Team should recognize failures as opportunities to learn: blame culture must be avoided. It is better to learn from small failures and improve overall capabilities than to never learn those lessons. It is better to achieve the benefits of successful experiments than to have never attempted those experiments in the first place.
@@ -346,9 +310,7 @@ Team should recognize failures as opportunities to learn: blame culture must be 
 Consequently, teams need no-blame environments in which it is safe to fail. These environments promote what is generally described as ‘psychological safety’, and they rely on respect and trust between team members and managers.
 
 ## 5.1 Information exchange  
-
 ### 5.1.1 Information objects and inputs/outputs
-
 Suggestions for improvement are often vague and unmeasurable. For example, a manager might say that a service must be delivered more quickly. Such a statement is neither motivating nor actionable. It is helpful to structure improvement proposals in such a way that stakeholders:
 * understand what should be solved
 * understand the potential value of the improvement
@@ -358,27 +320,22 @@ Suggestions for improvement are often vague and unmeasurable. For example, a man
 * can measure whether the improvement was successful.
 
 ### 5.1.2 Continual improvement register
-
 The CIR is a complete list of improvement records used to track and manage continual improvement. In Agile methodologies, the CIR is called the product backlog.
 
 The CIR may be an integrated part of the service management system, or it could be a standalone database of improvement records.
 
 ### 5.1.3 Improvement record
-
 The level of detail contained in each improvement record depends on the level of requirement specification it captures.
 
 An example of data fields for an improvement record, and in effect, the structure of a CIR is shown in Table 3.4.
 
 ### Table 3.4 Example data fields for an improvement record
-
 <table><tbody><tr><td><p><strong>Field</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>Improvement identifier</p></td><td><p>A unique identifier valid across the entire service provider organization</p></td></tr><tr><td><p>Improvement name</p></td><td><p>A short, descriptive title for the improvement</p></td></tr><tr><td><p>Improvement requester or source</p></td><td><p>This could be any stakeholder, including external customers or suppliers</p></td></tr><tr><td><p>Configuration item affected</p></td><td><p>The service, product, or practice to be improved</p></td></tr><tr><td><p>Improvement owner</p></td><td><p>The person responsible and accountable for implementing the improvement plan. Responsibility for an improvement initiative should not be shared across teams.</p></td></tr><tr><td><p>Urgency</p></td><td><p>An indication of the timeframe on which the effects of the improvement will begin to be realized. Simple high/medium/low values can be used to indicate urgency.</p></td></tr><tr><td><p>Status</p></td><td><p>Terms which identify where in the improvement process an initiative is.</p></td></tr><tr><td><p>Cost</p></td><td><p>An indicative value that helps to prioritize backlog items and compare initiatives.</p><p>Although cost is unknown when the initiative is registered and estimated thereafter, it should incorporate direct and indirect investment, time, and resources.</p><p>Simple high/medium/low values can be used to indicate cost.</p></td></tr><tr><td><p>Value or benefits statement</p></td><td><p>This defines the final output of the initiative from both the service provider’s and service consumer’s perspectives.</p></td></tr><tr><td><p>Improvement plan</p></td><td><p>A high-level description of the approach to addressing the problem.</p><p>Organizations that adopt Agile ways of working sometimes include a ‘definition of done’ or acceptance criteria for the initiative.</p><p>The plan can include designation of teams and practices that will be involved in its implementation.</p></td></tr></tbody></table>
 
 ## 5.2 Automation and tooling
-
 Despite huge progression in artificial intelligence, continual improvement is essentially a human, manual practice. There is little in the continual improvement practice today that can be automated, but there are many tools that can support the various phases of continual improvement. These are summarized in Table 5.1.
 
 ### Table 5.1 Automation solutions for continual improvement activities
-
 <table><tbody><tr><td><p><strong>Process activity</strong></p></td><td><p><strong>Means of automation</strong></p></td><td><p><strong>Key functionality</strong></p></td><td><p><strong>Impact on the effectiveness of the practice</strong></p></td></tr><tr><td><p>Identifying and logging improvements</p></td><td><p>CIR</p></td><td><p>Self-logging initiatives to the</p><p>CIR</p></td><td><p>Medium</p></td></tr><tr><td><p>Assessing, prioritizing, and approving improvements</p></td><td><p>Measurement and reporting tools Statistical analysis</p><p>tools</p></td><td><p>Provide baseline to establish the current state</p></td><td><p>Medium</p></td></tr><tr><td><p>Planning improvements and facilitating improvement implementation</p></td><td><p>Electronic Kanban</p></td><td><p>Visibility of the status of all tasks</p><p>Prevents unnecessary interruption or re-negotiation of agreed delivery dates</p></td><td><p>High</p></td></tr><tr><td></td><td><p>Automated testing</p></td><td><p>Potential for automation, especially for phased deployments; automated testing tools; automated development and deployment pipelines</p></td><td><p>High</p></td></tr><tr><td><p>Measuring and evaluating improvement results</p></td><td><p>Measurement and reporting tools Statistical analysis</p><p>tools</p></td><td><p>Provide baseline to establish the current state</p></td><td><p>Medium</p></td></tr></tbody></table>
 
 Very few services are delivered using only an organization’s own resources. Most, if not all, depend on other services, often provided by third parties outside the organization (see section 2.4 of *ITIL® Foundation: ITIL 4 Edition* for a model of a service relationship). Relationships and dependencies introduced by supporting services are described in the ITIL practices for service design, architecture management, and supplier management.
@@ -388,7 +345,6 @@ Partners and suppliers must be included in continual improvement initiatives. Pa
 In an Agile context, customers and suppliers need to collaborate in order to achieve the best possible outcomes. Organizations aim for fast, effective continual improvement. They usually try to agree close cooperation with their partners and suppliers, removing formal bureaucratic barriers in communication, collaboration, and decision-making (for more information, see the supplier management practice guide).
 
 ## 6.1 Continual improvement in the supply chain
-
 All improvement statements contain a description of a problem to be solved. However, some problems do not have an obvious solution.
 
 For example, if a supplier delivers low quality goods or services, the customer has several choices:
@@ -407,11 +363,9 @@ Suppliers and consumers might collaborate to make supply chain improvements by:
 * adjusting delivery cadences and batch sizes.
 
 ### 6.2 Roles of partners and suppliers in continual improvement
-
 In addition to identifying and implementing improvement initiatives, suppliers and partners may provide specialist services that support the continual improvement practice. Table 6.1 gives examples of these services.
 
 ### Table 6.1 Roles of suppliers and partners in continual improvement
-
 <table><tbody><tr><td><p><strong>ITIL continual improvement model step</strong></p></td><td><p><strong>Service</strong></p></td></tr><tr><td><p>1. Where are we now</p></td><td><p>Independently assessing the current state</p></td></tr><tr><td><p>2. Where do we want to be</p></td><td><p>Analysing potential for improvement and advising about best practice</p></td></tr><tr><td><p>3. How do we get there</p></td><td><p>Coaching and planning services</p></td></tr><tr><td><p>4. Take action</p></td><td><p>Contracting for specialized skills</p></td></tr><tr><td><p>5. Did we get there</p></td><td><p>Independently assessing the new state</p></td></tr><tr><td><p>6. Keeping the momentum going</p></td><td><p>Engaging in regular discussions and planning of improvements for both parties</p></td></tr></tbody></table>
 
 Most of the content of the practice guides should be taken as a suggestion of areas that an organization might consider when establishing and nurturing their own practices. The practice guides are catalogues of things that organizations might think about, not a list of answers. When using the content of the ITIL practice guides, organizations should always follow the ITIL guiding principles:
@@ -428,15 +382,12 @@ More information on the guiding principles and their application can be found in
 AXELOS Ltd is grateful to everyone who has contributed to the development of this guidance. These practice guides incorporate an unprecedented level of enthusiasm and feedback from across the ITIL community. In particular, AXELOS would like to thank the following people.
 
 ## 8.1 Authors
-
 Roman Jouravlev, Laura Little, Kirstie Magowan, Konstantin Naryzhny,.
 
 ## 8.2 Reviewers
-
 Xavier Idrovo, Vernon Lloyd.
 
 ## References
-
 1.  Rother, Mike. (2017). The Toyota Kata Practice Guide: Developing Scientific Thinking Skills for Superior Results. US. McGraw Hill.
 2.  [https://en.wikipedia.org/wiki/OODA_loop](https://en.wikipedia.org/wiki/OODA_loop)
 3.  (N+C)/(O+C) – see the measurement and reporting practice guide for explanation and examples.
