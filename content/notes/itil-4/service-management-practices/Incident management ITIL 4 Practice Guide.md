@@ -203,9 +203,8 @@ This process includes the activities listed in Table 3.1, and transforms the inp
 
 Figure 3.1 shows a workflow diagram of the process.
 
-![](Incident%20management%20ITIL%204%20Practice%20Guide/ITIL_Incident_management_3_1.jpg)
-
-Figure 3.1 Workflow of the incident handling and resolution process
+Figure 3.1 Workflow of the incident handling and resolution process:  
+![Figure 3.1 Workflow of the incident handling and resolution process](Incident%20management%20ITIL%204%20Practice%20Guide/ITIL_Incident_management_3_1.jpg)
 
 Throughout the process, ownership over each incident should be ensured. The ownership may be transferred via the handling and resolution process, but each incident should have a person responsible for it at any time. Also, stakeholder communications should be updated whenever there are changes in the status of the incident.
 
@@ -227,9 +226,8 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 ##### Figure 3.2 shows a workflow diagram of the process.
 
-![](Incident%20management%20ITIL%204%20Practice%20Guide/ITIL_Incident_management_3_2.jpg)
-
-Figure 3.2 Workflow of the periodic incident review process
+Figure 3.2 Workflow of the periodic incident review process:  
+![Figure 3.2 Workflow of the periodic incident review process](Incident%20management%20ITIL%204%20Practice%20Guide/ITIL_Incident_management_3_2.jpg)
 
 Table 3.4 provides a description of the process activities.
 
@@ -509,9 +507,8 @@ For each practice, the ITIL maturity model defines criteria for every capability
 
 Each criterion is mapped to one of the four dimensions of service management and to the supported capability level. The higher the capability level, the more comprehensive realization of the practice is expected. For example, criteria related to the practice automation are typically defined at levels 3 or higher because effective automation is only possible if the practice is well defined and organized.
 
-![](Incident%20management%20ITIL%204%20Practice%20Guide/ITIL_Incident_management_6_1.jpg)
-
-Figure 7.1 Design of the capability criteria
+Figure 7.1 Design of the capability criteria:  
+![Figure 7.1 Design of the capability criteria](Incident%20management%20ITIL%204%20Practice%20Guide/ITIL_Incident_management_6_1.jpg)
 
 This approach results in every practice having up to 30 capability criteria based on the practice PSFs and mapped to the four dimensions of service management. The number of criteria at each level differs; the four dimensions are comprehensively covered starting from level 3, so this level typically has more criteria than others.
 
@@ -541,9 +538,8 @@ Management practices should support achievement of the organization’s objectiv
 
 Figure 7.2 and table 7.2 show the capability development model, which can be applied to every management practice. The structure of this publication is aligned with the development steps.
 
-![](Incident%20management%20ITIL%204%20Practice%20Guide/ITIL_Incident_management_7_2.jpg)
-
-Figure 7.2 The capability development steps and levels
+Figure 7.2 The capability development steps and levels:  
+![Figure 7.2 The capability development steps and levels](Incident%20management%20ITIL%204%20Practice%20Guide/ITIL_Incident_management_7_2.jpg)
 
 ##### Table 7.2 The incident management capability development steps
 

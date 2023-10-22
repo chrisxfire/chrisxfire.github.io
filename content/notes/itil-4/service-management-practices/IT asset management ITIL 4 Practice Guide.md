@@ -57,9 +57,8 @@ ITAM should be integrated with the organization's general asset management. Howe
 
 To be successful, ITAM specializations should not be planned or managed apart from the management of other types of the organization's assets, as shown in Figure 2.1.
 
-![](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_2.1.png)
-
-Figure 2.1 Example of interdependence of IT assets
+Figure 2.1 Example of interdependence of IT assets:  
+![Figure 2.1 Example of interdependence of IT assets](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_2.1.png)
 
 The ITAM specializations shown in Figure 2.1 can include:
 * hardware asset management
@@ -176,18 +175,16 @@ The IT asset goes through the following stages in its lifecycle:
 * decommission and the modification or removal of records in the IT asset register
 * disposal.
 
-![](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_2.2.png)
-
-Figure 2.2 The IT asset lifecycle
+Figure 2.2 The IT asset lifecycle:  
+![Figure 2.2 The IT asset lifecycle](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_2.2.png)
 
 The IT asset lifecycle must not be defined as linear or unidirectional. Specific situations or scenarios with specific IT assets or IT asset types may determine that one or more stages may be skipped, repeated, or approached ‘out of sequence’, as shown in Figure 2.3. Some examples of IT asset lifecycle stages being non-linear include:
 * an IT asset with minimal cost and risk, or one that has been sufficiently planned previously requiring little to no planning and budgeting, reporting, or auditing
 * IT assets being reassigned multiple times throughout their useful life
 * a decommissioned IT asset being placed on legal hold for an extended period before it is disposed or reassigned.
 
-![](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_2.3.png)
-
-Figure 2.3 Example of a non-linear IT asset lifecycle
+Figure 2.3 Example of a non-linear IT asset lifecycle:  
+![Figure 2.3 Example of a non-linear IT asset lifecycle](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_2.3.png)
 
 #### 2.2.4.1 IT asset planning
 
@@ -548,9 +545,8 @@ Managing a common ITAM approach includes the activities listed in Table 3.1, whi
 
 Figure 3.1 shows a workflow diagram of the process.
 
-![](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_3.1.png)
-
-Figure 3.1 Workflow of the managing a common approach to ITAM process
+Figure 3.1 Workflow of the managing a common approach to ITAM process:  
+![Figure 3.1 Workflow of the managing a common approach to ITAM process](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_3.1.png)
 
 Details of the activities of the process of managing a common approach to ITAM are outlined in Table 3.2.
 
@@ -570,9 +566,8 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_3.2.png)
-
-Figure 3.2 Workflow of the managing the IT asset lifecycle and records process
+Figure 3.2 Workflow of the managing the IT asset lifecycle and records process:  
+![Figure 3.2 Workflow of the managing the IT asset lifecycle and records process](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_3.2.png)
 
 Details of the activities of the process of managing the IT asset lifecycle and records are outline in Table 3.4.
 
@@ -590,9 +585,8 @@ Valuable stakeholder outcomes rely on accurate asset information to be readily a
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_3.3.png)
-
-Figure 3.3 Workflow for the verifying, auditing, and analysing IT assets process
+Figure 3.3 Workflow for the verifying, auditing, and analysing IT assets process:  
+![Figure 3.3 Workflow for the verifying, auditing, and analysing IT assets process](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_3.3.png)
 
 Verification can be an ongoing activity of verifying and correcting the IT asset data. To achieve this, the ITAM practice should embed verification activities and controls into other practices’ procedures. For example, a support specialist can do a quick verification of a user’s desktop information using the content of the IT asset register, or an accountant can spot and report a discrepancy between IT asset data and financial data.
 
@@ -774,17 +768,15 @@ Examples of other roles which are responsible for ITAM activities are listed in 
 
 The struggle between centralization and decentralization is a common dilemma as the ITAM practice is initially formalized and evolves over time. In many cases, inadequate IT asset governance results in an ITAM practice that is initially centralized. However, many of the controls that restored order are later perceived to be an organizational constraint; this is especially true for digital organizations operating within or working towards a high-velocity environment. The next iteration of ITAM, therefore, frequently favours decentralization and higher levels of efficiency. Once consequences of this loss of control are observed though, the ITAM practice usually returns to a centralized approach, but one that is likely less severe than previously. Like a pendulum, this cycle continues, with each swing being less dramatic until an appropriate balance is achieved, as shown in Figure 4.1.
 
-![](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_3.4.png)
-
-Figure 4.1 ITAM centralization versus decentralization pendulum
+Figure 4.1 ITAM centralization versus decentralization pendulum:  
+![Figure 4.1 ITAM centralization versus decentralization pendulum](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_3.4.png)
 
 Healthy organizations and the needs of their stakeholders are constantly evolving. So, achieving and maintaining an effective balance between centralization and decentralization can be benefit from a continual improvement approach that monitors various factors, such as efficiency, effectiveness, and organizational scalability.
 
 In a small organization, ITAM roles are frequently defined in a traditional hierarchy. A single IT asset manager could initially perform and later delegate administrative, analysis, and other common operational-level management tasks as the size of the organization or the quantity of its IT assets increases. Additional specializations, such as HAM, SAM, licence management, and cloud management may be necessary as complexity of the IT environment increases.
 
-![](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_3.5.png)
-
-Figure 4.2 Example ITAM structure in a small organization
+Figure 4.2 Example ITAM structure in a small organization:  
+![Figure 4.2 Example ITAM structure in a small organization](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_3.5.png)
 
 Digital organizations may find this traditional hierarchy could become burdensome and counterproductive. By using a shift-left approach, the lower levels in Figure 4.2 can be empowered to make decisions and take management action within an appropriately defined scope. This would result in a flatter and less pyramid-shaped organizational chart.
 
@@ -797,9 +789,8 @@ Large organizations are frequently structured around divisions based upon produc
 
 In these scenarios, each division may need a combination of its own processes, management, suppliers, and tools, and information like a separate IT asset register or inventory. This is shown in Figure 4.3.
 
-![](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_3.6.png)
-
-Figure 4.3 Example ITAM structure in a large organization
+Figure 4.3 Example ITAM structure in a large organization:  
+![Figure 4.3 Example ITAM structure in a large organization](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_3.6.png)
 
 Populating ITAM roles in a central team can help develop expertise and facilitate collaboration with other central functions, such as procurement, finance, and risk management. Such centralization can, however, create a distance that is detrimental to day-to-day collaboration with those who use and handle IT assets. This paradox can be managed by achieving centralization through other dimensions of service management, if the structure and culture of the organization allows it. This could include: a centralized IT asset register managed by geographically dispersed teams, a multilingual workflow engine running common processes across several time zones, the collegial governance of processes and data models to drive convergence despite the heterogeneity of implemented solutions, and so on.
 
@@ -937,9 +928,8 @@ For each practice, the ITIL maturity model defines criteria for every capability
 
 Each criterion is mapped to one of the four dimensions of service management and to the supported capability level. The higher the capability level, the more comprehensive realization of the practice is expected. For example, criteria related to the practice automation are typically defined at levels 3 or higher because effective automation is only possible if the practice is well defined and organized.
 
-![](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_7.1.png)
-
-Figure 7.1 The design of the capability criteria
+Figure 7.1 The design of the capability criteria:  
+![Figure 7.1 The design of the capability criteria](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_7.1.png)
 
 This approach results in every practice having up to 30 capability criteria based on the practice success factors (PSFs) and mapped to the four dimensions of service management. The number of criteria at each level differs; the four dimensions are comprehensively covered starting from level 3, so this level typically has more criteria than others.
 
@@ -971,9 +961,8 @@ Management practices should support achievement of the organization’s objectiv
 
 Figure 7.2 and Table 7.2 show the capability development model, which can be applied to every management practice. The structure of this publication is aligned with the development steps.
 
-![](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_7.2.png)
-
-Figure 7.2 The capability development steps and levels
+Figure 7.2 The capability development steps and levels:  
+![Figure 7.2 The capability development steps and levels](IT%20asset%20management%20ITIL%204%20Practice%20Guide/ITAM_figure_7.2.png)
 
 ### Table 7.2 The IT asset management capability development steps
 

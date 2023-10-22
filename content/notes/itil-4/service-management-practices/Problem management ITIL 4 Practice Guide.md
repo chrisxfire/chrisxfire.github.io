@@ -40,9 +40,8 @@ Errors that may cause (or have already caused) incidents are called problems.
 
 Problem management has three distinct phases, shown in Figure 2.1.
 
-![](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_2_1.jpg)
-
-Figure 2.1 The three phases of the problem management practice
+Figure 2.1 The three phases of the problem management practice:  
+![Figure 2.1 The three phases of the problem management practice](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_2_1.jpg)
 
 The key features of each phase are described in Table 2.1
 
@@ -306,9 +305,8 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 Figure 3.1 shows a workflow diagram of the process.  
 
-![](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_3_1.jpg)
-
-Figure 3.1 Workflow of the proactive problem identification process
+Figure 3.1 Workflow of the proactive problem identification process:  
+![Figure 3.1 Workflow of the proactive problem identification process](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_3_1.jpg)
 
 Proactive problem identification is used to identify potential errors in the organization’s products based on sources other than incident records. Proactive problem identification and control can be considered and performed as a form of risk management which is focused on the vulnerabilities in the organization’s product: it includes the identification, assessment, and analysis of the vulnerabilities and the associated risks.
 
@@ -334,9 +332,8 @@ This process includes the activities listed in Table 3.4, and transforms the inp
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_3_2.jpg)
-
-Figure 3.2 Workflow of the reactive problem identification process
+Figure 3.2 Workflow of the reactive problem identification process:  
+![Figure 3.2 Workflow of the reactive problem identification process](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_3_2.jpg)
 
 Reactive problem identification uses information about past and ongoing incidents to investigate their causes. It can be triggered by an ongoing incident investigation that could not identify the nature of the incident; in this case, problem identification and control may be urgent. The incident management and problem management practices are used within a single value stream and are likely to involve the same (or overlapping) resources, including teams, tools, and procedures.
 
@@ -356,9 +353,8 @@ This process focuses on the investigation of the problem. It includes the activi
 
 Figure 3.3 shows a workflow diagram of the problem control process.
 
-![](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_3_3.jpg)
-
-Figure 3.3 Workflow of the problem control process
+Figure 3.3 Workflow of the problem control process:  
+![Figure 3.3 Workflow of the problem control process](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_3_3.jpg)
 
 Table 3.7 provides examples of the process activities.
 
@@ -385,9 +381,8 @@ This process includes the activities shown in Table 3.8 and transforms the input
 
 Figure 3.4 shows a workflow diagram of the process.
 
-![](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_3_4.jpg)
-
-Figure 3.4 Workflow of the error control process
+Figure 3.4 Workflow of the error control process:  
+![Figure 3.4 Workflow of the error control process](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_3_4.jpg)
 
 ##### Table 3.9 Activities of the error control process
 
@@ -611,9 +606,8 @@ For each practice, the ITIL maturity model defines criteria for every capability
 
 Each criterion is mapped to one of the four dimensions of service management and to the supported capability level. The higher the capability level, the more comprehensive realization of the practice is expected. For example, criteria related to the automation of practices are typically defined at levels 3 or higher because effective automation is only possible if the practice is well defined and organized.
 
-![](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_7_1.jpg)
-
-Figure 7.1 Design of the capability criteria
+Figure 7.1 Design of the capability criteria:  
+![Figure 7.1 Design of the capability criteria](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_7_1.jpg)
 
 This approach results in every practice having up to 30 capability criteria based on the practice PSFs and mapped to the four dimensions of service management. The number of criteria at each level differs; the four dimensions are comprehensively covered starting from level 3, so this level typically has more criteria than others.
 
@@ -643,9 +637,8 @@ Management practices should support the achievement of the organization’s obje
 
 Figure 7.2 and table 7.2 show the capability development model, which can be applied to every management practice. The structure of this publication is aligned with the development steps.
 
-![](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_7_2.jpg)
-
-Figure 7.2 The capability development steps and levels
+Figure 7.2 The capability development steps and levels:  
+![Figure 7.2 The capability development steps and levels](Problem%20management%20ITIL%204%20Practice%20Guide/ITIL_Problem_management_7_2.jpg)
 
 ##### Table 7.2 The problem management capability development steps
 

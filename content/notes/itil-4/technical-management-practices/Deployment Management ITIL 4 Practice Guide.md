@@ -176,9 +176,8 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 <table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Current deployment approach, models and procedures</li><li>Deployment records</li></ul><ul><li>Deployment failure reports</li><li>Policies and regulatory requirements</li><li>Release models</li><li>Service configuration information</li><li>IT asset information</li><li>SLAs with consumers and suppliers/partners</li><li>Capacity and performance plans and reports</li><li>Continuity policies and plans</li><li>Security policies and plans</li></ul></td><td><ul><li>Deployment model planning</li></ul><ul><li>Deployment model implementation</li><li>Deployment model testing</li><li>Deployment review and deployment records analysis</li><li>Deployment model improvement initiation</li><li>Deployment model update and communication</li></ul></td><td><ul><li>Updated deployment models and procedures</li><li>Communication of updates to deployment models and procedures update</li><li>Change requests</li><li>Improvement initiatives</li><li>Deployment review reports</li><li>Updated knowledge management articles</li><li>Lessons learnt</li></ul></td></tr></tbody></table>
 
-![](Deployment%20Management%20ITIL%204%20Practice%20Guide/Deployment_management_Fig3_1.jpg)
-
-Figure 3.1 Workflow of the deployment model development and improvement process
+Figure 3.1 Workflow of the deployment model development and improvement process:  
+![Figure 3.1 Workflow of the deployment model development and improvement process](Deployment%20Management%20ITIL%204%20Practice%20Guide/Deployment_management_Fig3_1.jpg)
 
 Table 3.2 provides examples of the process activities.
 
@@ -196,9 +195,8 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![](Deployment%20Management%20ITIL%204%20Practice%20Guide/Deployment_management_Fig3_2.jpg)
-
-Figure 3.2 Workflow of the deployment lifecycle management process
+Figure 3.2 Workflow of the deployment lifecycle management process:  
+![Figure 3.2 Workflow of the deployment lifecycle management process](Deployment%20Management%20ITIL%204%20Practice%20Guide/Deployment_management_Fig3_2.jpg)
 
 In an organization that has adopted a CI/CD framework, many of these activities will be performed in an automated fashion, without manual intervention.
 
@@ -232,9 +230,8 @@ As mentioned in section 2.3, deployment management contributes to implementation
 
 In all cases, deployment is a part of a change implementation and should be coordinated with other activities in the change lifecycle, such as purchasing, configuring, testing, and release. Deployments are within the scope of the change lifecycle management process (see the change enablement practice guide). The change enablement practice ensures the correct selection of a relevant deployment model; scheduling of the deployment phase of the change implementation; and acceptance of the deployment. At the same time, the deployment management practice ensures that valid deployment models are available and correctly executed when required according to the change plan and change schedule. Figure 3.3 illustrates the positioning of the deployment lifecycle management process in the various value streams involving changes. Note: the figure only addresses deployments to live environments. In practice, there may be a number of transitions between environments during one change, and each one would be subject to deployment lifecycle management.
 
-![](Deployment%20Management%20ITIL%204%20Practice%20Guide/Deployment_management_Fig3_3.jpg)
-
-Figure 3.3 Deployment lifecycle management in service value streams
+Figure 3.3 Deployment lifecycle management in service value streams:  
+![Figure 3.3 Deployment lifecycle management in service value streams](Deployment%20Management%20ITIL%204%20Practice%20Guide/Deployment_management_Fig3_3.jpg)
 
 It is important to ensure the effective integration of the deployment management practice in the management of change lifecycles and further in the service value streams. Depending on the business context of the changes, deployment may be assigned different levels of urgency and impact, which should be possible to address with the application of a relevant deployment model.
 
@@ -472,9 +469,8 @@ For each practice, the ITIL maturity model defines criteria for every capability
 
 Each criterion is mapped to one of the four dimensions of service management and to the supported capability level. The higher the capability level, the more comprehensive realization of the practice is expected. For example, criteria related to the practice automation are typically defined at levels 3 or higher because effective automation is only possible if the practice is well defined and organized.
 
-![](Deployment%20Management%20ITIL%204%20Practice%20Guide/Deployment_management_Fig7_1.jpg)
-
-Figure 7.1 Design of the capability criteria
+Figure 7.1 Design of the capability criteria:  
+![Figure 7.1 Design of the capability criteria](Deployment%20Management%20ITIL%204%20Practice%20Guide/Deployment_management_Fig7_1.jpg)
 
 This approach results in every practice having up to 30 capability criteria based on the practice PSFs and mapped to the four dimensions of service management. The number of criteria at each level differs; the four dimensions are comprehensively covered starting from level 3, so this level typically has more criteria than others.
 
@@ -506,9 +502,8 @@ Management practices should support the achievement of the organization’s obje
 
 Figure 7.2 and Table 7.2 show the capability development model, which can be applied to every management practice. The structure of this publication is aligned with the development steps.
 
-![](Deployment%20Management%20ITIL%204%20Practice%20Guide/Deployment_management_Fig7_2.jpg)
-
-Figure 7.2 The capability development steps and levels
+Figure 7.2 The capability development steps and levels:  
+![Figure 7.2 The capability development steps and levels](Deployment%20Management%20ITIL%204%20Practice%20Guide/Deployment_management_Fig7_2.jpg)
 
 #### Table 7.2 The deployment management capability development steps
 

@@ -85,9 +85,8 @@ Monitoring can be active or passive. In active monitoring a monitoring tool acti
 
 The results of this monitoring activity may be used reactively or proactively, as shown in figure 2.1. Event management is reactive when it uses monitoring to respond to events after an impact on the service or service component has occurred. Event management is proactive when it analyzes non-impacting events (past and current) to identify a potential future impact.
 
-![](Monitoring%20and%20event%20management%20ITIL%204%20Practice%20Guide/ITIL_Monitoring_and_Event_2_1.jpg)
-
-Figure 2.1 Types on monitoring and event management
+Figure 2.1 Types on monitoring and event management:  
+![Figure 2.1 Types on monitoring and event management](Monitoring%20and%20event%20management%20ITIL%204%20Practice%20Guide/ITIL_Monitoring_and_Event_2_1.jpg)
 
 Another consideration is the frequency of event monitoring. In passive monitoring, CIs report the event when it occurs. In active monitoring, CIs will be polled at intervals to collect targeted information. Active monitoring takes place whether an event has occurred or not.
 
@@ -281,9 +280,8 @@ This process includes the activities listed in Table 3.1, and transforms the inp
 
 ##### Figure 3.1 shows a workflow diagram of the process.
 
-![](Monitoring%20and%20event%20management%20ITIL%204%20Practice%20Guide/ITIL_Monitoring_and_Event_3_1_rotate.jpg)
-
-Figure 3.1 Workflow of the monitoring planning process
+Figure 3.1 Workflow of the monitoring planning process:  
+![Figure 3.1 Workflow of the monitoring planning process](Monitoring%20and%20event%20management%20ITIL%204%20Practice%20Guide/ITIL_Monitoring_and_Event_3_1_rotate.jpg)
 
 #### 3.1.2 Event handling
 
@@ -295,9 +293,8 @@ This process includes the activities listed in Table 3.3, and transforms the inp
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![](Monitoring%20and%20event%20management%20ITIL%204%20Practice%20Guide/ITIL_Monitoring_and_Event_3_2.jpg)
-
-Figure 3.2 Workflow of the event handling process
+Figure 3.2 Workflow of the event handling process:  
+![Figure 3.2 Workflow of the event handling process](Monitoring%20and%20event%20management%20ITIL%204%20Practice%20Guide/ITIL_Monitoring_and_Event_3_2.jpg)
 
 #### Table 3.4 Activities of the event handling process
 
@@ -511,9 +508,8 @@ For each practice, the ITIL maturity model defines criteria for every capability
 
 Each criterion is mapped to one of the four dimensions of service management and to the supported capability level. The higher the capability level, the more comprehensive realization of the practice is expected. For example, criteria related to the practice automation are typically defined at levels 3 or higher because effective automation is only possible if the practice is well defined and organized.
 
-![](Monitoring%20and%20event%20management%20ITIL%204%20Practice%20Guide/ITIL_Monitoring_and_Event_7_1.jpg)
-
-Figure 7.1 Design of the capability criteria
+Figure 7.1 Design of the capability criteria:  
+![Figure 7.1 Design of the capability criteria](Monitoring%20and%20event%20management%20ITIL%204%20Practice%20Guide/ITIL_Monitoring_and_Event_7_1.jpg)
 
 This approach results in every practice having up to 30 capability criteria based on the practice PSFs and mapped to the four dimensions of service management. The number of criteria at each level differs; the four dimensions are comprehensively covered starting from level 3, so this level typically has more criteria than others.
 
@@ -543,9 +539,8 @@ Management practices should support achievement of the organization’s objectiv
 
 Figure 7.2 and Table 7.2 show the capability development model, which can be applied to every management practice. The structure of this publication is aligned with the development steps.
 
-![](Monitoring%20and%20event%20management%20ITIL%204%20Practice%20Guide/ITIL_Monitoring_and_Event_7_2.jpg)
-
-Figure 7.2 The capability development steps and levels
+Figure 7.2 The capability development steps and levels:  
+![Figure 7.2 The capability development steps and levels](Monitoring%20and%20event%20management%20ITIL%204%20Practice%20Guide/ITIL_Monitoring_and_Event_7_2.jpg)
 
 ##### Table 7.2 The monitoring and event management capability development steps  
 

@@ -199,9 +199,8 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 Figure 3.1 shows a workflow diagram of the process.
 
-![](Service%20request%20ITIL%204%20Practice%20Guide/ITIL_Service_Request_3_1.jpg)
-
-Figure 3.1 Workflow of the service request fulfilment control process
+Figure 3.1 Workflow of the service request fulfilment control process:  
+![Figure 3.1 Workflow of the service request fulfilment control process](Service%20request%20ITIL%204%20Practice%20Guide/ITIL_Service_Request_3_1.jpg)
 
 The process may vary depending on the service request model. Table 3.2 provides an example of variations.
 
@@ -219,9 +218,8 @@ The process is focused on the continual improvement of service request models, i
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![](Service%20request%20ITIL%204%20Practice%20Guide/ITIL_Service_Request_3_2.jpg)
-
-Figure 3.2 Workflow of the service request review and optimization process
+Figure 3.2 Workflow of the service request review and optimization process:  
+![Figure 3.2 Workflow of the service request review and optimization process](Service%20request%20ITIL%204%20Practice%20Guide/ITIL_Service_Request_3_2.jpg)
 
 Table 3.4 provides a description of the process activities.
 
@@ -423,9 +421,8 @@ SIAM is increasing in importance, owing to a variety of factors:
 
 When an organization chooses a SIAM approach, it should regard the approach as a strategic imperative and tender SIAM contracts separately from individual vendor contracts. A clear organizational structure, with an appropriate governance and management model, is also required.
 
-![](Service%20request%20ITIL%204%20Practice%20Guide/ITIL_Service_Request_6_1.jpg)
-
-Figure 6.1 Service integration models
+Figure 6.1 Service integration models:  
+![Figure 6.1 Service integration models](Service%20request%20ITIL%204%20Practice%20Guide/ITIL_Service_Request_6_1.jpg)
 
 Where organizations aim to ensure a fast and effective service request management practice, they usually try to agree to close cooperation with their partners and suppliers, removing formal bureaucratic barriers in communication, collaboration, and decision-making. Refer to the supplier management practice guide for more information.
 
@@ -456,9 +453,8 @@ For each practice, the ITIL maturity model defines criteria for every capability
 
 Each criterion is mapped to one of the four dimensions of service management and to the supported capability level. The higher the capability level, the more comprehensive realization of the practice is expected. For example, criteria related to the practice automation are typically defined at levels 3 or higher because effective automation is only possible if the practice is well defined and organized.
 
-![](Service%20request%20ITIL%204%20Practice%20Guide/ITIL_Service_Request_7_1.jpg)
-
-Figure 7.1 The design of the capability criteria
+Figure 7.1 The design of the capability criteria:  
+![Figure 7.1 The design of the capability criteria](Service%20request%20ITIL%204%20Practice%20Guide/ITIL_Service_Request_7_1.jpg)
 
 This approach results in every practice having up to 30 capability criteria based on the practice success factors (PSFs) and mapped to the four dimensions of service management. The number of criteria at each level differs; the four dimensions are comprehensively covered starting from level 3, so this level typically has more criteria than others.
 
@@ -488,9 +484,8 @@ Management practices should support achievement of the organization’s objectiv
 
 Figure 7.2 and table 7.2 show the capability development model, which can be applied to every management practice. The structure of this publication is aligned with the development steps.
 
-![](Service%20request%20ITIL%204%20Practice%20Guide/ITIL_Service_Request_7_2.jpg)
-
-Figure 7.2 The capability development steps and levels
+Figure 7.2 The capability development steps and levels:  
+![Figure 7.2 The capability development steps and levels](Service%20request%20ITIL%204%20Practice%20Guide/ITIL_Service_Request_7_2.jpg)
 
 ##### Table 7.2 The service request management capability development steps
 

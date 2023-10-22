@@ -194,9 +194,8 @@ This process is focused on the continual improvement of the release management p
 
 Figure 3.1 shows a workflow diagram of the process.
 
-![](Release%20management%20ITIL%204%20Practice%20Guide/Release_management_Fig3_1.jpg)
-
-Figure 3.1 Workflow of the release model development and improvement process
+Figure 3.1 Workflow of the release model development and improvement process:  
+![Figure 3.1 Workflow of the release model development and improvement process](Release%20management%20ITIL%204%20Practice%20Guide/Release_management_Fig3_1.jpg)
 
 Table 3.2 provides a description of the process activities.
 
@@ -214,9 +213,8 @@ This process is focussed on managing the lifecycle of individual releases. The p
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![](Release%20management%20ITIL%204%20Practice%20Guide/ITIL_4_Release_management_3_2_EN.jpg)
-
-Figure 3.2 A workflow diagram of the release planning and coordination process
+Figure 3.2 A workflow diagram of the release planning and coordination process:  
+![Figure 3.2 A workflow diagram of the release planning and coordination process](Release%20management%20ITIL%204%20Practice%20Guide/ITIL_4_Release_management_3_2_EN.jpg)
 
 Table 3.4 describes the release planning and coordination process activities.
 
@@ -250,9 +248,8 @@ Table 3.5 Role of the release management practice in service value streams
 
 In all cases, the release is a part of a change implementation and should be coordinated with other activities in the change lifecycle, such as purchasing, configuring, testing, and deployment. Releases are within the scope of the change lifecycle management process (see the change enablement practice guide). The change enablement practice ensures the correct selection of a relevant change model, which in turn suggests a relevant release model; scheduling of the release phase of the change implementation; and acceptance of the release results. At the same time, the release management practice ensures that valid release models are available and correctly executed when required according to the change plan and change schedule. Figure 3.3 illustrates the positioning of the release planning and coordination process in the various value streams involving changes.
 
-![](Release%20management%20ITIL%204%20Practice%20Guide/Release_management_Fig3_3.jpg)
-
-Figure 3.3 Deployment to live environment, component verification, and release planning and coordination in service value streams
+Figure 3.3 Deployment to live environment, component verification, and release planning and coordination in service value streams:  
+![Figure 3.3 Deployment to live environment, component verification, and release planning and coordination in service value streams](Release%20management%20ITIL%204%20Practice%20Guide/Release_management_Fig3_3.jpg)
 
 It is important to ensure the effective integration of the release management practice in the management of change lifecycles and further in the service value streams. Depending on the business context of the changes, a release may be assigned different levels of urgency and impact, which should be possible to address with the application of a relevant release model.
 
@@ -429,9 +426,8 @@ For each practice, the ITIL maturity model defines criteria for every capability
 
 Each criterion is mapped to one of the four dimensions of service management and to the supported capability level. The higher the capability level, the more comprehensive realization of the practice is expected. For example, criteria related to the practice automation are typically defined at levels 3 or higher because effective automation is only possible if the practice is well-defined and organized.
 
-![](Release%20management%20ITIL%204%20Practice%20Guide/Release_management_Fig7_1.jpg)
-
-Figure 7.1 Design of the capability criteria
+Figure 7.1 Design of the capability criteria:  
+![Figure 7.1 Design of the capability criteria](Release%20management%20ITIL%204%20Practice%20Guide/Release_management_Fig7_1.jpg)
 
 This approach results in every practice having up to 30 capability criteria based on the practice PSFs and mapped to the four dimensions of service management. The number of criteria at each level differs; the four dimensions are comprehensively covered starting from level 3, so this level typically has more criteria than others.
 
@@ -461,9 +457,8 @@ Management practices should support achievement of the organization’s objectiv
 
 Figure 7.2 and Table 7.2 show the capability development model, which can be applied to every management practice. The structure of this publication is aligned with the development steps.
 
-![](Release%20management%20ITIL%204%20Practice%20Guide/Release_management_Fig7_2.jpg)
-
-Figure 7.2 The capability development steps and levels
+Figure 7.2 The capability development steps and levels:  
+![Figure 7.2 The capability development steps and levels](Release%20management%20ITIL%204%20Practice%20Guide/Release_management_Fig7_2.jpg)
 
 #### Table 7.2 The release management capability development steps
 

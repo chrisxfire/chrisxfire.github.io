@@ -143,9 +143,8 @@ These challenges can be addressed with the following solutions:
 
 In most cases, service providers use multiple channels. It is important to ensure effective integration between the channels; the communications should be omnichannel, not multichannel. A seamless user journey, in which is it possible to switch between channels without losing or corrupting information, facilitates a positive user experience. Multichannel communications without sufficient integration are likely to create confusion and provoke mistakes. Figure 2.1 illustrates how multiple channels can be used for user support.
 
-![](Service%20desk%20ITIL%204%20Practice%20Guide/ITIL_Service_desk_2_1.jpg)
-
-Figure 2.1 Multiple communications channels
+Figure 2.1 Multiple communications channels:  
+![Figure 2.1 Multiple communications channels](Service%20desk%20ITIL%204%20Practice%20Guide/ITIL_Service_desk_2_1.jpg)
 
 In non-integrated multichannel communications, there would be information gaps between the channels; for example, the call for support, appointment in the mobile app, and communications with the visiting engineer all could require re-submitting the request and circumstances that triggered the call for support. Contrary to that, in omnichannel communications, the context would be continually updated, and reusable data would be available wherever relevant. For example, all FAQ search, use of chat bots, and other consultations performed by the user under the same account would add to the context visible to the support specialists. All relevant data would be available for the user support agents and the visiting engineers.
 
@@ -197,9 +196,8 @@ This process ensures user queries are captured, validated, and triaged for furth
 
 Figure 3.1 shows a workflow diagram of the process.
 
-![](Service%20desk%20ITIL%204%20Practice%20Guide/ITIL_Service_desk_3_1.jpg)
-
-Figure 3.1 Workflow of the user query handling process
+Figure 3.1 Workflow of the user query handling process:  
+![Figure 3.1 Workflow of the user query handling process](Service%20desk%20ITIL%204%20Practice%20Guide/ITIL_Service_desk_3_1.jpg)
 
 Table 3.2 compares human interaction to automation for each of the activities of the user query handling process.
 
@@ -219,9 +217,8 @@ All communication between the service provider and the users is made via this pr
 
 Like the processes described in sections 3.1.1 and 3.1.2, this process is largely based on inputs from other practices. Requirements for the user communications (target audience, means of communications, frequency, language, and so on) come from many practices in the context of various service value streams. The same practices usually provide information to be communicated. Service desk practice may employ various means of communications; the channels used to receive user’s queries may be amended by others, such as websites, social media, in-app push notifications, and others. Figure 3.2 shows a workflow diagram of the process.
 
-![](Service%20desk%20ITIL%204%20Practice%20Guide/ITIL_Service_desk_3_2.jpg)
-
-Figure 3.2 Workflow of the communicating to users process
+Figure 3.2 Workflow of the communicating to users process:  
+![Figure 3.2 Workflow of the communicating to users process](Service%20desk%20ITIL%204%20Practice%20Guide/ITIL_Service_desk_3_2.jpg)
 
 Table 3.4 outlines the activities of the process for different scenarios.
 
@@ -239,9 +236,8 @@ This process ensures that the lessons from managing user communications are lear
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![](Service%20desk%20ITIL%204%20Practice%20Guide/ITIL_Service_desk_3_3.jpg)
-
-Figure 3.3 Workflow of the service desk optimization process
+Figure 3.3 Workflow of the service desk optimization process:  
+![Figure 3.3 Workflow of the service desk optimization process](Service%20desk%20ITIL%204%20Practice%20Guide/ITIL_Service_desk_3_3.jpg)
 
 Table 3.6 outlines the activities of the process.
 
@@ -522,9 +518,8 @@ For each practice, the ITIL maturity model defines criteria for every capability
 
 Each criterion is mapped to one of the four dimensions of service management and to the supported capability level. The higher the capability level, the more comprehensive realization of the practice is expected. For example, criteria related to the automation of practices are typically defined at levels 3 or higher because effective automation is only possible if the practice is well defined and organized.
 
-![](Service%20desk%20ITIL%204%20Practice%20Guide/ITIL_Service_desk_7_1.jpg)
-
-Figure 7.1 Design of the capability criteria
+Figure 7.1 Design of the capability criteria:  
+![Figure 7.1 Design of the capability criteria](Service%20desk%20ITIL%204%20Practice%20Guide/ITIL_Service_desk_7_1.jpg)
 
 This approach results in every practice having up to 30 capability criteria based on the practice PSFs and mapped to the four dimensions of service management. The number of criteria at each level differs; the four dimensions are comprehensively covered starting from level 3, so this level typically has more criteria than others.
 
@@ -556,9 +551,8 @@ Management practices should support the achievement of the organization’s obje
 
 Figure 7.2 and table 7.2 show the capability development model, which can be applied to every management practice. The structure of this publication is aligned with the development steps.
 
-![](Service%20desk%20ITIL%204%20Practice%20Guide/ITIL_Service_desk_7_2.jpg)
-
-Figure 7.2 The capability development steps and levels
+Figure 7.2 The capability development steps and levels:  
+![Figure 7.2 The capability development steps and levels](Service%20desk%20ITIL%204%20Practice%20Guide/ITIL_Service_desk_7_2.jpg)
 
 ##### Table 7.2 The service desk capability development steps
 

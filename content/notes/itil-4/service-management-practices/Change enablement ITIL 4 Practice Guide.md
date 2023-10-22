@@ -57,9 +57,8 @@ The change enablement practice should ensure a balance between change effectiven
 
 Changes are possible in all business situations, from business as usual to catastrophic (see Figure 2.1). Organizations should be able to make changes in any situation on this spectrum.
 
-![](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_Figure_2.1.png)
-
-Figure 2.1 Changes are needed in all business situations
+Figure 2.1 Changes are needed in all business situations:  
+![Figure 2.1 Changes are needed in all business situations](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_Figure_2.1.png)
 
 Business-as-usual situations are relatively predictable, with low levels of uncertainty. Catastrophic situations have the highest levels of uncertainty. Changes in any type of situation, however, have varying levels of complexity and predictability.
 
@@ -134,9 +133,8 @@ Two important considerations regarding emergency changes:
 
 Figure 2.2 and table 2.2 outline the key characteristics of different types of changes.
 
-![](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_2.2.png)
-
-Figure 2.2 Types of changes
+Figure 2.2 Types of changes:  
+![Figure 2.2 Types of changes](./Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_2.2.png)
 
 ### Table 2.2 Characteristics of types of changes
 
@@ -163,9 +161,8 @@ Organizations define which changes, at which level of control, should be address
 
 Based on these and other considerations, organizations decide whether modifications to products and services should be treated as changes and, if so, whether they should be considered as minor, medium, or major. The change enablement practice usually includes different approaches to changes of different scales which are normally detailed in the change models.
 
-![](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_figure_2.3_(1).png)
-
-Figure 2.3 Different scales of changes
+Figure 2.3 Different scales of changes:  
+![Figure 2.3 Different scales of changes](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_figure_2.3_(1).png)
 
 Some major changes can be run as programmes and projects, with outcomes dependent on a complex interconnected web of constraints, dependencies, and outputs. Each step of such a project or programme can potentially be viewed as a separate change (medium or minor, in that case) and the success of the programme is linked to the success of individual smaller changes. In these situations, every sub-change might require separate authorization, as while the major change has already been authorized, the ‘why’ that depends on the proposed specific steps needs to be assessed for suitability, and the best alternatives chosen.
 
@@ -179,9 +176,8 @@ It is important to keep in mind that changes are not something extraordinary. Ch
 
 When changes are made to software and other digital resources, controls that ensure change success may be automated, including change scheduling, integrity control, version control, compatibility control, and many others. Automation increases the throughput and keeps the risks associated with changes to an acceptable level, particularly when combined with the decrease in size of the individual changes (see chapter 5 and the practice guides for software development and management, release management, and deployment management for more information on this).
 
-![](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_figure_2.4_(1).png)
-
-Figure 2.4 A comparison of manual and automated changes
+Figure 2.4 A comparison of manual and automated changes:  
+![Figure 2.4 A comparison of manual and automated changes](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_figure_2.4_(1).png)
 
 The full scope of planned and ongoing changes may be hard to oversee across an organization when change enablement is highly automated. It becomes difficult to identify what change is being made where. This is due to the high level of complexity of the controlled environments.
 
@@ -302,9 +298,8 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 Figure 3.1 shows a workflow diagram of the process.
 
-![](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_figure_3.1.png)
-
-Figure 3.1 Workflow of the change enablement planning and optimization process
+Figure 3.1 Workflow of the change enablement planning and optimization process:  
+![Figure 3.1 Workflow of the change enablement planning and optimization process](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_figure_3.1.png)
 
 Table 3.2 provides examples of the process activities.
 
@@ -324,9 +319,8 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_3.2.png)
-
-Figure 3.2 Workflow of the change lifecycle management process
+Figure 3.2 Workflow of the change lifecycle management process:  
+![Figure 3.2 Workflow of the change lifecycle management process](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_3.2.png)
 
 The process may vary depending on the change model. Table 3.4 provides examples of the activities in two change models.
 
@@ -360,19 +354,16 @@ The change enablement practice supports most service value streams as it governs
 
 Change requests can originate from any team, team member, customer, user, practice, process, or service, depending on the procedures in place and the roles assigned to different parties involved. Change models should be created for all such situations, where possible. However, it is not common for service users to be able to submit change requests directly; their needs are usually handled as service requests and managed by the service request management practice. Customers, on the other hand, usually do have the right to submit change requests. Figure 3.3 illustrates how requests for change originate from different service value streams.
 
-![](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_3.3.png)
-
-Figure 3.3 Sources of changes
+Figure 3.3 Sources of changes:  
+![Figure 3.3 Sources of changes](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_3.3.png)
 
 Depending on the scope and nature of the change the change realization control activity of the change lifecycle management process may cover pre-deployment tasks, as well as deployment and release tasks. These tasks may involve various management practices but are coordinated as part of the change lifecycle. Figures 3.4 and 3.5 illustrate the involvement of the change realization control process in multiple value streams initiated by various triggers.
 
-![](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_3.4.png)
+Figure 3.4 Change lifecycle tasks:  
+![Figure 3.4 Change lifecycle tasks](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_3.4.png)
 
-Figure 3.4 Change lifecycle tasks
-
-![](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_3.5.png)
-
-Figure 3.5 The change lifecycle management process is included in multiple value streams
+Figure 3.5 The change lifecycle management process is included in multiple value streams:  
+![Figure 3.5 The change lifecycle management process is included in multiple value streams](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_3.5.png)
 
 Attention should be given to workforce planning. The change assessment and change authorization steps of the lifecycle management process, when invoked, can involve roles in the organization that do not typically participate in a particular service value stream. This needs to be considered for situations such as emergency changes, as well as changes that follow an agreed change plan and schedule.
 
@@ -657,9 +648,8 @@ The practice success factors described in section 2.4 cannot be developed overni
 
 Each criterion is mapped to one of the four dimensions of service management and to the supported capability level. The higher the capability level, the more comprehensive realization of the practice is expected. For example, criteria related to the practice automation are typically defined at levels 3 or higher because effective automation is only possible if the practice is well defined and organized.
 
-![](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_7.1.png)
-
-Figure 7.1 Design of the capability criteria
+Figure 7.1 Design of the capability criteria:  
+![Figure 7.1 Design of the capability criteria](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_7.1.png)
 
 This approach results in every practice having up to 30 capability criteria based on the practice PSFs and mapped to the four dimensions of service management. The number of criteria at each level differs; the four dimensions are comprehensively covered starting from level 3, so this level typically has more criteria than others.
 
@@ -689,9 +679,8 @@ Management practices should support the achievement of the organization’s obje
 
 Figure 7.2 and Table 7.2 show the capability development model, which can be applied to every management practice. The structure of this publication is aligned with the development steps.
 
-![](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_7.2_(1).png)
-
-Figure 7.2 The capability development steps and levels
+Figure 7.2 The capability development steps and levels:  
+![Figure 7.2 The capability development steps and levels](Change%20enablement%20ITIL%204%20Practice%20Guide/Change_enablement_-_fig_7.2_(1).png)
 
 ### Table 7.2 The change enablement capability development steps
 

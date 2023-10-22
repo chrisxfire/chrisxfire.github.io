@@ -80,9 +80,8 @@ To successfully recover from a disaster, a service provider should define the se
 * recovery point objective (RPO)
 * minimum service continuity levels (see Figure 2.1).
 
-![](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_2.1_Service_continuity_requirements_RTO_RPO_minimum_target_service_level.png)
-
-Figure 2.1 Service continuity requirements: RTO, RPO, minimum target service level
+Figure 2.1 Service continuity requirements: RTO, RPO, minimum target service level:  
+![Figure 2.1 Service continuity requirements: RTO, RPO, minimum target service level](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_2.1_Service_continuity_requirements_RTO_RPO_minimum_target_service_level.png)
 
 ### **2.2.2 Recovery time objective**
 
