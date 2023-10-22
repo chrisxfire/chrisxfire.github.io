@@ -634,5 +634,5 @@ Roman Jouravlev
 
 1.  *Risk management: ITIL® Practice Guide*.
 2.  For details see Risk management: ITIL® Practice Guide.
-3.  An Introduction to Factor Analysis of Information Risk (FAIR)[ftp://mail.im.tku.edu.tw/Prof\_Liang/IRM/10%20An%20Introduction%20to%20Factor%20Analysis%20of%20Information%20Risk.pdf](ftp://mail.im.tku.edu.tw/Prof_Liang/IRM/10%20An%20Introduction%20to%20Factor%20Analysis%20of%20Information%20Risk.pdf)(Accessed 24thFebruary 2020)
+3.  An Introduction to Factor Analysis of Information Risk (FAIR)[ftp://mail.im.tku.edu.tw/Prof_Liang/IRM/10%20An%20Introduction%20to%20Factor%20Analysis%20of%20Information%20Risk.pdf](ftp://mail.im.tku.edu.tw/Prof_Liang/IRM/10%20An%20Introduction%20to%20Factor%20Analysis%20of%20Information%20Risk.pdf)(Accessed 24thFebruary 2020)
 4.  See the Service level management: ITIL® 4 Practice Guide for details.

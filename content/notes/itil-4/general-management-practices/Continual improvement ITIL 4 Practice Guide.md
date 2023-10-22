@@ -438,5 +438,5 @@ Xavier Idrovo, Vernon Lloyd.
 ## References
 
 1.  Rother, Mike. (2017). The Toyota Kata Practice Guide: Developing Scientific Thinking Skills for Superior Results. US. McGraw Hill.
-2.  [https://en.wikipedia.org/wiki/OODA\_loop](https://en.wikipedia.org/wiki/OODA_loop)
+2.  [https://en.wikipedia.org/wiki/OODA_loop](https://en.wikipedia.org/wiki/OODA_loop)
 3.  (N+C)/(O+C) – see the measurement and reporting practice guide for explanation and examples.

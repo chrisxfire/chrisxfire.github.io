@@ -183,7 +183,7 @@ Business Case Development
 * [Management of Value (MoV) Foundation](https://www.axelos.com/certifications/mov-value-management/mov-foundation)
 * [ITIL Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 * [Managing Successful Programmes (MSP) Practitioner](https://www.axelos.com/certifications/propath/msp-programme-management/msp-practitioner)
-* [Management of Risk 4 (M\_o\_R Practitioner)](https://www.axelos.com/certifications/propath/mor-risk-management/mor-4-practitioner)
+* [Management of Risk 4 (M_o_R Practitioner)](https://www.axelos.com/certifications/propath/mor-risk-management/mor-4-practitioner)
 * [P3O Foundation](https://www.axelos.com/certifications/propath/p3o-project-offices/p3o-foundation)
 
 # Related Content

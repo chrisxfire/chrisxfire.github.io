@@ -430,32 +430,18 @@ Roman Jouravlev.
 
 ### References
 
-1.Mikhailava, I., (2011). Absorptive capacity: towards a practice based view. PhD, Lancaster University Management School, Lancaster, UK.
-
-2.L. Uden et al. (Eds.), (2014). Knowledge management in organizations, Santiago: Springer International Publishing pp. 1–10
-
-3.Crane, Lesley & Self, Richard. (2014). Big Data Analytics: A Threat or an Opportunity for Knowledge Management? (Accessed on 28/10/2019) https://www.researchgate.net/publication/265531901\_Big\_Data\_Analytics\_A\_Threat\_or\_an\_Opportunity\_for\_Knowledge\_Management
-
-4.https://www.forbes.com/sites/stevedenning/2012/05/31/ten-things-you-need-to-know-about-managing- knowledge/#bf6da2d118f2 (Accessed on 28/10/2019)
-
-5.(Accessed 30/10/2019) https://www.bts.com/blog-article/business-insight/creating-an-insight-driven- organization
-
-6.(Accessed 30/10/2019) https://medium.com/microsoft-design/if-you-want-to-be-creative-dont-be-data- driven-55db74078eda
-
-7.(Accessed 30/10/2019) https://www2.deloitte.com/ca/en/pages/deloitte-analytics/articles/becoming-an- insight-driven-organization.html
-
-8.(Accessed 30/10/2019) https://www.forbes.com/sites/stevedenning/2012/05/31/ten-things-you-need-to- know-about-managing-knowledge/#bf6da2d118f2
-
-9.(Accessed 30/10/2019) https://cognitive-edge.com/blog/rendering-knowledge/
-
-10.(Accessed 30/10/2019) http://files.gk-facfil.webnode.com/200000004-ecf7fedf15/groth-ecscw03-ws.pdf
-
-11.Xu J., Quaddus M. (2013) Using Information Systems for Supporting Decision Making. In: Managing Information Systems. Atlantis Press, Paris
-
-12.Mayer & Schaper 2010; Chui & Fleming 2011; Bloomberg Businessweek Research Services 2011 Milley & Wood 2010; Haag, Baltzan & Phillips 2008, p. 388
-
-13.Information Systems that Really Support Decision-Making by Gio Wiederhold, Journal of Intelligent Information Systems March 2000, Volume 14, Issue 2–3, pp 85–94
-
-14.(Accessed 30/10/2019) https://www.researchgate.net/publication/270092694\_Knowledge\_Management\_Metrics\_A\_Review\_and\_Directions\_for\_Future\_Research
-
-15.(Accessed 30/10/2019) https://www.researchgate.net/publication/235320642\_Doing\_knowledge\_management
+1. Mikhailava, I., (2011). Absorptive capacity: towards a practice based view. PhD, Lancaster University Management School, Lancaster, UK.
+2. L. Uden et al. (Eds.), (2014). Knowledge management in organizations, Santiago: Springer International Publishing pp. 1–10
+3. Crane, Lesley & Self, Richard. (2014). Big Data Analytics: A Threat or an Opportunity for Knowledge Management? (Accessed on 28/10/2019) https://www.researchgate.net/publication/265531901_Big_Data_Analytics_A_Threat_or_an_Opportunity_for_Knowledge_Management
+4. https://www.forbes.com/sites/stevedenning/2012/05/31/ten-things-you-need-to-know-about-managing- knowledge/#bf6da2d118f2 (Accessed on 28/10/2019)
+5. (Accessed 30/10/2019) https://www.bts.com/blog-article/business-insight/creating-an-insight-driven- organization
+6. (Accessed 30/10/2019) https://medium.com/microsoft-design/if-you-want-to-be-creative-dont-be-data- driven-55db74078eda
+7. (Accessed 30/10/2019) https://www2.deloitte.com/ca/en/pages/deloitte-analytics/articles/becoming-an- insight-driven-organization.html
+8. (Accessed 30/10/2019) https://www.forbes.com/sites/stevedenning/2012/05/31/ten-things-you-need-to- know-about-managing-knowledge/#bf6da2d118f2
+9. (Accessed 30/10/2019) https://cognitive-edge.com/blog/rendering-knowledge/
+10. (Accessed 30/10/2019) http://files.gk-facfil.webnode.com/200000004-ecf7fedf15/groth-ecscw03-ws.pdf
+11. Xu J., Quaddus M. (2013) Using Information Systems for Supporting Decision Making. In: Managing Information Systems. Atlantis Press, Paris
+12. Mayer & Schaper 2010; Chui & Fleming 2011; Bloomberg Businessweek Research Services 2011 Milley & Wood 2010; Haag, Baltzan & Phillips 2008, p. 388
+13. Information Systems that Really Support Decision-Making by Gio Wiederhold, Journal of Intelligent Information Systems March 2000, Volume 14, Issue 2–3, pp 85–94
+14. (Accessed 30/10/2019) https://www.researchgate.net/publication/270092694_Knowledge_Management_Metrics_A_Review_and_Directions_for_Future_Research
+15. (Accessed 30/10/2019) https://www.researchgate.net/publication/235320642_Doing_knowledge_management
