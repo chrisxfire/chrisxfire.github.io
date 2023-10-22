@@ -350,4 +350,4 @@ Oleg Skrynnik
 
 ### References
 
-1.  Dijkstra, E.W. The Humble Programmer (1972) www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html \[Accessed 29th October 2019\]
+1.  Dijkstra, E.W. The Humble Programmer (1972) www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html (Accessed 29th October 2019)

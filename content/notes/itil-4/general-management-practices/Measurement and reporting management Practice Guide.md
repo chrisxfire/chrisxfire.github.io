@@ -616,5 +616,5 @@ Erika Flora, Graham Heard, Anton Lykov, Irina Matantseva.
 ## References
 
 1.  For more on the four reasons for measurement, see ITIL® 4: Direct, Plan and Improve, section 4.1.3Organizations measure their activities, resources (in all four dimensions of service management), and products and services.
-2.  https://www.linkedin.com/pulse/five-steps-build-kpi-scorecard-almost-anything-dmitry-isaychenko/ \[accessed 16th April 2020\]
+2.  https://www.linkedin.com/pulse/five-steps-build-kpi-scorecard-almost-anything-dmitry-isaychenko/ (Accessed 16th April 2020)
 3.  Richard Y. Wang and Diane M. Strong, ‘Beyond Accuracy: What Data Quality Means to Data Consumers’ Journal of Management Information Systems, Vol. 12, No. 4 (Spring, 1996), pp. 5-33 https://www.jstor.org/stable/40398176

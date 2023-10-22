@@ -415,24 +415,24 @@ Akshay Anand, David Cannon, Erin Casteel, Erika Flora, Richard de Kock, Irina Ma
 
 ## References
 
-1.  Kachaner, N., King, K., and Stewart, S. (2016) Four Best Practices for Strategic Planning. *Boston Consulting Group*, \[online\] Available at: [https://www.bcg.com/publications/2016/growth-four-best-practices-strategic-planning.aspx](https://www.bcg.com/publications/2016/growth-four-best-practices-strategic-planning.aspx) \[Accessed 15th April 2020\].
+1.  Kachaner, N., King, K., and Stewart, S. (2016) Four Best Practices for Strategic Planning. *Boston Consulting Group*, \[online\] Available at: [https://www.bcg.com/publications/2016/growth-four-best-practices-strategic-planning.aspx](https://www.bcg.com/publications/2016/growth-four-best-practices-strategic-planning.aspx) (Accessed 15th April 2020).
     
 2.  For more on the topic, see ITIL 4: Digital and IT Strategy, section 2.8
     
 3.  Many organizations confuse agility with Agile methods. Organizational agility does not imply adoption of Agile, although may benefit from it in certain areas. For more on this, see England, R. and Vu, C. *The agile Manager*, (2019)
     
-4.  For more on complexity and sense-making visit: cognitive-edge.com, (2018). *Cynefin® framework introduction* \[online\] Available at: [http://cognitive-edge.com/videos/cynefin-framework-introduction/](http://cognitive-edge.com/videos/cynefin-framework-introduction/) \[Accessed 15<sup>th</sup> April 2020\]. This is also addressed in ITIL Specialist High-velocity IT and Digital and IT Strategy publications
+4.  For more on complexity and sense-making visit: cognitive-edge.com, (2018). *Cynefin® framework introduction* \[online\] Available at: [http://cognitive-edge.com/videos/cynefin-framework-introduction/](http://cognitive-edge.com/videos/cynefin-framework-introduction/) (Accessed 15<sup>th</sup> April 2020). This is also addressed in ITIL Specialist High-velocity IT and Digital and IT Strategy publications
     
 5.  [http://cognitive-edge.com/videos/cynefin-framework-introduction/](http://cognitive-edge.com/videos/cynefin-framework-introduction/) Reproduced with permission of Cognitive Edge
     
 6.  For more on business and operating models, see ITIL 4: Digital and IT Strategy, sections 2.11 and 2.12 and [https://www.axelos.com/case-studies-and-white-papers/business-models-and-operating-models-white-paper](https://www.axelos.com/case-studies-and-white-papers/business-models-and-operating-models-white-paper)
     
-7.  Kachaner, N., King, K., and Stewart, S. (2016) Four Best Practices for Strategic Planning. Boston Consulting Group, \[online\] [https://www.bcg.com/publications/2016/growth-four-best-practices-strategic-planning.aspx](https://www.bcg.com/publications/2016/growth-four-best-practices-strategic-planning.aspx) \[Accessed 15th April 2020\].
+7.  Kachaner, N., King, K., and Stewart, S. (2016) Four Best Practices for Strategic Planning. Boston Consulting Group, \[online\] [https://www.bcg.com/publications/2016/growth-four-best-practices-strategic-planning.aspx](https://www.bcg.com/publications/2016/growth-four-best-practices-strategic-planning.aspx) (Accessed 15th April 2020).
     
 8.  Note that ‘operational’ here means ‘demonstrating how a managed object is operating’; it may refer to managed object at operational, tactical, or strategic level. For more on types of reports, see the Measurement and Reporting Practice Guide.
     
-9.  bts.com, (2015). *Creating an Insight Driven Organization.* \[online\] Available at: [https://www.bts.com/blog-article/business-insight/creating-an-insight-driven-organization](https://www.bts.com/blog-article/business-insight/creating-an-insight-driven-organization) \[Accessed 15th April 2020\].
+9.  bts.com, (2015). *Creating an Insight Driven Organization.* \[online\] Available at: [https://www.bts.com/blog-article/business-insight/creating-an-insight-driven-organization](https://www.bts.com/blog-article/business-insight/creating-an-insight-driven-organization) (Accessed 15th April 2020).
     
-10.  [https://www.bts.com/blog-article/business-insight/creating-an-insight-driven-organization](https://www.bts.com/blog-article/business-insight/creating-an-insight-driven-organization) \[Accessed 21st April 2020\]
+10.  [https://www.bts.com/blog-article/business-insight/creating-an-insight-driven-organization](https://www.bts.com/blog-article/business-insight/creating-an-insight-driven-organization) (Accessed 21st April 2020)
     
 11.  For more on data-driven and insight-driven decisions, see ITIL Knowledge Management Practice Guide, Sections 2.2.4 and 2.2.5.

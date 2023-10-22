@@ -269,9 +269,7 @@ When developing the principles of the knowledge management practice culture and 
 
 <table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Knowledge management stakeholder’s satisfaction assessment</li><li>Previous improvement results Policies and regulatory requirements Financial guidelines and constraints</li><li>Improvements proposals from relationship, workforce and talent management practices, organizational change, other practices</li><li>Risk information</li></ul></td><td><ul><li>Understand current culture of knowledge usage and knowledge sharing</li><li>Review external and internal requirements and factors of influence</li><li>Optimize response, identify improvements</li><li>Promote and empower usage of knowledge management practice across the organization</li><li>Review knowledge management practice application and initiate improvements</li></ul></td><td><ul><li>Knowledge Management approach</li><li>Scope of Knowledge management assets</li><li>Knowledge management practice improvement plan</li><li>Templates, instructions and guidance for knowledge management lifecycle management</li><li>Recommendations and approach for knowledge system building and maintenance</li><li>Data and information quality guidelines</li><li>Change requests</li><li>Materials for knowledge management trainings and learning environment empowerment</li><li>Requirements and information for organizational change management, workforce and talent management, relationship management</li></ul></td></tr></tbody></table>
 
-**Figure 3.2 Workflow of the establishing and maintaining the knowledge management environment process**
-
-![](Knowledge%20management%20ITIL%204%20Practice%20Guide/zsNANWGdkZCxevBhuio+DQBZs3ryZRykYxoFgccAw9QvpsQJadOgDtNwQCmjUoQMUXgApgEYdUkDcuUEDauOhHrAVR4CGoGEGBNLYAAIhJo4ePSrE1mgROgh5GYZxCFgcMEy9Bm05aQWg7TVMZGQk2v7NmzdjL3hLS0spXA6UAaQDqQeGYRwFFgcMU39Bo65Wq6W3ARRetOvklbf6tDUlJYUiu7m5IRoFwoE1dAC29uvXT4jdoEFiYqKLiws0BHkZhnEIWBwwTP1l+vTpaN3ppcLIyEhtL9p7eOVNO4QCtmK9ePFierjg6upKm+CFYvD39w8ODiahAKAMcBzIBcSkEIZh7B+2rcAwDMMwTA145IBhGIZhmBqwOGAYhmEYRkaDBv8PHubtqUn0RS8AAAAASUVORK5CYII=.png)
+![Figure 3.2 Workflow of the establishing and maintaining the knowledge management environment process](Knowledge%20management%20ITIL%204%20Practice%20Guide/zsNANWGdkZCxevBhuio+DQBZs3ryZRykYxoFgccAw9QvpsQJadOgDtNwQCmjUoQMUXgApgEYdUkDcuUEDauOhHrAVR4CGoGEGBNLYAAIhJo4ePSrE1mgROgh5GYZxCFgcMEy9Bm05aQWg7TVMZGQk2v7NmzdjL3hLS0spXA6UAaQDqQeGYRwFFgcMU39Bo65Wq6W3ARRetOvklbf6tDUlJYUiu7m5IRoFwoE1dAC29uvXT4jdoEFiYqKLiws0BHkZhnEIWBwwTP1l+vTpaN3ppcLIyEhtL9p7eOVNO4QCtmK9ePFierjg6upKm+CFYvD39w8ODiahAKAMcBzIBcSkEIZh7B+2rcAwDMMwTA145IBhGIZhmBqwOGAYhmEYRkaDBv8PHubtqUn0RS8AAAAASUVORK5CYII=.png)
 
 ### Table 3.2 Example of activities for management of nurturing organizational culture of knowledge usage and sharing process
 
@@ -295,10 +293,7 @@ The process supports these knowledge needs by accessing resources and the people
 
 Figure 3.3 shows a workflow diagram of the on-demand information discovery process
 
-![](Knowledge%20management%20ITIL%204%20Practice%20Guide/BXIlQ5BPddziAAAAAElFTkSuQmCC.png)
-
-  
-**Figure 3.3 Workflow of the on-demand information discovery process**
+![Figure 3.3 Workflow of the on-demand information discovery process](Knowledge%20management%20ITIL%204%20Practice%20Guide/BXIlQ5BPddziAAAAAElFTkSuQmCC.png)
 
 The process’s activities are outlined in Table 3.4.
 
@@ -316,10 +311,7 @@ Knowledge assets may represent the collective and individual, structured and uns
 
 <table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Information assets used by the organization</li><li>Information security policies</li><li>Data and information quality guidelines</li><li>Information about errors in knowledge system</li><li>Stakeholders feedback and satisfaction data</li></ul></td><td><ul><li>Knowledge asset discovery</li><li>Knowledge assets analysis and classification</li><li>Development of knowledge asset management guidelines</li><li>Guideline assignment and communication</li><li>Knowledge asset management assignment acceptance</li><li>Knowledge asset review and improvement initiation</li></ul></td><td><ul><li>New and updated knowledge assets</li><li>Knowledge assets management guidelines</li><li>Knowledge asset management assignments</li><li>Knowledge asset management reports</li></ul></td></tr></tbody></table>
 
-![](Knowledge%20management%20ITIL%204%20Practice%20Guide/Picture2.png)
-
-  
-**Figure 3.4 Workflow of the knowledge asset management process**  
+![Figure 3.4 Workflow of the knowledge asset management process](Knowledge%20management%20ITIL%204%20Practice%20Guide/Picture2.png)
 
 ### Table 3.6 Activities of the knowledge asset management process
 
@@ -442,21 +434,21 @@ Roman Jouravlev.
 
 2.L. Uden et al. (Eds.), (2014). Knowledge management in organizations, Santiago: Springer International Publishing pp. 1–10
 
-3.Crane, Lesley & Self, Richard. (2014). Big Data Analytics: A Threat or an Opportunity for Knowledge Management? \[Accessed on 28/10/2019\] https://www.researchgate.net/publication/265531901\_Big\_Data\_Analytics\_A\_Threat\_or\_an\_Opportunity\_for\_Knowledge\_Management
+3.Crane, Lesley & Self, Richard. (2014). Big Data Analytics: A Threat or an Opportunity for Knowledge Management? (Accessed on 28/10/2019) https://www.researchgate.net/publication/265531901\_Big\_Data\_Analytics\_A\_Threat\_or\_an\_Opportunity\_for\_Knowledge\_Management
 
-4.https://www.forbes.com/sites/stevedenning/2012/05/31/ten-things-you-need-to-know-about-managing- knowledge/#bf6da2d118f2 \[Accessed on 28/10/2019\]
+4.https://www.forbes.com/sites/stevedenning/2012/05/31/ten-things-you-need-to-know-about-managing- knowledge/#bf6da2d118f2 (Accessed on 28/10/2019)
 
-5.\[Accessed 30/10/2019\] https://www.bts.com/blog-article/business-insight/creating-an-insight-driven- organization
+5.(Accessed 30/10/2019) https://www.bts.com/blog-article/business-insight/creating-an-insight-driven- organization
 
-6.\[Accessed 30/10/2019\] https://medium.com/microsoft-design/if-you-want-to-be-creative-dont-be-data- driven-55db74078eda
+6.(Accessed 30/10/2019) https://medium.com/microsoft-design/if-you-want-to-be-creative-dont-be-data- driven-55db74078eda
 
-7.\[Accessed 30/10/2019\] https://www2.deloitte.com/ca/en/pages/deloitte-analytics/articles/becoming-an- insight-driven-organization.html
+7.(Accessed 30/10/2019) https://www2.deloitte.com/ca/en/pages/deloitte-analytics/articles/becoming-an- insight-driven-organization.html
 
-8.\[Accessed 30/10/2019\] https://www.forbes.com/sites/stevedenning/2012/05/31/ten-things-you-need-to- know-about-managing-knowledge/#bf6da2d118f2
+8.(Accessed 30/10/2019) https://www.forbes.com/sites/stevedenning/2012/05/31/ten-things-you-need-to- know-about-managing-knowledge/#bf6da2d118f2
 
-9.\[Accessed 30/10/2019\] https://cognitive-edge.com/blog/rendering-knowledge/
+9.(Accessed 30/10/2019) https://cognitive-edge.com/blog/rendering-knowledge/
 
-10.\[Accessed 30/10/2019\] http://files.gk-facfil.webnode.com/200000004-ecf7fedf15/groth-ecscw03-ws.pdf
+10.(Accessed 30/10/2019) http://files.gk-facfil.webnode.com/200000004-ecf7fedf15/groth-ecscw03-ws.pdf
 
 11.Xu J., Quaddus M. (2013) Using Information Systems for Supporting Decision Making. In: Managing Information Systems. Atlantis Press, Paris
 
@@ -464,6 +456,6 @@ Roman Jouravlev.
 
 13.Information Systems that Really Support Decision-Making by Gio Wiederhold, Journal of Intelligent Information Systems March 2000, Volume 14, Issue 2–3, pp 85–94
 
-14.\[Accessed 30/10/2019\] https://www.researchgate.net/publication/270092694\_Knowledge\_Management\_Metrics\_A\_Review\_and\_Directions\_for\_Future\_Research
+14.(Accessed 30/10/2019) https://www.researchgate.net/publication/270092694\_Knowledge\_Management\_Metrics\_A\_Review\_and\_Directions\_for\_Future\_Research
 
-15.\[Accessed 30/10/2019\] https://www.researchgate.net/publication/235320642\_Doing\_knowledge\_management
+15.(Accessed 30/10/2019) https://www.researchgate.net/publication/235320642\_Doing\_knowledge\_management

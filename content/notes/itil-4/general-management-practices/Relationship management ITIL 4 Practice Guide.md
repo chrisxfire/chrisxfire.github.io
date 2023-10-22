@@ -412,7 +412,7 @@ Roman Jouravlev, Irina Matantseva
 ## References
 
 1.  Haytko, D. (2004) Firm-to-firm and interpersonal relationships: Perspectives from advertising agency account managers. Journal of the Academy of Marketing Science (32:3), pp. 312-328.1.
-2.  Conceptualizing Interpersonal Relationships in agile IS Development: https://www.researchgate.net/publication/50257196 \[Accessed 6th January 2020\]
+2.  Conceptualizing Interpersonal Relationships in agile IS Development: https://www.researchgate.net/publication/50257196 (Accessed 6th January 2020)
 3.  ITIL® 4: Drive Stakeholder Value, 1.2.3, Table 1.2
 4.  ITIL® 4: Drive Stakeholder Value, 1.2
 5.  ITIL® 4 Drive Stakeholder Value, 1.1, Table 1.1
