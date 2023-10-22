@@ -61,7 +61,7 @@ Continuity management
 * Work with specialists and business owners to identify and prioritize critical business processes for recovery
 * Evaluate the options for recovery
 * Produce the contingency plan, and document procedures
-* Coordinate regular testing of the plan, analyse the results and implement improvements
+* Coordinate regular testing of the plan, analyze the results and implement improvements
 * Ensure that staff are aware of the risks and the actions they need to take if there is a disaster
 * Ensure compliance with relevant government regulations.
 

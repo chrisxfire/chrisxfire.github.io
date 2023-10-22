@@ -1,5 +1,5 @@
 ---
-title: "Service continuity management: ITIL 4 Practice Guide"
+title: "Service continuity management"
 date: 2023-10-21T00:00:00-06:00
 draft: true
 weight: 1
@@ -185,7 +185,7 @@ Some organizations prefer not to separate the management of availability and con
 
 The service continuity management practice does not cover minor or short-term failures that do not seriously impact the organization. It focuses on risks associated with significant damage, regardless of how likely or unlikely they are to occur. Often, these are emergency situations: fires, floods, power outages, data centre failures, and so on. Although the availability management practice does not ignore the negative impacts of failures on the service provider and consumer, minor interruptions of individual components are also considered in the process.
 
-There is a tension between the objectives of the practices. The availability management practice works with statistics and analyses trends; continuity management is concerned with how to respond to disruptive events.
+There is a tension between the objectives of the practices. The availability management practice works with statistics and analyzes trends; continuity management is concerned with how to respond to disruptive events.
 
 Availability planning focuses on fulfilling current and future agreed requirements and avoiding deviations. The availability management practice finds and eliminates single points of failure; the countermeasures that are implemented are generally proactive and they reduce the likelihood of unwanted events. The service continuity management practice focuses on planning to manage the serious consequences of disruptive events. Backup sites, transitioning to alternative methods of service provision, and recovery procedures all reduce damage, but generally do not impact the probability of an incident.
 
@@ -304,7 +304,7 @@ The key characteristics and the purpose of each type, according the BCI Good pra
 
 Exercises should be conducted at planned intervals and when there are significant changes which may impact the recovery. The higher the possible impact of service outage, the higher the frequency of exercising should be.
 
-Exercising is not only a way of ensuring readiness, it is an improvement opportunity. So it is generally a good idea to analyse the findings made during the testing and overall recovery team performance, then produce exercise reports that include findings and recommendations.
+Exercising is not only a way of ensuring readiness, it is an improvement opportunity. So it is generally a good idea to analyze the findings made during the testing and overall recovery team performance, then produce exercise reports that include findings and recommendations.
 
 ## **2.5 Key metrics**
 
@@ -416,7 +416,7 @@ These activities may be carried out with varying levels of formality by many peo
 
 ### **Table 3.8 Activities of the testing service continuity plans process**
 
-<table><colgroup data-width="595"><col><col></colgroup><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>Performing exercises</p></td><td><ul><li>Exercises should be conducted at planned intervals and when significant changes may impact recovery. The higher the possible impact of a service outage is, the higher the frequency of exercising should be.</li><li>Exercising and testing are not only ways of ensuring readiness; they are also improvement opportunities. It is generally a good idea to analyse the results of testing and the overall recovery team performance, then produce exercise reports that include outcomes and recommendations.</li><li>Exercise reports might include requirements for new or updated existing controls or request for change of service continuity plan.</li><li>If exercise is failed, the schedule of following exercises is updated in order to re-perform the failed exercise as soon as possible.</li></ul></td></tr><tr><td><p>Service continuity audit</p></td><td><ul><li>Service continuity audits ensure that BIA, service continuity strategies and plans remain appropriate and relevant as the environment changes. Audits are usually carried out on a scheduled basis, but may be triggered by failed exercise or failed recovery.</li><li>Audits may be carried out internally, or by third parties. The output of the audit may identify a need to implement new or updated controls or adjust service continuity policy or plans.</li></ul></td></tr></tbody></table>
+<table><colgroup data-width="595"><col><col></colgroup><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>Performing exercises</p></td><td><ul><li>Exercises should be conducted at planned intervals and when significant changes may impact recovery. The higher the possible impact of a service outage is, the higher the frequency of exercising should be.</li><li>Exercising and testing are not only ways of ensuring readiness; they are also improvement opportunities. It is generally a good idea to analyze the results of testing and the overall recovery team performance, then produce exercise reports that include outcomes and recommendations.</li><li>Exercise reports might include requirements for new or updated existing controls or request for change of service continuity plan.</li><li>If exercise is failed, the schedule of following exercises is updated in order to re-perform the failed exercise as soon as possible.</li></ul></td></tr><tr><td><p>Service continuity audit</p></td><td><ul><li>Service continuity audits ensure that BIA, service continuity strategies and plans remain appropriate and relevant as the environment changes. Audits are usually carried out on a scheduled basis, but may be triggered by failed exercise or failed recovery.</li><li>Audits may be carried out internally, or by third parties. The output of the audit may identify a need to implement new or updated controls or adjust service continuity policy or plans.</li></ul></td></tr></tbody></table>
 
 ### **3.2.5 Response and recovery**
 

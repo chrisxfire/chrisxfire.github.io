@@ -1,5 +1,5 @@
 ---
-title: "Strategy management: ITIL 4 Practice Guide"
+title: "Strategy management"
 date: 2023-10-21T00:00:00-06:00
 draft: true
 weight: 1

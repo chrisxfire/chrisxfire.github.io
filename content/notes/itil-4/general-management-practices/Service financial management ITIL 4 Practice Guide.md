@@ -1,5 +1,5 @@
 ---
-title: "Service financial management: ITIL 4 Practice Guide"
+title: "Service financial management"
 date: 2023-10-21T00:00:00-06:00
 draft: true
 weight: 1
@@ -226,7 +226,7 @@ To achieve this, it is recommended to start planning the service financial manag
 
 ### Table 2.2 Defining a service financial management approach with the ITIL guiding principles
 
-<table><tbody><tr><td><p><strong>ITIL guiding principles</strong></p></td><td><p><strong>Application to the service financial management practice</strong></p></td></tr><tr><td>Start where you are</td><td>Start by identifying stakeholders and their needs. Do not spend resources n features that do not bring any benefits.</td></tr><tr><td><p>Focus on value</p></td><td><p>Analyse currently available information, tools, and procedures. Consider optimising and integrating them before investing resources in a new solution.</p></td></tr><tr><td><p>Progress iteratively with feedback</p></td><td><p>Expand the scope and details of the practice iteratively, with regular and careful consideration of the feedback. The practice has many interconnected parts (for example, budgeting depends on the cost model), so ensure that the first iterations are good enough to continue.</p></td></tr><tr><td><p>Collaborate and promote visibility</p></td><td><p>The quality of the cost data depends on the understanding and readiness to cooperate across the organization. Explain, promote, and engage people to ensure that cost data is accurate, timely, and relevant. Demonstrate the benefits of good service financial management to the stakeholders.</p></td></tr><tr><td><p>Think and work holistically</p></td><td><p>Ensure a holistic understanding of the costs of products and services, considering all types of resources and costs. Do not limit cost and budget models to the data that is easy to get and allocate. At the same time, do not overcomplicate the models.</p></td></tr><tr><td><p>Keep it simple and practical</p></td><td><p>The practice and its models and reports should be as simple and practical as possible. Verify this with the stakeholders; ensure there is no unnecessary data in the reports. Reports should be tailored for the needs of the decision-makers.</p></td></tr><tr><td><p>Optimize and automate</p></td><td><p>Optimize resource-consuming procedures, especially the collection and processing of cost data (particularly related to people’s costs). Where reasonable, automate data collection, processing, and reporting.</p></td></tr></tbody></table>
+<table><tbody><tr><td><p><strong>ITIL guiding principles</strong></p></td><td><p><strong>Application to the service financial management practice</strong></p></td></tr><tr><td>Start where you are</td><td>Start by identifying stakeholders and their needs. Do not spend resources n features that do not bring any benefits.</td></tr><tr><td><p>Focus on value</p></td><td><p>analyze currently available information, tools, and procedures. Consider optimising and integrating them before investing resources in a new solution.</p></td></tr><tr><td><p>Progress iteratively with feedback</p></td><td><p>Expand the scope and details of the practice iteratively, with regular and careful consideration of the feedback. The practice has many interconnected parts (for example, budgeting depends on the cost model), so ensure that the first iterations are good enough to continue.</p></td></tr><tr><td><p>Collaborate and promote visibility</p></td><td><p>The quality of the cost data depends on the understanding and readiness to cooperate across the organization. Explain, promote, and engage people to ensure that cost data is accurate, timely, and relevant. Demonstrate the benefits of good service financial management to the stakeholders.</p></td></tr><tr><td><p>Think and work holistically</p></td><td><p>Ensure a holistic understanding of the costs of products and services, considering all types of resources and costs. Do not limit cost and budget models to the data that is easy to get and allocate. At the same time, do not overcomplicate the models.</p></td></tr><tr><td><p>Keep it simple and practical</p></td><td><p>The practice and its models and reports should be as simple and practical as possible. Verify this with the stakeholders; ensure there is no unnecessary data in the reports. Reports should be tailored for the needs of the decision-makers.</p></td></tr><tr><td><p>Optimize and automate</p></td><td><p>Optimize resource-consuming procedures, especially the collection and processing of cost data (particularly related to people’s costs). Where reasonable, automate data collection, processing, and reporting.</p></td></tr></tbody></table>
 
 By following these principles, an effective service financial management approach can be created and maintained.
 
@@ -293,7 +293,7 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 ### Table 3.1 Inputs, activities, and outputs of the managing the organization’s approach to service financial management process
 
-<table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Organizational architectures</li><li>Stakeholder requirements</li><li>Organizational structure</li><li>Organization’s portfolios</li><li>Organization’s service catalogue</li><li>IT asset data</li><li>Service configuration data</li><li>Contracts and agreements with suppliers and service consumers</li><li>Organization’s financial management and accounting policies, approaches and data</li></ul></td><td><ul><li>Analyse stakeholder requirements</li><li>Define and agree the service financial management approach</li><li>Communicate and integrate the service financial management approach into the organization's value streams</li><li>Review and adjust the service financial management approach and procedures</li></ul></td><td><ul><li>Service financial management approach</li><li>Cost and budget models</li><li>Service financial management communications and knowledge management materials</li><li>Requests for changes and implementation initiatives</li><li>Service financial management approach performance reports</li></ul></td></tr></tbody></table>
+<table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Organizational architectures</li><li>Stakeholder requirements</li><li>Organizational structure</li><li>Organization’s portfolios</li><li>Organization’s service catalogue</li><li>IT asset data</li><li>Service configuration data</li><li>Contracts and agreements with suppliers and service consumers</li><li>Organization’s financial management and accounting policies, approaches and data</li></ul></td><td><ul><li>analyze stakeholder requirements</li><li>Define and agree the service financial management approach</li><li>Communicate and integrate the service financial management approach into the organization's value streams</li><li>Review and adjust the service financial management approach and procedures</li></ul></td><td><ul><li>Service financial management approach</li><li>Cost and budget models</li><li>Service financial management communications and knowledge management materials</li><li>Requests for changes and implementation initiatives</li><li>Service financial management approach performance reports</li></ul></td></tr></tbody></table>
 
 Figure 3.2 shows a workflow diagram of the process.
 
@@ -318,19 +318,19 @@ Figure 3.2 shows a workflow diagram of the process.
 | --- | --- | --- |
 | 
 
-Analyse stakeholder requirements
+analyze stakeholder requirements
 
  | 
 
 * The IT leadership team identifies the stakeholders who are interested in service financial management information about digital products and services.
-* The team gathers and analyses the stakeholder requirements. The IT service provider’s executive leader (such as the CIO or IT director) decides whether the approach should be developed further.
+* The team gathers and analyzes the stakeholder requirements. The IT service provider’s executive leader (such as the CIO or IT director) decides whether the approach should be developed further.
 * If they decide to proceed, the leader forms a team to develop and implement the approach (or amendments to the existing approach).
 * Typically, the team includes digital product and service managers and architects. It may be consulted by financial managers from the parent organization and/or external consultants.
 
  | 
 
 * The organization’s executive leadership team identifies the stakeholders who are interested in service financial management information about the organization’s digital products and services.
-* The team gathers and analyses the stakeholder’s requirements. The executive leaders (including the CEO, CFO, and CPO) decide whether to develop the approach further.
+* The team gathers and analyzes the stakeholder’s requirements. The executive leaders (including the CEO, CFO, and CPO) decide whether to develop the approach further.
 * If they decide to proceed, the leaders form a team to develop and implement the approach (or amendments to the existing approach).
 * Typically, the team includes product and service managers, architects, and financial management specialists. External consultants may be involved to consult the team.
 
@@ -391,7 +391,7 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 ### Table 3.3 Inputs, activities, and outputs of the financial planning process
 
-<table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Service financial management approach</li><li>Previous and current plans, budgets, agreements, and contracts</li><li>Other relevant performance and financial data</li><li>Records of financial transactions</li></ul></td><td><ul><li>Analyse the previous and current plans and performance</li><li>Estimate costs and income</li><li>Compile the budgets</li><li>Communicate and agree the budgets</li><li>Monitor and control costs and income</li><li>Review and report on the budget</li></ul></td><td><ul><li>Budgets</li><li>Ongoing and periodic budget execution reports</li><li>Spending decisions assessments and/or approvals</li><li>Budget review reports</li></ul></td></tr></tbody></table>
+<table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Service financial management approach</li><li>Previous and current plans, budgets, agreements, and contracts</li><li>Other relevant performance and financial data</li><li>Records of financial transactions</li></ul></td><td><ul><li>analyze the previous and current plans and performance</li><li>Estimate costs and income</li><li>Compile the budgets</li><li>Communicate and agree the budgets</li><li>Monitor and control costs and income</li><li>Review and report on the budget</li></ul></td><td><ul><li>Budgets</li><li>Ongoing and periodic budget execution reports</li><li>Spending decisions assessments and/or approvals</li><li>Budget review reports</li></ul></td></tr></tbody></table>
 
 Figure 3.3 shows a workflow diagram of the process.
 
@@ -401,7 +401,7 @@ Figure 3.3 shows a workflow diagram of the process.
 
 ### Table 3.4 Activities of the financial planning process
 
-<table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Example</strong></p></td></tr><tr><td><p>Analyse the previous and current plans and performance</p></td><td><p>The service financial team analyses available service financial information, including:</p><p>current and previous business plans and performance reports</p><ul><li>current and previous budgets and budget review reports</li><li>financial records</li><li>product and service performance reports and capacity forecasts</li><li>supplier performance reports and current and planned contracts and agreements</li><li>service performance reports and current and future SLAs</li><li>other relevant information.</li></ul><p>The resulting analysis is used for cost and income estimation.</p></td></tr><tr><td><p>Estimate costs and income</p></td><td><ul><li>Based on the analysis, the service financial team (or its dedicated budgeting subset) estimates costs and income for the planned initiatives and/or period of operations.</li><li>Income estimates may include charging recommendations.</li><li>Relevant teams may be involved to make, review, or confirm estimates.</li></ul></td></tr><tr><td><p>Compile the budgets</p></td><td><p>The team aggregate estimates into budgets following the agreed budget model.</p></td></tr><tr><td><p>Communicate and agree the budgets</p></td><td><ul><li>The resulting budgets are submitted to the appropriate authorities and stakeholders. They discuss and approve the budgets. If not approved, the budgets are returned to the estimation step with comments and recommendations.</li><li>Approved budgets are communicated to the relevant teams for execution.</li><li>Where applicable, charging guidelines are also discussed, approved or not, and either returned for re-estimation or communicated further for execution.</li></ul></td></tr><tr><td><p>Monitor and control costs and income</p></td><td><ul><li>The service financial manager(s) and budget holders monitor how the budgets are being executed.</li><li>In accordance with the agreed service financial management approach, they or other agreed authorities authorize requests for spending.</li><li>The service financial manager(s) or other agreed authorities may also adjust the budgets within agreed tolerances by approving off-budget spending or pricing.</li><li>The service financial manager(s) escalate risks and cases of going off-budget outside of the agreed tolerances (as defined by the service financial management approach and/or by the budget document) to the authorities.</li></ul></td></tr><tr><td><p>Review and report on the budget</p></td><td><p>In case of significant deviations from the agreed budgets, the service financial management team (or its dedicated budgeting subset) reviews the affected budgets and initiates a new planning cycle. This is also performed at the end of the budgeted initiatives and periods and on a regular basis: every few weeks to few months, depending on the volatility of the related environment and the performance of the agreed budgets.</p></td></tr></tbody></table>
+<table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Example</strong></p></td></tr><tr><td><p>analyze the previous and current plans and performance</p></td><td><p>The service financial team analyzes available service financial information, including:</p><p>current and previous business plans and performance reports</p><ul><li>current and previous budgets and budget review reports</li><li>financial records</li><li>product and service performance reports and capacity forecasts</li><li>supplier performance reports and current and planned contracts and agreements</li><li>service performance reports and current and future SLAs</li><li>other relevant information.</li></ul><p>The resulting analysis is used for cost and income estimation.</p></td></tr><tr><td><p>Estimate costs and income</p></td><td><ul><li>Based on the analysis, the service financial team (or its dedicated budgeting subset) estimates costs and income for the planned initiatives and/or period of operations.</li><li>Income estimates may include charging recommendations.</li><li>Relevant teams may be involved to make, review, or confirm estimates.</li></ul></td></tr><tr><td><p>Compile the budgets</p></td><td><p>The team aggregate estimates into budgets following the agreed budget model.</p></td></tr><tr><td><p>Communicate and agree the budgets</p></td><td><ul><li>The resulting budgets are submitted to the appropriate authorities and stakeholders. They discuss and approve the budgets. If not approved, the budgets are returned to the estimation step with comments and recommendations.</li><li>Approved budgets are communicated to the relevant teams for execution.</li><li>Where applicable, charging guidelines are also discussed, approved or not, and either returned for re-estimation or communicated further for execution.</li></ul></td></tr><tr><td><p>Monitor and control costs and income</p></td><td><ul><li>The service financial manager(s) and budget holders monitor how the budgets are being executed.</li><li>In accordance with the agreed service financial management approach, they or other agreed authorities authorize requests for spending.</li><li>The service financial manager(s) or other agreed authorities may also adjust the budgets within agreed tolerances by approving off-budget spending or pricing.</li><li>The service financial manager(s) escalate risks and cases of going off-budget outside of the agreed tolerances (as defined by the service financial management approach and/or by the budget document) to the authorities.</li></ul></td></tr><tr><td><p>Review and report on the budget</p></td><td><p>In case of significant deviations from the agreed budgets, the service financial management team (or its dedicated budgeting subset) reviews the affected budgets and initiates a new planning cycle. This is also performed at the end of the budgeted initiatives and periods and on a regular basis: every few weeks to few months, depending on the volatility of the related environment and the performance of the agreed budgets.</p></td></tr></tbody></table>
 
 ### 3.2.3 Management accounting
 
@@ -463,7 +463,7 @@ Examples of other roles which can be involved in service financial management ac
  |
 | 
 
-Analyse stakeholder requirements
+analyze stakeholder requirements
 
  | 
 
@@ -563,7 +563,7 @@ Good understanding of the stakeholder needs
  |
 | 
 
-Analyse the previous and current plans and performance
+analyze the previous and current plans and performance
 
  | 
 
@@ -872,7 +872,7 @@ The service financial management practice is not usually perceived as highly aut
  |
 | 
 
-Analyse stakeholder requirements
+analyze stakeholder requirements
 
  | 
 
@@ -958,7 +958,7 @@ High
  |
 | 
 
-Analyse the previous and current plans and performance
+analyze the previous and current plans and performance
 
  | 
 

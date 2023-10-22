@@ -570,7 +570,7 @@ Metrics are usually presented as reports or dashboards, which are intended to su
 The content, structure, and representation of information in reports directly impact the efficiency of decision-making. To support the decision-making process, reports should include not only the measured data, but also the result of processing, and sometimes data analysis, including:
 * targets vs actual values, to detect deviations from and assessment of the current state
 * KPI behavior over time, to identify trends and dynamics
-* comparing and correlating KPIs, to analyse trends and identify bottlenecks.
+* comparing and correlating KPIs, to analyze trends and identify bottlenecks.
 
 The key inputs and outputs of the practice are listed in section 3.
 

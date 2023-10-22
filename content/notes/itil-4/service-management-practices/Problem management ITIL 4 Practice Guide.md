@@ -1,5 +1,5 @@
 ---
-title: "Problem management: ITIL 4 Practice Guide"
+title: "Problem management"
 date: 2023-10-21T00:00:00-06:00
 draft: true
 weight: 1
@@ -15,7 +15,7 @@ No product or service is perfect. Every product has errors which can cause incid
 
 The increasing complexity of the business and technology environment adds to uncertainty. As more combinations of digital and business products, services, and workflows are created, there is a greater chance of these leading to incidents, despite each individual element being well-known, thoroughly tested, and safe-to-fail.
 
-The problem management practice is adopted and developed by service providers to ensure that errors in the live environment are identified, analysed, and, where required and possible, removed or fixed.
+The problem management practice is adopted and developed by service providers to ensure that errors in the live environment are identified, analyzed, and, where required and possible, removed or fixed.
 
 This practice is beneficial for both IT service providers and their service consumers. Benefits for service providers include:
 * increased reliability of IT services
@@ -139,11 +139,11 @@ Note that workarounds for incidents derived from problem analysis usually do not
 
 Problems that have not been dismissed at the problem control phase are assigned the status of ‘known error’.
 
-<table><tbody><tr><td><strong>Definition: Known error</strong></td></tr><tr><td>A problem that has been analysed but has not been resolved.</td></tr></tbody></table>
+<table><tbody><tr><td><strong>Definition: Known error</strong></td></tr><tr><td>A problem that has been analyzed but has not been resolved.</td></tr></tbody></table>
 
 #### 2.2.3 Error control
 
-When a problem has been analysed (meaning the errors in the products have been localized and their impact on services has been assessed), it should be continually managed until resolved or closed without resolution.
+When a problem has been analyzed (meaning the errors in the products have been localized and their impact on services has been assessed), it should be continually managed until resolved or closed without resolution.
 
 Problem records may be closed only if one of the following conditions is met:
 * The problem is solved: the risk of incidents associated with the problem is removed or decreased to an acceptable level.
@@ -375,7 +375,7 @@ It is important to remember that the concept of a single root cause has a very l
 
 #### 3.1.4 Error control  
 
-This process focuses on the monitoring and control of the status of the known errors (problems that are analysed but not resolved) and their resolution. It helps to ensure that the negative impacts of the known errors on services are understood and minimized; the solutions for related incidents are effective; and the mitigation approach for the known error is valid, effective, and efficient.
+This process focuses on the monitoring and control of the status of the known errors (problems that are analyzed but not resolved) and their resolution. It helps to ensure that the negative impacts of the known errors on services are understood and minimized; the solutions for related incidents are effective; and the mitigation approach for the known error is valid, effective, and efficient.
 
 This process includes the activities shown in Table 3.8 and transforms the inputs into outputs.
 
@@ -401,7 +401,7 @@ To perform certain tasks or respond to particular situations, organizations crea
 
 <table><tbody><tr><td><strong>Definition: Value stream</strong></td></tr><tr><td>A series of steps an organization undertakes to create and deliver products and services to consumers.</td></tr></tbody></table>
 
-In practice, however, many organizations come to use of the value stream concept after having worked for a while (sometimes for years) without the value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the ‘As Is’ situation, the de-facto flows of work, and to analyse them in order to identify and eliminate the non-value-adding activities and other forms of waste.
+In practice, however, many organizations come to use of the value stream concept after having worked for a while (sometimes for years) without the value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the ‘As Is’ situation, the de-facto flows of work, and to analyze them in order to identify and eliminate the non-value-adding activities and other forms of waste.
 
 Identifying and understanding the existing value streams is critical to improving organization’s performance. Structuring the organization’s activities in the form of value streams allows it to have a clear picture of what it delivers and how, and to make continual improvements to its services.
 

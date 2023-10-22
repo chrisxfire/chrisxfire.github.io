@@ -11,7 +11,7 @@ As Network Support Specialist, you will be responsible for designing, installing
 
 The role involves performing data backups, troubleshooting any problems with the hardware, software, networks and systems, replacing equipment and components when necessary, and assisting with disaster recovery operations.
 
-A key part of your role will be to ensure network availability to all users. You will monitor and analyse the performance and speed of the network and make sure that it is meeting the needs of the users.
+A key part of your role will be to ensure network availability to all users. You will monitor and analyze the performance and speed of the network and make sure that it is meeting the needs of the users.
 
 You will also assist with research and recommending policies and strategies for the organization’s network infrastructure, and be involved in developing and distributing networking best practice recommendations across the organization.
 

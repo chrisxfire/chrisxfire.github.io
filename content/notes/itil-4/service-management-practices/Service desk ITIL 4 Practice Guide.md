@@ -1,5 +1,5 @@
 ---
-title: "Service desk: ITIL 4 Practice Guide"
+title: "Service desk"
 date: 2023-10-21T00:00:00-06:00
 draft: true
 weight: 1
@@ -257,7 +257,7 @@ To perform certain tasks or respond to specific situations, organizations create
 
 <table><tbody><tr><td><strong>Definition: Value stream</strong></td></tr><tr><td>A series of steps an organization undertakes to create and deliver products and services to consumers.</td></tr></tbody></table>
 
-In practice, however, many organizations come to use of the value stream concept after having worked for a while, sometimes for years, without the value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the ‘As Is’ situation, the real flows of work, and to analyse them in order to identify and eliminate the non-value-adding activities and other forms of waste.
+In practice, however, many organizations come to use of the value stream concept after having worked for a while, sometimes for years, without the value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the ‘As Is’ situation, the real flows of work, and to analyze them in order to identify and eliminate the non-value-adding activities and other forms of waste.
 
 Identifying and understanding the existing value streams is critical to improving organization’s performance. Structuring the organization’s activities in the form of value streams allows it to have a clear picture of what it delivers and how, and to make continual improvements to its services.
 

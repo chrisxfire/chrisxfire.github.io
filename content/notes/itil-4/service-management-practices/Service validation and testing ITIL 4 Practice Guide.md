@@ -1,5 +1,5 @@
 ---
-title: "Service validation and testing: ITIL 4 Practice Guide"
+title: "Service validation and testing"
 date: 2023-10-21T00:00:00-06:00
 draft: true
 weight: 1
@@ -314,7 +314,7 @@ It may be useful to express the impact of defects in terms of test cases.
 
 **Example:**
 
-The next release of the latest sales order processing system has been analysed by the test team. Analysis of the PEs and focus areas has been completed. 172 test cases have been identified to cover the PEs, but the standard regression pack of 150 test cases and any additional 60 regression tests due to the nature of the PEs has been scoped, giving a total regression pack size of 210 test cases. In this example, regression tests are run manually.
+The next release of the latest sales order processing system has been analyzed by the test team. Analysis of the PEs and focus areas has been completed. 172 test cases have been identified to cover the PEs, but the standard regression pack of 150 test cases and any additional 60 regression tests due to the nature of the PEs has been scoped, giving a total regression pack size of 210 test cases. In this example, regression tests are run manually.
 
 At test planning, it is assumed that 20% of all PEs (34) and 10% of regression tests (21) will result in a defect.
 

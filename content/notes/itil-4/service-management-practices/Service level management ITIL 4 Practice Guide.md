@@ -1,5 +1,5 @@
 ---
-title: "Service level management: ITIL 4 Practice Guide"
+title: "Service level management"
 date: 2023-10-21T00:00:00-06:00
 draft: true
 weight: 1
@@ -108,7 +108,7 @@ Usually, the scope of the service quality being discussed is narrowed with every
 * Finally, after the service provider creates a description of a service level that can be delivered with the required level of assurance and liability, the scope becomes even narrower (Figure 2.2).
 
 For out-of-the-box services, available service levels are usually pre-defined by the service provider based on a mixture of market and business intelligence. For example:
-* Consumer needs are explored and analysed by the marketing and business analysis teams of the service provider. These are likely to be different from the needs of any single given consumer.
+* Consumer needs are explored and analyzed by the marketing and business analysis teams of the service provider. These are likely to be different from the needs of any single given consumer.
 * The service provider’s architects and designers create a service and supporting service quality specification, based on assumptions made about the consumer’s needs. This does not usually meet all of the captured needs of the consumer.
 * Some of the characteristics of the specification are then announced to potential consumers as service offerings (sometimes with different service levels, such as gold, silver, bronze, and so on.)
 
@@ -147,7 +147,7 @@ When a shared understanding of the target service level is established, and actu
 * **User satisfaction with the service** Based on impromptu feedback, transaction-based feedback and periodic surveys.
 * **Customer satisfaction with the service** Based on periodic discussions, surveys, or real-time scanning of the customer sentiment on social media.
 
-Data from these sources should be collected, stored, analysed, and the resulting information reported to relevant stakeholders on both the provider’s and consumer’s sides. These may include (but are not limited to):
+Data from these sources should be collected, stored, analyzed, and the resulting information reported to relevant stakeholders on both the provider’s and consumer’s sides. These may include (but are not limited to):
 * Consumer stakeholders:  
     sponsors  
     customers  
@@ -252,7 +252,7 @@ This process may vary, depending on the type of service or service relationship 
 
 This process is focused on the monitoring and review of the service levels and service quality, rather than the SLA documents. SLAs are used extensively in this process, depending on the quality and completeness of the agreed service level information. In some cases, however, agreements are high level and vague, and service quality is monitored and assessed based on data that is less structured and less objective.
 
-Whichever way the process is carried out, the service provider needs to monitor and analyse both the measured service level data and feedback from users and customers to better understand service quality.
+Whichever way the process is carried out, the service provider needs to monitor and analyze both the measured service level data and feedback from users and customers to better understand service quality.
 
 This process includes the activities listed in Table 3.3 and transforms the inputs into outputs.
 

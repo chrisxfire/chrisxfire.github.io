@@ -21,7 +21,7 @@ You will be skilled in applying best practice processes such as ITIL to ensure a
 
 * Implement and manage IT services using the principles and methods associated with industry best practices (e.g. ITIL)
 * Manage the provision of the service desk and problem resolution
-* Monitor and analyse performance, problem trends and client feedback reports
+* Monitor and analyze performance, problem trends and client feedback reports
 * Build a network of experts
 * Develop service level agreement (SLA) templates and negotiate complex SLAs
 * Track problems, acting as a point of escalation for user of IT infrastructure services

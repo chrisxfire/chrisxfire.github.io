@@ -1,5 +1,5 @@
 ---
-title: "Continual improvement: ITIL 4 Practice Guide"
+title: "Continual improvement"
 date: 2023-10-21T00:00:00-06:00
 draft: true
 weight: 1
@@ -52,7 +52,7 @@ Well-constructed feedback mechanisms facilitate an understanding of:
 * the effectiveness of service governance as well as management controls
 * the interfaces between the organization and its partner and supplier network
 * the demand for products and services.
-* Once received, feedback can be analysed to identify and validate improvement opportunities, risks, or issues.
+* Once received, feedback can be analyzed to identify and validate improvement opportunities, risks, or issues.
 
 ### 2.2.1 Involving service consumers
 

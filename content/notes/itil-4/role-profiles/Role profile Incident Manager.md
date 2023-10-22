@@ -23,7 +23,7 @@ Alongside this you will also be responsible for providing Command and Control du
 * Direct support resources to where they are most required
 * Escalate lack of progress with incidents.
 * Establish policies, system and procedures and monitor compliance with these
-* Analyse and report trends in incidents and contribute to the service improvement roadmap.
+* analyze and report trends in incidents and contribute to the service improvement roadmap.
 
 # 2. Skills and qualifications
 

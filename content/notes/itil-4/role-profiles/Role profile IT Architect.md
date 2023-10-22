@@ -13,7 +13,7 @@ This profile describes the roles and responsibilities of an IT Architect, Soluti
 
 As an IT Architect, you will be responsible for developing, maintaining and governing the ICT solutions across the organization, and for making sure they meet the current and emerging needs of the business.
 
-You will use your technical expertise to analyse the organization’s current systems and to develop recommendations that reduce costs or increase productivity. You will need to be a skilled change agent who is able to evaluate new technologies and to work closely in consultation with key stakeholders in the organization to lead the move towards them.
+You will use your technical expertise to analyze the organization’s current systems and to develop recommendations that reduce costs or increase productivity. You will need to be a skilled change agent who is able to evaluate new technologies and to work closely in consultation with key stakeholders in the organization to lead the move towards them.
 
 **1.2 JOB RESPONSIBILITIES**
 
