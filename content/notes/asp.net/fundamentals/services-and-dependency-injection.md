@@ -8,7 +8,7 @@ weight: 1
 # Dependency Injection
 > Documentation: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0
 
-See notes on [Dependency Injection in .NET](../../_net/dependency-injection/overview.md).
+See notes on [Dependency Injection in .NET](../../_net/dependency-injection/overview).
 
 Makes configured services available throughout an app. ASP.NET Core templates automatically register over 250 services including:
 - `IApplicationBuilderFactory`
