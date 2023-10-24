@@ -418,7 +418,7 @@ This process includes the activities listed in Table 3.5 and transforms the inpu
 
 Figure 3.4 shows a workflow diagram of the process.
 
-![](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_3.4_Workflow_of_the_developing_and_maintaining_service_continuity_plans_process.png)
+![](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_3.4.jpg)
 
 **Figure 3.4 Workflow of the developing and maintaining service continuity plans process**
 
