@@ -76,34 +76,36 @@ Don't throw or derive from:
 - `SystemException`
 
 # Create a Custom Exception
+> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/exceptions/how-to-create-user-defined-exceptions
+
 Custom exception classes can be created.  They should have at least 4 constructors:
 ```cs
 class CustomException : Exception {
 	public CustomException() : base() { }
 	
-	This constructor sets the message property only:
+	// This constructor sets the message property only:
 	public CustomException(string message) : base(message) { }
 	
-	This constructor sets the message property and InnerException:
+	// This constructor sets the message property and InnerException:
 	public CustomException(string message, Exception inner) : base(message, inner) { }
 	
-	This constructor creates serialization, which is needed when an exception propagates from a remote server to the client:
-	CustomException(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context) : base(info, context) { }
+	// This constructor creates serialization, which is needed when an exception propagates from a remote server to the client:
+	public CustomException(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context) : base(info, context) { }
 }
 
 throw new CustomException("Exception message");
 ```
 
-## Common Exception Classes
-| Exception | Description |
-|-----------|-------------|
-`ArithmeticException`	| A base class for exceptions that occur during arithmetic operations, such as DivideByZeroException and OverflowException.
-`ArrayTypeMismatchException` | Thrown when an array can't store a given element because the actual type of the element is incompatible with the actual type of the array.
-`DivideByZeroException` | Thrown when an attempt is made to divide an integral value by zero.
-`IndexOutOfRangeException` | Thrown when an attempt is made to index an array when the index is less than zero or outside the bounds of the array.
-`InvalidCastException` | Thrown when an explicit conversion from a base type to an interface or to a derived type fails at run time.
-`NullReferenceException` | Thrown when an attempt is made to reference an object whose value is null.
-`OutOfMemoryException` | Thrown when an attempt to allocate memory using the new operator fails. This exception indicates that the memory available to the common language runtime has been exhausted.
-`OverflowException` | Thrown when an arithmetic operation in a checked context overflows.
-`StackOverflowException` | Thrown when the execution stack is exhausted by having too many pending method calls; usually indicates a very deep or infinite recursion.
-`TypeInitializationException` | Thrown when a static constructor throws an exception and no compatible catch clause exists to catch it.
+# Common Exception Classes
+| Exception                     | Description                                                                                                                                                                   |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ArithmeticException`         | A base class for exceptions that occur during arithmetic operations, such as DivideByZeroException and OverflowException.                                                     |
+| `ArrayTypeMismatchException`  | Thrown when an array can't store a given element because the actual type of the element is incompatible with the actual type of the array.                                    |
+| `DivideByZeroException`       | Thrown when an attempt is made to divide an integral value by zero.                                                                                                           |
+| `IndexOutOfRangeException`    | Thrown when an attempt is made to index an array when the index is less than zero or outside the bounds of the array.                                                         |
+| `InvalidCastException`        | Thrown when an explicit conversion from a base type to an interface or to a derived type fails at run time.                                                                   |
+| `NullReferenceException`      | Thrown when an attempt is made to reference an object whose value is null.                                                                                                    |
+| `OutOfMemoryException`        | Thrown when an attempt to allocate memory using the new operator fails. This exception indicates that the memory available to the common language runtime has been exhausted. |
+| `OverflowException`           | Thrown when an arithmetic operation in a checked context overflows.                                                                                                           |
+| `StackOverflowException`      | Thrown when the execution stack is exhausted by having too many pending method calls; usually indicates a very deep or infinite recursion.                                    |
+| `TypeInitializationException` | Thrown when a static constructor throws an exception and no compatible catch clause exists to catch it.                                                                       |
