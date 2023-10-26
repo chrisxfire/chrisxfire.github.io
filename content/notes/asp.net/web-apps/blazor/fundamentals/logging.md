@@ -116,7 +116,7 @@ await host.RunAsync();
 ```
 
 ## Logging Categories
-See [these notes](../../../../_net/fundamentals/logging/overview.md#categories).  
+See [these notes](../../../../_net/fundamentals/logging/overview#categories).  
 `Pages/Counter.razor`
 ```cs
 var logger = LoggerFactory.CreateLogger("CustomCategory");
@@ -124,7 +124,7 @@ logger.LogWarning("Someone has clicked me!");
 ```
 
 ## Logging Event ID
-See [these notes](../../../../_net/fundamentals/logging/overview.md#event-ids).  
+See [these notes](../../../../_net/fundamentals/logging/overview#event-ids).  
 `LogEvent.cs`
 ```cs
 public class LogEvent
@@ -141,14 +141,14 @@ logger.LogWarning(LogEvent.Event2, "Someone has clicked me!");
 ```
 
 ## Logging Message Templates
-See [these notes](../../../../_net/fundamentals/logging/overview.md#message-templates).  
+See [these notes](../../../../_net/fundamentals/logging/overview#message-templates).  
 `Pages/Counter.razor`
 ```cs
 logger.LogInformation("Someone clicked me at {CurrentDT}!", DateTime.UtcNow);
 ```
 
 ## Logging Exception Parameters
-See [these notes](../../../../_net/fundamentals/logging/overview.md#exceptions).  
+See [these notes](../../../../_net/fundamentals/logging/overview#exceptions).  
 `Pages/Counter.razor`
 ```cs
 currentCount++;
@@ -168,7 +168,7 @@ catch (Exception ex)
 ```
 
 ## Filter Functions
-See [these notes](../../../../_net/fundamentals/logging/overview.md#filters).  
+See [these notes](../../../../_net/fundamentals/logging/overview#filters).  
 `Program.cs`
 ```cs
 builder.Logging.AddFilter((provider, category, logLevel) =>

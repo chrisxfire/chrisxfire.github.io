@@ -127,9 +127,9 @@ Blazor PWA apps automatically try to update themselves in the background.  Here'
   - Block users from using incompatible older versions of the app.   Use [ServiceWorkerRegistration](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration) to determine whether the app is up to date and, if not, prevent usage until it is.
 
 # Push Notifications
-The mechanism for sending push notifications is implemented in the backend server.  For an example, [see here](https://github.com/dotnet-presentations/blazor-workshop/blob/main/docs/09-progressive-web-app.md#sending-push-notifications).  
+The mechanism for sending push notifications is implemented in the backend server.  For an example, [see here](https://github.com/dotnet-presentations/blazor-workshop/blob/main/docs/09-progressive-web-app#sending-push-notifications).  
 
-The mechanism for receiving a push notification is implemented in the service worker file.  For an example, [see here](https://github.com/dotnet-presentations/blazor-workshop/blob/main/docs/09-progressive-web-app.md#displaying-notifications).
+The mechanism for receiving a push notification is implemented in the service worker file.  For an example, [see here](https://github.com/dotnet-presentations/blazor-workshop/blob/main/docs/09-progressive-web-app#displaying-notifications).
 
 # [Authentication](https://learn.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-7.0&tabs=visual-studio#interaction-with-authentication)
 The PWA template supports authentication.  To implement authentication in an offline PWA:
