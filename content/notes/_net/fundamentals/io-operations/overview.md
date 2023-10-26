@@ -26,7 +26,7 @@ The `System.IO` namespace contains types to:
 | `DirectoryInfo` | instance                   | For manipulating directories                          |
 | `Path`          | both                       | For manipulating paths                                |
 
-See [Notes on File IO](./file-io).
+See [Notes on File IO](../file-io).
 
 # Overview of Types for Streams
 | Type                        | Use                                                   |
@@ -39,7 +39,7 @@ See [Notes on File IO](./file-io).
 | `PipeStream`                | Reading/writing over anonymous and named pipes        |
 | `CryptoStream`              | Linking data streams to cryptographic transformations |
 
-See [Notes on Streams](./streams).
+See [Notes on Streams](../streams).
 
 # Overview of Types for Compression
 From the `System.IO.Compression` namespace:
@@ -52,7 +52,7 @@ From the `System.IO.Compression` namespace:
 | `DeflateStream`     | Compressing and decompressing streams using the Deflate algorithm |
 | `GZipStream`        | Compressing and decompressing streams using the gzip data format  |
 
-See [Notes on Compression and Decompression](./file-io#compression-and-decompression)
+See [Notes on Compression and Decompression](../file-io#compression-and-decompression)
 
 # Convenience vs. Control
 Many of the APIs in the `System.IO` namespace can be placed on a spectrum of *convenience* vs *control*. 

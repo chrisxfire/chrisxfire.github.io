@@ -16,7 +16,7 @@ These notes are for `System.Text.Json`.
 
 There are two approaches for serializing and deserializing with `System.Text.Json`:
 1. Using `JsonSerializer`
-   * See [notes](./jsonserializer.md).
+   * See [notes](../jsonserializer.md).
 2. Using the JSON DOM
    * Use the DOM when you receive JSON that doesn't have a fixed schema and must be inspected to know what it contains.  
    * Two JSON DOM approaches:  

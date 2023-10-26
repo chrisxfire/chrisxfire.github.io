@@ -52,7 +52,7 @@ Calling `StateHasChanged` allows you to trigger a render at any time.
 
 You need not call `StateHasChanged` when:
 - Routinely handling events (`ComponentBase` triggers a render for most routine event handlers)
-- Implementing [typical lifecycle logic](./overview/) in lifecycle methods (`ComponentBase` triggers a render for typical lifecycle events) 
+- Implementing [typical lifecycle logic](../overview/) in lifecycle methods (`ComponentBase` triggers a render for typical lifecycle events) 
 
 You *may* need to call `StateHasChanged` in the following scenarios:
 

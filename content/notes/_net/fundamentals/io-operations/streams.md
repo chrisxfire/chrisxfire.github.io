@@ -19,7 +19,7 @@ Depending on a stream's underlying data source, a stream may only support some s
 This can be tested with `CanRead`, `CanWrite`, and `CanSeek` properties.
 
 # Overview of Types for Streams
-See [here](./overview#overview-of-types-for-streams).
+See [here](../overview#overview-of-types-for-streams).
 
 # Composing Streams
 > Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-6.0  
