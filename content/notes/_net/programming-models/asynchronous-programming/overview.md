@@ -122,10 +122,10 @@ These notes describe the Task Asynchronous Pattern, which is covered in more det
 
 | Model                                                               | Abbr | Language <br /> constructs                                | Notes                                                                                                                                     |
 | ------------------------------------------------------------------- | ---- | --------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Task Asynchronous Pattern <br /> Modern, easier to use              | TAP  | `async`/`await`                                           | [Notes on TAP](./task-based-asynchronous-programming-(tap)-(async-await)/overview)                                                        |
-| Asynchronous Programming Model <br /> Legacy, more difficult to use | APM  | `IAsyncResult`, `Begin`, `End`                            | [Notes on APM](./asynchronous-programming-model-(apm)-(iasyncresult)/overview) <br /> Legacy pattern; not recommended for new development |
+| Task Asynchronous Pattern <br /> Modern, easier to use              | TAP  | `async`/`await`                                           | [Notes on TAP](../task-based-asynchronous-programming/overview)                                                        |
+| Asynchronous Programming Model <br /> Legacy, more difficult to use | APM  | `IAsyncResult`, `Begin`, `End`                            | [Notes on APM](../asynchronous-programming-model/overview) <br /> Legacy pattern; not recommended for new development |
 | Event-based Asynchronous Pattern                                    | EAP  | Events, event-handler delegates, `EventArg`-derived types | Legacy pattern; not recommended for new development                                                                                       |
 
-.NET also has a parallel programming pattern: the Task Parallel Library ([Notes on TPL](../parallel-programming-(tpl)/)).
+.NET also has a parallel programming pattern: the Task Parallel Library ([Notes on TPL](../parallel-programming/)).
 
 [promise-model]: https://en.wikipedia.org/wiki/Futures_and_promises

@@ -28,7 +28,7 @@ int intResult = await returnedTaskTResult;
 # Awaiting `Task.Run` or `Task`/`Task<T>`
 - For I/O-bound code, await an operation that returns a `Task` or `Task<T>` inside an async method.
 - For CPU-bound code, await an operation that is started on a background thread with `Task.Run`.
-	- Or, consider the Task Parallel Library ([Notes on Task Parallel Library](../../parallel-programming-(tpl))).
+	- Or, consider the Task Parallel Library ([Notes on Task Parallel Library](../../parallel-programming)).
 
 TODO: 
 # Await Decision Table
