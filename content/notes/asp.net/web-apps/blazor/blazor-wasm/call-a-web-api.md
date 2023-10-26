@@ -45,7 +45,7 @@ See: https://learn.microsoft.com/en-us/aspnet/core/blazor/call-web-api?view=aspn
     ```
 
 # Using the `IHttpClientFactory`
-Instead of injecting a preconfigured `HttpClient`, `IHttpClientFactory` can be used instead, similar to [how it is used in other .NET apps](../../../../../_net/web/http/ihttpclientfactory.md).
+Instead of injecting a preconfigured `HttpClient`, `IHttpClientFactory` can be used instead, similar to [how it is used in other .NET apps](../../../../../_net/web/http/ihttpclientfactory).
 
 Both named and typed clients are supported.
 
