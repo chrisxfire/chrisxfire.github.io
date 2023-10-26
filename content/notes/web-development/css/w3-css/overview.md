@@ -6,4 +6,4 @@ weight: 1
 ---
 # Overview
 A front-end web development framework. Uses HTML and CSS (no JavaScript).  
-Compare to [Bootstrap](../../bootstrap/overview/).
+Compare to [Bootstrap](../../../bootstrap/overview/).

@@ -61,9 +61,9 @@ Each project has an *analysis mode*. This mode determines the set of analysis ru
 | `None`        | All rules disabled                                                                                                                                               |
 | `Default`     | The rules enabled in the `Default` mode are listed [here](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview?tabs=net-7#enabled-rules) |
 |               |
-| `Minimum`     | More aggressive than `Default`; listed [here](./editorconfig-templates/quality-7-minimum)                                      |
-| `Recommended` | More aggressive than `Minimum`; listed [here](./editorconfig-templates/quality-7-recommended)                                   |
-| `All`         | All rules enabled; listed [here](./editorconfig-templates/quality-7-all)                                                   |
+| `Minimum`     | More aggressive than `Default`; listed [here](../editorconfig-templates/quality-7-minimum)                                      |
+| `Recommended` | More aggressive than `Minimum`; listed [here](../editorconfig-templates/quality-7-recommended)                                   |
+| `All`         | All rules enabled; listed [here](../editorconfig-templates/quality-7-all)                                                   |
 
 In .NET 6+, you can enable a category of rules via the `<AnalysisModeCATEGORY>` MSBuild property.  [See here](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props#analysismodecategory) for more information.
 
@@ -89,7 +89,7 @@ EditorConfig files apply to specific source files or folders. This example appli
 <option_name> = <option_value>
 ```
 
-See [notes on EditorConfig](./editorconfig).
+See [notes on EditorConfig](../editorconfig).
 
 ### AnalyzerConfig
 > Documentation: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-files#global-analyzerconfig

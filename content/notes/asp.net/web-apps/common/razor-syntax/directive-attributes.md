@@ -7,7 +7,7 @@ weight: 1
 
 # Overview
 Directive attributes change the way a component element is parsed or functions.  
-These only apply to Razor components (`.razor`).  See [Components](../../blazor/components/).
+These only apply to Razor components (`.razor`).  See [Components](../../../blazor/components/).
 ```cs
 @attributes
 @bind

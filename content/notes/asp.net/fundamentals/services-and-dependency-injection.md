@@ -8,7 +8,7 @@ weight: 1
 # Dependency Injection
 > Documentation: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0
 
-See notes on [Dependency Injection in .NET](../../_net/dependency-injection/overview).
+See notes on [Dependency Injection in .NET](../../../_net/dependency-injection/overview).
 
 Makes configured services available throughout an app. ASP.NET Core templates automatically register over 250 services including:
 - `IApplicationBuilderFactory`
@@ -48,7 +48,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 ```
 
 # Service Lifetimes
-ASP.NET Core uses the standard [.NET service lifetimes](../../_net/dependency-injection/overview#service-lifetimes).
+ASP.NET Core uses the standard [.NET service lifetimes](../../../_net/dependency-injection/overview#service-lifetimes).
 
 To inject scoped services, either:
 - Inject the service into middleware's Invoke or InvokeAsync method.
@@ -56,7 +56,7 @@ To inject scoped services, either:
 - Use [Factory-based middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/extensibility?view=aspnetcore-7.0).
 
 # Service Registration Methods
-ASP.NET Core uses standard [.NET service registration methods](../../_net/dependency-injection/overview#service-registration-methods).
+ASP.NET Core uses standard [.NET service registration methods](../../../_net/dependency-injection/overview#service-registration-methods).
 
 Notes:
 - If a service is registered with only an implementation type, you have registered that service with the same implementation and service type.

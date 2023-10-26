@@ -27,7 +27,7 @@ s_failedToProcessWorkItem = LoggerMessage.Define(
 
 Notes:
 - `Define` supports up to six type parameters.
-- `Define`'s `String` parameter uses [message templates](./overview#message-templates). 
+- `Define`'s `String` parameter uses [message templates](../overview#message-templates). 
 
 Extensions are defined:
 ```cs

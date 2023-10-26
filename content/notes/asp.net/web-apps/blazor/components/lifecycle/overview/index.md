@@ -69,7 +69,7 @@ This is necessary when the Component updates due to an external change (like an 
 
 `StateHasChanged()` is called automatically for `EventCallback` methods.
 
-<o>StateHasChanged has some important considerations</o>. See [here](../statehaschanged-considerations/).
+<o>StateHasChanged has some important considerations</o>. See [here](../../statehaschanged-considerations/).
 
 # Handle Incomplete Async Actions at Render
 Async actions performed in lifecycle events may not have completed before the Component is rendered.  Provide rendering logic to confirm that objects are initialized.  Render placeholder UI elements (like a "loading" message) while the objects are `null`.

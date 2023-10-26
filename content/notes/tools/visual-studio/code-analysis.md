@@ -9,4 +9,4 @@ weight: 1
 > Documentation: https://learn.microsoft.com/en-us/visualstudio/code-quality/roslyn-analyzers-overview?view=vs-2022
 > Documentation: https://learn.microsoft.com/en-us/visualstudio/code-quality/use-roslyn-analyzers?view=vs-2022
 
-See [notes on code analysis](../../_net/tools-and-diagnostics/code-analysis/overview).
+See [notes on code analysis](../../../_net/tools-and-diagnostics/code-analysis/overview).

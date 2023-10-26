@@ -28,7 +28,7 @@ public IActionResult About([FromServices] IDateTime dateTime) =>
 ```
 
 # Options Pattern to Access Settings
-Generally, do not inject `IConfiguration` into a controller. Instead, use the [Options Pattern](../../../_net/configuration/options-pattern).
+Generally, do not inject `IConfiguration` into a controller. Instead, use the [Options Pattern](../../../../_net/configuration/options-pattern).
 
 # Dependency Injection into Views
 Displaying a configuration value in a Razor Pages view:

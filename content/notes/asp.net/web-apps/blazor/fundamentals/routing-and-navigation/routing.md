@@ -112,4 +112,4 @@ The `Router` can indicate to the user that a page transition is occurring:
 ```
 
 # [NavLink and NavMenu Components](https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/routing?view=aspnetcore-7.0#navlink-and-navmenu-components)
-[See notes in Components.](../../components/navlink-and-navmenu-components)
+[See notes in Components.](../../../components/navlink-and-navmenu-components)

@@ -8,7 +8,7 @@ weight: -1
 # Overview
 > Documentation: https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap
 
-The Task Asynchronous Pattern is a *different* pattern for using tasks, async, and await than the pattern described in [notes on asynchronous programming](../overview).
+The Task Asynchronous Pattern is a *different* pattern for using tasks, async, and await than the pattern described in [notes on asynchronous programming](../../overview).
 
 The TAP pattern uses `Task` and `Task<T>` objects which model asynchronous operations. Generally:
 - For I/O-bound code, `await` a `Task` or `Task<T>` in async method.

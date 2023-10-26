@@ -8,7 +8,7 @@ weight: 4
 # Overview
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/handle-errors?view=aspnetcore-7.0
 
-[Notes on Error Handling in ASP.NET Core](../../fundamentals/error-handling) apply.
+[Notes on Error Handling in ASP.NET Core](../../../fundamentals/error-handling) apply.
 
 # Exception Handling
 In non-development environments:
@@ -100,7 +100,7 @@ builder.Services.AddControllers()
 And can be configured via `IProblemDetailsService`, `ProblemDetailsFactory`, or `ApiBehaviorOptions`:
 
 ## `IProblemDetailsService`
-See [notes on Problem Details](../../fundamentals/error-handling#problem-details).
+See [notes on Problem Details](../../../fundamentals/error-handling#problem-details).
 
 ## `ProblemDetailsFactory`
 To customize the problem details response with `ProblemDetailsFactory`, register a custom implementation:  

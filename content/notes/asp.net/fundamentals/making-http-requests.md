@@ -8,7 +8,7 @@ weight: 1
 # Overview
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0
 
-See [Problems with HttpClient](../../_net/web/http/ihttpclientfactory#problems-with-httpclient)
+See [Problems with HttpClient](../../../_net/web/http/ihttpclientfactory#problems-with-httpclient)
 
 # Via `IHttpClientFactory` 
 Register `IHttpClientFactory` in the DI container:
