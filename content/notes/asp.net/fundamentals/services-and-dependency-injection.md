@@ -36,7 +36,8 @@ WebApplication app = builder.Build();
 ```
 
 ## Dependency Injection Chaining
-This is common.  Each requested dependency in turn requests its own dependencies.  
+This is common.  
+Each requested dependency in turn requests its own dependencies.  
 The DI container resolves the dependencies in a graph and returns the fully resolved service.  This is an object graph.  
 
 # Registering Groups of Services

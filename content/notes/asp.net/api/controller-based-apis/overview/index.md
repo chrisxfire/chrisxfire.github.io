@@ -274,7 +274,7 @@ public class ConsumesController : ControllerBase
 # Analyzers
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/analyzers?view=aspnetcore-7.0
 
-The MVC analyzers package works with controllers annotated with `ApiControllerAttribute` and builds on [web API conventions](../action-return-types#web-api-conventions). 
+The MVC analyzers package works with controllers annotated with `ApiControllerAttribute` and builds on [web API conventions](./action-return-types#web-api-conventions). 
 
 Analyzers inspect controller actions and notify you of any that:
 - return an undeclared status code

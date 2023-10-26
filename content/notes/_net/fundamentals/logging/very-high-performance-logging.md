@@ -11,7 +11,7 @@ weight: 3
 
 The `LoggerMessageAttribute`, part of `Microsoft.Extensions.Logging`, source-generates performant logging APIs. The auto-generated code relies on `ILogger` and `LoggerMessage.Define`.
 
-This implementation is significantly faster than [other](../high-performance-logging) [approaches](overview)).
+This implementation is significantly faster than [other](./high-performance-logging) [approaches](overview)).
 
 # Usage
 Use `LoggerMessageAttribute` on `partial` logging methods:

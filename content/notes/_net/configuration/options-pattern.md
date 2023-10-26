@@ -8,7 +8,7 @@ weight: 1
 # Overview
 > Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/options
 
-The options pattern uses classes to provide strongly-typed access to groups of related settings. It uses configuration files like [configuration in .NET](../overview).
+The options pattern uses classes to provide strongly-typed access to groups of related settings. It uses configuration files like [configuration in .NET](./overview).
 
 This pattern supports a mechanism to validate configuration data.
 
@@ -24,7 +24,7 @@ Options classes must:
 2. Have a public, parameterless constructor
 3. Contain public, read-write properties to bind (fields are **not** bound)
 
-See [notes on Configuration](../implementation) for an example of how to model a class after JSON-based configuration.
+See [notes on Configuration](./implementation) for an example of how to model a class after JSON-based configuration.
 
 ## 2. Add Options to DI Container
 `appsettings.json`
