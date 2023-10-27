@@ -10,7 +10,10 @@ weight: 1
 
 Unit testing controller logic involves testing a single action (not the dependencies of that action).  It does not test filters, routing, model binding, or model validation (these aspects are tested in *integration testing*).
 
-The example in these notes uses a *mock object framework*.  A *mock object* is a fabricated object with predetermined property and method behaviors used for testing. [Moq](https://www.nuget.org/packages/Moq/) is an example of such a framework.
+These notes also apply:
+* [Notes on Unit Testing](/notes/_net/devops-and-testing/unit-testing/overview)
+
+* See also: [Moq](https://github.com/devlooped/moq)
 * See also: [JustMockLite](https://github.com/telerik/JustMockLite)
 * See also: [MyTested.AspNetCore.Mvc](https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc)
 
@@ -71,18 +74,21 @@ Create test sessions:
 private List<BrainstormSession> GetTestSessions()
 {
     var sessions = new List<BrainstormSession>();
+
     sessions.Add(new BrainstormSession()
     {
         DateCreated = new DateTime(2016, 7, 2),
         Id = 1,
         Name = "Test One"
     });
+
     sessions.Add(new BrainstormSession()
     {
         DateCreated = new DateTime(2016, 7, 1),
         Id = 2,
         Name = "Test Two"
     });
+
     return sessions;
 }
 ```
@@ -110,7 +116,7 @@ public async Task Index_ReturnsAViewResult_WithAListOfBrainstormSessions()
 }
 ```
 
-The unit test for the HTTP POst Index method:
+The unit test for the HTTP Post Index method:
 1. Confirms that when `ModelState.IsValid` is `false`, the action method returns an HTTP 400 `ViewResult`
 2. Confirms that when `ModelState.IsValid` is `true`:
    1. The `Add` method on the repository is called
