@@ -62,3 +62,65 @@ public class PrimeService_IsPrimeShould
 ```
 
 See [here](https://github.com/dotnet/samples/blob/main/core/getting-started/unit-testing-using-dotnet-test/PrimeService.Tests/PrimeService_IsPrimeShould.cs) for a complete code sample.
+
+# Unit Testing with XUnit and Moq
+1. `dotnet new XUnit`
+2. `dotnet add project moq` (in XUnit project)
+3. In XUnit project, add project reference to code project
+4. Create the necessary mocks (like `PieRepository`, `CategoryRepository`) with `moq.Mock` static method:
+    ```cs
+    public class RepositoryMocks 
+    {
+        public static Mock<IPieRepository> GetPieRepository()
+        {
+            var pies = new List<Pie>()
+            {
+                new Pie() { … },
+                …
+            }
+
+            var mockPieRepository = new Mock<IPieRepository>();
+
+            // Mock _pieRepository.AllPies call
+            mockPieRepository.Setup(repo => repo.AllPies).Returns(pies);
+
+            // Mock _pieRepository.PiesOfTheWeek call
+            mockPieRepository.Setup(repo => repo.PiesOfTheWeek).Returns(pies.Where(p => p.IsPieOfTheWeek));
+
+            // Mock _pieRepository.GetPieById(int) call by confirming the parameter is an int and returning pies[0]:
+            mockPieRepository.Setup(repo => repo.GetPieById(It.IsAny<int>())).Returns(pies[0]);
+
+            return mockPieRepository;
+        }
+    }
+    ```
+5. Write the tests
+    ```cs
+    public class PieControllerTests
+    {
+    [Fact] // define this method as a fact that should be run by the test runner
+    public void List_EmptyCategory_ReturnAllPies()
+    {
+        // arrange:
+        var mockPieRepository = RepositoryMocks.GetPieRepository();
+        var mockCategoryRepository = RepositoryMocks.GetCategoryRepository();
+
+        var mockPieController = new PieController(mockPieRepository.Object, mockCategoryRepository.Object);
+
+        // act:
+        var result = mockPieController.List("");
+
+        // assert:
+        // assert that the return value is of type ViewResult
+        var viewResult = Assert.IsType<ViewResult>(result);
+
+        // assert that the passed in viewmodel is of type PieListViewModel
+        var pieListViewModel = Assert.IsAssignableFrom<PieListViewModel>(viewResult.ViewData.Model);
+
+        // assert there are exactly 10 pies in the PieListViewModel
+        Assert.Equal(10, pieListViewModel.Pies.Count());
+    }
+    }
+    ```
+
+6. Run the tests:  `dotnet test` or **Tests** > **Run All Tests**
