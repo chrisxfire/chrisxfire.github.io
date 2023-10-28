@@ -46,9 +46,7 @@ The programme endeavours to gradually deliver changes in organizational capabili
 
 The typical lifecycle or transformational flow of a programme is described in *Managing Successful Programmes* (MSP). This is shown in Figure 2.1.
 
-![Image of Figure 2.1 shows MSP transformation workflow](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture7.png)
-
-**Figure 2.1 MSP transformational flow**
+![Image of Figure 2.1 shows MSP transformation workflow](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture7.png "**Figure 2.1 MSP transformational flow**")
 
 ### 2.2.2 Project
 <table><tbody><tr><td><p><strong>Definition: Project</strong></p></td></tr><tr><td><p>A temporary structure that is created for the purpose of delivering one or more products according to an agreed business case.</p></td></tr></tbody></table>
@@ -59,32 +57,24 @@ These outputs also allow the organization to realize benefits, but, in tradition
 
 The typical lifecycle of a traditional linear (waterfall) project as described in *Managing Successful Projects with PRINCE2*® is shown in Figure 2.2.
 
-![Image of Figure 2.2 represents PRINCE2 project management processes](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture8.png)
-
-**Figure 2.2 PRINCE2 project management processes**
+![Image of Figure 2.2 represents PRINCE2 project management processes](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture8.png "**Figure 2.2 PRINCE2 project management processes**")
 
 An Agile approach works similarly to a programme but in a highly compressed timeframe. The agile delivery is planned in increments, and it is expected that benefits are generated at the deployment of each increment. Therefore, the organization receives its benefits as early as possible.
 
 The typical lifecycle of an Agile project as described in *PRINCE2 Agile*® is shown in Figure 2.3.
 
-![Image of Figure 2.3 shows the PRINCE Agile project management processes](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture9.png)
-
-**Figure 2.3 PRINCE2 Agile Project Management Process**
+![Image of Figure 2.3 shows the PRINCE Agile project management processes](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture9.png "**Figure 2.3 PRINCE2 Agile Project Management Process**")
 
 ### 2.2.3 Agile
 The term ‘agile’ is very broad and is viewed in many different ways within the agile community. There is a set of well-known frameworks referred to as ‘Agile methods’, and there are also well-known behaviours, concepts, and techniques that are recognized as characterizing the agile way of working. However, there is no single definition of agile that accurately encapsulates them all, although the Agile Manifesto<sup>1</sup>, which is shown in Figure 2.4, comes quite close.
 
-![Image of Figure 2.4 shows the Agile Manifesto 2001](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture10.png)
-
-**Figure 2.4 The Agile Manifesto 2001**
+![Image of Figure 2.4 shows the Agile Manifesto 2001](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture10.png "**Figure 2.4 The Agile Manifesto 2001**")
 
 Agile became so popular because it helped to address the new demands being placed on how software was delivered. It needed to be produced more frequently while retaining a specified level of quality to meet the demands of the digital age. (For more on agile software development see the software development and management practice guide and *ITIL**® 4: High-velocity IT*, section 4.2).
 
 In contrast to the traditional methods of delivery, the Agile phases are shorter, more iterative, and incremental. There is also a move to achieve early delivery of benefits by deploying products at the earliest opportunity, as described in Figure 2.5.
 
-![Image of Figure 2.5 shows Agile versus Waterfall](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture11.png)
-
-**Figure 2.5 Agile versus waterfall**
+![Image of Figure 2.5 shows Agile versus Waterfall](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture11.png "**Figure 2.5 Agile versus waterfall**")
 
 On the left of figure 2.5, the incremental Agile approach allows for multiple deployments throughout the project. The waterfall delivery on the right tends to allow for a single delivery at the end of the project.
 
@@ -109,9 +99,7 @@ An organization usually develops an approach to PPM based on one or more BoKs, m
 ### 2.2.7 Directing, managing, and delivering
 There are three key levels of control in the PPM practice: direction, management, and delivery. In programmes and projects, these three layers have ‘air-gaps’ between them in order to allow the levels of management to exercise control without micro-managing the layer below. These ‘air-gaps’ are constructed with a controlled connectivity between the layers so that each layer can work within the parameters laid down by the layer above. This is known as management by exception, where only exceptions to those parameters are brought to the attention of the upper layer for a decision. Figure 2.6 shows an example of this approach.
 
-![Image of Figure 2.6 represents Directing, managing projects and delivering products in an organization](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture12.png)
-
-**Figure 2.6 Directing, managing projects, and delivering products in an organization**
+![Image of Figure 2.6 represents Directing, managing projects and delivering products in an organization](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture12.png "**Figure 2.6 Directing, managing projects, and delivering products in an organization**")
 
 ### 2.2.8 Managing programmes
 To manage a programme successfully, it requires:
@@ -144,9 +132,7 @@ Value drives many aspects of programme management, which means it is the centre 
 
 Figure 2.7 illustrates the extent of the impact of benefits management within a programme.
 
-![Image of Figure 2.7 show the extent of the impact of Benefits management within a programme](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture13.png)
-
-**Figure 2.7 The extent of the impact of benefits management within a programme**
+![Image of Figure 2.7 show the extent of the impact of Benefits management within a programme](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture13.png "**Figure 2.7 The extent of the impact of benefits management within a programme**")
 
 ### 2.2.9 Directing projects
 To direct a project successfully, the duties of a project board include:
@@ -210,9 +196,7 @@ The delivery of products in an Agile environment relies on considering two major
 * prioritization and timeboxing/sprints.
 
 #### 2.2.11.1 What to fix and what to flex
-![Image of Figure 2.8 shows a diagram that represents Applying Tolerances to a project,  such as what to Fix and what to Flex](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture14.png)
-
-**Figure 2.8 Applying tolerances to a project**
+![Image of Figure 2.8 shows a diagram that represents Applying Tolerances to a project,  such as what to Fix and what to Flex](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture14.png "**Figure 2.8 Applying tolerances to a project**")
 
 Table 2.2 demonstrates PRINCE2 Agile views.
 
@@ -305,9 +289,7 @@ Like any other ITIL management practice, the PPM practice contributes to multipl
 
 The contribution of the PPM practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 shows heat map of the Contribution of the PPM Practice to Value Chain process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture15.png)
-
-**Figure 3.1 Heat map of the contribution of the PPM practice to value chain activities**
+![Image of Figure 3.1 shows heat map of the Contribution of the PPM Practice to Value Chain process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture15.png "**Figure 3.1 Heat map of the contribution of the PPM practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
@@ -328,9 +310,7 @@ This process is focused on defining, agreeing, communicating, and promoting an o
 
 Figure 3.2 shows a workflow diagram of the process
 
-![Image of Figure 3.2 shows workflow of the Managing a Common Approach to PPM process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture16.png)
-
-**Figure 3.2 Workflow of the managing a common approach to PPM process**
+![Image of Figure 3.2 shows workflow of the Managing a Common Approach to PPM process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture16.png "**Figure 3.2 Workflow of the managing a common approach to PPM process**")
 
   
 Table 3.2 provides examples of the process activities.
@@ -346,9 +326,7 @@ The purpose of the directing projects process is to enable the project board to 
 
 Figure 3.3 shows a workflow diagram of the process
 
-![Image of Figure 3.3 shows workflow of the  Directing Projects process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture8a.png)
-
-**Figure 3.3 Workflow of the directing projects process**
+![Image of Figure 3.3 shows workflow of the  Directing Projects process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture8a.png "**Figure 3.3 Workflow of the directing projects process**")
 
 Table 3.4 describes the activities of the process.
 
@@ -362,9 +340,7 @@ The purpose of the managing projects process is to enable the project manager to
 
 Figure 3.4 shows a workflow diagram of the process.
 
-![Image of Figure 3.4 shows the workflow process for Managing Projects](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture18.png)
-
-**Figure 3.4 Workflow of the managing projects process**
+![Image of Figure 3.4 shows the workflow process for Managing Projects](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture18.png "**Figure 3.4 Workflow of the managing projects process**")
 
 ### Table 3.6 Activities of the managing projects process
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Example</strong></p></td></tr><tr><td><p>Starting up a project</p></td><td><p>To ensure that the prerequisites for initiating a project are in place by answering the question ‘Do we have a viable and worthwhile project?’</p></td></tr><tr><td><p>Initiating a project</p></td><td><p>To establish solid foundations for the project, enabling the organization to understand the work that needs to be done to deliver the project product before committing to a significant spend.</p></td></tr><tr><td><p>Controlling a stage</p></td><td><ul><li>To assign work to be done, monitor such work, deal with issues, report progress to the project board, and take corrective actions to ensure the management stage remains within tolerance.</li></ul><ul><li>Lessons learnt from this activity may serve as an input into the PPM approach review.</li></ul></td></tr><tr><td><p>Managing a stage boundary</p></td><td><ul><li>To enable the project manager to provide the project board with sufficient information to be able to review the success of the current stage, approve the next stage plan, review the updated delivery plan, and confirm the viability of the business case.</li></ul><ul><li>Lessons learnt from this activity may serve as an input into the PPM approach review.</li></ul></td></tr><tr><td><p>Closing a project</p></td><td><ul><li>To provide a fixed point at which the acceptance of the project product is confirmed and recognize the objectives have been met.</li></ul><ul><li>Lessons learnt from this activity may serve as an input into the PPM approach review.</li></ul></td></tr></tbody></table>
@@ -377,9 +353,7 @@ The purpose of the managing product delivery process is to enable the solution d
 
 Figure 3.5 shows a workflow diagram of the process.
 
-![Image of Figure 3.5 shows the workflow Managing Product Delivery process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture21.png)
-
-**Figure 3.5 Workflow of the managing product delivery process**
+![Image of Figure 3.5 shows the workflow Managing Product Delivery process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture21.png "**Figure 3.5 Workflow of the managing product delivery process**")
 
 Table 3.8 provides examples of the process activities.
 
@@ -444,9 +418,7 @@ The project manager is responsible for the work in the managing projects and man
 
 As the single focus for the day-to-day management of a project, there are many different aspects to the project manager role, some of which are shown in Figure 4.1.
 
-![Image of Figure 4.1 shows the facets of the project manager role](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture20.png)
-
-**Figure 4.1 The facets of the project manager role**
+![Image of Figure 4.1 shows the facets of the project manager role](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture20.png "**Figure 4.1 The facets of the project manager role**")
 
 ### 4.1.3 Team manager
 The team manager’s prime responsibility is to ensure that the products are produced to an appropriate quality, as defined by the project manager, and adheres to the set timescale and cost accepted by the project board. The team manager is accountable to, and takes direction from, the project manager.

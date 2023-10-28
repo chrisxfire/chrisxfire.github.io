@@ -62,9 +62,7 @@ Organizational culture can be described as a set of values that are shared by a 
 
 Recognizing the distribution of values through the levels and identifying those that enable or limit the organization’s evolution, will generate sources of information for organizational change, planning, and execution.<sup>1</sup>
 
-![Capture.PNG](Organizational%20change%20management%20ITIL4%20Practice%20Guide/Capture.PNG)
-
-**Figure 2.1 Value based organizational change**
+![Capture.PNG](Organizational%20change%20management%20ITIL4%20Practice%20Guide/Capture.PNG "**Figure 2.1 Value based organizational change**")
 
 “Organizations that focus exclusively on the satisfaction of the lower needs, are not adaptable and do not empower employees. Consequently, there is little enthusiasm within the workforce, and there is little innovation and creativity. These organizations are often ruled by fear and are not healthy places to work. Employees often feel frustrated and complain about stress.” Organizational changes are usually not successful in this type of organizations.
 
@@ -191,9 +189,7 @@ Like any other ITIL practice, the OCM practice contributes to multiple value str
 
 The contribution of the OCM practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 show the contribution of the Organizational Change Management practice to the service Value Chain](Organizational%20change%20management%20ITIL4%20Practice%20Guide/Picture1.jpg)
-
-**Figure 3.1 The contribution of the OCM practice to the service value chain**
+![Image of Figure 3.1 show the contribution of the Organizational Change Management practice to the service Value Chain](Organizational%20change%20management%20ITIL4%20Practice%20Guide/Picture1.jpg "**Figure 3.1 The contribution of the OCM practice to the service value chain**")
 
 For more detailed description of OCM’s contribution to value streams, see *ITIL*<sup><em>®</em></sup> *4: Direct, Plan and Improve*, section 7.3.1.6.
 
@@ -212,9 +208,7 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 Figure 3.2 shows the workflow for organizational change lifecycle management.
 
-![Image of Figure 3.2 shows workflow diagram for Organizational Change Lifecycle Management](Organizational%20change%20management%20ITIL4%20Practice%20Guide/Picture3.jpg)
-
-**Figure 3.2 Workflow for organizational change lifecycle management**
+![Image of Figure 3.2 shows workflow diagram for Organizational Change Lifecycle Management](Organizational%20change%20management%20ITIL4%20Practice%20Guide/Picture3.jpg "**Figure 3.2 Workflow for organizational change lifecycle management**")
 
 The process may vary depending on the change type and scope. Table 3.2 provides examples of the activities in two different scopes of change<sup>5</sup>.
 
@@ -231,9 +225,7 @@ In adaptive organizations, change is not a forced event, but rather a part of or
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.3 shows workflow diagram for management of change adaptive environment](Organizational%20change%20management%20ITIL4%20Practice%20Guide/Picture4.png)
-
-**Figure 3.3 Workflow for management of change adaptive environment**
+![Image of Figure 3.3 shows workflow diagram for management of change adaptive environment](Organizational%20change%20management%20ITIL4%20Practice%20Guide/Picture4.png "**Figure 3.3 Workflow for management of change adaptive environment**")
 
 ### Table 3.4 Activities of the change adaptive environment
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Example</strong></p></td></tr><tr><td><ul><li>Understand internal organizational system</li><li>Factors, influences and challenges</li></ul></td><td><p>OCM includes leading together with the management team, service owners and other relevant stakeholders review and analyze:</p><ul><li>The current organizational values and the way they are precepted by employees. As well as analysing the individual values of people.</li><li>Results and progress of recent organizational changes and requests for organizational structure improvement from other practices.</li><li>Employees and customers surveys.</li><li>Other data that may help to understand if the organization is flexible and competitive enough to meet the vision and strategy.</li></ul><p>This is done regularly, for example once a year, or as a response to a significant change of the external factor.</p></td></tr><tr><td><p>Identify external factors and influences</p></td><td><p>OCM includes leading together with the management team, service owners continually review and analyze:</p><ul><li>external factors that impact organizational system by using the PESTLE model or other relevant frameworks</li><li>world best and latest practices for emotional, social, and system intelligence development</li><li>requirements and recommendations for organizational structure in related industries</li><li>change handling technics and methods</li><li>other valuable information for supporting the adaptable environment.</li></ul></td></tr><tr><td><p>Optimize response</p></td><td><ul><li>OCM includes leading together with the management team and service owners on the foundation of two previous steps to identify the optimal response of change adaptability level to organizational strategy. The OCM leader uses knowledge management tools to share the most valuable information within the organization.</li><li>The OCM team recognizes that not all best practices and new approaches should be implemented and used. Even though the fear of missing out may cause desire to use all the best approaches for improvement, organizations should only use those that are best for its interests and suits the vision.</li></ul></td></tr><tr><td><p>Create adaptability improvement plan and run</p></td><td><p>The change leader registers everything required, initiates improvements, and processes it with the involvement of continual improvement practice.</p></td></tr><tr><td><p>Improvement actions within the OCM practice</p></td><td><ul><li>For example, to improve diffusion of changes in the future, an organization decided to implement and develop the organization social network as a tool for communication.</li><li>Successful change depends of the time and quality of information shared within change stakeholders. Diffusion of information (ideas, values, practices, and so on.) benefits from intense networks.</li></ul><p>This will be implemented and part of the improvement plan combined with knowledge management, relationship management, change enablement, and continual improvement practice.</p></td></tr></tbody></table>

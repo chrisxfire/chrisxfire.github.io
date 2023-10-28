@@ -221,9 +221,7 @@ Like any other ITIL management practice, the information security management pra
 
 The contribution of the information security management practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 Heat map of the contribution of the Information Security Management practice to Value Chain activities](Information%20security%20management%20ITIL%204%20Practice%20Guide/Picture1.png)
-
-**Figure 3.1 Heat map of the contribution of the information security management practice to value chain activities**
+![Image of Figure 3.1 Heat map of the contribution of the Information Security Management practice to Value Chain activities](Information%20security%20management%20ITIL%204%20Practice%20Guide/Picture1.png "**Figure 3.1 Heat map of the contribution of the information security management practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
@@ -253,9 +251,7 @@ This process includes the following activities listed in Table 3.1 and transform
 
 Figure 3.2 shows a workflow diagram of the process
 
-![Image of Figure 3.2 shows Workflow of the Security Incident Management process](Information%20security%20management%20ITIL%204%20Practice%20Guide/Picture2.png)
-
-**Figure 3.2 Workflow of the security incident management process**
+![Image of Figure 3.2 shows Workflow of the Security Incident Management process](Information%20security%20management%20ITIL%204%20Practice%20Guide/Picture2.png "**Figure 3.2 Workflow of the security incident management process**")
 
 These activities might be performed with varying levels of formality by many people within the organization.
 
@@ -274,9 +270,7 @@ This process includes the activities listed in Table 3.3, and transforms the fol
 
 Figure 3.3 Workflow of the audit and review process
 
-![Image of Figure 3.3 shows Workflow of the Audit and Review process](Information%20security%20management%20ITIL%204%20Practice%20Guide/Picture3.png)
-
-**Figure 3.3 shows a workflow diagram of the process.**
+![Image of Figure 3.3 shows Workflow of the Audit and Review process](Information%20security%20management%20ITIL%204%20Practice%20Guide/Picture3.png "**Figure 3.3 shows a workflow diagram of the process.**")
 
 These activities might be performed by internal or external auditors. Many organizations perform internal audits and implement improvements. External auditors can then perform a more formal audit.
 
@@ -312,10 +306,7 @@ The CISO is typically responsible for:
 Examples of other roles that can be involved in the information security management practice are listed in Table 4.2 below, together with the associated competency profiles and specific skills.
 
 ### Table 4.2 Examples of roles with responsibility for information security management activities
-**Activity**
-**Responsible roles**
-**Competency profile**
-**Specific skills**
+| Activity | Responsible Roles | Competency Profile | Specific Skills |
 
  |
 | --- | --- | --- | --- |

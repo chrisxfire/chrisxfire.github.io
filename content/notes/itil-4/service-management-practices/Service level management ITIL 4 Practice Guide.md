@@ -13,9 +13,7 @@ Axelos International (https://www.axelos.com)
 
 The service level management practice helps to set and manage a shared view of the quality of services between the service provider and the service consumer, aimed at all key stakeholders on both sides. This shared view is usually described in an agreement document, which may be written in various levels of formality. This applies to both the expected and actual service quality, from initial contact to the present, and covers service offerings and proposed value throughout the entirety of the service relationship. The service level management practice also includes monitoring and evaluation of the actual service quality and continual improvement of the services and agreements. Figure 2.1 illustrates the key activities of the practice.
 
-![Image of Figure 2.1 Key activities of service level management practices](Service%20level%20management%20ITIL%204%20Practice%20Guide/Figure-2.1-Key-Activities-SL-MP.png)
-
-**Figure 2.1 Key activities of the service level management practice**
+![Image of Figure 2.1 Key activities of service level management practices](Service%20level%20management%20ITIL%204%20Practice%20Guide/Figure-2.1-Key-Activities-SL-MP.png "**Figure 2.1 Key activities of the service level management practice**")
 
 ## 2.2 Terms and concepts
 <table><tbody><tr><td><p><strong>Definition: Service quality</strong></p></td></tr><tr><td><p>The totality of a service’s characteristics that are relevant to its ability to satisfy stated and implied needs.</p></td></tr></tbody></table>
@@ -111,13 +109,9 @@ All metrics that are defined as an agreed service level should have a clear appr
 
 The term ‘service level’ can be defined in multiple ways with various levels of formality. However, it is possible to identify key aspects of service quality that are typically discussed and agreed upon. Table 2.2 lists these aspects and provides examples of metrics that may be included in the agreed (or implied) service level.
 
-![Image of Figure 2.2 showing tailored services from customer needs to SLAs](Service%20level%20management%20ITIL%204%20Practice%20Guide/Figure-2.2-Tailored-Services.png)
+![Image of Figure 2.2 showing tailored services from customer needs to SLAs](Service%20level%20management%20ITIL%204%20Practice%20Guide/Figure-2.2-Tailored-Services.png "**Figure 2.2 Tailored services: from customer needs to SLA**")
 
-**Figure 2.2 Tailored services: from customer needs to SLA**
-
-![Image Figure 2.3 showing the Out of box services from customer needs to SLAs](Service%20level%20management%20ITIL%204%20Practice%20Guide/Figure-2.3-Out-of-box-svc.png)
-
-**Figure 2.3 Out-of-the-box services: from consumer needs to SLA** 
+![Image Figure 2.3 showing the Out of box services from customer needs to SLAs](Service%20level%20management%20ITIL%204%20Practice%20Guide/Figure-2.3-Out-of-box-svc.png "**Figure 2.3 Out-of-the-box services: from consumer needs to SLA**") 
 
 ### Table 2.2 Key aspects of service quality and examples of service level metrics
 <table><tbody><tr><td><p><strong>Service quality aspect</strong></p></td><td><p><strong>Examples of service level metrics</strong></p></td></tr><tr><td><p>Functionality</p></td><td><p>Completeness of the functions available<br>Correctness of the functions operations<br>Integrated functionality index</p></td></tr><tr><td><p>Availability</p></td><td><p>Maximum duration of service outage<br>Total time of unavailability<br>Percentage of availability<br>Mean time between system incidents (MTBSI)</p></td></tr><tr><td><p>Performance</p></td><td><p>Mean time of service action execution</p><p>Response time</p><p>Number and percentage of incidents related to execution and response time<br>Service throughput</p></td></tr><tr><td><p>Timeliness</p></td><td><p>Number and percentage of incidents related to service actions completed after the agreed deadline</p></td></tr><tr><td><p>User support</p></td><td><p>Timeliness of support request processing</p><p>Quality of support request processing</p></td></tr><tr><td><p>Accuracy</p></td><td><p>Number and impact of errors in the data and information</p></td></tr><tr><td><p>User experience (UX)</p></td><td><p>Number and frequency of user errors</p><p>Number and frequency of returns to a previous step (for example, back-button usage)<br></p><p>Number and frequency of interface help requests</p><p>Number and percentage of interrupted service actions (quitting the interface without completing a service action)</p></td></tr></tbody></table>
@@ -201,9 +195,7 @@ The contribution of the service level management practice to the service value c
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-![Image of Figure 3.1 showing Heat Map of contribution of service level management practice to value chain activities](Service%20level%20management%20ITIL%204%20Practice%20Guide/Figure-3.1-Heat-Map-SLM.jpg)
-
-**Figure 3.1 Heat map of the contribution of the service level management practice to value chain activities**
+![Image of Figure 3.1 showing Heat Map of contribution of service level management practice to value chain activities](Service%20level%20management%20ITIL%204%20Practice%20Guide/Figure-3.1-Heat-Map-SLM.jpg "**Figure 3.1 Heat map of the contribution of the service level management practice to value chain activities**")
 
 <table><tbody><tr><td><p><strong></strong><span><strong>Definition: Process</strong></span></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs.<br>A process takes one or more defined inputs and turns them into defined outputs.<br>Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
 
@@ -219,9 +211,7 @@ This process includes the activities listed in Table 3.1, and transforms the inp
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 showing workflow for management SLAs](Service%20level%20management%20ITIL%204%20Practice%20Guide/Figure-3.2-Workflow-management-SLAs.png)
-
-**Figure 3.2 Workflow for management of SLAs**
+![Image of Figure 3.2 showing workflow for management SLAs](Service%20level%20management%20ITIL%204%20Practice%20Guide/Figure-3.2-Workflow-management-SLAs.png "**Figure 3.2 Workflow for management of SLAs**")
 
 This process may vary, depending on the type of service or service relationship model to which it is applied. Table 3.2 provides an overview of these variations.
 
@@ -250,9 +240,7 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.3 Workflow of service level and service quality oversight](Service%20level%20management%20ITIL%204%20Practice%20Guide/Figure-3.3-Workflow-SL-SQ-oversight.png)
-
-**Figure 3.3 Workflow of service level and service quality oversight**
+![Image of Figure 3.3 Workflow of service level and service quality oversight](Service%20level%20management%20ITIL%204%20Practice%20Guide/Figure-3.3-Workflow-SL-SQ-oversight.png "**Figure 3.3 Workflow of service level and service quality oversight**")
 
 The oversight process may vary, depending on the level of formalization of the target service level for the services to which it is applied. Table 3.4 provides an overview of these variations.
 

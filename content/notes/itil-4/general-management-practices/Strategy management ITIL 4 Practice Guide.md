@@ -77,9 +77,7 @@ Regardless of the terminology adopted by the organization, it is important to en
 * technology competence of the organization is seen as a priority
 * all uses of IT are included in the strategy, including any IT used in business-facing and support activities.
 
-![Image of Figure 2.1 shows Business, Digital IT strategy model](Strategy%20management%20ITIL%204%20Practice%20Guide/Picture1.png)
-
-**Figure 2.1 Business, digital, and IT strategy**
+![Image of Figure 2.1 shows Business, Digital IT strategy model](Strategy%20management%20ITIL%204%20Practice%20Guide/Picture1.png "**Figure 2.1 Business, digital, and IT strategy**")
 
 ### 2.2.2 Purpose, vision and strategic objectives
 Many organizations differentiate between its vision and its purpose.
@@ -123,9 +121,7 @@ Innovativeness, just like any strategic objective, cannot be managed by a small 
 #### 2.2.3.3 Adapting for variable complexity
 The complexity of the business environment and of internal organizational systems vary from clear, predictable, and structured contexts to complicated, complex, and even chaotic.<sup>4</sup> Different levels of complexity can be addressed with different heuristics and imply different constraints that are imposed by the strategy, as shown in Figure 2.2.
 
-![Image of Figure 2.2 shows a diagram of the Cynefin framework - adapting for variable complexity](Strategy%20management%20ITIL%204%20Practice%20Guide/Picture2.png)
-
-**Figure 2.2 The Cynefin framework**<sup><strong>5</strong></sup>
+![Image of Figure 2.2 shows a diagram of the Cynefin framework - adapting for variable complexity](Strategy%20management%20ITIL%204%20Practice%20Guide/Picture2.png "**Figure 2.2 The Cynefin framework**")<sup><strong>5</strong></sup>
 
 The approach to the strategy management practice and the resulting strategy might vary significantly, to adjust to the complexity of the environment.
 
@@ -146,9 +142,7 @@ The concept of a sustainable organization evolved from the focus on environmenta
 
 Organizations are moving from a focus on profitability to the triple bottom line, an approach that covers financial, social, and environmental aspects, as shown in Figure 2.3 (Bordoloi et al., 2018). The triple bottom line marks a shift from short-term financial goals to long-term sustainability goals, which is an integrated business method. Sustainable goals not only improve an organization’s brand and reputation, but drives stakeholder value for customers, employees, and society in the form of better health, climate, and resource utilization. Read more on the triple bottom line approach in *ITIL 4: Drive Stakeholder Value*, Section 3.4.
 
-![Image of Figure 2.1 shows Sustainability and the triple bottom line approach](Strategy%20management%20ITIL%204%20Practice%20Guide/Picture1.1.png)
-
-**Figure 2.3 The Triple bottom line model**
+![Image of Figure 2.1 shows Sustainability and the triple bottom line approach](Strategy%20management%20ITIL%204%20Practice%20Guide/Picture1.1.png "**Figure 2.3 The Triple bottom line model**")
 
 To enable sustainability as a strategic priority, organizations should embed respective principles, objectives, ways of thinking, and working into all of the organization’s teams, value streams, products, and services. The strategy management practice ensures that the sustainability principles and objectives are clearly defined and communicated, to be embedded into the organization’s approaches and practices, including architecture management, supplier management, business analysis, service financial management, relationship management, service design, portfolio management, and other practices. Considerations, challenges, and suggestions from these practices are an important input to the strategy definition; strategy for sustainability, just like for other aspects, should be developed by the organization, not a small group of executive leaders.
 
@@ -261,9 +255,7 @@ Like any other ITIL management practice, the strategy management practice contri
 
 The contribution of the strategy management practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1  shows heat map of the contribution of the strategy management practice to Value Chain activities](Strategy%20management%20ITIL%204%20Practice%20Guide/Picture4.png)
-
-**Figure 3.1 Heat map of the contribution of the strategy management practice to value chain activities**
+![Image of Figure 3.1  shows heat map of the contribution of the strategy management practice to Value Chain activities](Strategy%20management%20ITIL%204%20Practice%20Guide/Picture4.png "**Figure 3.1 Heat map of the contribution of the strategy management practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
@@ -295,9 +287,7 @@ This process is focused on providing strategic direction in extraordinary circum
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.3 shows workflow of the ad hoc strategic decision-making process](Strategy%20management%20ITIL%204%20Practice%20Guide/Picture6.png)
-
-**Figure 3.3 Workflow of the ad hoc strategic decision-making process**
+![Image of Figure 3.3 shows workflow of the ad hoc strategic decision-making process](Strategy%20management%20ITIL%204%20Practice%20Guide/Picture6.png "**Figure 3.3 Workflow of the ad hoc strategic decision-making process**")
 
   
 Table 3.4 provides examples of the process activities.

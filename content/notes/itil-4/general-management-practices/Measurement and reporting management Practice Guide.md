@@ -164,9 +164,7 @@ Measurements are only valuable when they help managers achieve their objectives.
 
 The planning and evaluation model, shown in Figure 2.1 and described in section 4.2.2.1 of ITIL® 4: Direct, Plan and Improve, illustrates the direct connection between the purpose, objectives, indicators, and metrics of a managed object.
 
-![Image of Figure 2.1 shows planning and evaluation model - coloured shapes in a row horizontally each with a word on them - Purpose, Objectives, Indicators and Metric, with two sperate vertical lines at each end saying Define and Evaluate](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture1.png)
-
-**Figure 2.1 Planning and evaluation model**
+![Image of Figure 2.1 shows planning and evaluation model - coloured shapes in a row horizontally each with a word on them - Purpose, Objectives, Indicators and Metric, with two sperate vertical lines at each end saying Define and Evaluate](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture1.png "**Figure 2.1 Planning and evaluation model**")
 
 There are several steps involved in forming a measurement and evaluation system based on a purpose and a set of objectives. These steps are universally applicable to any managed object, whether it is a service, practice, project, or a resource<sup>2</sup>.
 
@@ -217,9 +215,7 @@ This formula helps to express various metrics in normalized percentage ratings. 
 
 This is shown in Figure 2.2.  
 
-![Image of Figure 2.2 shows a coloured-coded aggregate normalized KPI rating](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture2.png)
-
-**Figure 2.2 Colour-coded normalized rating**
+![Image of Figure 2.2 shows a coloured-coded aggregate normalized KPI rating](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture2.png "**Figure 2.2 Colour-coded normalized rating**")
 
 Normalized KPIs can be aggregated to produce a performance scorecard. This usually involves assigning weights according to each KPI’s relative importance. The performance scorecard provides a structured visualization of the measurement and evaluation results that can enable decision-making.
 
@@ -285,9 +281,7 @@ Like any other ITIL management practice, the measurement and reporting practice 
 
 The contribution of the measurement and reporting practice to value chain activities can be seen in Figure 3.1.
 
-![Image of Figure 3.1 shows heat map of the contribution of the measurement and reporting practice to Value Chain activities](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture3.png)
-
-**Figure 3.1 Heat map of the contribution of the measurement and reporting practice to value chain activities**
+![Image of Figure 3.1 shows heat map of the contribution of the measurement and reporting practice to Value Chain activities](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture3.png "**Figure 3.1 Heat map of the contribution of the measurement and reporting practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
@@ -304,9 +298,7 @@ This process includes the activities shown in Table 3.1 and transforms the input
 ### Table 3.1 Inputs, activities, and outputs of the designing the measurement and reporting system process
 <table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Purpose and objectives</li><li>Success factors</li><li>Measurement tools and capabilities</li><li>Available data</li><li>SLRs/SLAs and contracts</li><li>Existing report(s)/actual performance</li><li>Reporting requirements</li></ul></td><td><ul><li>Developing metrics and measurement methods</li><li>Forming KPI scorecards</li><li>Designing report templates and reporting policy</li></ul></td><td><ul><li>Metrics</li><li>Measurement requirements</li><li>Measurement methods</li><li>KPI scorecard(s)</li><li>Report template(s)</li><li>Reporting policy</li></ul></td></tr></tbody></table>
 
-![Image of Figure 3.2 show a workflow diagram of the Measurement and Reporting systems process](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture4.png)
-
-**Figure 3.2 Workflow of the designing the measurement and reporting system process**
+![Image of Figure 3.2 show a workflow diagram of the Measurement and Reporting systems process](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture4.png "**Figure 3.2 Workflow of the designing the measurement and reporting system process**")
 
 These activities may be carried out with varying levels of formality by many people in the organization. Table 3.2 gives some examples of the process activities.
 
@@ -321,9 +313,7 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.3 show workflow diagram of the Reporting and Evaluation process](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture6.png)
-
-**Figure 3.3 Workflow of the reporting and evaluation process**
+![Image of Figure 3.3 show workflow diagram of the Reporting and Evaluation process](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture6.png "**Figure 3.3 Workflow of the reporting and evaluation process**")
 
 These activities may be carried out with varying levels of formality by many people in the organization. Table 3.4 provides examples of the process activities.
 
@@ -341,10 +331,7 @@ Roles are described in the context of processes and activities. Each role is cha
 Examples of roles which can be involved in the measurement and reporting practice are listed in Table 4.2, together with the associated competency profiles and specific skills.
 
 ### Table 4.2 Examples of roles with responsibility for measurement and reporting activities
-**Activity**
-**Responsible roles**
-**Competency profile**
-**Specific skills**
+| Activity | Responsible Roles | Competency Profile | Specific Skills |
 
  |
 | --- | --- | --- | --- |

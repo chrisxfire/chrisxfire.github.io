@@ -305,9 +305,7 @@ Like any other ITIL management practice, service design contributes to multiple 
 * obtain/build
 * plan.
 
-![Image of 3.1 shows Heat map of the contribution of Service Design to Value Chain activities](Service%20design%20ITIL%204%20practice%20guide/Picture3.png)
-
-**Figure 3.1 Heat map of the contribution of service design to value chain activities**
+![Image of 3.1 shows Heat map of the contribution of Service Design to Value Chain activities](Service%20design%20ITIL%204%20practice%20guide/Picture3.png "**Figure 3.1 Heat map of the contribution of service design to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
@@ -341,9 +339,7 @@ This process includes the following activities and transforms the following inpu
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of 3.2 shows workflow diagram of the Service Design Co-ordination process](Service%20design%20ITIL%204%20practice%20guide/Picture5.jpg)
-
-**Figure 3.2 Workflow of the service design coordination process**
+![Image of 3.2 shows workflow diagram of the Service Design Co-ordination process](Service%20design%20ITIL%204%20practice%20guide/Picture5.jpg "**Figure 3.2 Workflow of the service design coordination process**")
 
 Table 3.4 describes these activities further.
 

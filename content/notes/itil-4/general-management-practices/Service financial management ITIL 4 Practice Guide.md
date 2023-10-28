@@ -62,9 +62,7 @@ The service financial management practice helps decision-makers to understand an
 
 The resulting cost model is an important part of the organization’s approach to service financial management. An example is shown in Figure 2.1.
 
-![Image of Figure 2.1 show a model to reflect the costs of  resources, products and services](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture1.png)
-
-**Figure 2.1 The costs of resources, products, and services**
+![Image of Figure 2.1 show a model to reflect the costs of  resources, products and services](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture1.png "**Figure 2.1 The costs of resources, products, and services**")
 
 Once costs of products and services are understood, it is possible to allocate these costs to service consumers, customers and other cost objects.
 
@@ -253,9 +251,7 @@ Like any other ITIL management practice, the service financial management practi
 
 The contribution of the service financial management practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 shows heat map of the contribution of service management practice to Value Chain activities](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture2.png)
-
-**Figure 3.1 Heat map of the contribution of the service financial management practice to value chain activities**
+![Image of Figure 3.1 shows heat map of the contribution of service management practice to Value Chain activities](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture2.png "**Figure 3.1 Heat map of the contribution of the service financial management practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
@@ -277,9 +273,7 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 shows workflow diagram for managing the organizations approach to Service Financial Management process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture3.png)
-
-**Figure 3.2 Workflow of the managing the organization’s approach to service financial management process**
+![Image of Figure 3.2 shows workflow diagram for managing the organizations approach to Service Financial Management process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture3.png "**Figure 3.2 Workflow of the managing the organization’s approach to service financial management process**")
 
 ### **Table 3.2** Activities of the managing the organization’s approach to service financial management process
 **Activity**
@@ -326,9 +320,7 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.3 shows workflow diagram of the Financial Planning process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture4.png)
-
-**Figure 3.3 Workflow of the financial planning process**  
+![Image of Figure 3.3 shows workflow diagram of the Financial Planning process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture4.png "**Figure 3.3 Workflow of the financial planning process**")  
 
 ### Table 3.4 Activities of the financial planning process
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Example</strong></p></td></tr><tr><td><p>analyze the previous and current plans and performance</p></td><td><p>The service financial team analyzes available service financial information, including:</p><p>current and previous business plans and performance reports</p><ul><li>current and previous budgets and budget review reports</li><li>financial records</li><li>product and service performance reports and capacity forecasts</li><li>supplier performance reports and current and planned contracts and agreements</li><li>service performance reports and current and future SLAs</li><li>other relevant information.</li></ul><p>The resulting analysis is used for cost and income estimation.</p></td></tr><tr><td><p>Estimate costs and income</p></td><td><ul><li>Based on the analysis, the service financial team (or its dedicated budgeting subset) estimates costs and income for the planned initiatives and/or period of operations.</li><li>Income estimates may include charging recommendations.</li><li>Relevant teams may be involved to make, review, or confirm estimates.</li></ul></td></tr><tr><td><p>Compile the budgets</p></td><td><p>The team aggregate estimates into budgets following the agreed budget model.</p></td></tr><tr><td><p>Communicate and agree the budgets</p></td><td><ul><li>The resulting budgets are submitted to the appropriate authorities and stakeholders. They discuss and approve the budgets. If not approved, the budgets are returned to the estimation step with comments and recommendations.</li><li>Approved budgets are communicated to the relevant teams for execution.</li><li>Where applicable, charging guidelines are also discussed, approved or not, and either returned for re-estimation or communicated further for execution.</li></ul></td></tr><tr><td><p>Monitor and control costs and income</p></td><td><ul><li>The service financial manager(s) and budget holders monitor how the budgets are being executed.</li><li>In accordance with the agreed service financial management approach, they or other agreed authorities authorize requests for spending.</li><li>The service financial manager(s) or other agreed authorities may also adjust the budgets within agreed tolerances by approving off-budget spending or pricing.</li><li>The service financial manager(s) escalate risks and cases of going off-budget outside of the agreed tolerances (as defined by the service financial management approach and/or by the budget document) to the authorities.</li></ul></td></tr><tr><td><p>Review and report on the budget</p></td><td><p>In case of significant deviations from the agreed budgets, the service financial management team (or its dedicated budgeting subset) reviews the affected budgets and initiates a new planning cycle. This is also performed at the end of the budgeted initiatives and periods and on a regular basis: every few weeks to few months, depending on the volatility of the related environment and the performance of the agreed budgets.</p></td></tr></tbody></table>
@@ -341,9 +333,7 @@ This process is focused on providing management accounting information to the st
 
 Figure 3.4 shows a workflow diagram of the process.
 
-![Image of Figure 3.4 shows workflow diagram of the Management Accounting Process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture5.png)
-
-**Figure 3.4 Workflow of the management accounting process**
+![Image of Figure 3.4 shows workflow diagram of the Management Accounting Process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture5.png "**Figure 3.4 Workflow of the management accounting process**")
 
 Table 3.6 provides examples of the process activities.
 
@@ -362,10 +352,7 @@ Roles are described in the context of processes and activities. Each role is cha
 Examples of other roles which can be involved in service financial management activities are listed in Table 4.2, together with the associated competency profiles and specific skills.
 
 ### Table 4.2 Examples of roles with responsibility for service financial management practice activities
-**Activity**
-**Responsible roles**
-**Competency profile**
-**Specific skills**
+| Activity | Responsible Roles | Competency Profile | Specific Skills |
 
  |
 | --- | --- | --- | --- |

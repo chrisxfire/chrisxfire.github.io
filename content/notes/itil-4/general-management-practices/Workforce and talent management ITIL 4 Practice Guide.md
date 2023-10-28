@@ -37,17 +37,13 @@ In today’s VUCA (volatile, uncertain, complex, and ambiguous) environment, eff
 ### 2.2.1 Evolution of the role of the workforce and talent management practice
 The role of the workforce and talent management practice has been evolving for more than a century, from a purely administrative role to a strategic HR management role. This evolution conforms with the changing understanding of the importance of people for an organization’s success (and the definition of that success). Organizations are moving from a focus on profitability to the ‘triple bottom line’, an approach that covers financial, social, and environmental aspects, as shown in Figure 2.1 (Bordoloi et al., 2018). The triple bottom line marks a shift from short-term financial goals to long-term sustainability goals, which is an integrated business method. Sustainable goals not only improve an organization’s brand and reputation, but drive stakeholder value for customers, employees, and society in the form of better health, climate, and resource utilization. Read more on the triple bottom line approach in *ITIL® 4: Drive Stakeholder Value*, section 3.4.
 
-![Image of Figure 2.1 shows Sustainability and the triple bottom line approach](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture1.png)
-
-**Figure 2.1 Sustainability and the triple bottom approach**
+![Image of Figure 2.1 shows Sustainability and the triple bottom line approach](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture1.png "**Figure 2.1 Sustainability and the triple bottom approach**")
 
 Value for employees is an important aspect of the triple bottom line approach. It reflects the well-known premise that happy employees make happy customers.
 
 “Focus on making employees happy, and in turn, they will make your customers happy. What’s happening on the inside of the organization is felt on the outside by the customers.”<sup>1</sup>  
 
-![Image of Figure 2.2 shows a diagram representing employee experiences as a key factor of service experience](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture2.png)
-
-**Figure 2.2 Employee experience as a key factor of service experience.**<sup><strong>2</strong></sup>
+![Image of Figure 2.2 shows a diagram representing employee experiences as a key factor of service experience](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture2.png "**Figure 2.2 Employee experience as a key factor of service experience.**")<sup><strong>2</strong></sup>
 
 A strategic focus on employees has changed an organizations’ approaches to the workforce and talent management practice. This practice is recognized as important and necessary, and its effect on an organization’s sustainable success is rarely disputed. Stakeholders expect organizations to effectively manage their workforce and talent.
 
@@ -63,9 +59,7 @@ The workforce and talent management practice cannot be limited to administrative
 
 These seven elements are equally important and should be aligned and balanced, as seen in Figure 2.3.
 
-![Image of Figure 2.3 shows McKinsey 7 S Framework diagram which describes the seven elements](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture3.png)
-
-**Figure 2.3 The 7-S model**<sup><strong>5</strong></sup>
+![Image of Figure 2.3 shows McKinsey 7 S Framework diagram which describes the seven elements](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture3.png "**Figure 2.3 The 7-S model**")<sup><strong>5</strong></sup>
 
 The elements of the model should be supported by the organization’s workforce and talent management practice , as outlined in Table 2.1.
 
@@ -90,9 +84,7 @@ The fundamental types of organizations are hierarchies, markets, and communities
 
 The most established traditional organizational forms are hierarchical. Thee are increasingly unsuited to the demands of the VUCA environments. Market and community forms (also known as network, virtual, intelligent, boundary-less, self-managing, or center-less) offer greater flexibility, efficiency, and a wider and quicker access to resources. However, these types are rarely seen in a pure form. Real-life organizational forms are hybrids of two or three of these types. Some examples of hybrid organizational forms are shown in Figure 2.4.
 
-![Image of Figure 2.4 Figure shows examples of hybrid organizational forms](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture4.png)
-
-**Figure 2.4 Examples of hybrid organizational forms**<sup><strong>7</strong></sup>
+![Image of Figure 2.4 Figure shows examples of hybrid organizational forms](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture4.png "**Figure 2.4 Examples of hybrid organizational forms**")<sup><strong>7</strong></sup>
 
 <table><tbody><tr><td><strong>Definitions: Functional hierarchy</strong></td></tr><tr><td>A hierarchical structure, dividing the organization into departments based on its functions with multiple levels of hierarchy. The authority is centralized.</td></tr><tr><td><strong>Multi-divisional</strong></td></tr><tr><td>A hierarchical structure, dividing the organization into divisions with significant levels of autonomy and responsibilities for achieving its objectives. However, the objectives and policies are set by a central authority. Divisions can be formed on a product, territory, market, or other basis.</td></tr><tr><td><strong>Matrix</strong></td></tr><tr><td>A combination of two hierarchies (functional and product, functional and project, or others), with some authorities and responsibilities within every dimension of the matrix.</td></tr><tr><td><strong>Clan organizational culture</strong></td></tr><tr><td>A family-like or tribe-like organizational form that emphasizes the consensus and commonality of objectives and values and is often combined with autocratic leadership.</td></tr><tr><td><strong>Adhocracy</strong></td></tr><tr><td>A non-hierarchical, flexible, adaptable, and informal form of organization with a minimum formal structure. It usually includes several specialized multidisciplinary teams, for example a product or service-focused team.</td></tr><tr><td><strong>Holacracy</strong></td></tr><tr><td>An organizational form in which authority and decision-making are distributed throughout a system of self-organizing teams of very similar rights, authority, and responsibilities.</td></tr><tr><td><strong>Collaborative community</strong></td></tr><tr><td>A collaborative organizational form where independent members participate in the whole problem-solving process, with the community commonly playing an important integrating role.</td></tr><tr><td><strong>Crowd contest</strong></td></tr><tr><td>A collaborative organizational form where independent members develop potential solutions to standalone problems and typically do not participate in selecting the winning contributions or integrating them into higher-level solutions.</td></tr><tr><td><strong>Online labour market</strong></td></tr><tr><td><p>An organizational solution where organizations employ online labour market technology to facilitate the brokering of micro-tasks among internal employees and/or external service providers.</p></td></tr></tbody></table>
 
@@ -307,9 +299,7 @@ Like any other ITIL management practice, the workforce and talent management pra
 
 The contribution of the workforce and talent management practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 shows Heat map of the contribution of workforce and talent management process](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture7.png)
-
-**Figure 3.1 Heat map of the contribution of the workforce and talent management practice to value chain activities**
+![Image of Figure 3.1 shows Heat map of the contribution of workforce and talent management process](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture7.png "**Figure 3.1 Heat map of the contribution of the workforce and talent management practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
@@ -347,9 +337,7 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image Figure 3.3 shows the workflow of the employees journey management process](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture9.png)
-
-**Figure 3.3 Workflow of the employees’ journey management process**
+![Image Figure 3.3 shows the workflow of the employees journey management process](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture9.png "**Figure 3.3 Workflow of the employees’ journey management process**")
 
 ### Table 3.4 Activities of the employees’ journey management process
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Working with permanent employees</strong></p></td></tr><tr><td><p>Segment the workforce and the employee identify journey model</p></td><td><p>Upon request for a new employee or a change in the current employee’s journey, the team manager and/or HR manager identify the type of the position (role) for the employee and the respective employee journey model.</p></td></tr><tr><td><p>Verify and adjust the employee journey model</p></td><td><p>The team manager and/or HR manager review the selected model and confirm that it is suitable for the situation. If needed, the individual journey may be adjusted based on the selected model in order to fit the specifics.</p></td></tr><tr><td><p>Follow the model</p></td><td><p>HR and team managers follow the selected model with agreed amendments. This typically includes (depending on the starting point of the journey):</p><ul><li>requirements for the role/job</li><li>competency profile</li><li>procedures for the key touchpoints at every step of the employment journey</li><li>professional development and career options</li><li>other relevant recommendations.</li></ul></td></tr><tr><td><p>Manage exceptions</p></td><td><ul><li>If an exception occurs during the employee journey, HR, and team managers handle it in line with the organization’s values, culture, and established practices.</li><li>Where reasonable, deviation from the procedures is possible, as long as they follow the values and principles, and enable value for the stakeholders.</li><li>Exceptions are documented and reviewed for future references and lessons learned.</li></ul></td></tr><tr><td><p>Review the journey</p></td><td><p>Upon significant exceptions, or regularly, HR and team managers review the employee journey models to confirm or update them based on the collected feedback, reviewed requirements, employee journey records, and new opportunities.</p></td></tr></tbody></table>
@@ -362,9 +350,7 @@ This process is focused on ensuring that the organization has sufficient compete
 
 Figure 3.4 shows a workflow diagram of the process.
 
-![Image of Figure 3.4 shows workflow diagram of the Talent Management process](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture10.png)
-
-**Figure 3.4 Workflow of the talent management process**
+![Image of Figure 3.4 shows workflow diagram of the Talent Management process](Workforce%20and%20talent%20management%20ITIL%204%20Practice%20Guide/Picture10.png "**Figure 3.4 Workflow of the talent management process**")
 
 ### Table 3.6 Activities of the *talent management* process
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Working with permanent employees</strong></p></td></tr><tr><td><p>Defining a competency vision</p></td><td><ul><li>HR managers and team managers, together with key subject matter experts within the organization and, if needed, external consultants, identify the organization’s vision for key and supporting competencies.</li><li>Where relevant, this can be based on industry competency models, but they should always be treated as a supplementary source of recommendations. Key sources are the organization’s vision and strategy.</li></ul></td></tr><tr><td><p>Competency assessment</p></td><td><ul><li>HR managers and team managers, together with key subject matter experts of the organization and if needed, external consultants, assess current competencies of the organization’s employees, identifying gaps, risks, and opportunities.</li><li>Where there are limited resources, the assessment can be limited to the key employees and competencies only. However, a holistic approach is recommended.</li></ul></td></tr><tr><td><p>Planning development and optimization</p></td><td><p>Based on the competency assessment. HR and team managers together with key subject matter experts of the organization and if needed, external consultants, plan competency development programmes for the organization.<br>The programme should be integrated into the employee journey models and support the organization’s approach to professional development.</p></td></tr><tr><td><p>Steering the development programme</p></td><td><p>HR managers oversee and steer the development programme realization, including training and development, internal and external consulting, mentoring and coaching, periodic assessment, rotations, and other agreed initiatives. Records should be kept, and feedback collected and processed, to serve as an input to the review and update of the competence vision.</p></td></tr><tr><td><p>Managing exceptions</p></td><td><ul><li>If an exception occurs during the development programme realization, HR and team managers handle it in line with the organization’s values, culture, and established practices.</li><li>Where reasonable, deviation from the procedures is possible, as long as they follow the values and principles and enable value for the stakeholders.</li><li>Exceptions are documented and reviewed for future references and lessons to be learned.</li></ul></td></tr><tr><td><p>Competency development programme review</p></td><td><p>HR and team managers review the competency development programme and vision to confirm or update them based on the collected feedback, reviewed requirements, employee journey records, and new opportunities. This occurs regularly or following significant exceptions.</p></td></tr></tbody></table>

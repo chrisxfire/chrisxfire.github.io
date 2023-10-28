@@ -401,9 +401,7 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 Workflow diagram of the testing approach and models management process](Service%20validation%20and%20testing%20ITIL%204%20Practice%20Guide/Picture5.png)
-
-**Figure 3.2 Workflow of the testing approach and models management process**
+![Image of Figure 3.2 Workflow diagram of the testing approach and models management process](Service%20validation%20and%20testing%20ITIL%204%20Practice%20Guide/Picture5.png "**Figure 3.2 Workflow of the testing approach and models management process**")
 
 Table 3.2 describes the activities in the testing approach and models management process.
 
@@ -418,9 +416,7 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.3 shows workflow diagram of the Service Validation process](Service%20validation%20and%20testing%20ITIL%204%20Practice%20Guide/Picture4.png)
-
-**Figure 3.3 Workflow of the service validation process**
+![Image of Figure 3.3 shows workflow diagram of the Service Validation process](Service%20validation%20and%20testing%20ITIL%204%20Practice%20Guide/Picture4.png "**Figure 3.3 Workflow of the service validation process**")
 
 ### Table 3.4 Sample description of activities in the service validation process
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>Documenting acceptance criteria</p></td><td><p>The service validation specialist establishes in conjunction with the service design practice and business analysis practice utility and warranty criteria that need to be tested for and met in order for a service and its components to pass tests. This activity occurs throughout the design phase&nbsp;of a service solution delivery.</p></td></tr><tr><td><p>Verifying acceptance criteria</p></td><td><p>A service validation specialist accepts test results and assures stakeholders that acceptance criteria have been met after a particular test. This activity&nbsp;occurs throughout the transition phase of a service solution delivery.</p></td></tr></tbody></table>
@@ -433,9 +429,7 @@ This process includes the activities listed in Table 3.5 and transforms the inpu
 
 Figure 3.4 shows a workflow diagram of the process.
 
-![Image of Figure 3.4 show workflow diagram of the Performing a Test process](Service%20validation%20and%20testing%20ITIL%204%20Practice%20Guide/Picture3.png)
-
-**Figure 3.4 Workflow of the performing a test process**
+![Image of Figure 3.4 show workflow diagram of the Performing a Test process](Service%20validation%20and%20testing%20ITIL%204%20Practice%20Guide/Picture3.png "**Figure 3.4 Workflow of the performing a test process**")
 
 ### **Table 3.6** Sample description of activities in the performing a test process
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>Test planning and preparation</p></td><td><p>A service testing manager reviews the acceptance criteria for the service or product being tested and plans environments, personnel, hardware, and other components that are required to perform a test, using the overall testing strategy, standards, and</p><p>applicable models.</p></td></tr><tr><td><p>Test execution</p></td><td><p>A service testing specialist uses manual or automated tests and observes and records the outputs.</p></td></tr><tr><td><p>Test exit criteria evaluation and reporting</p></td><td><p>A service testing specialist reviews the results of a test and concludes whether success (or test exit) criteria were met.</p></td></tr><tr><td><p>Test closure</p></td><td><p>A service testing manager reviews test reports and formally authorizes completion of the test, if required by the test model.</p></td></tr></tbody></table>

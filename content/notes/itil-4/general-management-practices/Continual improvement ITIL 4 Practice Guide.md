@@ -94,9 +94,7 @@ This model promotes an iterative approach to improvement; work is divided into m
 
 Figure 2.1 shows the ITIL continual improvement model.
 
-![Image of Figure 2.1 shows the ITIL continual improvement model](Continual%20improvement%20ITIL%204%20Practice%20Guide/Picture1.jpg)
-
-**Figure 2.1 ITIL continual improvement model**
+![Image of Figure 2.1 shows the ITIL continual improvement model](Continual%20improvement%20ITIL%204%20Practice%20Guide/Picture1.jpg "**Figure 2.1 ITIL continual improvement model**")
 
 #### 2.4.1.2 Improvement in complex environments
 Large improvements in complex environments create significant change. It is important to define the scale at which an initiative should be delivered using project management practices, rather than BAU.

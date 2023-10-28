@@ -37,9 +37,7 @@ Benefits for the service consumer include:
 ## 2.1.1 Service configuration models
 The service configuration management practice involves identifying and documenting the connections and relationships between configuration items. This usually results in models (known as service configuration models, service resourcing models, or functional and financial service models). These models can be focused on various aspects of the service architecture and the relationships between the components. They represent various level of abstraction, from high-level functional models (as shown in Figure 2.1) to an accurate mapping of the connections and relationships between physical and digital CIs.
 
-![Image of Figure 2.1 show a diagram of the high-level service configuration model](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture1.png)
-
-**Figure 2.1 A high-level service configuration model**
+![Image of Figure 2.1 show a diagram of the high-level service configuration model](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture1.png "**Figure 2.1 A high-level service configuration model**")
 
 Service configuration models are used for various purposes, including:
 * impact analysis
@@ -373,9 +371,7 @@ This process is focused on establishing an effective and efficient approach to t
 
 Figure 3.1 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 shows workflow diagram of managing a common approach to Service Configuration Management process](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture3.png)
-
-**Figure 3.1 Workflow of the managing a common approach to service configuration management process**  
+![Image of Figure 3.2 shows workflow diagram of managing a common approach to Service Configuration Management process](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture3.png "**Figure 3.1 Workflow of the managing a common approach to service configuration management process**")  
 
 Table 3.2 describes the process activities.
 
@@ -390,9 +386,7 @@ This process is focused on updating, maintaining, and providing configuration in
 
 Figure 3.2 shows a workflow diagram of the process
 
-![Image of Figure 3.3 shows workflow diagram of the capturing, managing, and providing configuration information process](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture4.png)
-
-**Figure 3.2 Workflow of the** **capturing, managing, and providing configuration information process**
+![Image of Figure 3.3 shows workflow diagram of the capturing, managing, and providing configuration information process](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture4.png "**Figure 3.2 Workflow of the** **capturing, managing, and providing configuration information process**")
 
 Table 3.4 describes the process activities.
 
@@ -408,9 +402,7 @@ Table 3.5 Inputs, activities and outputs of the verifying configuration data pro
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.4 shows workflow diagram of the Verifying Configuration Data process](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture5.png)
-
-**Figure 3.3 Workflow for the verifying configuration data process**
+![Image of Figure 3.4 shows workflow diagram of the Verifying Configuration Data process](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture5.png "**Figure 3.3 Workflow for the verifying configuration data process**")
 
 Table 3.6 describes the process activities.
 

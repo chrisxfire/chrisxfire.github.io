@@ -28,9 +28,7 @@ The architecture management practice should describe the organization’s servic
 
 This is illustrated in Figure 2.1.
 
-![image of Figure 2.1 shows Architecture levels and the four dimensions of service management](Architecture%20management%20ITIL%204%20Practice%20Guide/Picture1.png)
-
-**Figure 2.1 Architecture levels and the four dimensions of service management**
+![image of Figure 2.1 shows Architecture levels and the four dimensions of service management](Architecture%20management%20ITIL%204%20Practice%20Guide/Picture1.png "**Figure 2.1 Architecture levels and the four dimensions of service management**")
 
 The architecture management practice ensures that:
 * the organization’s current architecture is understood and mapped to the organization’s strategy
@@ -146,9 +144,7 @@ Like any other ITIL management practice, the architecture management practice co
 
 The contribution of the architecture management practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 shows Heat map of the contribution of the Architecture Management practice to the service Value Chain activities](Architecture%20management%20ITIL%204%20Practice%20Guide/Picture2.png)
-
-**Figure 3.1: Heat map of the contribution of the architecture management practice to the service value chain activities**
+![Image of Figure 3.1 shows Heat map of the contribution of the Architecture Management practice to the service Value Chain activities](Architecture%20management%20ITIL%204%20Practice%20Guide/Picture2.png "**Figure 3.1: Heat map of the contribution of the architecture management practice to the service value chain activities**")
 
 # 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
@@ -168,9 +164,7 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 shows Workflow diagram of the Architecture Governance process](Architecture%20management%20ITIL%204%20Practice%20Guide/Picture3.png)
-
-**Figure 3.2 Workflow of the architecture governance process**
+![Image of Figure 3.2 shows Workflow diagram of the Architecture Governance process](Architecture%20management%20ITIL%204%20Practice%20Guide/Picture3.png "**Figure 3.2 Workflow of the architecture governance process**")
 
 Table 3.2 provides examples of high-level descriptions of each of the activities of the architecture governance process.
 
@@ -185,9 +179,7 @@ This process includes the activities listed in Table 3.3, and transforms the inp
 
 Figure 3.3 shows the workflow for the *development of a target architecture and road map* process.
 
-![Image of Figure 3.3 shows workflow diagram of the development of a target architecture and road map process](Architecture%20management%20ITIL%204%20Practice%20Guide/Picture4.png)
-
-**Figure 3.3 Workflow of the development of a target architecture and road map process**
+![Image of Figure 3.3 shows workflow diagram of the development of a target architecture and road map process](Architecture%20management%20ITIL%204%20Practice%20Guide/Picture4.png "**Figure 3.3 Workflow of the development of a target architecture and road map process**")
 
 Table 3.4 provides examples of high-level descriptions of each of the activities of the *development of a target architecture and road map* process.
 
@@ -202,9 +194,7 @@ This process is focused on the implementation of the architecture road map and m
 
 Figure 3.4 shows the workflow for the *ongoing architectural control* process.
 
-![Image of Figure 3.4 shows workflow diagram of the ongoing Architecture Control process](Architecture%20management%20ITIL%204%20Practice%20Guide/Picture5.png)
-
-**Figure 3.4 Workflow of the ongoing architectural control process**
+![Image of Figure 3.4 shows workflow diagram of the ongoing Architecture Control process](Architecture%20management%20ITIL%204%20Practice%20Guide/Picture5.png "**Figure 3.4 Workflow of the ongoing architectural control process**")
 
 Table 3.6 provides examples of high-level descriptions of each of the activities of the *ongoing architectural control* process.
 

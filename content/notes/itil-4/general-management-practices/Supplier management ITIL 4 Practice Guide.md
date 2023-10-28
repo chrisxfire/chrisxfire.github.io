@@ -150,9 +150,7 @@ Like any other ITIL management practice, the supplier management practice contri
 
 The contribution of the supplier management practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 shows Heat map of the contribution of the Supplier Management practice to Value Chain activities](Supplier%20management%20ITIL%204%20Practice%20Guide/Picture1.png)
-
-**Figure 3.1 Heat map of the contribution of the supplier management practice to value chain activities**
+![Image of Figure 3.1 shows Heat map of the contribution of the Supplier Management practice to Value Chain activities](Supplier%20management%20ITIL%204%20Practice%20Guide/Picture1.png "**Figure 3.1 Heat map of the contribution of the supplier management practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
@@ -171,9 +169,7 @@ This process is focused on defining, agreeing, and promoting an organization-wid
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 shows Workflow of the managing a common approach to Supplier Management process](Supplier%20management%20ITIL%204%20Practice%20Guide/Picture2.png)
-
-**Figure 3.2 Workflow of the managing a common approach to supplier management process**
+![Image of Figure 3.2 shows Workflow of the managing a common approach to Supplier Management process](Supplier%20management%20ITIL%204%20Practice%20Guide/Picture2.png "**Figure 3.2 Workflow of the managing a common approach to supplier management process**")
 
 Table 3.2 provides examples of the process activities.
 
@@ -189,9 +185,7 @@ This process is focused on managing suppliers through their journey. It includes
 
 Figure 3.3 shows a workflow of the diagram process.
 
-![Image of Figure 3.3 shows workflow of the Managing Supplier journeys process](Supplier%20management%20ITIL%204%20Practice%20Guide/Picture3.png)
-
-**Figure 3.3 Workflow of the managing supplier journeys process**
+![Image of Figure 3.3 shows workflow of the Managing Supplier journeys process](Supplier%20management%20ITIL%204%20Practice%20Guide/Picture3.png "**Figure 3.3 Workflow of the managing supplier journeys process**")
 
 The process may vary, depending on nature of the service relationship type. Table 3.4 provides examples of the process activities  
 
