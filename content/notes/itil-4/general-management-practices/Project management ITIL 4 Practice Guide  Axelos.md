@@ -11,7 +11,7 @@ Axelos International (https://www.axelos.com)
 # 2. Overview
 **Key Message**: The purpose of the project management practice is to ensure that all projects in the organization are successfully delivered. This is achieved by planning, delegating, monitoring, and maintaining control of all aspects of a project, and ensuring motivation for the people involved.</p></td></tr></tbody></table>
 
-<table><tbody><tr><td><strong>ITIL architect's note</strong></td></tr><tr><td><p>When the architecture of ITIL 4 was designed, it seemed a revolutionary decision to include the project management practice in the scope of ITIL. The ability to manage projects effectively is important to every organization, especially if it is good at tailoring various methods to its needs and environment. Therefore, project management was added. However, as we were working through details of the practices, we came to a conclusion that this is not enough, as projects should never be managed in isolation; they should contribute to a greater purpose defined by an organization and/or a programme. As a result, this practice guide covers project and programme management; the purpose of the practice can be updated to the following:</p><ul><li>The purpose of the programme and project management practice(s) is to ensure that all projects in the organization are successfully delivered and contribute to creation of value for stakeholders of the organization and its programmes.</li><li>The practice is referred to as PPM (programme and project management) in this guide; in the sections and paragraphs focused on project management or programme management specifically, we used specific terms referring to projects or programmes.</li><li>We hope that this expansion of the scope will prove to be valuable for the practitioners, and we plan to reflect it in the next editions of ITIL Foundation and other ITIL publications with references to project management.</li></ul></td></tr></tbody></table>
+**ITIL architect's note**: When the architecture of ITIL 4 was designed, it seemed a revolutionary decision to include the project management practice in the scope of ITIL. The ability to manage projects effectively is important to every organization, especially if it is good at tailoring various methods to its needs and environment. Therefore, project management was added. However, as we were working through details of the practices, we came to a conclusion that this is not enough, as projects should never be managed in isolation; they should contribute to a greater purpose defined by an organization and/or a programme. As a result, this practice guide covers project and programme management; the purpose of the practice can be updated to the following:</p><ul><li>The purpose of the programme and project management practice(s) is to ensure that all projects in the organization are successfully delivered and contribute to creation of value for stakeholders of the organization and its programmes.</li><li>The practice is referred to as PPM (programme and project management) in this guide; in the sections and paragraphs focused on project management or programme management specifically, we used specific terms referring to projects or programmes.</li><li>We hope that this expansion of the scope will prove to be valuable for the practitioners, and we plan to reflect it in the next editions of ITIL Foundation and other ITIL publications with references to project management.
 
 Programme and project management play an integral part in planning and introducing changes to an organization while optimizing the use of resources, accounting for risks, and linking changes to achieve the expected value.
 
@@ -38,7 +38,7 @@ In this practice guide, key terms and definitions are based on AXELOS PPM BoKs a
 * P3O<sup>®</sup>.
 
 ### 2.2.1 Programme
-<table><tbody><tr><td><p><strong>Definition: Programme</strong></p></td></tr><tr><td><p>A temporary, flexible structure created to coordinate, direct, and oversee the implementation of a set of related projects and activities in order to deliver outcomes and benefits related to the organization’s strategic objectives.</p></td></tr></tbody></table>
+**Programme** — A temporary, flexible structure created to coordinate, direct, and oversee the implementation of a set of related projects and activities in order to deliver outcomes and benefits related to the organization’s strategic objectives.
 
 The focus of programmes is to deliver outcomes and benefits rather than outputs or products. A programme coordinates the projects within its boundaries and is more concerned with stakeholder engagement, communication, and direction when compared to projects.
 
@@ -46,10 +46,10 @@ The programme endeavours to gradually deliver changes in organizational capabili
 
 The typical lifecycle or transformational flow of a programme is described in *Managing Successful Programmes* (MSP). This is shown in Figure 2.1.
 
-![Image of Figure 2.1 shows MSP transformation workflow](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture7.png "**Figure 2.1 MSP transformational flow**")
+![Image of Figure 2.1 shows MSP transformation workflow](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture7.png "Figure 2.1 MSP transformational flow**")
 
 ### 2.2.2 Project
-<table><tbody><tr><td><p><strong>Definition: Project</strong></p></td></tr><tr><td><p>A temporary structure that is created for the purpose of delivering one or more products according to an agreed business case.</p></td></tr></tbody></table>
+**Project** — A temporary structure that is created for the purpose of delivering one or more products according to an agreed business case.
 
 The focus of projects is to deliver outputs (products or other deliverables) within defined parameters of time, cost, and quality. By doing so, those outputs are of value to the organization.
 
@@ -57,24 +57,24 @@ These outputs also allow the organization to realize benefits, but, in tradition
 
 The typical lifecycle of a traditional linear (waterfall) project as described in *Managing Successful Projects with PRINCE2*® is shown in Figure 2.2.
 
-![Image of Figure 2.2 represents PRINCE2 project management processes](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture8.png "**Figure 2.2 PRINCE2 project management processes**")
+![Image of Figure 2.2 represents PRINCE2 project management processes](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture8.png "Figure 2.2 PRINCE2 project management processes**")
 
 An Agile approach works similarly to a programme but in a highly compressed timeframe. The agile delivery is planned in increments, and it is expected that benefits are generated at the deployment of each increment. Therefore, the organization receives its benefits as early as possible.
 
 The typical lifecycle of an Agile project as described in *PRINCE2 Agile*® is shown in Figure 2.3.
 
-![Image of Figure 2.3 shows the PRINCE Agile project management processes](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture9.png "**Figure 2.3 PRINCE2 Agile Project Management Process**")
+![Image of Figure 2.3 shows the PRINCE Agile project management processes](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture9.png "Figure 2.3 PRINCE2 Agile Project Management Process**")
 
 ### 2.2.3 Agile
 The term ‘agile’ is very broad and is viewed in many different ways within the agile community. There is a set of well-known frameworks referred to as ‘Agile methods’, and there are also well-known behaviours, concepts, and techniques that are recognized as characterizing the agile way of working. However, there is no single definition of agile that accurately encapsulates them all, although the Agile Manifesto<sup>1</sup>, which is shown in Figure 2.4, comes quite close.
 
-![Image of Figure 2.4 shows the Agile Manifesto 2001](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture10.png "**Figure 2.4 The Agile Manifesto 2001**")
+![Image of Figure 2.4 shows the Agile Manifesto 2001](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture10.png "Figure 2.4 The Agile Manifesto 2001**")
 
 Agile became so popular because it helped to address the new demands being placed on how software was delivered. It needed to be produced more frequently while retaining a specified level of quality to meet the demands of the digital age. (For more on agile software development see the software development and management practice guide and *ITIL**® 4: High-velocity IT*, section 4.2).
 
 In contrast to the traditional methods of delivery, the Agile phases are shorter, more iterative, and incremental. There is also a move to achieve early delivery of benefits by deploying products at the earliest opportunity, as described in Figure 2.5.
 
-![Image of Figure 2.5 shows Agile versus Waterfall](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture11.png "**Figure 2.5 Agile versus waterfall**")
+![Image of Figure 2.5 shows Agile versus Waterfall](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture11.png "Figure 2.5 Agile versus waterfall**")
 
 On the left of figure 2.5, the incremental Agile approach allows for multiple deployments throughout the project. The waterfall delivery on the right tends to allow for a single delivery at the end of the project.
 
@@ -99,7 +99,7 @@ An organization usually develops an approach to PPM based on one or more BoKs, m
 ### 2.2.7 Directing, managing, and delivering
 There are three key levels of control in the PPM practice: direction, management, and delivery. In programmes and projects, these three layers have ‘air-gaps’ between them in order to allow the levels of management to exercise control without micro-managing the layer below. These ‘air-gaps’ are constructed with a controlled connectivity between the layers so that each layer can work within the parameters laid down by the layer above. This is known as management by exception, where only exceptions to those parameters are brought to the attention of the upper layer for a decision. Figure 2.6 shows an example of this approach.
 
-![Image of Figure 2.6 represents Directing, managing projects and delivering products in an organization](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture12.png "**Figure 2.6 Directing, managing projects, and delivering products in an organization**")
+![Image of Figure 2.6 represents Directing, managing projects and delivering products in an organization](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture12.png "Figure 2.6 Directing, managing projects, and delivering products in an organization**")
 
 ### 2.2.8 Managing programmes
 To manage a programme successfully, it requires:
@@ -128,11 +128,11 @@ A vision is a picture of a better future and is the vital focus and enabler for 
 #### 2.2.8.3 Focus on value
 Value drives many aspects of programme management, which means it is the centre of programme management; programmes are primarily driven by the need to enable value by delivering benefits.
 
-<table><tbody><tr><td><p><strong>Definition: Benefit</strong></p></td></tr><tr><td><p>A measurable improvement resulting from an outcome perceived as an advantage by one or more stakeholders.</p></td></tr></tbody></table>
+**Benefit** — A measurable improvement resulting from an outcome perceived as an advantage by one or more stakeholders.
 
 Figure 2.7 illustrates the extent of the impact of benefits management within a programme.
 
-![Image of Figure 2.7 show the extent of the impact of Benefits management within a programme](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture13.png "**Figure 2.7 The extent of the impact of benefits management within a programme**")
+![Image of Figure 2.7 show the extent of the impact of Benefits management within a programme](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture13.png "Figure 2.7 The extent of the impact of benefits management within a programme**")
 
 ### 2.2.9 Directing projects
 To direct a project successfully, the duties of a project board include:
@@ -196,7 +196,7 @@ The delivery of products in an Agile environment relies on considering two major
 * prioritization and timeboxing/sprints.
 
 #### 2.2.11.1 What to fix and what to flex
-![Image of Figure 2.8 shows a diagram that represents Applying Tolerances to a project,  such as what to Fix and what to Flex](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture14.png "**Figure 2.8 Applying tolerances to a project**")
+![Image of Figure 2.8 shows a diagram that represents Applying Tolerances to a project,  such as what to Fix and what to Flex](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture14.png "Figure 2.8 Applying tolerances to a project**")
 
 Table 2.2 demonstrates PRINCE2 Agile views.
 
@@ -289,12 +289,12 @@ Like any other ITIL management practice, the PPM practice contributes to multipl
 
 The contribution of the PPM practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 shows heat map of the Contribution of the PPM Practice to Value Chain process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture15.png "**Figure 3.1 Heat map of the contribution of the PPM practice to value chain activities**")
+![Image of Figure 3.1 shows heat map of the Contribution of the PPM Practice to Value Chain process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture15.png "Figure 3.1 Heat map of the contribution of the PPM practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+**Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.
 
 The PPM practice activities form five major processes:
 * managing the organization’s approach to PPM
@@ -310,7 +310,7 @@ This process is focused on defining, agreeing, communicating, and promoting an o
 
 Figure 3.2 shows a workflow diagram of the process
 
-![Image of Figure 3.2 shows workflow of the Managing a Common Approach to PPM process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture16.png "**Figure 3.2 Workflow of the managing a common approach to PPM process**")
+![Image of Figure 3.2 shows workflow of the Managing a Common Approach to PPM process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture16.png "Figure 3.2 Workflow of the managing a common approach to PPM process**")
 
   
 Table 3.2 provides examples of the process activities.
@@ -326,7 +326,7 @@ The purpose of the directing projects process is to enable the project board to 
 
 Figure 3.3 shows a workflow diagram of the process
 
-![Image of Figure 3.3 shows workflow of the  Directing Projects process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture8a.png "**Figure 3.3 Workflow of the directing projects process**")
+![Image of Figure 3.3 shows workflow of the  Directing Projects process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture8a.png "Figure 3.3 Workflow of the directing projects process**")
 
 Table 3.4 describes the activities of the process.
 
@@ -340,7 +340,7 @@ The purpose of the managing projects process is to enable the project manager to
 
 Figure 3.4 shows a workflow diagram of the process.
 
-![Image of Figure 3.4 shows the workflow process for Managing Projects](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture18.png "**Figure 3.4 Workflow of the managing projects process**")
+![Image of Figure 3.4 shows the workflow process for Managing Projects](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture18.png "Figure 3.4 Workflow of the managing projects process**")
 
 ### Table 3.6 Activities of the managing projects process
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Example</strong></p></td></tr><tr><td><p>Starting up a project</p></td><td><p>To ensure that the prerequisites for initiating a project are in place by answering the question ‘Do we have a viable and worthwhile project?’</p></td></tr><tr><td><p>Initiating a project</p></td><td><p>To establish solid foundations for the project, enabling the organization to understand the work that needs to be done to deliver the project product before committing to a significant spend.</p></td></tr><tr><td><p>Controlling a stage</p></td><td><ul><li>To assign work to be done, monitor such work, deal with issues, report progress to the project board, and take corrective actions to ensure the management stage remains within tolerance.</li></ul><ul><li>Lessons learnt from this activity may serve as an input into the PPM approach review.</li></ul></td></tr><tr><td><p>Managing a stage boundary</p></td><td><ul><li>To enable the project manager to provide the project board with sufficient information to be able to review the success of the current stage, approve the next stage plan, review the updated delivery plan, and confirm the viability of the business case.</li></ul><ul><li>Lessons learnt from this activity may serve as an input into the PPM approach review.</li></ul></td></tr><tr><td><p>Closing a project</p></td><td><ul><li>To provide a fixed point at which the acceptance of the project product is confirmed and recognize the objectives have been met.</li></ul><ul><li>Lessons learnt from this activity may serve as an input into the PPM approach review.</li></ul></td></tr></tbody></table>
@@ -353,7 +353,7 @@ The purpose of the managing product delivery process is to enable the solution d
 
 Figure 3.5 shows a workflow diagram of the process.
 
-![Image of Figure 3.5 shows the workflow Managing Product Delivery process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture21.png "**Figure 3.5 Workflow of the managing product delivery process**")
+![Image of Figure 3.5 shows the workflow Managing Product Delivery process](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture21.png "Figure 3.5 Workflow of the managing product delivery process**")
 
 Table 3.8 provides examples of the process activities.
 
@@ -418,7 +418,7 @@ The project manager is responsible for the work in the managing projects and man
 
 As the single focus for the day-to-day management of a project, there are many different aspects to the project manager role, some of which are shown in Figure 4.1.
 
-![Image of Figure 4.1 shows the facets of the project manager role](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture20.png "**Figure 4.1 The facets of the project manager role**")
+![Image of Figure 4.1 shows the facets of the project manager role](Project%20management%20ITIL%204%20Practice%20Guide%20%20Axelos/Picture20.png "Figure 4.1 The facets of the project manager role**")
 
 ### 4.1.3 Team manager
 The team manager’s prime responsibility is to ensure that the products are produced to an appropriate quality, as defined by the project manager, and adheres to the set timescale and cost accepted by the project board. The team manager is accountable to, and takes direction from, the project manager.
@@ -484,198 +484,24 @@ This information may take various forms, depending on the nature of the projects
 In some cases, the PPM practice can significantly benefit from automation. Where this is possible and effective, it may involve the solutions outlined in Table 5.1.
 
 ### Table 5.1 Automation solutions for PPM activities
-**Process activity**
-**Means of automation**
-**Key functionality**
-**Impact on the effectiveness of the practice**
-
- |  |
+| Process activity | Task | Means of automation | Key functionality | Impact on the effectiveness of the practice | 
 | --- | --- | --- | --- | --- |
-
-**Managing the organization’s approach to PPM**
-Develop and agree the PPM approach
-* Collaboration and communication tools
-* Mind mapping and brainstorming tools
-* Workflow modelling and visualization tools, communication and collaboration tools
-* Collaboration, information exchange
-* Workflow modelling, visualization, activities, and responsibilities mapping
-Medium
-
- |  |
-
-Communicate and embed the PPM approach
-Communication and collaboration tools, presentation tools, portals
-Support of promotion, training, and awareness
-Medium
-
- |  |
-
-Review and adjust the PPM approach
-Collaboration and communication tools, reporting tools, visualization tools
-Collaboration, information exchange, report creation and distribution, dashboarding
-Medium
-
- |  |
-
-**Directing projects**
-Authorize initiation
-* Communication and collaboration tools
-* Workflow automation tools
-* Collaboration and remote work, dashboarding
-* Business process, workflow, and approval automation
-High
-
- |  |
-
-Authorize the project
-* Communication and collaboration tools
-* Workflow automation tools
-* Collaboration and remote work, dashboarding
-* Business process, workflow, and approval automation
-High
-
- |  |
-
-Authorize a stage or exception plan
-* Communication and collaboration tools
-* Workflow automation tools
-* Reporting tools
-* Documentation tools
-* Collaboration and remote work
-* Business process, workflow, and approval automation
-* Reports creation and publishing, dashboarding
-* Documents depository and archive
-High
-
- |  |
-
-Give ad hoc direction
-Communication and collaboration tools
-Collaboration and remote work
-Low
-
- |  |
-
-Authorize project closure
-* Communication and collaboration tools
-* Workflow automation tools
-* Reporting tools
-* Documentation tools
-* Collaboration and remote work
-* Business process, workflow, and approval automation
-* Reports creation and publishing, dashboarding
-* Documents depository and archive
-High
-
- |  |
-
-**Managing projects**
-Starting up a project
-* Communication and collaboration tools
-* Documentation tools
-* Workflow automation tools
-* Reporting tools
-* Collaboration and remote work
-* Documents depository and archive
-* Business process, workflow, and approval automation
-* Reports creation and publishing, dashboarding
-High
-
- |  |
-
-Initiating a project
-* Communication and collaboration tools
-* Documentation tools
-* Workflow automation tools
-* Project management tools
-* Collaboration and remote work
-* Documents depository and archive
-* Business process, workflow, and approval automation
-* Scope, statement of work, backlog, tasks assignment, risks, timeframe control
-High
-
- |  |
-
-Controlling a stage
-* Communication and collaboration tools
-* Documentation management tools
-* Workflow automation tools
-* Reporting and distribution tools
-* Project management tools
-* Collaboration and remote work
-* Documents depository and archive
-* Business process, workflow, and approval automation
-* Reports creation and publishing, dashboarding
-* Scope, work breakdown structure, schedule, resources, budget management, risks, task assignment and control
-* Backlog management, task assignment and Kanban boards, sprints management, user stories/epic management
-* Retrospective and risks and lessons learnt logging
-High
-
- |  |
-
-Managing a stage boundary
-* Communication and collaboration tools
-* Documentation management tools
-* Workflow automation tools
-* Reporting tools
-* Project management tools
-* Budget management tools
-* Collaboration and remote work
-* Documents depository and archive
-* Business process, workflow, and approval automation
-* Reporting, dashboarding, data visualization
-* Scope, statement of work, backlog, tasks assignment, risks, timeframe control
-* Costs consolidation, budget management and reporting, financial analysis
-High
-
- |  |
-
-Closing a project
-* Communication and collaboration tools
-* Workflow automation tools
-* Reporting tools
-* Documentation tools
-* Collaboration and remote work
-* Business process, workflow, and approval automation
-* Reports creation and publishing, dashboarding
-* Documents depository and archive
-* Retrospective and risks and lessons learnt logging
-High
-
- |  |
-
-**Managing product delivery**
-Accept a work package
-* Communication and collaboration tools
-* Workflow automation tools
-* Backlog management tools
-* WBS management tools
-* Collaboration and remote work
-* Business process, workflow, and approval automation
-* Backlog items /work packages /tasks assignment and control
-High
-
- |  |
-
-Execute a work package
-* Communication and collaboration tools
-* Workflow automation tools
-* Collaboration and remote work
-* Workflow and approval automation
-High
-
- |  |
-
-Deliver a work package
-* Communication and collaboration tools
-* Workflow automation tools
-* Reporting tools
-* Collaboration and remote work
-* Workflow and approval automation
-* Reports creation and publishing, dashboarding, automated notifications
-High
-
- |  |
+| **Managing the organization’s approach to PPM** | Develop and agree the PPM approach | Collaboration and communication tools <br /> Mind mapping and brainstorming tools <br /> | Workflow modelling and visualization tools, communication and collaboration tools <br /> Collaboration, information exchange <br /> Workflow modelling, visualization, activities, and responsibilities mapping <br /> | Medium |
+| | Communicate and embed the PPM approach | Communication and collaboration tools, presentation tools, portals <br /> | Support of promotion, training, and awareness <br /> | Medium |
+| | Review and adjust the PPM approach | Collaboration and communication tools, reporting tools, visualization tools <br /> | Collaboration, information exchange, report creation and distribution, dashboarding <br /> | Medium |
+| **Directing projects** | Authorize initiation | Communication and collaboration tools <br /> Workflow automation tools <br /> | Collaboration and remote work, dashboarding <br /> Business process, workflow, and approval automation <br /> | High |
+| | Authorize the project | Communication and collaboration tools <br /> Workflow automation tools <br /> | Collaboration and remote work, dashboarding <br /> Business process, workflow, and approval automation <br /> | High |
+| | Authorize a stage or exception plan | Communication and collaboration tools <br /> Workflow automation tools <br /> Reporting tools <br /> Documentation tools <br /> | Collaboration and remote work <br /> Business process, workflow, and approval automation <br /> Reports creation and publishing, dashboarding <br /> Documents depository and archive <br /> | High |
+| | Give ad hoc direction | Communication and collaboration tools | Collaboration and remote work | Low |
+| | Authorize project closure | Communication and collaboration tools <br /> Workflow automation tools <br /> Reporting tools <br /> Documentation tools <br /> | Collaboration and remote work <br /> Business process, workflow, and approval automation <br /> Reports creation and publishing, dashboarding <br /> Documents depository and archive <br /> | High |
+| **Managing projects** | Starting up a project | Communication and collaboration tools <br /> Documentation tools <br /> Workflow automation tools <br /> Reporting tools <br /> | Collaboration and remote work <br /> Documents depository and archive <br /> Business process, workflow, and approval automation <br /> Reports creation and publishing, dashboarding <br /> | High |
+| | Initiating a project | Communication and collaboration tools <br /> Documentation tools <br /> Workflow automation tools <br /> Project management tools <br /> | Collaboration and remote work <br /> Documents depository and archive <br /> Business process, workflow, and approval automation <br /> Scope, statement of work, backlog, tasks assignment, risks, timeframe control <br /> | High |
+| | Controlling a stage | Communication and collaboration tools <br /> Documentation management tools <br /> Workflow automation tools <br /> Reporting and distribution tools <br /> Project management tools <br /> | Collaboration and remote work <br /> Documents depository and archive <br /> Business process, workflow, and approval automation <br /> Reports creation and publishing, dashboarding <br /> Scope, work breakdown structure, schedule, resources, budget management, risks, task assignment and control <br /> Backlog management, task assignment and Kanban boards, sprints management, user stories/epic management <br /> Retrospective and risks and lessons learnt logging <br /> | High |
+| | Managing a stage boundary | Communication and collaboration tools <br /> Documentation management tools <br /> Workflow automation tools <br /> Reporting tools <br /> Project management tools <br /> Budget management tools <br /> | Collaboration and remote work <br /> Documents depository and archive <br /> Business process, workflow, and approval automation <br /> Reporting, dashboarding, data visualization <br /> Scope, statement of work, backlog, tasks assignment, risks, timeframe control <br /> Costs consolidation, budget management and reporting, financial analysis <br /> | High |
+| | Closing a project | Communication and collaboration tools <br /> Workflow automation tools <br /> Reporting tools <br /> Documentation tools <br /> | Collaboration and remote work <br /> Business process, workflow, and approval automation <br /> Reports creation and publishing, dashboarding <br /> Documents depository and archive <br /> Retrospective and risks and lessons learnt logging <br /> | High |
+| **Managing product delivery** | Accept a work package | Communication and collaboration tools <br /> Workflow automation tools <br /> Backlog management tools <br /> WBS management tools <br /> | Collaboration and remote work <br /> Business process, workflow, and approval automation <br /> Backlog items /work packages /tasks assignment and control <br /> | High |
+| | Execute a work package | Communication and collaboration tools <br /> Workflow automation tools <br /> | Collaboration and remote work <br /> Workflow and approval automation <br /> | High |
+| | Deliver a work package | Communication and collaboration tools <br /> Workflow automation tools <br /> Reporting tools <br /> | Collaboration and remote work <br /> Workflow and approval automation <br /> Reports creation and publishing, dashboarding, automated notifications <br /> | High |
 
 # 6. Partners and suppliers
 Very few services are delivered using only an organization’s own resources. Most, if not all, depend on other services, often provided by third parties outside the organization (see section 2.4 of *ITIL Foundation: ITIL 4 Edition* for a model of a service relationship). This means that organizations use suppliers in their projects for the resources in all four dimensions of service management. This includes, but is not limited to, supplier’s products and services, competencies and expertise, tools and data, market presence, strategic relationships, and so on.

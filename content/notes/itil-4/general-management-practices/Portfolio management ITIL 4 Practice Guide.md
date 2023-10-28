@@ -11,7 +11,7 @@ Axelos International (https://www.axelos.com)
 # 2. Overview
 *Key message*: The purpose of the portfolio management practice is to ensure that the organization has the right mix of programmes, projects, products, and services to execute the organization’s strategy within its funding and resource constraints.
 
-<table><tbody><tr><td><p><strong>Definition: Portfolio</strong></p></td></tr><tr><td><p>A collection of assets into which an organization chooses to invest its resources in order to receive the best return.</p></td></tr></tbody></table>
+**Portfolio** — A collection of assets into which an organization chooses to invest its resources in order to receive the best return.
 
 Portfolio management plays an important role in allocating, deploying, and managing resources across the organization.
 
@@ -164,7 +164,7 @@ Like any other ITIL management practice, the portfolio management practice contr
 
 The contribution of the portfolio management practice to the service value stream is shown in Figure 3.1.
 
-![Image of Figure 3.1 show Heat Map for the Contribution of portfolio management practice to Value Chain activities](Portfolio%20management%20ITIL%204%20Practice%20Guide/Picture2.png "**Figure 3.1 Heat map of the contribution of the portfolio management practice to value chain activities**")
+![Image of Figure 3.1 show Heat Map for the Contribution of portfolio management practice to Value Chain activities](Portfolio%20management%20ITIL%204%20Practice%20Guide/Picture2.png "Figure 3.1 Heat map of the contribution of the portfolio management practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
@@ -183,7 +183,7 @@ This process is focused on defining, agreeing, and promoting an organization-wid
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 show workflow diagram of managing the organization’s approach to portfolios process](Portfolio%20management%20ITIL%204%20Practice%20Guide/Picture3.png "**Figure 3.2 Workflow of the managing the organization’s approach to portfolios process**")
+![Image of Figure 3.2 show workflow diagram of managing the organization’s approach to portfolios process](Portfolio%20management%20ITIL%204%20Practice%20Guide/Picture3.png "Figure 3.2 Workflow of the managing the organization’s approach to portfolios process**")
 
 The process may vary depending on the scale and type of the organization, its stakeholders, and its culture. Table 3.2 provides examples of the process activities.
 
@@ -200,7 +200,7 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.3 show workflow diagram of managing portfolios’ lifecycles process](Portfolio%20management%20ITIL%204%20Practice%20Guide/Picture4.png "**Figure 3.3 Workflow of the managing the portfolios’ lifecycles process**")
+![Image of Figure 3.3 show workflow diagram of managing portfolios’ lifecycles process](Portfolio%20management%20ITIL%204%20Practice%20Guide/Picture4.png "Figure 3.3 Workflow of the managing the portfolios’ lifecycles process**")
 
 The process may vary, depending on the level of maturity in portfolio management. Table 3.4 describes the activities of the process.
 

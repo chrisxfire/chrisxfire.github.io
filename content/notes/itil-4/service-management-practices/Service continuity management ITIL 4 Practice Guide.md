@@ -23,7 +23,7 @@ Please refer to the relevant syllabus document for details.
 ## **2.1 Purpose and description**
 **Key Message**: The purpose of the service continuity management practice is to ensure that the availability and performance of a service are maintained at sufficient levels in case of a disaster. The practice provides a framework for building organizational resilience with the capability of producing an effective response that safeguards the interests of key stakeholders and the organization’s reputation, brand, and value-creating activities.</p></td></tr></tbody></table>
 
-<table><tbody><tr><td><p><strong>Definition: Disaster</strong></p></td></tr><tr><td><p>A sudden unplanned event that causes great damage or serious loss to an organization. To be classified as a disaster, the event must match certain business-impact criteria that are predefined by the organization.</p></td></tr></tbody></table>
+**Disaster** — A sudden unplanned event that causes great damage or serious loss to an organization. To be classified as a disaster, the event must match certain business-impact criteria that are predefined by the organization.
 
 The service continuity management practice helps to ensure a service provider’s readiness to respond to high-impact incidents which disrupt the organization’s core activities and/or credibility.
 
@@ -42,7 +42,7 @@ The service continuity management practice is closely related to, and in some co
 In a service economy, every organization’s business is service-driven and digitally enabled. This may lead to a full integration of the disciplines because the business continuity management practice is concerned with the continuity of digital services and service management. This integration is possible and useful where digital transformation has led to the removal of the borders between ‘IT management’ and ‘business management’ (see ITIL® 4: High-Velocity IT for more on this topic).
 
 ## **2.2 Terms and concepts**
-<table><tbody><tr><td><p><strong>Definition: Service continuity</strong></p></td></tr><tr><td><p>The capability of the service provider to continue service operation at acceptable predefined levels following a disaster event or disruptive incident.</p></td></tr></tbody></table>
+**Service continuity** — The capability of the service provider to continue service operation at acceptable predefined levels following a disaster event or disruptive incident.
 
 For internal service providers, the main objective of the service continuity management practice is to support the overall business continuity management practice by ensuring that, through managing the risks that could affect IT services, the service provider can always provide the relevant agreed service levels.
 
@@ -78,7 +78,7 @@ Figure 2.1 Service continuity requirements: RTO, RPO, minimum target service lev
 ![Figure 2.1 Service continuity requirements: RTO, RPO, minimum target service level](Service%20continuity%20management%20ITIL%204%20Practice%20Guide/Figure_2.1_Service_continuity_requirements_RTO_RPO_minimum_target_service_level.png)
 
 ### **2.2.2 Recovery time objective**
-<table><tbody><tr><td><p><strong>Definition: Recovery time objective</strong></p></td></tr><tr><td><p>The maximum period of time following a service disruption that can elapse before the lack of business functionality severely impacts the organization. This represents the maximum agreed time within which a product or an activity must be resumed, or resources must be recovered.</p></td></tr></tbody></table>
+**Recovery time objective** — The maximum period of time following a service disruption that can elapse before the lack of business functionality severely impacts the organization. This represents the maximum agreed time within which a product or an activity must be resumed, or resources must be recovered.
 
 The main factors that should be considered in estimating the RTO are:
 * the reduction in a service provider’s ability to deliver services and the costs associated with this reduction
@@ -94,7 +94,7 @@ ISO 22301:2012 provides the following definitions:
 Following this logic, the RTO should be less than the MAO by an amount which accounts for the organizational risk appetite<sup>3</sup>. The MAO should be identified during business impact analysis. RTO should be defined during the development of service continuity plans.
 
 ### **2.2.3 Recovery point objective**
-<table><tbody><tr><td><p><strong>Definition: Recovery point objective</strong></p></td></tr><tr><td><p>The point to which the information that is used by an activity must be restored in order to enable the activity to operate effectively upon resumption.</p></td></tr></tbody></table>
+**Recovery point objective** — The point to which the information that is used by an activity must be restored in order to enable the activity to operate effectively upon resumption.
 
 RPO defines the period of time of acceptable data loss. If the RPO is 30 minutes, there should be at least one backup 30 minutes prior to a disruptive event so that, when the service is recovered, the data from the time 30 minutes or less prior to the disruptive event will be available when service delivery is resumed.
 
@@ -108,7 +108,7 @@ For example, an online shop takes 100 orders per hour. Executives say that losin
 The RPO defines the requirement for backup frequency. Backup management must ensure the availability of recent backup copy in case of disaster.
 
 ### **2.2.4 Minimum target service level**
-<table><tbody><tr><td><p><strong>Definition: Minimum target service level</strong></p></td></tr><tr><td><p>The level of service which is acceptable to the service provider to achieve its objectives during a disruption<sup>4</sup>.</p></td></tr></tbody></table>
+**Minimum target service level** — The level of service which is acceptable to the service provider to achieve its objectives during a disruption<sup>4</sup>.
 
 While recovering from a disaster, a service provider should usually provide the service at some minimum target service level. Even though there are no specific requirements from the customer, achieving a minimum service level can help to minimize losses.
 
@@ -118,7 +118,7 @@ The minimum target service level is usually defined in terms of:
 * limited number of transactions per time period that users should be able to process during a disruption.
 
 ### **2.2.5 Business impact analysis**
-<table><tbody><tr><td><p><strong>Definition: Business impact analysis</strong></p></td></tr><tr><td><p>A key activity in the practice of service continuity management that identifies vital business functions (VBFs) and their dependencies. These dependencies may include suppliers, people, other business processes, and IT services. Business impact analysis defines the recovery requirements for IT services. These requirements include RTOs, RPOs, and minimum target service levels for each IT service.</p></td></tr></tbody></table>
+**Business impact analysis** — A key activity in the practice of service continuity management that identifies vital business functions (VBFs) and their dependencies. These dependencies may include suppliers, people, other business processes, and IT services. Business impact analysis defines the recovery requirements for IT services. These requirements include RTOs, RPOs, and minimum target service levels for each IT service.
 
 Business impact analysis (BIA) is a process of analysing activities and the effect that a disruption might have on them<sup>5</sup>.
 
@@ -129,7 +129,7 @@ According ISO 22301, business impact analysis should include:
 * identifying dependencies and supporting resources for these activities, including suppliers, outsource partners, and other relevant interested parties.
 
 ### **2.2.6 Service continuity/disaster recovery plans**
-<table><tbody><tr><td><p><strong>Definition: Service continuity</strong></p></td></tr><tr><td><p>A set of clearly defined plans related to how an organization will recover from a disaster and return to a pre-disaster condition, considering the four dimensions of service management.</p></td></tr></tbody></table>
+**Service continuity** — A set of clearly defined plans related to how an organization will recover from a disaster and return to a pre-disaster condition, considering the four dimensions of service management.
 
 Service continuity plans guide the service provider when responding, recovering, and restoring a service to normal levels following disruption.
 
@@ -180,7 +180,7 @@ Again, the line between these two practices is subtle and should be clearly defi
 
 When service continuity plans are in place and managed separately from incident management activities, there should be a clear criterion for triggering service continuity procedures. When assessing the business impacts of an incident, support specialists should determine whether the major incident may lead to a disaster and inform the crisis management group so that they can make a decision about invocation.
 
-<table><tbody><tr><td><p><strong>Definition: Invocation</strong></p></td></tr><tr><td><p>The act of declaring that a service provider’s service continuity plans must be enacted in order to continue service delivery.</p></td></tr></tbody></table>
+**Invocation** — The act of declaring that a service provider’s service continuity plans must be enacted in order to continue service delivery.
 
 ### **2.3.3 The role of the service continuity practice when managing risks**
 The concept of risk is central to the service continuity management practice. This practice generally focuses on mitigating high-impact, low-probability risks which cannot be totally prevented.
@@ -192,7 +192,7 @@ To ensure readiness regarding disruptive events, the service continuity manageme
 An effective service continuity management practice can contribute significantly to the organization’s risk management. A large number of risk-mitigation measures are related in some way to service-continuity options.
 
 ## **2.4 Practice success factors**
-<table><tbody><tr><td><p><strong>Definition: Practice success factor</strong></p></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+**Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -304,7 +304,7 @@ The contribution of the service continuity management practice to the service va
 ## **3.2 Processes**
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+**Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Service continuity management activities form five processes:
 * governance of service continuity management

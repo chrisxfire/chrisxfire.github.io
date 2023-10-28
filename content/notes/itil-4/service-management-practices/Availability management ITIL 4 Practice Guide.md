@@ -287,12 +287,12 @@ Like any other ITIL management practice, the availability management practice co
 
 The contribution of the availability management practice to the service value chain is shown in Figure 3.1.
 
-![Heat map image showing contribution of availability management practice to value chain activites](Availability%20management%20ITIL%204%20Practice%20Guide/Picture1.png "**Figure 3.1 Heat map of the contribution of the availability management practice to value chain activities**")
+![Heat map image showing contribution of availability management practice to value chain activites](Availability%20management%20ITIL%204%20Practice%20Guide/Picture1.png "Figure 3.1 Heat map of the contribution of the availability management practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Availability management activities form two processes:
 * establishing service availability control
@@ -324,7 +324,7 @@ These activities may be carried out with varying levels of formality by many peo
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![workflow diagram showing the analysis and improving services availability process](Availability%20management%20ITIL%204%20Practice%20Guide/Picture3.png "**Figure 3.3 Workflow of the analysing and improving service availability process**")
+![workflow diagram showing the analysis and improving services availability process](Availability%20management%20ITIL%204%20Practice%20Guide/Picture3.png "Figure 3.3 Workflow of the analysing and improving service availability process**")
 
 Table 3.4 describes these activities further.
 

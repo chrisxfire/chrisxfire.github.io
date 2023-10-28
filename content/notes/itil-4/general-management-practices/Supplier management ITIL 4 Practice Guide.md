@@ -22,11 +22,11 @@ The supplier management practice ensures that the right supplier is evaluated an
 The supplier management practice is used in close conjunction with other practices, including the relationship management, service level management, service financial management, risk management, and service configuration management practices.
 
 ## 2.2 Terms and concepts
-<table><tbody><tr><td><p><strong></strong><span><strong>Definition: Supplier</strong></span></p></td></tr><tr><td><p>A stakeholder responsible for providing services that are used by an organization.</p></td></tr></tbody></table>
+**Supplier** — A stakeholder responsible for providing services that are used by an organization.
 
 An engagement with a new supplier usually starts with assessing what suppliers are in the market and approaching them with a request for information, a quote, a proposal, a bid, or a demonstration (RfX).
 
-<table><tbody><tr><td><p><strong>Definition: RfX</strong></p></td></tr><tr><td><p>This umbrella term is used to reference to request for information (RFI), request for proposal (RFP), request for quote (RFQ), request for bid (RFB), or request for demonstration (RFD).</p></td></tr></tbody></table>
+**RfX** — This umbrella term is used to reference to request for information (RFI), request for proposal (RFP), request for quote (RFQ), request for bid (RFB), or request for demonstration (RFD).
 
 A relationship with a new or existing supplier is generally defined by the contract that the organization has with them.
 
@@ -71,7 +71,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Practice guide</strong></td></tr><tr><td><p>Manage stakeholder relationships in supplier relations</p></td><td><p>Relationship management</p></td></tr><tr><td><p>Document relationships between the suppliers' services, the organization's services, and other configuration items</p></td><td><p>Service configuration management</p></td></tr><tr><td><p>Maintain and provide information on suppliers’ services to stakeholders in the organization</p></td><td><p>Service catalogue management</p></td></tr><tr><td><p>Analysis of innovation opportunities offered by suppliers</p></td><td><p>Business analysis</p></td></tr><tr><td><p>Define organization’s requirements to supporting services</p></td><td><p>Business analysis</p><p>Service design</p><p>Architecture management</p></td></tr><tr><td><p>Ongoing management and improvement of supplier performance, driving service improvement</p></td><td><p>Continual improvement</p></td></tr><tr><td><p>Design and control of financial models</p></td><td><p>Service financial management</p></td></tr><tr><td><p>Manage supplier risks</p></td><td><p>Risk management</p></td></tr><tr><td><p>Manage supplier-related projects</p></td><td><p>Project management</p></td></tr><tr><td><p>Manage supplier-related organization changes</p></td><td><p>Organizational change management</p></td></tr><tr><td><p>Capture and manage supplier knowledge</p></td><td><p>Knowledge management</p></td></tr><tr><td><p>Manage supplier’s access to resources and tools</p></td><td>Information security management</td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><p><strong></strong><span><strong>Definition: Practice success factor</strong></span></p></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+**Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -150,12 +150,12 @@ Like any other ITIL management practice, the supplier management practice contri
 
 The contribution of the supplier management practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 shows Heat map of the contribution of the Supplier Management practice to Value Chain activities](Supplier%20management%20ITIL%204%20Practice%20Guide/Picture1.png "**Figure 3.1 Heat map of the contribution of the supplier management practice to value chain activities**")
+![Image of Figure 3.1 shows Heat map of the contribution of the Supplier Management practice to Value Chain activities](Supplier%20management%20ITIL%204%20Practice%20Guide/Picture1.png "Figure 3.1 Heat map of the contribution of the supplier management practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><strong></strong><span><strong>Definition: Process</strong></span></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+**Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 The supplier management practice activities form two main processes:
 * managing a common approach to supplier management
@@ -169,7 +169,7 @@ This process is focused on defining, agreeing, and promoting an organization-wid
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 shows Workflow of the managing a common approach to Supplier Management process](Supplier%20management%20ITIL%204%20Practice%20Guide/Picture2.png "**Figure 3.2 Workflow of the managing a common approach to supplier management process**")
+![Image of Figure 3.2 shows Workflow of the managing a common approach to Supplier Management process](Supplier%20management%20ITIL%204%20Practice%20Guide/Picture2.png "Figure 3.2 Workflow of the managing a common approach to supplier management process**")
 
 Table 3.2 provides examples of the process activities.
 
@@ -185,7 +185,7 @@ This process is focused on managing suppliers through their journey. It includes
 
 Figure 3.3 shows a workflow of the diagram process.
 
-![Image of Figure 3.3 shows workflow of the Managing Supplier journeys process](Supplier%20management%20ITIL%204%20Practice%20Guide/Picture3.png "**Figure 3.3 Workflow of the managing supplier journeys process**")
+![Image of Figure 3.3 shows workflow of the Managing Supplier journeys process](Supplier%20management%20ITIL%204%20Practice%20Guide/Picture3.png "Figure 3.3 Workflow of the managing supplier journeys process**")
 
 The process may vary, depending on nature of the service relationship type. Table 3.4 provides examples of the process activities  
 

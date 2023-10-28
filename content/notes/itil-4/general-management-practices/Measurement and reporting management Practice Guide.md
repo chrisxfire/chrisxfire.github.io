@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The purpose of the measurement and reporting practice is to support good decision-making and continual improvement by decreasing the levels of uncertainty. This is achieved through the collection of relevant data on various managed objects and the valid assessment of this data in an appropriate context. Managed objects include, but are not limited to, products and services, practices and value chain activities, teams and individuals, suppliers and partners, and the organization as a whole.</td></tr></tbody></table>
+**Key message**: The purpose of the measurement and reporting practice is to support good decision-making and continual improvement by decreasing the levels of uncertainty. This is achieved through the collection of relevant data on various managed objects and the valid assessment of this data in an appropriate context. Managed objects include, but are not limited to, products and services, practices and value chain activities, teams and individuals, suppliers and partners, and the organization as a whole.
 
 Many of these managed objects are connected, as are their respective metrics and indicators. For example, to set clear objectives for the measurement and reporting practice, it is important to understand the organizational objectives. These can be based on areas such as customer/market relevance and operational excellence. It is important to clarify the relationship between higher-level and lower-level objectives.
 
@@ -17,7 +17,7 @@ Key performance indicators (KPIs) can be agreed based on these objectives, again
 
 ## 2.2 Terms and concepts
 ### 2.2.1 Measurement
-<table><tbody><tr><td><strong>Definition: Measurement</strong></td></tr><tr><td>A means of decreasing uncertainty based on one or more observations that are expressed in quantifiable units.</td></tr></tbody></table>
+> **Measurement** — A means of decreasing uncertainty based on one or more observations that are expressed in quantifiable units.
 
 This definition of ‘measurement’ has two important aspects. Firstly, the result of measurement is defined in numeric values, an observation which provides a definitive answer on exactly how good or bad things are. Secondly, measurements aim to reduce the uncertainty of an object’s state.
 
@@ -47,7 +47,7 @@ Information systems provide objective information about managed objects. However
 Information based on surveys is more subjective, but some metrics can only be obtained by surveying people. For example, understanding and improving the quality of a service is impossible without considering the subjective users’ perspective.
 
 ### 2.2.2 Metrics
-<table><tbody><tr><td><strong>Definition: Metric</strong></td></tr><tr><td>A measurement or calculation that is monitored or reported for management and improvement.</td></tr></tbody></table>
+> **Metric** — A measurement or calculation that is monitored or reported for management and improvement.
 
 Metric data can be collected technically or procedurally; regardless of the source and collection methods, metrics always describe a management object. Typical management objects relevant to most ITIL practitioners are services, practices, configuration items, and service management activities.
 
@@ -58,7 +58,7 @@ It is essential to combine metrics of different types in order to build a holist
 #### 2.2.2.1 Effectiveness metrics
 These metrics indicate the degree to which an activity (or a group of interrelated activities) fulfils its purpose and achieves its objectives. For ITIL practices, these metrics can be derived from practice purpose statements and practice success factors (PSFs).
 
-<table><tbody><tr><td><p><strong>Tip</strong></p></td></tr><tr><td><p>The metric examples in section 2.5 of the ITIL practice guides are mapped to PSFs, which are described in section 2.4.</p></td></tr></tbody></table>
+**Tip**: The metric examples in section 2.5 of the ITIL practice guides are mapped to PSFs, which are described in section 2.4.
 
 #### 2.2.2.2 Efficiency metrics
 These metrics describe how an organization utilizes resources to perform activities and manage products and services. An example of an efficiency metric for the change enablement practice is the percentage of changes implemented by the first attempt, with no re-work required.
@@ -79,7 +79,7 @@ Leading metrics help to predict what is likely to happen in the future. Leading 
 ### 2.2.3 Key performance indicators
 Metrics are useful when they support decision-making by indicating important aspects of a managed object; in other words, when they serve as indicators. The most important indicators are known as key performance indicators (KPIs).
 
-<table><tbody><tr><td><p><strong>Definition: Indicator</strong></p></td></tr><tr><td>A metric that is used to assess and manage something.</td></tr><tr><td><strong>Definition: </strong><span><strong>Key performance indicator</strong></span></td></tr><tr><td>An important metric used to evaluate the success in meeting an objective.</td></tr><tr><td><strong>Definition: Performance</strong></td></tr><tr><td><p>A measure of what is achieved or delivered by a system, person, team, practice, or service.</p></td></tr></tbody></table>
+> **Performance** — A measure of what is achieved or delivered by a system, person, team, practice, or service.
 
 A metric is only a KPI when it is crucial for the assessment of an object’s state. The management context differentiates metrics that indicate key information and those that are supplementary. Indicators are ‘key’ when they describe the most important properties of an object or the factors that significantly affect those properties (for example, a factor which describes the severity of a bottleneck).
 
@@ -150,7 +150,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Communicating with stakeholders in order to clarify goals and reporting requirements</p></td><td><ul><li>Relationship management</li><li>Service desk</li><li>Supplier management</li></ul></td></tr><tr><td><p>Producing reports on practices, products, services, relationships, initiatives, and resources</p></td><td><p>All practices</p></td></tr><tr><td><p>Measurement-based incentives planning and realization</p></td><td><p>Workforce and talent management</p></td></tr><tr><td><p>The ongoing management and implementation of improvements</p></td><td><p>Continual improvement</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice success factor</strong></td></tr><tr><td>A complex functional component of a practice that is required for the practice to fulfil its purpose.</td></tr></tbody></table>
+> **Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -164,7 +164,7 @@ Measurements are only valuable when they help managers achieve their objectives.
 
 The planning and evaluation model, shown in Figure 2.1 and described in section 4.2.2.1 of ITIL® 4: Direct, Plan and Improve, illustrates the direct connection between the purpose, objectives, indicators, and metrics of a managed object.
 
-![Image of Figure 2.1 shows planning and evaluation model - coloured shapes in a row horizontally each with a word on them - Purpose, Objectives, Indicators and Metric, with two sperate vertical lines at each end saying Define and Evaluate](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture1.png "**Figure 2.1 Planning and evaluation model**")
+![Image of Figure 2.1 shows planning and evaluation model - coloured shapes in a row horizontally each with a word on them - Purpose, Objectives, Indicators and Metric, with two sperate vertical lines at each end saying Define and Evaluate](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture1.png "Figure 2.1 Planning and evaluation model**")
 
 There are several steps involved in forming a measurement and evaluation system based on a purpose and a set of objectives. These steps are universally applicable to any managed object, whether it is a service, practice, project, or a resource<sup>2</sup>.
 
@@ -215,7 +215,7 @@ This formula helps to express various metrics in normalized percentage ratings. 
 
 This is shown in Figure 2.2.  
 
-![Image of Figure 2.2 shows a coloured-coded aggregate normalized KPI rating](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture2.png "**Figure 2.2 Colour-coded normalized rating**")
+![Image of Figure 2.2 shows a coloured-coded aggregate normalized KPI rating](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture2.png "Figure 2.2 Colour-coded normalized rating**")
 
 Normalized KPIs can be aggregated to produce a performance scorecard. This usually involves assigning weights according to each KPI’s relative importance. The performance scorecard provides a structured visualization of the measurement and evaluation results that can enable decision-making.
 
@@ -281,12 +281,12 @@ Like any other ITIL management practice, the measurement and reporting practice 
 
 The contribution of the measurement and reporting practice to value chain activities can be seen in Figure 3.1.
 
-![Image of Figure 3.1 shows heat map of the contribution of the measurement and reporting practice to Value Chain activities](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture3.png "**Figure 3.1 Heat map of the contribution of the measurement and reporting practice to value chain activities**")
+![Image of Figure 3.1 shows heat map of the contribution of the measurement and reporting practice to Value Chain activities](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture3.png "Figure 3.1 Heat map of the contribution of the measurement and reporting practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 The measurement and reporting practice forms two processes:
 * designing the measurement and reporting system
@@ -298,7 +298,7 @@ This process includes the activities shown in Table 3.1 and transforms the input
 ### Table 3.1 Inputs, activities, and outputs of the designing the measurement and reporting system process
 <table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Purpose and objectives</li><li>Success factors</li><li>Measurement tools and capabilities</li><li>Available data</li><li>SLRs/SLAs and contracts</li><li>Existing report(s)/actual performance</li><li>Reporting requirements</li></ul></td><td><ul><li>Developing metrics and measurement methods</li><li>Forming KPI scorecards</li><li>Designing report templates and reporting policy</li></ul></td><td><ul><li>Metrics</li><li>Measurement requirements</li><li>Measurement methods</li><li>KPI scorecard(s)</li><li>Report template(s)</li><li>Reporting policy</li></ul></td></tr></tbody></table>
 
-![Image of Figure 3.2 show a workflow diagram of the Measurement and Reporting systems process](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture4.png "**Figure 3.2 Workflow of the designing the measurement and reporting system process**")
+![Image of Figure 3.2 show a workflow diagram of the Measurement and Reporting systems process](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture4.png "Figure 3.2 Workflow of the designing the measurement and reporting system process**")
 
 These activities may be carried out with varying levels of formality by many people in the organization. Table 3.2 gives some examples of the process activities.
 
@@ -313,7 +313,7 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.3 show workflow diagram of the Reporting and Evaluation process](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture6.png "**Figure 3.3 Workflow of the reporting and evaluation process**")
+![Image of Figure 3.3 show workflow diagram of the Reporting and Evaluation process](Measurement%20and%20reporting%20management%20Practice%20Guide/Picture6.png "Figure 3.3 Workflow of the reporting and evaluation process**")
 
 These activities may be carried out with varying levels of formality by many people in the organization. Table 3.4 provides examples of the process activities.
 
@@ -331,70 +331,14 @@ Roles are described in the context of processes and activities. Each role is cha
 Examples of roles which can be involved in the measurement and reporting practice are listed in Table 4.2, together with the associated competency profiles and specific skills.
 
 ### Table 4.2 Examples of roles with responsibility for measurement and reporting activities
-| Activity | Responsible Roles | Competency Profile | Specific Skills |
-
- |
-| --- | --- | --- | --- |
-
-**Designing the measurement and reporting system**
-Developing metrics and measurement methods
-* Subject matter expert (process manager, service manager, functional manager, HR professional),
-* Quality manager
-MT
-* Understanding the purpose, objectives, and success factors of the managed object
-* Basic knowledge of the measurement and evaluation method
-* Metrics development skills
-* Understanding of measurement methods and monitoring techniques
-Forming KPI scorecards
-* Subject matter expert
-* Quality manager
-* Reporting manager
-M
-* Understanding of how metrics are interrelated
-* Basic knowledge of measurement and assessment method
-* Basic math skills
-* Experience with spreadsheets
-* KPI development skills
-Designing report templates and reporting policy
-* Subject matter expert
-* Quality manager
-* Reporting manager
-* Analytics tool administrator
-MT
-* Understanding of the report's customer, users, and related tasks
-* Basic visual design skills
-* Understanding of data-structuring and presentation techniques
-* Understanding of the decision-making process
-* Experience with tools for analytics
-**Reporting and evaluation**
-Data gathering and processing
-* Analyst
-* Reporting manager
-* Analytics tool administrator
-* Subject matter expert
-AT
-* Analytical skills
-* Experience with tools for analytics
-* Experience with spreadsheets
-Data analysis and reporting
-* Analyst
-* Reporting manager
-* Analytics tool administrator
-* Subject matter expert
-* Quality manager
-MT
-* Understanding of the measurement object’s and its context
-* Communication skills
-Report evaluation and decision-making
-* Senior manager
-* Team leader
-* Subject matter expert
-* Quality manager
-LM
-* Excellent understanding of the measurement object and its context
-* Communication skills
-* Writing skills
-* Good business judgement
+| Activity | Task | Responsible Roles | Competency Profile | Specific Skills |
+| - | - | - | - | - |
+| **Designing the measurement and reporting system** | Developing metrics and measurement methods | Subject matter expert (process manager, service manager, functional manager, HR professional) <br /> Quality manager | MT |  Understanding the purpose, objectives, and success factors of the managed object <br /> Basic knowledge of the measurement and evaluation method <br /> Metrics development skills <br /> Understanding of measurement methods and monitoring techniques |
+| | Forming KPI scorecards | Subject matter expert <br />  Quality manager <br />  Reporting manager <br /> | M | Understanding of how metrics are interrelated <br /> Basic knowledge of measurement and assessment method <br /> Basic math skills <br /> Experience with spreadsheets <br /> KPI development skills <br /> 
+| | Designing report templates and reporting policy | Subject matter expert <br /> Quality manager <br /> Reporting manager <br /> Analytics tool administrator <br /> | MT | Understanding of the report's customer, users, and related tasks <br /> Basic visual design skills <br /> Understanding of data-structuring and presentation techniques <br /> Understanding of the decision-making process <br /> Experience with tools for analytics <br /> 
+| **Reporting and evaluation** | Data gathering and processing | Analyst <br /> Reporting manager <br /> Analytics tool administrator <br /> Subject matter expert <br /> | AT | Analytical skills <br /> Experience with tools for analytics <br /> Experience with spreadsheets <br /> 
+| | Data analysis and reporting | Analyst <br /> Reporting manager <br /> Analytics tool administrator <br /> Subject matter expert <br /> Quality manager <br /> | MT | Understanding of the measurement object’s and its context <br /> Communication skills <br /> 
+| | Report evaluation and decision-making | Senior manager <br /> Team leader <br /> Subject matter expert <br /> Quality manager <br /> | LM | Excellent understanding of the measurement object and its context <br /> Communication skills <br /> Writing skills <br /> Good business judgement <br /> 
 
 ## 4.2 Organizational structures and teams
 The measurement and reporting practice underpins everything the organization does to enable value co-creation, and it is therefore everyone’s responsibility. For example, practice managers should measure and assess practices in order to improve their effectiveness and efficiency; service and product managers need to provide service quality reports to customers in order to enable improvement.

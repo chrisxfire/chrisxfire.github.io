@@ -234,7 +234,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Risk identification</p></td><td><p>Risk management</p></td></tr><tr><td><p>Demand management</p></td><td><p>Relationship management</p></td></tr><tr><td><p>Definition of architecture patterns, principles &amp; debt tolerance</p></td><td><p>Architecture management</p></td></tr><tr><td><p>Definition of security controls &amp; compliance needs</p></td><td><p>Information security management</p></td></tr><tr><td><p>Defining requirements</p></td><td><p>Business analysis</p></td></tr><tr><td><p>Defining service acceptance criteria</p></td><td><p>Service validation and testing</p></td></tr><tr><td><p>Definition of monitoring patterns and event categorization</p></td><td><p>Monitoring and event management</p></td></tr><tr><td><p>User feedback gathering</p></td><td><p>Service desk</p></td></tr><tr><td><p>Supplier strategy, default contracts and vendor measures</p></td><td><p>Supplier management</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><p><strong>Practice success factor</strong></p></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+> **Practice success factor**: A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity as it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -305,12 +305,12 @@ Like any other ITIL management practice, service design contributes to multiple 
 * obtain/build
 * plan.
 
-![Image of 3.1 shows Heat map of the contribution of Service Design to Value Chain activities](Service%20design%20ITIL%204%20practice%20guide/Picture3.png "**Figure 3.1 Heat map of the contribution of service design to value chain activities**")
+![Image of 3.1 shows Heat map of the contribution of Service Design to Value Chain activities](Service%20design%20ITIL%204%20practice%20guide/Picture3.png "Figure 3.1 Heat map of the contribution of service design to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><strong>Process</strong></p></td></tr><tr><td><p>A set&nbsp;of interrelated or interacting activities that transform inputs into outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+> **Process** — A set&nbsp;of interrelated or interacting activities that transform inputs into outputs. Processes define the sequence of actions and their dependencies.
 
 The service design practice activities form two processes:
 * service design planning
@@ -339,7 +339,7 @@ This process includes the following activities and transforms the following inpu
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of 3.2 shows workflow diagram of the Service Design Co-ordination process](Service%20design%20ITIL%204%20practice%20guide/Picture5.jpg "**Figure 3.2 Workflow of the service design coordination process**")
+![Image of 3.2 shows workflow diagram of the Service Design Co-ordination process](Service%20design%20ITIL%204%20practice%20guide/Picture5.jpg "Figure 3.2 Workflow of the service design coordination process**")
 
 Table 3.4 describes these activities further.
 

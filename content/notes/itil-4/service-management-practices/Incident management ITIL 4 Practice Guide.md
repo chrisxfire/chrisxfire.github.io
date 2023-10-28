@@ -37,7 +37,7 @@ Benefits for service consumers include:
 The quick restoration of a service is a key factor in user and customer satisfaction, the credibility of the service provider, and the value the service provider creates in the service relationships.
 
 ### 2.2 Terms and concepts
-<table><tbody><tr><td><strong>Definition: Incident</strong></td></tr><tr><td>An unplanned interruption to a service or reduction in the quality of a service.</td></tr></tbody></table>
+> **Incident** — An unplanned interruption to a service or reduction in the quality of a service.
 
 The incident management practice ensures that periods of unplanned service unavailability or degradation are minimized, thus reducing negative impacts on users. There are two main factors enabling this: early incident detection and the quick restoration of normal operation.
 
@@ -46,14 +46,14 @@ The quick detection and resolution of incidents is made possible with effective 
 #### 2.2.1 Incident models
 Some systems and services demonstrate patterns of operations that include so-called typical incidents. These may be associated with known errors, such as a lack of compatibility or patterns of incorrect user behaviour. Service providers benefit from defining incident models to optimize the handling and resolution of repeating or similar incidents. Incident models help to resolve incidents quickly and efficiently, and often with better results, due to the application of proven and tested solutions.
 
-<table><tbody><tr><td><strong>Definition: Incident model</strong></td></tr><tr><td>A repeatable approach to the management of a particular type of incident.</td></tr></tbody></table>
+> **Incident model** — A repeatable approach to the management of a particular type of incident.
 
 The creation and use of incident models are important activities in the incident management practice. They are described further in section 3.
 
 #### 2.2.2 Major incidents
 Although some incidents have a relatively low impact on service operation and on work of users, others may lead to dramatic consequences for service consumers and the service provider. These are called major incidents and require special attention.
 
-<table><tbody><tr><td><strong>Definition: Major incident</strong></td></tr><tr><td>An incident with significant business impact, requiring an immediate coordinated resolution.</td></tr></tbody></table>
+> **Major incident** — An incident with significant business impact, requiring an immediate coordinated resolution.
 
 A significant business impact is not the only characteristic of a major incident. Major incidents are often associated with a higher level of complexity. Many systems and services are designed for high availability, and single failures are unlikely to cause a significant business impact. Failures in these systems are quickly, and often automatically, detected and fixed. However, if multiple seemingly trivial events coincide, they may lead to a major disruption of multiple services and have a high impact on service consumers. Complex incidents such as this require a special approach to management and resolution.
 
@@ -69,13 +69,13 @@ It is recommended to implement a model to manage all major incidents, even thoug
 * an agreed procedure for review and follow-up activities.
 
 #### 2.2.3 Workarounds
-<table><tbody><tr><td><strong>Definition: Workaround</strong></td></tr><tr><td>A solution that reduces or eliminates the impact of an incident or problem for which a full resolution is not yet available. Some workaround reduce the likelihood of incidents.</td></tr></tbody></table>
+> **Workaround** — A solution that reduces or eliminates the impact of an incident or problem for which a full resolution is not yet available. Some workaround reduce the likelihood of incidents.
 
 Sometimes, it may be impossible to find a systemic solution for an incident. In these situations, service providers may apply a workaround.
 
 Workarounds promptly restore the service to an acceptable quality. However, workarounds can increase technical debt and may lead to new incidents in the future. The problem management practice can be used to reduce the technical debt created by incident workarounds. In many cases, understanding the cause or causes of an incident can help find an optimal solution.
 
-<table><tbody><tr><td><strong>Definition: Technical debt</strong></td></tr><tr><td>The total rework backlog accumulated by choosing workarounds instead of systemics solutions that would take longer.</td></tr></tbody></table>
+> **Technical debt** — The total rework backlog accumulated by choosing workarounds instead of systemics solutions that would take longer.
 
 ### 2.3 Scope
 The scope of the incident management practice includes:
@@ -93,7 +93,7 @@ There are a number of activities and areas of responsibility that are not includ
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Practice guide</strong></td></tr><tr><td>Investigating causes of incidents</td><td>Problem management</td></tr><tr><td>Communicating with users</td><td>Service desk</td></tr><tr><td>Implementation of changes to products and services</td><td>Change enablement; deployment management; infrastructure and platform; project management; release management; software development management</td></tr><tr><td>Monitoring technology, teams, and supplier performance</td><td>Monitoring and event management</td></tr><tr><td>Management of improvement initiatives</td><td>Continual improvement</td></tr><tr><td>Management and fulfilment of service requests</td><td>Service request management</td></tr><tr><td>Restoring normal operations in case of a disaster</td><td>Service continuity management</td></tr></tbody></table>
 
 ### 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice success factor</strong></td></tr><tr><td>A complex functional component of a practice that is required for the practice to fulfil its purpose.</td></tr></tbody></table>
+> **Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -120,7 +120,7 @@ This PSF is vital for the success of the incident management practice and for ge
 * In complicated situations, where the exact nature of the incident is unknown but the systems and components are familiar to the support teams and the organization has access to expert knowledge, incidents are usually routed to a specialist group or groups for diagnosis and resolution. Sometimes this can assist in identifying patterns and lead to a model and/or a solution which can be applied to similar incidents in the future.
 * In complex situations, where it is difficult or impossible to define an expert area and group, or where defined groups of experts fail to find a solution, a collective approach may be useful. This technique is known as swarming.
 
-<table><tbody><tr><td><strong>Definition: Swarming</strong></td></tr><tr><td>A technique for solving various complex tasks. In swarming, multiple people with different areas of expertise work together on a task until it becomes clear which competencies are the most relevant and needed.</td></tr></tbody></table>
+> **Swarming** — A technique for solving various complex tasks. In swarming, multiple people with different areas of expertise work together on a task until it becomes clear which competencies are the most relevant and needed.
 
 Usually, swarming assists in decreasing the level of complexity and makes it possible to switch to the techniques used in a complicated or clear situations. One example where swarming is particularly relevant are major incidents of an unknown nature. In these situations, pulling together numerous specialized resources is cost-effective compared to the losses resulting from the incident remaining unsolved.
 
@@ -130,7 +130,7 @@ Other techniques can be used in complex situations. For example, expert analysis
 
 As mentioned in section 2.2.1, some incidents recur and can be handled in a well-known, repeatable way. Ideally, such recurrences should be analyzed and further repetition prevented (this usually involves the problem management practice). However, problem management may take significant time, and some incident, even if well-understood, cannot be effectively prevented. Their occurrence and nature are clear, and their handling often can follow a well-defined incident model. To optimize the time and resources for resolution of such incidents, the shift left approach can be used.
 
-<table><tbody><tr><td><strong>Definition: shift-left approach</strong></td></tr><tr><td>An approach to managing work that focuses on moving activities closer to the source of the work, in order to avoid potentially expensive delays or escalations. In a software development context, a shift-left approach might be characterized by moving testing activities closer to (or integrated with) development activities. In a support context, a shift-left approach might be characterized by providing self-help tools to end-users.</td></tr></tbody></table>
+> **shift-left approach** — An approach to managing work that focuses on moving activities closer to the source of the work, in order to avoid potentially expensive delays or escalations. In a software development context, a shift-left approach might be characterized by moving testing activities closer to (or integrated with) development activities. In a support context, a shift-left approach might be characterized by providing self-help tools to end-users.
 
 In incident management, shift-left can be used to delegate more activities to users: not only reporting an incident, but also self-help using chat bots, FAQ pages, and other resources. Another form of shift-left is training of the service desk agents to diagnose and solve more different types of incidents. Any opportunity to solve incidents without transferring them to other teams should be used, especially as the transfer is likely to take extra time and cost extra money. This should not, however, create unacceptable delays; the speed of incident resolution remains the most important requirement. The shift-left approach works best in clear, well-known situations, where less experienced people can successfully follow well-tested and safe instructions.
 
@@ -161,7 +161,7 @@ Periodic reviews of incidents should be conducted to improve the effectiveness a
 
 Periodic reviews provide an opportunity to analyze the stakeholders’ satisfaction with the incident management practice. Periodic incident review is also key for the continual improvement of the practice and the organization’s products and services.
 
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The importance of data</td></tr><tr><td>Effective reviews will always need data; therefore, it is important to agree the requirements for documenting it. Data should be:<p>- <strong>Concurrent</strong>: It is useful to know exactly what was done when, to assist in continual improvement. This requires stakeholders to update incident records during, not after, the event. Also, an accurate timeline may be useful for investigating the problem.</p><p>- <strong>Complete</strong>: A considerable amount of activity can be hidden behind a simple statement. For example, a statement such as ‘We restarted the cluster and normal function was observed after 45 minutes’ may hide useful detail. It could mean: ‘We restarted Server 1, then 2, then 3 and found that Server 4, which was operating normally, stopped. We checked the manual and restarted Servers 2 and 4, then 1 and 3. All were processing data correctly after 10 minutes.’</p><p>- <strong>Comprehensive</strong>: Describing why an action was taken can be just as important as describing the action itself.</p></td></tr></tbody></table>
+**Key message**: The importance of data</td></tr><tr><td>Effective reviews will always need data; therefore, it is important to agree the requirements for documenting it. Data should be:<p>- <strong>Concurrent</strong>: It is useful to know exactly what was done when, to assist in continual improvement. This requires stakeholders to update incident records during, not after, the event. Also, an accurate timeline may be useful for investigating the problem.</p><p>- <strong>Complete</strong>: A considerable amount of activity can be hidden behind a simple statement. For example, a statement such as ‘We restarted the cluster and normal function was observed after 45 minutes’ may hide useful detail. It could mean: ‘We restarted Server 1, then 2, then 3 and found that Server 4, which was operating normally, stopped. We checked the manual and restarted Servers 2 and 4, then 1 and 3. All were processing data correctly after 10 minutes.’</p><p>- <strong>Comprehensive</strong>: Describing why an action was taken can be just as important as describing the action itself.</p>
 
 ### 2.5 Key metrics
 The practice metrics should be applied to a specific context such as type of incident, services, specialist groups, or periods of time.
@@ -172,7 +172,7 @@ The effectiveness and performance of the ITIL practices should be assessed withi
 <table><tbody><tr><td><strong>Practice success factors</strong></td><td><strong>Key metrics</strong></td></tr><tr><td>Detecting incidents early</td><td>Time between incident occurrence and detection<br>Percentage of incidents detected via monitoring and event management</td></tr><tr><td>Resolving incidents quickly and efficiently</td><td>Time between incident detection and acceptance for diagnosis<br>Time of diagnosis<br>Number of reassignments<br>Percentage of waiting time in the overall incident handling time<br>First-time resolution rate<br>Meeting the agreed resolution time<br>User satisfaction with incident handling and resolution<br>Percentage of the incident resolved automatically<br>Percentage of incidents resolved before being reported by users</td></tr><tr><td>Continually improving incident management</td><td>Percentage of incident resolutions using previously identified and recorded solutions<br>Percentage of incidents resolved using incident models<br>Improvement of the key practice indicators over time<br>Balance between the speed and effectiveness metrics for incident resolution</td></tr></tbody></table>
 
 # 3. Value streams and processes
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Incident management activities form two processes:
 * **Incident handling and resolution** This process is focused on the handling and resolution of individual incidents, from detection to closure.

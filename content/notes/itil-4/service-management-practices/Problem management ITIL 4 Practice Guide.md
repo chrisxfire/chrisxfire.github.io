@@ -35,7 +35,7 @@ This practice is beneficial for both IT service providers and their service cons
 ### 2.2 Terms and concepts
 Errors that may cause (or have already caused) incidents are called problems.
 
-<table><tbody><tr><td><strong>Definition: Problem</strong></td></tr><tr><td>A cause, or potential cause, of one or more incidents.</td></tr></tbody></table>
+> **Problem** — A cause, or potential cause, of one or more incidents.
 
 Problem management has three distinct phases, shown in Figure 2.1.
 
@@ -120,7 +120,7 @@ The following are some specific guidelines on the prioritization of problems:
 * Problem investigation may require the creation of multiple tasks related to one problem for several teams to work in parallel. These tasks are created by the team which leads the problem investigation, they should include target completion time and sufficient supporting information.
 * In many cases, a temporary team combining different competencies is created to start problem investigation. This is often more effective than assigning parallel tasks to different teams, especially if the problem is likely to be in an overlap of areas of expertise and responsibilities. This technique is known as swarming.
 
-<table><tbody><tr><td><strong>Definition: Swarming</strong></td></tr><tr><td>A technique for solving various complex tasks. In swarming, multiple people with different areas of expertise work together on a task until it becomes clear which competencies are the most relevant and needed.</td></tr></tbody></table>
+> **Swarming** — A technique for solving various complex tasks. In swarming, multiple people with different areas of expertise work together on a task until it becomes clear which competencies are the most relevant and needed.
 
 During the problem control phase, one or more of the following is done, based on the results of problem investigation:
 * Previously unknown errors are identified, assessed, and assigned to a relevant team for error control.
@@ -128,13 +128,13 @@ During the problem control phase, one or more of the following is done, based on
 * Recommendations for incident resolution based on an understanding of the causes are developed, recorded, and communicated to the relevant teams. These can be systemic resolutions or workarounds for incidents.
 * Problems with significantly low impact and probability and problems that have been identified mistakenly are documented and closed.
 
-<table><tbody><tr><td><strong>Definition: Workaround</strong></td></tr><tr><td>A solution that reduces or eliminates the impact of an incident or problem for which a full resolution is not yet available. Some workarounds reduce the likelihood of incidents.</td></tr></tbody></table>
+> **Workaround** — A solution that reduces or eliminates the impact of an incident or problem for which a full resolution is not yet available. Some workarounds reduce the likelihood of incidents.
 
 Note that workarounds for incidents derived from problem analysis usually do not reduce the likelihood of incidents. Instead, they help to resolve incidents quicker and better when they occur. Workarounds that may help to prevent incidents are more likely to be identified at the error control stage.
 
 Problems that have not been dismissed at the problem control phase are assigned the status of ‘known error’.
 
-<table><tbody><tr><td><strong>Definition: Known error</strong></td></tr><tr><td>A problem that has been analyzed but has not been resolved.</td></tr></tbody></table>
+> **Known error** — A problem that has been analyzed but has not been resolved.
 
 #### 2.2.3 Error control
 When a problem has been analyzed (meaning the errors in the products have been localized and their impact on services has been assessed), it should be continually managed until resolved or closed without resolution.
@@ -153,7 +153,7 @@ The above approach to error control is valid where the costs of problem resoluti
 
 Known errors are a part of an organization’s technical debt and should be removed, where reasonably practicable.
 
-<table><tbody><tr><td><strong>Definition: Technical debt</strong></td></tr><tr><td>The total rework backlog accumulated by choosing workarounds instead of systemic solutions that would take longer.</td></tr></tbody></table>
+> **Technical debt** — The total rework backlog accumulated by choosing workarounds instead of systemic solutions that would take longer.
 
 Error control ensures that the organization has sufficient up-to-date information about all the known errors in its products, including their statuses and their impacts on services.
 
@@ -187,7 +187,7 @@ Different sources and types of problem may require different approaches to probl
 
 To optimize the handling and resolution of these and other types of problems, service providers define problem models. Problem models help to manage problems effectively and efficiently, often with better results because of the application of relevant proven and tested methods.
 
-<table><tbody><tr><td><strong>Definition: Problem model</strong></td></tr><tr><td>A repeatable approach to the management of a particular type of problem.</td></tr></tbody></table>
+> **Problem model** — A repeatable approach to the management of a particular type of problem.
 
 The creation and use of problem models are important activities in the problem management practice. They are described in section 3.1.4.
 
@@ -205,7 +205,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Practice guide</strong></td></tr><tr><td>Incident resolution</td><td>Incident management</td></tr><tr><td>Control and implementation of changes initiated to fix the problems</td><td>Change enablement<p>Deployment management</p><p>Infrastructure and platform management</p><p>Release management</p><p>Software development and management</p><p>Other practices</p></td></tr><tr><td>Risk assessment and control</td><td>Risk management</td></tr><tr><td>Detection and control of errors in products before deployment to the live environment</td><td>Deployment management<p>Service design</p><p>Service validation and testing</p><p>Software development and management</p></td></tr><tr><td>Communication of workarounds for incidents to users</td><td>Service desk</td></tr></tbody></table>
 
 ### 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice success factors</strong></td></tr><tr><td>A complex functional component of a practice that is required for the practice to fulfil its purpose.</td></tr></tbody></table>
+> **Practice success factors** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -270,7 +270,7 @@ PPI increases with new logged problems as well as with resolved ones. This demon
 ### 3.1 Processes  
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Problem management activities form four processes:
 * proactive problem identification
@@ -365,7 +365,7 @@ Figure 3.4 Workflow of the error control process:
 #### 3.2.1 Service value streams  
 To perform certain tasks or respond to particular situations, organizations create service value streams. These are specific combinations of activities and practices, and each one is designed for a particular scenario. Once designed, value streams should be subject to continual improvement.
 
-<table><tbody><tr><td><strong>Definition: Value stream</strong></td></tr><tr><td>A series of steps an organization undertakes to create and deliver products and services to consumers.</td></tr></tbody></table>
+> **Value stream** — A series of steps an organization undertakes to create and deliver products and services to consumers.
 
 In practice, however, many organizations come to use of the value stream concept after having worked for a while (sometimes for years) without the value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the ‘As Is’ situation, the de-facto flows of work, and to analyze them in order to identify and eliminate the non-value-adding activities and other forms of waste.
 

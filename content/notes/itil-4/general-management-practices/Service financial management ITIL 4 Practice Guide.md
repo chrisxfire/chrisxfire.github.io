@@ -62,7 +62,7 @@ The service financial management practice helps decision-makers to understand an
 
 The resulting cost model is an important part of the organization’s approach to service financial management. An example is shown in Figure 2.1.
 
-![Image of Figure 2.1 show a model to reflect the costs of  resources, products and services](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture1.png "**Figure 2.1 The costs of resources, products, and services**")
+![Image of Figure 2.1 show a model to reflect the costs of  resources, products and services](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture1.png "Figure 2.1 The costs of resources, products, and services**")
 
 Once costs of products and services are understood, it is possible to allocate these costs to service consumers, customers and other cost objects.
 
@@ -118,7 +118,7 @@ A significant part of the costs associated with digital and IT products and serv
 
 Some indirect costs can be reasonably allocated to selected cost objects using a fair and transparent driver. For example, the labour cost of a user support team can be reasonably allocated to individual services if all of the user support records have a correctly assigned ‘service’ attribute and timestamps. In this case, 100% of the support team’s work time could be distributed across the services which the team supports.
 
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>Cost drivers selected for the allocation of indirect costs should meet the following criteria:<br><ul><li>Relevance: drivers should reflect the organization’s architectures and operating model</li><li><span>Cost-efficiency: using the driver should not require unreasonable resources for data collection and processing</span></li></ul><ul><li>Objectivity: as much as possible, data for the drivers should be collected by automated monitoring systems rather than be based on subjective estimates</li></ul><ul><li>Motivating effect: Information about costs of resources should stimulate responsible resource utilization focused on value for the organization.</li></ul></td></tr></tbody></table>
+**Key message**: Cost drivers selected for the allocation of indirect costs should meet the following criteria:<br><ul><li>Relevance: drivers should reflect the organization’s architectures and operating model</li><li><span>Cost-efficiency: using the driver should not require unreasonable resources for data collection and processing</span></li></ul><ul><li>Objectivity: as much as possible, data for the drivers should be collected by automated monitoring systems rather than be based on subjective estimates</li></ul><ul><li>Motivating effect: Information about costs of resources should stimulate responsible resource utilization focused on value for the organization.</li></ul>
 
 In other cases, there is no reasonable way to allocate costs to selected cost objects. This is usually when doing so would use more resources than can be justified by the benefits this allocation might provide. For example, the costs of shared office spaces could be allocated to the services delivered by the organization by calculating how the space is used by various teams and how those teams contribute to products and services, but this calculation is unlikely to improve management information that is enough to be justifiable. These difficult-to-allocate indirect costs are known as overheads. Typically, examples include management costs, shared accommodation, and other shared services (such as catering, cleaning, security, and so on).
 
@@ -163,7 +163,7 @@ Budgeting is an important part of an organization’s financial planning. It is 
 
 Budgeting consists of a periodic negotiation of future budgets and the ongoing monitoring and adjusting of current budgets.
 
-<table><tbody><tr><td><p><strong>Definition: Budget</strong></p></td></tr><tr><td><p>A documented estimate of all of the spending and earning of money during a particular period or initiative.</p></td></tr></tbody></table>
+**Budget** — A documented estimate of all of the spending and earning of money during a particular period or initiative.
 
 Budgeting is the key mechanism of planning and providing funding for the resources necessary to meet the organization’s objectives. Budgeting answers fundamental business questions and helps to ensure that the answers are properly executed. Example questions include:
 * Does the organization have the resources needed to meet its objectives?
@@ -196,7 +196,7 @@ There are some activities and areas of responsibility that are not included in t
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Prioritizing funding</p></td><td><p>Portfolio management</p></td></tr><tr><td><p>Defining strategies for the economic aspects of the organization’s products and services</p></td><td><p>Strategy management</p></td></tr><tr><td><p>Tracking valuable IT assets</p></td><td><p>IT asset management</p></td></tr><tr><td><p>Managing financial risks</p></td><td><p>Risk management</p></td></tr><tr><td><p>Negotiating prices with service consumers</p></td><td><ul><li>Relationship management</li><li>Service level management</li></ul></td></tr><tr><td><p>Negotiating prices with suppliers</p></td><td><ul><li>Relationship management</li><li>Supplier management</li></ul></td></tr><tr><td><p>Understanding and recording relationships between the organization’s resources, products, and services</p></td><td><ul><li>Architecture management</li><li>Service configuration management</li></ul></td></tr><tr><td><p>Planning the capacity of products, services, and resources</p></td><td><p>Capacity and performance management</p></td></tr><tr><td><p>Planning and optimization of staffing</p></td><td><ul><li>Workforce and talent management</li><li>Capacity and performance management</li></ul></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><p><strong>Definition: Practice success factor</strong></p></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+**Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -251,12 +251,12 @@ Like any other ITIL management practice, the service financial management practi
 
 The contribution of the service financial management practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 shows heat map of the contribution of service management practice to Value Chain activities](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture2.png "**Figure 3.1 Heat map of the contribution of the service financial management practice to value chain activities**")
+![Image of Figure 3.1 shows heat map of the contribution of service management practice to Value Chain activities](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture2.png "Figure 3.1 Heat map of the contribution of the service financial management practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+**Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.
 
 Service financial management activities form three processes:
 * managing the organization’s approach to service financial management
@@ -273,7 +273,7 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 shows workflow diagram for managing the organizations approach to Service Financial Management process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture3.png "**Figure 3.2 Workflow of the managing the organization’s approach to service financial management process**")
+![Image of Figure 3.2 shows workflow diagram for managing the organizations approach to Service Financial Management process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture3.png "Figure 3.2 Workflow of the managing the organization’s approach to service financial management process**")
 
 ### **Table 3.2** Activities of the managing the organization’s approach to service financial management process
 **Activity**
@@ -320,7 +320,7 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.3 shows workflow diagram of the Financial Planning process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture4.png "**Figure 3.3 Workflow of the financial planning process**")  
+![Image of Figure 3.3 shows workflow diagram of the Financial Planning process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture4.png "Figure 3.3 Workflow of the financial planning process**")  
 
 ### Table 3.4 Activities of the financial planning process
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Example</strong></p></td></tr><tr><td><p>analyze the previous and current plans and performance</p></td><td><p>The service financial team analyzes available service financial information, including:</p><p>current and previous business plans and performance reports</p><ul><li>current and previous budgets and budget review reports</li><li>financial records</li><li>product and service performance reports and capacity forecasts</li><li>supplier performance reports and current and planned contracts and agreements</li><li>service performance reports and current and future SLAs</li><li>other relevant information.</li></ul><p>The resulting analysis is used for cost and income estimation.</p></td></tr><tr><td><p>Estimate costs and income</p></td><td><ul><li>Based on the analysis, the service financial team (or its dedicated budgeting subset) estimates costs and income for the planned initiatives and/or period of operations.</li><li>Income estimates may include charging recommendations.</li><li>Relevant teams may be involved to make, review, or confirm estimates.</li></ul></td></tr><tr><td><p>Compile the budgets</p></td><td><p>The team aggregate estimates into budgets following the agreed budget model.</p></td></tr><tr><td><p>Communicate and agree the budgets</p></td><td><ul><li>The resulting budgets are submitted to the appropriate authorities and stakeholders. They discuss and approve the budgets. If not approved, the budgets are returned to the estimation step with comments and recommendations.</li><li>Approved budgets are communicated to the relevant teams for execution.</li><li>Where applicable, charging guidelines are also discussed, approved or not, and either returned for re-estimation or communicated further for execution.</li></ul></td></tr><tr><td><p>Monitor and control costs and income</p></td><td><ul><li>The service financial manager(s) and budget holders monitor how the budgets are being executed.</li><li>In accordance with the agreed service financial management approach, they or other agreed authorities authorize requests for spending.</li><li>The service financial manager(s) or other agreed authorities may also adjust the budgets within agreed tolerances by approving off-budget spending or pricing.</li><li>The service financial manager(s) escalate risks and cases of going off-budget outside of the agreed tolerances (as defined by the service financial management approach and/or by the budget document) to the authorities.</li></ul></td></tr><tr><td><p>Review and report on the budget</p></td><td><p>In case of significant deviations from the agreed budgets, the service financial management team (or its dedicated budgeting subset) reviews the affected budgets and initiates a new planning cycle. This is also performed at the end of the budgeted initiatives and periods and on a regular basis: every few weeks to few months, depending on the volatility of the related environment and the performance of the agreed budgets.</p></td></tr></tbody></table>
@@ -333,7 +333,7 @@ This process is focused on providing management accounting information to the st
 
 Figure 3.4 shows a workflow diagram of the process.
 
-![Image of Figure 3.4 shows workflow diagram of the Management Accounting Process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture5.png "**Figure 3.4 Workflow of the management accounting process**")
+![Image of Figure 3.4 shows workflow diagram of the Management Accounting Process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture5.png "Figure 3.4 Workflow of the management accounting process**")
 
 Table 3.6 provides examples of the process activities.
 
@@ -353,10 +353,7 @@ Examples of other roles which can be involved in service financial management ac
 
 ### Table 4.2 Examples of roles with responsibility for service financial management practice activities
 | Activity | Responsible Roles | Competency Profile | Specific Skills |
-
- |
-| --- | --- | --- | --- |
-
+| - | - | - | - |
 **Managing the organization’s approach to service financial management**
 analyze stakeholder requirements
 * Executive leaders
@@ -543,10 +540,7 @@ The service financial management practice is not usually perceived as highly aut
 **Means of automation**
 **Key functionality**
 **Impact on the effectiveness of the practice**
-
- |
-| --- | --- | --- | --- |
-
+| - | - | - | - |
 **Managing the organization’s approach to service financial management**
 analyze stakeholder requirements
 Collaboration tools

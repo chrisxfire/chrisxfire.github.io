@@ -13,7 +13,7 @@ Axelos International (https://www.axelos.com)
 
 Organizations use resources to create and deliver products and services. These resources may belong to the organization, or they may be available as part of a service the organization consumes. The service configuration management practice collects and manages information about a variety of resources, typically including hardware, software, networks, buildings, people, suppliers, products, services, and documentation. The resources in the scope of the practice are called configuration items (CIs).
 
-<table><tbody><tr><td><p><strong>Definition: Configuration item</strong></p></td></tr><tr><td><p>Any component that needs to be managed in order to deliver an IT service.</p></td></tr></tbody></table>
+**Configuration item** — Any component that needs to be managed in order to deliver an IT service.
 
 The primary objective of the service configuration management practice is to efficiently provide useful information to the organization. The scope of the components under its control should be defined by their usefulness and efficiency. The main factors shaping this practice are the usefulness of the configuration information and the costs of obtaining and maintaining it.
 
@@ -37,7 +37,7 @@ Benefits for the service consumer include:
 ## 2.1.1 Service configuration models
 The service configuration management practice involves identifying and documenting the connections and relationships between configuration items. This usually results in models (known as service configuration models, service resourcing models, or functional and financial service models). These models can be focused on various aspects of the service architecture and the relationships between the components. They represent various level of abstraction, from high-level functional models (as shown in Figure 2.1) to an accurate mapping of the connections and relationships between physical and digital CIs.
 
-![Image of Figure 2.1 show a diagram of the high-level service configuration model](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture1.png "**Figure 2.1 A high-level service configuration model**")
+![Image of Figure 2.1 show a diagram of the high-level service configuration model](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture1.png "Figure 2.1 A high-level service configuration model**")
 
 Service configuration models are used for various purposes, including:
 * impact analysis
@@ -56,9 +56,9 @@ This practice often allows configuration information to integrate with records t
 #### 2.2.1 IT assets and configuration items
 The service configuration management and IT asset management practices, as well as IT assets and CIs are closely related, and share much of the same information and tooling; each has some critical dependencies on the other. Nevertheless, these are distinct concepts. The definition of a configuration item was already given in section 2.1, but is repeated here for comparison with that of an IT asset.
 
-<table><tbody><tr><td><p><strong>Definition: Configuration item</strong></p></td></tr><tr><td><p>Any component that needs to be managed in order to deliver an IT service.</p></td></tr></tbody></table>
+**Configuration item** — Any component that needs to be managed in order to deliver an IT service.
 
-<table><tbody><tr><td><p><strong>Definition: IT asset</strong></p></td></tr><tr><td><p>Any financially valuable component that can contribute to the delivery of an IT product or service.</p></td></tr></tbody></table>
+**IT asset** — Any financially valuable component that can contribute to the delivery of an IT product or service.
 
 As Figure 2.2 illustrates, some items can be both CIs and IT assets, and some items are specifically just an IT asset or just a CI.
 
@@ -75,11 +75,11 @@ It is important to initiate the discussion within an organization and to underst
 ### 2.2.4 Configuration management systems and databases
 The service configuration management practice involves a significant amount of data from various sources and depends on the ability to collect, integrate, process, and present this data in a reliable, cost-efficient way. CMSs are designed to fulfil this need. Because of the multiplicity of data sources for the practice, a CMS is usually a complex system that combines one or more specialized solutions and integrations with sources of configuration data.
 
-<table><tbody><tr><td><p><strong>Definition: Configuration management system</strong></p></td></tr><tr><td><p>A set of tools, data, and information that is used to support the service configuration management practice.</p></td></tr></tbody></table>
+**Configuration management system** — A set of tools, data, and information that is used to support the service configuration management practice.
 
 A key functionality of a CMS is keeping and managing CI records and the relationships between them. This is usually achieved with one or more configuration management databases (CMDBs).
 
-<table><tbody><tr><td><p><strong>Definition: Configuration management database</strong></p></td></tr><tr><td><p>A database used to store configuration records throughout their lifecycle. It also maintains the relationships between configuration records.</p></td></tr></tbody></table>
+**Configuration management database** — A database used to store configuration records throughout their lifecycle. It also maintains the relationships between configuration records.
 
 Sometimes the terms ‘CMS’ and ‘CMDB’ are used interchangeably, usually in accordance with the CMS definition.
 
@@ -155,7 +155,7 @@ The relationship between CIs, along with the relationship type, should be define
 * As mentioned before all decisions about CI data should be driven by the usefulness of the CI to stakeholders and the costs of obtaining and maintaining the information.
 
 ### 2.2.4 CI lifecycle models
-<table><tbody><tr><td><p><strong>Definition: CI lifecycle model</strong></p></td></tr><tr><td><p>A comprehensive set of rules, policies and guidelines that define, standardize and optimize the organization’s approach to managing the lifecycle of CI records within a specific domain or any other category.</p></td></tr></tbody></table>
+**CI lifecycle model** — A comprehensive set of rules, policies and guidelines that define, standardize and optimize the organization’s approach to managing the lifecycle of CI records within a specific domain or any other category.
 
 Each CI lifecycle model may have its own lifecycle and management approach. However, the model should define all stages of the CI record’s lifecycle from creation to deletion, and provide guidelines to ensure the accuracy, reliability and security of the CMDB data.
 
@@ -189,7 +189,7 @@ The design of effective CI lifecycle models and CMDB data governance in general 
 ### 2.2.5 Service configuration management and sustainability
 Digital sustainability is a developing area at the intersection of digital service and product management, electricity markets, data science and sustainable development (see ITIL 4 Sustainability in Digital and IT for more information on digital sustainability).
 
-<table><tbody><tr><td><p><strong>Definition: Sustainability</strong></p></td></tr><tr><td><p>A business approach focused on creating long-term value for society and other stakeholders, by addressing the risks and opportunities associated with economic, environmental, and social developments.</p></td></tr></tbody></table>
+**Sustainability** — A business approach focused on creating long-term value for society and other stakeholders, by addressing the risks and opportunities associated with economic, environmental, and social developments.
 
 Service configuration management supports digital sustainability by including relevant attributes in the CI information. These may include:
 * Carbon footprint
@@ -215,19 +215,19 @@ Service configuration data should:
 * highlight deviations from the baseline configuration(s)
 * provide sufficient data to restore or re-create the approved configuration(s).
 
-<table><tbody><tr><td><p><strong>Definition: Baseline configuration</strong></p></td></tr><tr><td><p>A configuration of a product, service, or other configuration item, that has been formally reviewed and agreed. It serves as the basis for further activities, such as planning, development, and usage.</p></td></tr></tbody></table>
+**Baseline configuration** — A configuration of a product, service, or other configuration item, that has been formally reviewed and agreed. It serves as the basis for further activities, such as planning, development, and usage.
 
 The service configuration management practice ensures that relevant CI data is captured in the CMDB at each stage of the lifecycle. The practice should ensure that changes in CIs are correctly and promptly captured in the CMDB. To that end, CI record-keeping should be automated wherever possible. Automation improves the reliability of the configuration data and decreases the need for verification (but does not remove it).
 
-<table><tbody><tr><td><p><strong>Definition: Verification</strong></p></td></tr><tr><td><p>An activity that ensures that a new or changed IT service, process, plan, or other deliverable matches its design specification and is complete, accurate, and reliable.</p></td></tr></tbody></table>
+**Verification** — An activity that ensures that a new or changed IT service, process, plan, or other deliverable matches its design specification and is complete, accurate, and reliable.
 
 In this practice, verification is a continual activity of identifying and correcting gaps and deviations between the data in CMDB and the actual environment and/or the approved configurations. In many cases, verification can be largely automated, such as checking CMDB data (including CIs and relationships) for completeness, correctness, and compliance.
 
-<table><tbody><tr><td><p><strong>Definition: Compliance</strong></p></td></tr><tr><td><p>The act of ensuring that a standard or set of guidelines is followed, or that proper, consistent accounting or other practices are being employed.</p></td></tr></tbody></table>
+**Compliance** — The act of ensuring that a standard or set of guidelines is followed, or that proper, consistent accounting or other practices are being employed.
 
-<table><tbody><tr><td><p><strong>Definition: Inventory</strong></p></td></tr><tr><td><p>Data collection and clean up, performed as manual tasks, to build or verify the contents of the CI register.</p></td></tr></tbody></table>
+**Inventory** — Data collection and clean up, performed as manual tasks, to build or verify the contents of the CI register.
 
-<table><tbody><tr><td><p><strong>Definition: Discovery</strong></p></td></tr><tr><td><p>Data collection and clean up, achieved through automation technology and tools, to build or verify the contents of the CMDB. Discovery produces the location and identification of CIs that exist within the organization, particularly those that were previously undocumented or inadequately documented in the CMDB.</p></td></tr></tbody></table>
+**Discovery** — Data collection and clean up, achieved through automation technology and tools, to build or verify the contents of the CMDB. Discovery produces the location and identification of CIs that exist within the organization, particularly those that were previously undocumented or inadequately documented in the CMDB.
 
 Verification of the CMDB data should ideally be performed through a combination of inventory and discovery.
 
@@ -245,7 +245,7 @@ These solutions are not mutually exclusive. They can be combined as necessary, d
 
 Organizations may also formally audit configuration data. These audits are often combined with IT asset audits (see the IT asset management practice guide).
 
-<table><tbody><tr><td><p><strong>Definition: CMDB audit</strong></p></td></tr><tr><td><p>A planned, structured, and documented inspection of the organization’s configuration items that aims to assess the correctness of the CMDB data in scope.</p></td></tr></tbody></table>
+**CMDB audit** — A planned, structured, and documented inspection of the organization’s configuration items that aims to assess the correctness of the CMDB data in scope.
 
 Auditing is one of the tools of CMDB verification; a resource-demanding planned verification endeavour. It is usually organized and managed as a project and, like any project, should be justified and approved in order to occur.
 
@@ -263,7 +263,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Managing IT assets and IT asset data</p></td><td><p>IT asset management</p></td></tr><tr><td><p>Managing contracts with suppliers and partners</p></td><td><p>Supplier management</p></td></tr><tr><td><ul><li>Ensuring that only authorized changes are made to CIs</li><li>Analysing the impacts of changes that involve CIs</li><li>Authorizing and planning changes requiring CI modification</li><li>Defining rules for CI changes triggered by standard changes or service requests</li></ul></td><td><p>Change enablement</p></td></tr><tr><td><p>Defining and managing the architectures of the organization’s products and services</p></td><td><p>Architecture management</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><p><strong>Definition: Practice success factor</strong></p></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+**Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -356,7 +356,7 @@ The practice metrics should be applied to a specific context such as type of inc
 ## 3.1 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one of more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+**Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one of more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Service configuration management activities form three processes:
 * managing a common approach to service configuration management
@@ -371,7 +371,7 @@ This process is focused on establishing an effective and efficient approach to t
 
 Figure 3.1 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 shows workflow diagram of managing a common approach to Service Configuration Management process](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture3.png "**Figure 3.1 Workflow of the managing a common approach to service configuration management process**")  
+![Image of Figure 3.2 shows workflow diagram of managing a common approach to Service Configuration Management process](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture3.png "Figure 3.1 Workflow of the managing a common approach to service configuration management process**")  
 
 Table 3.2 describes the process activities.
 
@@ -386,7 +386,7 @@ This process is focused on updating, maintaining, and providing configuration in
 
 Figure 3.2 shows a workflow diagram of the process
 
-![Image of Figure 3.3 shows workflow diagram of the capturing, managing, and providing configuration information process](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture4.png "**Figure 3.2 Workflow of the** **capturing, managing, and providing configuration information process**")
+![Image of Figure 3.3 shows workflow diagram of the capturing, managing, and providing configuration information process](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture4.png "Figure 3.2 Workflow of the** **capturing, managing, and providing configuration information process**")
 
 Table 3.4 describes the process activities.
 
@@ -402,7 +402,7 @@ Table 3.5 Inputs, activities and outputs of the verifying configuration data pro
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.4 shows workflow diagram of the Verifying Configuration Data process](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture5.png "**Figure 3.3 Workflow for the verifying configuration data process**")
+![Image of Figure 3.4 shows workflow diagram of the Verifying Configuration Data process](Service%20configuration%20management%20ITIL4%20Practice%20Guide/Picture5.png "Figure 3.3 Workflow for the verifying configuration data process**")
 
 Table 3.6 describes the process activities.
 
@@ -413,7 +413,7 @@ Table 3.6 describes the process activities.
 ### 3.2.1 Service value streams
 To perform certain tasks or respond to particular situations, organizations create service value streams. These are specific combinations of activities and practices, and each one is designed for a particular scenario. Once designed, value streams should be subject to continual improvement.
 
-<table><tbody><tr><td><p><strong>Definition: Value stream</strong></p></td></tr><tr><td><p>A series of steps an organization undertakes to create and deliver products and services to consumers.</p></td></tr></tbody></table>
+**Value stream** — A series of steps an organization undertakes to create and deliver products and services to consumers.
 
 In practice, however, many organizations come to use of the value stream concept after having worked for a while (sometimes for years) without the value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the ‘As Is’ situation and the de-facto flows of work, and to analyze them in order to identify and eliminate the non-value-adding activities and other forms of waste.
 

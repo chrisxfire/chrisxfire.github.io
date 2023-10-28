@@ -11,7 +11,7 @@ Axelos International (https://www.axelos.com)
 # 2. Overview
 **Key Message**: The purpose of the deployment management practice is to move new or changed hardware, software, documentation, processes, or any other component to live environments. It may also be involved in deploying components to other environments for testing or staging.</p></td></tr></tbody></table>
 
-<table><tbody><tr><td><p><strong>Definition: Deployment</strong></p></td></tr><tr><td><p>The movement of any service component into any environment.</p></td></tr></tbody></table>
+**Deployment** — The movement of any service component into any environment.
 
 The deployment management practice is responsible for moving a service or service component into a designated environment. This practice enables the deployment or removal of service components from or to different environments, including development, integration, live, production, test, or staging environments.
 
@@ -43,7 +43,7 @@ Benefits for the service consumer include:
 #### 2.2.1 Environments
 The deployment management practice enables the movement of products, services, and service components between the environments.
 
-<table><tbody><tr><td><p><strong>Definition: Environment</strong></p></td></tr><tr><td><p>A subset of the IT infrastructure that is used for a particular purpose.</p></td></tr></tbody></table>
+**Environment** — A subset of the IT infrastructure that is used for a particular purpose.
 
 A service component’s lifecycle may vary depending on its type and the sourcing approach. The number and purpose of controlled environments within the organization may also vary. Table 2.1 provides a list of example environments for an organization that develops software.
 
@@ -84,7 +84,7 @@ Several activities and areas of responsibility are not included in the deploymen
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Authorizing changes/releases</p></td><td><p>Change enablement</p></td></tr><tr><td><p>Making services and components in the live environment available to users</p></td><td><p>Release management</p></td></tr><tr><td><p>Testing and validating services and service components</p></td><td><p>Service validation and testing</p></td></tr><tr><td><p>Developing software</p></td><td><p>Software development and management</p></td></tr><tr><td><p>Developing and building infrastructure components</p><p>Preparing and maintaining target environments for deployments</p></td><td><p>Infrastructure and platform management</p></td></tr><tr><td><p>Maintaining authorized repositories of service components</p></td><td><p>IT asset management</p></td></tr><tr><td><p>Naming, versioning, and controlling the service components</p></td><td><p>Service configuration management</p></td></tr></tbody></table>
 
 ### 2.4 Practice success factors
-<table><tbody><tr><td><p><strong>Definition: Practice success factor</strong></p></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+**Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -97,7 +97,7 @@ The deployment management practice includes the following PSFs:
 #### 2.4.1 Establishing and maintaining effective approaches to the deployment of services and service components across the organization
 The deployment management practice includes defining and agreeing a model or several models to use when deploying products, services, and components.
 
-<table><tbody><tr><td><p><strong>Definition: Deployment model</strong></p></td></tr><tr><td><p>A repeatable approach to the management of particular types of deployments.</p></td></tr></tbody></table>
+**Deployment model** — A repeatable approach to the management of particular types of deployments.
 
 These models may use one deployment approach or combine deployment approaches, depending on their specific services and requirements, as well as the sizes, types, and impacts of the service components that are being deployed.
 
@@ -146,7 +146,7 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ### 3.1 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+**Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Deployment management activities form two processes:
 * Deployment model development and improvement
@@ -190,7 +190,7 @@ Table 3.4 provides examples of the process activities.
 #### 3.2.1 Service value streams
 To perform certain tasks or respond to particular situations, organizations create service value streams. These are specific combinations of activities and practices, and each one is designed for a particular scenario. Once designed, value streams should be subject to continual improvement.
 
-<table><tbody><tr><td><p><strong>Definition: Value stream</strong></p></td></tr><tr><td><p>A series of steps an organization undertakes to create and deliver products and services to consumers.</p></td></tr></tbody></table>
+**Value stream** — A series of steps an organization undertakes to create and deliver products and services to consumers.
 
 In practice, however, many organizations come to the use of the value stream concept after having worked for a while (sometimes for years) without the value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the ‘As Is’ situation, and the de-facto flows of work, and to analyze them in order to identify and eliminate the non-value-adding activities and other forms of waste.
 

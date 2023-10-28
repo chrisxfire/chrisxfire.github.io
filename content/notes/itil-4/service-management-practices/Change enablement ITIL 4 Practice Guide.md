@@ -33,7 +33,7 @@ Benefits for the consumer include:
 * reduced negative impacts on users.
 
 ## 2.2 Terms and concepts
-<table><tbody><tr><td><p><strong>Definition: Change</strong></p></td></tr><tr><td><p>The addition, modification, or removal of anything that could have a direct or indirect effect on services.</p></td></tr></tbody></table>
+**Change** — The addition, modification, or removal of anything that could have a direct or indirect effect on services.
 
 The change enablement practice helps to build and maintain an organizational environment that supports creating intended outputs and achieving intended outcomes. The practice aims to balance the different and sometimes conflicting requirements and expectations from various stakeholders by:
 * Making sure the expected value is understood from the viewpoint of and by all stakeholders, following the guiding principle ‘focus on value’, among others.
@@ -62,7 +62,7 @@ Business-as-usual situations are relatively predictable, with low levels of unce
 
 Changes can be standardized and automated where uncertainty is low, which helps to decrease the costs and accelerate the changes. Checklists, templates, and standardized ways of working can be used in these situations. Additionally, changes that have a highly constrained potential adverse impact (meaning that the risks are well-managed, services can be restored quickly in case of a failure, and there is minimal or no negative impact on customers) can be handled in a standardized manner. This is reflected in the definition of a standard change.
 
-<table><tbody><tr><td><p><strong>Definition: Standard change</strong></p></td></tr><tr><td><p>A low-risk, pre-authorized change that is well understood and fully documented, and which can be implemented without needing additional authorization.</p></td></tr></tbody></table>
+**Standard change** — A low-risk, pre-authorized change that is well understood and fully documented, and which can be implemented without needing additional authorization.
 
 Examples of standard changes include:
 * fulfilment of a service request
@@ -87,19 +87,19 @@ However, standard solutions may be unavailable or fail. These cases require a di
 
 When there is no effective standardized approach to a change, organizations usually attempt to plan, authorize, and control that change. They follow a process that includes collective expert assessment, authorization, and control. The process is performed by a group of people combining expertise and authority. These are ‘normal changes’, some of which are low risk.
 
-<table><tbody><tr><td><p><strong>Definition: Normal change</strong></p></td></tr><tr><td><p>An unknown, medium, or high risk change that requires additional authorization for planning and control. Handling of normal changes often leverages existing change models for efficiency.</p></td></tr></tbody></table>
+**Normal change** — An unknown, medium, or high risk change that requires additional authorization for planning and control. Handling of normal changes often leverages existing change models for efficiency.
 
 A normal change can be triggered by the creation (manual or automated) of a request for change (RFC).
 
-<table><tbody><tr><td><p><strong>Definition: Request for change (RFC)</strong></p></td></tr><tr><td><p>A description of a proposed change used to initiate change enablement.</p></td></tr></tbody></table>
+**Request for change (RFC)** — A description of a proposed change used to initiate change enablement.
 
 The change authority for these is usually someone who can make rapid decisions, often using automation to accelerate the change. When a normal change is high risk, the change authority might be the management board of the equivalent.
 
-<table><tbody><tr><td><p><strong>Definition: Change authority</strong></p></td></tr><tr><td><p>A person or group responsible for authorizing a change.</p></td></tr></tbody></table>
+**Change authority** — A person or group responsible for authorizing a change.
 
 Change models provide guidance for handling normal changes. Organizations usually develop change models that determine procedures and roles for the assessment, authorization, and ongoing control of changes based on their type.
 
-<table><tbody><tr><td><p><strong>Definition: Change model</strong></p></td></tr><tr><td><p>A repeatable approach to the management of a particular type of change.</p></td></tr></tbody></table>
+**Change model** — A repeatable approach to the management of a particular type of change.
 
 Change models can be defined based on factors such as:
 * systems/technologies to be changed
@@ -120,7 +120,7 @@ Change models may be helpful when managing uncertainty in complex situations. Fo
 
 The change enablement practice should ensure that changes are implemented effectively, safely, and promptly in emergency situations. Changes that help to correct emergency situations are commonly known as emergency changes.
 
-<table><tbody><tr><td><p><strong>Definition: Emergency change</strong></p></td></tr><tr><td><p>A change that must be introduced as soon as possible.</p></td></tr></tbody></table>
+**Emergency change** — A change that must be introduced as soon as possible.
 
 Although some emergency scenarios may be predicted and provided with a standard solution (including standard changes required), many situations do not have a ready solution or the time for safe-to-fail testing. Change models for emergency changes often include bypassed or delayed procedures, such as change request registration or updating of the change schedule. They may also determine a dedicated change authority of high power and availability, together with other special arrangements. The aim is to accelerate changes while keeping risks at an acceptable level.
 
@@ -194,7 +194,7 @@ There are several activities and areas of responsibility not included in the cha
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Change initiation</p></td><td><p>All other practices</p></td></tr><tr><td><p>Change realization</p></td><td><ul><li>Architecture management</li><li>Deployment management</li><li>Infrastructure and platform management</li><li>IT asset management</li><li>Release management</li></ul><ul><li>Service catalogue management</li><li>Service configuration management</li><li>Service design</li><li>Service level management</li><li>Software development and management</li><li>Supplier management</li><li>Workforce and talent management</li></ul></td></tr><tr><td><p>Change risks assessment and control</p></td><td><p>Risk management</p></td></tr><tr><td><p>Costs control, financial evaluation of changes</p></td><td><p>Service financial management</p></td></tr><tr><td><p>Management of projects</p></td><td><p>Project management</p></td></tr><tr><td><p>Management of organizational changes</p></td><td><p>Organizational change management</p></td></tr><tr><td><p>Testing</p></td><td><p>Service validation and testing</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><p><strong>Definition: Practice success factor</strong></p></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+**Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -260,7 +260,7 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ## 3.1 Processes
 Each practice may include processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+**Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Change enablement activities form two processes:
 * **Change enablement planning and optimization** This process is focused on the planning and continual improvement of the change enablement practice, change models, and standard change procedures.
@@ -310,7 +310,7 @@ The change model examples in Table 3.4 are just two of many options illustrating
 ### 3.2.1 Service value streams
 To perform certain tasks or respond to particular situations, organizations create service value streams. These are specific combinations of activities and practices, and each one is designed for a particular scenario. Once designed, value streams should be subject to continual improvement.
 
-<table><tbody><tr><td><p><strong>Definition: Value stream</strong></p></td></tr><tr><td><p>A series of steps an organization undertakes to create and deliver products and services to consumers.</p></td></tr></tbody></table>
+**Value stream** — A series of steps an organization undertakes to create and deliver products and services to consumers.
 
 In practice, however, many organizations come to the use of the value stream concept after having worked for a while (sometimes for years) without the value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the ‘As Is’ situation and the de-facto flows of work, and to analyze them in order to identify and eliminate the non-value-adding activities and other forms of waste.
 

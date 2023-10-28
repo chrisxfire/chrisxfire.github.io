@@ -15,7 +15,7 @@ Risk management is performed at all levels of the organization. Strategic risk m
 
 The ITIL definition of a service specifically identifies that managing risks on behalf of service consumers is an essential part of every service.
 
-<table><tbody><tr><td><p><strong>Service</strong></p></td></tr><tr><td><p>A means of enabling value co-creation by facilitating outcomes that customers want to achieve, without the customer having to manage specific costs and risks.</p></td></tr></tbody></table>
+> **Service** — A means of enabling value co-creation by facilitating outcomes that customers want to achieve, without the customer having to manage specific costs and risks.
 
 Every service removes some risks from the service consumer, but also imposes additional risks on the service consumer. The service provider must understand and manage these risks in a controlled manner. The balance between the risks removed and the risks imposed, is part of the value proposition of the service.
 
@@ -23,7 +23,7 @@ The risk management practice provides an organization with the resources require
 
 ## 2.2 Terms and concepts
 ### 2.2.1 Risk
-<table><tbody><tr><td><p><strong>Risk</strong></p></td></tr><tr><td><p>A possible event that could cause harm or loss, or make it more difficult to achieve objectives. Can also be defined as uncertainty of outcome, and can be used in the context of measuring the probability of positive outcomes as well as negative outcomes.</p></td></tr></tbody></table>
+> **Risk** — A possible event that could cause harm or loss, or make it more difficult to achieve objectives. Can also be defined as uncertainty of outcome, and can be used in the context of measuring the probability of positive outcomes as well as negative outcomes.
 
 Risk is normally avoided because of its association with threats. Although this is generally true, risk is also associated with opportunity.
 
@@ -70,7 +70,7 @@ Sometimes it is possible to eliminate a risk, but this is unusual. After the pro
 When dealing with positive risks (opportunities), the terms are usually expressed slightly differently. Risk avoidance becomes risk exploitation and risk reduction becomes risk enhancement. However, the term risk modification covers both positive and negative risks.
 
 ### 2.2.7 Control
-<table><tbody><tr><td><p><strong>Control</strong></p></td></tr><tr><td><p>The means of managing a risk, ensuring that a business objective is achieved, or that a process is followed.</p></td></tr></tbody></table>
+> **Control** — The means of managing a risk, ensuring that a business objective is achieved, or that a process is followed.
 
 Risk modification requires implementation of controls to reduce the likelihood or impact of a risk.
 
@@ -135,7 +135,7 @@ Service level management is concerned with ensuring that service levels are achi
 Good service level reporting includes the identification of risks that may impact the service in the future, and explanations of how these risks will be managed. Often, the risk management will require input from, or actions by, the customers and users.
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><strong>Practice Success Factor (PSF)</strong></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+> **Practice Success Factor (PSF)** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 

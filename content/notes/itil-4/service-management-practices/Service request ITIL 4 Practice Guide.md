@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The purpose of the service request management practice is to support the agreed quality of a service by handling all predefined, user-initiated service requests in an effective and user- friendly manner.</td></tr></tbody></table>
+**Key message**: The purpose of the service request management practice is to support the agreed quality of a service by handling all predefined, user-initiated service requests in an effective and user- friendly manner.
 
 Service request management presents a significant value proposition for both the service consuming organization and the service providing organization.
 
@@ -26,7 +26,7 @@ Benefits for the service consumer include:
 * minimized impact to business operations
 * higher employee satisfaction.
 
-<table><tbody><tr><td><strong>Definition: Service request</strong></td></tr><tr><td>A request from a user or a user’s authorized representative that initiates a service action which has been agreed as a normal part of service delivery.</td></tr></tbody></table>
+> **Service request** — A request from a user or a user’s authorized representative that initiates a service action which has been agreed as a normal part of service delivery.
 
 Service requests are an important type of user query and an important part of the user experience. Typically, service requests include the following:
 * a request initiating a service action (performed by the service provider or jointly with the user)
@@ -133,7 +133,7 @@ There are several activities and areas of responsibilities that are not included
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Practice guide</strong></td></tr><tr><td>Resolving incidents</td><td>Incident management</td></tr><tr><td>Communicating with users</td><td>Service desk</td></tr><tr><td>Management and realization of changes to products and services</td><td>Change enablement<p>Deployment management</p><p>Release management</p></td></tr><tr><td>Monitoring services and technology</td><td>Monitoring and event management</td></tr><tr><td>Ongoing management and implementation of improvements</td><td>Continual improvement</td></tr><tr><td>Management of request catalogue</td><td>Service catalogue management</td></tr><tr><td>Management and provision of access to services</td><td>Information security management</td></tr><tr><td>Creating service request models</td><td>Service design</td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice success factors</strong></td></tr><tr><td>A complex functional component of a practice that is required for the practice to fulfil its purpose.</td></tr></tbody></table>
+> **Practice success factors** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity as it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -170,7 +170,7 @@ The correct aggregation of metrics into complex indicators will make them easier
 ## 3.1 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Service request management activities form two processes:
 * service request fulfilment control
@@ -214,7 +214,7 @@ To perform certain tasks or respond to situations, organizations create service 
 
 Once designed, value streams should be subject to continual improvement.
 
-<table><tbody><tr><td><strong>Definition: Value stream</strong></td></tr><tr><td>A series of steps an organization undertakes to create and deliver products and services to consumers.</td></tr></tbody></table>
+> **Value stream** — A series of steps an organization undertakes to create and deliver products and services to consumers.
 
 In practice, however, many organizations apply the value stream concept after having worked for a significant span of time, sometimes for years, without value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the current state or ‘as is’ situation, the de-facto flows of work, and to analyze them to identify and eliminate the non-value-adding activities and other forms of waste.
 

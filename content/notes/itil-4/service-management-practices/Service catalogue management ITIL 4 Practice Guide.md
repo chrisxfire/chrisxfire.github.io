@@ -139,7 +139,7 @@ Like any other ITIL management practice, the service catalogue management practi
 
 The contribution of the service catalogue management practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 shows Heatmap of the contribution of Service Catalogue Management to Value Chain activities](Service%20catalogue%20management%20ITIL%204%20Practice%20Guide/Picture1.png "**Figure 3.1 Heatmap of the contribution of service catalogue management to value chain activities.**")
+![Image of Figure 3.1 shows Heatmap of the contribution of Service Catalogue Management to Value Chain activities](Service%20catalogue%20management%20ITIL%204%20Practice%20Guide/Picture1.png "Figure 3.1 Heatmap of the contribution of service catalogue management to value chain activities.**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
@@ -156,7 +156,7 @@ This process is focused on defining, agreeing, and maintaining the service catal
 ### Table 3.1 Inputs, activities, and outputs of the defining and maintaining service catalogue data and standard service catalogue views process
 <table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Organization’s architecture</li><li>Organization’s strategy</li><li>Organization’s service portfolio</li><li>Customers’ and users’ requirements</li><li>Contracts and agreements with customers and suppliers</li><li>External data sources as relevant</li><li>Service catalogue feedback</li><li>Continual improvement register</li></ul></td><td><ul><li>analyze stakeholders' requirements for the service catalogue</li><li>Define service catalogue data structure</li><li>Define and agree service catalogue standard views for key stakeholder groups</li><li>Collect and maintain service catalogue data</li></ul></td><td><ul><li>List of key service catalogue stakeholder groups</li><li>Agreed stakeholders’ requirements</li><li>Service catalogue data structure</li><li>Standard service catalogue views and user manuals</li><li>Template for new service data</li><li>Requirements for catalogue management tools</li><li>Data integration requirements</li><li>Requests for changes</li><li>Catalogue data published</li></ul></td></tr></tbody></table>
 
-![Image of Figure 3.2 shows workflow process diagram for defining and maintaining Service Catalogue data and standard Service Catalogue views](Service%20catalogue%20management%20ITIL%204%20Practice%20Guide/Picture2.png "**Figure 3.2 Workflow of the defining and maintaining service catalogue data and standard service catalogue views process.**")
+![Image of Figure 3.2 shows workflow process diagram for defining and maintaining Service Catalogue data and standard Service Catalogue views](Service%20catalogue%20management%20ITIL%204%20Practice%20Guide/Picture2.png "Figure 3.2 Workflow of the defining and maintaining service catalogue data and standard service catalogue views process.**")
 
 This process may vary, depending on the type and size of the organization, type and complexity of services, service customers, and service catalogue stakeholders. Table 3.2 gives an example of these variations.
 
@@ -177,7 +177,7 @@ This process includes the following activities and transforms the following inpu
 
 Figure 3.3 shows the workflow of providing and maintaining an up to date service catalogue.
 
-![Image of Figure 3.3 shows workflow diagram for providing and maintaining an up to date Service Catalogue](Service%20catalogue%20management%20ITIL%204%20Practice%20Guide/Picture3.png "**Figure 3.3 Workflow of the providing and maintaining up-to-date service catalogue views to the agreed target audience process.**")
+![Image of Figure 3.3 shows workflow diagram for providing and maintaining an up to date Service Catalogue](Service%20catalogue%20management%20ITIL%204%20Practice%20Guide/Picture3.png "Figure 3.3 Workflow of the providing and maintaining up-to-date service catalogue views to the agreed target audience process.**")
 
 The activities of this process should be automated as much as possible.
 
@@ -256,10 +256,7 @@ In most cases, the service catalogue management practice can significantly benef
 **Means of automation**
 **Key functionality**
 Impact on the effectiveness of the practice
-
- |
-| --- | --- | --- | --- |
-
+| - | - | - | - |
 **Defining and maintaining service catalogue data and standard service catalogue views**
 analyze stakeholders' requirements for the service catalogue
 Communication and collaboration tools

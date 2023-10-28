@@ -11,7 +11,7 @@ Axelos International (https://www.axelos.com)
 # 2. Overview
 IT assets are increasing in number and can come in many forms. ITIL defines an IT asset as follows.
 
-<table><tbody><tr><td><p><strong>Definition: IT asset</strong></p></td></tr><tr><td><p>Any financially valuable component, resource, or capability that could contribute to the delivery of an IT product or service. The types of IT assets have grown in recent years to include physical assets like servers, desktops, laptops, and network hardware, as well as less tangible assets such as virtual servers, cloud resources, software and software licenses, developed code, databases, information, and knowledge.</p></td></tr></tbody></table>
+**IT asset** — Any financially valuable component, resource, or capability that could contribute to the delivery of an IT product or service. The types of IT assets have grown in recent years to include physical assets like servers, desktops, laptops, and network hardware, as well as less tangible assets such as virtual servers, cloud resources, software and software licenses, developed code, databases, information, and knowledge.
 
 This definition is intentionally subjective. The ITIL adage ‘adopt and adapt’ requires that organizational context be applied. Financial value could equate to the IT asset’s purchase or replacement cost, how it contributes directly or indirectly to value co-creation, the mission criticality of the service(s) that it underpins, how it is capitalized or depreciated according to financial practices, and/or any regulatory requirements that govern how an organization must document and report the presence and use of specific IT assets.
 
@@ -110,7 +110,7 @@ Organizations experience the impacts of data leaks, cyber-attacks, and regulatio
 ● applying ITAM procedures to this data to control its lifecycle.
 
 ### 2.2.3 IT asset register
-<table><tbody><tr><td><strong></strong><p><strong>Definition: IT asset register</strong></p></td></tr><tr><td><p>A collection of information about IT assets that includes their ownership, cost, and other key characteristics. The IT asset register makes it possible to quickly understand the lifecycle stage of all IT assets.</p></td></tr></tbody></table>
+**IT asset register** — A collection of information about IT assets that includes their ownership, cost, and other key characteristics. The IT asset register makes it possible to quickly understand the lifecycle stage of all IT assets.
 
 The ITAM practice requires accurate asset information that should be kept in an asset register. The IT asset register is the main source of the IT asset’s data, and is created when the ITAM approach is formed and updated regularly during the IT asset’s lifecycle.
 
@@ -160,7 +160,7 @@ To maintain the IT asset register, organizations periodically run audit checks c
 To keep the IT asset register current, procedures should be established to record acquired IT assets in the register. The data could be captured from the fixed IT asset register or the IT operational expenses list provided by the service financial management practice, IT asset purchase orders, suppliers’ invoices, and delivery or reception slips. The most efficient way of achieving this is to embed IT asset register updates into purchasing and procurement procedures. Recent advances in technology integrations have automated the link between the IT asset register and financial and procurement systems.
 
 ### 2.2.4 IT asset lifecycle and lifecycle model
-<table><tbody><tr><td><p><strong>Definition: IT asset lifecycle</strong></p></td></tr><tr><td><p>The various stages in the life of an IT asset, from planning to disposal. The lifecycle consists of stages represented by the statuses and the status transitions that are permitted, based on the IT asset type.</p></td></tr></tbody></table>
+**IT asset lifecycle** — The various stages in the life of an IT asset, from planning to disposal. The lifecycle consists of stages represented by the statuses and the status transitions that are permitted, based on the IT asset type.
 
 The IT asset goes through the following stages in its lifecycle:
 * planning and budgeting
@@ -198,7 +198,7 @@ Entitlements are the purchased rights or licences to use software. Software is n
 In addition to obtaining software through procurement, organizations may also acquire software through internal application development efforts. Advantages, such as tailoring to the organization’s specific needs, should be compared with any potential disadvantages like development time and costs versus licensing costs. Cost benefit analysis (CBA) could be a beneficial approach in this situation.
 
 #### 2.2.4.3 IT asset assignment
-<table><tbody><tr><td><p><strong>Definition: IT asset assignment</strong></p></td></tr><tr><td><p>The act of delegating some or all responsibility for an IT asset to an IT asset consumer for the period of IT asset consumption or use. For some types of IT assets, they can be combined with the relevant install, move, add, change (IMAC) actions.</p></td></tr></tbody></table>
+**IT asset assignment** — The act of delegating some or all responsibility for an IT asset to an IT asset consumer for the period of IT asset consumption or use. For some types of IT assets, they can be combined with the relevant install, move, add, change (IMAC) actions.
 
 IT asset assignment includes assigning actions to the IT asset, usually IMAC actions. Asset assignment is usually triggered by an approved request for asset assignment or a detected asset information gap. The person responsible checks that an available asset or eligible substitute is in stock, then follows the asset assignment procedures. It may be governed by rules for the movement of asset stocks, bring your own device (BYOD) policies, or practical guidance about the installation and use of assets to streamline costs and risks.
 
@@ -217,7 +217,7 @@ Optimizing asset utilization requires understanding contracts and pricing models
 Monitoring provides information to support optimal utilization, such as periods of inactivity, trends in usage, licence capacity issues, billing trends, and any other aspects of IT asset utilization. As part of utilization management, ITAM practitioners should monitor and action IT asset key dates, such as end of contract or support, product or model obsolescence, and expiration dates in the IT asset register (such as licences, loans, SSL certificates, warranty, contract renewal, and true-up). Based on this monitoring, they can create requests for procurement, asset decommissioning, or asset assignment to the service request management or change enablement practices.
 
 #### 2.2.4.5 IT asset decommissioning
-<table><tbody><tr><td><p><strong>Definition: IT asset decommissioning</strong></p></td></tr><tr><td><p>The act of retrieving/recovering IT assets from a consumer, particularly through uninstallation (including deletion of data according to security policy) and deciding whether the IT assets should be returned to stock or disposed of.</p></td></tr></tbody></table>
+**IT asset decommissioning** — The act of retrieving/recovering IT assets from a consumer, particularly through uninstallation (including deletion of data according to security policy) and deciding whether the IT assets should be returned to stock or disposed of.
 
 IT assets are decommissioned based on the request from the service request management or change enablement practices. Other causes could include end of loan or asset reservation, obsolete or useless IT asset identified in an inventory, or a stolen/lost IT asset. Before decommissioning, the asset change impact must be assessed, the decommissioning condition must be verified with potential corrective actions, and a decision should be made on reusing or disposing of the asset.
 
@@ -226,7 +226,7 @@ The decommissioning should follow the policies and procedures defined in the lif
 While decommissioning, data should be handled according to the information security policy and licenses should be recovered for re-use when applicable. Finally, the IT asset register should be updated.
 
 #### 2.2.4.6 IT asset disposal
-<table><tbody><tr><td><p><strong>Definition: IT asset disposal</strong></p></td></tr><tr><td><p>The act of permanently removing an IT asset that is no longer in use in the organization in an appropriate and documented manner.</p></td></tr></tbody></table>
+**IT asset disposal** — The act of permanently removing an IT asset that is no longer in use in the organization in an appropriate and documented manner.
 
 The formal disposal procedure could be carried out in many forms, depending on asset type and acquisition method. An asset can be sold, returned, given, or destroyed following the regulations (for example, e-waste).
 
@@ -235,7 +235,7 @@ During disposal, any contracts or licenses connected to the IT asset should be t
 #### 2.2.4.7 IT asset lifecycle models
 Each stage of the lifecycle requires different support and control activities and different types of information, depending on the type of IT asset. IT asset types may serve as a basis for creating the IT asset management approach and models.
 
-<table><tbody><tr><td><p><strong>Definition: IT asset lifecycle model</strong></p></td></tr><tr><td><p>A detailed description of the organization's approach to the management of the IT asset lifecycle tailored for a specific IT asset type.</p></td></tr></tbody></table>
+**IT asset lifecycle model** — A detailed description of the organization's approach to the management of the IT asset lifecycle tailored for a specific IT asset type.
 
 Lifecycle models should define the processes, controls, and procedures for the IT assets handling based on the IT asset type.
 
@@ -275,7 +275,7 @@ To meet the needs of stakeholders, the ITAM practice ensures that IT asset infor
 
 ITAM ensures that the relevant IT assets’ data is captured in the IT asset register at each stage of the lifecycle. The practice should ensure that movement and changes in IT assets are captured as early as possible. To that end, IT asset movement record keeping should be automated where possible. Capturing the IT asset data improves the reliability of the IT register data and decreases, but does not eliminate, the need for verification.
 
-<table><tbody><tr><td><p><strong>Definition: Verification</strong></p></td></tr><tr><td><p>An activity that ensures a new or changed IT service, process, plan, or other deliverable is complete, accurate, reliable, and matches its design specification.</p></td></tr></tbody></table>
+**Verification** — An activity that ensures a new or changed IT service, process, plan, or other deliverable is complete, accurate, reliable, and matches its design specification.
 
 In the ITAM practice, verification is a continuous activity of identifying and correcting the gaps and deviations between the IT asset register data and the actual IT infrastructure, or data from IT assets, inventory, or discovery. This is a continual process as the actual lifecycle status is dynamic and the verification ensures consistent integrity within the IT asset register.
 
@@ -296,13 +296,13 @@ Verification is often referred to as ‘reconciliation’. Such reconciliation m
 
 Since the IT asset is the source of truth for many other practices, caution should be exercised when choosing to replace any contents of the IT asset register with inventory or discovery data. A misstep can lead to a total loss of control as valid data may be indelibly overwritten by incorrect data.
 
-<table><tbody><tr><td><p><strong>Definition: Compliance</strong></p></td></tr><tr><td><p>The act of ensuring that a standard or set of guidelines is followed, or that proper, consistent accounting or other practices are being employed.</p></td></tr></tbody></table>
+**Compliance** — The act of ensuring that a standard or set of guidelines is followed, or that proper, consistent accounting or other practices are being employed.
 
 Most compliance activities rely heavily on valid IT asset information resulting from verification or remediation. Some examples may include compliance with software agreements, electronic waste and recycling regulations, financial regulations, data and security regulatory requirements, and security policies. Compliance activities must focus on organizational outcomes.
 
 To ensure compliance, an organization can conduct regular internal and external audits.
 
-<table><tbody><tr><td><p><strong>Definition: IT assets audit</strong></p></td></tr><tr><td><p>A planned, structured, and documented inspection of an organization's IT assets, including data collection, examination, verification, and correction activities that may be initiated and upheld by internal or external parties.</p></td></tr></tbody></table>
+**IT assets audit** — A planned, structured, and documented inspection of an organization's IT assets, including data collection, examination, verification, and correction activities that may be initiated and upheld by internal or external parties.
 
 Auditing is one of the tools of the IT asset verification lifecycle stage. Verification is a continuous background activity, while an audit is a planned verification endeavour.
 
@@ -423,7 +423,7 @@ IT asset lifecycle types and respective models could also serve as a scope expan
 **Key Message**: Whether the adoption of the ITAM practice in an organization follows a more common iterative and progressive approach, or a less likely ‘big bang’, it should be based on the needs of the organization and other stakeholders. The practice aims to help maximize value, control costs, manage risks, make decisions, and comply with requirements. Scoping and implementation decisions should be verified against these objectives first to prevent excessive and unjustified efforts and costs.</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><p><strong>Definition: Practice success factor</strong></p></td></tr><tr><td><p><span>A complex functional component of a practice that is required for the practice to fulfil its purpose.</span></p></td></tr></tbody></table>
+**Practice success factor** — <span>A complex functional component of a practice that is required for the practice to fulfil its purpose.</span>
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -464,7 +464,7 @@ The ITAM practice is not only about keeping asset records; it should help to con
 
 Monitoring of IT asset utilization can help to optimize contracts with vendors and suppliers, decrease IT asset ownership and utilization costs, and improve the financial performance of the organization and its services. The early detection of unused or under-utilized IT assets, redundant contracts, and excessive license pools help to eliminate unnecessary spending and technical debt.
 
-<table><tbody><tr><td><p><strong>Definition: Technical debt</strong></p></td></tr><tr><td><p>The total rework backlog accumulated by choosing workarounds instead of systemic solutions that would take longer.</p></td></tr></tbody></table>
+**Technical debt** — The total rework backlog accumulated by choosing workarounds instead of systemic solutions that would take longer.
 
 Although technical debt is not uncommon, its consequences are often significant for a digital organization. Some examples of IT asset-related technical debt include:
 * servers that are beyond their planned obsolescence date, may not be covered by a maintenance agreement or contract, and may be running an obsolete or unsupported operating system
@@ -500,7 +500,7 @@ The correct aggregation of metrics into complex indicators will make it easier t
 ## 3.1 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><strong></strong><span><strong>Definition: Process</strong></span><strong></strong></p></td></tr><tr><td><p><span>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one of more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</span></p></td></tr></tbody></table>
+**Process</strong></span><strong>** — <span>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one of more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</span>
 
 ITAM activities form three processes:
 * managing a common approach to ITAM
@@ -580,7 +580,7 @@ To perform certain tasks or respond to situations, organizations create service 
 
 Once designed, value streams should be subject to continual improvement.
 
-<table><tbody><tr><td><p><strong>Definition: Value stream</strong></p></td></tr><tr><td><p>A series of steps an organization undertakes to create and deliver products and services to consumers.</p></td></tr></tbody></table>
+**Value stream** — A series of steps an organization undertakes to create and deliver products and services to consumers.
 
 In practice, however, many organizations apply the value stream concept after having worked for a significant span of time, sometimes for years, without value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the current state or situation, and the typical flows of work, and to analyze them to identify and eliminate the non-value-adding activities and other forms of waste.
 

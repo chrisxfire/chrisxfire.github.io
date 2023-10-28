@@ -18,7 +18,7 @@ Software development and management covers the whole lifecycle of applications. 
 In the modern world bigger shares of an application’s total costs of ownership shifts to development. Since constant changes become an integral part of the application lifecycle, all maintenance activities can become a part of development and are usually not referred to as maintenance.  
 
 ## 2.2 Terms and concepts
-<table><tbody><tr><td><p><strong>Software</strong></p></td></tr><tr><td><p>A set of instructions that tell the physical components (hardware) of a computer how to work. Software manifests itself in applications for end users but also in the underlying infrastructure that is needed to develop and operate applications. Software and infrastructure are service components that are combined with other service components or resources to form products and services.</p></td></tr></tbody></table>
+> **Software** — A set of instructions that tell the physical components (hardware) of a computer how to work. Software manifests itself in applications for end users but also in the underlying infrastructure that is needed to develop and operate applications. Software and infrastructure are service components that are combined with other service components or resources to form products and services.
 
 Software is a crucial part of business. It can provide value to customers through technology- enabled business services. Software development becomes critical as most modern services become not software-aided, but software-enabled.
 
@@ -46,7 +46,7 @@ For many practitioners involved in software development and management the main 
 
 Agile and Scrum approaches are a combination of incremental and iterative, focusing on close collaboration with the owner of the application in order to obtain fast feedback and achieve quick development of small increments from which the owner can derive value.
 
-<table><tbody><tr><td><p><strong>Scrum</strong></p></td></tr><tr><td><p>An iterative, timeboxed approach to product delivery that is described as ‘a framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value’ (<em>The Scrum Guide </em>by Ken Schwaber and Jeff Sutherland, updated November 2017).</p></td></tr></tbody></table>
+> **Scrum** — An iterative, timeboxed approach to product delivery that is described as ‘a framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value’ (<em>The Scrum Guide </em>by Ken Schwaber and Jeff Sutherland, updated November 2017).
 
 DevOps approaches further improve throughput by speeding up the transition from coding to run/use, using techniques such as continuous integration/continuous delivery to (partially) automate the deployment pipeline.
 

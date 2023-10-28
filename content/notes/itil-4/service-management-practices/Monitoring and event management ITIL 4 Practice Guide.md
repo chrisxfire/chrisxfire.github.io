@@ -9,11 +9,11 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The purpose of the monitoring and event management practice is to support the normal operation of service components by observing, analyzing, and appropriately responding to changes of state in those components.</td></tr></tbody></table>
+**Key message**: The purpose of the monitoring and event management practice is to support the normal operation of service components by observing, analyzing, and appropriately responding to changes of state in those components.
 
 The definition of ‘normal operation of services components’ is based on the level of service defined in service level agreements (SLAs) as well as instructions or manuals from vendors and system creators that specify actions required to maintain the effective operation of each service component. Other forms of service quality specification could also be used to define normal operation, such as company policies, regulatory compliance, and learning documented in journals by service component managers. This practice identifies and prioritizes infrastructure, application, service, business process, and information security events, and establishes the appropriate response to those events. Responses include identifying potential faults, responding to conditions that could lead to incidents, and performing activities required for services to perform at agreed levels.
 
-<table><tbody><tr><td><strong>Definition: Event</strong></td></tr><tr><td>Any change of state that has significance for the management of a service or other configuration item (CI).</td></tr></tbody></table>
+> **Event** — Any change of state that has significance for the management of a service or other configuration item (CI).
 
 Monitoring and event management is used to understand the significance of events, and to identify the appropriate response to optimize the quality and performance of services. Monitoring and event management is also used to manage events throughout their lifecycle to ensure that services are managed to meet both utility and warranty objectives.
 
@@ -25,7 +25,7 @@ The monitoring part of the practice focuses on services and configuration items 
 
 The event management part of the practice focuses on those monitored changes of state defined by the organization as an event, determining their significance, and identifying and initiating the correct response to them. Information about events is also recorded, stored and provided to relevant parties.
 
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>Effective monitoring and event management depends on service design including definitions of:<br>- changes of state that should be monitored<br>- significant of changes of state<br>- instruments to track changes of state<br>- the correct responses to the events.<p>These definitions and instruments should be included in the service development and deployment, and adopted by the operational staff as part of the service release and acceptance.</p></td></tr></tbody></table>
+**Key message**: Effective monitoring and event management depends on service design including definitions of:<br>- changes of state that should be monitored<br>- significant of changes of state<br>- instruments to track changes of state<br>- the correct responses to the events.<p>These definitions and instruments should be included in the service development and deployment, and adopted by the operational staff as part of the service release and acceptance.</p>
 
 The monitoring and event management practice is a fundamental element of the service value system, and is beneficial for both IT service provider and their service consumers.
 
@@ -67,7 +67,7 @@ Events are categorized according to what action is required when they are detect
 * Exception: activity has occurred which represents the failure of an operational activity or a disruption to the agreed level of service.
 
 ## 2.2 Terms and concepts
-<table><tbody><tr><td><strong>Definition: Monitoring</strong></td></tr><tr><td>Repeated observation of a system, practice, process, service, or other entity to detect events and to ensure that the current status is known.</td></tr></tbody></table>
+> **Monitoring** — Repeated observation of a system, practice, process, service, or other entity to detect events and to ensure that the current status is known.
 
 Knowing the current status of services and service components is essential for managing them. Information about service health and performance enables the organization to:
 * perform operational activities that are required to ensure that service components are performing optimally
@@ -106,7 +106,7 @@ Monitoring is based on three types of system:
 
 Although monitoring and event management is traditionally focused on technology components of services, it can also be useful to understand the state of other service management resources and activities, including processes, people, and suppliers.
 
-<table><tbody><tr><td><strong>Definition: Metric</strong></td></tr><tr><td>A measurement or calculation that is monitored or reported for management and improvement.</td></tr></tbody></table>
+> **Metric** — A measurement or calculation that is monitored or reported for management and improvement.
 
 Metrics are sources of data for the monitoring and event management practice. Metrics data is collected, aggregated, and analyzed by the monitoring systems. The metric is compared with a benchmark, representing a range of normal operations, to detect any event which is significant in that context. Metrics range across multiple layers, including:
 * low-level infrastructure metrics (host-, server-, network- and others)
@@ -115,7 +115,7 @@ Metrics are sources of data for the monitoring and event management practice. Me
 * third-party service performance metrics (based on agreed service levels)
 * operations, process, and value stream performance metrics.
 
-<table><tbody><tr><td><strong>Definition: Threshold</strong></td></tr><tr><td>The value of a metric that triggers a pre-defined response.</td></tr></tbody></table>
+> **Threshold** — The value of a metric that triggers a pre-defined response.
 
 Thresholds define the upper and/or lower limits of an acceptable range of values. These could be based on several factors, including performance (for example response times longer than one second are not acceptable), number of events (for example total number of transactions on a website per minute), or utilization levels (for example total percentage of network that may be consumed by a single service).
 
@@ -131,7 +131,7 @@ Responses to a threshold vary and may include:
 
 Other rules for processing the measurement data are usually combined with thresholds, such as event correlation rules and engines. These are prescribed by component vendors or defined by the organization, and can be supported by machine learning.
 
-<table><tbody><tr><td><strong>Definition: Alert</strong></td></tr><tr><td>A notification that an action needs to be taken, a threshold has been reached, something has changed, or a failure has occurred.</td></tr></tbody></table>
+> **Alert** — A notification that an action needs to be taken, a threshold has been reached, something has changed, or a failure has occurred.
 
 Alerts are created and controlled by monitoring tools and are managed by the monitoring and event management practice. Alerting is a very important aspect of a monitoring system. The alerting system must have several characteristics, including being:
 * highly reliable
@@ -173,7 +173,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Practice Guide</strong></td></tr><tr><td>Management of incidents</td><td>Incident management</td></tr><tr><td>Investigation of causes of events and trends</td><td>Problem management</td></tr><tr><td>Management of changes in response to events</td><td>Change enablement</td></tr><tr><td>Communications with users</td><td>Service desk</td></tr><tr><td>Support decision-making based on monitoring data</td><td>Measurement and reporting</td></tr><tr><td>Setting targets and thresholds for service quality and performance</td><td>Service level management<br>Availability management<br>Performance and capacity management<br>Information<br>Information security management<br>Continuity management<br>Service design</td></tr><tr><td>Setting thresholds for infrastructure and application components</td><td>Infrastructure and platform management Software development and management Service design</td></tr><tr><td>Setting targets and thresholds for third parties’ services</td><td>Supplier management<br>Service design</td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice success factors</strong></td></tr><tr><td>A complex functional component of a practice that is required for the practice to fulfil its purpose.</td></tr></tbody></table>
+> **Practice success factors** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -245,7 +245,7 @@ There is no single best solution. Metrics will be based on the overall service s
 ## 3.1 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Monitoring and event management activities form two processes:
 * **Monitoring planning** This is a process of adding an element into monitoring, defining the priority of the element, choosing features to monitor, establishing metrics and thresholds for event classification, mapping events with the action plans and teams responsible.
@@ -294,7 +294,7 @@ The monitoring and event management review inputs, activities and outputs are li
 #### 3.2.1 Service value streams
 To perform certain tasks or respond to particular situations, organizations create service value streams. These are specific combinations of activities and practices, and each one is designed for a particular scenario. Once designed, value streams should be subject to continual improvement.
 
-<table><tbody><tr><td><strong>Definition: Value stream</strong></td></tr><tr><td>A series of steps an organization undertakes to create and deliver products and services to consumers.</td></tr></tbody></table>
+> **Value stream** — A series of steps an organization undertakes to create and deliver products and services to consumers.
 
 In practice, however, many organizations come to use of the value stream concept after having worked for a while (sometimes for years) without the value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the ‘As Is’ situation, the de-facto flows of work, and to analyze them in order to identify and eliminate the non-value-adding activities and other forms of waste.
 

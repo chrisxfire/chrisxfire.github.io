@@ -66,7 +66,9 @@ Communal relationships usually provide benefits in response to needs (for exampl
 
 Similarly, relationships between teams may demonstrate features of cooperation or collaboration.
 
-<table><tbody><tr><td><p><strong>Definitions:</strong></p></td></tr><tr><td><p><strong>Cooperation</strong></p><p>Working with others to achieve your own goals.</p><p><strong><br></strong><strong>Collaboration</strong></p><p><br>Working with others to achieve common shared goals.</p></td></tr></tbody></table>
+Definitions:  
+**Cooperation** — Working with others to achieve your own goals.  
+**Collaboration** — Working with others to achieve common shared goals.
 
 A qualitative study of firm-to-firm relationships by D. Haytko<sup>1</sup> found that there were three types of work relationships:
 * business associate
@@ -122,7 +124,7 @@ There are also many stakeholders within organizations (for example, leaders, man
 
 A simple method for understanding how each stakeholder affects, or may be affected by, the organization is to map the stakeholders in a matrix, categorized according to their influence and interest levels. Figure 2.1 shows an example of stakeholder analysis and mapping.
 
-![Image of Figure 2.1 shows an example matrix of stakeholder analysis and mapping](Relationship%20management%20ITIL%204%20Practice%20Guide/Picture4.jpg "**Figure 2.1 Sample stakeholder map**")
+![Image of Figure 2.1 shows an example matrix of stakeholder analysis and mapping](Relationship%20management%20ITIL%204%20Practice%20Guide/Picture4.jpg "Figure 2.1 Sample stakeholder map**")
 
 Relationships with identified stakeholders should be managed according to their influence and involvement. Stakeholders can be kept satisfied, informed, and monitored with an appropriate level of communication. Stakeholders and their influence and interest may change over time, so the stakeholder map should be regularly revisited and amended.
 
@@ -233,7 +235,7 @@ The contribution of the relationship management practice to the service value ch
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><strong></strong><span><strong>Definition: Process</strong></span></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+**Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 The relationship management practice activities form two main processes:
 * managing a common approach to relationships
@@ -247,7 +249,7 @@ This process is focused on defining, agreeing, and promoting a common organizati
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 shows a workflow diagram of managing a common approach to relationship process](Relationship%20management%20ITIL%204%20Practice%20Guide/Picture6.png "**Figure 3.2 Workflow of the managing a common approach to relationships process**")
+![Image of Figure 3.2 shows a workflow diagram of managing a common approach to relationship process](Relationship%20management%20ITIL%204%20Practice%20Guide/Picture6.png "Figure 3.2 Workflow of the managing a common approach to relationships process**")
 
 The process may vary, depending on the scale and type of organization, its stakeholders, and culture. Table 3.2 provides examples of the process activities.
 
@@ -262,7 +264,7 @@ This process is focused on effective ongoing management of relationships with va
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.3 shows workflow managing service relationship journeys process](Relationship%20management%20ITIL%204%20Practice%20Guide/Picture7.png "**Figure 3.3 Workflow of the managing service relationship journeys process**")
+![Image of Figure 3.3 shows workflow managing service relationship journeys process](Relationship%20management%20ITIL%204%20Practice%20Guide/Picture7.png "Figure 3.3 Workflow of the managing service relationship journeys process**")
 
 The process may vary, depending on nature of the relationships and relationship journey. Table 3.4 provides examples of the process activities.
 

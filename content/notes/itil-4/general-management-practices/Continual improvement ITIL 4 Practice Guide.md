@@ -18,21 +18,21 @@ The continual improvement practice enables service providers to adapt to changin
 * improve their overall capabilities to deliver and manage services efficiently. Failure to adapt and improve will lead to a reduction in the value of services.
 
 ## 2.2 Terms and concepts
-<table><tbody><tr><td><p><strong>Definition: Improvement</strong></p></td></tr><tr><td><p>A deliberately introduced change that results in increased value for one or more stakeholders.</p></td></tr></tbody></table>
+**Improvement** — A deliberately introduced change that results in increased value for one or more stakeholders.
 
 Almost every action taken in an organization can be seen as an improvement activity. Improvement means change; there cannot be a change to outcomes without changing the current state.
 
-<table><tbody><tr><td><p><strong>Definition: Vision</strong></p></td></tr><tr><td><p>A defined aspiration of what an organization would like to become in the future.</p></td></tr></tbody></table>
+**Vision** — A defined aspiration of what an organization would like to become in the future.
 
 A vision may be a brief description of a future state, to which all parts of the organization and its value network are required to contribute. The vision focuses on the organization’s ambitions, but usually does not detail the ways in which these will be achieved.
 
 All improvement initiatives need to cascade from the organizational vision. If any improvement is not contributing, even in a small way, to achieving this vision, the change is probably not necessary or useful.
 
-<table><tbody><tr><td><p><strong>Definition: Business as usual</strong></p></td></tr><tr><td><p>Typically, repeatable routine tasks that can be carried out by people with appropriate technical skills without needing to be managed as a project.</p></td></tr></tbody></table>
+**Business as usual** — Typically, repeatable routine tasks that can be carried out by people with appropriate technical skills without needing to be managed as a project.
 
 An example of business as usual (BAU) would be when modifications or enhancements need to be made to an existing product within a relatively short timescale. There would usually be a long list of these tasks arriving regularly throughout the lifespan of the product. There may be an established team dedicated to this work.
 
-<table><tbody><tr><td><p><strong>Definition: Improvement register</strong></p></td></tr><tr><td><p>A database or structured document used to record and manage improvement initiatives throughout their lifecycles.</p></td></tr></tbody></table>
+**Improvement register** — A database or structured document used to record and manage improvement initiatives throughout their lifecycles.
 
 People throughout the organization should be encouraged to record ideas in the improvement register so that they can be assessed and actioned. Improvement is everybody’s responsibility, including:
 * stakeholders
@@ -43,7 +43,7 @@ People throughout the organization should be encouraged to record ideas in the i
 * product and service owners
 * suppliers and partners involved in service delivery.
 
-<table><tbody><tr><td><p><strong>Definition: Feedback loops</strong></p></td></tr><tr><td><p>Part of the output of an activity that is used for new input. In a well-functioning organization, feedback is actively collected and processed along the value chain.</p></td></tr></tbody></table>
+**Feedback loops** — Part of the output of an activity that is used for new input. In a well-functioning organization, feedback is actively collected and processed along the value chain.
 
 Well-constructed feedback mechanisms facilitate an understanding of:
 * end user and customer perception of value created
@@ -78,7 +78,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Implementing improvements</p></td><td><p>Project management</p><p>Software development and management</p><p>Infrastructure and platform management</p><p>Change enablement</p><p>Deployment management</p><p>Release management</p><p>Service validation and testing</p></td></tr><tr><td><p>Definition of vision and strategic objectives</p></td><td><p>Strategy management</p></td></tr><tr><td><p>Analysis of flaws in a value stream</p></td><td><p>Business analysis</p></td></tr><tr><td><p>Change authorization</p></td><td><p>Change enablement</p></td></tr><tr><td><p>Providing tools to measure the current state and impact of improvements</p></td><td><p>Measurement and reporting</p></td></tr><tr><td><p>Decision-making on the funding of big improvement initiatives</p></td><td><p>Portfolio management</p></td></tr><tr><td><p>Assessing risks against the desired improvement outcomes</p></td><td><p>Risk management</p></td></tr><tr><td><p>Negotiating and agreeing joint improvement initiatives with partners and suppliers</p></td><td><p>Supplier management</p><p>Relationship management</p></td></tr><tr><td><p>Informing and agreeing on improvements with service consumers</p></td><td><p>Service level management</p></td></tr><tr><td><p>Providing interfaces between the service provider and users for feedback and improvement ideas</p></td><td><p>Service desk</p></td></tr><tr><td><p>Managing the human aspects of large-scale improvement initiatives</p></td><td><p>Organizational change management</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><p><strong>Definition: Practice success factor</strong></p></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+**Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity; it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -94,7 +94,7 @@ This model promotes an iterative approach to improvement; work is divided into m
 
 Figure 2.1 shows the ITIL continual improvement model.
 
-![Image of Figure 2.1 shows the ITIL continual improvement model](Continual%20improvement%20ITIL%204%20Practice%20Guide/Picture1.jpg "**Figure 2.1 ITIL continual improvement model**")
+![Image of Figure 2.1 shows the ITIL continual improvement model](Continual%20improvement%20ITIL%204%20Practice%20Guide/Picture1.jpg "Figure 2.1 ITIL continual improvement model**")
 
 #### 2.4.1.2 Improvement in complex environments
 Large improvements in complex environments create significant change. It is important to define the scale at which an initiative should be delivered using project management practices, rather than BAU.
@@ -221,7 +221,7 @@ The contribution of the continual improvement practice to the service value chai
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+**Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 The continual improvement practice activities form one process:
 * management of continual improvement initiatives.

@@ -19,32 +19,32 @@ The information security management practice is considered by many organizations
 ### 2.2.1 Security characteristics
 The information security management practice helps to ensure the confidentiality, integrity, and availability of the information needed to conduct business, with several activities and controls needed to preserve these characteristics. Additionally, the information security management practice is often concerned with authentication and non-repudiation.
 
-<table><tbody><tr><td><p><strong>Definition: Confidentiality</strong></p></td></tr><tr><td><p>The prevention of information being disclosed or made available to unauthorized entities.</p></td></tr></tbody></table>
+**Confidentiality** — The prevention of information being disclosed or made available to unauthorized entities.
 
 Confidentiality is the first thing that many people think of when they consider information security. People and organizations want to ensure that their secrets remain secret, and that their personal or business information is not misused.
 
-<table><tbody><tr><td><p><strong>Definition: Availability</strong><a target="_self" href="https://my.axelos.com/resource-hub/practice/information-security-management-itil-4-practice-guide#_ftn1"><sup><strong>[1]</strong></sup></a></p></td></tr><tr><td><p><span>A characteristic of information that ensures it is able to be used when needed.</span></p></td></tr></tbody></table>
+**Availability** — A characteristic of information that ensures it is able to be used when needed.
 
 If the information is not available when and where it is needed, then the organization is unable to conduct its business.
 
 The availability management practice considers many aspects of service availability. However, the information security management practice is mostly concerned with the availability of information.
 
-<table><tbody><tr><td><p><span><strong>Definition: Integrity</strong></span></p></td></tr><tr><td><p>An assurance that information is accurate and can only be modified by authorized personnel and activities.</p></td></tr></tbody></table>
+**Integrity** — An assurance that information is accurate and can only be modified by authorized personnel and activities.
 
 Incorrect information may be worse than not having any information at all. For example, if a bank incorrectly believes that a customer has a large amount of money in their account and allows them to withdraw this, the bank might suffer from a significant loss.
 
-<table><tbody><tr><td><p><strong></strong><span><strong>Definition: Authentication</strong></span></p></td></tr><tr><td><span>Verification that a characteristic or attribute which appears or is claimed to be true, is in fact true.</span></td></tr></tbody></table>
+**Authentication** — Verification that a characteristic or attribute which appears or is claimed to be true, is in fact true.
 
 Authentication is used to establish the identity of people and things. For example:
 * Usernames and passwords are often used to authenticate people, although more rigorous authentication using biometrics and security tokens is often preferred.
 * Certificates and encryptions may be used by web sites to provide authentication.
 
-<table><tbody><tr><td><p><strong></strong><span><strong>Definition: Non-repudiation</strong></span></p></td></tr><tr><td><p>Providing undeniable proof that an alleged event happened, or an alleged action was performed, and that this event or action was performed by a particular entity.</p></td></tr></tbody></table>
+**Non-repudiation** — Providing undeniable proof that an alleged event happened, or an alleged action was performed, and that this event or action was performed by a particular entity.
 
 Non-repudiation has been used in business transactions since before the existence of IT systems and services. Traditionally, a signature would be used, and if a higher level of proof was needed then this signature might be notarized. Information security relies on non-repudiation so that transactions can occur. This is essential to preserve the integrity of information.
 
 #### 2.2.2 Assets, threats, threat actors, and vulnerabilities
-<table><tbody><tr><td><p><strong>Definition: Asset</strong></p></td></tr><tr><td><p>An <strong>asset</strong> is anything that has value to an organization.</p></td></tr></tbody></table>
+**Asset** — An <strong>asset</strong> is anything that has value to an organization.
 
 Assets may include hardware, software, networking, information, people, business processes, services, organizations, buildings, or anything else that is valuable to an organization. The information security management practice helps to protect assets so that the organization can conduct its business.
 
@@ -221,12 +221,12 @@ Like any other ITIL management practice, the information security management pra
 
 The contribution of the information security management practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 Heat map of the contribution of the Information Security Management practice to Value Chain activities](Information%20security%20management%20ITIL%204%20Practice%20Guide/Picture1.png "**Figure 3.1 Heat map of the contribution of the information security management practice to value chain activities**")
+![Image of Figure 3.1 Heat map of the contribution of the Information Security Management practice to Value Chain activities](Information%20security%20management%20ITIL%204%20Practice%20Guide/Picture1.png "Figure 3.1 Heat map of the contribution of the information security management practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><span><strong>Definition: Process</strong></span></p></td></tr><tr><td><p><span>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</span></p></td></tr></tbody></table>
+**Process** — <span>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</span>
 
 Many information security management practice activities are embedded into processes from other practices. For example:
 * designing security into new and changed IT services is part of the service design practice
@@ -251,7 +251,7 @@ This process includes the following activities listed in Table 3.1 and transform
 
 Figure 3.2 shows a workflow diagram of the process
 
-![Image of Figure 3.2 shows Workflow of the Security Incident Management process](Information%20security%20management%20ITIL%204%20Practice%20Guide/Picture2.png "**Figure 3.2 Workflow of the security incident management process**")
+![Image of Figure 3.2 shows Workflow of the Security Incident Management process](Information%20security%20management%20ITIL%204%20Practice%20Guide/Picture2.png "Figure 3.2 Workflow of the security incident management process**")
 
 These activities might be performed with varying levels of formality by many people within the organization.
 
@@ -270,7 +270,7 @@ This process includes the activities listed in Table 3.3, and transforms the fol
 
 Figure 3.3 Workflow of the audit and review process
 
-![Image of Figure 3.3 shows Workflow of the Audit and Review process](Information%20security%20management%20ITIL%204%20Practice%20Guide/Picture3.png "**Figure 3.3 shows a workflow diagram of the process.**")
+![Image of Figure 3.3 shows Workflow of the Audit and Review process](Information%20security%20management%20ITIL%204%20Practice%20Guide/Picture3.png "Figure 3.3 shows a workflow diagram of the process.**")
 
 These activities might be performed by internal or external auditors. Many organizations perform internal audits and implement improvements. External auditors can then perform a more formal audit.
 
@@ -306,123 +306,17 @@ The CISO is typically responsible for:
 Examples of other roles that can be involved in the information security management practice are listed in Table 4.2 below, together with the associated competency profiles and specific skills.
 
 ### Table 4.2 Examples of roles with responsibility for information security management activities
-| Activity | Responsible Roles | Competency Profile | Specific Skills |
-
- |
-| --- | --- | --- | --- |
-
-Security incident management process
-Preparation
-CISO
-
-Information security manager
-
-Security analyst
-
-CSIRT team member
-LMCT
-Organizational knowledge
-
-Policy and process development
-Detection and reporting
-Security analyst
-
-Technical analyst
-
-Service desk agent
-CAT
-Recognizing security incidents and appropriately categorizing it
-
-Assembling a team and communicating clearly
-Triage and analysis
-CISO
-
-Information security manager
-
-Forensics specialist
-
-Security analyst
-
-Technical analyst
-TMA
-Business prioritization
-
-Forensic data preservation
-
-Technical understanding of services and their components
-
-Analysis of complex systems and information sources
-Containment and recovery
-Information security manager
-
-Security analyst
-
-Technical analyst
-TCM
-Technical understanding of services and their components
-
-Evaluation and selection of alternative courses of action in complex environments
-
-Communication and coordination with multiple stakeholders
-Post-incident activity
-CISO
-
-Information security manager
-
-Security analyst
-CTL
-Communication and coordination with multiple stakeholders
-
-Technical understanding of services and their components
-
-Prioritization of improvement opportunities
-Audit and review process
-Identify changes to business, technology, or threat environment
-CISO
-
-Information security manager
-TMC
-Understanding of business processes and priorities
-
-Understanding of current and emerging technologies
-
-Understanding of current and emerging threats
-Identify missing controls
-Information security manager
-
-Information Security auditor
-
-Security analyst
-TM
-Understanding of applicable security standards, including detailed understanding of security controls
-
-Technical understanding of services and their components
-
-Analytical skills
-Assess control effectiveness
-Information security manager
-
-Information Security auditor
-
-Security analyst
-TMC
-Understanding of applicable security standards, including detailed understanding of security controls
-
-Technical understanding of services and their components
-
-Communication and audit skills
-
-Analytical skills
-Create audit report
-Information security manager
-
-Information Security auditor
-
-Security analyst
-TCA
-Evaluating and prioritizing improvement opportunities
-
-Communicating with a wide range of stakeholders, including senior management
+| Process                              | Activity                                                        | Responsible Roles                                                                                                     | Competency Profile | Specific Skills                                                                                                                                                                                                                      |
+| ------------------------------------ | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Security incident management process | Preparation                                                     | CISO <br /> Information security manager <br /> Security analyst <br /> CSIRT team member                             | LMCT               | Organizational knowledge <br /> Policy and process development                                                                                                                                                                       |
+| Security incident management process | Detection and reporting                                         | Security analyst <br /> Technical analyst <br /> Service desk agent                                                   | CAT                | Recognizing security incidents and appropriately categorizing it <br /> Assembling a team and communicating clearly                                                                                                                  |
+| Security incident management process | Triage and analysis                                             | CISO <br /> Information security manager <br /> Forensics specialist <br /> Security analyst <br /> Technical analyst | TMA                | Business prioritization <br /> Forensic data preservation <br /> Technical understanding of services and their components <br /> Analysis of complex systems and information sources                                                 |
+| Security incident management process | Containment and recovery                                        | Information security manager <br /> Security analyst <br /> Technical analyst                                         | TCM                | Technical understanding of services and their components <br /> Evaluation and selection of alternative courses of action in complex environments <br /> Communication and coordination with multiple stakeholders                   |
+| Security incident management process | Post-incident activity                                          | CISO <br /> Information security manager <br /> Security analyst                                                      | CTL                | Communication and coordination with multiple stakeholders <br /> Technical understanding of services and their components <br /> Prioritization of improvement opportunities                                                         |
+| Audit and review process             | Identify changes to business, technology, or threat environment | CISO <br /> Information security manager                                                                              | TMC                | Understanding of business processes and priorities <br /> Understanding of current and emerging technologies <br /> Understanding of current and emerging threats                                                                    |
+| Audit and review process             | Identify missing controls                                       | Information security manager <br /> Information Security auditor <br /> Security analyst                              | TM                 | Understanding of applicable security standards, including detailed understanding of security controls <br /> Technical understanding of services and their components <br /> Analytical skills                                       |
+| Audit and review process             | Assess control effectiveness                                    | Information security manager <br /> Information Security auditor <br /> Security analyst                              | TMC                | Understanding of applicable security standards, including detailed understanding of security controls <br /> Technical understanding of services and their components <br /> Communication and audit skills <br /> Analytical skills |
+| Audit and review process             | Create audit report                                             | Information security manager <br /> Information Security auditor <br /> Security analyst                              | TCA                | Evaluating and prioritizing improvement opportunities <br /> Communicating with a wide range of stakeholders, including senior management                                                                                            |
 
 ### 4.1.3 Security competence for all roles
 Everyone within an organization has some responsibility for the information security management practice. Every role should include some security management requirements. Those who are aware of their information security management practice capabilities can contribute to:

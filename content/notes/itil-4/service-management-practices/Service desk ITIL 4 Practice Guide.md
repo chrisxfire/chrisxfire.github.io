@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The purpose of the service desk practice is to capture demand for incident resolution and service requests. It should also be the entry point and single point of contact for the service provider for all users.</td></tr></tbody></table>
+**Key message**: The purpose of the service desk practice is to capture demand for incident resolution and service requests. It should also be the entry point and single point of contact for the service provider for all users.
 
 Note: In some organizations, the main purpose of the service desk practice is establishing an effective communication interface between a service provider and its users, with incidents and service requests being just two subjects of communication. In these organizations, the purpose of this practice could be to establish an effective entry point and single point of contact with all users and to capture demand for incident resolution and service requests. Organizations can and should adjust the practice purpose statements and the other recommendations of ITIL according to their objectives and circumstances.
 
@@ -37,12 +37,12 @@ The characteristics outlined in Table 2.2 are similar to the characteristics usu
 
 Multiple channels are often used for communications between a service provider and its users. Multichannel communications may be convenient, but they can also introduce confusion if they are not integrated. The development of multichannel communications to provide seamless experience and information flow has led to omnichannel communications.
 
-<table><tbody><tr><td><strong>Definition: Omnichannel communications</strong></td></tr><tr><td>Unified communications across multiple channels based on sharing information across the channels and providing a seamless communication experience.</td></tr></tbody></table>
+> **Omnichannel communications** — Unified communications across multiple channels based on sharing information across the channels and providing a seamless communication experience.
 
 More information on omnichannel communications is provided in section 2.4.1.
 
 #### 2.2.2 Service empathy
-<table><tbody><tr><td><strong>Definition: Service empathy</strong></td></tr><tr><td>The ability to recognize, understand, predict, and project the interests, needs, intentions, and experiences of another party in order to establish, maintain, and improve the service relationship.</td></tr></tbody></table>
+> **Service empathy** — The ability to recognize, understand, predict, and project the interests, needs, intentions, and experiences of another party in order to establish, maintain, and improve the service relationship.
 
 Service empathy is important for organizations and those involved in service management. It is based on the ability to understand other people’s feelings, emotions, and needs (cognitive empathy). However, it is important for the mental health of the service desk agents to constrain the sharing of the users’ feeling and emotions (emotional, or affective, empathy). A service support agent should not share user’s frustration, but they should recognize and understand it, demonstrate understanding and readiness to help, and adjust their actions accordingly.
 
@@ -53,7 +53,7 @@ Service empathy is an important factor of user satisfaction and service provider
 #### 2.2.3 User experience and satisfaction
 As a communication interface, the service desk practice significantly influences user experience, customer experience, and the overall success of service relationships. Key user satisfaction factors include the effectiveness and convenience of communication channels and interactions.
 
-<table><tbody><tr><td><strong>Definition: Moment of truth</strong></td></tr><tr><td>Any episode in which the customer or user encounters an aspect of the organization and gets an impression of the quality of its service. It is the basis for setting and fulfilling client expectations and ultimately achieving client satisfaction.</td></tr></tbody></table>
+> **Moment of truth** — Any episode in which the customer or user encounters an aspect of the organization and gets an impression of the quality of its service. It is the basis for setting and fulfilling client expectations and ultimately achieving client satisfaction.
 
 Many moments of truth in service relationships occur during communications between users and the service provider, and therefore often involve the service desk practice. Although service quality (utility, warranty, and experience of using the service) largely defines user satisfaction, interactions with the service desk, both as a part of normal service consumption and during user support, contribute a lot to the overall user experience and satisfaction.
 
@@ -71,7 +71,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Practice guide</strong></td></tr><tr><td>Incident resolution and management</td><td>Incident management</td></tr><tr><td>Management and fulfilment of service requests</td><td>Service request management</td></tr><tr><td>Definition of content, timing, and format of communications between users and the service provider</td><td>All practices providing information to or using information from users. These include incident management, problem management, change enablement, release management project management, software development and management, infrastructure and platform management, information security management, and many others</td></tr><tr><td>Monitoring of technology and service performance</td><td>Monitoring and event management</td></tr><tr><td>Management of improvement initiatives</td><td>Continual improvement</td></tr><tr><td>Communications between the service provider and stakeholders other than users</td><td>Relationship management</td></tr><tr><td>Maintenance and improvement of the use of information and knowledge</td><td>Knowledge management</td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice success factor</strong></td></tr><tr><td>A complex functional component of a practice that is required for the practice to fulfil its purpose.</td></tr></tbody></table>
+> **Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -161,7 +161,7 @@ The correct aggregation of metrics into indicators will make it easier to use th
 ## 3.1 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Service desk activities form three processes:
 * user query handling
@@ -223,7 +223,7 @@ Table 3.6 outlines the activities of the process.
 #### 3.2.1 Service value streams
 To perform certain tasks or respond to specific situations, organizations create service value streams. These are specific combinations of activities and practices, and each one is designed for a particular scenario. Once designed, value streams should be subject to continual improvement.
 
-<table><tbody><tr><td><strong>Definition: Value stream</strong></td></tr><tr><td>A series of steps an organization undertakes to create and deliver products and services to consumers.</td></tr></tbody></table>
+> **Value stream** — A series of steps an organization undertakes to create and deliver products and services to consumers.
 
 In practice, however, many organizations come to use of the value stream concept after having worked for a while, sometimes for years, without the value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the ‘As Is’ situation, the real flows of work, and to analyze them in order to identify and eliminate the non-value-adding activities and other forms of waste.
 
@@ -240,7 +240,7 @@ The service desk practice is involved in many service value streams. The most ob
 
 Service desk staff can be involved in other activities of these value streams. Service desk agents often perform incident classification; identify and apply known incident resolutions; partially or wholly fulfil service requests. In all these scenarios, the resources of the service desk team are used to perform activities of other practices (incident management and request fulfilment). It is important to distinguish service desk as a practice from service desk as a team.
 
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td>The service desk <em>practice</em> is a set of capabilities focused on communications with users; the service desk<em> team</em> is a team which often has and applies a wider range of capabilities. A service desk team can be involved in any service value stream and in any role where their skills and competencies are needed. The service desk practice can be involved in any value stream where its capabilities are needed.</td></tr></tbody></table>
+**Key message**: The service desk <em>practice</em> is a set of capabilities focused on communications with users; the service desk<em> team</em> is a team which often has and applies a wider range of capabilities. A service desk team can be involved in any service value stream and in any role where their skills and competencies are needed. The service desk practice can be involved in any value stream where its capabilities are needed.
 
 Other service value streams where the service desk practice is involved, are listed in table 3.7.
 

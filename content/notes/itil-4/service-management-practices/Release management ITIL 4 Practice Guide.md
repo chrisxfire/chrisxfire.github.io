@@ -43,7 +43,7 @@ Benefits for the service consumer include:
 
 ### 2.2 Terms and concepts
 #### 2.2.1 Release management and deployment management
-<table><tbody><tr><td><p><strong>Release</strong></p></td></tr><tr><td><p>A version of a service or any other configuration item, or a collection of configuration items, that is made available for use.</p></td></tr></tbody></table>
+> **Release** — A version of a service or any other configuration item, or a collection of configuration items, that is made available for use.
 
 Organizations should define a high-level approach to release and deployment management practices and their role in organization’s value streams and service relationships.
 
@@ -59,7 +59,7 @@ Organizations can define the approach for release and deployment management prac
 #### 2.2.2 Release management approaches, models, and plans
 If an organization manages products of different architectures, it is likely that several approaches for release management will be defined. A product-specific release management model can be agreed for a specific product.
 
-<table><tbody><tr><td><p><strong>Definition: Release model</strong></p></td></tr><tr><td><p>A repeatable approach to the management of particular types of releases.</p></td></tr></tbody></table>
+**Release model** — A repeatable approach to the management of particular types of releases.
 
 This model includes, but is not limited to:  
 
@@ -113,7 +113,7 @@ Some of those key areas are listed in Table 2.1, and includes references to the 
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Authorization of changes/releases</p></td><td><p>Change enablement</p></td></tr><tr><td><p>Deployment of new and changed components and services in live environment</p></td><td><p>Deployment management</p></td></tr><tr><td><p>Development of software</p></td><td><p>Software development and management</p></td></tr><tr><td><p>Development and building of infrastructure components</p></td><td><p>Infrastructure and platform management</p></td></tr><tr><td><ul><li>User training</li><li>Support and operational staff training</li></ul></td><td><p>Workforce and talent management</p></td></tr><tr><td><p>Testing and validating the services and service components</p></td><td><p>Service validation and testing</p></td></tr><tr><td><p>Naming, versioning and control of the service components</p></td><td><p>Service configuration management</p></td></tr><tr><td><p>Management of organizational changes related to large-scale releases</p></td><td><p>Organizational change management</p></td></tr><tr><td><p>Management of projects</p></td><td><p>Project management</p></td></tr></tbody></table>
 
 ### 2.4 Practice success factors
-<table><tbody><tr><td><p><strong>Definition: Practice success factor</strong></p></td></tr><tr><td><p>A practice success factor (PSF) is a complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+**Practice success factor** — A practice success factor (PSF) is a complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -164,7 +164,7 @@ The correct selection and aggregation/segregation of metrics into composite/hier
 ### 3.1 Value stream contribution
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><p><strong>Definition: Process</strong></p></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+**Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Release management activities form two processes:
 * **Release model development and improvement** This process is focused on the continual improvement of the release management practice, release approaches, and models.
@@ -206,7 +206,7 @@ Table 3.4 describes the release planning and coordination process activities.
 #### 3.2.1 Service value streams
 To perform certain tasks or respond to particular situations, organizations create service value streams. These are specific combinations of activities and practices, and each one is designed for a particular scenario. Once designed, value streams should be subject to continual improvement.
 
-<table><tbody><tr><td><p><strong>Definition: Value stream</strong></p></td></tr><tr><td><p>A series of steps an organization undertakes to create and deliver products and services to consumers.</p></td></tr></tbody></table>
+**Value stream** — A series of steps an organization undertakes to create and deliver products and services to consumers.
 
 In practice, however, many organizations come to use of the value stream concept after having worked for a while, sometimes for years, without the value streams being managed, mapped, or understood. This means that when the importance of the concept becomes clear, the first step is to understand and map the current situation, and the typical flows of work, and to analyze them in order to identify and eliminate waste.
 

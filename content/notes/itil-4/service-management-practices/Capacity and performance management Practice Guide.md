@@ -120,7 +120,7 @@ This process includes the activities listed in Table 3.1 and transforms the inpu
   
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 shows workflow of the establishing Capacity and Performance Control process](Capacity%20and%20performance%20management%20Practice%20Guide/Picture2.png "**Figure 3.2 Workflow of the establishing capacity and performance control process**")
+![Image of Figure 3.2 shows workflow of the establishing Capacity and Performance Control process](Capacity%20and%20performance%20management%20Practice%20Guide/Picture2.png "Figure 3.2 Workflow of the establishing capacity and performance control process**")
 
 This process may vary, depending on the type of services and service components to which it is applied. Table 3.2 demonstrates how the activities may vary for a modern cloud-enabled services and for the first tier of service support staff.
 
@@ -135,7 +135,7 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 
 Figure 3.3 shows a workflow diagram of the process.
 
-![Image of Figure 3.3 shows workflow of the analysing and improving service capacity and performance process](Capacity%20and%20performance%20management%20Practice%20Guide/Picture3.png "**Figure 3.3 Workflow of the analysing and improving service capacity and performance process**")
+![Image of Figure 3.3 shows workflow of the analysing and improving service capacity and performance process](Capacity%20and%20performance%20management%20Practice%20Guide/Picture3.png "Figure 3.3 Workflow of the analysing and improving service capacity and performance process**")
 
 This process may vary, depending on the type of services and service components to which it is applied. Table 3.4 demonstrates how the activities may vary for modern cloud-enabled services and for a first tier of technical support staff.
 

@@ -72,7 +72,7 @@ SRE is a discipline that incorporates aspects of software engineering and applie
 
 *Key message*: The practice is involved throughout the lifecycle of product and services. Figure 2.1 from “The Site Reliability Workbook” by Google, illustrates how SRE teams are involved during the lifecycle. With minor variations, this illustration is applicable to other approaches to infrastructure and platform management.
 
-![Image of Figure 2.1 shows diagram of Infrastructure and Platform Management during product and service lifecycle](Infrastructure%20and%20platform%20management%20Practice%20Guide/Picture1.png "**Figure 2.1 Infrastructure and platform management during product and service lifecycle**")
+![Image of Figure 2.1 shows diagram of Infrastructure and Platform Management during product and service lifecycle](Infrastructure%20and%20platform%20management%20Practice%20Guide/Picture1.png "Figure 2.1 Infrastructure and platform management during product and service lifecycle**")
 
 ### 2.2.5 Reliability and maintainability
 Once the solution is in production, the primary focus of the team supporting and operating the infrastructure is to ensure high-quality delivery through managing the ongoing performance and functionality of the infrastructure and platform solutions. This team may be a dedicated infrastructure team or a dedicated product team. The products and services rely on the solution’s availability and performance to support them. In production, the organization has high expectations for uptime and very little tolerance for any impact of any type on service or product. To meet these demands, the solutions must be reliable and maintainable. Beyond infrastructure and platform configurations to support reliability and maintainability, the infrastructure and platform management practice must ensure the solution is supportable. Supportability addresses the organization’s requirements to ensure that the solution is functional and ready to support products and services.
@@ -183,7 +183,7 @@ Like any other ITIL management practice, the infrastructure and platform managem
 
 The contribution of the infrastructure and platform management practice to the service value chain is shown in Figure 3.1.
 
-![Image of Figure 3.1 shows Heat map of the contribution of the infrastructure and platform management practice to Value Chain activities](Infrastructure%20and%20platform%20management%20Practice%20Guide/Picture2.png "**Figure 3.1 Heat map of the contribution of the infrastructure and platform management practice to value chain activities**")
+![Image of Figure 3.1 shows Heat map of the contribution of the infrastructure and platform management practice to Value Chain activities](Infrastructure%20and%20platform%20management%20Practice%20Guide/Picture2.png "Figure 3.1 Heat map of the contribution of the infrastructure and platform management practice to value chain activities**")
 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
@@ -205,7 +205,7 @@ Technology planning activities ensure that the organization has a technology man
 
 Figure 3.2 shows a workflow diagram of the process.
 
-![Image of Figure 3.2 workflow of technology planning process](Infrastructure%20and%20platform%20management%20Practice%20Guide/Picture3.png "**Figure 3.2 Workflow of technology planning**")
+![Image of Figure 3.2 workflow of technology planning process](Infrastructure%20and%20platform%20management%20Practice%20Guide/Picture3.png "Figure 3.2 Workflow of technology planning**")
 
 Table 3.2 provides an example of the technology planning activities.
 
