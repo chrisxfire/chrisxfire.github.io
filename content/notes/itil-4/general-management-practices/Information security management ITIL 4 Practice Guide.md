@@ -312,34 +312,16 @@ The CISO is typically responsible for:
 Examples of other roles that can be involved in the information security management practice are listed in Table 4.2 below, together with the associated competency profiles and specific skills.
 
 ### Table 4.2 Examples of roles with responsibility for information security management activities
-| 
 **Activity**
-
- | 
-
 **Responsible roles**
-
- | 
-
 **Competency profile**
-
- | 
-
 **Specific skills**
 
  |
 | --- | --- | --- | --- |
-| 
 
 Security incident management process
-
- |
-| 
-
 Preparation
-
- | 
-
 CISO
 
 Information security manager
@@ -347,47 +329,21 @@ Information security manager
 Security analyst
 
 CSIRT team member
-
- | 
-
 LMCT
-
- | 
-
 Organizational knowledge
 
 Policy and process development
-
- |
-| 
-
 Detection and reporting
-
- | 
-
 Security analyst
 
 Technical analyst
 
 Service desk agent
-
- | 
-
 CAT
-
- | 
-
 Recognizing security incidents and appropriately categorizing it
 
 Assembling a team and communicating clearly
-
- |
-| 
-
 Triage and analysis
-
- | 
-
 CISO
 
 Information security manager
@@ -397,13 +353,7 @@ Forensics specialist
 Security analyst
 
 Technical analyst
-
- | 
-
 TMA
-
- | 
-
 Business prioritization
 
 Forensic data preservation
@@ -411,129 +361,60 @@ Forensic data preservation
 Technical understanding of services and their components
 
 Analysis of complex systems and information sources
-
- |
-| 
-
 Containment and recovery
-
- | 
-
 Information security manager
 
 Security analyst
 
 Technical analyst
-
- | 
-
 TCM
-
- | 
-
 Technical understanding of services and their components
 
 Evaluation and selection of alternative courses of action in complex environments
 
 Communication and coordination with multiple stakeholders
-
- |
-| 
-
 Post-incident activity
-
- | 
-
 CISO
 
 Information security manager
 
 Security analyst
-
- | 
-
 CTL
-
- | 
-
 Communication and coordination with multiple stakeholders
 
 Technical understanding of services and their components
 
 Prioritization of improvement opportunities
-
- |
-| 
-
 Audit and review process
-
- |
-| 
-
 Identify changes to business, technology, or threat environment
-
- | 
-
 CISO
 
 Information security manager
-
- | 
-
 TMC
-
- | 
-
 Understanding of business processes and priorities
 
 Understanding of current and emerging technologies
 
 Understanding of current and emerging threats
-
- |
-| 
-
 Identify missing controls
-
- | 
-
 Information security manager
 
 Information Security auditor
 
 Security analyst
-
- | 
-
 TM
-
- | 
-
 Understanding of applicable security standards, including detailed understanding of security controls
 
 Technical understanding of services and their components
 
 Analytical skills
-
- |
-| 
-
 Assess control effectiveness
-
- | 
-
 Information security manager
 
 Information Security auditor
 
 Security analyst
-
- | 
-
 TMC
-
- | 
-
 Understanding of applicable security standards, including detailed understanding of security controls
 
 Technical understanding of services and their components
@@ -541,31 +422,16 @@ Technical understanding of services and their components
 Communication and audit skills
 
 Analytical skills
-
- |
-| 
-
 Create audit report
-
- | 
-
 Information security manager
 
 Information Security auditor
 
 Security analyst
-
- | 
-
 TCA
-
- | 
-
 Evaluating and prioritizing improvement opportunities
 
 Communicating with a wide range of stakeholders, including senior management
-
- |
 
 ### 4.1.3 Security competence for all roles
 Everyone within an organization has some responsibility for the information security management practice. Every role should include some security management requirements. Those who are aware of their information security management practice capabilities can contribute to:

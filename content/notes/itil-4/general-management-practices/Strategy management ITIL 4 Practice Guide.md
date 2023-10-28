@@ -56,7 +56,7 @@ The level of formality of a business strategy is determined by the culture of th
 
 In a technology-enabled organization, the role of technology in the organization’s strategy is key. This raises the question of the positioning of the digital strategy and/or IT strategy towards the business strategy. In order to maximize the effect of digital technology on the business, organizations must embrace the greatest integration of digital technology into the business strategy.
 
-<table><tbody><tr><td><strong>Definition: digital strategy</strong></td></tr><tr><td><p>A business strategy that is based on all or in part on using digital technology to achieve its goals and purpose.</p></td></tr></tbody></table>
+> **digital strategy** — A business strategy that is based on all or in part on using digital technology to achieve its goals and purpose.
 
 Digitalization of the business strategy helps to achieve the following objectives:
 * exploit an opportunity in the market that has been created due to customers using a new digital technology
@@ -109,7 +109,7 @@ The organization’s purpose and vision provide direction to the level of agilit
 #### 2.2.3.2 Innovation
 Digitally-enabled organizations often make innovativeness a key part of its strategy. Innovations might arise in any of the four dimensions of service management. Whichever dimension an innovation originates from, it is likely to affect all four dimensions. For example, the introduction of GPS on personal devices led to significant changes in the operation and user experience of taxi and delivery services.
 
-<table><tbody><tr><td><strong>Definition: Innovation</strong></td></tr><tr><td><p>The adoption of a new technology or way of working that has led to the significant improvement of an organization, product, or service.</p></td></tr></tbody></table>
+> **Innovation** — The adoption of a new technology or way of working that has led to the significant improvement of an organization, product, or service.
 
 The definition above highlights the fact that on its own, new technology or ways of working are not innovations, and are not guaranteed to improve a situation. New technology or ways of working are required for innovations to happen, however the fact that they are new is not enough. There are many new technologies and approaches being created and offered outside and within organizations, but these are only innovative if its adoption leads to improved value. The key capabilities essential for an organization to benefit from innovations are:
 * research and development to generate and identify innovation opportunities
@@ -142,7 +142,7 @@ In a chaotic environment, no effective constraints are applicable, and even the 
 #### 2.2.3.4 Sustainability
 The concept of a sustainable organization evolved from the focus on environmental matters to a wider understanding of sustainability. It is one of the key aspects of many organizations’ vision and strategy and is increasingly important in the context of VUCA business environments.
 
-<table><tbody><tr><td><strong>Definition: sustainability</strong></td></tr><tr><td><p>A business approach focused on creating long-term value for society and other stakeholders, by addressing the risks and opportunities of economic, environmental, and social developments.</p></td></tr></tbody></table>
+> **sustainability** — A business approach focused on creating long-term value for society and other stakeholders, by addressing the risks and opportunities of economic, environmental, and social developments.
 
 Organizations are moving from a focus on profitability to the triple bottom line, an approach that covers financial, social, and environmental aspects, as shown in Figure 2.3 (Bordoloi et al., 2018). The triple bottom line marks a shift from short-term financial goals to long-term sustainability goals, which is an integrated business method. Sustainable goals not only improve an organization’s brand and reputation, but drives stakeholder value for customers, employees, and society in the form of better health, climate, and resource utilization. Read more on the triple bottom line approach in *ITIL 4: Drive Stakeholder Value*, Section 3.4.
 
@@ -189,7 +189,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Implementing strategic decisions</p></td><td><p>All practices</p></td></tr><tr><td><p>Managing strategic risks</p></td><td><p>Risk management</p></td></tr><tr><td><p>Measuring and reporting strategy performance</p></td><td><p>Measurement and reporting</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice success factor</strong></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+> **Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -268,7 +268,7 @@ The contribution of the strategy management practice to the service value chain 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.
 
 Strategy management activities form two processes:
 * strategy generation and continual development

@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the workforce and talent management practice is to ensure that the organization has the right people, with the appropriate skills and knowledge, in the correct roles to support its business objectives. This practice covers a broad set of activities focused on successfully engaging with the organization’s employees and people resources, including: planning, recruitment, onboarding, learning and development, performance measurement, and succession planning.</p></td></tr></tbody></table>
+*Key message*: The purpose of the workforce and talent management practice is to ensure that the organization has the right people, with the appropriate skills and knowledge, in the correct roles to support its business objectives. This practice covers a broad set of activities focused on successfully engaging with the organization’s employees and people resources, including: planning, recruitment, onboarding, learning and development, performance measurement, and succession planning.
 
 The workforce and talent management practice is focused on the effective management of the organizations and the people dimension of service management within organizations. The scope, form, and institutionalization of this practice might vary depending on multiple factors, including the organization’s mission and the positioning, business and operating models, architecture, competence model, and others.
 
@@ -103,7 +103,7 @@ It is important that the organizational form is not the only consideration of or
 ### 2.2.4 Workforce management
 The terminology of the workforce and talent management practice has evolved, adopting terms such as labour, human resources, personnel, human capital, and workforce to describe the people of an organization. ITIL uses the term workforce management to describe the practices that ensure that organizations have enough people in the right places, to fulfil the jobs required for achieving the organizations’ current and anticipated objectives. Organizations might use different terminology to describe the same practices, according to their cultural, social, and industrial context. For convenience, any member of a workforce is referred to as an employee in ITIL, regardless of how they engage with the organization. This definition will become especially important in understanding and managing the employee journey and employee satisfaction as defined in the following sections.
 
-<table><tbody><tr><td><strong>Definition: Employee</strong></td></tr><tr><td><p>Any individual engaged to work within an organization. This includes but is not limited to: permanent members of staff, contractors, volunteers, and members of another organization’s staff who are working under the organization’s authority. Also referred to as a ‘member of workforce’.</p></td></tr></tbody></table>
+> **Employee** — Any individual engaged to work within an organization. This includes but is not limited to: permanent members of staff, contractors, volunteers, and members of another organization’s staff who are working under the organization’s authority. Also referred to as a ‘member of workforce’.
 
 Workforce management is closely connected with organizational planning (see 2.2.3), talent management (see 2.2.5), and other practices, such as the capacity and performance management, organizational change management, and relationship management practices (see respective practice guides). It is also important to consider the supplier management practice and the organization’s sourcing strategy, which is likely to impact on the organization’s attitude towards workforce sourcing.
 
@@ -185,7 +185,7 @@ Talent management is not limited to competency assessment and planning. It shoul
 ### 2.2.6 Culture
 The organizational culture is an important part of an organization’s identity, image, and eventual success or failure.
 
-<table><tbody><tr><td><strong>Definition: Culture</strong></td></tr><tr><td><p>A set of values shared by a group of people, including expectations about how people should behave and their ideas, beliefs, and practices.</p></td></tr></tbody></table>
+> **Culture** — A set of values shared by a group of people, including expectations about how people should behave and their ideas, beliefs, and practices.
 
 Culture maps are described in *ITIL® 4: Drive Stakeholder Value* as a useful tool for designing products and services for different audiences. Culture maps are also useful in organizational design, where organizations have significant cultural diversity. Figure 2.5 shows the culture of two groups of people mapped to eight dimensions to identify similarities and differences. In this figure, each dimension is represented as a spectrum of opposite extremes.<sup>11</sup>
 
@@ -230,7 +230,7 @@ There are some activities and areas of responsibility that are not included in t
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Managing organizational changes</p></td><td><p>Organizational change management</p></td></tr><tr><td><p>Managing internal relationships as well as relationships with partners and consumers</p></td><td><p>Relationship management</p></td></tr><tr><td><p>Managing project-specific training, onboarding, and other workforce-related projects</p></td><td><p>Project management</p></td></tr><tr><td><p>Planning capacity and identifying demand for change in the number of employees</p></td><td><p>Capacity and performance management</p></td></tr><tr><td><p>Identifying and managing people-related risks</p></td><td><p>Risk management</p></td></tr><tr><td><p>Defining sourcing strategy, including sourcing of workforce</p></td><td><p>Supplier management</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice Success Factor</strong></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+> **Practice Success Factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -314,7 +314,7 @@ The contribution of the workforce and talent management practice to the service 
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into outputs. Processes define the sequence of actions and their dependencies.
 
 Workforce and talent management activities form three processes:
 * organizational planning

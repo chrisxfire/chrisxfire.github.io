@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the architecture management practice is to explain the different elements that form an organization. This practice explains how the elements interrelate to enable the organization to effectively achieve its current and future objectives. It provides the principles, standards, and tools that enable an organization to manage complex change in a structured and agile way.</p></td></tr></tbody></table>
+*Key message*: The purpose of the architecture management practice is to explain the different elements that form an organization. This practice explains how the elements interrelate to enable the organization to effectively achieve its current and future objectives. It provides the principles, standards, and tools that enable an organization to manage complex change in a structured and agile way.
 
 A comprehensive architecture management practice applies to all levels of an organization’s architecture. This includes the following:
 * business architecture
@@ -43,25 +43,25 @@ To meet these objectives, architects analyze the organization and describe its c
 There are several types, or levels, of architecture, that can be included within the scope of the practice. These are described in further detail below.
 
 ### 2.2.1 Business architecture
-<table><tbody><tr><td><strong>Definition: Business architecture</strong></td></tr><tr><td><p>A formalized description of how an organization uses its resources for realizing its strategy and objectives.</p></td></tr></tbody></table>
+> **Business architecture** — A formalized description of how an organization uses its resources for realizing its strategy and objectives.
 
 Business architecture explores how an organization’s resources are used to co-create value within the organization and with its stakeholders. Organizations use resources to create products and offer and deliver services based on these products.
 
 ### 2.2.2 Product and service architecture
-<table><tbody><tr><td><strong>Definition: Product and service architecture</strong></td></tr><tr><td><p>A formalized description of an organization's products and services, their components and inter-relationships and the principles and guidelines governing their design and evolution over time.</p></td></tr></tbody></table>
+> **Product and service architecture** — A formalized description of an organization's products and services, their components and inter-relationships and the principles and guidelines governing their design and evolution over time.
 
 Product and service architecture provides an overview of an organization’s products and services. It also explores the interactions between the services and models that describe the structure, such as how the components fit together, and the dynamics, such as the activities, flow of resources, and interactions, of each product and service. These models can be used as templates for multiple products and services. Digital products and services are based on applications and data, as well as supporting information technologies, operational technologies and communication technologies.
 
 ### 2.2.3 Information systems architecture
-<table><tbody><tr><td><strong>Definition: Information systems architecture</strong></td></tr><tr><td><p>A formalized description of an organization's applications, data assets and data management resources. Information systems architecture shows how applications and data are interconnected and managed for the benefit of the organization.</p></td></tr></tbody></table>
+> **Information systems architecture** — A formalized description of an organization's applications, data assets and data management resources. Information systems architecture shows how applications and data are interconnected and managed for the benefit of the organization.
 
 Information systems use supporting infrastructure and platforms, incorporating information, operational, and communication technologies. These are described by the technology architecture.
 
 ### 2.2.4 Technology architecture
-<table><tbody><tr><td><strong>Definition: Technology architecture</strong></td></tr><tr><td><p>A formalized description of an organization's technology infrastructure, including information, operational and communication technologies, their inter-relationships and the way they support the organization's information systems.</p></td></tr></tbody></table>
+> **Technology architecture** — A formalized description of an organization's technology infrastructure, including information, operational and communication technologies, their inter-relationships and the way they support the organization's information systems.
 
 ### 2.2.5 Environmental architecture
-<table><tbody><tr><td><strong>Definition: Environmental architecture</strong></td></tr><tr><td><p>A formalized description of external factors impacting the organization and the drivers for change, as well as all aspects, types, and levels of environmental control and their management.</p></td></tr></tbody></table>
+> **Environmental architecture** — A formalized description of external factors impacting the organization and the drivers for change, as well as all aspects, types, and levels of environmental control and their management.
 
 Organizations might find it useful to maintain an account of the environment in which they operate in, to ensure that its products and services are suitable for these environments and do not conflict with external constraints.
 
@@ -82,7 +82,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Solution design (products, services, information systems and technologies)</p></td><td><p>Service design</p></td></tr><tr><td><p>Implementation of the architecture road map</p></td><td><ul><li>Project management</li><li>Change enablement</li><li>Organizational change management</li></ul></td></tr><tr><td><p>Investment decision and authorization of architecture options</p></td><td><p>Portfolio management</p></td></tr><tr><td><p>Definition of the organization’s direction and objectives</p></td><td><p>Strategy management</p></td></tr><tr><td><p>Detailed mapping of configuration items and assets</p></td><td><ul><li>Service configuration management</li><li>IT asset management</li></ul></td></tr></tbody></table>
 
 ## 2.4 Practice success factor
-<table><tbody><tr><td><strong>Definition: Practice Success Factor</strong></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+> **Practice Success Factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective*.*
 
@@ -122,7 +122,7 @@ As well as a description of the target architecture, the road map should include
 ### 2.4.2 Ensuring that the organization's architecture is continually evolving to the target state
 To ensure that an organization is evolving to the target architecture, an architecture road map is created. The road map is a collection of initiatives designed to change from the current architecture to the target architecture. Where appropriate, these initiatives can be managed as programmes or projects. Realizing the architectural changes involves several stakeholders and practices, depending on the nature of the changes. The architecture management practice ensures that the implemented changes follow the agreed road map and support the organization’s evolution to its target architecture.
 
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The transition from the current architecture to the target architecture is rarely a revolution. Rather, it is an evolution enabled by a set of architectural principles, standards, and guidelines that the organization agrees to follow. Some legacy solutions may coexist with newer solutions for a significant time. Changes from the current architecture to the target architecture are always subject to portfolio decisions and careful prioritization. The architecture management practice is used to define the target architecture, and to maintain the agreed direction and pace of the architectural evolution.</p></td></tr></tbody></table>
+*Key message*: The transition from the current architecture to the target architecture is rarely a revolution. Rather, it is an evolution enabled by a set of architectural principles, standards, and guidelines that the organization agrees to follow. Some legacy solutions may coexist with newer solutions for a significant time. Changes from the current architecture to the target architecture are always subject to portfolio decisions and careful prioritization. The architecture management practice is used to define the target architecture, and to maintain the agreed direction and pace of the architectural evolution.
 
 Another important aspect of the architecture management practice activities is to ensure that the changes made to the organization’s resources, products, and services support the architecture’s evolution, by following the recommended architectural taxonomy, standards, guidelines, procedures, templates, and tools. They also should not contradict the architecture’s requirements and principles. This implies that the architecture management practice is involved in every service value stream that includes the introduction of new components, new third-party services, or other changes that affect the architecture.
 
@@ -153,7 +153,7 @@ The contribution of the architecture management practice to the service value ch
 # 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Architecture management activities form three processes:
 * architecture governance

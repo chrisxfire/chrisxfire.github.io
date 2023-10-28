@@ -341,168 +341,73 @@ Roles are described in the context of processes and activities. Each role is cha
 Examples of roles which can be involved in the measurement and reporting practice are listed in Table 4.2, together with the associated competency profiles and specific skills.
 
 ### Table 4.2 Examples of roles with responsibility for measurement and reporting activities
-| 
 **Activity**
-
- | 
-
 **Responsible roles**
-
- | 
-
 **Competency profile**
-
- | 
-
 **Specific skills**
 
  |
 | --- | --- | --- | --- |
-| 
 
 **Designing the measurement and reporting system**
-
- |
-| 
-
 Developing metrics and measurement methods
-
- | 
-
 * Subject matter expert (process manager, service manager, functional manager, HR professional),
 * Quality manager
-
- | 
-
 MT
-
- | 
-
 * Understanding the purpose, objectives, and success factors of the managed object
 * Basic knowledge of the measurement and evaluation method
 * Metrics development skills
 * Understanding of measurement methods and monitoring techniques
-
- |
-| 
-
 Forming KPI scorecards
-
- | 
-
 * Subject matter expert
 * Quality manager
 * Reporting manager
-
- | 
-
 M
-
- | 
-
 * Understanding of how metrics are interrelated
 * Basic knowledge of measurement and assessment method
 * Basic math skills
 * Experience with spreadsheets
 * KPI development skills
-
- |
-| 
-
 Designing report templates and reporting policy
-
- | 
-
 * Subject matter expert
 * Quality manager
 * Reporting manager
 * Analytics tool administrator
-
- | 
-
 MT
-
- | 
-
 * Understanding of the report's customer, users, and related tasks
 * Basic visual design skills
 * Understanding of data-structuring and presentation techniques
 * Understanding of the decision-making process
 * Experience with tools for analytics
-
- |
-| 
-
 **Reporting and evaluation**
-
- |
-| 
-
 Data gathering and processing
-
- | 
-
 * Analyst
 * Reporting manager
 * Analytics tool administrator
 * Subject matter expert
-
- | 
-
 AT
-
- | 
-
 * Analytical skills
 * Experience with tools for analytics
 * Experience with spreadsheets
-
- |
-| 
-
 Data analysis and reporting
-
- | 
-
 * Analyst
 * Reporting manager
 * Analytics tool administrator
 * Subject matter expert
 * Quality manager
-
- | 
-
 MT
-
- | 
-
 * Understanding of the measurement object’s and its context
 * Communication skills
-
- |
-| 
-
 Report evaluation and decision-making
-
- | 
-
 * Senior manager
 * Team leader
 * Subject matter expert
 * Quality manager
-
- | 
-
 LM
-
- | 
-
 * Excellent understanding of the measurement object and its context
 * Communication skills
 * Writing skills
 * Good business judgement
-
- |
 
 ## 4.2 Organizational structures and teams
 The measurement and reporting practice underpins everything the organization does to enable value co-creation, and it is therefore everyone’s responsibility. For example, practice managers should measure and assess practices in order to improve their effectiveness and efficiency; service and product managers need to provide service quality reports to customers in order to enable improvement.

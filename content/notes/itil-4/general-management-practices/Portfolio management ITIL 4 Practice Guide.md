@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the portfolio management practice is to ensure that the organization has the right mix of programmes, projects, products, and services to execute the organization’s strategy within its funding and resource constraints.</p></td></tr></tbody></table>
+*Key message*: The purpose of the portfolio management practice is to ensure that the organization has the right mix of programmes, projects, products, and services to execute the organization’s strategy within its funding and resource constraints.
 
 <table><tbody><tr><td><p><strong>Definition: Portfolio</strong></p></td></tr><tr><td><p>A collection of assets into which an organization chooses to invest its resources in order to receive the best return.</p></td></tr></tbody></table>
 
@@ -95,7 +95,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Developing an IT strategy that supports business</p></td><td><p>Strategy management</p></td></tr><tr><td><p>Assessing project and service risk</p></td><td><p>Risk management</p></td></tr><tr><td><p>Completing market studies</p></td><td><p>Business analysis</p></td></tr><tr><td><p>Coordinating and managing input from stakeholders</p></td><td><p>Relationship management</p></td></tr><tr><td><p>Designing products and services</p></td><td><p>Service design</p></td></tr><tr><td><p>Estimating/assessing service cost</p></td><td><p>Service financial management</p></td></tr><tr><td><p>Evaluating resources required for a project or service</p></td><td><p>Project management</p><p>Service financial management</p></td></tr><tr><td><p>Allocating human resources</p></td><td><p>Workforce and talent management</p><p>Capacity and performance management</p></td></tr><tr><td><p>Assessing service utilization</p></td><td><p>Capacity and performance management</p><p>Measurement and reporting</p><p>Business analysis</p></td></tr><tr><td><p>Maintaining a detailed list of assets and supporting services that define each service</p></td><td><p>Service configuration management</p><p>IT asset management</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice success factor</strong></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+> **Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -171,7 +171,7 @@ The contribution of the portfolio management practice to the service value strea
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Portfolio management activities form two processes:
 * managing the organization’s approach to portfolios

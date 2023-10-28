@@ -244,7 +244,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><strong>Activity</strong></td><td><strong>Practice guide</strong></td></tr><tr><td><span>Establishing and managing contracts with suppliers and partners participating in projects</span></td><td><span>Supplier management</span></td></tr><tr><td>Creating and changing resources and products within projects</td><td>Service design<p>Change enablement</p><p>Release management</p><p>Deployment management</p><p>Software development and management</p><p>Infrastructure and platform management</p><p>Workforce and talent management</p></td></tr><tr><td>Managing and implementing improvements</td><td>Continual improvements</td></tr><tr><td>Managing organizational changes</td><td>Organizational change management</td></tr><tr><td>Managing project risks</td><td>Risk management</td></tr><tr><td>Optimizing project portfolios</td><td>Portfolio management</td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice success factor</strong></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+> **Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -512,253 +512,124 @@ This information may take various forms, depending on the nature of the projects
 In some cases, the PPM practice can significantly benefit from automation. Where this is possible and effective, it may involve the solutions outlined in Table 5.1.
 
 ### Table 5.1 Automation solutions for PPM activities
-| 
 **Process activity**
-
- | 
-
 **Means of automation**
-
- | 
-
 **Key functionality**
-
- | 
-
 **Impact on the effectiveness of the practice**
 
  |  |
 | --- | --- | --- | --- | --- |
-| 
 
 **Managing the organization’s approach to PPM**
-
- |
-| 
-
 Develop and agree the PPM approach
-
- | 
-
 * Collaboration and communication tools
 * Mind mapping and brainstorming tools
 * Workflow modelling and visualization tools, communication and collaboration tools
-
- | 
-
 * Collaboration, information exchange
 * Workflow modelling, visualization, activities, and responsibilities mapping
-
- | 
-
 Medium
 
  |  |
-| 
 
 Communicate and embed the PPM approach
-
- | 
-
 Communication and collaboration tools, presentation tools, portals
-
- | 
-
 Support of promotion, training, and awareness
-
- | 
-
 Medium
 
  |  |
-| 
 
 Review and adjust the PPM approach
-
- | 
-
 Collaboration and communication tools, reporting tools, visualization tools
-
- | 
-
 Collaboration, information exchange, report creation and distribution, dashboarding
-
- | 
-
 Medium
 
  |  |
-| 
 
 **Directing projects**
-
- |
-| 
-
 Authorize initiation
-
- | 
-
 * Communication and collaboration tools
 * Workflow automation tools
-
- | 
-
 * Collaboration and remote work, dashboarding
 * Business process, workflow, and approval automation
-
- | 
-
 High
 
  |  |
-| 
 
 Authorize the project
-
- | 
-
 * Communication and collaboration tools
 * Workflow automation tools
-
- | 
-
 * Collaboration and remote work, dashboarding
 * Business process, workflow, and approval automation
-
- | 
-
 High
 
  |  |
-| 
 
 Authorize a stage or exception plan
-
- | 
-
 * Communication and collaboration tools
 * Workflow automation tools
 * Reporting tools
 * Documentation tools
-
- | 
-
 * Collaboration and remote work
 * Business process, workflow, and approval automation
 * Reports creation and publishing, dashboarding
 * Documents depository and archive
-
- | 
-
 High
 
  |  |
-| 
 
 Give ad hoc direction
-
- | 
-
 Communication and collaboration tools
-
- | 
-
 Collaboration and remote work
-
- | 
-
 Low
 
  |  |
-| 
 
 Authorize project closure
-
- | 
-
 * Communication and collaboration tools
 * Workflow automation tools
 * Reporting tools
 * Documentation tools
-
- | 
-
 * Collaboration and remote work
 * Business process, workflow, and approval automation
 * Reports creation and publishing, dashboarding
 * Documents depository and archive
-
- | 
-
 High
 
  |  |
-| 
 
 **Managing projects**
-
- |
-| 
-
 Starting up a project
-
- | 
-
 * Communication and collaboration tools
 * Documentation tools
 * Workflow automation tools
 * Reporting tools
-
- | 
-
 * Collaboration and remote work
 * Documents depository and archive
 * Business process, workflow, and approval automation
 * Reports creation and publishing, dashboarding
-
- | 
-
 High
 
  |  |
-| 
 
 Initiating a project
-
- | 
-
 * Communication and collaboration tools
 * Documentation tools
 * Workflow automation tools
 * Project management tools
-
- | 
-
 * Collaboration and remote work
 * Documents depository and archive
 * Business process, workflow, and approval automation
 * Scope, statement of work, backlog, tasks assignment, risks, timeframe control
-
- | 
-
 High
 
  |  |
-| 
 
 Controlling a stage
-
- | 
-
 * Communication and collaboration tools
 * Documentation management tools
 * Workflow automation tools
 * Reporting and distribution tools
 * Project management tools
-
- | 
-
 * Collaboration and remote work
 * Documents depository and archive
 * Business process, workflow, and approval automation
@@ -766,127 +637,70 @@ Controlling a stage
 * Scope, work breakdown structure, schedule, resources, budget management, risks, task assignment and control
 * Backlog management, task assignment and Kanban boards, sprints management, user stories/epic management
 * Retrospective and risks and lessons learnt logging
-
- | 
-
 High
 
  |  |
-| 
 
 Managing a stage boundary
-
- | 
-
 * Communication and collaboration tools
 * Documentation management tools
 * Workflow automation tools
 * Reporting tools
 * Project management tools
 * Budget management tools
-
- | 
-
 * Collaboration and remote work
 * Documents depository and archive
 * Business process, workflow, and approval automation
 * Reporting, dashboarding, data visualization
 * Scope, statement of work, backlog, tasks assignment, risks, timeframe control
 * Costs consolidation, budget management and reporting, financial analysis
-
- | 
-
 High
 
  |  |
-| 
 
 Closing a project
-
- | 
-
 * Communication and collaboration tools
 * Workflow automation tools
 * Reporting tools
 * Documentation tools
-
- | 
-
 * Collaboration and remote work
 * Business process, workflow, and approval automation
 * Reports creation and publishing, dashboarding
 * Documents depository and archive
 * Retrospective and risks and lessons learnt logging
-
- | 
-
 High
 
  |  |
-| 
 
 **Managing product delivery**
-
- |
-| 
-
 Accept a work package
-
- | 
-
 * Communication and collaboration tools
 * Workflow automation tools
 * Backlog management tools
 * WBS management tools
-
- | 
-
 * Collaboration and remote work
 * Business process, workflow, and approval automation
 * Backlog items /work packages /tasks assignment and control
-
- | 
-
 High
 
  |  |
-| 
 
 Execute a work package
-
- | 
-
 * Communication and collaboration tools
 * Workflow automation tools
-
- | 
-
 * Collaboration and remote work
 * Workflow and approval automation
-
- | 
-
 High
 
  |  |
-| 
 
 Deliver a work package
-
- | 
-
 * Communication and collaboration tools
 * Workflow automation tools
 * Reporting tools
-
- | 
-
 * Collaboration and remote work
 * Workflow and approval automation
 * Reports creation and publishing, dashboarding, automated notifications
-
- | 
-
 High
 
  |  |

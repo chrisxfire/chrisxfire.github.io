@@ -238,24 +238,15 @@ This process includes the activities listed in Table 3.3 and transforms the inpu
 ### Table 3.3 Inputs, activities, and outputs of the oversight of service levels and service quality
 | **Key inputs** | **Activities** | **Key outputs** |
 | --- | --- | --- |
-| 
 * Service performance data SLA
 * User and customer feedback, including compliments and complaints
 * Service improvement plan
-
- | 
-
 * Customer and user satisfaction surveys
 * Ongoing service quality monitoring
 * Service review
 * Service quality reporting
-
- | 
-
 * Service quality dashboards and reports for various stakeholder
 * Service improvement initiatives
-
- |
 
 Figure 3.3 shows a workflow diagram of the process.
 
@@ -266,68 +257,34 @@ Figure 3.3 shows a workflow diagram of the process.
 The oversight process may vary, depending on the level of formalization of the target service level for the services to which it is applied. Table 3.4 provides an overview of these variations.
 
 ### Table 3.4 Activities of the service level and quality oversight process
-| **Activity** | **High level of formalization (detailed SLA)** | 
-**Low level of formalization (implied service level and high-level agreement)**
+| **Activity** | **High level of formalization (detailed SLA)** **Low level of formalization (implied service level and high-level agreement)**
 
  |
 | --- | --- | --- |
-| 
 
 Customer and user satisfaction survey
-
- | 
-
 The service provider runs regular satisfaction surveys collecting feedback from users and customers. The format and regularity of the surveys may be formally agreed by the parties. The service owners and relationship managers of the service provider evaluate the feedback and include it in the scope of service review.
-
- | 
-
 Service provider continually collects information from the users and customers to ensure that they are satisfied with the services and to identify improvement opportunities. The surveys include aspects of the service quality that have not been formally agreed or documented. This helps to maintain awareness of the expectations and how the services are perceived; such information should be continually and carefully reviewed.
 
 The service owners and relationship managers of the service provider evaluate the feedback and include it in the scope of the service review.
-
- |
-| 
-
 Ongoing service quality monitoring
-
- | 
-
 * The service provider monitors the performance of resources used to deliver services (this work involves many practices) and collects data relevant for the services as defined in the SLA. Simultaneously, impromptu feedback is collected from users and other relevant stakeholders. The service owners and relationship managers of the service provider monitor the services to ensure that they are delivered as agreed.
 * Some of the service quality data may be available for users and customers on a dashboard in an agreed format, so that they can also monitor service quality.
-
- | 
-
 Regular and impromptu feedback is collected from users and other relevant stakeholders. This is combined with resource performance data and compared with technical specifications and benchmarks, as defined by the service provider.
 
 Service owners, product owners, and relationship managers of the service provider monitor the service to ensure that all systems work as intended.
 
   
  |
-| Service review | 
-
+| Service review 
 The service owner conducts a review of service quality over a designated period of time, or in relation to an event. The service owner involves relevant stakeholders from the service provider (product owners, leads of technical teams, relationship managers, supplier managers, etc.) and, where possible, customers. The key outputs are internal service quality reports and improvement initiatives.
-
- | 
-
 * Customers conduct a review of service quality, involving key users and, where possible, service provider representatives.
 * The main outputs are a service value report for sponsors and other consumer stakeholders, and improvement initiatives to be discussed with the service provider. These initiatives serve as inputs for the service reviews of the provider.
 * The service reviews of the customers and provider may be conducted jointly and may lead to joint improvement initiatives. This is usual for tailored services of either level of formalization, but relatively rare for out-of-the-box mass market services.
-
- |
-| 
-
 Service quality reporting
-
- | 
-
 The service provider produces reports and dashboards demonstrating service level achievements and satisfaction levels for customers and other agreed recipients. These are communicated by a previously agreed means.
-
- | 
-
 * The service provider produces reports (and sometimes dashboards) demonstrating satisfaction levels and selected service level achievements (commonly accepted in the industry and relevant for user satisfaction).
 * These are communicated by a previously agreed means.
-
- |
 
 Service level management activities are performed by the service provider and service consumer, as described in Tables 3.2 and 3.4. They may involve suppliers and partners. These activities are also supported (and sometimes fully or partially automated) by a number of tools and technologies. All are described in the following sections.
 
@@ -337,205 +294,120 @@ The ITIL practices do not describe the practice management roles such as practic
 Roles are described in the context of processes and activities. Each role is characterized with a competency profile based on the model shown in Table 4.1.
 
 ### Table 4.1 Competency codes and profiles 
-| **Competency code** | **Competency profile (activities and skills)** |
-| --- | --- |
-| L | 
-**Leader** Decision-making, delegating, overseeing other activities, providing incentives and motivation, and evaluating outcomes
+| **Competency code** | **Competency profile (activities and skills)**L **Leader** Decision-making, delegating, overseeing other activities, providing incentives and motivation, and evaluating outcomes
 
  |
-| A | 
-
+| A 
 **Administrator**. This role focuses on administrative skills. Activities associated with this role include the assignment and prioritization of tasks, record keeping, ongoing reporting, and basic improvement initiatives. 
 
  |
-| C | 
-
+| C 
 **Coordinator/communicator** This role focuses on communication and coordination skills. Activities associated with this role include the coordination of multiple parties, communication between stakeholders, and the running of awareness campaigns.
 
  |
-| M | 
-
+| M 
 **Methods and techniques expert**  This role focuses on consulting skills and expertise in work methods. Activities associated with this role include the design and implementation of work techniques, the documentation of procedures, consulting on processes, work analysis, and continual improvement.
 
  |
-| T | 
-
+| T 
 **Technical expert** This role focuses on technical (IT) expertise and expertise-based assignments.
-
- |
 
 The role accountable for all service level management activities is usually the service owner. The competency profile for this role in the context of the service level management practice is CLA, though the importance of each of these competencies varies from activity to activity. Examples of the roles which are responsible for service level management activities are listed in Table 4.2, together with the associated competency profiles.
 
 ### Table 4.2 Examples of roles with responsibility for service level management activities
 | **Activity****Management of  SLAs process** | **Responsible roles** | **Competency profile** | **Specific skills** |
 | --- | --- | --- | --- |
-| 
 * Definition of customer requirements
 * Relationship manager
 * Service architect
 * Service designer
 * Service owner
 
- | Customer | CTA | 
-
+ | Customer | CTA 
 * Good knowledge of the service consumer’s business
 * Good knowledge of the service provider’s portfolio
 * Communication and coordination
-
- |
-| 
-
 * Viability analysis
 * Service architect
 * Service designer
 * Service owner
 * Supplier manager
 * Technical expert
-
- | 
-
 Product owner
 
- | TC | 
-
+ | TC 
 * Business analysis
 * Risk analysis
 * Good knowledge of the service provider’s portfolio
-
- |
-| 
-
 Drafting an SLA
-
- | 
-
 * Relationship manager
 * Service designer
 * Service owner
 
- | CAT | 
-
+ | CAT 
 * Good knowledge of the service provider’s portfolio
 * Good knowledge of the products, including their architecture and configuration
 * Business analysis
-
- |
-| 
-
 SLA negotiation
-
- | 
-
 * Customer
 * Relationship manager
 * Service owner
 
- | CA | 
-
+ | CA 
 * Communication and negotiation
 * Good knowledge of the product, including its architecture and configuration
-
- |
-| 
-
 SLA communication and enablement
-
- | 
-
 * Product owner
 * Project manager
 * Service desk agent
     
 * Service owner
 * Supplier manager
-
- | 
-
 CAT
-
- | 
-
 * Management and coordination
 * Communication skills
 
  |
-| SLA review | 
-
+| SLA review 
 * Customer
 * Relationship manager
 * Service designer
 * Service owner
 
- | CA | 
-
+ | CA 
 * Analytical skills Understanding of the services
 * Understanding of the consumer context
 * Knowledge of the agreements and expectations
-
- |
-| 
-
 SLA prolongation
-
- | 
-
 * Account manager
 * Service owner
 * Technical expert
     
-
- | 
-
 CA
-
- | 
-
 * Coordination and communication
 * Knowledge of the agreements and expectations
-
- |
-| 
-
 SLA withdrawal
-
- | 
-
 * Account manager
 * Service owner
 * Technical expert
     
-
- | 
-
 CAT
-
- | 
-
 * Good knowledge of the product, including its architecture and configuration
 * Knowledge of the agreements
 * Management and coordination
-
- |
-| 
-
 Customer and user satisfaction survey
-
- | 
-
 * Account management
 * Product Owner
 * Relationship manager
 * Service owner
 
- | CA | 
-
+ | CA 
 * Knowledge of the agreements and expectations
 * Understanding of the consumer context
 * Communication
 
  |
-| Ongoing service quality monitoring | 
-
+| Ongoing service quality monitoring 
 * Product owner
 * Service owner
 * Supplier manager
@@ -543,20 +415,12 @@ Customer and user satisfaction survey
 * Technical expert
     
 
- | TC | 
-
+ | TC 
 * Analytical skills
 * Knowledge of the agreements and expectations
 * Understanding of the consumer context
 * Good knowledge of the product, including its architecture and configuration
-
- |
-| 
-
 Service review
-
- | 
-
 * Customer
 
 * Product owner
@@ -565,8 +429,7 @@ Service review
 * Supplier manager
 * Technical expert
 
- | CT | 
-
+ | CT 
 * Analytical skills
 * Knowledge of the agreements and expectations
 * Understanding of the consumer context
@@ -575,19 +438,15 @@ Service review
     
 
  |
-| Service quality reporting | 
-
+| Service quality reporting 
 * Customer
 * Relationship manager
 * Service owner
 
- | CA | 
-
+ | CA 
 * Knowledge of the agreements and expectations
 * Understanding of the consumer context
 * Communication and negotiation
-
- |
 
 ### 4.1.1 Service owner role
 The most important role in the service level management practice is the service owner.

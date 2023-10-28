@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the capacity and performance management practice is to ensure that services achieve the agreed and expected levels of performance and satisfy current and future demand in a cost-effective way.</p></td></tr></tbody></table>
+*Key message*: The purpose of the capacity and performance management practice is to ensure that services achieve the agreed and expected levels of performance and satisfy current and future demand in a cost-effective way.
 
 The capacity and performance management practice usually covers service performance and the performance of the resources which support services, such as infrastructure, applications, and third-party services. In many organizations, this practice also covers the capacity and performance of staff, especially when staff are directly involved in service transactions.
 
@@ -18,7 +18,7 @@ This practice ensures that the requirements for the capacity and performance of 
 Capacity and performance are closely connected to service availability, continuity, information security, and the respective practices. These practices often address the same characteristics of CIs and services but focus on different aspects of their quality. Sharing resources across all four dimensions of service management can be significantly beneficial in these areas. However, a clear separation of responsibilities is required in some areas, such as externally regulated areas like service continuity and information security.
 
 ## 2.2 Terms and concepts
-<table><tbody><tr><td><strong>Definition: Performance</strong></td></tr><tr><td><p>A measure of what is achieved or delivered by a system, person, team, practice, or service.</p></td></tr></tbody></table>
+> **Performance** — A measure of what is achieved or delivered by a system, person, team, practice, or service.
 
 Service performance is usually associated with the rate of service transactions and the time needed to fulfil service transactions at a given level of demand. Service performance depends on service capacity; the maximum throughput that a configuration item (CI) or service can deliver. The specific metrics that are used will depend on the technology and business nature of the service or CI.
 
@@ -39,7 +39,7 @@ The scope of the capacity and performance management is very broad. Many practic
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Negotiating and agreeing the customer requirements for capacity and performance</p></td><td><p>SLM</p></td></tr><tr><td><p>Designing capacity and performance controls as a part of the service model</p></td><td><p>Service design</p></td></tr><tr><td><p>Aligning capacity and performance controls with the business architecture</p></td><td><p>Architecture management</p></td></tr><tr><td><p>Identifying the risks associated with capacity and performance</p></td><td><p>Risk management</p></td></tr><tr><td><p>Analysing the impacts of changes on capacity and performance targets</p></td><td><p>Change enablement</p></td></tr><tr><td><p>Monitoring the capacity and performance of services</p></td><td><p>Monitoring and event management</p></td></tr><tr><td><p>Justifying new capacity and performance controls</p></td><td><p>Portfolio management</p></td></tr><tr><td><p>Implementing risk mitigation measures and changing the service infrastructure to ensure resilience</p></td><td><p>Project management, change enablement</p></td></tr><tr><td><p>Testing the capacity and performance controls during service transition</p></td><td><p>Service validation and testing</p></td></tr><tr><td><p>Reacting to events which might affect the organization’s ability to meet capacity and performance targets</p><p>Managing capacity and performance incidents</p></td><td><p>Incident management</p></td></tr><tr><td><p>Managing and implementing improvements related to capacity and performance on an ongoing basis</p></td><td><p>Continual improvement</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice success factor</strong></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+> **Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -105,7 +105,7 @@ The contribution of the capacity and performance management practice to the serv
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 The capacity and performance management practice activities form two processes:
 * establishing capacity and performance control

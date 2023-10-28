@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of service catalogue management practice is to provide a single source of consistent information on all services and service offerings, and to ensure that it is available to the relevant audience.</p></td></tr></tbody></table>
+*Key message*: The purpose of service catalogue management practice is to provide a single source of consistent information on all services and service offerings, and to ensure that it is available to the relevant audience.
 
 The service catalogue management practice ensures that all stakeholders refer to a single, consistent source of information about services and service offerings. It also helps to provide all stakeholders with relevant views on services and service offerings, matching their needs and level of access.
 
@@ -20,27 +20,27 @@ The service catalogue management practice ensures a single source of service and
 The service catalogue management practice covers all services managed by an organization, including internal, external, provided, and consumed. For example, a supplier manager’s view may include the third-party services that are consumed by the organization, as well as the organization’s services that are dependent on them.
 
 ## 2.2 Terms and concepts
-<table><tbody><tr><td><strong>Definition: Resources</strong></td></tr><tr><td><p>Personnel, material, finance, or other entity that is required for the execution of an activity or the achievement of an objective. Resources used by an organization may be owned by the organization or used according to an agreement with the resource owner.</p></td></tr></tbody></table>
+> **Resources** — Personnel, material, finance, or other entity that is required for the execution of an activity or the achievement of an objective. Resources used by an organization may be owned by the organization or used according to an agreement with the resource owner.
 
 Organization’s resources can be configured into a product to offer value for a consumer or consumer group.
 
-<table><tbody><tr><td><strong>Definition: Product</strong></td></tr><tr><td><p>A configuration of an organization’s resources designed to offer value for a consumer.</p></td></tr></tbody></table>
+> **Product** — A configuration of an organization’s resources designed to offer value for a consumer.
 
 A product is not always fully visible to the consumer and is not exclusive to one consumer group as it can be used to address the needs of several different groups. For example, a software service can be offered as a simpler version for individual users, or as a more comprehensive corporate version. Products can exist regardless of the consumer.
 
-<table><tbody><tr><td><strong>Definition: Service</strong></td></tr><tr><td><p>A means of enabling value co-creation by facilitating outcomes that customers want to achieve, without the customer having to manage specific costs and risks.</p></td></tr></tbody></table>
+> **Service** — A means of enabling value co-creation by facilitating outcomes that customers want to achieve, without the customer having to manage specific costs and risks.
 
 The services that an organization provides are based on one or more of its products. A service occurs during an interaction with a consumer, which becomes a service relationship. In order to start this relationship, an organization must present a service offering to a potential customer and a service agreement should be signed.
 
-<table><tbody><tr><td><strong>Definition: Service offering</strong></td></tr><tr><td><p>A formal description of one or more services, designed to address the needs of a target consumer group. A service offering may include goods, access to resources, and service actions.</p></td></tr></tbody></table>
+> **Service offering** — A formal description of one or more services, designed to address the needs of a target consumer group. A service offering may include goods, access to resources, and service actions.
 
 The visible part of a product is described in one or more service offerings addressing the needs of potential service consumers. Service offerings are often presented in a service catalogue for potential customers. For existing customers, a service catalogue provides a view on the services being consumed and agreements associated with them. These views are based on the stakeholder’s role within the customer organization.
 
-<table><tbody><tr><td><strong>Definition: Service catalogue</strong></td></tr><tr><td><p>Structured information about all the services and service offerings of a service provider, relevant for a specific target audience.</p></td></tr></tbody></table>
+> **Service catalogue** — Structured information about all the services and service offerings of a service provider, relevant for a specific target audience.
 
 The ‘service catalogue’ term usually refers to a tailored view on services and service offerings. In the context of the service catalogue practice, it can also be used for a collection of service data used as a single source of all service catalogue views. This may be managed as a centralized database or as multiple databases that are managed by different teams of the organization. This practice ensures effective integration of the data and quality of service-related information. This includes ensuring that the service information is correct, up to date, and available to relevant stakeholders. A close integration with other practices in the context of multiple value streams is needed to make it possible.
 
-<table><tbody><tr><td><strong>Definition: Request catalogue</strong></td></tr><tr><td><p>A view of the service catalogue, providing details on service requests for existing and new services, which is made available for the user.</p></td></tr></tbody></table>
+> **Request catalogue** — A view of the service catalogue, providing details on service requests for existing and new services, which is made available for the user.
 
 Request catalogues are addressed to users and can also be used by the service provider’s teams when they are interacting with users. As part of the service catalogue practice, request catalogues are maintained in a correct and up-to-date condition.
 
@@ -57,7 +57,7 @@ There are several activities and areas of responsibility that are not included i
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Defining and managing the service portfolio</p></td><td><p>Portfolio management</p></td></tr><tr><td><p>Defining services and service offerings, including details of service utility and warranty</p></td><td><p>Business analysis<br>Service design</p></td></tr><tr><td><p>Establishing service level agreements with customers and suppliers</p></td><td><p>Service level management<br>Supplier management</p></td></tr><tr><td><p>Managing service requests</p></td><td><p>Service request management</p></td></tr><tr><td><p>Managing information about the relationships between services and other configuration items</p></td><td><p>Service configuration management</p></td></tr><tr><td><p>Managing information about IT service assets</p></td><td><p>IT asset management<br>Service financial management</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice success factor</strong></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+> **Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity, as it includes components of all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -146,7 +146,7 @@ The contribution of the service catalogue management practice to the service val
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 Service catalogue management activities form two main processes:
 * defining and maintaining service catalogue data and standard service catalogue views
@@ -258,139 +258,44 @@ Table 5.1 includes examples of information that is usually included in a service
 In most cases, the service catalogue management practice can significantly benefit from automation. Where this is possible and effective, it may involve the solutions outlined in Table 5.2.
 
 ### Table 5.2 Automation solutions for service catalogue management activities
-| 
 **Process activity**
-
- | 
-
 **Means of automation**
-
- | 
-
 **Key functionality**
-
- | 
-
 Impact on the effectiveness of the practice
 
  |
 | --- | --- | --- | --- |
-| 
 
 **Defining and maintaining service catalogue data and standard service catalogue views**
-
- |
-| 
-
 analyze stakeholders' requirements for the service catalogue
-
- | 
-
 Communication and collaboration tools
-
- | 
-
 Requirements gathering and review
-
- | 
-
 Low
-
- |
-| 
-
 Define service catalogue data structure
-
- | 
-
 Data modelling tools
-
- | 
-
 Data modelling and visualization
-
- | 
-
 High
-
- |
-| 
-
 Define and agree service catalogue standard views for key stakeholder groups
-
- | 
-
 Information systems design and modelling tools
-
- | 
-
 Forms design
-
- | 
-
 High
-
- |
-| 
-
 Collect and maintain service catalogue data
-
- | 
-
 Data integration tools, database management tools, specialized catalogue management tools, integrated service management toolsets
-
- | 
-
 Initial population and ongoing maintenance of the service catalogue data, integrations and views
-
- | 
-
 High
-
- |
-| 
-
 **Providing and maintaining up-to-date service catalogue views to the agreed target audience**
-
- |
-| 
-
 Process request for a service catalogue view
 
 Validate service catalogue request
 
 Form and present the requested view
-
- | 
-
 Integrated service management toolsets, user portals
-
- | 
-
 Presentation of a relevant actionable catalogue view
-
- | 
-
 High
-
- |
-| 
-
 Request and process users’ feedback
-
- | 
-
 Integrated service management toolsets, user portals, survey tools, rating tools
-
- | 
-
 Collection of users’ feedback
-
- | 
-
 Medium
-
- |
 
 # 6. Partners and suppliers
 Very few services are delivered using only an organization’s own resources. Most, if not all, depend on other services, often provided by third parties outside the organization (see *section 2.4 of ITIL Foundation: ITIL 4 Edition* for a model of a service relationship). These dependencies are likely to affect the service catalogue management practice and be reflected in the service catalogue. There are three major considerations for the practice:

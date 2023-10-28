@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The purpose of the infrastructure and platform management practice is to oversee the infrastructure and platforms used by an organization. When carried out properly, this practice enables the monitoring of technology solutions available to the organization, including the technology and external service providers.</p></td></tr></tbody></table>
+*Key message*: The purpose of the infrastructure and platform management practice is to oversee the infrastructure and platforms used by an organization. When carried out properly, this practice enables the monitoring of technology solutions available to the organization, including the technology and external service providers.
 
 The infrastructure and platform management practice ensures that the organization has a high-quality IT infrastructure that efficiently meets its current and anticipated needs. ‘IT infrastructure’ as a concept includes all of the hardware, software, networks, and facilities that are required to develop, test, deliver, monitor, manage, and support IT services.
 
@@ -20,11 +20,11 @@ This practice covers all stages of the infrastructure solutions lifecycle, from 
 ## 2.2 Terms and concepts
 The infrastructure and platform management practice provides the structure to deliver and support stable and well-performing technology services. Infrastructure and platform management is provided directly to the business, or supports the applications used by the business. With a robust infrastructure and platform management practice, an organization can enable value creation with the confidence that the underlying technology will meet organization’s and service consumers’ needs.
 
-<table><tbody><tr><td><strong>Definition: IT infrastructure</strong></td></tr><tr><td><p>All of the hardware, software, networks, and <em>facilities</em> that are required to develop, test, deliver, monitor, manage, and support IT services.</p></td></tr></tbody></table>
+> **IT infrastructure** — All of the hardware, software, networks, and <em>facilities</em> that are required to develop, test, deliver, monitor, manage, and support IT services.
 
 A wide range of activities are used to run and manage IT infrastructure effectively. These activities range from understanding organization’s requirements and developing and planning infrastructure and platforms, to performing routine maintenance and overseeing infrastructure performance.
 
-<table><tbody><tr><td><strong>Definition: Operation</strong></td></tr><tr><td><p>The routine of running and managing an activity, product, service, or other configuration item.</p></td></tr></tbody></table>
+> **Operation** — The routine of running and managing an activity, product, service, or other configuration item.
 
 A large portion of the operational activities can be automated. Automation tools can monitor the environment, identify changes, distribute patches and other updates, provide asset inventory, and schedule and automate jobs.
 
@@ -70,7 +70,7 @@ When using DevOps for infrastructure and platform management, special attention 
 
 SRE is a discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems with the goal of creating ultra-scalable and highly reliable solutions. SRE is an approach that tries to bridge the gap between development and operations and find a consensus of their opposite objectives, which is to develop and release solutions fast and have a stable solution to support. SRE teams usually have software developers who must support the solutions they develop, and this stimulates them to automate most of the manual support and management tasks (in the course of reducing toil: manual, repetitive, automatable, non-creative work). With this, infrastructure and platform solutions become more manageable, require less manual work, and gain agility in changes, delivery, and support. Probably one of the most important gains of SRE operations is that infrastructure scale-out doesn’t lead to according linear growth of the team size, as it often happens in classical operations.
 
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>The practice is involved throughout the lifecycle of product and services. Figure 2.1 from “The Site Reliability Workbook” by Google, illustrates how SRE teams are involved during the lifecycle. With minor variations, this illustration is applicable to other approaches to infrastructure and platform management.</p></td></tr></tbody></table>
+*Key message*: The practice is involved throughout the lifecycle of product and services. Figure 2.1 from “The Site Reliability Workbook” by Google, illustrates how SRE teams are involved during the lifecycle. With minor variations, this illustration is applicable to other approaches to infrastructure and platform management.
 
 ![Image of Figure 2.1 shows diagram of Infrastructure and Platform Management during product and service lifecycle](Infrastructure%20and%20platform%20management%20Practice%20Guide/Picture1.png)
 
@@ -81,11 +81,11 @@ Once the solution is in production, the primary focus of the team supporting and
 
 Reliability is designed with the system. Reliability requirements are aligned to the uptime and performance requirements, defined by the capacity and performance management practice. These requirements ensure the solutions are built in to support the organization’s requirements. For example, this may include high availability or redundant network connectivity.
 
-<table><tbody><tr><td><strong>Definition: Reliability</strong></td></tr><tr><td><p>The ability of a product, service, or other configuration item to perform its intended function for a specified period of time or number of cycles.</p></td></tr></tbody></table>
+> **Reliability** — The ability of a product, service, or other configuration item to perform its intended function for a specified period of time or number of cycles.
 
 Maintainability of a system should be addressed during the design of a new system and tested before being transitioned to production. There could be rules agreed for an infrastructure and platform solution, ensuring maintainability based on the organization’s requirements and industry practices. One example is the existence of a monitoring tool to identify issues, or general monitorability of the solution planned at the design phase. Other examples could be the existence of tools used to configure, deploy, and provision the solutions. These rules could also be used to manage partners and suppliers responsible for infrastructure and platform service components.
 
-<table><tbody><tr><td><strong>Definition: Maintainability</strong></td></tr><tr><td><p>The ease with which a service or other entity can be repaired or modified.</p></td></tr></tbody></table>
+> **Maintainability** — The ease with which a service or other entity can be repaired or modified.
 
 If maintainability is not addressed during the initial design and as part of daily operations, higher support costs, extended outages, and negative impacts to performance will affect the production environment. Maintainability is improved through appropriate monitoring configurations, automation, and utilization of standards.
 
@@ -116,7 +116,7 @@ There are many activities and areas of responsibility that are not included in t
 <table><tbody><tr><td><p><strong>Activity</strong></p></td><td><p><strong>Practice guide</strong></p></td></tr><tr><td><p>Restoration of infrastructure and platform technology and services including major incidents</p></td><td><p>Incident management</p></td></tr><tr><td><p>Defining permanent resolution or workarounds for infrastructure and platform known errors</p></td><td><p>Problem management</p></td></tr><tr><td><p>Management of changes to the infrastructure and platforms</p></td><td><p>Change enablement</p></td></tr><tr><td><p>Tracking and management of infrastructure and platform assets</p></td><td><p>IT asset management</p></td></tr><tr><td><p>Tracking of infrastructure and platform configurations in relationship to other configuration items (CIs)</p></td><td><p>Service configuration management</p></td></tr><tr><td><p>Monitoring, event management, and log management for infrastructure and platform technologies</p></td><td><p>Monitoring and event management</p></td></tr><tr><td><p>Infrastructure and platform design</p></td><td><p>Service design</p></td></tr><tr><td><p>Defining requirements for infrastructure and platform solutions</p></td><td><p>Business analysis</p></td></tr><tr><td><p>Definition of standards and road map for infrastructure and platforms</p></td><td><p>Architecture management</p></td></tr></tbody></table>
 
 ## 2.4 Practice success factors
-<table><tbody><tr><td><strong>Definition: Practice success factor</strong></td></tr><tr><td><p>A complex functional component of a practice that is required for the practice to fulfil its purpose.</p></td></tr></tbody></table>
+> **Practice success factor** — A complex functional component of a practice that is required for the practice to fulfil its purpose.
 
 A practice success factor (PSF) is more than a task or activity; it includes components from all four dimensions of service management. The nature of the activities and resources of PSFs within a practice may differ, but together they ensure that the practice is effective.
 
@@ -192,7 +192,7 @@ The contribution of the infrastructure and platform management practice to the s
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-<table><tbody><tr><td><strong>Definition: Process</strong></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 There are numerous models to structure activities of the infrastructure and platform management practice. These span several decades and range from waterfall and manual, to iterative and incremental.
 
@@ -276,7 +276,7 @@ Examples of other roles which can be involved in infrastructure and platform man
 ## 4.2 Organizational structures and teams
 Infrastructure and platform management specialists often form a dedicated team (or teams). However, in some organizations they are included in product teams and focused on infrastructure solutions supporting respective products. Regardless of the organizational solution, it is important to maintain shared view and responsibility across infrastructure and product teams.
 
-<table><tbody><tr><td><strong>Key message</strong></td></tr><tr><td><p>Rigid boundaries between “application development” and “production” (sometimes called programmers and operators) are counterproductive. This is especially true if the segregation of responsibilities and classification of ops as a cost centre leads to power imbalances or discrepancies in esteem or pay</p><p>(…) Ideally, both product development and SRE teams should have a holistic view of the stack—the frontend, backend, libraries, storage, kernels, and physical machine—and no team should jealously own single components. It turns out that you can get a lot more done if you “blur the lines”11 and have SREs instrument JavaScript, or product developers qualify kernels: knowledge of how to make changes and the authority to do so are much more widespread, and incentives to jealously guard any particular function are removed.”</p><p>This quote from “The Site Reliability Workbook” by Google refers specifically to SRE teams. However, it is valid for any other approach to infrastructure and platform management.</p></td></tr></tbody></table>
+*Key message*: Rigid boundaries between “application development” and “production” (sometimes called programmers and operators) are counterproductive. This is especially true if the segregation of responsibilities and classification of ops as a cost centre leads to power imbalances or discrepancies in esteem or pay</p><p>(…) Ideally, both product development and SRE teams should have a holistic view of the stack—the frontend, backend, libraries, storage, kernels, and physical machine—and no team should jealously own single components. It turns out that you can get a lot more done if you “blur the lines”11 and have SREs instrument JavaScript, or product developers qualify kernels: knowledge of how to make changes and the authority to do so are much more widespread, and incentives to jealously guard any particular function are removed.”</p><p>This quote from “The Site Reliability Workbook” by Google refers specifically to SRE teams. However, it is valid for any other approach to infrastructure and platform management.
 
 The infrastructure and platform management practice needs to allow for organization variations while ensuring some level of consistency across infrastructure teams. The teams may be split by geography, type of technology, or business service. Having an overall structure to manage practice changes and communication is important to keep the overall service functioning in an optimal manner. This may be done with an overall governance group or through representation in an infrastructure committee.
 
