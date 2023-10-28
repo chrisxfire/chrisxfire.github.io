@@ -1,10 +1,11 @@
 ---
 title: "Role profile: Business Relationship Manager"
 date: 2023-10-21T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
+# 1. Job Purpose and Responsibilities
 ## 1.1 Job Purpose
 As a Business Relationship Manager (BRM) you’ll take the lead in building strong working relationships between the IT organization and one or more business units, and for ensuring IT services meet their needs.
 
@@ -19,6 +20,7 @@ You’ll work with the business to shape and prioritize their IT requirements (f
 - Lead negotiations to provide new and enhanced products or services
 - Implement systems to capture feedback and monitor customer satisfaction.
 
+# 2. Skills and Qualifications
 ## 2.1 Job Skills
 Alongside your IT knowledge, you will need well-developed business and interpersonal skills to establish credibility, and build trust and relationships between the IT organization and their business customers.
 

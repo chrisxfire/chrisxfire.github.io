@@ -1,13 +1,13 @@
 ---
 title: "Role profile: Chief Technology Officer"
 date: 2023-10-21T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
 This profile describes the roles and responsibilities of a Chief Technology Officer, Head of IT or IT Director.
 
-# 1. Job purpose and responsibilities
+# 1. Job purpose and responsibilities# 1. Job Purpose and Responsibilities
 ## 1.1 Job Purpose
 As Chief Technology Officer (CTO), your challenge is to make the right technology choices for the organization. You need to research potential changes in the world of technology, strategically examine the needs of the organization, and be able to orchestrate short and long term plans to ensure that the organization remains productive, competitive, and progressive within the marketplace.
 

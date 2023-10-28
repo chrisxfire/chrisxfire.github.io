@@ -1,10 +1,11 @@
 ---
 title: "Role profile: Supplier Relationship Manager"
 date: 2023-10-21T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
+# 1. Job Purpose and Responsibilities
 ## 1.1 Job Purpose
 As Supplier Relationship Manager, you will be responsible for procuring IT products and services on behalf of the IT function and the wider business, using your networks and negotiation skills to achieve best value and service levels.
 
@@ -18,6 +19,7 @@ You will contribute to enhancing the framework of procurement policies and proce
 - Contract negotiation and placement
 - Proactively manage relationships with key suppliers.
 
+# 2. Skills and Qualifications
 ## 2.1 Job Skills
 Alongside sound relationship building skills, you need to be an effective negotiator with a sound understanding of the business you represent, and strong analytical skills to work with suppliers and assess how their products and service can deliver what the business needs.
 

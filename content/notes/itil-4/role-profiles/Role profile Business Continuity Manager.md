@@ -1,10 +1,11 @@
 ---
 title: "Role profile: Business Continuity Manager"
 date: 2023-10-21T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
+# 1. Job Purpose and Responsibilities
 ## 1.1 Job Purpose
 This is a key role with responsibility for ensuring that there are plans in place for the organization to continue to function in the event of a disaster or catastrophic event.
 
@@ -14,7 +15,7 @@ You will work closely with the IT Security Manager and IT Architects to develop 
 
 Critically the plan needs to be workable, and you will coordinate testing of the plan, and be responsible for keeping it up to date as changes take place and as new risks emerge in the business.
 
-## 2.2 Job responsibilities
+## 1.2 Job Responsibilities
 - Scenario planning and risk assessment
 - Prioritize the businesses to be recovered
 - Document the business continuity plan

@@ -1,10 +1,11 @@
 ---
 title: "Role profile: IT Support Technician"
 date: 2023-10-21T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
+# 1. Job Purpose and Responsibilities
 ## 1.1 Job Purpose
 You will help to find and fix software and hardware problems, or any incident that is disrupting the IT systems or services that business users depend on. Usually you will be working on incidents that have been escalated from front line support on the service desk. Crucially the systems are live, and so the issues usually need prompt attention. Being able to stay calm and work under pressure is vital.
 
@@ -26,29 +27,10 @@ Key skills you will need include:
 
 | Competency | Skills |
 | - | - |
-User Support
-* Effectively question users to establish symptoms
-* Use experience and interrogate database for potential solutions
-* Deploy support tools to systematically trace source of error or technical failure
-* Escalate complex or unresolved incidents
-* Record and track issues from outset to conclusion
-* Minimize interruptions in customers’ ability to carry out critical business activities.
-Service Deliver
-* Carry out maintenance to ensure stable and secure applications and ICT infrastructure
-* Update operational document library and log all service incidents
-* Systematically analyze performance data and communicate findings to senior experts
-* Escalate potential service failures and security risks and recommend actions to improve service reliability
-* Track reliability data against relevant service level agreements.
-Communication and Knowledge Sharing
-* Listen to others to understand their point of view
-* Confidently present messages in a clear and precise manner
-* Share information with team members to help them become more effective
-* Structure written and oral communication to ensure clarity.
-Leadership and Teamwork
-* Support colleagues to help them achieve goals
-* Foster team spirit and promote team goals
-* Take the lead in areas of specialism and personal strength.
-
+| User Support | * Effectively question users to establish symptoms <br /> * Use experience and interrogate database for potential solutions <br /> * Deploy support tools to systematically trace source of error or technical failure <br /> * Escalate complex or unresolved incidents <br /> * Record and track issues from outset to conclusion <br /> * Minimize interruptions in customers’ ability to carry out critical business activities.
+| Service Deliver | * Carry out maintenance to ensure stable and secure applications and ICT infrastructure <br /> * Update operational document library and log all service incidents <br /> * Systematically analyze performance data and communicate findings to senior experts <br /> * Escalate potential service failures and security risks and recommend actions to improve service reliability <br /> * Track reliability data against relevant service level agreements.
+| Communication and Knowledge Sharing | * Listen to others to understand their point of view <br /> * Confidently present messages in a clear and precise manner <br /> * Share information with team members to help them become more effective <br /> * Structure written and oral communication to ensure clarity.
+| Leadership and Teamwork | * Support colleagues to help them achieve goals <br /> * Foster team spirit and promote team goals <br /> * Take the lead in areas of specialism and personal strength. <br />
 ## 2.2 Relevant qualifications
 - [ITIL<sup>®</sup> 4: Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation)
 - [ITIL<sup>®</sup> 4: Create, deliver and support](https://www.axelos.com/certifications/itil-service-management/managing-professional/create-deliver-and-support)

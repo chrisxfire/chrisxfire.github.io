@@ -1,13 +1,13 @@
 ---
 title: "Role profile: Chief Information Security Officer"
 date: 2023-10-21T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
 This profile describes the roles and responsibilities of a Chief Information Security Officer or Supervisory IT Specialist (Security).
 
-# 1. Job purpose and responsibilities
+# 1. Job purpose and responsibilities# 1. Job Purpose and Responsibilities
 ## 1.1 Job Purpose
 As the senior level executive with overall responsibility to safeguard the IT infrastructure of the business and any privileged or proprietary information that the business possesses, your influence reaches the whole organization.
 
@@ -22,7 +22,7 @@ Depending on the size and complexity of the organization, the CISO may manage a 
 - Ensure the promotion of the IT security policy and that the organization meets all mandated security and compliance materials
 - Coordinate work with all suppliers, contractors and consultants to maintain and enhance data security.
 
-# 2. Skills and qualifications
+# 2. Skills and qualifications# 2. Skills and Qualifications
 ## 2.1 Job Skills
 As with other Executive roles you will need a blend of business and technical skills. These include:
 

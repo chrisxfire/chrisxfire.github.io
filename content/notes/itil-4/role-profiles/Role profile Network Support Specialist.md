@@ -1,10 +1,11 @@
 ---
 title: "Role profile: Network Support Specialist"
 date: 2023-10-21T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
+# 1. Job Purpose and Responsibilities
 ## 1.1 Job Purpose
 As Network Support Specialist, you will be responsible for designing, installing and maintaining various segments of network systems, and other computing environments used across the enterprise.
 
@@ -22,6 +23,7 @@ You will also assist with research and recommending policies and strategies for 
 - Technical support for people using the network
 - Planning future improvements.
 
+# 2. Skills and Qualifications
 ## 2.1 Job Skills
 You will need solid technical skills and experience with the network protocols, software and hardware used in the LAN/WAN for the organization. Strong diagnostic and analytical skills are also key, as is the ability to stay calm under pressure when there is network failure.
 

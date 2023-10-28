@@ -1,7 +1,7 @@
 ---
 title: "Role profile: Hardware Support Specialist"
 date: 2023-10-21T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
@@ -20,7 +20,7 @@ You will be committed to customer service and play a key role in minimizing disr
 - Run diagnostic programmes or use test equipment to locate source of problems
 - Communicate effectively with end users and customer management.
 
-# 2. Skills and qualifications
+# 2. Skills and qualifications# 2. Skills and Qualifications
 ## 2.1 Job Skills
 You need a thorough knowledge of the hardware, software and network connections, together with strong problem-solving skills and a commitment to delivering excellent customer service. You will need the following skills and abilities for a career in hardware support.
 

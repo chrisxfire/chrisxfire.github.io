@@ -1,11 +1,12 @@
 ---
 title: "Role profile: Application Support Specialist"
 date: 2023-10-21T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
-## 1.1 Job purpose
+# 1. Job Purpose and Responsibilities
+## 1.1 Job Purpose
 As a specialist in application support, you will provide support for the live application software that business users are dependent on. Usually you will be working on incidents that have been escalated from frontline support on the service desk. You will be responsible for diagnosing the root cause of the incident and either fixing the problem or managing it through to resolution within defined service levels.
 
 Crucially the systems are live, and so the issues usually need prompt attention. Being able to stay calm and work under pressure is vital.
@@ -20,6 +21,7 @@ You will help with training of new staff and will provide expert advice to the b
 - Schedule installation work to meet priorities and minimize disruption
 - Maintain security and functionality through application of programme temporary fixes.
 
+# 2. Skills and Qualifications
 ## 2.1 Job Skills
 You will need the ability to get up to speed quickly with the application or group of applications you are responsible for, the problems they tend to have and how to fix them.
 

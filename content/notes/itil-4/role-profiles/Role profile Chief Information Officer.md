@@ -1,13 +1,13 @@
 ---
 title: "Role profile: Chief Information Officer"
 date: 2023-10-21T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
 This profile describes the roles and responsibilities of a Chief Information Officer, Head of IT or IT Director.
 
-# 1. Job purpose and responsibilities
+# 1. Job purpose and responsibilities# 1. Job Purpose and Responsibilities
 ## 1.1 Job Purpose
 As Chief Information Officer (CIO), you have overall responsibility for information and information technology strategy and governance, and for the management of IT resources. You will take the lead in recognizing potential areas of growth that need increased IT support, and for leading the design and delivery of an IT strategy that builds these essential capabilities within the IT area.
 
@@ -23,7 +23,7 @@ As a leader in the business, you will work collaboratively with other senior man
 - Make recommendations to senior general management
 - Ensure the reliability, confidentiality, security and integrity of all information systems including compliance with service level agreements.
 
-# 2. Skills and qualifications
+# 2. Skills and qualifications# 2. Skills and Qualifications
 ## 2.1 Job Skills
 Critical skills for the CIO role include strategic planning and being able to work with other senior leaders to define and champion an information services strategy that relates to the organization’s business.
 
