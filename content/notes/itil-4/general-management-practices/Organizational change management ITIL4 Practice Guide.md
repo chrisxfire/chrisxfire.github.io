@@ -9,13 +9,13 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-**Key Message**: The purpose of the OCM practice is to ensure that changes in an organization are implemented smoothly and successfully, and that lasting benefits are achieved by managing the human aspects of the changes.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the OCM practice is to ensure that changes in an organization are implemented smoothly and successfully, and that lasting benefits are achieved by managing the human aspects of the changes.
 
 OCM is a practice that serves the continually emerging wish and need for organizational growth, improvement, and evolution.
 
 To improve product and service portfolio, organizational structure or underlying technology, people are essential for the transformation to be successful. Organizational evolution enables a change in their capabilities, the way they work, feel, and behave. These changes should not be forced upon people but should lead to a new valuable system, so people could willingly adopt new ways of behaviour and work.
 
-**Key Message**: People are responsible for changes in behaviour as a response to changed circumstances (i.e. Changes to the system in which we work).</p></td></tr></tbody></table>
+**Key Message**: People are responsible for changes in behaviour as a response to changed circumstances (i.e. Changes to the system in which we work).
 
 OCM aims to build a value-driven environment across the organization and enable successful organizational changes of a required scope. According to the organizational vision and need, all stakeholders should adopt new ways of working, as well as minimize risks and possible negative impacts of any change to the quality of service/products and consumer experience.
 

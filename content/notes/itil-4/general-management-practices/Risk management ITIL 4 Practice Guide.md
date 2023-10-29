@@ -174,7 +174,11 @@ Some organizations use a five point scale, rather than the simple three point sc
 #### 2.4.3.2 Quantitative risk analysis
 Quantitative risk analysis considers the risk impact on a financial basis, as well as on other numerical bases. The likelihood is considered a probability. This risk analysis supports calculations that can be used in a business case, to justify investments that may be needed to manage the risk.
 
-<table><tbody><tr><td><strong>Annual rate of occurrence (ARO)</strong></td></tr><tr><td>The probability that a specific risk will occur in a single year.</td></tr><tr><td><strong>Single loss expectancy (SLE)</strong></td></tr><tr><td>The expected financial loss due to a risk, each time that a risk occurs.</td></tr><tr><td><strong>Annualized loss expectancy (ALE)</strong></td></tr><tr><td>The expected financial loss due to a risk, averaged over a one-year period. ALE is calculated by multiplying the single loss expectancy (SLE) by the annual rate of occurrence (ARO).</td></tr></tbody></table>
+**Annual rate of occurrence (ARO)** — The probability that a specific risk will occur in a single year.
+
+**Single loss expectancy (SLE)** — The expected financial loss due to a risk, each time that a risk occurs.
+
+**Annualized loss expectancy (ALE)** — The expected financial loss due to a risk, averaged over a one-year period. ALE is calculated by multiplying the single loss expectancy (SLE) by the annual rate of occurrence (ARO).
 
 The annual rate of occurrence is calculated based on the expectations of how frequent the risk is likely to occur. For example, an event that is expected to occur once every fifty years has an ARO of 2%.
 
@@ -210,9 +214,7 @@ The contribution of the risk management practice to the service value chain is s
 ## 3.2 Processes
 Each practice may include one or more processes and activities that may be necessary to fulfil the purpose of that practice.
 
-**Process**
-
-<table><tbody><tr><td></td></tr><tr><td><p>A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.</p></td></tr></tbody></table>
+> **Process** — A set of interrelated or interacting activities that transform inputs into outputs. A process takes one or more defined inputs and turns them into defined outputs. Processes define the sequence of actions and their dependencies.
 
 ![Figure 3.1 Heat map of the contribution of the risk management practice to value chain activities](Risk%20management%20ITIL%204%20Practice%20Guide/Picture2_(1).jpg)
 

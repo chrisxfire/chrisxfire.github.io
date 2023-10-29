@@ -34,7 +34,10 @@ The practice does not, however, include making funding decisions, prioritizing i
 
 Financial management in organizations is usually supported by specialized roles and organizational structures, such as finance, accounting, and financial analysis teams and structures. However, these teams are often focused on tax accounting, financial accounting, and compliance rather than on supporting the effective management of digital products and services. Teams that are involved in digital product and service management are likely to lack expertise in financial and commercial matters. This inconsistency in management focus and expertise is closely connected to the role of digital and IT in the organization.
 
-<table><tbody><tr><td><p><strong>Examples:</strong></p></td></tr><tr><td><ul><li>In organizations where digital technology is treated as a minor supporting resource, the service financial management of this resource is the responsibility of the digital and IT team (or department). Details of the management of digital and IT product and service accounts are of low importance to the organization, as long as the total cost of the organization’s IT remains within the agreed budget.</li></ul><ul><li>Management decisions that may benefit from financial information about digital products and services reside within the digital and IT team. This typically results in a rudimentary service financial management practice for digital products and services; the key roles of the practice are performed by the executive IT manager and their management team.</li></ul><ul><li>In the age of business digitization and organizational digital transformation, organizations are realizing the ineffectiveness of this approach. The role of the service financial management practice for digital products and services is changing.</li></ul><ul><li>In digital organizations where the role of digital technology in the business is seen as core, the importance of digital products and services is much higher, as are the IT costs in the organization’s budget. In these organizations, decision-making at strategic and tactical levels relies on detailed and reliable financial information about digital products and services. As a result, the practice is supported by dedicated staff, tools, and management efforts.</li></ul></td></tr></tbody></table>
+Examples:
+* In organizations where digital technology is treated as a minor supporting resource, the service financial management of this resource is the responsibility of the digital and IT team (or department). Details of the management of digital and IT product and service accounts are of low importance to the organization, as long as the total cost of the organization’s IT remains within the agreed budget.
+* Management decisions that may benefit from financial information about digital products and services reside within the digital and IT team. This typically results in a rudimentary service financial management practice for digital products and services; the key roles of the practice are performed by the executive IT manager and their management team.</li></ul><ul><li>In the age of business digitization and organizational digital transformation, organizations are realizing the ineffectiveness of this approach. The role of the service financial management practice for digital products and services is changing.
+* In digital organizations where the role of digital technology in the business is seen as core, the importance of digital products and services is much higher, as are the IT costs in the organization’s budget. In these organizations, decision-making at strategic and tactical levels relies on detailed and reliable financial information about digital products and services. As a result, the practice is supported by dedicated staff, tools, and management efforts.
 
 The two example scenarios are extremes, and most organizations are somewhere in between. Either way, it is important to combine expertise in two areas:
 * product and service management, with a particular focus on the following practices:
@@ -82,7 +85,8 @@ ITIL 4 suggests organizing organizations’ resources into four groups, known as
 
 All of the costs of all resources can be associated with one of these groups. From the management accounting and budgeting perspective, the four dimensions may be used as the highest-level categories to assign costs (known as ‘cost types’).
 
-<table><tbody><tr><td><p><strong>Definitions:</strong></p></td></tr><tr><td><p>Cost</p><p>The amount of money spent on a specific activity or resource.</p><p>Cost type</p><p>The highest level of category to which costs are assigned in budgeting and accounting.</p></td></tr></tbody></table>
+> **Cost** — The amount of money spent on a specific activity or resource.  
+> **Cost type** — The highest level of category to which costs are assigned in budgeting and accounting.
 
 Examples of cost elements in each of these categories include:
 * organizations and people
@@ -100,7 +104,7 @@ Examples of cost elements in each of these categories include:
     * management tools
     * management activities.
 
-The cost elements above should be documented with more detail, down to the specific costs. This will lead to the discovery of costs that belong to different cost types. When organizations define and agree their approach to the practice, they should provide guidance for these situations. For example:
+The cost elements above should be documented with more detail, down to the specific costs. This will lead to the discovery of costs that belong to different cost types. When organizations Define and agree on their approach to the practice, they should provide guidance for these situations. For example:
 * Training for organization’s employees may be provided by an external provider, which could be categorized as either a ‘people’ or ‘supplier’ cost type.
 * An IT server could be provided in a cloud by an external provider, which could be categorized as either a ‘technology’ or ‘supplier’ cost type.
 * An audit of a product may be conducted by a joint team that includes external and internal auditors, which could be categorized as a ‘management’, ‘people’, or ‘supplier’ cost type.
@@ -110,7 +114,13 @@ The rules for cost categorization should be included in the agreed service finan
 #### 2.2.2 Direct and indirect costs
 In Figure 2.1, the costs of resources are allocated to multiple products, and the costs of those products are allocated to multiple services. To understand the costs of products and services and make good management decisions, understanding the rules of the cost allocation is crucial. The basic classification of costs from the allocation perspective identifies two categories of costs: direct and indirect costs. Some of the indirect costs are overheads.
 
-<table><tbody><tr><td><p><strong>Definitions:</strong></p></td></tr><tr><td><p><strong></strong><span><strong>Cost object</strong></span><strong></strong></p></td></tr><tr><td><span>An item to which costs are allocated. Examples include products, services, service offerings, projects, customers, distribution channels, and so on.</span></td></tr><tr><td><strong>Direct cost</strong></td></tr><tr><td><span>A cost that is fully allocated to a cost object.</span></td></tr><tr><td><strong>Indirect cost</strong></td></tr><tr><td><span>The cost of a resource used by and therefore allocated to multiple cost objects.</span></td></tr><tr><td><strong></strong><span><strong>Overhead</strong></span><strong></strong></td></tr><tr><td><p>Indirect costs which cannot be reasonably allocated to selected cost objects.</p></td></tr></tbody></table>
+> **Cost object** — An item to which costs are allocated. Examples include products, services, service offerings, projects, customers, distribution channels, and so on.
+
+> **Direct cost** — A cost that is fully allocated to a cost object.
+
+> **Indirect cost** — The cost of a resource used by and therefore allocated to multiple cost objects.
+
+> **Overhead** — Indirect costs which cannot be reasonably allocated to selected cost objects.
 
 Direct costs are fully allocated to a selected cost object. For example, 100% of the labour costs of teams working solely on one product are allocated to this product.
 
@@ -124,7 +134,12 @@ In other cases, there is no reasonable way to allocate costs to selected cost ob
 
 To understand the full costs of a cost object, after calculating the direct and indirect costs that can be reasonably allocated, a total overhead is usually distributed across the cost objects as agreed in the organization’s approach to the practice. It may be a simple even distribution or a function of the allocated costs, revenue, profit, or some other factor.
 
-**Key Message**: In management accounting, decisions about cost allocation are made by the organization in a way that meets the decision-makers’ requirements.</p><p>These include:</p><p>• identifying cost objects</p><p>• calculating the full cost of a cost object</p><p>• allocating drivers for indirect costs</p><p>• categorizing certain costs as overhead</p><p>• allocating overhead to the cost objects.</p></td></tr></tbody></table>
+**Key Message**: In management accounting, decisions about cost allocation are made by the organization in a way that meets the decision-makers’ requirements.</p><p>These include:
+* identifying cost objects
+* calculating the full cost of a cost object
+* allocating drivers for indirect costs
+* categorizing certain costs as overhead
+* allocating overhead to the cost objects.
 
 #### 2.2.2.1 Activity-based costing
 In many cases, reasonably allocating indirect costs is difficult because a significant part of the indirect costs are associated with people’s activities. Many teams in an organization contribute to the management of multiple products and services. Even if a team dedicates 100% of its resources to a single product (and those costs were categorized as ‘direct’ costs for that product), the same costs may also be categorized as ‘indirect’ for another cost object is chosen, such as the total cost of service provision to a customer. When this is the case and ‘people’ costs constitute a significant part of the overheads, the activity-based costing (ABC) method can be used to allocate the costs.
@@ -269,46 +284,19 @@ This process is focused on defining, agreeing, and communicating the organizatio
 This process includes the activities listed in Table 3.1 and transforms the inputs into outputs.
 
 ### Table 3.1 Inputs, activities, and outputs of the managing the organization’s approach to service financial management process
-<table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Organizational architectures</li><li>Stakeholder requirements</li><li>Organizational structure</li><li>Organization’s portfolios</li><li>Organization’s service catalogue</li><li>IT asset data</li><li>Service configuration data</li><li>Contracts and agreements with suppliers and service consumers</li><li>Organization’s financial management and accounting policies, approaches and data</li></ul></td><td><ul><li>analyze stakeholder requirements</li><li>Define and agree the service financial management approach</li><li>Communicate and integrate the service financial management approach into the organization's value streams</li><li>Review and adjust the service financial management approach and procedures</li></ul></td><td><ul><li>Service financial management approach</li><li>Cost and budget models</li><li>Service financial management communications and knowledge management materials</li><li>Requests for changes and implementation initiatives</li><li>Service financial management approach performance reports</li></ul></td></tr></tbody></table>
+<table><tbody><tr><td><p><strong>Key inputs</strong></p></td><td><p><strong>Activities</strong></p></td><td><p><strong>Key outputs</strong></p></td></tr><tr><td><ul><li>Organizational architectures</li><li>Stakeholder requirements</li><li>Organizational structure</li><li>Organization’s portfolios</li><li>Organization’s service catalogue</li><li>IT asset data</li><li>Service configuration data</li><li>Contracts and agreements with suppliers and service consumers</li><li>Organization’s financial management and accounting policies, approaches and data</li></ul></td><td><ul><li>analyze stakeholder requirements</li><li>Define and agree on the service financial management approach</li><li>Communicate and integrate the service financial management approach into the organization's value streams</li><li>Review and adjust the service financial management approach and procedures</li></ul></td><td><ul><li>Service financial management approach</li><li>Cost and budget models</li><li>Service financial management communications and knowledge management materials</li><li>Requests for changes and implementation initiatives</li><li>Service financial management approach performance reports</li></ul></td></tr></tbody></table>
 
 Figure 3.2 shows a workflow diagram of the process.
 
 ![Image of Figure 3.2 shows workflow diagram for managing the organizations approach to Service Financial Management process](Service%20financial%20management%20ITIL%204%20Practice%20Guide/Picture3.png "Figure 3.2 Workflow of the managing the organization’s approach to service financial management process**")
 
 ### **Table 3.2** Activities of the managing the organization’s approach to service financial management process
-**Activity**
-**An internal IT service provider within a parent organization**
-**An external digital service provider organization**
-
- |
-| --- | --- | --- |
-
-analyze stakeholder requirements
-* The IT leadership team identifies the stakeholders who are interested in service financial management information about digital products and services.
-* The team gathers and analyzes the stakeholder requirements. The IT service provider’s executive leader (such as the CIO or IT director) decides whether the approach should be developed further.
-* If they decide to proceed, the leader forms a team to develop and implement the approach (or amendments to the existing approach).
-* Typically, the team includes digital product and service managers and architects. It may be consulted by financial managers from the parent organization and/or external consultants.
-* The organization’s executive leadership team identifies the stakeholders who are interested in service financial management information about the organization’s digital products and services.
-* The team gathers and analyzes the stakeholder’s requirements. The executive leaders (including the CEO, CFO, and CPO) decide whether to develop the approach further.
-* If they decide to proceed, the leaders form a team to develop and implement the approach (or amendments to the existing approach).
-* Typically, the team includes product and service managers, architects, and financial management specialists. External consultants may be involved to consult the team.
-Define and agree the service financial management approach
-* The service financial management team discusses and agrees a service configuration management approach, including cost models, budget models, policies, procedures, data structures, roles, responsibilities, and so on.
-* The approach is discussed and approved by the key stakeholders, including financial management experts and leaders of the parent organization.
-* The service financial management team discusses and agrees a service configuration management approach, including cost models, budget models, policies, procedures, data structures, roles, responsibilities, and so on.
-* The approach is discussed and approved by the key stakeholders, including the executive leaders of the organization.
-Communicate and integrate the service financial management approach into the organization's value streams
-* The agreed service financial management approach is communicated to and discussed with stakeholders across the IT service provider. These typically include practitioners that will participate in service financial management activities, technical experts involved in the automation of the practice, and other interested or affected teams.
-* The service financial management approach is implemented in conjunction with the IT asset management, service configuration management, supplier management, change enablement, project management, organizational change management, workforce and talent management, infrastructure and platform management, and software development and management practices, among others.
-* The agreed service financial management approach is communicated to and discussed with stakeholders across the organization. These typically include practitioners that will participate in service financial management activities, technical experts involved in the automation of the practice, and other interested or affected teams.
-* The service financial management approach is implemented in conjunction with the IT asset management, service configuration management, supplier management, change enablement, project management, organizational change management, workforce and talent management, infrastructure and platform management, and software development and management practices, among others.
-Review and adjust the service financial management approach and procedures
-* The service financial manager(s) and IT service provider’s leader(s) monitor and review the adoption, compliance, and effectiveness of the agreed service financial management approach and procedures. This is done on an event-based (such as non-standard requests for information, identified errors, new requirements, and so on) and interval-based basis.
-* Based on the reviews, changes in the approach and/or its practical implementation may be initiated. The service financial management approach performance reports serve as inputs to the definition and agreement of an updated approach.
-* The results, findings, and initiatives are used as inputs to the continual improvement of the service financial management practice.
-* The service financial manager(s) and executive leaders monitor and review the adoption, compliance, and effectiveness of the agreed service financial management approach and procedures. This is done on event-based (such as non-standard requests for information, identified errors, new requirements, and so on) and interval-based basis.
-* Based on the reviews, changes in the approach and/or its practical implementation may be initiated. The service financial management approach performance reports serve as inputs to the definition and agreement of an updated approach.
-* The results, findings, and initiatives are used as inputs to the continual improvement of the service financial management practice.
+| Activity                                                                                                  | An internal IT service provider within a parent organization                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | An external digital service provider organization                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Analyze stakeholder requirements                                                                          | The IT leadership team identifies the stakeholders who are interested in service financial management information about digital products and services. <br /> The team gathers and analyzes the stakeholder requirements. The IT service provider’s executive leader (such as the CIO or IT director) decides whether the approach should be developed further. <br /> If they decide to proceed, the leader forms a team to develop and implement the approach (or amendments to the existing approach). <br /> Typically, the team includes digital product and service managers and architects. It may be consulted by financial managers from the parent organization and/or external consultants. <br />                                                        | The organization’s executive leadership team identifies the stakeholders who are interested in service financial management information about the organization’s digital products and services. <br /> The team gathers and analyzes the stakeholder’s requirements. The executive leaders (including the CEO, CFO, and CPO) decide whether to develop the approach further. <br /> If they decide to proceed, the leaders form a team to develop and implement the approach (or amendments to the existing approach). <br /> Typically, the team includes product and service managers, architects, and financial management specialists. External consultants may be involved to consult the team. <br />                                         |
+| Define and agree on the service financial management approach                                             | The service financial management team discusses and agrees a service configuration management approach, including cost models, budget models, policies, procedures, data structures, roles, responsibilities, and so on. <br /> The approach is discussed and approved by the key stakeholders, including financial management experts and leaders of the parent organization. <br />                                                                                                                                                                                                                                                                                                                                                                                | The service financial management team discusses and agrees a service configuration management approach, including cost models, budget models, policies, procedures, data structures, roles, responsibilities, and so on. <br /> The approach is discussed and approved by the key stakeholders, including the executive leaders of the organization. <br />                                                                                                                                                                                                                                                                                                                                                                                         |
+| Communicate and integrate the service financial management approach into the organization's value streams | The agreed service financial management approach is communicated to and discussed with stakeholders across the IT service provider. These typically include practitioners that will participate in service financial management activities, technical experts involved in the automation of the practice, and other interested or affected teams. <br /> The service financial management approach is implemented in conjunction with the IT asset management, service configuration management, supplier management, change enablement, project management, organizational change management, workforce and talent management, infrastructure and platform management, and software development and management practices, among others. <br />                      | The agreed service financial management approach is communicated to and discussed with stakeholders across the organization. These typically include practitioners that will participate in service financial management activities, technical experts involved in the automation of the practice, and other interested or affected teams. <br /> The service financial management approach is implemented in conjunction with the IT asset management, service configuration management, supplier management, change enablement, project management, organizational change management, workforce and talent management, infrastructure and platform management, and software development and management practices, among others. <br />            |
+| Review and adjust the service financial management approach and procedures                                | The service financial manager(s) and IT service provider’s leader(s) monitor and review the adoption, compliance, and effectiveness of the agreed service financial management approach and procedures. This is done on an event-based (such as non-standard requests for information, identified errors, new requirements, and so on) and interval-based basis. <br /> Based on the reviews, changes in the approach and/or its practical implementation may be initiated. The service financial management approach performance reports serve as inputs to the definition and agreement of an updated approach. <br /> The results, findings, and initiatives are used as inputs to the continual improvement of the service financial management practice. <br /> | The service financial manager(s) and executive leaders monitor and review the adoption, compliance, and effectiveness of the agreed service financial management approach and procedures. This is done on event-based (such as non-standard requests for information, identified errors, new requirements, and so on) and interval-based basis. <br /> Based on the reviews, changes in the approach and/or its practical implementation may be initiated. The service financial management approach performance reports serve as inputs to the definition and agreement of an updated approach. <br /> The results, findings, and initiatives are used as inputs to the continual improvement of the service financial management practice. <br /> |
 
 ### 3.2.2 Financial planning
 This process is focused on estimating the organization’s costs and income, agreeing and approving budgets, and ensuring that the budgets are properly executed.
@@ -352,155 +340,26 @@ Roles are described in the context of processes and activities. Each role is cha
 Examples of other roles which can be involved in service financial management activities are listed in Table 4.2, together with the associated competency profiles and specific skills.
 
 ### Table 4.2 Examples of roles with responsibility for service financial management practice activities
-| Activity | Responsible Roles | Competency Profile | Specific Skills |
-| - | - | - | - |
-**Managing the organization’s approach to service financial management**
-analyze stakeholder requirements
-* Executive leaders
-* Service financial managers
-* Product owners
-* Service owners
-CT
-Excellent knowledge of the organization and stakeholder needs
-Define and agree the service financial management approach
-* Executive leaders
-* Service financial managers
-* Product owners
-* Service owners
-* Architects
-* Consultants
-MTCA
-Good knowledge of financial management theory and practice
-
-Excellent understanding of the organization’s architectures, products, and services
-
-Good understanding of the stakeholder needs
-Communicate and integrate the service financial management approach into the organization's value streams
-* Executive leaders
-* Service financial managers
-* Product owners
-* Service owners
-* Team managers
-CLT
-Communication and leadership skills
-Review and adjust the service financial management approach and procedures
-* Executive leaders
-* Service financial managers
-* Product owners
-* Service owners
-* Architects
-* Consultants
-MTCA
-Analytical skills
-
-Good knowledge of financial management theory and practice
-
-Excellent understanding of the organization’s architectures, products, and services
-
-Good understanding of the stakeholder needs
-**Financial planning**
-analyze the previous and current plans and performance
-* Service financial managers
-* Product owners
-* Service owners
-* Programme and project managers
-* Consultants
-TC
-Analytical skills
-
-Good knowledge of the financial management approach
-
-Excellent understanding of the organization’s architectures, products, and services
-Estimate costs and income
-* Service financial managers
-* Product owners
-* Service owners
-* Programme and project managers
-* Consultants
-TCMA
-Analytical skills
-
-Good knowledge of the financial management approach
-
-Excellent understanding of the organization’s architectures, products, and services
-Compile the budgets
-* Service financial managers
-* Product owners
-* Service owners
-* Programme and project managers
-TA
-Good knowledge of the financial management approach
-Communicating and agreeing the budgets
-* Service financial managers
-* Product owners
-* Service owners
-* Programme and project managers
-CTA
-Good knowledge of the budgets
-
-Communication skills
-Monitor and control costs and income
-* Service financial managers
-* Product owners
-* Service owners
-* Programme and project managers
-AT
-Good knowledge of the budgets
-
-Good understanding of the financial data
-Review and report on the budget
-* Service financial managers
-* Product owners
-* Service owners
-* Programme and project managers
-* Consultants
-TCA
-Analytical skills
-
-Good knowledge of the financial management approach
-
-Good knowledge of the budgets
-
-Excellent understanding of the organization’s architectures, products, and services
-**Management accounting**
-Identify and capture costs
-* Service financial managers
-* Product owners
-* Service owners
-* Programme and project managers
-T
-Good understanding of the financial data
-Select a cost allocation model
-* Service financial managers
-* Product owners
-* Service owners
-* Programme and project managers
-TA
-Good knowledge of the financial management approach
-Follow the cost allocation model
-* Service financial managers
-* Product owners
-* Service owners
-* Programme and project managers
-AT
-Good knowledge of the cost model
-Manage exceptions
-* Service financial managers
-* Product owners
-* Service owners
-* Programme and project managers
-Good knowledge of the financial management approach
-
-Good understanding of the financial data
-Provide standard and tailored reports
-* Service financial managers
-* Product owners
-* Service owners
-* Programme and project managers
-ACT
-Good knowledge of the cost model
-
-Good knowledge of the financial management approach
+| Activity                                                                                                  | Responsible Roles                                                                                                                           | Competency Profile | Specific Skills                                                                                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Managing the organization’s approach to service financial management**                                  |                                                                                                                                             |                    |                                                                                                                                                                                                                                   |
+| Analyze stakeholder requirements                                                                          | Executive leaders <br /> Service financial managers <br /> Product owners <br /> Service owners <br />                                      | CT                 | Excellent knowledge of the organization and stakeholder needs                                                                                                                                                                     |
+| Define and agree on the service financial management approach                                             | Executive leaders <br /> Service financial managers <br /> Product owners <br /> Service owners <br /> Architects <br /> Consultants <br /> | MTCA               | Good knowledge of financial management theory and practice <br /> Excellent understanding of the organization’s architectures, products, and services <br /> Good understanding of the stakeholder needs                          |
+| Communicate and integrate the service financial management approach into the organization's value streams | Executive leaders <br /> Service financial managers <br /> Product owners <br /> Service owners <br /> Team managers <br />                 | CLT                | Communication and leadership skills                                                                                                                                                                                               |
+| Review and adjust the service financial management approach and procedures                                | Executive leaders <br /> Service financial managers <br /> Product owners <br /> Service owners <br /> Architects <br /> Consultants <br /> | MTCA               | Analytical skills <br /> Good knowledge of financial management theory and practice <br /> Excellent understanding of the organization’s architectures, products, and services <br /> Good understanding of the stakeholder needs |
+| **Financial planning**                                                                                    |                                                                                                                                             |                    |                                                                                                                                                                                                                                   |
+| Analyze the previous and current plans and performance                                                    | Service financial managers <br /> Product owners <br /> Service owners <br /> Programme and project managers <br /> Consultants <br />      | TC                 | Analytical skills <br /> Good knowledge of the financial management approach <br /> Excellent understanding of the organization’s architectures, products, and services                                                           |
+| Estimate costs and income                                                                                 | Service financial managers <br /> Product owners <br /> Service owners <br /> Programme and project managers <br /> Consultants <br />      | TCMA               | Analytical skills <br /> Good knowledge of the financial management approach <br /> Excellent understanding of the organization’s architectures, products, and services                                                           |
+| Compile the budgets                                                                                       | Service financial managers <br /> Product owners <br /> Service owners <br /> Programme and project managers <br />                         | TA                 | Good knowledge of the financial management approach                                                                                                                                                                               |
+| Communicating and agreeing the budgets                                                                    | Service financial managers <br /> Product owners <br /> Service owners <br /> Programme and project managers <br />                         | CTA                | Good knowledge of the budgets <br /> Communication skills                                                                                                                                                                         |
+| Monitor and control costs and income                                                                      | Service financial managers <br /> Product owners <br /> Service owners <br /> Programme and project managers <br />                         | AT                 | Good knowledge of the budgets <br /> Good understanding of the financial data                                                                                                                                                     |
+| Review and report on the budget                                                                           | Service financial managers <br /> Product owners <br /> Service owners <br /> Programme and project managers <br /> Consultants <br />      | TCA                | Analytical skills <br /> Good knowledge of the financial management approach <br /> Good knowledge of the budgets <br /> Excellent understanding of the organization’s architectures, products, and services                      |
+| **Management accounting**                                                                                 |                                                                                                                                             |                    |                                                                                                                                                                                                                                   |
+| Identify and capture costs                                                                                | Service financial managers <br /> Product owners <br /> Service owners <br /> Programme and project managers <br />                         | T                  | Good understanding of the financial data                                                                                                                                                                                          |
+| Select a cost allocation model                                                                            | Service financial managers <br /> Product owners <br /> Service owners <br /> Programme and project managers <br />                         | TA                 | Good knowledge of the financial management approach                                                                                                                                                                               |
+| Follow the cost allocation model                                                                          | Service financial managers <br /> Product owners <br /> Service owners <br /> Programme and project managers <br />                         | AT                 | Good knowledge of the cost model                                                                                                                                                                                                  |
+| Manage exceptions                                                                                         | Service financial managers <br /> Product owners <br /> Service owners <br /> Programme and project managers <br />                         | ACT                | Good knowledge of the financial management approach <br /> Good understanding of the financial data                                                                                                                               |
+| Provide standard and tailored reports                                                                     | Service financial managers <br /> Product owners <br /> Service owners <br /> Programme and project managers <br />                         | ACT                | Good knowledge of the cost model <br /> Good knowledge of the financial management approach                                                                                                                                       |
 
 ### 4.1.1 Service financial manager
 The role of the service financial manager is usually performed by team managers, programme and project managers, product owners, or service owners, depending on the service financial management approach adopted by the organization. This role requires the following competencies:
@@ -536,119 +395,26 @@ This information may take various forms. The key inputs and outputs of the pract
 The service financial management practice is not usually perceived as highly automated. However, it can significantly benefit from the opportunities offered by advanced analytics, big data, modelling, and forecasting. Collaboration and communication tools are also useful for every activity of the practice. Table 5.1 lists the specific means of automation that are relevant to each practice activity.
 
 ### Table 5.1. Automation solutions for **service** financial management activities
-**Activity**
-**Means of automation**
-**Key functionality**
-**Impact on the effectiveness of the practice**
-| - | - | - | - |
-**Managing the organization’s approach to service financial management**
-analyze stakeholder requirements
-Collaboration tools
-Gathering and analysing requirements
-Medium
-Define and agree the service financial management approach
-* Collaboration tools
-* ITSM automation tools
-* Accounting systems
-* Spreadsheet and data analysis tools
-* Categorizing, modelling, and mapping financial records associated with resources, products, and services
-* Designing and automating procedures
-* Management reporting
-High
-Communicate and integrate the service financial management approach into the organization's value streams
-* Communication tools
-* ITSM automation tools
-* Communicating and training
-* Knowledge base
-* Integrating financial data into ITSM transactions
-High
-Review and adjust the service financial management approach and procedures
-* Collaboration tools
-* ITSM automation tools
-* Accounting systems
-* Spreadsheet and data analysis tools
-* Categorizing, modelling, and mapping financial records associated with resources, products, and services
-* Designing and automating procedures
-* Management reporting
-High
-**Financial planning**
-analyze the previous and current plans and performance
-* Collaboration tools
-* ITSM automation tools
-* Accounting systems
-* Spreadsheet and data analysis tools
-* Categorizing, modelling, and mapping financial records and reports
-* Analysing and visualizing data
-High
-Estimate costs and income
-* Planning and budgeting tools
-* ITSM automation tools
-* Accounting systems
-* Project management tools
-Data modelling, forecasting, planning, and visualization
-High
-Compile the budgets
-* Planning and budgeting tools
-* Spreadsheet and data analysis tools
-* Accounting systems
-* Project management tools
-Compiling, managing, and presenting budgets
-High
-Communicate and agree the budgets
-* Planning and budgeting tools
-* Spreadsheet and data analysis tools
-* Accounting systems
-* Collaboration tools
-Sharing budgets with limited groups of people for collaboration and approval
-Medium
-Monitor and control costs and income
-* ITSM automation tools
-* Accounting systems
-* Project management tools
-Mapping financial records associated with resources, products, services, and associated budgets
-High
-Review and report on the budget
-* Planning and budgeting tools
-* ITSM automation tools
-* Accounting systems
-* Project management tools
-Data modelling, forecasting, planning, and visualization
-High
-**Management accounting**
-Identify and capture costs
-* ITSM automation tools
-* Accounting systems
-* Project management tools
-Mapping financial records associated with resources, products, services, and associated cost models
-High
-Select a cost allocation model
-* ITSM automation tools
-* Accounting systems
-* Project management tools
-* Spreadsheet and data analysis tools
-Managing cost models
-High
-Follow the cost allocation model
-* ITSM automation tools
-* Accounting systems
-* Project management tools
-* Spreadsheet and data analysis tools
-Mapping financial records associated with resources, products, services, and associated cost models
-High
-Manage exceptions
-* ITSM automation tools
-* Accounting systems
-* Project management tools
-* Spreadsheet and data analysis tools
-Mapping financial records associated with resources, products, services, and associated cost models
-High
-Provide standard and tailored reports
-* ITSM automation tools
-* Accounting systems
-* Project management tools
-* Spreadsheet and data analysis tools
-Creating and presenting dashboards and reports
-High
+| Activity                                                                                                  | Means of automation                                                                                                                              | Key functionality                                                                                                                                                                            | Impact on the effectiveness of the practice |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| **Managing the organization’s approach to service financial management**                                  |                                                                                                                                                  |                                                                                                                                                                                              |                                             |
+| Analyze stakeholder requirements                                                                          | Collaboration tools                                                                                                                              | Gathering and analysing requirements                                                                                                                                                         | Medium                                      |
+| Define and agree the service financial management approach                                                | * Collaboration tools <br /> * ITSM automation tools <br /> * Accounting systems <br /> * Spreadsheet and data analysis tools <br />             | * Categorizing, modelling, and mapping financial records associated with resources, products, and services <br /> * Designing and automating procedures <br /> * Management reporting <br /> | High                                        |
+| Communicate and integrate the service financial management approach into the organization's value streams | * Communication tools <br /> * ITSM automation tools <br />                                                                                      | * Communicating and training <br /> * Knowledge base <br /> * Integrating financial data into ITSM transactions <br />                                                                       | High                                        |
+| Review and adjust the service financial management approach and procedures                                | * Collaboration tools <br /> * ITSM automation tools <br /> * Accounting systems <br /> * Spreadsheet and data analysis tools <br />             | * Categorizing, modelling, and mapping financial records associated with resources, products, and services <br /> * Designing and automating procedures <br /> * Management reporting <br /> | High                                        |
+| **Financial planning**                                                                                    |                                                                                                                                                  |                                                                                                                                                                                              |                                             |
+| Analyze the previous and current plans and performance                                                    | * Collaboration tools <br /> * ITSM automation tools <br /> * Accounting systems <br /> * Spreadsheet and data analysis tools <br />             | * Categorizing, modelling, and mapping financial records and reports <br /> * Analysing and visualizing data <br />                                                                          | High                                        |
+| Estimate costs and income                                                                                 | * Planning and budgeting tools <br /> * ITSM automation tools <br /> * Accounting systems <br /> * Project management tools <br />               | Data modelling, forecasting, planning, and visualization                                                                                                                                     | High                                        |
+| Compile the budgets                                                                                       | * Planning and budgeting tools <br /> * Spreadsheet and data analysis tools <br /> * Accounting systems <br /> * Project management tools <br /> | Compiling, managing, and presenting budgets                                                                                                                                                  | High                                        |
+| Communicate and agree the budgets                                                                         | * Planning and budgeting tools <br /> * Spreadsheet and data analysis tools <br /> * Accounting systems <br /> * Collaboration tools <br />      | Sharing budgets with limited groups of people for collaboration and approval                                                                                                                 | Medium                                      |
+| Monitor and control costs and income                                                                      | * ITSM automation tools <br /> * Accounting systems <br /> * Project management tools <br />                                                     | Mapping financial records associated with resources, products, services, and associated budgets                                                                                              | High                                        |
+| Review and report on the budget                                                                           | * Planning and budgeting tools <br /> * ITSM automation tools <br /> * Accounting systems <br /> * Project management tools <br />               | Data modelling, forecasting, planning, and visualization                                                                                                                                     | High                                        |
+| **Management accounting**                                                                                 |                                                                                                                                                  |                                                                                                                                                                                              |                                             |
+| Identify and capture costs                                                                                | * ITSM automation tools <br /> * Accounting systems <br /> * Project management tools <br />                                                     | Mapping financial records associated with resources, products, services, and associated cost models                                                                                          | High                                        |
+| Select a cost allocation model                                                                            | * ITSM automation tools <br /> * Accounting systems <br /> * Project management tools <br /> * Spreadsheet and data analysis tools <br />        | Managing cost models                                                                                                                                                                         | High                                        |
+| Follow the cost allocation model                                                                          | * ITSM automation tools <br /> * Accounting systems <br /> * Project management tools <br /> * Spreadsheet and data analysis tools <br />        | Mapping financial records associated with resources, products, services, and associated cost models                                                                                          | High                                        |
+| Manage exceptions                                                                                         | * ITSM automation tools <br /> * Accounting systems <br /> * Project management tools <br /> * Spreadsheet and data analysis tools <br />        | Mapping financial records associated with resources, products, services, and associated cost models                                                                                          | High                                        |
+| Provide standard and tailored reports                                                                     | * ITSM automation tools <br /> * Accounting systems <br /> * Project management tools <br /> * Spreadsheet and data analysis tools <br />        | Creating and presenting dashboards and reports                                                                                                                                               | High                                        |
 
 # 6. Partners and suppliers
 Very few products and services are delivered using only an organization’s own resources. Most, if not all, depend on other products and services, often provided by third parties outside the organization (see section 2.4 of *ITIL Foundation: ITIL 4 Edition* for a model of a service relationship). This implies that financial data about third-party resources and services is important for a correct and full understanding of the costs of an organization’s resources, products, and services. Furthermore, its importance is growing as more and more organization’s resources are replaced by third-party services (for example, cloud or outstaffing).

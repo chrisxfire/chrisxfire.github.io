@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-*Key message*: The purpose of the availability management practice is to ensure that services deliver the agreed levels of availability to meet the needs of customers and users.
+**Key message**: The purpose of the availability management practice is to ensure that services deliver the agreed levels of availability to meet the needs of customers and users.
 
 The availability management practice ensures that requirements for the availability of services and resources are understood and fulfilled efficiently and in line with the organization’s strategy and commitments. To enable this, this practice is applied throughout the organization’s product and service lifecycle, from ideation to operations.
 

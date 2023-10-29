@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-**Key Message**: The purpose of the service design practice is to design products and services that are fit for purpose and use, and that can be delivered by the organization and its ecosystem. This includes planning and organizing people, partners and suppliers, information, communication, technology, and practices for new or changed products and services, and the interaction between the organization and its customers.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the service design practice is to design products and services that are fit for purpose and use, and that can be delivered by the organization and its ecosystem. This includes planning and organizing people, partners and suppliers, information, communication, technology, and practices for new or changed products and services, and the interaction between the organization and its customers.
 
 If products and services, or practices are not designed properly, they will not necessarily fulfil customer needs or facilitate value creation. If they evolve without proper architecture, interfaces or controls, they are less able to deliver the overall vision and needs of the organization and its internal and external customers.
 

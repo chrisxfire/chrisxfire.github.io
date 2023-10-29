@@ -9,7 +9,7 @@ weight: 1
 Axelos International (https://www.axelos.com)
 
 # 2. Overview
-**Key Message**: The purpose of the strategy management practice is to formulate the goals of the organization and adopt the courses of action and allocation of resources necessary for achieving those goals. Strategy management establishes the organization’s direction, focuses effort, defines or clarifies the organization’s priorities, and provides consistency or guidance in response to the environment.</p></td></tr></tbody></table>
+**Key Message**: The purpose of the strategy management practice is to formulate the goals of the organization and adopt the courses of action and allocation of resources necessary for achieving those goals. Strategy management establishes the organization’s direction, focuses effort, defines or clarifies the organization’s priorities, and provides consistency or guidance in response to the environment.
 
 The starting point for the strategy management practice is to understand the context of the organization and define the desired outcomes. The strategy of the organization establishes criteria and mechanisms to decide how to best prioritize resources, capabilities, and investment to achieve those outcomes. This practice ensures that the strategy is defined, agreed, maintained, and achieved.
 
@@ -56,7 +56,7 @@ The level of formality of a business strategy is determined by the culture of th
 
 In a technology-enabled organization, the role of technology in the organization’s strategy is key. This raises the question of the positioning of the digital strategy and/or IT strategy towards the business strategy. In order to maximize the effect of digital technology on the business, organizations must embrace the greatest integration of digital technology into the business strategy.
 
-> **digital strategy** — A business strategy that is based on all or in part on using digital technology to achieve its goals and purpose.
+> **Digital strategy** — A business strategy that is based on all or in part on using digital technology to achieve its goals and purpose.
 
 Digitalization of the business strategy helps to achieve the following objectives:
 * exploit an opportunity in the market that has been created due to customers using a new digital technology
@@ -82,7 +82,8 @@ Regardless of the terminology adopted by the organization, it is important to en
 ### 2.2.2 Purpose, vision and strategic objectives
 Many organizations differentiate between its vision and its purpose.
 
-<table><tbody><tr><td><strong>Definitions:</strong></td></tr><tr><td><p><strong>Purpose</strong></p><ul><li>The reason that an organization exists, or its core business.</li></ul><p><strong>Vision</strong></p><ul><li>The defined aspiration of what an organization would like to become in the future.</li></ul></td></tr></tbody></table>
+**Purpose** — The reason that an organization exists, or its core business.  
+**Vision** — The defined aspiration of what an organization would like to become in the future.
 
 The purpose of an organization is constant, but its vision is likely to change with the purpose remaining as it was. However, it is possible that at certain moments the vision will require a repurposing of the organization. In this case, new purpose becomes a part of the organization’s vision.
 
@@ -131,14 +132,14 @@ In a VUCA environment, this approach to the strategy management practice is inef
 
 In order to be effective in a complicated or complex environment, the strategy should relax the constraints it establishes and govern or enable, depending on the situation, the desired behaviour and effective decision-making. Operating in a complicated or complex context is possible when decisions are guided with a shared set of principles, and managers, teams, and practitioners are empowered to make decisions and find solutions through analysis and experimentation. In environments like this, the strategy management practice ensures that the guiding principles are agreed, communicated, and interiorized across the organization.
 
-<table><tbody><tr><td><p><strong>Key message</strong></p></td></tr><tr><td>Although the ITIL guiding principles provide a good starting point, organizations benefit from developing and following their own set of principles based on the purpose, values, and vision of the organization. They are more specific and therefore more useful in the organization’s context than any generic principles adopted from an external source.</td></tr></tbody></table>
+**Key message**: Although the ITIL guiding principles provide a good starting point, organizations benefit from developing and following their own set of principles based on the purpose, values, and vision of the organization. They are more specific and therefore more useful in the organization’s context than any generic principles adopted from an external source.
 
 In a chaotic environment, no effective constraints are applicable, and even the agreed guiding principles might not apply. In situations like this, decisions are likely to be made impromptu, and tested practices are unlikely to provide the expected results. A strategy might help to prepare for chaotic situations by defining who is in charge of decision-making, how success of the actions should be assessed, and how to identify and exploit opportunities for coming back to a complex and more manageable situation.
 
 #### 2.2.3.4 Sustainability
 The concept of a sustainable organization evolved from the focus on environmental matters to a wider understanding of sustainability. It is one of the key aspects of many organizations’ vision and strategy and is increasingly important in the context of VUCA business environments.
 
-> **sustainability** — A business approach focused on creating long-term value for society and other stakeholders, by addressing the risks and opportunities of economic, environmental, and social developments.
+> **Sustainability** — A business approach focused on creating long-term value for society and other stakeholders, by addressing the risks and opportunities of economic, environmental, and social developments.
 
 Organizations are moving from a focus on profitability to the triple bottom line, an approach that covers financial, social, and environmental aspects, as shown in Figure 2.3 (Bordoloi et al., 2018). The triple bottom line marks a shift from short-term financial goals to long-term sustainability goals, which is an integrated business method. Sustainable goals not only improve an organization’s brand and reputation, but drives stakeholder value for customers, employees, and society in the form of better health, climate, and resource utilization. Read more on the triple bottom line approach in *ITIL 4: Drive Stakeholder Value*, Section 3.4.
 
