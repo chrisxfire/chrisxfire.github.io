@@ -23,11 +23,7 @@ weight: 1
     - [ ] Walkthrough: Test driven development
     - [x] Use the MSTest framework in unit tests
     - [x] Use the assert classes
-    - [ ] Microsoft Fakes...
-      - [x] Isolate code under test
-      - [x] Use stubs to isolate parts of your app
-      - [x] Use shims to isolate your app from other assemblies
-      - [ ] Code generation, compilation, and naming conventions
+    - [z] Microsoft Fakes... --> .net/devops and testing/mocking frameworks/microsoft fakes
     - [ ] Data-driven unit tests...
       - [ ] ...
     - [ ] Unit tests for generic methods
