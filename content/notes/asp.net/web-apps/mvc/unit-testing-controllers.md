@@ -11,7 +11,7 @@ weight: 1
 Unit testing controller logic involves testing a single action (not the dependencies of that action).  It does not test filters, routing, model binding, or model validation (these aspects are tested in *integration testing*).
 
 These notes also apply:
-* [Notes on Unit Testing](/notes/_net/devops-and-testing/unit-testing/overview)
+* [Notes on Unit Testing](/notes/_net/testing/unit-testing/overview)
 
 * See also: [Moq](https://github.com/devlooped/moq)
 * See also: [JustMockLite](https://github.com/telerik/JustMockLite)

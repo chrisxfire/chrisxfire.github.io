@@ -73,7 +73,7 @@ public class Movie
 }
 ```
 
-See also: [Notes on Data Validation](../../../_net/data-validation)
+See also: [System.ComponentModel.DataValidation](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=net-7.0)
 
 ## Error Messages
 Validation attributes allow for defining the error message that is displayed on invalid input:
