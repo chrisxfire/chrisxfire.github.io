@@ -5,7 +5,7 @@ draft: true
 weight: -1
 ---
 
-# Overview
+# Introduction
 > Documentation: https://github.com/devlooped/moq/wiki/Quickstart
 
 Moq is a simple, minimalistic mocking framework.
@@ -18,50 +18,73 @@ dotnet add package Moq
 In test project:
 ```cs
 using Moq;
+
+// If mocking a class with a protected member:
+using Moq.Protected;
 ```
 
-# Usage
-Assuming this interface:
+# Overview
+## Assumptions
+Assume this interface:
 ```cs
-public interface IFoo
+public interface IDateTimeProvider
 {
-    Bar Bar { get; set; }
-    string Name { get; set; }
-    int Value { get; set; }
-    bool DoSomething(string value);
-    bool DoSomething(int number, string value);
-    Task<bool> DoSomethingAsync();
-    string DoSomethingStringy(string value);
-    bool TryParse(string value, out string outputValue);
-    bool Submit(ref Bar bar);
-    int GetCount();
-    bool Add(int value);
-}
-
-public class Bar 
-{
-    public virtual Baz Baz { get; set; }
-    public virtual bool Submit() { return false; }
-}
-
-public class Baz
-{
-    public virtual string Name { get; set; }
+	DayOfWeek DayOfWeek();
+	string Name { get; set; }
 }
 ```
 
-# Setting up Mocks
-Set up the mock with `Setup()` and combine it with `Returns()` (if they return a value) or `Throws()` (if they throw an exception):
+Assume a concrete class with one method with two overloads:
 ```cs
-var mock = new Mock<IFoo>();
+public class RateCalculator
+{
+    public decimal GetPayRate(decimal baseRate)
+    {
+        return DateTime.Now.DayOfWeek == DayOfWeek.Sunday ?
+			   baseRate * 1.25m :
+			   baseRate;
+    }
+    public decimal GetPayRate(decimal baseRate, IDateTimeProvider dateTimeProvider)
+    {
+        return dateTimeProvider.DayOfWeek() == DayOfWeek.Sunday ?
+			   baseRate * 1.25m :
+			   baseRate;
+    }
+}
 ```
 
-To access the mocked object:
+## Arrange
+The `RateCalculator` is the system under test:
 ```cs
-IFoo foo = mock.Object;
+var rateCalculator = new RateCalculator();
 ```
 
-## Setting up Mocks of Methods
+Create a mock:
+```cs
+var dateTimeProviderMock = new Mock<IDateTimeProvider>();
+```
+
+*Instruct* the mock with Moq's `Setup()` method such that when its `DayOfWeek()` method is called, it returns `DayOfWeek.Sunday`:
+```cs
+dateTimeProviderMock.Setup(m => m.DayOfWeek()
+                    .Returns(DayOfWeek.Sunday);
+```
+
+## Act
+Call the instance of the system under test with the mocked object using the mock's `Object` property:
+```cs
+var actual = rateCalculator.GetPayRate(10.00m, dateTimeProviderMock.Object);
+```
+
+## Assert
+Use Moq's `Verify()` method to verify that the mocked object's method ran, and then assert: 
+```cs
+dateTimeProviderMock.Verify(m => m.DayOfWeek(), Times.Once());
+
+Assert.That(actual, Is.EqualTo(12.5m));
+```
+
+# Instructing Mocks — Methods
 When the `DoSomething()` method is called with argument `"ping"`, the method should return `true`:
 ```cs
 mock.Setup(foo => foo.DoSomething("ping")).Returns(true);
@@ -98,7 +121,7 @@ Use the Task's `Result` property:
 mock.Setup(foo => foo.DoSomethingAsync().Result).Returns(true);
 ```
 
-## Matching Method Arguments
+## Instructing Mocks by Matching Method Arguments
 ### Any Value of type `T` for an Argument
 When `DoSomething()` is called with any string argument, it should return `true`:
 ```cs
@@ -111,44 +134,40 @@ When `Submit()` is called with any `ref` parameter of type `Bar`, it should retu
 mock.Setup(foo => foo.Submit(ref It.Ref<Bar>.IsAny)).Returns(true);
 ```
 
-### A Delegate
-When `Add()` is called with a `Func<int>`, it should return `true`:
-```cs
-mock.Setup(foo => foo.Add(It.Is<int>(i => i % 2 == 0))).Returns(true); 
-```
-
 ### A Range of Values
 When `Add()` is called with any integer [0, 10], it should return `true`:
 ```cs
 mock.Setup(foo => foo.Add(It.IsInRange<int>(0, 10, Range.Inclusive))).Returns(true); 
 ```
 
-### Match a Regex
-When `DoSomethingStringy()` is called with a Regex that matches pattern `"[a-d]+"`, it should return `"foo"`:
+### A Delegate
+When `Add()` is called with a `Func<int>`, it should return `true`:
+```cs
+mock.Setup(foo => foo.Add(It.Is<int>(i => i % 2 == 0))).Returns(true); 
+```
+
+### A Regex
+When `DoSomethingStringy()` is called with a regular expression that matches pattern `"[a-d]+"`, it should return `"foo"`:
 ```cs
 mock.Setup(x => x.DoSomethingStringy(It.IsRegex("[a-d]+", RegexOptions.IgnoreCase))).Returns("foo");
 ```
 
-# Setting up Mocks of Properties
+# Instructing Mocks - Properties
+When invoked, the type's `Name` property returns value `"bar"`:
 ```cs
 mock.Setup(foo => foo.Name).Returns("bar");
 ```
 
-## Mocking Property Hierarchies
+## Hierarchies of Properties
 Also known as *recursive mocks*:
 ```cs
 mock.Setup(foo => foo.Bar.Baz.Name).Returns("baz");
 ```
 
-## Mocking a Class That Sets a Property When Invoked
-Set up a call to the setter of the mocked type's `Name` property:
+## A Property Setter
+Set up a call to the setter of the mocked type's `Name` property with a specific value:
 ```cs
 mock.SetupSet(foo => foo.Name = "foo");
-```
-
-Verify the setter:
-```cs
-mock.VerifySet(foo => foo.Name = "foo");
 ```
 
 ## Stub a Property (to automatically track its value)
@@ -177,7 +196,60 @@ Assert.Equal("bar", foo.Name);
 mock.SetupAllProperties();
 ```
 
+# Verification
+## Verifying Method Calls
+Verify a method was called with a specific value:
+```cs
+mock.Verify(foo => foo.DoSomething("ping"));
+```
 
+Same as above but with a custom error message:
+```cs
+mock.Verify(foo => foo.DoSomething("ping"), "Always call DoSomething() with ping argument");
+```
+
+Verify the method was called at least once:
+```cs
+mock.Verify(foo => foo.DoSomething("ping"), Times.AtLeastOnce());
+```
+
+Verify the method was never called:
+```cs
+mock.Verify(foo => foo.DoSomething("ping"), Times.Never());
+```
+
+## Verifying Properties
+Verify the setter was called with a specific value:
+```cs
+mock.VerifySet(foo => foo.Name = "foo");
+```
+
+Verify the setter was called, regardless of value:
+```cs
+mock.VerifySet(foo => foo.Name);
+```
+
+Verify the setter with an argument matcher:
+```cs
+mock.VerifySet(foo => foo.Value = It.IsInRange(1, 5, Range.Inclusive));
+```
+
+Verify the getter was called, regardless of value:
+```cs
+mock.VerifyGet(foo => foo.Name);
+```
+
+## Verifying Event Accessors
+```cs
+mock.VerifyAdd(foo => foo.FooEvent += It.IsAny<EventHandler>());
+mock.VerifyRemove(foo => foo.FooEvent -= It.IsAny<EventHandler>());
+```
+
+## Verify No Other Invocations
+Beyond those already verified:
+```cs
+mock.VerifyNoOtherCalls();
+```
 
 // access invocation arguments when returning a value
 mock.Setup(x => x.DoSomethingStringy(It.IsAny<string>()))
