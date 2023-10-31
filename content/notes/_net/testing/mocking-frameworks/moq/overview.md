@@ -5,7 +5,7 @@ draft: true
 weight: -1
 ---
 
-# Introduction
+# Abstract
 > Documentation: https://github.com/devlooped/moq/wiki/Quickstart
 
 Moq is a simple, minimalistic mocking framework.
@@ -23,7 +23,7 @@ using Moq;
 using Moq.Protected;
 ```
 
-# Abstract
+# Overview
 ## Assumptions
 Assume this interface:
 ```cs
@@ -84,116 +84,48 @@ dateTimeProviderMock.Verify(m => m.DayOfWeek(), Times.Once());
 Assert.That(actual, Is.EqualTo(12.5m));
 ```
 
-# Instructing Mocks — Methods
-When the `DoSomething()` method is called with argument `"ping"`, the method should return `true`:
+# Another Example
+> Credit: https://docs.educationsmediagroup.com/unit-testing-csharp/moq/quick-glance-at-moq
+
+Consider this service and interface:
 ```cs
-mock.Setup(foo => foo.DoSomething("ping")).Returns(true);
+public class Service
+{
+    private readonly IFoo _foo;
+
+    public Service(IFoo foo) => _foo = foo ?? throw new ArgumentNullException(nameof(foo));
+
+    public void Ping() => _foo.DoSomething("PING");
+}
+
+public interface IFoo
+{
+    bool DoSomething(string command);
+}
 ```
 
-## Methods with `out` and `ref` Parameters
-`out` arguments:  
-When `TryParse()` is called with argument `"ping"`, it should set the `out` parameter to `"ack"` and return `true`:
+The test:
 ```cs
-var outString = "ack";
+[Test]
+public void Ping_invokes_DoSomething()
+{
+    // ARRANGE
+    // Get the mock:
+    var mock = new Mock<IFoo>();
 
-// TryParse will return true, and the out argument will return "ack", lazy evaluated
-mock.Setup(foo => foo.TryParse("ping", out outString)).Returns(true);
-```
+    // Set it up:
+    mock.Setup(p => p.DoSomething(It.IsAny<string>())).Returns(true);
+    
+    // Get the system under test by invoking a new instance of the service and passing in the mock object:
+    var sut = new Service(mock.Object);
 
-`ref` arguments:  
-Only matches if the `ref` argument to the invocation is the same instance:
-```cs
-var instance = new Bar();
+    // ACT
+    // Run the method being tested on the system under test:
+    sut.Ping();
 
-mock.Setup(foo => foo.Submit(ref instance)).Returns(true);
-```
-
-## Methods That Throw Exceptions
-```cs
-// throwing when invoked with specific parameters
-mock.Setup(foo => foo.DoSomething("reset")).Throws<InvalidOperationException>();
-mock.Setup(foo => foo.DoSomething("")).Throws(new ArgumentException("command"));
-```
-
-## Async Methods
-Use the Task's `Result` property:
-```cs
-mock.Setup(foo => foo.DoSomethingAsync().Result).Returns(true);
-```
-
-## Instructing Mocks by Matching Method Arguments
-### Any Value of type `T` for an Argument
-When `DoSomething()` is called with any string argument, it should return `true`:
-```cs
-mock.Setup(foo => foo.DoSomething(It.IsAny<string>())).Returns(true);
-```
-
-### Any Value as `ref` Parameter
-When `Submit()` is called with any `ref` parameter of type `Bar`, it should return `true`:
-```cs
-mock.Setup(foo => foo.Submit(ref It.Ref<Bar>.IsAny)).Returns(true);
-```
-
-### A Range of Values
-When `Add()` is called with any integer [0, 10], it should return `true`:
-```cs
-mock.Setup(foo => foo.Add(It.IsInRange<int>(0, 10, Range.Inclusive))).Returns(true); 
-```
-
-### A Delegate
-When `Add()` is called with a `Func<int>`, it should return `true`:
-```cs
-mock.Setup(foo => foo.Add(It.Is<int>(i => i % 2 == 0))).Returns(true); 
-```
-
-### A Regex
-When `DoSomethingStringy()` is called with a regular expression that matches pattern `"[a-d]+"`, it should return `"foo"`:
-```cs
-mock.Setup(x => x.DoSomethingStringy(It.IsRegex("[a-d]+", RegexOptions.IgnoreCase))).Returns("foo");
-```
-
-# Instructing Mocks - Properties
-When invoked, the type's `Name` property returns value `"bar"`:
-```cs
-mock.Setup(foo => foo.Name).Returns("bar");
-```
-
-## Hierarchies of Properties
-Also known as *recursive mocks*:
-```cs
-mock.Setup(foo => foo.Bar.Baz.Name).Returns("baz");
-```
-
-## A Property Setter
-Set up a call to the setter of the mocked type's `Name` property with a specific value:
-```cs
-mock.SetupSet(foo => foo.Name = "foo");
-```
-
-## Stub a Property (to automatically track its value)
-Use `SetupProperty()` to start "tracking" the sets/gets on a property:
-```cs
-mock.SetupProperty(f => f.Name);
-
-// alternatively, provide a default value for the stubbed property:
-mock.SetupProperty(f => f.Name, "foo");
-```
-
-Once the property is stubbed, now you can:
-```cs
-IFoo foo = mock.Object;
-
-// Assert that the initial value was stored:
-Assert.Equal("foo", foo.Name);
-
-// Assert that a new value set which changes the initial value:
-foo.Name = "bar";
-Assert.Equal("bar", foo.Name);
-```
-
-## Stubbing All Properties on a Mock
-```cs
-mock.SetupAllProperties();
+    // ASSERT
+    mock.Verify(p => p.DoSomething("PING"), Times.Once());
+}
 ```
 
 # Verification
@@ -254,12 +186,3 @@ mock.VerifyNoOtherCalls();
 // access invocation arguments when returning a value
 mock.Setup(x => x.DoSomethingStringy(It.IsAny<string>()))
 		.Returns((string s) => s.ToLower());
-// Multiple parameters overloads available
-
-// lazy evaluating return value
-var count = 1;
-mock.Setup(foo => foo.GetCount()).Returns(() => count);
-
-
-// async methods (see below for more about async):
-mock.Setup(foo => foo.DoSomethingAsync().Result).Returns(true);
