@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 Razor is a syntax for combining HTML markup with C# code.  
 Razor pages are `cshtml` files.  
 Razor components (used in Blazor apps) are `.razor` files.  

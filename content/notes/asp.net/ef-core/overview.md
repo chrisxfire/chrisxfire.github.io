@@ -7,7 +7,7 @@ weight: -1
   
 *From Microsoft Learn / Entity Framework / Entity Framework Core*
 
-# Overview
+# Abstract
 Entity Framework (EF) Core is a data access technology that can serve as an object-relational mapper (OR/M).  It supports various *database providers*.
 
 Data access is performed using a *model* that includes *entity* classes and a *context* object that represents a session with a database.

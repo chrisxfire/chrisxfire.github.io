@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 > Documentation: https://learn.microsoft.com/en-us/dotnet/standard/io/common-i-o-tasks
 
 The `System.IO` namespace contains types to:

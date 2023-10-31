@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 > Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line
 .NET's logging API supports a variety of built-in and third-party logging providers.
 

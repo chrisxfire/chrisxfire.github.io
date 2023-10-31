@@ -10,7 +10,7 @@ Windows UI library — the native UI framework of Windows 10/11
 - Build desktop applications with C# or C++
 - Part of the Windows App SDK
 
-# Overview
+# Abstract
 - UI is defined in XAML; logic is defined in C#
 - Uses MVVM pattern via data binding between UI and UI logic
 

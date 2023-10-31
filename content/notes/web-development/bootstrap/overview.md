@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 - An open-source, front-end web development toolkit.  Uses HTML, CSS, JavaScript
 - Bootstrap uses Popper for dropdowns, popovers and tooltips
 - Compare to [W3.CSS](../../css/w3-css/overview)

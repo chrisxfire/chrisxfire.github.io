@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 > Documentation: https://nsubstitute.github.io/help/getting-started/
 
 NSubstitute is a mocking framework for .NET. It abstracts the difference between a mock, stub, fake, spy, or test double.

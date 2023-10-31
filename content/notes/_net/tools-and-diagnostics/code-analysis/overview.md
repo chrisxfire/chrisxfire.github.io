@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 > Documentation: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview
 
 Roslyn Analyzers inspect C#/VB code for style, quality, maintainability, design, and other issues.  They are made up of code analysis rules.  These rules work together with Visual Studio.

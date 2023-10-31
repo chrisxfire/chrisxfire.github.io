@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 .NET supports serialization and deserialization for JSON; XML and SOAP; and Binary data.
 
 - *Serialization* — Converting types/objects to JSON.

@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 `DbContext` instances track changes made to their entities.  The tracked entities report the changes to the database when `SaveChanges` is called.  
 
 Entity instances become tracked when they are: (1) returned from a query; (2) explicitly attached to a `DbContext` via `Add`, `Attach`, or `Update`; (3) detected as new entities connected to existing tracked entities.  

@@ -4,7 +4,7 @@ date: 2023-02-16T14:28:40-0700
 draft: false
 weight: -1
 ---
-# Overview
+# Abstract
 *Data parallelism* — scenarios in which the same operation is performed concurrently on elements in a collection.
 
 # Task Parallel Library

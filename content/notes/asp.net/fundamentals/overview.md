@@ -7,7 +7,7 @@ weight: -1
 
 These notes include: Learn > .NET > ASP.NET Core > Fundamentals > Options | Environments
 
-# Overview
+# Abstract
 ASP.NET Core web applications function as console applications.
 By default, they use Kestrel as the web server.
 

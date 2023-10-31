@@ -23,7 +23,7 @@ using Moq;
 using Moq.Protected;
 ```
 
-# Overview
+# Abstract
 ## Assumptions
 Assume this interface:
 ```cs
@@ -71,7 +71,7 @@ dateTimeProviderMock.Setup(m => m.DayOfWeek()
 ```
 
 ## Act
-Call the instance of the system under test with the mocked object using the mock's `Object` property:
+Call the instance of the system under test **with the mocked object** using the mock's `Object` property:
 ```cs
 var actual = rateCalculator.GetPayRate(10.00m, dateTimeProviderMock.Object);
 ```

@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 Use GitHub Pages to host a website about yourself, an organization, or a project directly from GitHub.com.
 
 # How it Works

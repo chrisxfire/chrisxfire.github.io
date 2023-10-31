@@ -5,7 +5,7 @@ draft: true
 weight: -1
 ---
 
-# Overview
+# Abstract
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-7.0
 > TODO: Finish adding notes from the above documentation.
 

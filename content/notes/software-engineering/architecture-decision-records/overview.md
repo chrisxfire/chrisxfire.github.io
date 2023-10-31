@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 An architecture decision record (ADR) is a document that captures an important architecture decision made over the course of developing a system along with its context and consequences.
 
 # Templates

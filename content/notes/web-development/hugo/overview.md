@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 Hugo is a static site generator.  
 2 editions: *Standard* and *Extended* (includes encoding WebP images, transposing Sass to CSS)
 

@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 > https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection-guidelines
 > https://scottlilly.com/c-design-patterns-the-dependency-injection-pattern/
 > https://auth0.com/blog/dependency-injection-in-dotnet-core/

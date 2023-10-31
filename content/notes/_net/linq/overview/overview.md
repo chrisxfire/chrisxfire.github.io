@@ -4,7 +4,7 @@ date: 2022-04-20T10:06:47-0600
 draft: false
 weight: -1
 ---
-# Overview
+# Abstract
 LINQ (Language-Integrated Query) is a set of technologies that integrates query capabilities directly into C#.
 
 ## <u>Architecture</u>

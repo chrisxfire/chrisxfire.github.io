@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# Abstract
 - Tools are CLI apps installed from NuGet packages.  
 - Tools are managed and used with the `dotnet tool` command.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/core/tools/
