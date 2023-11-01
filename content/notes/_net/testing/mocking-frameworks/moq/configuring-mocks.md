@@ -1,14 +1,16 @@
 ---
 title: configuring mocks
 date: 2023-10-31T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
 # Overview
 > Credit: https://docs.educationsmediagroup.com/unit-testing-csharp/moq
+> Credit: https://softchris.github.io/pages/dotnet-moq.html#creating-our-first-mock
 
-Mocks are configured using the `Setup()` and `Returns()` methods. This configures the mock to return a certain value when a method or property is called.
+Mocks are configured using the `Setup()` and `Returns()` methods. This configuration, also known as *instruction*, tells the mock to answer with a certain response
+if a method or property is called.
 
 Some test examples below use this system:
 ```cs
@@ -188,78 +190,16 @@ When `Add()` is called with a `Func<int>`, it should return `true`:
 mock.Setup(mock => mock.Add(It.Is<int>(i => i % 2 == 0))).Returns(true); 
 ```
 
-# Configuring Events
-Assuming this code:
+# Mocking Delegates
+Consider this delegate:
 ```cs
-public class MessageEventArgs : EventArgs
-{
-    public string Message { get; set; }
-}
-
-public interface IService 
-{
-    event EventHandler<MessageEventArgs> Sent;
-
-    event EventHandler<MessageEventArgs> Received;
-
-    Task SendAsync(string message);
-
-    void Send(string message);
-
-    string Receive();
-
-    Task<string> ReceiveAsync();
-}
+public delegate int ParseString(string value);
 ```
 
-## Testing for Raised Events
-### Arrange
+To mock it:
 ```cs
-var mock = new Mock<IService>();
+var mock = new Mock<ParseString>();
 
-mock.Setup(p => p.Send(It.IsAny<string>()))
-    .Raises(e => e.Sent += null, (string msg) => new MessageEventArgs { Message = msg });
-```
-
-Configure functions (like `Receive()`) to raise an event when invoked:
-```cs
-mock.Setup(p => p.Receive())
-    .Returns("Hello")
-    .Raises(e => e.Received += null, (string msg) => new MessageEventArgs { Message = msg });
-```
-
-If the methods are asynchronous:
-```cs {hl_lines=2,6}
-mock.Setup(p => p.SendAsync(It.IsAny<string>()))
-    .Returns(Task.CompletedTask)
-    .Raises(e => e.Sent += null, (string message) => new MessageEventArgs { Message = message });
-
-mock.Setup(p => p.ReceiveAsync())
-    .ReturnsAsync("Hello")
-    .Raises(e => e.Received += null, (string msg) => new MessageEventArgs { Message = msg });
-```
-
-### Act
-Attach an event handler:
-```cs
-var service = mock.Object;
-
-service.Sent += (object sender, MessageEventArgs args) => TestContext.Progress.Writeline(args.Message);
-```
-
-Invoke the send method:
-```cs
-service.Send("Hello World");
-```
-
-### Assert
-Events can be raised manually:
-```cs
-mock.Raise(p => p.Sent += null, new MessageEventArgs { Message = "Hello world" });
-```
-
-## Verifying Event Handling
-```cs
-mock.VerifyAdd(p => p.Sent += It.IsAny<EventHandler<MessageEventArgs>>());
-mock.VerifyRemove(p => p.Sent -= It.IsAny<EventHandler<MessageEventArgs>>());
+mock.Setup(p => p(It.IsAny<string>()))
+    .Returns(42);
 ```

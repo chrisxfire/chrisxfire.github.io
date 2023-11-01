@@ -1,14 +1,14 @@
 ---
 title: verifying mocks
 date: 2023-10-31T00:00:00-06:00
-draft: true
+draft: false
 weight: 2
 ---
 
 # Overview
 > Credit: https://docs.educationsmediagroup.com/unit-testing-csharp/moq
 
-Verifications ensure that the right calls were invoked on the dependencies of systems under test.
+Verifications are conducted after production code has been called. They verify that a certain method/property was called with specific arguments.
 
 Test examples below use this interface:
 ```cs
@@ -73,4 +73,10 @@ Times.Never()
 Times.Once()
 Times.AtLeastOnce()
 Times.AtMostOnce()
+```
+
+# Verifying Event Handling
+```cs
+mock.VerifyAdd(p => p.Sent += It.IsAny<EventHandler<MessageEventArgs>>());
+mock.VerifyRemove(p => p.Sent -= It.IsAny<EventHandler<MessageEventArgs>>());
 ```
