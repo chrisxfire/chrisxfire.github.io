@@ -2,6 +2,7 @@
     "editor.wordSeparators": "`~!#$%^&*=+[{]}\\|;:'\",/?",
     "markdown.extension.math.enabled": false,
     "cSpell.words": [
+        "Antiforgery",
         "appsettings",
         "Arity",
         "Backreference",

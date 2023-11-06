@@ -41,7 +41,7 @@ https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=a
   - [ ] Test Minimal API
   - [ ] Razor Pages unit tests
   - [x] MVC controllers unit tests --> ASP.NET Core > Web Apps > MVC > Unit test
-  - [ ] Integration tests
+  - [x] Integration tests
   - [x] Load and stress testing
   - [ ] Test middleware
 - [ ] Debug...
