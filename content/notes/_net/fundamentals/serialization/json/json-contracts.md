@@ -14,7 +14,6 @@ weight: 1
 # Customizing JSON Contracts
 <g>Availability: .NET 7</g> 
 
-
 ## Modifiers
 A modifier is an `Action<JsonTypeInfo>` or a `static void` method with a `JsonTypeInfo` parameter that gets the current state of the contract as an argument and makes modifications to it.
 - Modify the `JsonTypeInfo.Get` property to change serialization behavior

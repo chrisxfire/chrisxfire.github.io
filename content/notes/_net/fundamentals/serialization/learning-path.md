@@ -10,28 +10,38 @@ weight: 1
 - [ ] Overview
 - [ ] JSON serialization...
   - [x] Overview
-  - [x] Reflection vs. source generation
-  - [x] How to serialize and deserialize JSON
-  - [ ] Control serialization behavior...
-    - [x] Instantiate JsonSerializerOptions
-    - [x] Enable case-insensitive matching
-    - [x] Customize property names and values
-    - [x] Ignore properties
-    - [x] Require properties
-    - [x] Allow invalid JSON
-    - [x] Handle missing members
-    - [x] Handle overflow jSON, use JsonElement or JsonNode
-    - [x] Preserve references, handle circular references
-    - [x] Deserialize to immutable types, non-public accessors
-    - [x] Polymorphic serialization
-  - [ ] Read/write JSON without using JsonSerializer...
-    - [x] Use DOM
-    - [ ] Use Utf8JsonWriter
-    - [ ] Use Utf8JsonReader
-  - [z] Migrate from Newtonsoft.Json (N/A)
-  - [z] Visual Basic support (N/A)
-  - [ ] Supported collection types 
+  - [ ] How to...
+    - [ ] Serialize...
+      - [x] How to serialize
+      - [ ] Customize property names and values
+      - [ ] Ignore properties
+      - [ ] Include fields
+    - [ ] Deserialize...
+      - [ ] How to deserialize
+      - [ ] Require JSON properties
+      - [ ] Allow invalid JSON
+      - [ ] Handle missing members
+      - [ ] Handle overflow JSON (using JsonElement or JsonNode)
+      - [ ] Deserialize to immutable types
+      - [ ] Populate initialized fields
+    - [z] Migrate from Newtonsoft.Json
+    - [ ] Instantiate JsonSerializerOptions
+    - [ ] Enable case-sensitive matching
+    - [ ] Handle references
+    - [ ] Serialize polymorphic types
+    - [ ] Read/write JSON without using JsonSerializer...
+      - [x] Use DOM
+      - [ ] Use Utf8JsonWriter
+      - [ ] Use Utf8JsonReader
+  - [ ] Supported collection types
   - [ ] Advanced...
+    - [ ] Source generation...
+      - [ ] Reflection vs source generation
+      - [ ] Source-generation modes
+      - [ ] Use source generation
+    - [ ] Customize character encoding
+    - [ ] Write custom converters
+    - [ ] Customize contracts
 - [ ] XML and SOAP serialization...
   - [ ] Overview
   - [ ] XML serialization in depth

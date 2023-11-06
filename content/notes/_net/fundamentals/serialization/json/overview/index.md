@@ -8,10 +8,6 @@ weight: -1
 # Overview
 > Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/overview
 
-There are two major .NET libraries for serializing to, and deserializing from, JSON:
-- Use `System.Text.Json` for performance.  
-- Use `Newtonsoft.Json` (aka Json.NET) for a large feature set and developer productivity.  
-
 These notes are for `System.Text.Json`. 
 
 There are two approaches for serializing and deserializing with `System.Text.Json`:
