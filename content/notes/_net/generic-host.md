@@ -116,44 +116,33 @@ namespace SomeNamespace;
 
 public class SomeService : IHostedService 
 {
+    private readonly IHostEnvironment _hostEnvironment;
     private readonly ILogger _logger;
 
-    public SomeService(ILogger<SomeClass> logger, IHostApplicationLifetime appLifetime, …) 
+    public SomeService(ILogger<SomeClass> logger, IHostApplicationLifetime appLifetime, IHostEnvironment hostEnvironment, …) 
     {
+        _hostEnvironment = hostEnvironment;
         _logger = logger;
-        appLifetime.ApplicationStarted.Register(OnStarted);
-        appLifetime.ApplicationStopping.Register(OnStopping);
-        appLifetime.ApplicationStopped.Register(OnStopped);
+        appLifetime.ApplicationStarted.Register(OnStarted); // callbacks to execute after fully started
+        appLifetime.ApplicationStopping.Register(OnStopping); // callbacks to execute before starting shutdown
+        appLifetime.ApplicationStopped.Register(OnStopped); // callbacks to execute before exiting
     }
 
-    public Task StartAsync(CancellationToken cxlToken) 
+    public async Task StartAsync(CancellationToken cxlToken) 
     {
-        _logger.LogInformation("Starting…");
-
-        return Task.CompletedTask;
+       Console.WriteLine("Starting...")
     }
 
-    public task StopAsync(CancellationToken cxlToken) 
+    public async Task StopAsync(CancellationToken cxlToken) 
     {
-        _logger.LogInformation("Stopping…");
-
-        return Task.CompletedTask;
+       Console.WriteLine("Stopping...")
     }
 
-    private void OnStarted() 
-    {
-        _logger.LogInformation("OnStarted called.");
-    }
+    private void OnStarted() => Console.WriteLine($"{_hostEnvironment.ApplicationName} finished starting");
 
-    private void OnStopping() 
-    {
-        _logger.LogInformation("OnStopping called.");
-    }
-
-    private void OnStopped() 
-    {
-        _logger.LogInformation("OnStopped called.");
-    }
+    private void OnStopping() => Console.WriteLine($"{_hostEnvironment.ApplicationName} stopping...");
+    // Logger is closed/flushed by this point:
+    private void OnStopped() => Console.WriteLine($"{_hostEnvironment.ApplicationName} has stopped.");
 }
 ```
 Above, in `Program.Main`, instead of `Worker`, `SomeService` could now be used.

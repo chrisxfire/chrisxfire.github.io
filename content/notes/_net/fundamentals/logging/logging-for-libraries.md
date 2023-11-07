@@ -54,3 +54,5 @@ In the above example:
 - The constructor uses a default value of `null` in the event that no `ILogger` is provided.
 - The null-coalescing operator is used to assign either a valid `ILogger` or a `NullLogger.Instance` to `_logger`.
 - The `LogTrace` call is a no-op if the `NullLogger` is used. 
+
+`NullLogger` is also generic and can be passed as `NullLogger<ServiceType>.Instance`.
