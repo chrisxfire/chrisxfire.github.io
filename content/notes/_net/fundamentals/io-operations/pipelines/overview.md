@@ -1,11 +1,11 @@
 ---
 title: pipelines
 date: 2023-11-05T00:00:00-06:00
-draft: true
-weight: 1
+draft: false
+weight: -1
 ---
 
-# Overview
+# Abstract
 > Documentation: https://learn.microsoft.com/en-us/dotnet/standard/io/pipelines
 
 Pipelines are designed to simplify high performance I/O operations with .NET.
@@ -116,6 +116,20 @@ bool TryReadLine(ref ReadOnlySequence<byte> buffer, out ReadOnlySequence<byte> l
 }
 ```
 
+# PipeReader and PipeWriter
+See [Notes on PipeReader](./pipereader) and [Notes on PipeWriter](./pipewriter).
+
+## Best Practices for using PipeReader and PipeWriter
+- Always complete the `PipeReader` and `PipeWriter` or throw an exception.
+- Always call `PipeReader.AdvanceTo` and `PipeReader.ReadAsync`.
+- Periodically `await` `PipeWriter.FlushAsync` while writing.
+  - Always check `FlushResult.IsCompleted`.
+    - Abort writing if `IsCompleted` is `true` (since the reader has completed and is no longer listening).
+- Always call `PipeWriter.FlushAsync` after writing something you want the `PipeReader` to access.
+- <r>Do not</r> call `FlushAsync` if the reader cannot start until `FlushAsync` finishes. This may cause a deadlock.
+- <r>Do not</r> access `ReadResult.Buffer` after calling `AdvanceTo` or completing the `PipeReader.`
+- <o>Caution</o>: These types are not thread safe.
+
 # Backpressure and Flow Control
 When reading and parsing:
 * The reading thread consumes data from the network and puts it in buffers.
@@ -140,3 +154,21 @@ When the amount of data becomes lower than `ResumeWriterThreshold`, `PipeWriter.
 var options = new PipeOptions(pauseWriterThreshold: 10, resumeWriterThreshold: 5);
 var pipe = new Pipe(options);
 ```
+
+# PipeScheduler
+When using `async`/`await`, asynchronous code resumes on either a `TaskScheduler` or the current `SynchronizationContext`. 
+`PipeScheduler` provides fine-grained control over where the asynchronous callbacks run.
+
+By default, the `SynchronizationContext` is used. If there isn't one, the thread pool is used to run callbacks. In this second case,
+`PipeScheduler.ThreadPool` is the PipeScheduler implementation that queues callbacks to the thread pool.
+
+<o>Avoid using `PipeScheduler.Inline`</o>. This can cause deadlocks.
+
+# IDuplexPipe
+`IDuplexPipe` is a contract for types that support both reading and writing, such as a network connection.
+
+`IDuplexPipe` represents one side (reading or writing) of a full duplex connection. What is written to the `PipeWriter` will
+not be read from the `PipeReader` of an `IDuplexPipe`.
+
+# Streams
+See [this page](https://learn.microsoft.com/en-us/dotnet/standard/io/pipelines#streams) for more information on reading and writing streaming data.
