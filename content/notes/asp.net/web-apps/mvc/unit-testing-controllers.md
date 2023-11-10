@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-7.0  
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-7.0)]  
 
 Unit testing controller logic involves testing a single action (not the dependencies of that action).  It does not test filters, routing, model binding, or model validation (these aspects are tested in *integration testing*).
 

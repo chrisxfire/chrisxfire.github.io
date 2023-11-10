@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://nsubstitute.github.io/help/creating-a-substitute/
+# Overview [[Documentation](https://nsubstitute.github.io/help/creating-a-substitute/)]  
 
 # Substitutes
 ```cs

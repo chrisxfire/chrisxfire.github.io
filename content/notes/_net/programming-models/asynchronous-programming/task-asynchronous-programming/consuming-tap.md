@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/consuming-the-task-based-asynchronous-pattern
+# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/consuming-the-task-based-asynchronous-pattern)]  
 
 In this pattern, callbacks achieve waiting without blocking. Language-based async support hides the callbacks.
 
@@ -152,11 +151,9 @@ while (imageTasks.Count > 0) // Loop until no imageTasks remain
 }
 ```
 
-### `Task.WhenAny` Use Case - Throttling
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/consuming-the-task-based-asynchronous-pattern#throttling
+### `Task.WhenAny` Use Case - Throttling [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/consuming-the-task-based-asynchronous-pattern#throttling)]  
 
-### `Task.WhenAny` Use Case - Early Bailout
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/consuming-the-task-based-asynchronous-pattern#early-bailout
+### `Task.WhenAny` Use Case - Early Bailout [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/consuming-the-task-based-asynchronous-pattern#early-bailout)]  
 
 ## `Task.Delay`
 Use to introduce pauses into an async method's execution.   

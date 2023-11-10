@@ -69,8 +69,7 @@ An example *system* message for a hiking assistant:
 >You will then provide three suggestions for nearby hikes that vary in length after you get that information.
 >You will also share an interesting fact about the local nature on the hikes when making a recommendation.
 
-## Prompt Engineering
-> Documentation: https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/advanced-prompt-engineering?pivots=programming-language-chat-completions  
+## Prompt Engineering [[Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/advanced-prompt-engineering?pivots=programming-language-chat-completions)]  
 
 *Prompt engineering* is the process and techniques for composing prompts to produce output that more closely resembles the desired intent.  Generally, the less detail provided, the more assumptions the model needs to make.  To compose good prompts:
 - Be specific

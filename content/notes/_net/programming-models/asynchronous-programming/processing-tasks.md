@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Processing Tasks as They Complete
-> Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/start-multiple-async-tasks-and-process-them-as-they-complete
+# Processing Tasks as They Complete [[Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/start-multiple-async-tasks-and-process-them-as-they-complete)]  
 
 `Task.WhenAny` allows for starting multiple tasks at the same time and processing them one by one in the
 order in which they complete instead of the order in which they are started.

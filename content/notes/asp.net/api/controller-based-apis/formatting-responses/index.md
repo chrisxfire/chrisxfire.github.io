@@ -5,8 +5,7 @@ draft: false
 weight: 3
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0)]  
 
 Some actions, like those that derive from `ActionResult` like `JsonResult` and `ContentResult`, return results in specific formats (JSON and plain text, respectively). Others, like actions that return objects that are not `IActionResult` types, are serialized with an `IOutputFormatter`. 
 
@@ -49,8 +48,7 @@ Actions can return POCOs. When they do, the runtime creates an `ObjectResult` th
 When an HTTP request is received, ASP.NET Core follows this flow chart for content negotiation:  
 ![A flow chart describing the content negotiation decision for ASP.NET Core](accept-header-flowchart.png)
 
-# Configuring Formatters
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#configure-formatters-2
+# Configuring Formatters [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#configure-formatters-2)]  
 
 There are separate formatters for input and output. Output formatters are used to format responses. Input formatters are used by model binding.
 

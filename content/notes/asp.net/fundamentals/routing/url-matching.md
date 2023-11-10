@@ -21,8 +21,7 @@ The `EndpointSelector` choses the highest priority endpoint (based on RouteEndpo
 
 Use `RouteEndpoint.Order` only when necessary to avoid ambiguity.  Prefer to trust `EndpointSelector` logic.
 
-# Route Template Precedence
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#route-template-precedence-and-endpoint-selection-order
+# Route Template Precedence [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#route-template-precedence-and-endpoint-selection-order)]  
 
 Assigns each route template a value based on how specific the route is.  Logic:
 - Templates with more segments are more specific
@@ -31,13 +30,11 @@ Assigns each route template a value based on how specific the route is.  Logic:
 - A complex segment is as specific as a parameter segment with a constraint
 - Catch-all parameters are least specific
 
-# URL Generation
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#url-generation-concepts
+# URL Generation [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#url-generation-concepts)]  
 
 The process by which routing creates a URL path based on a set of route values.  This enables separation of endpoints and the URLs that access them.
 
-# Route Template
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#route-templates
+# Route Template [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#route-templates)]  
 
 Tokens within `{}` are route parameters that are bound if the route is matched.  Route parameters MUST be separate by a literal value:
 - `{controller=Home}{action=Index}` is NOT a valid route.
@@ -62,13 +59,11 @@ Assume the route template `/a{b}c{d}` and the URL path `/abcd`:
 
 If the above URL path was `/aabcd` instead, it would not match because after `b` is matched to route parameter `{b}`, no route template remains to match the remaining `a`.
 
-# Routing with Special Characters
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#routing-with-special-characters
+# Routing with Special Characters [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#routing-with-special-characters)]  
 
 Route parameters are not always URL-encoded.  See [this GitHub issue](https://github.com/.net/aspnetcore/issues/11544).
 
-# Route Constraints
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#route-constraints
+# Route Constraints [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#route-constraints)]  
 
 Route constraints are used to disambiguate similar routes.  Do not use route constraints for input validation.  Invalid input would result in an HTTP/404 Not Found and instead should result in HTTP/400 Bad Request.
 
@@ -118,5 +113,4 @@ Parameter transformers are configured using `ConstraintMap` in `Program.cs`:
 builder.Services.AddRouting(options =>
     options.ConstraintMap["slugify"] = typeof(SlugifyParameterTransformer));
 ```
-# URL Generation Reference
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#url-generation-reference
+# URL Generation Reference [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0#url-generation-reference)]  

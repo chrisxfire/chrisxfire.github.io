@@ -5,8 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
-> Documentation: https://learn.microsoft.com/en-us/visualstudio/test/improve-code-quality?view=vs-2022
+# Abstract [[Documentation](https://learn.microsoft.com/en-us/visualstudio/test/improve-code-quality?view=vs-2022)]  
 
 An overview of the testing tools available in Visual Studio:
 

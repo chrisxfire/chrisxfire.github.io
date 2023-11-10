@@ -5,8 +5,7 @@ draft: false
 weight: 3
 ---
 
-# Overview
-> Documentation: https://nsubstitute.github.io/help/received-calls/
+# Overview [[Documentation](https://nsubstitute.github.io/help/received-calls/)]  
 
 # Validating Calls
 Assuming this code:

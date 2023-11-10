@@ -5,8 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
-> Documentation: https://learn.microsoft.com/en-us/dotnet/core/testing/
+# Abstract [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/testing/)]  
 
 .NET supports various testing paradigms.
 

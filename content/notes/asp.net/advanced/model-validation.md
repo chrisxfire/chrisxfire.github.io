@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-7.0)]  
 
 - *Model state* represents errors that come from either the *model binding* or *model validation* subsystems. 
 - Model validation occurs after model binding and reports errors where the data does not conform to business rules (like a 0 in a field that expects a value from 1 to 5).

@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Generic Host
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-7.0
+# Generic Host [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host?view=aspnetcore-7.0)]  
 
 The host encapsulates DI, logging, configuration, and `IHostedService` implementations.
 

@@ -34,8 +34,7 @@ Option 2 throws an `OperationCanceledException`. This exception can be caught by
 
 Pass `CancellationToken.None` to a method to indicate that cancellation will never be requested.  The method will then optimize.
 
-# Canceling Tasks After a Period of Time
-> Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/cancel-async-tasks-after-a-period-of-time
+# Canceling Tasks After a Period of Time [[Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/cancel-async-tasks-after-a-period-of-time)]  
 
 Use `CancellationTokenSource`'s `CancelAfter` method to schedule the cancellation of any tasks that are not complete within a period of time:
 ```cs
@@ -62,9 +61,7 @@ static async Task Main()
 }
 ```
 
-# Registering Callbacks for Cancellation Requests
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/threading/cancellation-in-managed-threads#listening-by-registering-a-callback
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/threading/how-to-register-callbacks-for-cancellation-requests
+# Registering Callbacks for Cancellation Requests [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/threading/cancellation-in-managed-threads#listening-by-registering-a-callback)]   [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/threading/how-to-register-callbacks-for-cancellation-requests)]  
 
 You can register a delegate that is invoked when `Cancel` is called on a `CancellationToken`:
 ```cs

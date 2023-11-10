@@ -5,12 +5,10 @@ draft: true
 weight: -1
 ---
 
-# Abstract
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-7.0
+# Abstract [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-7.0)]  
 > TODO: Finish adding notes from the above documentation.
 
-# Middleware Sequencing in Minimal API Apps
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/webapplication?view=aspnetcore-7.0
+# Middleware Sequencing in Minimal API Apps [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/webapplication?view=aspnetcore-7.0)]  
 > TODO: Finish adding notes from the above documentation.
 
 `WebApplication` adds the following middleware:

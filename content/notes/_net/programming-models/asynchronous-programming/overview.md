@@ -5,9 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
-> Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/
-> Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-scenarios#overview-of-the-asynchronous-model
+# Abstract [[Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/)]   [[Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-scenarios#overview-of-the-asynchronous-model)]  
 
 Asynchronous programming allows for the execution of long-running operations that do not block the main thread. 
 

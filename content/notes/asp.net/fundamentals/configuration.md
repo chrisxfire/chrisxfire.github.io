@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0)]  
 
 Configuration consists of *host* and *app* configuration providers.  The `WebApplicationBuilder` contains the host:
 ```cs
@@ -27,8 +26,7 @@ Host configuration providers in order of priority for the .NET Generic Host and 
 - Command-line arguments
 - DOTNET_-prefixed environment variables
 
-### Host variables
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#host-variables
+### Host variables [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#host-variables)]  
 
 ## App Configuration
 App configuration providers in order of priority:
@@ -66,11 +64,9 @@ builder.Services.AddRazorPages();
 var app = builder.Build();
 ```
 
-### Non-prefixed Environment Variables Configuration Provider
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#non-prefixed-environment-variables
+### Non-prefixed Environment Variables Configuration Provider [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#non-prefixed-environment-variables)]  
 
-### Command Line Configuration Provider
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#command-line
+### Command Line Configuration Provider [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#command-line)]  
 
 ### Other Configuration Providers
 > INI files: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#ini-configuration-provider  
@@ -87,11 +83,9 @@ The Configuration API has special rules for some connection string environment v
 Configuration for Kestrel provided in `appsettings.json` **overrides all cross-server endpoint configurations.**
 - This includes command line arguments.
 
-## Adding Configuration from an External Assembly
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/platform-specific-configuration?view=aspnetcore-7.0
+## Adding Configuration from an External Assembly [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/platform-specific-configuration?view=aspnetcore-7.0)]  
 
-## Adding Configuration via Extension Methods
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#combining-service-collection
+## Adding Configuration via Extension Methods [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#combining-service-collection)]  
 
 ## Adding Configuration with a Delegate
 Options configured in a delegate override the values set in the configuration providers.

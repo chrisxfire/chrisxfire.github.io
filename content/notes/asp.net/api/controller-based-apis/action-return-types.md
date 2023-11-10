@@ -5,8 +5,7 @@ draft: false
 weight: 2
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/action-return-types?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/action-return-types?view=aspnetcore-7.0)]  
 
 There are four options for return types for web API controller action methods:
 1. Specific type
@@ -111,8 +110,7 @@ public Results<NotFound, Ok<Product>> GetById(int id)
 }
 ```
 
-# Web API Conventions
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/conventions?view=aspnetcore-7.0
+# Web API Conventions [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/conventions?view=aspnetcore-7.0)]  
 
 Web API conventions are a substitute for decorating actions with `[ProducesResponseType]`. They define the most common return types and status codes returned from a specific type of action and identify actions that deviate from that standard.
 

@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0)]  
 
 Static files are stored in the web root directory `CONTENT_ROOT/wwwroot`.  Change with `UseWebRoot.`  Serve with `UseStaticFiles.`
 
@@ -41,23 +40,16 @@ app.UseStaticFiles(new StaticFileOptions
     }
 });
 ```
-# Static file authorization
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#static-file-authorization
+# Static file authorization [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#static-file-authorization)]  
 
-# Directory browsing
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#directory-browsing
+# Directory browsing [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#directory-browsing)]  
 
-# Serve default documents
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#serve-default-documents
+# Serve default documents [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#serve-default-documents)]  
 
-# `FileExtensionContentTypeProvider`
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#fileextensioncontenttypeprovider
+# `FileExtensionContentTypeProvider` [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#fileextensioncontenttypeprovider)]  
 
-# Non-standard content types
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#non-standard-content-types
+# Non-standard content types [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#non-standard-content-types)]  
 
-# Serve files from multiple locations
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#serve-files-from-multiple-locations
+# Serve files from multiple locations [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#serve-files-from-multiple-locations)]  
 
-# Serve files outside `wwwroot` by updating `IWebHostEnvironment.WebRootPath`
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#serve-files-outside-wwwroot-by-updating-iwebhostenvironmentwebrootpath
+# Serve files outside `wwwroot` by updating `IWebHostEnvironment.WebRootPath` [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0#serve-files-outside-wwwroot-by-updating-iwebhostenvironmentwebrootpath)]  

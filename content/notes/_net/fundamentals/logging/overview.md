@@ -5,8 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
-> Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line
+# Abstract [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line)]  
 .NET's logging API supports a variety of built-in and third-party logging providers.
 
 # Concepts
@@ -21,8 +20,7 @@ weight: -1
     - `Critical` = 5 (failures that require immediate attention)
     - `None` = 6 (use this level to suppress log messages)
 
-# Providers
-> Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logging-providers
+# Providers [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging-providers)]  
 
 Built-in providers include:
 - `Debug` — uses `System.Diagnostics.Debug` via `Debug.WriteLine` method and only when a debugger is attached
@@ -81,8 +79,7 @@ class Program {
 }
 ```
 
-# Configuration
-> Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#set-log-level-by-command-line-environment-variables-and-other-configuration
+# Configuration [[Documentation](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#set-log-level-by-command-line-environment-variables-and-other-configuration)]  
 ```json
 {
     "Logging": { // This is the "Logging" property.
@@ -165,8 +162,7 @@ public class DefaultService : IService {
 ```
 `ILogger<T>` is equivalent to calling `CreateLogger(T).`
 
-## Event IDs
-> Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-event-id
+## Event IDs [[Documentation](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-event-id)]  
 
 An `EventId` is a struct with an `Id` and optional `Name` readonly properties.  The event ID can associate a set of events.
 
@@ -239,8 +235,7 @@ Person person = new Person() { FirstName = "John", LastName = "Doe" };
 _logger.LogInformation("Found {@Person}", person); // output: Found Person { FirstName="John", LastName="Doe" }
 ```
 
-## Log Scopes
-> Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-scopes
+## Log Scopes [[Documentation](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-scopes)]  
 
 A scope groups a set of logical operations.  For example, every log created as part of processing a transaction can include the transaction ID.
 

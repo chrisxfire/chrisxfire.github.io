@@ -5,8 +5,7 @@ draft: false
 weight: 4
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/handle-errors?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/handle-errors?view=aspnetcore-7.0)]  
 
 [Notes on Error Handling in ASP.NET Core](../../../fundamentals/error-handling) apply.
 

@@ -5,9 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest  
-> Documentation: https://learn.microsoft.com/en-us/visualstudio/test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests?view=vs-2022  
+# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest)]   [[Documentation](https://learn.microsoft.com/en-us/visualstudio/test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests?view=vs-2022  )]  
 > See also: https://github.com/microsoft/testfx/blob/main/docs/README.md  
 
 MSTest unit tests are created with `dotnet new mstest -o TestProjectName`.
@@ -180,8 +178,7 @@ MSTest unit tests can be configured with a timeout:
 public void My_Test() { /*...*/ }
 ```
 
-# Assert Classes
-> Documentation: https://learn.microsoft.com/en-us/visualstudio/test/using-the-assert-classes?view=vs-2022  
+# Assert Classes [[Documentation](https://learn.microsoft.com/en-us/visualstudio/test/using-the-assert-classes?view=vs-2022)]  
 
 `Microsoft.VisualStudio.TestTools.UnitTesting` contains [Assert](https://learn.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert?view=visualstudiosdk-2022) 
 classes to verify specific functionality. A unit test only reports correctness of the code's behavior if Assert statements are included. 

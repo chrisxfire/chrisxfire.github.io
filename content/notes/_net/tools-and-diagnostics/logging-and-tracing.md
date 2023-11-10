@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/dotnet/core/diagnostics/logging-tracing  
+# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/logging-tracing)]  
 
 These notes discuss the differences between logging and tracing and the differences between the many logging APIs available in .NET.
 
@@ -81,8 +80,7 @@ If not using Visual Studio, debugging and tracing need to be enabled manually.
 
 `System.Diagnostics.Debug` is type safe.
 
-## Example
-> Documentation: https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.defaulttracelistener?view=net-7.0#remarks
+## Example [[Documentation](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.defaulttracelistener?view=net-7.0#remarks)]  
 
 ```cs
 public static void Main(string[] args)
@@ -101,8 +99,7 @@ public static void Main(string[] args)
   }
 ```
 
-## TextWriterTraceListener
-> Documentation: https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.textwritertracelistener?view=net-7.0#remarks
+## TextWriterTraceListener [[Documentation](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.textwritertracelistener?view=net-7.0#remarks)]  
 
 Directs tracing or debugging output to a `TextWriter` or a `Stream`. <o>Implements `IDisposable`.</o>
 ```cs

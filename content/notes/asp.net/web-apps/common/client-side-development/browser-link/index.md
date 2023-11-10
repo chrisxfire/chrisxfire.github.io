@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/client-side/using-browserlink?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/client-side/using-browserlink?view=aspnetcore-7.0)]  
 
 Browser Link is a Visual Studio feature that creates a communication channel (SignalR) between Visual Studio and one or more browsers.
 

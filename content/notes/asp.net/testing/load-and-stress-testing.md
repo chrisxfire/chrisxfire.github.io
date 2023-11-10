@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/test/load-tests?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/test/load-tests?view=aspnetcore-7.0)]  
 
 Load test and stress tests are types of performance tests:
 - *Load tests* test whether an app can handle a specified load of users for a certain scenario while satisfying a response goal. The app's conditions are normal.  

@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Dependency Injection
-> Documentation: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0
+# Dependency Injection [[Documentation](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-7.0)]  
 
 See notes on [Dependency Injection in .NET](../../../_net/dependency-injection/overview).
 

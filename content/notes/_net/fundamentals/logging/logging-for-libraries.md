@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logging-library-authors  
+# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging-library-authors)]  
 
 These notes provide guidance on exposing logging in a library in a way that is consistent with other .NET libraries and frameworks.
 

@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://nsubstitute.github.io/help/argument-matchers/
+# Overview [[Documentation](https://nsubstitute.github.io/help/argument-matchers/)]  
 
 Argument matchers provide a way to:
 1. specify a call or group of calls so that a return value can be set for all matching calls

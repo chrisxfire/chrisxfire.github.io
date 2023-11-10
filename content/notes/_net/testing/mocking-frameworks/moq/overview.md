@@ -5,8 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
-> Documentation: https://github.com/devlooped/moq/wiki/Quickstart
+# Abstract [[Documentation](https://github.com/devlooped/moq/wiki/Quickstart)]  
 
 Moq is a simple, minimalistic mocking framework.
 

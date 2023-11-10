@@ -47,8 +47,7 @@ All methods return `void` unless otherwise specified.
 | Delete a directory      | `Directory.Delete`, `DirectoryInfo.Delete`                                                           |
 | Move/rename a directory | `Directory.Move`, `DirectoryInfo.MoveTo`                                                             |
 
-# Enumerating Files and Directories
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/io/how-to-enumerate-directories-and-files
+# Enumerating Files and Directories [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/io/how-to-enumerate-directories-and-files)]  
 
 Enumerable collections provide superior performance vs arrays when working with large collections. The `Directory` and
 `DirectoryInfo` classes have enumeration methods that return enumerable collections:

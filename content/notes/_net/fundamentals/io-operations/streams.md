@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/io/
+# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/io/)]  
 
 A *stream* is a sequence of bytes that can be read from and written to.  
 
@@ -21,9 +20,7 @@ This can be tested with `CanRead`, `CanWrite`, and `CanSeek` properties.
 # Overview of Types for Streams
 See [here](../overview#overview-of-types-for-streams).
 
-# Composing Streams
-> Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-6.0  
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/io/composing-streams
+# Composing Streams [[Documentation](https://docs.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-6.0)]   [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/io/composing-streams)]  
 
 `Stream` is the abstract base class of all streams. All streams implement `IDisposable`.
 

@@ -5,8 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
-> Documentation: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview
+# Abstract [[Documentation](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview)]  
 
 Roslyn Analyzers inspect C#/VB code for style, quality, maintainability, design, and other issues.  They are made up of code analysis rules.  These rules work together with Visual Studio.
 
@@ -20,8 +19,7 @@ Code analysis rules consist of:
   * Included (since .NET 5) in .NET SDK
 * External analyzers — StyleCop, Roslynator, XUnit Analyzers, Sonar Analyzer, etc
 
-# Configuration
-> Documentation: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-options
+# Configuration [[Documentation](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-options)]  
 
 Code analysis rules can be configured.
 
@@ -76,8 +74,7 @@ Automatically generated code files, like designer-generated files, can be exclud
 
 > Documentation: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-options#exclude-generated-code
 
-## Configuration Files
-> Documentation: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-files
+## Configuration Files [[Documentation](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-files)]  
 Code analysis rule configurations are stored in one of two configuration files:
 1. EditorConfig files (file or folder-based configuration options)
 2. Global AnalyzerConfig file (project-level configuration)
@@ -91,8 +88,7 @@ EditorConfig files apply to specific source files or folders. This example appli
 
 See [notes on EditorConfig](../editorconfig).
 
-### AnalyzerConfig
-> Documentation: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-files#global-analyzerconfig
+### AnalyzerConfig [[Documentation](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-files#global-analyzerconfig)]  
 
 ## Suppressing Warnings
 Code analyzer warnings can be suppressed in several ways.

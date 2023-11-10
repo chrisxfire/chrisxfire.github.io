@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-7.0)]  
 
 - Controllers are classes that derive from `ControllerBase`.
   - If derived from `Controller`, this would add support for views (for handling web pages rather than API requests).
@@ -166,8 +165,7 @@ app.MapControllers();
 app.Run();
 ```
 
-# Binding Source Parameter Inference
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-7.0#binding-source-parameter-inference
+# Binding Source Parameter Inference [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-7.0#binding-source-parameter-inference)]  
 
 A binding source attribute defines the location at which an action parameter's value is found:
 
@@ -191,8 +189,7 @@ The `[ApiController]` attribute applies these inference rules for the default da
 - `[FromRoute]` — inferred for any action parameter name matching a parameter in the route template.
 - `[FromQuery]` — inferred for any other action parameters.
 
-### FromBody Considerations
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-7.0#frombody-inference-notes
+### FromBody Considerations [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-7.0#frombody-inference-notes)]  
 
 ### FromService Considerations
 The parameter binding subsystem binds parameters through dependency injection when the type is configured as a service. Thus, it is not required to explicitly apply the `[FromServices]` attribute to a parameter.
@@ -271,8 +268,7 @@ public class ConsumesController : ControllerBase
 }
 ```
 
-# Analyzers
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/analyzers?view=aspnetcore-7.0
+# Analyzers [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/analyzers?view=aspnetcore-7.0)]  
 
 The MVC analyzers package works with controllers annotated with `ApiControllerAttribute` and builds on [web API conventions](../action-return-types#web-api-conventions). 
 

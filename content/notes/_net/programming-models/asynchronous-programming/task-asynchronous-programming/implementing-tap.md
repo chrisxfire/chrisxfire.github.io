@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern
+# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern)]  
 
 The TAP pattern can be implemented via the C# compiler, manually, or in a hybrid of both.
 
@@ -104,8 +103,7 @@ Compute-bound tasks end in `Canceled` if:
 If another exception goes unhandled in body of task, task ends in `Faulted` state.
 - Any attempts to await task or access its result causes an exception to be thrown.
 
-## IO-bound Tasks
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern#io-bound-tasks
+## IO-bound Tasks [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/implementing-the-task-based-asynchronous-pattern#io-bound-tasks)]  
 
 Use `TaskCompletionSource<TResult>` to create a task that is not backed by a thread for its entire execution.
 - Exposes a Task property and returns a `Task<TResult>` instance.

@@ -75,8 +75,7 @@ Don't throw or derive from:
 - `StackOverflowException`
 - `SystemException`
 
-# Create a Custom Exception
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/exceptions/how-to-create-user-defined-exceptions
+# Create a Custom Exception [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/exceptions/how-to-create-user-defined-exceptions)]  
 
 Custom exception classes can be created.  They should have at least 4 constructors:
 ```cs

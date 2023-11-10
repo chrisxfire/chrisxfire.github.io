@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/io/handling-io-errors
+# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/io/handling-io-errors)]  
 
 I/O methods throw these exceptions:
 - `IOException` — the base class of all System.IO exceptions

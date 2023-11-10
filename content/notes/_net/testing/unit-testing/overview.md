@@ -5,8 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
-> Documentation: https://learn.microsoft.com/en-us/dotnet/core/testing/
+# Abstract [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/testing/)]  
 
 Unit testing:
 * reduces the amount of time needed to perform *functional* tests, which require running the application and performing a series of steps.
@@ -59,19 +58,16 @@ Frameworks:
 
 Test methods created in XUnit must be public.
 
-# Order of Unit Tests
-> Documentation: https://learn.microsoft.com/en-us/dotnet/core/testing/order-unit-tests?pivots=mstest
+# Order of Unit Tests [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/testing/order-unit-tests?pivots=mstest)]  
 
 MSTest unit tests are automatically ordered alphabetically by test name. See documentation for ordering of other tests in other testing frameworks.
 
-# Running Subsets of Unit Tests
-> Documentation: https://learn.microsoft.com/en-us/dotnet/core/testing/selective-unit-tests?pivots=mstest
+# Running Subsets of Unit Tests [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/testing/selective-unit-tests?pivots=mstest)]  
 
 MSTest unit tests can be assigned categories and/or priorities which allow them to be filtered. See documentation for running subsets of unit tests
 in other testing frameworks.
 
-# Testing Published Output
-> Documentation: https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-published-output
+# Testing Published Output [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-published-output)]  
 
 Use `dotnet vstest TestProject.dll`.
 

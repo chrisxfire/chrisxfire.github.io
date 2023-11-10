@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0)]  
 
 *Model binding* is the automated process of retrieving data values from an HTTP request and converting the resulting string to a .NET type.
 
@@ -268,8 +267,7 @@ To use the built-in XML input formatters:
     public ActionResult<Pet> Create(Pet pet)
     ```
 
-## Configuring Input Formatters
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#customize-model-binding-with-input-formatters
+## Configuring Input Formatters [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#customize-model-binding-with-input-formatters)]  
 
 # Excluding Specified Types from Model Binding
 To disable model binding on all models of a specified type (ie: `System.Version`):

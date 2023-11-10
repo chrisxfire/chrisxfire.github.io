@@ -5,8 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/overview
+# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/overview)]  
 
 These notes are for `System.Text.Json`. 
 
@@ -42,8 +41,7 @@ JsonSerializer = 84, NewtonsoftJsonSerializer = 94, JsonNode = 155, Utf8JsonRead
 # Thread Safety
 <r>Warning</r>: `JsonDocument` is not thread safe.  All other aspects of `System.Text.Json` are thread safe.
 
-# Reflection vs. Source Generation
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation-modes?pivots=dotnet-7-0
+# Reflection vs. Source Generation [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation-modes?pivots=dotnet-7-0)]  
 
 `System.Text.Json` can gather metadata needed to access properties of objects for serialization/deserialization two ways:
 1. Using reflection at run time (default)

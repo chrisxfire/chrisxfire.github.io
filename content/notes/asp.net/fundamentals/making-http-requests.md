@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0)]  
 
 See [Problems with HttpClient](../../../_net/web/http/ihttpclientfactory#problems-with-httpclient)
 
@@ -151,8 +150,7 @@ public class TypedClientModel : PageModel
     }
 }
 ```
-# Outgoing request middleware
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0#outgoing-request-middleware
+# Outgoing request middleware [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0#outgoing-request-middleware)]  
 
 `IHttpClientFactory` enables you to build an outgoing request middleware.
 In this pattern, handlers are defined for each named client.

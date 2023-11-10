@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/async  
+# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/async)]  
 
 The `async` modifier specifies that a method, lambda, or anonymous method is *asynchronous*. 
 - An async method runs synchronously until it reaches an `await` expression. At this point, the method is suspended
@@ -20,8 +19,7 @@ entire method runs synchronously.
 Do not use `out` and `ref` parameters in async methods. Instead, return data that would have been returned through `out`/`ref` in the `TResult` of `Task<TResult>`. 
 Use a tuple or custom type to accommodate multiple return values.
 
-# Async Return Types
-> Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-return-types  
+# Async Return Types [[Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-return-types)]  
 
 Async methods can return:
 - `Task` — async methods that performs an operation but return no value (like `void` synchronous methods)
@@ -35,8 +33,7 @@ An async void method is used only for event handlers (because event handlers do 
 - Such a method cannot be awaited.
 - The caller of such a method cannot catch exceptions that the method throws.
 
-## `IAsyncEnumerable<T>` (Async Streams)
-> Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-return-types#async-streams-with-iasyncenumerablet
+## `IAsyncEnumerable<T>` (Async Streams) [[Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/async-return-types#async-streams-with-iasyncenumerablet)]  
 
 An async method may return an async stream via `IAsyncEnumerable<T>`.
 Use this to enumerate items read from a stream when elements are generated in chunks via repeated async calls.

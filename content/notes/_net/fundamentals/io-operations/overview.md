@@ -5,8 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/io/common-i-o-tasks
+# Abstract [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/io/common-i-o-tasks)]  
 
 The `System.IO` namespace contains types to:
 * Read or write files

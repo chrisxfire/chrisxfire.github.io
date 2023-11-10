@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-7.0)]  
 - *OpenAPI* — a language-agnostic specification for describing REST APIs.
 - *Swagger*
   - OpenAPI started as Swagger; Swagger was donated to the OpenAPI Initiative in 2015.

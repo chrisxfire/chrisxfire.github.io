@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/io/pipe-operations
+# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/io/pipe-operations)]  
 
 Pipes provide means for interprocess communication.  There are two types:
 1. *Anonymous pipes* provide interprocess communication on a local computer.

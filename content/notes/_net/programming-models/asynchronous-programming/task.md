@@ -15,8 +15,7 @@ In C#, `Thread` and `Task` are both types used for asynchronous operations. `Tas
 
 `System.Threading.Tasks.Extensions.ValueTask` is a lightweight implementation of a generalized task-returning value.
 
-# `Task` and `Task<T>`
-> Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-6.0
+# `Task` and `Task<T>` [[Documentation](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-6.0)]  
 
 `Task` represents a single asynchronous operation that does not return a value. It is a reference type (so it allocates an object on the heap). 
 - `Task.CompletedTask` holds a task that is already completed. If you implement a class that must return a `Task` (equivalent to `void` in a synchronous method), return `Task.CompletedTask`.

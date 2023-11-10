@@ -5,8 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap
+# Abstract [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap)]  
 
 The Task Asynchronous Pattern is a *different* pattern for using tasks, async, and await than the pattern described in [notes on asynchronous programming](../../overview).
 
@@ -46,5 +45,4 @@ public Task ReadAsync(byte[] buffer, int offset, int count, IProgress<long> prog
 Progress reporting can be accomplished through the `Progress<T>` class which implements `IProgress<T>`. `Progress<T>` exposes a `ProgressChanged` event 
 that is raised every time the async operation reports a progress update. Register a handler for this event, or pass a single handler to the `Progress<T>` constructor.
 
-# Interop with Other Asynchronous Patterns and Types
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/interop-with-other-asynchronous-patterns-and-types
+# Interop with Other Asynchronous Patterns and Types [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/interop-with-other-asynchronous-patterns-and-types)]  

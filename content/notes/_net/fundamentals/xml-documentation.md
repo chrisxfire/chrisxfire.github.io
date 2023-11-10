@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/
+# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/)]  
 
 C# source files can contain structured comments (*XML doc)* that produce API documentation for the types contained therein. 
 The compiler creates an XML files that contains structured data representing the comments and the API signatures. 

@@ -5,13 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview
+# Overview [[Documentation](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview)]  
 
 Inspect and debug web pages with DevTools.
 
-# Keyboard Shortcuts
-> Documentation: https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/shortcuts/
+# Keyboard Shortcuts [[Documentation](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/shortcuts/)]  
 
 - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> — Open DevTools to Welcome  
 - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd> — Open DevTools to Console

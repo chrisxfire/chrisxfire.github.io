@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions  
+# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions)]  
 <g>Availability</g>: C# 12
 
 Use *collection expressions* to create common collection values. This syntax can be assigned to many different collection types. It contains

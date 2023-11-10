@@ -5,8 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/application-model?view=aspnetcore-7.0
+# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/application-model?view=aspnetcore-7.0)]  
 
 ASP.NET Core MVC defines an *application model* that represents the components of an MVC app. It includes both abstract interfaces and concrete implementation classes that describe an MVC application. It results from MVC discovering the app's controllers, actions, action parameters, routes, and filters. By modifying the model, an app can follow different conventions than the default MVC behavior.
 

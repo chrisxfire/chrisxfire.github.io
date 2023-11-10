@@ -5,8 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
-> Documentation: https://learn.microsoft.com/en-us/dotnet/standard/io/pipelines
+# Abstract [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/io/pipelines)]  
 
 Pipelines are designed to simplify high performance I/O operations with .NET.
 

@@ -5,8 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
-> Documentation: https://learn.microsoft.com/en-us/visualstudio/test/isolating-code-under-test-with-microsoft-fakes?view=vs-2022  
+# Overview [[Documentation](https://learn.microsoft.com/en-us/visualstudio/test/isolating-code-under-test-with-microsoft-fakes?view=vs-2022)]  
 <g>Availability</g>: Visual Studio Enterprise Edition, Visual Studio 2019 Update 6+
 
 Code isolation is a testing strategy that isolates code under test from the rest of the application. This allows for
