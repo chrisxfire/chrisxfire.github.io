@@ -4,6 +4,7 @@ date: 2023-02-22T11:30:23-0700
 draft: false
 weight: 1
 ---
+
 # Service-Oriented Architecture (SOA)
 An architectural style with a focus on discrete *services* vs. a monolithic design.  
 
@@ -40,8 +41,8 @@ Services must be *stateless* — they must return the requested value or an exce
 - Service bus
 
 # Microservices
-Microservices arrange an app as a collection of loosely-coupled, fine-grained services. 
-No standard definition.
+An architectural approach that builds an application as a series of small services that are decentralized
+and autonomously developed. The services are loosely coupled, independently deployable, and easily maintainable.
 
 Characteristics:
 - Processes that communicate over a network via vendor-agnostic protocols.
