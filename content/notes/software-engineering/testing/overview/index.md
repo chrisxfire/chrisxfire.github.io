@@ -7,15 +7,15 @@ weight: -1
 
 # Types of Tests
 From most number of tests to least for a given project (italicized are not in the Testing Pyramid):
-| Type | Description |
-|------|-------------|
-Unit | Tests the smallest unit of code possible, usually a method or function.
-Integration | Tests if smaller units and larger components work together as a single piece of software.
-System | Tests the whole system environment in which the software runs.
-Performance | Tests the performance (time required) to run (ie: return a web page to a visitor in < 20 ms).
-Load | Tests how many requests software can handle simultaneously.  Tests an app for scalability.
-UAT | Tests that are created from a list of requirements/criteria.
-UI | Tests the UI of an app; mimics clicks and interactions.
+| Type        | Description                                                                                   |
+| ----------- | --------------------------------------------------------------------------------------------- |
+| Unit        | Tests the smallest unit of code possible, usually a method or function.                       |
+| Integration | Tests if smaller units and larger components work together as a single piece of software.     |
+| System      | Tests the whole system environment in which the software runs.                                |
+| Performance | Tests the performance (time required) to run (ie: return a web page to a visitor in < 20 ms). |
+| Load        | Tests how many requests software can handle simultaneously.  Tests an app for scalability.    |
+| UAT         | Tests that are created from a list of requirements/criteria.                                  |
+| UI          | Tests the UI of an app; mimics clicks and interactions.                                       |
 - Playwright automates the browser to mimic a user using a website.
 
 # Doctrines on Testing
@@ -37,5 +37,5 @@ UI | Tests the UI of an app; mimics clicks and interactions.
 Similar to TDD, but greater focus on acceptance tests.  
 The developer works with the business to define a set of tests that list the needed criteria for the product.  
 BDD focuses on documenting different stages of expectations for the functionality:  
-![](./bdd.png)
+![Example of a BDD test function](./bdd.png)
 
