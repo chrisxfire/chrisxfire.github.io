@@ -12,6 +12,9 @@
 
     {{- /* Styles */ -}}
     <style>
+        c {
+            font-family: consolas;
+        }
         r {
             color: Red
         }
@@ -19,10 +22,23 @@
         o {
             color: Orange
         }
-
-        g {
-            color: Green
+        y {
+            color: yellow
         }
+        g {
+            color: forestgreen
+        }
+        bl {
+            color: blue
+        }
+
+        in {
+            color: purple
+        }
+        v {
+            color: violet
+        }
+
     </style>
     {{- $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS (dict "targetPath" "style.css") | minify | fingerprint }}
     <link href="{{ $style.RelPermalink }}" rel="stylesheet">

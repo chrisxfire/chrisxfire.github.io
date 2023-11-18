@@ -21,13 +21,15 @@ There are five techniques for coupling the regex engine to a regex pattern:
 | Source generation | `GeneratedRegexAttribute`                    | Low               | Low            | Supports AOT compilation <br /> Emits more source, increase app size | A Regex that is called frequently in .NET 7 or later                        |
 
 ## Avoid Repeated Regex Object Instantiation
-This is inefficient because, each time `IsValidCurrency` is called, a new `Regex` object is instantiated:
+Each time a Regex object is instantiated, the regular expression pattern passed to it must be recompiled. This is an expensive operation.
+
+Below, each time `IsValidCurrency` is called, a new `Regex` object is instantiated:
 ```cs
 public static bool IsValidCurrency(string currencyValue)
 {
     string pattern = @"\p{Sc}+\s\d+";
  
-    Regex currencyRegex = new Regex(pattern); // This object is instantiated each time the method is called
+    Regex currencyRegex = new Regex(pattern); // This object is instantiated and the regular expression pattern is compiled
  
     return currencyRegex.IsMatch(currencyValue);
 }
@@ -106,4 +108,4 @@ Use capturing groups such as `(subexpression)` and `(?<name>subexpression)` only
 
 Options to disable:
 - Use `(?:subexpression)` which prevents the capture of matched substrings (does not disable substring captures in nested groups).
-- Use the ExplicitCapture option which disables all unnamed or implicit captures in the the regular expression pattern.
+- Use the `ExplicitCapture` option which disables all unnamed or implicit captures in the the regular expression pattern.
