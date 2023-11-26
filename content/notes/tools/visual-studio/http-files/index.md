@@ -30,7 +30,12 @@ The request must be in the format `HTTP_METHOD URL HTTP_VERSION` where `HTTP_VER
 GET https://{{hostname}}:{{port}}/weatherforecast 
 ```
 
-## Multiple requests
+## Requests
+Request format = `HTTP_VERB URL [HTTP_VERSION]`
+- where HTTP_VERB is one of: CONNECT, DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT, TRACE
+- where HTTP_VERSION is one of: HTTP/1.2, HTTP/2, HTTP/3
+
+### Multiple requests
 Multiple requests can be delimited via `###`:
 ```
 GET https://localhost:7220/weatherforecast
@@ -76,7 +81,7 @@ Accept-Language: en-US,en;q=0.5
 | `$datetime`      | Generates a datetime string. Formats supported include ISO8601, RFC1123 or a custom format. Syntax: `{{$datetime <rfc1123 \| iso8601 \| “custom format”> [offset option]}}`.          |
 | `$timestamp`     | Generates a UTC timestamp. Default behavior generates a timestamp from the current time. With options you can generate an offset timestamp. Syntax: `{{$timestamp [offset option]}}`. |
 | `$localdatetime` | Generates a datetime string in your local time zone. Syntax: `{{$localdatetime <rfc1123 \| iso8601 \| “custom format”> [offset option]}}`.                                            |
-| `$processenv`    | Returns the value of the provided process environment variable. Syntax: `{{$processEnv envVarName}}`.                                                                                 |
+| `$processEnv`    | Returns the value of the provided process environment variable. Syntax: `{{$processEnv envVarName}}`.                                                                                 |
 | `$dotenv`        | Returns the value of the provided variable in a .env file. Syntax: `{{$dotenv variableName}}`.                                                                                        |
 
 # Usage
@@ -95,8 +100,8 @@ Otherwise, an `.http` file is created with the project name as the file name, an
 # Environments
 <g>Availability</g>: Visual Studio 17.8+  
 
-By creating an `httpenv.json` file, variables for `.http` files can be scoped to a specific environment:   
-`httpenv.json`
+By creating an `http-client.env.json` file, variables for `.http` files can be scoped to a specific environment:   
+`http-client.env.json`
 ```json
 {
   "dev": {
@@ -131,16 +136,16 @@ An environment picker is now available:
 ![A screenshot of Visual Studio showing the environment picker available in the upper right](./image-1.png)
 
 ## Environments — User-specific
-Create a `httpenv.json.user` file. These files are useful if you want to test something but don't want to change the environment file the rest of the team is using. By default, `*.user` files are excluded from version control.
+Create a `http-client.env.json.user` file. These files are useful if you want to test something but don't want to change the environment file the rest of the team is using. By default, `*.user` files are excluded from version control.
 
 The precedence for loading variables is as follows:
-1. `httpenv.json.user` file
-2. `httpenv.json` file
+1. `http-client.env.json.user` file
+2. `http-client.env.json` file
 3. `.http` file
 
 ## Accessing Secrets in Environment Files
 ### via ASP.NET Core User Secrets
-Use this syntax to access user secrets in the `httpenv.json` files:
+Use this syntax to access user secrets in the `http-client.env.json` files:
 ```json {hl_lines=[4-6]}
 {
   "dev": {
