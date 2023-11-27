@@ -15,17 +15,36 @@ weight: 1
 - tuning
 
 # Input and Output
-- *Prompt* — the input of the large language model.
-  - A prompt may be an *instruction* specifying the type of output is expected of the model.
-    - Example instructions: 
-      - Summarizing a text ("Summarize the following and extract insights")
-      - Creative ideation and design ("Write an assignment for high school students including four open-ended questions about Louis XIV and his court")
-      - Q&A ("Who is Louis XIV and why is he an important historical character?")
-      - Writing assistance ("Louis XIV is an important historical character because...")
-      - A unit of code to be created ("Create a Python function that sums two numbers")
-  - *Context* — optional input that provides details to the *prompt* and, optionally, examples.
-    - Providing context is a form of *prompt engineering.*
-- *Completion* — the output of the large language model.
+## Prompts
+The input of the large language model.
+- A prompt may be an *instruction* specifying the type of output is expected of the model.
+  - Example instructions: 
+    - Summarizing a text ("Summarize the following and extract insights")
+    - Creative ideation and design ("Write an assignment for high school students including four open-ended questions about Louis XIV and his court")
+    - Q&A ("Who is Louis XIV and why is he an important historical character?")
+    - Writing assistance ("Louis XIV is an important historical character because...")
+    - A unit of code to be created ("Create a Python function that sums two numbers")
+
+## Context
+The optional input that provides details to the *prompt* and, optionally, examples. Providing context is a form of *prompt engineering.*
+
+## Completion
+the output of the large language model.
+
+# Prompt Engineering
+A field of study of the design and optimization of prompts to deliver consistent and quality completions for a given model.
+
+## Tokenization
+An LLM sees a prompt as a sequence of tokens. Different models (and even different versions of the same model) can tokenize a prompt differently. 
+The way a prompt is tokenized has a marked impact on the quality of the completion.
+
+Use [OpenAI Tokenizer](https://platform.openai.com/tokenizer?WT.mc_id=academic-105485-koreyst) to visualize how a prompt is tokenized:  
+![A sample prompt and its tokenization](image.png)
+
+## Instruction-Tuned LLM
+An instruction-tuned LLM starts with the foundation model and tunes it with examples or input/output pairs. These are multi-turn messages that contain clear 
+*instructions*. For example, consider this instruction which is provided to a model after some initial prompt: "Summarize content you are provided with for a 
+second-grade student. Keep the result to one paragraph with 3-5 bullet points."
 
 # How it Works
 ## Tokenization
