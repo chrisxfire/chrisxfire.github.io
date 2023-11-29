@@ -9,18 +9,24 @@ weight: 1
 These notes are select Windows 11 keyboard/trackpad shortcuts.  They are not all-inclusive.
 
 # Windows Key
-| Shortcut                                         | Action              |
-| ------------------------------------------------ | ------------------- |
-| <kbd>Win</kbd>                                   | Search              |
-| <kbd>Win</kbd> + <kbd>D</kbd>                    | Show Desktop        |
-| <kbd>Win</kbd> + <kbd>E</kbd>                    | Explorer            |
-| <kbd>Win</kbd> + <kbd>H</kbd>                    | Hear (voice typing) |
-| <kbd>Win</kbd> + <kbd>K</kbd>                    | Cast                |
-| <kbd>Win</kbd> + <kbd>L</kbd>                    | Lock                |
-| <kbd>Win</kbd> + <kbd>M</kbd>                    | Minimize All        |
-| <kbd>Win</kbd> + <kbd>R</kbd>                    | Run                 |
-| <kbd>Win</kbd> + <kbd>Up</kbd>                   | Maximize Window     |
-| <kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Screenshot          |
+| Shortcut                                                        | Action                    |
+| --------------------------------------------------------------- | ------------------------- |
+| <kbd>Win</kbd> + <kbd>D</kbd>                                   | Show Desktop              |
+| <kbd>Win</kbd> + <kbd>E</kbd>                                   | Explorer                  |
+| <kbd>Win</kbd> + <kbd>H</kbd>                                   | Hear (voice typing)       |
+| <kbd>Win</kbd> + <kbd>I</kbd>                                   | Settings                  |
+| <kbd>Win</kbd> + <kbd>K</kbd>                                   | Cast                      |
+| <kbd>Win</kbd> + <kbd>L</kbd>                                   | Lock                      |
+| <kbd>Win</kbd> + <kbd>M</kbd>                                   | Minimize All              |
+| <kbd>Win</kbd> + <kbd>R</kbd>                                   | Run                       |
+| <kbd>Win</kbd> + <kbd>S</kbd>                                   | Search                    |
+| <kbd>Win</kbd> + <kbd>V</kbd>                                   | Clipboard history         |
+| <kbd>Win</kbd> + <kbd>X</kbd>                                   | Quick Link menu           |
+| <kbd>Win</kbd> + <kbd>.</kbd> or <kbd>;</kbd>                   | Emoji panel               |
+| <kbd>Win</kbd> + <kbd>Up</kbd>                                  | Maximize Window           |
+| <kbd>Win</kbd> + <kbd>Tab</kbd>                                 | Show virtual workspaces   |
+| <kbd>Win</kbd> + <kbd>Ctrl</kbd> + <kbd><</kbd> or <kbd>></kbd> | Switch virtual workspaces |
+| <kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>                | Screenshot                |
 
 # Trackpad
 | Shortcut                      | Action                      |
