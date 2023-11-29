@@ -279,7 +279,8 @@ sup {
 }
 
 table {
-  width: 100%;
+  // WAS: width: 100%;
+  // width: 100%;
   margin-top: $spacing-half;
   border-collapse: collapse;
   // WAS: font-size: $small-font-size;
