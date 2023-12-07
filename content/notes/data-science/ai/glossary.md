@@ -1,13 +1,12 @@
 ---
 title: glossary
 date: 2023-11-27T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
 # artificial intelligence
-> A field of computer science that seeks to create intelligent machines that can replicate or exceed human
-intelligence.
+> A field of computer science that seeks to create intelligent machines that can replicate or exceed human intelligence.
 
 # deep learning
 > A machine learning technique in which layers of neural networks are used to process data and make decisions.

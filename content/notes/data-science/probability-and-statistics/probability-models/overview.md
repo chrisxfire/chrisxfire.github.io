@@ -13,7 +13,7 @@ Analysis starts with exploration, visualization, summary…
 1. Ask an interesting question
    1. What is the scientific goal?
    2. What would you do if you had all the data?
-   3. What do you want to predict or esimate?
+   3. What do you want to predict or estimate?
 2. Get the data
    1. How was the data sampled?
    2. Which data is relevant?
@@ -40,7 +40,7 @@ Definitions:
 Notes:
 - `P(x)` denotes probability distribution that random variable `X` has value `x`.
   - May also be denoted as `P(X = x)`
-- For a single random variable X, a probability distribution `P(x)` is the probabiliy model for its value. 
+- For a single random variable X, a probability distribution `P(x)` is the probability model for its value. 
 - **Probability Density Function** (PDF) – Returns the probability distribution for a continuous random variable.
 - **Probability Density** – The probability of a continuous probability distribution.
   - Example: A man does not have a probability of being 6 feet tall, but he does have a probability of being between 5 and 6 feet tall.
@@ -65,14 +65,14 @@ A **multivariate probability model** provides a **conditional probability distri
    1. Use cross-validation to characterize prediction errors (splitting data into subsets and fit/train model using subsets not used in other parts of the model)
    2. Error measures: Mean Squared Error for continuous variables; misclassification rates for binary or discrete variables
 4. Use model to make predictions and characterize remaining uncertainties 
-   1. A probabilisitic prediction is a probability distribution
+   1. A probabilistic prediction is a probability distribution
 5. Apply the model to decisions
 
 # Useful Probability Models
 These are all probability models because they all calculate conditional probabilities for outputs given observed inputs.
 
 ## Probability distribution models
-- Bionomial distribution (2 outcomes)
+- Binomial distribution (2 outcomes)
 - Normal distribution (continuous outcome, sums of independent random variables)
 - Poisson distribution (count outcome, number of rare events)
 
@@ -83,9 +83,9 @@ These are all probability models because they all calculate conditional probabil
 - Flexible regression models (nonparametric (smoothing) regression)
 
 ## Others
-- Time series and dynamic regression models (Trends; changes over time)
+- Time series and dynamic regression models (trends; changes over time)
 - Bayesian networks (many variables affecting each other)
-- Surival models
+- Survival models
 - Transition models and generalizations
     - Dynamic causal models; simulation of changes over time
     - Markov models of policy impacts

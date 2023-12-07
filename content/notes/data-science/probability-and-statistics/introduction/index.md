@@ -34,7 +34,7 @@ However, since there are 6 ways to get 2 heads, the *probability* of two heads i
 Sum the probabilities.  The probability of getting either one or two heads $0.25 + 0.375 = 0.625$.
 
 ## Calculating Probability of One Outcome and Another From Two Separate Experiments
-Multiply the probabilities.  The probability one head in each of two successive sets of four fips is $0.25 * 0.25 = 0.0625$
+Multiply the probabilities.  The probability one head in each of two successive sets of four flips is $0.25 * 0.25 = 0.0625$
 
 The probability of any number of heads $x$ in any number of flips $n$ is ${\binom{n}{x}\over2^n} = \frac{n!}{{2^n}x!(n-x)!}$
 

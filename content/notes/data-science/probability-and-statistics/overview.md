@@ -7,11 +7,11 @@ weight: -1
 
 # Concepts
 ## Null hypothesis 
-- **Null hypothesis** — a default hypothesis that a quantity to be measured is zero (null).
-  - The null hypothesis is true if data values are drawn from the hypothesized distribution.
+A default hypothesis that a quantity to be measured is zero (null).
+- The null hypothesis is true if data values are drawn from the hypothesized distribution.
 
 ## p-value 
-- The probability of obtaining observed, or more extreme, results when the null hypothesis is true.
+The probability of obtaining observed, or more extreme, results when the null hypothesis is true.
 - The probability that an observed difference could have just occurred by chance.
 - A p-value near zero provides evidence *against* the null hypothesis.
 
