@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview [[Documentation](https://learn.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2022)]  
-> See also: [Notes on Unit Testing with MSTest](../../../../../_net/testing/unit-testing/unit-testing-with-mstest)  
+> See also: [Notes on Unit Testing with MSTest](../../../../_net/testing/unit-testing/unit-testing-with-mstest)  
 
 Key points:
 * Use unit tests as both design documentation and functional specifications.
