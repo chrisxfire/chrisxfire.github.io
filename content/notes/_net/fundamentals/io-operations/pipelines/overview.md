@@ -116,7 +116,7 @@ bool TryReadLine(ref ReadOnlySequence<byte> buffer, out ReadOnlySequence<byte> l
 ```
 
 # PipeReader and PipeWriter
-See [Notes on PipeReader](./pipereader) and [Notes on PipeWriter](./pipewriter).
+See [Notes on PipeReader](../pipereader) and [Notes on PipeWriter](../pipewriter).
 
 ## Best Practices for using PipeReader and PipeWriter
 - Always complete the `PipeReader` and `PipeWriter` or throw an exception.

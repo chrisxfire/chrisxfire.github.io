@@ -202,11 +202,8 @@ catch (Exception ex)
 }
 ```
 
-## Filters
+## Filters [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#how-filtering-rules-are-applied)] [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#filter-function)]
 When an `ILogger<T>` object is created, `ILoggerFactory` selects a single rule per provider to apply to that logger. Messages written by that instance are filtered based on the rule. The most specific rule for each provider and category pair is selected.
-
-> Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#how-filtering-rules-are-applied
-- https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#filter-function
 
 ## Message Templates
 - Log APIs use a message template that can contains placeholders for arguments provided.

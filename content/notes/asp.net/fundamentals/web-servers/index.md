@@ -40,7 +40,7 @@ On Linux, Kestrel requires OpenSSL 1.0.2.
 
 # HTTP/3 Support
 <g>Availability: ASP.NET Core 7</g>  
-These [notes on HTTP/3](../../../_net/web/http/httpclient.html#http3) apply.
+These [notes on HTTP/3](../../../_net/web/http/httpclient#http3) apply.
 
 HTTP/3 is not enabled by default.  To enable:  
 `Program.cs`

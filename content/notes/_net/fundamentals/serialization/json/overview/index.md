@@ -15,11 +15,11 @@ There are two approaches for serializing and deserializing with `System.Text.Jso
 2. Using the JSON DOM
    * Use the DOM when you receive JSON that doesn't have a fixed schema and must be inspected to know what it contains.  
    * Two JSON DOM approaches:  
-     1.  `JsonDocument` (see [notes](jsondocument-and-jsonelement))
+     1.  `JsonDocument` (see [notes](../jsondocument-and-jsonelement))
         * A read-only (immutable) DOM. Cannot be changed after creation. Faster.
         * Uses `JsonElement`s.
           * `JsonElement` has JSON Array and Object enumerators.
-     2.  `JsonNode` (see [notes](jsonnode))
+     2.  `JsonNode` (see [notes](../jsonnode))
         * A mutable DOM. Can be changed after creation. Slower.
         * Uses `JsonNode`, `JsonObject`, `JsonArray`, `JsonValue`, and `JsonElement.`
 

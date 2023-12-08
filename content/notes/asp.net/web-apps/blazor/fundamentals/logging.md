@@ -124,7 +124,7 @@ logger.LogWarning("Someone has clicked me!");
 ```
 
 ## Logging Event ID
-See [these notes](../../../../../_net/fundamentals/logging/overview#event-ids).  
+See [these notes](../../../../../_net/fundamentals/logging/overview#event-ids-documentation).  
 `LogEvent.cs`
 ```cs
 public class LogEvent
