@@ -22,4 +22,5 @@ Branches of AI:
     - Prompt Engineering 
 - Knowledge Mining — extracting information from large volumes of unstructured data.
 - [Machine Learning](../../ai/machine-learning/) — using data to create predictive models.
+  - Deep Learning
 - Natural Language Processing — enable machine understanding of written and spoken language.
