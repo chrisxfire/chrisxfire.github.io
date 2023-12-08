@@ -71,7 +71,7 @@ Implementing DevOps involves:
 7. Observe — application and server performance monitoring.
 8. Continuous Feedback
 
-![The infinity loop. The left side is the "product" side; the right side is the "operations" side.](image.png)
+![The infinity loop. The left side is the "product" side; the right side is the "operations" side.](../image.png)
 
 # Functional vs. Non-functional Requirements
 **Functional Requirements** — requirements that define *what the software does*.  
