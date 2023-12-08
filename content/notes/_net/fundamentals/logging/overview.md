@@ -162,7 +162,10 @@ public class DefaultService : IService {
 ```
 `ILogger<T>` is equivalent to calling `CreateLogger(T).`
 
-## Event IDs [[Documentation](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-event-id)]  
+## Event IDs
+> Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-event-id  
+
+[](./overview.md#event-ids-documentation)
 
 An `EventId` is a struct with an `Id` and optional `Name` readonly properties.  The event ID can associate a set of events.
 
@@ -202,7 +205,10 @@ catch (Exception ex)
 }
 ```
 
-## Filters [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#how-filtering-rules-are-applied)] [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#filter-function)]
+## Filters 
+> Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#how-filtering-rules-are-applied  
+> Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#filter-function  
+
 When an `ILogger<T>` object is created, `ILoggerFactory` selects a single rule per provider to apply to that logger. Messages written by that instance are filtered based on the rule. The most specific rule for each provider and category pair is selected.
 
 ## Message Templates
@@ -232,7 +238,8 @@ Person person = new Person() { FirstName = "John", LastName = "Doe" };
 _logger.LogInformation("Found {@Person}", person); // output: Found Person { FirstName="John", LastName="Doe" }
 ```
 
-## Log Scopes [[Documentation](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-scopes)]  
+## Log Scopes 
+> Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-scopes
 
 A scope groups a set of logical operations.  For example, every log created as part of processing a transaction can include the transaction ID.
 

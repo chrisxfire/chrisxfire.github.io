@@ -192,7 +192,7 @@ See [these notes](../../../../_net/fundamentals/logging/overview#filters).
 See [these notes](../../../../_net/fundamentals/logging/overview#categories).
 
 # Log Event IDs
-See [these notes](../../../../_net/fundamentals/logging/overview#event-ids-documentation).
+See [these notes](../../../../_net/fundamentals/logging/overview#event-ids).
 
 # Log Message Templates
 See [these notes](../../../../_net/fundamentals/logging/overview#message-templates).
@@ -201,7 +201,7 @@ See [these notes](../../../../_net/fundamentals/logging/overview#message-templat
 See [these notes](../../../../_net/fundamentals/logging/overview#exceptions).
 
 # Scopes
-See [these notes](../../../../_net/fundamentals/logging/overview#log-scopes-documentation).
+See [these notes](../../../../_net/fundamentals/logging/overview#log-scopes).
 
 ## ActivityTrackingOptions
 Logging providers implicitly create a scope object with `SpanId`, `TraceId`, `ParentId`, `Baggage` and `Tags`.  This is configured via `ActivityTrackingOptions`:

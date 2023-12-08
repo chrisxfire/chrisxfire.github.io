@@ -110,7 +110,8 @@ public Results<NotFound, Ok<Product>> GetById(int id)
 }
 ```
 
-# Web API Conventions [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/conventions?view=aspnetcore-7.0)]  
+# Web API Conventions   
+> Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/conventions?view=aspnetcore-7.0
 
 Web API conventions are a substitute for decorating actions with `[ProducesResponseType]`. They define the most common return types and status codes returned from a specific type of action and identify actions that deviate from that standard.
 
