@@ -16,7 +16,7 @@ In binary classification supervised machine learning, the label represents a *cl
 
 ## Logistic Regression Algorithm
 A binary classification algorithm that derives a *sigmoid* (S-shaped) function:   
-![A logistic regression](logistic-regression.png)
+![A logistic regression](../logistic-regression.png)
 
 - Despite the name, it is a *classification* algorithm, not a *regression* algorithm.
 - The function the algorithm produces describes the probability of $y$ being $true$ for a given value of $x$: $f(x)=P(y=1 | x)$
@@ -24,7 +24,7 @@ A binary classification algorithm that derives a *sigmoid* (S-shaped) function:
 # Binary Classification Model Evaluation Metrics
 ## Confusion Matrix
 A matrix of the number of correct and incorrect predictions for each possible label class:  
-![A confusion matrix](confusion-matrix.png)
+![A confusion matrix](../confusion-matrix.png)
 - Where
   - $y=0$ and $\hat{y}=0$ — true negatives ($TN$)
   - $y=0$ and $\hat{y}=1$ — false positive ($FP$)
@@ -58,7 +58,7 @@ An overall metric that combines recall and precision.
 
 # Received operator characteristic (ROC) curve 
 Compares the TPR and FPR for every possible threshold value between 0.0 and 1.0:  
-![A ROC curve](roc.png)
+![A ROC curve](../roc.png)
 - *Area Under the Curve* (AUC)
   - A perfect model would go straight up the TPR axis then across the FPR axis.
   - The dotted blue line represents the results that would be achieved by randomly guessing a binary label (50%).
