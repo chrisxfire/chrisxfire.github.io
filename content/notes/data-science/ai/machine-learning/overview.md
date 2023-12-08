@@ -25,4 +25,4 @@ Consider an ML model that predicts ice cream sales based on the weather:
 # Types of Machine Learning
 - [Supervised Machine Learning](../supervised/)
 - [Unsupervised Machine Learning](../unsupervised/)
-- Deep Learning
+- [Deep Learning](../deep-learning)
