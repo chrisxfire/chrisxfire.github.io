@@ -57,3 +57,12 @@ During training, the model (the artificial neural network) *learns* the weights 
 1. The training and validation datasets are defined.
 2. The neurons in each layer of the network apply their weights. These weights are initially assigned randomly.
 3. The output layer produces a vector containing the calculated values for $\hat{y}$
+4. A loss function is used. The predicted $\hat{y}$ values are compared with known $y$ values and the difference is aggregated into a *loss value*.
+5. An optimization functions uses differential calculus to evaluate the influence of each weight in the network on the loss and determine how it could be adjusted to reduce the overall loss. 
+   a. The specific optimization technique varies; usually, *gradient descent* is used.
+6. Changed weights are *backpropagated* to the layers in the network.
+7. The process is repeated over multiple iterations (*epochs*) until the loss is minimized and the model predicts acceptably accurately.
+
+# Compute
+Rather than pass each case of the training data through the neural network one at a time, the data is batched into matrices and processed using linear algebra. This is
+why neural network training is best performed on systems with GPUs optimized for vector/matrix manipulation.

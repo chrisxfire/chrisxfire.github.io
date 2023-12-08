@@ -15,4 +15,4 @@ An overview of the testing tools available in Visual Studio:
 | [Live Unit Testing](../live-unit-testing) | Executes unit tests automatically and in real time as code changes are made | Enterprise edition <br /> .NET code      |
 | [IntelliTest](../intellitest)             | Automatically generates unit tests and test data                            | Enterprise edition <br /> .NET Framework |
 | [Code Coverage](../code-coverage)         | Determines what portion of a project's code is actually being tested        | Enterprise edition <br /> All code       |
-| [Microsoft Fakes](../microsoft-fakes)     | Isolate code under test from other parts of the application                 | Enterprise edition <br /> .NET code      |
+| [Microsoft Fakes](../../../_net/testing/mocking-frameworks/microsoft-fakes)     | Isolate code under test from other parts of the application                 | Enterprise edition <br /> .NET code      |
