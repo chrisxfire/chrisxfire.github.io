@@ -165,8 +165,6 @@ public class DefaultService : IService {
 ## Event IDs
 > Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-event-id  
 
-[](./overview.md#event-ids-documentation)
-
 An `EventId` is a struct with an `Id` and optional `Name` readonly properties.  The event ID can associate a set of events.
 
 The `Debug` provider does not show event IDs.  The `Console` provider shows event IDs in brackets after the category: 
