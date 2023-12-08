@@ -1,7 +1,7 @@
 ---
 title: prompt engineering
 date: 2023-11-28T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
