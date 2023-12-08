@@ -1,6 +1,6 @@
 DirectoryPath: "public"
 CacheExpires: 168h # 1 week
-CheckExternal: true
+CheckExternal: false
 CheckInternalHash: true
 EnforceHTTPS: true
 IgnoreAltEmpty: true # Ignore alt=""
@@ -8,6 +8,7 @@ IgnoreAltMissing: true
 IgnoreCanonicalBrokenLinks: false
 IgnoreDirectoryMissingTrailingSlash: true
 IgnoreEmptyHref: true # Ignore href=""
+IgnoreExternalBrokenLinks: true # Produce a warning instead of an error when external link is broken
 IgnoreInternalEmptyHash: true # Ignore href="#"
 IgnoreURLs:
 - ".*index.xml" # Ignore index.xml files

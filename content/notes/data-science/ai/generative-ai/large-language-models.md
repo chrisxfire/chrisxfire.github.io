@@ -36,7 +36,7 @@ An LLM sees a prompt as a sequence of tokens. Different models (and even differe
 The way a prompt is tokenized has a marked impact on the quality of the completion.
 
 Use [OpenAI Tokenizer](https://platform.openai.com/tokenizer?WT.mc_id=academic-105485-koreyst) to visualize how a prompt is tokenized:  
-![A sample prompt and its tokenization](./tokenized-prompt.png)
+![A sample prompt and its tokenization](../tokenized-prompt.png)
 
 ## Instruction-Tuned LLM
 An instruction-tuned LLM starts with the foundation model and tunes it with examples or input/output pairs. These are multi-turn messages that contain clear 
