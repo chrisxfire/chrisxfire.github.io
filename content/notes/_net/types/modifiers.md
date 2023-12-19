@@ -28,8 +28,7 @@ weight: 1
   - It has no implementation.
   - It cannot be instantiated.
 - `override` – This member provides a new implementation of the base type's `virtual` or `abstract` member.
-- `sealed` – This type cannot be further overridden in a derived type.
-  - Only overridden types can be sealed.
+- `sealed` – This type cannot be further overridden in a derived type (meaning that is also cannot be `abstract`).
 
 # Access Modifiers for Members
 The accessibility of the return type and parameter types of a method, indexer, or delegate must be >= that of the member itself:
