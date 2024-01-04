@@ -1,7 +1,7 @@
 ---
 title: latex
 date: 2023-12-08T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
