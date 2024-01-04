@@ -1,16 +1,26 @@
 ---
 title: overview
 date: 2023-09-27T00:00:00-06:00
-draft: true
+draft: false
 weight: -1
 ---
 
 # Abstract [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-7.0)]  
-> TODO: Finish adding notes from the above documentation.
+Minimal APIs are a simplified approach to building fast HTTP APIs with ASP.NET Core that skip traditional scaffolding and avoid unnecessary controllers. They fluently
+declare API routes and actions:
+
+```cs
+var app = WebApplication.Create(args);
+
+app.MapGet("/", () => "Hello World!");
+
+app.MapGet("/users/{userId}/books/{bookId}", 
+    (int userId, int bookId) => $"The user id is {userId} and book id is {bookId}");
+
+app.Run();
+```
 
 # Middleware Sequencing in Minimal API Apps [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/webapplication?view=aspnetcore-7.0)]  
-> TODO: Finish adding notes from the above documentation.
-
 `WebApplication` adds the following middleware:
 | Sequence | Middleware                  | Conditions                                        |
 | -------- | --------------------------- | ------------------------------------------------- |
