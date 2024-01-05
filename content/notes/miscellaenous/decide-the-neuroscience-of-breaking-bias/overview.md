@@ -52,9 +52,9 @@ To label bias:
 | Take a universal mitigation approach to decision making | Identify and mitigate specific bias triggers                                |
 
 ## Resources:  
-- [Research Summary](DECIDE%20M1%20Label%20Bias%20Research%20Summary.pdf)  
-- [Practice Tool](./DECIDE%20M1%20Label%20Bias%20Practice%20Tool.pdf)  
-- [SEEDS Model Job Aid](./DECIDE%20The%20SEEDS%20Model%20Job%20Aid.pdf)  
+- [Research Summary](../DECIDE%20M1%20Label%20Bias%20Research%20Summary.pdf)  
+- [Practice Tool](../DECIDE%20M1%20Label%20Bias%20Practice%20Tool.pdf)  
+- [SEEDS Model Job Aid](../DECIDE%20The%20SEEDS%20Model%20Job%20Aid.pdf)  
 
 # Mitigate
 We cannot turn *knowing about bias* into *doing something about bias* without the right strategies.
@@ -82,9 +82,9 @@ If/Then Plan Mitigation
 - If/then plan: call on people on the phone to speak first.
 
 ## Resources
-- [Research Summary](./DECIDE%20M2%20Mitigate%20Bias%20Research%20Summary.pdf)
-- [Practice Tool](./DECIDE%20M1%20Label%20Bias%20Practice%20Tool.pdf)
-- [Decision Guide](./DECIDE%20Mitigate%20Bias%20Decision%20Guide.pdf)
+- [Research Summary](../DECIDE%20M2%20Mitigate%20Bias%20Research%20Summary.pdf)
+- [Practice Tool](../DECIDE%20M1%20Label%20Bias%20Practice%20Tool.pdf)
+- [Decision Guide](../DECIDE%20Mitigate%20Bias%20Decision%20Guide.pdf)
 
 # Engage
 Engage with others to counteract bias. Discuss bias in a non-threatening, accountable way.
@@ -108,6 +108,6 @@ In bias mitigation, *diversity* means stimulating people in the room to think di
 in diversity, the group assesses information more carefully, resulting in superior performance on complex tasks.
 
 ## Resources
-- [Research Summary](./DECIDE%20M3%20Engage%20Others%20Research%20Summary.pdf)
-- [Practice Tool](./DECIDE%20M3%20Engage%20Others%20Practice%20Tool.pdf)
-- [Discussion Guide](./DECIDE%20Discuss%20Bias%20Guide.pdf)
+- [Research Summary](../DECIDE%20M3%20Engage%20Others%20Research%20Summary.pdf)
+- [Practice Tool](../DECIDE%20M3%20Engage%20Others%20Practice%20Tool.pdf)
+- [Discussion Guide](../DECIDE%20Discuss%20Bias%20Guide.pdf)
