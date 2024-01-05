@@ -1,5 +1,5 @@
 ---
-title: http logging
+title: "http logging"
 date: 2023-05-14T00:00:00-06:00
 draft: false
 weight: 1
@@ -14,7 +14,7 @@ HTTP logging middleware logs information about incoming HTTP requests and HTTP r
 # Enabling
 1. Call `AddHttpLogging` and `UseHttpLogging`:  
     `Program.cs`  
-    ```cs {hl_lines=3,7}
+    ```cs {hl_lines=[3,7]}
     var builder = WebApplication.CreateBuilder(args);
 
     // the empty lambda here uses default logging options:

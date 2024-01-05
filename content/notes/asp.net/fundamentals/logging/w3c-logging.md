@@ -1,5 +1,5 @@
 ---
-title: w3c logging
+title: "w3c logging"
 date: 2023-05-14T00:00:00-06:00
 draft: false
 weight: 1
@@ -13,7 +13,8 @@ Middleware that writes log files in the [W3C standard format](https://www.w3.org
 
 # Enabling
 Call `UseW3Logging`:  
-`Program.cs`
+
+`Program.cs`  
 ```cs
 var app = builder.Build();
 
