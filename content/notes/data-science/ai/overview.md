@@ -28,4 +28,4 @@ Branches of AI:
 # Overview
 This mindmap provides a high level overview of AI topics.
 
-![](./ai.svg)
+![](../ai.svg)
