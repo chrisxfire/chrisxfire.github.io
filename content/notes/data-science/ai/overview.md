@@ -24,3 +24,8 @@ Branches of AI:
 - [Machine Learning](../../ai/machine-learning/) — using data to create predictive models.
   - Deep Learning
 - Natural Language Processing — enable machine understanding of written and spoken language.
+
+# Overview
+This mindmap provides a high level overview of AI topics.
+
+![](./ai.svg)
