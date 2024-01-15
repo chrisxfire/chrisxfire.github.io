@@ -8,6 +8,7 @@ weight: 1
 # Canvas
 | Action | Keystrokes |
 |--------|------------|
+Grid (toggle) | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd>
 Move drawing area | <kbd>Space</kbd> + **drag mouse**
 Zoom | <kbd>Alt</kbd> + **scroll wheel**
 
@@ -89,11 +90,13 @@ Clone shape with connectors | **Select** shape > <kbd>Alt</kbd> + <kbd>Shift</kb
 Change shape after cloning | Release <kbd>Alt</kbd> > **Click** new shape
 Copy style of one shape to another | **Style** tab > **Copy Style** and **Paste Style**
 Flip shapes | **Select** shape > Format panel >> **Arrange** tab > **Flip**
-Replace shape > **Drag** new shape over existing until the blue/black conversion symbol is shown
-Replace multiple shapes > **Select** all shapes to be replaced > **Drag** new shape over *one* of the shapes
-Insert a new connected shape > **Hover** over the shape > **Click** blue arrow > **Select** new shape
-Delete a shape and the connected leading to it > <kbd>Ctrl</kbd> + <kbd>Backspace</kbd>
-Add a hyperlink to a Shape > **Right-click** > **Edit Link** > **Web Link**
+Group Shapes | <kbd>Ctrl</kbd> + <kbd>G</kbd>
+Ungroup Shapes | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>U</kbd>
+Replace shape | **Drag** new shape over existing until the blue/black conversion symbol is shown
+Replace multiple shapes | **Select** all shapes to be replaced > **Drag** new shape over *one* of the shapes
+Insert a new connected shape | **Hover** over the shape > **Click** blue arrow > **Select** new shape
+Delete a shape and the connected leading to it | <kbd>Ctrl</kbd> + <kbd>Backspace</kbd>
+Add a hyperlink to a Shape > **Right-click** | **Edit Link** > **Web Link**
 
 # Swimlane Diagrams
 | Action | Keystrokes |

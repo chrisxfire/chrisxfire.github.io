@@ -23,6 +23,15 @@ A collection of some of my favorite quotes.
 <q>There is no law of progress. Our future is in our own hands, to make or to mar. It will be an uphill fight to the end, and would we have it otherwise? Let no one suppose that evolution will ever exempt us from struggles. 'You forget,' said the Devil, with a chuckle, 'that I have been evolving too.'</q> 
 —William Ralph Inge
 
+<q>Keep your face always toward the sunshine, and shadows will fall behind you.</q>  
+—Walt Whitman
+
+<q>What lies behind you and what lies in front of you, pales in comparison to what lies inside of you.</q>  
+—Ralph Waldo Emerson
+
+<q>The only impossible journey is the one you never begin.</q>  
+—Tony Robbins
+
 # On Books
 <q>Some books are to be tasted, others to be swallowed, and some few to be chewed and digested: that is, some books are to be read only in parts, others to be read, but not curiously, and some few to be read wholly, and with diligence and attention.</q> 
 —Sir Francis Bacon
@@ -309,3 +318,12 @@ A collection of some of my favorite quotes.
 
 <q>When it is all finished, you will then finally see. It was never random.</q> 
 —Unknown 
+
+<q>Hope is not a strategy.</q>  
+—Unknown 
+
+<q>Let me have men about me that are fat,  
+Sleek-headed men and such as sleep a-nights.  
+Yond Cassius has a lean and hungry look,  
+He thinks too much; such men are dangerous.</q>  
+—Julius Caesar to Marcus Antonius (Shakespeare) 
