@@ -6,5 +6,8 @@ weight: 1
 ---
 
 # Overview
+`ocrmypdf` will OCR a PDF file and output a new version of that file with text recognized.
+
+# Installation
 1. Install package `ocrmypdf`.  
 2. Usage: `ocrmypdf /path/to/pdf-to-be-scanned.pdf /path/to/new-file-name.pdf`
