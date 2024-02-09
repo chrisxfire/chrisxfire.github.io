@@ -12,7 +12,7 @@ This mind map describes the elements of BPMN 2.0 along with rules and naming con
 
 > Credit: This mind map was created with content from https://www.bpmnquickguide.com/
 
-<a href="BPMN.svg">
-    <img alt="BPMN v2.0" src="BPMN.svg" width="100%" height="100%">
+<a href="./BPMN 2.0.svg">
+    <img alt="BPMN v2.0" src="./BPMN 2.0.svg" width="100%" height="100%">
 </a>
 
