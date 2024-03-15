@@ -18,21 +18,21 @@ Cognitive biases — mental shortcuts we use to process the world around us. The
 * Suboptimal outcomes — applying the same solution to a different context and expecting the same result.
 
 There are more than 150 cognitive biases.  The SEEDS&reg; model categorizes them into 5 categories:
-1. Similarity
-   a. Brains automatically categorize people as *in* group or *out* group. This is why we are biased to feeling more comfortable with people like ourselves.
+1. Similarity  
+   a. Brains automatically categorize people as *in* group or *out* group. This is why we are biased to feeling more comfortable with people like ourselves.  
    b. Biases in this category include *in-group bias* and *out-group bias*.
-2. Expedience
-   a. Thinking critically uses a lot of energy. To save energy, we use shortcuts. *If it feels right, it must be true*.
-   b. Biases in this category include *confirmation bias* and *availability bias*.
-3. Experience
-   a. Our brains are wired to make us believe that we see the world as it is — that our perceptions are giving us the full picture.
-   b. Biases in this category include *blind spot bias* and *fundamental attribution error*.
-4. Distance
-   a. The brain's proximity network measures distance in time and space, but assigns greater value to things that are neither.
-   b. Biases in this category include *temporal discounting* and *affective forecasting*.
-5. Safety
-   a. The brain's network for detecting threat is larger than detecting rewards.  We place more importance on potential losses than potential gains.  
-   b. Biases in this category include *loss aversion* and *framing effects*.
+2. Expedience  
+   a. Thinking critically uses a lot of energy. To save energy, we use shortcuts. *If it feels right, it must be true*.  
+   b. Biases in this category include *confirmation bias* and *availability bias*.  
+3. Experience  
+   a. Our brains are wired to make us believe that we see the world as it is — that our perceptions are giving us the full picture.  
+   b. Biases in this category include *blind spot bias* and *fundamental attribution error*.  
+4. Distance  
+   a. The brain's proximity network measures distance in time and space, but assigns greater value to things that are neither.  
+   b. Biases in this category include *temporal discounting* and *affective forecasting*.  
+5. Safety  
+   a. The brain's network for detecting threat is larger than detecting rewards.  We place more importance on potential losses than potential gains.   
+   b. Biases in this category include *loss aversion* and *framing effects*.  
 
 # Approach
 1. Label — we must label a bias before we can mitigate it.
