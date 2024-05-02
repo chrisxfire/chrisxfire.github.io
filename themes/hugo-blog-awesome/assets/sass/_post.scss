@@ -143,6 +143,7 @@
 
   h1 {
     // WAS: @include relative-font-size(1.5);
+    // WAS: @include relative-font-size(1.75);
     @include relative-font-size(1.85);    
   }
 
