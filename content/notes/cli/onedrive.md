@@ -1,7 +1,7 @@
 ---
 title: onedrive
 date: 2024-05-31T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
