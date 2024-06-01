@@ -93,6 +93,11 @@ Get-ChildItem -Path ./*.<EXT> -Recurse | Select-String
 cmd | out-file filename
 ```
 
+## Pipe to a File and Console
+```powershell
+cmd | Tee-Object -File filename
+```
+
 ## Remove Directory Recursively
 ```powershell
 ri path -Recurse -Force
