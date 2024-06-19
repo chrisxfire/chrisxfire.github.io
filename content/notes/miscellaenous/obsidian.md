@@ -1,7 +1,7 @@
 ---
 title: obsidian
 date: 2024-06-10T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 ---
 
@@ -35,7 +35,7 @@ There are the callout types and their aliases:
 ## Folding
 Fallouts are made foldable by adding a `+` (expanded by default) or `-` (collapsed by default) after the type identifier:
 ```
-> [!fag]- Foldable callout
+> [!faq]- Foldable callout
 > More info here.
 ```
 
