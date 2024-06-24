@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "3779b3995f3c107c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f60d897cfda74a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9600bb76b60eefd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1349754b28a80462",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1ee9c63a21e06f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1674fee71e768f89",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
+          },
+          {
+            "id": "1b2d8b01717aa62f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "05ef392baa024e40",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 332.5
+  },
+  "right": {
+    "id": "119a74c2d7bd8b44",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3d14e197d9e23d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "162b0fe6c3838ba7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c3e0ad1afb2184a2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5fb9c13d73ff7294",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "39da96422f76c5a8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false
+    }
+  },
+  "active": "c9600bb76b60eefd",
+  "lastOpenFiles": [
+    "personal/Quick-Notes/Traxxas.md",
+    "DPR/Entities/DBC-SurePods/2024-06-17 DBC-SurePods Technology Meeting.md",
+    "DPR/_Reference/media/Pasted image 20240617091733.png",
+    "DPR/Entities/DBC-SurePods/media/Screenshot 2024-05-30 150512.png",
+    "DPR/Entities/DBC-SurePods/2024-06-06 Meeting with Wendy Long re SurePods & DBC Support.md",
+    "DPR/_Reference/media",
+    "DPR/_Reference/Expenses.md",
+    "DPR/_Reference/Organizations.md",
+    "personal/Quick-Notes/Gift-Ideas/Eli.md",
+    "personal/Quick-Notes/Who-owns-your-data-.md",
+    "personal/Quick-Notes/Gift-Ideas/Jen.md",
+    "personal/Quick-Notes/Gift-Ideas/Noah.md",
+    "personal/Quick-Notes/Gift-Ideas/Me.md",
+    "personal/Quick-Notes/Definitions.md",
+    "personal/Quick-Notes/media/Traxxas-image2.png",
+    "personal/Quick-Notes/media/Traxxas-image1.png",
+    "personal/Quick-Notes/media/CurrentStateofQuantumComputing.pdf",
+    "personal/Quick-Notes/media/Definitions-image1.png",
+    "personal/me/Enneagram.md",
+    "personal/me/media/Pasted image 20240614155804.png",
+    "personal/me/media/Pasted image 20240614155552.png",
+    "DPR/People/Nina/2024-06-14 Open Asset.md",
+    "DPR/Projects/PCard/2024-06-10 Pcard Alignment.md",
+    "DPR/Entities/DBC-SurePods/Meeting with Wendy Long re SurePods & DBC Support.md",
+    "DPR/ETS/2024-06-12 ETS Leaders F2F.md",
+    "ref/misc/Untitled.md",
+    "templates/1-on-1.md",
+    "templates/Interview.md",
+    "templates/Meeting.md",
+    "DPR/_Sticky/PROBLEMS.md",
+    "DPR/Entities/DBC-SurePods/2024-06-06 Conversation with Maria re Wendy.md",
+    "DPR/T&I/2024-06-14 T&I LT Prioritization Discussion.md",
+    "DPR/Ever Forward LE/2024-05-30 DPR Ever Forward LE - Virtual LVI 360 Assessment Kickoff Call.md",
+    "DPR/Ever Forward LE/media/Next Steps for LVI.pdf",
+    "DPR/Ever Forward LE/media/Sample Communication for Raters.pdf",
+    "DPR/Ever Forward LE/media/LVI Quick Start Guide.pdf",
+    "LVI Quick Start Guide.pdf",
+    "DPR/Ever Forward LE/Leadership Versatility Index (LVI) Ratings.md",
+    "DPR/Ever Forward LE/media/Pasted image 20240530110918.png",
+    "DPR/Ever Forward LE/media/Pasted image 20240530110818.png",
+    "DPR/Ever Forward LE/media/Pasted image 20240530110836.png",
+    "DPR/Ever Forward LE/media",
+    "personal/readings/Practical-Wisdom.md",
+    "templates/1-on-1",
+    "DPR/_Reference",
+    "DPR/Vendors/vConstruct",
+    "DPR/People/abhijit/Untitled.canvas"
+  ]
+}
