@@ -9,7 +9,7 @@ weight: 1
 Two options - try them in this order:
 
 ## Option 1
-1. kbd>Win</kbd> > **Run** > `wsreset.exe`
+1. <kbd>Win</kbd> > **Run** > `wsreset.exe`
    * Close the Microsoft Store window.
 
 ## Option 2
