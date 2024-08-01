@@ -9,7 +9,6 @@
 // Post title
 .header {
   margin-top: 7.8em;
-  // ALT: margin-top: 2.0em;
 
   .header-title {
     font-size: 2em;
@@ -142,16 +141,17 @@
   }
 
   h1 {
-    // WAS: @include relative-font-size(1.5);
-    // WAS: @include relative-font-size(1.75);
-    @include relative-font-size(1.85);    
+    // WAS: 1.5
+    @include relative-font-size(1.85);
   }
 
   h2 {
+    // WAS: 1.375
     @include relative-font-size(1.500);
   }
 
   h3 {
+    // WAS: 1.25
     @include relative-font-size(1.375);
   }
 

@@ -38,7 +38,6 @@ ul,
 figure {
   margin: 0;
   padding: 0;
-  // ALT: padding: 5px 0px;
 }
 
 // Basic styling
@@ -289,7 +288,7 @@ table {
   border-collapse: collapse;
   // WAS: font-size: $small-font-size;
   font-size: $medium-font-size;
-
+  
   thead {
     font-weight: $bold-weight;
     color: $black;

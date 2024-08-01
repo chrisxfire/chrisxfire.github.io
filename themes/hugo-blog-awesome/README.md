@@ -1,12 +1,12 @@
 <div align=center> 
  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/feat/logo-change/assets/icons/book-icon-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/feat/logo-change/assets/icons/book-icon-light.svg">
-  <img alt="Hashnode logo" src="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/feat/logo-change/assets/icons/book-icon-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/main/assets/icons/book-icon-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/main/assets/icons/book-icon-light.svg">
+  <img alt="Hugo blog awesome logo" src="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/feat/logo-change/assets/icons/book-icon-light.svg" />
 </picture>
  
 </div>
-<h1 align=center> Hugo Blog Awesome | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo</a></h1>
+<h1 align=center> Hugo Blog Awesome | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo link</a></h1>
 
 <h4 align=center>⚡ Fast | 📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design </h4>
 
@@ -21,13 +21,22 @@
 
 ![Page speed score](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/pagespeed.png)
 
-Google PageSpeed Insights [test link](https://pagespeed.web.dev/report?url=https%3A%2F%2Fhugo-blog-awesome.netlify.app%2F).
+The result shown above was last confirmed on September 23, 2023. You can check the details of the PageSpeed test at this link: [Link to the analysis](https://pagespeed.web.dev/analysis/https-hba-sid-one/uh4rm91hnj?form_factor=mobile). You can also do a live [PageSpeed test](https://pagespeed.web.dev/analysis?url=https://hba.sid.one/) of the [demo website](https://hba.sid.one) now.
 
 </details>
 
+## Features
+
+- Minimal design
+- Light and dark mode
+- Syntax highlighting
+- RSS feed
+- No jQuery, no Bootstrap
+- 100/100 Google PageSpeed Insights [score](https://pagespeed.web.dev/analysis/https-hba-sid-one/uh4rm91hnj?form_factor=mobile) on all 4 metrics
+
 ## Why this theme?
 
-Hugo Blog Awesome is a theme crafted to capture your readers' attention.
+Hugo Blog Awesome (HBA) is a theme crafted to capture your readers' attention.
 
 Additionally, it's fast, [privacy-conscious](https://themarkup.org/blacklight?url=hba.sid.one), and comes with no external dependencies. That's right. There are no Google fonts, icon packs, or JavaScript frameworks. No trackers or ads to bloat your website.
 
@@ -35,21 +44,38 @@ Its focus on minimalism and clean UI ensures that your content takes the spotlig
 
 Built with Hugo, SCSS, and vanilla JavaScript.
 
-## Features
-
-- Minimal design
-- Responsive design
-- Light and dark modes
-- Syntax highlighting
-- RSS feed
-- No jQuery, Bootstrap
-- 100/100 Google PageSpeed Insights [score](https://pagespeed.web.dev/report?url=https%3A%2F%2Fhugo-blog-awesome.netlify.app%2F) on all 4 metrics
-
 ## Setup
 
-> **Note**: You need to have the Hugo extended version installed in order to use this theme. This theme uses SCSS for styling. With the Hugo extended version, SCSS can be compiled to CSS without any additional tools.
+> **Note**
+> You must have the [Hugo extended version](https://gohugo.io/installation/linux/#editions) installed in order to use this theme. This theme uses Sass for styling. With the Hugo extended version, Sass can be transpiled to CSS without any additional tools.
 
-To create a new Hugo site with this theme, run the following command:
+### Using the theme as Hugo module
+
+First create a new Hugo site by running the following command:
+
+    hugo new site myblog
+
+Initialize your new Hugo site as hugo module by running the following command:
+
+    hugo mod init github.com/USER/REPO
+
+Afterwards, run this command to add hugo-blog-awesome as module to your site:
+
+    hugo mod get github.com/hugo-sid/hugo-blog-awesome
+
+To make use of the theme, add this module configuration to your site's `hugo.toml`:
+
+    [module]
+      [[module.imports]]
+        path = "github.com/hugo-sid/hugo-blog-awesome"
+
+To preview the theme with example content, run the following command from the `exampleSite` directory:
+
+    hugo server
+
+### Using the theme as Git submodule
+
+To create a new Hugo site with this theme as Git submodule, run the following command:
 
     hugo new site myblog
 
@@ -62,16 +88,14 @@ To preview the theme with example content, run the following command from the `e
 
     hugo server --themesDir ../..
 
-## Usage
-
-To use this theme, set the `theme` variable in your site's `config.toml` to `hugo-blog-awesome`:
+To use this theme, set the `theme` variable in your site's `hugo.toml` to `hugo-blog-awesome`:
 
     theme = "hugo-blog-awesome"
 
 ## Configuration
 
-You can take a look at the `config.toml` file in the `exampleSite` directory for an example configuration.
-It is recommended that you copy the `config.toml` file from the `exampleSite` directory to the root directory of your Hugo site. You can then edit the `config.toml` file to suit your needs.
+You can take a look at the `hugo.toml` file in the `exampleSite` directory for an example configuration.
+It is recommended that you copy the `hugo.toml` file from the `exampleSite` directory to the root directory of your Hugo site. You can then edit the `hugo.toml` file to suit your needs.
 
 ### Adding favicon
 
@@ -81,7 +105,7 @@ If you want to customize anything further, you can modify `layouts\partials\head
 
 ### Adding Social icons
 
-Social icons can be added by congifuring `config.toml` file in the following manner.
+Social icons can be added by configuring `hugo.toml` file in the following manner.
 
 ```toml
 [[params.socialIcons]]
@@ -108,6 +132,7 @@ url = "index.xml"
 | `behance`       | behance.net                     |
 | `bilibili`      | bilibili.com                    |
 | `bitcoin`       | -                               |
+| `bluesky`       | bsky.app                        |
 | `buymeacoffee`  | buymeacoffee.com                |
 | `codepen`       | codepen.io                      |
 | `cryptohack`    | cryptohack.org                  |
@@ -162,17 +187,20 @@ url = "index.xml"
 | `serverfault`   | serverfault.com                 |
 | `soundcloud`    | soundcloud.com                  |
 | `shutterstock`  | shutterstock.com                |
+| `signal`        | signal.org                      |
 | `slack`         | slack.com                       |
 | `snapchat`      | snapchat.com/add                |
 | `spotify`       | spotify.com                     |
 | `stackoverflow` | stackoverflow.com               |
+| `stackshare`    | stackshare.io                   |
 | `steam`         | steampowered.com                |
 | `strava`        | strava.com                      |
 | `telegram`      | telegram.org                    |
 | `tiktok`        | tiktok.com                      |
 | `twitch`        | twitch.tv                       |
-| `twitter`       | twitter.com                     |
+| `twitter` (the blue bird logo)       | twitter.com                     |
 | `unsplash`      | unsplash.com                    |
+| `x` (formerly Twitter)             | x.com                           |
 | `xda`           | xda-developers.com              |
 | `xing`          | xing.com                        |
 | `ycombinator`   | ycombinator.com                 |
@@ -185,7 +213,7 @@ If you are trying to add an icon that is not listed above, you can modify `layou
 
 ### Enable go to top button
 
-To enable go to top button on blog posts, set `goToTop` to `true` in `config.toml` file.
+To enable go to top button on blog posts, set `goToTop` to `true` in `hugo.toml` file.
 
 ```toml
 [params]
@@ -204,7 +232,7 @@ Then, edit the `my-first-post.md` file to suit your needs.
 
 ### Comments
 
-To enable Disqus comments, set `disqusShortname` in your site's `config.toml`.
+To enable Disqus comments, set `services.disqus.shortname` in your site's `hugo.toml`.
 
 To use another comments system, provide your own `comments.html` partial in `layouts\partials\comments.html`.
 
@@ -236,6 +264,11 @@ If you are using this theme for any website, feel free to list the website here.
 - <https://ruiper.es/>
 - <https://www.magicplace.de/>
 - <https://bskdany.com/>
+- <https://josephscottcampbell.com/>
+- <https://heckintosh.github.io/>
+- <https://dieter.plaetinck.be/>
+- <https://jmbhughes.com/>
+- <https://www.boniface.me/>
 
 ## Support
 

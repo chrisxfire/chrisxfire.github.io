@@ -53,10 +53,10 @@ $bold-weight: 600;
 // $black-weight: 900; // uncomment if necessary
 
 //////////////// 4.Responsive design (media queries) /////////////////
-// WAS: $wide-size: 1024px;
-$wide-size: 1600px;
-// WAS: $narrow-size: 980px;
-$narrow-size: 1200px;
+// TRY: 1600px 
+$wide-size: 890px;
+// TRY: 1200px
+$narrow-size: 720px;
 
 // Padding unit
 // WAS: $spacing-full: 30px
@@ -94,6 +94,7 @@ $on-widescreen: 1600px;
 @import "miscellaneous";
 @import "dark";
 @import "listpage";
+@import "custom";
 
 {{ with .Site.Params.goToTop }}
 @import "goToTop";

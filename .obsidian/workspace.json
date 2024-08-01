@@ -11,13 +11,8 @@
             "id": "faacdf25e3a58815",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "themes/hugo-blog-awesome/CHANGELOG.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "themes/hugo-blog-awesome/CHANGELOG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,9 +102,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "themes/hugo-blog-awesome/CHANGELOG.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -132,53 +124,53 @@
   },
   "active": "faacdf25e3a58815",
   "lastOpenFiles": [
+    "themes/hugo-blog-awesome/layouts/partials/giscus.html",
+    "themes/hugo-blog-awesome/static/fonts/Open Sans/README.txt",
+    "themes/hugo-blog-awesome/static/fonts/Open Sans/OpenSans-VariableFont_wdth,wght.ttf",
+    "themes/hugo-blog-awesome/static/fonts/Open Sans/OpenSans-SemiBoldItalic.ttf",
+    "themes/hugo-blog-awesome/static/fonts/Open Sans/OpenSans_SemiCondensed-SemiBoldItalic.ttf",
+    "themes/hugo-blog-awesome/static/fonts/Open Sans/OpenSans-SemiBold.ttf",
+    "themes/hugo-blog-awesome/static/fonts/Open Sans/OpenSans-Regular.ttf",
+    "themes/hugo-blog-awesome/static/fonts/Open Sans/OpenSans-MediumItalic.ttf",
+    "themes/hugo-blog-awesome/static/fonts/Open Sans/OpenSans-Medium.ttf",
+    "themes/hugo-blog-awesome/static/fonts/Open Sans/OpenSans-LightItalic.ttf",
+    "themes/hugo-blog-awesome/static/fonts/Open Sans/OpenSans-Light.ttf",
+    "themes/hugo-blog-awesome/static/fonts/Roboto/roboto-v30-latin-regular.svg",
     "themes/hugo-blog-awesome/README.md",
-    "content/notes/asp.net/web-apps/blazor/idioms/pagination.md",
-    "content/notes/asp.net/web-apps/blazor/components/quickgrid-component/index.md",
-    "notes/cli/git/undoing-changes/index.md",
-    "notes/cli/git/_index.md",
-    "notes/cli/git/add-remove-rename.md",
-    "notes/cli/git/branching.md",
-    "notes/cli/git/cloning.md",
-    "notes/cli/git/commit.md",
-    "notes/cli/git/commit-signatures.md",
-    "notes/cli/git/configuration.md",
-    "notes/cli/git/credential-manager.md",
-    "notes/cli/git/diffs.md",
-    "notes/cli/git/gitignore.md",
-    "notes/cli/git/help.md",
-    "notes/cli/git/logs.md",
-    "notes/cli/git/merging.md",
-    "notes/cli/git/overview.md",
-    "notes/cli/git/patterns.md",
-    "notes/cli/git/remotes.md",
-    "notes/cli/git/status.md",
-    "notes/cli/git/sterilizing-a-repo.md",
-    "notes/cli/git/tagging.md",
-    "notes/cli/git/troubleshooting.md",
-    "notes/cli/git/updating-git.md",
-    "notes/cli/nuget/_index.md",
-    "people/wendy long",
-    "projects/oes what-did-we-buy report",
-    "_fleeting/_files/Email 11.pdf",
-    "temp/~$GEJ IT Services Agreements Summary.tmp",
-    "_fleeting/_files/Circles of Influence.png",
-    "groups",
-    "vendors/quest & erwin/_files/DPRConstruction-2024Renewal.pdf",
-    "people/subhashish",
-    "projects/gej transition/_files/0.png",
-    "ever forward leadership experience/_files/Leadership Versatility Index self assessment.pdf",
-    "ever forward leadership experience/_files/Leadership Versatility Index Jeanne Boughner.pdf",
-    "projects/gej transition/_files/2024-12_GEJ-OES_Amendment_to_MA_-_Inquiry_Onl.pdf",
-    "_fleeting/_files/Pasted image 20240726131012.png",
-    "_fleeting/_files/Pasted image 20240725094040.png",
+    "themes/hugo-blog-awesome/layouts/partials/svgs/sun.svg",
+    "themes/hugo-blog-awesome/layouts/partials/svgs/menu.svg",
+    "themes/hugo-blog-awesome/layouts/partials/svgs/home.svg",
+    "themes/hugo-blog-awesome/layouts/partials/svgs/arrowUp.svg",
+    "themes/hugo-blog-awesome/exampleSite/content/it/posts/table-of-content/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/ru/posts/rich-content/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/ru/posts/markdown-syntax/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/ru/posts/markdown-syntax/1.jpg",
+    "themes/hugo-blog-awesome/exampleSite/content/ru/posts/table-of-content/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/en/posts/rich-content/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/ru/posts/placeholder-text/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/ru/posts/math-typesetting/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/it/posts/math-typesetting/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/it/posts/placeholder-text/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/en/posts/math-typesetting/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/ru/posts/emoji-support/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/it/posts/markdown-syntax/1.jpg",
+    "themes/hugo-blog-awesome/exampleSite/content/it/posts/rich-content/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/it/posts/markdown-syntax/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/en/posts/placeholder-text/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/it/posts/emoji-support/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/en/posts/table-of-content/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/en/posts/markdown-syntax/1.jpg",
+    "themes/hugo-blog-awesome/exampleSite/content/en/posts/markdown-syntax/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/en/posts/emoji-support/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/de/posts/placeholder-text/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/de/posts/table-of-content/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/de/posts/rich-content/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/de/posts/emoji-support/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/de/posts/math-typesetting/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/de/posts/markdown-syntax/index.md",
+    "themes/hugo-blog-awesome/exampleSite/content/de/posts/markdown-syntax/1.jpg",
+    "themes/hugo-blog-awesome/exampleSite/assets/avatar.jpg",
     "temp/Untitled.canvas",
-    "projects/ets re-org/ets org analysis/Future State Org Chart.png",
-    "projects/ets re-org/ets org analysis/Present State Org Chart.png",
-    "projects/ets re-org/image.png",
-    "projects/laptop lifecycle analysis/Data/Laptop Lifecycle Processes-Request.drawio.png",
-    "projects/laptop lifecycle analysis/Data/Laptop Lifecycle Processes-Provision.drawio.png",
-    "projects/laptop lifecycle analysis/Data/Laptop Lifecycle Processes-Order & Receive.drawio.png",
     "Untitled.canvas"
   ]
 }

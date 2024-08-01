@@ -72,15 +72,12 @@
   }
 
   // Inline code
-  // Added the below line, otherwise inline code does not get stylized in list items
   li>code,
   p>code {
     font-size: 0.9em;
     padding: 1px 3px;
-    // ALT: padding: 1px 1px;
     position: relative;
     // WAS: top: -1px;
-    // ALT: top: -1px;
     color: $dark-inline-code-text;
     background-color: $dark-inline-code-bg;
     border-radius: 2px;

@@ -33,20 +33,21 @@
             —John von Neumann, 1948
         </aside>
         {{ partial "bio" . }}
-        <h3 class="posts-item-note" aria-label="Recent Notes">Recent Notes</h3>
-        {{/* Show last 5 posts in reverse date order */}}
-        {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
-        {{ $posts := $pagesToShow.ByDate.Reverse }}
-        {{ range first 10 $posts }}
-        {{ partial "postCard" . }}
-        {{ end }}
-        {{ if gt (len $posts) 5 }}
-        <p>
-            {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
-            <a href="{{ $firstSection.Permalink }}">See all notes</a>
+        <main aria-label="Content">
+            <h3 class="posts-item-note" aria-label="Recent Notes">Recent Notes</h3>
+            {{/* Show last 5 posts in reverse date order */}}
+            {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+            {{ $posts := $pagesToShow.ByDate.Reverse }}
+            {{ range first 10 $posts }}
+            {{ partial "postCard" . }}
             {{ end }}
-        </p>
-        {{ end }}
+            {{ if gt (len $posts) 5 }}
+            <p>
+                {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
+            <a href="{{ $firstSection.Permalink }}">See all notes</a>
+                {{ end }}
+            </p>
+            {{ end }}
         </main>
     </div>
     {{- partial "footer.html" . -}}

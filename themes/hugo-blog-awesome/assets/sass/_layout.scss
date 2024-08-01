@@ -13,6 +13,7 @@
     height: 70px;
     border-radius: 100%;
     user-select: none;
+    // Added the below line:
     background-color: $black;
     -ms-user-select: none;
     -webkit-user-select: none;
@@ -71,6 +72,10 @@
     font-size: $base-font-size;
     font-weight: normal;
     letter-spacing: 0.1px;
+
+    @include media-query($on-mobile) {
+      max-width: 15rem;
+    }
 
     a {
       color: $text-base-color;
@@ -252,7 +257,6 @@ mark {
   color: #000;
   border-radius: 3px;
 }
-
 
 // Breadcrumbs
 .breadcrumb {
