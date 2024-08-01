@@ -7,7 +7,7 @@ weight: 1
 # Exceptions
 All exceptions derive from `System.Exception`.
 
-#Catch Exceptions
+# Catch Exceptions
 ```cs
 try { … }
 catch (exception e) { // Catches a specific exception.  Stores it in e.

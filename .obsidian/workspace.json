@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1fa3016b51665c1d",
+        "id": "e62889702cc5d42f",
         "type": "tabs",
         "children": [
           {
-            "id": "faacdf25e3a58815",
+            "id": "278361285cc76d54",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TRY:",
+                "query": "tag:#Catch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -123,8 +123,9 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "3741c3abcdf7e336",
+  "active": "278361285cc76d54",
   "lastOpenFiles": [
+    "content/notes/_net/fundamentals/exceptions.md",
     "themes/hugo-blog-awesome/layouts/_default/index.json",
     "themes/hugo-blog-awesome/layouts/partials/breadcrumb.html",
     "themes/hugo-blog-awesome/layouts/_default/_markup/render-link.html",
@@ -135,7 +136,6 @@
     "themes/hugo-blog-awesome/renovate.json",
     "themes/hugo-blog-awesome/layouts/partials/giscus.html",
     "themes/hugo-blog-awesome/static/fonts/Open Sans/README.txt",
-    "themes/hugo-blog-awesome/static/fonts/Open Sans/OpenSans-VariableFont_wdth,wght.ttf",
     "themes/hugo-blog-awesome/static/fonts/Roboto/roboto-v30-latin-regular.svg",
     "themes/hugo-blog-awesome/README.md",
     "themes/hugo-blog-awesome/layouts/partials/svgs/sun.svg",
