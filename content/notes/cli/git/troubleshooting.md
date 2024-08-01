@@ -3,6 +3,8 @@ title: troubleshooting
 date: 2021-12-21T16:57:18-0700
 draft: false
 weight: 1
+tags:
+ - kb/cli/git
 ---
 
 # Git is not respecting .gitignore

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/cli/git/undoing-changes/index.md",
+                "file": "notes/operating-systems/windows/cmd.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/cli/git/undoing-changes/index.md",
+                "file": "notes/operating-systems/windows/cmd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/cli/git/undoing-changes/index.md"
+                "file": "notes/operating-systems/windows/cmd.md"
               }
             }
           }
@@ -134,6 +134,7 @@
   },
   "active": "b42a8098793d8076",
   "lastOpenFiles": [
+    "notes/cli/git/undoing-changes/index.md",
     "notes/cli/git/_index.md",
     "notes/cli/git/add-remove-rename.md",
     "notes/cli/git/branching.md",
@@ -159,7 +160,6 @@
     "notes/cli/nuget/central-package-management.md",
     "notes/cli/_index.md",
     "notes/cli/github-cli.md",
-    "notes/cli/onedrive.md",
     "people/wendy long",
     "projects/oes what-did-we-buy report",
     "_fleeting/_files/Email 11.pdf",

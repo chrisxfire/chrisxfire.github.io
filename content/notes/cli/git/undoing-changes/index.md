@@ -3,6 +3,8 @@ title: undoing changes
 date: 2022-10-23T16:04:59-0600
 draft: false
 weight: 1
+tags:
+ - kb/cli/git
 ---
 
 # Exploring Previous Commits

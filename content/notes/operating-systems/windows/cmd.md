@@ -3,8 +3,19 @@ title: cmd
 date: 2017-04-03T00:00:00-06:00
 draft: false
 weight: 1
+tags:
+ - kb/operating-systems/windows/cmd
 ---
 
+# Certificate Management
+Find available encryption algorithms:
+`certutil -oid 2 | findstr pwszCNGAlgid`
+
+Find available hash algorithms:
+`certutil -oid 1 | findstr pwszCNGAlgid | findstr /v CryptOIDInfo`
+
+Find available CSPs:
+`certutil -csplist`
 # Disk Management
 ## Recover flash drive
 ```batchfile

@@ -3,6 +3,8 @@ title: patterns
 date: 2021-08-18T10:28:58-0600
 draft: false
 weight: 1
+tags:
+ - kb/cli/git
 ---
 
 # Overview

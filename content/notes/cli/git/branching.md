@@ -3,6 +3,8 @@ title: branching
 date: 2021-05-30T18:28:35-0600
 draft: false
 weight: 1
+tags:
+ - kb/cli/git
 ---
 # Managing Branches
 - `git branch BRANCH` – create a new branch named branch (but don't switch to it) 
