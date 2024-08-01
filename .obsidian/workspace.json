@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "eaf7c3213c904b3b",
+        "id": "1fa3016b51665c1d",
         "type": "tabs",
         "children": [
           {
-            "id": "b42a8098793d8076",
+            "id": "faacdf25e3a58815",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "themes/hugo-blog-awesome/CHANGELOG.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#FragmentName",
+                "query": "pagination",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -81,6 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "themes/hugo-blog-awesome/CHANGELOG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +108,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "themes/hugo-blog-awesome/CHANGELOG.md"
+              }
             }
           }
         ],
@@ -122,8 +130,11 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "b42a8098793d8076",
+  "active": "faacdf25e3a58815",
   "lastOpenFiles": [
+    "themes/hugo-blog-awesome/README.md",
+    "content/notes/asp.net/web-apps/blazor/idioms/pagination.md",
+    "content/notes/asp.net/web-apps/blazor/components/quickgrid-component/index.md",
     "notes/cli/git/undoing-changes/index.md",
     "notes/cli/git/_index.md",
     "notes/cli/git/add-remove-rename.md",
@@ -147,9 +158,6 @@
     "notes/cli/git/troubleshooting.md",
     "notes/cli/git/updating-git.md",
     "notes/cli/nuget/_index.md",
-    "notes/cli/nuget/central-package-management.md",
-    "notes/cli/_index.md",
-    "notes/cli/github-cli.md",
     "people/wendy long",
     "projects/oes what-did-we-buy report",
     "_fleeting/_files/Email 11.pdf",
