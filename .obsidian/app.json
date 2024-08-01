@@ -23,6 +23,6 @@
   "tabSize": 4,
   "userIgnoreFilters": [],
   "newLinkFormat": "shortest",
-  "newFileLocation": "folder",
+  "newFileLocation": "root",
   "newFileFolderPath": "notes"
 }
