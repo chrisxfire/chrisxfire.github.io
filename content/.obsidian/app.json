@@ -1,7 +1,7 @@
 {
-  "strictLineBreaks": true,
+  "strictLineBreaks": false,
   "propertiesInDocument": "source",
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
   "showInlineTitle": false,
   "promptDelete": false,
@@ -18,8 +18,11 @@
   "defaultViewMode": "source",
   "autoPairMarkdown": true,
   "autoPairBrackets": true,
-  "attachmentFolderPath": "./_files",
+  "attachmentFolderPath": "./",
   "showLineNumber": false,
   "tabSize": 4,
-  "userIgnoreFilters": []
+  "userIgnoreFilters": [],
+  "newLinkFormat": "shortest",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "notes"
 }

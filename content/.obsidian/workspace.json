@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/cli/git/troubleshooting.md",
+                "file": "notes/cli/git/undoing-changes/index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/cli/git/troubleshooting.md",
+                "file": "notes/cli/git/undoing-changes/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/cli/git/troubleshooting.md"
+                "file": "notes/cli/git/undoing-changes/index.md"
               }
             }
           }
@@ -134,32 +134,32 @@
   },
   "active": "b42a8098793d8076",
   "lastOpenFiles": [
-    "notes/cli/git/updating-git.md",
-    "notes/cli/git/merging.md",
-    "notes/cli/git/logs.md",
-    "notes/cli/git/help.md",
-    "notes/cli/git/gitignore.md",
-    "notes/cli/git/diffs.md",
-    "notes/cli/git/credential-manager.md",
-    "notes/cli/git/configuration.md",
-    "notes/cli/git/commit-signatures.md",
-    "notes/cli/git/commit.md",
-    "notes/cli/git/cloning.md",
-    "notes/cli/git/branching.md",
-    "notes/cli/git/add-remove-rename.md",
     "notes/cli/git/_index.md",
+    "notes/cli/git/add-remove-rename.md",
+    "notes/cli/git/branching.md",
+    "notes/cli/git/cloning.md",
+    "notes/cli/git/commit.md",
+    "notes/cli/git/commit-signatures.md",
+    "notes/cli/git/configuration.md",
+    "notes/cli/git/credential-manager.md",
+    "notes/cli/git/diffs.md",
+    "notes/cli/git/gitignore.md",
+    "notes/cli/git/help.md",
+    "notes/cli/git/logs.md",
+    "notes/cli/git/merging.md",
+    "notes/cli/git/overview.md",
+    "notes/cli/git/patterns.md",
+    "notes/cli/git/remotes.md",
+    "notes/cli/git/status.md",
+    "notes/cli/git/sterilizing-a-repo.md",
+    "notes/cli/git/tagging.md",
+    "notes/cli/git/troubleshooting.md",
+    "notes/cli/git/updating-git.md",
     "notes/cli/nuget/_index.md",
     "notes/cli/nuget/central-package-management.md",
     "notes/cli/_index.md",
     "notes/cli/github-cli.md",
     "notes/cli/onedrive.md",
-    "notes/cli/powershell/overview.md",
-    "notes/cli/powershell/openssh.md",
-    "notes/cli/powershell/_index.md",
-    "notes/cli/powershell/modules/_index.md",
-    "notes/cli/powershell/modules/ad.md",
-    "notes/cli/powershell/modules/azure-ad.md",
-    "notes/cli/powershell/modules/exchange-online-management.md",
     "people/wendy long",
     "projects/oes what-did-we-buy report",
     "_fleeting/_files/Email 11.pdf",
