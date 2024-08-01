@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pagination",
+                "query": "TRY:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -61,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +123,7 @@
       "mxmind:Mxmind": false
     }
   },
-  "active": "faacdf25e3a58815",
+  "active": "3741c3abcdf7e336",
   "lastOpenFiles": [
     "themes/hugo-blog-awesome/layouts/_default/index.json",
     "themes/hugo-blog-awesome/layouts/partials/breadcrumb.html",

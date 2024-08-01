@@ -53,10 +53,10 @@ $bold-weight: 600;
 // $black-weight: 900; // uncomment if necessary
 
 //////////////// 4.Responsive design (media queries) /////////////////
-// TRY: 1600px 
-$wide-size: 890px;
-// TRY: 1200px
-$narrow-size: 720px;
+// WAS: 890px 
+$wide-size: 1600px;
+// WAS: 720px
+$narrow-size: 1200px;
 
 // Padding unit
 // WAS: $spacing-full: 30px
