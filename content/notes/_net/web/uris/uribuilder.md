@@ -17,7 +17,7 @@ Construct and modify URIs for the Uri class.
 
 # Properties
 Assuming a URI https://user:password@www.contoso.com:80/Home/Index.htm?q1=v1&q2=v2#FragmentName:
-- `Fragment` — #FragmentName
+- `Fragment` — `#FragmentName`
 - `Host` — [www.contoso.com](http://www.contoso.com)
 - `Password` — password
 - `Path` — /Home/Index.htm

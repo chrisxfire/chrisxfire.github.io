@@ -21,7 +21,9 @@
   "attachmentFolderPath": "./",
   "showLineNumber": false,
   "tabSize": 4,
-  "userIgnoreFilters": [],
+  "userIgnoreFilters": [
+    "themes/hugo-blog-awesome/exampleSite/"
+  ],
   "newLinkFormat": "shortest",
   "newFileLocation": "root",
   "newFileFolderPath": "notes"

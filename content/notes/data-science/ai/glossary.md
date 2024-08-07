@@ -13,7 +13,7 @@ weight: 1
 
 Related: neural networks
 
-# generative AI [[Documentation](https://en.wikipedia.org/wiki/Generative_artificial_intelligence?WT.mc_id=academic-105485-koreyst)]
+# [generative AI](https://en.wikipedia.org/wiki/Generative_artificial_intelligence?WT.mc_id=academic-105485-koreyst) 
 > Artificial intelligence that is capable of generating text, images, and other content.  
 
 Related: large language model

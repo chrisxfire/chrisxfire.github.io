@@ -84,17 +84,17 @@ common:
 - `robocopy /FP` # Include Full Pathname in the output
 - `robocopy /LOG+:*file*` # Output log to *file*, appending
 - `robocopy /TEE` # Output to console window as well as log file
-- `robocopy /SAVE:*jobname*` # Saves parameters to jobfile *jobname*
-- `robocopy /LOAD:*jobname*` # Loads parameters from jobfile *jobname*
+- `robocopy /SAVE:JOB_NAME` # Saves parameters to jobfile *jobname*
+- `robocopy /LOAD:JOB_NAME` # Loads parameters from jobfile *jobname*
 
 `robocopy "C:\Users\chris\Google Drive" Z:\public\google-drive /S /MIR /R:5 /W:30 /TEE /V /LOG+:C:\Users\chris\Dropbox\Logs\robocopy.log /SAVE:gdrive-to-optiplex`
 
 # User Account
 ## Unlocking
-`net user *account* /domain | find /I "Account Active"`
+`net user ACCOUNT_NAME /domain | find /I "Account Active"`
 
 If no:
-`net user *account* /domain /active:YES`
+`net user ACCOUNT_NAME /domain /active:YES`
 
 # Windows Update Service
 ## Restarting the Windows Update service

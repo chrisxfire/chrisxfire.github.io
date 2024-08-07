@@ -30,7 +30,7 @@ Various fields are available for different URI schemes such as File, FTP, SSH, T
 - `AbsolutePath` — /Home/Index.htm
 - `AbsoluteUri`  — https://user:password@www.contoso.com:80/Home/Index.htm?q1=v1&q2=v2#FragmentName
 - `DnsSafeHost` — [www.contoso.com](http://www.contoso.com)
-- `Fragment` — #FragmentName
+- `Fragment` — `#FragmentName`
 - `Host` — [www.contoso.com](http://www.contoso.com)
 - `HostNameType` — Dns
 - `IdnHost` — [www.contoso.com](http://www.contoso.com)
