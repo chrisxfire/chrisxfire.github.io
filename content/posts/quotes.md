@@ -327,9 +327,9 @@ A collection of some of my favorite quotes.
  —Unknown 
 
 > Let me have men about me that are fat;
-Sleek-headed men and such as sleep o'nights:
-Yond Cassius has a lean and hungry look;
-He thinks too much: such men are dangerous.  
+> Sleek-headed men and such as sleep o'nights:
+> Yond Cassius has a lean and hungry look;
+> He thinks too much: such men are dangerous.  
  —Julius Caesar to Marcus Antonius (Shakespeare) 
 
 > My impression is that we have seen, perhaps for 150 years, a gradual increase in language that is either meaningless or destructive of meaning. And I believe that this increasing unreliability of language parallels the increasing disintegration, over the same period, of persons and communities.
