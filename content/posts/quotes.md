@@ -326,8 +326,13 @@ A collection of some of my favorite quotes.
 > Hope is not a strategy.  
  —Unknown 
 
-> Let me have men about me that are fat,  
-Sleek-headed men and such as sleep a-nights.  
-Yond Cassius has a lean and hungry look,  
-He thinks too much; such men are dangerous.  
+> Let me have men about me that are fat;
+Sleek-headed men and such as sleep o'nights:
+Yond Cassius has a lean and hungry look;
+He thinks too much: such men are dangerous.  
  —Julius Caesar to Marcus Antonius (Shakespeare) 
+
+> My impression is that we have seen, perhaps for 150 years, a gradual increase in language that is either meaningless or destructive of meaning. And I believe that this increasing unreliability of language parallels the increasing disintegration, over the same period, of persons and communities.
+
+> In this degenerative accounting, language is almost without the power of designation, because it is used conscientiously to refer to nothing in particular. Attention rests on percentages, categories, abstract functions... It is not language that the user will very likely be required to stand by or to act on, for it does not define any personal ground for standing or acting. It's only practical utility is to support with "expert opinion" a vast, impersonal technological action already begun. It is a tyrannical language.
+—Wendell Berry, 1983
