@@ -160,3 +160,6 @@ Tags can be nested like so: `#inbox/to-process`
 # Tasks
 A line can be marked as a task with <kbd>Ctrl</kbd> + <kbd>L</kbd>.  
 Tasks can be searched via `task-todo:<search term>` for open tasks and `task-done:<search term>` for closed tasks.
+
+## Task Plugin
+Documentation: [Introduction - Tasks User Guide - Obsidian Publish](https://publish.obsidian.md/tasks/Introduction)
