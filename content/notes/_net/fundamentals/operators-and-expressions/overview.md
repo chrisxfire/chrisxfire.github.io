@@ -3,6 +3,9 @@ title: overview
 date: 2022-01-02T00:00:00-06:00
 draft: false
 weight: -1
+tags:
+ - kb/dotnet/fundamentals/operators
+ - kb/dotnet/fundamentals/expressions
 ---
 
 # Operators
@@ -72,13 +75,13 @@ Normal method definition:
 ```cs
 public override string ToString()
 {
-    return $"{fname} {lname}".Trim();
+    return $"{firstName} {lastName}".Trim();
 }
 ```
 
 Lambda:
 ```cs
-public override string ToString() => $"{fname} {lname}".Trim
+public override string ToString() => $"{firstName} {lastName}".Trim
 ```
 
 # NOOP
@@ -87,7 +90,8 @@ The noop keyword in C# is `;` (a standalone semi-colon).
 # Implementing Operators
 Use the operator keyword to define a static method for an operator to implement it:
 ```cs
-public static Person operator *(Person p1, Person p2) {
+public static Person operator *(Person p1, Person p2) 
+{
     return Person.Procreate(p1, p2);
 }
 

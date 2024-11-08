@@ -3,6 +3,8 @@ title: strings
 date: 2021-11-06T16:38:02-0600
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/types/reference/strings
 ---
 # [Strings](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0)
 A sequence of UTF-16 code units.  
@@ -14,7 +16,7 @@ The `string` keyword looks like a type but is actually an alias for the type `St
 
 # Empty Strings
 Empty strings are represented as `""`  
-However, to create empty strings, use the constant `String.Empty` This avoids null reference exceptions.  
+However, to create empty strings, use the constant `String.Empty`. This avoids null reference exceptions.  
 
 # Comparisons
 ## Case-sensitive, Ordinal Comparisons
@@ -47,45 +49,47 @@ string result = string.Format("{0} and {1}", var1, var2)
 # Interpolated Strings
 String interpolation achieves the same results as string formatting.  
 
-<g>Availability: C#11</g>: Newlines are permitted in string interpolations.  
+<g>Availability: C# 11</g>: Newlines are permitted in string interpolations.  
 
 Use `$` for interpolated strings: `interpolationExpression,alignment:formatString`
 
 ## Alignment
-Alignment is expressed as a signed integer n indicating preferred field width.  
-If n is less than the length of the string, it is ignored.  
-If n is positive, the field is right-aligned.  
-If n is negative, the field is left-aligned.  
+Alignment is expressed as a signed integer $n$ indicating preferred field width:
+- If $n$ is less than the length of the string, it is ignored.  
+- If $n$ is positive, the field is right-aligned.  
+- If $n$ is negative, the field is left-aligned.  
 
 ## Formats
-| d                       | 6/15/2009                         |
-|-------------------------|-----------------------------------|
-| D                       | Monday, June 15, 2009             |
-| f                       | Monday, June 15, 2009 1:45 PM     |
-| F                       | Monday, June 15, 2009 1:45:30 PM  |
-| g                       | 6/15/2009 1:45 PM                 |
-| G                       | 6/15/2009 1:45:30 PM              |
-| M/M                     | June 15                           |
-| O/o (roundtrip pattern) | 2009-06-15T13:45:30.0000000-07:00 |
-| R/r (RFC1123 pattern)   | Mon, 15 Jun 2009 20:45:30 GMT     |
-| s (sortable pattern)    | 2009-06-15T13:45:30               |
-| t                       | 1:45 PM                           |
-| T                       | 1:45:30 PM                        |
-| u (universal sortable)  | 2009-06-15 13:45:30Z              |
-| U (universal full)      | Monday, June 15, 2009 8:45:30 PM  |
-| Y                       | June 2009                         |
+| format                      | output                            |
+| --------------------------- | --------------------------------- |
+| `d`                         | 6/15/2009                         |
+| `D`                         | Monday, June 15, 2009             |
+| `f`                         | Monday, June 15, 2009 1:45 PM     |
+| `F`                         | Monday, June 15, 2009 1:45:30 PM  |
+| `g`                         | 6/15/2009 1:45 PM                 |
+| `G`                         | 6/15/2009 1:45:30 PM              |
+| `M`/`M`                     | June 15                           |
+| `O`/`o` (roundtrip pattern) | 2009-06-15T13:45:30.0000000-07:00 |
+| `R`/`r` (RFC1123 pattern)   | Mon, 15 Jun 2009 20:45:30 GMT     |
+| `s` (sortable pattern)      | 2009-06-15T13:45:30               |
+| `t`                         | 1:45 PM                           |
+| `T`                         | 1:45:30 PM                        |
+| `u` (universal sortable)    | 2009-06-15 13:45:30Z              |
+| `U` (universal full)        | Monday, June 15, 2009 8:45:30 PM  |
+| `Y`                         | June 2009                         |
 
 ## Numeric Formats
-| C/C | $123.46            |
-|-----|---------------------|
-| D/d | 1234                |
-| E/e | 1.052033E+003       |
-| F/f | 1234.57             |
-| G/g | -123.456            |
-| N/n | 1,234.57            |
-| P/p | 100.00 %            |
-| R/r | 123456789.12345678 |
-| X/x | FF                  |
+| format  | output             |
+| ------- | ------------------ |
+| `C`/`c` | $123.46            |
+| `D`/`d` | 1234               |
+| `E`/`e` | 1.052033E+003      |
+| `F`/`f` | 1234.57            |
+| `G`/`g` | -123.456           |
+| `N`/`n` | 1,234.57           |
+| `P`/`p` | 100.00 %           |
+| `R`/`r` | 123456789.12345678 |
+| `X`/`x` | FF                 |
 
 Currency: 
 - `{var1:C}`
@@ -104,6 +108,16 @@ Numbers:
 
 Percentage:
 - `{var1:P2}` (2 digits of precision)
+
+## [Constant Interpolated Strings](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/const)
+<g>Availability: C# 10</g>
+
+Interpolated strings may be declared as `const` if all their placeholders are also `const`:
+```cs
+const string Language = "C#";
+const string Platform = ".NET";
+const string FullProductName = $"{Platform} - Language: {Language}";
+```
 
 ## Ternary operator in interpolated expression
 Since `:` has special meaning in interpolation expressions, when using it as the conditional operator, wrap it in parentheses:

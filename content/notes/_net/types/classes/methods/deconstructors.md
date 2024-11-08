@@ -3,6 +3,8 @@ title: deconstructors
 date: 2021-12-31T10:31:57-0700
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/types/classes/methods/deconstructors
 ---
 # Deconstructors
 The special method `Deconstruct()` is used to deconstruct a type:
@@ -27,12 +29,13 @@ public class Person
 
 Person bob = new() { "eli", "smith" };
 var (name1, name2) = eli;
-name1 // returns "eli"
-name2 // returns "smith"
+Console.WriteLine(name1); // output: "eli"
+Console.WriteLine(name2); // output: "smith"
 ```
 
 # Overloaded Deconstructors
 Overload deconstructors to allow callers to discard certain fields of the type.
+
 For variables `var1`, `var2`, `var3`, …:
 ```cs
 // … Constructor goes here …

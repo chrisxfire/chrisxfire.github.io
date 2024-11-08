@@ -1,34 +1,30 @@
 ---
-title: imports
+title: namespaces-and-using
 date: 2022-02-16T00:00:00-06:00
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/fundamentals/namespaces
+ - kb/dotnet/fundamentals/using
 ---
 
-# Imports
+# Namespaces
+Namespaces declare scopes:
 ```cs
-using namespace; // Imports all classes from namespace.
-using static namespace; // Imports only the static methods from namespace.
-using static System.Console; // This allows you to use WriteLine() without having to call Console.WriteLine().
-global using namespace;	// Allows importing namespace into one file but available to the whole project.
+namespace SomeNamespace 
+{
+	class SomeClass { }
+}
 ```
 
-Console applications have these implicit using directives (auto imports):
+Namespace declarations can also be file-scoped:
 ```cs
-using System;
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Threading;
-using System.Threading.Tasks;
+using SomeNamespace; // Imports all classes from namespace.
 ```
 
-Other auto imports can be found in `/obj/Debug/net6.0/TopLevelProgram.GlobalUsings.g.cs`.
-
-# Using Directive
+# Imports (`using` Directive)
 ```cs
-using namespace;
+using SomeNamespace;
 ```
 
 ## Aliases
@@ -37,9 +33,9 @@ using SomeAlias = Really.Long.Nested.Namespace;
 ```
 
 ## Global
-The global modifier has the same effect as adding the same using directive to every source file in a project:
+The `global` modifier has the same effect as adding the same `using` directive to every source file in a project:
 ```cs
-global using namespace;
+global using SomeNamespace;
 ```
 
 Can also be added to project file instead:
@@ -50,11 +46,15 @@ Can also be added to project file instead:
 ## Static
 The static modifier imports only the static members and nested types from a namespace:
 ```cs
-static using namespace;
+static using SomeNamespace;
 ```
 
-# Implicit Using Directives
-Implicitly imports:
+```cs
+using static System.Console; // Imports a type's methods, like WriteLine.
+```
+
+## [Implicit Using Directives](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/overview#implicit-using-directives)
+Some SDKs have implicit using directives. For example, for console applications (`Microsoft.Net.Sdk`):
 - `System`
 - `System.IO`
 - `System.Collections.Generic`
@@ -63,7 +63,7 @@ Implicitly imports:
 - `System.Threading`
 - `System.Threading.Tasks`
 
-## Disabling
+### Disabling
 To disable implicit imports, add this line to the project file:
 ```xml
 <ImplicitUsings>disable</ImplicitUsings>
@@ -81,4 +81,3 @@ The `using` statement generates a `finally` statement that calls the `Dispose()`
 ```cs
 using (FileStream xmlFileStream = File.Create(file.xml)) { … }
 ```
-

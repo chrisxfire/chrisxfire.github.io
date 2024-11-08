@@ -3,7 +3,10 @@ title: constructors
 date: 2021-11-06T11:25:27-0600
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/types/classes/methods/constructors
 ---
+
 # [Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors)
 Whenever a Class or Struct is created, its *constructor* is called.
 
@@ -37,7 +40,7 @@ Parameterless constructors can be explicitly implemented.
 They are auto-implemented on classes that have no other constructor.  
 They can call parameterized constructors with default values, if desired:  
 ```cs
-public Person() : this("Doe", "John") { } // Calls Person(*lastName*, *firstName*)
+public Person() : this("Doe", "John") { } // Calls Person(lastName, firstName)
 ```
 
 Structs cannot contain explicit parameterless constructors because one is auto-implemented by the compiler. For example:

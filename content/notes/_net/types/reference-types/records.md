@@ -3,9 +3,12 @@ title: records
 date: 2021-11-07T19:30:56-0700
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/types/reference/records
 ---
+
 # Records
-Records can be `record class`es or `record struct`s.
+Records can be `record class`es or `record struct`s. If the `class` or `struct` keyword is not included, defaults to `record class`.
 
 ## Use When
 - You need a data model that depends on value equality
@@ -21,14 +24,14 @@ public record Person(string FirstName, string LastName);
 
 public static void Main()
 {
-    Person person = new("Nancy", "Davolio");
+    Person person = new("Nancy", "Drew");
     Console.WriteLine(person);
-    // output: Person { FirstName = Nancy, LastName = Davolio }
+    // output: Person { FirstName = Nancy, LastName = Drew }
 }
 ```
 
 # Record Class
-Record classes, a reference type (defaults to `record class` if `class` or `struct` not specified):
+Record classes, a reference type:
 ```cs
 public record Person 
 {
@@ -38,11 +41,9 @@ public record Person
 ```
 
 ## Characteristics
-- Allocation: Heap
-- Equality: Reference
-- Semantics: Reference
-- Inheritance: Single (from another record only)
-- Mutability: Mutable, but generally treated immutable
+| Allocation | Equality  | Semantics | Inheritance                       | Mutability                               |
+| ---------- | --------- | --------- | --------------------------------- | ---------------------------------------- |
+| Heap       | Reference | Reference | Single (from another record only) | Mutable (generally treated as immutable) |
 
 A *positional* `record class` declares init-only properties, making them immutable.
 
@@ -58,16 +59,13 @@ public record struct Point
 ```
 
 ## Characteristics
-- Allocation: Stack
-- Equality: Value
-- Semantics: Value
-- Inheritance: None (sealed)
-- Mutability: Mutable, but generally treated immutable
+| Allocation | Equality | Semantics | Inheritance   | Mutability                               |
+| ---------- | -------- | --------- | ------------- | ---------------------------------------- |
+| Stack      | Value    | Value     | None (sealed) | Mutable (generally treated as immutable) |
 
 A *positional* `record struct` declares read-write properties, making them mutable.
 
 # Readonly Record Struct
-
 A *positional* `readonly record struct` declares init-only properties, making them immutable.
 
 ## Example
@@ -76,9 +74,9 @@ public record Person(string FirstName, string LastName);
 
 public static void Main()
 {
-    Person person = new("Nancy", "Davolio");
+    Person person = new("Nancy", "Drew");
     Console.WriteLine(person);
-    // output: Person { FirstName = Nancy, LastName = Davolio }
+    // output: Person { FirstName = Nancy, LastName = Drew }
 }
 ```
 
@@ -113,7 +111,6 @@ Records have a compiler-generated `ToString` method that displays the names and 
 It uses this format: `record-type-name { property-name = value, property-name = value, … }`  
 
 An implementation of `ToString` may include the `sealed` modifier, which prevents the compiler from synthesizing a `ToString` implementation for any derived records. This creates a consistent string representation throughout a hierarchy of record types.
-
 
 # Examples
 ```cs

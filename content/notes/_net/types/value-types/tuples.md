@@ -3,6 +3,8 @@ title: tuples
 date: 2021-11-05T21:38:53-0600
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/types/value/tuples
 ---
 # Tuples
 `System.ValueTuple` is modern; `System.Tuple` is legacy.
@@ -38,23 +40,36 @@ namedFruit.Qty // returns 5
 # Tuple Deconstruction
 ```cs
 (type v1, type v2, …) = function();
-// … or …
+```
+… or …
+```cs
 var (v1, v2, …) = function();
-// … or …
+```
+… or …
+```cs
 type var1 = val1;
 type var2 = val2;
 (var1, var2) = function();
 ```
 
+<g>Availability: C# 10</g>  
+It is now possible to assign values to an existing variable and initialize newly declared variables in the same deconstruction:
+
+```cs
+int x = 0;
+(x, int y) = point;
+```
 ## Example
 Store return value in a tuple with two named fields:
 ```cs
 (string FruitName, int FruitQty) myFruit = GetNamedFruit();
-myFruit.FruitName // returns "Apples"
-myFruit.FruitQty // returns 5
+Console.WriteLine(myFruit.FruitName); // output: "Apples"
+Console.WriteLine(myFruit.FruitQty); // output: 5
+```
 
-// Deconstruct the return value into two separate variables:
+Deconstruct the return value into two separate variables:
+```cs
 (string name, int num) = GetNamedFruit();
-name // returns "Apples"
-num // returns 5
+Console.WriteLine(name); // output: "Apples"
+Console.WriteLine(num); // output: 5
 ```

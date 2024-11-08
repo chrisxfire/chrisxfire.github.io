@@ -3,6 +3,8 @@ title: lambda expressions
 date: 2022-05-07T00:00:00-06:00
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/fundamentals/expressions/lambda
 ---
 
 # [Lambda Expression](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
@@ -36,7 +38,7 @@ Func<int, int> = x => x;
 
 And...
 ```cs
-somvar.Find(delegate(int in)
+someVar.Find(delegate(int in)
 {
 	if (n < 10)
 		return n;
@@ -44,19 +46,19 @@ somvar.Find(delegate(int in)
 ```
 …is equivalent to…
 ```cs
-somevar.Find(n => n < 10);
+someVar.Find(n => n < 10);
 ```
 
 # Lambda Definition vs. Normal Method Definition
 Lambda:
 ```cs
-public override string ToString() => $"{fname} {lname}".Trim
+public override string ToString() => $"{firstName} {lastName}".Trim
 ```
 Normal:
 ```cs
 public override string ToString()
 {
-	return $"{fname} {lname}".Trim();
+	return $"{firstName} {lastName}".Trim();
 }
 ```
 
@@ -157,9 +159,11 @@ If querying `IEnumberable<Customer>`, the input variable is inferred to be of ty
 customer.Where(c => c.City == "London");
 ```
 
-# Natural (Inferred) "Type" of Lambda Expression
-The compiler can sometimes infer the "type" of a lambda expression.
-Here, the "type" is inferred to be `Func<string, int>`:
+# [Natural (Inferred) Type of a Lambda Expression](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#natural-type-of-a-lambda-expression)
+<g>Availability: C# 10</g>  
+
+The compiler can sometimes infer the type of a lambda expression.
+Here, the type is inferred to be `Func<string, int>`:
 ```cs
 var parse = (string s) => int.Parse(s);
 ```
@@ -174,3 +178,35 @@ So you must declare the type:
 Func<string, int> parse = s => int.Parse(s); // OK
 ```
 
+# [Return Type of a Lambda Expression](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#explicit-return-type)
+<g>Availability: C# 10</g>
+
+Usually, the compiler can infer the return type of a lambda expression. In some cases, it cannot:
+```cs
+var choose = (bool b) => b ? 1 : "two"; // ERROR: Cannot infer return type
+```
+
+In these cases, the return type can be explicitly specified:
+```cs
+var choose = object (bool b) => b ? 1 : "two"; // Func<bool, object>
+```
+
+Note that when explicitly specifying the return type, the input parameters must be parenthesized. 
+
+# [Attributes](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#attributes)
+<g>Availability: C# 10</g>
+
+Attributes (like `ProvidesNullCheck`) can be added to a lambda expression:
+```cs
+Func<string?, int?> parse = [ProvidesNullCheck] (s) => (s is not null) ? int.Parse(s) : null;
+```
+
+They can also be added to a lambda expression's parameters, like `DisallowNull` here:
+```cs
+var concat = ([DisallowNull] string a, [DisallowNull] string b) => a + b;
+```
+
+Finally, they can be added to the lambda expression's return value, like `NotNullIfNotNull` here:
+```cs
+var inc = [return: NotNullIfNotNull(nameof(s))] (int? s) => s.HasValue ? s++ : null;
+```
