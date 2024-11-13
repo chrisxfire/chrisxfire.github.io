@@ -4,6 +4,11 @@ date: 2022-01-18T00:00:00-06:00
 draft: false
 weight: 1
 ---
+# Overview
+draw.io has several websites:
+- https://www.drawio.com is the main website
+- https://www.drawio-app.com is the website for draw.io for Atlassian Jira/Confluence
+- https://www.diagrams.net is a legacy website that redirects to drawio.com
 
 # Canvas
 | Action            | Keystrokes                                        |
@@ -46,31 +51,51 @@ When a shape is selected, the layer it is on is indicated by a black dot in the 
 | Move shapes between layers                   | **Select** the shapes > ⋯ > **Move Selection**           |
 | Show/hide all shapes on this layer           | **View** > **Layers** > 👁                                |
 
-# Placeholders (predefined)
-Add a property globally to the page:
-1. Make sure nothing is selected
-2. Diagram > **Edit Data**
-3. Add the property > **Apply**
-4. Select the shape that should use the property > **Edit** > **Edit Data** > check **Placeholders**
-5. In the shape, type `%placeholder%`
+# Properties & Placeholders
+## Properties
+Properties are metadata associated with a shape or a diagram. They can provide extra information about shapes on hover.
 
-Add a property to a specific shape:
+To associate a property with a shape:
+1. Right-click a shape > Edit Data
+2. In the `ID` field, enter a property name > **Add property**
+3. In the property's field, enter a value > **Apply**
+
+Hover over the shape to see the result.
+
+### Special Properties
+- `tooltip`: If this property is defined, only its text will be displayed on hover (and no other properties).
+- `placeholder`: Changes the shape's label into a placeholder. [More information](https://www.drawio.com/blog/placeholder-scope).
+
+## Placeholders
+Placeholders are properties that act as variables. They can used in shape labels and other text fields to show the value
+of the custom property.
+
+### Local
+Local placeholders apply to a single shape.
+
+Create and use a custom local placeholders:
 1. **Right-click** shape > **Edit** > **Edit Data**
-2. **ID**: `%placeholder%`
-3. Check **Placeholders**
+2. In the ID field, enter a property name > **Add Property**
+3. In the property's field, enter a value > check **Placeholders** > **Apply**
 4. In the text field of the shape, enter `%placeholder%`
 
-| Placeholder        | Description                                      |
-| ------------------ | ------------------------------------------------ |
-| %id%               | Prints the ID of a shape or connector.           |
-| %date%             | Prints the current date using the system locale. |
-| %time%             | Prints the current time using the system locale. |
-| %timestamp%        | Prints a timestamp using the system locale.      |
-| %date{yyyy-mm-dd}% | Prints a timestamp using a custom format.        |
-| %pagenumber%       | Prints the page number of the current page.      |
-| %pagecount%        | Prints the total number of pages.                |
-| %page%             | Prints the title of the current page.            |
-| %filename%         | Prints the name of the file.                     |
+### Global
+Global placeholders apply to all shapes in the diagram.
+
+Create and use a custom global placeholders:
+1. Make sure nothing is selected
+2. Diagram > **Edit Data**
+3. Enter a property name > **Add Property**
+4. In the property's field, enter a value > **Apply**
+5. Select the shape that should use the property > **Edit** > **Edit Data** > check **Placeholders**
+6. In the shape, type `%placeholder%` where *placeholder* is the name of the property to use
+
+### Predefined
+There are several predefined placeholders: https://www.drawio.com/doc/faq/predefined-placeholders  
+
+Use predefined placeholders:
+1. Right-click a shape > **Edit Data** > check **Placeholders**
+2. Enter the placeholder to use (such as `%date{yyyy-mm-dd}%`) in the shape's label or text field
 
 # Selecting
 | Action                                                                 | Keystrokes                                                          |
