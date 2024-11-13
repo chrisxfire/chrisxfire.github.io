@@ -19,8 +19,6 @@ This mind map describes the elements of BPMN 2.0 along with rules and naming con
 
 # Rules
 ## Overview
-
-
 * A BPMN **Diagram** depicts a subset (which may be complete) of a BPMN *Process Model*.
   * A BPMN Diagram is not a dataflow diagram.
 * A BPMN **Model** may contain one or more BPMN *Business Processes*.
