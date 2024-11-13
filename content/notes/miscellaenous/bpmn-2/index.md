@@ -106,7 +106,12 @@ This mind map describes the elements of BPMN 2.0 along with rules and naming con
   * Do not name *Default Sequence Flows*.
 
 ## Gateways <img title="A BPMN 2.0 gateway." alt="A BPMN 2.0 gateway." src="./gateway.png" width="3%" height="3%" style="vertical-align:middle">  
-* **Gateways** are decision points and branching or merging of *Flows*. Can be exclusive (or), inclusive (and/or), parallel (and), or event-based.
+* **Gateways** are decision points and branching or merging of *Flows*. Types:
+  * Exclusive — option A or B.
+  * Inclusive — option A and B.
+  * Parallel — simultaneous.
+  * Complex — always accompanied by an explanatory message.
+  * Event-based.
 * Gateways are either converging or diverging (but not both).
 * Gateways are *decision points*, not *decisions*:
   * They do not make decisions; they only direct flow.
@@ -119,6 +124,9 @@ This mind map describes the elements of BPMN 2.0 along with rules and naming con
   * Use a text annotation when converging logic is not obvious.
 * Diverging
   * Name exclusive diverging *Gateways* with an interrogative phrase.
+
+### More Information
+https://drawio-app.com/blog/navigating-bpmn-gateways-making-sense-of-69-options/
 
 ## Pools
 * **Pools** are whole organizations or collections of associated *Roles*.
