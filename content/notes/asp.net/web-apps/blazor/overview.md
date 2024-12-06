@@ -65,6 +65,15 @@ Components:
 </Dialog>
 ```
 
+# Content Rendering
+As of .NET 8, Blazor can render content at either the component or page level with:
+- Static server rendering (SSR) — to generate static HTML on the server.
+- Interactive server rendering (interactive SSR) — to generate interactive components with pre-rendering on the server.
+- Interactive WebAssembly rendering aka client-side rendering (CSR) — always interactive; to generate interactive components on the client with pre-rendering on the server.
+- Interactive automatic rendering (auto) to initially use the server-side ASP.NET Core runtime for content rendering and interactivity, then the .NET WebAssembly runtime on the client for subsequent rendering and interactivity after the Blazor bundle is downloaded and the WASM runtime activates.
+
+More information: [Rendering](fundamentals/rendering.md)
+
 # Tooling
 ## Visual Studio / dotnet new templates
 - Blazor Server App (`blazorserver`) template — includes demonstration code and Bootstrap
