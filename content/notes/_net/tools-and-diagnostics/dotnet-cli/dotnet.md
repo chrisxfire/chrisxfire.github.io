@@ -50,7 +50,8 @@ dotnet new -i <package> # Install a template.
 ```powershell
 dotnet new console # Create a new console project in the CWD.
                     -f FRAMEWORK # Create a new console project using framework version framework.
-                    -o APPNAME # Create a new console project in subfolder APPNAME.
+                    -o APPNAME   # Create a new console project in subfolder APPNAME.
+                    --use-program-main # Do not use top-level statements.
 dotnet restore # Install dependencies for a new or cloned project.
 ```
 
