@@ -91,7 +91,46 @@ The render mode cannot be set on the root component (usually `App`). Instead, sp
 ```
 
 # Pre-rendering
+*Pre-rendering* s the process of initially rendering page content on the server without enabling event handlers for rendered controls.
+- The server outputs the HTML of the page ASAP after the initial request.
+  - Makes the app feel more responsive.
+  - Can also improve SEO.
+- Always followed by final rendering, either on server or the client.
+
 Pre-rendering is enabled by default for interactive components.
+
+## Disabling
+### On Component Instances
+Pass the `prerender` flag with a value of `false` to the render mode:
+
+```cshtml
+<... @rendermode="new InteractiveServerRenderMode(prerender: false)" />
+
+<... @rendermode="new InteractiveWebAssemblyRenderMode(prerender: false)" />
+
+<... @rendermode="new InteractiveAutoRenderMode(prerender: false)" />
+```
+
+### In Component Definitions
+```cshtml
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+
+@rendermode @(new InteractiveWebAssemblyRenderMode(prerender: false))
+
+@rendermode @(new InteractiveAutoRenderMode(prerender: false))
+```
+
+### On the Entire App
+specify the render mode at the highest-level interactive component that is not a root component. This is usually where the `Routes` component is used in `Components/App.razor`:
+
+```cshtml
+<Routes @rendermode="new InteractiveServerRenderMode(prerender: false)" />
+```
+
+And in the `HeadOutlet` component in the `App` component:
+```cshtml
+<HeadOutlet @rendermode="new InteractiveServerRenderMode(prerender: false)" />
+```
 
 ## Programmatically
 See https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-9.0&preserve-view=true#apply-a-render-mode-programatically
@@ -155,3 +194,33 @@ Use the `ComponentBase.RendererInfo` and `ComponentBase.AssignedRenderMode` prop
         }
     }
     ```
+
+# Static SSR
+Consider this component:
+```cshtml
+@page "/render-mode-1"
+
+<button @onclick="UpdateMessage">Click me</button> @message
+
+@code {
+    private string message = "Not updated yet.";
+
+    private void UpdateMessage()
+    {
+        message = "Somebody updated me!";
+    }
+}
+```
+
+Since there's no designation for this component's render mode, it inherits it from its parent.  
+Since no parent/ancestor specifies a render mode, the component is statically rendered.  
+Since it's statically rendered:
+- The button isn't interactive
+- The button doesn't call the `UpdateMessage` method when selected
+- The value of `message` doesn't change
+- The component isn't re-rendered in response to UI events.
+
+## No Blazor Features for Routing and Authorization
+In static SSR, Razor component page requests are processed by the server-side ASP.NET Core middleware pipeline.
+Blazor features for routing/authorization are not available, including `NotAuthorized` and `NotFound` features in the `Routes` component.
+

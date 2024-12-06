@@ -26,12 +26,15 @@ weight: 1
   - [x] Static files
 - [ ] Components...
   - [x] Overview
+  - [ ] Render modes
+  - [ ] Prerender components
   - [x] Generic type support
   - [ ] Synchronization context
   - [ ] Preserve relationships with `@key`
   - [ ] Overwriting parameters
   - [ ] Attribute splatting and arbitrary parameters
   - [ ] Layouts
+  - [ ] Sections
   - [x] Control `<head>` content
   - [ ] Cascading values and parameters
   - [ ] Data binding
@@ -43,7 +46,6 @@ weight: 1
   - [ ] CSS isolation
   - [ ] Dynamically-rendered components
   - [x] QuickGrid component
-  - [ ] Prerender and integrate components
   - [ ] Class libraries
   - [ ] JavaScript apps and SPA frameworks
   - [ ] Built-in components

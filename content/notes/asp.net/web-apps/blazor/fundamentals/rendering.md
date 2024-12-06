@@ -36,10 +36,9 @@ Razor components are either *statically* or *interactively* rendered, and render
 
 ## Pre-rendering
 - The process of initially rendering page content on the server without event handlers for rendered controls.
-- The server outputs the HTML of the page ASAP after the initial request.
-  - Makes the app feel more responsive.
-  - Can also improve SEO.
-- Always followed by final rendering, either on server or the client.
+
+
+<!-- TODO: Link to pre-rendering section of blazor/components/render modes -->
 
 # More Information
 <!-- TODO: Insert link to blazor/components/render modes -->
