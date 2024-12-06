@@ -54,6 +54,22 @@ IEnumerable<int> largeNumbersQuery = numbers2.Where(c => c > 15);
 - `Zip` – Match up items in two or three sequences based on position of those items in each sequence.
   - If there are an unequal number of items in the sequences, some items will not have a matching partner.
 
+`Zip` Example:
+```cs
+int[] numbers = { 1, 2, 3, 4 };
+string[] words = { "one", "two", "three" };
+
+var numbersAndWords = numbers.Zip(words, (first, second) => first + " " + second);
+
+foreach (var item in numbersAndWords)
+    Console.WriteLine(item);
+
+// Output:
+// 1 one
+// 2 two
+// 3 three
+```
+
 ## Aggregators
 `Aggregate`, `Average`, `Count`, `LongCount`, `Max`, `Min`, `Sum`.
   - Note: `Count` checks if a `Count` property is implemented and returns its value. If not, it enumerates the entire sequence to count its values.

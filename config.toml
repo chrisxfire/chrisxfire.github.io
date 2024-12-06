@@ -11,6 +11,7 @@ defaultContentLanguage = "en-gb"
 
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
+  
   [markup.highlight]
     codeFences = true
     hl_inline = false
