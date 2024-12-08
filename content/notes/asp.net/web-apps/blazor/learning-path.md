@@ -26,7 +26,7 @@ weight: 1
   - [x] Static files
 - [ ] Components...
   - [x] Overview
-  - [ ] Render modes
+  - [x] Render modes
   - [ ] Prerender components
   - [x] Generic type support
   - [ ] Synchronization context
@@ -46,8 +46,11 @@ weight: 1
   - [ ] CSS isolation
   - [ ] Dynamically-rendered components
   - [x] QuickGrid component
+  - [ ] Integrate with MVC/Razor Pages
   - [ ] Class libraries
+  - [ ] Class libraries with static SSR
   - [ ] JavaScript apps and SPA frameworks
+  - [ ] Components outside of ASP.NET Core
   - [ ] Built-in components
 - [ ] Globalization and localization
 - [x] Forms and input components
@@ -79,9 +82,11 @@ weight: 1
   - [ ] Overview
   - [ ] Blazor Server
   - [ ] Blazor WebAssembly
+  - [ ] WebAssembly caching...
+    - [ ] Overview
+    - [ ] HTTP caching issues
   - [ ] Configure the Trimmer
   - [ ] WebAssembly deployment layout
-  - [ ] Multiple hosted WebAssembly apps
 - [x] Blazor Server and EF Core
 - [ ] Advanced scenarios
 
