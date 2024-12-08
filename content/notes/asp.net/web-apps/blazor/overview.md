@@ -75,13 +75,51 @@ As of .NET 8, Blazor can render content at either the component or page level wi
 More information: [Rendering](fundamentals/rendering.md)
 
 # Tooling
-## Visual Studio / dotnet new templates
-- Blazor Server App (`blazorserver`) template — includes demonstration code and Bootstrap
-- Blazor Server App Empty (`blazorserver-empty`) template — no demo code, no Bootstrap
-- Blazor WASM (`blazorwasm`) template — includes demonstration code and Bootstrap
-- Blazor WASM Empty (`blazorwasm-empty`) template — no demo  code, no Bootstrap
-- ASP.NET Core Hosted checkbox — check for a hosted Blazor WASM app
-    - The startup project is in the Server project
+## VS Code
+### Creating a project
+1. <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> -> **.NET New Project**
+2. Select the Blazor project template
+3. Follow the prompts
+
+### Running the app
+1. <kbd>F5</kbd> to run with debugger  
+2. Select the **C#** debugger from the list
+3. Select the **https** launch configuration
+
+To stop, <kbd>Shift</kbd> + <kbd>F5</kbd>
+
+## .NET CLI
+### Creating a project
+- Blazor Web App (`dotnet new blazor`)
+- Blazor WebAssembly standalone (`dotnet new blazorwasm`)
+
+To set interactivity:
+```powershell
+dotnet new blazor --interactivity <Server|WebAssembly|Auto|None>
+```
+
+Interactivity options:
+- `Server` = interactive SSR
+- `WebAssembly` = client-side rendering
+- `Auto` = automatic
+- `None` = static SSR
+
+Other options:
+- Use `--empty` to omit sample pages and basic styling
+- Use `--all-interactive` to include an interactive render mode at the top level
+
+### Running the app
+From the solution's server project (the project that doesn't end in `.Client`), compile and start the app:
+```powershell
+dotnet watch
+```
+
+Alternatively, to run the app with HTTPS, either:
+```powershell
+dotnet watch --launch-profile https
+```
+
+Or, in `Properties/launchSettings.json`, reorganize the launch profiles so that the `https` profile is above the `http` profile.
 
 ## .NET WebAssembly build tools
 Based on Emscripten, a compiler toolchain for the web platform.  To install, either:
