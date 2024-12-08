@@ -1,7 +1,7 @@
 ---
 title: with expressions
 date: 2024-11-07T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 tags:
  - kb/dotnet/fundamentals/expressions/with
