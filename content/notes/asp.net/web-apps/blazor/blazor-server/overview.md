@@ -29,7 +29,7 @@ weight: -1
 &emsp;&emsp;&emsp;- When any page is initially requested, this page is rendered and returned in the response;  
 &emsp;&emsp;&emsp;- Specifies where the root component (`App.razor`) is rendered  
 &emsp;&emsp;&emsp;- `<head>` is located here  
-&emsp;&emsp;&emsp;- References _Layout  
+&emsp;&emsp;&emsp;- References `_Layout`  
 &emsp;`├──_Layout.cshtml`  
 &emsp;&emsp;- `@RenderBody()` is located here  
 &emsp;&emsp;- References `_framework/blazor.server.js` (establishes SignalR connection)  
