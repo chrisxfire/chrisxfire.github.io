@@ -10,6 +10,11 @@ weight: 1
 - [x] Overview
 - [x] App startup
 - [x] Dependency injection (services)
+- [ ] Native AOT...
+  - [ ] Overview
+  - [ ] Tutorial
+  - [ ] Request Delegate Generator
+  - [ ] RDG Diagnostics...
 - [ ] Middleware...
   - [x] Middleware overview
   - [ ] Rate limiting middleware 
@@ -29,12 +34,15 @@ weight: 1
 - [ ] Options
 - [x] Environments (dev, stage, prod)
 - [ ] Logging and monitoring...
-  - [x] Logging
+  - [/] Logging
   - [ ] HTTP Logging
   - [ ] W3C Logger
   - [ ] Health checks
+  - [ ] Metrics overview
+  - [ ] Built-in metrics
 - [x] HttpContext
-- [x] Routing
-- [x] Error handling
+- [/] Routing
+- [/] Error handling
 - [x] Making HTTP requests
-- [x] Static files
+- [/] Static files
+- [ ] dotnet-scaffold telemetry

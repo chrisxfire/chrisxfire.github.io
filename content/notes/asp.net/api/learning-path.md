@@ -10,3 +10,10 @@ Microsoft Learn > ASP.NET Core > APIs
 - [x] Overview
 - [ ] [Controller-based APIs...](./controller-based-apis/learning-path)
 - [ ] [Minimal APIs...](./minimal-apis/learning-path.md)
+- [ ] OpenAPI
+  - [ ] Overview
+  - [ ] Generate OpenAPI documents
+  - [ ] Include OpenAPI metadata
+  - [ ] Customize OpenAPI documents
+  - [ ] Use OpenAPI documents
+  - [ ] OpenAPI tools

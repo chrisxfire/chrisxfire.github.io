@@ -5,25 +5,25 @@ draft: true
 weight: 1
 ---
 
-[Microsoft Learn > ASP.NET Core > Web Apps > Blazor](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-7.0)
+[Microsoft Learn > ASP.NET Core > Web Apps > Blazor](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-9.0)
 - [x] Overview
 - [x] Supported platforms
-- [x] Tooling
+- [/] Tooling
 - [ ] Tutorials...
 - [x] Hosting models
 - [ ] Blazor Hybrid...
 - [x] Project structure
 - [x] Fundamentals...
   - [x] Overview
-  - [x] Routing and navigation
+  - [/] Routing and navigation
   - [x] Configuration
-  - [x] Dependency injection
+  - [/] Dependency injection
   - [x] Startup
   - [x] Environments
   - [x] Logging
   - [x] Handle errors
-  - [x] SignalR
-  - [x] Static files
+  - [/] SignalR
+  - [/] Static files
 - [ ] Components...
   - [x] Overview
   - [x] Render modes
@@ -37,15 +37,15 @@ weight: 1
   - [ ] Sections
   - [x] Control `<head>` content
   - [ ] Cascading values and parameters
-  - [ ] Data binding
   - [ ] Event handling
+  - [ ] Data binding
   - [x] Lifecycle
   - [ ] Virtualization
-  - [x] Rendering
+  - [/] Rendering
   - [x] Templated components
   - [ ] CSS isolation
   - [ ] Dynamically-rendered components
-  - [x] QuickGrid component
+  - [/] QuickGrid component
   - [ ] Integrate with MVC/Razor Pages
   - [ ] Class libraries
   - [ ] Class libraries with static SSR
@@ -53,41 +53,35 @@ weight: 1
   - [ ] Components outside of ASP.NET Core
   - [ ] Built-in components
 - [ ] Globalization and localization
-- [x] Forms and input components
-  - [x] [Validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#basic-validation)
-  - [x] [More on Validation](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#validation-summary-and-validation-message-components)
+- [ ] Forms...
+  - [ ] Overview
+  - [ ] Input components
+  - [ ] Binding
+  - [ ] Validation
+  - [ ] Troubleshoot
 - [ ] Files uploads
 - [ ] File downloads
 - [ ] JavaScript interop...
 - [X] Call a web API
-- [ ] Images
+- [ ] Images and documents
 - [ ] Security and Identity...
 - [ ] State management
-- [ ] Debug WebAssembly
+- [ ] Debug
 - [ ] Lazy load assemblies with WebAssembly
 - [ ] WebAssembly native dependencies
-- [ ] Performance...
-  - [ ] Caching...
-  - [ ] Rate-limiting middleware
-  - [ ] Memory and GC
-  - [ ] Scaling apps on Azure
-  - [ ] Object reuse with ObjectPool
-  - [ ] Response compression
-  - [ ] Diagnostic tools
-  - [ ] Load and stress testing
-  - [ ] Event counters
+- [ ] Performance
 - [ ] Test components
 - [x] Progress Web Applications
 - [ ] Host and deploy...
   - [ ] Overview
-  - [ ] Blazor Server
+  - [ ] Server
   - [ ] Blazor WebAssembly
   - [ ] WebAssembly caching...
     - [ ] Overview
     - [ ] HTTP caching issues
   - [ ] Configure the Trimmer
   - [ ] WebAssembly deployment layout
-- [x] Blazor Server and EF Core
+- [ ] Blazor with EF Core
 - [ ] Advanced scenarios
 
 3rd party Component Libraries

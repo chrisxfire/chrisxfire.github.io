@@ -14,7 +14,6 @@ Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minima
 - [ ] Route Handlers
 - [ ] Parameter binding
 - [ ] Create responses
-- [ ] OpenAPI
 - [ ] Filters
 - [ ] Unit and integration tests
 - [ ] Middleware

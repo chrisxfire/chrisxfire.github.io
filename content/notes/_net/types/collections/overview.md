@@ -35,6 +35,9 @@ weight: -1
 - For `Queues` and `Stacks`, elements are generally discarded after they are accessed.
  
 # Other Collections
+## `System.Collections.Frozen`
+See https://learn.microsoft.com/en-us/dotnet/api/system.collections.frozen?view=net-9.0
+
 ## `System.Collections.ObjectModel`
 Use these collections when properties or methods return collections:
 | Collection                         | Description                                                                                 |
