@@ -4,6 +4,7 @@ date: 2022-01-02T20:27:50-0700
 draft: false
 weight: 1
 ---
+
 # Local Functions
 Methods that are only accessible from within the containing method in which they are defined.  
 They can be declared and called from methods (especially iterator and async methods), constructors, property accessors, event accessors, anonymous methods, lambda expressions, finalizers, and other local functions.  
