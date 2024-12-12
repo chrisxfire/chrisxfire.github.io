@@ -4,6 +4,7 @@ date: 2023-04-27T09:42:47-0600
 draft: false
 weight: 1
 ---
+
 # type Attribute
 ```html
 <input type="text">Displays a single-line text input field

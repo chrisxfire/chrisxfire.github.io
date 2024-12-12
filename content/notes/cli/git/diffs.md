@@ -6,6 +6,7 @@ weight: 1
 tags:
  - kb/cli/git
 ---
+
 # Viewing Staged and Unstaged Changes
 `git diff` – compare working directory to staging
 `git diff --staged` – compare staging to last commit

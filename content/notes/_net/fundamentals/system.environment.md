@@ -4,6 +4,7 @@ date: 2021-11-28T12:31:13-0700
 draft: false
 weight: 1
 ---
+
 # System.Environment
 `Object` –> `Environment`  
 - Information about and manipulation of the current environment and platform.

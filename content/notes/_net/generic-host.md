@@ -4,6 +4,7 @@ date: 2022-06-26T19:15:58-0600
 draft: false
 weight: 1
 ---
+
 # Generic Host
 A host is an object that encapsulates an app's resources and lifetime functionality. This allows for control over the app's startup and graceful shutdown.
 - Examples: Dependency Injection, Logging, Configuration, `IHostedService` implementations

@@ -4,6 +4,7 @@ date: 2023-03-10T13:32:54-0700
 draft: false
 weight: 1
 ---
+
 # Configure Container Image
 Most configuration is handled through MSBuild properties.
 Exception: RUN commands require a Dockerfile.

@@ -4,6 +4,7 @@ date: 2023-01-02T20:53:42-0700
 draft: false
 weight: 1
 ---
+
 # Overview
 Multiple views allow independent parts of apps to be viewed in separate windows.  
 When implemented, the taskbar shows each window separately.

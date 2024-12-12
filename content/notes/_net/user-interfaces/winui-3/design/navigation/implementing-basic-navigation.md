@@ -4,6 +4,7 @@ date: 2023-01-02T17:38:12-0700
 draft: false
 weight: 1
 ---
+
 # A TextBlock
 ```xml
 <TextBlock x:Name="pageTitle" Text="Page 1" />

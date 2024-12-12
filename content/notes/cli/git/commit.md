@@ -6,6 +6,7 @@ weight: 1
 tags:
  - kb/cli/git
 ---
+
 # Committing Changes
 Each commit is a snapshot of a project that can be reverted to later.
 

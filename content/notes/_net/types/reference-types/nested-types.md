@@ -4,6 +4,7 @@ date: 2022-03-06T18:11:19-0700
 draft: false
 weight: 1
 ---
+
 # Nested Types
 A type defined within a *class*, *struct*, or *interface* is a nested type:
 

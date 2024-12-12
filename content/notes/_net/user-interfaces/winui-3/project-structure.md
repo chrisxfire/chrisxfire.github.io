@@ -4,6 +4,7 @@ date: 2023-01-02T16:54:04-0700
 draft: false
 weight: 1
 ---
+
 # App Class
 - The `App` class is the app's entry point
 - Defined in `App.xaml` and `App.xaml.cs`

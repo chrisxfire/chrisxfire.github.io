@@ -4,6 +4,7 @@ date: 2022-11-05T22:14:36-0600
 draft: false
 weight: 1
 ---
+
 # Data Transformations
 LINQ can transform data. It can use a source sequence as input, modify it, and create a new output sequence.
 

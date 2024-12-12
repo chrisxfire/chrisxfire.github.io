@@ -4,6 +4,7 @@ date: 2021-11-06T11:28:28-0600
 draft: false
 weight: 1
 ---
+
 # Events
 [Events in C# (tutorialsteacher.com)](https://www.tutorialsteacher.com/csharp/csharp-event)  
 [Events in C# - Code Maze (code-maze.com)](https://code-maze.com/csharp-events/)  

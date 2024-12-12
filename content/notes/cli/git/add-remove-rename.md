@@ -6,6 +6,7 @@ weight: 1
 tags:
  - kb/cli/git
 ---
+
 # Add Files
 ```powershell
 git add path # adds path to Staging

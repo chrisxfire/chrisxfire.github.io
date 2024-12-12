@@ -6,6 +6,7 @@ weight: 1
 tags:
  - kb/cli/git
 ---
+
 # Configuration
 ## Config Files 
 - `/etc/git/gitconfig` or `C:\Program Files\Git\etc\gitconfig` — config for all users on the system (`--system`)

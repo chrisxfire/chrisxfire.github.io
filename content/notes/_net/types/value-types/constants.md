@@ -4,6 +4,7 @@ date: 2022-02-19T11:32:28-0700
 draft: false
 weight: 1
 ---
+
 # Constant
 Constants – immutable values known at compile time which do not change.
 - Only built-in types may be declared const.

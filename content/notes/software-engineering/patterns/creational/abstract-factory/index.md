@@ -4,6 +4,7 @@ date: 2023-03-04T18:52:25-0700
 draft: false
 weight: 1
 ---
+
 # Abstract Factory
 Type: Creational  
 Purpose: Produce families of related objects without specifying their concrete classes.  

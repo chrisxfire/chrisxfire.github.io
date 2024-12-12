@@ -4,6 +4,7 @@ date: 2022-12-14T18:56:52-0700
 draft: false
 weight: 1
 ---
+
 # Notify the Data Binding when Property Changes
 Implement the `INotifyPropertyChanged` interface on the ViewModel:
 

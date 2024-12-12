@@ -4,6 +4,7 @@ date: 2023-03-16T17:38:39-0600
 draft: false
 weight: 1
 ---
+
 # Prefer Composition over Inheritance
 ## Inheritance is the specialization of a general concept
 - Creates *Is-A* relationships.

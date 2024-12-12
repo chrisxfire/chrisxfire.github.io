@@ -4,6 +4,7 @@ date: 2021-11-19T14:40:47-0700
 draft: false
 weight: 1
 ---
+
 # Iterators
 Iterators are objects that traverse a container. They yield return each element one at a time.
 - Each time yield return is reached, the current location in code is remembered.

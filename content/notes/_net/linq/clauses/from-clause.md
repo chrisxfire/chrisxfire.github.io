@@ -4,6 +4,7 @@ date: 2022-04-25T20:57:19-0600
 draft: false
 weight: 1
 ---
+
 # Multiple From Clauses
 Use additional from clauses when each element in the source is itself a collection or contains a collection.
 

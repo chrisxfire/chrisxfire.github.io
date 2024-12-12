@@ -6,5 +6,6 @@ weight: 1
 tags:
  - kb/cli/git
 ---
+
 # Viewing File Status
 `git status [--short]` – returns the state of files in the repository and branch

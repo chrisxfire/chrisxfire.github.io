@@ -6,6 +6,7 @@ weight: 1
 tags:
  - kb/dotnet/types/reference/strings
 ---
+
 # [Strings](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-8.0)
 A sequence of UTF-16 code units.  
 Stored internally as a sequential read-only collection of `Char` objects.  

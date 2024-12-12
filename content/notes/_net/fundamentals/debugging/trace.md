@@ -4,6 +4,7 @@ date: 2021-12-15T14:59:09-0700
 draft: false
 weight: 1
 ---
+
 # [Trace](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.trace?view=net-6.0)
 `Object` –> `Debug`  
 

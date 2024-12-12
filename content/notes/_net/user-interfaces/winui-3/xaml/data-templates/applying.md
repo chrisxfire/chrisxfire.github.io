@@ -4,6 +4,7 @@ date: 2022-12-28T20:58:21-0700
 draft: false
 weight: 1
 ---
+
 # Data Templates
 Use a Data Template for the `ListView` in the Navigation so that you can see the first AND last name of the customers.
 

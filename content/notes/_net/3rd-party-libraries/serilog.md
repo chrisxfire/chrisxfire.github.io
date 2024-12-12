@@ -3,6 +3,7 @@ title: serilog
 date: 2021-12-11T13:17:43-0700
 draft: false
 ---
+
 # [Serilog](https://serilog.net/)
 Structured event logging.
 Github: [Getting Started · serilog/serilog Wiki (github.com)](https://github.com/serilog/serilog/wiki/Getting-Started)  

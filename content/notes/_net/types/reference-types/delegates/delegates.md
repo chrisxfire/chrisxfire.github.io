@@ -4,6 +4,7 @@ date: 2022-01-02T20:36:26-0700
 draft: false
 weight: 1
 ---
+
 # Delegates
 Delegates represent references to *methods* with the same signature as the *delegate*.  
 - Note: Unlike in overloading, for delegates, a method must have the same return type as the delegate.  

@@ -4,6 +4,7 @@ date: 2022-12-11T19:00:58-0700
 draft: false
 weight: 1
 ---
+
 # Positioning Elements with Layout Properties
 ![](./XAML_UI_Positioning-Elements-image1.png)
 

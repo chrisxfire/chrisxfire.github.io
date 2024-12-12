@@ -4,6 +4,7 @@ date: 2022-08-26T07:34:23-0600
 draft: false
 weight: 1
 ---
+
 # Dependent Service Implementation Example
 ```cs
 public class MessageWriter 

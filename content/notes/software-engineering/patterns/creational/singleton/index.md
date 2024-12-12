@@ -4,6 +4,7 @@ date: 2023-03-05T15:30:17-0700
 draft: false
 weight: 1
 ---
+
 # Singleton
 Type: Creational  
 Purpose: Ensure that a class has only one instance while providing a global access point to this instance.  

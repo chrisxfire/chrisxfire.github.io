@@ -4,6 +4,7 @@ date: 2022-12-29T21:44:48-0700
 draft: false
 weight: 1
 ---
+
 # Overview
 The `MainWindow` knows how to create the MainViewModel with a customer data provider.  
 This is problematic because `MainWindow`'s responsibility is only to be the `MainWindow` of our application. Knowing how to instantiate a MainViewModel is outside of its scope.  

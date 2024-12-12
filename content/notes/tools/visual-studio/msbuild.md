@@ -4,6 +4,7 @@ date: 2023-03-14T21:16:15-0600
 draft: false
 weight: 1
 ---
+
 # [MSBuild](https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild?view=vs-2022)
 - Runs build processes to build apps.
 - Used by Visual Studio to build.

@@ -4,6 +4,7 @@ date: 2022-11-06T09:37:07-0700
 draft: false
 weight: 1
 ---
+
 # Overview
 The standard query operators are extension methods of `IEnumerable<T>` or `IQueryable<T>`. They are the static methods of the `Enumerable` and `Queryable` classes.
 

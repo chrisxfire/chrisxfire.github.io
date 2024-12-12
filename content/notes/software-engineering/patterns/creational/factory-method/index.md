@@ -4,6 +4,7 @@ date: 2023-03-04T20:28:08-0700
 draft: false
 weight: 1
 ---
+
 # Factory Method
 Type: Creational  
 Purpose: Provides an interface for creating objects in a superclass but allows subclasses to alter the type of the objects created.  

@@ -4,6 +4,7 @@ date: 2023-01-01T09:54:59-0700
 draft: false
 weight: 1
 ---
+
 # Create a Control Template
 Create a copy of the default `ControlTemplate` for `CheckBox`:  
 

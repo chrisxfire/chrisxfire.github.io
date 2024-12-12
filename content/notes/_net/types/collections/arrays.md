@@ -4,6 +4,7 @@ date: 2021-11-06T11:43:18-0600
 draft: false
 weight: 1
 ---
+
 # [Arrays](https://docs.microsoft.com/en-us/dotnet/api/system.array?view=net-6.0)
 - Use arrays when working with a fixed number of strongly typed items.
 - Arrays are objects that have properties and methods in the [System.Array](https://docs.microsoft.com/en-us/dotnet/api/system.array?view=net-6.0) class.

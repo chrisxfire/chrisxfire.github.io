@@ -6,6 +6,7 @@ weight: 1
 tags:
  - kb/dotnet/types/value/tuples
 ---
+
 # Tuples
 `System.ValueTuple` is modern; `System.Tuple` is legacy.
 

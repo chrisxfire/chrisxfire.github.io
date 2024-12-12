@@ -4,6 +4,7 @@ date: 2022-01-30T12:35:13-0700
 draft: false
 weight: 1
 ---
+
 # [JsonNode](https://docs.microsoft.com/en-us/dotnet/api/system.text.json.nodes.jsonnode?view=net-6.0)
 Types: `JsonNode`, `JsonArray`, `JsonObject`, `JsonValue`, `JsonNodeOptions`
 ```cs

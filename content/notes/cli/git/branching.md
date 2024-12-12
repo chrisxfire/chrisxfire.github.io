@@ -6,6 +6,7 @@ weight: 1
 tags:
  - kb/cli/git
 ---
+
 # Managing Branches
 - `git branch BRANCH` – create a new branch named branch (but don't switch to it) 
   - `HEAD` will still point to the current branch  

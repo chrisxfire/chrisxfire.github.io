@@ -4,6 +4,7 @@ date: 2021-11-05T21:26:07-0600
 draft: false
 weight: -1
 ---
+
 # Interfaces
 [Interfaces - define behavior for multiple types | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces)  
 [Safely update interfaces using default interface methods in C# | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/default-interface-methods-versions)  

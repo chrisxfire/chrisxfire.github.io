@@ -4,6 +4,7 @@ date: 2022-03-06T17:36:04-0700
 draft: false
 weight: 1
 ---
+
 # Object Initializers
 Objects can be initialized when declared. Using object initializers works even when the initialization doesn't match a constructor as long as a parameterless constructor exists.  
 

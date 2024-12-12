@@ -4,6 +4,7 @@ date: 2022-12-12T20:58:19-0700
 draft: false
 weight: 1
 ---
+
 # Using ViewModel for the MainWindow
 `MainWindow.xaml`
 ```xml

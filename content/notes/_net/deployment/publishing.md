@@ -4,6 +4,7 @@ date: 2022-02-16T16:42:47-0700
 draft: false 
 weight: 1
 ---
+
 # [Publishing](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish)
 ```powershell
 dotnet publish [options] <proj|sltn> # Publish the application and its dependencies for hosting.

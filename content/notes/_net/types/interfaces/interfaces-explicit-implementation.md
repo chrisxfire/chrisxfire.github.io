@@ -4,6 +4,7 @@ date: 2022-03-06T18:29:31-0700
 draft: false
 weight: 1
 ---
+
 # Explicit Interface Implementation
 [Internal Interface Classes in C# | Alex Franchuk](https://alexfranchuk.com/blog/internal-interface-classes-in-csharp/)
 Interfaces can be explicitly implemented. Assume a case where a class implements two interfaces that have a member with the same signature:

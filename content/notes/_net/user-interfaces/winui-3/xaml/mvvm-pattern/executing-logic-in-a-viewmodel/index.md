@@ -4,6 +4,7 @@ date: 2022-12-18T20:02:53-0700
 draft: false
 weight: 1
 ---
+
 # First Technique to Execute Logic in a ViewModel
 Bind events to methods with `x:Bind`  
 

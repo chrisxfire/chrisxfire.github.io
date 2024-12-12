@@ -4,6 +4,7 @@ date: 2022-05-08T17:27:26-0600
 draft: false
 weight: 1
 ---
+
 # Built-in Delegates
 Built-in types `Action`, `Func`, and `Predicate` are special delegates that can be used without having to define a new delegate.
 

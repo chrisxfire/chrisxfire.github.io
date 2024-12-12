@@ -4,6 +4,7 @@ date: 2022-01-25T13:17:51-0700
 draft: false
 weight: 1
 ---
+
 # [DataFrame](https://docs.microsoft.com/en-us/dotnet/api/microsoft.data.analysis.dataframe?view=ml-dotnet-preview)
 `Object` –> `DataFrame`   
 

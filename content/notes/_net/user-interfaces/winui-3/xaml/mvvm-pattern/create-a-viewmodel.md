@@ -5,6 +5,7 @@ date: 2022-12-14T18:55:47-0700
 weight: 1
 draft: false
 ---
+
 # Creating
 New Folder > ViewModel; MainViewModel.cs
 

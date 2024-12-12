@@ -4,6 +4,7 @@ date: 2022-05-10T16:54:55-0600
 draft: false
 weight: 1
 ---
+
 # Components
 - OAuth 2.0 and OpenID Connect
   - Microsoft work/school accounts via Azure AD

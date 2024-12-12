@@ -4,6 +4,7 @@ date: 2022-09-02T12:24:49-0600
 draft: false
 weight: 1
 ---
+
 # Application Class
 - The `App` class is instantiated and loaded by the boostrap code for each platform.
 - It is the model of the application as a whole.

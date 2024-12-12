@@ -6,6 +6,7 @@ weight: 1
 tags:
  - kb/cli/git
 ---
+
 # Cloning a Repository
 `git clone <url> <directory>` 
 – executes md directory > cd directory > git init > git remote add <url> > git fetch > git checkout

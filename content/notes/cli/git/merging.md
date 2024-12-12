@@ -6,6 +6,7 @@ weight: 1
 tags:
  - kb/cli/git
 ---
+
 # Merging Branches
 `git merge <branch>` merge branch into the current branch
 

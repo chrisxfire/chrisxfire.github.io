@@ -4,6 +4,7 @@ date: 2023-02-22T12:03:00-0700
 draft: false
 weight: 1
 ---
+
 # HATEOAS
 - Hypermedia As The Engine Of Application State
 - Contrast this with interface description languages where clients are given descriptions on how to consume a web service.

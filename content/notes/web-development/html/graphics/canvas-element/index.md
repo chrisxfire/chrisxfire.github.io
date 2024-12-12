@@ -4,6 +4,7 @@ date: 2023-04-27T09:50:36-0600
 draft: false
 weight: 1
 ---
+
 # Overview
 The `<canvas>` element is a container for graphics drawn by JavaScript.
 Syntax: 

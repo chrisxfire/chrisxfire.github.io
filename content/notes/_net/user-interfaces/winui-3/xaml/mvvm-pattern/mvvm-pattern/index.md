@@ -4,6 +4,7 @@ date: 2022-12-12T17:00:55-0700
 draft: false
 weight: 1
 ---
+
 # Model View ViewModel Pattern
 ## View
 - `.xaml` and corresponding `.xaml.cs` file

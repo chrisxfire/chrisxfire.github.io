@@ -4,6 +4,7 @@ date: 2022-12-11T18:40:59-0700
 draft: false
 weight: 1
 ---
+
 # Sizing
 Setting `Height` to `"*"` for both `RowDefinitions` results in both rows growing proportionally:  
 ![](./XAML_UI_Sizing-Rows-&-Columns-image1.png)

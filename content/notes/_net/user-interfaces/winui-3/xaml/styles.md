@@ -4,6 +4,7 @@ date: 2022-12-31T09:16:27-0700
 draft: false
 weight: 1
 ---
+
 # Overview
 Styles allow you to apply the same property values to multiple elements in XAML.
 

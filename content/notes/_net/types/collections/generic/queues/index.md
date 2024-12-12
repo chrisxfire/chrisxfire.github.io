@@ -4,6 +4,7 @@ date: 2021-11-15T16:23:15-0700
 draft: false
 weight: 1
 ---
+
 # [Queue](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.queue-1?view=net-6.0)
 A first-in, first-out collection of objects.  
 ![](./queue.png)

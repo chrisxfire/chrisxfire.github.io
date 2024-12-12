@@ -4,6 +4,7 @@ date: 2022-12-18T19:13:17-0700
 draft: false
 weight: 1
 ---
+
 # Overview
 Prefer `x:Bind` over `Binding` whenever possible.
 

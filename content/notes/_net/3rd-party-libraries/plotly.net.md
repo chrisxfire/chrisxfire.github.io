@@ -3,6 +3,7 @@ title: plotly.net
 date: 2022-04-20T10:07:37-0600
 draft: false
 ---
+
 # [Plotly.NET](https://plotly.net/)
 
 <https://plotly.com/csharp/creating-and-updating-figures/>  

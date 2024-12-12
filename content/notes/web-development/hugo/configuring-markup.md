@@ -4,6 +4,7 @@ date: 2023-03-17T13:21:01-0600
 draft: false
 weight: 1
 ---
+
 # [Configuring Markup](https://gohugo.io/getting-started/configuration-markup/)
 All markup related settings and their defaults:
 ```toml

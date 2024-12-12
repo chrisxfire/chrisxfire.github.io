@@ -4,6 +4,7 @@ date: 2023-01-02T22:00:22-0700
 draft: false
 weight: 1
 ---
+
 # Overview
 [SplitView class (microsoft.com)](https://learn.microsoft.com/en-us/windows/windows-app-sdk/api/winrt/microsoft.UI.Xaml.Controls.SplitView)  
 SplitView controls have an expandable / collapsible pane and a content area:  

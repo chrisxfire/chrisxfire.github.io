@@ -4,6 +4,7 @@ date: 2022-02-17T19:00:29-0700
 draft: false
 weight: 1
 ---
+
 # Algorithms
 Algorithm – A series of instructions that perform a task.
 

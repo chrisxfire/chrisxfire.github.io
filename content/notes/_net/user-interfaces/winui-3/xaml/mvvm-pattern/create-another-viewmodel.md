@@ -4,6 +4,7 @@ date: 2022-12-14T19:21:02-0700
 draft: false
 weight: 1
 ---
+
 # Create a ViewModel for a Customer
 `CustomerItemViewModel.cs`
 ```cs
