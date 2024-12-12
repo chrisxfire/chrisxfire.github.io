@@ -6,7 +6,6 @@ weight: 1
 tags:
  - kb/dotnet/types/classes/methods/deconstructors
 ---
-
 # Deconstructors
 The special method `Deconstruct()` is used to deconstruct a type:
 ```cs

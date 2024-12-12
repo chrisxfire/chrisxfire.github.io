@@ -4,7 +4,6 @@ date: 2021-11-06T10:44:24-0600
 draft: false
 weight: 1
 ---
-
 # Methods
 Methods are functions that belong 
 to a type that execute statements.  
