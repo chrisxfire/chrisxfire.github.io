@@ -49,7 +49,7 @@ public class RegexLib
 ```
 
 ## Using Source Generated Regular Expressions (#5)
-> [!IMPORANT] Availability: .NET 7 
+> [!IMPORTANT] Availability: .NET 7 
 
 A *source generator* is a component that plugs into the compiler, is given information about the code like an
 analyzer, and can augment the compiled output with additional source code. 

@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions)]  
-> [!IMPORANT] Availability: C# 12
+> [!IMPORTANT] Availability: C# 12
 
 Use *collection expressions* to create common collection values. This syntax can be assigned to many different collection types. It contains
 a sequence of elements between `[` and `]`.

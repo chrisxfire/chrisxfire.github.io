@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview [[Documentation](https://learn.microsoft.com/en-us/visualstudio/test/live-unit-testing-intro?view=vs-2022)]  
-> [!IMPORANT] Availability: Visual Studio 2022 Enterprise Edition 
+> [!IMPORTANT] Availability: Visual Studio 2022 Enterprise Edition 
 
 Live Unit Testing executes unit tests automatically and in real time as code changes are made. 
 It works with unit tests created in test projects (see [Notes on Unit Testing](../../../../../notes/_net/testing/unit-testing))

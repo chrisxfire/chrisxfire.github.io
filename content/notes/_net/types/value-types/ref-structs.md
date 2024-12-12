@@ -30,6 +30,6 @@ readonly ref readonly int someVar; // someVar cannot receive a new value and can
 ```
 
 # `scoped ref`
-> [!IMPORANT] Availability: C# 11
+> [!IMPORTANT] Availability: C# 11
 
 Adding the `scoped` modifier asserts that code will not extend the lifetime of a variable.
