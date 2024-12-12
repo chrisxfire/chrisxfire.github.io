@@ -140,3 +140,108 @@ public class ViewModel
 // Objects are created like this:
 ViewModel vm = await ViewModel.BuildViewModelAsync();
 ```
+
+# [Primary Constructors](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors#primary-constructors)
+> [!IMPORTANT] Availability: .NET 8 with C# 12
+
+Primary constructors are constructors with parameters added. They indicate that these parameters are necessary for any instance of the type.
+A primary constructor's parameters are available anywhere in the type definition. 
+
+> [!IMPORTANT] 
+> Primary constructor parameters are, in fact, parameters—not members—of the type.
+
+Rules:
+- They may not be stored if they are not needed.
+- They are not members, so they cannot be accessed via the `this` keyword.
+- They can be assigned to.
+- They do not become properties, except in record types.
+- Every other constructor of a class **must** call the primary constructor through a `this()` constructor invocation.
+
+
+Primary constructors are available to classes, structs, and records.
+
+## Implementation Details
+- In any `class` type, including `record class`, the implicit parameterless constructor is <r>not</r> emitted when a primary constructor is presented.
+- In any `struct` type, including `record struct`:
+  - the implicit parameterless construct is <g>always</g> emitted
+  - all fields are always initialized to the 0-bit pattern
+- In and only in a `record class` or `record struct`, the compiled synthesizes a public property with the same name as the primary constructor parameter. 
+- In and only in a `record class`, if a primary constructor parameter uses the same name as a base primary constructor, that property is a public property of the base `record class` type.
+
+> [!TIP]
+> More information: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/primary-constructors
+
+## Common Uses
+1. As an argument to a `base()` constructor invocation.
+2. To initialize a member field or property.
+3. Referencing the constructor parameter in an instance member.
+4. Specify parameters for dependency injection.
+
+## Example: Basic
+Consider this type:
+```cs
+public class NamedItem(string name)
+{
+    public string Name => name;
+}
+```
+
+This `Widget` type that derives from `NamedItem` must have a `this()` constructor invocation:
+```cs
+// name isn't captured in Widget.
+// width, height, and depth are captured as private fields
+public class Widget(string name, int width, int height, int depth) : NamedItem(name)
+{
+    public Widget() : this("N/A", 1,1,1) {} // unnamed unit cube
+
+    public int WidthInCM => width;
+    public int HeightInCM => height;
+    public int DepthInCM => depth;
+
+    public int Volume => width * height * depth;
+}
+```
+
+## Example: Initializing a Property
+Two readonly properties are computed from primary constructor parameters:
+```cs
+public readonly struct Distance(double dx, double dy)
+{
+    public readonly double Magnitude { get; } = Math.Sqrt(dx * dx + dy * dy);
+    public readonly double Direction { get; } = Math.Atan2(dy, dx);
+}
+```
+
+This would be equivalent to:
+```cs
+public readonly struct Distance
+{
+    public readonly double Magnitude { get; }
+
+    public readonly double Direction { get; }
+
+    public Distance(double dx, double dy)
+    {
+        Magnitude = Math.Sqrt(dx * dx + dy * dy);
+        Direction = Math.Atan2(dy, dx);
+    }
+}
+```
+
+## Example: Dependency Injection
+This controller's primary constructor indicates the parameters needed for its class:
+```cs
+public interface IService
+{
+    Distance GetDistance();
+}
+
+public class ExampleController(IService service) : ControllerBase
+{
+    [HttpGet]
+    public ActionResult<Distance> Get()
+    {
+        return service.GetDistance();
+    }
+}
+```
