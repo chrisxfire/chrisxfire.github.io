@@ -60,7 +60,7 @@ string[] alphabet = [ ..vowels, ..consonants, "y" ];
 # Restrictions
 Collection expressions cannot be used:
 * Where a compile-time constant is expected
-* The default value for a method argument
+* As the default value for a method argument
 
 # Creating Collection Types that Support Collection Expressions
 1. Write a `Create` method that:
@@ -101,3 +101,6 @@ internal static class LineBufferBuilder
     internal static LineBuffer Create(ReadOnlySpan<char> values) => new LineBuffer(values);
 }
 ```
+
+# Converting Collection Expressions to Collection Types
+See https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions#conversions
