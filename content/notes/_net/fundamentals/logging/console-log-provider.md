@@ -6,7 +6,9 @@ weight: 1
 ---
 
 # Overview
-<g>Availability: .NET 5</g>  
+> [!IMPORTANT]
+> Availability: .NET 5  
+
 > Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/console-log-formatter
 
 The `Console` log provider supports three formatting options: Simple, Systemd, and Json.

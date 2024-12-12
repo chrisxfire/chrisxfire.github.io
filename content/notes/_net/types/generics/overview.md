@@ -59,7 +59,9 @@ string s = pair.Second; // TSecond string
 ```
 
 # Generic Attributes
-<g>Availability: C# 11</g>  
+> [!IMPORTANT]
+> Availability: C# 11  
+
 To create a generic attribute, create a class whose base class is `Attribute`:  
 
 ```cs

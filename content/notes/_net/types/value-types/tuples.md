@@ -52,7 +52,9 @@ type var2 = val2;
 (var1, var2) = function();
 ```
 
-<g>Availability: C# 10</g>  
+> [!IMPORTANT]
+> Availability: C# 10  
+
 It is now possible to assign values to an existing variable and initialize newly declared variables in the same deconstruction:
 
 ```cs

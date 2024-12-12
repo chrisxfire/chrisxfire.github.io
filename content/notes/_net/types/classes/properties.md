@@ -144,7 +144,9 @@ derived classes.
 - `abstract` — See below.
 
 ## Required modifier
-<g>Availability: C# 11</g>  
+> [!IMPORTANT]
+> Availability: C# 11  
+
 The `required` modifier indicates that a *field* or *property* it's applied to <u>must</u> be initialized by an object initializer, so any new instance of the type must initialize all required members.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/required
 

@@ -7,7 +7,8 @@ weight: 1
 
 # Overview
 Generic interfaces are type-safe counterparts to non-generic interfaces for ordering and equality comparisons and for functionality shared by generic collection types.
-- <g>Availability: .NET 7</g>
+- > [!IMPORTANT]
+> Availability: .NET 7
 
 # Framework-provided Generic Interfaces
 ## For Equality and Ordering Comparisons

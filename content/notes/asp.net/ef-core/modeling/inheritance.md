@@ -12,7 +12,8 @@ EF Core supports three strategies of mapping .NET types:
 - Table-per-Type (TPT) — maps each .NET type to a different database table
   - Documentation: https://learn.microsoft.com/en-us/ef/core/modeling/inheritance#table-per-type-configuration
 - Table-per-Concrete-Type (TPC)
-  - <g>Availability: EF Core 7</g>
+  > [!IMPORTANT]
+  > Availability: EF Core 7
   - Like TPT, but in a way that addresses problems with that strategy.
   - Documentation: https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-7.0/whatsnew#table-per-concrete-type-tpc-inheritance-mapping
 By default, EF Core maps an inheritance hierarchy of .NET types to a single hierarchy.

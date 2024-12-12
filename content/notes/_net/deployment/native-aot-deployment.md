@@ -40,7 +40,8 @@ Limitations:
 This capability also allows for publishing .NET class libraries that can be consumed from non-.NET languages.
 
 # AOT-Compatibility Analyzers
-<g>Availability: .NET 8</g>  
+> [!IMPORTANT]
+> Availability: .NET 8  
 
 Use the `IsAotCompatible` property to provide analyzers for AOT compatibility:  
 `SomeProject.csproj`  

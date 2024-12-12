@@ -79,7 +79,9 @@ static async Task<string> PostApi(HttpClient client, string url, HttpContent con
 ```
 
 # HTTP/3
-<g>Availability: .NET 6 (preview), .NET 7 (production)</g>
+> [!IMPORTANT]
+> Availability: .NET 6 (preview), .NET 7 (production)
+
 HTTP/3 uses a different underlying transport (QUIC) than HTTP/2 and HTTP/1.1 (TCP).  Advantages:
 - Faster response time for the first request (negotiates connections in fewer round trips)
 - Lost packets only affect the requests where data has been lost (QUIC provides native multiplexing; HTTP/2 multiplexes multiple requests via a single TCP connection, so packet loss on the connection affects all requests)

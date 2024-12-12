@@ -6,7 +6,9 @@ weight: 3
 ---
 
 # Overview
-<g>Availability: .NET 6</g>   
+> [!IMPORTANT]
+> Availability: .NET 6   
+
 > Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator
 
 The `LoggerMessageAttribute`, part of `Microsoft.Extensions.Logging`, source-generates performant logging APIs. The auto-generated code relies on `ILogger` and `LoggerMessage.Define`.

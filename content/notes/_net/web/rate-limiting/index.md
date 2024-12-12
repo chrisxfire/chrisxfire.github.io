@@ -5,7 +5,9 @@ draft: false
 weight: 1
 ---
 # Overview
-<g>Availability: .NET 7</g>  
+> [!IMPORTANT]
+> Availability: .NET 7  
+
 Rate limiting is built into .NET 7.  
 
 # Built-in Rate Limiting Algorithms

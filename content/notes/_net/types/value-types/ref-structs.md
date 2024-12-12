@@ -17,8 +17,11 @@ Restrictions:
 A ref struct can be made disposable: create an instance or extension Dispose method that is accessible, parameterless, and returns void.
 
 ## `ref` Fields
-<g>Availability: C# 11</g>  
-- May hold null. Use `Unsafe.IsNullRef<T>(T)` to determine if a ref field is null.
+> [!IMPORTANT]
+> Availability: C# 11  
+
+> [!WARNING]
+> May hold null. Use `Unsafe.IsNullRef<T>(T)` to determine if a ref field is null.
 
 # `ref readonly`
 The `readonly` modifier affects the expression to its right:

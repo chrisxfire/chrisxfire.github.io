@@ -160,7 +160,8 @@ customer.Where(c => c.City == "London");
 ```
 
 # [Natural (Inferred) Type of a Lambda Expression](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#natural-type-of-a-lambda-expression)
-<g>Availability: C# 10</g>  
+> [!IMPORTANT]
+> Availability: C# 10  
 
 The compiler can sometimes infer the type of a lambda expression.
 Here, the type is inferred to be `Func<string, int>`:
@@ -179,7 +180,8 @@ Func<string, int> parse = s => int.Parse(s); // OK
 ```
 
 # [Return Type of a Lambda Expression](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#explicit-return-type)
-<g>Availability: C# 10</g>
+> [!IMPORTANT]
+> Availability: C# 10
 
 Usually, the compiler can infer the return type of a lambda expression. In some cases, it cannot:
 ```cs
@@ -194,7 +196,8 @@ var choose = object (bool b) => b ? 1 : "two"; // Func<bool, object>
 Note that when explicitly specifying the return type, the input parameters must be parenthesized. 
 
 # [Attributes](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#attributes)
-<g>Availability: C# 10</g>
+> [!IMPORTANT]
+> Availability: C# 10
 
 Attributes (like `ProvidesNullCheck`) can be added to a lambda expression:
 ```cs

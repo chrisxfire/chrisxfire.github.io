@@ -51,9 +51,11 @@ The defaults in ASP.NET Core apps are different than .NET apps.  See: https://le
 | Ignore read-only fields when serializing | Use `JsonSerializerOptions`'s `IgnoreReadOnlyFields` | N/A                                                      |
 
 ### Marking Properties or Fields Required for JSON Deserialization
+> [!IMPORTANT]
+> Availability: C# 11
+
 There are three approaches:
-1. Via the  `required` modifier
-    <g>Availability: C# 11</g>
+1. Via the  `required` modifier    
     ```cs
     using System.Text.Json;
 
@@ -67,7 +69,6 @@ There are three approaches:
     }
     ``````
 2. Via the `[JsonRequiredAttribute]`:
-    <g>Availability: .NET 7</g>
     ```cs
     using System.Text.Json;
 
@@ -82,7 +83,6 @@ There are three approaches:
     }
     ```
 3. Via the JsonPropertyInfo.IsRequired property of the contract model:
-    <g>Availability: .NET 7</g>
     ```cs
     var options = new JsonSerializerOptions
     {

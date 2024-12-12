@@ -41,7 +41,9 @@ Both Kestrel and HTTP.sys require Windows 10/Server 2016 or later.
 On Linux, Kestrel requires OpenSSL 1.0.2.
 
 # HTTP/3 Support
-<g>Availability: ASP.NET Core 7</g>  
+> [!IMPORTANT]
+> Availability: ASP.NET Core 7  
+
 These [notes on HTTP/3](../../../_net/web/http/httpclient#http3) apply.
 
 HTTP/3 is not enabled by default.  To enable:  
