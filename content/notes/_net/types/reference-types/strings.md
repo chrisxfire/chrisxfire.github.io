@@ -6,13 +6,16 @@ weight: 1
 tags:
  - kb/dotnet/types/reference/strings
 ---
-# [Strings](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-6.0)
+# [Strings](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=net-8.0)
 A sequence of UTF-16 code units.  
 Stored internally as a sequential read-only collection of `Char` objects.  
 - `Length` property represents the number of `Char` objects contained, not the number of code units.
 - To access the individual code points, use `StringInfo`
 
-The `string` keyword looks like a type but is actually an alias for the type `String`  
+The `string` keyword looks like a type but is actually an alias for the type `String`.
+
+> [!TIP]
+> See also: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/
 
 # Empty Strings
 Empty strings are represented as `""`  
@@ -31,12 +34,15 @@ String.Compare(string1, string2, StringComparison.OrdinalIgnoreCase)
 ```
 # Constructing
 ```cs
-string x = null;
-string x = String.Empty;
+string x; // declare without initializing
+string? y = null; // initialize to null
+string z = string.Empty; // initialize as an empty string
+string foo = "some string"; // initialize with a regular string literal
+System.String bar = "some other string"; // initialize with System.String instead of the string keyword
+string baz = @"C:\Windows\System32"; // initialize with a verbatim string literal
+
 char[] letters = { 'A', 'B', 'C' };
-string x = new string(letters); // Use the constructor only when creating a string from a char, char[], or sybte.
-string x = "str";
-```
+string x = new string(letters); // Use the constructor only when creating a string from a char*, char[], or sbyte*.
 
 # Accessing
 Use `String.IsNullOrEmpty(string)` to verify the value of a string before accessing it.
@@ -46,18 +52,6 @@ Use `string.Format()` for formatted strings:
 ```cs
 string result = string.Format("{0} and {1}", var1, var2)
 ```
-# Interpolated Strings
-String interpolation achieves the same results as string formatting.  
-
-<g>Availability: C# 11</g>: Newlines are permitted in string interpolations.  
-
-Use `$` for interpolated strings: `interpolationExpression,alignment:formatString`
-
-## Alignment
-Alignment is expressed as a signed integer $n$ indicating preferred field width:
-- If $n$ is less than the length of the string, it is ignored.  
-- If $n$ is positive, the field is right-aligned.  
-- If $n$ is negative, the field is left-aligned.  
 
 ## Formats
 | format                      | output                            |
@@ -109,6 +103,20 @@ Numbers:
 Percentage:
 - `{var1:P2}` (2 digits of precision)
 
+## Alignment
+Alignment is expressed as a signed integer $n$ indicating preferred field width:
+- If $n$ is less than the length of the string, it is ignored.  
+- If $n$ is positive, the field is right-aligned.  
+- If $n$ is negative, the field is left-aligned.  
+
+# [Interpolated Strings](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated)
+String interpolation achieves the same results as string formatting.  
+
+Use `$` for interpolated strings: `interpolationExpression,alignment:formatString`
+
+## Interpolated Strings with Newlines
+<g>Availability: C# 11</g>: Newlines are permitted in string interpolations. 
+
 ## [Constant Interpolated Strings](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/const)
 <g>Availability: C# 10</g>
 
@@ -145,6 +153,9 @@ Raw string literals eliminate all need to escape content. They:
 Newlines following the opening quote and preceding the closing quote are not included in the content.
 
 ## Raw String Literals and String Interpolation
+> [!IMPORTANT]
+> Availability: C#11
+
 Use multiple `$` characters to denote how many consecutive braces start/end an interpolation.  
 In this example, two braces start/end an interpolation and the third is printed:
 ```cs
