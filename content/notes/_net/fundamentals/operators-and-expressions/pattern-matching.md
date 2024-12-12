@@ -5,10 +5,12 @@ draft: false
 weight: 1
 ---
 
-[Pattern Matching](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching#type-tests)
-See also: [C# 9.0: Pattern Matching in Switch Expressions – Thomas Claudius Huber](https://www.thomasclaudiushuber.com/2021/02/25/c-9-0-pattern-matching-in-switch-expressions/)
+# [Pattern Matching](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/pattern-matching#type-tests) 
+See also: https://www.thomasclaudiushuber.com/2021/02/25/c-9-0-pattern-matching-in-switch-expressions/  
+See also: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns
 
-# Declaration and Type Patterns
+## Declaration and Type Patterns
+Use declaration and type patterns to check if the runtime type of an expression is compatible with a given type:
 ```cs
 if (o is int i) { … }	// If o matches the pattern of an integer, store it in variable i.
 ```
@@ -22,7 +24,7 @@ if (maybe is int number)
 }
 ```
 
-# Logical Pattern
+## Logical Pattern (`and`, `or`, and `not`)
 Logical patterns are created with `and`, `or`, and `not`:
 
 Check for null or negated null:
@@ -30,13 +32,55 @@ Check for null or negated null:
 if (x is null and y is not null) { … }
 ```
 
-# Parenthesized Pattern
+*Conjunctive* `and` patterns match an expression when both patterns match the expression:
+```cs
+Console.WriteLine(Classify(13));  // output: High
+Console.WriteLine(Classify(-100));  // output: Too low
+Console.WriteLine(Classify(5.7));  // output: Acceptable
+
+static string Classify(double measurement) => measurement switch
+{
+    < -40.0 => "Too low",
+    >= -40.0 and < 0 => "Low",
+    >= 0 and < 10.0 => "Acceptable",
+    >= 10.0 and < 20.0 => "High",
+    >= 20.0 => "Too high",
+    double.NaN => "Unknown",
+};
+```
+
+The opposite of conjunctive `and` patterns are disjunctive `or` patterns, which matches an expression when either pattern matches the expression:
+```cs
+Console.WriteLine(GetCalendarSeason(new DateTime(2021, 1, 19)));  // output: winter
+Console.WriteLine(GetCalendarSeason(new DateTime(2021, 10, 9)));  // output: autumn
+Console.WriteLine(GetCalendarSeason(new DateTime(2021, 5, 11)));  // output: spring
+
+static string GetCalendarSeason(DateTime date) => date.Month switch
+{
+    3 or 4 or 5 => "spring",
+    6 or 7 or 8 => "summer",
+    9 or 10 or 11 => "autumn",
+    12 or 1 or 2 => "winter",
+    _ => throw new ArgumentOutOfRangeException(nameof(date), $"Date with unexpected month: {date.Month}."),
+};
+```
+
+### Logical Pattern Precedence
+The combinators have the following precedence:
+1. `not`
+2. `and`
+3. `or`
+
+> [!TIP]  
+> More information: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#precedence-and-order-of-checking
+
+## Parenthesized Pattern
 Use to emphasize or change the precedence in logical patterns:
 ```cs
 if (input is not (float or double)) { … }
 ```
 
-# Property Pattern
+## Property Pattern
 Use to match an expression's properties or fields against a nested pattern:
 ```cs
 static bool IsConferenceDay(DateTime date) => date is { Year: 2020, Month: 5, Day: 19 or 20 or 21 };
@@ -46,7 +90,7 @@ or:
 static bool IsAnyEndOnXAxis(Segment segment) => segment is { Start.Y: 0 } or { End.Y: 0 };
 ```
 
-# `var` Pattern
+## `var` Pattern
 Use to match any expression and assign the result to a new local variable:
 ```cs
 static bool IsAcceptable(int id, int absLimit) =>
@@ -64,7 +108,7 @@ static int[] SimulateDataFetch(int id)
 }
 ```
 
-# List Pattern
+## List Pattern
 <g>Availability: C# 11</g>  
 List patterns allow you to match an array or a list against a sequence of patterns:
 
@@ -105,13 +149,13 @@ Console.WriteLine(new[] { 0, 1, 2, 3, 4 } is [> 0, > 0, ..]);  // False
 Console.WriteLine(new[] { 1 } is [1, 2, ..]);  // False
 ```
 
-## Convert with `as`:
+### Convert with `as`
 ```cs
 var v1 = v2 as type; // This safely converts v2 to type.
 if (v1 != null) { … }
 ```
 
-## Compare discrete values
+### Compare discrete values
 In a switch, every expression, including null, matches `_`:
 ```cs
 public State PerformOperation(string command) =>
@@ -124,8 +168,8 @@ public State PerformOperation(string command) =>
    };
 ```
 
-# Patterns on Switches
-## Discard Pattern
+## Patterns on Switches
+### Discard Pattern
 Match any expression, including null:
 ```cs
 static decimal GetDiscountInPercent(DayOfWeek? dayOfWeek) => dayOfWeek switch
@@ -141,7 +185,7 @@ static decimal GetDiscountInPercent(DayOfWeek? dayOfWeek) => dayOfWeek switch
 };
 ```
 
-## Type Pattern
+### Type Pattern
 A type pattern allows you to use a type in a switch:
 ```cs
 public static decimal CalculateToll(this Vehicle vehicle) => vehicle switch
@@ -153,7 +197,7 @@ public static decimal CalculateToll(this Vehicle vehicle) => vehicle switch
 };
 ```
 
-## Constant Pattern
+### Constant Pattern
 A constant pattern tests if an expression equals a constant:
 ```cs
 public static decimal GetGroupTicketPrice(int visitorCount) => visitorCount switch
@@ -167,7 +211,7 @@ public static decimal GetGroupTicketPrice(int visitorCount) => visitorCount swit
 };
 ```
 
-## Relational Pattern
+### Relational Pattern
 Use the `< > <=` and `>=` operators to compare an expression result with a constant:
 ```cs
 Console.WriteLine(Classify(13));  // output: Too high
@@ -183,7 +227,7 @@ static string Classify(double measurement) => measurement switch
 };
 ```
 
-## Switch Expression
+### Switch Expression
 Switch expressions simplify switch statements and are useful where all cases return a value to set a single variable:
 ```cs
 message = s switch {
@@ -209,7 +253,7 @@ string WaterState(int tempInFahrenheit) =>
     };
 ```
 
-## Switch Expression with Multiple Inputs
+### Switch Expression with Multiple Inputs
 ```cs
 public decimal CalculateDiscount(Order order) =>
     order switch {
