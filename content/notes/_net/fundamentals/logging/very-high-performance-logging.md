@@ -6,8 +6,7 @@ weight: 3
 ---
 
 # Overview
-> [!IMPORTANT]
-> Availability: .NET 6   
+> [!IMPORTANT] Availability: .NET 6   
 
 > Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator
 

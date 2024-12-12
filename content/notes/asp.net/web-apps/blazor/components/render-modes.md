@@ -75,8 +75,7 @@ Use the `@rendermode` Razor directive attribute:
 ## In Component definitions
 Render modes are commonly applied to component definitions when applying render modes to specific pages.
 
-> [!NOTE]
-> Routable pages use the same render mode as the Router component that rendered the page.
+> [!NOTE] Routable pages use the same render mode as the Router component that rendered the page.
 
 Use the `@rendermode` Razor directive:
 ```cshtml
@@ -279,8 +278,7 @@ This component behaves identically as in the previous example.
 Auto rendering determines how to render the component at runtime. The component is initially rendered via interactive SSR. The 
 .NET runtime and app bundle are downloaded to the client in the background and cached. 
 
-> [!NOTE]
-> The Auto render mode never dynamically changes the render mode of a component already on the page.
+> [!NOTE] The Auto render mode never dynamically changes the render mode of a component already on the page.
 
 Auto mode initially decides which type of interactivity to use for a component. The component keeps that type as long as it's on the page.
 
@@ -309,8 +307,7 @@ Render modes always propagate down the component hierarchy.
 - `InteractiveServer`, `InteractiveWebAssembly`, and `InteractiveAuto` modes can be propagated from a parent component
 - A child component cannot have a different *interactive* render mode (e.g. an `InteractiveServer` component cannot be a child of a `InteractiveWebAssembly` component).
 
-> [!WARNING]
-> Parameters passed to an interactive child component from a Static parent must be JSON serializable: you cannot pass
+> [!WARNING] Parameters passed to an interactive child component from a Static parent must be JSON serializable: you cannot pass
 > render fragments or child content from a static parent to an interactive child.
 
 Consider this component non-page, non-routable component:

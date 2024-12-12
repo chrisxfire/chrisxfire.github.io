@@ -4,7 +4,8 @@ date: 2021-11-06T11:25:46-0600
 draft: false
 weight: 1
 ---
-# Properties
+
+# [Properties](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties)
 Properties are methods that act like Fields that allow for getting and setting its value.
 - They are used in place of fields when the value they contain must be calculated or guarded.
 - To the user of a property, they appear as a field.
@@ -144,8 +145,7 @@ derived classes.
 - `abstract` — See below.
 
 ## Required modifier
-> [!IMPORTANT]
-> Availability: C# 11  
+> [!IMPORTANT] Availability: C# 11  
 
 The `required` modifier indicates that a *field* or *property* it's applied to <u>must</u> be initialized by an object initializer, so any new instance of the type must initialize all required members.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/required

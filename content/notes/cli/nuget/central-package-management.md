@@ -6,8 +6,7 @@ weight: 1
 ---
 
 # Overview
-> [!IMPORTANT]
-> Availability: NuGet v6.2  
+> [!IMPORTANT] Availability: NuGet v6.2  
 
 Use to manage common dependencies across many different projects.
 

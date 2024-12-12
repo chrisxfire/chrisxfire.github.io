@@ -27,8 +27,7 @@ context.SaveChanges(); // save
 - `SaveChanges()` requires tracking (and, by extension, querying) all entities to be modified or deleted.  For example, deleting a large number of rows requires a corresponding `DELETE` statement for all of them.  RDBMS's support a single DELETE command, but the `SaveChanges()` approach does not support this.
 
 # 2. `ExecuteUpdate` and `ExecuteDelete` (bulk update)  
-> [!IMPORTANT]
-> Availability: EF Core 7.0
+> [!IMPORTANT] Availability: EF Core 7.0
 
 ## Pattern
 ```cs

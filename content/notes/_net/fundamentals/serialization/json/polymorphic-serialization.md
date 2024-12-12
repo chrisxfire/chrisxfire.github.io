@@ -6,8 +6,7 @@ weight: 1
 ---
 
 # Overview
-> [!IMPORTANT]
-> Availability: .NET 7
+> [!IMPORTANT] Availability: .NET 7
 
 - Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/polymorphism?pivots=dotnet-7-0
 

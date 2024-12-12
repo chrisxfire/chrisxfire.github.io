@@ -71,8 +71,7 @@ The combinators have the following precedence:
 2. `and`
 3. `or`
 
-> [!TIP]  
-> More information: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#precedence-and-order-of-checking
+> [!TIP] More information: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#precedence-and-order-of-checking
 
 ## Parenthesized Pattern
 Use to emphasize or change the precedence in logical patterns:
@@ -109,8 +108,7 @@ static int[] SimulateDataFetch(int id)
 ```
 
 ## List Pattern
-> [!IMPORTANT]
-> Availability: C# 11  
+> [!IMPORTANT] Availability: C# 11  
 
 List patterns allow you to match an array or a list against a sequence of patterns:
 

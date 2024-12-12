@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/test/hot-reload?view=aspnetcore-7.0)]  
-<g>Availability</g>: ASP.NET Core 6+
+> [!IMPORANT] Availability: ASP.NET Core 6+
 
 .NET Hot Reload applies code changes (including changes to style sheets) to running apps without restarting and losing state. It is designed for use with ASP.NET Core apps.
 

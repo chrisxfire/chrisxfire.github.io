@@ -51,8 +51,7 @@ The defaults in ASP.NET Core apps are different than .NET apps.  See: https://le
 | Ignore read-only fields when serializing | Use `JsonSerializerOptions`'s `IgnoreReadOnlyFields` | N/A                                                      |
 
 ### Marking Properties or Fields Required for JSON Deserialization
-> [!IMPORTANT]
-> Availability: C# 11
+> [!IMPORTANT] Availability: C# 11
 
 There are three approaches:
 1. Via the  `required` modifier    

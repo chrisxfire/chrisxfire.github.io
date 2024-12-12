@@ -7,7 +7,7 @@ weight: 1
 
 # Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0)]  
 
-<g>Availability</g>: Visual Studio 2022 17.6+ w/*ASP.NET and web development* workload installed
+> [!IMPORANT] Availability: Visual Studio 2022 17.6+ w/ASP.NET and web development workload installed
 
 Dev Tunnels are a Visual Studio 2022 feature that create ad-hoc connections between machines that cannot directly connect to one another. A URL is created that enables any device with an internet connection to connect to the ASP.NET Core project while it runs on localhost.
 

@@ -6,7 +6,8 @@ weight: 1
 ---
 
 # Overview
-<g>Availability: C# 11 / .NET 7</g>
+> [!IMPORANT] Availability: C# 11 / .NET 7
+
 Properties can be marked `required` to indicate that they must be present in the JSON payload for deserialization to succeed.  Otherwise, `Deserialize` methods throw a `JsonException.`
 
 # Techniques for Marking Fields/Properties

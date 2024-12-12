@@ -4,7 +4,8 @@ date: 2021-11-05T21:23:37-0600
 draft: false
 weight: 1
 ---
-# Structs
+
+# [Structs](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct)
 A value type that encapsulates data and related functionality.
 
 ## Characteristics
@@ -18,7 +19,7 @@ A value type that encapsulates data and related functionality.
 - You need a small, data-centric type with little or no behavior
 - You need a type whose fields are only value types
 - The total bytes used by all the fields in the type is 16 bytes or less
-- .NET uses structs for numbers, booleans, unicode chars, time.
+- .NET uses structs for numbers, booleans, unicode chars, time
 
 # Creating
 Note: When creating custom structs, always override ToString() to provide information about the type (not shown here).
@@ -35,7 +36,7 @@ public struct Point
 ```
 
 ## Initialization
-Uninitialized fields are assigned their default value.
+As of C#11, uninitialized fields are assigned their default value.
 
 If all instance fields of a struct are accessible, the struct can be instantiated without the `new` operator.
 

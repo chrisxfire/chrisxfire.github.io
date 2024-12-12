@@ -11,8 +11,7 @@ weight: 1
 # Callouts
 To create a callout, add `[!info]` to the first line of a blockquote, like so:  
 ```
-> [!info]
-> Here's a callout block.
+> [!info] Here's a callout block.
 > It supports **Markdown**, [[Wikilinks]], and [[Embedded files|embeds]].
 > ![[Somefile.jpg]]
 ```

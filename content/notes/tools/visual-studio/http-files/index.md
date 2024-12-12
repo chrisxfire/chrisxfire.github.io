@@ -7,7 +7,7 @@ weight: 1
 
 # Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0)]   [[Documentation](https://devblogs.microsoft.com/visualstudio/safely-use-secrets-in-http-requests-in-visual-studio-2022/?ocid=visualstudio_eml_tnp_autoid21_title)]  
 
-<g>Availability</g>: ASP.NET Core 8? (documentation is unclear), Visual Studio 2022 v17.6+
+> [!IMPORANT] Availability: ASP.NET Core 8? (documentation is unclear), Visual Studio 2022 v17.6+
 
 HTTP files in Visual Studio allow you to create HTTP requests. You can use the editor to create and send requests and view responses.
 
@@ -98,7 +98,7 @@ If an `.http` file with the project name as the file name exists, the request is
 Otherwise, an `.http` file is created with the project name as the file name, and the request is added to that file.
 
 # Environments
-<g>Availability</g>: Visual Studio 17.8+  
+> [!IMPORANT] Availability: Visual Studio 17.8+  
 
 By creating an `http-client.env.json` file, variables for `.http` files can be scoped to a specific environment:   
 `http-client.env.json`
