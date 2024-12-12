@@ -130,7 +130,8 @@ public string Name => First + " " + Last;
 Parameters pass values or references to methods.  
 By default, value types and reference types are passed by value.  
 
-## Pass a Value Type by Value
+## Passing a Value-Type by Value
+A copy of the value is passed:
 ```cs
 int n = 5;
 SquareIt(n);
@@ -141,7 +142,7 @@ Console.WriteLine(xx); // output: 25
 Console.WriteLine(n); // output: 5
 ```
 
-## Pass a Value Type by Reference
+## Passing a Value-Type by Reference
 ```cs
 int n = 5;
 SquareIt(ref n);
@@ -152,7 +153,9 @@ Console.WriteLine(xx); // output: 25
 Console.WriteLine(n); // output: 25
 ```
 
-## Pass a Reference Type by Value
+## Passing a Reference-Type by Value
+When passing a reference-type parameter by value, you can change the data belonging to the referenced object, but not the value of the reference itself:
+
 ```cs
 int[] arr = { 1, 3, 5 };
 
@@ -167,7 +170,7 @@ static void Change(int[] pArray)
 Console.WriteLine(pArray[0]); // output: 10
 ```
 
-## Pass a Reference Type by Reference
+## Passing a Reference-Type by Reference
 ```cs
 int[] arr = { 1, 3, 5 };
 
@@ -197,36 +200,6 @@ Valid calls on the above method signature:
 - Pass null: `result = GetVowels(null);`
 - Pass nothing: `result = GetVowels();`
 
-## Passing a Value-Type by Value
-A copy of the value is passed:
-```cs
-static void SquareIt(int x) => x = x;
-
-static void Main() 
-{
-    int n = 5; // The value before calling the method = 5.
-
-    SquareIt(n);  // The value in the method = 25.
-    Console.WriteLine(n); // The value after calling the method = 5.
-}
-```
-
-## Passing a Reference-Type by Value
-When passing a reference-type parameter by value, you can change the data belonging to the referenced object, but not the value of the reference itself:
-```cs
-static void Change(int[] myArray) 
-{
-    myArray[0] = -1; // This change affects the original element.
-    myArray = new int[3] { 7, 9, 11 }; // This change is local.
-}
-
-static void Main() 
-{
-    int[] arr = { 1, 3, 5 };
-    Change(arr); // arr is now -1, 3, 5;
-}
-```
-
 ## Swapping Value Types
 ```cs
 static void SwapByRef(ref int x, ref int y) 
@@ -237,20 +210,93 @@ static void SwapByRef(ref int x, ref int y)
 }
 ```
 
-# Passing Values by Reference
+# Reference Parameter Modifiers for Passing Values by Reference
 By default, value types are passed by value. These modifiers specify that a variable is passed by reference.  
 Any operation on the parameter is made on the argument that was passed in.  
+These modifiers are not part of the message signature and so do not apply to overloading if they are the only difference in the signature.  
 
-## Restrictions
-These keywords are not part of the message signature and so do not apply to overloading if they are the only difference in the signature.
+- `ref` modifier: The passed argument must be initialized before calling the method. The method may assign a new value to the parameter.
+- `out` modifier: The passed argument may be initialized before calling the method. The method must assign a new value to the parameter.
+- `ref readonly` modifier: The passed argument must be initialized before calling the method. The method cannot assign a new value to the parameter.
+- `in` modifier: The passed argument must be initialized before calling the method. The method cannot assign a new value to the parameter. The compiler may create a temporary variable to hold a copy of the argument to `in` parameters.
 
-| Parameter Modifier | Initialization before passing | Modification by called method | Both caller and definition use keyword | Use on first arg of extension method | Use in async methods | Use in iterator (yield return or yield break) methods |
-| ------------------ | ----------------------------- | ----------------------------- | -------------------------------------- | ------------------------------------ | -------------------- | ----------------------------------------------------- |
-| out                | optional                      | optional                      | required                               | never                                | prohibited           | prohibited                                            |
-| ref                | required                      | required                      | required                               | only if arg is not struct            | prohibited           | prohibited                                            |
-| in                 | required                      | prohibited                    | optional                               | only if arg is a struct              | prohibited           | prohibited                                            |
+The below table summarizes the above points and adds additional information:
 
-## Example
+| Parameter modifier | Means the method...                                                                     | Argument passed to this parameter includes | Use in `async` methods | Use in iterator methods | Use when first argument is a struct |
+| ------------------ | --------------------------------------------------------------------------------------- | ------------------------------------------ | ---------------------- | ----------------------- | ----------------------------------- |
+| `ref`              | Reads or writes the value of the argument                                               | `ref` modifier, required                   | prohibited             | prohibited              | permitted                           |
+| `out`              | Sets the value of the argument                                                          | `out` modifier, required                   | prohibited             | prohibited              | permitted                           |
+| `in`               | Reads—cannot write—the value of the argument (argument will be passed by reference)     | `in` modifier, optional                    | prohibited             | prohibited              | prohibited                          |
+| `ref readonly`     | Reads—cannot write—the value of the argument (argument *should* be passed by reference) | `in` or `ref` modifier, required           | prohibited             | prohibited              | prohibited                          |
+
+## `ref` parameter modifier
+```cs
+void Method(ref int refArgument)
+{
+    refArgument = refArgument + 44;
+}
+
+int number = 1;
+Method(ref number);
+Console.WriteLine(number); // Output: 45
+```
+
+## `out` parameter modifier
+```cs
+int initializeInMethod;
+OutArgExample(out initializeInMethod);
+Console.WriteLine(initializeInMethod);     // value is now 44
+
+void OutArgExample(out int number)
+{
+    number = 44;
+}
+```
+
+The `out` variable can be declared in the argument list of a method call:
+```cs
+string numberAsString = "1640";
+
+if (Int32.TryParse(numberAsString, out int number))
+    Console.WriteLine($"Converted '{numberAsString}' to {number}"); // output: Converted '1640' to 1640
+
+else
+    Console.WriteLine($"Unable to convert '{numberAsString}'");
+```
+
+## [`in` parameter modifier](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/method-parameters#in-parameter-modifier)
+The `in` modifier allows the compiler to create a temporary variable for the argument and pass a readonly reference to that argument. Methods that are defined using `in` parameters potentially gain performance optimization.
+
+```cs
+int readonlyArgument = 44;
+InArgExample(readonlyArgument);
+Console.WriteLine(readonlyArgument);     // value is still 44
+
+void InArgExample(in int number)
+{
+    // Uncomment the following line to see error CS8331
+    //number = 19;
+}
+```
+
+## `ref readonly` modifier
+Arguments passed to a `ref readonly` parameter require either the `ref` or `in` modifier to be used at the call site:
+- Use `ref` if the argument is a variable and writable.
+- Use `in` when the argument is a variable and either writable or `readonly`.
+
+```cs
+public static void ForceByRef(ref readonly OptionStruct thing)
+{
+    // ...
+}
+
+ForceByRef(in options);
+ForceByRef(ref options);
+ForceByRef(options); // Warning! variable should be passed with `ref` or `in`
+ForceByRef(new OptionStruct()); // Warning, but argument is an expression, so no variable to reference
+```
+
+## `ref` and `out` parameter modifiers
 ```cs
 public void PassingParameters(int x, ref int y, out int z) 
 {
