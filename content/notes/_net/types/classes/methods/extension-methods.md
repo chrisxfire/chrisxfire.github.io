@@ -4,6 +4,7 @@ date: 2022-02-26T21:38:42-0700
 draft: false
 weight: 1
 ---
+
 # Extension Methods
 Extension methods extend existing types without creating a new derived type.  
 They are static methods, but they are called as if they were instance methods on the extended type.  
