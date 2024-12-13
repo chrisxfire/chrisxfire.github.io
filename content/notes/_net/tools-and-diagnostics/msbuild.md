@@ -3,15 +3,14 @@ title: msbuild
 date: 2023-03-14T21:16:15-0600
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/tools-and-diagnostics/msbuild
 ---
 
 # [MSBuild](https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild?view=vs-2022)
 - Runs build processes to build apps.
 - Used by Visual Studio to build.
 - Used by `dotnet build` to build.
-
-## Project (.proj) Files
-- XML-based
 
 # [Properties](https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-properties?view=vs-2022)
 Key-value pairs used to configure builds.
@@ -68,3 +67,14 @@ Several tasks, like MakeDir, are built in.
 Targets group tasks together in a sequence and expose sections of the project file as entry points into the build process.
 
 # [Logging for MSBuild](https://learn.microsoft.com/en-us/visualstudio/msbuild/logging-in-msbuild?view=vs-2022)
+
+# Accessing MSBuild properties with `dotnet publish`
+> [!IMPORTANT]
+> Availability: .NET 8
+
+```powershell
+dotnet publish 
+    --getProperty:<PropertyName>
+    --getItem:<ItemType>
+    --getTargetResult:<TargetName>
+```

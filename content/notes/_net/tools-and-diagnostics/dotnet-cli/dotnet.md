@@ -3,6 +3,8 @@ title: dotnet
 date: 2023-08-06T00:00:00-06:00
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/tools-and-diagnostics/dotnet-cli
 ---
 
 # Overview
@@ -52,6 +54,7 @@ dotnet new console # Create a new console project in the CWD.
                     -f FRAMEWORK # Create a new console project using framework version framework.
                     -o APPNAME   # Create a new console project in subfolder APPNAME.
                     --use-program-main # Do not use top-level statements.
+                    --aot # (.NET 8) Use the native AOT console app template
 dotnet restore # Install dependencies for a new or cloned project.
 ```
 
@@ -102,12 +105,19 @@ To add or remove watched files:
 ```
 
 # dotnet workload
+> [!IMPORTANT]
+> Availability: .NET 8
+
+```powershell
+dotnet workload clean # clean up workload packs leftover from .NET SDK/Visual Studio updates where installation records for the pack no longer exist
+                    --all # more aggressive; cleans every pack of the current SDK workload installation type
+```
 ```powershell
 dotnet workload install <WORKLOAD_ID> # Install one or more workloads.
-dotnet workload update Update all installed workloads.
 dotnet workload list # List workloads available.
-dotnet workload search <SEARCH_STRING> # Search for available workloads.
-dotnet workload uninstall <WORKLOAD_ID> # Uninstall one or more workloads.
 dotnet workload repair # Repair workload installations.
 dotnet workload restore <PROJECT | SOLUTION> # Restore workloads required for a project.
+dotnet workload search <SEARCH_STRING> # Search for available workloads.
+dotnet workload uninstall <WORKLOAD_ID> # Uninstall one or more workloads.
+dotnet workload update # Update all installed workloads.
 ```

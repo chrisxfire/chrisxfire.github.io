@@ -7,7 +7,7 @@ weight: 1
 
 # [Publishing](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish)
 ```powershell
-dotnet publish [options] <proj|sltn> # Publish the application and its dependencies for hosting.
+dotnet publish [options] <proj|sln> # Publish the application and its dependencies for hosting.
 --arch <x64|x86 # Specify the target architecture. Don't use `--runtime`.
 --configuration Debug|Release
 --framework net6.0|net5.0|… # Specify the target .NET framework.
