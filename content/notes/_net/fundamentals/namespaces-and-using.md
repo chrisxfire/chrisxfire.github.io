@@ -38,7 +38,22 @@ using MyNamespace = Really.Long.Nested.Namespace;
 
 Or, to a type:
 ```cs
-using MyAlias = SomeNamespace.SomeClass<int>;
+using WpfButton = System.Windows.Controls.Button;
+using WinFormsButton = System.Windows.Forms.Button;
+
+var wpfButton = new WpfButton();
+var winFormsButton = new WinFormsButton();
+```
+
+Including generic types:
+```cs
+using StringList = System.Collections.Generic.List<string>;
+
+var strings = new StringList { "C#", "TypeScript" };
+```	
+
+Even a Tuple:
+```cs
 using MyTuple = (int Min, int Max);
 ```
 
