@@ -36,7 +36,10 @@ weight: -1
  
 # Other Collections
 ## `System.Collections.Frozen`
-See https://learn.microsoft.com/en-us/dotnet/api/system.collections.frozen?view=net-9.0
+This namespace includes collection types that do not allow any changes to keys and values once a collection is created. They are more
+performant than than "unfrozen" types.
+
+See https://learn.microsoft.com/en-us/dotnet/api/system.collections.frozen?view=net-9.0.
 
 ## `System.Collections.ObjectModel`
 Use these collections when properties or methods return collections:
