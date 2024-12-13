@@ -23,10 +23,10 @@ By default:
 - Non-public constructors are ignored
 - Enums are supported as numbers
 
-# JsonSerializerOptions Web Defaults
+# `JsonSerializerOptions` Web Defaults
 The defaults in ASP.NET Core apps are different than .NET apps.  See: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/configure-options#web-defaults-for-jsonserializeroptions
 
-# Guidance for Using JsonSerializerOptions
+# Guidance for Using `JsonSerializerOptions`
 1. <o>Caution:</o> Do not create a new instance of `JsonSerializerOptions` each time you use it.
 2. If you need a `JsonSerializerOptions` instance that has all default options, use the `JsonSerializerOptions.Default` property.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/configure-options?pivots=dotnet-7-0
@@ -110,7 +110,6 @@ There are three approaches:
     ```
 
 # Overriding Other Behavior
-## Others
 | Desired Behavior                          | Approach                                                                                                                                                 | Notes                         |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
 | Use camel case dictionary keys            | Set `JsonSerializerOptions`'s `DictionaryKeyPolicy` property to `JsonNamingPolicy.CamelCase`                                                             | Applies to serialization only |
@@ -122,3 +121,13 @@ There are three approaches:
 | Handle overflow JSON                      | See [this page](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/handle-overflow?pivots=dotnet-7-0#handle-overflow-json) | N/A                           |
 | Handle references and circular references | See [this page](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/preserve-references?pivots=dotnet-7-0)                  | N/A                           |
 | Deserialize to immutable types            | See [this page](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/immutability?pivots=dotnet-7-0)                         | N/A                           |
+
+# [All built-in naming policies](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/customize-properties#use-a-built-in-naming-policy)
+> [!IMPORTANT]
+> Availability: .NET 8
+
+As of .NET 8, `JsonNamingPolicy` includes 4 more built-in naming policies:
+- `KebabCaseLower`
+- `KebabCaseUpper`
+- `SnakeCaseLower`
+- `SnakeCaseUpper`

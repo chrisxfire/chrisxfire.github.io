@@ -23,7 +23,7 @@ weight: 1
       - [ ] Handle missing members
       - [ ] Handle overflow JSON (using JsonElement or JsonNode)
       - [ ] Deserialize to immutable types
-      - [ ] Populate initialized fields
+      - [x] Populate initialized properties
     - [z] Migrate from Newtonsoft.Json
     - [ ] Instantiate JsonSerializerOptions
     - [ ] Enable case-sensitive matching
@@ -42,6 +42,7 @@ weight: 1
     - [ ] Customize character encoding
     - [ ] Write custom converters
     - [ ] Customize contracts
+    - [ ] Extract JSON Schema
 - [ ] XML and SOAP serialization...
   - [ ] Overview
   - [ ] XML serialization in depth
@@ -55,3 +56,4 @@ weight: 1
   - [ ] XML serialization elements...
   - [ ] Tools...
 - [ ] Binary serialization...
+- [ ] Supplemental API remarks...
