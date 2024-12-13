@@ -101,9 +101,15 @@ Input parameters are enclosed in parentheses:
 ```cs
 Action line = () => Console.WriteLine();
 ```
+
 Since this only has one input parameter, `()` is optional:
 ```cs
 Func<double, double> cube = (x) => x * x * x; 
+```
+
+Two or more input parameters are separated by commas:
+```cs
+Func<int, int, bool> testForEquality = (x, y) => x == y;
 ```
 
 If the compiler cannot infer types of input parameters, specify them explicitly:
@@ -114,6 +120,17 @@ Func<int, string, bool> isTooLong = (int x, string s) => s.Length > x;
 Discards can also be used if the input parameters are not used in the expression:
 ```cs
 Func<int, int, int> constant = (_, _) => 42;
+```
+
+> [!IMPORTANT]
+> Availability: C# 12
+
+Parameters can have default values. The syntax and restrictions are the same as for methods and local functions:
+```cs
+var IncrementBy = (int source, int increment = 1) => source + increment;
+
+Console.WriteLine(IncrementBy(5)); // 6
+Console.WriteLine(IncrementBy(5, 2)); // 7
 ```
 
 # Tuples
@@ -160,7 +177,8 @@ customer.Where(c => c.City == "London");
 ```
 
 # [Natural (Inferred) Type of a Lambda Expression](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#natural-type-of-a-lambda-expression)
-> [!IMPORTANT] Availability: C# 10  
+> [!IMPORTANT]
+> Availability: C# 10  
 
 The compiler can sometimes infer the type of a lambda expression.
 Here, the type is inferred to be `Func<string, int>`:
@@ -179,7 +197,8 @@ Func<string, int> parse = s => int.Parse(s); // OK
 ```
 
 # [Return Type of a Lambda Expression](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#explicit-return-type)
-> [!IMPORTANT] Availability: C# 10
+> [!IMPORTANT]
+> Availability: C# 10
 
 Usually, the compiler can infer the return type of a lambda expression. In some cases, it cannot:
 ```cs
@@ -194,7 +213,8 @@ var choose = object (bool b) => b ? 1 : "two"; // Func<bool, object>
 Note that when explicitly specifying the return type, the input parameters must be parenthesized. 
 
 # [Attributes](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions#attributes)
-> [!IMPORTANT] Availability: C# 10
+> [!IMPORTANT]
+> Availability: C# 10
 
 Attributes (like `ProvidesNullCheck`) can be added to a lambda expression:
 ```cs
