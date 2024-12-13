@@ -119,10 +119,12 @@ String interpolation achieves the same results as string formatting.
 Use `$` for interpolated strings: `interpolationExpression,alignment:formatString`
 
 ## Interpolated Strings with Newlines
-> [!IMPORTANT] Availability: C# 11: Newlines are permitted in string interpolations. 
+> [!IMPORTANT]
+> Availability: C# 11: Newlines are permitted in string interpolations. 
 
 ## [Constant Interpolated Strings](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/const)
-> [!IMPORTANT] Availability: C# 10
+> [!IMPORTANT]
+> Availability: C# 10
 
 Interpolated strings may be declared as `const` if all their placeholders are also `const`:
 ```cs
@@ -148,7 +150,8 @@ Verbatim and interpolated strings can be combined.
 Use double quotation marks to embed a literal quotation mark in a verbatim string.
 
 # Raw String Literals
-> [!IMPORTANT] Availability: C# 11  
+> [!IMPORTANT]
+> Availability: C# 11  
 
 Raw string literals eliminate all need to escape content. They:
 - Start with at least three quotes (`"""`)
@@ -157,7 +160,8 @@ Raw string literals eliminate all need to escape content. They:
 Newlines following the opening quote and preceding the closing quote are not included in the content.
 
 ## Raw String Literals and String Interpolation
-> [!IMPORTANT] Availability: C#11
+> [!IMPORTANT]
+> Availability: C#11
 
 Use multiple `$` characters to denote how many consecutive braces start/end an interpolation.  
 In this example, two braces start/end an interpolation and the third is printed:
@@ -168,7 +172,8 @@ var location = $$"""
 ```
 
 # UTF-8 String Literals
-> [!IMPORTANT] Availability: C# 11  
+> [!IMPORTANT]
+> Availability: C# 11  
 By default, strings in .NET are stored in UTF-16 encoding.  To encode a string as UTF-8, suffix it with `u8`:
 ```cs
 ReadOnlySpan<byte> AuthWithTrailingSpace = new byte[] { 0x41, 0x55, 0x54, 0x48, 0x20 };

@@ -6,7 +6,8 @@ weight: 1
 ---
 
 # Overview
-> [!IMPORTANT] Availability: .NET 7  
+> [!IMPORTANT]
+> Availability: .NET 7  
 
 Rate limiting is built into .NET 7.  
 

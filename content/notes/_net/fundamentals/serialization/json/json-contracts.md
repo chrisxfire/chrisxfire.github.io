@@ -12,7 +12,8 @@ weight: 1
 - Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/custom-contracts
 
 # Customizing JSON Contracts
-> [!IMPORTANT] Availability: .NET 7 
+> [!IMPORTANT]
+> Availability: .NET 7 
 
 ## Modifiers
 A modifier is an `Action<JsonTypeInfo>` or a `static void` method with a `JsonTypeInfo` parameter that gets the current state of the contract as an argument and makes modifications to it.

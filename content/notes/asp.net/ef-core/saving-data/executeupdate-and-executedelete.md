@@ -6,7 +6,8 @@ weight: 1
 ---
 
 # Overview
-> [!IMPORTANT] Availability: EF Core 7  
+> [!IMPORTANT]
+> Availability: EF Core 7  
 
 By default, EF Core tracks changes to entities and sends updates to the database with `SaveChanges{Async}`.  Sometimes it may be useful to execute update and/or delete commands on the database without involving the change tracker. EF7 enables this with `ExecuteUpdate{Async}` and `ExecuteDelete{Async}` methods.
 

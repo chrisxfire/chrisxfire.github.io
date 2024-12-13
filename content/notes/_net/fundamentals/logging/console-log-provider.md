@@ -6,7 +6,8 @@ weight: 1
 ---
 
 # Overview
-> [!IMPORTANT] Availability: .NET 5  
+> [!IMPORTANT]
+> Availability: .NET 5  
 
 > Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/console-log-formatter
 

@@ -108,7 +108,8 @@ static int[] SimulateDataFetch(int id)
 ```
 
 ## List Pattern
-> [!IMPORTANT] Availability: C# 11  
+> [!IMPORTANT]
+> Availability: C# 11  
 
 List patterns allow you to match an array or a list against a sequence of patterns:
 

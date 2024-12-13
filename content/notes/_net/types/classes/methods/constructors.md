@@ -142,7 +142,8 @@ ViewModel vm = await ViewModel.BuildViewModelAsync();
 ```
 
 # [Primary Constructors](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors#primary-constructors)
-> [!IMPORTANT] Availability: .NET 8 with C# 12
+> [!IMPORTANT]
+> Availability: .NET 8 with C# 12
 
 Primary constructors are constructors with parameters added. They indicate that these parameters are necessary for any instance of the type.
 A primary constructor's parameters are available anywhere in the type definition. 

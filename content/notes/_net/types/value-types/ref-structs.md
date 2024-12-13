@@ -18,7 +18,8 @@ Restrictions:
 A ref struct can be made disposable: create an instance or extension Dispose method that is accessible, parameterless, and returns void.
 
 ## `ref` Fields
-> [!IMPORTANT] Availability: C# 11  
+> [!IMPORTANT]
+> Availability: C# 11  
 
 > [!WARNING] May hold null. Use `Unsafe.IsNullRef<T>(T)` to determine if a ref field is null.
 
@@ -31,6 +32,7 @@ readonly ref readonly int someVar; // someVar cannot receive a new value and can
 ```
 
 # `scoped ref`
-> [!IMPORTANT] Availability: C# 11
+> [!IMPORTANT]
+> Availability: C# 11
 
 Adding the `scoped` modifier asserts that code will not extend the lifetime of a variable.

@@ -6,7 +6,8 @@ weight: 1
 ---
 
 # Overview [[Documentation](https://learn.microsoft.com/en-us/visualstudio/test/intellitest-manual/?view=vs-2022)]  
-> [!IMPORTANT] Availability: Visual Studio 2022 Enterprise Edition, .NET Framework only
+> [!IMPORTANT]
+> Availability: Visual Studio 2022 Enterprise Edition, .NET Framework only
 
 * Note: Support for .NET 6 is available in Visual Studio 2022 Preview as of 2023-09-23.
 
