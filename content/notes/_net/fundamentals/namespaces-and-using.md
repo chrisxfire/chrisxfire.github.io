@@ -27,9 +27,25 @@ using SomeNamespace; // Imports all classes from namespace.
 using SomeNamespace;
 ```
 
-## Aliases
+# Aliases
+The `using` directive can create aliases to namespaces:
 ```cs
-using SomeAlias = Really.Long.Nested.Namespace;
+using MyNamespace = Really.Long.Nested.Namespace;
+```
+
+> [!IMPORTANT]
+> Availability: C# 12
+
+Or, to a type:
+```cs
+using MyAlias = SomeNamespace.SomeClass<int>;
+using MyTuple = (int Min, int Max);
+```
+
+But not a reference type:
+```cs
+// ILLEGAL
+using X = string?;
 ```
 
 ## Global
