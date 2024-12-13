@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-7.0)]  
+# [Overview](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-7.0)  
 
 - Controllers are classes that derive from `ControllerBase`.
   - If derived from `Controller`, this would add support for views (for handling web pages rather than API requests).

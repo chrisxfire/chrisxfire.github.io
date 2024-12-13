@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://github.com/qpdf/qpdf)]  
+# [Overview](https://github.com/qpdf/qpdf)  
 
 qpdf is a command line tool that performs content-preserving transformations on PDF files.
 

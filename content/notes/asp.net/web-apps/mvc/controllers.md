@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/actions?view=aspnetcore-7.0)]  
+# [Overview](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/actions?view=aspnetcore-7.0)  
 
 A *controller* defines a set of *actions*.  An *action* is a method on a controller which handles *requests*.  Requests are mapped to actions through routing.  
 A controller is responsible for initial processing of the request and instantiation of the model.  Business logic should remain in the model.

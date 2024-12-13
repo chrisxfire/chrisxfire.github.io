@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-7.0&tabs=visual-studio#prevent-over-posting)]  
+# [Overview](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-7.0&tabs=visual-studio#prevent-over-posting)  
 
 Data Transfer Objects (DTOs) are a subset of a data model. They are used to limit the data that is input or returned from a web app by using a subset of the model. They are also used to prevent over-posting (aka mass assignment) attacks.
 

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/visualstudio/test/intellitest-manual/?view=vs-2022)]  
+# [Overview](https://learn.microsoft.com/en-us/visualstudio/test/intellitest-manual/?view=vs-2022)  
 > [!IMPORTANT]
 > Availability: Visual Studio 2022 Enterprise Edition, .NET Framework only
 

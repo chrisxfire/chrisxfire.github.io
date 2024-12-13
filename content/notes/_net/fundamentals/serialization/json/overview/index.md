@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/overview)]  
+# [Overview](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/overview)  
 
 These notes are for `System.Text.Json`. 
 

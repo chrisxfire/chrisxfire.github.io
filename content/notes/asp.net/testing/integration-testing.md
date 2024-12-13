@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-7.0)]  
+# [Overview](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-7.0)  
 
 Integration tests confirm that two or more app components work together to produce an expected result, possibly including every component required to fully process a request.
 They test the app's infrastructure including database, file system, network appliances, and the request-response pipeline. They use the app's actual components instead of mocks

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/extensions/options)]  
+# [Overview](https://learn.microsoft.com/en-us/dotnet/core/extensions/options)  
 
 The options pattern uses classes to provide strongly-typed access to groups of related settings. It uses configuration files like [configuration in .NET](../overview).
 

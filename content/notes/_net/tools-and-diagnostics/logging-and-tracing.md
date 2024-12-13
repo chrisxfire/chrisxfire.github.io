@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/logging-tracing)]  
+# [Overview](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/logging-tracing)  
 
 These notes discuss the differences between logging and tracing and the differences between the many logging APIs available in .NET.
 

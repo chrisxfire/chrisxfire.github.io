@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview)]  
+# [Overview](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview)  
 
 Inspect and debug web pages with DevTools.
 

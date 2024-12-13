@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/startup?view=aspnetcore-7.0)]  
+# [Overview](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/startup?view=aspnetcore-7.0)  
 
 This template supports Razor Pages, MVC controllers with views, Web API controllers, and Minimal APIs app models.
 - Configures required services

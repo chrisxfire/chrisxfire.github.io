@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/action-return-types?view=aspnetcore-7.0)]  
+# [Overview](https://learn.microsoft.com/en-us/aspnet/core/web-api/action-return-types?view=aspnetcore-7.0)  
 
 There are four options for return types for web API controller action methods:
 1. Specific type

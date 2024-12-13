@@ -5,7 +5,7 @@ draft: false
 weight: 3
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0)]  
+# [Overview](https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0)  
 
 Some actions, like those that derive from `ActionResult` like `JsonResult` and `ContentResult`, return results in specific formats (JSON and plain text, respectively). Others, like actions that return objects that are not `IActionResult` types, are serialized with an `IOutputFormatter`. 
 

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions)]  
+# [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions)  
 > [!IMPORTANT]
 > Availability: C# 12
 

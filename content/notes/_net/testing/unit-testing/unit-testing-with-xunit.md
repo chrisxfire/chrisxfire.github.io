@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)]  
+# [Overview](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test)  
 > See also: https://xunit.net/#documentation
 
 xUnit unit tests are created with `dotnet new xunit -o TestProjectName`.

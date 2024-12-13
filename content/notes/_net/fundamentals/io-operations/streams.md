@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/io/)]  
+# [Overview](https://learn.microsoft.com/en-us/dotnet/standard/io/)  
 
 A *stream* is a sequence of bytes that can be read from and written to.  
 

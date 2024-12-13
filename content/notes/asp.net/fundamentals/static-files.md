@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0)]  
+# [Overview](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-7.0)  
 
 Static files are stored in the web root directory `CONTENT_ROOT/wwwroot`.  Change with `UseWebRoot.`  Serve with `UseStaticFiles.`
 

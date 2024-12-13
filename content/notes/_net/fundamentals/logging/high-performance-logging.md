@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/extensions/high-performance-logging)]  
+# [Overview](https://learn.microsoft.com/en-us/dotnet/core/extensions/high-performance-logging)  
 
 High-performance logging is achieved with `LoggerMessage`. This class exposes functionality to create delegates that can be cached. This approach requires fewer object allocations and reduced computational overhead vs. `ILogger`.
 

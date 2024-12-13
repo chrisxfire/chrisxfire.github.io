@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/async)]  
+# [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/async)  
 
 The `async` modifier specifies that a method, lambda, or anonymous method is *asynchronous*. 
 - An async method runs synchronously until it reaches an `await` expression. At this point, the method is suspended

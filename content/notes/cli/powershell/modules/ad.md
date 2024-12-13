@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/powershell/module/activedirectory/?view=windowsserver2019-ps)]  
+# [Overview](https://learn.microsoft.com/en-us/powershell/module/activedirectory/?view=windowsserver2019-ps)  
 > Module: `ActiveDirectory`
 
 The Active Directory module requires [RSAT](https://learn.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools) tools for Windows.

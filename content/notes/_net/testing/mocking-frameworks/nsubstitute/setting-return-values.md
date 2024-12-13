@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-# Overview [[Documentation](https://nsubstitute.github.io/help/set-return-value/)]  
+# [Overview](https://nsubstitute.github.io/help/set-return-value/)  
 
 # Return Values
 Assuming this interface:

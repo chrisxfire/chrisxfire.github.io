@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/microsoft-edge/webview2/)]  
+# [Overview](https://learn.microsoft.com/en-us/microsoft-edge/webview2/)  
 
 Edge WebView2 is a *control* that allows for embedding web technologies (HTML/CSS/JS) into native apps. It uses Microsoft Edge as the rendering engine to display the web content in the app.
 

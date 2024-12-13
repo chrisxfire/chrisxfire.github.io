@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/how-to?pivots=dotnet-7-0)]  
+# [Overview](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/how-to?pivots=dotnet-7-0)  
 
 A high-level, automatic serialization and deserialization API. JsonSerializer's source generator eliminates use of reflection which is important
 for trimming and native AOT apps.

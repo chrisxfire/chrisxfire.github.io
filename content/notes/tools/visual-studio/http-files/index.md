@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0)]   [[Documentation](https://devblogs.microsoft.com/visualstudio/safely-use-secrets-in-http-requests-in-visual-studio-2022/?ocid=visualstudio_eml_tnp_autoid21_title)]  
+# [Overview](https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0)]   [[Documentation](https://devblogs.microsoft.com/visualstudio/safely-use-secrets-in-http-requests-in-visual-studio-2022/?ocid=visualstudio_eml_tnp_autoid21_title)  
 
 > [!IMPORTANT]
 > Availability: ASP.NET Core 8? (documentation is unclear), Visual Studio 2022 v17.6+
