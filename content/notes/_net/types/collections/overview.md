@@ -53,16 +53,17 @@ Use these collections when properties or methods return collections:
 | `ReadOnlyObservableCollection<T>`  | A read-only ObservableCollection<T>                                                         |
 
 ## Others...
-| Collection                   | Use when you need…                                                         |
-| ---------------------------- | -------------------------------------------------------------------------- |
-| `BlockingCollection<T>`      | a thread-safe collection that blocks Add/Take operations when full/empty   |
-| `HybridDictionary`           | a ListDictionary when collection is small; a Hashtable when it grows large |
-| `LinkedList<T>`              | a collection with elements sorted head —> tail or tail —> head             |
-| `NameValueCollection`        | a collection with one key, multiple values                                 |
-| `OrderedDictionary`          | a collection whose elements can be accessed by both key and index          |
-| `PriorityQueue<TKey,TValue>` | a collection of elements and a priority                                    |
-| `StringCollection`           | a list of only strings                                                     |
-| `StringDictionary`           | a dictionary of only strings                                               |
+| Collection                       | Use when you need…                                                         |
+| -------------------------------- | -------------------------------------------------------------------------- |
+| `BlockingCollection<T>`          | a thread-safe collection that blocks Add/Take operations when full/empty   |
+| `HybridDictionary`               | a ListDictionary when collection is small; a Hashtable when it grows large |
+| `LinkedList<T>`                  | a collection with elements sorted head —> tail or tail —> head             |
+| `NameValueCollection`            | a collection with one key, multiple values                                 |
+| `OrderedDictionary`              | a collection whose elements can be accessed by both key and index          |
+| `OrderedDictionary<TKey, TValue>` | (.NET 9) a generic version of the above                                             |
+| `PriorityQueue<TKey,TValue>`     | a collection of elements and a priority                                    |
+| `StringCollection`               | a list of only strings                                                     |
+| `StringDictionary`               | a dictionary of only strings                                               |
 
 # Algorithmic Complexity
 | Mutable                   | Amortized | Worst Case              | Immutable                          | Complexity |
