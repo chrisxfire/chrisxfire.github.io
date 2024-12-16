@@ -3,6 +3,8 @@ title: where clause
 date: 2022-04-25T21:06:54-0600
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/linq/clauses
 ---
 
 # Where clause

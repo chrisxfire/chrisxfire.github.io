@@ -3,11 +3,15 @@ title: join clause
 date: 2022-04-27T18:45:49-0600
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/linq/clauses
 ---
 
 # Join clause
-Use `join` to associate and/or combine elements from one data source with elements from another based on an equality comparison between keys in each element.  
-After you have joined two sequences, you must use a `select` or `group` statement to specify which element to store in the output sequence.
+Use `join` to associate and/or combine elements from one data source with elements from another 
+based on an equality comparison between keys in each element.  
+After you have joined two sequences, you must use a `select` or `group` statement to specify which 
+element to store in the output sequence.
 
 ```cs
 var categoryQuery =

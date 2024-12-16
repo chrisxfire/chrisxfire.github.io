@@ -3,11 +3,14 @@ title: select clause
 date: 2022-04-25T20:59:19-0600
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/linq/clauses
 ---
 
 # Select clause
-A `select` clause produces all other types of sequences. A simple `select` clause just produces a sequence of the same type of objects as the objects in the data source:
+A `select` clause produces all other types of sequences. 
 
+A simple `select` clause just produces a sequence of the same type of objects as the objects in the data source:
 ```cs
 IEnumerable<Country> sortedQuery =
     from country in countries
