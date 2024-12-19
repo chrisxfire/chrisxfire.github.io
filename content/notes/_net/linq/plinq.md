@@ -3,10 +3,13 @@ title: plinq
 date: 2022-05-09T19:48:01-0600
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/linq/plinq
 ---
 
 # [PLINQ](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/introduction-to-plinq)
 Parallel LINQ. Enable multiple threads to execute a query.
+
 ```cs
 // Single-threaded:
 int[] fibonacciNumbers = numbers

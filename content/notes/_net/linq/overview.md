@@ -22,7 +22,7 @@ LINQ consists of:
 - *Lambda expressions* (optional) – can be used instead of named methods.
 - *LINQ query syntax* (optional) – `from`, `in`, `where`, `orderby`, etc.
 
-## LINQ query operations
+# LINQ query operations
 A LINQ query operation consists of three actions:
 1. Obtain the data source
 2. Create the query (and store it in a *query variable*)
@@ -44,7 +44,7 @@ foreach (int num in numQuery)
     Console.Write("{0,1} ", num);
 ```
 
-### 1. The data source
+## 1. The data source
 *Queryable types* are the set of all types that implement `IEnumerable<T>` or a derivative. Any queryable type is a valid LINQ data source. 
 
 If the data source is not already in memory, the *LINQ provider* must represent it as such.
@@ -54,7 +54,7 @@ For example, the *LINQ to XML* provider loads an XML document into an `XElement`
 XElement contacts = XElement.Load(@"c:\myContactList.xml");
 ```
 
-### 2. The query
+## 2. The query
 The query specifies what information to retrieve from the data source(s), and, optionally, how it should
 be sorted, grouped, or shaped before its returned.
 
@@ -73,8 +73,8 @@ LINQ queries vary in their modes of execution:
   - Streaming
   - Non-streaming 
 
-### 3. The execution
-#### Immediate execution standard query operators
+## 3. The execution
+### Immediate execution standard query operators
 In immediate execution, the data is read and the execution is performed at once.
 Examples include `Count`, `Max`, `Average` and `First`:
 ```cs
@@ -94,7 +94,7 @@ var fooQuery =
     select num).ToList(;)
 ```
 
-#### Deferred execution standard query operators
+### Deferred execution standard query operators
 In deferred execution, the data is ready, but execution is deferred until the resulting
 query variable is enumerated:
 
