@@ -7,7 +7,7 @@ tags:
  - kb/dotnet/linq/standard-query-operators/set-operations
 ---
 
-# Overview
+# [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/set-operations)
 Set operations are query operations that produce a result set that is based on the presence or absence of 
 equivalent elements within the same or separate sets.
 

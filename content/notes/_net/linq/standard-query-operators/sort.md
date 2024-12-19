@@ -3,7 +3,11 @@ title: sort
 date: 2022-11-07T21:31:15-0700
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/linq/standard-query-operators/sort
 ---
+
+# [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/sorting-data)
 A sorting operation orders the elements of a sequence based on one or more attributes.
 
 # Methods

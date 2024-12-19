@@ -7,7 +7,7 @@ tags:
  - kb/dotnet/linq/standard-query-operators/project
 ---
 
-# Overview
+# [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/projection-operations)
 A projection operation transforms an object into a new form that often consists only of those properties that will be 
 subsequently used.
 
