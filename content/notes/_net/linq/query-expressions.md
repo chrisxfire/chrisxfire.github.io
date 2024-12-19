@@ -1,7 +1,7 @@
 ---
 title: query expressions
 date: 2024-12-15T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 tags:
  - kb/dotnet/linq
@@ -38,7 +38,7 @@ Any query that can be expressed in *query syntax* can also be expressed using *m
 - Method syntax can be combined with query syntax.
 
 # Method syntax
-Method syntax is made possible by extension methods on `IEnumerable<T>` that implement the standard query operators.
+Method syntax is made possible by extension methods on `IEnumerable<T>` (and `IQueryable<T>`) that implement the standard query operators.
 
 Method syntax looks like this:
 ```cs

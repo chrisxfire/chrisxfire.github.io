@@ -3,8 +3,13 @@ title: set operations
 date: 2022-11-08T20:37:38-0700
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/linq/standard-query-operators/set-operations
 ---
-Set operations are query operations that produce a result set that is based on the presence or absence of equivalent elements within the same or separate sets.
+
+# Overview
+Set operations are query operations that produce a result set that is based on the presence or absence of 
+equivalent elements within the same or separate sets.
 
 # Methods
 | Method          | Description                                                            | Query expression |
@@ -14,41 +19,99 @@ Set operations are query operations that produce a result set that is based on t
 | `Intersect(By)` | Elements that appear in each of two collections                        | N/A              |
 | `Union(By)`     | Unique elements that appear in either of two collections               | N/A              |
 
-The `*By` methods take a keySelector which is used as the comparative discriminator of the source type.
+The `*By` methods take a `keySelector` which is used as the comparative discriminator of the source type.
+
+# `Distinct` and `DistinctBy`
+These methods both take a single collection.
+
+`Distinct` returns the unique elements in a collection:
+
 ```cs
-record Planet(string Name, PlanetType Type, int OrderFromSun)
+string[] words = ["the", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "dog"];
+
+IEnumerable<string> query = from word in words.Distinct()
+                            select word;
+```
+
+`DistinctBy`, like all `*By` methods, takes a `keySelector` which is used as the comparative discriminator of the source type.
+
+In this example, the first word of each length is displayed:
+```cs
+foreach (string word in words.DistinctBy(p => p.Length))
+    Console.WriteLine(word);
+```
+
+# `Except` and `ExceptBy`
+These methods both take two collections.
+
+`Except` returns only the elements from the first collection that are not present in the second:
+
+```cs
+string[] words1 = ["the", "quick", "brown", "fox"];
+string[] words2 = ["jumped", "over", "the", "lazy", "dog"];
+
+IEnumerable<string> query = from word in words1.Except(words2)
+                            select word;
+```
+
+`ExceptBy`'s `keySelector` is of the same type as the first collection's type.
+
+To find teachers in the first collection that are not in the second collection, project the teacher's ID onto the
+second collection:
+```cs
+int[] teachersToExclude =
+[
+    901,    // English
+    965,    // Mathematics
+    932,    // Engineering
+    945,    // Economics
+    987,    // Physics
+    901     // Chemistry
+];
+
+foreach (Teacher teacher in teachers.ExceptBy(teachersToExclude, teacher => teacher.ID))
+    Console.WriteLine($"{teacher.First} {teacher.Last}");
+```
+
+# `Intersect` and `IntersectBy`
+These methods both take two collections.
+
+`Intersect` returns a collection of elements that are common to both input collections:
+```cs
+string[] words1 = ["the", "quick", "brown", "fox"];
+string[] words2 = ["jumped", "over", "the", "lazy", "dog"];
+
+IEnumerable<string> query = from word in words1.Intersect(words2)
+                            select word;
+```
+
+`IntersectBy`'s `keySelector` is used as the comparative discriminator of the second collection's type:
+```cs
+foreach (Student person in students.IntersectBy(
+        teachers.Select(t => (t.First, t.Last)), s => (s.FirstName, s.LastName)))
 {
-    public static readonly Planet Mercury = new(nameof(Mercury), PlanetType.Rock, 1);
-    public static readonly Planet Venus = new(nameof(Venus), PlanetType.Rock, 2);
-    public static readonly Planet Earth = new(nameof(Earth), PlanetType.Rock, 3);
-    public static readonly Planet Mars = new(nameof(Mars), PlanetType.Rock, 4);
-    public static readonly Planet Jupiter = new(nameof(Jupiter), PlanetType.Gas, 5);
-    public static readonly Planet Saturn = new(nameof(Saturn), PlanetType.Gas, 6);
-    public static readonly Planet Uranus = new(nameof(Uranus), PlanetType.Liquid, 7);
-    public static readonly Planet Neptune = new(nameof(Neptune), PlanetType.Liquid, 8);
-    public static readonly Planet Pluto = new(nameof(Pluto), PlanetType.Ice, 9);
+    Console.WriteLine($"{person.FirstName} {person.LastName}");
 }
+```
 
-enum PlanetType { Rock, Ice, Gas, Liquid };
+# `Union` and `UnionBy`
+These methods both take two collections.
 
-Planet[] planets =
+`Union` returns a collection that contains the unique elements from both input collections:
+```cs
+string[] words1 = ["the", "quick", "brown", "fox"];
+string[] words2 = ["jumped", "over", "the", "lazy", "dog"];
+
+IEnumerable<string> query = from word in words1.Union(words2)
+                            select word;
+```
+
+`UnionBy`'s `keySelector` is used as the comparative discriminator of the source collection's type:
+```cs
+foreach (var person in
+    students.Select(s => (s.FirstName, s.LastName)).UnionBy(
+        teachers.Select(t => (FirstName: t.First, LastName: t.Last)), s => (s.FirstName, s.LastName)))
 {
-    Planet.Mercury, Planet.Venus, Planet.Earth, Planet.Mars, Planet.Jupiter,
-    Planet.Saturn, Planet.Uranus, Planet.Neptune, Planet.Pluto
-};
-
-foreach (Planet planet in planets.DistinctBy(p => p.Type)) // Discriminate by PlanetType
-{
-    …
+    Console.WriteLine($"{person.FirstName} {person.LastName}");
 }
-
-// A "keySelector" can be made a method (in this case, a local method):
-static string PlanetNameSelector(Planet planet) => planet.Name;
-
-foreach (Planet planet in planets.ExceptBy(
-    morePlanets.Select(PlanetNameSelector, PlanetNameSelector)
-    )
-    {
-        …
-    }
 ```
