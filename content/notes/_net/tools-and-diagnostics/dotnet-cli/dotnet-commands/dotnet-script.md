@@ -94,7 +94,7 @@ file.csx arg1 arg2 arg3
 
 # Creating executables from scripts
 ```powershell
-dotnet script
+dotnet script publish
     --output # path where published executable should be placed (default = ./publish)
     --name # name of executable
     --dll # publish to dll instead of executable
