@@ -14,7 +14,7 @@ A sorting operation orders the elements of a sequence based on one or more attri
 | Method                | Description                                              | Query expression                             |
 | --------------------- | -------------------------------------------------------- | -------------------------------------------- |
 | `OrderBy(Descending)` | Sort values in ascending (descending) order              | `orderby …` and `orderby … descending`       |
-| `ThenBy(Descending)`  | Perform a secondary sort in ascending (descending) order | `orderby …, …` and `orderby …, … descending` |  |
+| `ThenBy(Descending)`  | Perform a secondary sort in ascending (descending) order | `orderby …, …` and `orderby …, … descending` |
 | `Reverse`             | Reverse the order of the elements                        | N/A                                          |
 
 # Primary Ascending Sort
