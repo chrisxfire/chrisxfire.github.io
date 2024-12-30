@@ -223,3 +223,12 @@ var loggerFactory = LoggerFactory.Create(logging =>
 ```
 
 More information: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-7.0#automatically-log-scope-with-spanid-traceid-parentid-baggage-and-tags
+
+# logging HTTP headers via `RedactLoggedHeaders`
+> [!IMPORTANT]
+> Availability: .NET 9
+
+| Action                           | .NET < 9                   | .NET == 9                  |
+| -------------------------------- | -------------------------- | -------------------------- |
+| No call to `RedactLoggedHeaders` | All headers logged         | No headers logged          |
+| Call `RedactLoggedHeaders`       | Specified headers redacted | Specified headers redacted |
