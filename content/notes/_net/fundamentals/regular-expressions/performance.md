@@ -3,6 +3,8 @@ title: performance
 date: 2023-11-17T00:00:00-06:00
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/regular-expressions
 ---
 
 # Regular Expression Engine Performance Considerations
@@ -48,7 +50,7 @@ public class RegexLib
 }
 ```
 
-## Using Source Generated Regular Expressions (#5)
+## Using Source Generated Regular Expressions (`[GeneratedRegex]`) (#5)
 > [!IMPORTANT]
 > Availability: .NET 7 
 
@@ -69,6 +71,22 @@ private static void EvaluateText(string text)
 ```
 
 The generated source code can be debugged like any other source code.
+
+### Using `[GeneratedRegex]` on properties
+> [!IMPORTANT]
+> Availability: C# 13
+
+C# 13 supports partial properties in addition to partial methods. So, you can still do this...
+```cs
+[GeneratedRegex(@"\b\w{5}\b")]
+private static partial Regex FiveCharWord();
+```
+
+...and now you can also do this:
+```cs
+[GeneratedRegex(@"\b\w{5}\b")]
+private static partial Regex FiveCharWordProperty { get; }
+```
 
 # Other Performance Considerations
 ## Backtracking

@@ -3,19 +3,20 @@ title: control serialization behavior
 date: 2023-07-27T00:00:00-06:00
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/serialization/json
 ---
 
 # [Overview](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/configure-options?pivots=dotnet-7-0)  
-
 JSON serialization/deserialization behavior can be controlled through `JsonSerializerOptions` and various attributes.
 
-# Serialization Behavior
+# Serialization behavior
 By default:
 - Public properties are serialized
 - Fields are ignored
 - Casing of JSON names matches the .NET names
 
-# Deserialization Behavior
+# Deserialization behavior
 By default:
 - Property name matching is case sensitive
 - Read-only properties are ignored (no value is deserialized into readonly properties)
@@ -26,12 +27,14 @@ By default:
 # `JsonSerializerOptions` Web Defaults
 The defaults in ASP.NET Core apps are different than .NET apps.  See: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/configure-options#web-defaults-for-jsonserializeroptions
 
-# Guidance for Using `JsonSerializerOptions`
-1. <o>Caution:</o> Do not create a new instance of `JsonSerializerOptions` each time you use it.
-2. If you need a `JsonSerializerOptions` instance that has all default options, use the `JsonSerializerOptions.Default` property.
+# Guidance for using `JsonSerializerOptions`
+> [!CAUTION]
+> Do not create a new instance of `JsonSerializerOptions` each time you use it.
+
+If you need a `JsonSerializerOptions` instance that has all default options, use the `JsonSerializerOptions.Default` property.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/configure-options?pivots=dotnet-7-0
 
-# Overriding Default Behavior
+# Overriding default behavior
 ## Properties
 | Desired Behavior                             | Approach                                                                                                  | Notes                                                                                                          |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -50,7 +53,7 @@ The defaults in ASP.NET Core apps are different than .NET apps.  See: https://le
 | Include fields                           | Use the `[JsonInclude]` attribute on the fields      | Alternatively, use `JsonSerializerOptions.IncludeFields` |
 | Ignore read-only fields when serializing | Use `JsonSerializerOptions`'s `IgnoreReadOnlyFields` | N/A                                                      |
 
-### Marking Properties or Fields Required for JSON Deserialization
+### Marking properties or fields required for JSON deserialization
 > [!IMPORTANT]
 > Availability: C# 11
 
@@ -109,7 +112,7 @@ There are three approaches:
     JsonSerializer.Deserialize<Person>("""{"Age": 42}""", options);
     ```
 
-# Overriding Other Behavior
+# Overriding other behavior
 | Desired Behavior                          | Approach                                                                                                                                                 | Notes                         |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
 | Use camel case dictionary keys            | Set `JsonSerializerOptions`'s `DictionaryKeyPolicy` property to `JsonNamingPolicy.CamelCase`                                                             | Applies to serialization only |
@@ -121,6 +124,12 @@ There are three approaches:
 | Handle overflow JSON                      | See [this page](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/handle-overflow?pivots=dotnet-7-0#handle-overflow-json) | N/A                           |
 | Handle references and circular references | See [this page](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/preserve-references?pivots=dotnet-7-0)                  | N/A                           |
 | Deserialize to immutable types            | See [this page](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/immutability?pivots=dotnet-7-0)                         | N/A                           |
+
+## Identation options
+> [!IMPORTANT]
+> Availability: .NET 9
+
+Customize the indentation of written JSON with `JsonSerializerOption`'s `IndentCharacter` and `IndentSize` properties.
 
 # [All built-in naming policies](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/customize-properties#use-a-built-in-naming-policy)
 > [!IMPORTANT]
