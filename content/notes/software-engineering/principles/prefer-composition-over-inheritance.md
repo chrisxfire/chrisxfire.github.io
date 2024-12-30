@@ -5,8 +5,8 @@ draft: false
 weight: 1
 ---
 
-# Prefer Composition over Inheritance
-## Inheritance is the specialization of a general concept
+# prefer composition over inheritance
+## inheritance is the specialization of a general concept
 - Creates *Is-A* relationships.
 - The derived class is *tightly coupled* to the base class.
 - There is no additional performance cost of invoking the base class members.
@@ -25,7 +25,7 @@ public class GlassHouse : House
 }
 ```
 
-## Composition is the association of objects of different classes
+## composition is the association of objects of different classes
 - Creates *Has-A* relationships.
 - The class is *loosely coupled* to the component objects.
 - Component objects must not be exposed.
@@ -48,7 +48,7 @@ public class House
 }
 ```
 
-## Principle
+## principle
 Classes should achieve polymorphic behavior and code reuse by containing instances of other classes that implement the desired functionality (*composition*) rather than *inheritance* from a base class.
 
 *Composition over inheritance* is practiced by:
@@ -63,5 +63,5 @@ Use composition over inheritance when:
 - Your subclasses start to have subclasses.
 - You need to do multiple inheritance.
 
-## Another Example
+## another example
 [Composition Over Inheritance Design Pattern in C# – ScottLilly.com](https://scottlilly.com/c-design-patterns-composition-over-inheritance/)

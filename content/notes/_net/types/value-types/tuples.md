@@ -7,10 +7,10 @@ tags:
  - kb/dotnet/types/value/tuples
 ---
 
-# Tuples
+# tuples
 `System.ValueTuple` is modern; `System.Tuple` is legacy.
 
-# Tuple
+# tuple
 ```cs
 public (string, int) GetFruit() 
 {
@@ -26,7 +26,7 @@ fruit.Item1 // returns "Apples"
 fruit.Item2 // returns 5
 ```
 
-# Tuple with Named Fields
+# tuple with named fields
 ```cs
 public (string Name, int Qty) GetNamedFruit() 
 {
@@ -38,7 +38,7 @@ namedFruit.Name // returns "Apples"
 namedFruit.Qty // returns 5
 ```
 
-# Tuple Deconstruction
+# tuple deconstruction
 ```cs
 (type v1, type v2, …) = function();
 ```
@@ -62,7 +62,7 @@ It is now possible to assign values to an existing variable and initialize newly
 int x = 0;
 (x, int y) = point;
 ```
-## Example
+## example
 Store return value in a tuple with two named fields:
 ```cs
 (string FruitName, int FruitQty) myFruit = GetNamedFruit();

@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Logging Mechanisms Quick Reference
+# logging mechanisms quick reference
 | Mechanism                    | Async | Scope       | Registered                  | Intended Use               |
 | ---------------------------- | ----- | ----------- | --------------------------- | -------------------------- |
 | Simple logging               | No    | Per context | Context configuration       | Development-time logging   |
@@ -14,7 +14,7 @@ weight: -1
 | Interceptors                 | Yes   | Per context | Context configuration       | Manipulating EF operations |
 | Diagnostics listeners        | No    | Process     | Globally                    | Application diagnostics    |
 
-# Simple logging
+# simple logging
 Use `LogTo` when configuring a `DbContext` instance:
 ```cs
 protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
@@ -24,13 +24,13 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
 # Microsoft.Extensions.Logging
 Use like any ASP.NET Core application.
 
-# Events
+# events
 Act as callbacks when an event occurs in EF Core.  These are easier to use than interceptors, but they are synchronous only and cannot perform non-blocking async I/O.  
 
 Events are registered per `DbContext` instance.  Use a diagnostic listener to get the same information but for all `DbContext` instances in the process.
 
-# Interceptors
+# interceptors
 Enable interception, modification, and/or suppression of EF Core operations, including low-level operations like executing a SQL command.  If the only requirement is logging, interceptors are not the best choice.
 
-# Diagnostic listeners
+# diagnostic listeners
 Allow listening for EF Core events that occur in the current .NET process.

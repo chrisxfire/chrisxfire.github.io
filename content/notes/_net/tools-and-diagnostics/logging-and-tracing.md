@@ -40,7 +40,7 @@ Includes `System.Diagnostics.Trace` and `System.Diagnostics.Debug`:
 - Legacy
 - Best used for .NET Framework (not .NET Core)
 
-## Comparison
+## comparison
 | Logging API   | Structured logging? | Configuration file support?        | Common sinks? |
 | ------------- | ------------------- | ---------------------------------- | ------------- |
 | `ILogger`     | Yes                 | Yes                                | Yes           |

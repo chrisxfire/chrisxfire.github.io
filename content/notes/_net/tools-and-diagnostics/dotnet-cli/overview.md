@@ -14,8 +14,8 @@ At the heart of the toolchain is the `dotnet` driver, responsible for running fr
 
 Commands follow this general structure: `dotnet <command> [option] [argument]`
 
-# CLI commands
-## Basic commands
+# cli commands
+## basic commands
 - [`dotnet new`](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new) — creates a new project, configuration file, or solution.
 - [`dotnet restore`](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-restore) — restores the dependencies and tools of a project.
 - [`dotnet build`](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-build) — builds a project and its dependencies.
@@ -29,11 +29,11 @@ Commands follow this general structure: `dotnet <command> [option] [argument]`
 - [`dotnet watch`](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-watch) — when changes in source code are detected, either restart, hot reload, or run a specified dotnet command.
 - [`dotnet format`](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-format) — formats code to match EditorConfig settings.
 
-## Project management commands
+## project management commands
 - `list|add|remove package`
 - `list|add|remove reference`
 
-## NuGet package management commands
+## nuget package management commands
 
 ## [Workload management commands](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-workload)
 - `workload clean` — clean up workload packs leftover from .NET SDK/Visual Studio updates where installation records for the pack no longer exist
@@ -46,21 +46,21 @@ Commands follow this general structure: `dotnet <command> [option] [argument]`
 - `workload uninstall <WORKLOAD_ID>` — Uninstall one or more workloads.
 - `workload update` — Update all installed workloads.
 
-## Tool management commands
+## tool management commands
 .NET tools are NuGet packages that contain console applications.
 
 More notes: [tools](./tools/overview.md)
 
 More information: https://learn.microsoft.com/en-us/dotnet/core/tools/global-tools
 
-## Advanced commands
+## advanced commands
 - [`sdk check`](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-sdk-check) — lists the latest available version of the .NET SDK and .NET runtime for each feature band.
 - [`msbuild`](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-msbuild) — allows access to an MSBuild. Running `dotnet msbuild -restore` is equivalent to `dotnet build`.
 - [`build-server`](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-build-server) — manages build servers.
 - [`dev-certs`](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-dev-certs) — generates a self-signed certificate to enables HTTPS use in development.
 
-# Commonly used commands
-## Getting Information
+# commonly used commands
+## getting information
 ```powershell
 dotnet --info # List information on .NET installation, machine environment, etc
 dotnet --list-runtimes # List the installed .NET runtimes.

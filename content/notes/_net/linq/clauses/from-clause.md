@@ -7,7 +7,7 @@ tags:
  - kb/dotnet/linq/clauses
 ---
 
-# Multiple From Clauses
+# multiple from clauses
 Use additional from clauses when each element in the source is itself a collection or contains a collection:
 
 ```cs

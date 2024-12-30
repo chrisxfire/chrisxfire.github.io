@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# type Attribute
+# type attribute
 ```html
 <input type="text">Displays a single-line text input field
 <form>
@@ -112,7 +112,7 @@ Input fields must have a `name` attribute for data to be submitted.
 - `value` - Specifies the default value for an input field
 
 # `<input>` Element  Attributes
-## form Attribute
+## form attribute
 Allows an input field to be outside of the HTML form but still part of the form:
 ```html
 <form action="/action_page.php" id="form1">
@@ -124,7 +124,7 @@ Allows an input field to be outside of the HTML form but still part of the form:
 <label for="lname">Last name:</label>
 <input type="text" id="lname" name="lname" form="form1">
 ```
-## formaction Attribute
+## formaction attribute
 Overrides the action attribute of the `<form>` element. Works with submit and image:
 ```html
 <form action="/action_page.php">

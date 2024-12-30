@@ -7,17 +7,17 @@ tags:
  - kb/dotnet/linq/clauses
 ---
 
-# Let clause
+# let clause
 Use the let clause to store the result of an expression, such as a method call, in a new range variable (identifier).
 
-## Example 1
+## example 1
 ```cs
 var studentQuery = from student in students
     let totalScore = studentScores[0] + student.Scores[1] + studentScores[2] + student.Scores[3]
     select totalScore; // The new identifier can also be selected
 ```
 
-## Example 2
+## example 2
 ```cs
 var studentQuery =
     from student in students

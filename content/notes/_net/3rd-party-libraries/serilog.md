@@ -17,14 +17,14 @@ dotnet add package serilog
 
 Other Sinks Available: <https://github.com/serilog/serilog/wiki/Provided-Sinks>
 
-# Creating Loggers
+# creating loggers
 ```cs
 Serilog.Core.Logger
 Serilog.Ilogger
 Serilog.Log
 ```
 
-## Create Root Logger
+## create root logger
 Create this on application startup and then use it across classes:
 ```cs
 using var log = new LoggerConfiguration()
@@ -71,7 +71,7 @@ Log.Information("In my bowl I have {Fruit}", fruit);
 ```
 Output: `{ "Fruit": ["Apple", "Pear", "Orange"] }`
 
-## Destructuring
+## destructuring
 Use `@` operator to pull values out of structured data:  
 ```cs
 var sensorInput = new { Latitude = 25, Longitude = 134 };  
@@ -84,14 +84,14 @@ Log.Logger = new LoggerConfiguration()
     .WriteTo...
 ```
 
-## Forcing Stringification
+## forcing stringification
 Use `$` operator to convert the property value to a string before any other processing takes place:
 ```cs
 var unknown = new[] { 1, 2, 3 }
 Log.Information("Received {$Data}", unknown); // Output: "System.Int32[]"
 ```
 
-## Output Templates
+## output templates
 Log output templates are used by text-based sinks like console and file.  
 They are a superset of .NET format strings. Any valid `string.Format()` is accepted.
 
@@ -121,7 +121,7 @@ Tips
 - Do:
   - `Log.Information("The time is {Now}", DateTime.Now);`
 
-# Shutdown
+# shutdown
 ```cs
 log.CloseAndFlush();
 ```
@@ -129,12 +129,12 @@ log.CloseAndFlush();
 # [AppSettings Configuration](https://github.com/serilog/serilog/wiki/AppSettings)
 XML config file based configurations.
 
-## Installation
+## installation
 ```powershell
 dotnet add package serilog.settings.appsettings
 ```
 
-## Reading Config File
+## reading config file
 ```cs
 Log.Logger = new LoggerConfiguration()
   .ReadFrom.AppSettings()
@@ -142,13 +142,13 @@ Log.Logger = new LoggerConfiguration()
   .CreateLogger();
 ```
 
-# See Also
+# see also
 ## [Enrichers](https://github.com/serilog/serilog/wiki/Enrichment)
 Enrichers enrich a log event with properties of (like attaching a thread ID).
 
 ## [For Web Apps (ASP.NET)](https://github.com/serilog/serilog-aspnetcore#serilogaspnetcore---)
 
-## Logging Levels
+## logging levels
 - `Verbose` - The noisiest; rarely used in production applications
 - `Debug` - detailed information typically of use only when diagnosing problems
 - `Information` - confirmation that things are working as expected
@@ -156,7 +156,7 @@ Enrichers enrich a log event with properties of (like attaching a thread ID).
 - `Error` - due to a more serious problem, the software has not been able to perform some function
 - `Fatal` - a serious error indicating that the software itself may be unable to continue running 
 
-## Markers
+## markers
 [>] Start  
 [·] Debug  
 [-] Info  

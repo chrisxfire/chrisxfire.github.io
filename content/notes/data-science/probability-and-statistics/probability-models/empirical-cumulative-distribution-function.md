@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# ECDF
+# ecdf
 If we do not have a probability model (like `pnorm()`), we can use the data itself as a model with ECDF.
 
 # Prediction via simulation using rdist() and ecdf()

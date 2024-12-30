@@ -5,26 +5,26 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 XAML layout system supports automatic resizing of elements, layout panels, and visual states
 
-# Implementing Responsive Layouts with XAML
+# implementing responsive layouts with xaml
 Achieved by using the appropriate layout properties and panels to reposition, resize, and reflow content fluidly.
 
-## Layout Properties
+## layout properties
 ### Height & Width
 - Set to `Auto` or use star sizing (which is the default)
 - To set constraints, set `MinWidth`/`MaxWidth` and `MinHeight`/`MaxHeight`.
 - To read value at runtime, use `ActualHeight`/`ActualWidth`
 
-### Alignment
+### alignment
 - Use `HorizontalAlignment`/`VerticalAlignment`
 
-### Visibility
+### visibility
 - The `Visibility` enum can be `Visible` or `Collapsed`.
 - Replace sections of a UI by revealing one panel and collapsing another.
 
-## Layout Panels
+## layout panels
 | Panel control         | Fluid UI support               | Element arrangement                                                                                               | Layering              | Stretch values for hor/ver alignment                             | Child content larger than panel                      |
 | --------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------- | --------------------- | ---------------------------------------------------------------- | ---------------------------------------------------- |
 | Canvas                | None                           | Positioned absolutely with Canvas.Top and Canvas.Left                                                             | Yes via Canvas.Zindex | Ignored                                                          | Not clipped; Not constrained                         |
@@ -33,7 +33,7 @@ Achieved by using the appropriate layout properties and panels to reposition, re
 | StackPanel            |                                | Stacked in a single line horizontally or vertically                                                               | ?                     | Respected in the directionopposite of the Orientationproperty.   | Clipped;Not constrained(must be manuallyconstrained) |
 | VariableSizedWrapGrid |                                | Rows and columns that automatically wrap toa new row/column whenMaximumRowsOrColumns is reached.                  |                       | Ignored                                                          | Clipped;Constrained                                  |
 
-# Visual States
+# visual states
 Use *visual states* to make significant UI changes based on changes to window size or other changes.
 You can define visual states for your UI and apply them when the window width/height crosses a threshold.
 You define visual states for screen sizes.
@@ -42,7 +42,7 @@ You define visual states for screen sizes.
 - An `AdaptiveTrigger` sets the threshold.
 - Alternatively, `VisualStateManager`.`GoToState` can also be called directly.
 
-## Set Visual States in Code
+## set visual states in code
 - Use `VisualStateManager`.`GoToState`.
 ```xml
 <Page ...
@@ -100,7 +100,7 @@ private void CurrentWindow_SizeChanged(object sender, Windows.UI.Core.WindowSize
         VisualStateManager.GoToState(this, "DefaultState", false);
 }
 ```
-## Set Visual States in XAML
+## set visual states in xaml
 Since Windows 10, it is easier to define visual states in XAML than code (like above). This example is the same as above:
 ```xml
 <Page ...>
@@ -133,7 +133,7 @@ Since Windows 10, it is easier to define visual states in XAML than code (like a
 </Page>
 ```
 
-## Visual States and Attached Properties
+## visual states and attached properties
 When you set the value for an attached property (but not a regular property), surround the attached property name in parantheses:
 ```xml
 <Setter Target="myTextBox.(RelativePanel.AlignHorizontalCenterWithPanel)" Value="True"/>

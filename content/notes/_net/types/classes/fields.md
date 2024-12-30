@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Fields
+# fields
 Field – a variable of any type declared in a class or struct.
 - If a field is static, every instance points to the same copy of the field in the type.
 - If a field is readonly, its value can only be assigned during initialization or in a constructor.

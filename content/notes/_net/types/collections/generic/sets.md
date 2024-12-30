@@ -5,8 +5,8 @@ draft: false
 weight: 1
 ---
 
-# Sets
+# sets
 Sets are useful when performing set operations between two collections.
 
-# Other Sets
+# other sets
 `SortedSet<T>` A collection of unique objects that are maintained in sorted order.

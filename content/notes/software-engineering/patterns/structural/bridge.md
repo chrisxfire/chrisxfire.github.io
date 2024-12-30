@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Bridge
+# bridge
 Type: Structural  
 Purpose:  
 Use to:  

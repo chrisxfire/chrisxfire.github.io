@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 `PipeReader` manages memory on the caller's behalf. 
 
 **<o>Always</o> call `PipeReader.AdvanceTo` after calling `PipeReader.ReadAsync`**:
@@ -20,13 +20,13 @@ Observed — When data is marked as *observed*, the next call to ReadAsync eithe
 1. won't return until there's more data written to the pipe (assuming all day was marked as observed).
 2. return immediately with the observed *and* unobserved data (but not data already consumed).
 
-# Patterns for Reading Data with PipeReader
+# patterns for reading data with pipereader
 For examples below, consider this helper method:
 ```cs
 bool TryParseLines(ref ReadOnlySequence<byte> buffer, out Message message);
 ```
 
-## Reading a Single Message
+## reading a single message
 Read a single message from a `PipeReader` and return it to the caller:
 ```cs
 async ValueTask<Message?> ReadSingleMessageAsync(PipeReader reader, CancellationToken cancellationToken = default)
@@ -77,7 +77,7 @@ async ValueTask<Message?> ReadSingleMessageAsync(PipeReader reader, Cancellation
 }
 ```
 
-## Reading Multiple Messages
+## reading multiple messages
 Read all messages from a `PipeReader` and call `ProcessMessageAsync` on each:
 ```cs
 async Task ProcessMessagesAsync(PipeReader reader, CancellationToken cancellationToken = default)
@@ -123,9 +123,9 @@ async Task ProcessMessagesAsync(PipeReader reader, CancellationToken cancellatio
 }
 ```
 
-# Cancellation with PipeReader
+# cancellation with pipereader
 `PipeReader.ReadAsync` accepts a `CancellationToken`. However, `PipeReader.CancelPendingRead` cancels the current read operation without throwing
 an exception. It causes the current or next call to `ReadAsync` to return a `ReadResult` with `IsCanceled` set to `true`. to This approach may be favorable in some cases.
 
-# Common Problems with PipeReader
+# common problems with pipereader
 See [this page](https://learn.microsoft.com/en-us/dotnet/standard/io/pipelines#pipereader-common-problems) for more information.

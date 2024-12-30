@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Abstract
+# abstract
 Deep learning is advanced form of machine learning that emulates the way the human brain learns. 
 Creates an *artificial neural network* that simulates electrochemical activity in biological neurons by using mathematical functions. 
 
@@ -24,7 +24,7 @@ The algorithm that trains the model:
 2. Validates the model to determine how far off the calculated $\hat{y}$ values are from known $y$ values.
 3. Modifies the weights ($w$) to reduce the loss (the model *learns* the weights that will result in the most accurate predictions).
 
-## Artificial Neural Network Example
+## artificial neural network example
 Consider a classification model for penguin species:
 - The feature data $x$ consists of:
   - $x_1$ length of bill
@@ -51,7 +51,7 @@ The process for inferencing a predicted penguin class using this network:
 7. Each element of the output vector represents the probability of for respective class 0, 1 or 2.
    a. In this example, since the second value is highest, the model predicts that the species is 1 (Gentoo).
 
-# Training
+# training
 During training, the model (the artificial neural network) *learns* the weights that will result in the most accurate predictions:
 ![ANN training/learning process](../ann-training-learning.png)  
 1. The training and validation datasets are defined.
@@ -63,6 +63,6 @@ During training, the model (the artificial neural network) *learns* the weights 
 6. Changed weights are *backpropagated* to the layers in the network.
 7. The process is repeated over multiple iterations (*epochs*) until the loss is minimized and the model predicts acceptably accurately.
 
-# Compute
+# compute
 Rather than pass each case of the training data through the neural network one at a time, the data is batched into matrices and processed using linear algebra. This is
 why neural network training is best performed on systems with GPUs optimized for vector/matrix manipulation.

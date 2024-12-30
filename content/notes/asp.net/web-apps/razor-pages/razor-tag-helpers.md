@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Tag Helpers extend standard HTML elements.  They provide extra server-side attributes for an HTML element.
 
-# Partial Tag Helper
+# partial tag helper
 Asynchronously renders a partial view.  
 Note that the name attribute accepts the partial view's name without its file extension:
 ```html
@@ -20,7 +20,7 @@ This is equivalent to Razor HTML Helper syntax:
 @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 ```
 
-# Label Tag Helper
+# label tag helper
 Extends the HTML `<label>` element:
 <label asp-for="NewPizza.Name" class="control-label"></label>
 

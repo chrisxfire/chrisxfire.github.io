@@ -7,7 +7,7 @@ weight: 1
 
 From Pluralsight/ASP.NET Core 6 Fundamentals
 
-# Partial Views
+# partial views
 A partial view is a regular view that's used as part of another view.  Partial views exist both in MVC apps (`Views/`) and Razor Pages apps (`Pages/`).  They can also be placed in `/Views/Shared/`.  By convention, their filename starts with `_`.
 
 Partial views depend on data passed to them from a calling (parent) view.  They do not depend on code to execute to render content.
@@ -22,12 +22,12 @@ Use partial views to break up large markup files into smaller components.
 </div>
 ```
 
-# Define a Partial View
+# define a partial view
 In MVC, a `ViewResult` can return either a view or a partial view.  
 In Razor Pages, a `PageModel` can return a partial view as a `PartialViewResult` object.  
 Partial views do not run `_ViewStart.cshtml`.
 
-# Referencing Partial Views
+# referencing partial views
 In an MVC View:
 ```html
 <partial name="_PieCard" mode="pie" />
@@ -39,8 +39,8 @@ public IActionResult OnGetPartial() =>
     Partial("_AuthorPartialRP");
 ```
 
-# Use a Partial View
-## With Partial Tag Helper
+# use a partial view
+## with partial tag helper
 ```html
 @foreach (var pie in Model.Pies)
 {
@@ -49,7 +49,7 @@ public IActionResult OnGetPartial() =>
 }
 ```
 
-## With Asynchronous HTML Helper 
+## with asynchronous html helper 
 Uses `PartialAsync` and returns an `IHtmlContent` object wrapped in a `Task<TResult>`:
 ```cs
 @await Html.PartialAsync("_PartialName")
@@ -63,7 +63,7 @@ Or, with `RenderPartialAsync` which streams the output directly to the response:
 The Razor code block is required since this method returns no data.  
 This method performs better than `PartialAsync` in some cases.
 
-# Access Data from Partial Views
+# access data from partial views
 Partial views receive a copy of the parent's `ViewData` dictionary.  `ViewData` changes in a partial view are lost when the partial view returns.
 Pass an instance of `ViewDataDictionary` to a partial view:
 ```cs
@@ -76,7 +76,7 @@ Pass a model into a partial view:
 ```
 or to `RenderPartialAsync` which streams the content to the output.
 
-# Partial View Example
+# partial view example
 `Pages/Shared/_AuthorPartialRP.cshtml` (the first partial view):
 ```html
 @model string
@@ -97,7 +97,7 @@ or to `RenderPartialAsync` which streams the content to the output.
 </div>
 ```
 
-## Razor Pages
+## razor pages
 `Pages/ArticlesRP/ReadRP.cshtml`
 ```html
 @model ReadRPModel
@@ -129,7 +129,7 @@ or to `RenderPartialAsync` which streams the content to the output.
 }
 ```
 
-## MVC
+## mvc
 `Views/Articles/Read.cshtml`
 ```html
 @model PartialViewsSample.ViewModels.Article

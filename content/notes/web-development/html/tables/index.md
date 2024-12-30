@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Like so:
 ```html
 <table>
@@ -97,7 +97,7 @@ Create a caption for the entire table immediately after the `<table>` tag:
 <caption>Monthly savings</caption>
 ```
 
-# Column Groups
+# column groups
 You can style specific columns of a table:
 ```html
 <table>
@@ -113,7 +113,7 @@ You can style specific columns of a table:
 ```
 The only valid CSS properties for `colgroup` are `width`, `visibility`, `background`, `border`.
 
-# Table Borders
+# table borders
 Add a border with a CSS border property on these elements:
 ```css
 table, th, td {

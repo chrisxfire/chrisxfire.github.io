@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Cancellation allows asynchronous or long-running operations to stop cleanly.
 
 Some objects invoke long-running, cancelable operations. These objects can pass a `CancellationToken` to those downstream operation. Downstream operations can pass that same token to other operations. When the cancellation token is invoked, it is a *cancellation request*; it means that the operation should stop as soon as possible after any required cleanup is performed. A single token can cancel multiple asynchronous invocations.
 
-# Creating
+# creating
 Cancellation tokens are created with `CancellationTokenSource` objects.  The CTS's `Token` property returns the `CancellationToken` (CT) that is signaled when the CTS's `Cancel` method is called:
 ```cs
 var cts = new CancellationTokenSource();
@@ -21,7 +21,7 @@ cts.Cancel();
 
 `CancellationTokenSource` is disposable.
 
-# Listening for and Processing Cancellation
+# listening for and processing cancellation
 `CancellationToken` has its `IsCancellationRequested` property set to `true` once `Cancel` is called on the CTS.  Poll this value at interval to check for a cancellation request.
 
 This property can only be set once, so the CT cannot be reused after being canceled.
@@ -83,7 +83,7 @@ public void CancelMethod()
 
 Even if cancellation has already been requested when the callback is registered, the callback is still guaranteed to be called.
 
-# Other Notes
+# other notes
 - For methods that cannot be canceled, do not provide an overload that accepts a `CancellationToken`.
 - If a cancellation request results in work ending prematurely, the method returns a task in `Canceled` state.
 - Code that is asynchronously waiting for a task that is canceled receives a `OperationCanceledException`.

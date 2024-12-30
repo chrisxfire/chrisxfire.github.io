@@ -42,5 +42,5 @@ app.MapRazorPages(); // Configure endpoint routing for Razor Pages
 app.Run();
 ```
 
-# Startup Filters
+# startup filters
 See https://learn.microsoft.com/en-us/aspnet/core/fundamentals/startup?view=aspnetcore-7.0#extend-startup-with-startup-filters

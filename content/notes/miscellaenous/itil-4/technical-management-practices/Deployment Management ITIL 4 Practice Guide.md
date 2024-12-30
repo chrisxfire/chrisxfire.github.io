@@ -581,14 +581,14 @@ In Table 8.1, recommendations for the success of the deployment management pract
 
 PeopleCert is grateful to everyone who has contributed to the development of this guidance. These practice guides incorporate an unprecedented level of enthusiasm and feedback from across the ITIL community. In particular, PeopleCert would like to thank the following:
 
-#### Authors
+#### authors
 
 Vinod Kumar Agrasala, Roman Jouravlev, Konstantin Naryzhny.
 
-#### Reviewers
+#### reviewers
 
 Jon Hall, Anton Lykov, Samantha Robertson, Oleg Skrynnik.
 
-#### 2023 Revision
+#### 2023 revision
 
 Antonina Douannes, Adam Griffith, Roman Jouravlev, Kaimar Karu, Olga Masalina, Avinash Singh

@@ -418,6 +418,6 @@ Angie Pederson.
 
 Dinara Adyrbayeva, Akshay Anand, Peter Farenden, Roman Jouravlev, Vernon Lloyd.
 
-### References
+### references
 
 1.  Nadareishvili, I., Mitra, R., McLarty, M., Amundsen, M., Microservice Architecture: Aligning Principles, Practices, and Culture, O’Reilly 2016

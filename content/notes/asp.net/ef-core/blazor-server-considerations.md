@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Blazor Server's stateful app framework requires a special approach to use EF Core.  For example, in Blazor Server apps, scoped services registrations can be problematic because the instance is shared across components within a user's circuit.  `DbContext` is not thread safe and not designed for concurrent use.  
 
 There are two patterns:
@@ -71,7 +71,7 @@ TODO: List the employees here.
 }
 ```
 
-## Using DbContextFactory
+## using dbcontextfactory
 By injecting a `DbContext` into a Component, the lifetime of the `DbContext` is now tightly coupled to the Component. In Blazor Server, since the client (browser) is connected to the server via a SignalR connection, the Component is not re-created for each request; the Component lives as long as the client is using it.  The `DbContext` is designed for a short lifespan.  
 
 To avoid this problem, inject an `IDbContextFactory` into the Component instead. It can be used to inject a short-lived context.

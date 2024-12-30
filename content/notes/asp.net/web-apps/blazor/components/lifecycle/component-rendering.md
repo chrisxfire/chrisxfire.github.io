@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - Components *must* render when they are first added to the component hierarchy by a parent component.
 - Components *may* render at other times according to their own logic and conventions.
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/components/rendering?view=aspnetcore-7.0
 
-# Rendering Flow
+# rendering flow
 In most cases, `ComponentBase` conventions result in the correct subset of component rerenders after an event occurs.  Developers are not required to provide manual logic to tell the framework which components to rerender and when to rerender them.
 
 # Managing UI Refreshes (When to Override ShouldRender)
@@ -47,7 +47,7 @@ The `ShouldRender` method is called each time a component is rendered.  Override
 }
 ```
 
-# When to Call StateHasChanged
+# when to call statehaschanged
 Calling `StateHasChanged` allows you to trigger a render at any time.
 
 You need not call `StateHasChanged` when:
@@ -56,10 +56,10 @@ You need not call `StateHasChanged` when:
 
 You *may* need to call `StateHasChanged` in the following scenarios:
 
-## An asynchronous handler invokes multiple asynchronous phases
+## an asynchronous handler invokes multiple asynchronous phases
 A receiver of a `Task` can only observe its final completion, not intermediate asynchronous states.  Therefore, `ComponentBase` only triggers rerender when the Task is first returned and when the Task finally completes.  To rerender at intermediate points, call `StateHasChanged`.
 
-### Example
+### example
 In this code, CounterState1 updates the count four times on each click:
 - Automatic rerenders occur after the first and last increments of `currentCount`.
 - Manual renders are used in intermediate points.
@@ -99,7 +99,7 @@ In this code, CounterState1 updates the count four times on each click:
 }
 ```
 
-## Receiving a call from something external to the Blazor rendering and event handling system
+## receiving a call from something external to the blazor rendering and event handling system
 `ComponentBase` only knows about its own lifecycle methods and Blazor-triggered events, not other events that may occur.  To trigger rerender with these events, call `StateHasChanged`.
 
 ## To render a component outside the subtree that's rerendered by a particular event

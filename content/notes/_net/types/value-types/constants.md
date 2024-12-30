@@ -5,18 +5,18 @@ draft: false
 weight: 1
 ---
 
-# Constant
+# constant
 Constants – immutable values known at compile time which do not change.
 - Only built-in types may be declared const.
 - Constants cannot be declared static (this would be redundant).
 
-## Use
+## use
 Constants are used instead of *magic numbers* to provide meaningful names for special values.
 
-## Constant Integrals
+## constant integrals
 Instead of a constant `int`, `byte`, etc, use an `enum`.
 
-## Best Practice
+## best practice
 Constants can be grouped in a single, static class named Constants. This helps ensure those who use the constant understand it is constant and cannot be modified:
 
 ```cs

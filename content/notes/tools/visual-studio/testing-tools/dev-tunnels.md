@@ -17,7 +17,7 @@ Uses:
 * Testing an app with external services
 * Making an app temporarily available for presentation
 
-# Tunnel Options
+# tunnel options
 Tunnel types:
 - *Temporary* tunnels get a new URL each time Visual Studio is started.
 - *Persistent* tunnels get the same URL each time Visual Studio is started.
@@ -28,26 +28,26 @@ Tunnel access:
   - Note: If *Organization* is selected for a personal Microsoft account, this has the same effect as *Private*
 - *Public* — anyone can access the tunnel
 
-# Creating Dev Tunnels
+# creating dev tunnels
 Visual Studio > Debug toolbar > Web server control dropdown > Dev Tunnels > **Create A Tunnel...**
 
 Enter a **name**, **tunnel type**, and **tunnel access**.  Click **OK**.  A web browser will open to the tunnel URL.
 
 Tip: select the QR Code icon on the browser's URL bar to create a QR code to the tunnel.
 
-# Dev Tunnels Tool Window
+# dev tunnels tool window
 View > *Other Windows* > **Dev Tunnels**
 - **Clear Active Tunnel** — disables a tunnel
 - **Make Active Tunnel** — enables a tunnel
 - **Copy Tunnel Access Token** — copies the active tunnel's access token to the clipboard
 
-# Tunnel Access Tokens
+# tunnel access tokens
 When a tunnel is created with *Private* or *Organization* access, and the app is a web API, the token must be provided to authenticate to the tunnel. Include the following header in the request:
 ```
 X-Tunnel-Authorization tunnel <TOKEN>
 ```
 
-# Tunnel URL Environment Variables
+# tunnel url environment variables
 When an app is launched that uses a tunnel, Visual Studio creates the `VS_TUNNEL_URL` environment variable.
 
 If there are multiple ASP.NET Core projects configured as the startup project, for all subsequent projects after the first, the variable name is `VS_TUNNEL_URL_{ProjectName}`.

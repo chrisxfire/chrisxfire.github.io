@@ -5,8 +5,8 @@ draft: false
 weight: 1
 ---
 
-# Overview
-## APIs
+# overview
+## apis
 | API | Description |
 |-----|-------------|
 | `SetItem`, `SetItemAsync` | Store a value in LocalStorage |
@@ -14,7 +14,7 @@ weight: 1
 | `ContainKey`, `ContainKeyAsync` | Check if a key exists |
 | `RemoveItem`, `RemoveItemAsync` | Remove a value from LocalStorage |
 
-## ILocalStorage
+## ilocalstorage
 ```cs
 @inject Blazored.LocalStorage.ILocalStorageService localStorage
 

@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 By default, when the app launches, all assemblies are automatically downlaoded from the web server. Blazor can be instructed to postpone downloading an assembly.
 
-# Implementation Steps
+# implementation steps
 ## 1. Register the Lazily-Loaded Assemblies in Project File
 `csproj`  
 ```xml

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# YAML
+# yaml
 ```yaml
 key: value # A key-value pair  
 complexMap: # A map that contains a kvp and another map  

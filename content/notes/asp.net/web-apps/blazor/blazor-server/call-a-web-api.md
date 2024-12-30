@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - Blazor Server apps call web APIs using `HttpClient` instances (typically created via `IHttpClientFactory`).
 - [These notes apply](../../../../fundamentals/making-http-requests).
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/call-web-api?view=aspnetcore-7.0&pivots=server

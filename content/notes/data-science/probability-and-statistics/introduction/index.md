@@ -6,43 +6,43 @@ weight: 1
 math: true
 ---
 
-# Overview
+# overview
 Notes from John Walker: https://www.fourmilab.ch/rpkp/experiments/statistics.html.
 
-# Definitions
+# definitions
 - $\sigma$ = standard deviation
 - $\sigma^2$ = variance
 
-# Permutations
+# permutations
 The number of permutations of $n$ different things taken $n$ at a time is $n!$.  
 The number of permutations of $n$ different things taken $x$ at a time is $\binom{n}{x}$ and calculated as $\frac{n!}{x!(n-x)!}$ where ${n}$ and ${x}$ are positive integers.
 
-# Flipping a Coin
+# flipping a coin
 If a coin is flipped four times, there are 16 possible outcomes:  
 ![An image showing the 16 possible outcomes of flipping a coin four times](image.png)
 
 Plotting this data results in this bar graph:  
 ![A bar graph of four flips of a coin](image-1.png)
 
-# Probability
+# probability
 Each flip has an equal chance of coming up heads or tails, so all 16 possible outcomes are equally *probable*.
 
 However, since there are 6 ways to get 2 heads, the *probability* of two heads is greater than any other outcome:  
 ![A table showing the probability of getting a given number of heads on four flips of a coin](image-2.png)
 
-## Calculating Probability of One Outcome or Another
+## calculating probability of one outcome or another
 Sum the probabilities.  The probability of getting either one or two heads $0.25 + 0.375 = 0.625$.
 
-## Calculating Probability of One Outcome and Another From Two Separate Experiments
+## calculating probability of one outcome and another from two separate experiments
 Multiply the probabilities.  The probability one head in each of two successive sets of four flips is $0.25 * 0.25 = 0.0625$
 
 The probability of any number of heads $x$ in any number of flips $n$ is ${\binom{n}{x}\over2^n} = \frac{n!}{{2^n}x!(n-x)!}$
 
-# The normal distribution of probability equation
+# the normal distribution of probability equation
 The probability for $x$ heads in $n$ flips where $\mu=n/2$  
 ${{1}\over{\sqrt{2\pi\sigma}}}e^-{(x-\mu)^2\over{2\sigma^2}}$
 
-# Experiments and Evidence
+# experiments and evidence
 - Evidence for the existence of a phenomenon must be *significant*, *persistent*, and *consistent*.
 - Statistical analysis can never entirely rule out the possibility that the results of an experiment were entirely due to chance—it can only calculate the probability of occurrence by chance.
 - No experiment or series of experiments can ever *prove* a hypothesis; one can only rule out other hypotheses and provide evidence that assuming the truth of the hypothesis better explains the results than discarding it.

@@ -5,14 +5,14 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 - An open-source, front-end web development toolkit.  Uses HTML, CSS, JavaScript
 - Bootstrap uses Popper for dropdowns, popovers and tooltips
 - Compare to [W3.CSS](../../css/w3-css/overview)
 - Documentation: https://getbootstrap.com/docs/5.3  
 
-# Getting Started
-## Installation
+# getting started
+## installation
 Prefer LibMan over NuGet:  
 ```sh
 libman install bootstrap
@@ -63,7 +63,7 @@ libman install bootstrap.sass
         crossorigin="anonymous"></script>
 ```
 
-# Bootstrap Components that Require JavaScript
+# bootstrap components that require javascript
 - Alerts
 - Buttons
 - Carousel

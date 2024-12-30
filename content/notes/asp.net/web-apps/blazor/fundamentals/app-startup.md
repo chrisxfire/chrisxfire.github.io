@@ -8,8 +8,8 @@ weight: 1
 # [Overview](https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?view=aspnetcore-9.0&)
 Startup is asynchronous and automatic via `blazor.web|server|webassembly.js`.
 
-# Manually Starting Blazor
-## Manually Starting Blazor Web App
+# manually starting blazor
+## manually starting blazor web app
 1. Add `autostart="false"` to the Blazor `<script>` tag.  
 2. Place a script that calls `Blazor.start()` after the `<script>` tag inside the closing `<body>` tag.
 3. Place static SSR options in the `ssr` property.
@@ -35,7 +35,7 @@ Startup is asynchronous and automatic via `blazor.web|server|webassembly.js`.
 </script>
 ```
 
-## Manually Starting Standalone Blazor Wasm and Blazor Server
+## manually starting standalone blazor wasm and blazor server
 1. Add `autostart="false"` to the Blazor `<script>` tag.  
 2. Place a script that calls `Blazor.start()` after the `<script>` tag inside the closing `<body>` tag.
 3. Add any options in the `Blazor.start()` parameter.
@@ -51,12 +51,12 @@ Startup is asynchronous and automatic via `blazor.web|server|webassembly.js`.
 </script>
 ```
 
-# JavaScript Initializers
+# javascript initializers
 JS initializers execute logic before and after a Blazor app loads.
 
 More: https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?view=aspnetcore-9.0#javascript-initializers
 
-# Initialize Blazor when the Document is Ready
+# initialize blazor when the document is ready
 ```js
 <script src="{BLAZOR SCRIPT}" autostart="false"></script>
 <script>
@@ -66,7 +66,7 @@ More: https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?
 </script>
 ```
 
-# Chain to the Promise from a Manual Start
+# chain to the promise from a manual start
 See https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?view=aspnetcore-9.0&preserve-view=true#chain-to-the-promise-that-results-from-a-manual-start
 
 # Load Client-side Boot Resources
@@ -81,6 +81,6 @@ See https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?vi
 # Configure the .NET WebAssembly Runtime
 See https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?view=aspnetcore-9.0&preserve-view=true#configure-the-net-webassembly-runtime
 
-# Disable Enhanced Navigation and Form Handling
+# disable enhanced navigation and form handling
 See https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?view=aspnetcore-9.0&preserve-view=true#disable-enhanced-navigation-and-form-handling
 

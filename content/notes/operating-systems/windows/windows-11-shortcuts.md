@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 These notes are select Windows 11 keyboard/trackpad shortcuts.  They are not all-inclusive.
 
-# Windows Key
+# windows key
 | Shortcut                                                        | Action                    |
 | --------------------------------------------------------------- | ------------------------- |
 | <kbd>Win</kbd> + <kbd>D</kbd>                                   | Show Desktop              |
@@ -28,7 +28,7 @@ These notes are select Windows 11 keyboard/trackpad shortcuts.  They are not all
 | <kbd>Win</kbd> + <kbd>Ctrl</kbd> + <kbd><</kbd> or <kbd>></kbd> | Switch virtual workspaces |
 | <kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>                | Screenshot                |
 
-# Trackpad
+# trackpad
 | Shortcut                      | Action                      |
 | ----------------------------- | --------------------------- |
 | Two finger vertical swipe     | Scroll                      |

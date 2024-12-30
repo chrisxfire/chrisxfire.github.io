@@ -5,15 +5,15 @@ draft: false
 weight: 1
 ---
 
-# WinUI Layout Panels
-# StackPanel
+# winui layout panels
+# stackpanel
 Often used to stack OK/Cancel buttons.  
 ![](./XAML_UI-image1.png)
 Note: `StackPanel.Children` can be omitted  
 
 ![](./XAML_UI-image2.png)
 
-# Grid
+# grid
 Often used for the main layout of a UI.
 Displays a UI's elements in rows and columns.
 
@@ -26,7 +26,7 @@ The same is true for ColumnDefinitions.
 
 `ColumnSpan` and `RowSpan` properties span an element across multiple columns or rows.
 
-# Canvas
+# canvas
 In a canvas, setting `Left="*n*"` moves the element *n* pixels from the left. `Top`, `Bottom`, and `Right` work the same way:  
 ![](./XAML_UI-image4.png)
 

@@ -12,7 +12,7 @@ weight: 1
 
 HTTP files in Visual Studio allow you to create HTTP requests. You can use the editor to create and send requests and view responses.
 
-# File Format
+# file format
 The sequence is important:
 1. Variables
 2. HTTP request
@@ -22,7 +22,7 @@ The sequence is important:
 The request must be in the format `HTTP_METHOD URL HTTP_VERSION` where `HTTP_VERSION` is optional and is one of `HTTP/1.1` `HTTP/2` `HTTP/3`.
 
 ```
-# This is a comment
+# this is a comment
 // This is also a comment
 // These are variables:
 @hostname=localhost
@@ -31,12 +31,12 @@ The request must be in the format `HTTP_METHOD URL HTTP_VERSION` where `HTTP_VER
 GET https://{{hostname}}:{{port}}/weatherforecast 
 ```
 
-## Requests
+## requests
 Request format = `HTTP_VERB URL [HTTP_VERSION]`
 - where HTTP_VERB is one of: CONNECT, DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT, TRACE
 - where HTTP_VERSION is one of: HTTP/1.2, HTTP/2, HTTP/3
 
-### Multiple requests
+### multiple requests
 Multiple requests can be delimited via `###`:
 ```
 GET https://localhost:7220/weatherforecast
@@ -47,7 +47,7 @@ GET https://localhost:7220/weatherforecast HTTP/3
 ###
 ```
 
-## Headers
+## headers
 Headers must immediately follow the request with no additional spacing:
 ```
 GET https://localhost:7220/weatherforecast
@@ -59,7 +59,7 @@ Age: 100
 ###
 ```
 
-## Body
+## body
 The request body can be added after a blank line following the headers:
 ```
 POST https://localhost:7220/weatherforecast
@@ -85,20 +85,20 @@ Accept-Language: en-US,en;q=0.5
 | `$processEnv`    | Returns the value of the provided process environment variable. Syntax: `{{$processEnv envVarName}}`.                                                                                 |
 | `$dotenv`        | Returns the value of the provided variable in a .env file. Syntax: `{{$dotenv variableName}}`.                                                                                        |
 
-# Usage
+# usage
 - **Add** > **New Item** > ASP.NET Core > General > **HTTP File**
 - Save the file
 - Click the green "run" arrow.  The response pulls up next to the request:  
 ![A screenshot of the Visual Studio HTTP file experience](./image.png)
 
-## With Endpoints Explorer
+## with endpoints explorer
 - View > Other Windows > Endpoints Explorer
 - Right-click a request > **Generate Request**
 
 If an `.http` file with the project name as the file name exists, the request is added to that file.  
 Otherwise, an `.http` file is created with the project name as the file name, and the request is added to that file.
 
-# Environments
+# environments
 > [!IMPORTANT]
 > Availability: Visual Studio 17.8+  
 
@@ -145,7 +145,7 @@ The precedence for loading variables is as follows:
 2. `http-client.env.json` file
 3. `.http` file
 
-## Accessing Secrets in Environment Files
+## accessing secrets in environment files
 ### via ASP.NET Core User Secrets
 Use this syntax to access user secrets in the `http-client.env.json` files:
 ```json {hl_lines=[4-6]}
@@ -160,7 +160,7 @@ Use this syntax to access user secrets in the `http-client.env.json` files:
 }
 ```
 
-### via Azure Key Vault
+### via azure key vault
 <o>Note</o>: To access a secret in Azure Key Vault you must be signed into Visual Studio with an account which has access to the given Key Vault.
 
 For Azure Key Vault, the syntax is different:
@@ -178,7 +178,7 @@ For Azure Key Vault, the syntax is different:
 }
 ```
 
-### via Windows DPAPI
+### via windows dpapi
 <o>Note</o>: Since Windows Data Protection API encrypts values with a key based on the machine, these values cannot be shared.
 
 Syntax:

@@ -5,19 +5,19 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Pseudo-random number generator.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/api/system.random?view=net-7.0
 
-# Thread Safety
+# thread safety
 <r>Warning:</r> `System.Random` is not thread safe.
 
 For concurrent operations across multiple threads, use `Random`'s `Shared` property which returns a thread-safe Random instance.
 
-# Seeds
+# seeds
 In .NET Core, `System.Random`'s default parameterless constructor uses a seed value produced by the thread-static random number generator itself.  It also has a constructor overload that accepts an `int` as a seed.
 
-# Use
+# use
 ```cs
 var bytes = new byte[5];
 rand.NextBytes(bytes); // 5 random byte values.

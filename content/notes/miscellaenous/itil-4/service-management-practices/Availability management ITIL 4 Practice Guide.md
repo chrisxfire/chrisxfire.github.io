@@ -661,7 +661,7 @@ Pavel Demin
 
 Roman Jouravlev
 
-### References
+### references
 
 1.  *Risk management: ITIL® Practice Guide*.
 2.  For details see Risk management: ITIL® Practice Guide.

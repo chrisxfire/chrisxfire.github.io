@@ -7,17 +7,17 @@ tags:
  - kb/cli/git
 ---
 
-# Configuration
-## Config Files 
+# configuration
+## config files 
 - `/etc/git/gitconfig` or `C:\Program Files\Git\etc\gitconfig` — config for all users on the system (`--system`)
 - `~/.git` — config for all repositories of the current user (`--global`)
   - `~` is `$HOME` on Windows
 - `.git/` — config for this repository only (`--local` (default))
 
-# Configuration Commands
+# configuration commands
 - `git config [scope] <key> <value>` set configuration \<key\> to \<value\>
 
-# Checking Configuration
+# checking configuration
 - `git config --list` — list all configuration settings Git can find
   - Note: Git uses the last value for each unique key it sees
 - `git config <key>` return the value of \<key\>  
@@ -30,11 +30,11 @@ tags:
 - `git config --global core.editor "<path>"` — set the default editor used when Git needs input  
 - `git config --global credential.helper cache` set up a credential cache
 
-# Aliases
+# aliases
 - `git config --global alias.<alias> '<command>'` — create \<alias\> for \<command string\>
 - `git config --global alias.last 'log -1 HEAD'` — return the last commit via last
 
-## Common Aliases
+## common aliases
 - `git config --global alias.co checkout`
 - `git config --global alias.br branch`
 - `git config --global alias.ci commit`

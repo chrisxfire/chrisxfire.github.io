@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Plex is a local-first media server. See https://www.plex.tv for more information.
 
-# Installation
+# installation
 1. Create Plex's `apt` source:  
     ```bash
     echo deb https://downloads.plex.tv/repo/deb public main | sudo tee /etc/apt/sources.list.d/plexmediaserver.list
@@ -19,7 +19,7 @@ Plex is a local-first media server. See https://www.plex.tv for more information
     sudo apt install plexmediaserver
     ```
 
-## Migrate Metadata Library
+## migrate metadata library
 By default, Plex's metadata library is located at `/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/`. On systems with a small `/var` partition, this can be problematic. To relocate the metadata library:
 1. Stop Plex:  
     ```bash
@@ -50,6 +50,6 @@ By default, Plex's metadata library is located at `/var/lib/plexmediaserver/Libr
     sudo systemctl start plexmediaserver.service
     ```
 
-## Configuration
+## configuration
 1. Browse to `http://<LOCAL-SERVER-IP>:32400/web/index.html` replacing `LOCAL-SERVER-IP`
 2. Complete setup.

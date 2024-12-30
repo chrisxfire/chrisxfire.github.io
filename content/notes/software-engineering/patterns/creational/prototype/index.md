@@ -7,7 +7,7 @@ weight: 1
 
 ![A diagram depicting the prototype pattern](./Creational_Prototype-image1.png)
 
-# Prototype
+# prototype
 Type: Creational  
 Purpose: Copy (clone) existing objects without making your code dependent on their classes.  
 Use to:
@@ -18,20 +18,20 @@ Complexity: 1/3
 Popularity: 2/3  
 In .NET: `System.Net.Http.Headers`  
 
-# Overview
-## Basic Implementation
+# overview
+## basic implementation
 ![The structure of the Prototype design pattern](./Creational_Prototype-image2.png)
 
 1.  The Prototype interface declares the cloning methods. In most cases, it’s a single clone method.
 2.  The Concrete Prototype class implements the cloning method. In addition to copying the original object’s data to the clone, this method may also handle some edge cases of the cloning process related to cloning linked objects, untangling recursive dependencies, etc.
 3.  The Client can produce a copy of any object that follows the prototype interface.
 
-## Prototype registry implementation
+## prototype registry implementation
 ![The prototype registry](./Creational_Prototype-image3.png)
 
 1.  The Prototype Registry provides an easy way to access frequently-used prototypes. It stores a set of pre-built objects that are ready to be copied. The simplest prototype registry is a name → prototype hash map. However, if you need better search criteria than a simple name, you can build a much more robust version of the registry.
 
-# Implementing
+# implementing
 Note: C# provides for this pattern via `ICloneable`.
 
 Either create a prototype interface and declare a Clone() method on it, or just add the method to all classes of an existing class hierarchy.

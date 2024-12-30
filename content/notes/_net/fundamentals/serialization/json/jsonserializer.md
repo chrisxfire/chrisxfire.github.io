@@ -10,7 +10,7 @@ weight: 1
 A high-level, automatic serialization and deserialization API. JsonSerializer's source generator eliminates use of reflection which is important
 for trimming and native AOT apps.
 
-# Serializing and Deserializing with JsonSerializer
+# serializing and deserializing with jsonserializer
 These examples use the following classes:
 ```cs {hl_lines=[7,8]}
 public class WeatherForecast
@@ -31,8 +31,8 @@ public class HighLowTemps
 }
 ```
 
-## via Custom Types
-### Serializing to JSON
+## via custom types
+### serializing to json
 This data can be serialized as follows:
 ```cs
 var weatherForecast = new WeatherForecast
@@ -94,7 +94,7 @@ Serializing to a UTF-8 byte array is faster because bytes do not need to be conv
 byte[] jsonUtf8Bytes =JsonSerializer.SerializeToUtf8Bytes(weatherForecast);
 ```
 
-### Deserializing to Custom Types
+### deserializing to custom types
 Assume this JSON:
 ```cs
 string jsonString =

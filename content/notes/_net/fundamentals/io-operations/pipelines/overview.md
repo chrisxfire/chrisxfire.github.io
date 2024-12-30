@@ -11,7 +11,7 @@ Pipelines are designed to simplify high performance I/O operations with .NET.
 
 Pipelines are available in `System.IO.Pipelines` Nuget package.
 
-# Pipe
+# pipe
 Pipe is used to create a `PipeReader`/`PipeWriter` pair, accessible via properties on the `Pipe`. All data written in the `PipeWriter` is available in the `PipeReader`:
 ```cs
 var pipe = new Pipe();
@@ -115,10 +115,10 @@ bool TryReadLine(ref ReadOnlySequence<byte> buffer, out ReadOnlySequence<byte> l
 }
 ```
 
-# PipeReader and PipeWriter
+# pipereader and pipewriter
 See [Notes on PipeReader](../pipereader) and [Notes on PipeWriter](../pipewriter).
 
-## Best Practices for using PipeReader and PipeWriter
+## best practices for using pipereader and pipewriter
 - Always complete the `PipeReader` and `PipeWriter` or throw an exception.
 - Always call `PipeReader.AdvanceTo` and `PipeReader.ReadAsync`.
 - Periodically `await` `PipeWriter.FlushAsync` while writing.
@@ -129,7 +129,7 @@ See [Notes on PipeReader](../pipereader) and [Notes on PipeWriter](../pipewriter
 - <r>Do not</r> access `ReadResult.Buffer` after calling `AdvanceTo` or completing the `PipeReader.`
 - <o>Caution</o>: These types are not thread safe.
 
-# Backpressure and Flow Control
+# backpressure and flow control
 When reading and parsing:
 * The reading thread consumes data from the network and puts it in buffers.
 * The parsing thread constructs data structures.
@@ -147,14 +147,14 @@ The `Pipe` has two settings that adjust flow control:
 When the amount of data in the `Pipe` crosses the `PauseWriterThreshold`, `PipeWriter.FlushAsync` returns an incomplete `ValueTask<FlushResult>`.
 When the amount of data becomes lower than `ResumeWriterThreshold`, `PipeWriter.FlushAsync` completes the `ValueTask<FlushResult>`.
 
-## Example
+## example
 ```cs
 // The Pipe will start returning incomplete tasks from FlushAsync until the reader examines at least 5 bytes:
 var options = new PipeOptions(pauseWriterThreshold: 10, resumeWriterThreshold: 5);
 var pipe = new Pipe(options);
 ```
 
-# PipeScheduler
+# pipescheduler
 When using `async`/`await`, asynchronous code resumes on either a `TaskScheduler` or the current `SynchronizationContext`. 
 `PipeScheduler` provides fine-grained control over where the asynchronous callbacks run.
 
@@ -163,11 +163,11 @@ By default, the `SynchronizationContext` is used. If there isn't one, the thread
 
 <o>Avoid using `PipeScheduler.Inline`</o>. This can cause deadlocks.
 
-# IDuplexPipe
+# iduplexpipe
 `IDuplexPipe` is a contract for types that support both reading and writing, such as a network connection.
 
 `IDuplexPipe` represents one side (reading or writing) of a full duplex connection. What is written to the `PipeWriter` will
 not be read from the `PipeReader` of an `IDuplexPipe`.
 
-# Streams
+# streams
 See [this page](https://learn.microsoft.com/en-us/dotnet/standard/io/pipelines#streams) for more information on reading and writing streaming data.

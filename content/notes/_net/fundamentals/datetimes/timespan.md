@@ -11,11 +11,11 @@ weight: 1
 Represents a time interval.  
 Subtracting one `DateTime` from another results in a `TimeSpan`.  
 
-# Uses
+# uses
 - Reflecting interval between two dates or times.
 - Measuring elapsed time
 
-# Construction
+# construction
 ```cs
 TimeSpan interval = new TimeSpan(); // interval is TimeSpan.Zero.
 TimeSpan interval = TimeSpan.Zero;

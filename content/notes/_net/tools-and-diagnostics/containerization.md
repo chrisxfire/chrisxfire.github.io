@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Configure Container Image
+# configure container image
 Most configuration is handled through MSBuild properties.
 Exception: RUN commands require a Dockerfile.
 
-## ContainerBaseImage
+## containerbaseimage
 The image used as the basis for the image being created.
 ```xml
 <PropertyGroup>
@@ -22,7 +22,7 @@ Defaults:
 - If project is an ASP.NET Core project, the mcr.microsoft.com/_net/aspnet image is used.
 - Otherwise the mcr.microsoft.com/_net/runtime image is used.
 
-## ContainerRuntimeIdentifier
+## containerruntimeidentifier
 The OS and architecture used by the container of the ContainerBaseImage supports more than one platform.
 ```xml
 <PropertyGroup>
@@ -32,7 +32,7 @@ The OS and architecture used by the container of the ContainerBaseImage supports
 
 Default: Set to value of the RuntimeIdentifier (-r option of dotnet publish command)
 
-## ContainerRegistry
+## containerregistry
 The destination registry.
 ```xml
 <PropertyGroup>
@@ -42,7 +42,7 @@ The destination registry.
 
 Default: local Docker daemon
 
-## ContainerImageName
+## containerimagename
 The name of the image.
 ```xml
 <PropertyGroup>
@@ -52,7 +52,7 @@ The name of the image.
 
 Default: AssemblyName of project is used.
 
-## ContainerImageTags
+## containerimagetags
 Tags generated for the image.
 ```xml
 <PropertyGroup>
@@ -62,7 +62,7 @@ Tags generated for the image.
 
 Default: Version of the project is used as tag value.
 
-## ContainerWorkingDirectory
+## containerworkingdirectory
 The working directory of the container.
 ```xml
 <PropertyGroup>
@@ -72,7 +72,7 @@ The working directory of the container.
 
 Default: /app
 
-## ContainerPort
+## containerport
 TCP or UDP ports that are added to the list of known ports for the container.
 ```xml
 <ItemGroup>
@@ -80,7 +80,7 @@ TCP or UDP ports that are added to the list of known ports for the container.
 </ItemGroup>
 ```
 
-## ContainerLabel
+## containerlabel
 A metadata label for the container.
 ```xml
 <ItemGroup>
@@ -88,7 +88,7 @@ A metadata label for the container.
 </ItemGroup>
 ```
 
-## ContainerEnvironmentVariable
+## containerenvironmentvariable
 Environment variables for the container.
 ```xml
 <ItemGroup>
@@ -96,7 +96,7 @@ Environment variables for the container.
 </ItemGroup>
 ```
 
-## ContainerEntrypoint
+## containerentrypoint
 The executable that is called when the container is started.
 <ItemGroup Label="Entrypoint Assignment">
 <!-- This is how you would start the dotnet ef tool in your container -->
@@ -113,7 +113,7 @@ Default:
 - For builds that create an app host, the app host is used as the Entrypoint.
 - For builds that don't create an executable, dotnet path/to/app.dll is used.
 
-## ContainerEntrypointArgs
+## containerentrypointargs
 Arguments passed to the ContainerEntrypoint.
 ```xml
 <ItemGroup>
@@ -130,7 +130,7 @@ default, but let the user run a different EF command. -->
 
 Default: None
 
-# Process to Containerize an App
+# process to containerize an app
 1.  Clean, Restore, Publish
 ```powershell
 dotnet clean

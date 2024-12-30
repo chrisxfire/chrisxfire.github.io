@@ -477,7 +477,7 @@ Antonina Klentsova, Julie Mohr.
 
 Roman Jouravlev.
 
-#### References
+#### references
 
 1.Mikhailava, I., (2011). Absorptive capacity: towards a practice based view. PhD, Lancaster University Management School, Lancaster, UK.
 

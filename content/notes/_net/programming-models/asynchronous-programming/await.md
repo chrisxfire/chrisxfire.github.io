@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Await
+# await
 The `await` keyword marks a point where the method cannot continue until the awaited async operation is complete.
 - It suspends this method and yields control back to the caller until then.
 - It signs up the rest of the method as a continuation.
@@ -31,7 +31,7 @@ int intResult = await returnedTaskTResult;
 	- Or, consider the Task Parallel Library ([Notes on Task Parallel Library](../../parallel-programming)).
 
 TODO: 
-# Await Decision Table
+# await decision table
 The `Task.Wait`* methods are synchronous, not asynchronous.
 
 | Goal                                     | Use this             | Not this                     |

@@ -6,7 +6,7 @@ weight: 1
 draft: false
 ---
 
-# Creating
+# creating
 New Folder > ViewModel; MainViewModel.cs
 
 `MainViewModel.cs`

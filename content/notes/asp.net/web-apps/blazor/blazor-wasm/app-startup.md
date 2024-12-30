@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # [Loading Boot Resources](https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?view=aspnetcore-7.0#load-boot-resources)
-# Controlling Headers
+# controlling headers
 Use middleware to control the headers collection:  
 `Program.cs`
 ```cs
@@ -33,7 +33,7 @@ var staticFileOptions = new StaticFileOptions
 app.MapFallbackToFile("index.html", staticFileOptions);
 ```
 
-# Loading Progress Indicators
+# loading progress indicators
 The Blazor WASM project template contains SVG and text indicators to show loading progress.  These are implemented with HTML and CSS using two CSS custom properties provided by Blazor WASM:
 - `--blazor-load-percentage`
 - `--blazor-load-percentage-text`

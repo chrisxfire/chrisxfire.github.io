@@ -5,13 +5,13 @@ draft: false
 weight: 4
 ---
 
-# Overview
+# overview
 How to modify columns with options for alignment, ordering, and offsetting.  Using column classes to manage widths of non-grid elements.
 - When building grid layouts, all content goes into columns.
 - Bootstrap has predefined classes for creating layouts.
 
-# Alignment
-## Vertical Alignment
+# alignment
+## vertical alignment
 Change the `align-items-*` classes:
 ```html
 <div class="container text-center">
@@ -49,7 +49,7 @@ Change the alignment on individual columns with `align-self-*`:
 ```  
 ![three columns in a container, the first of which is at the top, the second in the middle, and the third at the bottom](vertical-alignment-2.png)
 
-## Horizontal Alignment
+## horizontal alignment
 Use the `justify-content-*` classes:
 ```html
 <div class="container text-center">
@@ -105,7 +105,7 @@ Use the `justify-content-*` classes:
 ```  
 ![several cells in a container at different positions](horizontal-alignment.png)
 
-## Column Wrapping
+## column wrapping
 After 12 columns on a single row, each group of extra columns will, as one unit, wrap onto a new line:
 ```html
 <div class="container">
@@ -119,7 +119,7 @@ After 12 columns on a single row, each group of extra columns will, as one unit,
 
 ![text wrapped in a column](column-wrapping.png)
 
-## Column Breaks
+## column breaks
 Break columns onto a new line by adding an element with `width: 100%` wherever you want to break:
 ```html
 <div class="container text-center">
@@ -138,7 +138,7 @@ Break columns onto a new line by adding an element with `width: 100%` wherever y
 
 ![a container demonstrating how column breaks appear](column-breaks.png)
 
-# Reordering
+# reordering
 Use `order-` classes to control the visual order of content:
 ```html
 <div class="container text-center">
@@ -160,7 +160,7 @@ Use `order-` classes to control the visual order of content:
 
 ![a container with 3 columns ordered by their order values](ordering.png)
 
-# Offsetting Columns
+# offsetting columns
 Use `offset-` classes to offset grid columns:
 ```html
 <div class="container text-center">

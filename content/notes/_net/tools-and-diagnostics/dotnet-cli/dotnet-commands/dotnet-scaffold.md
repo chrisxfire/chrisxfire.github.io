@@ -7,12 +7,12 @@ tags:
  - kb/dotnet/dotnet-cli/dotnet-scaffold
 ---
 
-# Overview
+# overview
 `dotnet scaffold` is an interactive command line tool to scaffold ASP.NET Core projects.
 
 - Reference: https://devblogs.microsoft.com/dotnet/introducing-dotnet-scaffold/
 
-# Installation
+# installation
 `dotnet tool install --global Microsoft.dotnet-scaffold`
 
 # Usage Example - General

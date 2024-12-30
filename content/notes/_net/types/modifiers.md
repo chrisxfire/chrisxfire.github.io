@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Access Modifiers
+# access modifiers
 - `public` – Access is unrestricted.
 - `private` – Access is limited to this type in this assembly only.
 - `protected` – Access is limited to this type or derivatives, or derivatives in a referenced assembly.
@@ -22,7 +22,7 @@ weight: 1
 | protected (internal) | yes                          | yes                        | yes                              | no                             |
 | private (internal)   | yes                          | no                         | no                               | no                             |
 
-# Other Modifiers
+# other modifiers
 - `virtual` – This member *may* be overridden in a derived type.  
 - `abstract` – This type <u>must</u> be overridden in a derived type.  
   - It has no implementation.
@@ -30,30 +30,30 @@ weight: 1
 - `override` – This member provides a new implementation of the base type's `virtual` or `abstract` member.
 - `sealed` – This type cannot be further overridden in a derived type (meaning that is also cannot be `abstract`).
 
-# Access Modifiers for Members
+# access modifiers for members
 The accessibility of the return type and parameter types of a method, indexer, or delegate must be >= that of the member itself:
 - For a public method `M` that returns class `C`, `C` must also be public.
 - For a protected property of Type `A`, `A` cannot be private.
 
-## Struct Members
+## struct members
 Default: `private`  
 Options: `public`, `internal`, `private`
 
-## Class Members
+## class members
 Default: `private`  
 Options: `public`, `protected`, `internal`, `protected internal`, `private protected`, `private`
 
-## Interface Members
+## interface members
 Default: `public`   
 Options: `public`, `protected`, `internal`, `protected internal`, `private protected`, `private`
 
-## Enumeration Members
+## enumeration members
 Always `public`. No access modifiers allowed.
 
-## Operators
+## operators
 Must always be `public` and `static`.
 
-## Finalizers
+## finalizers
 Finalizers cannot have access modifiers.
 
 # `file` Modifier

@@ -65,7 +65,7 @@ Components:
 </Dialog>
 ```
 
-# Content Rendering
+# content rendering
 As of .NET 8, Blazor can render content at either the component or page level with:
 - Static server rendering (SSR) — to generate static HTML on the server.
 - Interactive server rendering (interactive SSR) — to generate interactive components with pre-rendering on the server.
@@ -74,14 +74,14 @@ As of .NET 8, Blazor can render content at either the component or page level wi
 
 More information: [Rendering](fundamentals/rendering.md)
 
-# Tooling
-## VS Code
-### Creating a project
+# tooling
+## vs code
+### creating a project
 1. <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> -> **.NET New Project**
 2. Select the Blazor project template
 3. Follow the prompts
 
-### Running the app
+### running the app
 1. <kbd>F5</kbd> to run with debugger  
 2. Select the **C#** debugger from the list
 3. Select the **https** launch configuration
@@ -89,7 +89,7 @@ More information: [Rendering](fundamentals/rendering.md)
 To stop, <kbd>Shift</kbd> + <kbd>F5</kbd>
 
 ## .NET CLI
-### Creating a project
+### creating a project
 - Blazor Web App (`dotnet new blazor`)
 - Blazor WebAssembly standalone (`dotnet new blazorwasm`)
 
@@ -108,7 +108,7 @@ Other options:
 - Use `--empty` to omit sample pages and basic styling
 - Use `--all-interactive` to include an interactive render mode at the top level
 
-### Running the app
+### running the app
 From the solution's server project (the project that doesn't end in `.Client`), compile and start the app:
 ```powershell
 dotnet watch

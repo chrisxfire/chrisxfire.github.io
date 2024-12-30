@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 At default log levels, and with no additional providers:
 - Blazor Server logs to the server-side .NET console in Development environment at `LogLevel.Information` or higher.
 - Blazor WASM logs to the client-side browser developer tools console at `LogLevel.Information` or higher.
@@ -15,7 +15,7 @@ Notes & Documentation
 - [Notes on Logging in ASP.NET Core](../../../../fundamentals/logging/overview) apply to these notes as well.
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/logging?view=aspnetcore-7.0
 
-# Logging in Components
+# logging in components
 ## Injecting an ILogger\<T\>  
 `Pages/Counter1.razor`
 ```html
@@ -41,7 +41,7 @@ Notes & Documentation
 }
 ```
 
-## Logging with ILoggerFactory
+## logging with iloggerfactory
 `Pages/Counter2.razor`
 ```html
 @page "/counter-2"
@@ -67,13 +67,13 @@ Notes & Documentation
 }
 ```
 
-# Logging in Blazor Server
+# logging in blazor server
 There are no special logging considerations for Blazor Server.  See the notes for [logging in ASP.NET Core](../../../../fundamentals/logging/overview).
 
-# Logging in Blazor WASM
+# logging in blazor wasm
 Blazor WASM supports the following .NET logging features:
 
-## Logging Configuration
+## logging configuration
 - Logging configuration placed in `wwwroot/appsettings.json` is <o>not</o> loaded by default.
 - Configure logging in Blazor WASM apps with the `WebAssemblyHostBuilder.Logging` property via extension methods on `builder.Logging`.
 
@@ -115,7 +115,7 @@ logger.LogInformation("Logged after the app is built in Program.cs.");
 await host.RunAsync();
 ```
 
-## Logging Categories
+## logging categories
 See [these notes](../../../../../_net/fundamentals/logging/overview#categories).  
 `Pages/Counter.razor`
 ```cs
@@ -123,7 +123,7 @@ var logger = LoggerFactory.CreateLogger("CustomCategory");
 logger.LogWarning("Someone has clicked me!");
 ```
 
-## Logging Event ID
+## logging event id
 See [these notes](../../../../../_net/fundamentals/logging/overview#event-ids).  
 `LogEvent.cs`
 ```cs
@@ -140,14 +140,14 @@ logger.LogInformation(LogEvent.Event1, "Someone has clicked me!");
 logger.LogWarning(LogEvent.Event2, "Someone has clicked me!");
 ```
 
-## Logging Message Templates
+## logging message templates
 See [these notes](../../../../../_net/fundamentals/logging/overview#message-templates).  
 `Pages/Counter.razor`
 ```cs
 logger.LogInformation("Someone clicked me at {CurrentDT}!", DateTime.UtcNow);
 ```
 
-## Logging Exception Parameters
+## logging exception parameters
 See [these notes](../../../../../_net/fundamentals/logging/overview#exceptions).  
 `Pages/Counter.razor`
 ```cs
@@ -167,7 +167,7 @@ catch (Exception ex)
 }
 ```
 
-## Filter Functions
+## filter functions
 See [these notes](../../../../../_net/fundamentals/logging/overview#filters).  
 `Program.cs`
 ```cs
@@ -190,7 +190,7 @@ var logger4 = LoggerFactory.CreateLogger("CustomCategory2");
 logger4.LogWarning("Someone has clicked me!");
 ```
 
-### Example
+### example
 To disable log messages specific to `Microsoft.AspNetCore.Components.RenderTree`, either:
 ```cs
 builder.Logging.AddFilter("Microsoft.AspNetCore.Components.RenderTree.*", LogLevel.None);
@@ -207,13 +207,13 @@ builder.Services.PostConfigure<LoggerFilterOptions>(options =>
     ));
 ```
 
-## Custom Logging Provider
+## custom logging provider
 See https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/logging?view=aspnetcore-7.0#custom-logger-provider-blazor-webassembly
 
-## Logging Scopes
+## logging scopes
 The Blazor WASM developer tools console <u>does not</u> support log scopes. A custom logger that supports log scopes would need to be implemented.
 
-# Hosted Blazor WASM Logging
+# hosted blazor wasm logging
 A hosted Blazor WebAssembly app that prerenders its content executes component initialization code twice. Logging takes place server-side on the first execution of initialization code and client-side on the second execution of initialization code. Depending on the goal of logging during initialization, check logs server-side, client-side, or both.
 
 # SignalR Client Logging (Blazor Server)
@@ -287,7 +287,7 @@ protected override async Task OnInitializedAsync()
 }
 ```
 
-# Authentication Logging
+# authentication logging
 Blazor authentication messages can be logged with either of these approaches:
 
 In an appsettings file via logger configuration:

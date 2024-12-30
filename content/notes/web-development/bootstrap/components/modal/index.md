@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - A JavaScript modal plugin to add dialogs for lightboxes, notifications, or custom content
 - Built with HTML, CSS and JavaScript
 - Documentation: https://getbootstrap.com/docs/5.3/components/modal/
 
-# Details
+# details
 - Positioned over everything else in the document and remove scroll from the `<body>` (the modal scrolls instead)
 - Clicking on the modal's backdrop closes it
 - Only one modal window at a time is supported
@@ -19,8 +19,8 @@ weight: 1
 - The HTML `autofocus` attribute has no effect in modals
 - The animation in modals is dependent on `prefers-reduced-motion` media query
 
-# Examples
-## Static modals
+# examples
+## static modals
 This modal is **static**:  
 ![A static modal](./image.png)
 
@@ -44,7 +44,7 @@ This modal is **static**:
 </div>
 ```
 
-## Fading modals
+## fading modals
 This modal **fades**:   
 ```html
 <div class="modal fade">
@@ -52,7 +52,7 @@ This modal **fades**:
 </div>
 ```
 
-## Controlling How Modals Close
+## controlling how modals close
 This modal has a static backdrop and cannot be closed by clicking outside of it:
 ```html
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" 
@@ -68,7 +68,7 @@ This modal has a static backdrop and cannot be closed by clicking outside of it:
 </div>
 ```
 
-## Positioning
+## positioning
 A modal can be **vertically centered** on the page...
 ```html
 <div class="modal-dialog modal-dialog-centered">
@@ -116,7 +116,7 @@ Modals can use the **grid system**:
 </div>
 ```
 
-## Sizing
+## sizing
 The modal's **size** can be changed...
 ```html
 <div class="modal-dialog modal-xl">...</div>

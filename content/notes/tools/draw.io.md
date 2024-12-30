@@ -5,27 +5,27 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 draw.io has several websites:
 - https://www.drawio.com is the main website
 - https://www.drawio-app.com is the website for draw.io for Atlassian Jira/Confluence
 - https://www.diagrams.net is a legacy website that redirects to drawio.com
 
-# Canvas
+# canvas
 | Action            | Keystrokes                                        |
 | ----------------- | ------------------------------------------------- |
 | Grid (toggle)     | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> |
 | Move drawing area | <kbd>Space</kbd> + **drag mouse**                 |
 | Zoom              | <kbd>Alt</kbd> + **scroll wheel**                 |
 
-# Connectors
+# connectors
 | Action                              | Keystrokes                                                               |
 | ----------------------------------- | ------------------------------------------------------------------------ |
 | Clone connectors                    | <kbd>Ctrl</kbd> + **Select** connector's endpoint + **Drag**             |
 | Connect to a point within the shape | **Drag** > hold <kbd>Alt</kbd> > **Release mouse button** at destination |
 | Add another Waypoint to connector   | **Right-click** connector > **Add Waypoint**                             |
 
-## Connections
+## connections
 Floating connections connect to the frame of a shape.  This is the default when creating new connectors. 
 When a shape with a floating connection is moved, the connection relocates and the line is kept simple.
 
@@ -37,11 +37,11 @@ Fixed connections connect to a specific point on a shape.
 | Create fixed connection                  | Start a connection > **Drag** to <g>green</g> circle or <g>green</g> frame of target shape                                 |
 | Change from floating to fixed connection | **Drag** connection away from shape a bit > Select it again > Drag until <g>green</g> circle or frame appears around shape |
 
-# Layers
+# layers
 The default layer is "Background."  It is always visible. The order of layers affects some shape and connector effects:
 * Line jumps only work for the layer on top.
 
-## Layer Panel
+## layer panel
 When a shape is selected, the layer it is on is indicated by a black dot in the layer panel.
 
 | Action                                       | Keystrokes                                               |
@@ -53,7 +53,7 @@ When a shape is selected, the layer it is on is indicated by a black dot in the 
 | Show/hide all shapes on this layer           | **View** > **Layers** > 👁                                |
 
 # Properties & Placeholders
-## Properties
+## properties
 Properties are metadata associated with a shape or a diagram. They can provide extra information about shapes on hover.
 
 To associate a property with a shape:
@@ -63,15 +63,15 @@ To associate a property with a shape:
 
 Hover over the shape to see the result.
 
-### Special Properties
+### special properties
 - `tooltip`: If this property is defined, only its text will be displayed on hover (and no other properties).
 - `placeholder`: Changes the shape's label into a placeholder. [More information](https://www.drawio.com/blog/placeholder-scope).
 
-## Placeholders
+## placeholders
 Placeholders are properties that act as variables. They can used in shape labels and other text fields to show the value
 of the custom property.
 
-### Local
+### local
 Local placeholders apply to a single shape.
 
 Create and use a custom local placeholders:
@@ -80,7 +80,7 @@ Create and use a custom local placeholders:
 3. In the property's field, enter a value > check **Placeholders** > **Apply**
 4. In the text field of the shape, enter `%placeholder%`
 
-### Global
+### global
 Global placeholders apply to all shapes in the diagram.
 
 Create and use a custom global placeholders:
@@ -91,14 +91,14 @@ Create and use a custom global placeholders:
 5. Select the shape that should use the property > **Edit** > **Edit Data** > check **Placeholders**
 6. In the shape, type `%placeholder%` where *placeholder* is the name of the property to use
 
-### Predefined
+### predefined
 There are several predefined placeholders: https://www.drawio.com/doc/faq/predefined-placeholders  
 
 Use predefined placeholders:
 1. Right-click a shape > **Edit Data** > check **Placeholders**
 2. Enter the placeholder to use (such as `%date{yyyy-mm-dd}%`) in the shape's label or text field
 
-# Selecting
+# selecting
 | Action                                                                 | Keystrokes                                                          |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | Select all connectors                                                  | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd>                   |
@@ -108,7 +108,7 @@ Use predefined placeholders:
 | Select shape/connector underneath                                      | Hold <kbd>Alt</kbd> + **Click** on shape to select next lower shape |
 | Select all intersecting shapes (not juse those fully in selection box) | <kbd>Alt</kbd> + **Drag**                                           |
 
-# Shapes
+# shapes
 | Action                                         | Keystrokes                                                                         |
 | ---------------------------------------------- | ---------------------------------------------------------------------------------- |
 | Aligning                                       | **Select** multiple shapes > Format panel > **Arrange** > **Align**                |
@@ -124,7 +124,7 @@ Use predefined placeholders:
 | Delete a shape and the connected leading to it | <kbd>Ctrl</kbd> + <kbd>Backspace</kbd>                                             |
 | Add a hyperlink to a Shape > **Right-click**   | **Edit Link** > **Web Link**                                                       |
 
-# Swimlane Diagrams
+# swimlane diagrams
 | Action                              | Keystrokes                                                                                       |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------ |
 | Add a swimlane                      | **Hover** over the last lane > **Click** the blue arrow                                          |

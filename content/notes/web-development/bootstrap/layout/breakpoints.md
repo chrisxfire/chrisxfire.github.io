@@ -5,13 +5,13 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - Documentation: https://getbootstrap.com/docs/5.3/layout/breakpoints/
 - Customizable widths that determine how responsive layout behaves across device or viewport sizes.
 - The building blocks of responsive design.  Used to control when layout can be adapted at a particular viewport or device size.
 - Works in conjunction with CSS media queries.
 
-# Available Breakpoints
+# available breakpoints
 Also referred to as *grid tiers*.  Holds containers at width multiples of 12:
 | Breakpoint        | Class infix | Dimensions |
 | ----------------- | ----------- | ---------- |
@@ -62,7 +62,7 @@ $grid-breakpoints: (
 }
 ```
 
-## Single breakpoint
+## single breakpoint
 For targeting a single segment of screen sizes:
 ```css
 @include media-breakpoint-only(xs) { ... }
@@ -73,7 +73,7 @@ For targeting a single segment of screen sizes:
 @include media-breakpoint-only(xxl) { ... }
 ```
 
-## Between breakpoints
+## between breakpoints
 For spanning multiple breakpoint widths:
 ```css
 @include media-breakpoint-between(md, xl) { ... }

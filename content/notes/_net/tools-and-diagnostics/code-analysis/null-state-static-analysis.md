@@ -5,14 +5,14 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 The `System.Diagnostics.CodeAnalysis` contains attributes interpreted by the C# compiler for null-state static analysis.
 - These attributes help to fully describe the null-state of arguments and return values in your APIs.
 - Adding these attributes gives the compiler more information about the rules for an API.
 - These attributes do not enable more checks.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/attributes/nullable-analysis
 
-# Preconditions
+# preconditions
 The `AllowNull` and `DisallowNull` are used to specify that preconditions on variables may not match the nullable annotations on those variables.
 
 ## `AllowNull`
@@ -29,7 +29,7 @@ Use when:
 - The variable could be null, often when first instantiated
 - The variable should not be explicitly set to null
 
-# Postconditions
+# postconditions
 ## `MaybeNull`
 Use when a method may return null when an item isn't found.
 
@@ -37,7 +37,7 @@ Use when a method may return null when an item isn't found.
 Use when a generic method returns an instance of its type parameter, `T`.
 This attribute can also be applied to parameters.
 
-# Conditional Postconditions
+# conditional postconditions
 ## `NotNullWhen`
 Use on a parameter when the arguments could equal null but are known to be not null in certain conditions.
 
@@ -45,7 +45,7 @@ Example use:
 ```cs
 bool IsNullOrEmpty([NotNullWhen(false)] string? value) // Informs compiler that if the result is false, the method will not return null.
 ```
-## NotNullIfNotNull
+## notnullifnotnull
 Consider:
 ```cs
 string? GetToplevelDomainFromUrl(string? url) // This works, but requires callers to implement extra null checks.

@@ -9,7 +9,7 @@ weight: -1
 
 Moq is a simple, minimalistic mocking framework.
 
-# Installation
+# installation
 ```powershell
 dotnet add package Moq
 ```
@@ -22,8 +22,8 @@ using Moq;
 using Moq.Protected;
 ```
 
-# Overview
-## Assumptions
+# overview
+## assumptions
 Assume this interface:
 ```cs
 public interface IDateTimeProvider
@@ -52,7 +52,7 @@ public class RateCalculator
 }
 ```
 
-## Arrange
+## arrange
 The `RateCalculator` is the system under test:
 ```cs
 var rateCalculator = new RateCalculator();
@@ -69,13 +69,13 @@ dateTimeProviderMock.Setup(m => m.DayOfWeek()
                     .Returns(DayOfWeek.Sunday);
 ```
 
-## Act
+## act
 Call the instance of the system under test **with the mocked object** using the mock's `Object` property:
 ```cs
 var actual = rateCalculator.GetPayRate(10.00m, dateTimeProviderMock.Object);
 ```
 
-## Assert
+## assert
 Use Moq's `Verify()` method to verify that the mocked object's method ran, and then assert: 
 ```cs
 dateTimeProviderMock.Verify(m => m.DayOfWeek(), Times.Once());
@@ -83,7 +83,7 @@ dateTimeProviderMock.Verify(m => m.DayOfWeek(), Times.Once());
 Assert.That(actual, Is.EqualTo(12.5m));
 ```
 
-# Another Example
+# another example
 > Credit: https://docs.educationsmediagroup.com/unit-testing-csharp/moq/quick-glance-at-moq
 
 Consider this service and interface:
@@ -127,8 +127,8 @@ public void Ping_invokes_DoSomething()
 }
 ```
 
-# Verification
-## Verifying Method Calls
+# verification
+## verifying method calls
 Verify a method was called with a specific value:
 ```cs
 mock.Verify(foo => foo.DoSomething("ping"));
@@ -149,7 +149,7 @@ Verify the method was never called:
 mock.Verify(foo => foo.DoSomething("ping"), Times.Never());
 ```
 
-## Verifying Properties
+## verifying properties
 Verify the setter was called with a specific value:
 ```cs
 mock.VerifySet(foo => foo.Name = "foo");
@@ -170,13 +170,13 @@ Verify the getter was called, regardless of value:
 mock.VerifyGet(foo => foo.Name);
 ```
 
-## Verifying Event Accessors
+## verifying event accessors
 ```cs
 mock.VerifyAdd(foo => foo.FooEvent += It.IsAny<EventHandler>());
 mock.VerifyRemove(foo => foo.FooEvent -= It.IsAny<EventHandler>());
 ```
 
-## Verify No Other Invocations
+## verify no other invocations
 Beyond those already verified:
 ```cs
 mock.VerifyNoOtherCalls();

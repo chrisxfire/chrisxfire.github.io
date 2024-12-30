@@ -10,7 +10,7 @@ weight: 1
 - Allows userland process to filter packets; BPF returns only those packets; other packets not copied from kernel to this process
 - BPF = this filter + raw interface
 
-# BPF Raw Datalink Interface
+# bpf raw datalink interface
 - Pseudo-devices taht bind to network interfaces
 - READ retrieves buffers full of packets received on the interface
 - WRITE injects packets on the interface
@@ -19,7 +19,7 @@ weight: 1
 - Enables running sandboxed apps in privileged context
 - This extends capabilities of kernel without changes to kernel source or loading kernel modules
 
-## Uses
+## uses
 - High-throughput load balancers
 - Cluster networking
 - Security / DDoS protection

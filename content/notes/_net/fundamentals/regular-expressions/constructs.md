@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Abstract
+# abstract
 These notes contain various .NET regular expression constructs used for forming regular expressions.
 
-# Anchors
+# anchors
 Anchors cause a match to succeed or fail depending on the current position, but do not advance through the string.
 | Anchor      | Match must…                                         | Example | Matches                                |
 | ----------- | --------------------------------------------------- | ------- | -------------------------------------- |
@@ -19,7 +19,7 @@ Anchors cause a match to succeed or fail depending on the current position, but 
 | `\b`        | occur on a boundary between a \w and a \W character |         |                                        |
 | `\B`        | NOT occur on a \b boundary                          |         |                                        |
 
-# Character Escapes
+# character escapes
 | Escaped char | Matches                                              |
 | ------------ | ---------------------------------------------------- |
 | `\a`         | Bell character                                       |
@@ -32,7 +32,7 @@ Anchors cause a match to succeed or fail depending on the current position, but 
 | `\e`         | Escape key (\u001b)                                  |
 | `\\`         | Back slash                                           |
 
-# Character Classes
+# character classes
 | Class    | Matches any single…                          |
 | -------- | -------------------------------------------- |
 | `[ae]`   | character in the group (case-sensitive)      |
@@ -48,22 +48,22 @@ Anchors cause a match to succeed or fail depending on the current position, but 
 | `\d`     | digit [0-9]                                  |
 | `\D`     | non-digit character                          |
 
-## Character Class Subtraction
+## character class subtraction
 `[base_group-[excluded_group]]`  
 
 | Use         | to match                           |
 | ----------- | ---------------------------------- |
 | `[a-z-[m]]` | any character from a to z except m |
 
-## Custom Character Classes
+## custom character classes
 - `[aeiouAEIOU]` matches any vowel, both lowercase and uppercase.
 - `[a-zA-Z0-9]` matches any lowercase letter, uppercase letter, or digit.
 
-# Comments
+# comments
  `(?# comment)` // an inline comment
  `# comment` // an end-of-line comment
 
-# Conditional Evaluation
+# conditional evaluation
 `(?(subexpression)yes|no)` or `?(name)yes|no)` where:
 - *subexpression* is a subexpression to match
 - *name* is a capturing group
@@ -104,8 +104,8 @@ Here is the same regular expression pattern again, this time with colorized brac
 
 <c>^<r>(</r>?\<Pvt\>\\<PRIVATE\>\s<r>)</r>?<o>(</o>?<y>(</y>Pvt<y>)</y><g>(</g><bl>(</bl>\w+\p{P}?\s<bl>)</bl>+<g>)</g>|<in>(</in><v>(</v>\w+\p{P}?\s<v>)</v>+<in>)</in><o>)</o>\r?$</c>
 
-# Grouping
-## Atomic Group
+# grouping
+## atomic group
 A grouping construct that allows the backtracking engine to guarantee that a subexpression matches only the first match found for that subexpression:  
 `(?> subexpression)`
 
@@ -117,7 +117,7 @@ For example, consider the regular expression `(a+)\w`:
 However, if the last character of the input is also an "a", it is matched by `\w` and *not* included in the capture group.
 The regular expression `((?>a+))\w` prevents this behavior because all consecutive "a" characters are matched without backtracking.
 
-## Other Grouping Constructs
+## other grouping constructs
 | Construct                 | Description                                                                                                                             |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | `(subexpression)`         | Capture the matched *subexpression* and assign it a 1-based ordinal                                                                     |
@@ -140,7 +140,7 @@ Lookahead and lookbehind assertions are anchors that, without moving the pointer
 | `(?<= subexpression)` | Positive lookbehind | Assert what precedes the current position in the string is *subexpression*     |                                                                   |
 | `(?<! subexpression)` | Negative lookbehind | Assert what precedes the current position in the string is NOT *subexpression* |
 
-# Quantifiers
+# quantifiers
 *Lazy* quantifiers (`??`, `*?`, `+?`, `{n,m}?`) instruct the backtracking engine to search the minimum number of repetitions first, 
 matching as few times as possible. Contrast with *greedy* quantifiers (`+`):
 - In `.+(\d+)\.`, the *greedy* quantifier `.+` causes regex engine to capture only the last digit of a number.
@@ -160,7 +160,7 @@ matching as few times as possible. Contrast with *greedy* quantifiers (`+`):
 | `{n,m}`    | between n and m times                               | `"\d{3,5}"` | "19302" in "193024"      |
 | `{n,m}?`   | between n and m times, but as few times as possible | `"\d{3,5}"` | "193", "024" in "193024" |
 
-# Backreference Constructs
+# backreference constructs
 *Backreferences* allow a previously matched subexpression to be identified later in the same regular expression.  
 
 | Construct  | Description                                               |
@@ -182,23 +182,23 @@ matching as few times as possible. Contrast with *greedy* quantifiers (`+`):
 | `$+`       | Substitutes the last group that was captured                     |
 | `$_`       | Substitutes the entire input string                              |
 
-# Best Practices
-## Security
+# best practices
+## security
 > When processing untrusted input, always pass a timeout.
 
 A threat actor can pass malicious input, knowing that the input will be matched against a regular expression pattern, and cause a denial of service condition
 by crafting that input to take excessively long to process.  A timeout mitigates this. 
 
-## Regex vs String Methods
+## regex vs string methods
 Use `String` methods when searching for a specific string.  
 Use `Regex` 
 
-## Use the Best Technique for a Specific Regex Operation
+## use the best technique for a specific regex operation
 - Validate a match with `IsMatch()`.
 - Retrieve a single match with `Match()`. Retrieve subsequent matches with `Match.NextMatch()`.
 - Replace matched text with `Replace()`.
 - Escape characters that may be interpreted as regex operators with `Escape()`. Or, remove them with `Unescape()`.
 
-## Use Timeouts
+## use timeouts
 - Use the `Regex(string, RegexOptions, TimeSpan)` constructor to pass a timeout value.
 - Set application-wide timeout by calling `AppDomain.SetData("REGEX_DEFAULT_MATCH_TIMEOUT", TimeSpan)`.

@@ -15,14 +15,14 @@ It provides language-level querying capabilities and it works across a variety o
 > [!TIP]
 > See also: https://learn.microsoft.com/en-us/dotnet/standard/linq/
 
-## Architecture
+## architecture
 LINQ consists of:
 - *Extensions methods* (required) – `Where`, `OrderBy`, `Select`, etc
 - *LINQ providers* (required) – LINQ to Objects, LINQ to Entities, LINQ to XML, LINQ to SQL
 - *Lambda expressions* (optional) – can be used instead of named methods.
 - *LINQ query syntax* (optional) – `from`, `in`, `where`, `orderby`, etc.
 
-# LINQ query operations
+# linq query operations
 A LINQ query operation consists of three actions:
 1. Obtain the data source
 2. Create the query (and store it in a *query variable*)
@@ -74,7 +74,7 @@ LINQ queries vary in their modes of execution:
   - Non-streaming 
 
 ## 3. The execution
-### Immediate execution standard query operators
+### immediate execution standard query operators
 In immediate execution, the data is read and the execution is performed at once.
 Examples include `Count`, `Max`, `Average` and `First`:
 ```cs
@@ -94,7 +94,7 @@ var fooQuery =
     select num).ToList(;)
 ```
 
-### Deferred execution standard query operators
+### deferred execution standard query operators
 In deferred execution, the data is ready, but execution is deferred until the resulting
 query variable is enumerated:
 

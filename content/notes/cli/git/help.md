@@ -7,7 +7,7 @@ tags:
  - kb/cli/git
 ---
 
-# Getting Help
+# getting help
 `git help <verb>` – get manpage-level help on <verb>  
 `git <verb> --help` – get manpage-level help on <verb>  
 `man git-<verb>` – get manpage-level help on <verb>  

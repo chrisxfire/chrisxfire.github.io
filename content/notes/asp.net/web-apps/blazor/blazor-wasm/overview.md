@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Project Structure
+# project structure
 `Program.cs` — entrypoint; host; startup
 - Adds the root component (`App.razor`)
 

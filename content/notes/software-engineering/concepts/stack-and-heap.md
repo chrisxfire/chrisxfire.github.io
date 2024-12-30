@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Heap and Stack
+# heap and stack
 The *stack* and *heap* can be anywhere in physical or virtual memory.  
 
 The *heap* is memory set aside for dynamic allocation:

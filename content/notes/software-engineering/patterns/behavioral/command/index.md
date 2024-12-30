@@ -7,7 +7,7 @@ weight: 1
 
 ![](./Behavioral_Command-image1.png)
 
-# Command
+# command
 Type:  Behavioral  
 Purpose: Turns a request into a stand-alone object that contains all information about the request.  
 Use to:
@@ -20,7 +20,7 @@ Complexity:
 Popularity:  
 In .NET:  `EventArgs`  
 
-# Implementing
+# implementing
 Declare the command interface with a single execution method.
 ```cs
 public interface ICommand
@@ -118,7 +118,7 @@ public static void Main()
 }
 ```
 
-# Visual
+# visual
 ![Structure of the Command design pattern](./Behavioral_Command-image2.png)
 
 1. The Sender class (aka invoker) is responsible for initiating requests. This class must have a field for storing a reference to a command object. The sender triggers that command instead of sending the request directly to the receiver. Note that the sender isn’t responsible for creating the command object. Usually, it gets a pre-created command from the client via the constructor.

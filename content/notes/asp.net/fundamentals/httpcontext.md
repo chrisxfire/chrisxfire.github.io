@@ -67,7 +67,7 @@ await using var fileStream = File.OpenRead(filePath);
 await fileStream.CopyToAsync(context.Response.Body);
 ```
 
-## Response Trailers
+## response trailers
 HTTP/2 and HTTP/3 support response trailers — headers sent with the response after the body is complete.
 To set trailers, use `AppendTrailer`:
 ```cs

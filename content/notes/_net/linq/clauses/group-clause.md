@@ -7,7 +7,7 @@ tags:
  - kb/dotnet/linq/clauses
 ---
 
-# Group clause
+# group clause
 The group clause produces a sequence of groups organized by a specified key. The key is specified after the `by` keyword.
 
 ```cs

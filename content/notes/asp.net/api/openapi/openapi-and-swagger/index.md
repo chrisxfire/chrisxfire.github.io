@@ -11,7 +11,7 @@ weight: 1
   - OpenAPI started as Swagger; Swagger was donated to the OpenAPI Initiative in 2015.
   - Swagger is a family of open source and commercial products from SmartBear that work with the OpenAPI specification.
 
-# OpenAPI spec 
+# openapi spec 
 A document, usually `openapi.json`, that describes the capabilities of an API.
 - It is generated from the XML and attribute annotations within controllers and models.
 
@@ -109,7 +109,7 @@ Example:
 ```
 </details>
 
-# Swagger UI
+# swagger ui
 A tool from SmartBear that provides a web-based UI with information about an API service:  
 ![A screenshot of Swagger UI](./image.png)
 

@@ -57,15 +57,15 @@ The original .NET implementation.
 - Installed on over 1B machines.  
 - Must change as little as possible.
 
-## Mono
+## mono
 A 3rd-party cross-platform implementation of .NET Framework.
 - Fell well behind the upstream.
 
-## Xamarin
+## xamarin
 A 3rd-party mobile development platform.
 - Purchase by Microsoft in 2016.
 
-## Unity
+## unity
 A game development platform.
 
 ## .NET Core 
@@ -91,7 +91,7 @@ When a C# program is executed
 3. The CLR provides services for garbage collection, exception handling, resource management.
 4. Code that's executed by the CLR is managed code.
 
-# Application Models
+# application models
 | Model | Framework | Notes |
 |-------|-----------|-------|
 | Web | ASP.NET Core | Server-side logic. |

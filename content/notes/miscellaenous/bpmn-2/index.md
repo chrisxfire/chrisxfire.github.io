@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Abstract
+# abstract
 Business Process Modeling Notation (BPMN) 2.0 is a standard for graphically representing [business process models](https://en.wikipedia.org/wiki/Business_process_modeling).
 > Credit: Some content from https://www.drawio.com/blog/bpmn-2-0
 
@@ -17,8 +17,8 @@ This mind map describes the elements of BPMN 2.0 along with rules and naming con
     <img title="BPMN v2.0 mind map. Click the image for the full-size version." alt="BPMN v2.0 mind map." src="./BPMN 2.0.svg" width="25%" height="25%">
 </a>
 
-# Rules
-## Overview
+# rules
+## overview
 * A BPMN **Diagram** depicts a subset (which may be complete) of a BPMN *Process Model*.
   * A BPMN Diagram is not a dataflow diagram.
 * A BPMN **Model** may contain one or more BPMN *Business Processes*.
@@ -49,15 +49,15 @@ This mind map describes the elements of BPMN 2.0 along with rules and naming con
   * Use **User Task** to depict semi-automated work where a human performer uses a software application to complete the *Task*.
   * Use **Service Task** to depict automated work.
 
-### Naming Conventions
+### naming conventions
 * All *Activities* must be named with a *verb-noun* phrase.
   * Use the present tense of an active verb of meaning to the business.
   * Use a qualified noun of meaning to the business.
 * Activities other than *Call Activities* cannot have the same name. 
 
-## Data Objects
+## data objects
 * **Data Objects** are databases and documents or data generated from a *Task*.
-### Naming Conventions
+### naming conventions
 * All *Data Objects* must be named with a qualified noun that is the name of a business object or information object of meaning to the business.
 * Name multiple instances of the same *Data Object* using a matching name followed by the applicable *State* in square brackets.
 
@@ -72,7 +72,7 @@ This mind map describes the elements of BPMN 2.0 along with rules and naming con
 * **Start Events**
   * Distinguish alternative instantiation of the process as separate *Start Events*.
 
-### Naming Conventions
+### naming conventions
 * All *Events* must be named.
 * *Conditional Events* — name these with their trigger condition.
 * *End Events* — name these with the name of the end state.
@@ -97,7 +97,7 @@ This mind map describes the elements of BPMN 2.0 along with rules and naming con
   * Use a *Message Event* if the sending or receiving of the Message is instantaneous.
   * Use a *Message Task* if the sending or receiving of the Message can be interrupted.
 
-### Naming Conventions
+### naming conventions
 * *Sequence Flows* connect Tasks
   * Name *Sequence Flows* coming out of diverging *Gateways* of type *Exclusive*, *Inclusive* and *Complex* using their associated conditions stated as outcomes.
   * Name *Conditional Sequence Flows* using their associated conditions stated as outcomes.
@@ -116,29 +116,29 @@ This mind map describes the elements of BPMN 2.0 along with rules and naming con
   * Decision outcome (diverging conditions) must be determined in an *Activity* after the *Gateway*.
 * Use a *Business Rule Task* instead of multiple, chained diverging Gateways.
 
-### Naming Conventions
+### naming conventions
 * Converging
   * Do not name these.
   * Use a text annotation when converging logic is not obvious.
 * Diverging
   * Name exclusive diverging *Gateways* with an interrogative phrase.
 
-### More Information
+### more information
 https://drawio-app.com/blog/navigating-bpmn-gateways-making-sense-of-69-options/
 
-## Pools
+## pools
 * **Pools** are whole organizations or collections of associated *Roles*.
-### Naming Conventions
+### naming conventions
  * Name these using the *Role*'s name.
  * Do not use the *Process* name (in BPMN, a *Pool* is always a depiction of a *Role).*
   
-## Roles
+## roles
 * **Roles** are unique participants in a *Process*.
-### Naming Conventions
+### naming conventions
 Name these using a qualified noun or noun phrase.
 
-## Swimlanes
+## swimlanes
 * **Swimlanes** represent unique *Roles* in a *Process*.
-### Naming Conventions
+### naming conventions
  * Are often used to categorize elements by *Roles*.
  * Name these using the *Category's* name.

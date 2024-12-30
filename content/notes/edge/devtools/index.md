@@ -17,10 +17,10 @@ Inspect and debug web pages with DevTools.
 - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd> — Display DevTools tooltips
 - <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> — Open Command menu
 
-# Elements
+# elements
 The Elements tab displays the DOM tree:  
 
 ![A screenshot of DevTools open to the Elements tab](./image-1.png)
 
-# Main Toolbar
+# main toolbar
 ![A screenshot of the main DevTools toolbar](./image.png)

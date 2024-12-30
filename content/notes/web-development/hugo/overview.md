@@ -5,20 +5,20 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 Hugo is a static site generator.  
 2 editions: *Standard* and *Extended* (includes encoding WebP images, transposing Sass to CSS)
 
-## Installation
+## installation
 `winget install hugo.hugo.extended`
 
 Test the installation:  `hugo version`
 
-## Getting Help
+## getting help
 `hugo help`
 `hugo command --help`
 
-## Generate a Site
+## generate a site
 `hugo new site example`
 
 This creates:
@@ -60,19 +60,19 @@ public/
 ├── index.xml      # <-- RSS feed for the site
 └── sitemap.xml
 ```
-### Build and publish to a different location
+### build and publish to a different location
 `hugo --destination /path/to/destination`
 
-### Build a Test Site
+### build a test site
 `hugo server`
 `hugo server --navigateToChanged` (The browser will automatically redirect to content when it is changed)
 
-# Customization
-## Change syntax highlighting style
+# customization
+## change syntax highlighting style
 See https://xyproto.github.io/splash/docs/all.html for availble styles.
 
 1. Navigate to `/themes/hugo-blog-awesome/assets`
 2. Run `hugo gen chromastyles --style=<style-name> > code-highlight.css`
 
-## Customizing the width of posts
+## customizing the width of posts
 Adjust `$narrow-size` and `$spacing-full` in `/assets/sass/main.scss`

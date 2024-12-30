@@ -12,7 +12,7 @@ A partitioning operation divides an input set into two sections, without rearran
 
 Partitioning operations have no query syntax.
 
-# Methods
+# methods
 | Method      | Description                                                                                  |
 | ----------- | -------------------------------------------------------------------------------------------- |
 | `Skip`      | Skips elements up to a specified position in the collection                                  |
@@ -21,7 +21,7 @@ Partitioning operations have no query syntax.
 | `TakeWhile` | Takes elements based on a predicate function until an element does not satisfy the condition |
 | `Chunk`     | Splits elements of a collection into chunks of a specified maximum size                      |
 
-# Examples
+# examples
 Assume some sequence: `0 1 2 3 4 5 6 7`
 - `Take(3)` returns `0 1 2`
 - `Skip(3)` returns `3 4 5 6 7`

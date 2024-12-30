@@ -6,7 +6,7 @@ weight: 1
 ---
 A generate operation creates a new sequence of values.
 
-# Methods
+# methods
 | Method         | Description                                                            | Query expression |
 |----------------|------------------------------------------------------------------------|------------------|
 | `DefaultIfEmpty` | Replace an empty collection with a default-valued singleton collection | N/A              |
@@ -14,7 +14,7 @@ A generate operation creates a new sequence of values.
 | `Range`          | Generate a collection that contains a sequence of numbers              | N/A              |
 | `Repeat`         | Generate a collection that contains one value repeated n times         | N/A              |
 
-# Examples
+# examples
 ```cs
 IEnumerable<int> squares = Enumerable.Range(1, 10).Select(x => x * x);
 

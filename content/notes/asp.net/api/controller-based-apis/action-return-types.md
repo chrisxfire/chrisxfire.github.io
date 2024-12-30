@@ -13,7 +13,7 @@ There are four options for return types for web API controller action methods:
 3. `ActionResult<T>`
 4. `HttpResults`
 
-# Specific Type
+# specific type
 Use when there are no known conditions against which to safeguard.
 
 ## Considerations for Specific Types `IEnumerable<T>` or `IAsyncEnumerable<T>`
@@ -110,7 +110,7 @@ public Results<NotFound, Ok<Product>> GetById(int id)
 }
 ```
 
-# Web API Conventions   
+# web api conventions   
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/conventions?view=aspnetcore-7.0
 
 Web API conventions are a substitute for decorating actions with `[ProducesResponseType]`. They define the most common return types and status codes returned from a specific type of action and identify actions that deviate from that standard.
@@ -119,7 +119,7 @@ Conventions work by applying attributes behind the scenes.
 
 Default conventions are in `Microsoft.AspNetCore.Mvc.DefaultApiConventions` namespace.
 
-## Applying Web API Conventions
+## applying web api conventions
 Each action must be associated with *exactly one* convention. Conventions can be applied to actions, controllers (to all actions in the controller), or assemblies (to all controllers in the assembly).
 
 Here, the `Put` convention is applied to the `Update` action:
@@ -149,7 +149,7 @@ This convention applies these attributes to the action:
 [ProducesResponseType(StatusCodes.Status400BadRequest)]
 ```
 
-## Creating Custom Conventions
+## creating custom conventions
 Custom conventions can be created.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/conventions?view=aspnetcore-7.0#create-web-api-conventions

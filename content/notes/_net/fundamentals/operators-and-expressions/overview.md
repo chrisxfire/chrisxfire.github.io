@@ -8,7 +8,7 @@ tags:
  - kb/dotnet/fundamentals/expressions
 ---
 
-# Operators
+# operators
 Unary operators work on a single operand:
 ```cs
 int y = x++;
@@ -64,13 +64,13 @@ Explicitly convert an expression to a given reference or nullable type.
 Expression as Type
 ```
 
-# Other Operators
+# other operators
 `=` assignment operator
 `.` member access operator
 `()` invocation operator
 `[]` indexer access operator
 
-# Lambda Operator
+# lambda operator
 Normal method definition:
 ```cs
 public override string ToString()
@@ -84,10 +84,10 @@ Lambda:
 public override string ToString() => $"{firstName} {lastName}".Trim
 ```
 
-# NOOP
+# noop
 The noop keyword in C# is `;` (a standalone semi-colon).
 
-# Implementing Operators
+# implementing operators
 Use the operator keyword to define a static method for an operator to implement it:
 ```cs
 public static Person operator *(Person p1, Person p2) 

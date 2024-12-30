@@ -10,10 +10,10 @@ weight: 1
 
 Represents any time zone in the world.  
 
-# Uses
+# uses
 - Converting between time zones.
 - Serialize and deserialize time zone information.
 - Creating a new time zone.
 
-# Construction
+# construction
 Cannot be instantiated with `new()`.

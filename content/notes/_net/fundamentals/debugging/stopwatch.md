@@ -8,7 +8,7 @@ weight: 1
 # [Stopwatch](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.stopwatch?view=net-6.0)
 `Object` –> `Stopwatch`  
 
-# Example
+# example
 ```cs
 Stopwatch sw = new Stopwatch();
 sw.Start();
@@ -18,12 +18,12 @@ TimeSpan ts = sw.Elapsed;
 // Calling sw.Start() again here resumes the stopwatch at the elapsed time it was stopped
 ```
 
-# Methods
+# methods
 `StartNew()` — Start a new stopwatch timer
 `Reset()` — Reset a timer
 `Restart()` — Reset a timer and start it
 
-# Properties
+# properties
 `Elapsed`
 `ElapsedMilliseconds`
 `ElapsedTicks` — Ticks elapsed since stopwatch started/stopped
@@ -32,7 +32,7 @@ TimeSpan ts = sw.Elapsed;
 `IsHighResolution` — If true, using system's high-resolution performance counter. Else, DateTime class.
 `IsRunning` — Boolean if stopwatch is running
 
-# A Recorder Class to Monitor Performance
+# a recorder class to monitor performance
 ```cs
 using System.Diagnostics;
 

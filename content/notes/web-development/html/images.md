@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Syntax:  
 ```html
 <img src="url" alt="alternatetext">
@@ -15,7 +15,7 @@ The `alt` attribute's value is also displayed if the image is not found.
 
 Always specify `alt`, `width` and `height` for images.
 
-# Sizing
+# sizing
 Images can be sized. Failing to size them will result in page flicker while the page loads.
 
 Use the width and height attributes:  
@@ -27,7 +27,7 @@ Or, use the style attribute with width and height properties with the pixels suf
 <img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
 ```
 
-# Image Maps
+# image maps
 Image maps are images with clickable areas.
 
 Create an image map and use it in an image:
@@ -41,7 +41,7 @@ Create an image map and use it in an image:
 </map>
 ```
 
-## Image Map shape Attribute
+## image map shape attribute
 Shapes can be:
 - `rect, coords="x1, y1, x2, y2"` where:
   - x1, x2 = number of pixels from left
@@ -53,7 +53,7 @@ Shapes can be:
   - x1, y1 is repeated for all coordinates of the edges of the shape
 - `default` (the entire region).
 
-# Background Images
+# background images
 Use the background-image CSS property:
 ```html
 <p style="background-image: url('img_girl.jpg');">
@@ -82,7 +82,7 @@ To stretch, set:
 background-size: 100% 100%;
 ```
 
-# picture Element
+# picture element
 Use to display different images for differnet devices/screen sizes:
 ```html
 <picture>

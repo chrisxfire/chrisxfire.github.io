@@ -5,19 +5,19 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 - Tools are CLI apps installed from NuGet packages.  
 - Tools are managed and used with the `dotnet tool` command.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/core/tools/
 
-# Installing
+# installing
 ```powershell
 dotnet tool install <package_name>
     --global # install the tool globally
     --local # install the tool locally
 ```
 
-# Diagnostic tools
+# diagnostic tools
 | Tool            | Use                                                                                             |
 | --------------- | ----------------------------------------------------------------------------------------------- |
 | dotnet-counters | for first-level health monitoring and performance investigation                                 |
@@ -35,12 +35,12 @@ See [notes on HttpRepl](../../../../../asp.net/api/testing-with-httprepl)
 | dotnet-monitor config show | Shows dotnet-monitor's current configuration                                                   |
 | dotnet-monitor generatekey | Generate an API key and hash for HTTP authentication                                           |
 
-# Other Tools
+# other tools
 ## dotnet-openapi
 Manages OpenAPI references in a project.  
 Package: `microsoft.dotnet-openapi`
 
-### Subcommands
+### subcommands
 The `Add` subcommands add an OpenAPI reference to the project file:
 ```xml
 <OpenAPiReference Include="openapi.json" />

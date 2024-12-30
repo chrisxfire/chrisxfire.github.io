@@ -5,17 +5,17 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 *Command elements* are interactive UI elements that let users perform actions (send an email, delete an item, submit a form). *Command interfaces* are composed of common command elements, the command surfaces that host them, the interactions they support, and the experience they provide.
 
-## Command elements
+## command elements
 - Buttons—trigger an immediate action
 - Lists—present items in an interactive list or grid (drop-down list, list box, list view, grid view)
 - Selection controls—select from a few options (CheckBox, RadioButton, toggle switch)
 - Calendar, date and time pickers—view/modify date and time info (calendar date picker, calendar view, date picker, time picker)
 - Predictive text entry—Provide suggestions as users type (AutoSuggestBox)
 
-## Command surfaces
+## command surfaces
 - App canvas (content area)  
 ![](./DESIGN_Commanding-image1.png)
 - Command bars and menu bars  
@@ -23,7 +23,7 @@ weight: 1
 - Menus and context menus—CommandBarFlyout  
 ![](./DESIGN_Commanding-image3.png)
 
-# Providing Command Feedback
+# providing command feedback
 - Command bar  
 ![](./DESIGN_Commanding-image4.png)
 - Flyouts—lightweight contextual popups  

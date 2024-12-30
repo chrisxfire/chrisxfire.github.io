@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 `UseRouting` — adds route matching to the pipeline; looks at endpoints defined in the app and selects the best match.
 - `UseRouting` works by calling the SetEndpoint method to attach the endpoint to the current context.
 	
@@ -15,7 +15,7 @@ weight: 1
 
 `WebApplicationBuilder` configures `UseRouting` and `UseEndpoints`.
 
-# Endpoints
+# endpoints
 - Endpoints in ASP.NET are executable (have a `RequestDelegate`), extensible (have a `Metadata` collection), selectable (with routing information), and enumerable (the collection of endpoints can be listed from `EndpointDataSource` in DI).
 - Endpoints that can be matched and executed are configured in `UseEndpoints.` 
 
@@ -25,7 +25,7 @@ To connect ASP.NET framework features to the routing system use:
 - `MapHub<T>` for SignalR
 - `MapGrpcService<T>` for gRPC
 
-## Route Templates
+## route templates
 Route templates configure how an endpoint is matched.  Consider:
 ```cs
 app.MapGet("/hello/{name:alpha}", (string name) => $"Hello {name}!");
@@ -34,7 +34,7 @@ app.MapGet("/hello/{name:alpha}", (string name) => $"Hello {name}!");
 - `alpha` is a route constraint.
 - `name` binds the second segment of the URL path to the name parameter and stores it in `HttpRequest.RouteValues`.
 
-## Endpoint Metadata
+## endpoint metadata
 Consider:
 ```cs
 app.UseAuthentication();

@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# A TextBlock
+# a textblock
 ```xml
 <TextBlock x:Name="pageTitle" Text="Page 1" />
 ```
 
-# A HyperlinkButton
+# a hyperlinkbutton
 ```xml
 <HyperlinkButton Content="Click to go to page 2" Click="HyperlinkButton_Click" HorizontalAlignment="Center"/>
 ```

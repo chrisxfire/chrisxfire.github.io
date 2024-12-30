@@ -9,7 +9,7 @@ weight: 1
 - Channels, from the `System.Threading.Channels` namespace, are an implementation of the producer/consumer model in .NET.  
 - This namespace provides synchronization data structures for passing data between producers and consumers asynchronously.
 
-# Channels
+# channels
 Channels can be thought of as any other common generic collection type such as `List<T>`. This collection manages synchronization and provides various 
 consumption models through factory creation options.
 
@@ -17,19 +17,19 @@ Depending on how a `Channel<T>` is created, its reader and writer behave differe
 - <o>Regardless of how it is created, a channel will always throw a `ChannelClosedException` if it is used after it has been closed.</o>
 - Whenever a `Channel<TWrite,TRead>.Writer` produces faster than a `Channel<TWrite,TRead>.Reader` can consume, the channel experiences *back pressure*.
 
-# Bounding
+# bounding
 To create a channel that specifies at maximum capacity, call `Channel.CreateBounded`. Optionally, include `BoundedChannelOptions`.
 To create a channel that is used by any number of readers and writers concurrently, call `Channel.CreateUnbounded`. Optionally, include `UnboundedChannelOptions`.
 
-## Unbounded Channels
+## unbounded channels
 The channel's capacity is unbounded and all writes are performed synchronously.  
 
-### Creating
+### creating
 ```cs
 var channel = Channel.CreateUnbounded<T>();
 ```
 
-### Example
+### example
 Assume you're creating a solution for a GPS device to track the coordinates of a device over time:
 ```cs
 public readonly record struct Coordinates (Guid DeviceId, double Latitude, double Longitude);
@@ -46,19 +46,19 @@ var channel = Channel.CreateUnbounded<Coordinates>(
 
 Since this channel is unbounded, it always has room for a write, so all writes are synchronous.
 
-## Bounded Channels
+## bounded channels
 When the bound is reached, the default behavior is that the channel asynchronously blocks the producer until space becomes available.  
 
-### Creating
+### creating
 ```cs
 var channel = Channel.CreateBounded<T>(7);
 ```
 
-### Full Mode Behavior
+### full mode behavior
 Specify the `BoundedChannelFullMode` value to determine how the channel behaves when its bound is reached.  
 The default is `BoundedChannelFullMode.Wait` which waits for space to become available to complete the write operation.
 
-### Example
+### example
 Using the same example from above:
 ```cs
 var channel = Channel.CreateBounded<Coordinates>(
@@ -83,5 +83,5 @@ var channel = Channel.CreateBounded(
         Console.WriteLine($"Coordinates dropped: {droppedCoords}"));
 ```
 
-# See Also
+# see also
 [An introduction to System.Threading.Channels](https://devblogs.microsoft.com/_net/an-introduction-to-system-threading-channels/)

@@ -5,17 +5,17 @@ draft: false
 weight: 1
 ---
 
-# Absract
+# absract
 > Documentation: https://mermaid.js.org/intro/
 
 A JavaScript-based diagramming and charting tool that renders Markdown-inspired text into diagrams.
 
 
-# Syntax
-## Declaration
+# syntax
+## declaration
 All diagrams begin with a *diagram type declaration*: this is the first line of the code.
 
-## Comments
+## comments
 Comments are prefixed with `%%` and must be on their own line:
 ```
 flowchart LR
@@ -28,14 +28,14 @@ flowchart LR
     A --> B --> C
 ```
 
-## Keywords
+## keywords
 The following are restricted keywords/phrases with workarounds:
 | Keyword/Phrase | Workaround                                                     |
 | -------------- | -------------------------------------------------------------- |
 | `%%{``}%%`     | Avoid using "{}" in comments that use `%%`                     |
 | end            | Wrap the word *end* in quotes or capitalize any of its letters |
 
-# Configuration
+# configuration
 > Documentation: https://mermaid.js.org/config/configuration.html
 
 Configuration is passed via the `config:` section of frontmatter:
@@ -64,8 +64,8 @@ flowchart
 
 See [here](https://mermaid.js.org/config/schema-docs/config.html) for various config properties.
 
-# Diagrams
-## Class Diagram
+# diagrams
+## class diagram
 > Documentation: https://mermaid.js.org/syntax/timeline.html
 
 UML diagrams that describe the structure of a system with classes, their attributes, operations (methods), and relationships among objects.
@@ -102,7 +102,7 @@ Class01 : int gorilla
 Class08 <--> C2: Cool label
 ```
 
-## ERD
+## erd
 > Documentation: https://mermaid.js.org/syntax/entityRelationshipDiagram.html
 
 ```
@@ -119,7 +119,7 @@ erDiagram
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
 
-## Flowchart
+## flowchart
 > Documentation: https://mermaid.js.org/syntax/flowchart.html
 
 ```
@@ -137,7 +137,7 @@ graph TD;
     C-->D;
 ```
 
-### Nodes
+### nodes
 Flowcharts consist of **nodes** (shapes) and **edges** (arrows or lines).
 
 Below:
@@ -180,7 +180,7 @@ flowchart LR
     box1 --> box2
 ```
 
-### Node Shapes
+### node shapes
 ```
 flowchart TB
     box3(Round edges)
@@ -292,7 +292,7 @@ flowchart LR
     A & B --> C & D
 ```
 
-### Flowchart with subgraphs
+### flowchart with subgraphs
 ```
 flowchart TB
     c1-->a2
@@ -327,7 +327,7 @@ flowchart TB
     two --> c2
 ```
 
-## Gantt Chart
+## gantt chart
 > Documentation: https://mermaid.js.org/syntax/gantt.html
 
 Use Gantt charts to illustrate project schedules. Each scheduled task is one continuous bar that extends from left to right. The *x* axis is time; the *y* axis is records tasks in the order in which they are to be completed. 
@@ -398,11 +398,11 @@ gantt
 
 ```
 
-### Syntax
-#### Title
+### syntax
+#### title
 The `title` is optional and displayed at the top of the Gantt chart if specified.
 
-#### Tasks
+#### tasks
 Tasks are added to Gantt charts in `task name : metadata` format. 
 
 Metadata can include tags:
@@ -422,10 +422,10 @@ After the tags, remaining metadata items are interpreted as follows:
   * #1 denotes the ID of the task. This can be referenced using `later <taskId>`.
   * #2 and #3 are interpreted as Scenario B above.
 
-#### Sections
+#### sections
 Gantt charts can have their own sections. The syntax is `section <section name>` where `<section name>` is required.
 
-#### Milestones
+#### milestones
 Milestones represent a single instance in time:
 ```
 gantt
@@ -448,13 +448,13 @@ gantt
 
 The location of the milestone on the chart is determined using this formula: *initial date + duration / 2*.
 
-### Configuration
-#### Dates
+### configuration
+#### dates
 Input date format is defined in `dateFormat`. The default is `YYYY-MM-DD`. Custom formats can be provided using [these tokens](https://day.js.org/docs/en/parse/string-format/).
 
 Output date format is defined in `axisFormat`. The default is `YYYY-MM-DD`. Custom formats can be prfovided using [these tokens](https://github.com/d3/d3-time-format/tree/v4.0.0#locale_format).
 
-#### Axis Ticks
+#### axis ticks
 The format of ticks is defined in `tickInterval`. The default is `auto`. Other options are like `1day` or `2week` where the timespan can be `millisecond`, `second`, `minute`, `hour`, `day`, `week`, or `month`.
 
 If you specify a `week` tick interval, you can also specify the weekday the week starts on. The default is `sunday`:
@@ -464,7 +464,7 @@ gantt
   weekday monday
 ```
 
-#### Display Mode
+#### display mode
 The `displayMode` is set in frontmatter. `compact` mode displays multiple tasks in the same row:
 ```
 ---
@@ -493,10 +493,10 @@ gantt
     Another one      :a3, 2014-02-10, 20d
 ```
 
-#### Today Marker
+#### today marker
 The `todayMarker` is included by default. It can be hidden with `todayMarker off`.
 
-## Git Graph
+## git graph
 > Documentation: https://mermaid.js.org/syntax/gitgraph.html
 ```
     gitGraph
@@ -523,7 +523,7 @@ The `todayMarker` is included by default. It can be hidden with `todayMarker off
        commit
 ```
 
-## Mindmaps
+## mindmaps
 > Documentation: https://mermaid.js.org/syntax/mindmap.html
 
 Use mindmaps to visually organize information and show relationships among the main idea and subtopics.
@@ -565,7 +565,7 @@ mindmap
       Mermaid
 ```
 
-### Shapes
+### shapes
 ```
 mindmap
     id[square]
@@ -587,7 +587,7 @@ mindmap
         d
 ```
 
-### Classes
+### classes
 Classes are added with the syntax `:::` like so:
 ```
 mindmap
@@ -606,7 +606,7 @@ mindmap
         C
 ```
 
-### Markdown Strings
+### markdown strings
 Mindmaps support Markdown strings:
 ```
 mindmap
@@ -625,7 +625,7 @@ Unicode works too: 🤓`"]
       id3[Regular labels still works]
 ```
 
-## Pie Chart
+## pie chart
 > Documentation: https://mermaid.js.org/syntax/pie.html
 
 ```
@@ -659,7 +659,7 @@ pie showData
     "Rats" : 15
 ```
 
-## Quad Chart
+## quad chart
 > Documentation: https://mermaid.js.org/syntax/quadrantChart.html
 
 Use quad charts to visually represent data divided into 4 quadrants.
@@ -696,7 +696,7 @@ quadrantChart
     Campaign F: [0.35, 0.78]
 ```
 
-## Sequence Diagram
+## sequence diagram
 > Documentation: https://mermaid.js.org/syntax/sequenceDiagram.html
 
 ```
@@ -726,7 +726,7 @@ sequenceDiagram
     Bob-->>John: Jolly good!
 ```
 
-## Timeline
+## timeline
 > Documentation: https://mermaid.js.org/syntax/timeline.html
 
 Use timelines to illustrate a chronology of events.
@@ -767,7 +767,7 @@ This syntax is more succinct than the above:
     2004 : Facebook : Google
 ```
 
-### Sections
+### sections
 Time periods can be grouped into sections:
 ```
 timeline
@@ -792,7 +792,7 @@ timeline
         Industry 5.0 : Artificial intelligence, Big data, 3D printing
 ```
 
-## User Journey
+## user journey
 > Documentation: https://mermaid.js.org/syntax/userJourney.html
 
 ```

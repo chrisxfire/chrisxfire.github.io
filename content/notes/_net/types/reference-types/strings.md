@@ -17,11 +17,11 @@ The `string` keyword looks like a type but is actually an alias for the type `St
 
 > [!TIP] See also: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/strings/
 
-# Empty Strings
+# empty strings
 Empty strings are represented as `""`  
 However, to create empty strings, use the constant `String.Empty`. This avoids null reference exceptions.  
 
-# Comparisons
+# comparisons
 ## Case-sensitive, Ordinal Comparisons
 Although `String` is a reference type, the equality operators `==` and `!=` are defined to compare the values of `string` objects, not references.
 This makes the equality testing *value* based.
@@ -36,7 +36,7 @@ string1.Equals(string2, StringComparison.OrdinalIgnoreCase)
 String.Compare(string1, string2, StringComparison.OrdinalIgnoreCase)  
 ```
 
-# Constructing
+# constructing
 ```cs
 string x; // declare without initializing
 string? y = null; // initialize to null
@@ -48,16 +48,16 @@ string baz = @"C:\Windows\System32"; // initialize with a verbatim string litera
 char[] letters = { 'A', 'B', 'C' };
 string x = new string(letters); // Use the constructor only when creating a string from a char*, char[], or sbyte*.
 
-# Accessing
+# accessing
 Use `String.IsNullOrEmpty(string)` to verify the value of a string before accessing it.
 
-# Formatted Strings
+# formatted strings
 Use `string.Format()` for formatted strings:
 ```cs
 string result = string.Format("{0} and {1}", var1, var2)
 ```
 
-## Formats
+## formats
 | format                      | output                            |
 | --------------------------- | --------------------------------- |
 | `d`                         | 6/15/2009                         |
@@ -76,7 +76,7 @@ string result = string.Format("{0} and {1}", var1, var2)
 | `U` (universal full)        | Monday, June 15, 2009 8:45:30 PM  |
 | `Y`                         | June 2009                         |
 
-## Numeric Formats
+## numeric formats
 | format  | output             |
 | ------- | ------------------ |
 | `C`/`c` | $123.46            |
@@ -107,7 +107,7 @@ Numbers:
 Percentage:
 - `{var1:P2}` (2 digits of precision)
 
-## Alignment
+## alignment
 Alignment is expressed as a signed integer $n$ indicating preferred field width:
 - If $n$ is less than the length of the string, it is ignored.  
 - If $n$ is positive, the field is right-aligned.  
@@ -118,7 +118,7 @@ String interpolation achieves the same results as string formatting.
 
 Use `$` for interpolated strings: `interpolationExpression,alignment:formatString`
 
-## Interpolated Strings with Newlines
+## interpolated strings with newlines
 > [!IMPORTANT]
 > Availability: C# 11: Newlines are permitted in string interpolations. 
 
@@ -133,13 +133,13 @@ const string Platform = ".NET";
 const string FullProductName = $"{Platform} - Language: {Language}";
 ```
 
-## Ternary operator in interpolated expression
+## ternary operator in interpolated expression
 Since `:` has special meaning in interpolation expressions, when using it as the conditional operator, wrap it in parentheses:
 ```cs
 $"My house is: {(a < 1 ? "red" : "blue")}"
 ```
 
-# Verbatim Strings
+# verbatim strings
 Verbatim strings will keep their whitespace and print escapes verbatim:  
 ```cs
 Console.WriteLine(@" c:\source\repos(this is where your code goes)");
@@ -149,7 +149,7 @@ Verbatim and interpolated strings can be combined.
 
 Use double quotation marks to embed a literal quotation mark in a verbatim string.
 
-# Raw String Literals
+# raw string literals
 > [!IMPORTANT]
 > Availability: C# 11  
 
@@ -159,7 +159,7 @@ Raw string literals eliminate all need to escape content. They:
 
 Newlines following the opening quote and preceding the closing quote are not included in the content.
 
-## Raw String Literals and String Interpolation
+## raw string literals and string interpolation
 > [!IMPORTANT]
 > Availability: C#11
 
@@ -185,7 +185,7 @@ Notes:
 - UTF-8 string literals cannot be combined with string interpolation.
 - UTF-8 string literals cannot be used as the default value for an optional parameter (they are runtime constants, not compile-time constants).
 
-# Unicode Escape Sequences
+# unicode escape sequences
 `\unnnn`
 
 # Encoding / Decoding Strings
@@ -197,17 +197,17 @@ encoded.Length; // Returns the number of bytes the encoding needed.
 string decoded = encoder.GetString(someString); // Decode the byte array back into a string.
 ```
 
-# Properties
+# properties
 - `Length` — Return the length of the string.  
 
-# Methods
+# methods
 - `String.IsNullOrEmpty(string)` — Boolean if string is null or empty.  
 - `String.IsNullOrWhiteSpace(string)` — Boolean if string is null or whitespace.  
 - `String.Join("sep", collection)` — Concatenates elements of collection and separates each with sep.  
 - `String.Concat(str1, str2)` — Concatenates two string variables. Same as + operator.  
   - .NET creates a new string in memory. Poor performance in loops.  
 
-## Searching
+## searching
 - `Contains("substr")` — Boolean if str is in string.  
 - `StartsWith("substr")` — Boolean if string starts with str.  
 - `EndsWith("substr")`  
@@ -216,7 +216,7 @@ string decoded = encoder.GetString(someString); // Decode the byte array back in
 - `IndexOfAny("substr")` — Return the index of the first occurrence of any of substr where substr is a comma-separated list.  
 - `Substring(s, n)` — Return the substring at starting index s extending for n characters.  
 
-## Manipulating
+## manipulating
 All methods and operators that appear to modify a string actually  — return a new string object.
 
 - `Insert`
@@ -232,12 +232,12 @@ All methods and operators that appear to modify a string actually  — return a 
 - `ToUpper()` — Return an uppercased string.  
 - `Trim('c')` — Return a string with character c trimmed.  
 
-## Whitespace
+## whitespace
 - `PadLeft(n, char)` — Add n spaces to the left. Optionally, use char instead of spaces.  
 - `PadRight(n, char)`  
 - `TrimStart() `— Return a string with leading whitespace trimmed.  
 - `TrimEnd()` — Return a string with trailing whitespace trimmed.  
 - `Trim()` — Return a string with leading and trailing whitespace trimmed.  
 
-# Determine if String Represents Numeric Value
+# determine if string represents numeric value
 Use `TryParse` methods of numeric types.

@@ -7,5 +7,5 @@ tags:
  - kb/cli/git
 ---
 
-# Upgrading
+# upgrading
 `git update-git-for-windows`

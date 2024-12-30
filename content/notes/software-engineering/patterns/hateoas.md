@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# HATEOAS
+# hateoas
 - Hypermedia As The Engine Of Application State
 - Contrast this with interface description languages where clients are given descriptions on how to consume a web service.
 
-## Example
+## example
 A GET request results in information and 3 methods being presented in the response:
 
 `GET /accounts/12345`

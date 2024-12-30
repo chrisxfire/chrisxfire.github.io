@@ -13,7 +13,7 @@ guarantees that type errors are caught at compile time.
 
 LINQ query operations can also transform ("project") data into different types.
 
-# A query with no transformations
+# a query with no transformations
 In the following:
 - Since each element in the data source, `names`, is a `string`...
   - the type of the range variable, `n`, is `string`.
@@ -28,7 +28,7 @@ IEnumerable<string> nameQuery = from n in names
                                 select n; 
 ```
 
-# A query that transforms the source data
+# a query that transforms the source data
 Consider this LINQ to SQL query operation:
 - Since each element in the data source, `Customers`, is a `Customer`, the type of the range variable, `cust`, is `Customer`.
 - Since the type of the object selected, `cust.Name`, is `string`, the type of the query variable, `custNameQuery`, is `string`.
@@ -41,7 +41,7 @@ IQueryable<string> custNameQuery = from cust in customers
                                    select cust.Name;
 ```
 
-# Another query that transforms the source data
+# another query that transforms the source data
 Consider this more complex transformation:
 - Since each element in the data source, `Customers`, is a `Customer`, the type of the range variable, `cust`, is `Customer`.
 - Since the type of the object selected creates an anonymous type, the query variable, `namePhoneQuery`, must be implicitly typed with `var`.
@@ -77,7 +77,7 @@ foreach (var person in peopleInDenver)
     Console.WriteLine(person);
 ```
 
-## Selecting a Subset of each Source Element
+## selecting a subset of each source element
 ```cs
 var query1 = from cust in customers
 select cust.City; // This select just one member of the source element
@@ -85,4 +85,4 @@ select cust.City; // This select just one member of the source element
 var query2 = from cust in customers
 select new { Name = cust.Name, City = cust.City }; // This creates an anonymous type that holds two properties of the source element.
 ```
-# 
+# \L

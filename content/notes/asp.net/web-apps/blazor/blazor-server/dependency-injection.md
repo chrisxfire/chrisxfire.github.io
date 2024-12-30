@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Default Services
+# default services
 Among others:
 | Service | Lifetime | Description |
 |---------|----------|-------------|
@@ -28,7 +28,7 @@ builder.Services.AddSingleton<ISomeService, SomeService>();
 
 # [Detect Transient Disposables in Blazor Server Apps](https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/dependency-injection?view=aspnetcore-7.0#detect-transient-disposables-in-blazor-server-apps)
 
-# How a Component Can Access Services from a Different DI Scope
+# how a component can access services from a different di scope
 If a component invokes an async method that executes code in a different DI scope, they do not have access to the DI container's services (like `IJSRuntime`).  An example is `HttpClient` instances instantiated from `IHttpClientFactory`, which have their own DI scope.
 
 To resolve, create a class `BlazorServiceAccessor` that defines an AsyncLocal which stores the `IServiceProvider` for the current async context.  An instance of this class can be acquired from within a different DI scope.

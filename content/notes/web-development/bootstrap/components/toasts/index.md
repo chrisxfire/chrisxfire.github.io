@@ -5,18 +5,18 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - Lightweight notifications that mimic push notifications
 - Documentation: https://getbootstrap.com/docs/5.3/components/toasts/
 
-# Details
+# details
 - Built with flexbox
 - Opt-in for performance reasons; must be manually initialized
 - Toasts autohide unless `autohide: false` is specified
 - Toasts are automatically slightly translucent to blend in with their background
 
-# Creating
-## A Simple Toast
+# creating
+## a simple toast
 ![A simple toast that displays a message stating "Hello, world!  This is a toast message."](image.png)
 ```html
 <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
@@ -32,7 +32,7 @@ weight: 1
 </div>
 ```
 
-## Positioned and Stacked Toasts
+## positioned and stacked toasts
 These toasts are positioned in the upper right and stack:
 
 ![Two toasts that stack positioned in the upper right](toasts.png)
@@ -75,7 +75,7 @@ These toasts are positioned in the upper right and stack:
 </div>
 ```
 
-# Positioning
+# positioning
 In the `toast-container` div above, the toast's position is set.  Other options for positioning:
 - `"top-0 start-0"` for top left
 - `"top-0 start-50 translate-middle-x"` for top center
@@ -88,14 +88,14 @@ In the `toast-container` div above, the toast's position is set.  Other options 
 - `"bottom-0 end-0"` for bottom right
 - `.p-3` to prevent the toasts from sticking to the edge of the container
 
-# Initializing
+# initializing
 Initialize toasts with JavaScript:
 ```js
 const toastElList = document.querySelectorAll('.toast')
 const toastList = [...toastElList].map(toastEl => new bootstrap.Toast(toastEl, option))
 ```
 
-# Dismissing
+# dismissing
 Use `data-bs-dismiss` on a button within the toast:`
 ```html
 <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
@@ -106,7 +106,7 @@ Or `data-bs-target` on a button outside the toast:
 <button type="button" class="btn-close" data-bs-dismiss="toast" data-bs-target="#my-toast" aria-label="Close"></button>
 ```
 
-# Options
+# options
 Use `data-bs-{option}="{value}"`.  Options:
 - `animation`: apply a CSS fade transition to the toast; default = `true`
 - `autohide`: automatically hide the toast after a delay; default = `true`

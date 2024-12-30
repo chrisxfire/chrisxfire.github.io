@@ -5,13 +5,13 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 `StateHasChanged()` is called to notify the Component that its state has changed.  When applicable, calling this method can cause the Component to be rerendered. 
 This is necessary when the Component updates due to an external change (like an event from a service). In these cases, the Component does not update automatically.
 
 `StateHasChanged()` is called automatically for `EventCallback` methods.
 
-# Problem
+# problem
 > Credit: [Blazor University](https://blazor-university.com/components/multi-threaded-rendering/invokeasync/)
 
 When code is called by a non-UI event, a thread locking/synchronization mechanism is normally required if we intend to manipulate state.  Non-UI events include:
@@ -28,11 +28,11 @@ In Blazor Server, there is a single dispatched associated with each connection (
 # Solution: `InvokeAsync()` 
 When calling `StateHasChanged()` from one of the above scenarios, invoke it via the `InvokeAsync()` method. `InvokeAsync()` serializes the work.
 
-## Example
+## example
 Wrap the call to `StateHasChanged` in `InvokeAsync()`:  
 ```cs
 InvokeAsync(StateHasChanged);
 ```
 
-# Disposal
+# disposal
 Calling `StateHasChanged()` is not supported in a `Dispose()` method.

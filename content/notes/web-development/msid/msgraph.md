@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Microsoft Graph
+# microsoft graph
 Unified API model to access data in M365.
 
 ## 3 components
@@ -15,22 +15,22 @@ Unified API model to access data in M365.
 
 Primary namespace: `microsoft.graph`
 
-# Call a REST API Method
+# call a rest api method
 Syntax:  {HTTP method} https://graph.microsoft.com/{version}/{resource}?{query-parameters}   
 Example: `GET https://graph.microsoft.com/%7bversion%7d/%7bresource%7d?%7bquery-parameters%7d`
 
-# HTTP Methods
+# http methods
 - `GET, POST, PATCH, PUT, DELETE.`
 - `GET` and `DELETE` do not require a request body.
 - `POST, PATCH, PUT` usually require a request body in JSON.
 
 # Microsoft Graph .NET SDK
-## Packages
+## packages
 - `Microsoft.Graph` – service library that contains models and request builders.
 - `Microsoft.Graph.Core` – core library for making calls to Microsoft Graph.
 
-# Code
-## Create a Graph Client
+# code
+## create a graph client
 Use a single client for the lifetime of the application.
 ```cs
 // Build a client application.
@@ -45,7 +45,7 @@ DeviceCodeProvider authProvider = new DeviceCodeProvider(publicClientApplication
 GraphServiceClient graphClient = new GraphServiceClient(authProvider);
 ```
 
-## Read Information
+## read information
 ```cs
 // GET https://graph.microsoft.com/v1.0/me
 
@@ -54,7 +54,7 @@ var user = await graphClient.Me
     .GetAsync();
 ```
 
-## Retrieve a List of Entities
+## retrieve a list of entities
 ```cs
 // GET https://graph.microsoft.com/v1.0/me/messages?$select=subject,sender&$filter=<somecondition>&orderBy=receivedDateTime
 
@@ -69,7 +69,7 @@ var messages = await graphClient.Me.Messages
     .GetAsync();
 ```
 
-## Delete an Entity
+## delete an entity
 ```cs
 // DELETE https://graph.microsoft.com/v1.0/me/messages/{message-id} (https://graph.microsoft.com/v1.0/me/messages/%7bmessage-id%7d)
 
@@ -79,7 +79,7 @@ var message = await graphClient.Me.Messages[messageId]
     .DeleteAsync();
 ```
 
-## Create a New Entity
+## create a new entity
 ```cs
 // POST https://graph.microsoft.com/v1.0/me/calendars
 
@@ -93,7 +93,7 @@ var newCalendar = await graphClient.Me.Calendars
     .AddAsync(calendar);
 ```
 
-# Documentation
+# documentation
 - [Microsoft Graph documentation | Microsoft Docs](https://docs.microsoft.com/en-us/graph/)
 - [Overview of Microsoft Graph - Microsoft Graph | Microsoft Docs](https://docs.microsoft.com/en-us/graph/overview)
 - [Microsoft Graph tutorials | Microsoft Docs](https://docs.microsoft.com/en-us/graph/tutorials)

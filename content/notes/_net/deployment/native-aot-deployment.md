@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Publishing as Native AOT produces a self-contained app that has been ahead-of-time compiled into native code.
 
 Advantages:
@@ -22,11 +22,11 @@ Limitations:
 - No runtime code generation (`System.Reflection.Emit`)
 - Apps include required runtime libraries (like all self-contained apps), so their size is larger than framework-dependent apps.
 
-# Requirements
+# requirements
 - On Windows, Desktop Development w/C++ workload
 - On Linux, clang, zlib1g-ev
 
-# Publishing
+# publishing
 1. Update the project file:
     `SomeProject.csproj`  
     ```xml
@@ -37,7 +37,7 @@ Limitations:
     dotnet publish -r <RUNTIME-IDENTIFIER> -c Release
     ```
 
-# Native Libraries
+# native libraries
 This capability also allows for publishing .NET class libraries that can be consumed from non-.NET languages.
 
 # AOT-Compatibility Analyzers

@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Interfaces
+# interfaces
 [Interfaces - define behavior for multiple types | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/interfaces)  
 [Safely update interfaces using default interface methods in C# | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/default-interface-methods-versions)  
 Interfaces require classes or structs to implement certain members. They define a *contract*. They define "*can-do*" relationships.
@@ -19,7 +19,7 @@ Interfaces cannot contain *instance state*.
 | static abstract |                                               |                                  |
 | static virtual  | methods, properties, events, indexers         | fields                           |
 
-# Creating
+# creating
 ```cs
 interface IScored 
 {
@@ -28,12 +28,12 @@ interface IScored
 }
 ```
 
-# Implementing 
+# implementing 
 Classes and structs implement interfaces.
 - The implementing type <u>must</u> implement all members of the interface that do not have a default implementation.
 - The implemented members must be public and non-static.
 
-## Example 1
+## example 1
 ```cs
 public class Person : object, IComparable<Person> 
 { 
@@ -49,7 +49,7 @@ public class Person : object, IComparable<Person>
 }
 ```
 
-## Example 2
+## example 2
 ```cs
 // Class Car implements interface IEquatable<T>
 public class Car : IEquatable<Car> 
@@ -66,8 +66,8 @@ public class Car : IEquatable<Car>
 }
 ```
 
-# Interface Members
-## Properties
+# interface members
+## properties
 In interfaces, declaring the get/set accessors without a body <u>does not</u> declare an auto-implemented property:
 ```cs
 public Interface INamed 
@@ -85,17 +85,17 @@ Interfaces may define `static virtual` or `static abstract` members to declare t
 
 Interface fields cannot be `static virtual`/`abstract`.
 
-# Inheritance
+# inheritance
 - A type that inherits an interface <u>must</u> implement all of its members that do not have a default implementation.
 - Types can inherit multiple interfaces (but only one base class).
 - Interfaces may inherit from base interfaces.
 - Interfaces are the only type a struct can inherit.
 
-# Default Implementations
+# default implementations
 For interface methods that define default implementations, any class inheriting that interface also inherits that implementation.
 - The class instance must be cast to the interface type to access the default implementation of the interface method.
 
-## Versioning
+## versioning
 C# allows an interface to add new members after release so long as they have a default implementation.
 Default implementations are in effect whenever another implementation is not provided:
 
@@ -113,7 +113,7 @@ public interface IPlayable
 }
 ```
 
-# Passing Interfaces like Types
+# passing interfaces like types
 Given this utility class:
 ```cs
 // Of two assignments, return the one that has the higher score:
@@ -139,7 +139,7 @@ When a method that takes `IEnumerable<T>` as an input parameter performs iterati
 
 Instead, pass a concrete type, like `List<T>`.
 
-# Common Interfaces
+# common interfaces
 | Interface         | Method(s)                                            | Description                                                                               |
 | ----------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | `IComparable`     | `CompareTo(other)`                                   | A comparison method that a <em>type</em> implements to sort its instances.                |

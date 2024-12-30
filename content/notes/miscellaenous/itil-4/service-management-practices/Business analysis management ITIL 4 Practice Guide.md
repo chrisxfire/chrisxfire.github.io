@@ -323,6 +323,6 @@ Konstantin Naryzhny, Mark Smalley
 
 Monika Perendyk, Bas van Gils, Dinara Adyrbayeva, Roman Jouravlev
 
-### References
+### references
 
 1.  Scope of the business analysis practice in a specific organization may include some or all of the listed objects; Also, depending on whether the organization acts as an internal or external service provider, ‘organizations, architectures, business processes’ might refer to the organization’s service consumers or the organization itself.

@@ -12,7 +12,7 @@ Default configuration file is `hugo.toml`, `hugo.yaml`, or `hugo.json` in root o
 hugo --config filename.toml, … # generate a new config file(s)
 ```
 
-## Configuration Directories
+## configuration directories
 The configDir (ie: `config/`) can be used to store settings. Each file represents a configuration root object, so `params.toml` would contain:
 ```toml
 [Params]
@@ -40,7 +40,7 @@ Hugo will merge all settings on to pof `config/_default/config.toml`. If running
 
 [List of all Configuration Settings](https://gohugo.io/getting-started/configuration/#all-configuration-settings)
 
-## Configure Build
+## configure build
 The build config section contains global build-related settings:
 ```toml
 [build]
@@ -49,7 +49,7 @@ useResourceCacheWhen = 'fallback' # or never, always; when to use cached resourc
 writeStats = false # if true, creates hugo_stats.json at project root; used for CSS pruning
 ```
 
-## Configure Server
+## configure server
 The server config section only applies when running `hugo server` (development).  
 This file can be placed under `config/development/server.toml`:
 ```toml

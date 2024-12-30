@@ -11,39 +11,39 @@ Inherits from System.Collections.Generic implicitly.
 `List<T>` is not thread safe. Use `ImmutableList<T>` instead.  
 For a heterogeneous collection of objects, use `List<Object>`.
 
-# Other Lists
+# other lists
 `SortedList<TKey, TValue>` A collection of key/value pairs that are sorted by key and accessible by key or index.
 
-# Creating
+# creating
 Declare a new List of strings:
 ```cs
 var names = new List<string>Angle brackets are used for Generics.
 // or
 var names = new List<string> { "eli", "noah" }Declare and initialize (collection initializer).
 ```
-# Accessing
+# accessing
 Lists can be indexed:
 ```cs
 names[n]
 name[^n] // return the nth item from the end of the list.
 ```
 
-# Properties
+# properties
 `.CountReturns` the number of elements in the List.
 
-# Methods
-## Manipulating
+# methods
+## manipulating
 ```cs
 .Add(element) // Add element to List.
 .AddRange(new[] { elem1, elem2, … }
 .Remove(element) // Remove element from List.
 ```
-## Searching
+## searching
 ```cs
 .Contains(element)
 .IndexOf(element) // Returns the index of element, or -1 if not found.
 ```
-## Sorting
+## sorting
 ```cs
 .Sort() // Sorts the List in place.
 ```

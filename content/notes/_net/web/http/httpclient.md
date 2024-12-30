@@ -13,7 +13,7 @@ Sending HTTP requests and receiving HTTP responses via URI.
 - `HttpClient` works only on async methods for its long-running APIs.
 - Every `HttpClient` instance uses its own connection pool.
 
-## Thread Safety
+## thread safety
 <r>Warning</r>:  `HttpClient` is **not thread safe**. However, all HTTP verb methods, except `Send()`, *are* thread safe.
 
 ## [Flaw](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests)
@@ -21,19 +21,19 @@ When the `HttpClient` object gets disposed of, the underlying socket is not imme
 
 Mitigation: create `HttpClient` as a static object.
 
-# Construction
+# construction
 `HttpClient()` — Uses `HttpClientHandler` that is disposed when instance is destroyed.
 - This concrete instance of `HttpClientHandler` has the sockets exhaustion and DNS problems mentioned in Flaw.
 `HttpClient(HttpMessageHandler)` — Uses the specified handler.  
 `HttpClient(HttpMessageHandler, Bool)` — Uses the specified handler. Specifies whether to destroy handler when instance is destroyed.
 
-# Requests
+# requests
 `HttpClient` supports DELETE, GET, PATCH, POST, and PUT HTTP verbs.
 
 Use the `Send()` methods for fine-grained control.  
 These methods use the `HttpRequestMessage` type which include headers, the verb, content, and options.  
 
-# Methods
+# methods
 - `CancelPendingRequests()`
 - `Dispose()` — Release unmanaged resources; dispose of managed resources.  
 - `GetAsync(URI)` — Send a GET request to URI.  
@@ -42,13 +42,13 @@ These methods use the `HttpRequestMessage` type which include headers, the verb,
 - `GetStringAsync(URI)` — Send a GET request to URI; return response body as string.  
 - `PostAsync(URI, content)` — Send a POST request to URI. content is HttpContent.  
 
-# Properties
+# properties
 - `BaseAddress` — Get/set the URI.
 - `DefaultRequestHeaders` — Get/set headers which should be sent with each request as HttpRequestHeaders object.
 - `DefaultRequestVersion` — Get/set default HTTP version to use on each request.
 - `Timeout` — Get/set request time out.
 
-# Examples 
+# examples 
 GET request example:
 ```cs
 static readonly HttpClient client = new HttpClient();
@@ -96,7 +96,7 @@ There are two approaches:
 2. Set `HttpRequestMessage.Version` to `1.1`, and `HttpRequestMessage.VersionPolicy` to `HttpVersionPolicy.RequestVersionOrHigher`.
    * The advantage of this approach is that it supports HTTP/3 for network infrastructure that supports it.
 
-## Platform Dependencies
+## platform dependencies
 .NET's implementation of HTTP/3 uses `MsQuic`.  The underlying platform must meet these requirements, otherwise HTTP/3 is disabled:
 - Windows
   - Windows 11, Windows Server 2022

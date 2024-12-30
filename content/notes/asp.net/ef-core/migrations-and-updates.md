@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Migrate a Database via a SQL File
+# migrate a database via a sql file
 Create a SQL file that migrates a database already in production:
 ```powershell
 PM> script-migration
@@ -13,7 +13,7 @@ PM> script-migration
 
 This outputs a SQL file.
 
-# Apply Migrations at Runtime
+# apply migrations at runtime
 This is not recommended in production; development only.  
 
 `Program.cs`
@@ -38,7 +38,7 @@ if (app.Environment.IsDevelopment())
 // ...
 ```
 
-# Seeding a Database via Migrations
+# seeding a database via migrations
 1. Override the `OnModelCreating` method:  
 `EmployeeManagerDbContext.cs`
 ```cs

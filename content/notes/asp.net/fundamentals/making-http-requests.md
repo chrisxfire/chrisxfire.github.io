@@ -52,10 +52,10 @@ public class BasicModel : PageModel
     }
 }
 ```
-# Named clients
+# named clients
 Use when app requires many distinct uses of `HttpClient`, or many `HttpClients` have different configurations.
 
-## Creating
+## creating
 ```cs
 builder.Services.AddHttpClient("GitHub", httpClient =>
 {
@@ -68,7 +68,7 @@ builder.Services.AddHttpClient("GitHub", httpClient =>
 });
 ```
 
-## Using
+## using
 Each time `CreateClient` is called, a new instance of `HttpClient` is created and the configuration action is called:
 
 ```cs
@@ -93,7 +93,7 @@ public class NamedClientModel : PageModel
 }
 ```
 
-# Typed clients
+# typed clients
 Work like named clients without the need to use strings as keys.  Provides IntelliSense and compiler help.
 Use for a single backend endpoint or to encapsulate logic dealing with an endpoint.
 ```cs
@@ -129,7 +129,7 @@ Register the typed client with DI:
 ```cs
 builder.Services.AddHttpClient<GitHubService>(); // Registered as a transient service
 ```
-## Injecting and consuming
+## injecting and consuming
 ```cs
 public class TypedClientModel : PageModel
 {
@@ -155,7 +155,7 @@ public class TypedClientModel : PageModel
 `IHttpClientFactory` enables you to build an outgoing request middleware.
 In this pattern, handlers are defined for each named client.
 
-## Creating a Delegating Handler
+## creating a delegating handler
 Two steps:  
 1. Inherit `DelegatingHandler`  
 2. Override `SendAsync`  
@@ -192,7 +192,7 @@ builder.Services.AddHttpClient("ConfiguredHttpMessageHandler")
         UseDefaultCredentials = true
     });
 ```
-## Cookies
+## cookies
 The pooled `HttpMessageHandler` instances results in `CookieContainer` objects being shared.
 For apps that require cookies, either:
 1. Disable automatic cookie handling
@@ -203,10 +203,10 @@ To disable automatic cookie handling:
 builder.Services.AddHttpClient("NoAutomaticCookies")
 			 .ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler { UseCookies = false });
 ```
-# Logging
+# logging
 Clients created with `IHttpClientFactory` log messages for all requests.
 
-## Header Propagation Middleware
+## header propagation middleware
 This middleware propagates HTTP headers from incoming requests to the outgoing HttpClient requests.
 
 To use:
@@ -228,9 +228,9 @@ app.UseHeaderPropagation();
 app.MapControllers();
 ```
 
-# From PluralSight
+# from pluralsight
 ## Via `HttpClient` (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
-### Configuring
+### configuring
 `Program.cs`
 ```cs
 builder.Services.AddScoped(sp => 
@@ -239,7 +239,7 @@ builder.Services.AddScoped(sp =>
         BaseAddress = new Uri("http://*some-api-endpoint*")
     });
 ```
-### Using
+### using
 `SomeComponent.razor.cs`
 ```cs
 // In a Razor component, you must use the [Inject] attribute instead of the constructor dependency injection approach:
@@ -253,7 +253,7 @@ protected override async Task OnInitializedAsync()
 ```
 
 ## Via `IHttpClientFactory` (From Pluralsight/ASP.NET Core 6 Blazor Fundamentals)
-### Configuring
+### configuring
 ```posh
 dotnet add package microsoft.extensions.http
 ```
@@ -265,7 +265,7 @@ builder.Services.AddHttpClient<IEmployeeDataService, EmployeeDataService>(client
     client.BaseAddress = new Uri("https://localhost:44340/"));
 ```
 
-### Using
+### using
 `EmployeeDataService.cs`
 ```cs
 public class EmployeeDataService : IEmployeeDataService

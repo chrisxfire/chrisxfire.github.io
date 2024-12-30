@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Partial Methods
+# partial methods
 A partial *class* or *struct* may contain a partial method.  
 One part of the class contains the signature of the method.  
 An implementation is defined in the same part or another part of the class.  

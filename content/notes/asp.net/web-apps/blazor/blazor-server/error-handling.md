@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 During development, when Blazor apps encounter an error, it displays a light yellow bar the bottom of the screen.
 Customize it in `Pages/_Host.cshtml`:
 ```html
@@ -21,7 +21,7 @@ Customize it in `Pages/_Host.cshtml`:
 </div>
 ```
 
-# Detailed Circuit Errors
+# detailed circuit errors
 To get detailed circuit errors, set `CircuitOptions.DetailedErrors` to `true`, or set the `DetailedErrors` configuration key to true in `appsettings.Development.json.`  Set SignalR server-side logging to `Debug` or `Trace`:
 `appsettings.Development.json`
 ```json

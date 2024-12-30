@@ -5,19 +5,19 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Radzen Blazor Components — a set of free Blazor UI components.
 
 https://blazor.radzen.com/get-started  
 
 https://blazor.radzen.com/docs/guides/getting-started  
 
-# Installation
+# installation
 ```powershell
 dotnet add package Radzen.Blazor
 ```
 
-# Getting Started
+# getting started
 ## 1. Add Imports
 `_Imports.razor`
 ```html

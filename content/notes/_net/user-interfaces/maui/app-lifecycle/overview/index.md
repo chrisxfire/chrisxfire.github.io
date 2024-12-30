@@ -5,10 +5,10 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# overview
 .NET MAUI raises cross-platform lifecycle events on the `Window` class when the app transitions states.
 
-# State Transitions
+# state transitions
 | Begin State | Event              | End State   |
 | ----------- | ------------------ | ----------- |
 | Running     | Deactivated        | Deactivated |
@@ -17,7 +17,7 @@ weight: -1
 | Stopped     | Destorying         | Not running |
 | Not running | Created, Activated | Running     |
 
-# Events
+# events
 Note: These events have different names on Android, iOS.
 | Event       | Raised when                                                           | Action                                                          |
 | ----------- | --------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -28,11 +28,11 @@ Note: These events have different names on Android, iOS.
 | Resumed     | App resumes from being Stopped (never raised first time app launches) | Subscribe to events; refresh content that's visible on the page |
 | Destroying  | Native window is being destroyed                                      | Remove event subscriptions attached to the native window.       |
 
-# Window Class Virtual Methods
+# window class virtual methods
 These methods are invoked when the corresponding event is raised:
 `OnCreated`, `OnActivated`, `OnDeactivated`, `OnStopped`, `OnResumed`, `OnDestroying`
 
-# Subscribing to Window Lifecycle Events
+# subscribing to window lifecycle events
 Override the `CreateWindow` method in `App` class and create a `Window` instance:
 ```cs
 public partial class App : Application 
@@ -58,7 +58,7 @@ public partial class App : Application
 }
 ```
 
-# Consuming Window Lifecycle Events
+# consuming window lifecycle events
 Create a class that derives from `Window`:
 ```cs
 public class MyWindow : Window 

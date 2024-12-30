@@ -13,17 +13,17 @@ Consider this the default date and time type.
 
 See also: <https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings>  
 
-# Notes
+# notes
 - The time component is measured in ticks
 - DateTimeOffset values can be created by assigning it a DateTime value (implicit conversion)
 
-# Uses
+# uses
 - "Now"
 - Date and time arithmetic, conversion, and comparisons
 - Conversion: `DateTimeOffset` <–> `DateTime`
 - Time manipulation and extraction
 
-# Construction
+# construction
 ```cs
 DateTimeOffset(DateTime, TimeSpan) // TimeSpan is optional.
 DateTimeOffset(yyyy, mm, dd, hh, mm, ss, ms, TimeSpan) // ms is optional.
@@ -49,5 +49,5 @@ dt = dto.UtcDateTime // Use this if the dto is in UTC.
 dt = dto.LocalDateTime // Use this if the dto is in local time.
 ```
 
-# Fields
+# fields
 `UnixEpoch` // 00:00:00.0000000 UTC, January 1, 1970

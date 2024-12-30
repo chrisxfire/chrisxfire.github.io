@@ -11,8 +11,8 @@ Data Transfer Objects (DTOs) are a subset of a data model. They are used to limi
 
 Note: not to be confused with a `Microsoft.AspNetCore.Components.Web.DataTransfer` object.
 
-# Preventing Overposting with DTOs
-## Example Overposting Vulnerability
+# preventing overposting with dtos
+## example overposting vulnerability
 > Reference: https://andrewlock.net/preventing-mass-assignment-or-over-posting-in-asp-net-core/
 
 Consider this model:
@@ -64,7 +64,7 @@ Some ways to defend against such an attack include;
 * Using a DTO
 * Using `ModelMetadataTypeAttribute`
 
-## Defending Against Overposting with DTOs
+## defending against overposting with dtos
 With a DTO, a second version of the model is created that only includes a subset of its properties:
 ```cs
 public class UserModel

@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 A *component* is an element of UI — a page, dialog, button, form, etc — that is built into a .NET assembly.  It includes layout and logic.
 
 Components can be nested, reused, shared among projects, and used in MVC and Razor Pages apps.
@@ -46,12 +46,12 @@ Components can be nested, reused, shared among projects, and used in MVC and Raz
    <!-- ... -->
    ```
 
-# Naming
+# naming
 Component's UI part are in `.razor` files and the logic is in a code-behind `.razor.cs` file.  
 
 Page Components (Components that produce pages) are defined under `/Pages` by convention.  Other Components are defined under `/Shared` or `/Components`.
 
-# Component Namespaces
+# component namespaces
 Components can be placed anywhere in the project.
 
 For an app with a root namespace of `BlazorSample`, the `Pages/Counter.razor` component has a namespace of `BlazorSample.Pages`.
@@ -59,17 +59,17 @@ For an app with a root namespace of `BlazorSample`, the `Pages/Counter.razor` co
 Adding a `@using` directive to parent components or to the app's `_Imports.razor` file.  
 `@using` directives in `_Imports.razor` are only applied to `.razor` files, not `.cs` files.
 
-# Lifecycle
+# lifecycle
 Components have lifecycle methods that are called at different points in the Component's lifetime.
 
-## Important Lifecycle Events
+## important lifecycle events
 - `OnInitialized()` / `Async()` — invoked while Component is initializing
 - Use when setting up data that a Component needs 
 - `OnParametersSet()` / `Async()` — invoked after OnIntiailize when new values for parameters are received
 - `OnAfterRender()` / `Async()` — invoked when Component has finished rendering
 - Use this event when needing to interact with JavaScript
 
-## Overriding Lifecycle Events
+## overriding lifecycle events
 Example:
 ```cs
 protected override void OnInitialized()
@@ -77,7 +77,7 @@ protected override void OnInitialized()
 }
 ```
 
-# Markup
+# markup
 In Razor markup, members of the class are defined in `@code` blocks.  These component members are used in rendering logic:
 `Pages/Markup.razor`
 ```html
@@ -92,7 +92,7 @@ In Razor markup, members of the class are defined in `@code` blocks.  These comp
 }
 ```
 
-# Routing
+# routing
 Routing in Blazor involves providing a route template to each accessible component in the app with an `@page` directive.
 1. When a Razor component is compiled, the generated class receives a `RouteAttribute` that contains its route template.
 2. When the app starts, the `Router`'s `AppAssembly` is scanned for all Components that have a `RouteAttribute`.
@@ -112,7 +112,7 @@ Constant-based route templates can be specified with `@attribute`:
 @attribute [Route(Constants.CounterRoute)]
 ```
 
-# DynamicComponent
+# dynamiccomponent
 `DynamicComponent` allows Blazor to render components dynamically rather than be specifying their type:
 
 `SomePage.razor`
@@ -131,15 +131,15 @@ public partial class SomePage
 }
 ```
 
-# Differences in Razor Components vs Razor Pages
-## No Asynchronous Work in Razor Expressions
+# differences in razor components vs razor pages
+## no asynchronous work in razor expressions
 Blazor (unlike in Razor Pages) cannot perform asynchronous work in a Razor expression while rendering a component.  This is because Blazor renders interactive UIs; it does not make sense to block while rendering.  
 
 <r>This is illegal</r>:  `<ParameterChild Title="@await ..." />`
 
 Instead, use asynchronous lifecycle events (explained below).
 
-## No Concatenation of Explicit Razor Expression with an Expression Result for Assignment to a Parameter
+## no concatenation of explicit razor expression with an expression result for assignment to a parameter
 This is valid in Razor Pages, but not a Razor Component:  
 
 `<ParameterChild Title="Set by @(panelData.Title)" />`
@@ -156,5 +156,5 @@ Instead, use a method, field, or property:
 }
 ```
 
-## No Support for Tag Helpers in Components
+## no support for tag helpers in components
 Instead, create a Component with the same functionality as the tag helper and use that Component instead.

@@ -7,7 +7,7 @@ weight: 3
 
 # [Overview](https://nsubstitute.github.io/help/received-calls/)  
 
-# Validating Calls
+# validating calls
 Assuming this code:
 ```cs
 public interface ICommand 
@@ -27,8 +27,8 @@ public class SomethingThatNeedsACommand
     public void DoNothing { }
 }
 ```
-## To Methods
-### Validate a Method was Called
+## to methods
+### validate a method was called
 ```cs
 [Test]
 public void Should_execute_command() 
@@ -53,7 +53,7 @@ calculator.Add(1,3);
 calculator.ReceivedWithAnyArgs().Add(default, default);
 ```
 
-### Validate a Method Was Not Called
+### validate a method was not called
 ```cs
 var command = Substitute.For<ICommand>();
 var something = new SomethingThatNeedsACommand(command);
@@ -70,7 +70,7 @@ calculator.Add(1,3);
 calculator.DidNotReceiveWithAnyArgs().Subtract(default, default);
 ```
 
-### Validate a Method was Called with Specific Arguments
+### validate a method was called with specific arguments
 ```cs
 calculator.Add(1, 2);
 calculator.Add(-100, 100);
@@ -85,12 +85,12 @@ calculator.Received().Add(Arg.Is<int>(x => x < 0), 100);
 calculator.DidNotReceive().Add(Arg.Any<int>(), Arg.Is<int>(x => x >= 500));
 ```
 
-### Clear Previous Method calls
+### clear previous method calls
 ```cs
 command.ClearReceivedCalls();
 ```
 
-## To Properties
+## to properties
 ```cs
 calculator.Mode = "Test";
 
@@ -101,7 +101,7 @@ _ = calculator.Received().Mode; // OK
 calculator.Received().Mode = "Test 2"; // Fails
 ```
 
-## To Indexers
+## to indexers
 ```cs
 var dictionary = Substitute.For<IDictionary<string, int>>();
 dictionary["test"] = 1;
@@ -110,8 +110,8 @@ dictionary.Received()["test"] = 1;
 dictionary.Received()["test"] = Arg.Is<int>(x => x < 5);
 ```
 
-## Validating Event Subscriptions
+## validating event subscriptions
 See https://nsubstitute.github.io/help/received-calls/#checking-event-subscriptions
 
-## Validating Event Invocation
+## validating event invocation
 See https://nsubstitute.github.io/help/received-calls/#checking-event-invocation

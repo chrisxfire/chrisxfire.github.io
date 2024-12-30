@@ -22,7 +22,7 @@ Always inside a `<PropertyGroup>` tag:
 </PropertyGroup>
 ```
 
-## Conditionals
+## conditionals
 ```xml
 <SomeProperty Condition="condition">DefaultValue</SomeProperty>
 ```
@@ -39,10 +39,10 @@ An item type named Compile that includes two files:
     <Compile Include = "file2.cs"/>
 </ItemGroup>
 ```
-## Referencing Item Types
+## referencing item types
 Use `@(ItemType)`
 
-# Tasks
+# tasks
 Executable code that MSBuild projects use to perform build operations.
 - Can be re-used
 - Can be shared across projects

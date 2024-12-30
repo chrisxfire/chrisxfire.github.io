@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 *Observability* is the ability to monitor and analyze telemetry about the state of each component in a distributed system, to observe changes in performance, and to diagnose why those changes occur.
 - Intended to be transparent to the primary operation and have an insignificant performance impact so that it may be used continuously.
 - A combination of logs, metrics, and distributed tracing.
@@ -19,7 +19,7 @@ These notes focus on approach #1 above.
 
 Documentation: https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel
 
-# OpenTelemetry
+# opentelemetry
 A cross-platform, open standard for collecting and emitting telemetry data.  OTel is supported by a wide variety of APM systems including [Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/oss/grafana/), [Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview?tabs=net), and [many others](https://opentelemetry.io/ecosystem/vendors/).
 
 .NET's OTel implementation uses these platform APIs for instrumentation:
@@ -31,7 +31,7 @@ A cross-platform, open standard for collecting and emitting telemetry data.  OTe
 
 OTel collects telemetry from those APIs and other sources and exports them to an APM system for storage and analysis.
 
-## OpenTelemetry Packages
+## opentelemetry packages
 - `OpenTelemetry` — core API
 - `OpenTelemetry.Instrumentation.AspNetCore` — instrumentation for ASP.NET Core and Kestrel
 - `OpenTelemetry.Instrumentation.Http` — instrumentation for `HttpClient` and `HttpWebRequest`
@@ -39,7 +39,7 @@ OTel collects telemetry from those APIs and other sources and exports them to an
 - `OpenTelemetry.Exporter.Console` — exporter for the console
 - `OpenTelemetry.Exporter.Prometheus.AspNetCore` — exporter for Prometheus implemented using an ASP.NET Core endpoint
 
-# Example
+# example
 This example uses Prometheus for metrics collection, Grafana for a dashboard, and Jaeger for distributed tracing.
 
 1. Create a new simple web API project:
@@ -139,10 +139,10 @@ This example uses Prometheus for metrics collection, Grafana for a dashboard, an
     curl -k http://localhost:7275
     ```
 
-## Logging
+## logging
 By default, the Console provider is enabled.  Others can be added.
 
-## Accessing Metrics
+## accessing metrics
 Accessing `/metrics` will show output similar to this:
 ```powershell
 curl -k https://localhost:7275/
@@ -156,11 +156,11 @@ Hello World!
 curl -k https://localhost:7275/metrics
 ```
 ```
-# TYPE greetings_count counter
-# HELP greetings_count Counts the number of greetings
+# type greetings_count counter
+# help greetings_count counts the number of greetings
 greetings_count 1 1686894204856
 
-# TYPE current_connections gauge
+# type current_connections gauge
 # HELP current_connections Number of connections that are currently active on the server.
 current_connections{endpoint="127.0.0.1:7275"} 1 1686894204856
 current_connections{endpoint="[::1]:7275"} 0 1686894204856
@@ -168,7 +168,7 @@ current_connections{endpoint="[::1]:5212"} 1 1686894204856
 ...
 ```
 
-## Accessing Tracing
+## accessing tracing
 In the server's console, the console trace exporter's output is visible without output from two activities: one from the custom ActivitySource, and one from ASP.NET Core:
 ```
 Activity.TraceId:            2e00dd5e258d33fe691b965607b91d18
@@ -215,15 +215,15 @@ Resource associated with Activity:
     telemetry.sdk.version: 1.5.0
 ```
 
-## Collecting Metrics with Prometheus
+## collecting metrics with prometheus
 Prometheus is a metrics collection, aggregation, and time-series database system.  
 Follow [this documentation](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel#71-install-and-configure-prometheus) to install and configure Prometheus.
 
-## Creating a Dashboard with Grafana
+## creating a dashboard with grafana
 Grafana is a dashboard creation tool that can create dashboards and alerts from Prometheus and other data sources.  
 Follow [this documentation](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel#8-use-grafana-to-create-a-metrics-dashboard) to install and configure Grafana.
 
-## Distributed Tracing with Jaeger
+## distributed tracing with jaeger
 Jaeger is an open source tool to collect information on *activities* (units of work) and visualize this information.  
 Follow [this documentation](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/observability-with-otel#9-distributed-tracing-with-jaeger) to install and configure Jaeger.
 

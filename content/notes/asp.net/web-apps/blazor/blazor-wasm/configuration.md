@@ -5,21 +5,21 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Blazor WASM loads configuration from these files by default:
 - `wwwroot/appsettings.json`
 - `wwwroot/appsettings.{ENVIRONMENT}.json`
 
 To read configuration files other than these, use an `HttpClient.`
 
-# Important Notes
+# important notes
 - Configuration and settings files in Blazor WASM apps are visible to end users.
 - Do not use these configuration providers in Blazor WASM:
     - Azure Key Vault (the client secret cannot be secured client-side)
     - Azure App (Blazor WASM apps don't run on the server)
 - Logging configuration, even if in one of these files, is not loaded by default.
 
-# Using Configuration Data
+# using configuration data
 Inject an `IConfiguration` instance into a component:
 ```html
 @page "/configuration-example"
@@ -31,7 +31,7 @@ Inject an `IConfiguration` instance into a component:
 </h1>
 ```
 
-# Memory Configuration Source
+# memory configuration source
 In `Program.cs`:
 ```cs
 using Microsoft.Extensions.Configuration.Memory;
@@ -87,7 +87,7 @@ To get just the wheels section of this sample configuration:
 }
 ```
 
-# Authentication Configuration
+# authentication configuration
 Provide auth configuration like normal, for example in `wwwroot/appsettings.json`:
 ```json
 {
@@ -103,7 +103,7 @@ builder.Services.AddOidcAuthentication(options =>
     builder.Configuration.Bind("Local", options.ProviderOptions));
 ```
 
-# Logging Configuration
+# logging configuration
 First, add `Microsoft.Extensions.Logging.Configuration` to the app.  
 Then, in `Program.cs`:
 ```cs
@@ -111,13 +111,13 @@ builder.Logging.AddConfiguration(
     builder.Configuration.GetSection("Logging"));
 ```
 
-# Using Configuration in HostBuilder
+# using configuration in hostbuilder
 You can read configuration from `WebAssemblyHostBuilder.Configuration` in `Program.cs`:
 ```cs
 var hostname = builder.Configuration["HostName"];
 ```
 
-# Using Options Configuration
+# using options configuration
 First, add `Microsoft.Extensions.Options.ConfigurationExtensions` to the app.  
 Then, in `Program.cs`:
 ```cs

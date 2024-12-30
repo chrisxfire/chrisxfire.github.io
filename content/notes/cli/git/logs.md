@@ -7,7 +7,7 @@ tags:
  - kb/cli/git
 ---
 
-# Logs
+# logs
 `git log` – return commits made in this repository
 `git log vX.X..vY.Y | helper-script > changelogs/Y.Y`
 - generate changelogs

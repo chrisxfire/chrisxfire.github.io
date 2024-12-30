@@ -5,14 +5,14 @@ draft: false
 weight: 1
 ---
 
-# Serializing and Deserializing with JsonDocument
-## Parsing into a JsonDocument
+# serializing and deserializing with jsondocument
+## parsing into a jsondocument
 ```cs
 JsonDocument doc = JsonDocument.Parse(json); // MUST dispose.
 ```
 Once a `JsonDocument` is disposed, all instances of `JsonElement` are also lost.
 
-## JsonElement
+## jsonelement
 ```cs
 JsonElement root = doc.RootElement;
 
@@ -28,7 +28,7 @@ foreach (JsonElement prop in propertyElement.EnumerateArray())
     }
 }
 ```
-## Use JsonDocument to Write JSON
+## use jsondocument to write json
 ```cs
 using FileStream fs = File.Create(outputFile);
 using var writer = new Utf8JsonWriter(fs);

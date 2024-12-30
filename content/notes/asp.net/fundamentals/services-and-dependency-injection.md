@@ -34,19 +34,19 @@ builder.Services.AddControllersWithViews();
 WebApplication app = builder.Build();
 ```
 
-## Dependency Injection Chaining
+## dependency injection chaining
 This is common.  
 Each requested dependency in turn requests its own dependencies.  
 The DI container resolves the dependencies in a graph and returns the fully resolved service.  This is an object graph.  
 
-# Registering Groups of Services
+# registering groups of services
 In ASP.NET, this is done with an `AddGroup_Name` extension method:
 ```cs
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 ```
 
-# Service Lifetimes
+# service lifetimes
 ASP.NET Core uses the standard [.NET service lifetimes](../../../_net/dependency-injection/overview#service-lifetimes).
 
 To inject scoped services, either:
@@ -54,7 +54,7 @@ To inject scoped services, either:
     - <r>Do not use constructor injection</r> (this throws a runtime exception because it forces scoped services to behave like a singleton).
 - Use [Factory-based middleware](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/extensibility?view=aspnetcore-7.0).
 
-# Service Registration Methods
+# service registration methods
 ASP.NET Core uses standard [.NET service registration methods](../../../_net/dependency-injection/overview#service-registration-methods).
 
 Notes:
@@ -81,14 +81,14 @@ public class MyService
 }
 ```
 
-# Entity Framework Contexts
+# entity framework contexts
 By default, Entity Framework contexts are added to the service container using the scoped lifetime because web app database operations are normally scoped to the client request. To use a different lifetime, specify the lifetime by using an `AddDbContext` overload. Services of a given lifetime shouldn't use a database context with a lifetime that's shorter than the service's lifetime.
 
-## Requesting Services
+## requesting services
 Use `HttpContext.RequestServices` which will expose the scoped service provider.
 <o>Note:</o> Prefer requesting services via constructor parameters vs. this approach as the former results in classes that are either to test.
 
-# Disposal of Services
+# disposal of services
 <o><b>Note</b>: never dispose of services resolved from the DI container</o>. The container calls `Dispose` for the `IDisposable` services it creates.
 
 Here, `Service1`, `Service2`, and `Service3` are created by the DI container:

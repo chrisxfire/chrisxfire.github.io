@@ -94,7 +94,7 @@ Using stubs effectively requires application design such that each component dep
 </Fakes>
 ```
 
-## Stub Behavior
+## stub behavior
 Each generated stub type receives an `IStubBehavior` through the `IStub.InstanceBehavior` property. Whenever a client calls a member 
 with *no attached custom delegate*, this behavior is invoked. If no behavior has been set, it uses `StubBehaviors.Current` which throws
 a `NotImplementedException` by default.
@@ -112,8 +112,8 @@ To change the behavior globally for all stubs where behavior has not been set, u
 StubBehaviors.Current = BehavedBehaviors.DefaultValue;
 ```
 
-# Stubbing Different Members
-## Stubs of Methods
+# stubbing different members
+## stubs of methods
 Consider this interface with a method:
 ```cs
 // IStockFeed.cs
@@ -142,7 +142,7 @@ var componentUnderTest = new StockAnalyzer(
 
 If a stub for a method is not provided, Fakes generates a method that returns the default value of the return type. 
 
-## Stubs of Generic Methods
+## stubs of generic methods
 Stub generic methods by providing a delegate for each desired instantiation:
 ```cs
 interface IGenericMethod
@@ -163,7 +163,7 @@ public void TestGetValue()
 }
 ```
 
-## Stubs of Properties
+## stubs of properties
 A property's getter and setter are exposed as separate delegates and can be stubbed individually:
 ```cs
 interface IStockFeedWithProperty
@@ -182,7 +182,7 @@ stub.ValueSet = (value) => i = value;
 If a stub for either the getter or setter of a property is not provided, Fakes generates a stub that stores values (making
 the stub property behave like a simple variable).
 
-## Stubs of Events
+## stubs of events
 Events are exposed as delegate fields. Any stubbed event can be raised by invoking the event's backing field:
 ```cs
 interface IStockFeedWithEvents
@@ -196,7 +196,7 @@ var withEvents = new StubIStockFeedWithEvents();
 withEvents.ChangedEvent(withEvents, EventArgs.Empty); // raises the Changed event
 ```
 
-## Stubs of Virtual Classes
+## stubs of virtual classes
 Stubs can be generated from classes that have abstract or virtual members:
 ```cs
 // Base class in application under test

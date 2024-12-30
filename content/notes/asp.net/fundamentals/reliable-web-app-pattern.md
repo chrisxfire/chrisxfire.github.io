@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 A set of guidelines to help migrate a web app to the cloud.
 
 https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/reliable-web-app/_net/pattern-overview

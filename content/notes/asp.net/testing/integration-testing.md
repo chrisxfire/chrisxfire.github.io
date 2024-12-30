@@ -30,10 +30,10 @@ In ASP.NET integration tests:
   * *Act* — The client submits the request and receives a response.
   * *Assert* — The actual response is compared to the expected response.
 
-## Razor Pages App Tests vs MVC App Tests
+## razor pages app tests vs mvc app tests
 Tests of these two apps are the same — the only thing that differs is how the tests are named.
 
-# Example 
+# example 
 > Sample code: https://github.com/dotnet/AspNetCore.Docs.Samples/tree/main/test/integration-tests/IntegrationTestsSample
 
 This example uses xUnit.
@@ -70,12 +70,12 @@ public class BasicTests : IClassFixture<WebApplicationFactory<Program>>
 }
 ```
 
-# Antiforgery Checks
+# antiforgery checks
 There are two approaches for antiforgery checks:
 1. Lower level approach: use Application Parts to inject a controller or Razor Page into the app to make JSON requests for the required values. See [this blog post](https://blog.martincostello.com/integration-testing-antiforgery-with-application-parts/) for details.
 2. High level approach: use the [AngleSharp](https://anglesharp.github.io/) parser to conduct antiforgery checks and parsing the HTML. 
 
-# WebApplicationFactory
+# webapplicationfactory
 For tests with the default `WebApplicationFactory`, expose the implicit `Program` class by updating the SUT's project file:
 ```xml
 <ItemGroup>
@@ -83,7 +83,7 @@ For tests with the default `WebApplicationFactory`, expose the implicit `Program
 </ItemGroup>
 ```
 
-## Customizing WebApplicationFactory
+## customizing webapplicationfactory
 Web host configuration can also be created independently of the test classes by 
 1. Inheriting `WebApplicationFactory` and overriding `ConfigureWebHost`:
     ```cs
@@ -163,7 +163,7 @@ Web host configuration can also be created independently of the test classes by
     }
     ```
 
-# Other Topics
+# other topics
 ## [Customizing the Client with WithWebHostBuilder](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-7.0#customize-the-client-with-withwebhostbuilder)
 
 ## [Using WebApplicationFactoryClientOptions](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-7.0#client-options)

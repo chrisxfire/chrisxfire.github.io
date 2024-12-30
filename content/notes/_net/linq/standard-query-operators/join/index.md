@@ -12,12 +12,12 @@ A join operation is the association of objects in one data source with objects t
 
 Join operations target data sources whose relationships to each other cannot be followed directly.
 
-# Join Type
+# join type
 In LINQ, `Join` implements an *inner join*.  
 `GroupJoin` has no direct equivalent in relational database terms.  
 It implements a superset of *inner joins* and *outer joins.*  
 
-# Methods
+# methods
 | Method      | Description                                                                                           | Query expression                 |
 | ----------- | ----------------------------------------------------------------------------------------------------- | -------------------------------- |
 | `Join`      | Join two sequences based on key-selector functions and extract pairs of values.                       | join … in … on … equals …        |
@@ -57,7 +57,7 @@ IEnumerable<IEnumerable<Student>> studentGroups =
             student.DepartmentID, (department, studentGroup) => studentGroup);
 ```
 
-# Inner joins
+# inner joins
 Assuming collections A and B, an *inner join* results in a set in which each element in A appears one time for every matching element in B.  
 If an element in A has no match in B, it does not appear in the result. Inner joins are implemented via the `Join` method. There are four
 types of such joins:
@@ -66,7 +66,7 @@ types of such joins:
 3. Multiple join
 4. Inner join using grouped join
 
-## Single key join
+## single key join
 Compare elements based on a single property. Match `Teacher` objects with `Department` objects whose `TeacherId` matches that `Teacher`:
 ```cs
 var query = from department in departments
@@ -86,17 +86,17 @@ var query = teachers.Join(departments, teacher =>
             new { DepartmentName = department.Name, TeacherName = $"{teacher.First} {teacher.Last}" });
 ```
 
-## Composite key join
+## composite key join
 See https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/join-operations#composite-key-join.
 
-## Multiple join
+## multiple join
 See https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/join-operations#multiple-join.
 
-## Inner join using a group join
+## inner join using a group join
 See https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/join-operations#inner-join-by-using-grouped-join.
 
-# Group joins
+# group joins
 See https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/join-operations#perform-grouped-joins.
 
-# Left outer joins
+# left outer joins
 See https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/join-operations#perform-left-outer-joins.

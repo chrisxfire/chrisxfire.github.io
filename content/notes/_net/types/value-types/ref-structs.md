@@ -14,7 +14,7 @@ Restrictions:
 - A `ref` struct variable cannot be captured via lambda expression or local function
 - A `ref` struct variable cannot be used in an async method (but can be used in a synchronous method that return `Task/Task<T>`)
 
-## Disposable
+## disposable
 A ref struct can be made disposable: create an instance or extension Dispose method that is accessible, parameterless, and returns void.
 
 ## `ref` Fields

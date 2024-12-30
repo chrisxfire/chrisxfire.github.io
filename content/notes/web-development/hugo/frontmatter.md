@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Frontmatter (or *front matter*) is metadata for a page.
 
-# Predefined Frontmatter
+# predefined frontmatter
 These predefined variables can be called from *Page Variables*.  This list is incomplete:
 - `aliases` — an array of aliases that are published paths of renamed content that will be recreated in the output directory structure (see also: [Aliases](https://gohugo.io/content-management/urls/#aliases))
 - `date` — the datetime assigned to this page

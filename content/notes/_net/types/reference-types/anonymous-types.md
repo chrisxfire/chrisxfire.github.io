@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Anonymous Types
+# anonymous types
 Anonymous types are used to encapsulate a set of read-only properties into an object without having to define a type:
 ```cs
 var v = new 
@@ -16,7 +16,7 @@ var v = new
 ```
 When a variable is initialized with an anonymous type, it must be declared as var to access the properties of the object at a later point.
 
-# Usage
+# usage
 Anonymous types are commonly used with properties from another type:
 ```cs
 var productQuery =

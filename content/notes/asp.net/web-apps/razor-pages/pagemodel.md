@@ -5,14 +5,14 @@ draft: false
 weight: 1
 ---
 
-# PageModel
+# pagemodel
 Razor Pages use a C# class called `PageModel` to: 
 - define data properties and associated operations for that model's Razor page
 - define page handlers (like `OnGet`) for requests sent to that page
 
 `PageModel` supports keeping all page-specifc logic and properties in their own namespace & directory.
 
-## A Page with a PageModel
+## a page with a pagemodel
 `Pages/Index2.cshtml`
 ```html
 @page
@@ -46,11 +46,11 @@ namespace RazorPagesIntro.Pages
 }
 ```
 
-# Page Handlers
+# page handlers
 Page handlers are invoked automatically when a request is received.  They separate logic from presentation.  
 Page handlers are defined in the `PageModel` class file of the associated Razor page.
 
-## Example
+## example
 ```cs
 public Order? Order { get; set; }
 
@@ -62,7 +62,7 @@ public IActionResult OnGet() // Async version also exists
 }
 ```
 
-## Example 2
+## example 2
 ```cs
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -82,7 +82,7 @@ public class PizzaModel : PageModel
 }
 ```
 
-# Model Binding and Validation
+# model binding and validation
 You can bind the model to the `PageModel` using the `BindProperty` attribute:
 ```cs
 [BindProperty]
@@ -99,7 +99,7 @@ if (!ModelState.IsValid)
 }
 ```
 
-# Complete Model
+# complete model
 ```cs
 public class PizzaModel: PageModel
 {

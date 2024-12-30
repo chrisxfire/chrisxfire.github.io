@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Blocking
+# blocking
 A blocking activity causes the thread (entire application) to hang.  
 Potentially blocking activities:  web access, database access, working with files, working with images, WCF.
 
@@ -15,7 +15,7 @@ Potentially blocking activities:  web access, database access, working with file
 - Threads – execute code, statement by statement.
 	- By default, each process has only one thread.
 
-## Preemptive Multitasking
+## preemptive multitasking
 Simulates parallel execution of tasks.
 - Divides processor time among threads into time slices.
 - The current thread is suspended when switched to another.

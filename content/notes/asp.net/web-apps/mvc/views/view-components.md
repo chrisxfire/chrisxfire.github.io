@@ -7,7 +7,7 @@ weight: 1
 
 From Pluralsight/ASP.NET Core 6 Fundamentals
 
-# Overview
+# overview
 View components are view content that does require code to execute in order to render.
 - They only display partial content.  They consist of a class and a view (much like a Controller and a View).
 - They have their own code that executes to render content.
@@ -15,7 +15,7 @@ View components are view content that does require code to execute in order to r
 - They have a "code part" placed in `/Components/ViewComponentName.cs`
 - They have a "view part" placed in `/Shared/Components/ViewComponentName/Default.cshtml`
 
-# Creating a View Component
+# creating a view component
 Three approaches:
 1. A class that derives from `ViewComponent`
 2. A class decorated with the `[ViewComponent]` attribute
@@ -33,7 +33,7 @@ public class ShoppingCartSummary : ViewComponent
     }
 }
 ```
-# Using a View Component
+# using a view component
 Via Component's InvokeAsync method:
 ```cs
 @await Component.InvokeAsync("ShoppingCartSummary");

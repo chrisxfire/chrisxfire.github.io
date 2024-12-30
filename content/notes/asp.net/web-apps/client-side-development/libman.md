@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Library Manager (LibMan) is included in Visual Studio. LibMan allows you to add external libraries such as Bootstrap.  
 
 
-# How
-## Via Visual Studio
+# how
+## via visual studio
 Right-click project > **Add** > **Client-Side Library…**
 
 ## Via [LibMan CLI](https://learn.microsoft.com/en-us/aspnet/core/client-side/libman/libman-cli?view=aspnetcore-7.0)
@@ -31,5 +31,5 @@ Right-click project > **Add** > **Client-Side Library…**
     --provider <cdnjs|filesystem|jsdeliver|unkpg>
    ```
 
-# Bootstrap
+# bootstrap
 Add to `/wwwroot/lib/bootstrap`

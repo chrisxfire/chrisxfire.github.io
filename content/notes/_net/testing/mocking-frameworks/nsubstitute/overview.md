@@ -11,7 +11,7 @@ NSubstitute is a mocking framework for .NET. It abstracts the difference between
 
 NSubstitute requires interfaces. On a limited basis, it can work with virtual members of a concrete class, but any non-virtual code will actually execute.
 
-# Installation
+# installation
 ```powershell
 dotnet add package NSubstitute
 dotnet add package NSubstitute.Analyzers.CSharp # optional
@@ -22,7 +22,7 @@ In test project:
 using NSubstitute;
 ```
 
-# Usage
+# usage
 Assuming this interface:
 ```cs
 public interface ICalculator
@@ -33,18 +33,18 @@ public interface ICalculator
 }
 ```
 
-## Arrange
+## arrange
 ```cs
 var calculator = Substitute.For<ICalculator>();
 calculator.Mode = "DEC";
 ```
 
-## Act
+## act
 ```cs
 calculator.Add(1, 2);
 ```
 
-## Assert
+## assert
 ```cs
 // Assert that calculator received the correct input:
 calculator.Received().Add(1, 2); 

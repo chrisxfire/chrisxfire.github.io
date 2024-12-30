@@ -5,18 +5,18 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 The standard query operators are extension methods of `IEnumerable<T>` or `IQueryable<T>`. They are the static methods of the `Enumerable` and `Queryable` classes.
 
-# Manner of Execution
+# manner of execution
 Standard Query Operator methods can execute in *immediate* or *deferred* manner.  
 If deferred, in *streaming* or *non-streaming* forms.
 
-## Deferred Queries
+## deferred queries
 A deferred query fetches the updated data from the data source each time query results are iterated.
 A deferred query can be forced to execute immediately with `Enumerable.ToList` or `Enumerable.ToArray`.
 
-# Query Operators with Equivalent Query Expression Clauses
+# query operators with equivalent query expression clauses
 
 | Method       | Query expression                 | Notes                                       |
 | ------------ | -------------------------------- | ------------------------------------------- |

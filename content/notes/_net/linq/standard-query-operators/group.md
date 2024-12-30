@@ -10,7 +10,7 @@ tags:
 # [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/grouping-data)
 A group operation puts data into groups such that the elements in each group share a common attribute.
 
-# Methods
+# methods
 | Method     | Description                                                                                                           | Query expression |
 | ---------- | --------------------------------------------------------------------------------------------------------------------- | ---------------- |
 | `GroupBy`  | Groups elements that share a common attribute. Groups are represented by an `IGrouping<TKey,TElement>`.               | group … by       |
@@ -50,7 +50,7 @@ foreach (var group in query)
 }
 ```
 
-# More examples
+# more examples
 Data can be grouped by:
 1. A single property
 2. The first letter of a string property

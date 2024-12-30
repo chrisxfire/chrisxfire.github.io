@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Component Parameters
+# component parameters
 Parameters allow Components to pass data from one another.  The `[Parameter]` attribute on a public auto property (no get/set logic) of a receiving Component defines it as a parameter:  
 `PanelBody.cs`
 ```cs

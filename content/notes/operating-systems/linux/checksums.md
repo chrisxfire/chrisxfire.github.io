@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Use checksums to verify file integrity by reading their SHA hash digest.
 
-# Use
+# use
 ```bash
 shasum [OPTIONS] FILE # reads SHA-1 sum for FILE
 ```

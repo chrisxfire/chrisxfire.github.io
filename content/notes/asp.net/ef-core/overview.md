@@ -7,7 +7,7 @@ weight: -1
   
 *From Microsoft Learn / Entity Framework / Entity Framework Core*
 
-# Abstract
+# abstract
 Entity Framework (EF) Core is a data access technology that can serve as an object-relational mapper (OR/M).  It supports various *database providers*.
 
 Data access is performed using a *model* that includes *entity* classes and a *context* object that represents a session with a database.
@@ -15,12 +15,12 @@ Data access is performed using a *model* that includes *entity* classes and a *c
 An *entity* is a database.  
 An *entity set* is a table in the database.
 
-## Model development approaches
+## model development approaches
 1. Generate a model from an existing database  
 2. Hand code a model to match a database  
 3. Use EF Migrations to create a database from a model  
 
-# Installing
+# installing
 ## Install EF Core w/SQL Server Database Provider
 ```powershell
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
@@ -32,19 +32,19 @@ dotnet tool install --global dotnet-ef
 dotnet add package Microsoft.EntityFrameworkCore.Design
 ```
 
-## Install Package Manager Console tools
+## install package manager console tools
 ```powershell
 dotnet add package Microsoft.EntityFrameworkCore.Tools
 ```
 
-# Performing Migrations
+# performing migrations
 ## via .NET Core CLI
 ```powershell
 dotnet-ef migrations add InitialCreate
 dotnet-ef database update
 ```
 
-## via Package Manager Console
+## via package manager console
 ```powershell
 Add-Migration InitialCreate
 Update-Database
@@ -56,10 +56,10 @@ This creates:
     - `Up` method — creates the database tables
     - `Down` method — drops the tables
 
-### Confirm the database exists  
+### confirm the database exists  
 Visual Studio > **View** > **SQL Server Object Explorer**
 
-# Database Providers
+# database providers
 | Database System | Package |
 | ----------------| --------|
 | SQL Server & SQL Azure | `Microsoft.EntityFrameworkCore.SqlServer ` |

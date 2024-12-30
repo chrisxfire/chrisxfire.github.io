@@ -5,17 +5,17 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 *Control* — a UI element that displays content or enables interaction.
 
 [Alphabetical Index of Controls](https://learn.microsoft.com/en-us/windows/apps/design/controls/#alphabetical-index)
 
-## 3 Steps to Using Controls
+## 3 steps to using controls
 1.  Add a control to the UI
 2.  Set properties on the control
 3.  Add code to the control's event handlers
 
-# Add a Control
+# add a control
 Use Blend for Visual Studio or Visual Studio XAML Designer or add the control via code.
 - Note: controls added via code are not visible in XAML Designer.
 
@@ -38,7 +38,7 @@ Or in code:
 Button1.Foreground = new SolidColorBrush(Windows.UI.Colors.Beige);
 ```
 
-# Create an Event Handler
+# create an event handler
 Select the control and then click the Events tab at the top of the Properties window:  
 ![](./Controls-image2.png)
 

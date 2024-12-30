@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Regardless of the hosting model chosen, the way Razor components are built is the same.  The same Razor components can be used with any of the hosting models, unchanged.
 
-# Blazor Server
+# blazor server
 Hosts Razor components on the server in an ASP.NET Core app.
 - UI updates are handled via a SignalR connection using WebSockets protocol
 - The state on the server with each associated client is called a circuit
@@ -43,7 +43,7 @@ Cons:
 
 ![](./blazor-server-model.png)
 
-# Blazor WASM
+# blazor wasm
 A SPA framework for interactive, client-side web apps.
 - Blazor WASM works by:
   - Compiling C# code files and Razor files into assemblies
@@ -54,10 +54,10 @@ A SPA framework for interactive, client-side web apps.
 - UI updates and event handling occur in the same process
 - The client runs blazor.webassembly.js script to download the runtime, the app, and its dependencies, and to initialize the runtime
 
-## Standalone Blazor WASM app
+## standalone blazor wasm app
 A Blazor WASM app is an app that is embedded in a website. It can be deployed without a backend ASP.NET Core App to serve its files. In this scenario, it might be deployed via CDN instead of on a website (HTML, Drupal, etc).
 
-## Hosted Blazor WASM app
+## hosted blazor wasm app
 Includes an ASP.NET Core backend.
 
 Blazor WASM supports AOT (.NET code compiled directly into WASM).  This results in faster runtime performance but larger app size.
@@ -76,7 +76,7 @@ Cons:
 
 ![](./blazor-wasm-model.png)
 
-# Blazor Hybrid
+# blazor hybrid
 - Runs as a native app on the client
 - Razor components run in the native app (not WASM) and render web UI based on HTML/CSS to an embedded Web View control through a local interop channel
 - No WASM
@@ -91,7 +91,7 @@ Cons:
 - Separate native clients must be built, deployed, and maintained fore ach target platform
 - Native client apps usually take longer to find, download, and install vs. access an app in the browser
 
-# Comparison Table
+# comparison table
 | Consideration | Server | WASM | Hybrid |
 |---------------|--------|------|--------|
 Full .NET API compatibility | Yes | No (subset) | Yes

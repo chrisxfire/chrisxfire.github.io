@@ -7,10 +7,10 @@ tags:
  - kb/cli/git
 ---
 
-# Merging Branches
+# merging branches
 `git merge <branch>` merge branch into the current branch
 
-# Managing Merge Conflicts
+# managing merge conflicts
 - View conflicts with git status.  
 - After resolving conflicts, run git add on each file to stage it, which marks it resolved in git.  
 - Use git mergetool for a GUI tool to resolve merge conflicts.  

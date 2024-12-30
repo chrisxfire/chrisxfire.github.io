@@ -8,7 +8,7 @@ weight: 1
 # Child Components via `ChildContent`
 Components can set the content of another Component.
 
-## Creating
+## creating
 Define a `ChildContent` component parameter of type `RenderFragment`:  
 `Shared/SomeChild.razor`
 ```html
@@ -36,8 +36,8 @@ The Component that uses the child component provides the content that it renders
 </SomeChild>
 ```
 
-## Considerations
-### Event Callbacks
+## considerations
+### event callbacks
 Event callbacks are not supported in `RenderFragment`.
 
 ### Child components and `for` loops
@@ -91,16 +91,16 @@ When this Component is used, the content of the Component (the value between the
 </ProfilePicture>
 ```
 
-## Limitations
+## limitations
 * The property receiving the `RenderFragment` content **must** be named `ChildContent`.
 * Event callbacks are not supported with `RenderFragment`.
 
-# Templated Components
+# templated components
 Components that receive one or more UI templates as parameters.  These parameters can be used as rendering logic in the Component.  This allows you to create higher-level components that can be reused, like:
  * A table component that allows users to specify templates for the table's headers, rows and footer.
  * A list component that allows users to specify a template for rendering items in a list.
 
-## Creating
+## creating
 Create a templated component by specifying one or more parameters of type `RenderFragment` or `RenderFragment<TValue>`.  Templated components are often generically typed.  
 
 A `TableTemplate` component is created:  

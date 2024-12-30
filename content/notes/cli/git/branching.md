@@ -7,7 +7,7 @@ tags:
  - kb/cli/git
 ---
 
-# Managing Branches
+# managing branches
 - `git branch BRANCH` – create a new branch named branch (but don't switch to it) 
   - `HEAD` will still point to the current branch  
 - `git branch` – return current branches  
@@ -21,13 +21,13 @@ tags:
   - `-v` – return current branches and last commit on each branch  
   - `-vv` – return current branches, last commit, tracking, and position of current branch  
 
-# Switching Branches
+# switching branches
 Switching branches changes files in your working directory to match your last commit on this branch.
 
 - `git switch [--create] BRANCH` – switch to BRANCH; optionally create it first  
 - `git switch` – switch to previous branch  
 
-# Remote Branches
+# remote branches
 - `git push --set-upstream REMOTE BRANCH` – push BRANCH to REMOTE
 - `git push REMOTE --delete BRANCH` – delete BRANCH from REMOTE
 - `git push REMOTE LOCAL-BRANCH:<remote branch>` – push LOCAL-BRANCH to REMOTE

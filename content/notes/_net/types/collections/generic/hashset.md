@@ -13,11 +13,11 @@ Namespace
 Inheritance 
 `Object` -> `HashSet<T>`
 
-# Construction
+# construction
 ```cs
 var hs = new HashSet<type>();
 ```
-# Methods
+# methods
 ```cs
 .Add(elem) // Add elem to the set. Returns boolean if element was not already in the set.
 .Contains(elem) // Return Boolean if elem is in the hashset.

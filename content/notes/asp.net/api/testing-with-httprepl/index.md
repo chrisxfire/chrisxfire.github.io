@@ -5,18 +5,18 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - HttpRepl (Read-Eval-Print-Loop) is a command line tool used to make HTTP requests to test web APIs and view their results.
 - It can test web APIs hosted anywhere, including localhost and Azure App Service.
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/http-repl/?view=aspnetcore-7.0&tabs=windows
 
-# Installation
+# installation
 ```powershell
 dotnet tool install -g Microsoft.dotnet-httprepl
 ```
 
-# Usage
-## Connecting to a web API
+# usage
+## connecting to a web api
 ```powershell
 httprepl ROOT_URI [--verbose]
 ```
@@ -36,13 +36,13 @@ The above commands attempt to find the OpenAPI description automatically.  If it
 > connect ROOT_URI --openapi OPENAPI_DESCRIPTION_ADDRESS # like /swagger/v1/swagger.json
 ```
 
-## Navigating a web API
+## navigating a web api
 - View endpoints: `ls`
 - Navigate to an endpoint: `cd ENDPOINT`
 - Open Swagger UI page: `ui`
 
-## Making HTTP Requests
-### Configuring Requests
+## making http requests
+### configuring requests
 Headers can be set before sending requests:
 ```powershell
 > set header HEADER-NAME HEADER-VALUE
@@ -50,7 +50,7 @@ Headers can be set before sending requests:
 
 To unset a header, provide an empty `HEADER-VALUE`.
 
-### GET requests
+### get requests
 Send a GET request once you are in an endpoint:  
 ```powershell
 > get PARAMETER [OPTIONS]
@@ -62,7 +62,7 @@ Options:
 - Set the file where HTTP response headers are written: `--response:headers "C:\response.txt"`
 - Stream the HTTP response: `--streaming`  
 
-### POST requests
+### post requests
 Send a POST request:
 ```powershell
 > post PARAMETER [OPTIONS] 
@@ -74,60 +74,60 @@ POST requests have the same options as GET requests, and also:
 - Indicate that no HTTP request body is needed: `--no-body`
 - <o>Note</o>: if none of the above 3 options are passed, HttpRepl opens the text editor for you to manually input the request body
 
-### PUT requests
+### put requests
 ```powershell
 > put PARAMETER [OPTIONS]
 ```
 
 Options for PUT match those of POST.
 
-### DELETE requests
+### delete requests
 ```powershell
 > delete PARAMETER [OPTIONS]
 ```
 
 Options for DELETE match those of GET.
 
-### PATCH requests
+### patch requests
 ```powershell
 > patch PARAMETER [OPTIONS]
 ```
 
 Options for PATCH match those of POST.
 
-### HEAD requests
+### head requests
 ```powershell
 > head PARAMETER [OPTIONS]
 ```
 
 Options for HEAD match those of GET.
 
-### OPTIONS requests
+### options requests
 ```powershell
 > options PARAMETER [OPTIONS]
 ```
 
 Options for OPTIONS match those of GET.
 
-## Configuring HttpRepl
+## configuring httprepl
 Once modified, preferences are stored in `%USERPROFILE%\.httpreplprefs`  
 - View settings: `pref get`
 
-### Configuring Output
+### configuring output
 - Set colors: `pref set colors.KEY=COLOR`
 - Set indent space sizing: `pref set formatting.json.indentSize 4`
 - Toggle request display (default=disabled): `echo on|off`
 
-### Configuring Text Editor
+### configuring text editor
 - Set default text editor: `pref set editor.command.default "C:\Program Files\Microsoft VS Code\code.exe"`
 - Set command line arguments to launch text editor with: `pref set editor.command.default.arguments "--ARGUMENT-1 --ARGUMENT-2"`
 
-### Configuring OpenAPI Description Search Paths
+### configuring openapi description search paths
 - Set search paths: `pref set swagger.searchPaths "swagger/v2/swagger.json|swagger/v3/swagger.json"`
 - Add one or more paths: `pref set swagger.addToSearchPaths "openapi/v2/openapi.json|openapi/v3/openapi.json"`
 - Remove one or more paths: `pref set swagger.removeFromSearchPaths "swagger.json|/swagger.json"`
 
-### Configuration for Secured Endpoints
+### configuration for secured endpoints
 For default credentials (credentials of the user running the tool flow across to the endpoints being tested):
 ```powershell
 > pref set httpClient.useDefaultCredentials true
@@ -142,7 +142,7 @@ For default proxy credentials (credentials of the user running the tool flow to 
 httprepl
 ```
 
-### Scripts
+### scripts
 Sets of HttpRepl commands can be stored in text files and run as a script:
 `SomeScript.txt`
 ```
@@ -158,14 +158,14 @@ Run the script:
 > run C:\SomeScript.txt
 ```
 
-### Configuring Visual Studio to Run HttpRepl on F5
+### configuring visual studio to run httprepl on f5
 ![Start debugging menu dropdown](image.png)  
 ![Browse with dialog](image-1.png)  
 
 Select HttpRepl after adding it:  
 ![Start debugging menu dropdown](image-2.png)
 
-### Configuring Visual Studio Code to Run HttpRepl on Debug
+### configuring visual studio code to run httprepl on debug
 Create a launch configuration:
 ```json
 "version": "0.2.0",
@@ -214,5 +214,5 @@ Create a launch configuration:
     }
 ```
 
-# Telemetry
+# telemetry
 HttpRepl collects telemetry. Set `DOTNET_HTTPREPL_TELEMETRY_OPTOUT` to `1` or `true` to opt out.

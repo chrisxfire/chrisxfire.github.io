@@ -1033,6 +1033,6 @@ Raymundo Sanchez Tico, Mauricio Corona.
 
 John Edmonds, Allan Thomson, Michael Macgregor, Dinara Adyrbai, Roman Jouravlev, Erika Flora.
 
-### References
+### references
 
 1.  [https://agilemanifesto.org/](https://agilemanifesto.org/) \[Accessed 30<sup>th</sup> April 2020\]

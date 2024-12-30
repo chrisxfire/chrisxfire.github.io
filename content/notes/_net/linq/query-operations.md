@@ -15,7 +15,7 @@ For the following examples, consider a collection of this type:
 public record Student(string First, string Last, int ID, int[] Scores);
 ```
 
-# Filtering
+# filtering
 The `where` clause is used to filter:
 
 ```cs
@@ -53,7 +53,7 @@ IEnumerable<Student> studentQuery =
     select student;
 ```
 
-# Grouping
+# grouping
 A query with a `group` clause produces a sequence of groups.  
 Each group contains a `Key` and a sequence that contains all members of that group.
 

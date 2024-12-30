@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Methods
+# methods
 Methods are functions that belong 
 to a type that execute statements.  
 They are actions that an object can perform, either on itself or on related objects.  
@@ -17,7 +17,7 @@ There are 4 specialized categories of methods:
 3. Indexer Statements herein execute when data is set or get or array syntax `[]` is used.
 4. Operator Statements herein execute when you use an operator like `+` or `/` on operands of a type.
 
-# Defining
+# defining
 Here, param3 is an optional parameter because it has a default value:
 ```cs
 access-level-modifiers other-modifiers return-type method-name(param1, param2, …) 
@@ -27,7 +27,7 @@ access-level-modifiers other-modifiers return-type method-name(param1, param2, �
     return result;
 }
 ```
-## Declaring Optional Parameters
+## declaring optional parameters
 Parameters can be made optional in method definitions by assigning them a default value.  
 Optional parameters must be last in the signature:  
 ```cs
@@ -45,7 +45,7 @@ Methods are either instance (actions an object does to itself) or static (action
 - The `this` keyword references the current instance of a class.
 - Implementing both instance and static methods to perform the same function gives other developers options on how to use your code.
 
-## Example
+## example
 ```cs
 public static Person Procreate(Person p1, Person p2) 
 { // A static method.
@@ -59,7 +59,7 @@ public Person ProcreateWith(Person partner)
 }
 ```
 
-## Invoking Instance Methods
+## invoking instance methods
 Instantiate an object, then call the method on that object:
 ```cs
 var x = new class();
@@ -72,7 +72,7 @@ Static methods are called directly on types:
 type-name.method(arg1, arg2, …)
 ```
 
-## Invoking Method with Named Arguments
+## invoking method with named arguments
 Assuming a method defined like this:
 ```cs
 public void PrintOrderDetails(int orderNum, string productName, string sellerName) 
@@ -90,7 +90,7 @@ However, if named and positional arguments are mixed, they <u>must</u> be in the
 PrintOrderDetails(orderNum: 11, "Red Mug", "Gift Shop");
 ```
 
-## Invoking Method with Optional Arguments
+## invoking method with optional arguments
 If an argument is provided for any one in a series of optional parameters, an argument must be provided for all preceding optional parameters. Given:
 ```cs
 public void ExampleMethod(int someNum, string someStr = "default string", int optInt = 10);
@@ -103,8 +103,8 @@ If the name of the 3rd parameter is known, this can be accomplished:
 ExampleMethod(3, optInt: 9);
 ```
 
-# Returning
-## Returning Multiple Values
+# returning
+## returning multiple values
 A method can use tuples to return multiple values:
 ```cs
 public (type1, type2, type3) method-name(param1, param2, …)
@@ -116,7 +116,7 @@ public (type1: name1, type2: name2, type3: name3) method-name(param1, param2, �
 }
 ```
 
-## Returning Immediately
+## returning immediately
 If a method just has a single statement or returns the result of a single expression, use `=>`:
 ```cs
 public Point Move(int dx, int dy) => New Point(x + dx, y + dy);
@@ -126,7 +126,7 @@ public void Print() => Console.WriteLine("…");
 public string Name => First + " " + Last;
 ```
 
-# Parameters
+# parameters
 Parameters pass values or references to methods.  
 By default, value types and reference types are passed by value.  
 
@@ -185,7 +185,7 @@ static void Change(ref int[] pArray)
 Console.WriteLine(pArray[0]); // output: 2
 ```
 
-## Passing an Arbitrary Number of Parameters
+## passing an arbitrary number of parameters
 Use the `params` keyword to specify that the last argument is a parameter array:
 ```cs
 string GetVowels(params string[] input) 
@@ -200,7 +200,7 @@ Valid calls on the above method signature:
 - Pass null: `result = GetVowels(null);`
 - Pass nothing: `result = GetVowels();`
 
-## Swapping Value Types
+## swapping value types
 ```cs
 static void SwapByRef(ref int x, ref int y) 
 {
@@ -210,7 +210,7 @@ static void SwapByRef(ref int x, ref int y)
 }
 ```
 
-# Reference Parameter Modifiers for Passing Values by Reference
+# reference parameter modifiers for passing values by reference
 By default, value types are passed by value. These modifiers specify that a variable is passed by reference.  
 Any operation on the parameter is made on the argument that was passed in.  
 These modifiers are not part of the message signature and so do not apply to overloading if they are the only difference in the signature.  
@@ -316,7 +316,7 @@ b // returns 21 because y is a reference to b
 c // returns 100 because z is a reference to c
 ```
 
-# Returning Values by Reference
+# returning values by reference
 By default, the value is returned by value.  
 Values can be returned by reference with the `ref` keyword both in the method signature and the return statement:
 ```cs
@@ -326,7 +326,7 @@ public ref int SomeMethod()
 }
 ```
 
-## Consuming a Ref Return Value
+## consuming a ref return value
 The ref return value is an alias to another variable in the called method's scope.   
 
 This value can be consumed like any other:
@@ -342,7 +342,7 @@ ref int myValue = ref SomeMethod();
 - Here, `myValue` is now a reference to the value returned by `SomeMethod()`.
 - Changing `myValue` will change the value of the variable returned by `SomeMethod()`.
 
-# Method Overloading
+# method overloading
 Permits multiple methods in the same class to have the same name as long as they have a different signature:
 ```cs
 class F 

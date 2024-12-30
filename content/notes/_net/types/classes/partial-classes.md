@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Partial Classes
+# partial classes
 The partial keyword indicates that other parts of the class, struct, or interface can be defined in the namespace.
 
-# Rules
+# rules
 1.  All the parts must use the partial keyword.
 2.  If any part is declared `abstract`, then the whole type is considered `abstract`.
 3.  If any part is declared `sealed`, then the whole type is considered `sealed`.

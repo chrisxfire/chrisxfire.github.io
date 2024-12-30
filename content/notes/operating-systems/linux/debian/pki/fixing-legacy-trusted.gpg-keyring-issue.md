@@ -5,14 +5,14 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 This warning means that a key is stored in `/etc/apt/trusted.gpg` which is a deprecated keyring:  
 
 ```
 W: https://example.com/repo: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
 ```
 
-# Fixing
+# fixing
 1. Find the offending key:
     ```bash
     sudo apt-key list | grep -i <keyword> --before --after 3

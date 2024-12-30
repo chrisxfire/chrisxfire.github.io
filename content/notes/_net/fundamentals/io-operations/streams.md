@@ -17,7 +17,7 @@ Streams involve three fundamental operations:
 Depending on a stream's underlying data source, a stream may only support some subset of these operations. 
 This can be tested with `CanRead`, `CanWrite`, and `CanSeek` properties.
 
-# Overview of Types for Streams
+# overview of types for streams
 See [here](../overview#overview-of-types-for-streams).
 
 # Composing Streams [[Documentation](https://docs.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-6.0)]   [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/io/composing-streams)]  
@@ -60,10 +60,10 @@ public class CompBuf
 }
 ```
 
-# Bit Bucket
+# bit bucket
 A stream with no backing store.  To create this, use the `Null` field to retrieve an instance of a stream.
 
-# Readers and Writers
+# readers and writers
 The `System.IO` namespace contains types for reading encoded characters from and writing to streams. 
 These types handle conversion of encoded characters to and from bytes. Each reader and writer class is associated 
 with a stream accessible via its `BaseStream` property.
@@ -75,8 +75,8 @@ with a stream accessible via its `BaseStream` property.
 | `StringReader` and `StringWriter` | Reading and writing characters to/from strings                                                    |
 | `TextReader` and `TextWriter`     | The abstract base class for other readers and writers of text data (but not binary data)          |
 
-# Stream Helpers
-## StreamReader 
+# stream helpers
+## streamreader 
 A `TextReader` that reads characters (not bytes) from a stream in a particular encoding (like UTF-8).
 - Implements `IDisposable`.
 - <r>Warning</r>: Not thread safe. See `TextReader.Synchronized`.
@@ -87,7 +87,7 @@ tw.WriteLine("*some text*");
 tw.Close(); // Close the file and release resources.
 ```
 
-## StreamWriter
+## streamwriter
 A `TextWriter` that writes characters (not bytes) from a stream in a particular encoding (like UTF-8).  
 - Implements `IDisposable`.
 - <r>Warning</r>: Not thread safe. See `TextWriter.Synchronized`.
@@ -98,7 +98,7 @@ WriteLine(tr.ReadToEnd());
 tr.Close();
 ```
 
-# Writing to XML Streams
+# writing to xml streams
 Use `WriteStartElement` and `WriteEndElement` when an element may have child elements.  
 Use `WriteElementString` when an element does not have children.
 
@@ -140,7 +140,7 @@ Output:
 </callsigns>
 ```
 
-# Reading from XML Streams
+# reading from xml streams
 ```cs
 using (XmlReader reader = XmlReader.Create(xmlFilestream))
 {
@@ -156,7 +156,7 @@ using (XmlReader reader = XmlReader.Create(xmlFilestream))
 }
 ```
 
-# Compressing Streams
+# compressing streams
 ```cs
 using System.IO.Compression; // BrotliStream, GZipStream, CompressionMode 
 // Performance-wise, Brotli is like GZip/Deflate but 20% denser.

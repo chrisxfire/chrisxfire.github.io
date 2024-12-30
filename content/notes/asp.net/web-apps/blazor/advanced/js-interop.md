@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - .NET can invoke JavaScript and vice-versa.  
 - `IJSRuntime` is automatically registered as a service by the Blazor framework.
 - Documentation: 
@@ -14,10 +14,10 @@ weight: 1
 
 <r>Warning</r>: JavaScript code must only be executed **after** the Component is fully rendered.  Invoke JavaScript from the `OnAfterRenderAsync` method.
 
-## Prerendering
+## prerendering
 Invoking JavaScript <o>is not possible during prerendering.</o>
 
-# JavaScript Locations
+# javascript locations
 ## In `<body>` markup
 Place the JavaScript inside the closing `</body>` element of `wwwroot/index.html` (Blazor WASM) or `Pages/_Host.cshtml` (Blazor Server): 
 ```html
@@ -34,7 +34,7 @@ Place the JavaScript inside the closing `</body>` element of `wwwroot/index.html
 </body>
 ```
 
-## From a JavaScript File
+## from a javascript file
 Place the JavaScript `src` reference inside the closing `</body>` element of `wwwroot/index.html` (Blazor WASM) or `Pages/_Host.cshtml` (Blazor Server): 
 
 ```html
@@ -81,7 +81,7 @@ export function showPrompt(message) {
 ## Injecting a Script Before/After Blazor Starts
 See [JavaScript initializers](https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?view=aspnetcore-7.0#javascript-initializers).
 
-## JavaScript Isolation
+## javascript isolation
 See [JavaScript isolation in JavaScript modules](https://learn.microsoft.com/en-us/aspnet/core/blazor/javascript-interoperability/call-javascript-from-dotnet?view=aspnetcore-7.0#javascript-isolation-in-javascript-modules).
 
 # Invoking JavaScript from .NET
@@ -115,26 +115,26 @@ protected async override Task OnAfterRenderAsync(bool firstRender)
 }
 ``` 
 
-## InvokeAsync vs InvokeVoidAsync
+## invokeasync vs invokevoidasync
 Use `InvokeVoidAsync` when .NET is not required to read the result of a JavaScript call, or the JavaScript function being called returns `void` or `undefined`.
 
-# JavaScript Interop Call Timeouts
+# javascript interop call timeouts
 By default, Blazor Server apps use a timeout of 60 seconds for interop calls.
 
-## Change the Global Timeout
+## change the global timeout
 `Program.cs`
 ```cs
 builder.Services.AddServerSideBlazor(
     options => options.JSInteropDefaultCallTimeout = TimeSpan.FromSeconds(30));
 ```
 
-## Change the Timeout per Call
+## change the timeout per call
 ```cs
 // {ID} is the placeholder for the identifier of the JavaScript function to invoke:
 var result = await JS.InvokeAsync<string>("{ID}", TimeSpan.FromSeconds(30), new[] { "Arg1" });
 ```
 
-# Catch JavaScript Exceptions
+# catch javascript exceptions
 Wrap the interop call in a try/catch block and catch `JSException`:
 ```cs
 try
@@ -147,7 +147,7 @@ catch (JSException e)
 }
 ```
 
-# Render UI with JavaScript
+# render ui with javascript
 See [JavaScript Libraries that render UI](https://learn.microsoft.com/en-us/aspnet/core/blazor/javascript-interoperability/call-javascript-from-dotnet?view=aspnetcore-7.0#javascript-libraries-that-render-ui).
 
 # Abort Long-Running JavaScript

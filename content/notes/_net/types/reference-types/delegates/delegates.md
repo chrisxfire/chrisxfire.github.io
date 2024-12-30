@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Delegates
+# delegates
 Delegates represent references to *methods* with the same signature as the *delegate*.  
 - Note: Unlike in overloading, for delegates, a method must have the same return type as the delegate.  
 They provide another way (instead of the dot operator) to call a method.  
@@ -14,12 +14,12 @@ They support chaining (multiple methods can be called on a single event).
 Delegates have built-in support for async operations that run on a different thread.  
 Delegates can also encapsulate a named or anonymous method.  
 
-# Uses
+# uses
 - Passing methods as arguments to other methods.
 - Defining *callback* methods.
 - Events.
 
-# Creating Delegates
+# creating delegates
 ```cs
 // Declare a delegate:
 public delegate void Del(string str);
@@ -36,7 +36,7 @@ Del del1 = new Del(notify);
 Del del2 = Notify;
 ```
 
-## Example
+## example
 ```cs
 public delegate `int` Del(`int n1, int n2`); // Create a delegate.
 
@@ -58,7 +58,7 @@ public class SomeClass
 }
 ```
 
-## Anonymous Delegates
+## anonymous delegates
 Anonymous delegates allow you to create a delegate inline without having to define it elsewhere:
 ```cs
 Del del3 = delegate(string name) 
@@ -77,7 +77,7 @@ List<int> result = list.FindAll(
 );
 ```
 
-## Lambda Expressions
+## lambda expressions
 Lambda Expressions are just a convenient syntax for using delegates. They have a parameter list and method body but no formal identity:
 ```cs
 Del del4 = name => 
@@ -91,7 +91,7 @@ List<int> list = new() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 List<int> result = list.FindAll(x => x % 2 == 0);
 ```
 
-# Callbacks
+# callbacks
 Because instantiated delegates are objects, they can be passed as arguments to some method. The receiving method can then call the delegate sometime later. This is known as a *callback*.
 
 ```cs
@@ -105,7 +105,7 @@ public static void CallbackMethod(int p1, int p1, Del callback)
 int result = CallbackMethod(5, 4, `d`);
 ```
 
-# Multicasting
+# multicasting
 Multicasting is a delegate calling more than one method when invoked.
 
 ## Adding Methods to a Delegate's Invocation List
@@ -141,7 +141,7 @@ Use the `-` operator:
 multiDel -= d3; // dWithAllMethods now only has M1 and M2 in its invocation list.
 ```
 
-# Delegates with Named Methods
+# delegates with named methods
 ```cs
 // Declare a delegate:
 public delegate void Del(int i, int j);
@@ -166,7 +166,7 @@ public class MathClass
 }
 ```
 
-# Comprehensive Example
+# comprehensive example
 ```cs
 namespace Bookstore;
 
@@ -208,7 +208,7 @@ public class BookDB
 }
 ```
 
-# Delegates as Events
+# delegates as events
 There are two pre-defined *delegates* to use as *events*:
 ```cs
 public delegate void EventHandler(object? sender, EventArgs e);

@@ -7,11 +7,11 @@ tags:
  - kb/cli/git
 ---
 
-# Overview
+# overview
 Common patterns when using git.
 
-# Repositories
-## Initializing a Repository
+# repositories
+## initializing a repository
 1.  Go to the project's directory
 2.  `git init`
 3.  Go to GitHub and create repository
@@ -21,7 +21,7 @@ Common patterns when using git.
     1.  `git pull <name> main` – Only needed if anything was added to GitHub repository directly (like README).
 7.  `git push --set-upstream <name> main`
 
-## Renaming repositories
+## renaming repositories
 1.  `git mv <old> <new>`
 2.  `git commit`
 3.  `git push`
@@ -31,17 +31,17 @@ Common patterns when using git.
 7.  GitHub > <old> repository > Settings > Rename
 8.  `Rename local directory`
 
-## Cleaning a Remote Repository
+## cleaning a remote repository
 `git remote prune origin`
 
-# Branches
-## Common Branching Workflow
-### Create a new branch and do some work
+# branches
+## common branching workflow
+### create a new branch and do some work
 1.  `git switch --create hotfix` – Create and switch to branch hotfix
 2.  `git push --set-upstream <remote> hotfix` – Create hotfix branch on remote
 3.  Do work as normal.
 
-### Merge the new branch back into main
+### merge the new branch back into main
 1.  `git switch -` or `git switch main` – Switch to branch main
 2.  `git merge hotfix` – Merge branch hotfix into main
 3.  `git branch --delete hotfix` – Delete branch hotfix locally
@@ -56,5 +56,5 @@ Common patterns when using git.
 4.  `git branch -u origin/main main`
 5.  GitHub > Branches > master > Delete this branch.
 
-## Delete a Remote Branch
+## delete a remote branch
 `git push -d origin <branch-name>`

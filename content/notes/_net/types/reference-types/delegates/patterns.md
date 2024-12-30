@@ -6,7 +6,7 @@ weight: 1
 ---
 Delegates support minimal coupling between components.
 
-# Example with LINQ Where Method
+# example with linq where method
 The `Where` method uses a delegate that determines which elements of a sequence pass the filter:
 ```cs
 // Numbers where, for each number n, n is less than 10:
@@ -22,8 +22,8 @@ Loose coupling is achieved because:
 - There is no need to implement an interface
 - There is no need to derive from a base class
 
-# Example by Building a Logger
-## Delegate
+# example by building a logger
+## delegate
 
 ```cs
 public static class Logger 
@@ -43,7 +43,7 @@ public static class Logger
 }
 ```
 
-## Implementation
+## implementation
 ```cs
 // This method could be static or instance.
 public static class LoggingMethods 
@@ -54,7 +54,7 @@ public static class LoggingMethods
 // Attach LogToConsole to the WriteMessage delegate:
 Logger.WriteMessage += LoggingMethods.LogToConsole;
 
-## Another Implementation
+## another implementation
 public class FileLogger 
 {
     private readonly string logPath;

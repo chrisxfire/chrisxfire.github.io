@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 > [!IMPORTANT]
 > Availability: .NET 7
 
@@ -15,7 +15,7 @@ weight: 1
 - `[JsonDerivedType]` — indicates that the specified subtype should be opted into polymorphic serialization
 - `[JsonPolymorphic]` — indicates that the type should be serialized polymorphically
 
-# Serializing Properties of a Derived Class
+# serializing properties of a derived class
 Consider this base class...
 ```cs {hl_lines=1}
 [JsonDerivedType(typeof(WeatherForecastWithCity))]
@@ -55,7 +55,7 @@ The `City` property is serialized because the `weatherForecastBase` object is ac
 }
 ```
 
-# Deserializing Properties of a Derived Class
+# deserializing properties of a derived class
 To enable polymorphic deserialization, a  type discriminator must be specified for the derived class:
 ```cs {hl_lines=[1,2]}
 [JsonDerivedType(typeof(WeatherForecastBase), typeDiscriminator: "base")]
@@ -96,7 +96,7 @@ Output:
 }
 ```
 
-# JsonPolymorphic
+# jsonpolymorphic
 The `[JsonPolymorphic]` attribute customizes the type discriminator's name.  The default name is `$type`:
 ```cs
 [JsonPolymorphic(TypeDiscriminatorPropertyName = "$discriminator")]

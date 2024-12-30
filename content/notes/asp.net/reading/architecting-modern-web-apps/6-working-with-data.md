@@ -8,8 +8,8 @@ weight: 1
 # EF Core vs. Micro-ORM (Dapper)
 EF Core abstracts SQL from the developer, but also has more overhead due to translating LINQ expressions to SQL and change tracking on entities.  Dapper is more lightweight and focuses on performance.
 
-## Comparison
-### EF Core  
+## comparison
+### ef core  
 &nbsp;    
 ```cs
 private readonly CatalogContext _context;
@@ -19,7 +19,7 @@ public async Task<IEnumerable<CatalogType>> GetCatalogTypes()
 }
 ```
 &nbsp;  
-### Dapper  
+### dapper  
 &nbsp;    
 ```cs
 private readonly SqlConnection _conn;
@@ -29,11 +29,11 @@ public async Task<IEnumerable<CatalogType>> GetCatalogTypesWithDapper()
 }
 ```
 &nbsp;  
-# SQL vs NoSQL
+# sql vs nosql
 Relational databases (like SQL) map objects to tables and rows.  
 NoSQL databases (like MongoDB or Azure Cosmos DB) serialize an object graph and store the result.  
 
-## NoSQL
+## nosql
 - Benefits:  
 	- Simplicity
 	- Performance
@@ -44,7 +44,7 @@ NoSQL databases (like MongoDB or Azure Cosmos DB) serialize an object graph and 
 # Entity Framework (for relational databases)  
 An object-relational mapper to persist objects to and from a data source.
 
-## DbContext
+## dbcontext
 This class contains properties representing collections of entities your application will work with.  
 Its constructor must accept a DbContextOptions<T> and pass this to the base constructor.  Example from eShopOnWeb:  
 &nbsp;    
@@ -61,7 +61,7 @@ public class CatalogContext : DbContext
 }
 ```  
 &nbsp;  
-## Configuring  
+## configuring  
 Add `CatalogContext` to the DI container and configure it to use a SQL Server database with a connection string defined in Configuration:  
 &nbsp;    
 ```cs
@@ -77,7 +77,7 @@ builder.Services.AddDbContext<CatalogContext>(options =>
     options.UseInMemoryDatabase());
 ```
 &nbsp;  
-## CRUD Operations on Data
+## crud operations on data
 To retrieve data, access the appropriate property and use LINQ to filter the result:  
 &nbsp;  
 ```cs
@@ -113,7 +113,7 @@ _context.CatalogBrands.Remove(brandToDelete);
 await _context.SaveChangesAsync();
 ```
 &nbsp;  
-## Fetching Related Data
+## fetching related data
 When EF Core retrieves an entity, it populates the properties that are stored with that entity in the database.  However, navigation properties, such as lists of related entities, are not populated and may be set to null.  To include these properties, use eager loading, which is done with the Include extension method on the query:  
 &nbsp;    
 ```cs
@@ -142,7 +142,7 @@ query = specification.IncludeStrings.Aggregate(query,
 &nbsp;  
 Aside from eager loading, two other approaches are explicit loading and lazy loading.  Both should be avoided in web apps.  See https://ardalis.com/avoid-lazy-loading-entities-in-asp-net-applications.
 
-## Encapsulating Data
+## encapsulating data
 Domain models often expose collection navigation properties as publicly accessible list types.  This allows collaborators to manipulate the collection's contents.  To solve, expose read-only access to related collections and explicitly provide methods defining ways for clients to manipulate them:  
 &nbsp;    
 ```cs
@@ -195,20 +195,20 @@ Consider that the `ShipToAddress` property is of type `Address.`  `Address` is a
 
 # [Execution strategies and explicit transactions using BeginTransaction and multiple DbContexts](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/work-with-data-in-asp-net-core-apps#execution-strategies-and-explicit-transactions-using-begintransaction-and-multiple-dbcontexts)
 
-# Other Persistence Options
+# other persistence options
 4 Types of Azure Storage  
 &emsp;1. Blob Storage — for unstructured text or binary data (object storage)  
 &emsp;2. Table Storage — for structured datasets accessible via row keys  
 &emsp;3. Queue Storage — for reliable queue-based messaging  
 &emsp;4. File Storage — for shared file access between Azure VMs and on-prem apps  
 
-# Caching
+# caching
 Caching is storing a copy of data on the server (or another more easily-queried data store).
 ASP.NET Core supports response caching (caching entire pages) and data caching (more granular caching behavior).
 Avoid implementing caching logic in your data access logic or your user interface (separation of concerns).  Encapsulate caching in its own classes and use configuration to manage its behavior.
 
-## Response Caching
-### First level of response caching
+## response caching
+### first level of response caching
 Adds HTTP headers that instruct clients and proxy servers to cache responses, but does not cache anything on the server itself.
 Add the ResponseCache attribute to individual controllers or actions:  
 &nbsp;  
@@ -221,7 +221,7 @@ public IActionResult Contact()
 }
 ```
 
-### Second level of response caching
+### second level of response caching
 Cache responses on the server.  
 Reference `Microsoft.AspNetCore.ResponseCaching` and add the Response Caching middleware:  
 &nbsp; 
@@ -238,7 +238,7 @@ This will automatically cache responses based on a set of conditions.
 &nbsp;  
 More information:  https://learn.microsoft.com/en-us/aspnet/core/performance/caching/middleware#conditions-for-caching  
 &nbsp;  
-## Data Caching
+## data caching
 You can cache the results of individual data queries.  Use either in-memory caching or a distributed cache.
 
 Reference `Microsoft.Extensions.Caching.Memory` and add support for in-memory caching:  
@@ -257,7 +257,7 @@ public class SomeClass {
 }
 ```
 &nbsp;  
-## Avoiding Stale Caches
+## avoiding stale caches
 When data has changed at the source but an out-of-date version remains in the cache, the cache is stale.  
 This is avoided by:  
 1. Using small cache durations (like 60 seconds)
@@ -275,6 +275,6 @@ _cache.Set(cacheKey, itemToCache, new CancellationChangeToken(cts.Token));
 _cache.Get<CancellationTokenSource>("cts").Cancel();
 ```
 &nbsp;  
-#   Getting Data to Blazor WASM Apps
+#   getting data to blazor wasm apps
 This is generally done through web API endpoints.  See the BlazorAdmin project in eShopOnWeb.
 

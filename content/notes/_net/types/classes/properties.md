@@ -12,7 +12,7 @@ Properties are methods that act like Fields that allow for getting and setting i
 - Unlike fields, they are implemented with get/set accessors that define the statements executed when the property is accessed or assigned.
 - Properties cannot be passed as `ref` or `out` parameters.
 
-# Creating
+# creating
 Properties with `get` accessors only are read-only. Properties with both `get` and `set` are read-write.
 Write-only properties are rare and generally used to restrict access to sensitive data.
 
@@ -53,7 +53,7 @@ public class Person
 }
 ```
 
-# Validation
+# validation
 Validation is one of the key uses of properties:
 ```cs
 public class Person 
@@ -82,7 +82,7 @@ public string FirstName { get; init; }
 // Legal: Person p = new Person() { FirstName = "Jane" };
 ```
 
-# Computed Properties
+# computed properties
 Properties can return computed values. They must be constructed carefully:
 ```cs
 public class Person 
@@ -124,7 +124,7 @@ public class Person
 }
 ```
 
-# Using Properties
+# using properties
 ```cs
 MyList<string> names = new MyList<string>();
 names.Capacity = 100; // Invokes set accessor
@@ -132,7 +132,7 @@ int i = names.Count; // Invokes get accessor
 int j = names.Capacity; // Invokes get accessor
 ```
 
-# Property Modifiers
+# property modifiers
 When a property is modified, so are its accessors.  
 Properties can be static or instance.  
 Properties can be modified with `public`, `private`, `protected`, `internal`, `protected internal`, or `private protected`.  
@@ -144,7 +144,7 @@ Other modifiers:
 derived classes.
 - `abstract` — See below.
 
-## Required modifier
+## required modifier
 > [!IMPORTANT]
 > Availability: C# 11  
 
@@ -167,8 +167,8 @@ Considerations:
 - `init` — property can only be set during instantiation; supports object-initializer syntax.
 - `required` — property must be set when an object of the type is created.
 
-# Attributes
-## Required Members
+# attributes
+## required members
 This attribute notifies the compiler that this constructor sets all required members.  
 <r>Warning</r>: This disables the compiler's checks that all `required` members are initialized.
 
@@ -185,14 +185,14 @@ public class Person
 }
 ```
 
-## Field Specifiers
+## field specifiers
 A field specifier indicates that the attribute applies to the backing field of an auto-implemented property:
 ```cs
 [field:NonSerialized]
 public int Id { get; set; }
 ```
 
-# Accessor Access Modifiers
+# accessor access modifiers
 Accessors can have access modifiers…
 - …but only if the property has both *get* and *set* accessors…
 - …and only one of the two can have an access modifier.
@@ -204,7 +204,7 @@ Use the `private` modifier so that an accessor can only be used by methods in th
 public string Firstname { get; private set; } // Firstname can only be changed by other methods in the class.
 ```
 
-# Abstract Properties
+# abstract properties
 An abstract property does not provide an implementation of its accessors. This is done by the derived classes:
 ```cs
 public abstract class Shape 
@@ -241,7 +241,7 @@ public class Square : Shape
 }
 ```
 
-# Properties in Interfaces
+# properties in interfaces
 Interface properties do not have a body.
 - Declaring the accessors without a body does not declare an auto property like it does in classes and structs.
 - Interface properties cannot have accessor access modifiers.

@@ -10,7 +10,7 @@ weight: 1
 
 xUnit unit tests are created with `dotnet new xunit -o TestProjectName`.
 
-# xUnit Attributes
+# xunit attributes
 ## `Fact`
 Used to declare a test method that is run by the test runner:
 ```cs
@@ -62,7 +62,7 @@ public class PrimeService_IsPrimeShould
 
 See [here](https://github.com/dotnet/samples/blob/main/core/getting-started/unit-testing-using-dotnet-test/PrimeService.Tests/PrimeService_IsPrimeShould.cs) for a complete code sample.
 
-# Unit Testing with XUnit and Moq
+# unit testing with xunit and moq
 1. `dotnet new XUnit`
 2. `dotnet add project moq` (in XUnit project)
 3. In XUnit project, add project reference to code project

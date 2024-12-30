@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Add a SelectedCustomer Property
+# add a selectedcustomer property
 ![](./XAML_MVVM-Pattern_Add-a-Property-image1.png)
 
 This is the current state. The `Text` property of the `TextBox` is bound to the `SelectedItem` property of the `ListView` so that the `FirstName` of the selected customer displays in the `TextBox`.  

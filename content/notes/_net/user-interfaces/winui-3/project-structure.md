@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# App Class
+# app class
 - The `App` class is the app's entry point
 - Defined in `App.xaml` and `App.xaml.cs`
 - Derives from `Microsoft.UI.Xaml.Application`
@@ -51,7 +51,7 @@ public partial class App : Application
 }
 ```
 
-# MainWindow Class
+# mainwindow class
 - `MainWindow` class is the main window of the application
 - Defined in MainWindow.xaml and MainWindow.xaml.cs
 - Constructor calls its own `InitializeComponent` method to parse MainWindow.xaml into a graph of UI objects

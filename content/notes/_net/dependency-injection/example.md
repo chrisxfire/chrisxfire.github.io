@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Dependency Injection with Generic Host & Default HostBuilder
-## Example With a Hosted Service
+## example with a hosted service
 ```cs
 public class Program 
 {

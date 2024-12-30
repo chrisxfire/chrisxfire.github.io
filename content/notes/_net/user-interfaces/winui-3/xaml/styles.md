@@ -5,13 +5,13 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Styles allow you to apply the same property values to multiple elements in XAML.
 
-# Benefits of Styles
+# benefits of styles
 Styles allow you to apply common style property values to multiple controls without having to define them on each control individually.
 
-# Creating Styles
+# creating styles
 Styles can be created in the Resources property of the parent element of the elements being styled:
 
 `MainWindow.xaml`
@@ -40,7 +40,7 @@ Visibility="{x:Bind ViewModel.IsCustomerSelected, Mode=OneWay}">
 <!-- ... -->
 ```
 
-# Inherit a Style from Another Style
+# inherit a style from another style
 `MainWindow.xaml`
 ```xml
 <StackPanel.Resources>
@@ -57,7 +57,7 @@ Visibility="{x:Bind ViewModel.IsCustomerSelected, Mode=OneWay}">
 </StackPanel.Resources>
 ```
 
-# Explicit and Implicit Styles
+# explicit and implicit styles
 Explicit styles are referenced via the StaticResource markup extension.
 
 `MainWindow.xaml`
@@ -117,7 +117,7 @@ Explicit styles are referenced via the StaticResource markup extension.
 <!-- ... -->
 ```
 
-# Styling Controls
+# styling controls
 - `CornerRadius` — rounds the corners of the control
 - `Padding` — 
 - `PlaceholderForground` — color of the PlaceholderText

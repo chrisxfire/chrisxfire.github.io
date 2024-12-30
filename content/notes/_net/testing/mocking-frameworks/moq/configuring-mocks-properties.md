@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 > Credit: https://hamidmosalla.com/2017/08/03/moq-working-with-setupget-verifyget-setupset-verifyset-setupproperty/
 
 Examples in these notes use this system:
@@ -46,7 +46,7 @@ var mock = new Mock<IPropertyManager>();
 var sut = new PropertyManagerConsumer(mock.Object);
 ```
 
-## Property Chains
+## property chains
 Also known as *recursive mocks*:
 ```cs
 var mock = new Mock<HttpContextBase>();
@@ -82,7 +82,7 @@ sut.ChangeName("John");
 mock.VerifySet(m => m.FirstName = "John");
 ```
 
-## Verify Some Method of the SUT Passes the Correct Argument
+## verify some method of the sut passes the correct argument
 ```cs
 sut.ChangeRemoteName("Jack");
 

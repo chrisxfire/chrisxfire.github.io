@@ -7,7 +7,7 @@ tags:
  - kb/dotnet/linq/clauses
 ---
 
-# Into keyword
+# into keyword
 The `into` keyword is used in a `select` or `group` clause to create a temporary identifier that stores a query.  
 Use this when you must perform additional query operations on a query after a grouping or select operation:
 

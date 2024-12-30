@@ -7,23 +7,23 @@ weight: 1
 
 Complex web apps achieve separation of concerns by separating page content (HTML), layout and styling (CSS), and behavior (JavaScript).
 
-# HTML
+# html
 HTML elements represent formatted text, images, form inputs, and other structures.
 
-# CSS
+# css
 CSS controls the look and layout of HTML elements.
 CSS styles can be applied to:  
 ![](./css-hierarchy.png)
 
-## CSS preprocessors
+## css preprocessors
 CSS stylesheets do not support conditional logic, variables, or other programming language features.  
 CSS preprocessors (like Sass (Ruby-based) and LESS (JavaScript-based)) add this support.  
 A plain CSS file is valid Sass or LESS.
 
-# JavaScript
+# javascript
 Can be defined as attributes within HTML elements, blocks of script within a page, or in separate files.
 
-## jQuery
+## jquery
 Working with JavaScript generally requires:
 1. Selecting an HTML element and reading/writing its value
 2. Querying a Web API for data
@@ -33,7 +33,7 @@ Working with JavaScript generally requires:
 jQuery and other libraries simplify this process.  
 jQuery works at the DOM level and only has an imperative model (ie: an event handler with code that inspect a textbox's value and sets the visibility of the target element based on that value).  Data binding (which is declarative) generally achieves these tasks with less code.
 
-## Angular SPAs
+## angular spas
 Angular 2 is built with TypeScript.  Offers a full MVC pattern implementation.
 
 Angular applications are built with Components:
@@ -50,7 +50,7 @@ export class AppComponent { name = 'Angular'; } // The name of the component
 
 eShopOnContainers includes an Angular SPA implementation; Angular is used to manage the store's shopping basket, load and display items from its catalog, and handle order creation.
 
-## React
+## react
 Only concerned with Views. Not a framework—just a library.  
 Uses a virtual DOM (advantages:  performance (virtual DOM optimizes which parts of actual DOM need to be updated), testability (no need to have a browser)).  
 Adds HTML directly within its JavaScript code as JSX:
@@ -63,10 +63,10 @@ Adds HTML directly within its JavaScript code as JSX:
 </ul>
 ```
 
-## Vue
+## vue
 A progressive framework for building user interfaces.  Core library focuses on View layer only.
 
-# Blazor WASM
+# blazor wasm
 A SPA framework for building interactive client-side web apps with .NET.  
 Uses open web standards, not plugins or recompiling code to other languages.
 

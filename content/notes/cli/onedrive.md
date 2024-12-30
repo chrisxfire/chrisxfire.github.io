@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# Resetting OneDrive
+# resetting onedrive
 Two options - try them in this order:
-## Option 1
+## option 1
 1. <kbd>Win</kbd> > **Run** > `wsreset.exe`
    * Close the Microsoft Store window.
-## Option 2
+## option 2
 1. <kbd>Win</kbd> > **Run** > `%localappdata%\Microsoft\OneDrive\onedrive.exe /reset`
 
 If the above fails, try:

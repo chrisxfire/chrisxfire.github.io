@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 TODO: Define AI
 
 Branches of AI:
@@ -25,7 +25,7 @@ Branches of AI:
   - Deep Learning
 - Natural Language Processing — enable machine understanding of written and spoken language.
 
-# Overview
+# overview
 This mindmap provides a high level overview of AI topics.
 
 ![](../ai.svg)

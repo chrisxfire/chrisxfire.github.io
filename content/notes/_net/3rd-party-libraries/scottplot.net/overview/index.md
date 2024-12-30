@@ -5,16 +5,16 @@ draft: false
 weight: -1
 ---
 
-# ScottPlot
+# scottplot
 ScottPlot is a plotting library for .NET.
 - Documentation: https://scottplot.net/cookbook/4.1/category/quickstart/#scatter-plot
 
-# Versions
+# versions
 There are two major versions of ScottPlot:
 - 4.1 — stable
 - 5.0 — beta
 
-# Creating Plots
+# creating plots
 A `ScottPlot.Plot` can hold one or more *Plottables*:
 ```cs
 using ScottPlot;
@@ -23,10 +23,10 @@ using ScottPlot;
 var plot = new Plot(350, 350);
 ```
 
-# Scatter Plots
+# scatter plots
 Documentation: https://scottplot.net/cookbook/4.1/#scatter-plot
 
-## Simple
+## simple
 ```cs
 // sample data
 double[] xs = DataGen.Consecutive(51);
@@ -38,7 +38,7 @@ plot.AddScatter(xs, sin);
 plot.AddScatter(xs, cos);
 ```
 
-## Advanced
+## advanced
 Manually create a scatter plot `Plottable`:
 ```cs
 // data
@@ -56,7 +56,7 @@ plot.Add(scatterPlot);
 ```
 ![A manually-created scatter plot](./image.png)
 
-## Plotting DataTime Data
+## plotting datatime data
 1. Use `DateTime.ToOADate()` to convert a `DateTime[]` to a `double[]`:
     ```cs
     DateTime[] myDates = new DateTime[100];
@@ -74,11 +74,11 @@ plot.Add(scatterPlot);
     ```
 ![A scatter plot with DateTimes on the X axis](./image-4.png)
 
-# Customizing 
-## Axis Customization
+# customizing 
+## axis customization
 Documentation: https://scottplot.net/cookbook/4.1/category/axis-and-ticks/#axis-customizations
 
-### Axis Labels
+### axis labels
 ```cs
 plot.Title("Some Title");
 
@@ -98,7 +98,7 @@ plot.XAxis.Color(Color.Green);
 plot.YAxis.Label("Vertical Axis", Color.Magenta, size: 24, fontName: "Comic Sans MS");
 ```
 
-### Axis Limits
+### axis limits
 ```cs
 // -X, +X, -Y, +Y:
 plot.SetAxisLimits(-20, 80, -2, 2);
@@ -110,7 +110,7 @@ plot.XAxis.SetBoundary(-20, 80);
 plot.YAxis.SetBoundary(-2,2)
 ```
 
-## Grid Customization
+## grid customization
 Remove the grid:
 ```cs
 plot.Grid(false)
@@ -123,7 +123,7 @@ plot.XAxis.Grid(false)
 ```
 ![A plot with only a horizontal grid](./image-3.png)
 
-## Legends
+## legends
 Documentation: https://scottplot.net/cookbook/4.1/#legend  
 
 For plottables that support them, add a legend:
@@ -132,7 +132,7 @@ plot.Legend();
 ```
 ![A plot with two scatter plot plottables and a legend](./image-1.png)
 
-# Managing Plottables
+# managing plottables
 Add a plottable:
 ```cs
 plot.Add(somePlot);
@@ -148,7 +148,7 @@ Clear all plottables:
 plot.Clear();
 ```
 
-# Saving Plots
+# saving plots
 ```cs
 plot.SaveFig("SomePlot.png");
 ```

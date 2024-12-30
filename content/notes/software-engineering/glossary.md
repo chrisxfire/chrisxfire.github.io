@@ -5,22 +5,22 @@ draft: false
 weight: 1
 ---
 
-# Abstract
+# abstract
 Terms defined here are not defined elsewhere in these notes.
 
-# Agile
+# agile
 An iterative approach to project management and software development that helps teams deliver value to their customers quickly.
 It involves breaking the project down into phases and emphasizes continuous collaboration and improvement. 
 
 Agile was encoded in the Agile Manifesto which defines four values and 12 principles for agile software development.
 
-## 4 Values
+## 4 values
 1. Individuals and interactions over processes and tools
 2. Working software over comprehensive documentation
 3. Customer collaboration over contract negotiation
 4. Responding to change over following a plan
 
-## 12 Principles
+## 12 principles
 1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
 3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
@@ -51,7 +51,7 @@ Consists of:
    3. Feedback from *continuous monitoring*
 3. Continuous Operations — or "continuous uptime" — such as that achieved with a blue/green deployment strategy
 
-# DevOps
+# devops
 A set of practices, tools, and cultural philosophy that automate and integrate the processes between software development and
 IT operations.
 
@@ -61,7 +61,7 @@ Implementing DevOps involves:
 * Using a DevOps toolchain.
 * Using the DevOps Lifecycle.
 
-## DevOps Lifecycle
+## devops lifecycle
 1. Discover — research and define the scope of the project.
 2. Plan
 3. Build
@@ -81,7 +81,7 @@ Implementing DevOps involves:
 non-functional, the software still performs its primary functions even if these requirements are not met.
 * Examples: capacity; data integrity; flexibility; maintainability; performance; portability; reliability; scalability; security
 
-# SDLC
+# sdlc
 System Development Lifecycle (SDLC) — A process to plan, create, test, and deploy an information system. A description of the phases of the lifecycle of a system.  
 
 Phases:

@@ -11,7 +11,7 @@ weight: 1
 - An array's length (the number of elements it has) and its dimensions are set when the array instance is created and cannot be changed.
 - Arrays implement IList and IEnumerable. Single-dimensional arrays also implement IList<T> and IEnumerable<T>.
 
-# Declaring
+# declaring
 Declare a single-dimensional array of 5 integers:
 ```cs
 int[1] a1 = new int[5];
@@ -21,14 +21,14 @@ int[] a2;
 a2 = new int[] { 1, 3, 5, 7, 9 };
 ```
 
-# Initializing
+# initializing
 Declare and initialize a single-dimensional array of 5 integers:
 ```cs
 int[] a2 = new int[] { 1, 3, 5, 7, 9 };
 // or
 int[] a3 = { 1, 3, 5, 7, 9 };
 ```
-# Multidimensional Arrays
+# multidimensional arrays
 Multidimensional arrays are created with the syntax: new T[rows, columns]
 Declare a 2D array:
 ```cs
@@ -46,16 +46,16 @@ int[,] twoDimArrayC = { { 1, 2, 3 }, { 4, 5, 6 } };
 // Or a 3D array: X, Y, Z
 int[,,] threeDimArray = new int [4, 2, 3];
 ```
-# Jagged Arrays
+# jagged arrays
 A jagged array is an array of arrays.
 Its elements are always reference types initialized to null.
 
-## Declare
+## declare
 Declare a an array that has 3 elements, each of which is a 1D array of integers of unspecified length:
 ```cs
 int[][] jArray = new int[3][];
 ```
-## Initialize
+## initialize
 Initialize the elements:
 ```cs
 jArray[0] = new int[3];
@@ -86,18 +86,18 @@ int[][] jArray3 =
     new int[] { 10, 20, 30, 40, 50, 60, 70 }
 }
 ```
-## Assign Values
+## assign values
 Assign the first array's (`[0]`) second element (`[1]`) the value 77:
 ```cs
 jArray3[0][1] = 77;
 ```
-# Accessing
+# accessing
 ```cs
 a[n]
 a[^n] // Return the nth item from the end of the array.
 a[m..n] // Return the mth item to the nth item, exclusive.
 ```
-# Implicitly Typed Arrays
+# implicitly typed arrays
 Implicitly-typed arrays are usually used in query expressions together with anonymous types and object and collection initializers.
 
 Single-dimension, implicitly-typed:
@@ -113,7 +113,7 @@ var c = new[]
 };
 ```
 
-# Anonymous Types that Contain Arrays
+# anonymous types that contain arrays
 Here, contacts is an implicitly-typed array of anonymous types, each of which contains an array named PhoneNumbers:
 ```cs
 var contacts = new[] 
@@ -130,18 +130,18 @@ var contacts = new[]
     }
 };
 ```
-# Properties
+# properties
 `.Length` The number of elements in the array.
 
-# Static Methods
-## Manipulating
+# static methods
+## manipulating
 ```cs
 Array.Clear(array, s, n) // Clear n elements from array starting at index s.
 Array.Resize(ref array, n) // Resize array to size n.
 // - When shrinking, this removes elements from the end of the array toward the beginning.
 Array.Reverse(array)
 ```
-## Searching
+## searching
 ```cs
 Array.BinarySearch(array, elem) // Searches array for elem. Returns the index of elem if found
 or -1 if not found.
@@ -151,10 +151,10 @@ Array.Findall(array, predicate match) // Searches array for match and returns an
 Array.FindLast(array, predicate match) // Searches array for match and returns the last match.
 ```
 
-## Sorting
+## sorting
 `Array.Sort(array)`
 
-# Iterating
+# iterating
 Use foreach:
 ```cs
 string[] names = { "eli", "noah", "jen" };

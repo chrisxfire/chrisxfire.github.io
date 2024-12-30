@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Notify the Data Binding when Property Changes
+# notify the data binding when property changes
 Implement the `INotifyPropertyChanged` interface on the ViewModel:
 
 `MainViewModel.cs`

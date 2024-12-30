@@ -10,7 +10,7 @@ weight: 1
 
 A collection of values that represent a column in a `DataFrame`.  
 
-# Properties
+# properties
 - `DataType` - The type of data this column holds.
 - `Item(length, startIndex)` - Returns length number of values starting from startIndex.
 - `Item(rowIndex)` - Get/set values at rowIndex.
@@ -18,7 +18,7 @@ A collection of values that represent a column in a `DataFrame`.
 - `Name` - The name of this column.
 - `NullCount` - The number of null values in this column.
 
-# Methods
+# methods
 - `AddDataViewColumn`
 - `AddValueUsingCursor`
 - `All` - Boolean if all the elements are True.
@@ -40,7 +40,7 @@ A collection of values that represent a column in a `DataFrame`.
 - `SetValue(rowIndex, value)` - Sets the value at rowIndex to value.
 - `ValueCounts` - Returns a DataFrame containing counts of unique values.
 
-## Mathematical Methods
+## mathematical methods
 - `Abs`
 - `Add`
 - `And`
@@ -52,7 +52,7 @@ A collection of values that represent a column in a `DataFrame`.
 - `Subtract`
 - `Xor`
 
-## Statistical Methods
+## statistical methods
 - `CumulativeMax`
 - `CumulativeMin`
 - `CumulativeProduct`

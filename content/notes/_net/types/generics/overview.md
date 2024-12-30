@@ -5,13 +5,13 @@ draft: false
 weight: -1
 ---
 
-# Generics
+# generics
 Generics are classes, structures, interfaces and methods that have placeholders (*type parameters*) for one or more of the types that they store or use.  They allow you to pass *types* as *parameters*, similar to how you can pass objects as parameters.  They defer the specification of one or more types until the class/method has been instantiated (a *constructed generic class*).
 
 A generic class cannot be used as-is because it is not a type; it is a blueprint for a type.  
 Client code must declare and initialize a constructed type by specifying a type argument in the \<brackets\>.  
 
-# Creating
+# creating
 ```cs
 // A generic class:
 public class GenericList<T> 
@@ -58,7 +58,7 @@ int i = pair.First; // TFirst int
 string s = pair.Second; // TSecond string
 ```
 
-# Generic Attributes
+# generic attributes
 > [!IMPORTANT]
 > Availability: C# 11  
 
@@ -75,7 +75,7 @@ Use the generic attribute by specifying the type parameter:
 public string Method() => default;
 ```
 
-# Considerations
+# considerations
 - Generic methods can appear on both generic and non-generic types.  Just because a type is generic does not mean its methods are.
   - A method is generic only if it has its own list of type parameters.
 - Generic type safety is enforced at *compile time*.
@@ -84,35 +84,35 @@ public string Method() => default;
 - The CLR considers a type that is nested in a generic type to be generic even if it does not have generic type parameters of its own.
   - To create an instance of such a type, you must specify type arguments for all enclosing generic types.
 
-# Variance
+# variance
 As it pertains to generics, these concepts apply to the generic type parameter of the generic type.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/standard/generics/covariance-and-contravariance
 
-## Covariance
+## covariance
 Enables the use of a more derived (more specific) type than originally specified.
 - An instance of `IEnumerable<Dog>` can be assigned to a variable of type `IEnumerable<Animal>`.
 
-### Defining
+### defining
 A covariant type parameter is marked with the `out` keyword.
 
-## Contravariance
+## contravariance
 Enables the use of a less derived (less specific) type than originally specified.
 - An instance of `IEnumerable<Animal>` can be assigned to a variable of type `IEnumerable<Dog>`.
 
-### Defining
+### defining
 A contravariant type parameter is marked with the `in` keyword.
 
-## Invariance
+## invariance
 Only the type originally specified can be used.
 - An instance of `IEnumerable<Dog>` <u>cannot</u> be assigned to a variable of type `IEnumerable<Animal>` or vice-versa.
 
-## Summary Table
+## summary table
 | Variance      | Use as interface method return value? | Use as delegate return type? | Use as interface method type constraint? |
 | ------------- | ------------------------------------- | ---------------------------- | ---------------------------------------- |
 | Covariant     | Yes                                   | Yes                          | No                                       |
 | Contravariant | Yes                                   | Yes                          | Yes                                      |
 
-## Considerations
+## considerations
 - Variant type parameters are restricted to generic interface and generic delegate types
   - These types can also have both covariant and contravariant type parameters
 - Variance applies only to reference types: if you specify a value type for a variant type parameter, that type parameter is invariant for the resulting constructed type.

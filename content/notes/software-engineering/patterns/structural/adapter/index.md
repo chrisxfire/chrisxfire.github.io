@@ -6,7 +6,7 @@ weight: 1
 ---
 ![A diagram depicting the structural adapter pattern](./Structural_Adapter-image1.png)
 
-# Adapter
+# adapter
 Type: Structural  
 Purpose: Enables objects with incompatible interfaces to collaborate.  
 Use to:
@@ -16,8 +16,8 @@ Principles: Single Responsibility Principle; Open/Closed Principle
 Complexity: 1/3  
 Popularity: 3/3  
 
-# Overview
-## Object Adapter
+# overview
+## object adapter
 ![A diagram depicting the object adapter pattern](./Structural_Adapter-image2.png)
 
 1.  The Client is a class that contains the existing business logic of the program.
@@ -26,7 +26,7 @@ Popularity: 3/3
 4.  The Adapter is a class that’s able to work with both the client and the service: it implements the client interface, while wrapping the service object. The adapter receives calls from the client via the adapter interface and translates them into calls to the wrapped service object in a format it can understand.
 5.  The client code doesn’t get coupled to the concrete adapter class as long as it works with the adapter via the client interface. Thanks to this, you can introduce new types of adapters into the program without breaking the existing client code. This can be useful when the interface of the service class gets changed or replaced: you can just create a new adapter class without changing the client code.
 
-# Implementing
+# implementing
 Assumes you have a *service* class (that you cannot change) and one or more *client* classes that would benefit from the services class.
 ```cs
 public SomeService

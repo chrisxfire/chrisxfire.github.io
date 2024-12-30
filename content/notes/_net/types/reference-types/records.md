@@ -7,17 +7,17 @@ tags:
  - kb/dotnet/types/reference/records
 ---
 
-# Records
+# records
 Records can be `record class`es or `record struct`s. If the `class` or `struct` keyword is not included, defaults to `record class`.
 
-## Use When
+## use when
 - You need a data model that depends on value equality
 - You need a type whose objects are immutable
 
-## Do Not Use
+## do not use
 - As entity types in Entity Framework Core.
 
-# Positional Syntax
+# positional syntax
 *Positional syntax* will automatically declare properties, a constructor, and a deconstructor:
 ```cs
 public record Person(string FirstName, string LastName);
@@ -30,7 +30,7 @@ public static void Main()
 }
 ```
 
-# Record Class
+# record class
 Record classes, a reference type:
 ```cs
 public record Person 
@@ -40,14 +40,14 @@ public record Person
 };
 ```
 
-## Characteristics
+## characteristics
 | Allocation | Equality  | Semantics | Inheritance                       | Mutability                               |
 | ---------- | --------- | --------- | --------------------------------- | ---------------------------------------- |
 | Heap       | Reference | Reference | Single (from another record only) | Mutable (generally treated as immutable) |
 
 A *positional* `record class` declares init-only properties, making them immutable.
 
-# Record Struct
+# record struct
 Record struct, a value type:
 ```cs
 public record struct Point 
@@ -58,17 +58,17 @@ public record struct Point
 }
 ```
 
-## Characteristics
+## characteristics
 | Allocation | Equality | Semantics | Inheritance   | Mutability                               |
 | ---------- | -------- | --------- | ------------- | ---------------------------------------- |
 | Stack      | Value    | Value     | None (sealed) | Mutable (generally treated as immutable) |
 
 A *positional* `record struct` declares read-write properties, making them mutable.
 
-# Readonly Record Struct
+# readonly record struct
 A *positional* `readonly record struct` declares init-only properties, making them immutable.
 
-## Example
+## example
 ```cs
 public record Person(string FirstName, string LastName);
 
@@ -80,12 +80,12 @@ public static void Main()
 }
 ```
 
-# Equality
+# equality
 For `record class` types, two objects are equal if they refer to the same object in memory.
 For `record struct` and `readonly record struct` types, two objects are equal if they are of the same type and store the same values.
 - This is the same as equality for a `struct` type.
 
-# Adding Targets to Attributes Applied to Records
+# adding targets to attributes applied to records
 The `property` target applies the attribute to the compiler-generated auto-property.  
 The `field` target applies the attribute to the field.  
 The `param` target applies the attribute to a parameter.  
@@ -112,7 +112,7 @@ It uses this format: `record-type-name { property-name = value, property-name = 
 
 An implementation of `ToString` may include the `sealed` modifier, which prevents the compiler from synthesizing a `ToString` implementation for any derived records. This creates a consistent string representation throughout a hierarchy of record types.
 
-# Examples
+# examples
 ```cs
 // You can give a record a constructor:
 public record class ImmutableAnimal 

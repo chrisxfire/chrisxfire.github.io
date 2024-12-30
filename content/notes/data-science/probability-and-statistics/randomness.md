@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 From https://www.random.org/randomness  
 *Randomness* — that which cannot be predicted by humans.
 

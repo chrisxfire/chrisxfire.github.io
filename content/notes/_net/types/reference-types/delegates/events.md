@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Events
+# events
 [Events in C# (tutorialsteacher.com)](https://www.tutorialsteacher.com/csharp/csharp-event)  
 [Events in C# - Code Maze (code-maze.com)](https://code-maze.com/csharp-events/)  
 [Events in C# explained. Everyone that understands English knows… | by Dinesh Jethoe | Medium](https://medium.com/@dinesh.jethoe/events-in-c-explained-4a464b110fdc)  
@@ -17,7 +17,7 @@ Events are encapsulated delegates.
 The class that sends (*raises*) an event is the *publisher*; the class that receives (*handles*) the event is the *subscriber*.  
 When an event has many subscribers, the event handlers are invoked synchronously when the event is raised.  
 
-# Subscribe to Events via Visual Studio
+# subscribe to events via visual studio
 1.  **Design view** > right-click form/control for which you want an event handler > **Properties** > **Events** icon
 2.  Double-click the event you want to create, such as Load.
 3.  This is the auto-generated *event handler* that is invoked when the event is raised:
@@ -33,7 +33,7 @@ private void Form1_Load(object sender, System.EventArgs e)
 this.Load += new System.EventHandler(this.Form1_Load);
 ```
 
-# Subscribe to Events Programmatically
+# subscribe to events programmatically
 // Define an event handler method whose signature matches the delegate signature for the event:
 ```cs
 void HandleCustomEvent(object sender, System.EventArgs e) 
@@ -46,7 +46,7 @@ void HandleCustomEvent(object sender, System.EventArgs e)
 publisher.RaiseCustomEvent += HandleCustomEvent;
 ```
 
-# Subscribe to Events with an Anonymous Function
+# subscribe to events with an anonymous function
 ```cs
 // ONLY use an anonymous function if you don't have to unsubscribe from the event later:
 publisher.RaiseCustomEvent += (object o, System.EventArgs e) => 
@@ -56,14 +56,14 @@ publisher.RaiseCustomEvent += (object o, System.EventArgs e) =>
 }
 ```
 
-# Unsubscribing
+# unsubscribing
 Unsubscribe from events before you dispose of subscriber objects to prevent resource leaks.
 ```cs
 // Like so:
 publisher.RaiseCustomEvent -= HandleCustomEvent;
 ```
 
-# Publish Events Based on EventHandler Pattern
+# publish events based on eventhandler pattern
 All events in the .NET class library are based on the `EventHandler` delegate, which is defined as follows:
 ```cs
 public delegate void EventHandler(object sender, EventArgs e);
@@ -112,7 +112,7 @@ is the name of your own class).
 public event EventHandler<CustomEventArgs> RaiseCustomEvent;
 ```
 
-# Complete Example
+# complete example
 ```cs
 // Define a class to hold custom event info:
 public class CustomEventArgs : EventArgs 
@@ -192,11 +192,11 @@ class Program
 }
 ```
 
-# Event Modifiers
+# event modifiers
 `virtual`
 
 # Other Examples (somewhat confusing)
-## Example 1
+## example 1
 ```cs
 public class Person 
 {
@@ -236,7 +236,7 @@ static void Harry_Shout(object? sender, EventArgs e)
 harry.Shout += Harry_Shout; // Assigns the method to the delegate field. Note the += operator.
 ```
 
-## Example 2
+## example 2
 ```cs
 public class MyList<T> 
 {

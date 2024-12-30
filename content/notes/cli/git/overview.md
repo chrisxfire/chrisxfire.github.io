@@ -7,13 +7,13 @@ tags:
  - kb/cli/git
 ---
 
-# Git
+# git
 A distributed version control system
 
-# Concepts
+# concepts
 *commit* – save the state of your project (take a snapshot of all files and store a reference to that snapshot)
 
-## File States
+## file states
 - *unmodified* – file has not been changed
 - *modified* – file has been changed but not committed
 - *staged* – file has been marked to go into next commit snapshot
@@ -21,13 +21,13 @@ A distributed version control system
 - *untracked* – files in your working directory that were not in last snapshot and not in staging
 - *tracked* – files Git knows about: unmodified, modified, and staged file states
 
-## Sections of a Git Project
+## sections of a git project
 - *working* – a single checkout of one version of the project
 - *staging* – a file, generally in the Git directory, of information about what goes into the next commit (aka index)
 - *repository* – metadata and database of the project
 
-# Git Command Groups
-## Main Commands
+# git command groups
+## main commands
 | Command         | Description                                                        |
 | --------------- | ------------------------------------------------------------------ |
 | add             | Add file contents to the index                                     |
@@ -75,7 +75,7 @@ A distributed version control system
 | tag             | Create, list, delete or verify a tag object signed with GPG        |
 | worktree        | Manage multiple working trees                                      |
 
-## Manipulators
+## manipulators
 | Command       | Description                                                    |
 | ------------- | -------------------------------------------------------------- |
 | config        | Get and set repository or global options                       |
@@ -90,7 +90,7 @@ A distributed version control system
 | repack        | Pack unpacked objects in a repository                          |
 | replace       | Create, list, delete refs to replace objects                   |
 
-## Interrogators
+## interrogators
 | Command       | Description                                                           |
 | ------------- | --------------------------------------------------------------------- |
 | annotate      | Annotate file lines with commit information                           |
@@ -123,7 +123,7 @@ A distributed version control system
 | repository-layout | Git Repository Layout                              |
 | revisions         | Specifying revisions and ranges for Git            |
 
-## External Commands
+## external commands
 - askpass
 - askyesno
 - credential-helper-selector

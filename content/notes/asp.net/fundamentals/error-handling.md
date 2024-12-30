@@ -9,7 +9,7 @@ weight: 1
 
 ASP.NET Core has built-in error handling features: A developer exception page; custom error pages; static status code pages; startup exception handling.
 
-# Developer exception page
+# developer exception page
 Displays detailed information about unhandled request exceptions.  Requires development environment and app built with `WebApplication.CreateBuilder` (not `WebHost.CreateDefaultBuilder`).
 - Note:  The developer exception page is not guaranteed to provide any information; use logging.
 
@@ -33,7 +33,7 @@ The app templates provides `/Pages/Error.cshtml` and a `PageModel` class (`Error
 In MVC apps  
 The template provides an `Error` action method and an `Error` view for the `Home` controller.
 
-## Accessing the exception
+## accessing the exception
 Use `IExceptionHandlerPathFeature`:
 ```cs
 [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -61,7 +61,7 @@ public class ErrorModel : PageModel {
 }
 ```
 
-# Exception handler lambda
+# exception handler lambda
 Instead of a custom exception handler page, a lambda can be provided to `UseExceptionHandler.`  This allows accessing the error before returning a response:
 ```cs
 var app = builder.Build();
@@ -136,7 +136,7 @@ To pass the status code as a query-string parameter:
 app.UseStatusCodePagesWithReExecute("/StatusCode", "?statusCode={0}");
 ```
 
-# Disable status code pages
+# disable status code pages
 In an MVC controller or action method, use the `[SkipStatusCodePages]` attribute.  
 In a Razor Pages handler method or an MVC controller, use `IStatusCodePagesFeature`:
 ```cs
@@ -159,18 +159,18 @@ Remember that, once headers for a response are sent:
 
 The response must be completed or the connection aborted.
 
-# Server exception handling
+# server exception handling
 If the underlying HTTP server catches an exception before response headers are sent, it sends `HTTP/500 Internal Server Error` with no body.  
 If the server catches an exception after response headers are sent, it closes the connection.
 
 Any request not handled by the app is handled by the server.  
 
-# Startup exception handling
+# startup exception handling
 This is handled by the host.  See:
 - https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/web-host?view=aspnetcore-7.0#capture-startup-errors
 - https://learn.microsoft.com/en-us/aspnet/core/fundamentals/host/web-host?view=aspnetcore-7.0#detailed-errors
 
-# Problem Details
+# problem details
 Problem Details are details of errors in an HTTP response.  They are standardized in [RFC 7807](https://www.rfc-editor.org/rfc/rfc7807.html). The problem details service implements `IProblemDetailsService` to create problem details.
 
 To add the problem details service:
@@ -183,17 +183,17 @@ When the problem details service is used, the following middleware generates pro
 - StatusCodePageSMiddleware — generates a problem details response by default
 - DeveloperExceptionPageMiddleware — generates a problem details response in development when the `Accept` request HTTP header does not include `text/html`.
 
-## Customizing Problem Details
+## customizing problem details
 Problem details responses can be customized.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#customize-problem-details
 
-## Producing a ProblemDetails Payload for Exceptions
+## producing a problemdetails payload for exceptions
 Exceptions can contain Problem Details.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#produce-a-problemdetails-payload-for-exceptions
 
-# Other Topics
+# other topics
 - [Database error page](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#database-error-page)
 - [Exception filters](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#exception-filters)
 - [Model state errors](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#model-state-errors)

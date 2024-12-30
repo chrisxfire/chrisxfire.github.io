@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Blazor WASM apps call web APIs using a preconfigured `HttpClient` service which is focused on <o>making requests back to the server of origin</o> (not a 3rd party API).  Create `HttpClient` service configurations manually for requests to other web APIs.
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/call-web-api?view=aspnetcore-7.0&pivots=webassembly
 
-## Sending PATCH Requests
+## sending patch requests
 If sending HTTP PATCH requests, there are additional considerations beyond those listed in these notes.  
 See: https://learn.microsoft.com/en-us/aspnet/core/blazor/call-web-api?view=aspnetcore-7.0&pivots=webassembly#patch-as-json-patchasjsonasync
 
@@ -49,7 +49,7 @@ Instead of injecting a preconfigured `HttpClient`, `IHttpClientFactory` can be u
 
 Both named and typed clients are supported.
 
-## Named Client Example  
+## named client example  
 `Program.cs`:
 ```cs
 builder.Services.AddHttpClient("NAMED_CLIENT_NAME", client => 
@@ -72,7 +72,7 @@ builder.Services.AddHttpClient("NAMED_CLIENT_NAME", client =>
 }
 ```
 
-## Typed Client Example
+## typed client example
 1. Add `Microsoft.Extensions.Http` to the app:
     ```powershell
     dotnet add package Microsoft.Extensions.Http
@@ -114,7 +114,7 @@ builder.Services.AddHttpClient("NAMED_CLIENT_NAME", client =>
     }
     ```
 
-# Fetch API Request Options
+# fetch api request options
 Blazor WASM's implementation of `HttpClient` uses Fetch API.  Fetch API can be configured with request-specific options via `HttpRequestMessage` extension methods:
 | Extension Method                     | Use to...                                        |
 | ------------------------------------ | ------------------------------------------------ |
@@ -142,5 +142,5 @@ app.UseCors(policy => policy
 
 See also: https://learn.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-7.0
 
-# Testing a Web API
+# testing a web api
 Blazor framework's reference source has `HttpClient` test assets: https://github.com/dotnet/aspnetcore/tree/main/src/Components/test/testassets/BasicTestApp/HttpClientTest

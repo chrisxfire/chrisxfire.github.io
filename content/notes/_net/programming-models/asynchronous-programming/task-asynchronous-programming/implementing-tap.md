@@ -9,14 +9,14 @@ weight: 1
 
 The TAP pattern can be implemented via the C# compiler, manually, or in a hybrid of both.
 
-# Creating TAP Methods
-## Compiler Approach
+# creating tap methods
+## compiler approach
 Create TAP methods by using the `async` keyword. Compiler will automatically perform necessary transformations to implement TAP.
 - TAP methods must return `Task` or `Task<T>`.
 - Any exceptions that go unhandled in body of task are marshalled to the output task and task ends in `Faulted` state.
   - Except when an `OperationCanceledException` goes unhandled; then task ends in `Canceled` state.
 
-## Manual Approach
+## manual approach
 1. Create a `TaskCompletionSource<TResult>` object
 2. Perform the async operation
 3. When the async operation completes, call `{Try}SetResult`, `{Try}SetException`, or `{Try}SetCanceled`
@@ -41,7 +41,7 @@ public static Task<int> ReadTask(this Stream stream, byte[] buffer, int offset, 
 }
 ```
 
-## Hybrid Approach
+## hybrid approach
 This method verifies arguments outside the compiler-generated async method:
 ```cs
 public Task<int> MethodAsync(string input)
@@ -59,7 +59,7 @@ private async Task<int> MethodAsyncInternal(string input)
     return value;
 }
 ```
-# Workloads
+# workloads
 If a method is purely computational, it should be exposed only as a synchronous operation.  
 If a method is I/O bound, it should be exposed only as an asynchronous operation.  
 

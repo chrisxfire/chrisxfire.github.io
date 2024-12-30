@@ -16,18 +16,18 @@ NavMan.NavigateTo($"/employeedetail/{selectedEmployee.EmployeeId}");
 
 `NavigationManager` uses the browser's history API to maintain navigation history.
 
-## Navigation Options
+## navigation options
 `NavigateManager`'s `NavigateTo` method accepts `NavigationOptions`:
 - `ForceLoad` — bypass client-side routing and force the browser to load the new page from the server; default = `false`
 - `ReplaceHistoryEntry` — replace teh current entry in the history stack; default = `true`; if `false`, append instead of replace 
 - `HistoryEntryState` — get or set the state to append to the history entry
 
-# Location Changes
+# location changes
 `NavigationManager`'s `LocationChanged` event has `LocationChangedEventArgs` that provide information about navigation events including:
 - `Location` — the URL of the new location
 - `IsNavigationIntercepted` — boolean if Blazor intercepted the navigation from the browser
 
-## Example
+## example
 ```html {hl_lines=[2,3]}
 @page "/navigate"
 <!-- IDisposable is implemented to unhook the event handler method when Dispose is called by the framework: -->
@@ -85,7 +85,7 @@ Location changing handlers are normally registered in `OnAfterRender{Async}`.  T
 - Internal links are selected
 - The browser's forward and back buttons are used
 
-### Example
+### example
 ```html
 @page "/nav-handler"
 @inject NavigationManager Navigation
@@ -139,7 +139,7 @@ NavigationLock has two parameters:
 - `ConfirmExternalNavigation` — boolean if a browser dialog should prompt the user to confirm or cancel navigation; default = `false`
 - `OnBeforeInternalNavigation` — accepts a LocationChangingContext for internal navigation events
 
-### Example
+### example
 `Pages/NavLock.razor`
 ```html
 @page "/nav-lock"

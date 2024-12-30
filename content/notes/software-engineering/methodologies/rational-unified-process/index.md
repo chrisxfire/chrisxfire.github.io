@@ -5,17 +5,17 @@ draft: false
 weight: 1
 ---
 
-# Rational Unified Process
+# rational unified process
 - Created by Rational Software, which was later acquired by IBM (2013).
 - An adaptable process framework.
 - An implementation of *unified process*.
 
-# RUP Building Blocks
+# rup building blocks
 - Roles (who) — a set of related skills, competencies and responsibilities.
 - Work products (what) — something resulting from a Task.
 - Task (how) — a unit of work assigned to a role that provides a meaningful result.
 
-# 6 Engineering Disciplines
+# 6 engineering disciplines
 1.  Business modeling
 2.  Requirements
 3.  Analysis & Design
@@ -23,7 +23,7 @@ weight: 1
 5.  Testing
 6.  Deployment
 
-# 6 Best Practices
+# 6 best practices
 1.  Develop iteratively
 2.  Manage requirements
 3.  Use components (RUP supports OOP)
@@ -31,6 +31,6 @@ weight: 1
 5.  Verify quality
 6.  Control changes (continuous integration)
 
-# Tools
+# tools
 - IBM Rational Method Composer—use to author, configure, view and publish processes
 - Eclipse Process Framework (open source)

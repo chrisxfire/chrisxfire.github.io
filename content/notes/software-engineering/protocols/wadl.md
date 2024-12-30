@@ -10,7 +10,7 @@ weight: 1
 - The REST equivalent of SOAP's WSDL.
 - Not a W3C standard.
 
-## Elements
+## elements
 - Param — describes inputs
 - Method — describes request and response of resource
 - Request — describes input; types are required; HTTP headers are required

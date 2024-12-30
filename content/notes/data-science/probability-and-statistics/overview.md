@@ -5,8 +5,8 @@ draft: false
 weight: -1
 ---
 
-# Concepts
-## Null hypothesis 
+# concepts
+## null hypothesis 
 A default hypothesis that a quantity to be measured is zero (null).
 - The null hypothesis is true if data values are drawn from the hypothesized distribution.
 
@@ -21,7 +21,7 @@ A t-test automatically tests the null hypothesis that the mean value of the data
   - The distribution is normal
   - The distribution remains fixed
 
-### Example
+### example
 Example:
 - A random sample of 5 customers spent $10.24, $12.31, $9.38, $14.03, and $11.72.  
 - Predict how much the next 100 customers will spend.
@@ -31,7 +31,7 @@ x = c(10.24, 12.31, 9.38, 14.03, 11.72)
 t.test(x)
 ```
 
-## OSEMN data science framework
+## osemn data science framework
 - Obtain — gather data from relevant sources
 - Scrub — clean data to formats that machine understands
 - Explore — Find significant patterns and trends using statistical methods

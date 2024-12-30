@@ -5,14 +5,14 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 In `Program.cs`:
 ```cs
 builder.Services.AddDbContext<CustomerDbContext>(options =>
     options.UseInMemoryDatabase("name"));
 ```
 
-## The data model
+## the data model
 ```cs
 using System.ComponentModel.DataAnnotations;
 
@@ -28,7 +28,7 @@ namespace RazorPagesContacts.Models
 }
 ```
 
-## The database context
+## the database context
 ```cs
 using Microsoft.EntityFrameworkCore;
 
@@ -46,7 +46,7 @@ namespace RazorPagesContacts.Data
 }
 ```
 
-## The view
+## the view
 `Pages/Customers/Create.cshtml`
 ```html
 @page
@@ -62,7 +62,7 @@ namespace RazorPagesContacts.Data
 </form>
 ```
 
-## The page model
+## the page model
 Separates the logic of a page from its presentation.  It defines page handlers for requests sent to the page.
 
 `Pages/Customers/Create.cshtml.cs`
@@ -119,7 +119,7 @@ public class CreateModel : PageModel
 </form>
 ```
 
-## The home page
+## the home page
 `Index.cshtml`
 ```html
 @page
@@ -202,7 +202,7 @@ public class IndexModel : PageModel
 }
 ```
 
-## The Edit File
+## the edit file
 `Edit.cshtml`
 ```cs
 @page "{id:int}"

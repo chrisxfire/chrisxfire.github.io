@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 A Blazor WASM PWA is a SPA that uses modern browser APIs and capabilities to behave like a desktop app. *Progressive* means that:
 - A user may discover the app within their browser (like any other SPA)
 - Later, the user *progresses* to installing it on their OS.
@@ -13,12 +13,12 @@ A Blazor WASM PWA is a SPA that uses modern browser APIs and capabilities to beh
 Blazor PWAs can be created from project templates or existing Blazor WASM apps can be converted to PWAs.
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/progressive-web-app?view=aspnetcore-7.0
 
-# Creating from CLI
+# creating from cli
 ```powershell
 dotnet new blazorwasm -o APPNAME --pwa
 ```
 
-# Converting Existing Blazor WASM app to PWA
+# converting existing blazor wasm app to pwa
 1. Update the project file:  
    `SomeProject.csproj`
    1. Add the `ServiceWOrkerAssetsManifest` to a `PropertyGroup`:
@@ -56,12 +56,12 @@ dotnet new blazorwasm -o APPNAME --pwa
 
          ``
 
-# Offline Support
+# offline support
 By default, apps created with the PWA template have support for running offline.  This is enabled by the service workers included in the template:
 - `wwwroot/service-worker.js` — used during development
 - `wwwroot/service-worker.published.js` — used after app is published'
 
-## Considerations
+## considerations
 Offline support is only relevant if:
 - The primary data store is local to the browser (like when using localStorage or IndexedDB).
 - There is a requirement for the user to view the data offline.
@@ -91,7 +91,7 @@ const shouldServeIndexHtml = event.request.mode === 'navigate'
 
 ```
 
-### Controlling Asset Caching
+### controlling asset caching
 Modify asset caching by editing the logic in `onInstall` in `service-worker.published.js`.  By default, the cache includes `.html`, `.css`, `.js`, and `.wasm` files.
 
 It also includes all static assets in `wwwroot`.  If there are millions of these assets, the service worker will fetch and cache them all.  Implement logic in `onInstall` to control which subset should be fetched and cached.
@@ -109,7 +109,7 @@ To add additional resources that are not present in wwwroot (and, by extension, 
 
 Note that this will *not* cause the item to be published in wwwroot; publishing output most be controlled separately.
 
-## Background Updates
+## background updates
 Blazor PWA apps automatically try to update themselves in the background.  Here's how this works:
 - When compiled, the project generates a service worker assets manifest (`service-worker-assets.js`) that lists all the static resources the app requires and hashes of those resources.
 - Each time the user visits the app, the browser re-requests `service-worker.js` and the assets manifest.
@@ -122,11 +122,11 @@ Blazor PWA apps automatically try to update themselves in the background.  Here'
     - If not successful, the new service worker is discarded, and the process is attempted again the next time the user visits the app.
 
 
-### Considerations
+### considerations
 - If you deploy backward-incompatible API schema changes before all users have upgraded the app, the client app will break for users who have not yet updated. 
   - Block users from using incompatible older versions of the app.   Use [ServiceWorkerRegistration](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration) to determine whether the app is up to date and, if not, prevent usage until it is.
 
-# Push Notifications
+# push notifications
 The mechanism for sending push notifications is implemented in the backend server.  For an example, [see here](https://github.com/dotnet-presentations/blazor-workshop/blob/main/docs/09-progressive-web-app#sending-push-notifications).  
 
 The mechanism for receiving a push notification is implemented in the service worker file.  For an example, [see here](https://github.com/dotnet-presentations/blazor-workshop/blob/main/docs/09-progressive-web-app#displaying-notifications).

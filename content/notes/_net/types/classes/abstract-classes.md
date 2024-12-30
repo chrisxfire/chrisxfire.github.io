@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Abstract Classes
+# abstract classes
 Abstract classes and members are incomplete and <u>must</u> be implemented in a derived class.
 - They cannot be directly instantiated.
 - They cannot be static.
@@ -33,6 +33,6 @@ Abstract classes may contain `abstract`, `concrete`, `virtual`, and `static` mem
 | (concrete)      | Yes                    | May          | new      | May    |
 | static          | Yes                    | May          | new      | Yes    |
 
-# Sealed
+# sealed
 The `sealed` keyword prevents inheritance of a class, or of class members that were previously marked virtual.
 Because a sealed class cannot be the base class of a derived class, it also cannot be abstract.

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Refactor Logic into a ViewModelBase Class
+# refactor logic into a viewmodelbase class
 Move the `INotifyPropertyChanged` interface into a base class so that it can be moved into other ViewModels:
 
 `MainViewModel.cs`

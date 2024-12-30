@@ -12,7 +12,7 @@ C# is statically typed at compile time.  Once a variable is typed, it cannot hol
 Implicit conversions happen automatically, always succeed, and no data is lost.  
 Example:  converting from a `long` to an `int.`
 
-## Derived to Base Type
+## derived to base type
 A derived class always contains all members of a base class.
 
 # Explicit Conversions (*Casting*)
@@ -26,7 +26,7 @@ a = int(x); // Casting is required because data will be lost.
 
 Casting between reference types does not change the run-time type of the underlying object.
 
-## Base to Derived Type
+## base to derived type
 Explicit conversion is required; will throw an `InvalidCastException` at run time if the right-side object is not the left-side type:
 ```cs
 Giraffe g = new();
@@ -37,12 +37,12 @@ Giraffe g2 = (Giraffe)a; // If a is not a Giraffe, throw InvalidCastException.
 # User-defined Conversions
 Special methods that enable explicit and implicit conversions between custom types that do not have a base–derived class relationship.
 
-# Conversions with Helper Classes
+# conversions with helper classes
 Used to convert between non-compatible types like `int` and `DateTime.`
 
 Use the `BitConverter` class to convert an array of bytes into primitive data types.
 
-## Converting Strings to Numbers
+## converting strings to numbers
 Use the `Parse()` and `TryParse()` methods of numeric types.
 
 When using `Parse()`, always catch `FormatException` for when the parse fails:
@@ -83,11 +83,11 @@ using System.Text;
 byte[] bytes = Encoding.UTF8.GetBytes(string);
 ```
 
-# Avoiding Casting Exceptions
+# avoiding casting exceptions
 Use the `is` or `as` keywords as shown here.  
 Alternatively, write try-catch for `InvalidCastException`.
 
-# Using Pattern Matching
+# using pattern matching
 ## `is` Statement
 Use the `is` statement to cast without the risk of an `InvalidCastException`.
 ```cs
@@ -109,7 +109,7 @@ var m = o as Mammal; // If o is a Mammal, set m = o.  Else, m = null.
 if (m != null) { … }
 ```
 
-## Pattern Matching Switch Example
+## pattern matching switch example
 ```cs
 static void PatternMatchingSwitch (System.ValueType val) {
 	switch (val) {

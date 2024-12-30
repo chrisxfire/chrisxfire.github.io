@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Versioning
+# versioning
 C# is designed to allow versioning between base and derived classes in different libraries.
 This allows for introduction of a new member in a base class with the same name as a member in a derived class.
 - override and virtual and new can be used on methods, properties, indexers, and events.

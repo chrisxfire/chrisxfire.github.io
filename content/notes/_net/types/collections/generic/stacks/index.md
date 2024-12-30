@@ -9,17 +9,17 @@ weight: 1
 A last-in, first-out collection of objects.  
 ![](./stack.png)
 
-## Namespace
+## namespace
 `Systems.Collections.Generic`
 
-## Inheritance
+## inheritance
 `Object` –> `Stack<T>`
 
-# Construction
+# construction
 ```cs
 var stk = new Stack<type>();
 ```
-# Methods
+# methods
 ```cs
 .Peek() // Return, but do not remove, the element at the top of the stack.
 Throws exception on empty stack.

@@ -12,10 +12,10 @@ Endpoints are the app's units of executable request-handling code.
 
 Routing can be configured via controllers, Razor Pages, SignalR, gRPC services, middleware, and delegates & lambdas registered with routing.
 
-## Endpoints
+## endpoints
 Endpoints handle requests and execute code to generate a response.  They are defined in `Program.cs`.
 
-## Basic Routing Example
+## basic routing example
 ```cs
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();

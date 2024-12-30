@@ -8,18 +8,18 @@ weight: 1
 # Expression-Bodied Members
 Expression body definitions are a concise form of implementing a member.
 
-## Usage
+## usage
 ```cs
 member => expression;
 ```
 
-## Use in Methods
+## use in methods
 Commonly used in types that override the ToString method:
 ```cs
 public override string ToString() => $"{fname} {lname}".Trim();
 ```
 
-## Use in Read Only Properties
+## use in read only properties
 ```cs
 public class Location {
     private string locationName;
@@ -33,7 +33,7 @@ public class Location {
 }
 ```
 
-## Use in Constructors and Properties
+## use in constructors and properties
 ```cs
 public class Location 
 {

@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 A training from the NeuroLeadership Institute.  
 
 "Knowing bias will help you stop being biased." This is not true.  Bias in the brain operates automatically, unconsciously, and habitually. 
@@ -34,12 +34,12 @@ There are more than 150 cognitive biases.  The SEEDS&reg; model categorizes them
    a. The brain's network for detecting threat is larger than detecting rewards.  We place more importance on potential losses than potential gains.   
    b. Biases in this category include *loss aversion* and *framing effects*.  
 
-# Approach
+# approach
 1. Label — we must label a bias before we can mitigate it.
 2. Mitigate — minimize the effect of bias as much as possible.
 3. Engage
 
-# Label
+# label
 To label bias:
 1. Recognize unconscious bias may be present
 2. Pause and consider *bias triggers*
@@ -56,7 +56,7 @@ To label bias:
 - [Practice Tool](../DECIDE%20M1%20Label%20Bias%20Practice%20Tool.pdf)  
 - [SEEDS Model Job Aid](../DECIDE%20The%20SEEDS%20Model%20Job%20Aid.pdf)  
 
-# Mitigate
+# mitigate
 We cannot turn *knowing about bias* into *doing something about bias* without the right strategies.
 
 Strategies:
@@ -81,15 +81,15 @@ If/Then Plan Mitigation
 - Situation: a team meeting with some members in person, others remote.
 - If/then plan: call on people on the phone to speak first.
 
-## Resources
+## resources
 - [Research Summary](../DECIDE%20M2%20Mitigate%20Bias%20Research%20Summary.pdf)
 - [Practice Tool](../DECIDE%20M1%20Label%20Bias%20Practice%20Tool.pdf)
 - [Decision Guide](../DECIDE%20Mitigate%20Bias%20Decision%20Guide.pdf)
 
-# Engage
+# engage
 Engage with others to counteract bias. Discuss bias in a non-threatening, accountable way.
 
-## Example
+## example
 Situation: panel making decision to finalize hiring decision between two candidates.
 - One candidate went to same school as 2 from the panel.
 - Panel leader says "Let's be careful to avoid similarity bias."
@@ -97,7 +97,7 @@ Situation: panel making decision to finalize hiring decision between two candida
 
 This eliminates the *in-group advantage* of one of the candidates.
 
-## Roadblocks to Bias Mitigation
+## roadblocks to bias mitigation
 - Bias blind spot — a type of Experience Bias that states it is much easier to spot bias in others than ourselves.  
 - Groupthink — a decision-making phenomenon that occurs when the desire for group cohesion or for reaching a conclusion in a short amount of time
 becomes more important than making the best choices. 
@@ -107,7 +107,7 @@ Engaging others in constructive conversations about bias helps us overcome these
 In bias mitigation, *diversity* means stimulating people in the room to think differently *and* bringing different people into the room. By bringing 
 in diversity, the group assesses information more carefully, resulting in superior performance on complex tasks.
 
-## Resources
+## resources
 - [Research Summary](../DECIDE%20M3%20Engage%20Others%20Research%20Summary.pdf)
 - [Practice Tool](../DECIDE%20M3%20Engage%20Others%20Practice%20Tool.pdf)
 - [Discussion Guide](../DECIDE%20Discuss%20Bias%20Guide.pdf)

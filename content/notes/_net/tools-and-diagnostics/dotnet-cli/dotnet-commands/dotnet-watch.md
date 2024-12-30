@@ -13,12 +13,12 @@ tags:
 - While `dotnet watch` is running, you can force a restart from the shell with <kbd>Ctrl</kbd>+<kbd>R</kbd>.
 - Arguments passed after `--` are sent to the child `dotnet` process.  If running `dotnet watch run`, these arguments are options for `dotnet run`.
 
-## Options
+## options
 - `--list` — list all discovered files 
 - `--no-hot-reload` — watch, but do not hot reload on change
 - `--non-interactive` — prevent console input from being requested
 
-## Files Watched by Default
+## files watched by default
 All items in the `Compile`, `EmbeddedResource`, and `Watch` groups of the project file that match these glob patterns:
 - `**/*.cs`
 - `*.csproj`

@@ -8,7 +8,7 @@ weight: 1
 # `Where`
 `Where` accepts a `Func<string, bool>` delegate. For each `string` passed to the function, it returns a `bool` value.
 
-## Targeting a Named Method
+## targeting a named method
 ```cs
 static bool NameLongerThanFour(string name) => name.length > 4;
 
@@ -20,7 +20,7 @@ Roslyn can instantiate the delegate for us so we can simplify:
 var query = names.Where(NameLongerThanFour);
 ```
 
-## Targeting a Lambda Expression
+## targeting a lambda expression
 ```cs
 var query = names.Where(name => name.Length > 4);
 ```

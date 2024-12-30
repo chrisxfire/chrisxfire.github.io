@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Page-level variables are defined in the content's frontmatter, derived from the content's file location, or extract from the content body itself.
 
-# Predefined Page Variables
+# predefined page variables
 All of the fields listed in [frontmatter](../../frontmatter) are page variables in the format `.FieldName`.  Only page variables that are not listed on the [frontmatter](../../frontmatter) notes page are listed here:
 - `.AlternativeOutputFormats` — used for a page's `link rel` list in the site's `<head>` (see also: [Output formats](https://gohugo.io/templates/output-formats/))
 - `.Ancestors` — used to implement [breadcrumb navigation](https://gohugo.io/content-management/sections#example-breadcrumb-navigation)
@@ -38,7 +38,7 @@ All of the fields listed in [frontmatter](../../frontmatter) are page variables 
 - `.Truncated` — boolean if the `.Summary` is truncated (useful for showing a "read more" link)
 - `.WordCount` — the number of words in the content
 
-# Section Variables and Methods
+# section variables and methods
 - `.CurrentSection` — the page's current section (the page itself if it is a section or homepage)
 - `.FirstSection` — the page's first section below root (like `/docs` or `/blog`)
 - `.InSection $anotherPage` — boolean if `$anotherPage` is in the current section
@@ -50,7 +50,7 @@ All of the fields listed in [frontmatter](../../frontmatter) are page variables 
 - `.Section` — the *section* this content belongs to
 - `.Sections` — the sections below this content
 
-# See Also
+# see also
 - [The .Pages Variable](https://gohugo.io/variables/page/#pages)
 - [Page Fragments](https://gohugo.io/variables/page/#page-fragments)
 - [The glboal page function](https://gohugo.io/variables/page/#the-global-page-function)

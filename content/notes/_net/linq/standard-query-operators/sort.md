@@ -10,14 +10,14 @@ tags:
 # [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/sorting-data)
 A sorting operation orders the elements of a sequence based on one or more attributes.
 
-# Methods
+# methods
 | Method                | Description                                              | Query expression                             |
 | --------------------- | -------------------------------------------------------- | -------------------------------------------- |
 | `OrderBy(Descending)` | Sort values in ascending (descending) order              | `orderby …` and `orderby … descending`       |
 | `ThenBy(Descending)`  | Perform a secondary sort in ascending (descending) order | `orderby …, …` and `orderby …, … descending` |
 | `Reverse`             | Reverse the order of the elements                        | N/A                                          |
 
-# Primary Ascending Sort
+# primary ascending sort
 ```cs
 string[] words = { "the", "quick", "brown", "fox", "jumped", "over", "the", "lazy", "dog" };
 ```
@@ -34,7 +34,7 @@ In method syntax:
 var query = words.OrderBy(w => w).Select(x => x);
 ```
 
-# Secondary Sort Ascending
+# secondary sort ascending
 In query syntax:
 ```cs
 var query = from word in words

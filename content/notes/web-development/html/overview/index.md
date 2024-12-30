@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Introduction
+# introduction
 ```html
 <!DOCTYPE html> <!--defines this HTML 5 document-->
 <html lang="en-US"> <!--the root element-->
@@ -21,16 +21,16 @@ weight: -1
 </html>
 ```
 
-# Elements
+# elements
 HTML elements have opening tags, content, and closing tags:
 ```html
 <title>Page title</title>
 ```
 
-## Empty elements
+## empty elements
 Empty elements like `<br>` (line break) have no content nor closing tag.
 
-# Attributes
+# attributes
 Attribute names should be lowercase.
 Attribute values should be quoted.
 - Use double quotes unless the value itself contains double quotes.
@@ -50,7 +50,7 @@ The style attribute uses CSS properties and values:
 <tagname style="property:value;">
 ```
 
-## Style properties
+## style properties
 ```
 background-color
 color (text color)
@@ -60,7 +60,7 @@ text-align
 border:2px solid color
 ```
 
-# Colors
+# colors
 Colors can be specified with names, RGB, hexadecimal, HSL, RGBA, or HSLA values:
 - RGB as `RGB(n, n, n)` and `RGBA(n, n, n, n)` where `n` is 0-255
 - Hexadecimal as `#rrggbb`
@@ -69,7 +69,7 @@ Colors can be specified with names, RGB, hexadecimal, HSL, RGBA, or HSLA values:
 	- `saturation` = 0% as a shade of grey to 100% full color
 	- `lightness` = 0% as black to 100% white
 
-# Favicons
+# favicons
 Link to the favicon in the head section:
 ```html
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -77,7 +77,7 @@ Link to the favicon in the head section:
 
 Supported formats for all major browsers:  ICO, PNG, GIF, JPG, SVG
 
-# IFrames
+# iframes
 Inline frames; embeds one HTML document within another.
 Syntax:  
 ```html
@@ -117,7 +117,7 @@ Defines alternate content to be displayed to browsers that do not support JavaSc
 <noscript>Sorry, your browser does not support JavaScript!</noscript>
 ```
 
-# Layout
+# layout
 `<header>` - Defines a header for a document or a section  
 `<nav>` - Defines a set of navigation links  
 `<section>` - Defines a section in a document  
@@ -127,19 +127,19 @@ Defines alternate content to be displayed to browsers that do not support JavaSc
 `<details>` - Defines additional details that the user can open and close on demand  
 `<summary>` - Defines a heading for the `<details>` element  
 
-## Layout Techniques
+## layout techniques
 There are four techniques:
 - CSS Framworks (W3.CSS, Bootstrap)
 - CSS Float Layout
 - CSS Flexbox Layout
 - CSS Grid Layout
 
-# Entities
+# entities
 Character entities are used to display characters that are reserved in HTML.
 Syntax:  `&entity_name` or `&#entity_number`
 Example:  a less than sign < is represented as `&lt;` or `&#60;`
 
-## Common Entities
+## common entities
 `&nbsp;` — non-breaking space; force two words to stick together and not break across a newline:  `10&nbsp;mph`  
 `&#8209;` — non-breaking hyphen  
 `&gt;`  

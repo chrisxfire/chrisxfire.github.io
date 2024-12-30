@@ -10,7 +10,7 @@ weight: 1
 - Information about and manipulation of the current environment and platform.
 - Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.environment?view=net-6.0
 
-# Properties
+# properties
 - `CommandLine` Returns the command line arguments as a string where the first term is the command itself
 - `Current` DirectoryGets or sets the CWD
 - `ExitCode`
@@ -28,7 +28,7 @@ weight: 1
 - `UserDomainName` Returns the domain username of the current user
 - `UserName` Returns the username of the current process
 
-# Methods
+# methods
 - `Exit(int)` Terminate this process and return exit code int to the OS
 - `FailFast(string)` Terminate this process immediately (do not run Catch blocks), and write string to Application event log
 - `GetCommandLineArgs()` Returns the command line arguments as a string[]. `[0]` is the executable name
@@ -42,7 +42,7 @@ weight: 1
 `Object` –> `ValueType` –> `Enum` –> `Environment.SpecialFolder`  
 Enumerated constants for special system folders.  
 
-# Fields
+# fields
 `ApplicationData`
 `MyDocuments`
 `Personal`

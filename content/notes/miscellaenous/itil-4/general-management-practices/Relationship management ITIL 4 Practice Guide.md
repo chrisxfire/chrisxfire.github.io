@@ -449,7 +449,7 @@ Antonina Klentsova, Paul Wigzel.
 
 Roman Jouravlev, Irina Matantseva
 
-### References
+### references
 
 1.  Haytko, D. (2004) Firm-to-firm and interpersonal relationships: Perspectives from advertising agency account managers. Journal of the Academy of Marketing Science (32:3), pp. 312-328.1.
 2.  Conceptualizing Interpersonal Relationships in agile IS Development: https://www.researchgate.net/publication/50257196 \[Accessed 6th January 2020\]

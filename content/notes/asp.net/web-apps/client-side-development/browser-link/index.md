@@ -14,7 +14,7 @@ Uses:
 * Testing across multiple browsers
 * Selecting UI elements and seeing what markup/source code they correlate to in Visual Studio
 
-# Configuring
+# configuring
 1. Add the package:
     ```powershell
     dotnet add package Microsoft.VisualStudio.Web.BrowserLink
@@ -30,7 +30,7 @@ Uses:
     }
     ```
 
-# Using
+# using
 With an ASP.NET Core project open in Visual Studio, on the Debug toolbar, the Browser Link toolbar control is added:  
 
 ![A screenshot of Visual Studio showing the Debug toolbar with the Browser Link control](./screenshot.png)

@@ -5,10 +5,10 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 An architecture decision record (ADR) is a document that captures an important architecture decision made over the course of developing a system along with its context and consequences.
 
-# Templates
+# templates
 ## [Simple](../template-simple/)
 From https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/templates/decision-record-template-by-michael-nygard/index.md
 
@@ -18,5 +18,5 @@ From https://github.com/joelparkerhenderson/architecture-decision-record/blob/ma
 ## [Detailed](../template-detailed/)
 From https://github.com/joelparkerhenderson/architecture-decision-record/blob/main/templates/decision-record-template-by-jeff-tyree-and-art-akerman/index.md
 
-# Examples
+# examples
 See https://github.com/joelparkerhenderson/architecture-decision-record/tree/main/examples/.

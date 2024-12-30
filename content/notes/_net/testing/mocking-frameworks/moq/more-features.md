@@ -5,10 +5,10 @@ draft: false
 weight: 3
 ---
 
-# Overview
+# overview
 These notes provide links to other features of Moq not covered in other notes.
 
-# Customizing Mock Behavior
+# customizing mock behavior
 When instantiating a mock, pass the `MockBehavior` enum to customize the behavior:
 ```cs
 var mock = new Mock<IService>(MockBehavior.Strict);
@@ -18,10 +18,10 @@ Behaviors:
 * `Strict` — throw an exception whenever a method or property is invoked without a matching configuration  
 * `Loose` (default) — return a default value instead of throwing an exception
 
-# Callbacks
+# callbacks
 See https://docs.educationsmediagroup.com/unit-testing-csharp/moq/callbacks
 
-# Implicit Mocks
+# implicit mocks
 When mocking interfaces that don't need any configuration or verification, use implicit mocks:
 ```cs
 var logger = Mock.Of<ILogger>();
@@ -38,7 +38,7 @@ To get the underlying mock:
 var mock = Mock.Get(logger);
 ```
 
-# Mocking a Type with Generic Methods
+# mocking a type with generic methods
 Consider this interface:
 ```cs
 public interface IService
@@ -62,7 +62,7 @@ mock.Setup(p => p.DoSomething(It.IsAny<It.IsSubtype<IList<int>>>()))
     .Throws<ArgumentException>();
 ```
 
-# Mocking a Type That Inherits Multiple Interfaces
+# mocking a type that inherits multiple interfaces
 Consider this class that inherits more than one interface:
 ```cs
 public class Dependency : IDependency, IDisposable { ... }

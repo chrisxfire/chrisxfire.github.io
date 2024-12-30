@@ -7,7 +7,7 @@ weight: 2
 
 # [Overview](https://nsubstitute.github.io/help/set-return-value/)  
 
-# Return Values
+# return values
 Assuming this interface:
 ```cs
 public interface ICalculator {
@@ -23,12 +23,12 @@ var calculator = Substitute.For<ICalculator>();
 
 Use the following API to set return values:
 
-## For Methods
+## for methods
 ```cs
 calculator.Add(1, 2).Returns(3);
 ```
 
-### Using Argument Matching
+### using argument matching
 ```cs
 // Return when first arg is anything and second arg is 5:
 calculator.Add(Arg.Any<int>(), 5).Returns(10);
@@ -49,7 +49,7 @@ calculator.Add(Arg.Is(0), Arg.Is(0)).Returns(99);
 Assert.AreEqual(99, calculator.Add(0, 0));
 ```
 
-### For Any Argument
+### for any argument
 The `ReturnsForAnyArgs` method is a shortcut for replacing each argument  with `Arg.Any<T>()`:
 ```cs
 calculator.Add(1, 2).ReturnsForAnyArgs(100); 
@@ -60,7 +60,7 @@ Assert.AreEqual(100, calculator.Add(1, 2));
 Assert.AreEqual(100, calculator.Add(-7, 15));
 ```
 
-## For Properties
+## for properties
 ```cs
 calculator.Mode.Returns("DEC");
 ```

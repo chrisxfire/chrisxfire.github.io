@@ -7,14 +7,14 @@ weight: 1
 
 # [Overview](https://nsubstitute.github.io/help/creating-a-substitute/)  
 
-# Substitutes
+# substitutes
 ```cs
 var substitute = Substitute.For<ISomeInterface>();
 // or
 var someClass = Substitute.For<SomeClassWithCtorArgs>(5, "hello world");
 ```
 
-## Substituting for Multiple Types
+## substituting for multiple types
 Substituting for multiple interfaces:
 ```cs
 var command = Substitute.For<ICommand, IDisposable>();
@@ -37,7 +37,7 @@ Assert.IsInstanceOf<ISomeInterface>(substitute);
 Assert.IsInstanceOf<SomeClassWithCtorArgs>(substitute);
 ```
 
-## Substituting for Delegates
+## substituting for delegates
 ```cs
 var func = Substitute.For<Func<string>>();
 

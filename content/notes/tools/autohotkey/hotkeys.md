@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Hotkeys
+# hotkeys
 ```autohotkey
 hotkey-name::action
 
@@ -18,7 +18,7 @@ hotkey-name::
 }
 ```
 
-## Examples
+## examples
 ```autohotkey
 #n:: Run "notepad" ; Win + N to run notepad.exe
 #n::MsgBox ThisHotkey ; returns "#n"
@@ -26,7 +26,7 @@ hotkey-name::
 `LButton` — left mouse button
 `RButton` — right mouse button
 
-# Modifiers
+# modifiers
 - `LWin` — Left Winkey  
 - `^` — Ctrl  
 - `<^` — Left Ctrl  
@@ -51,7 +51,7 @@ Note: `:` is not a valid modifier
 
 Use `WinExist` instead of `WinActive` to test for the presence of the app, even if it is not in focus
 
-# Custom Hotkey Combinations
+# custom hotkey combinations
 `Numpad0 & Numpad1::` — fires when Numpad 0 and 1 are both depressed
 
 Note: `Numpad0` will lose its native function—it is now a prefix key.

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Trees
+# trees
 A collection of nodes where each node can be linked to more nodes.  
 ![](./tree.png)
 
@@ -14,10 +14,10 @@ Nodes are collected by *links*.
 - 2 is the parent (root) node.  
 - 3 and 4 are both parent and child nodes.  
 
-## Binary Trees
+## binary trees
 A tree whose nodes have no more than 2 children.
 
-## Binary Search Trees  
+## binary search trees  
 ![](./tree2.png)
 
 A binary tree that is ordered.

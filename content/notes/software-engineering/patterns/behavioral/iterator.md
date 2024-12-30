@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Iterator
+# iterator
 Type: Behavioral  
 Purpose:  
 Use to:  

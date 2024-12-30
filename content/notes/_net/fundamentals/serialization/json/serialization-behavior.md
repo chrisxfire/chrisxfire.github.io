@@ -10,13 +10,13 @@ tags:
 # [Overview](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/configure-options?pivots=dotnet-7-0)  
 JSON serialization/deserialization behavior can be controlled through `JsonSerializerOptions` and various attributes.
 
-# Serialization behavior
+# serialization behavior
 By default:
 - Public properties are serialized
 - Fields are ignored
 - Casing of JSON names matches the .NET names
 
-# Deserialization behavior
+# deserialization behavior
 By default:
 - Property name matching is case sensitive
 - Read-only properties are ignored (no value is deserialized into readonly properties)
@@ -34,8 +34,8 @@ The defaults in ASP.NET Core apps are different than .NET apps.  See: https://le
 If you need a `JsonSerializerOptions` instance that has all default options, use the `JsonSerializerOptions.Default` property.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/configure-options?pivots=dotnet-7-0
 
-# Overriding default behavior
-## Properties
+# overriding default behavior
+## properties
 | Desired Behavior                             | Approach                                                                                                  | Notes                                                                                                          |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Use case-insensitive property names          | Use `JsonSerializerOptions.PropertyNameCaseInsensitive = true`                                            | N/A                                                                                                            |
@@ -47,13 +47,13 @@ If you need a `JsonSerializerOptions` instance that has all default options, use
 | Ignore all null-value properties             | Set `JsonSerializerOptions` `DefaultIgnoreCondition` property to `JsonIgnoreCondition.WhenWritingNull`    | N/A                                                                                                            |
 | Ignore all default-value properties          | Set `JsonSerializerOptions` `DefaultIgnoreCondition` property to `JsonIgnoreCondition.WhenWritingDefault` | N/A                                                                                                            |
 
-## Fields
+## fields
 | Desired Behavior                         | Approach                                             | Notes                                                    |
 | ---------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------- |
 | Include fields                           | Use the `[JsonInclude]` attribute on the fields      | Alternatively, use `JsonSerializerOptions.IncludeFields` |
 | Ignore read-only fields when serializing | Use `JsonSerializerOptions`'s `IgnoreReadOnlyFields` | N/A                                                      |
 
-### Marking properties or fields required for JSON deserialization
+### marking properties or fields required for json deserialization
 > [!IMPORTANT]
 > Availability: C# 11
 
@@ -112,7 +112,7 @@ There are three approaches:
     JsonSerializer.Deserialize<Person>("""{"Age": 42}""", options);
     ```
 
-# Overriding other behavior
+# overriding other behavior
 | Desired Behavior                          | Approach                                                                                                                                                 | Notes                         |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
 | Use camel case dictionary keys            | Set `JsonSerializerOptions`'s `DictionaryKeyPolicy` property to `JsonNamingPolicy.CamelCase`                                                             | Applies to serialization only |
@@ -125,7 +125,7 @@ There are three approaches:
 | Handle references and circular references | See [this page](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/preserve-references?pivots=dotnet-7-0)                  | N/A                           |
 | Deserialize to immutable types            | See [this page](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/immutability?pivots=dotnet-7-0)                         | N/A                           |
 
-## Identation options
+## identation options
 > [!IMPORTANT]
 > Availability: .NET 9
 

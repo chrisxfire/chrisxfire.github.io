@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Reference Types
+# reference types
 - Reference types store on the heap.
 - The default value for reference types is null.
 - All reference types support inheritance.

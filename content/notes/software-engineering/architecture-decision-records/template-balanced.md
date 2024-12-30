@@ -11,32 +11,32 @@ weight: 1
 - Date: [YYYY-MM-DD when the decision was last updated]
 - Technical Story: [description | ticket/issue URL]
 
-# Context and Problem Statement
+# context and problem statement
 [Describe the context and problem statement, e.g., in free form using two to three sentences. You may want to articulate the problem in form of a question.]
 
-# Decision Drivers
+# decision drivers
 - [driver 1, e.g., a force, facing concern, …]
 - [driver 2, e.g., a force, facing concern, …]
 - …
 
-# Considered Options
+# considered options
 - [option 1]
 - [option 2]
 - [option 3]
 - …
 
-# Decision Outcome
+# decision outcome
 Chosen option: "[option 1]", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | … | comes out best (see below)].
 
-## Positive Consequences
+## positive consequences
 - [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
 - …
 
-## Negative Consequences
+## negative consequences
 - [e.g., compromising quality attribute, follow-up decisions required, …]
 - …
 
-# Pros and Cons of the Options
+# pros and cons of the options
 ## [option 1]
 [example | description | pointer to more information | …]
 
@@ -62,6 +62,6 @@ Chosen option: "[option 1]", because [justification. e.g., only option, which me
 - Bad, because [argument c]
 - …
 
-# Links
+# links
 - [Link type] [Link to ADR]
 - …

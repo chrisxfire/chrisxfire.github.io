@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Static Classes
+# static classes
 Static classes:
 - Contain only static members.
 - Cannot be instantiated.
@@ -16,10 +16,10 @@ It is more common to declare a non-static class with some static members than to
 
 If a class contains static fields, provide a static constructor to initialize them.
 
-# Static Members
+# static members
 A non-static class *may* contain static methods, fields, properties, or events.
 Static methods and properties cannot access non-static fields and events in their type.
 
-## Uses for Static Fields
+## uses for static fields
 1.  Keeping count of the number of objects that have been instantiated.
 2.  Store a value that must be shared among all instances.

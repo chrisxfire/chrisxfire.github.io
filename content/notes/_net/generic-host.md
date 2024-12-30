@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Generic Host
+# generic host
 A host is an object that encapsulates an app's resources and lifetime functionality. This allows for control over the app's startup and graceful shutdown.
 - Examples: Dependency Injection, Logging, Configuration, `IHostedService` implementations
 
@@ -14,20 +14,20 @@ Generic Host is represented by the `HostBuilder` type.
 - Namespace: `Microsoft.Extensions.Hosting`
 - Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/generic-host
 
-# Process
+# process
 When a host starts, it calls `IHostedService.StartAsync` on each implementation of `IHostedService` registered in the service container's collection of hosted services. If the implementation is a worker service, it calls `BackgroundService.ExecuteAsync`.
 
-# Execution Sequence
+# execution sequence
 1.  StartAsync
 2.  OnStarted
 3.  OnStopping
 4.  StopAsync
 5.  OnStopped
 
-# Creating
+# creating
 Hosts are usually built, configured, and run in `Program.Main`:
 
-## Default Host
+## default host
 ```cs
 await Host.CreateDefaultBuilder(args) // Create the default `IHostBuilder`.
     .ConfigureServices((hostContext, services) =>
@@ -63,14 +63,14 @@ IHostBuilder builder =
 
 await builder.RunConsoleAsync();
 ```
-# IHostEnvironment
+# ihostenvironment
 Inject this service into a class to get info about these settings:
 - `IHostEnvironment.ApplicationName`
 - `IHostEnvironment.ContentRootFileProvider`
 - `IHostEnvironment.ContentRootPath`
 - `IHostEnvironment.EnvironmentName`
 
-# Host Configuration
+# host configuration
 Configures properties of the `IHostEnvironment` implementation.
 Call `ConfigureHostConfiguration()` on `IHostBuilder` to configure:
 ```cs
@@ -85,7 +85,7 @@ IHost host = Host.CreateDefaultBuilder(args)
     .Build();
 ```
 
-# App Configuration
+# app configuration
 Call `ConfigureAppConfiguration()` on `IHostBuilder`.
 This can be called repeatedly; the last value set on a given key is used.
 
@@ -93,7 +93,7 @@ The host configuration is contained within `HostBuilderContext.Configuration` wi
 
 See <https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration>.
 
-# Host Shutdown
+# host shutdown
 Hosted services are stopped as follows:
 - If the app exits normally with `Main()` completing and neither `Run()` nor `HostingAbstractionsHostExtensions.WaitForShutdown()` is called.
 - The app crashes.
@@ -105,13 +105,13 @@ Hosted services are stopped as follows:
 
 To gracefully shut down a host on demand, call `IHostApplicationLifetime.StopApplication()`.
 
-# IHostApplicationLifetime
+# ihostapplicationlifetime
 Inject this service into any class to handle post-startup and graceful shutdown tasks.
 
 These three properties are cancellation tokens used to register app start and app stop event handler methods:
 - `ApplicationStarted`, `ApplicationStopping`, `ApplicationStopped`
 
-## Example
+## example
 ```cs
 namespace SomeNamespace;
 
@@ -150,7 +150,7 @@ Above, in `Program.Main`, instead of `Worker`, `SomeService` could now be used.
 
 Call the interface's `StopApplication()` method to shutdown on demand.
 
-# IHostLifetime
+# ihostlifetime
 Controls when the host starts and stops. The last implementation registered is used.
 
 Methods:

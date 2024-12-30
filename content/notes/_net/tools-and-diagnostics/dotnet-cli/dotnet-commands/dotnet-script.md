@@ -10,7 +10,7 @@ tags:
 # [Overview](https://github.com/dotnet-script/dotnet-script)
 A tool to create and run C# scripts from the .NET CLI including VS Code debugging support.
 
-# Installation
+# installation
 Windows:
 ```powershell
 dotnet tool install -g dotnet-script
@@ -21,7 +21,7 @@ Linux/OSX:
 curl -s https://raw.githubusercontent.com/dotnet-script/dotnet-script/master/install/install.sh | bash
 ```
 
-# Creating scaffolding
+# creating scaffolding
 1. Create a folder (e.g. "/scripts").
 2. In that folder, run `dotnet script init`
 
@@ -32,7 +32,7 @@ This creates:
     - main.csx
     - omnisharp.json
 
-# Writing scripts
+# writing scripts
 This tool implicitly imports the following namespaces:
 - System
 - System.IO
@@ -50,7 +50,7 @@ On OSX/Linux, ensure the first line in the script is the shebang directive:
 #!/usr/bin/env dotnet-script
 ```
 
-## Arguments
+## arguments
 Arguments passed to scripts can be accessed via the global `Args` collection:
 ```cs
 foreach (var arg in Args)
@@ -59,14 +59,14 @@ foreach (var arg in Args)
 }
 ```
 
-## Importing packages in scripts
+## importing packages in scripts
 Packages can be imported directly in the script:
 ```powershell
 #r "nuget: AutoMapper, 6.1.0"
 ```
 
-# Executing scripts
-## Windows
+# executing scripts
+## windows
 ```powershell
 dotnet script file.csx -- arg1 arg2 arg3
 ```
@@ -92,7 +92,7 @@ chmod +x file.csx
 file.csx arg1 arg2 arg3
 ```
 
-# Creating executables from scripts
+# creating executables from scripts
 ```powershell
 dotnet script publish
     --output # path where published executable should be placed (default = ./publish)
@@ -103,13 +103,13 @@ dotnet script publish
     --runtime <runtime> # specifies the runtime to use (default = current runtime)
 ```
 
-# Running executables
+# running executables
 Executables can be run natively.  
 DLLS can be run via:
 ```powershell
 dotnet script exec <path> -- arg1 arg2 arg3
 ```
-# Debugging scripts
+# debugging scripts
 1. Add this `launch.config`:
     ```json
     {
@@ -133,7 +133,7 @@ dotnet script exec <path> -- arg1 arg2 arg3
 4. Set a breakpoint in VS Code.
 5. Select the `.NET Core Attach` debugger in VS Code.
 
-# REPL
+# repl
 To start the repl:
 ```powershell
 dotnet script
@@ -154,7 +154,7 @@ Uncompleted code blocks are detected and multiline mode (signified by `*`) is au
 > var foo = new Foo();
 ```
 
-## REPL commands
+## repl commands
 | Command  | Description                                                  |
 | -------- | ------------------------------------------------------------ |
 | `#load`  | Load a script into the REPL (same as #load usage in CSX)     |
@@ -163,7 +163,7 @@ Uncompleted code blocks are detected and multiline mode (signified by `*`) is au
 | `#cls`   | Clear the console screen without resetting the REPL state    |
 | `#exit`  | Exits the REPL                                               |
 
-## Seeding REPL with a script
+## seeding repl with a script
 A REPL can be started with the contents of a script:
 ```powershell
 dotnet script foo.csx -i
@@ -174,7 +174,7 @@ Alternatively, seed the REPL from inside the REPL:
 #load "foo.csx"
 ```
 
-# Piping in data
+# piping in data
 Data can be piped into a script:
 ```powershell
 echo "This is some text" | dotnet script file.csx

@@ -6,7 +6,7 @@ weight: 1
 ---
 Notes from [Razor Pages with Entity Framework Core in ASP.NET Core - Tutorial 1 of 8 | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-7.0)
 
-# Creating a Database
+# creating a database
 `Program.cs`  
 ```cs
 using (var scope = app.Services.CreateScope())
@@ -28,23 +28,23 @@ This allows for the following workflow for data model changes:
 
 When data exists that cannot be lost, use *migrations* instead of `EnsureCreated`.
 
-# Connection Strings
+# connection strings
 Connection strings are passed to `DbContexts` by calling a method on a `DbContextOptions` object.  
 In local development, ASP.NET Core reads the string from `appsettings.json` or `appsettings.Development.json`.
 
-# Primary Keys
+# primary keys
 By default, EF Core interprets a property that's named `ID` or `*classname*ID` as the primary key.
 
-# Navigation Properties
+# navigation properties
 *Navigation properties* are properties in a model that hold other entities related to this entity. For example, a `Student` may have a navigation property of `Enrollments` to hold all the `Enrollment` entities for that `Student`.  
 
 EF Core interprets a property as a foreign key if it's named `<navigation property name><primary key property name>`. For example, `StudentID` is the foreign key for the `Student` navigation property, since the `Student` entity's primary key is ID.
 - Foreign key properties can also be named `<primary-key-property-name>` such as `CourseID` since the `Course` entity's primary key is `CourseID`.
 
-# Seeding a Database
+# seeding a database
 Convention: create `Data/DbInitializer.cs` with code to [seed a database with test data](https://learn.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-7.0&tabs=visual-studio#seed-the-database).
 
-# Scaffolding
+# scaffolding
 EF Core's scaffolding engine does not support nullable reference types—the models used in scaffolding cannot use them either.  
 Scaffolding will automatically register the Context class it creates with DI.
 
@@ -57,7 +57,7 @@ This class lives in `Data/*Some*Context.cs`. This service is registered with DI.
 An *entity set* typically corresponds to a database table.  
 An *entity* corresponds to a row in the table.
 
-# Entity States
+# entity states
 The `DbContext` keeps track of the sync state between entities in memory and their corresponding rows in the database.
 An entity has these states:
 - `Added`—entity does not yet exist in database; `SaveChanges` will issue an `INSERT` statement
@@ -66,18 +66,18 @@ An entity has these states:
 - `Deleted`—entity marked for deletion; `SaveChanges` issues a `DELETE` statement
 - `Detached`—entity is not being tracked by database context
 
-# Visual Studio
+# visual studio
 Visual Studio can view databases: View > SQL Server Object Explorer (SSOX)
 
 # Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
 This package provides ASP.NET Core middleware for EF Core error pages.
 
-# Asynchronous Programming in EF Core
+# asynchronous programming in ef core
 EF Core uses async operations by default. However:
 - Only statements that cause queries or commands to be sent to the database are executed asynchronously.
 - An EF Core context is not thread safe — do not execute parallel operations.
 
-# Reading Entities
+# reading entities
 To read a single entity, prefer `FirstOrDefaultAsync` (which returns null if nothing is found) over:
 - `SingleOrDefaultAsync` which throws an exception if there's more than one entity that satisfies the query filter
 - `FindAsync` because you cannot use `Include` with this method.

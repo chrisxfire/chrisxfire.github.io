@@ -5,13 +5,13 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 HTTP logging middleware logs information about incoming HTTP requests and HTTP responses including common properties, headers, and the body.
 
 <o>Caution</o>: HTTP logging can reduce the performance of an app, especially when logging request/response bodies.  
 <r>Warning</r>: HTTP logging can potentially log personally identifiable information.
 
-# Enabling
+# enabling
 1. Call `AddHttpLogging` and `UseHttpLogging`:  
     `Program.cs`  
     ```cs {hl_lines=[3,7]}
@@ -38,14 +38,14 @@ HTTP logging middleware logs information about incoming HTTP requests and HTTP r
     "Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware": "Information"
     ```
 
-# Configuration
-## Order of Precedence
+# configuration
+## order of precedence
 Logging configuration follows this order of precedence:
 1. Global configuration from `HttpLoggingOptions` (set by calling `AddHttpLogging)`
 2. Endpoint-specific configuration (via `WithHttpLogging` extension method (Minimal API apps) or `[HttpLogging]` attribute (Controller-based apps))
 3. `IHttpLoggingInterceptor`
  
-## Overview
+## overview
 Use the lambda in `AddHttpLogging` to configure `HttpLoggingOptions`:
 ```cs
 // ...
@@ -74,8 +74,8 @@ From the above example:
 - `HttpLoggingOptions.RequestBodyLogLimit` and `ResponseBodyLogLimit` — set the limit, in bytes, to which to limit the logging of a request or response body.
 - `HttpLoggingOptions.CombineLogs` — boolean if all logs for a request and response should be consolidated into one log at the end.
 
-## Endpoint Logging Configuration
-### In Minimal API Apps
+## endpoint logging configuration
+### in minimal api apps
 Use `WithHttpLogging` extension method:
 ```cs
 app.MapGet("/response", () => "Hello World! (logging response)")

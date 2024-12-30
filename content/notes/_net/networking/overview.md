@@ -12,20 +12,20 @@ Common Types
 - DNS, IP Addresses, and Web Requests: `Dns`, `Uri`, `Cookie`, `WebClient`, `IPAddress`
 - FTP: `FtpStatusCode`, `FtpWebRequest`, `FtpWebResponse`
 
-# Uri
+# uri
 ```cs
 string url = "https://stackoverflow.com/search?q=securestring";
 Uri uri = new(url);
 ```
 
-## Fields
+## fields
 - `.Scheme` — https
 - `.Port` — 443
 - `.Host` — stackoverflow.com
 - `.Path` — /search
 - `.Query` — ?q=securestring
 
-## IPHostEntry
+## iphostentry
 ```cs
 IPHostEntry entry = Dns.GetHostEntry(uri.Host);
 
@@ -41,7 +41,7 @@ Types for working with low-level network protocols.
 
 Common Types: `IPStatus`, `NetworkChange`, `Ping`, `TcpStatistics`
 
-## Pinging
+## pinging
 ```cs
 Ping ping = new();
 PingReply reply = ping.Send(uri.Host);

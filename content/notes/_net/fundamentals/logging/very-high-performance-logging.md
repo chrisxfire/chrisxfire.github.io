@@ -5,7 +5,7 @@ draft: false
 weight: 3
 ---
 
-# Overview
+# overview
 > [!IMPORTANT]
 > Availability: .NET 6   
 
@@ -15,7 +15,7 @@ The `LoggerMessageAttribute`, part of `Microsoft.Extensions.Logging`, source-gen
 
 This implementation is significantly faster than [other](../high-performance-logging) [approaches](../overview)).
 
-# Usage
+# usage
 Use `LoggerMessageAttribute` on `partial` logging methods:
 ```cs
 public static partial class Log
@@ -61,7 +61,7 @@ public static partial class Log
 }
 ```
 
-## Logging Message Constraints
+## logging message constraints
 Logging methods must adhere to these constraints:
 1. They must be `partial` and return `void`
 2. Their names cannot start with an underscore

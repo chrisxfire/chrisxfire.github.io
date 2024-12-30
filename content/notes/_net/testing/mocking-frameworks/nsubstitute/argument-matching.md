@@ -15,8 +15,8 @@ Argument matchers can be used:
 1. when setting return values (with a call to `Returns()`)
 2. when validating calls (with a call to `Received()`)
 
-# Uses
-## Ignoring Arguments
+# uses
+## ignoring arguments
 Use `Arg.Any<T>()` to ignore an argument of type `T`:
 ```cs
 calculator.Add(Arg.Any<int>(), 5).Returns(7);
@@ -26,14 +26,14 @@ Assert.AreEqual(7, calculator.Add(123, 5));
 Assert.AreNotEqual(7, calculator.Add(1, 7)); 
 ```
 
-## Match an Argument
+## match an argument
 Use `Arg.Is<T>(T value)` to match an argument of type `T`:
 ```cs
 calculator.Add(0, 42);
 calculator.Received().Add(Arg.Is(0), Arg.Any<int>());
 ```
 
-## Conditionally Match an Argument
+## conditionally match an argument
 Use `Arg.Is<T>(Predicate<T> condition)` to conditionally match an argument of type `T`:
 ```cs
 calculator.Add(1, -10);

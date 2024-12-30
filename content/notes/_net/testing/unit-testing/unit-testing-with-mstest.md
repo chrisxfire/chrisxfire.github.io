@@ -10,7 +10,7 @@ weight: 1
 
 MSTest unit tests are created with `dotnet new mstest -o TestProjectName`.
 
-# MSTest Attributes
+# mstest attributes
 ## `TestClass` and `TestMethod`
 The `TestClass` attribute declares a class that contains unit tests and, optionally, initialization or cleanup methods.
 The `TestMethod` attribute declares a test method. Test methods must:
@@ -92,7 +92,7 @@ Also, `params` can be used to capture multiple inputs of `DataRow`:
 public void TestMethod(params int[] values) {}
 ```
 
-## Attributes for Initialization and Cleanup
+## attributes for initialization and cleanup
 Unless otherwise noted, all methods marked with these attributes:
 - Must be `static void` or `static Task` or `static async Task`
 - Can appear only once
@@ -168,7 +168,7 @@ When generating a unit test for a private method, a private accessor class is ge
 
 [More information](https://learn.microsoft.com/en-us/visualstudio/test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests?view=vs-2022#classes-used-with-private-accessors).
 
-# Unit Test Timeouts
+# unit test timeouts
 MSTest unit tests can be configured with a timeout:
 ```cs
 [TestMethod]

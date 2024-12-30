@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Generic Collection Inheritance
+# generic collection inheritance
 This visual describes the primary generic collection types in .NET and the interfaces they inherit.
 
 ![](./net-generic-collection-inheritance.svg)

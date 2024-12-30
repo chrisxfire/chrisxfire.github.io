@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 > Credit: https://docs.educationsmediagroup.com/unit-testing-csharp/moq
 > Credit: https://softchris.github.io/pages/dotnet-moq.html#creating-our-first-mock
 
@@ -36,13 +36,13 @@ mock.Setup(p => p.DoSomething(It.IsAny<string>())).Returns(true);
 var sut = new Service(mock.Object);
 ```
 
-# Configuring Method Calls
+# configuring method calls
 When the `DoSomething()` method is called with argument `"ping"`, the method should return `true`:
 ```cs
 mock.Setup(mock => mock.DoSomething("ping")).Returns(true);
 ```
 
-## Repeated Calls
+## repeated calls
 To test methods that should have different outcomes when called repeatedly:
 ```cs
 mock.SetupSequence(p => p.GetSomething(It.IsAny<string>())
@@ -73,7 +73,7 @@ var value = "This is a test value";
 mock.Setup(p => p.DoSomething(ref value));
 ```
 
-## Async Methods
+## async methods
 Use the Task's `Result` property:
 ```cs
 mock.Setup(mock => mock.DoSomethingAsync().Result).Returns(true);
@@ -84,21 +84,21 @@ Or, use `ReturnsAsync()`:
 mock.Setup(p => p.GetValueAsync()).ReturnsAsync(123);
 ```
 
-## Methods with Computed Return Values
+## methods with computed return values
 For this scenario, both `Returns()` and `ReturnsAsync()` have overloads that accept a delegate:
 ```cs
 mock.Setup(p => p.Add(It.IsAny<int>(), It.IsAny<int>())
     .Returns((int first, int second) => first + second);
 ```
 
-## Methods That Throw Exceptions
+## methods that throw exceptions
 ```cs
 mock.Setup(p => p.DoSomething()).Throws<Exception>());
 
 mock.Setup(p => p.DoSomethingAsync()).ThrowsAsync(new Exception());
 ```
 
-# Configuring Mocked Delegates
+# configuring mocked delegates
 Consider this delegate:
 ```cs
 public delegate int ParseString(string value);

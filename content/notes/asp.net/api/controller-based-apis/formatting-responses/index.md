@@ -44,7 +44,7 @@ public IActionResult GetById(long id)
 
 Actions can return POCOs. When they do, the runtime creates an `ObjectResult` that wraps the POCO and the client receives the serialized object in the response. If the object is `null`, HTTP 204/No Content is returned.
 
-## Accept Header
+## accept header
 When an HTTP request is received, ASP.NET Core follows this flow chart for content negotiation:  
 ![A flow chart describing the content negotiation decision for ASP.NET Core](accept-header-flowchart.png)
 
@@ -56,18 +56,18 @@ There are separate formatters for input and output. Output formatters are used t
 - [Configure System.Text.Json-based formatters](https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#configure-systemtextjson-based-formatters-2)
 - [Format ProblemDetails and ValidationProblemDetails responses](https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#format-problemdetails-and-validationproblemdetails-responses)
 
-# Specify a Format
+# specify a format
 Response formats can be restricted with the [Produces] filter.
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#specify-a-format-2
 
-# Special Case Formatters
+# special case formatters
 Some special cases are implemented with built-in formatters.
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#special-case-formatters-2
 
-# Response Format URL Mappings
+# response format url mappings
 Clients can request a particular format as part of the URL.
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/formatting?view=aspnetcore-7.0#response-format-url-mappings-2
 
-# Custom Formatters
+# custom formatters
 Custom formatters can be created.
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/advanced/custom-formatters?view=aspnetcore-7.0

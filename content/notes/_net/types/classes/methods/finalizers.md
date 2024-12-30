@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Finalizers
+# finalizers
 Each type can have a single finalizer that is called by the runtime when resources need to be released.  
 They release unmanaged resources like windows, files, network connections, or mutexes controlled by the OS.  
 They are also known as *destructors* (not *deconstructors*) because they destroy objects in memory.  
@@ -18,7 +18,7 @@ Finalizers do not take modifiers and they do not have parameters.
 .NET 5 and later no longer calls finalizers as part of application termination.
 - To perform cleanup reliably on app termination, register a handler for `System.AppDomain.ProcessExit`.
 
-# Example
+# example
 ```cs
 public class Animal : IDisposable 
 { // Inheriting IDisposable is optional.
@@ -59,7 +59,7 @@ public class Animal : IDisposable
 }
 ```
 
-# Implicit Translation
+# implicit translation
 Finalizers are implicitly translated to the following:
 ```cs
 protected override void Finalize() 

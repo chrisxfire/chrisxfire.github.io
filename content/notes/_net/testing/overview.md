@@ -9,12 +9,12 @@ weight: -1
 
 .NET supports various testing paradigms.
 
-# Types of Tests
+# types of tests
 * Unit tests — test individual components or methods ("units of work"). They only test code within the developer's control and not infrastructure.
 * Integration tests — tests two or more components' ability to function together (their "integration").
 * Load tests — tests whether a system can handle a specified load.
 
-# Testing Frameworks
+# testing frameworks
 * xUnit — free; open-source; a project of the .NET Foundation.
 * NUnit — ported from JUnit; a project of the .NET Foundation.
 * MSTest — Microsoft's test framework for all .NET languages.

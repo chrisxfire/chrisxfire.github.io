@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# overview
 - Multi-platform Application User Interface.
 - Generates native code for the target device.
 - MAUI leverages WinUI 3 (via Windows App SDK) for Windows apps.
@@ -22,13 +22,13 @@ weight: -1
 - .NET for macOS — leverages Mac Catalyst
 - .NET for Windows — leverages WinUI 3
 
-# Web
+# web
 Blazor Hybrid (Blazor + .NET MAUI) — Share Razor components with a .NET MAUI App.  
 ![](./overview-2.png)
  
-# UI
+# ui
 In MAUI, UI's can be created in XAML or C#.
 
-# Handlers
+# handlers
 MAUI uses handlers to carry out UI operations:  
 ![](./overview-3.png)

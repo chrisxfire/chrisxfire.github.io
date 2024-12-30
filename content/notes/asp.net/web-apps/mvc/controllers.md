@@ -25,18 +25,18 @@ Controller classes:
 - are suffixed with "Controller"
 - have the `[Controller]` attribute
 
-# Approach
+# approach
 If multiple controller actions require the same service, use constructor injection to request the dependencies.
 If the service is needed by only a single controller action, use action injection to request the dependency.
 
-# Define a Controller
+# define a controller
 Public methods on a controller are actions. Parameters on actions are bound to request data and are validated using model binding.  
 Validation occurs for everything that's model-bound.  `ModelState.IsValid` is boolean if binding and validating succeeded.  
 Actions usually return an `IActionResult` that produces a response.  
 - The action method chooses the type of response.
 - The `IActionResult` does the responding. 
 	
-## Controller Helper Methods
+## controller helper methods
 There are three types:
 1. Methods resulting in an empty response body
     1. HTTP Status Code result types:

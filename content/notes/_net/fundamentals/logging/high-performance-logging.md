@@ -9,7 +9,7 @@ weight: 2
 
 High-performance logging is achieved with `LoggerMessage`. This class exposes functionality to create delegates that can be cached. This approach requires fewer object allocations and reduced computational overhead vs. `ILogger`.
 
-# Create a logger message
+# create a logger message
 `LoggerMessage.Define(LogLevel, EventId, String)` configures an `Action` delegate that represents a log message. Each log message is stored in a static field created by `Define`.
 
 ```cs
@@ -68,7 +68,7 @@ protected override async Task ExecuteAsync(
 }
 ```
 
-# Logger Message Scope
+# logger message scope
 Use the `DefineScope` method.   
 > Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/high-performance-logging#define-logger-message-scope
 

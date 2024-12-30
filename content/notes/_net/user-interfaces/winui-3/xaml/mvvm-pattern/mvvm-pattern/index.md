@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# Model View ViewModel Pattern
-## View
+# model view viewmodel pattern
+## view
 - `.xaml` and corresponding `.xaml.cs` file
 - Visual elements (like `ListView`)
 
-## ViewModel
+## viewmodel
 - This is a model that is actually made for the View (hence "ViewModel")
 - Contains UI logic
 - ViewModel uses the Model
@@ -19,12 +19,12 @@ weight: 1
 - Usually contains a `LoadAsync()` method that uses the `DataProvider` to fill the `Customers` property
   - In the View's code-behind, create an event handler for the `Loaded` event. Call the `LoadAsync` method from this handler.
 
-## Model
+## model
 - `Customer` class
 - `DataProvider` class — in this case, a Customer DataProvider class that loads and saves customers (in a file, a database, or a web API, etc)  
 
 ![](./XAML_MVVM-Pattern-image1.png)
 
-# Advantages of MVVM
+# advantages of mvvm
 - ViewModel and Model are UI-independent
 - Maintainability and testability are increased since the UI and the UI logic are separated.

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Relationships define how two entities relate to each other.
 ```cs
 public class Blog

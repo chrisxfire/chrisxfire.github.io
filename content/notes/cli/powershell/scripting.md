@@ -5,14 +5,14 @@ draft: false
 weight: 1
 ---
 
-# Flow Control
-## For
+# flow control
+## for
 ```powershell
 for ($i=1; $i -le 10; $i++) {
     # ...
 }
 ```
-## Foreach
+## foreach
 ```powershell
 foreach ($item in $collection) {
     # ...
@@ -24,8 +24,8 @@ $x = "Some really long `
 value"
 ```
 
-# Strings
-## Concatenating
+# strings
+## concatenating
 ```powershell
 $x = "together"
 Write-Host "Smushed$x"

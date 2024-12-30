@@ -186,4 +186,4 @@ Business Case Development
 *   [Management of Risk 4 (M\_o\_R Practitioner)](https://www.axelos.com/certifications/propath/mor-risk-management/mor-4-practitioner)
 *   [P3O Foundation](https://www.axelos.com/certifications/propath/p3o-project-offices/p3o-foundation)
 
-## Related Content
+## related content

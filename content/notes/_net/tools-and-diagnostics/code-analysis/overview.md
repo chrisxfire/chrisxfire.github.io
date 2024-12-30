@@ -23,7 +23,7 @@ Code analysis rules consist of:
 
 Code analysis rules can be configured.
 
-## Severity
+## severity
 Each code analysis rule (both code quality and code style) has a severity level:
 | Solution Explorer | EditorConfig | Editor behavior          | Build behavior |
 | ----------------- | ------------ | ------------------------ | -------------- |
@@ -37,7 +37,7 @@ Hidden (`silent`) means Visual Studio will still show a code fix if available. N
 
 Severity can be configured via an EditorConfig file where it takes precedence over rule sets (*deprecated*) and Solution Explorer.  
 
-### Severity Scope
+### severity scope
 For a single analyzer rule:
 * `dotnet_diagnostic.RULE_ID.severity=SEVERITY`  
 
@@ -52,7 +52,7 @@ For all analyzer rules:
 
 For multiple analyzer rules, precedence is *Individual rule by ID > Category > All analyzer rules*.
 
-## Analysis Mode
+## analysis mode
 Each project has an *analysis mode*. This mode determines the set of analysis rules that are enabled. It is configured with the `<AnalysisMode>` MSConfig property:
 | Setting       | Description                                                                                                                                                      |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -69,7 +69,7 @@ In .NET 6+, Analysis Mode can be replaced with Analysis Level. This is configure
 
 <o>Note</o>: `AnalysisMode` and `AnalysisLevel` take precedence over any configuration in `.editorconfig`.
 
-## Excluding Generated Code
+## excluding generated code
 Automatically generated code files, like designer-generated files, can be excluded from code analysis.
 
 > Documentation: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-options#exclude-generated-code
@@ -79,7 +79,7 @@ Code analysis rule configurations are stored in one of two configuration files:
 1. EditorConfig files (file or folder-based configuration options)
 2. Global AnalyzerConfig file (project-level configuration)
 
-### EditorConfig
+### editorconfig
 EditorConfig files apply to specific source files or folders. This example applies to all `.cs` files in the current folder, including subfolders:
 ```ini
 [*.cs] # The section header determines what files these rules apply to
@@ -90,7 +90,7 @@ See [notes on EditorConfig](../editorconfig).
 
 ### AnalyzerConfig [[Documentation](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/configuration-files#global-analyzerconfig)]  
 
-## Suppressing Warnings
+## suppressing warnings
 Code analyzer warnings can be suppressed in several ways.
 
 > Documentation: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/suppress-warnings
@@ -100,7 +100,7 @@ These rules inspect code for security, performance, design and other issues.
 
 [See here] for a full list of rules(https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/#index-of-rules).
 
-## Options
+## options
 Code quality rules have options that can be configured besides severity.  
 [See here](https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-quality-rule-options#options) for a list of options.
 
@@ -115,7 +115,7 @@ Code style rules consist of [language rules](https://learn.microsoft.com/en-us/d
 
 [See here] for a full list of rules(https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/#index).
 
-# Preventing Rule Updates
+# preventing rule updates
 By default, code analysis rules are updated as you upgrade to newer versions of the .NET SDK. This behavior can be suppressed.
 
 > Documentation: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/overview?tabs=net-7#latest-updates

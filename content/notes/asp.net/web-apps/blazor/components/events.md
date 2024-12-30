@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 DOM events can be assigned an event handler to execute code when the event is triggered:  
 `@onsomeDOMevent="Delegate"`
 	
@@ -22,7 +22,7 @@ Example
     }
 }
 ```
-# Default Event Arguments
+# default event arguments
 Some events support event arguments.  For example:
 - `@onclick` passes `MouseEventArgs`
 - `@onkeydown` passes `KeyboardEventArgs`

@@ -5,13 +5,13 @@ draft: false
 weight: 3
 ---
 
-# Overview
+# overview
 - Documentation: https://getbootstrap.com/docs/5.3/layout/containers/
 - A build block that contains, pads, and aligns content within a given device or viewport.
 - <o>Required when using default grid system</o>.
 - Can be nested, but most layotus do not require this.
 
-# 3 Containers
+# 3 containers
 - `.container` — sets a `max-width` at each responsive breakpoint
 - `.container-<breakpoint>` — uses `width: 100%` until the specified breakpoint
 - `.container-fluid` — sets `width: 100%` at all breakpoints
@@ -27,15 +27,15 @@ Comparison:
 | `.container-xxl`   | 100%         | 100%          | 100%         | 100%            | 100%             | 1320px |
 | `.container-fluid` | 100%         | 100%          | 100%         | 100%            | 100%             | 100%   |
 
-# Usage
-## Default container
+# usage
+## default container
 ```css
 <div class="container">
   <!-- Content here -->
 </div>
 ```
 
-## Responsive containers
+## responsive containers
 ```css
 <div class="container-sm">100% wide until small breakpoint</div>
 <div class="container-md">100% wide until medium breakpoint</div>
@@ -44,14 +44,14 @@ Comparison:
 <div class="container-xxl">100% wide until extra extra large breakpoint</div>
 ```
 
-## Fluid containers
+## fluid containers
 ```css
 <div class="container-fluid">
   ...
 </div>
 ```
 
-# Customize
+# customize
 In `scss/_variables.css`:
 ```css
 $container-max-widths: (

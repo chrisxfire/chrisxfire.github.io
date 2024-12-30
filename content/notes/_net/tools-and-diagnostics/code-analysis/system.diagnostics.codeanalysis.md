@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Classes in the `System.Diagnostics.CodeAnalysis` namespace are used to analyze code for conformance to coding conventions.
 | Class                                   | Description                                                                                                                                                                 |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,7 +34,7 @@ Classes in the `System.Diagnostics.CodeAnalysis` namespace are used to analyze c
 | `UnconditionalSuppressMessageAttribute` | Suppresses reporting of a specific rule violation, allowing multiple suppressions on a single code artifact.                                                                |
 | `UnscopedRefAttribute`                  | Used to indicate a byref escapes and is not scoped                                                                                                                          | . |
 
-# StringSyntaxAttribute
+# stringsyntaxattribute
 Attribute to indicate what kind of syntax is expected in a string.
 
 For example, you can specify that a string parameter expects a regular expression by attributing the parameter with `[StringSyntax(StringSyntaxAttribute.Regex)]`.

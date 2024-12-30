@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Iterators
+# iterators
 Iterators are objects that traverse a container. They yield return each element one at a time.
 - Each time yield return is reached, the current location in code is remembered.
 - The next time the iterator is called, execution restarts from that location.
@@ -13,7 +13,7 @@ Iterators return IEnumerable, IEnumberable<T> or IEnumerator, IEnumerator<T>.
 In asynchronous operations, they return IAsyncEnumerable<T> or IAsyncEnumerator<T>.
 Iterators can be a method or a *get* accessor.
 
-# Creating Iterator Methods
+# creating iterator methods
 ```cs
 public IEnumerable<int> EvenSequence(int firstnum, int lastnum) 
 {
@@ -35,7 +35,7 @@ public static IEnumerable SomeNumbers()
     yield return 9;
 }
 ```
-# Using Iterators
+# using iterators
 Iterators are called with a foreach statement:
 ```cs
 foreach (int number in EvenSequence(5, 18)) 

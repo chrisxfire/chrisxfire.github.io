@@ -7,17 +7,17 @@ weight: 1
 
 (Notes from Pluralsight/ASP.NET Core 6 Fundamentals)
 
-# Overview
+# overview
 Prior to Entity Framework Core, the approach to bring data into a web app was ADO.NET. This was low-level and required developers to know a lot of SQL. EF Core makes this easier.
 
 ![](./Notes-from-ASP.NET-Core-6-Fundamentals-Pluralsight-course-image1.png)
 
 EF Core looks for a property named `Id` or `ClassNameId` and makes that the Primary Key in the database.
 
-# EF Core Change Tracking
+# ef core change tracking
 The EF Core Data context keeps tracks of changes in data objects and updates them in the database.
 
-# Adding EF Core to an App
+# adding ef core to an app
 1.  Add packages
     1.  `Microsoft.EntityFrameworkCore.SqlServer`
     2.  `Microsoft.EntityFrameworkCore.Tools` for various commands and support for migrations
@@ -62,7 +62,7 @@ It is placed in `appsettings.json:`
         })
     ```
 
-# Querying for Data Using LINQ
+# querying for data using linq
 ```cs
 _bethanysPieShopDbContext.Pies // return Pies
     .Include(c => c.Category) // including the Category to which they belong (a different table)

@@ -11,7 +11,7 @@ C# source files can contain structured comments (*XML doc)* that produce API doc
 The compiler creates an XML files that contains structured data representing the comments and the API signatures. 
 Other tools can process these XML files to produce human-readable documentation.
 
-# Generating XML Documentation
+# generating xml documentation
 To enable XML documentation:  
 `.csproj`
 ```xml
@@ -22,20 +22,20 @@ To enable XML documentation:
 
 With this switch enabled, the compiler generates warning CS1591 for any publicly visible member without XML doc.
 
-# XML Comment Style Guide
+# xml comment style guide
 - All public types and their public members should be documented.
 - At minimum, types and their members should have a `<summary>` tag.
 - Private members can be documented, but consider that this exposes the inner workings of a type.
 - Documentation text should be written using complete sentences with full stops.
 - Partial classes are fully supported and the documentation is concatenated into a single entry for each type.
 
-# General Constructs
+# general constructs
 - `///` — Single-line delimiter. Any following whitespace is ignored.
 - `/** */` — Multi-line delimiter. Used for comments. Comments are not included in the compiled assembly.
 - `cref` — A tag meaning "code reference." Specifies that the text is a code element (a type, method, property, etc).
 - `href` — A reference to a web page. Used to link directly to a web page.
 
-# General Tags
+# general tags
 ## `<summary>`
 - Describes a type or a type member.
 - The text in this tag is the only source of information for IntelliSense.
@@ -53,7 +53,7 @@ With this switch enabled, the compiler generates warning CS1591 for any publicly
 </remarks>
 ```
 
-# Member Tags
+# member tags
 ## `<returns>`
 - Used in the comment for a method declaration to describe the return value.
 
@@ -92,7 +92,7 @@ With this switch enabled, the compiler generates warning CS1591 for any publicly
 <value>property-description</value>
 ```
 
-# Formatting Tags
+# formatting tags
 ## `<para>`
 - Used inside other tags to create a double-spaced paragraph.
 - Use `<br />` for a single-spaced paragraph.
@@ -158,7 +158,7 @@ This shows how to increment an integer.
 </example>
 ```
 
-# Tags for Generic Types and Methods
+# tags for generic types and methods
 ## `<typeparam>`
 - Used in the comment for a generic type or method to describe a type parameter.
 
@@ -173,7 +173,7 @@ This shows how to increment an integer.
 <typeparamref name="TKey"/>
 ```
 
-# Reusing Documentation Text
+# reusing documentation text
 ## `<inheritdoc>`
 - Inherits XML comments from base classes, interfaces, and similar methods (such as `MethodName` and `MethodNameAsync`).
  - With no arguments, this inheritance is automatic.

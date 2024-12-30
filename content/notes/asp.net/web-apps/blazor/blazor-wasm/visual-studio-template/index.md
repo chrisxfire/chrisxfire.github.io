@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 This brace map describes the file structure of the Visual Studio Blazor WASM template.
 
 ![](./blazor-wasm-visual-studio-template.svg)

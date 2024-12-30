@@ -27,7 +27,7 @@ The `System.IO` namespace contains types to:
 
 See [Notes on File IO](../file-io).
 
-# Overview of Types for Streams
+# overview of types for streams
 | Type                        | Use                                                   |
 | --------------------------- | ----------------------------------------------------- |
 | `FileStream`                | Reading/writing a file                                |
@@ -40,7 +40,7 @@ See [Notes on File IO](../file-io).
 
 See [Notes on Streams](../streams).
 
-# Overview of Types for Compression
+# overview of types for compression
 From the `System.IO.Compression` namespace:
 | Type                | Use                                                               |
 | ------------------- | ----------------------------------------------------------------- |
@@ -57,7 +57,7 @@ See [Notes on Compression and Decompression](../file-io#compression-and-decompre
 Many of the APIs in the `System.IO` namespace can be placed on a spectrum of *convenience* vs *control*. 
 These APIs are listed from low level (most control) to high level (most convenient)
 
-## Reading a Text File
+## reading a text file
 1. `File.OpenHandle` + `RandomAccess.Read` (most control)
 2. `File.Open` + `FileStream`.Read`
 3. `File.OpenText` + `StreamReader.ReadLine`
@@ -65,7 +65,7 @@ These APIs are listed from low level (most control) to high level (most convenie
 5. `File.ReadAllLines` + `string[]`
 6. `File.ReadAllText` + `string` (most convenient)
 
-## Reading JSON Text
+## reading json text
 1. `Utf8JsonReader` + `Pipelines` or `Stream` (most control)
 2. `JsonDocument` + `Stream`
 3. `JsonSerializer` + `Stream`

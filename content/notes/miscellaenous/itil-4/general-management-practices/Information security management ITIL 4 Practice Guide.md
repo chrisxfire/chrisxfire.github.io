@@ -745,6 +745,6 @@ Stuart Rance, Ana Cecilia Perez, Mauricio Corona
 
 Dinara Adyrbayeva, Pavel Demin
 
-### References
+### references
 
 1.  https://www.iso.org/obp/ui/#iso:std:iso-iec:27001:ed-2:v1:en \[Accessed 3rd February 2020\]This definition is different from the one used for the availability management practice. Service availability is defined differently from the availability of information.

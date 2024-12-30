@@ -11,7 +11,7 @@ tags:
 A projection operation transforms an object into a new form that often consists only of those properties that will be 
 subsequently used.
 
-# Methods
+# methods
 | Method       | Description                                                                                                | Query expression        |
 | ------------ | ---------------------------------------------------------------------------------------------------------- | ----------------------- |
 | `Select`     | Project values that are based on a transform function                                                      | `select`                |

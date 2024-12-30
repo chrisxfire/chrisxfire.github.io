@@ -18,10 +18,10 @@ For `WebHost` (`ConfigureWebHostDefaults`, `CreateDefaultBuilder`), `ASPNETCORE_
 - The `launchSettings.json` file sets `ASPNETCORE_ENVIRONMENT` to `Development` on the local machine.
 - Set to `Production` if `ASPNETCORE_ENVIRONMENT` and `DOTNET_ENVIRONMENT` have not been set.
 
-# Setting Environment From Command Line
+# setting environment from command line
 `dotnet run --environment Production`
 
-# Development Environment
+# development environment
 ## `launchSettings.json`
 The environment for local machine development can be set in `Properties/launchSettings.json`.
 - Is used only on the local development machine
@@ -60,11 +60,11 @@ The environment for local machine development can be set in `Properties/launchSe
 }
 ```
 
-## Selecting Profiles From Command Line
+## selecting profiles from command line
 `dotnet run --launch-profile "profile-name"`
 * <o>Note</o>: this approach *only* supports Kestrel profiles
 
-# Production Environment
+# production environment
 Common settings for production environment:
 * Caching
 * Client-side resources bundled, minified, and potentially served from CDN
@@ -74,7 +74,7 @@ Common settings for production environment:
 
 <o>Note</o>: If the environment is not set, *it defaults to production*.
 
-# Set Environment with VS Code
+# set environment with vs code
 The `commandName` property specifies the web server to launch: `IISExpress`, `IIS` (no web server launched; expects IIS to be available), or `Project`.
 
 In Visual Studio Code, the environment variables can be set in `.vscode/launch.json`:
@@ -96,7 +96,7 @@ In Visual Studio Code, the environment variables can be set in `.vscode/launch.j
           }
 ```
 
-# Set Environment with Environment Variables
+# set environment with environment variables
 For the current session:  
 ```powershell
 $Env:ASPNETCORE_ENVIRONMENT = "Staging"
@@ -109,7 +109,7 @@ For all sessions globally:
 dotnet run --no-launch-profile # Must use no launch profile since launchSettings.json overrides environment variables
 ```
 
-# Set Environment in Code
+# set environment in code
 ```cs
 var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 {

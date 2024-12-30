@@ -5,13 +5,13 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 `Object` –> `Attribute`  
 - Attributes associate metadata with code.  Once associated, attributes can be queried at runtime using reflection.  
 - Attributes from the .NET library trigger certain behaviors in the compiler.  
 - User-defined attributes only act as metadata.
 
-## Targets
+## targets
 Attributes are generally declared above the code they are associated to.  Attributes can be called with a target using this form:  
 `[target : attribute1, attribute2, …]`  
 Attributes can target:
@@ -36,7 +36,7 @@ Associating to a return value:
 int MethodY() { return 0; }
 ```
 
-## Usage
+## usage
 ```cs
 [SomeAttribute("argument")]
 ```
@@ -63,13 +63,13 @@ This is equivalent to:
 var attr = new ObsoleteAttribute("string")
 ```
 
-## Common Uses
+## common uses
 - Marking methods using `WebMethodAttribute` in web services to indicate that they method should be callable over SOAP.
 - Calling unmanaged code using `DLLImportAttribute.`
 - Describing an assembly's title, version, description, or trademark.
 - Describing which members of a class to serialize for persistence.
 
-## Common Attributes
+## common attributes
 ```cs
 [AssemblyVersion]
 [AssemblyInformationalVersion]
@@ -81,7 +81,7 @@ var attr = new ObsoleteAttribute("string")
 [RequiresPreviewFeatures] // Indicates the assembly, type, or member uses preview features.  Issues a compiler warning.
 ```
 
-# Creating Attributes
+# creating attributes
 Attributes are created by defining a class that inherits from Attribute.  
 ```cs
 [AttributeUsage(AttributeTargets.Class |	// This restricts the attribute to Classes
@@ -99,7 +99,7 @@ public class AuthorAttribute : System.Attribute {	// This class defines the attr
 }
 ```
 
-## Using a Created Attribute
+## using a created attribute
 ```cs
 using System.Runtime.CompilerServices
 [Author("C. H.", version = 0.1)]
@@ -112,7 +112,7 @@ Author anonymousAuthorObject = new Author("C. H.");
 anonymousAuthorObject.version = 0.1;
 ```
 
-## Accessing Attributes
+## accessing attributes
 Attributes are accessed using `GetCustomAttributes()`.  When accessed, anAuthor object is constructed and initialized as above.  It returns an array:  
 `System.Attribute[] attrs = System.Attribute.GetCustomAttributes(t);`
 

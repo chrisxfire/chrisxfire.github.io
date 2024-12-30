@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Authenticate
+# authenticate
 ```powershell
 gh auth login 
 	--git-protocol ssh | https 
@@ -21,12 +21,12 @@ gh auth status
 gh auth token
 ```
 
-# Aliases
+# aliases
 ```powershell
 gh alias set prd "pr create --draft" # gh prd will now run gh pr create --draft
 ```
 
-# Browse
+# browse
 ```powershell
 gh browse # Open browser to issue/PR #
 gh browse filename:line-number
@@ -44,7 +44,7 @@ gh browse
 gh codespace # Manage codespaces
 ```
 
-# Config
+# config
 ```powershell
 gh config get key
 gh config list
@@ -61,7 +61,7 @@ http_unix_socket # the path to a Unix socket through which to make an HTTP conne
 browser # the web browser to use for opening URLs
 ```
 
-# Forks
+# forks
 ```powershell
 gh repo fork # Fork the current repo
 gh repo fork owner/repo
@@ -76,7 +76,7 @@ gh gist
 
 # [GPG-Key](https://cli.github.com/manual/gh_gpg-key)
 
-# Help
+# help
 ```powershell
 gh help command
 ```

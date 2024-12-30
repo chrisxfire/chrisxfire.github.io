@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Every element in XAML has a RequestedTheme property that can be set to either "Dark" or "Light". If the element is not set, it defaults to whatever Windows is currently using.
 
-# Defining and Using Theme Resources
+# defining and using theme resources
 `App.xaml`
 ```xml
 <Application RequestedTheme="Dark">
@@ -51,7 +51,7 @@ private void ButtonToggleTheme_Click(object sender, RoutedEventArgs e)
 // …
 ```
 
-# Creating Custom Theme Resources
+# creating custom theme resources
 The background of the Navigation does not change to a light background because it is hard-coded to dark grey.
 
 Add the `SolidColorBrush` that is used on the Navigation to the application-wide resources in the `ThemeDictionaries`:

@@ -7,7 +7,7 @@ weight: 1
 
 From Pluralsight/ASP.NET Core 6 Fundamentals
 
-# ViewModels
+# viewmodels
 ## ViewModels (strongly typed)
 If you specify a model type in the view, we call this a `ViewModel`.  An instance of the `ViewModel` is passed to the view from the action.
 

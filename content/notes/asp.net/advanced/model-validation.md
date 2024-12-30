@@ -30,7 +30,7 @@ public async Task<IActionResult> Create(Movie movie)
 Note: Web API controllers do not need to check `ModelState.IsValid` if they are decorated with `[ApiController]` — assuming [automatic HTTP 400](../../api/controller-based-apis/overview#automatic-http-400-responses) responses are enabled (default).
 
 
-# Repeating Validation
+# repeating validation
 Although validation is automatic, it can be re-run if needed by calling `ModelStateDictionary.ClearValidationState` and then `TryValidateModel`:
 ```cs {hl_lines=[6,7]}
 public async Task<IActionResult> OnPostTryValidateAsync()
@@ -49,7 +49,7 @@ public async Task<IActionResult> OnPostTryValidateAsync()
 }
 ```
 
-# Validation Attributes
+# validation attributes
 Use to define validation rules for model properties:
 ```cs
 public class Movie
@@ -74,14 +74,14 @@ public class Movie
 
 See also: [System.ComponentModel.DataValidation](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=net-7.0)
 
-## Error Messages
+## error messages
 Validation attributes allow for defining the error message that is displayed on invalid input:
 ```cs
 // {0} is the property name; {2} is MinimumLength and {1} is StringLength:
 [StringLength(8, ErrorMessage = "{0} length must be between {2} and {1}.", MinimumLength = 6)]
 ```
 
-## Use JSON Property Names in Validation Errors
+## use json property names in validation errors
 Configure like this. Note that the JsonNamingPolicy is optional:
 ```cs {hl_lines=[7,8]}
 using Microsoft.AspNetCore.Mvc.ModelBinding.Metadata;
@@ -143,7 +143,7 @@ Implements client-side validation that requires calling a method on the server t
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-7.0#remote-attribute
 
-## Custom Attributes
+## custom attributes
 Use custom attributes in scenarios where built-in attributes are insufficient.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-7.0#custom-attributes
@@ -181,5 +181,5 @@ Prevents submission until the form is valid. There is a jQuery Unobtrusive Valid
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-7.0#client-side-validation
 
-# Problem Details
+# problem details
 See [notes on Problem Details](../../fundamentals/error-handling#problem-details)

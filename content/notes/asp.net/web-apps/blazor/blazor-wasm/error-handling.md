@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 During development, when Blazor apps encounter an error, it displays a light yellow bar the bottom of the screen.
 Customize it in `wwwroot/index.html`:
 ```html

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# In XAML
+# in xaml
 `Grid.Column` is an *attached property*; it is a property defined in the `Grid` class but set on the `Rectangle.`  
 ![](./XAML_UI_Attached-Properties-image1.png)
 

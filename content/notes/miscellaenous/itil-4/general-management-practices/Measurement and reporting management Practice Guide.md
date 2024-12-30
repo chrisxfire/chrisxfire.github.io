@@ -645,7 +645,7 @@ Nikolay Butrimovich, Roman Jouravlev.
 
 Erika Flora, Graham Heard, Anton Lykov, Irina Matantseva.
 
-### References
+### references
 
 1.  For more on the four reasons for measurement, see ITIL® 4: Direct, Plan and Improve, section 4.1.3Organizations measure their activities, resources (in all four dimensions of service management), and products and services.
 2.  https://www.linkedin.com/pulse/five-steps-build-kpi-scorecard-almost-anything-dmitry-isaychenko/ \[accessed 16th April 2020\]

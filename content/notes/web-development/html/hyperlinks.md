@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Links are defined with an `<a>` tag and the link's destination is assigned to the href *attribute*:
 ```html
 <a href="https://www.w3schools.com">This is a link</a>
@@ -28,7 +28,7 @@ Values:
 - `_parent` — in parent frame
 - `_top` — full body of current window
 
-# Bookmarks
+# bookmarks
 Bookmarks allow page visitors to jump to certain parts of the page.
 
 Create a bookmark via the id attribute of an element:

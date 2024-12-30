@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Proxy
+# proxy
 Type: Structural  
 Purpose:  
 Use to:  

@@ -5,15 +5,15 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 These notes discuss the differences between *project references*, *file references*, *class libraries*, and *shared projects* in Visual Studio.
 
-# References 
+# references 
 A *reference* is an entry in a project file that Visual Studio uses to locate a code component.
 
 Consider buildable project `A` which references buildable project `B`. Since `B` (like `A`) produces an assembly, you can reference either the *project* (*project reference*) or the *assembly* (*file reference*). 
 
-## Project References 
+## project references 
 A *project reference* is a references to a project's code even if it contains an assembly.  
 
 If `A` references `B`'s project, this creates a dependency between the two in the build system:
@@ -24,7 +24,7 @@ If `A` references `B`'s project, this creates a dependency between the two in th
 
 In Visual Studio, project references are added from **Reference Manager > Projects**.
 
-## File References
+## file references
 If `A` references `B`'s assembly (*file reference*), this does not create a dependency. However, this also means that `A` could be referencing an outdated version of `B`.
 
 With *project references*, `A` is always referring to the latest version of `B`'s code.  
@@ -32,12 +32,12 @@ With *file references*, `A` refers to a specific point-in-time binary output of 
 
 In Visual Studio, file references are added from **Reference Manager > Browse**.
 
-# Class Libraries
+# class libraries
 *Class libraries* are also called *.NET standard class libraries*.  Formerly, they were known as *Portable Class Libraries*.
 
 In Visual Studio, class libraries are referenced from **Reference Manager > Projects**.
 
-# Shared Projects
+# shared projects
 *Shared projects* are code that is not compiled into an independent, buildable project.  Instead, the code is referenced by—and compiled into—a buildable project.
 
 Consider project buildable project `X` and shared project `Y`. If `X` references `Y`, when `X` is compiled, the code in `Y` will be compiled into `X`'s assembly.

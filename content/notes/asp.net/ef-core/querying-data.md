@@ -5,24 +5,24 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 EF Core uses LINQ to query data from the database.
 
-# Loading all data
+# loading all data
 ```cs
 using var context = new BloggingContext();
 
 var blogs = context.Blogs.ToList();
 ```
 
-# Loading a single entity
+# loading a single entity
 ```cs
 using var context = new BloggingContext();
 
 var blog = context.Blogs.Single(b => b.BlogId == 1);
 ```
 
-# Filtering
+# filtering
 ```cs
 using var context = new BloggingContext();
 

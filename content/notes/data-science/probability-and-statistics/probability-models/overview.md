@@ -5,11 +5,11 @@ draft: false
 weight: -1
 ---
 
-# Probability Models
+# probability models
 Analysis starts with exploration, visualization, summary…  
 …and then often continues with building probability models (OSMEN framework).
 
-# The Data Science Process
+# the data science process
 1. Ask an interesting question
    1. What is the scientific goal?
    2. What would you do if you had all the data?
@@ -31,7 +31,7 @@ Analysis starts with exploration, visualization, summary…
    2. Do the results make sense?
    3. Can we tell a story?
 
-# Probability Distribution Models
+# probability distribution models
 Definitions:
 - **Probability model** — predicts values of uncertain quantities.
 - **Uncertain quantities** are modeled as **random variables** (assuming the quantities are discrete and not continuous).
@@ -45,7 +45,7 @@ Notes:
 - **Probability Density** – The probability of a continuous probability distribution.
   - Example: A man does not have a probability of being 6 feet tall, but he does have a probability of being between 5 and 6 feet tall.
 
-# Multivariate Probability Models
+# multivariate probability models
 A **multivariate probability model** provides a **conditional probability distribution** for output `y` given observed values of input `x`.
 `P(y | x)` – conditional probability of `y` given `x` (R uses `~` instead of `|`)
 - x = **independent variables** (aka explanatory variables, predictors)
@@ -56,7 +56,7 @@ A **multivariate probability model** provides a **conditional probability distri
 
 **Cumulative Distribution Function** (CDF) – Returns the probabilities that the outcome falls inside a specified interval.
 
-# Main Steps in Probability Modeling
+# main steps in probability modeling
 1. Select a model to describe data (or, learn models from data (ie: machine learning))
 2. Fit the model to data
    1. Estimate parameters (ie: regression coefficients)
@@ -68,21 +68,21 @@ A **multivariate probability model** provides a **conditional probability distri
    1. A probabilistic prediction is a probability distribution
 5. Apply the model to decisions
 
-# Useful Probability Models
+# useful probability models
 These are all probability models because they all calculate conditional probabilities for outputs given observed inputs.
 
-## Probability distribution models
+## probability distribution models
 - Binomial distribution (2 outcomes)
 - Normal distribution (continuous outcome, sums of independent random variables)
 - Poisson distribution (count outcome, number of rare events)
 
-## Regression models
+## regression models
 - Logistic (binary dependent variable (ie: death, pregnancy))
 - Linear (for continuous dependent variable)
 - Poisson or generalized Poisson (for count dependent variables)
 - Flexible regression models (nonparametric (smoothing) regression)
 
-## Others
+## others
 - Time series and dynamic regression models (trends; changes over time)
 - Bayesian networks (many variables affecting each other)
 - Survival models

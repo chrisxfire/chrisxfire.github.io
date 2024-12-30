@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Razor templates allow you to define a UI snippet:   
 `@<tag>...</tag>`
 
-# Define a Template
+# define a template
 Templates are defined as delegates.  Consider `Pet.cs`:  
 ```cs
 public class Pet
@@ -46,7 +46,7 @@ Rendered HTML:
 <p>You have a pet named <strong>K-9</strong>.</p>
 ```
 
-# Use an Inline Razor Template as a Method Argument
+# use an inline razor template as a method argument
 Like this:
 ```html
 @using Microsoft.AspNetCore.Html

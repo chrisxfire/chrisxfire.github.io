@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Template for PPDAC Case Studies
+# template for ppdac case studies
 - Problem: What question(s) were addressed? (Why? Why does it matter?)
 	- Does distribution of outcome Y depend significantly on variable(s) X? How? On what else does Y depend?
 - Plan: How will we use data to address the question?

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Some Razor Components modify the HTML `<head>` element's content of a page.
 
 # HTML `<title>` Element and `PageTitle` Component
@@ -53,7 +53,7 @@ Set the content of the `<head>` element with a `HeadContent` component.  This pr
 # `HeadOutlet` Component
 Renders content provided by `HeadContent` and `PageTitle` components.
 
-## In Blazor WASM
+## in blazor wasm
 The `HeadOutlet` component is added to the `RootComponents` collection in `Program.cs`:
 ```cs
 builder.RootComponents.Add<HeadOutlet>("head::after");
@@ -61,7 +61,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 By using the `::after` pseudo-selector, contents of the root component appended to existing head contents instead of replacing them.
 
-## In Blazor Server
+## in blazor server
 A component tag helper in `Pages/_Host.cshtml` renders `<head>` content for the `HeadOutlet` component:
 ```html
 <head>

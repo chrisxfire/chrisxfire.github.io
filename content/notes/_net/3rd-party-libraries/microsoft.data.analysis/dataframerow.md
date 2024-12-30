@@ -10,8 +10,8 @@ weight: 1
 
 A collection of values that represent a row in a `DataFrame`.
 
-# Properties
+# properties
 - `Item(index)` - Returns the value at index.
 
-# Methods
+# methods
 - `GetEnumerator()` - Returns an enumerator of the values in this row.

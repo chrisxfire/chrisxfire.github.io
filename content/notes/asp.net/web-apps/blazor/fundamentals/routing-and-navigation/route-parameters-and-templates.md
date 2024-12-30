@@ -23,7 +23,7 @@ Constant-based route templates can be specified with `@attribute`:
 @attribute [Route(Constants.CounterRoute)]
 ```
 
-# Route Parameters
+# route parameters
 The text segment (case-insensitive) assigns the value of the route segment to the component's `Text` property (which is a Parameter), if it exists:
 ```html
 @page "/route-parameter-2/{text?}"
@@ -49,7 +49,7 @@ protected override void OnParametersSet()
 }
 ```
 
-# Constraining Route Parameters
+# constraining route parameters
 Route constraints enforce type matching on a route segment to a component:  
 `Pages/User.razor`
 ```html
@@ -88,7 +88,7 @@ To capture paths across multiple folder boundaries, use a catch-all route parame
 ```
 For URL `/catch-all/this/is/a/test`, the above route template sets the value of `PageRoute` to `this/is/a/test`.
 
-# Query Strings
+# query strings
 To obtain parameter values from a query string:
 ```cs
 [Parameter]

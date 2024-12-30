@@ -5,6 +5,6 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - For Blazor Server, see the [ASP.NET Core Configuration section](../../../../fundamentals/configuration).
 - For Blazor WASM, see the [Blazor WASM Configuration section](../../blazor-wasm/configuration)

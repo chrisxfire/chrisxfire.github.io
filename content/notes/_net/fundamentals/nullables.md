@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Dereferencing
+# dereferencing
 Accessing a member of a variable through the dot operator.
 - Dereferencing a null variable whose value is null is a `NullReferenceException`.
 
-# Checking for Null
+# checking for null
 ```cs
 void FindRoot(Node node, Action<Node> processNode) {
 	// If this wasn't checked first…
@@ -27,7 +27,7 @@ Also:
 if (message is not null) { … } 
 ```
 
-# Using Utility Methods to Check for Null
+# using utility methods to check for null
 If you have a private utility method like `IsNotNull()` to check for null, you must add an attribute to its signature to tell the compiler what it does:
 ```cs
 private static bool IsNotNull([NotNullWhen(true)] object? obj) => obj != null;
@@ -119,7 +119,7 @@ public class Person {
 }
 ```
 
-# Allow Reference Types to Hold Null Value
+# allow reference types to hold null value
 By default in .NET 6+, reference types cannot hold null values.  To override this, at the top of a code file:
 ```cs
 #nullable disable

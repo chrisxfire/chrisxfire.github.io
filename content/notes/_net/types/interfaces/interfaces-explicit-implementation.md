@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Explicit Interface Implementation
+# explicit interface implementation
 [Internal Interface Classes in C# | Alex Franchuk](https://alexfranchuk.com/blog/internal-interface-classes-in-csharp/)
 Interfaces can be explicitly implemented. Assume a case where a class implements two interfaces that have a member with the same signature:
 ```cs
@@ -49,7 +49,7 @@ control.Paint();
 surface.Paint();
 ```
 
-# Explicit Interface Member Implementation
+# explicit interface member implementation
 ```cs
 interface IDimensions 
 {

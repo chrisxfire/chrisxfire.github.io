@@ -7,12 +7,12 @@ draft: false
 # [MailKit](https://github.com/jstedfast/MailKit)
 A cross-platform mail client library built on top of [MimeKit](https://www.mimekit.net/).
 
-# Package
+# package
 ```powershell
 dotnet add package mailkit
 ```
 
-# Creating Messages
+# creating messages
 ```cs
 
 var message = new MimeMessage();
@@ -49,7 +49,7 @@ multipart.Add (attachment);
 message.Body = multipart;
 ```
 
-# Creating Attachments
+# creating attachments
 ```cs
 // create an image attachment for the file located at path
 var attachment = new MimePart("image", "gif") 

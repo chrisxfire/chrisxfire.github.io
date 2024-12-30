@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# Poisson Distributions
-## Poisson process
+# poisson distributions
+## poisson process
 A Poisson process models "purely random" counts with a known intensity or rate lambda.
 - `lambda` = average arrivals per unit of time
 
-## Poisson distribution
+## poisson distribution
 A Poisson distribution is determined by one parameter: lambda = expected number of counts (arrivals, events, etc.) per unit of time.
 
 Used to make probabilistic predictions if correct probability models are known (or assumed).
@@ -51,14 +51,14 @@ plot(x, dpois(x, lambda = 5))
 - to list values: `dpois(x, lambda=5)` 
 - to list probabilities for specific counts: `dpois(count, lambda=5)`
 
-### Relationship between Poisson process and distribution
+### relationship between poisson process and distribution
 The random number of arrivals in a Poisson process with rate `lambda` and an interval of length `t` has a Poisson distribution with mean `lambda * t`.
 - A poisson process with *intensity* or *rate* `lambda` generates mean `lambda * t` expected counts in an interval of length `t`.
 - The actual random number of counts has a Poisson distribution.
 - Times between counts have exponential distributions.
 - In a Poisson process with rate `lambda`, the expected waiting time between arrivals is `1 / lambda`.
 
-# Exponential Distributions
+# exponential distributions
 Notes:
 - In a Poisson process with rate `lambda`, the probability distribution for the random waiting time between arrivals has an exponential distribution.
 - The random interval between successive counts in a Poisson process with intensity `lambda` has an exponential distribution with mean `1 / lambda`.

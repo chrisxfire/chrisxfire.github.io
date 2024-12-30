@@ -15,30 +15,30 @@ Note: `System.TimeOnly` is useful if working with times only. This type maps to 
 
 Also: <https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings>
 
-# Uses
+# uses
 - Work with dates only or times only
 - Work with dates and times for which timezone information is missing
 - Work with UTC dates and times only
 - Retrieve date/time information from sources outside of .NET
 
-# Construction
+# construction
 ```cs
 DateTime(yyyy, mm, dd, hh, mm, ss) // hh, mm, ss are optional.
 DateTime(yyyy, mm, dd, hh, mm, ss, ms) // ms is optional.
 DateTime(ticks) // where ticks is an Int64.
 ```
 
-# Properties
+# properties
 Note: Properties contained within DateTimeOffset are not listed here.
 
 ```cs
 .Kind // A value that specifies if this DateTime is based on local time, UTC, or neither.
 ```
 
-# Methods
+# methods
 Note: Methods contained within DateTimeOffset are not listed here.
 
-## Information
+## information
 ```cs
 DateTime.DaysInMonth(mm, yyyy)
 DateTime.IsLeapYear(year)
@@ -47,7 +47,7 @@ DateTime.IsLeapYear(year)
 .IsDaylightSavingsTime() // Boolean if this instance is within the daylight savings time range for the current timezone.
 ```
 
-## Converting
+## converting
 ```cs
 DateTime.FromBinary(int64)Convert a 64-bit binary value to DateTime.
 DateTime.SpecifyKind(DateTime, DateTimeKind)
@@ -60,13 +60,13 @@ DateTime.SpecifyKind(DateTime, DateTimeKind)
 .ToUniversalTime()
 ```
 
-## Parsing
+## parsing
 ```cs
 .Parse(string) // Parse string into a DateTime object.
 .TryParse(string, out DateTime result) // Try to parse string into DateTime result.
 ```
 
-## Adding and Subtracting
+## adding and subtracting
 ```cs
 .Add()
 .AddDays()
@@ -80,6 +80,6 @@ DateTime.SpecifyKind(DateTime, DateTimeKind)
 
 Note: add negative numbers to subtract.
 
-# Format Specifiers
+# format specifiers
 <https://docs.microsoft.com/en-us/dotnet/api/system.datetime.tostring?view=net-6.0>
 

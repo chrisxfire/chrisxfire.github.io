@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 > [!IMPORTANT]
 > Availability: ASP.NET Core 7 (Preview)
 
@@ -15,12 +15,12 @@ weight: 1
 
 `QuickGrid` sample site: https://aspnet.github.io/quickgridsamples/
 
-# Installing
+# installing
 ```posh
 dotnet add package microsoft.aspnetcore.components.quickgrid --prerelease
 ```
 
-# Using
+# using
 ```html
 @page "/quickgrid-example"
 @using Microsoft.AspNetCore.Components.QuickGrid
@@ -47,7 +47,7 @@ dotnet add package microsoft.aspnetcore.components.quickgrid --prerelease
 }
 ```  
 ![a grid of personid, name, birthdate](people.png)  
-# Data Sources
+# data sources
 `QuickGrid` supports:
 1. In-memory as `IQueryable<T>` where `T` is the type of data represented by each row in the grid
 2. EF Core as `IQueryable<T>` where `T` is the type of data represented by each row in the grid
@@ -87,7 +87,7 @@ Performs sorting/filter/etc inside the database.  Using an EF Core data source r
     </QuickGrid>
     ```
 
-# Columns
+# columns
 QuickGrid has two built-in column types:  PropertyColumn and TemplateColumn.  Use ColumnBase to create your own column types.
 
 ## `PropertyColumn`
@@ -188,7 +188,7 @@ button:active { background-color: #192e86; }
 
 ![a grid of person, action](template-column.png)
 
-## Standard Column Parameters
+## standard column parameters
 - `Title` — set the column title. Not applicable if you're using `HeaderTemplate`.
 - `Class` — set a CSS class name on the header and body cells for this column.
 - `Align` — align the column left/center/right.
@@ -199,7 +199,7 @@ button:active { background-color: #192e86; }
 - `InitialSortDirection` — indicate the default sort direction.
 - `PlaceholderTemplate` — supply a Razor fragment that will be used while the data load is pending. This is only applicable for virtualized grids.
 
-## Sorting
+## sorting
 - Sort a `PropertyColumn` with `Sortable="true"`
 - Sort a `Templatecolumn` by supplying a value to the `SortBy` parameter
 - Specify the `InitialSortDirection` on a column with `SortDirection.Ascending` or `Descending`
@@ -211,7 +211,7 @@ request.GetSortByProperties()
 ```  
 <o>Note: This method may throw an exception if the current sort order is *not* expressible as a chain of column names such as an a PropertyColumn with `Property="@(x => x.Width * x.Length)"`.</o>  
 
-## Filtering
+## filtering
 For in-memory or EF Core data, use .NET's standard LINQ methods to apply filtering rules before passing data to the grid's `Items` parameter:  
 ```html
 @inject DataSource Data
@@ -358,7 +358,7 @@ For in-memory or EF Core data, use .NET's standard LINQ methods to apply filteri
 
 ![a grid with a footer to select more pages](paging.png)  
 
-# Manually Refreshing Data
+# manually refreshing data
 If the data source's contents have changed — refresh manually:
 ```html
 @page "/quickgrid-example"

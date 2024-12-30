@@ -15,7 +15,7 @@ The model binding system:
 * Converts string data to .NET types
 * Updates properties of complex types
 
-# Example
+# example
 Consider this action method...
 ```cs
 [HttpGet("{id}")]
@@ -37,7 +37,7 @@ ASP.NET Core then calls `GetById(2, true)`.
 
 After each property is bound, [model validation](../model-validation) occurs for that property. The record of what data is bound to the model and any validation errors that occurred are stored in `ControllerBase.ModelState` or `PageModel.ModelState`. 
 
-# Model Binding Targets
+# model binding targets
 Model binding has the following *targets*:
 - Parameters of the controller action method to which a request is routed
 - Parameters of the Razor Pages handler method to which a request is routed
@@ -63,18 +63,18 @@ public class CreateModel : PageModel
 }
 ```
 
-## Model Binding with HTTP GET Requests
+## model binding with http get requests
 By default, <o>properties are not bound</o> for HTTP GET requests. This is because, normally, GET requests only contain a record ID parameter. To force model binding for GET requests:
 ```cs
 [BindProperty(Name = "ai_user", SupportsGet = true)]
 public string? ApplicationInsightsCookie { get; set; }
 ```
 
-# Data Types for Model Binding
+# data types for model binding
 - *Simple type* — a type converted from a single string (using a `TypeConverter` or `TryParse` method).
 - *Complex type* — a type converted from multiple input values.
 
-# Model Binding Sources
+# model binding sources
 The default sources for HTTP requests are:
 1. Form fields
 2. Request body (for controllers with the `[ApiController]` attribute)
@@ -122,35 +122,35 @@ public class Pet
 
 <o>Caution</o>: do not apply `[FromBody]` to more than one parameter per action method; it can only process one parameter.
 
-## Other Sources
+## other sources
 Source data is provided to the model binding system by *value providers*. Custom value providers can be built to get data from other sources. See the documentation.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#additional-sources
 
-# Model State
-## Model Properties with No Values Found
+# model state
+## model properties with no values found
 By default, if no value is found for a model property, a model state error **is not** created. That property is set to `null` or a default value.
 
 To force a model state error when no value is found for a property, use the `[BindRequired]` attribute.
 * <o>Note</o>: This attribute applies only to *posted form* data, not JSON or XML data which is handled by *input formatters*.
 
-## Type Conversion Errors
+## type conversion errors
 If a source is found but cannot be converted to the target type, a model state error **is** created (`ModelState.IsValid = false`).
 
-# Binding Simple Types
+# binding simple types
 Model binding can convert source strings into various simple types.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#simple-types
 
-# Binding Complex Types
+# binding complex types
 To bind, a complex type must have a public default constructor and public writable properties. 
 
-## How Model Binding Matches Properties to Sources
+## how model binding matches properties to sources
 For each property, model binding looks through the sources for `PREFIX.PROPERTY_NAME`. If not found, it looks for `PROPERTY_NAME`.
 
 For query `?Instructor.Id=100&Name=Foo`, and given method `OnGet(Instructor instructor)`, model binding will bind `Id` to `100` and `Name` to `null`. This is because `Instructor.Id` was used for the first query parameter, so it expected `Instructor.Name` (instead of just `Name`) for the second parameter.
 
-## Attributes for Complex Type Targets
+## attributes for complex type targets
 <o>Note</o>: these attributes apply to *posted form data* only. They do not apply to *input formatters* which process posted JSON and XML bodies.
 
 ### `[Bind]` 
@@ -203,17 +203,17 @@ public class InstructorBindRequired
 ### `[BindNever]`
 Prevents model binding from setting a model's property.  Can be applied to a property or a type.  When applied to a type, excludes all properties of that type from model binding.
 
-## Collections
+## collections
 For collection targets, model binding looks for matches to `PARAMETER_NAME` or `PROPERTY_NAME`.  Avoid using a parameter or property named `index` or `Index` if it is adjacent to a collection value since model binding attempts to use `index` as the index for the collection.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#collections)
 
-## Dictionaries
+## dictionaries
 For Dictionary targets, model binding looks for matches to `PARAMETER_NAME` or `PROPERTY_NAME`.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#dictionaries
 
-## Record Types
+## record types
 Model binding and model validation have special considerations with record types:
 1. Model binding (and model validation) supports record types with a single constructor:
     ```cs
@@ -269,7 +269,7 @@ To use the built-in XML input formatters:
 
 ## Configuring Input Formatters [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#customize-model-binding-with-input-formatters)]  
 
-# Excluding Specified Types from Model Binding
+# excluding specified types from model binding
 To disable model binding on all models of a specified type (ie: `System.Version`):
 ```cs
 builder.Services.AddRazorPages()
@@ -290,7 +290,7 @@ builder.Services.AddRazorPages()
     });
 ```
 
-# Invoking Model Binding Manually
+# invoking model binding manually
 <o>Note</o>: this is typically used in Razor Pages and MVC apps to prevent over-posting, or web APIs that consume form data, query strings, and route data.
 Use the `TryUpdateModelAsync` method of both the `ControllerBase` and `PageModel` classes. Overloads accept a prefix and value provider:
 ```cs
@@ -303,6 +303,6 @@ if (await TryUpdateModelAsync(newInstructor, "Instructor", x => x.Name, x => x.H
 return Page();
 ```
 
-# Other topics
+# other topics
 - [Globalization behavior of model binding route data and query strings](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#globalization-behavior-of-model-binding-route-data-and-query-strings)
 - [Special data types](https://learn.microsoft.com/en-us/aspnet/core/mvc/models/model-binding?view=aspnetcore-7.0#special-data-types)

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Factory Method
+# factory method
 Type: Creational  
 Purpose: Provides an interface for creating objects in a superclass but allows subclasses to alter the type of the objects created.  
 Use when:
@@ -16,7 +16,7 @@ Complexity: 1/3
 Popularity: 3/3  
 In .NET: A logger factory  
 
-# Overview
+# overview
 ![The structure of the Factory Method pattern](./Creational_Factory-Method-image1.png)
 
 1.  The Product declares the interface, which is common to all objects that can be produced by the creator and its subclasses.
@@ -29,7 +29,7 @@ In .NET: A logger factory
 
 Note that the factory method doesn’t have to create new instances all the time. It can also return existing objects from a cache, an object pool, or another source.
 
-# Implementing
+# implementing
 Declare an interface with methods that make sense for every product. All products must implement this interface.
 ```cs
 public interface IProduct

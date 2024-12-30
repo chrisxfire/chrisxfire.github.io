@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Abstract Factory
+# abstract factory
 Type: Creational  
 Purpose: Produce families of related objects without specifying their concrete classes.  
 Use when: You have a class with a set of factory methods that blur its primary responsibility.  
@@ -14,7 +14,7 @@ Complexity: 2/3
 Popularity: 3/3  
 In .NET: `IHttpClientFactory`  
 
-# Overview
+# overview
 ![Abstract Factory design pattern](./Creational_Abstract-Factory-image1.png)
 
 1. Abstract Products declare interfaces for a set of distinct but related products which make up a product family.
@@ -23,7 +23,7 @@ In .NET: `IHttpClientFactory`
 4. Concrete Factories implement creation methods of the abstract factory. Each concrete factory corresponds to a specific variant of products and creates only those product variants.
 5. Although concrete factories instantiate concrete products, signatures of their creation methods must return corresponding abstract products. This way the client code that uses a factory doesn’t get coupled to the specific variant of the product it gets from a factory. The Client can work with any concrete factory/product variant, as long as it communicates with their objects via abstract interfaces.  
 
-# Implementing
+# implementing
 Create a matrix of distinct product types and their variants.  
 ![A matrix of product types and their variants](./Creational_Abstract-Factory-image2.png)
 

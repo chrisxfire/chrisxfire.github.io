@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Monolithic application
+# monolithic application
 An entire application deployed as a single unit.
 - When it needs to scale horizontally, the entire app is duplicated.
 - Generally a single project compiled to a single assembly deployed as a single unit.
@@ -41,7 +41,7 @@ Achieved by definining abstractions (interfaces) in the App Core, which are then
 
 ![](./clean-architecture-3.png)
 
-## Organizing Code in Clean Architecture
+## organizing code in clean architecture
 Application Core
 - Entities (business model classes that are persisted)
 - Aggregates (groups of entities)
@@ -51,12 +51,12 @@ Application Core
 - Custom Exceptions and Guard Classes
 - Domain Events and Handlers
 
-## Infrastructure
+## infrastructure
 - Data access implementations (like EF DbContext)
 - Implementations of services that must interact with infrastructure concerns (`FileLogger`, `SmtpNotifier`, etc)
 	- These services implement interfaces defined in App Core (so Infrastructure should reference App Core)
 
-## UI Layer
+## ui layer
 - Entry point for the app
 - References App Core
 - Its types interact with Infrastructure strictly through interfaces defined in Application Core

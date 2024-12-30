@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Delegates
+# delegates
 - A type-safe function pointer.
 - A reference to a method.
 - Delegate objects are passed to code that can then call the referenced method.

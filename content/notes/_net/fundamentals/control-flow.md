@@ -12,7 +12,7 @@ else if (condition) { … }
 else { … }
 ```
 
-# Ternary Operator
+# ternary operator
 ```cs
 condition ? true-return : false-return
 ```
@@ -65,7 +65,7 @@ foreach (var (item, index) in collection.WithIndex()) {
 }
 ```
 
-# Switch Case
+# switch case
 ```cs
 switch (expression) {	// expression is tested against the cases below.
 	case firstCase:	    // if expression == firstCase, execute this block.

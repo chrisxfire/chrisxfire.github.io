@@ -16,7 +16,7 @@ When classes make calls to static methods or access static properties which have
 - Each time a class is instantiated, consider whether it makes sense to hard-code that specific instance in that location, or if it would be better to request that instance as a dependency.
 - Just as with static method calls, new instances of types that have no external dependencies typically do not tightly couple code.
 	
-# Declaring Depedencies
+# declaring depedencies
 In ASP.NET Core, methods and classes should declare their dependencies, requesting them as arguments.  The Startup class is an example of this.
 Note: In ASP.NET 6+, the use of the Startup class is optional.  Apps can be fully configured in Program.cs.
 

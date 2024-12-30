@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Maximum Likelihood Estimation
+# maximum likelihood estimation
 - **Maximum likelihood estimation** – a method of estimating the parameters of a probability distribution by maximizing a *likelihood function*.  
 	- It finds the values of *parameters* (like mean and standard deviation for a normal distribution, or lambda for a Poisson distribution) that result in the curve that best fits the data. 
 - **Likelihood function** – measures the fit (support) of a statistical model to a sample of data for given values of the unknown parameters.
@@ -29,13 +29,13 @@ weight: 1
 If n is known (fixed), and lambda is varied, this returns a likelihood function.
 - For Poisson, the MLE of `lambda = n / time`.
 
-# Poisson Regression
+# poisson regression
 - Normally-distributed random variables can be extended to let their means depend on other variables via simple formulas:  `E(Y | x) = a + bx` (expected value of Y given x)
 - Poisson probability models can be extended similarly:  `lambda = a + bx`
 - This results in a Poisson regression model.
   - The parameters in this model are estimated from data by MLE.
 
-# Calculate Confidence Intervals for Mean of a Poisson Distribution
+# calculate confidence intervals for mean of a poisson distribution
 ```r
 install.packages("DescTools")
 library(DescTools)

@@ -5,13 +5,13 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 > Credit: [Cloud Cannon](https://cloudcannon.com/blog/the-ultimate-guide-to-hugo-sections/)  
-## Pretty URLs
+## pretty urls
 By default, Hugo uses pretty URLs: `content/posts/blog/first-post.md` renders to `https://example.com/posts/blog/first-post/`.  
 An ugly URL would be `https://example.com/posts/blog/first-post/index.html`.
 
-# Content
+# content
 If a directory has an `_index.md`, Hugo uses it to create a listing of files/directories underneath that directory.  
 
 Without any further configuration, this works:
@@ -29,7 +29,7 @@ Without any further configuration, this works:
         ├── first.md       # <- https://example.com/quote/first/
         └── second.md      # <- https://example.com/quote/second/
 ```
-## Content type
+## content type
 *Content type* determines the *layout* and which *archtetype* template to use for the content.  
 
 Hugo resolves content type from either:
@@ -37,12 +37,12 @@ Hugo resolves content type from either:
 - the name of the top-level folder under `content/`
   - for example, `content/about-us/_index.md` has a `type` of `about-us`
 
-## Page Bundles
+## page bundles
 A *page bundle* groups pages and their resources.  It can either be a:
 - *leaf bundle* (has no children)
 - *branch bundle* (home page, section, taxonomy list, ...)
 
-### Leaf Bundle 
+### leaf bundle 
 Directories at any level under `content` that have an `index.md` file.
 - They have a layout type of `single` (`layouts/_default/single.html` is assigned as its template).
 - They can never be *sections*.
@@ -62,7 +62,7 @@ Directories at any level under `content` that have an `index.md` file.
         └── somefile.md # will NOT be rendered with its own navigable URL
 ```
 
-### Branch Bundle
+### branch bundle
 Branch bundles are directories at any level under `content/` that have an `_index.md` file.
 - They have a layout type of `list` (`layouts/_default/list.html` is assigned as its template). 
 - They are always *sections*.
@@ -91,10 +91,10 @@ Branch bundles are directories at any level under `content/` that have an `_inde
             └── prod2_users_img3.jpg
 ```
 
-## Sections
+## sections
 Hugo automatically creates a page for both *root sections* and *nested sections* that lists all the content in that section.  
 
-### Root Sections
+### root sections
 Each top-level folder under `content/` is a *root section*.  
 In this example, the root sections are `blog`, `articles`, and `tutorials`:
 ```bash
@@ -104,7 +104,7 @@ In this example, the root sections are `blog`, `articles`, and `tutorials`:
     └── tutorials/
 ```
 
-### Nested Sections
+### nested sections
 Under `content/`, each folder is a *nested section* as long as it also contains `_index.md`.  
 - *Leaf bundles* do <o>not</o> form their own sections because they do not have `_index.md` (only `index.md)`).
 
@@ -134,7 +134,7 @@ Since `content/about-us` *is* a section, either of the following result in a sin
 - Specifies front matter and content for *list templates*.  
 - Create one `_index.md` for homepage and one for each content section.
 
-## Templates
+## templates
 - `layouts/index.html` for the site's home page (falls back to `layouts/_default/single.html`)
 - `layouts/_default/single.html` for any `index.md`
 - `layouts/_default/list.html` for any `_index.md`

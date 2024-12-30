@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Performing Debian Major Version Upgrade
+# performing debian major version upgrade
 ## 1. Upgrade the current system
 ```bash
 sudo apt update

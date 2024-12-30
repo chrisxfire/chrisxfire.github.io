@@ -10,7 +10,7 @@ weight: 1
 
 Methods for encoding/decoding URLs when processing web requests.
 
-# Methods
+# methods
 ```cs
 WebUtility.HtmlDecode(s) // Convert HTML-encoded string s into a string.
 WebUtility.HtmlEncode(s) // Convert string s into a HTML-encoded string.

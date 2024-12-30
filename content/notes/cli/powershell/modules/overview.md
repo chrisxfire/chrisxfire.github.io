@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Managing Modules
+# managing modules
 ```powershell
 Install-Module name -Force
 Import-Module name

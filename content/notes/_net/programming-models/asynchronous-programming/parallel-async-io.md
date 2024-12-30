@@ -6,7 +6,7 @@ weight: 1
 ---
 
 # Parallel Asynchronous I/O
-## Simple Example
+## simple example
 ```cs
 public async Task SimpleParallelWriteAsync() 
 {
@@ -26,7 +26,7 @@ public async Task SimpleParallelWriteAsync()
 }
 ```
 
-## Fine Control Example
+## fine control example
 ```cs
 public async Task ProcessMultipleWritesAsync()
 {

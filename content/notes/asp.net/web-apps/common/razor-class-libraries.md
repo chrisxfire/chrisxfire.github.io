@@ -5,30 +5,30 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Razor Class Libraries can contain Razor views, pages, controllers, page models, Razor Components, View components, and data models along with their associated static files.  They can be packaged and reused.
 
-# Creating
+# creating
 Visual Studio project type = `Razor Class Library`
 `dotnet new razorclasslib`
 
 ASP.NET Core templates assume RCL content is in `Areas` folder.
 
-## Precedence
+## precedence
 When a view, partial view, or Razor Page exists in both the web app and the RCL, the web app takes precedence over (overrides) the one in the RCL.
 
-## RCL Pages layout
+## rcl pages layout
 To reference RCL content as though it is a part of the web app's `Pages` folder, create the RCL project with this structure:
 ```
 RazorUIClassLib/Pages
 RazorUIClassLib/Pages/Shared
 ```
 
-## Create an RCL with Static Assets
+## create an rcl with static assets
 Create a `wwwroot` folder in the class library and include any required files in that folder.
 The `dotnet pack` command automatically includes this folder in the package.
 
-## Exclude Static Assets
+## exclude static assets
 Add this to `csproj`:
 ```xml
 <PropertyGroup>
@@ -36,7 +36,7 @@ Add this to `csproj`:
 </PropertyGroup>
 ```
 
-# Using an RCL in a Component
+# using an rcl in a component
 1. Add a project reference from the Component's project to the RCL project
 2. Add a `@using` directive either in the Component directly or in `_Imports`
 3. (if RCL uses static assets) Bring in the CSS on the hosting page (`index.html` or `host.cshtml`)  

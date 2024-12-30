@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Create a ViewModel for a Customer
+# create a viewmodel for a customer
 `CustomerItemViewModel.cs`
 ```cs
 public class CustomerItemViewModel : ViewModelBase

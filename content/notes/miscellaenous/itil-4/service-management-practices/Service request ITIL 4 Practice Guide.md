@@ -569,14 +569,14 @@ Table 8.1 outlines recommendations for the success of the service request manage
 
 PeopleCert is grateful to everyone who has contributed to the development of this guidance. These practice guides incorporate an unprecedented level of enthusiasm and feedback from across the ITIL community. In particular, PeopleCert would like to thank the following people.
 
-##### Authors
+##### authors
 
 Miroslav Hlohovsky, Don Page, Robert Pinnington
 
-##### Reviewers
+##### reviewers
 
 Dinara Adyrbayeva, Cheryl Grimes, Roman Jouravlev, Georges Kemmerling, Henny Kerkvliet, Niels Loader, Anton Lykov, Paulo Tourinho
 
-##### 2023 Revision
+##### 2023 revision
 
 David Cannon, Antonina Douannes, Peter Farenden, Adam Griffith, Roman Jouravlev, Kaimar Karu, Barclay Rae, Stuart Rance, Nicola Reeves

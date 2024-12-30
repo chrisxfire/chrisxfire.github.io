@@ -7,7 +7,7 @@ tags:
  - kb/operating-systems/windows/cmd
 ---
 
-# Certificate Management
+# certificate management
 Find available encryption algorithms:
 `certutil -oid 2 | findstr pwszCNGAlgid`
 
@@ -16,8 +16,8 @@ Find available hash algorithms:
 
 Find available CSPs:
 `certutil -csplist`
-# Disk Management
-## Recover flash drive
+# disk management
+## recover flash drive
 ```batchfile
 diskpart
 list disk
@@ -34,10 +34,10 @@ format fs=ntfs quick
 `dir /p` *wildcard search* # Pause at each screen
 `dir /s` *wildcard search* # traverse through Subdirectories as well
 
-# Find Local Administrators
+# find local administrators
 `net localgroup administrators`
 
-## Mapping Drives
+## mapping drives
 `net use` # show list of mapped drives
 `net use DRIVE: PATH` # map PATH to DRIVE
 `net use DRIVE: PATH /persistent:Yes` # make this drive mapping persistent
@@ -45,32 +45,32 @@ format fs=ntfs quick
 `net use DRIVE: /delete` # delete this drive mapping
 `net use * /delete` # delete all mapped drives
 
-# Group Policy
+# group policy
 `gpresult /Scope User /view` # all Policies applied to the current user  
 `gpresult /Scope Computer /v` # view all Policies applied to this computer  
 `gpresult /h` # instead of outputting to the console, save as HTML file  
 `rsop.msc` # Resultant Set of Policy report
 
-# Network
-## Net Shell
+# network
+## net shell
 `netsh wlan show profile name=labnol key=clear`	# Find the wifi password of your current network
 `netsh interface ipv4 set address name="*interface name* static *IP Address* *subnet mask* *gateway*` # Change your IP address
 
-## Reset Network Adapter
+## reset network adapter
 `netsh int ip reset`  
 `netsh winsock reset`  
 `ipconfig /release`  
 `ipconfig /flushdns`  
 `ipconfig /renew`  
 
-# OS Image Management
+# os image management
 `dism /online /cleanup-image /checkhealth` # reports whether the image is healthy, repairable, or not repairable
 `dism /online /cleanup-image /restorehealth` # repairs a broken image
 
-# Performance Monitor
+# performance monitor
 `perfmon /report` # Performance monitor system report
 
-# Robocopy
+# robocopy
 usage: `robocopy *source* *destination* *options*`
 common: 
 - `robocopy /S` # copy Subdirectories  
@@ -89,15 +89,15 @@ common:
 
 `robocopy "C:\Users\chris\Google Drive" Z:\public\google-drive /S /MIR /R:5 /W:30 /TEE /V /LOG+:C:\Users\chris\Dropbox\Logs\robocopy.log /SAVE:gdrive-to-optiplex`
 
-# User Account
-## Unlocking
+# user account
+## unlocking
 `net user ACCOUNT_NAME /domain | find /I "Account Active"`
 
 If no:
 `net user ACCOUNT_NAME /domain /active:YES`
 
-# Windows Update Service
-## Restarting the Windows Update service
+# windows update service
+## restarting the windows update service
 ```batchfile
 net stop bits
 net stop wuauserv

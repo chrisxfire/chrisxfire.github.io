@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Basic validation
+# basic validation
 To add basic validation to a form, add the `DataAnnotationsValidator` Component. This enables validation using data annotations applied to the model class. 
 Blazor performs two types of validation:
 1. *Field validation*—performed when the user tabs out of a field.
@@ -40,7 +40,7 @@ To display validation errors at the top of the page, add the `ValidationSummary`
 }
 ```
 
-# Custom validation logic
+# custom validation logic
 An `EditForm` instance uses `EditContext` and `ValidationMessageStore` instances to validate form fields.  To apply custom validation:
 1. Declare a `ValidationMessageStore` instance and an `EditForm` instance
 2. Create an event handler method
@@ -212,7 +212,7 @@ The custom validator component is used like this:
 # Server-side validation with a custom validator component
 See: https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#server-validation-with-a-validator-component
 
-# ValidationSummary and ValidationMessage components
+# validationsummary and validationmessage components
 `ValidationSummary` summaries all validation message.  Optionally, output only validation message for a specific model with the `Model` parameter:
 ```html
 <ValidationSummary Model="@starship" />
@@ -232,10 +232,10 @@ Both `ValidationSummary` and `ValidationMessage` support arbitrary attributes wh
 }
 ```
 
-# Custom validation attributes
+# custom validation attributes
 See: https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#custom-validation-attributes
 
-# Custom validation CSS class attributes
+# custom validation css class attributes
 See: https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#custom-validation-css-class-attributes
 
 # Validating nested models, collections, and complex types

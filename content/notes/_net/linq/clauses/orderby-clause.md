@@ -7,7 +7,7 @@ tags:
  - kb/dotnet/linq/clauses
 ---
 
-# Orderby clause
+# orderby clause
 Use the `orderby` clause to *sort* results in either ascending or descending order. 
 
 You can also specify a secondary sort:

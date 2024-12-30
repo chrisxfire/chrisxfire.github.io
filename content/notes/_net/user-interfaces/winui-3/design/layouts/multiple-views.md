@@ -5,15 +5,15 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Multiple views allow independent parts of apps to be viewed in separate windows.  
 When implemented, the taskbar shows each window separately.
 
-## APIs
+## apis
 [Windows.UI.ViewManagement Namespace - Windows UWP applications | Microsoft Learn](https://learn.microsoft.com/en-us/uwp/api/windows.ui.viewmanagement)  
 [Windows.UI.WindowManagement namespace (microsoft.com)](https://learn.microsoft.com/en-us/uwp/api/windows.ui.windowmanagement)  
 
-# Windowing Hosts
+# windowing hosts
 ## `CoreWindow` / `ApplicationView`
 - A 1:1 pairing of a thread and a window the app uses to display content
 - Main view is always hosted in `ApplicationView`; content in a secondary window can be hosted in an `ApplicationView` or `AppWindow`

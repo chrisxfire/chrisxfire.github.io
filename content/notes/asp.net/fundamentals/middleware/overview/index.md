@@ -5,14 +5,14 @@ draft: false
 weight: -1
 ---
 
-# Overview
+# overview
 Middleware is a pipeline of components to handle requests and responses.  Each component can:
 - Pass the request to the next component;
 - Perform work before and after the next component.  
 ![Middleware flow](./middleware-flow.png)  
 (black arrows = thread of execution)
 
-# Request Pipeline
+# request pipeline
 Built with request delegates.  The delegates handle each HTTP request.
 - Request delegates are configured with `Run`, `Map`, and `Use` extension methods:
 	- `Use` extensions add to the pipeline.
@@ -23,7 +23,7 @@ Built with request delegates.  The delegates handle each HTTP request.
   a. Invokes the next middleware in the pipeline, or;  
   b. Terminates the request.  
 
-# Creating
+# creating
 ```cs
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
@@ -45,7 +45,7 @@ app.Run(async context =>
 app.Run();
 ```
 
-# Middleware Sequencing
+# middleware sequencing
 For ASP.NET MVC & Razor Pages apps:  
 ![Middleware sequencing](./middleware-sequencing.png)  
 If `app.UseRouting()` is not used, the Routing middleware runs at the beginning of the pipeline.  If used, it runs as per the above diagram.
@@ -98,7 +98,7 @@ app.MapControllerRoute(
 
 app.Run();
 ```
-# Other Middleware Components
+# other middleware components
 These middleware extension methods are exposed on `WebApplicationBuilder`:
 1. Exception/error handling:
     - When app runs in Development environment:
@@ -119,7 +119,7 @@ These middleware extension methods are exposed on `WebApplicationBuilder`:
 9. `UseSession` — establish and maintain session state (if used, call after cookie policy and before MVC middleware)
 10. `UseEndpoints` with `MapRazorPages` — add Razor Pages endpoints to the request pipeline.
 
-# Branching the Pipeline
+# branching the pipeline
 Use `Map` extension method.  `Map` branches the pipeline based on matches of the given request path.  If the request path starts with the given path, the branch is executed:
 ```cs
 var builder = WebApplication.CreateBuilder(args);

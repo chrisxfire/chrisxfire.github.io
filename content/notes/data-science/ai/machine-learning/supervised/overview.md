@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 In supervised machine learning, training data includes both *feature* values and *label* values. Models are trained by finding a relationship between the features and labels in past observations so that unknown labels can be predicted in future cases.
 
 Supervised machine learning approaches are categorized as follows:

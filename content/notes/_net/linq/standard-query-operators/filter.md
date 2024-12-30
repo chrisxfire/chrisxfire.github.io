@@ -11,13 +11,13 @@ tags:
 A filtering operation restricts the result set to contain only those elements that satisfy a specified condition. The
 condition is called a *predicate*. 
 
-# Methods
+# methods
 | Method   | Description                                                                | Query expression |
 | -------- | -------------------------------------------------------------------------- | ---------------- |
 | `OfType` | Selects values depending on their ability to be cast to the specified type | N/A              |
 | `Where ` | Selects values based on a predicate function                               | `where`          |
 
-# Example
+# example
 ```cs
 string[] words = [ "the", "quick", "brown", "fox", "jumps" ];
 ```

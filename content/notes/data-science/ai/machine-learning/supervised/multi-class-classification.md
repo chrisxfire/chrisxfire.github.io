@@ -25,7 +25,7 @@ A binary classification function is trained for each class:
 
 That function — a sigmoid function — calculates the probability that the observation is an example of that class.
 
-### Multinomial Algorithms
+### multinomial algorithms
 These algorithms create a single function that returns a multi-valued output.
 - The output is a vector (array of values) that contains the probability distribution for all possible classes with a probability score for each class:
   - $f(x)= [P(y=0|x), P(y=1|x), ...]$

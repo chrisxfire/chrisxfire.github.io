@@ -5,18 +5,18 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 CSS can be isolated to individual pages, views, and Components.  
 
 CSS isolation occurs at build time.  Blazor rewrites CSS selectors to match the markup rendered by the Component.  These rewritten CSS styles are then bundled as a static asset.
 
-# Isolate CSS for a Component
+# isolate css for a component
 To enable Component-level isolation, create a `.razor.css` file matching the name of the `.razor` file of the Component in the same folder.
 
-# Isolate CSS for a Child Component
+# isolate css for a child component
 Use the `::deep` pseudo-element to any descendant elements in the parent Component's `.razor.css` file.
 
-## Example
+## example
 `Pages/Parent.razor`
 ```html
 @page "/parent"
@@ -41,7 +41,7 @@ Use the `::deep` pseudo-element to any descendant elements in the parent Compone
 }
 ```
 
-## Important notes
+## important notes
 - Removing the `<div>` element removes the parent-descendant relationship.  This would prevent the `<h1>` element in the Child from inheriting the style declaration.
 - Scoping:
   - When defining a CSS rule in a scoped CSS file, the scope is applied to the *right-most* element by default: 

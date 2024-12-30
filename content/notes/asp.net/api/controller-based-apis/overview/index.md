@@ -26,7 +26,7 @@ The high-level process for implementing controller-based APIs:
 5. Scaffold a controller
 6. Add routing to the controller action methods
 
-# ControllerBase Methods
+# controllerbase methods
 `CreatedAtAction` is an *action method* in `ControllerBase` that returns a 201 status code.  Other methods:   
 | Method                | Description                                      |
 | --------------------- | ------------------------------------------------ |
@@ -37,7 +37,7 @@ The high-level process for implementing controller-based APIs:
 | `TryUpdateModelAsync` | Invokes model binding                            |
 | `TryValidateModel`    | Invokes model validation                         |
 
-# Attributes
+# attributes
 Attributes from the `Microsoft.AspNetCore.Mvc` namespace are used by APIs to configure behavior for controllers and action methods:
 ```cs
 [HttpPost] // Supported HTTP action verb
@@ -82,7 +82,7 @@ var builder = WebApplication.CreateBuilder(args);
 // ...
 ```
 
-## Attribute Routing Requirement
+## attribute routing requirement
 A class that inherits from ControllerBase (a *controller*) and that is decorated with the `[ApiController]` attribute **must** define a route with the `[Route]` attribute:
 ```cs
 [ApiController]
@@ -90,7 +90,7 @@ A class that inherits from ControllerBase (a *controller*) and that is decorated
 public class WeatherForecastController : ControllerBase
 ```
 
-## Automatic HTTP 400 Responses
+## automatic http 400 responses
 The `[ApiController]` attribute makes model validation errors automatically trigger an HTTP 400 response.  So, in such a controller's action method, the following code is not needed:
 ```cs
 if (!ModelState.IsValid)
@@ -101,7 +101,7 @@ if (!ModelState.IsValid)
 
 The default response type for an HTTP 400 response is `ValidationProblemDetails`. Instead of calling `BadRequest`, call `ValidationProblem`, which returns a `ValidationProblemDetails` object as well as the automatic response.
 
-### Logging Automatic HTTP 400 Responses
+### logging automatic http 400 responses
 Set `InvalidModelStateResponseFactory` when calling `ConfigureApiBehaviorOptions`:
 ```cs
 var builder = WebApplication.CreateBuilder(args);
@@ -137,7 +137,7 @@ app.MapControllers();
 app.Run();
 ```
 
-### Disabling Automatic HTTP 400 Responses
+### disabling automatic http 400 responses
 Set `SuppressModelStateInvalidFilter` to `true`:
 ```cs {hl_lines=10}
 using Microsoft.AspNetCore.Mvc;
@@ -181,7 +181,7 @@ A binding source attribute defines the location at which an action parameter's v
 
 Without the `[ApiController]` attribute or the binding source attributes above, ASP.NET Core attempts to use the *complex object model binder*. This subsystem pulls data from *value providers* in a defined order.
 
-## Inference Rules
+## inference rules
 The `[ApiController]` attribute applies these inference rules for the default data sources of action parameters:
 - `[FromServices]` — inferred for complex type parameters registered in the DI container.
 - `[FromBody]` — inferred for complex type parameters *not* registered in the DI container.
@@ -191,7 +191,7 @@ The `[ApiController]` attribute applies these inference rules for the default da
 
 ### FromBody Considerations [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-7.0#frombody-inference-notes)]  
 
-### FromService Considerations
+### fromservice considerations
 The parameter binding subsystem binds parameters through dependency injection when the type is configured as a service. Thus, it is not required to explicitly apply the `[FromServices]` attribute to a parameter.
 
 <o>In rare cases, automatic DI can break apps that have a type in DI that is also accepted in an API controller's action  methods</o>. It's not common to have a type in DI and as an argument in an API controller action.  
@@ -204,7 +204,7 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 });
 ```
 
-## Disabling All Inference Rules
+## disabling all inference rules
 ```cs
 builder.Services.AddControllers()
     .ConfigureApiBehaviorOptions(options =>
@@ -228,7 +228,7 @@ builder.Services.AddControllers()
         // ...
 ```
 
-# Problem Details for Error Status Codes
+# problem details for error status codes
 MVC transforms an error result (HTTP status code 400+) to a result with `ProblemDetails`.
 
 To disable:
@@ -278,7 +278,7 @@ Analyzers inspect controller actions and notify you of any that:
 - document a status code that is not returned
 - include an explicit model validation check
 
-## Enabling
+## enabling
 `.csproj`
 ```xml
 <PropertyGroup>
@@ -286,7 +286,7 @@ Analyzers inspect controller actions and notify you of any that:
 </PropertyGroup>
 ```
 
-# JSON Patch
+# json patch
 [JSON Patch](https://datatracker.ietf.org/doc/html/rfc6902) is a standard for applying updates to a resource.  JSON Patch support in ASP.NET Core web API is based on `Newtonsoft.Json` and requires the `Microsoft.AspNetCore.Mvc.NewtonsoftJson` package.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/jsonpatch?view=aspnetcore-7.0

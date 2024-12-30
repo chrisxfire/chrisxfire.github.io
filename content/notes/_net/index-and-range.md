@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Index
+# index
 Normally, the index is an integer passed to the indexer of an array:
 ```cs
 int index = 3;
@@ -30,7 +30,7 @@ or
 ```cs
 Index i4 = ^7
 ```
-# Range
+# range
 The `Range` value type uses `Index` values to indicate the start and end of its range.
 ```cs
 Range r1 = new(start: new Index(3), end: new Index(7));

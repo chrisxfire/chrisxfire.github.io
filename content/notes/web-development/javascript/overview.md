@@ -5,16 +5,16 @@ draft: false
 weight: -1
 ---
 
-# Embedding in HTML
+# embedding in html
 JavaScript is embedded in HTML in `<script>` tags.
 
-# Variables
+# variables
 ```js
 let someVariable = "someString"
 const someConstant = 3
 ```
 
-## Arrays
+## arrays
 JavaScript arrays are zero-indexed:
 ```js
 let array1 = [1, 2, 3, 4];
@@ -25,19 +25,19 @@ array1[0] // returns 1
 array1.push(5);
 ```
 
-# Strings
+# strings
 Strings are C-style.
 
-## Template strings
+## template strings
 ```js
 day: ${day}, index: ${index};
 ```
-# Operators
+# operators
 ```js
 ===
 ```
 
-# Flow Control
+# flow control
 C-style:
 ```js
 if
@@ -45,7 +45,7 @@ while
 for
 ```
 
-## ForEach
+## foreach
 `forEach` works by defining an anonymous function that takes action on each element in the array:
 ```js
 array1.forEach(function(day, index) {
@@ -58,17 +58,17 @@ someArray.forEach(item => {
 });
 ```
 
-# Type Conversions
+# type conversions
 Parse a string to integer: `parseInt`
 
-# Functions
+# functions
 ```js
 function function-name(arg1, …) {
     …
 }
 ```
 
-# Object Literals
+# object literals
 ```js
 let person = {
     firstName: "John",
@@ -78,7 +78,7 @@ let person = {
     }
 };
 ```
-# Selecting HTML Elements
+# selecting html elements
 ```js
 // By ID:
 document.getElementById("some-value");
@@ -111,10 +111,10 @@ link.class
 link.classList
 ```
 
-# Window Object
+# window object
 The window object hosts the DOM for the current tab.
 
-## Adding an Event Listener to Window
+## adding an event listener to window
 Creates an event listener that listens for the DOMContentLoaded event and runs the lambda specified
 in the segment argument when the event occurs:
 ```js
@@ -123,6 +123,6 @@ window.addEventListener('DOMContentLoaded', () => {
 }
 ```
 
-## Events for Input Boxes
+## events for input boxes
 `'change'` when the value in an input box changes  
 `'keyup'` when a key is pressed and released  

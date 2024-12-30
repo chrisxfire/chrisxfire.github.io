@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Algorithms
+# algorithms
 Algorithm – A series of instructions that perform a task.
 
 ## Big-O Notation 
@@ -16,12 +16,12 @@ Used to describe time and space complexities of algorithms:
 - `O(n^2)` — Exponential timeLeast efficient
 - `O(n!)` — Factorial time
 
-# Hashing
+# hashing
 > Credit: [ByteByteGo blog](https://blog.bytebytego.com/)
-## Simple Hashing
+## simple hashing
 A mechanism to distribute data evenly across servers.
 
-### Implementing
+### implementing
 1. For each object, hash its key with a hashing function (like MD5):  
   `serverIndex = hash(object_key) % N` where `N` is the size of the server pool  
   ![A diagram depicting the above formula](./Consistent-Hashing-image1.png)
@@ -41,7 +41,7 @@ A mechanism to distribute data evenly across servers.
 
     The solution to this problem is *consistent hashing*.
 
-## Consistent Hashing
+## consistent hashing
 Hashing the object keys but also the server hostnames (or IP addresses) with the same hashing function to the same range of values:  
 ![A diagram depicting how both objects and servers use the same hashing function](./Consistent-Hashing-image3.png)
 
@@ -56,7 +56,7 @@ Consistent hashing is used by:
 - CDNs to distribute web content evenly
 - Load balances to distribute persistent connections evenly
 
-### Implementing
+### implementing
 1. Hash the server by its hostname or IP and place it on the hash ring.
 2. Hash the object key using the same hash function from step #1 and place it into the hash ring. The hash is used directly to map the object keys onto the ring:  
    ![A diagram depicting the above two steps](./Consistent-Hashing-image6.png)
@@ -66,7 +66,7 @@ Consistent hashing is used by:
    * If server 1 is removed, only k1 needs to be remapped (to s2); the rest of the keys are unaffected:  
      ![A diagram depicting how k1 is remapped to s2 if s1 is deleted](./Consistent-Hashing-image8.png)
 
-### Size of Segments
+### size of segments
 If server 1 is removed, the segment for server 2 is now twice the size as the ones for server 0 and server 3:  
 ![A diagram depicting s2's segment twice as large as s3](./Consistent-Hashing-image9.png)
 
@@ -78,7 +78,7 @@ Each server handles multiple segments on the ring (one for each of its virtual n
 
 As the number of virtual nodes increases, the distribution of objects becomes more balanced. But more virtual nodes means taking more space for the metadata of those nodes. This is a tradeoff.
 
-# Linked Lists
+# linked lists
 Elements are ordered one after another. They are not stored in contiguous locations. They are linked using pointers. 
 
 Linked Lists do not have indices. Each element is a node, which contains data and a reference to the next node. Size of a linked list is dynamic.
@@ -91,7 +91,7 @@ tail is `null`
 setting 10 to null results in:  
 `5 –> 8 –> null`
 
-# Load Balancing Algorithms
+# load balancing algorithms
 > Credit: [ByteByteGo blog](https://blog.bytebytego.com/)  
 ![diagrams of various load balancing algorithms](load-balancing.jpg)
 
@@ -105,12 +105,12 @@ setting 10 to null results in:
 - Least connections
 - Least lag (fastest response time)
 
-# Queues
+# queues
 - A queue contains elements in the order they were added.  
 - Queues are FIFO: Elements are inserted at the end (enqueue) and removed from the beginning (dequeue).  
 - Queues do not have indices.
 
-## Blocking Queue
+## blocking queue
 > Credit: [ByteByteGo blog](https://blog.bytebytego.com/)  
 A blocking queue algorithm uses locks. Thread A acquires the lock first, and Thread B might wait for arbitrary lengthy periods if Thread A gets suspended while holding the lock. This algorithm may cause Thread B to starve.
 
@@ -129,5 +129,5 @@ Compare and Swap (CAS) can be used to implement a non-blocking queue:
 
 ![diagram of a non-blocking queue implemented with compare-and-swap](non-blocking-queue-with-cas.jpg)
 
-# Trees
+# trees
 A collection of nodes where each node can be linked to more nodes. Nodes are collected by links. Useful for nonlinear data.

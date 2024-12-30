@@ -13,7 +13,7 @@ Use `@typeparam` directive:
 @typeparam TEntity where TEntity : IEntity
 ```
 
-## Example
+## example
 `Shared/ListGenericTypeItems.razor`
 ```html
 <!-- This Component, ListGenericTypeItems, will be typed as TExample: -->
@@ -51,7 +51,7 @@ This allows you to set the type parameter of a Component that renders a `ListGen
                        TExample="int" />
 ```
 
-# Cascaded Generic Type Support
+# cascaded generic type support
 Add `@attribute [CascadingTypeParameter(...)]` to a Component.  By doing so, the specified generic type argument is automatically used in descendant Components that: are nested as child content in the same `.razor` file; also declare a @typeparam with the exact same name; do not have another value explicitly supplied or implicitly inferred for that type parameter.
 
 Notes:

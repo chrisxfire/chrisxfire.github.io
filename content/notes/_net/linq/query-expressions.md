@@ -15,7 +15,7 @@ Query expressions:
 - Optionally contain `where`, `orderby`, `join`, `let,` or other `from` clauses
 - Must end with a `select` or `group` clause
  
-# Query Syntax
+# query syntax
 Query syntax looks like this:
 ```cs
 int[] numbers = [ 5, 10, 8, 3, 6, 12 ];
@@ -37,7 +37,7 @@ Any query that can be expressed in *query syntax* can also be expressed using *m
 - Some query operations like `Count` or `Max` have no query syntax equivalent and require method syntax.
 - Method syntax can be combined with query syntax.
 
-# Method syntax
+# method syntax
 Method syntax is made possible by extension methods on `IEnumerable<T>` (and `IQueryable<T>`) that implement the standard query operators.
 
 Method syntax looks like this:
@@ -52,7 +52,7 @@ The `OrderBy` extension method implements the `orderby` standard query operator.
 > [!NOTE]
 > Some LINQ providers implement their own standard query operators and extension methods for types other than `IEnumerable<T>`.
 
-## Mixed Query and Method Syntax
+## mixed query and method syntax
 When mixing the two syntaxes, instead of this:
 ```cs
 int numCount1 = (
@@ -71,7 +71,7 @@ IEnumerable<int> numbersQuery =
 int numCount2 = numbersQuery.Count(); // This method call forces the query expression to execute immediately.
 ```
 
-# Subqueries
+# subqueries
 When a query clause contains a query expression, this is called a *subquery*. Each subquery starts with its own
 `from` clause. These are common when retrieving the results of a grouping operation:
 
@@ -89,8 +89,8 @@ var queryGroupMax =
     };
 ```
 
-# Query use cases
-## Filter the data
+# query use cases
+## filter the data
 ```cs
 IEnumerable<int> filteringQuery =
     from score in scores
@@ -107,7 +107,7 @@ IEnumerable<int> highScoresQuery =
     select score;
 ```
 
-## Transform a subset of the data
+## transform a subset of the data
 ```cs
 IEnumerable<string> highScoresQuery2 =
     from score in scores
@@ -116,7 +116,7 @@ IEnumerable<string> highScoresQuery2 =
     select $"The score is {score}"; // …then transform it (int –> string).
 ```
 
-## Get a singleton value about the data
+## get a singleton value about the data
 ```cs 
 int highScoreCount = ( // Because highScoreCount stores a result, it is *not* a query variable.
     from score in scores

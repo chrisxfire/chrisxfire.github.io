@@ -18,7 +18,7 @@ set.seed(1)
 sample(x, 10, replace = TRUE) # randomly sample 10 times from x
 ```
 
-# Practice Problem
+# practice problem
 - Q: Suppose that each of 1,000 members of an insurance pool independently has a 0.6 probability of submitting a claim in a year.  Using CLT, what is the approximate probability of receiving more than 630 claims?
 - A: 
 	- Y = total number of claims submitted

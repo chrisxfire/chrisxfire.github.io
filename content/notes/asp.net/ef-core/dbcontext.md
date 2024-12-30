@@ -5,20 +5,20 @@ draft: false
 weight: 1
 ---
 
-# Lifetime
+# lifetime
 The lifetime of `DbContext` begins when the instance is created and ends when it is disposed.  It lasts for a *unit of work*.
 
 > A unit of work keeps track of everything you do during a business transaction that can affect the database.  When you're done, it figures out everything that needs to be done to alter the database as a result of the work."  
 
 <br />
 
-# Threading and Concurrency
+# threading and concurrency
 <r>DbContext is not thread-safe</r>.  This includes parallel execution of async queries and any explicit concurrent use from multiple threads.  <g>Always await async calls immediately.</g>
 
-## Concurrent access detection
+## concurrent access detection
 EF Core detects attempts to use a `DbContext` instance concurrently and throws an `InvalidOperationException`.  Undetected attempts result in undefined behavior, crashes, and data corruption.
 
-# Error Handling
+# error handling
 An `InvalidOperationException` thrown by EF Core puts the context into an unrecoverable state.  The context must be discarded at this point.
 
 # Creating & Configuring a `DbContext`
@@ -52,12 +52,12 @@ builder.Services.AddDbContext<EmployeeManagerDbContext>(
             builder.Configuration.GetConnectionString("EmployeeManagerDb"),
             providerOptions => { providerOptions.EnableRetryOnFailure() } ));
 ```
-# Other DbContext Configuration Notes
+# other dbcontext configuration notes
 ## `DbContextOptions<T>` vs `DbContextOptions`
 - `DbContext` subclasses that accept a `DbContextOptions` must use `DbContextOptions<T>` to ensure the correct options for that `DbContext` subtype are resolved from DI.
 - If the DbContext subtype itself is intended to be inherited, use the `DbContextOptions`.
 
-## DbContextOptionsBuilder methods
+## dbcontextoptionsbuilder methods
 `DbContextOptionsBuilder` has other common methods for configuring the `DbContext`:
 | Method | Description |
 |--------|-------------|

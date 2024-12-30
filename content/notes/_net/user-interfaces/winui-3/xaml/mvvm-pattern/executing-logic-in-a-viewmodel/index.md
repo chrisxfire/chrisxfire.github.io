@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# First Technique to Execute Logic in a ViewModel
+# first technique to execute logic in a viewmodel
 Bind events to methods with `x:Bind`  
 
 Assume an `Add` method in the ViewModel that should be called every time a `Button` is clicked in the View:
 
-## Okay Approach
+## okay approach
 Use the `Button`'s `Click` event; install an event handler in the View's code-behind file:  
 ![](./XAML_MVVM-Pattern_Executing-Logic-in-a-ViewModel-image1.png)
 
@@ -44,12 +44,12 @@ public void Add()
     </StackPanel>
 </Button>
 ```
-# Second Technique to Execute Logic in a ViewModel
+# second technique to execute logic in a viewmodel
 Use Commands.
 
 Assume that the user can only use the `Add` method (via the `Button)` when a certain condition is met:  
 
-## Okay Approach
+## okay approach
 Add a `CanAdd` property to the ViewModel and a `IsEnabled` property to the View, then `x:Bind` them. When the `CanAdd` condition is met, the `Button` is enabled:  
 ![](./XAML_MVVM-Pattern_Executing-Logic-in-a-ViewModel-image3.png)
 

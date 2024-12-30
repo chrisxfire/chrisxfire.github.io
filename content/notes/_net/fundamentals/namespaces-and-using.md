@@ -8,7 +8,7 @@ tags:
  - kb/dotnet/fundamentals/using
 ---
 
-# Namespaces
+# namespaces
 Namespaces declare scopes:
 ```cs
 namespace SomeNamespace 
@@ -27,7 +27,7 @@ using SomeNamespace; // Imports all classes from namespace.
 using SomeNamespace;
 ```
 
-# Aliases
+# aliases
 The `using` directive can create aliases to namespaces:
 ```cs
 using MyNamespace = Really.Long.Nested.Namespace;
@@ -63,7 +63,7 @@ But not a reference type:
 using X = string?;
 ```
 
-## Global
+## global
 The `global` modifier has the same effect as adding the same `using` directive to every source file in a project:
 ```cs
 global using SomeNamespace;
@@ -74,7 +74,7 @@ Can also be added to project file instead:
 <Using>namespace</Using>
 ```
 
-## Static
+## static
 The static modifier imports only the static members and nested types from a namespace:
 ```cs
 static using SomeNamespace;
@@ -94,7 +94,7 @@ Some SDKs have implicit using directives. For example, for console applications 
 - `System.Threading`
 - `System.Threading.Tasks`
 
-### Disabling
+### disabling
 To disable implicit imports, add this line to the project file:
 ```xml
 <ImplicitUsings>disable</ImplicitUsings>
@@ -107,7 +107,7 @@ To use implicit imports but remove a specific one:
 </ItemGroup>
 ```
 
-# Using Statement
+# using statement
 The `using` statement generates a `finally` statement that calls the `Dispose()` method on an object that implements `IDisposable`:
 ```cs
 using (FileStream xmlFileStream = File.Create(file.xml)) { … }

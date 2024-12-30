@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Tag helpers are plain C# classes that inherit from `TagHelper.`  
 They can be placed anywhere and must be named `NameOfElementTagHelper`.  
 They override Process or `ProcessAsync.`  This method returns HTML which is inserted where the tag helper is invoked.
@@ -32,7 +32,7 @@ public class EmailTagHelper : TagHelper
 Add the Tag Helper to imports:  
 `@addTagHelper BethanysPieShop.TagHelpers.*, BethanysPieShop`
 
-# Using Custom Tag Helpers
+# using custom tag helpers
 The above Tag Helper creates a new element called email:
 ```html
 <email
@@ -41,7 +41,7 @@ The above Tag Helper creates a new element called email:
 </email>
 ```
 
-# Testing Tag Helpers
+# testing tag helpers
 Assuming this tag helper:
 ```cs
 public class EmailTagHelper : TagHelper

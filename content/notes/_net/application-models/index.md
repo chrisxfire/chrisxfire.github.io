@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 This mindmap shows .NET application models and their relationships.
 
 ![](./net-application-models.svg)

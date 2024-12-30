@@ -36,7 +36,7 @@ public record Department(string Name, int ID, int TeacherID);
 > These notes do not cover all of the query method supported by the .NET runtime.  
 > See documentation for [System.Linq.Enumerable](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable).
 
-# Operations
+# operations
 You can perform many operations with the standard query operators:
 - Filter data using the `where` keyword.
 - Order data using the `orderby` and optionally `descending` keywords.
@@ -44,7 +44,7 @@ You can perform many operations with the standard query operators:
 - Join data using the `join` keyword.
 - Project data using the `select` keyword.
 
-# Query operators and their equivalent query expression clauses
+# query operators and their equivalent query expression clauses
 | Method              | Query expression syntax                                        |
 | ------------------- | -------------------------------------------------------------- |
 | `Cast`              | Use an explicitly-typed range variable: `for int i in numbers` |

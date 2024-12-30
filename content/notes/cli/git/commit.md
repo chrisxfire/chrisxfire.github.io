@@ -7,7 +7,7 @@ tags:
  - kb/cli/git
 ---
 
-# Committing Changes
+# committing changes
 Each commit is a snapshot of a project that can be reverted to later.
 
 `git commit` – commits changes and launches text editor to get a commit message

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Create a Control Template
+# create a control template
 Create a copy of the default `ControlTemplate` for `CheckBox`:  
 
 Solution Explorer > **Dependencies** > **Packages** > **Microsoft.WindowsAppSDK** …  

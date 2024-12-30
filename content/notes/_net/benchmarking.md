@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Benchmarking
+# benchmarking
 `dotnet add package BenchmarkDotNet`
 
 `Program.cs`

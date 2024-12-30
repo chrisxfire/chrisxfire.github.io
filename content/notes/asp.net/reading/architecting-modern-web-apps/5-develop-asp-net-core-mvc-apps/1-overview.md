@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# MVC and Razor Pages
+# mvc and razor pages
 Razor Pages are built into ASP.NET Core MVC and use the same features for routing, model binding, filters, authorization, etc.  
 
 Comparison:
@@ -20,12 +20,12 @@ In Visual Studio:
 | Web API          | MVC controllers | /Views, /Pages — can be added | Web APIs |
 | Web App          | Razor Pages     | /Views, /Pages — can be added | Web apps |
 
-## Razor Pages
+## razor pages
 The default approach for new web apps in Visual Studio.  Razor Pages encapsulates server-side logic for a given logical "page" in a web application.
 
 A Razor Page's  page model combines responsibilities of an MVC controller and a viewmodel.  Instead of handling requests with controller actions, page model handlers like `OnGet()` are executed and render their associated page.
 
-# Mapping Requests to Responses
+# mapping requests to responses
 Concepts:
 - Conventional routes (applied in middleware pipeline)
 - Attribute routes (applied to controllers and actions)
@@ -36,6 +36,6 @@ When a request is matched to a route, but before the action is called, ASP.NET C
   - If the action method expects an int id, model binding will look for values in the route itself, query strings, or posted forms to attempt to provide it.
 - Model validation uses optional attributes on the model type to ensure the model object conforms to certain data requirements.
 
-## Preventing Large Controllers
+## preventing large controllers
 The mediator design pattern reduces coupling between classes while allowing communication between them.
 Use the MediatR Nuget package.

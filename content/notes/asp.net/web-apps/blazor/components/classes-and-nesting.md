@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Component Classes
+# component classes
 `ComponentBase` is the base class for Razor components.  It implements `IComponent.`
 
 Components are generated as C# partial classes.  They can either be written as:  
@@ -61,7 +61,7 @@ public partial class CounterPartialClass
     }
 }
 ```
-# Base Classes
+# base classes
 Use `@inherits`:  
 `Pages/BlazorRocks.razor`
 ```html
@@ -71,7 +71,7 @@ Use `@inherits`:
 <h1>@BlazorRocksText</h1> @*this string is defined in the base class*@
 ```
 
-# Nested Components
+# nested components
 Components can include other components by declaring them in HTML.
 
 This `Heading` component…  

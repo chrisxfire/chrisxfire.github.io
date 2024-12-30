@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Template Method
+# template method
 Type: Behavioral  
 Purpose:  
 Use to:  

@@ -8,13 +8,13 @@ weight: 1
 # WSDL – Web Service Description Language
 Describes the functionality of a SOAP-based web service.
 
-# WSDL elements
+# wsdl elements
 - `<types>` - The XML schema data types used by the web service.
 - `<message>` - The data elements for each operation.
 - `<portType>` - Defines a web service, its operations, and messages involved.
 - `<binding>` - The protocol and data format for each port type.
 
-# WSDL skeleton example
+# wsdl skeleton example
 ```xml
 <definitions>
 
@@ -37,7 +37,7 @@ Describes the functionality of a SOAP-based web service.
 </definitions>
 ```
 
-# Partial WSDL example
+# partial wsdl example
 ```xml
 <messagename="getTermRequest">
 <partname="term"type="xs:string"/>
@@ -57,13 +57,13 @@ Describes the functionality of a SOAP-based web service.
 
 From <https://www.w3schools.com/xml/xml_wsdl.asp>
 
-# Types of portType
+# types of porttype
 - One-way - The operation can receive a message but will not return a response
 - Request - responseThe operation can receive a request and will return a response
 - Solicit - responseThe operation can send a request and will wait for a response
 - Notification - The operation can send a message but will not wait for a response
 
-# WSDL Binding to SOAP
+# wsdl binding to soap
 WSDL bindings define the message format and protocol details for the web service:
 ```xml
 <message name="getTermRequest">

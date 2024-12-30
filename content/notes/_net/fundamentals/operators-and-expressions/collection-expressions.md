@@ -12,7 +12,7 @@ weight: 1
 Use *collection expressions* to create common collection values. This syntax can be assigned to many different collection types. It contains
 a sequence of elements between `[` and `]`.
 
-# Usage
+# usage
 Collection expressions can be used across many constructs:
 ```cs
 // In a variable declaration:
@@ -49,7 +49,7 @@ string neon = "Ne";
 string[] elements = [ hydrogen, helium, lithium, beryllium, boron, carbon, nitrogen, oxygen, fluorine, neon ];
 ```
 
-# Spread Elements
+# spread elements
 A *spread element* `..` can be used to *inline* collection values in a collection expression:
 ```cs
 string[] vowels = [ "a", "e", "i", "o", "u" ];
@@ -58,12 +58,12 @@ string[] consonants = [ "b", "c", "d", "f", "g", "h", "j", "k", "l", "m",
 string[] alphabet = [ ..vowels, ..consonants, "y" ];
 ```
 
-# Restrictions
+# restrictions
 Collection expressions cannot be used:
 * Where a compile-time constant is expected
 * As the default value for a method argument
 
-# Creating Collection Types that Support Collection Expressions
+# creating collection types that support collection expressions
 1. Write a `Create` method that:
    1. Returns an object of the collection type
    2. Takes a single parameter of the element type
@@ -103,5 +103,5 @@ internal static class LineBufferBuilder
 }
 ```
 
-# Converting Collection Expressions to Collection Types
+# converting collection expressions to collection types
 See https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions#conversions

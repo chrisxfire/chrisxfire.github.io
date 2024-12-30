@@ -7,7 +7,7 @@ tags:
  - kb/asp.net/fundamentals/servers
 ---
 
-# Overview
+# overview
 ASP.NET on Windows ships with:
 - Kestrel
 - IIS HTTP Server (an in-process server for IIS)
@@ -25,15 +25,15 @@ Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/server
 | Kestrel | Better | Yes | Yes | Yes | No | user-mode | No | No | No |
 | HTTP.sys | Poorer | No | No | No | Yes | kernel-mode | Yes | Yes | Yes |
 
-# Kestrel
+# kestrel
 Use Kestrel unless a feature that only HTTP.sys provides is required.
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel?view=aspnetcore-7.0
 
-##  Use Cases
-### Edge server  
+##  use cases
+### edge server  
 ![Edge server](edge-server.png)
 
-### Reverse proxy  
+### reverse proxy  
 ![Reverse proxy](reverse-proxy.png)
 
 # HTTP/2 Support

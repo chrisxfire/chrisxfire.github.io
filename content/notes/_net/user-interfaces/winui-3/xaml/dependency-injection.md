@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 The `MainWindow` knows how to create the MainViewModel with a customer data provider.  
 This is problematic because `MainWindow`'s responsibility is only to be the `MainWindow` of our application. Knowing how to instantiate a MainViewModel is outside of its scope.  
 `MainViewModel` is a dependency that `MainWindow` needs (and stores in its `MainViewModel` property below).
@@ -53,7 +53,7 @@ protected override void OnLaunched(Microsoft.Ui.Xaml.LaunchActivatedEventArgs ar
 // …
 ```
 
-# Using Dependency Injection
+# using dependency injection
 `App.xaml.cs`
 ```cs
 public partial class App : Application

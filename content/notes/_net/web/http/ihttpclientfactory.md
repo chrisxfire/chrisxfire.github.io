@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Problems with HttpClient
+# problems with httpclient
 - `HttpClient` implements `IDisposable`, but when the object gets disposed of, the underlying socket is not immediately released. This can lead to [socket exhaustion](https://aspnetmonsters.com/2016/08/2016-08-27-httpclientwrong/).
 - When using a shared instances of `HttpClient` in long-running processes, the if instantiated as a singleton or static object, `HttpClient` will fail to [handle DNS changes](https://github.com/dotnet/runtime/issues/18348).
 
-# Overview
+# overview
 `IHttpClientFactory` offers these benefits:
 - Supports DI. Injected `HttpClient` instances are Scoped.
 - A central location for naming and configuring `HttpClient` objects.
@@ -18,12 +18,12 @@ weight: 1
 - Documentation: https://learn.microsoft.com/en-us/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests?source=recommendations
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-7.0
 
-# Requirements
+# requirements
 ```powershell
 dotnet add package Microsoft.Extensions.Http
 ```
 
-# Basic Usage
+# basic usage
 This is a good way to refactor an existing app. No impact on how HttpClient is used. Replace occurrences of where HttpClient instances are created with calls to `CreateClient`.  
 
 `Program.cs`
@@ -70,7 +70,7 @@ public class TodoService
 }
 ```
 
-# Named Clients
+# named clients
 In the *named client* approach, `IHttpClientFactory` is injected into services.  `HttpClient` instances are created by calling `CreateClient`.
 
 Use when:
@@ -101,7 +101,7 @@ builder.Services.AddHttpClient(
     });
 ```
 
-## Creating a Named Client
+## creating a named client
 Each time CreateClient is called, a new instance of HttpClient is created and the configuration action is called.
 ```cs
 // Create a named client with CreateClient:
@@ -143,7 +143,7 @@ public sealed class TodoService
 }
 ```
 
-# Typed Clients
+# typed clients
 In the *typed client* approach, typed clients are transient objects usually injected into services.  They:
 - Provide the same capabilities as named clients but do not require strings as names.
 - Provide IntelliSense and compiler help.
@@ -201,7 +201,7 @@ builder.Services.AddHttpClient<TodoService>(
     });
 ```
 
-# Sending Requests
+# sending requests
 An example HTTP POST request:
 ```cs
 public async Task CreateItemAsync(Item item)

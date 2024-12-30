@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Composite
+# composite
 Type: Structural  
 Purpose:  
 Use to:  

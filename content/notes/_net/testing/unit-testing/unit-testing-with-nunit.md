@@ -12,7 +12,7 @@ NUnit unit tests are created with `dotnet new nunit -o TestProjectName`.
 
 Note: NUnit still uses `Setup` and `Teardown` methods, which is no longer considered best practice.
 
-# NUnit Attributes
+# nunit attributes
 see inline comments.
 
 ```cs

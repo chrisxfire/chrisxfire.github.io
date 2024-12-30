@@ -5,20 +5,20 @@ draft: false
 weight: 1
 ---
 
-# Implicit Razor Expressions
+# implicit razor expressions
 Implicit Razor expressions start with `@` and are followed by C# code.  These must not contain spaces (except with the await keyword):   
 ```html
 <p>@DateTime.Now</p>
 <p>@DateTime.IsLeapYear(2016)</p>
 ```
 
-# No Generics
+# no generics
 Implict expressions cannot contain C# generics:  the characters inside `<` `>` are evaluated as an HTML tag.  
 Invalid:  `<p>@GenericMethod<int>()</p>`
 
 To make genric method calls, use explicit Razor expressions.
 
-# Explicit Razor Expressions
+# explicit razor expressions
 Explicit Razor expressions use an `@` symbol and paranthesis:  
 ```html
 <p>Last week this time: @(DateTime.Now - TimeSpan.FromDays(7))</p>

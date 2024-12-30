@@ -21,7 +21,7 @@ In .NET, the regular expression engine needs a minimum of two pieces of informat
 
 .NET's regex implementation is compatible with Perl 5.
 
-# Create a Regex
+# create a regex
 ```cs
 public class Foo 
 {
@@ -75,7 +75,7 @@ Named groups can be retrieved via their name or index.
 ## `Group`
 The result from a single capturing group.
 
-# Miscellaneous
+# miscellaneous
 * `System.Web.RegularExpressions` contains RegEx options that implement predefined RegEx patterns for parsing HTML, XML, and other structured documents.
 * `System.Configuration.RegexStringValidator` — validate a string against the rules of a regular expression.
 * Regular expression pattern examples:

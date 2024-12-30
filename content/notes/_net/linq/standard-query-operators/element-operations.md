@@ -6,7 +6,7 @@ weight: 1
 ---
 Element operations return a single, specific element from a sequence.
 
-# Methods
+# methods
 | Method | Description | Query expression |
 |--------|-------------|------------------|
 `ElementAt`(`OrDefault`) | Returns the element at the specified index | N/A

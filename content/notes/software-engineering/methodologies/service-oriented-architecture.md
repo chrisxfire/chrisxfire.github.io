@@ -18,18 +18,18 @@ Service Mesh — a conjunction of services that provide functionality akin to an
 
 Services must be *stateless* — they must return the requested value or an exception.  
 
-# SOA Roles
+# soa roles
 1.  Service provider
 2.  Service broker / registry / repository
 3.  Service consumer
 
-# Implementation Approaches
+# implementation approaches
 - Web Services — SOAP, REST, gRPC
 - Microservices
 - Messaging (ex: RabbitMQ)
 - WCF
 
-# SOA structure
+# soa structure
 - App frontend
 - Service
   - Contract
@@ -40,7 +40,7 @@ Services must be *stateless* — they must return the requested value or an exce
 - Service repository
 - Service bus
 
-# Microservices
+# microservices
 An architectural approach that builds an application as a series of small services that are decentralized
 and autonomously developed. The services are loosely coupled, independently deployable, and easily maintainable.
 
@@ -54,25 +54,25 @@ Characteristics:
 Service granularity — defines how big a service is.
 - At Amazon, 1 service = 3 to 10 engineers
 
-# Service Mesh Architecture
+# service mesh architecture
 - Each service instance (SI) is paired with a reverse proxy sidecar.
 - SI + sidecar share a container.
 - Container is managed via orchestration.
 
-## Sidecar
+## sidecar
 - Handles communication with other Sis
 - Supports service discovery
 - Provides load balancing
 - Handles authentication & authorization
 
-## Data Plane
+## data plane
 - Consists of SI + Sidecar
 - Handles data management, request processing and response
 
-## Control Plane
+## control plane
 - Manages interaction between services via their sidecars.
 
-## Management Plane
+## management plane
 - Lifecycle
 - Configuration
 - Performance management

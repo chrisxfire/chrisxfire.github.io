@@ -46,7 +46,7 @@ class Program {
 }
 ```
 
-# 3 Types of Dependency Injection
+# 3 types of dependency injection
 ```cs
 public interface IService 
 {
@@ -61,7 +61,7 @@ public class SomeService : IService
 }
 ```
 
-## Constructor Injection
+## constructor injection
 ```cs
 public class SomeClass 
 {
@@ -98,7 +98,7 @@ public class SomeClass
 }
 ```
 
-## Method Injection
+## method injection
 ```cs
 public class SomeClass 
 {

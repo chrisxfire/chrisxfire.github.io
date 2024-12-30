@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Input Components
+# input components
 Wrappers around existing HTML inputs.  Inherit from `InputBase`.  Include basic validation:
 - `InputCheckbox`
 - `InputDate` (date picker)
@@ -19,7 +19,7 @@ Wrappers around existing HTML inputs.  Inherit from `InputBase`.  Include basic 
 - `InputText`
 - `InputTextArea` (multi-line)
 
-# Error message template support
+# error message template support
 `InputDate` and `InputNumber` both support error message templates to provide a custom error message:
 ```html
 <label>
@@ -121,6 +121,6 @@ Bind multiple options by setting the `@bind-value` to an array type. Doing so al
 
 The `@onchange` event provides an array of the selected options via event arguments (`ChangeEventArgs`).
 
-# Radio Buttons
+# radio buttons
 See: https://learn.microsoft.com/en-us/aspnet/core/blazor/forms-and-input-components?view=aspnetcore-7.0#radio-buttons
 

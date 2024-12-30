@@ -70,7 +70,7 @@ static void Main()
 }
 ```
 
-## Concurrent
+## concurrent
 Concurrent code like `Task<Egg> eggsTask = FryEggsAsync(2)` does not block and allows for concurrent execution:
 ```cs
 static async Task Main() 
@@ -81,7 +81,7 @@ static async Task Main()
 }
 ```
 
-## Composition
+## composition
 If any portion of an operation is asynchronous, the entire operation is asynchronous.  
 The composition of an asynchronous operation followed by synchronous work is asynchronous:
 ```cs
@@ -95,7 +95,7 @@ static async Task<Toast> MakeToastWithButterAndJamAsync()
 }
 ```
 
-# Async
+# async
 
 
 # Async Code & LINQ

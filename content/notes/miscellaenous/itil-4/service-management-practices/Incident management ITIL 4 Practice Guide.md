@@ -39,7 +39,7 @@ Please refer to the respective syllabus documents for details.
 
 The definition refers to a ‘normal service operation’. Conditions of normal service operation are typically defined within service level agreements (SLAs), or other forms of service quality specification, either agreed with the customer or defined by the service provider. In some cases, internal service provider’s specification can include more quality criteria than were initially agreed with the customers (see more on this in the service level management practice guide). The incident management practice is not limited to the service quality perceived by users. It includes restoration of the normal operation of services and resources, even when their failure or deviation is not visible to the service consumers. In this case, normal operation can be defined in the technical specifications of services or configuration items (CIs). Finally, if there is no documented specification of a normal operation, an expert opinion may be used to assess the status of the resources and services.
 
-#### Tips
+#### tips
 
 A simple flow to decide if there is an incident:
 
@@ -642,14 +642,14 @@ Table 8.1 outlines recommendations for the success of the incident management pr
 
 PeopleCert is grateful to everyone who has contributed to the development of this guidance. These practice guides incorporate an unprecedented level of enthusiasm and feedback from across the ITIL community. In particular, PeopleCert would like to thank the following people.
 
-#### Authors
+#### authors
 
 Barry Corless, Roman Jouravlev, Andrew Vermes
 
-#### Reviewers
+#### reviewers
 
 Akshay Anand, Sofi Fahlberg, Michael G. Hall, Steve Harrop, Piia Karvonen, Anton Lykov, Paula Määttänen, Christian F. Nissen, Mark O’Loughlin, Tatiana Orlova, Elina Pirjanti, Stuart Rance
 
-#### 2023 Revision
+#### 2023 revision
 
 David Cannon, Antonina Douannes, Peter Farenden, Adam Griffith, Roman Jouravlev, Kaimar Karu, Barclay Rae, Stuart Rance, Nicola Reeves

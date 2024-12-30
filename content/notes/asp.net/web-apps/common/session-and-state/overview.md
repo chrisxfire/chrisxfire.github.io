@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Cookies
+# cookies
 Cookies store data across requests.
 
 Key points:
@@ -14,7 +14,7 @@ Key points:
 - Must be validated by the app
 - [General Data Protection Regulation (GDPR) support in ASP.NET Core (microsoft.com)](https://learn.microsoft.com/en-us/aspnet/core/security/gdpr?view=aspnetcore-7.0)
 
-# Session State
+# session state
 Storage of user data while the user browses a web app.
 - Backed by a cache (ephemeral)
 - Critical user data should be stored in database and cached only as a performance optimization
@@ -33,7 +33,7 @@ Key points:
 - The session cooke is encrypted via `IDataProtector`
 - Do not store sensitve data in session state
 
-## Configuring Session State
+## configuring session state
 Enable session middleware in `Program.cs`:
 - Include an `IDistributedCache` memory cache ([Distributed caching in ASP.NET Core (microsoft.com)](https://learn.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-7.0))
 - Include a call to `AddSession` and `UseSession`
@@ -57,11 +57,11 @@ app.UseSession(); // AFTER UseRouting and BEFORE MapRazorPages and MapDefaultCon
 
 A new session (with a new session cookie) cannot be created after the app has started writing to the response stream.
 
-## Loading Session State
+## loading session state
 Call `ISession.LoadAsync` to load session records from the underlying `IDistributedCache`.  
 - If this call is not made before calling `TryGetValue`, `Set`, or `Remove` methods, it will be loaded synchronously.
 
-## Session Options
+## session options
 Use `SessionOptions` to override session defaults:  
 ```cs
 builder.Services.AddSession(options =>
@@ -73,7 +73,7 @@ builder.Services.AddSession(options =>
 });
 ```
 
-## Set and Get Session Values
+## set and get session values
 Session state is accessed via `HttpContext.Session` (an `ISession` implementation).  
 `ISession` has extension methods in `Microsoft.AspNetCore.Http`.
 
@@ -112,7 +112,7 @@ public class IndexModel : PageModel
 }
 ```
 
-## Serialization
+## serialization
 Session data must be serialized to enable a distributed cache scenario.  
 `ISession` extension methods (in `Web.Extensions`) can serialize strings and integers.  
 Complex types require another mechanism, such as JSON.
@@ -168,11 +168,11 @@ namespace SessionSample.Pages
 }
 ```
 
-# TempData
+# tempdata
 A property that stores data until the next request.  
 Available in both Razor Pages and MVC.
 
-## Example
+## example
 A page that creates a customer:
 ```cs
 public class CreateModel : PageModel
@@ -221,10 +221,10 @@ At the end of this request, `TempData["Message"]` is NOT deleted because `Peek` 
 Similarly, `Keep` can be used to also persist the data without peeking it.  
 If TempData was simply viewed via `TempData["Message"]`, it would have been deleted.
 
-## TempData Providers
+## tempdata providers
 There is a cookie `TempData` provider and session Tem`pData provider. The cookie `TempData` provider (the default) uses its own cookie provider. It is encrypted, encoded, and chunked. It is not compressed—compressing encrypted data can lead to security vulnerabilities.
 
-### Choosing a provider
+### choosing a provider
 Use the cookie-based `TempData` provider is if:
 - the app uses `TempData` sparingly or for data amounts <= 500 bytes
 - the app runs on a server farm
@@ -298,7 +298,7 @@ public static class HttpContextItemsMiddlewareExtensions
 }
 ```
 
-# Other Mechanisms
+# other mechanisms
 Query Strings — Data can be passed from one request to another by adding it to the next request's query string.  This has risks.  
 Hidden Fields — Data can be saved in hidden form fields and posted back on the next request.  This has risks.  
 Caching — Data can be cached for responses or application-wide.  

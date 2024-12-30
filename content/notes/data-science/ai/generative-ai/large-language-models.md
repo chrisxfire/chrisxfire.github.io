@@ -5,17 +5,17 @@ draft: false
 weight: 1
 ---
 
-# Overview 
+# overview 
 > **Large Language Model** — A generative AI model that receives natural language text as input and generates text as output.
 
-# Components
+# components
 - neural network
 - parameters
 - weights
 - tuning
 
-# Input and Output
-## Prompts
+# input and output
+## prompts
 The input of the large language model.
 - A prompt may be an *instruction* specifying the type of output is expected of the model.
   - Example instructions: 
@@ -25,13 +25,13 @@ The input of the large language model.
     - Writing assistance ("Louis XIV is an important historical character because...")
     - A unit of code to be created ("Create a Python function that sums two numbers")
 
-## Context
+## context
 The optional input that provides details to the *prompt* and, optionally, examples. Providing context is a form of *prompt engineering.*
 
-## Completion
+## completion
 The output of the large language model.
 
-## Tokenization
+## tokenization
 An LLM sees a prompt as a sequence of tokens. Different models (and even different versions of the same model) can tokenize a prompt differently. 
 The way a prompt is tokenized has a marked impact on the quality of the completion.
 
@@ -43,18 +43,18 @@ An instruction-tuned LLM starts with the foundation model and tunes it with exam
 *instructions*. For example, consider this instruction which is provided to a model after some initial prompt: *"Summarize content you are provided with for a 
 second-grade student. Keep the result to one paragraph with 3-5 bullet points."*
 
-# How it Works
-## Tokenization
+# how it works
+## tokenization
    1. A *token* is some arbitrary chunk of text. 
    2. LLMs use a *tokenizer* to create arrays of tokens. 
    3. Each token is then mapped with a *token index* — an integer encoding the original token.
 
-## Token prediction 
+## token prediction 
    1. Given *n* tokens as input (with max *n* varying from one model to another), this model can predict one token as output. 
    2. In the next iteration, the previous *output token* is incorporated. 
    3. This is how LLMs generate multiple sentences.
 
-## Selection process
+## selection process
    1. The *output token* is chosen according to its probability of occurring after the current chunk of text.
       1. This is done by creating a probability distribution of all possible "next tokens" based on the model's training.
       2. A degree of randomness is added which results in this process being non-deterministic.
@@ -89,7 +89,7 @@ LLMs can also be categorized by the output they generate:
 - *Encoder-only* models examine some input, examine some output, and identify the relationship between them (like BERT). They are not generative.  
 - *Encoder-Decoder* models do both (like BART and T5).
 
-## Development
+## development
 LLMs can be developed through several different approaches:
 1. Prompt engineering with context — provide enough context in the prompt to get useful completions.
 2. Retrieval Augmented Generation (RAG) — fetching relevant data and make it part of the prompt.

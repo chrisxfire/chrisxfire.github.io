@@ -11,7 +11,7 @@ The options pattern uses classes to provide strongly-typed access to groups of r
 
 This pattern supports a mechanism to validate configuration data.
 
-# Configuring and Using Options
+# configuring and using options
 High-level Process:  
 1. Create options classes that model the configuration data
 2. Add instances of `Option<TOption>` to the DI container
@@ -70,7 +70,7 @@ public sealed class ExampleService
 }
 ```
 
-# Other Ways to Configure Options
+# other ways to configure options
 ## Using `Configuration.GetSection`
 ```cs
 SomeOptions options = new();
@@ -93,7 +93,7 @@ Console.WriteLine($"SomeOptions.Enabled={options.Enabled}");
 Console.WriteLine($"SomeOptions.AutoRetryDelay={options.AutoRetryDelay}");
 ```
 
-# Options Interfaces
+# options interfaces
 | Interface             | Can read config data after app starts | Supports named options | Service lifetime |              
 | --------------------- | ------------------------------------- | ---------------------- | ---------------- | 
 | `IOptions<T>`         | No                                    | Yes                    | Singleton        | 
@@ -130,7 +130,7 @@ public sealed class MonitorService
 }
 ```
 
-# Named Options
+# named options
 Use named options when multiple configuration sections bind to the same properties. Consider:
 `appsettings.json`  
 ```json
@@ -160,7 +160,7 @@ Notice how both `Personalize` and `WeatherStation` have properties of the same n
 }
 ```
 
-## Configuring Named Options
+## configuring named options
 ```cs
 HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
 
@@ -173,7 +173,7 @@ builder.Services.Configure<Features>(Features.WeatherStation,
                                      builder.Configuration.GetSection("Features:WeatherStation"));
 ```
 
-## Using Named Options
+## using named options
 ```cs
 public class sealed Service
 {
@@ -188,7 +188,7 @@ public class sealed Service
 }
 ```
 
-# Options Validation
+# options validation
 Options can be validated with `System.ComponentModel.DataAnnotations`. 
 
 By default, validation is performed the first time an options instance is created. Validation can be performed eagerly (see notes in step 3).
@@ -242,7 +242,7 @@ builder.Services.AddOptions<SomeOptions>()
               //.ValidateOnStart(); <-- Optionally, validate eagerly
 ```
 
-## Validation Sample
+## validation sample
 A sample class that displays the configuration values or the validation errors:
 ```cs
 using Microsoft.Extensions.Logging;

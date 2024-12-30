@@ -5,16 +5,16 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Prefer `x:Bind` over `Binding` whenever possible.
 
-# Binding
+# binding
 ```xml
 <TextBlock Text={"Binding Path=…}"/>
 ```
 - Resolves binding path at *runtime*
 
-## Data Sources
+## data sources
 - `ElementName`, `Source`, or `RelativeSource`
 - Uses `DataContext` if none of the above are set
 
@@ -25,7 +25,7 @@ Prefer `x:Bind` over `Binding` whenever possible.
 - Resolves binding path a *compile time*
 - Creates C# code behind the scenes
 
-## Data Sources
+## data sources
 - Does not use data sources.
 - Uses Root object of XAML document (an instance of the class that is specified with the x:Class attribute)
 

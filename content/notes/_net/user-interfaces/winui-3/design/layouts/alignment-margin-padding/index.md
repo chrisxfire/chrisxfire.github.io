@@ -11,7 +11,7 @@ weight: 1
 
 ![](./Design---Layouts-(Responsive-Layouts-w-XAML)_Alignment,-Margin,-Padding-image5.png)
 
-# Dimensions
+# dimensions
 Dimensions should be set in increments of 4 effective pixels.
 - `Height` / `Width` specify element size. Default = `NaN`. Use `Auto` or star sizing for fluid behavior.
 - `ActualHeight` / `ActualWidth` report element size at runtime and are changed in a `SizeChanged` event.
@@ -19,13 +19,13 @@ Dimensions should be set in increments of 4 effective pixels.
 - Text element dimensions are controlled by `FontSize`.
   - They do not have a Height / Width property but do have a calculated `ActualHeight` / `ActualWidth`.
 
-# Alignment
+# alignment
 - `HorizontalAlignment`—`Left`, `Center`, `Right`, `Stretch` (default)
 - `VerticalAlignment`—`Top`, `Center`, `Bottom`, `Stretch` (default)
 - `HorizontalContentAlignment` / `VerticalContentAlignment` specify how children are positioned in the container.
 - Text elements use the `TextAlignment` property (default=`left-alignment`)
 
-# Margin
+# margin
 The amount of empty space around an element.
 Margin should be set in increments of 4 effective pixels.
 - Does not add pixels to `ActualHeight` / `ActualWidth`.
@@ -35,7 +35,7 @@ Margin should be set in increments of 4 effective pixels.
 - Negative margins are supported but discouraged (can cause clipping).
 - Margin values are constrained last—can cause an element's dimension to be constrained to 0.
 
-# Padding
+# padding
 The amount of empty space between the inner border of an element and its child content/elements.
 Padding should be set in increments of 4 effective pixels.
 - A positive padding value decreases the content area of the element.

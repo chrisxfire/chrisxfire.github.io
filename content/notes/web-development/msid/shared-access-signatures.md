@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Share Access Signatures
+# share access signatures
 A signed URI that points to one or more storage resources.
 Includes a token that contains a special set of query parameters.
 
-## Types of Shared Access Signatures
+## types of shared access signatures
 - User delegation SAS
   - Secured with AAD credentials and also by permissions specified for the SAS.
   - Applies to Blob storage only.
@@ -25,7 +25,7 @@ Includes a token that contains a special set of query parameters.
   - URI to the resource in Azure Storage that is being accessed (`host.tld/patient-images/patient-116139-nq8z7f.jpg?`)
   - SAS token that you've created to authorize access (`sp=r&st=2020-01-20T11:42:32Z&se=2020-01-20T19:42:32Z&spr=https&sv=2019-02-02&sr=b&sig=SrW1HZ5Nb6MbRzTbXCaPm%2BJiSEn15tC91Y4umMPwVZs%3D`)
 
-## Best Practices
+## best practices
 - Always use HTTPS.
 - User Delegation SAS is the most secure. Use it whenever possible.
 - Set expiration time to the smallest useful value.

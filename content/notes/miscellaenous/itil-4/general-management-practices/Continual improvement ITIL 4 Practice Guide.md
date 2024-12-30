@@ -469,7 +469,7 @@ Roman Jouravlev, Laura Little, Kirstie Magowan, Konstantin Naryzhny,.
 
 Xavier Idrovo, Vernon Lloyd.
 
-### References
+### references
 
 1.  Rother, Mike. (2017). The Toyota Kata Practice Guide: Developing Scientific Thinking Skills for Superior Results. US. McGraw Hill.
 2.  [https://en.wikipedia.org/wiki/OODA\_loop](https://en.wikipedia.org/wiki/OODA_loop)

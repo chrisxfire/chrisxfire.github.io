@@ -19,7 +19,7 @@ weight: 1
 | <kbd>Fn</kbd> + <kbd>J</kbd> + <kbd>Z</kbd> (long press 3 secs)                                                                                                   | Reset keyboard                         |
 | <kbd>Fn</kbd> + <kbd>X</kbd> + <kbd>L</kbd> (long press 3 secs)                                                                                                   | Switch between Function and multimedia |
 
-# Firmware Update Process
+# firmware update process
 1. [Download firmware for Windows, K10, white backlight, v1.08](https://cdn.shopify.com/s/files/1/0059/0630/1017/files/K10-A2-104K-white_V1.08_20210414.exe?v=1638433189)
 2. Set keyboard to cable mode
 3. Run the EXE

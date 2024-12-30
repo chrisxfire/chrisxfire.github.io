@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Automatic Variables
+# automatic variables
 | Variable | Description |
 | -------- | ----------- |
 | `$$` | Returns the last token in the last line received by the session |
@@ -25,12 +25,12 @@ weight: -1
 | `$PWD` | The current working directory |
 | `$StackTrace` | The stack trace for the most recent error |
 
-# Chaining Commands
+# chaining commands
 Run `cmd2` only if `cmd1` succeeds: `cmd1 && cmd2`  
 Run `cmd2` only if `cmd1` fails: `cmd1 || cmd2`  
 Run `cmd1` and `cmd2` regardless of `cmd1`'s result: `cmd1; cmd2`  
 
-# Environment Variables  
+# environment variables  
 Get:  
 ```powershell
 $Env:variable-name
@@ -46,7 +46,7 @@ Persist:
 [Environment]::SetEnvironmentVariable('key', 'value', 'scope') # scope = machine or user
 ```
 
-## Set environment variables
+## set environment variables
 Set an environment variable for this session only:		    `set key="value"`  
 Set an environment variable that persists:			        `setx key="value"`  
 Set the environment variable in system intead of user:	    `setx /M key="value"`  
@@ -54,7 +54,7 @@ Set an environment variable that has a hierarchical key:	`set level1:level2="val
 - The `:` separator is not recognized on all platforms.  Use `__` instead:  `set level1__level2="value"`
 
 # Files & Directories
-## Cat Clipboard to File
+## cat clipboard to file
 ```powershell
 Get-Clipboard | Out-File filename
 ```
@@ -64,12 +64,12 @@ Get-Clipboard | Out-File filename
 copy /srcdir/subdir /dstdir/newsubdir -Recurse # copy /srcdir/subdir and all of its files and subdirectories to /dstdir/newsubdir and create it if it doesn't exist
 ```
 
-## CWD
+## cwd
 ```powershell
 Get-Location
 ```
 
-## Find
+## find
 ```powershell
 gci -Path <starting-path> `
     -Include <glob> `
@@ -88,22 +88,22 @@ Get-ChildItem -Path ./*.<EXT> -Recurse | Select-String
   -Raw # Don't output file names
 ```
 
-## Pipe to a File
+## pipe to a file
 ```powershell
 cmd | out-file filename
 ```
 
-## Pipe to a File and Console
+## pipe to a file and console
 ```powershell
 cmd | Tee-Object -File filename
 ```
 
-## Remove Directory Recursively
+## remove directory recursively
 ```powershell
 ri path -Recurse -Force
 ```
 
-## Remove File Recursively
+## remove file recursively
 ```powershell
 Get-ChildItem  -Include .csv -Recurse | Remove-Item
 ```
@@ -123,43 +123,43 @@ Get-Content path -Tail 1 -Wait
 ni filename
 ```
 
-## Write to a File
+## write to a file
 ```powershell
 Set-Content -Path ./path/to/file.txt -Value 'Hello, World'
 ```
 
-## Write to a Specific Line in a File
+## write to a specific line in a file
 ```powershell
 $fileContent = Get-Content $filePath
 $fileContent[$lineNumber-1] += $textToAdd
 $fileContent | Set-Content $filePath
 ```
 
-# History
+# history
 ```powershell
 get-history # Stored in `%userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline`
 ```
 
-# PowerShell version
+# powershell version
 ```powershell
 $PSVersionTable
 ```
 
-# Profiles
+# profiles
 Locations  
 `AllUsersAllHosts`, `AllUsersCurrentHost`, `CurrentUserAllHosts`, `CurrentUserCurrentHost`
 
-# Set a Profile
+# set a profile
 ```powershell
 notepad $Profile.Location
 ```
 
-# System Folders
+# system folders
 ```powershell
 [environment]::getfolderpath("system-folder-name")
 ```
 
-# Windows Services
+# windows services
 ```powershell
 Get-Services [-DisplayName "glob"]
 ```

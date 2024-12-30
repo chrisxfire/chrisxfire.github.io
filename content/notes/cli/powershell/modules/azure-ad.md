@@ -5,23 +5,23 @@ draft: false
 weight: 1
 ---
 
-# Importing
+# importing
 Must use Windows PowerShell (not PowerShell 7)
 ```powershell
 Import-Module AzureAd -UseWindowsPowerShell
 ```
 
-# Connecting
+# connecting
 ```powershell
 Connect-AzureAD
 ```
 
-# Get a List of Groups of Which User is a Member  
+# get a list of groups of which user is a member  
 ```powershell
 Get-AzureADUser -SearchString hanawayc@gejohnson.com | Get-AzureADUserMembership | % {Get-AzureADObjectByObjectId -ObjectId $_.ObjectId | select DisplayName,ObjectType,MailEnabled,SecurityEnabled,ObjectId} | Format-Table
 ```
 
-# Get a List of groups of Which User is an Owner
+# get a list of groups of which user is an owner
 ```powershell
 Get-AzureADUser -SearchString user@example.com | Get-AzureADUserOwnedObject
 ```

@@ -9,7 +9,7 @@ weight: 1
 
 In this pattern, callbacks achieve waiting without blocking. Language-based async support hides the callbacks.
 
-# Await keyword
+# await keyword
 The `await` keyword suspends execution. It installs a callback by using continuation. The callback resumes the async method at the point of suspension. 
 
 When the async method is resumed:
@@ -39,7 +39,7 @@ Suspension and resumption can be configured:
     await someTask.ConfigureAwait(continueOnCapturedContext:false);
     ```
 
-# Cancellation
+# cancellation
 Cancellation tokens are created with `CancellationTokenSource` objects. The CTS's `Token` property returns the cancellation token that is signaled when the CTS's `Cancel` method is called:
 ```cs
 var cts = new CancellationTokenSource();
@@ -52,7 +52,7 @@ A single token can cancel multiple asynchronous invocations.
 
 Pass `CancellationToken.None` to a method to indicate that cancellation will never be requested. The method will then optimize.
 
-# Monitoring Progress
+# monitoring progress
 Some async methods expose progress through a progress interface passed into the method.
 
 # Built-in Task-based Combinators

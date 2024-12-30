@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# UserControls
+# usercontrols
 UserControls compartmentalize XAML.
 
-# Creating
+# creating
 New folder > "Controls" > New item > WinUI > User Control (WinUI 3) > "HeaderControl"
 
 `HeaderControl.xaml`

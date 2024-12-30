@@ -5,23 +5,23 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - `System.Text.Json` creates a JSON *contract* for each .NET type that determines how it is serialized and deserialized.  
 - The contract is created based on the shape of the type — its properties, fields and interfaces it implements.
 - Types are mapped to contracts either at run time (via reflection) or compile time (via source generation).
 - Documentation: https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/custom-contracts
 
-# Customizing JSON Contracts
+# customizing json contracts
 > [!IMPORTANT]
 > Availability: .NET 7 
 
-## Modifiers
+## modifiers
 A modifier is an `Action<JsonTypeInfo>` or a `static void` method with a `JsonTypeInfo` parameter that gets the current state of the contract as an argument and makes modifications to it.
 - Modify the `JsonTypeInfo.Get` property to change serialization behavior
 - Modify the `JsonTypeInfo.Set` property to change deserialization behavior
 - Create a new property using `JsonTypeInfo.CreateJsonPropertyInfo(Type, String)` and add it to the `JsonTypeInfo.Properties` collection
 
-### Modifications
+### modifications
 The following modifications can be made:  
 | Modification                                  | Applicable to this JsonTypeInfo.Kind | How                                                                 |
 | --------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------- |
@@ -30,7 +30,7 @@ The following modifications can be made:
 | Conditionally serialize a property            | `JsonTypeInfoKind.Object`            | Modify the `JsonPropertyInfo.ShouldSerialize` predicate             |
 | Customize number handling for a specific type | `JsonTypeInfoKind.None`              | Modify the `JsonTypeInfo.NumberHandling` value                      |
 
-## Process
+## process
 To customize JSON contracts:
 1. Create modifiers
 2. Create a `JsonSerializerOptions` instance

@@ -40,5 +40,5 @@ static async Task SumPageSizesAsync()
 }
 ```
 
-# See Also
+# see also
 https://devblogs.microsoft.com/pfxteam/processing-tasks-as-they-complete/

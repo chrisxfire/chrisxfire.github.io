@@ -72,7 +72,7 @@ you need to isolate your code from external assemblies.
     ```
 8. Run the test.
 
-# Shim Behavior
+# shim behavior
 Each generated shim type receives an `IShimBehavior` through the `ShimBase<T>.InstanceBehavior` property. Whenever a client calls a member
 *that has not been shimmed*, this behavior is invoked. If no behavior has been set, it uses `ShimBehaviors.Current` which throws
 a `NotImplementedException` by default.
@@ -90,7 +90,7 @@ To change the behavior globally for all shims where behavior has not been set, u
 ShimBehaviors.Current = ShimBehaviors.DefaultValue;
 ```
 
-## Identifying Interaction with External Dependencies
+## identifying interaction with external dependencies
 By setting `Behavior` property of a shim type to `ShimBehaviors.NotImplemented`, any access to a member of that type throws a `NotImplementedException`. This
 can serve as a signal during testing to indicate code is attempting to access an external component:
 ```cs
@@ -100,7 +100,7 @@ ShimMyClass.Behavior = ShimBehaviors.NotImplemented;
 ShimMyClass.BehaveAsNotImplemented();
 ```
 
-## Invoke the Original Method form Within a Shim Method
+## invoke the original method form within a shim method
 In this example, the use case might be writing text to the file system after validating the file name passed to a the method. To achieve this, there are
 two approaches:
 1. Encapsulate a call to the original method using a delegate and `ShimsContext.ExecuteWithoutShims()`:
@@ -142,8 +142,8 @@ two approaches:
 ## Shimming System.Environment
 See [here](https://learn.microsoft.com/en-us/visualstudio/test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing?view=vs-2022&tabs=csharp#shimming-systemenvironment).
 
-# Shimming Different Types of Methods
-## Shims for Static Methods
+# shimming different types of methods
+## shims for static methods
 For static methods, a shim type has properties that hold shims. The properties only have a setter. This setter is used to attach a delegate to the targeted method:
 ```cs
 //code under test
@@ -211,7 +211,7 @@ var shim = new ShimMyClass();
 MyClass instance = shim; // implicit cast retrieves the runtime instance
 ```
 
-## Shims for Constructors
+## shims for constructors
 Every constructor is represented as a static method named `Constructor` within the shim type:
 ```cs
 public class MyClass 
@@ -243,13 +243,13 @@ public ShimMyClass() { } // Use this one when a new instance is needed
 public ShimMyClass(MyClass instance) : base(instance) { } // Use this one only in constructor shims
 ```
 
-## Shims for Static Constructors
+## shims for static constructors
 Shim types expose a static method `StaticConstructor` to shim the static constructor of a type.
 
-## Shims for Finalizers
+## shims for finalizers
 Finalizers are not supported in Fakes.
 
-## Shims for Base Members
+## shims for base members
 To create shimmed properties of base members, create a shim of the base type, a shim of the child type, then input child type shim into the constructor of the base shim:
 ```cs
 public abstract class MyBase { // the base type
@@ -264,7 +264,7 @@ var child = new ShimMyChild(); // a shim of the child
 new ShimMyBase(child) { MyMethod = () => 5 }; // input the shim of the child into the constructor of the base shim
 ```
 
-# Shimmed Types of Interfaces
+# shimmed types of interfaces
 When a shimmed type implements an interface, a method named `Bind` is generated that allows it to bind all the members for that interface at once:
 ```cs
 public class MyClass : IEnumerable<int> 

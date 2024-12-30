@@ -7,7 +7,7 @@ weight: 1
 
 From Pluralsight/ASP.NET Core 6 Fundamentals
 
-# Creating a Form Using Tag Helpers
+# creating a form using tag helpers
 ASP.NET Core has built-in Tag Helpers for creating forms:
 - `Form`
     - `asp-controller` to specify which controller to target on a form's POST action
@@ -29,7 +29,7 @@ Get the name of the property we want to display via the `asp-for` attribute on t
 <label for="Firstname">FirstName</label>
 ```
 
-# Form Tag Helper
+# form tag helper
 The form tag helper enables CSFR attack mitigations by default.
 ```html
     <!-- trigger the Checkout action on current controller since no other controller specified -->

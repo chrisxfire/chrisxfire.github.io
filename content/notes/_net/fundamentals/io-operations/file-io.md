@@ -11,7 +11,7 @@ See [here](../overview#overview-of-types-for-filesdirectories).
 # File & Directory IO
 All methods return `void` unless otherwise specified.
 
-## Files
+## files
 | Goal                             | Use                                                        |
 | -------------------------------- | ---------------------------------------------------------- |
 | Check for a file                 | `File.Exists` (returns `bool`)                             |
@@ -23,7 +23,7 @@ All methods return `void` unless otherwise specified.
 | Retrieve a file extension        | `Path.GetExtension`                                        |
 | Change a file extension          | `Path.ChangeExtension`                                     |
 
-## Text Files
+## text files
 | Goal                  | Use                                                                                                                                                                                          |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Create a text file    | `File.CreateText` (returns `StreamWriter`) <br /> `File.Create` (returns `FileStream`) <br /> `FileInfo.CreateText` (returns `StreamWriter`) <br /> `FileInfo.Create` (returns `FileStream`) |
@@ -31,13 +31,13 @@ All methods return `void` unless otherwise specified.
 | Append to a text file | `File.AppendText` (returns `StreamWriter`) <br /> `FileInfo.AppendText` (returns `StreamWriter`)                                                                                             |
 | Read from a text file | `StreamReader`                                                                                                                                                                               |
 
-## Binary Files
+## binary files
 | Goal      | Use            |
 | --------- | -------------- |
 | Read from | `BinaryReader` |
 | Write to  | `BinaryWriter` |
 
-## Directories
+## directories
 | Goal                    | Use                                                                                                  |
 | ----------------------- | ---------------------------------------------------------------------------------------------------- |
 | Check for a directory   | `Directory.Exists` (returns `bool`)                                                                  |
@@ -60,13 +60,13 @@ Enumerable collections provide superior performance vs arrays when working with 
 | Directory and file names | `Directory.EnumerateFileSystemEntries`   |
 | FileSystemInfo objects   | `DirectoryInfo.EnumerateFileSystemInfos` |
 
-# Compression and Decompression
+# compression and decompression
 For all examples:
 ```cs
 using System.IO.Compression;
 ```
 
-## Compression and Decompression For zip files
+## compression and decompression for zip files
 Compression (Creating a zip file):
 ```cs
 var startPath = "/source/directory";
@@ -89,7 +89,7 @@ if (!destinationPath.EndsWith(Path.DirectorySeparatorChar.ToString(), StringComp
 zipFile.ExtractToDirectory(zipFilePath, destinationPath);
 ```
 
-## Adding to a zip file
+## adding to a zip file
 ```cs
 var zipFilePath = "/destination/compressed.zip";
 
@@ -102,7 +102,7 @@ using StreamWriter writer = new StreamWriter(fileEntry.Open());
 writer.WriteLine("Some text...");
 ```
 
-## Compression and Decompression for GZip
+## compression and decompression for gzip
 Compression:
 ```cs
 var fileToCompress = new FileInfo("/source/file.txt");

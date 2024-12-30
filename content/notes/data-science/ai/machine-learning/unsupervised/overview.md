@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 In unsupervised machine learning, models are trained using data that consists only of *feature* values without any known *labels*. The models determine relationships between the features of the observations in the training data.
 
 # Clustering [[Reference](https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/7-clustering)]
@@ -18,7 +18,7 @@ In unsupervised machine learning, models are trained using data that consists on
 Clustering is similar to multi-class classification except that the classes are unknown. In some cases, clustering is used to determine classes that are
 then used for training a classification model.
 
-# Training Clustering Models
+# training clustering models
 ## K-Means algorithm
 K-Means clustering is achieved with these steps:
 1. The feature ($x$) values are vectorized to define $n$-dimensional coordinates (where $n$ is the number of features).
@@ -30,7 +30,7 @@ K-Means clustering is achieved with these steps:
 5. After the centroid is moved, the data points may now be closer to a *different* centroid. Those data points are reassigned to clusters based on the new closest centroid.
 6. Steps 4 and 5 are repeated until the clusters become stable, or a predetermined maximum number of iterations is reached.
 
-# Cluster Model Evaluation 
+# cluster model evaluation 
 Evaluation of a clustering model is based on how well the resulting clusters are separated from one another.
 
 Metrics:

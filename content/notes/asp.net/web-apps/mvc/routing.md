@@ -5,19 +5,19 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 MVC Controllers use Routing middleware to match a URL of an incoming request to and map them to actions.
 
 Route templates are defined in `Program.cs`, describe how URL paths are matched to actions, and are used to generate URLs for links which are typically returned in responses.
 
-# To Use Controllers
+# to use controllers
 Call `MapControllers` to map attribute routed Controllers.
 Call `MapControllerRoute` or `MapAreaControllerRoute` to map both conventionally routed Controllers and attribute routed Controllers.
 
-# Conventional Routing
+# conventional routing
 Conventional routing is typically used with Controllers and Views.
 
-## Creating
+## creating
 Conventional routes are typically created in one place in the application, like the middleware pipeline.
 The default conventional route:
 ```cs
@@ -43,7 +43,7 @@ public class ProductsController : Controller
 ```
 Tool to display route information: [NuGet Gallery | Rick.Docs.Samples.RouteInfo 1.0.0.8](https://www.nuget.org/packages/Rick.Docs.Samples.RouteInfo)
 
-## Multiple Conventional Routes
+## multiple conventional routes
 Add more calls to `MapControllerRoute` or `MapAreaControllerRoute`:
 ```cs
 app.MapControllerRoute(name: "blog",
@@ -56,13 +56,13 @@ app.MapControllerRoute(name: "default",
                pattern: "{controller=Home}/{action=Index}/{id?}");
 ```
 
-## Conventional Routing Order
+## conventional routing order
 Conventional routing is order-dependent based on the order in which they are invoked.  Routes with areas should be placed earlier as they are more specific.  Greedy routes should be placed later in the definition.
 
-## Ambiguous Actions
+## ambiguous actions
 When more than one action matches a route, the actions are ambiguous.  Routing attempts to choose the best candidate.  If it cannot, it will throw an `AmbiguousMatchException` listing the multiple matched endpoints.
 
-# Attribute Routing
+# attribute routing
 Attribute routes are applied to controllers and actions directly rather than in the middleware pipeline.  
 Attribute routing is used with REST APIs to model the app's functionality as a set of resources represented by HTTP verbs.  
 It allows for precise control of which route templates apply to each action.  
@@ -83,7 +83,7 @@ public class HomeController : Controller
 }
 ```
 
-## Token Replacement
+## token replacement
 Use token replacement attributes on actions to match URLs dynamically:
 ```cs
 [Route("")]
@@ -114,7 +114,7 @@ These are both HTTP verb templates and route templates:
 - `[HttpHead]`
 - `[HttpPatch]`
 
-## Attribute Routing with HTTP Verb Attributes
+## attribute routing with http verb attributes
 Assuming:
 ```cs
 [Route("api/[controller]")]
@@ -153,7 +153,7 @@ Here, the `id` attribute is required:
 public IActionResult GetProduct(int id) => ControllerContext.MyDisplayRouteInfo(id);
 ```
 
-## Attribute Route Ordering
+## attribute route ordering
 Attribute routes can configure an `Order` property.  
 All framework-provided routes include `Order`.  
 Setting `Order = -1` runs the route before routes that don't set an order.  

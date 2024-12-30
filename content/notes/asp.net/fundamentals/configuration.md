@@ -14,8 +14,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 See also: [Configuration in .NET](../../../_net/configuration/overview)
 
-# Concepts
-## Host Configuration
+# concepts
+## host configuration
 Host configuration providers in order of priority for `WebApplicationBuilder`:
 1. Command line arguments
 2. DOTNET_-prefixed environment variables
@@ -28,7 +28,7 @@ Host configuration providers in order of priority for the .NET Generic Host and 
 
 ### Host variables [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#host-variables)]  
 
-## App Configuration
+## app configuration
 App configuration providers in order of priority:
 1. Command line arguments
 2. Non-prefixed environment variables
@@ -39,10 +39,10 @@ App configuration providers in order of priority:
 - For confidential configuration data, use [Secret Manager](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-6.0#secret-manager).  
 - For production secrets, use [Azure Key Vault](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-6.0).
 
-## Configuration Providers
+## configuration providers
 Both the host and the app are configured using these configuration providers.  Any host-specific configuration key-value pairs are also included in the app's configuration.
 
-### JSON Configuration Provider
+### json configuration provider
 By default, the JSON configuration provider is configured to:
 - Search for `appsettings.json` and then `appsettings.ENVIRONMENT.json` 
 - Set `reloadOnChange` to `true`
@@ -68,18 +68,18 @@ var app = builder.Build();
 
 ### Command Line Configuration Provider [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#command-line)]  
 
-### Other Configuration Providers
+### other configuration providers
 > INI files: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#ini-configuration-provider  
 > XML files: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#xml-configuration-provider  
 > Key-per file: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#key-per-file-configuration-provider  
 > Memory: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#memory-configuration-provider
 
-## Connection String Prefixes
+## connection string prefixes
 The Configuration API has special rules for some connection string environment variables.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#connection-string-prefixes
 
-## Kestrel Endpoint Configuration
+## kestrel endpoint configuration
 Configuration for Kestrel provided in `appsettings.json` **overrides all cross-server endpoint configurations.**
 - This includes command line arguments.
 
@@ -87,12 +87,12 @@ Configuration for Kestrel provided in `appsettings.json` **overrides all cross-s
 
 ## Adding Configuration via Extension Methods [[Documentation](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#combining-service-collection)]  
 
-## Adding Configuration with a Delegate
+## adding configuration with a delegate
 Options configured in a delegate override the values set in the configuration providers.
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#configure-options-with-a-delegate
 
-# Accessing Configuration
+# accessing configuration
 ## `ConfigurationBinder.GetValue`
 `ConfigurationBinder` has extension methods for `IConfiguration`.  Use to access a single value from configuration:
 ```cs
@@ -194,7 +194,7 @@ app.Logger.LogInformation("KeyThree: {KeyThree}", key3);
 app.Run();
 ```
 
-# Other Configuration
+# other configuration
 Other configuration includes configuration for the development environment (ie: `launch.json` / `launchSettings.json` and `web.config`)
 
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-7.0#other-configuration

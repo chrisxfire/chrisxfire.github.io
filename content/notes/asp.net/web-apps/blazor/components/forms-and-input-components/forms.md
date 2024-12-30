@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Blazor contains built-in Components for forms.  `Microsoft.AspNetCore.Components.Forms` contains classes for managing forms and access to built-in `Input*` components.  This namespace is included in `_Imports.razor` by default.
 
 # `EditForm`
@@ -47,7 +47,7 @@ public class ExampleModel
 }
 ```
 
-# Binding a Form
+# binding a form
 An `EditForm` creates an `EditContext` based on the assigned model instance and makes it available as a cascading value to other Components in the same form. You can bind a form to data by assigning to `EditForm.Model`...
 ```html
 <EditForm Model="@exampleModel" ...>
@@ -76,7 +76,7 @@ An `EditForm` creates an `EditContext` based on the assigned model instance and 
 
 Note that `EditContext` **cannot** be changed after it is assigned a value.
 
-# Display name support
+# display name support
 Several Components support display names with the `InputBase<TValue>.DisplayName` parameter:
 ```html
 <label>
@@ -88,12 +88,12 @@ Several Components support display names with the `InputBase<TValue>.DisplayName
 Without setting the `DisplayName` property, a validation's error message would display this error: `The ProductionDate field must be a date.`  
 With it set, it displays this error: `The Production Date field must be a date.`
 
-# Event Handlers for submitting forms
+# event handlers for submitting forms
 - `OnValidSubmit` triggers an event handler when a validated form is submitted.    
 - `OnInvalidSubmit` triggers if a form is submitted with invalid fields.  
 - `OnSubmit` is used whether the form data is invalid or not.  The form is validated by calling `EditContext.Validate` in the event handler.  If `Validate` returns `true`, the form is valid.
 
-## Example
+## example
 ```html
 <EditForm Model="@Employee"
     OnValidSubmit="@HandleValidSubmit"

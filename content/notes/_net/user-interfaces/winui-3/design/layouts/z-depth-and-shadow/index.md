@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 *Z-depth* is the distance between two surfaces on the z-axis. It illustrates how close an object is to the viewer.
 
 Shadows also express depth and visual hierarchy.
 
-# Shadow APIs
+# shadow apis
 ## `ThemeShadow`
 - Can be applied to any XAML element.
 - Applies shadows to elements based on a z-depth value.
@@ -48,5 +48,5 @@ This can be disabled:
 </Flyout>
 ```
 
-## See also 
+## see also 
 [DropShadow](https://learn.microsoft.com/en-us/uwp/api/windows.ui.composition.dropshadow)

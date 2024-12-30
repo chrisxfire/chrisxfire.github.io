@@ -7,17 +7,17 @@ tags:
  - kb/cli/git
 ---
 
-# Overview
+# overview
 gitignore files specify intentional untracked files that Git should ignore.
 
-# Order of Precedence
+# order of precedence
 1. Patterns from the command line
 2. Patterns from `.gitignore` file in same directory
 3. Patterns from `.gitignore` file in parent directories up to the top level of the working tree
 4. Patterns from `$GIT_DIR/info/exclude`
 5. Patterns from the file specified by `core.excludesFile`
 
-# Pattern Format
+# pattern format
 - `#` for comments
 - `\` for escapes
 - `/` as the directory separator char
@@ -34,7 +34,7 @@ gitignore files specify intentional untracked files that Git should ignore.
 
 - Trailing spaces are ignored (unless escaped)
 
-# Ignoring Files
+# ignoring files
 If the file is currently tracked:
 1. `git rm <glob> --cached` to remove the file from the index
 2. Add the pattern to `.gitignore`

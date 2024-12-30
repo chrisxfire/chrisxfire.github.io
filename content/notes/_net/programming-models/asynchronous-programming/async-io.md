@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Async
+# async
 Async reduces the need for threads in server-based applications.  If the app uses a dedicated thread per response and 1,000 requests are handled simultaneously, 1,000 threads are needed.  Async operations don't need to use a thread during the wait.  They use the existing I/O completion thread briefly at the end.
 
 # Asynchronous I/O – Writing
-## Write Example
+## write example
 ```cs
 public async Task SimpleWriteAsync() {
     string filePath = "simple.txt";
@@ -19,7 +19,7 @@ public async Task SimpleWriteAsync() {
 }
 ```
 
-## Fine Control
+## fine control
 For fine control, use the `FileStream` class with `options=FileOptions.Asynchronous` or `useAsync: true` in the constructor call instead of using `File.WriteAllTextAsync/File.ReadAllTextAsync`.
 - This causes asynchronous I/O to occur at the OS level, which avoids blocking a thread pool thread.
 
@@ -46,7 +46,7 @@ async Task WriteTextAsync(string filePath, string text) {
 ```
 
 # Asynchronous I/O – Reading
-## Read Example
+## read example
 ```cs
 public async Task SimpleReadAsync() {
     string filePath = "simple.txt";
@@ -56,7 +56,7 @@ public async Task SimpleReadAsync() {
 }
 ```
 
-## Fine Control
+## fine control
 ```cs
 public async Task ProcessReadAsync() {
     try {

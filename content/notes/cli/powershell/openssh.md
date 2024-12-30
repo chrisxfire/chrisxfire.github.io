@@ -10,5 +10,5 @@ weight: 1
 1. Use ssh-keygen to generate a public/private keypair: `ssh-keygen -t ed25519`
 2. The keys are stored in ~./ssh as `id_ed25519` and `id_ed25519.pub`
 
-## Trust the public key on OpenSSH Server
+## trust the public key on openssh server
 Add the contents of `id_ed25519.pub` to `./ssh/authorized_keys`

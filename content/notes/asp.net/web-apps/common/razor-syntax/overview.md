@@ -5,15 +5,15 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 Razor is a syntax for combining HTML markup with C# code.  
 Razor pages are `cshtml` files.  
 Razor components (used in Blazor apps) are `.razor` files.  
 
-# Rendering HTML
+# rendering html
 HTML is the default Razor language.
 
-## Razor Syntax
+## razor syntax
 Razor uses the `@` symbol to transition from C# to HTML.  It evaluates C# expressions and renders them in the HTML output.  
 When `@` precedes a Razor reserved keyword, it transitions into Razor-specific markup.  Otherwise, it transitions to HTML.
 
@@ -24,7 +24,7 @@ HTML attributes and content that contain email addresses do not treat the @ symb
 <a href="mailto:Support@contoso.com">Support@contoso.com</a>
 ```
 
-## Scalable Vector Graphics
+## scalable vector graphics
 Razor supports SVC `foreignObject` elements:
 ```html
 @{
@@ -40,10 +40,10 @@ Razor supports SVC `foreignObject` elements:
 </svg>
 ```
 
-# Conditional Attribute Rendering
+# conditional attribute rendering
 Razor ignores attributes that are not needed.  If the value passed in is null or false, the attribute is not rendered.
 
-# Comments
+# comments
 Razor supports three types of comments:
 ```cs
 @{
@@ -57,7 +57,7 @@ Razor supports three types of comments:
 
 To prevent even HTML comments from being rendered, wrap them in `@*` and `*@`.
 
-# HTML Encoding
+# html encoding
 C# expressions that…  
 …evaluate to a string --> are HTML-encoded  
 …evaluate to `IHtmlContent` --> are rendered directly through IHtmlContent.WriteTo  
@@ -69,7 +69,7 @@ Renders to:  `&lt;span&gt;Hello World&lt;/span&gt;`
 This:  `@Html.Raw("<span>Hello World</span>")`
 Renders to:  `<span>Hello World</span>`
 
-# Seeing the Class that Razor Generates for a View
+# seeing the class that razor generates for a view
 By default, these are not emitted.  To enable, in `csproj`:  
 ```xml
 <PropertyGroup>

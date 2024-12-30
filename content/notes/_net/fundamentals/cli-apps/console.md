@@ -10,7 +10,7 @@ weight: 1
 `Object` –> `Console`
 - Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.console?view=net-6.0
 
-# Properties
+# properties
 - `BufferHeight` - Get or set the buffer height
 - `BufferWidth`
 - `CursorSize` - Get or set the size of the console cursor.
@@ -19,13 +19,13 @@ weight: 1
 - `WindowTop` - Get or set the top position of the console window.
 - `WindowsLeft` - Get or set the left position of the console window.
 
-# Colors
+# colors
 ```cs
 BackgroundColor = ConsoleColor.color
 ForegroundColor = ConsoleColor.color
 ```
 
-# Static Methods
+# static methods
 - `Beep`
 - `Beep(n, m)` - Beep at n frequency for m duration
 - `Clear`
@@ -35,7 +35,7 @@ ForegroundColor = ConsoleColor.color
 - `SetBufferSize`
 - `SetWindowSize`
 
-# Reading Input
+# reading input
 ```cs
 ConsoleKeyInfo key = ReadKey();
 key.Key // returns key that was pressed
@@ -43,7 +43,7 @@ key.KeyChar // returns case-sensitive character that was pressed
 key.Modifiers // returns modifiers (Control, Alt, Shift)
 ```
 
-# Replace Line of Output
+# replace line of output
 ```cs
 Console.Write("\r"); // Carrier Return; moves cursor back to position #1 on current line
 ```

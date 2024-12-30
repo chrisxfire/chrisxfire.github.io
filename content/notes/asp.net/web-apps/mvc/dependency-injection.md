@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Dependency Injection into Controllers
+# dependency injection into controllers
 Code sample: [View or download sample code (github.com)](https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/mvc/controllers/dependency-injection/sample)
 
 MVC controllers request dependencies *explicitly* via constructors.
@@ -20,17 +20,17 @@ public class HomeController : Controller
 }
 ```
 
-# Dependency Injection into Actions
+# dependency injection into actions
 Use the `[FromServices]` attribute:
 ```cs
 public IActionResult About([FromServices] IDateTime dateTime) =>
     Content( $"Current server time: {dateTime.Now}");
 ```
 
-# Options Pattern to Access Settings
+# options pattern to access settings
 Generally, do not inject `IConfiguration` into a controller. Instead, use the [Options Pattern](../../../../_net/configuration/options-pattern).
 
-# Dependency Injection into Views
+# dependency injection into views
 Displaying a configuration value in a Razor Pages view:
 ```html
 @page
@@ -104,7 +104,7 @@ Injecting a service in an MVC view:
 </body>
 </html>
 ```
-## Example
+## example
 Consider a user profile form that includes options for specifying gender, state, and other preferences.  Inject services directly into the view to obtain the options.
 
 The service provides just the data need for the form:

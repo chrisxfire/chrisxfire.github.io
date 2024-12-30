@@ -5,22 +5,22 @@ draft: false
 weight: 1
 ---
 
-# Templating
+# templating
 Templating controls how a page is rendered. It uses variables, loops, conditions, and functions.
 
-##  Params
+##  params
 Use to access a variable:
 ```html
 <title>{{ .Params.title }}</title>
 ```
 
-## Site
+## site
 Use to access variables in `config.toml`:
 ```html
 <title>{{ .Site.title }}</title>
 ```
 
-## Conditions
+## conditions
 ```html
 {{ if isset .Params "title" }}
     <title>{{ .Params.title }}</title>
@@ -29,14 +29,14 @@ Use to access variables in `config.toml`:
 {{ end }}
 ```
 
-## Variables
+## variables
 Set variables with $:
 ```css
 {{ $favorite_food := "Gazelle" }}
 {{ $favorite_food }}
 ```
 
-## Looping
+## looping
 <!-- In Go, an array that can change size is called a slice.
 You can iterate over an array or slice using range. -->
 ```html
@@ -49,7 +49,7 @@ You can iterate over an array or slice using range. -->
 </ul>
 ```
 
-# Footer Example
+# footer example
 In `config.toml`:
 ```toml
 [params]

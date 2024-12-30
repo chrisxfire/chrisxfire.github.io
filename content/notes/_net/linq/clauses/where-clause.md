@@ -7,7 +7,7 @@ tags:
  - kb/dotnet/linq/clauses
 ---
 
-# Where clause
+# where clause
 Use the `where` clause to *filter* out elements from the data based on one or more predicate expressions:
 
 ```cs

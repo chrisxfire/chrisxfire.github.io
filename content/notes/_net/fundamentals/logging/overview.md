@@ -8,7 +8,7 @@ weight: -1
 # Abstract [[Documentation](https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line)]  
 .NET's logging API supports a variety of built-in and third-party logging providers.
 
-# Concepts
+# concepts
 - Logging *providers* — an implementation of `ILogger<T>` that outputs logs 
 - Logging *categories* — a string associated with each log message
 - Logging *levels*:
@@ -35,7 +35,7 @@ Built-in providers include:
 
 The default providers in the Worker app template are `Console`, `Debug`, `EventSource`, and `EventLog` (Windows only).
 
-# Registering Logging Services
+# registering logging services
 In .NET 6+, logging services register a generic `ILogger<T>` instead of a non-generic `ILogger`.
 
 Logging with Generic Host:
@@ -103,10 +103,10 @@ class Program {
 }
 ```
 
-## Reloading Configuration
+## reloading configuration
 To reload configuration that changed in code while the app is running, call `IConfigurationRoot.Reload`.
 
-# Creating Logs
+# creating logs
 Retrieve an `ILogger<T>` from DI:
 ```cs
 public sealed class Worker : BackgroundService
@@ -127,7 +127,7 @@ public sealed class Worker : BackgroundService
 }
 ```
 
-## Log Level Extension Methods
+## log level extension methods
 `ILogger` has extension methods:
 ```cs
 _logger.Log(LogLevel.Information, …);
@@ -135,8 +135,8 @@ _logger.Log(LogLevel.Information, …);
 _logger.LogInformation(…);
 ```
 
-# Logging Features
-## Categories
+# logging features
+## categories
 `ILogger<T>`'s category is an arbitrary string (by convention it is the class name). The category is included with each message of that `ILogger` instance:
 ```cs
 namespace Example;
@@ -162,7 +162,7 @@ public class DefaultService : IService {
 ```
 `ILogger<T>` is equivalent to calling `CreateLogger(T).`
 
-## Event IDs
+## event ids
 > Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-event-id  
 
 An `EventId` is a struct with an `Id` and optional `Name` readonly properties.  The event ID can associate a set of events.
@@ -172,7 +172,7 @@ The `Debug` provider does not show event IDs.  The `Console` provider shows even
 info: Example.DefaultService.GetAsync[1001]
 ```
 
-### Using Event IDs
+### using event ids
 Create a class like this:
 ```cs
 internal static class AppLogEvents
@@ -192,7 +192,7 @@ _logger.LogWarning(AppLogEvents.ReadNotFound, "GetAsync({Id}) not found", id);
 
 <o>Note</o>: The `Debug` logging provider does not show event IDs.
 
-## Exceptions
+## exceptions
 The logger methods have overloads that take an exception parameter:
 ```cs
 catch (Exception ex)
@@ -203,13 +203,13 @@ catch (Exception ex)
 }
 ```
 
-## Filters 
+## filters 
 > Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#how-filtering-rules-are-applied  
 > Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#filter-function  
 
 When an `ILogger<T>` object is created, `ILoggerFactory` selects a single rule per provider to apply to that logger. Messages written by that instance are filtered based on the rule. The most specific rule for each provider and category pair is selected.
 
-## Message Templates
+## message templates
 - Log APIs use a message template that can contains placeholders for arguments provided.
 - This enables logging providers to implement structured (semantic) logging.
 - This also allows you to avoid the use of string interpolation which has performance consequences.
@@ -223,7 +223,7 @@ _logger.LogInformation("Values: {v2}, {v1}", value1, value2); // output: 3, 9
 
 <o>Use the above technique instead of string interpolation to avoid performance problems.</o>
 
-### Formatting Message Templates
+### formatting message templates
 Log message templates utilize the base [formatting types](https://learn.microsoft.com/en-us/dotnet/standard/base-types/formatting-types):
 
 ```cs
@@ -236,17 +236,17 @@ Person person = new Person() { FirstName = "John", LastName = "Doe" };
 _logger.LogInformation("Found {@Person}", person); // output: Found Person { FirstName="John", LastName="Doe" }
 ```
 
-## Log Scopes 
+## log scopes 
 > Documentation: https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line#log-scopes
 
 A scope groups a set of logical operations.  For example, every log created as part of processing a transaction can include the transaction ID.
 
 Scopes are supported by the `Console`, `AzureAppServicesFile`, and `AzureAppService`'s Blob providers.
 
-# No Async Methods
+# no async methods
 Logging should be so fast that it is not worth the performance cost of asynchronous code.
 
-# Creating Logs in Main
+# creating logs in main
 Get an `ILogger` instance from DI immediately after building the host:
 ```cs
 using Microsoft.Extensions.DependencyInjection;

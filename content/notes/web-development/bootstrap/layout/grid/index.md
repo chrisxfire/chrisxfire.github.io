@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-# Overview
+# overview
 Bootstrap's grid system uses a series of containers, rows and columns to layout and align content.  Built with `flexbox`.
 - Documentation: https://getbootstrap.com/docs/5.3/layout/grid/
 - Containers center and horizontally pad content.
@@ -14,7 +14,7 @@ Bootstrap's grid system uses a series of containers, rows and columns to layout 
 
 <o>Note: [flexbox has known bugs](https://github.com/philipwalton/flexbugs).</o>
 
-# Basic Usage
+# basic usage
 ```html
 <div class="container text-center">
   <div class="row">
@@ -36,7 +36,7 @@ Bootstrap's grid system uses a series of containers, rows and columns to layout 
 # Auto-layout columns
 Breakpoint-specific column classes for easy column sizing without explicit numbered classes (ie: `.col-sm-6`).  
 
-## Equal width
+## equal width
 No need to use explicit numbered classes like `.col-sm-6`:
 ```html
 <div class="container text-center">
@@ -95,7 +95,7 @@ The sibling columns automatically resize around the manually set column:
 
 ![setting one column's width](auto-layout-setting-one-columns-width.png)
 
-## Variable width
+## variable width
 Use `col-{breakpoint}-auto`:
 ```html
 <div class="container text-center">
@@ -126,8 +126,8 @@ Use `col-{breakpoint}-auto`:
 
 ![variable width columns](auto-layout-variable-width.png)
 
-# Responsive classes
-## All breakpoints
+# responsive classes
+## all breakpoints
 Use `.col` for grids that are the same for all devices.  
 Use `.col-*` when you need a particularly sized column:
 ```html
@@ -147,7 +147,7 @@ Use `.col-*` when you need a particularly sized column:
 
 ![responsive classes, all breakpoints](responsive-classes-all-breakpoints.png)
 
-## Starting stacked then becoming horizontal
+## starting stacked then becoming horizontal
 This grid system starts out stacked (.col-sm-*) and then becomes horizonal at the small breakpoint (sm):
 ```html
 <div class="container text-center">
@@ -191,7 +191,7 @@ This grid system starts out stacked (.col-sm-*) and then becomes horizonal at th
 
 ![some columns stacked, other's not](responsive-classes-stack-in-some-but-not-others.png)
 
-## Row columns
+## row columns
 Normal column classes (ie: `.col-md-4`) apply to individual columns.
 Row column classes (`.row-cols-*`) set the number of columns quickly:
 ```html
@@ -232,7 +232,7 @@ Use `row-cols-auto` to give columns their natural width:
 ```
 ![row columns 3](row-columns-3.png)
 
-# Nesting
+# nesting
 To nest content with the default grid, add a new `.row` and set of `.col-sm-*` columns within an existing `.col-sm-*` column:  
 ```html
 <div class="container text-center">
@@ -255,5 +255,5 @@ To nest content with the default grid, add a new `.row` and set of `.col-sm-*` c
 ```
 ![nesting](nest.png)
 
-# CSS
+# css
 https://getbootstrap.com/docs/5.3/layout/grid/#css

@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Exceptions
+# exceptions
 All exceptions derive from `System.Exception`.
 
-# Catch Exceptions
+# catch exceptions
 ```cs
 try { … }
 catch (exception e) { // Catches a specific exception.  Stores it in e.
@@ -28,18 +28,18 @@ Notes:
 		○ Example: `DirectoryNotFoundException –> FileNotFoundException –> IOException`
 - If you catch `System.Exception`, rethrow it at the end of the catch block.
 
-## Exception Filters
+## exception filters
 Exception Filters allow you to catch an exception only when a condition is true:
 ```cs
 catch (Exception e) when (condition) { … }
 ```
 
-# Throw Exceptions
+# throw exceptions
 ```cs
 throw new ExceptionType("Exception message");
 ```
 
-## Rethrow Exceptions
+## rethrow exceptions
 If an exception is caught and you want to rethrow it up the stack use `throw.`
 - If you `throw ex` to rethrow, the stack trace is lost.
 
@@ -52,8 +52,8 @@ catch (IOException ex) {
 	throw new InvalidOperationException(message: "This thing failed.", innerException: ex)
 }
 ```
-# Throwing Exceptions
-## Throw These Exceptions
+# throwing exceptions
+## throw these exceptions
 - `ArgumentException`
 - `ArgumentNullException`
 		○ Includes a second parameter, `ParamName`, that should be set to the name of the argument that caused the exception to be thrown.
@@ -63,7 +63,7 @@ catch (IOException ex) {
 - `InvalidOperationException` – If the object is in an inappropriate state.
 - `NotSupportedException`
 
-## Do Not Throw These Exceptions
+## do not throw these exceptions
 Don't throw or derive from:
 - `AccessViolationException`
 - `ApplicationException`
@@ -96,7 +96,7 @@ class CustomException : Exception {
 throw new CustomException("Exception message");
 ```
 
-# Common Exception Classes
+# common exception classes
 | Exception                     | Description                                                                                                                                                                   |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `ArithmeticException`         | A base class for exceptions that occur during arithmetic operations, such as DivideByZeroException and OverflowException.                                                     |

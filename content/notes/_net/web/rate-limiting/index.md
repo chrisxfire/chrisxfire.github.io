@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 > [!IMPORTANT]
 > Availability: .NET 7  
 
@@ -24,27 +24,27 @@ RateLimiter limiter = new ConcurrencyLimiter(
         queueLimit: 2
     ));
 ```
-## Concurrency limit
+## concurrency limit
 Define a maximum number of concurrent requests that can access a resource.
 
-## Token bucket limit
+## token bucket limit
 - A bucket is filled with tokens.
 - Each request permanently consumes a token.
 - At interval, more tokens are added to the bucket.
 
-## Fixed window limit
+## fixed window limit
 - During a window of X minutes, Y requests are allowed.
 - After X minutes, Y more requests are allowed.
 
-## Sliding window limit
+## sliding window limit
 
 ![](./sliding-window-1.png)
 ![](./sliding-window-2.png)
 ![](./sliding-window-3.png)
 
-## Partitioned rate limiter
+## partitioned rate limiter
 
-# Rate Limiting Middleware
+# rate limiting middleware
 Namespace `Microsoft.AspNetCore.RateLimiting`
 
 # Client-side Rate Limiting

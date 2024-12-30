@@ -7,17 +7,17 @@ weight: 1
 
 Sample profile file: sample [profile file (github.com)](https://github.com/PowerShell/PSReadLine/blob/master/PSReadLine/SamplePSReadLineProfile.ps1)
 
-# Return current key bindings
+# return current key bindings
 `Get-PSReadLineKeyHandler`
 
-# Set custom key bindings
+# set custom key bindings
 `Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward`
 `Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward`
 
 # Enable Bash-style completion without Emacs mode
 `Set-PSReadLineKeyHandler -Key Tab -Function Complete`
 
-# Insert matched quotes
+# insert matched quotes
 ```powershell
 Set-PSReadLineKeyHandler -Chord '"',"'" `
                          -BriefDescription SmartInsertQuote `

@@ -5,10 +5,10 @@ draft: false
 weight: -1
 ---
 
-# Primitive Types
+# primitive types
 Value types store on the stack.
 
-## Signed integrals
+## signed integrals
 For Integers (zero, positive, and negative whole numbers).
 | .NET Type      | C# Alias | Range                                        | Suffix |
 | -------------- | -------- | -------------------------------------------- | ------ |
@@ -17,7 +17,7 @@ For Integers (zero, positive, and negative whole numbers).
 | `System.Int32` | `int`    | -2147483648 to 2147483647                    |        |
 | `System.Int64` | `long`   | -9223372036854775808 to 9223372036854775807l | or L   |
 
-## Unsigned integrals
+## unsigned integrals
 For Cardinals (zero and positive whole numbers).
 | .NET Type       | C# Alias | Range                       | Suffix |
 | --------------- | -------- | --------------------------- | ------ |
@@ -29,7 +29,7 @@ For Cardinals (zero and positive whole numbers).
 ## Native-sized Integers
 The aliases nint and nuint are for native-sized integers, meaning that they store a 32-bit integer for 32-bit processors and 64-bit integers for 64-bit processors.
 
-## Unicode characters
+## unicode characters
 | .NET Type     | C# Alias | Range            |
 | ------------- | -------- | ---------------- |
 | `System.Char` | `char`   | U+OOOO to U+FFFF |
@@ -40,7 +40,7 @@ Characters can be created with:
 - Hex escape: `'\x006A'`
 - Cast: `(char)106`
 
-## Floating point types
+## floating point types
 For Reals (floating point numbers)
 | .NET Type       | C# Alias | Range                                           | Suffix | Precision     |
 | --------------- | -------- | ----------------------------------------------- | ------ | ------------- |
@@ -55,27 +55,27 @@ For Accurate Reals (use in science, engineering, or financial applications)
 | -------------- | -------- | --------------------------------------------------------------- | ------ | ------------ |
 | System.Decimal | decimal  | -79228162514264337593543950335 to 79228162514264337593543950335 | m or M | 28-29 digits |
 
-## Numerics
+## numerics
 - `System.Numerics.BigInteger` - An integer with no lower or upper bounds. 
 - `System.Numerics.Complex` - Complex numbers.
 - `System.Numerics.Quaternion` - Quaternion numbers.
 
-## Boolean
+## boolean
 | .NET Type      | C# Alias |
 | -------------- | -------- |
 | System.Boolean | bool     |
 
-# Operators
+# operators
 `+ - /  %` and:
 - Increment: `++`
 - Decrement: `--`
 - Assignment: `+=` `-=`
 - Exponents: There is no exponent operator. Use `System.Math.Pow()`.
 
-## Increment and decrement operators
+## increment and decrement operators
 `++` and `--` can be used before or after the value.
 
-# Methods
+# methods
 All types have these methods:
 - `Equals(object)` - Boolean if the current type equals object.
 - `GetType()` - Return the type.

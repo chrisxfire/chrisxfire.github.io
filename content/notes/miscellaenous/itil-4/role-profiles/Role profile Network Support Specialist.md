@@ -137,7 +137,7 @@ Key skills you will need include:
  |
 | 
 
-##### Leadership and Teamwork
+##### leadership and teamwork
 
  | 
 

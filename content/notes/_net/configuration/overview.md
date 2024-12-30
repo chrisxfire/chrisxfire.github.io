@@ -11,7 +11,7 @@ Configuration providers exist for settings files, environment variables, Azure k
 Prefer `Microsoft.Extensions.Configuration` over `System.Configuration`.  
 Prefer `Microsoft.Extensions.ConfigurationManager` over `System.ConfigurationManager`.
 
-# Packages
+# packages
 - Microsoft.Extensions.Configuration
 - Microsoft.Extensions.Hosting — Not required unless using a Generic Host.
 - Microsoft.Extensions.Configuration.Binder — Bind an object to data in configuration providers.
@@ -20,7 +20,7 @@ Prefer `Microsoft.Extensions.ConfigurationManager` over `System.ConfigurationMan
 
 Note: `System.Configuration.ConfigurationBuilder` != `Microsoft.Extensions.Configuration.ConfigurationBuilder`.
 
-# Binding
+# binding
 Configuration values can be bound to instances of .NET objects.
 
 Interfaces:
@@ -28,14 +28,14 @@ Interfaces:
 - `IConfigurationRoot` — The root of an IConfiguration hierarchy.
 - `IConfigurationSection` — A section of configuration values.
 
-# Configuration Provider Priority
+# configuration provider priority
 1.  Command Line
 2.  App Secrets (Secret Manager) in development environment
 3.  Environment Variables
 4.  XML / JSON / INI
 
 This means #1 will override #2 and so on.
-# JSON Configuration Provider
+# json configuration provider
 ```cs
 using IHost host = Host.CreateDefaultBuilder(args).ConfigureAppConfiguration((hostingContext, configuration) =>
 {
@@ -67,41 +67,41 @@ using IHost host = Host.CreateDefaultBuilder(args).ConfigureAppConfiguration((ho
 
 await host.RunAsync();
 ```
-# Environment Variables Configuration Provider
+# environment variables configuration provider
 Same code as above, except:
 ```cs
 configuration.AddEnvironmentVariables();
 ```
 
-## Prefixes
+## prefixes
 ```cs
 // Set a prefix:
 configuration.AddEnvironmentVariables(prefix: "CustomPrefix_");
 ```
 
-## Environment Variable Hierarchical Keys Separator
+## environment variable hierarchical keys separator
 The `:` separator does not work with environment variable hierarchical keys on all platforms. Use `__` instead.
 So, instead of`set TransientFaultHandlingOptions:Enabled="true"`
 Use:`set TransientFaultHandlingOptions__Enabled="true"`
 Note: Use `setx` to persist the environment variable. Use `setx /M` to make it a system environment variable.
 
-# Command Line Arguments Configuration Provider
+# command line arguments configuration provider
 Same come as above, except:
 ```cs
 if (args is { Length: > 0})
 configuration.AddCommandLine(args);
 ```
 
-## Sending Command Line Arguments with dotnet
+## sending command line arguments with dotnet
 `dotnet run *SomeKey*="*Some value*"`
 
-# INI Configuration Provider
+# ini configuration provider
 Same code as above, except:
 ```cs
 configuration.AddIniFile(appsettings.ini", optional: true, reloadOnChange: true)
 ```
 
-# Memory Configuration Provider
+# memory configuration provider
 ```cs
 using IHost host = Host.CreateDefaultBuilder(args).ConfigureAppConfiguration((_, configuration) =>
     configuration.AddInmemoryCollection(
@@ -111,5 +111,5 @@ using IHost host = Host.CreateDefaultBuilder(args).ConfigureAppConfiguration((_,
     }))
 .Build();
 ```
-# Additional Reading
+# additional reading
 [Safe storage of app secrets in development in ASP.NET Core | Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-6.0&tabs=windows)

@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Docker Compose helps to define and share multi-container apps.  It defines an application stack in a single file.  
 Docker Compose automatically creates a network for an application stack.  
 
-# Example
+# example
 This docker run command...
 
 ```bash

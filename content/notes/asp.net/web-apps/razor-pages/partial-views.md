@@ -5,5 +5,5 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 In Razor Pages, Partial Views work like they do in MVC.

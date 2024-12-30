@@ -13,7 +13,7 @@ tags:
 
 When deserializing JSON, you can either replace or populate .NET properties and fields.
 
-# Setting the behavior
+# setting the behavior
 This is done by setting the `JsonObjectCreationHandling` attribute to `JsonObjectCreationHandling.Populate`. This attribute can be set to one
 setting at the type level and another setting at the property level to override the behavior inherited from the type:
 ```cs
@@ -52,7 +52,7 @@ After the above JSON is deserialized onto `A`:
 - `Numbers1` will still have values 1, 2, 3 (it's a read-only property).
 - `Numbers2` will have a new list allocated and the values from the JSON added. Its values will be 4, 5, 6.
 
-# Populate behavior
+# populate behavior
 This behavior modifies (*populates*) properties and fields instead of replacing them. This is also true for read-only properties.
 
 For a property that is an object with properties, the object is reused without clearing. Its mutable properties are updated to the JSON values.

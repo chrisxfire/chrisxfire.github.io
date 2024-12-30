@@ -5,27 +5,27 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 An app is a collection of *pages*. *Navigation* is the act of moving between pages and within a page.
 
 ![](./DESIGN_Navigation-image1.png)
 
-# Navigation Structures
+# navigation structures
 ## Flat/Lateral
 - Pages exist side by side
 - Able to navigate from one page to another in any order  
 
 ![](./DESIGN_Navigation-image3.png)
 
-## Hierarchical
+## hierarchical
 - Each child page has one parent, but a parent can have
 more than one child.
 - To reach a child page, you must navigate through parent.  
 
 ![](./DESIGN_Navigation-image2.png)
 
-# Navigation Controls
-## Frame
+# navigation controls
+## frame
 - Any app with multiple pages uses a Frame
 - The app's main page contains a Frame and a primary navigation
 element like a navigation view control.  
@@ -54,7 +54,7 @@ element like a navigation view control.
   - you want to show the path to the current location
   - you have many levels of navigation
 
-## Left navigation
+## left navigation
 - A vertical list of links to top-level pages
 - Use when
   - the pages exist at the top level

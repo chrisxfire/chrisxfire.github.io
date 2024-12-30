@@ -7,7 +7,7 @@ tags:
  - kb/dotnet/linq/clauses
 ---
 
-# Join clause
+# join clause
 Use `join` to associate and/or combine elements from one data source with elements from another 
 based on an equality comparison between keys in each element.  
 After you have joined two sequences, you must use a `select` or `group` statement to specify which 

@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Abstract
+# abstract
 An IT generalist with knowledge of development and operations including programming, infrastructure management, systems administration and DevOps toolchains. 
 They are DevOps evangelists, automation experts, release managers, CAB members, software developers, and QA engineers.
 
-# Roles and Responsibilities
+# roles and responsibilities
 - Release Engineering
   - Build and deploy application code
   - Select, provision, and maintain CI/CD tooling
@@ -20,7 +20,7 @@ They are DevOps evangelists, automation experts, release managers, CAB members, 
   - Evangelize the DevOps culture
   - Educate others on DevOps processes throughout the organization
 
-# Skills
+# skills
 - Communication & collaboration
   - With teams, managers and customers
   - Soliciting feedback on the value stream

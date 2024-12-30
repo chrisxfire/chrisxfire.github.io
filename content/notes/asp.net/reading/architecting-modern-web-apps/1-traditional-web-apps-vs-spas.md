@@ -7,13 +7,13 @@ weight: 1
 
 Documentation: https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/  
 
-# Traditional Web Apps
+# traditional web apps
 - Perform most app logic on the server
 - Choose when: 
 	- Client-side requirements are simple (or even read-only) (search engines; blogs; CMS public-facing apps)
 	- App needs to function in browsers without JavaScript
 
-# Single Page Applications
+# single page applications
 - Perform most UI logic in web browser and communicate with the web server via APIs
 - Using CI/CD may be more difficult
 - Choose when:

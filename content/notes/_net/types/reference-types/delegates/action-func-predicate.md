@@ -8,7 +8,7 @@ weight: 1
 # Built-in Delegates
 Built-in types `Action`, `Func`, and `Predicate` are special delegates that can be used without having to define a new delegate.
 
-# Action
+# action
 An `Action` delegate points to a method that has no return type.  
 It is used to perform an action using the arguments of the delegate.  
 ```cs
@@ -27,7 +27,7 @@ class Program
 }
 ```
 
-# Func
+# func
 A `Func` delegate accesses multiple input types and specifies the return type.  
 It is used to transform the arguments of a delegate into a different result.  
 ```cs
@@ -45,7 +45,7 @@ static int Add(int a, int b)
 }
 ```
 
-## Another Example
+## another example
 ```cs
 static string ReverseString(string s) 
 {
@@ -62,7 +62,7 @@ static void Main(string[] args)
 
 Another example: `Func<string, bool>`: For each string variable passed to the method, return a bool value.
 
-# Predicate
+# predicate
 A `Predicate` delegate accepts any type of parameter as input and always returns bool.  
 It is used to determine if the argument satisfies the condition of the delegate.  
 ```cs

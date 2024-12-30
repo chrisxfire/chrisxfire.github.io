@@ -7,11 +7,11 @@ tags:
  - kb/cli/git
 ---
 
-# Add Files
+# add files
 ```powershell
 git add path # adds path to Staging
 ```
-# Removing Files From Tracking and Working Directory
+# removing files from tracking and working directory
 ```powershell
 git rm --cached <file> # untrack file; ADD FOLDER TO .gitignore FIRST
 git rm -r --cached <folder> # untrack folder; ADD FOLDER TO .gitignore FIRST

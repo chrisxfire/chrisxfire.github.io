@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Lists
+# lists
 Unordered:
 ```html
 <ul style="list-style-type:disc;"> <!-- style for list item markers; also circle, square, none -->
@@ -26,7 +26,7 @@ Ordered:
 </ol>
 ```
 
-# Horizontal Lists
+# horizontal lists
 Use CSS to make a horizontal list, like a navigation menu:
 ```html
 <!DOCTYPE html>
@@ -71,7 +71,7 @@ li a:hover {
 </html>
 ```
 
-# Description Lists
+# description lists
 A list of terms with descriptions of each:
 ```html
 <dl>

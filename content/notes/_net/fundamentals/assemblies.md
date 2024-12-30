@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Assemblies
+# assemblies
 Assemblies are made up of 4 parts:
 1. Assembly metadata and manifest:  Name, assembly, file version, referenced assemblies, …
 2. Type metadata:  Information about the type, their members, …

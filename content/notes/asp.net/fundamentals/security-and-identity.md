@@ -14,7 +14,7 @@ From Pluralsight/ASP.NET Core 6 Fundamentals
 - Supports MVC & Razor Pages, scaffolding, SQL Server
 - Includes a Razor Class Library for identity-enabled Views that typically need to be included in a web app
 
-# Important Classes
+# important classes
 ## `UserManager<IdentityUser>`
 Manages all interaction (CRUD operations) with user objects in the datastore.
 
@@ -22,7 +22,7 @@ Manages all interaction (CRUD operations) with user objects in the datastore.
 User authentication and related actions; defines methods such as `PasswordSignInAsync`, `ConfirmEmailAsync`, `SignOutAsync`, etc.
 
 # Adding ASP.NET Core Identity to an App
-## Configuring
+## configuring
 1. Add required packages  
     `dotnet add package microsoft.aspnetcore.identity.entityframeworkcore`  
     `dotnet add package microsoft.aspnetcore.identity.ui`  
@@ -56,10 +56,10 @@ Creates an ASP.NET `Roles`, `Users`, `RoleClaims`, `UserClaims`, `UserLogins`, a
     pmc > `add-migration IdentityAdded`  
     pmc > `update-database`
 	
-## Adding Authentication
+## adding authentication
 Two techniques:  manual approach or scaffolding
 
-### Scaffolding
+### scaffolding
 1. Right-click project > **Add** > **New Scaffolded Item…** > **Identity** > **Add** > check **Override all files** OR check specific items > Data context class: *SomeDbContext* > **Add**
 This will, among other things, make changes to `Program.cs`.  
 Adds:   
@@ -80,7 +80,7 @@ Adds:
     ```html
         <partial name="_LoginPartial" />
     ```
-## Adding Authorization
+## adding authorization
 1. Add authorization middleware:  
     `Program.cs`  
     ```cs

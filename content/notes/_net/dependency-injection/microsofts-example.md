@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Dependent Service Implementation Example
+# dependent service implementation example
 ```cs
 public class MessageWriter 
 {

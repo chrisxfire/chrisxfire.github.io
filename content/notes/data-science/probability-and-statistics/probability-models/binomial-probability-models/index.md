@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Binomial Confidence Interval
+# binomial confidence interval
 Definition:
 - Computes the mean (x/n) and the lower and upper confidence limits (default=95%) from inputs x and n.
 ```r
@@ -21,7 +21,7 @@ Interpretation:
 - 95% statistical confidence that true value of population parameter p is between lower and upper.
 - Values of p between the lower and upper are roughly consistent with the data.
 
-# Binomial Probability Models
+# binomial probability models
 Characteristics:
 - Two (and only two) possible outcomes (like 1 and 0, or success and failure) 
 - Multiple independent trials
@@ -86,7 +86,7 @@ Interpretation: PDF shows the probability of each possible value:
 - Most likely is x = 8
 - Next most likely is x = 7
 
-## Solving problems using binomial probability models
+## solving problems using binomial probability models
 1. Predict number of deaths: 10 patients in a cardiac care unit in a hospital each independently has a 5% probability of dying. What is the probability that none of them dies? 
 
 ```r

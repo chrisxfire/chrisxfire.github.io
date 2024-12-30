@@ -8,12 +8,12 @@ Two sequences, whose pair-wise elements are equal, and which have the same numbe
 
 NOTE: This method uses equality (reference equality), not equivalence (value equality) unless an `IEqualityComparer<T>` is used.
 
-# Methods
+# methods
 | Method        | Description                                                                            | Query expression |
 |---------------|----------------------------------------------------------------------------------------|------------------|
 | `SequenceEqual` | Determines whether two sequences are equal by comparing elements in a pair-wise manner | N/A              |
 
-# Examples
+# examples
 ```cs
 Pet pet1 = new Pet { Name = "Turbo", Age = 2 };
 Pet pet2 = new Pet { Name = "Peanut", Age = 8 };

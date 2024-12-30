@@ -12,7 +12,7 @@ weight: 1
 Live Unit Testing executes unit tests automatically and in real time as code changes are made. 
 It works with unit tests created in test projects (see [Notes on Unit Testing](../../../../../notes/_net/testing/unit-testing))
 
-# Enabling
+# enabling
 Pre-requisites:
 1. A .NET Core or .NET Framework project
 2. A Unit Test project
@@ -20,7 +20,7 @@ Pre-requisites:
 To enable live unit testing: **Test** > **Live Unit Testing** > **Start**  
 Visual studio will then rebuild the project and start Live Unit Test, which automatically runs all tests.
 
-# Configuration
+# configuration
 The first time Live Unit Testing is started, a setup wizard runs. This setup wizard can be run again at
 **Test** > **Live Unit Testing** > **Configure Live Unit Testing for Solution**.
 
@@ -31,12 +31,12 @@ This should be the root folder of the repository (usually where the solution fil
 
 The next page of the wizard is for the *lutignore* file.
 
-## Lutignore
+## lutignore
 The *lutignore* file is a Live Unit Test ignore file that uses the same format as *gitignore*. It should include rules that
 match the folders and files generated during build so they are not copied into the workspace.
 
-## More Configuration
+## more configuration
 See **Test** > **Live Unit Testing** > **Options**.
 
-# Customizing Builds for Live Unit Testing
+# customizing builds for live unit testing
 Builds can be customized with overrides and test dependencies. See [this documentation](https://learn.microsoft.com/en-us/visualstudio/test/live-unit-testing?view=vs-2022#customize-your-build-for-live-unit-testing).

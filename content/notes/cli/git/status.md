@@ -7,5 +7,5 @@ tags:
  - kb/cli/git
 ---
 
-# Viewing File Status
+# viewing file status
 `git status [--short]` – returns the state of files in the repository and branch

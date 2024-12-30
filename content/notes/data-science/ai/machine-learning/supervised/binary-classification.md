@@ -10,19 +10,19 @@ In binary classification supervised machine learning, the label represents a *cl
 - Predict one of two mutually exclusive outcomes.
 - Example: whether a patient is at risk for diabetes based on weight, age, blood glucose level, etc.
 
-# Training Binary Classification Models
+# training binary classification models
 - Use an algorithm to fit the training data to a function that calculates the *probability* of the class label being $true$.
 - The *total probability* of all classes is $1.0$.
 
-## Logistic Regression Algorithm
+## logistic regression algorithm
 A binary classification algorithm that derives a *sigmoid* (S-shaped) function:   
 ![A logistic regression](../logistic-regression.png)
 
 - Despite the name, it is a *classification* algorithm, not a *regression* algorithm.
 - The function the algorithm produces describes the probability of $y$ being $true$ for a given value of $x$: $f(x)=P(y=1 | x)$
 
-# Binary Classification Model Evaluation Metrics
-## Confusion Matrix
+# binary classification model evaluation metrics
+## confusion matrix
 A matrix of the number of correct and incorrect predictions for each possible label class:  
 ![A confusion matrix](../confusion-matrix.png)
 - Where
@@ -32,7 +32,7 @@ A matrix of the number of correct and incorrect predictions for each possible la
   - $y=1$ and $\hat{y}=1$ — true positives ($TP$)
 - The correct (true) predictions are from top left to bottom right.
 
-## Accuracy 
+## accuracy 
 The proportion of predictions that are correct.
 - `(TN + TP) / (TN+FN+FP+TP)`
 - Can be misleading. Consider: 11% of the population has diabetes.  If a model always predicts 0, it would achieve an accuracy of 89%. 
@@ -43,7 +43,7 @@ The proportion of predictions that are correct.
 - `(TP / (TP + FN)`
 - From the number of patients who *have* diabetes, the number the model *predicted* to have diabetes.
 
-## Precision
+## precision
 - Similar to Recall
 - The proportion of *predicted* positive cases where the true label is *actually* positive.
 - `(TP / (TP + FP))`

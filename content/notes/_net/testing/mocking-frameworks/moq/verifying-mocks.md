@@ -5,7 +5,7 @@ draft: false
 weight: 2
 ---
 
-# Overview
+# overview
 > Credit: https://docs.educationsmediagroup.com/unit-testing-csharp/moq
 
 Verifications are conducted after production code has been called. They verify that a certain method/property was called with specific arguments.
@@ -24,7 +24,7 @@ public interface IService
 }
 ```
 
-# Implicit Verification
+# implicit verification
 The implicit approach involves calling `Verifiable()` at the end of each configuration to mark the mock to be verified:
 ```cs
 // ARRANGE
@@ -38,14 +38,14 @@ Mock.Verify(mock, anotherMock, yetAnotherMock); // Verify all configurations enr
 mock.VerifyNoOtherCalls(); // Verify that no other invocations were made other than those already verified
 ```
 
-## Implicit Verification for Properties
+## implicit verification for properties
 ```cs
 mock.SetupProperty(p => p.ContentType, "text/plain").Verifiable();
 mock.SetupGet(p => p.ContentType).Returns("text/plain").Verifiable();
 mock.SetupSet(p => p.ContentType = It.IsAny<string>()).Verifiable();
 ```
 
-# Explicit Verification
+# explicit verification
 The explicit approach involves calling `Verify()` on a standalone line. 
 ```cs
 // When using this approach, configure mocks with matchers as much as possible...
@@ -55,13 +55,13 @@ mock.Setup(p => p.Send(It.IsAny<string>()));
 mock.Verify(p => p.Send("Hello world"), Times.Once())
 ```
 
-## Explicit Verification for Properties
+## explicit verification for properties
 ```cs
 mock.VerifyGet(p => p.ContentType, Times.Once());
 mock.VerifySet(p => p.ContentType = "text/plain", Times.Once());
 ```
 
-# Times
+# times
 The `Times` class has static methods that can constrain the amount of invocations to expect:
 ```cs
 Times.Exactly(3)
@@ -75,7 +75,7 @@ Times.AtLeastOnce()
 Times.AtMostOnce()
 ```
 
-# Verifying Event Handling
+# verifying event handling
 ```cs
 mock.VerifyAdd(p => p.Sent += It.IsAny<EventHandler<MessageEventArgs>>());
 mock.VerifyRemove(p => p.Sent -= It.IsAny<EventHandler<MessageEventArgs>>());

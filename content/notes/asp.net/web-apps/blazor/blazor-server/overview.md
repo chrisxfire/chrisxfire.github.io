@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Project Structure
+# project structure
 `├──Program.cs` — entrypoint; host; startup
 - Calls `MapBlazorHub` to set up an endpoint for the real-time communication w/browser (via SignalR)
 - Calls `MapFallbackToPage("/_Host")` to set the root page (`Pages/_Host.cshtml`) and enable nav.  

@@ -11,7 +11,7 @@ tags:
 Set operations are query operations that produce a result set that is based on the presence or absence of 
 equivalent elements within the same or separate sets.
 
-# Methods
+# methods
 | Method          | Description                                                            | Query expression |
 | --------------- | ---------------------------------------------------------------------- | ---------------- |
 | `Distinct(By)`  | Removes duplicate values from a collection                             | N/A              |

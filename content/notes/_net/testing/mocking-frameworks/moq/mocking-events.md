@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Assuming this code:
 ```cs
 public class MessageEventArgs : EventArgs
@@ -29,7 +29,7 @@ public interface IService
 }
 ```
 
-## Function Calls
+## function calls
 In this approach, an event (`Sent`) is raised when a configured *function* (which, in this case, is a method with no return value, `Send()`) is invoked:
 ```cs
 // ARRANGE
@@ -47,7 +47,7 @@ service.Sent += (object sender, MessageEventArgs args) => TestContext.Progress.W
 service.Send("Hello World");
 ```
 
-### Asynchronous Function Calls
+### asynchronous function calls
 If we were using an asynchronous method instead, the configure it as follows:
 ```cs
 mock.Setup(p => p.SendAsync(It.IsAny<string>()))
@@ -55,7 +55,7 @@ mock.Setup(p => p.SendAsync(It.IsAny<string>()))
     .Raises(e => e.Sent += null, (string message) => new MessageEventArgs { Message = message });
 ```
 
-## Method Calls
+## method calls
 In this approach, an event is raised when a configured *method* is invoked. This approach is the same as above, except that configuration for what the
 method will return is added before configuring the call to `Raises()`:
 ```cs
@@ -67,7 +67,7 @@ mock.Setup(p => p.Receive())
 // ...
 ```
 
-### Asynchronous Method Calls
+### asynchronous method calls
 If we were using an asynchronous method instead, configure it as follows:
 ```cs
 mock.Setup(p => p.ReceiveAsync())
@@ -75,14 +75,14 @@ mock.Setup(p => p.ReceiveAsync())
     .Raises(e => e.Received += null, (string msg) => new MessageEventArgs { Message = msg });
 ```
 
-## Manually Raising Events
+## manually raising events
 If the SUT accepts a service that exposes an event, subscribes to this event, and reacts when it is raised, we
 can manually raise an event as part of the *Act* step:
 ```cs
 mock.Raise(p => p.Sent += null, new MessageEventArgs { Message = "Hello world" });
 ```
 
-## Verifying Events
+## verifying events
 Assume the event handler is registered/unregistered as follows:
 ```cs
 service.Sent += MessageSent;

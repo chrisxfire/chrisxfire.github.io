@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# The 23 Design Patterns from the Gang of Four
+# the 23 design patterns from the gang of four
 <table>
 <colgroup>
 <col style="width: 14%" />
@@ -60,7 +60,7 @@ weight: 1
 
 ![](./Design-Patterns-image2.png)
 
-# Concepts
+# concepts
 Factory—a method or class that produces something:
 - A method that creates a GUI
 - A class that creates users

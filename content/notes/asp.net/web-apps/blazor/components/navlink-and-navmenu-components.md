@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# NavLink
+# navlink
 Use a `NavLink` component in place of HTML hyperlink elements (`<a>`) for navigation links.  A `NavLink` component toggles an `active` CSS class to help a user understand which page is active among the navigation links.
 
 Optionally, assign a CSS class name to `NavLink.ActiveClass` to apply a custom CSS class to the rendered link when the current route matches.
@@ -20,7 +20,7 @@ Any attributes not defined by the component are passed through to the anchor ele
 <a href="example-page" target="_blank">Example page</a>
 ```
 
-## Match attribute
+## match attribute
 `NavLink`'s Match attribute can be assigned either:
 1. `NavLinkMatch.All`—the `NavLink` is active when it matches the *entire* current URL
 2. `NavLinkMatch.Prefix` (default)—the `NavLink` is active when it matches any prefix of the current URL

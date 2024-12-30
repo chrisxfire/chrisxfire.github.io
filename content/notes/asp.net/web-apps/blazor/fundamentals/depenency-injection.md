@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# Default Services
+# default services
 - `HttpClient` (Scoped)
 - `IJSRuntime` (Server=Scoped, WASM=Singleton) — an instance of a JavaScript runtime where JS calls are dispatched
 - `NavigationManager` (Server=Scoped, WASM=Singleton) — helpers for working with URIs and navigation state
 
-# Requesting Services in Components
+# requesting services in components
 Inject services into components using `@inject` directive:  
 ```html
 @page "/customer-list"
@@ -62,7 +62,7 @@ public class ComponentBase : IComponent
 ```
 In components derived from the base class, the `@inject` directive is not necessary.
 
-# Managing DI Scope
+# managing di scope
 ## `OwningComponentBase`
 Use `OwningComponentBase` to limit a service's lifetime in Blazor apps.  `OwningComponentBase` has property `protected IServiceProvider ScopedServices` and creates a DI scope corresponding to the lifetime of the component.  This allows DI services with a scoped lifetime to live as long as the component.
 

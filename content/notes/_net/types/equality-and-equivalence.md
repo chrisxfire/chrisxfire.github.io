@@ -12,13 +12,13 @@ Two types of Equality:
 # Reference Equality (Identity)
 Objects have the same identity (or reference equality) if they refer to the same location in memory.
 
-## Comparisons
+## comparisons
 Use `ReferenceEquals`:
 ```cs
 areEqual = Object.ReferenceEquals(var1, var2);
 ```
 
-## Notes
+## notes
 Never test for reference equality on strings. Although string is a reference type, its equality operators have been overridden to make them behave like value types.
 
 # Value Equality (Equivalence)
@@ -26,7 +26,7 @@ Objects have the same equivalence (or value equality) based on abstract definiti
 1.  They must be of the same type
 2.  All of their fields and properties must have the same value
 
-## Five Guarantees of Equivalence
+## five guarantees of equivalence
 Assuming that `x`, `y`, and `z` are not null:
 1.  `x.Equals(x) == true` (reflexive property)
 2.  `x.Equals(y) == y.Equals(x)` (symmetric property)
@@ -34,10 +34,10 @@ Assuming that `x`, `y`, and `z` are not null:
 4.  `x.Equals(y)` is omnipotent
 5.  Any non-null value != null
 
-## Notes
+## notes
 If you use `ReferenceEquals` to test two variables for value equality, the result will always be false (because each variable is boxed into a separate object instance).
 
-# Implementing Value Equality in Classes and Structs
+# implementing value equality in classes and structs
 1.  Implement `System.IEquatable<T>` interface by providing a type-specific `Equals` method
     1.  Do not throw exceptions from this method.
     2.  This method must examine only fields that are declared in the class.
@@ -48,7 +48,7 @@ If you use `ReferenceEquals` to test two variables for value equality, the resul
 4.  Override Object.GetHashCode such that two objects of this type that have value equality produce the same hash
 5.  (optional) Implement IComparable<T> interface and overload <= and >= operators
 
-## Example Implementation
+## example implementation
 ```cs
 class Person : IEquatable<Person>
 {

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Using ViewModel for the MainWindow
+# using viewmodel for the mainwindow
 `MainWindow.xaml`
 ```xml
 <!-- Set a name on the grid so we can reference it in the code-behind: -->

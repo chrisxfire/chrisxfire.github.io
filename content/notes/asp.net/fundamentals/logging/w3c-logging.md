@@ -5,13 +5,13 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Middleware that writes log files in the [W3C standard format](https://www.w3.org/TR/WD-logfile.html).
 
 <o>Caution</o>: W3C logging can reduce the performance of an app, especially when logging request/response bodies.  
 <r>Warning</r>: W3C logging can potentially log personally identifiable information.
 
-# Enabling
+# enabling
 Call `UseW3Logging`:  
 
 `Program.cs`  
@@ -23,7 +23,7 @@ app.UseW3CLogging();
 app.UseRouting();
 ```
 
-# Configuration
+# configuration
 Call `AddW3CLogging`:
 
 `Program.cs`

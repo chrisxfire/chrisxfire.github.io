@@ -8,14 +8,14 @@ weight: 1
 # Abstract [[Reference](https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/4-regression)]
 In regression-based supervised machine learning, the label predicted by the model is a numeric value.
 
-# Training Regression Models
+# training regression models
 1. Split the data (randomly) to create a training dataset and a validation dataset.
 2. Use a regression algorithm (perhaps linear regression) to *fit* the training data to a model.
 3. Use the validation dataset to test the model by predicting labels for the features.
 4. Evaluate the model's performance by comparing the known *actual* labels in the validation dataset to the labels that the model predicted.
 5. Repeat with different algorithms and/or parameters.
 
-# Regression Model Evaluation Metrics
+# regression model evaluation metrics
 ## Mean Absolute Error (MAE)
 The level by which the *prediction* varied from the *actual*.
 

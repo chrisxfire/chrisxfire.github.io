@@ -7,7 +7,7 @@ tags:
  - kb/dotnet/regular-expressions
 ---
 
-# Regular Expression Engine Performance Considerations
+# regular expression engine performance considerations
 There are five techniques for coupling the regex engine to a regex pattern:
 1. Instantiate a `RegEx` object (*interpreted* regular expressions)
 2. Call a static pattern-matching method  (*interpreted*)
@@ -22,7 +22,7 @@ There are five techniques for coupling the regex engine to a regex pattern:
 | Assembly          | `Regex.CompileToAssembly`                    | Low               | Low            | Difficult to use <br /> Difficult to debug                           | Low performance cost and smaller app size is required                       |
 | Source generation | `GeneratedRegexAttribute`                    | Low               | Low            | Supports AOT compilation <br /> Emits more source, increase app size | A Regex that is called frequently in .NET 7 or later                        |
 
-## Avoid Repeated Regex Object Instantiation
+## avoid repeated regex object instantiation
 Each time a Regex object is instantiated, the regular expression pattern passed to it must be recompiled. This is an expensive operation.
 
 Below, each time `IsValidCurrency` is called, a new `Regex` object is instantiated:
@@ -88,8 +88,8 @@ private static partial Regex FiveCharWord();
 private static partial Regex FiveCharWordProperty { get; }
 ```
 
-# Other Performance Considerations
-## Backtracking
+# other performance considerations
+## backtracking
 Ordinarily, the regex engine uses linear progression to traverse an input string and compare it to a regex pattern. 
 Indeterminate quantifiers like `*`, `+`, and `?` allow the regex engine to give up a partial successful match to search for a successful match in the entire pattern. This is *backtracking*.  
 
@@ -98,7 +98,7 @@ If backtracking is not necessary, either:
 1. Disable it with an atomic group: `(?>subexpression)`, or;
 2. Pass `RegexOptions.NonBacktracking`.  This guarantees linear progression and avoids backtracking.
 
-## Nonbacktracking Mode Considerations
+## nonbacktracking mode considerations
 NonBacktracking is <u>not</u> compatible with:
 - `RegexOptions.RightToLeft`
 - `RegexOptions.ECMASCript`
@@ -111,7 +111,7 @@ NonBacktracking is <u>not</u> compatible with:
 
 If a capture group is in a loop, `NonBacktracking` will only return the last matched value for that capture.  This is different from the normal behavior of returning all matched values.
 
-## Timeouts
+## timeouts
 Always set a timeout to minimize effect of excessive backtracking, if it occurs.  
 
 Setting a timeout value:
@@ -122,7 +122,7 @@ Setting a timeout value:
 
 If timeouts are reached, a `RegexMatchTimeoutException` is thrown.
 
-## Capturing Groups
+## capturing groups
 Use capturing groups such as `(subexpression)` and `(?<name>subexpression)` only when necessary and disable otherwise. These constructs are expensive.  
 
 Options to disable:

@@ -33,7 +33,7 @@ Publishing modes:
 Add this to the project file:  
 `<UseAppHost>False</UseAppHost>`
 
-# PDB Files
+# pdb files
 PDB files are used to debug exceptions.
 You can choose not to include them with the deployment. Save them if so.
 
@@ -45,7 +45,7 @@ dotnet publish --configuration Release --runtime <RID> -p:PublishReadyToRun=true
 ```
 Self-contained specific platform executable, ReadyToRun.
 
-# Trim
+# trim
 Trimming reduces the size of compiled projects.
 ```powershell
 dotnet publish … -p:PublishTrimmed=True # Assembly-level trimming.

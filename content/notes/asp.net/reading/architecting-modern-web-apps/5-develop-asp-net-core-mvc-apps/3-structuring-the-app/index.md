@@ -20,7 +20,7 @@ Projects
     a. Contains UI level concerns (but not business logic or infrastructure details)  
     b. Ideally, no dependency on Infrastructure, but this requires 3rd party DI container  
 
-# Organizing by Feature
+# organizing by feature
 [Vertical Slices | DevIQ](https://deviq.com/practices/vertical-slices) | [ASP.NET Core - Feature Slices for ASP.NET Core MVC | Microsoft Learn](https://learn.microsoft.com/en-us/archive/msdn-magazine/2016/september/asp-net-core-feature-slices-for-asp-net-core-mvc)
 
 ASP.NET Core MVC applications can be organized by feature instead of by file type by using Areas.  
@@ -75,7 +75,7 @@ services.AddMvc(o => o.Conventions.Add(new FeatureConvention()));
 builder.Services.AddMvc(o => o.Conventions.Add(new FeatureConvention()));
 ```
 
-# Organizing APIs and Blazor Apps
+# organizing apis and blazor apps
 APIs that need to be secured should be in a separate project from the View or Razor Pages app.  They have unique deployment and load characteristics.
 
 Blazor apps should also be separate projects.  They have different runtime characteristics and security models.  If they share common types with the server-side web app (or API project), these should be defined in a common shared project.
@@ -88,7 +88,7 @@ In eShopOnWeb, adding a Blazor WASM admin interface added several new projects:
 Organizing Cross-Cutting Concerns
 Authentication, model validation rules, output caching and error handling are all examples of cross-cutting concerns.
 
-## Filters
+## filters
 Use [filters](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters) to run code before or after certain steps in the request processing pipeline:  
 ![](./filters.png)
 

@@ -5,6 +5,6 @@ draft: false
 weight: 1
 ---
 
-# Abstract
+# abstract
 A front-end web development framework. Uses HTML and CSS (no JavaScript).  
 Compare to [Bootstrap](../../../bootstrap/overview/).

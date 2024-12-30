@@ -28,7 +28,7 @@ Async methods can return:
 - `IAsyncEnumerable<T>` — async methods that return an *async stream*
 - Any type that has an accessible `GetAwaiter` method (must implement `System.Runtime.CompilerServices.ICriticalNotifyCompletion`)
 
-## Void Return Type
+## void return type
 An async void method is used only for event handlers (because event handlers do not have a return type):
 - Such a method cannot be awaited.
 - The caller of such a method cannot catch exceptions that the method throws.
@@ -38,7 +38,7 @@ An async void method is used only for event handlers (because event handlers do 
 An async method may return an async stream via `IAsyncEnumerable<T>`.
 Use this to enumerate items read from a stream when elements are generated in chunks via repeated async calls.
 
-### Creating
+### creating
 ```cs
 static async IAsyncEnumerable<string> ReadWordsFromStreamAsync()
 {
@@ -60,7 +60,7 @@ static async IAsyncEnumerable<string> ReadWordsFromStreamAsync()
     }
 }
 ```
-### Consuming
+### consuming
 Async streams are consumed via an await foreach statement:
 ```cs
 await foreach (var word in ReadWordsFromStreamAsync())

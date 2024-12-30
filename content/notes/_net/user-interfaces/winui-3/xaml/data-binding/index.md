@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Data Binding
+# data binding
 - Linking properties of objects in the View to those in the Data layer so that changes in one are reflected in the other.
 - Makes event handlers unnecessary.
 - Can be implemented in XAML or code, but more common in XAML.
@@ -37,7 +37,7 @@ This is the ListView that holds the names. Add an `x:Name` to it:
 </StackPanel>
 ```
 
-# Data Sources for Binding
+# data sources for binding
 ElementName can be used as a data source for a data binding:
 ```xml
 <TextBlock Text="{Binding ElementName=…}"/>
@@ -68,7 +68,7 @@ Every element in WinUI has a `DataContext` property of type `object`.
 
 Setting the `DataContext` to a complex object and then binding to the properties of that object is the essence of the MVVM pattern.
 
-# Binding mode
+# binding mode
 Each View can have only only one `BindingContext`; multiple data bindings on a view must all reference properties on the same object.
 To solve for this, the `BindingMode` can be set to:
 - `OneWay`: values are transferred from source —> target (every time the source changes)

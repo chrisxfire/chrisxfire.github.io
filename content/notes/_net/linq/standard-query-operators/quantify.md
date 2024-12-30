@@ -10,7 +10,7 @@ tags:
 # [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/quantifier-operations)
 A quantifying operation return Boolean for whether some or all of the elements in a set satisfy a condition.
 
-# Methods
+# methods
 | Method     | Description                                                   | Query expression |
 | ---------- | ------------------------------------------------------------- | ---------------- |
 | `All`      | Bool whether all elements in a collection satisfy a condition | N/A              |

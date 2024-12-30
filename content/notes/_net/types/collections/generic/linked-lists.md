@@ -20,19 +20,19 @@ The size of a linked list is dynamic.
 
 Linked Lists provide better performance compared to Lists when frequently inserting and removing items from the middle of the list.
 
-# Construction
+# construction
 ```cs
 var ll = new LinkedList<type>();
 ```
-# Methods
-## Manipulating
+# methods
+## manipulating
 ```cs
 .AddLast(elem) // Adds data to the end of the linked list.
 ```
-## Searching
+## searching
 ```cs
 .Contains(elem) // Boolean if elem is in the linked list.
 ```
-## Properties
+## properties
 `.CountReturns` the number of elements in the linked list.  
 5 <–> 8 <–> 13 <–> Null

@@ -7,7 +7,7 @@ tags:
  - kb/cli/git
 ---
 
-# Overview
+# overview
 - Provides secure credential storage.
 - Was previously called `credential-manager-core`
 - Accessed via `git credential-manager <subcommand>`

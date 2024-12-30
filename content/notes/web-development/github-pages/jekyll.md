@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 GitHub pages uses Jekyll as its static site generator.
 
 Some configuration settings cannot be changed for GitHub Pages:
@@ -22,7 +22,7 @@ kramdown:
   syntax_highlighter: rouge
 ```
 
-# Custom Variables
+# custom variables
 Set custom variables that can be accessed in Liquid:
 ```
 ---
@@ -32,7 +32,7 @@ food: Pizza
 <h1>{{ page.Food }}</ht1>
 ```
 
-# Themes
+# themes
 GitHub Pages support Jekyll themes.
 - Built-in themes
 - Jekyll theme documentation
@@ -44,7 +44,7 @@ theme: theme-name
 
 If `theme-name` is not a built-in theme, then it is in the format specified in that theme's README in its repository (usually user/repo).
 
-# Create a GitHub Site with Jekyll
+# create a github site with jekyll
 1. Create a GitHub Pages site > Navigate to the publishing source > `git rm -rf .` > `jekyll new --skip-bundle .`
 2. Jekyll created a Gemfile.  Open it.  Prepend line that starts with `gem "jekyll"` with `#`
 3. Change the line that starts with `# gem "github-pages"` 
@@ -63,14 +63,14 @@ Find the GITHUB-PAGES-VERSION here: https://pages.github.com/versions/
 6. `git remote add origin https://github.com/user/repository.git`
 7.  `git push -u origin branch`
 	
-# Add Content to Jekyll Site
+# add content to jekyll site
 Two types of content:
 1. Pages (like an "About" page)
 2. Posts
 
 Use the default about.md file as a template for other pages.
 
-## Add a New Page
+## add a new page
 1. Navigate to repo > Navigate to publishing source > create new file page-name.md
 2. Add the front matter:
     ```yaml
@@ -81,7 +81,7 @@ Use the default about.md file as a template for other pages.
 3. Add content
 4. Commit
 
-## Add a New Post
+## add a new post
 1. Navigate to repo > Navigate to publishing source > Navigate to _posts > create new file YYYY-MM-DD-name-of-post.md
 1. Add the frontmatter:
     ```yaml

@@ -18,7 +18,7 @@ You’ll be committed to delivering excellent customer service. Your strong comm
 *   Categorize and record reported queries
 *   Escalate unresolved problems.
 
-## Skills and qualifications
+## skills and qualifications
 
 #### 2.1 Job Skills
 

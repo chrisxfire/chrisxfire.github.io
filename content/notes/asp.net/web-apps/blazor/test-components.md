@@ -8,7 +8,7 @@ weight: 1
 # Testing with bUnit - Overview
 bUnit extends other unit testing frameworks (xUnit, Nunit, MSTest, etc) for Blazor-specific unit tests.
 
-## Features
+## features
 - includes a *semantic HTML comparer* so that not all possible cases must be manually tested.
 - supports dependency injection and passing parameters
 - testing user interactions and event handlers
@@ -16,7 +16,7 @@ bUnit extends other unit testing frameworks (xUnit, Nunit, MSTest, etc) for Blaz
 - testing authorization
 - mocking an HttpClient
 
-## Simple Unit Test Example
+## simple unit test example
 ```cs
 public void CanUpdatePiePrice() 
 {
@@ -31,8 +31,8 @@ public void CanUpdatePiePrice()
 }
 ```
 
-# Using bUnit
-## Process
+# using bunit
+## process
 1. Install the bUnit Visual Studio template  
     `dotnet new --install bunit.template`
 2. Create a bUnit project  
@@ -41,10 +41,10 @@ public void CanUpdatePiePrice()
 4. From the bUnit project, add a project reference to the main project
 5. Start writing unit tests  
 
-## Writing Unit Tests
+## writing unit tests
 bUnit supports writing tests in C# (`.cs`) or Razor files (`.razor`).
 
-### Razor Example
+### razor example
 Assuming this Component:  
 `MainProject/Components/SampleComponent.razor`
 ```html
@@ -120,7 +120,7 @@ Alternatively, inherit `TestContext` to avoid creating one in each method:
 }
 ```
 
-### Test only a part of a Component
+### test only a part of a component
 `TestProject/EmployeeCardTests.razor`
 ```cs
 @using BethanysPieShopHRM.Shared.Domain
@@ -174,8 +174,8 @@ Alternatively, inherit `TestContext` to avoid creating one in each method:
 }
 ```
 
-## Writing Advanced Unit Tests
-### Testing an injected service
+## writing advanced unit tests
+### testing an injected service
 `TestProject/InboxWidgetTests.razor`
 ```cs
 @using BethanysPieShopHRM.App.Components.Widgets

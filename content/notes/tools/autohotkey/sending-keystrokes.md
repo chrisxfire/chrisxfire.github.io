@@ -5,15 +5,15 @@ draft: false
 weight: 1
 ---
 
-# Sending Keystrokes
-## SendText 
+# sending keystrokes
+## sendtext 
 To send a string:
 ```autohotkey
 ^1::SendText "To whom it may concern"
 ^2::SendText "Send a "quoted string""
 ```
 
-## Sending Long Text
+## sending long text
 ```autohotkey
 SendText "
 (
@@ -24,7 +24,7 @@ unless you use the "Join" option.
 )"
 ```
 
-## Send 
+## send 
 To send keystrokes:  
 
 `^+{Left} `produces <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Left arrow</kbd>  

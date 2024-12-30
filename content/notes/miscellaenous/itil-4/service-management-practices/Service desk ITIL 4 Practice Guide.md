@@ -638,14 +638,14 @@ Table 8.1 outlines recommendations for the success of the service desk practice,
 
 PeopleCert is grateful to everyone who has contributed to the development of this guidance. These practice guides incorporate an unprecedented level of enthusiasm and feedback from across the ITIL community. In particular, PeopleCert would like to thank the following people.
 
-##### Authors
+##### authors
 
 Jamie Bell, Miroslav Hlohovsky, Roman Jouravlev, Konstantin Naryzhny, Helen Nunn
 
-##### Reviewers
+##### reviewers
 
 Don Page, Aale Roos
 
-##### 2023 Revision
+##### 2023 revision
 
 David Cannon, Antonina Douannes, Peter Farenden, Adam Griffith, Roman Jouravlev, Kaimar Karu, Barclay Rae, Stuart Rance, Nicola Reeves

@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - Namespace: `System.Xml.Serialization`
 - Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.xml.serialization?view=net-6.0
 
-# Serializing
+# serializing
 When serializing a type with `XmlSerializer`, only public fields and properties are included, and the type must have a parameterless constructor.
 
 ```cs
@@ -20,12 +20,12 @@ using (FileStream stream = File.Create(path))
     xs.Serialize(stream, people); // Serialize the object graph to the stream.
 }
 ```
-# Deserializing
+# deserializing
 ```cs
 using (FileStream xmlLoad = File.Open(path, FileMode.Open))
 {
     List<Person>? loadedPeople = xs.Deserialize(xmlLoad) as List<Person>; // Deserialize and cast object graph
 }
 ```
-# Decorators
+# decorators
 - `[XmlAttribute("shortname")]` — Use  to specify a short name for properties.

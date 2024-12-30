@@ -16,7 +16,7 @@ Unit testing:
 Good unit tests are fast (run in milliseconds), isolated (have no dependencies), repeatable (always return the same results), 
 self-checking (identify whether they pass or fail), and timely (shouldn't take a disproportionately long time to write).
 
-# Mock vs Fake vs Stub
+# mock vs fake vs stub
 * *Fake* — a generic term for either a mock or stub object.
 * *Mock* — a fake object that decides whether or not a unit test has passed or failed. It starts out as a fake until it is asserted
 against. 
@@ -48,7 +48,7 @@ Assert.True(purchase.CanBeShipped);
 The class `MockOrder` is renamed to `FakeOrder`, and so it can be used as either a mock or a stub. Above, stubOrder is not asserted
 against, which is what makes it a stub.
 
-# Mocking
+# mocking
 Isolate your test by mocking parts of your code that don't affect the test outcome. This is useful when your code cannot be further modularized or you do not want to rewrite it so.
 
 Frameworks: 

@@ -7,13 +7,13 @@ tags:
  - kb/asp.net/web-apps/blazor/fundamentals/rendering
 ---
 
-# Overview
+# overview
 Reference: https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/?view=aspnetcore-9.0
 
 To *render* means to produce the HTML markup that browsers display. 
 Razor components are either *statically* or *interactively* rendered, and rendered either *client-side* or *server-side*.
 
-# Rendering Concepts
+# rendering concepts
 ## Static vs. Interactive Rendering
 - Static Rendering
   - A server-side scenario; the component is rendered without interaction between the user and .NET/C# code.
@@ -40,5 +40,5 @@ Razor components are either *statically* or *interactively* rendered, and render
 
 <!-- TODO: Link to pre-rendering section of blazor/components/render modes -->
 
-# More Information
+# more information
 <!-- TODO: Insert link to blazor/components/render modes -->

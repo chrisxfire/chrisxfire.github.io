@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Add a CA Certificate to a Debian Linux Server
+# add a ca certificate to a debian linux server
 ```bash
 cp <path/to/ca-cert-file.crt> /usr/local/share/ca/certificates/
 sudo update-ca-certificates

@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 In XAML, every element has a `Resources` property of type `ResourceDictionary`.
 
 `HeaderControl.xaml`
@@ -15,7 +15,7 @@ In XAML, every element has a `Resources` property of type `ResourceDictionary`.
 <Grid Background ="F05A28">
 <!-- ... -->
 ```
-# Defining Resources
+# defining resources
 Application-wide resources are stored in App.xaml:
 `App.xaml`
 ```xml
@@ -38,7 +38,7 @@ Application-wide resources are stored in App.xaml:
 
 If we wanted to put the Resources in HeaderControl.xaml instead of App.xaml, we could put them inside a `<UserControl.Resources>` tag.
 
-# Using Resources
+# using resources
 `HeaderControl.xaml`
 ```xml
     <!-- Use the StaticResource markup extension: -->
@@ -51,11 +51,11 @@ If we wanted to put the Resources in HeaderControl.xaml instead of App.xaml, we 
     <!-- ... -->
 <!-- ... -->
 ```
-# Resources in a Window
+# resources in a window
 `MainWindow.xaml`
 A `Window` does not have a `Resources` property. Instead of defining resources on a `Window`, use the `Resources` property of the root `Grid` instead.
 
-# Defining Resources in a Dedicated Resources File
+# defining resources in a dedicated resources file
 Visual Studio: right-click Project > **Add** > **New Folder** > "Resources"
 right-click **Resources** > **New Item** > *WinUI* > **Resource Dictionary** > "Brushes.xaml"
 

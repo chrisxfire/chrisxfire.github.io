@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Handling Concurrency Conflicts
-## Handling Concurrent Deletes
+# handling concurrency conflicts
+## handling concurrent deletes
 When a concurrent delete of a database row is detected, EF Core throws a `DbUpdateConcurrencyException` exception.  Handle this exception to handle the conflict.
 
-## Handling Concurrent Updates
+## handling concurrent updates
 A concurrent update of a database row can be detected.  This requires a `Timestamp` property with attribute:
 ```cs
 [Timestamp]

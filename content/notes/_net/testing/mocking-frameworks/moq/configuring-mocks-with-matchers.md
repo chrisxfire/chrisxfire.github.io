@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Argument matchers can be used for configuring and verifying methods and properties.
 
 Some test examples below use this system:
@@ -32,7 +32,7 @@ var mock = new Mock<IFoo>();
 var sut = new Service(mock.Object);
 ```
 
-## Configuring Method Calls with Matchers
+## configuring method calls with matchers
 ### `It.Is<T>` for any instance of `T`
 When `DoSomething()` is called with any string argument, it should return `true`:
 ```cs
@@ -69,7 +69,7 @@ mockFirst.InSequence(sequence).Setup(p => p.DoWithInteger(1));
 mockSecond.InSequence(sequence).Setup(p => p.DoWithDate(DateTime.Today));
 ```
 
-### A Delegate
+### a delegate
 When `Add()` is called with a `Func<int>`, it should return `true`:
 ```cs
 mock.Setup(mock => mock.Add(It.Is<int>(i => i % 2 == 0))).Returns(true); 

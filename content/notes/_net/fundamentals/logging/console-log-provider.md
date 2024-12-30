@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 > [!IMPORTANT]
 > Availability: .NET 5  
 
@@ -13,7 +13,7 @@ weight: 1
 
 The `Console` log provider supports three formatting options: Simple, Systemd, and Json.
 
-# Registering
+# registering
 To register any one of the formatters, use the `Add{TYPE}Console` extension method:
 ```cs
 using Microsoft.Extensions.Logging;
@@ -28,7 +28,7 @@ using ILoggerFactory loggerFactory =
         }));
 ```
 
-## Registering via Configuration File
+## registering via configuration file
 ```json
 {
     "Logging": {
@@ -59,23 +59,23 @@ using ILoggerFactory loggerFactory =
 }
 ```
 
-# Simple
+# simple
 - Can wrap information such as time and log level in each log message
 - Supports ANSI color embedding
 - Supports indentation fo messages
 
-# Systemd
+# systemd
 - Uses the *syslog* standard
 - Always logs messages on a single line
 - No color support
 
-# Json
+# json
 - Writes logs in JSON format
 - By default, logs messages on a single line
   - Use `JsonWriterOptions.Indented = true` to improve readability
 - <o>Do not pass in log messages that have already been serialized to JSON</o>
 
-# Custom Formatters
+# custom formatters
 To create a custom formatter, inherit from ConsoleFormatter and register the custom formatter.
 
 > Documentation: https://learn.microsoft.com/en-us/dotnet/core/extensions/console-log-formatter#implement-a-custom-formatter

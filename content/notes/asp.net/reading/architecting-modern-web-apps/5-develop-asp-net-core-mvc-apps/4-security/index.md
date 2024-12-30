@@ -7,7 +7,7 @@ weight: 1
 
 Ensure SSL is used by the application: https://learn.microsoft.com/en-us/aspnet/core/security/enforcing-ssl
 
-# Identity
+# identity
 ASP.NET Core Identity (built in) has support for local user accounts and external identity providers.
 (An external option is [Identity Server (github.com)(https://github.com/IdentityServer/IdentityServer4)])
 
@@ -15,7 +15,7 @@ ASP.NET Core Identity is included in projects if Individual Accounts is selected
 ![](./identity.png)
 
 
-## Configuring Identity
+## configuring identity
 ### In `Program.cs`
 ```cs
 var builder = WebApplication.CreateBuilder(args);
@@ -59,7 +59,7 @@ app.MapRazorPages();
 app.Run();
 ```
 
-### In app startup
+### in app startup
 ```cs
 // Add framework services.
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -92,7 +92,7 @@ app.UseAuthorization();
 app.MapRazorPages();
 ```
 
-# Authentication
+# authentication
 Schemes are techniques for performing authentication in web applications.  `DefaultAuthenticateScheme` is configured to provide a default scheme.
 
 Calling `AddIdentity<TUser, TRole>` also includes this call to configure the authentication scheme for a web app with user interaction:
@@ -124,11 +124,11 @@ builder.Services
 });
 ```
 
-## Authentication in Blazor Apps
+## authentication in blazor apps
 Blazor Server apps can use the same features as above.  
 Blazor WASM apps cannot use built-in Identity and Authentication providers since they run in a browser.  They store user authentication status locally and access claims to determine authorization.  All A&A checks should be performed on the server regardless of any logic implemented by the WASM app.
 
-# Authorization
+# authorization
 The Authorize attribute, along with roles, can be used:
 ```cs
 [Authorize(Roles = "HRManager,Finance")] // This means either HRManager OR Finance.  For AND, apply each role on individua lines.
@@ -146,7 +146,7 @@ public IActionResult ExecutiveSalaryReport()
 }
 ```
 
-## Claims
+## claims
 Name-value pairs that represent properties of an authenticated user.  Used as part of authorization policies:
 ```cs
 public void ConfigureServices(IServiceCollection services)
@@ -163,7 +163,7 @@ public void ConfigureServices(IServiceCollection services)
 
 This policy would then be used in Authorize attribute.
 
-## Securing web APIs  
+## securing web apis  
 ![](./token-based-authentication.png)
 
 Web APIs used token-based authentication.

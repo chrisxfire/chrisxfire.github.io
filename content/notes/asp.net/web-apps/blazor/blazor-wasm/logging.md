@@ -21,7 +21,7 @@ logger.LogInformation("Logged after the app is built in Program.cs.");
 await host.RunAsync();
 ```
 
-# Configure Logging
+# configure logging
 Use the `WebAssemblyHostBuilder.Logging` property.
 
 Log Categories, log event IDs, log message templates, log exception parameters, filter functions, and custom logger providers are supported in Blazor WASM.

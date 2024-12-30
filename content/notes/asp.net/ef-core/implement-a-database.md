@@ -8,7 +8,7 @@ weight: 1
 > From Pluralsight/Building a Data-driving ASP.NET Core 6 Blazor Server Application
 
 # Implement a Database with EF Core in an ASP.NET Core Blazor Web App
-## Create Model classes
+## create model classes
 `Data/Models/Employee.cs`
 ```cs
 public class Employee
@@ -87,8 +87,8 @@ builder.Services.AddDbContext<EmployeeManagerDbContext>(
 }
 ```
 
-## Execute a Migration
-### Add a migration
+## execute a migration
+### add a migration
 `dotnet add package microsoft.entityframeworkcore.tools`
 
 ```powershell
@@ -101,12 +101,12 @@ This creates:
     - `Up` method — creates the database tables
     - `Down` method — drops the tables
 
-### Run the migration
+### run the migration
 ```powershell
 PM> update-database
 ```
 
-### Confirm the database exists  
+### confirm the database exists  
 Visual Studio > **View** > **SQL Server Object Explorer**
 
 # Using the `DbContext` in a Component
@@ -139,7 +139,7 @@ TODO: List the employees here.
 }
 ```
 
-# Using DbContextFactory
+# using dbcontextfactory
 By injecting a `DbContext` into a Component, the lifetime of the `DbContext` is now tightly coupled to the Component. In Blazor Server, since the client (browser) is connected to the server via a SignalR connection, the Component is not re-created for each request; the Component lives as long as the client is using it.  The `DbContext` is designed for a short lifespan.  
 
 To avoid this problem, inject an `IDbContextFactory` into the Component instead. It can be used to inject a short-lived context.

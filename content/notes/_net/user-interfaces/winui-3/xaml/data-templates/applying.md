@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Data Templates
+# data templates
 Use a Data Template for the `ListView` in the Navigation so that you can see the first AND last name of the customers.
 
-# Defining a Data Template
+# defining a data template
 `MainWindow.xaml`
 ```xml
 <!-- ... -->
@@ -35,7 +35,7 @@ Use a Data Template for the `ListView` in the Navigation so that you can see the
 
 You now have a single item of the `ViewModel.Customers` property (which contains a collection of `CustomerItem` `ViewModels)` in the `DataContext` of the `DataTemplate`.
 
-# Defining a Data Template as a Resource
+# defining a data template as a resource
 Instead of defining the `DataTemplate` directly on the `ListView`, you can create it as a resource:
 
 `MainWindow.xaml`

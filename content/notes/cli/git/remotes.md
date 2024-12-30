@@ -7,7 +7,7 @@ tags:
  - kb/cli/git
 ---
 
-# Remote Repositories
+# remote repositories
 - `git fetch <remote>` – retrieve all data from remote repository since last fetch (or clone)
 - does not modify working directory; requires merging
 - `git fetch --all` – fetch from all remotes

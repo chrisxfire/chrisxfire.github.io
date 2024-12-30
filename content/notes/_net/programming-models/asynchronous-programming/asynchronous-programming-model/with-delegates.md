@@ -5,23 +5,23 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Delegates enable calling any synchronous method in an asynchronous manner.
 
-# How it Works
+# how it works
 The CLR automatically defines `BeginInvoke` and `EndInvoke` methods for a delegate with the appropriate signature. This can then be used like the APM model.
 
-## BeginInvoke
+## begininvoke
 - Has same parameters as method to be executed asynchronously, plus:
   1.  an `AsyncCallback` delegate that references the method to be called when the async call completes
   2.  a user-defined object that passes information into the callback method
 - Returns an `IAsyncResult`
 
-## EndInvoke
+## endinvoke
 - If called before async call is complete, blocks calling thread until it is.
 - Returns the result of the async call.
 
-# Process
+# process
 1.  Call `BeginInvoke`
 2.  Either:
     1.  Do some work and then call `EndInvoke`

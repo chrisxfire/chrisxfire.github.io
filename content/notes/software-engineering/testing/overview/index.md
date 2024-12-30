@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Types of Tests
+# types of tests
 From most number of tests to least for a given project (italicized are not in the Testing Pyramid):
 | Type        | Description                                                                                   |
 | ----------- | --------------------------------------------------------------------------------------------- |
@@ -18,7 +18,7 @@ From most number of tests to least for a given project (italicized are not in th
 | UI          | Tests the UI of an app; mimics clicks and interactions.                                       |
 - Playwright automates the browser to mimic a user using a website.
 
-# Doctrines on Testing
+# doctrines on testing
 ## Test-Driven Development (TDD)
 - Tightly coupling testing with every part of development.  
 - Start first by writing a test that fails, then code that makes the test pass.

@@ -5,18 +5,18 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 A Blazor Component library.
 
 See also:  https://try.mudblazor.com
 
-# Installation
-## Direct
+# installation
+## direct
 ```powershell
 dotnet add package MudBlazor
 ```
 
-## via Template
+## via template
 Blazor template preconfigured with MudBlazor:
 
 ```powershell
@@ -24,7 +24,7 @@ dotnet new --install MudBlazor.Templates
 dotnet new mudblazor --host wasm --name AppName
 ```
 
-# Getting Started
+# getting started
 ## 1. Add imports
 `_Imports.razor`
 ```html
@@ -63,13 +63,13 @@ builder.Services.AddMudServices();
 <MudSnackbarProvider/>
 ```
 
-# Layouts
-## Layout providers
+# layouts
+## layout providers
 1. `MudThemeProvider` — provides theme settings such as colors, fonts, shadows, and other properties.  
 2. `MudDialogProvider`.
 3. `MudSnackbarProvider`.
 
-## Basic Layout
+## basic layout
 `MudLayout` should be placed in `MainLayout.razor`.  Inside a `MudLayout` Component:
 - Place `MudAppBar` and `MudDrawer` before `MudMainContent` (below) so they are included in all pages
 - Place `MudMainContent`, which is where the page body resides.  Example:
@@ -95,7 +95,7 @@ builder.Services.AddMudServices();
 </MudLayout>
 ```
 
-## Functionality
+## functionality
 Add a MudIconButton to open/close the MudDrawer and a NavMenu for basic navigation:
 `MainLayout.razor`
 ```html
@@ -156,7 +156,7 @@ Use `MudContainer` to center some content and add gutters to a page.  This can b
 </MudMainContent>
 ```
 
-# Wireframes
+# wireframes
 Wireframes are small templates created by the MudBlazor team to serve as a starting point:
 
 https://mudblazor.com/getting-started/wireframes

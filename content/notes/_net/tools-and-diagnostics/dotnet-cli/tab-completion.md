@@ -10,10 +10,10 @@ tags:
 # [Overview](https://learn.microsoft.com/en-us/dotnet/core/tools/enable-tab-autocomplete)
 The `dotnet` driver supports tab completion. Below are instructions to enable it in PowerShell and Bash.
 
-## PowerShell
+## powershell
 Edit the profile at `$PROFILE`:
 ```powershell
-# PowerShell parameter completion shim for the dotnet CLI
+# powershell parameter completion shim for the dotnet cli
 Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
     param($commandName, $wordToComplete, $cursorPosition)
         dotnet complete --position $cursorPosition "$wordToComplete" | 
@@ -23,9 +23,9 @@ Register-ArgumentCompleter -Native -CommandName dotnet -ScriptBlock {
 }
 ```
 
-## Bash
+## bash
 ```bash
-# bash parameter completion for the dotnet CLI
+# bash parameter completion for the dotnet cli
 function _dotnet_bash_complete()
 {
     local cur="${COMP_WORDS[COMP_CWORD]}" IFS=$'\n' # On Windows you may need to use use IFS=$'\r\n'

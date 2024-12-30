@@ -10,7 +10,7 @@ tags:
 # [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/linq/standard-query-operators/converting-data-types)
 Convert methods change the type of objects.
 
-# Methods
+# methods
 `As*` methods change the static type of the collection but do not enumerate it.  
 `To*` methods enumerate the collection and put the items into a different collection type.
 

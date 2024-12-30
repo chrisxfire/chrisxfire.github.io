@@ -7,12 +7,12 @@ weight: 1
 
 From Pluralsight/ASP.NET 6 Core Fundamentals
 
-# Overview
+# overview
 ASP.NET Core can *scaffold.*  This creates: 
 - a `DbContext` class—the main class that coordinates EF functionality for a given data model.
 - Razor pages that handle CRUD operations for an entity.
 
-# How to Scaffold from Visual Studio
+# how to scaffold from visual studio
 1. Create **Pages/*subfolder***
 2. In **Solution Explorer** > right-click **Pages/*subfolder*** > **Add** > **New Scaffolded Item**
     a. **Installed** > **Common** > **Razor Pages** > **Razor Pages using Entity Framework (CRUD)** > **ADD**
@@ -21,7 +21,7 @@ ASP.NET Core can *scaffold.*  This creates:
     b. *Data context class row* > **+**
         i. Change data context name to desired name (should end in "Context") > **Add** > **Add**
 
-# How to Scaffold from Command Line
+# how to scaffold from command line
 1. Install required packages:
    ```powershell
    dotnet add package Microsoft.EntityFrameworkCore.SQLite
@@ -37,7 +37,7 @@ ASP.NET Core can *scaffold.*  This creates:
 4. Run scaffolding:   
     `dotnet aspnet-codegenerator razorpage -m Student -dc ContosoUniversity.Data.SchoolContext -udl -outDir Pages\Students --referenceScriptLibraries -sqlite`
 		
-# What Scaffolding Creates
+# what scaffolding creates
 The above scaffolding operation produce the following:
 - Under `Pages/subfolder`:  
 &emsp;&emsp;`Create.cshtml` and `Create.cshtml.cs`  

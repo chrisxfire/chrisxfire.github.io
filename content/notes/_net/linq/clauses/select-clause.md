@@ -7,7 +7,7 @@ tags:
  - kb/dotnet/linq/clauses
 ---
 
-# Select clause
+# select clause
 A `select` clause produces all other types of sequences. 
 
 A simple `select` clause just produces a sequence of the same type of objects as the objects in the data source:

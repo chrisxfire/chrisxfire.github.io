@@ -7,10 +7,10 @@ weight: 1
 
 From Pluralsight/Building a Data-driven ASP.NET Core 6 Blazor Server Application with EF Core
 
-# Overview
+# overview
 Pagination allows you to limit the number of results you return per page and allows the user to request more results by specifying a page number.
 
-## Implement Pagination
+## implement pagination
 Implementing pagination functionality involves:
 1. Counting the total number of records the Component has
 2. Specifying the number of records to show per page

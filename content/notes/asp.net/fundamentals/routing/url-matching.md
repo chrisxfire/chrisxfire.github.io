@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 An incoming request comes in.  Routing matches the incoming request to an endpoint:
 - It sets an `Endpoint` and routes values to a request feature on the `HttpContext` from the current request:
     - `HttpContext.GetEndpoint` returns the endpoint
@@ -49,7 +49,7 @@ Given the route `{ path = "my/path" }`:
 Given the template `files/{filename}.{ext?}`
 - Both `/files/myFile.txt` and `/files/myFile` will match even though `/files/myFile` does not have a dot at the end.
 
-## Complex Segments
+## complex segments
 Complex segments are processed by matching up literal delimiters from right to left.  The match is non-greedy.  
 Assume the route template `/a{b}c{d}` and the URL path `/abcd`:
 - Searching right to left, the first literal found is `c`
@@ -76,18 +76,18 @@ Route constraints include `int`, `bool`, `datetime`, `decimal`, `double`, `float
 
 Note:  when using the regex constraint, ASP.NET Core automatically passes a timeout and adds `RegexOptions.IgnoreCase | RegexOptions.Compiled | RegexOptions.CultureInvariant` to the call.
 
-## Custom Route Constraints
+## custom route constraints
 These can be created by implementing `IRouteConstraint`.  
 See also:  https://github.com/.net/aspnetcore/tree/main/src/Http/Routing/src/Constraints
 
-# Route Parameter Transformers
+# route parameter transformers
 Transformers transform a parameter's value when generating links and matching actions and pages to URLs.  They execute when generating a link.
 
-## Example
+## example
 A custom slugify parameter transformer:  
 Route pattern `blog\{article:slugify}` with `Url.Action(new { article = "MyTestArticle" })` generates `blog\my-test-article`.
 
-## Implementation
+## implementation
 ```cs
 public class SlugifyParameterTransformer : IOutboundParameterTransformer
 {

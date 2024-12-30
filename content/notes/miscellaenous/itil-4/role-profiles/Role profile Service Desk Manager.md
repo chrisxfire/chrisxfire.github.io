@@ -28,7 +28,7 @@ You will also act as incident manager with responsibility for ensuring there is 
 *   Monitor issue resolution and liaise with stakeholders
 *   Improve techniques and practices for managing client queries, troubleshooting and incident prioritization and resolution.
 
-## Skills and qualifications
+## skills and qualifications
 
 #### 2.1 Job skills
 

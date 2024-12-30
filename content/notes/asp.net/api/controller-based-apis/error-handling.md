@@ -9,7 +9,7 @@ weight: 4
 
 [Notes on Error Handling in ASP.NET Core](../../../fundamentals/error-handling) apply.
 
-# Exception Handling
+# exception handling
 In non-development environments:
 1. Call `UseExceptionHandler` to add exception handling middleware:  
     `Program.cs`
@@ -67,15 +67,15 @@ If using exception handling middleware in both development and non-development e
     public IActionResult HandleError() => Problem();
     ```
 
-# Use Exceptions to Modify the Response
+# use exceptions to modify the response
 The contents of the response can be modified outside of the controller.
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/handle-errors?view=aspnetcore-7.0#use-exceptions-to-modify-the-response
 
-# Validation Failure Error Response
+# validation failure error response
 The error response from a validation failure can also be customized.
 > Documentation: https://learn.microsoft.com/en-us/aspnet/core/web-api/handle-errors?view=aspnetcore-7.0#validation-failure-error-response
 
-# Client Error Response
+# client error response
 Error results (HTTP/400+) are transformed into a `ProblemDetails` by MVC in web APIs. Its body looks like this:
 ```json
 {

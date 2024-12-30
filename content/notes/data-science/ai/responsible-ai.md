@@ -10,12 +10,12 @@ Microsoft's Responsible AI standard defines a responsible AI system as ethical (
 
 The Six Responsible AI Principles:
 
-## Fairness
+## fairness
 > How might an AI system allocate opportunities, resources, or information in ways that are fair to the humans who use it?
 
 An AI system's decisions must not discriminate against, or express a bias toward, a group or individual based on gender, race, sexual orientation, or religion.
 
-## Inclusiveness
+## inclusiveness
 > How might the system be designed to be inclusive of people of all abilities?
 
 An AI system must be fair and inclusive in its assertions. It must not discriminate or hinder different races, disabilities, or backgrounds.
@@ -38,7 +38,7 @@ An AI system should perform as it was originally designed and to respond safely 
 - AI systems must not compromise and individual's privacy.
 - AI developers may consider differential privacy as one approach toward security and privacy.  This approach randomizes data and adds noise to conceal personal information.
 
-## Transparency
+## transparency
 > What data and algorithms were used to train the model?  
 > What transformation logic was applied to the data?  
 > What is the final model that was generated?  
@@ -46,14 +46,14 @@ An AI system should perform as it was originally designed and to respond safely 
 
 AI systems must justify their decisions and how they reach their conclusions.
 
-## Accountability
+## accountability
 >How might people misunderstand, misuse, or incorrectly estimate the capabilities of the system?  
 >How can we create oversight so that humans can be accountable and in control?
 
 - The people who design and deploy an AI system need to be accountable for its actions and decisions, especially as we progress toward more autonomous systems.
 - Organizations should consider establishing an internal review body that provides oversight, insights, and guidance about developing and deploying AI systems.
 
-# Other Resources
+# other resources
 - [Responsible AI Tools & Practices](https://www.microsoft.com/en-us/ai/tools-practices)
 - [Responsible AI Toolbox](https://responsibleaitoolbox.ai/)
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)

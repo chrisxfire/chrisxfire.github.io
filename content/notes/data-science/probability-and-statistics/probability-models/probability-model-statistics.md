@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Means
+# means
 Definitions:
 - The mean of a random variable (rv) is its average value.
 - The mean of a discrete random variable (rv) is the sum of all its possible values weighted (multiplied by) their probabilities:  

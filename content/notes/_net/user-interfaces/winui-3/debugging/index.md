@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Live Visual Tree
+# live visual tree
 **Debug** > **Windows** > **Live Visual Tree**
 
 Toggle between showing all WinUI XAML or just XAML you have written:  
@@ -26,7 +26,7 @@ Select Element—select an element in UI and it will be selected in Live Visual 
 Click brackets to navigate to this element:  
 ![](./Debugging-image6.png)
 
-# Inspecting Properties at Runtime with Live Property Explorer
+# inspecting properties at runtime with live property explorer
 ![](./Debugging-image7.png)
 
 ![](./Debugging-image8.png)

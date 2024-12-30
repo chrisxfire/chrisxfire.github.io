@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Normal Distribution
+# normal distribution
 Notes:
 - Used for sums of random variables
 - Characterized by 2 numbers:
@@ -64,7 +64,7 @@ pnorm(20, 25, 5)
 ```
 > 0.1586553
 
-# Practice
+# practice
 ## Practice with pnorm()
 - Q: The waiting time at a shop is approximately normally distributed with mean = 75 minutes and SD = 25 mins.  What is the probability that a customer's waiting time will exceed 90 minutes?
 - A: `1 - pnorm(90, 75, 25)` = 0.226
@@ -77,7 +77,7 @@ pnorm(20, 25, 5)
 - Q: A gas station seels a random amount of gas per day.  Amount sold per day has a normal distribution with mean = 5400 gallons and SD = 150 gallons.  How much gasoline should the station "stock" at the start of the day to keep the probability of running out by the end of the day <= 2%?
 - A: `qnorm(0.98, 5400, 150)` = 5708.06 gallons.  If the gas station stocks 5708.06 gallons, there is a 98% probability that daily demand will be less than this, and hence a 2% probability of running out.
 
-## Practice CDF calculations
+## practice cdf calculations
 - Q: Finish times for runners a normally distributed with mean = 200 mins, SD = 30 mins.  What is the probability that a runner will complete the marathon within 3 hours?
 - A: `pnorm(180, 200, 30)` = 0.252
 	- Q: By what time will 10% of runners have completed the marathon?

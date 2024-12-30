@@ -9,10 +9,10 @@ weight: 1
 
 Use these best practices when developing unit tests.
 
-## Avoid Dependencies in Unit Tests
+## avoid dependencies in unit tests
 Use dependency injection and the [Explicit Dependencies Principle](https://deviq.com/explicit-dependencies-principle).
 
-## Naming Tests
+## naming tests
 Tests should have a 3-part name: {MethodBeingTested}{ScenarioToTest}{ExpectedBehavior}. Consider:
 
 <r>Bad</r>:
@@ -52,11 +52,11 @@ public void Add_EmptyString_ReturnsZero()
 ## Avoid Multiple 'Act's
 One act per test makes it clear which act is failing and ensures the test is only focused on a single case.
 
-## Write Minimally Passing Tests
+## write minimally passing tests
 The input to the unit test should be the simplest possible input that verifies the expected behavior.  
 For example, use 0 as input to some method instead of some other number when 0 would verify the behavior of that method.
 
-## Avoid Magic Strings
+## avoid magic strings
 Use constants instead.  
 <r>Bad</r>:
 
@@ -87,11 +87,11 @@ void Add_MaximumSumResult_ThrowsOverflowException()
 }
 ```
 
-## Avoid Logic and Flow Control
+## avoid logic and flow control
 Avoid `if`, `while`, `for`, `switch`, etc, to avoid introducing bugs in a unit test. If logic is required,
 consider splitting up the test into multiple tests.
 
-## Prefer Helper Methods over Setup and Teardown Methods
+## prefer helper methods over setup and teardown methods
 This improves readability and avoids sharing state between tests.
 
 <r>Bad</r>:
@@ -134,11 +134,11 @@ public void Add_TwoNumbers_ReturnsSumOfNumbers()
 }
 ```
 
-## Validate Private Methods by Unit Testing Public Methods
+## validate private methods by unit testing public methods
 Since private methods are an implementation detail, the only result that matters is whether the public method
 that uses the private method validates.
 
-## Stub Static References
+## stub static references
 Consider the scenario where production code includes calls to static references (like `DateTime.Now`):
 ```cs
 public int GetDiscountedPrice(int price)

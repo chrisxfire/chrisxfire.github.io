@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 A cryptographically-secure random number generator.  Implements `IDisposable`.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/api/system.security.cryptography.randomnumbergenerator?view=net-7.0
 
-# Use
+# use
 Create a random number generator:
 ```cs
 using System.Security.Cryptography;

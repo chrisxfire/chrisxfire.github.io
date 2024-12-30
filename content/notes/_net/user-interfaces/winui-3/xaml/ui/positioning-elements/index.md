@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Positioning Elements with Layout Properties
+# positioning elements with layout properties
 ![](./XAML_UI_Positioning-Elements-image1.png)
 
 `HorizontalAlignment` property has values of `Left`, `Center`, `Right`, `Stretch`  
@@ -14,7 +14,7 @@ weight: 1
 When `Width` and `Height` properties are set, the element will not grow or shrink:  
 ![](./XAML_UI_Positioning-Elements-image2.png)
 
-## Margin
+## margin
 `Margin="<Left Top Right Bottom>"`  
 `Margin="50"` results in a margin of 50 pixels on all sides.  
 `Margin="50 10"` results in 50 pixels for left and right margins and 10 pixels for top and bottom margins.  

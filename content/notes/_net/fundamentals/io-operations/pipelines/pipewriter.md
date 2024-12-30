@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 `PipeWriter` manages buffers for writing on the caller's behalf. It implements `IBufferWriter<byte>` to get access to buffers to perform
 writes without extra buffer copies:
 
@@ -38,9 +38,9 @@ async Task WriteHelloAsync(PipeWriter writer, CancellationToken cancellationToke
 }
 ```
 
-# Cancellation with PipeWriter
+# cancellation with pipewriter
 `PipeWriter.FlushAsync` accepts a `CancellationToken`. However, `PipeWriter.CancelPendingFlush` cancels the flush operation without raising
 an exception. It causes the current or next call to `FlushAsync` or `WriteAsync` to return a `FlushResult` with `IsCanceled` set to `true`.
 
-# Common Problems with PipeWriter
+# common problems with pipewriter
 See [this page](https://learn.microsoft.com/en-us/dotnet/standard/io/pipelines#pipewriter-common-problems) for more information.

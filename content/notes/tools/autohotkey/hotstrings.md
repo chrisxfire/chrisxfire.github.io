@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Definition
+# definition
 ```autohotkey
 :options:abbreviation::replacement text
 ```
-# Creating
+# creating
 ```autohotkey
 ::btw::by the way
 ```
@@ -22,10 +22,10 @@ Typing "btw" followed by an ending character triggers this hotstring.
 }
 ```
 
-## Ending Characters
+## ending characters
 `-` `(` `)` `[` `]` `{` `}` ` `:` `;` ` `/` `\` `,` `.` `?` `!` `<enter>` `<tab>`
 
-# Long Replacements
+# long replacements
 Use paranthesis:
 ```autohotkey
 ::text1::
@@ -36,7 +36,7 @@ By default, the indentation (tab) to the left of this line is preserved.
 )
 ```
 
-# Options
+# options
 `-` — ending character not required  
 `C` — case-sensitive  
 `?` — hotstring will be triggered even if its preceding characters are alphanumeric  

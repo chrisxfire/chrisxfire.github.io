@@ -12,7 +12,7 @@ Code isolation is a testing strategy that isolates code under test from the rest
 testing the specific functionality of the code in isolation. If a test fails, the cause is in the isolated code, not
 somewhere else. It also enables testing code even if other parts of the application are not yet functional.
 
-# How it Works
+# how it works
 Microsoft Fakes achieves code isolation using *stubs* and *shims*:
 - **Stubs** — used to replace a class with a small substitute that implements the same interface.
   - Requires application design such that each component depends only on interfaces, not other components.
@@ -32,7 +32,7 @@ Microsoft Fakes achieves code isolation using *stubs* and *shims*:
 
 ![A diagram showing a fictional component and its dependencies on the left and the same component with stubs and shims on the right.](image.png)
 
-# Creating a Microsoft Fakes Assembly
+# creating a microsoft fakes assembly
  1. Solution Explorer > **TEST_PROJECT_NAME** > [**Assemblies**, **Projects** or **Packages**] 
  2. Right-click the assembly that contains class definitions to be stubbed > **Add Fakes Assembly**
  ![A screenshot showing the above steps](./select-system-assembly.png)

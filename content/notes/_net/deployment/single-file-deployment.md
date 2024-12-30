@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Single-file deployment bundles all application-dependent files into a single binary.  This deployment method is supported for both framework-dependent and self-contained apps.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tabs=cli 
 
@@ -27,8 +27,8 @@ Alternatively, an app can be published as a single file without updating the pro
 dotnet publish -r <runtime-identifier> -p:PublishSingleFile=true --self-contained <true|false>
 ```
 
-# Considerations
-## Excluding Certain Files
+# considerations
+## excluding certain files
 Update the project file:  
 `csproj`
 ```xml
@@ -42,7 +42,7 @@ Update the project file:
 </ItemGroup>
 ```
 
-## Including PDB files
+## including pdb files
 Single-file apps have all related PDB files not bundled by default.  
 To change this, update the project file:  
 `csproj`
@@ -52,7 +52,7 @@ To change this, update the project file:
 </PropertyGroup>
 ```
 
-## Compress Assemblies
+## compress assemblies
 Set the `EnableCompressionInSingleFile` property to `true`.  All embedded assemblies will be compressed.
 
 Note: this has a performance cost.

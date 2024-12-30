@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 There are *user controls* and *custom controls*:
 - User controls have hardcoded UI's in their XAML files
 - Custom controls have UIs defined in a ControlTemplate.
@@ -13,7 +13,7 @@ There are *user controls* and *custom controls*:
   - This allows for changing the UI even if you don't own the code for the control.
 - All WinUI controls (Button, TextBox, CheckBox, etc) are implemented as custom controls.
 
-# Define the Look of a Custom Control
+# define the look of a custom control
 Starting with a normal grey button…  
 ![](./XAML_Control-Templates-image1.png)
 

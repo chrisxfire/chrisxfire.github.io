@@ -7,7 +7,7 @@ weight: 1
 ![](./XAML_Elements-&-Attributes-image1.png)
 
 # Elements & Attributes
-## Attribute Syntax
+## attribute syntax
 `Button` is an *element*; in XAML, elements are mapped to Classes.  
 ```xml
 <Button>
@@ -58,7 +58,7 @@ This element is in *Class.Property* form; it maps to the `Content` property of t
 The resulting Button:  
 ![](./XAML_Elements-&-Attributes-image2.png)
 
-## Content Syntax
+## content syntax
 Use to set content directly in an object element.
 
 How it works:  
@@ -66,7 +66,7 @@ How it works:
 
 Content syntax is always used when you put content in an object element without the property element.
 
-## Collection Syntax
+## collection syntax
 Instead of assigning a value to a property, the XAML parser calls the Add method on the collection to add every element to the collection:  
 ![](./XAML_Elements-&-Attributes-image4.png)
 

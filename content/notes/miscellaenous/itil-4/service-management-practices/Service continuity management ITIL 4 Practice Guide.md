@@ -554,7 +554,7 @@ Pavel Demin
 
 Dinara Adyrbai, Roman Jouravlev
 
-### References
+### references
 
 1\. ISO 22300:2012
 

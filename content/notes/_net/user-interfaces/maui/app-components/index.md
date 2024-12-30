@@ -5,14 +5,14 @@ draft: false
 weight: 1
 ---
 
-# Application Class
+# application class
 - The `App` class is instantiated and loaded by the boostrap code for each platform.
 - It is the model of the application as a whole.
 - Inherits default behaviors from `Microsoft.Maui.Controls.Application`.
 - Creates an instance of `AppShell` and assigns it to the `MainPage` property.
 - Handles lifecycle events (like when the app is sent to the background).
 
-# AppShell Class
+# appshell class
 An `AppShell`:
 - Describes the hierarchy of an app
 - Provides a common navigation experience via URIs
@@ -29,21 +29,21 @@ An `AppShell` derives from the `Shell` class and contains three main hierarchica
     1.  Each `ShellContent` is a child of a `Tab`.
     2.  When more than one `ShellContent` exist in a `Tab`, the objects are navigable by the tabs on top of the page.
 
-# ContentPage
+# contentpage
 `ContentPage` can contain only a single child, either a view or a layout with child views. `ContentPage.Content` property is set to this child.
 
-# Pages
+# pages
 - The root of the UI hierarchy inside of a `Shell`.
 - An example is `MainPage`, which derives from `ContentPage`.
 
-## Page Types
+## page types
 - `ContentPage` — simply displays content.
   - A content page can only contain one item (like a `Control`) unless you also have a `Layout`.
 - `TabbedPage` — the root page used for tab navigation.
   - Contains child page objects (one for each tab).
 - `FlyoutPage` — contains a list of items; when you select that item, a view displaying the details for that item appears.
 
-# Views
+# views
 - A view enables the developer to retrieve and present data in a specific manner.
 - A `ContentPage` displays a view.
 - A `ContentView` displays items as-is; if you shrink the view, items may disappear.
@@ -51,14 +51,14 @@ An `AppShell` derives from the `Shell` class and contains three main hierarchica
 - A `CarouselView` allows users to swipe through a collection of items.
 - A `CollectionView` can retrieve data from a data source and present each item using a template.
 
-# Controls and Layouts
+# controls and layouts
 - *Controls* — buttons, labels, text boxes.
 - *Layout* — defines the rules by which controls are displayed.
   - Technically, a layout is also a *control*, so it can be added to a *view*.  
 ![](./components-1.png)
 
 
-## Common Controls
+## common controls
 - `VerticalStackLayout` and `HorizontalStackLayout`
   - Or, `StackLayout`, with a `StackOrientation` property that can be set to `Horizontal` or `Vertical`.
   - This is how screens can change orientation dynamically from portrait to landscape:  
@@ -86,7 +86,7 @@ An `AppShell` derives from the `Shell` class and contains three main hierarchica
 # C# & XAML
 - Entire pages, views, and layouts can be written in C#.
 - Here are two such examples, one written in XAML and one in C#:
-## XAML Code
+## xaml code
 ```xml
 <ContentPage xmlns="http://schemas.microsoft.com/_net/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"

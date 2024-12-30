@@ -1062,18 +1062,18 @@ In Table 8.1, recommendations for a successful IT asset management practice are 
 
 PeopleCert is grateful to everyone who has contributed to the development of this guidance. These practice guides incorporate an unprecedented level of enthusiasm and feedback from across the ITIL community. In particular, PeopleCert would like to thank the following people.
 
-### Authors
+### authors
 
 Stéphane Joret
 
-### Contributors
+### contributors
 
 Andrey Boganov, Sherry Irwin, Jan Øberg
 
-### Reviewers
+### reviewers
 
 Graham Heard, Roman Jouravlev
 
-### 2023 Revision
+### 2023 revision
 
 Antonina Douannes, Adam Griffith, Roman Jouravlev, Kaimar Karu, Olga Masalina, Avinash Singh

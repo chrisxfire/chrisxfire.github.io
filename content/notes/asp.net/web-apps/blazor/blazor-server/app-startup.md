@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/blazor/fundamentals/startup?view=aspnetcore-7.0
 
 `Program.cs`
@@ -17,7 +17,7 @@ app.MapBlazorHub(); // set up an endpoint for the real-time communication w/brow
 app.MapFallbackToPage("/_Host"); // set the root page (Pages/_Host.cshtml) and enable nav; when no matching endpoint is found, route requests here
 ```
 
-# Controlling Headers
+# controlling headers
 Use middleware to control the headers collection:
 ```cs
 Program.cs

@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 <img src=layout.png width=500 height=250>  
 
 The default layout file is `Pages/Shared/_Layout.cshtml` (Razor Pages) and `Views/Shared/_Layout.cshtml` (MVC).
 
-# Referencing a Layout
+# referencing a layout
 Razor views have a `Layout` property that can be used by individual views to reference a layout it wants to use:
 
 `SomeView.cshtml`
@@ -23,8 +23,8 @@ Razor views have a `Layout` property that can be used by individual views to ref
 
 Alternatively, use a `ViewStart` file placed at `/Views/_ViewStart.cshtml` with this same code which will then be used automatically by every View.
 
-# Defining a Layout
-## RenderBody
+# defining a layout
+## renderbody
 Every layout must call `RenderBody.`  This defines where the contents of the view will be rendered:  
 `_Layout.cshtml`
 ```html

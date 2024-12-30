@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 `DbContext` instances track changes made to their entities.  The tracked entities report the changes to the database when `SaveChanges` is called.  
 
 Entity instances become tracked when they are: (1) returned from a query; (2) explicitly attached to a `DbContext` via `Add`, `Attach`, or `Update`; (3) detected as new entities connected to existing tracked entities.  
@@ -14,7 +14,7 @@ Entity instances are no longer tracked when: (1) the `DbContext` is disposed; (2
 
 Change tracking occurs at the *property* level.  If only a single property value is modified, then the database update will change only that value.
 
-# Entity States
+# entity states
 Every entity is associated with an `EntityState`.  The states:
 - `Detached` — entity is not being tracked by DbContext
 - `Added` — entity are new and not yet in the database
@@ -24,7 +24,7 @@ Every entity is associated with an `EntityState`.  The states:
 
 Entity states rarely need to be manipulated manually.  Unless explicitly necessary, use the same `DbContext` instance for both querying entities and updating them via `SaveChanges`.
 
-# Sequencing
+# sequencing
 EF Core will process database CRUD operations in this order:
 1. INSERT
 2. UPDATE

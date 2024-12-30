@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 In C#, `Thread` and `Task` are both types used for asynchronous operations. `Task` is a higher level of abstraction than `Thread`.
 
 `System.Threading.Tasks` contains types for writing concurrent and asynchronous code.
@@ -23,7 +23,7 @@ In C#, `Thread` and `Task` are both types used for asynchronous operations. `Tas
   - It is a blocking property: accessing it before the task is finished results in blocking the currently active thread until it finishes.
   - Access the value by using `await` instead.
 
-## Task Lifecycle
+## task lifecycle
 A task's lifecycle is represented by the [TaskStatus] enumeration and contains these states:
 - (`0`) `Created` — initialized, but not yet scheduled.
 - (`1`) `WaitingForActivation` — waiting to be activated and scheduled internally.
@@ -36,7 +36,7 @@ A task's lifecycle is represented by the [TaskStatus] enumeration and contains t
   - The task's `CancellationToken` was signaled before the task started.
 - (`7`) `Faulted` — the task completed due to an unhandled exception.
 
-## Creating and Starting
+## creating and starting
 - Tasks that are created with public `Task` constructors are *cold* tasks — they are in the `Created` state. They must be `Start()`ed.
 - All tasks that are returned from TAP methods must be started. 
   - If, internally, a TAP method uses a task's constructor to instantiate the task to be returned, **the TAP method must still** call `Start` on the `Task` object returned.
@@ -58,8 +58,8 @@ or, equivalently using a `TaskFactory.StartNew`, but this method is no longer re
 - `Task t2 = Task.Factory.StartNew(MethodB);` — instantiated and started.
 - `Task t3 = Task.Run(MethodC);` — instantiated and started.
 
-## Waiting
-### Waiting Decision Table
+## waiting
+### waiting decision table
 | Goal                                     | <g>Use this</g>      | <r>Not this</r>              |
 | ---------------------------------------- | -------------------- | ---------------------------- |
 | Retrieve the result of a background task | `await`              | `Task.Wait` or `Task.Result` |
@@ -129,7 +129,7 @@ else
 }
 ```
 
-### Exceptions While Waiting
+### exceptions while waiting
 While waiting on one or more Tasks to complete, exceptions thrown are propagated to the thread that called the `Wait` method:
 ```cs
 try

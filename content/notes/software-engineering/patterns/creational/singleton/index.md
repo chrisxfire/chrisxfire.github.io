@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Singleton
+# singleton
 Type: Creational  
 Purpose: Ensure that a class has only one instance while providing a global access point to this instance.  
 Use to:
@@ -17,7 +17,7 @@ Popularity: 2/3
 
 <r>This pattern is not natively thread-safe.</r>
 
-# Overview
+# overview
 ![The structure of the Singleton pattern](./Creational_Singleton-image2.png)
 
 1.  The Singleton class declares the static method getInstance that returns the same instance of its own class.

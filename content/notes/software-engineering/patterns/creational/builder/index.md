@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Builder
+# builder
 Type: Creational  
 Purpose: Produce different types and representations of an object using the same construction code.  
 Use to:
@@ -16,7 +16,7 @@ Complexity: 2/3
 Popularity: 3/3  
 In .NET: `StringBuilder`, `ApplicationBuilder`, EF `CoreModelBuilder`  
 
-# Overview
+# overview
 ![Structure of the Builder design pattern](./Creational_Builder-image1.png)
 
 1.  The Builder interface declares product construction steps that are common to all types of builders.
@@ -25,7 +25,7 @@ In .NET: `StringBuilder`, `ApplicationBuilder`, EF `CoreModelBuilder`
 4.  The Director class defines the order in which to call construction steps, so you can create and reuse specific configurations of products.
 5.  The Client must associate one of the builder objects with the director. Usually, it’s done just once, via parameters of the director’s constructor. Then the director uses that builder object for all further construction. However, there’s an alternative approach for when the client passes the builder object to the production method of the director. In this case, you can use a different builder each time you produce something with the director.
 
-# Implementing
+# implementing
 Clearly define the common construction steps for building all available product representations. Declare a base *builder* interface with these steps.
 ```cs
 public interface IBuilder

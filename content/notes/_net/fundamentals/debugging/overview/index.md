@@ -5,28 +5,28 @@ draft: false
 weight: -1
 ---
 
-# Breakpoint
+# breakpoint
 Stop execution when this is reached to allow you to inspect the state.
 
 ## Add/remove a breakpoint
 Click to left of line number (red dot).
 
-# Conditional breakpoint
+# conditional breakpoint
 Stop execution only if condition is true.
 
 ## Add/remove a conditional breakpoint
 Right-click to the left of the line number.
 
-# Watch panel
+# watch panel
 Track a variable state across time or functions.
 - Click **+** button to add a variable to watch, or;
 - Right-click variable in Variables panel and select **Add to watch**.
 	
-# Call Stack panel
+# call stack panel
 ![call stack panel](./call-stack-panel.png)  
 Shows stack trace but only those from the code (not the runtime).
 
-## Control Execution
+## control execution
 - **Continue**/**pause**
 - **Step over** – execute the next code statement.
 - **Step into** – like Step over, but if next statement is a function call, move to the first code statement of this function.
@@ -37,12 +37,12 @@ Shows stack trace but only those from the code (not the runtime).
 Debug Console – <kbd>Ctrl+Shift+Y</kdb>
 - You can enter expressions into the console which will be evaluated against the current state.
 
-# Defensive programming
+# defensive programming
 - A way of programming where the application behaves in a consistent, predictable manner, regardless of input.
 - All edge cases are tested and functions have clear requirements.
 - Input is validated.
 
-# Methods
+# methods
 ```cs
 Assert(condition, "message");
 Write

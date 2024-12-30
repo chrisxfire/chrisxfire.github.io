@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - System.CommandLine is <o>pre-release</o>.
 - Documentation: https://learn.microsoft.com/en-us/dotnet/standard/commandline/
 
@@ -14,29 +14,29 @@ Installation:
 dotnet add package system.commandline --pre-release
 ```
 
-# Model Binding
+# model binding
 The process of parsing arguments and providing them to command handler code.  
 Of note, any type with a constructor that accepts a single string parameter can be bound (like `FileInfo`).
 
-# Root Command
+# root command
 A root command, represented by `RootCommand`, represents the app executable itself:
 ```cs
 RootCommand rootCommand = new("app description");
 ```
 
-## Adding Commands to RootCommand
+## adding commands to rootcommand
 ```cs
 rootCommand.Add(someCommand);
 ```
 
-# Commands
+# commands
 Commands are actions performed by the program. They should be verbs.  
 Commands are represented by the `Command` class:  
 ```cs
 Command actionCommand = new Command("actionCommand", "Perform an action.");
 ```
 
-## Subcommands
+## subcommands
 Subcommands also use the `Command` class and can be added to a Command or RootCommand.
 
 When commands have subcommands, the commands above them in the hierarchy do nothing:
@@ -65,7 +65,7 @@ RootCommand rootCommand = new RootCommand()
 };
 ```
 
-# Options
+# options
 Options are named parameters that can be passed to commands.
 
 They are represented by the `Option` class:
@@ -76,36 +76,36 @@ Option<int> delayOption = new Option<int>(
     getDefaultValue: () => 3);
 ```
 
-## Options That Accept Multiple Strings
+## options that accept multiple strings
 Use `AllowMultipleArgumentsPerToken`:
 ```cs
 Option<string[]> myOption = new Option<string[]>( … ) { AllowMultipleArgumentsPerToken = true };
 ```
 
-## Other Parameters
+## other parameters
 - `isDefault` - If true, if no input is provided for the option, the ParseArgument<T> delegate is called.
 
-## Properties
+## properties
 - `IsHidden` - This option will not be displayed in help or tab-completed.
 - `IsRequired` - Boolean if the option is required.
 - `AllowMultipleArgumentsPerToken` - Boolean if multiple arguments should be allowed for the option.
   - This is required when an option accepts multiple strings as an argument.
 
-##  Adding Options to Commands
+##  adding options to commands
 ```cs
 rootCommand.Add(delayOption)
 //or
 rootCommand.AddOption(delayOption)
 ```
 
-## Global Options
+## global options
 Global options are available to the command it's assigned and all its subcommands.
 
-## Style
+## style
 The default style is POSIX, using `--` prefixes.  
 Windows-based prefixes of `/` are also supported.
 
-## Delimiters
+## delimiters
 A space or `:` or `=` can delimit an option from an argument:
 ```powershell
 myapp --option 123
@@ -113,7 +113,7 @@ myapp --option:123
 myapp --option=123
 ```
 
-## Building Commands with Options
+## building commands with options
 Command actionCommand = new Command(
     "actionCommand",
     "Performs an action.") 
@@ -121,7 +121,7 @@ Command actionCommand = new Command(
         delayOption
     };
 
-# Aliases
+# aliases
 Both Commands and Options support aliases:
 ```cs
 var command = new Command("serialize");
@@ -131,7 +131,7 @@ var option = new Option("--verbose");
 option.AddAlias("-v");
 ```
 
-# Arguments
+# arguments
 Arguments are values passed to an option or a command.  
 Arguments without default values are treated as required arguments.  
 Built-in validation errors when arguments don't match default values, expected types, or arity.  
@@ -149,7 +149,7 @@ Arguments are added to Commands, just like Options:
 rootCommand.AddArgument(delayArgument);
 ```
 
-## Listing Valid Argument Values
+## listing valid argument values
 To specify of a list of valid values for an Argument or an Option, either:
 1.  Use an `Enum` as the `Option` type, or;
 2.  use `FromAmong`:
@@ -161,7 +161,7 @@ var languageOption = new Option<string>(
     .FromAmong("csharp", "fsharp", "vb", "pwsh", "sql");
 ```
 
-## Arity
+## arity
 Arity is expressed with a minimum and maximum value. The ArgumentArity struct has these values:  
 - `Zero` - No values allowed.
 - `ZeroOrOne` - May have one, may have zero.
@@ -173,7 +173,7 @@ Arity is inferred from the type:
 - An int option has arity of `ExactlyOne`
 - A `List<int>` option has arity of `OneOrMore`
 
-# Custom Validation of Options and Arguments
+# custom validation of options and arguments
 Use `.AddValidator`:
 ```cs
 Option<int> delayOption = new("delay");
@@ -186,7 +186,7 @@ delayOption.AddValidator(result =>
 };
 ```
 
-## Custom Validation and Parsing
+## custom validation and parsing
 Use the `ParseArgument<T>` delegate:
 ```cs
 var delayOption = new Option<int>(
@@ -212,7 +212,7 @@ var delayOption = new Option<int>(
     });
 ```
 
-# SetHandler
+# sethandler
 The `SetHandler` is what binds options to command handlers.  
 A root command has a `SetHandler` if there are no commands.  
 If there are commands, each `Command` has a `SetHandler`:  
@@ -227,7 +227,7 @@ actionCommand.SetHandler(async (int delayOptionValue)
 
 All options and arguments must be declared in the same order in the lambda and in the parameters that follow the lambda.
 
-# Starting Execution
+# starting execution
 After defining `SetHandler`:
 ```cs
 rootCommand.Invoke(args);

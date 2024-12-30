@@ -16,7 +16,7 @@ These notes also apply:
 * See also: [JustMockLite](https://github.com/telerik/JustMockLite)
 * See also: [MyTested.AspNetCore.Mvc](https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc)
 
-# Example
+# example
 Consider this controller with an `Index` action method:
 ```cs
 public class HomeController : Controller

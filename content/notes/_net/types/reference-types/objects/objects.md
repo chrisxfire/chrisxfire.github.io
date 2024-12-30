@@ -5,13 +5,13 @@ draft: false
 weight: 1
 ---
 
-# Objects
+# objects
 Because all objects implicitly inherit from `Object`, they have these methods:
 - `ToString()` — Converts the class object to a string representation.
 - `GetHashCode()` — Returns the unique hash code of the object.
 - `GetType()` — Returns the Type of the object which represents its class.
 
-# Creating
+# creating
 new() allocates memory, invokes a constructor, and returns a reference to the instance:
 
 ```cs

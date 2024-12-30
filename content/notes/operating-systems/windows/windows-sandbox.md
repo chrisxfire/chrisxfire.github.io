@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 A virtualized instance of Windows to run applications in isolation ("sandboxed" from the host machine).
 - Documentation: https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview
 
-# Installing
+# installing
 From Administrator PowerShell:
 ```powershell
 Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All -Online

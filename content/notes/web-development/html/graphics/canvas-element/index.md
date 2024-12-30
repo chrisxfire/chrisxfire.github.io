@@ -5,20 +5,20 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 The `<canvas>` element is a container for graphics drawn by JavaScript.
 Syntax: 
 ```html
 <canvas id="myCanvas" width="200" height="100"></canvas>
 ```
-# Empty Canvas
+# empty canvas
 ```html
 <canvas id="myCanvas"width="200"height="100"style="border:1px solid #000000;">
 </canvas>
 ```
 ![A screenshot of an empty canvas](./xHTML_Graphics---canvas--Element-image1.png)
 
-# Line
+# line
 ```html
 <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
 Your browser does not support the HTML canvas tag.</canvas>
@@ -33,7 +33,7 @@ Your browser does not support the HTML canvas tag.</canvas>
 ```
 ![A screenshot of a canvas with a single line from the upper left to the lower right](./xHTML_Graphics---canvas--Element-image2.png)
 
-# Circle
+# circle
 ```html
 <script>
     var c = document.getElementById("myCanvas");
@@ -45,7 +45,7 @@ Your browser does not support the HTML canvas tag.</canvas>
 ```
 ![A screenshot of a blank canvas with a dark circle in the middle of it](./xHTML_Graphics---canvas--Element-image3.png)
 
-# Text
+# text
 ```html
 <script>
     var c = document.getElementById("myCanvas");
@@ -57,7 +57,7 @@ Your browser does not support the HTML canvas tag.</canvas>
 ```
 ![A screenshot of a canvas with text that reads 'Hello world'](./xHTML_Graphics---canvas--Element-image4.png)
 
-# Gradient
+# gradient
 ```html
 <script>
     var c = document.getElementById("myCanvas");

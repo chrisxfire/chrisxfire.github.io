@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 A model can be scaffolded so that the scaffolding tool creates the CRUD operations for that model:
 - Under `Pages/` add a folder for the model being scaffolded
 - Right-click that folder > **Add** > **New scaffolded item** > **Razor Pages using Entity Framework (CRUD)** > Select a *Model* class > select **+** button in Data context class

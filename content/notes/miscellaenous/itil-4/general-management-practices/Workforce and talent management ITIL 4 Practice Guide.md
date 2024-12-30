@@ -569,7 +569,7 @@ Ariana Bucio Ramirez, Ana Yasmeen Chong Rosales.
 
 David Cannon, David Crouch, Erika Flora, Irina Matantseva, Irina Mikhailava, Oksana Tomilets, Mark Smalley.
 
-### References
+### references
 
 1.  Shep Hyken. How Happy Employees Make Happy Customers. *Forbes.* May 27, 2017. [https://www.forbes.com/sites/shephyken/2017/05/27/how-happy-employees-make-happy-customers](https://www.forbes.com/sites/shephyken/2017/05/27/how-happy-employees-make-happy-customers) \[accessed 16th March 2020\].
     

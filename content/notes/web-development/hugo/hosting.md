@@ -11,37 +11,37 @@ weight: 1
 3.  From GitHub repo > **Settings** > **Pages** > **Build and deployment** > Source = GitHub Actions
 4.  Create `.github/workflows/hugo.yaml` file in local repo:
 
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
+# sample workflow for building and deploying a hugo site to github pages
 ```yaml
 name: Deploy Hugo site to Pages
 
 on:
-# Runs on pushes targeting the default branch
+# runs on pushes targeting the default branch
 push:
 branches:
 - main
 
-# Allows you to run this workflow manually from the Actions tab
+# allows you to run this workflow manually from the actions tab
 workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# sets permissions of the github_token to allow deployment to github pages
 permissions:
 contents: read
 pages: write
 id-token: write
 
-# Allow one concurrent deployment
+# allow one concurrent deployment
 concurrency:
 group: "pages"
 cancel-in-progress: true
 
-# Default to bash
+# default to bash
 defaults:
 run:
 shell: bash
 
 jobs:
-# Build job
+# build job
 build:
 runs-on: ubuntu-latest
 env:
@@ -65,7 +65,7 @@ uses: actions/configure-pages@v3
 run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 - name: Build with Hugo
 env:
-# For maximum backward compatibility with Hugo modules
+# for maximum backward compatibility with hugo modules
 HUGO_ENVIRONMENT: production
 HUGO_ENV: production
 run: |
@@ -78,7 +78,7 @@ uses: actions/upload-pages-artifact@v1
 with:
 path: ./public
 
-# Deployment job
+# deployment job
 deploy:
 environment:
 name: github-pages

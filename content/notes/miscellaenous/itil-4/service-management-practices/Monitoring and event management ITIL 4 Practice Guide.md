@@ -626,11 +626,11 @@ Table 8.1 outlines recommendations for the success of the monitoring and event m
 
 PeopleCert is grateful to everyone who has contributed to the development of this guidance. These practice guides incorporate an unprecedented level of enthusiasm and feedback from across the ITIL community. In particular, PeopleCert would like to thank the following people.
 
-##### Authors
+##### authors
 
 Dennis Cotter
 
-##### Reviewers
+##### reviewers
 
 Roman Jouravlev
 

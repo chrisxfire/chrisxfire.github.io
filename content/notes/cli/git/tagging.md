@@ -7,7 +7,7 @@ tags:
  - kb/cli/git
 ---
 
-# Tagging
+# tagging
 Tags apply to commits.
 
 `git tag --list` – return existing tags

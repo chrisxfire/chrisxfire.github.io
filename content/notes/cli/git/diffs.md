@@ -7,7 +7,7 @@ tags:
  - kb/cli/git
 ---
 
-# Viewing Staged and Unstaged Changes
+# viewing staged and unstaged changes
 `git diff` – compare working directory to staging
 `git diff --staged` – compare staging to last commit
 `git difftool[--tool-help]` – use a GUI tool to compare changes

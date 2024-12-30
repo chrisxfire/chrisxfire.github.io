@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Cancellation is achieved by:
 1.  Supplying a `CancellationToken` to the `Parallel.For` or `Parallel.ForEach` method's `ParallelOptions` parameter
 2.  Enclosing the parallel call in a `try-catch` block

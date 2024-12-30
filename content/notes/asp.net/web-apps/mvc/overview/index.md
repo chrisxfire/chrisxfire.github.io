@@ -7,18 +7,18 @@ weight: -1
 
 From Pluralsight/ASP.NET Core 6 Fundamentals
 
-# Overview
+# overview
 Project type = ASP.NET Core Web App (`dotnet new mvc`)  
 ![](./mvc-diagram.png)
 
-# MVC Pattern
+# mvc pattern
 Requests are routed to a *controller*.  Controllers have *actions*—public methods associated with a URL.  
 The controller works with the *model* to perform actions and/or retrieve data.  
 The controller chooses the *view* to display to the user and provides that view with any model data it requires.
 
 Both the view and the controller depend on the model.  The model depends on neither.
 
-## Controller Responsibilities
+## controller responsibilities
 The glue between the model and the view.  Includes the logic that works on the model.  
 Components that handle user interaction, work with the model, and select a view to render.  
 
@@ -48,14 +48,14 @@ public class PieController : Controller
 - Testability.
 - Supports the Razor view engine.
 
-# Routing
+# routing
 ## Convention-based Routing
 Define URL formats that the app accepts and map those formats to an action method on a given controller:
 ```cs
 routes.MapRoute(name: "Default", template: "{controller=Home}/{action=Index}/{id?}");
 ```
 
-## Attribute Routing
+## attribute routing
 Specify routing information by decorating controllers and actions with attributes that define routes:
 ```cs
 [Route("api/[controller]")]
@@ -69,7 +69,7 @@ public class ProductsController : Controller
 }
 ```
 
-# Dependency Injection in Razor View Files
+# dependency injection in razor view files
 Use the `@inject` directive:
 ```html
 @inject SomeService ServiceName
@@ -85,5 +85,5 @@ Use the `@inject` directive:
 </html>
 ```
 
-# Filters
+# filters
 Filters enable running custom pre- and post-processing logic for action methods.  They can be configured to run at certain points in the execution pipeline for a given request.

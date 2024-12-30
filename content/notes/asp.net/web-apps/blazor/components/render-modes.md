@@ -13,7 +13,7 @@ Starting in .NET 8, every component in Blazor web apps adopts a *render mode*. (
 - Render location (server, client)
 - Interactivity (static on server, interactive on server, interactive on client)
 
-# Render modes
+# render modes
 
 | Render Mode                                  | Description                                                         | Render location     | Interactive |
 | -------------------------------------------- | ------------------------------------------------------------------- | ------------------- | ----------- |
@@ -22,7 +22,7 @@ Starting in .NET 8, every component in Blazor web apps adopts a *render mode*. (
 | [Interactive - WASM](#client-side-rendering) | CSR (via Blazor Wasm)                                               | Client              | Yes         |
 | [Interactive - Auto](#automatic-rendering)   | CSR initially w/Blazor Server then CSR after Blazor bundle download | Server, then client | Yes         |
 
-# Enabling interactive render modes
+# enabling interactive render modes
 Blazor Web Apps must be configured for interactive render modes. This is done via component builder extensions:
 - `AddInteractiveServerComponents` adds services to support rendering Interactive Server components.
 - `AddInteractiveWebAssemblyComponents` adds services to support rendering Interactive WebAssembly components.
@@ -31,7 +31,7 @@ Blazor Web Apps must be configured for interactive render modes. This is done vi
 
 **These extensions are automatically applied** on the Blazor Web App project template.
 
-## Examples
+## examples
 1. Enable and configure interactive SSR:
     ```cs
     builder.Services.AddRazorComponents()
@@ -61,8 +61,8 @@ Blazor Web Apps must be configured for interactive render modes. This is done vi
        .AddInteractiveWebAssemblyRenderMode();
     ```
 
-# Applying render modes
-## On Component instances
+# applying render modes
+## on component instances
 Use the `@rendermode` Razor directive attribute: 
 ```cshtml
 <Dialog @rendermode="InteractiveServer" />
@@ -72,7 +72,7 @@ Use the `@rendermode` Razor directive attribute:
  -->
 ```
 
-## In Component definitions
+## in component definitions
 Render modes are commonly applied to component definitions when applying render modes to specific pages.
 
 > [!NOTE] Routable pages use the same render mode as the Router component that rendered the page.
@@ -83,13 +83,13 @@ Use the `@rendermode` Razor directive:
 @rendermode InteractiveServer
 ```
 
-## On the entire app
+## on the entire app
 The render mode cannot be set on the root component (usually `App`). Instead, specify the render mode at the highest-level interactive component that is not a root component. This is usually where the `Routes` component is used in `Components/App.razor`:
 ```cshtml
 <Routes @rendermode="InteractiveServer" />
 ```
 
-## Programmatically
+## programmatically
 See https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-9.0&preserve-view=true#apply-a-render-mode-programatically
 
 # Pre-rendering
@@ -101,8 +101,8 @@ See https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes
 
 Pre-rendering is enabled by default for interactive components.
 
-## Disabling
-### On Component instances
+## disabling
+### on component instances
 Pass the `prerender` flag with a value of `false` to the render mode:
 
 ```cshtml
@@ -113,7 +113,7 @@ Pass the `prerender` flag with a value of `false` to the render mode:
 <... @rendermode="new InteractiveAutoRenderMode(prerender: false)" />
 ```
 
-### In Component definitions
+### in component definitions
 ```cshtml
 @rendermode @(new InteractiveServerRenderMode(prerender: false))
 
@@ -122,7 +122,7 @@ Pass the `prerender` flag with a value of `false` to the render mode:
 @rendermode @(new InteractiveAutoRenderMode(prerender: false))
 ```
 
-### On the entire app
+### on the entire app
 specify the render mode at the highest-level interactive component that is not a root component. This is usually where the `Routes` component is used in `Components/App.razor`:
 
 ```cshtml
@@ -147,7 +147,7 @@ Use the `ComponentBase.RendererInfo` and `ComponentBase.AssignedRenderMode` prop
   - `InteractiveAuto` for Interactive Auto.
   - `InteractiveWebAssembly` for Interactive WebAssembly.
 
-## Common use examples
+## common use examples
 1. Display content until a component is interactive:
     ```cshtml
     @if (!RendererInfo.IsInteractive)
@@ -194,7 +194,7 @@ Use the `ComponentBase.RendererInfo` and `ComponentBase.AssignedRenderMode` prop
     }
     ```
 
-# Static SSR
+# static ssr
 In static SSR, the component renders to the response stream. There is no interactivity.
 
 Consider this component:
@@ -221,11 +221,11 @@ Since it's statically rendered:
 - The value of `message` doesn't change
 - The component isn't re-rendered in response to UI events.
 
-## No Blazor features for routing and authorization
+## no blazor features for routing and authorization
 In static SSR, Razor component page requests are processed by the server-side ASP.NET Core middleware pipeline.
 Blazor features for routing/authorization are not available, including `NotAuthorized` and `NotFound` features in the `Routes` component.
 
-# Interactive SSR
+# interactive ssr
 In interactive SSR, the component renders interactively from the server using Blazor Server.
 
 Consider this component:
@@ -274,7 +274,7 @@ Consider this component (identical to the previous example):
 
 This component behaves identically as in the previous example. 
 
-# Automatic rendering
+# automatic rendering
 Auto rendering determines how to render the component at runtime. The component is initially rendered via interactive SSR. The 
 .NET runtime and app bundle are downloaded to the client in the background and cached. 
 
@@ -301,7 +301,7 @@ Consider this component (identical to the previous example):
 
 This component behaves identically as in the previous example.
 
-# Render mode propagation
+# render mode propagation
 Render modes always propagate down the component hierarchy. 
 - The default is Static
 - `InteractiveServer`, `InteractiveWebAssembly`, and `InteractiveAuto` modes can be propagated from a parent component

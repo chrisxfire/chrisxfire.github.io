@@ -54,7 +54,7 @@ Inject `IHostEnvironment` into a class to get information about `ApplicationName
 
 Web apps implement `IWebHostEnvironment` which inherits `IHostEnvironment` and adds the `WebRootPath.`
 
-# Host Configuration
+# host configuration
 Host configuration is for the properties of `IHostEnvironment.`
 Available from `HostBuilderContext.Configuration` inside `ConfigureAppConfiguration` method.
 - After `ConfigureAppConfiguration` method, `HostBuilderContext.Configuration` is set to the app configuration.
@@ -70,10 +70,10 @@ Host.CreateDefaultBuilder(args)
         hostConfig.AddCommandLine(args);
     });
 ```
-# App Configuration
+# app configuration
 Call `ConfigureAppConfiguration` on `IHostBuilder.` Available at `HostBuilderContext.Configuration` and as a service from DI.
 
-# Host Settings for All App Types
+# host settings for all app types
 All of these settings can be set in env vars with `DOTNET_` or `ASPNETCORE_` prefixes:
 | Key                                       | Default                | Env                                       | Alternate way to set                                                            |
 | ----------------------------------------- | ---------------------- | ----------------------------------------- | ------------------------------------------------------------------------------- |
@@ -83,7 +83,7 @@ All of these settings can be set in env vars with `DOTNET_` or `ASPNETCORE_` pre
 | `shutdownTimeoutSeconds` (int)            | 5 seconds              | `PREFIX_SHUTDOWNTIMEOUTSECONDS`           | configure `HostOptions` <br> Sets timeout for `StopAsync`                       |
 | `hostBuilder:reloadConfigOnChange` (bool) | true                   | `PREFIX_hostBuilder:reloadConfigOnChange` | EnvVar                                                                          |
 
-# Host Settings for HTTP Workloads Only
+# host settings for http workloads only
 Set via env vars with `DOTNET_` or `ASPNETCORE_` prefixes or extension methods on `IWebHostBuilder`:  
 
 ```cs
@@ -108,7 +108,7 @@ Host.CreateDefaultBuilder(args)
 | `webroot` (string)<br>The relative path to the app's static assets                                                                     | `wwwroot`                                       | `PREFIX_WEBROOT`                               | `webBuilder.UseWebRoot("public");`                                                                 |
 
 
-# Manage the Host Lifetime
+# manage the host lifetime
 Call these methods on `IHost`:
 - `Run` — run the app and block the calling thread until host is shut down.
 - `RunAsync` — run the app and return a Task that completes when cancellation token or shutdown is triggered.

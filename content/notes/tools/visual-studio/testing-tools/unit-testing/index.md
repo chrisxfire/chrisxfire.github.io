@@ -14,15 +14,15 @@ Key points:
   * Note: MSTest is both a *framework* and an *adapter* to that framework.
 * Visual Studio Test Explorer also supports 3rd-party adapters to the MSTest framework: xUnit, NUnit, others(?).
 
-# Generating Unit Tests and Generating Code
-## Generating Unit Tests from Existing Code
+# generating unit tests and generating code
+## generating unit tests from existing code
 > [!IMPORTANT]
 > Availability: C#, Visual Studio 2019+
 
 Visual Studio > Code editor > right-click > **Create Unit Tests**  
 The unit test stubs are created in a new unit test projects for all methods of the class.
 
-## Generate Unit Tests that Take Multiple Sets of Input
+## generate unit tests that take multiple sets of input
 See [here](https://learn.microsoft.com/en-us/visualstudio/test/how-to-create-a-data-driven-unit-test?view=vs-2022).
 
 ## Generating Code from Unit Tests (TDD)

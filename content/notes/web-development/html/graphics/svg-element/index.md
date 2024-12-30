@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 SVG defines vector-based graphics in XML format.
 
-# Circle
+# circle
 ```html
 <!DOCTYPE html>
 <html>
@@ -23,7 +23,7 @@ SVG defines vector-based graphics in XML format.
 ```
 ![A screenshot of a canvas with a green circle with yellow fill](./xHTML_Graphics---svg--Element-image1.png)
 
-# Rectangle
+# rectangle
 ```html
 <svg width="400" height="100">
     <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
@@ -31,7 +31,7 @@ SVG defines vector-based graphics in XML format.
 ```
 ![A screenshot of a canvas with a blue rectangle](./xHTML_Graphics---svg--Element-image2.png)
 
-# Rounded Rectangle
+# rounded rectangle
 ```html
 <svg width="400" height="180">
     <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
@@ -40,7 +40,7 @@ SVG defines vector-based graphics in XML format.
 ```
 ![A screenshot of a canvas with a red square with 50% opacity](./xHTML_Graphics---svg--Element-image3.png)
 
-# Star
+# star
 ```html
 <svg width="300" height="200">
     <polygon points="100,10 40,198 190,78 10,78 160,198"
@@ -49,7 +49,7 @@ SVG defines vector-based graphics in XML format.
 ```
 ![A screenshot of a canvas with a purple star whose points are filled green](./xHTML_Graphics---svg--Element-image4.png)
 
-# Logo
+# logo
 ```html
 <svg height="130" width="500">
     <defs>

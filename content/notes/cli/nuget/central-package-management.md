@@ -5,13 +5,13 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 > [!IMPORTANT]
 > Availability: NuGet v6.2  
 
 Use to manage common dependencies across many different projects.
 
-# Enabling
+# enabling
 1. Create a `Directory.Package.props` file at the root of the repository.
 2. Enable central package management:
     `Directory.Package.props`  
@@ -37,11 +37,11 @@ Use to manage common dependencies across many different projects.
     </ItemGroup>
     ```
 
-# Overriding Package Versions
+# overriding package versions
 - `PackageReference` elements can override the version specified in `PackageVersion` elements with the `VersionOverride` property.
 - This feature can be disabled in `Directory.Packages.props` by setting `CentralPackageVersionOverrideEnabled` to `false`.
 
-# Global Package References
+# global package references
 Used to specify that a package will be used by every project in the repository:  
 `Directory.Packages.props`
 ```xml
@@ -52,6 +52,6 @@ Used to specify that a package will be used by every project in the repository:
 </Project>
 ```
 
-# Considerations
+# considerations
 - Only one `Directory.Package.props` file is evaluated for a given project.
   - The file closest to the project's directory is evaluated. 

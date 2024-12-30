@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Spans
+# spans
 Spans are a window into the original array. Spans only work with arrays.
 Spans uses `Index` and `Range` types.
 ```cs

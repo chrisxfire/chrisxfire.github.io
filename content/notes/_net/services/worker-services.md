@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Terminology
+# terminology
 - *Background Service* – the `BackgroundService` type.
 - *Hosted Service* – an implementation of `IHostedService`, or `IHostedService` itself.
 - *Worker Service* – the [Worker Service template](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new-sdk-templates#web-others) from dotnet new.
@@ -15,7 +15,7 @@ weight: 1
 - Used for long-running, background processes.
 - Cross-platform. Can be used in place of a Windows Service.
 
-# Worker Service
+# worker service
 `dotnet new worker` produces:  
 `Program.cs`:
 ```cs
@@ -51,7 +51,7 @@ public class Worker : BackgroundService
     }
 }
 ```
-## No Server Garbage Collection
+## no server garbage collection
 [Server GC](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/workstation-server-gc#server-gc) is not enabled by default. To do so, add this to project file:
 ```xml
 <PropertyGroup>
@@ -60,8 +60,8 @@ public class Worker : BackgroundService
 ```
 [More info](https://docs.microsoft.com/en-us/dotnet/core/runtime-config/garbage-collector#workstation-vs-server).
 
-# Worker Service with Containers
+# worker service with containers
 Visual Studio provides the option to opt into **Docker support** when creating a Worker service from the template.  Doing so creates a Dockerfile and updates the project file accordingly.
 
-# IHostedService
+# ihostedservice
 <o>Important</o>: Worker services either derive from `IHostedService` or `BackgroundService` (which derives from `IHostedService`).  When overriding `IHostedService`'s `StartAsync` or `StopAsync` methods, call and await the base class method to ensure proper startup/shutdown.

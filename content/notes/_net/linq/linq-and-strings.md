@@ -13,7 +13,7 @@ System.IO.DirectoryInfo dir = new(startFolder);
 IEnumerable<System.IO.FileInfo> fileList = dir.GetFiles("*.*", System.IO.SearchOption.AllDirectories);
 ```
 
-# Query for Files by Attribute or Name
+# query for files by attribute or name
 ```cs
 var fileQuery = from file in fileList
     where file.Extension == ".txt"
@@ -21,7 +21,7 @@ var fileQuery = from file in fileList
     select file;
 ```
 
-## Find the Newest File
+## find the newest file
 ```cs
 var newestFile = (from file in fileQuery
                     orderby file.CreationTime
@@ -29,7 +29,7 @@ var newestFile = (from file in fileQuery
                  .Last();
 ```
 
-# Group Files by Extension
+# group files by extension
 ```cs
 int trimLength = startFolder.Length;
 
@@ -57,7 +57,7 @@ var tenLongestFiles = (
     select file).Take(10);
 ```
 
-# Query for Duplicate Files in a Directory Tree
+# query for duplicate files in a directory tree
 ```cs
 int charsToSkip = startFolder.Length;
 

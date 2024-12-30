@@ -17,7 +17,7 @@ Implements
 
 Items in a dictionary are instances of a struct.
 
-# Other Dictionaries
+# other dictionaries
 `SortedDictionary<TKey, TValue>` A collection of key/value pairs that are sorted by key.
 
 # Construction`
@@ -30,31 +30,31 @@ Dictionary<TKey, TValue> d = new()
     …
 };
 ```
-# Accessing
+# accessing
 `d[key]`
 
-# Iterating
+# iterating
 ```cs
 foreach (KeyValuePair<TKey, TValue> item in d) 
 {
     Console.WriteLine($"{item.Key}: {item.Value}");
 }
 ```
-# Methods
-## Manipulating
+# methods
+## manipulating
 ```cs
 .Add(key, value);
 .Add(key: k, value: v);
 ```
 
-## Searching
+## searching
 ```cs
 .ContainsKey(key) // Return boolean if key is in dictionary.
 .ContainsValue(value) // Return boolean if value is in dictionary.
 .TryGetValue(key, out var1) // Retrieve value at key and store it in var1.
 ```
 
-# Properties
+# properties
 `.CountReturn` number of k:v pairs.
 `.KeysReturn` the keys.
 `.ValuesReturn` the values.

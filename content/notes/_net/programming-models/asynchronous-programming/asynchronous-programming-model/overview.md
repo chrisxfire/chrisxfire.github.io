@@ -5,7 +5,7 @@ draft: false
 weight: -1
 ---
 
-# Pattern
+# pattern
 Uses two methods: `BeginOperationName` and `EndOperationName`
 
 `BeginOperationName`
@@ -27,7 +27,7 @@ Uses two methods: `BeginOperationName` and `EndOperationName`
   - Passing other `IAsyncResult` objects is undefined.
   - Calling `EndOperationName` multiple times with the same `IAsyncResult` object is undefined.
 
-# Sequencing
+# sequencing
 1.  Call BeginOperationName
 2.  If there is additional work to perform (blocking is not needed), either:
     1.  Poll for operation completion status by checking `IsCompleted` periodically, then call `EndOperationName` when op is complete
@@ -37,7 +37,7 @@ Uses two methods: `BeginOperationName` and `EndOperationName`
     2.  Use the `AsyncWaitHandle` to block until one or more ops completes.
 
 # Performing additional work (no blocking needed)
-## Polling for operation completion
+## polling for operation completion
 ```cs
 IAsyncResult result = BeginOperationName(…, null, null);
 

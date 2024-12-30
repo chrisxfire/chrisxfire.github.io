@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 [GitHub-Flavored Markdown](https://github.github.com/gfm/) is an extended markdown syntax by GitHub.
 
-# Callouts
+# callouts
 ```markdown
 > [!NOTE] Highlights information that users should take into account, even when skimming.
 
@@ -35,7 +35,7 @@ weight: 1
 
 > [!CAUTION] Negative potential consequences of an action.
 
-# Collapsible Sections
+# collapsible sections
 ```markdown
 <details><summary>CLICK ME</summary>
 <p>
@@ -62,7 +62,7 @@ weight: 1
 </p>
 </details>  
 
-# Code Blocks
+# code blocks
 See also: [linguist/languages.yml at master · github/linguist](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
 ````markdown  
@@ -73,7 +73,7 @@ function test() {
 ```  
 ````  
 
-## Syntax Highlighting
+## syntax highlighting
 ````markdown
 ```ruby
 require 'redcarpet'
@@ -82,15 +82,15 @@ puts markdown.to_html
 ```
 ````
 
-# Color Models
+# color models
 ![A diagram showing the color models HEX, RGB, and HSL](./color-models.png)
 
-# Comments
+# comments
 ```markdown
 <!-- This content will not appear in the rendered Markdown -->
 ```
 
-# Diagrams
+# diagrams
 ## [Mermaid](https://mermaid-js.github.io/mermaid/#/)
 ````markdown
 Here is a simple flow chart:
@@ -113,7 +113,7 @@ This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
 ![A mathematical expression of the code above](./math.png)
 
-### Math Expressions as Blocks
+### math expressions as blocks
 Use a math code block:
 ````markdown
 **Here is some math!**
@@ -130,7 +130,7 @@ Use a math code block:
 ```
 ![emoji](emoji.png)
 
-# Escaping
+# escaping
 Use `\`:  
 ```markdown
 Let's rename \*our-new-project\* to \*our-old-project\*.
@@ -138,7 +138,7 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 To escape a nested code block, the outer code block needs a different number of backticks than the inner. 
 
-# Footnotes
+# footnotes
 ```markdown
 Here is a simple footnote[^1].
 A footnote can also have multiple lines[^2].  
@@ -153,30 +153,30 @@ You can also use words, to fit your writing style more closely[^note].
 
 ![footnotes](footnote.png)
 
-# Headings
+# headings
 ```markdown
-# The largest heading
-## The second largest heading
-###### The smallest heading
+# the largest heading
+## the second largest heading
+###### the smallest heading
 ```
 
-# Horizontal Line
+# horizontal line
 `___` (3 or more underscores)
 
-# Images
+# images
 ```markdown
 ![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 ```
 ![An example image of the GitHub Octocat](./images.png)
 
-# Keyboard Shortcuts
+# keyboard shortcuts
 ```markdown
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd>
 ```
 
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd>
 
-# Links
+# links
 ```markdown
 This site was built using [GitHub Pages](https://pages.github.com/).
 ```
@@ -189,7 +189,7 @@ This site was built using [GitHub Pages][github-pages].
 [github-pages]: https://pages.github.com/
 ```
 
-## Relative Links
+## relative links
 ```markdown
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
 ```
@@ -207,8 +207,8 @@ This site was built using [GitHub Pages][github-pages].
 | User@SHA                                                       | jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e                                       | jlord@a5c3785             |
 | Username/Repository@SHA                                        | jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e                           | jlord/sheetsee.js@a5c3785 |
 
-# Lists
-## Unordered
+# lists
+## unordered
 ```markdown
 - George Washington  
 * John Adams  
@@ -219,7 +219,7 @@ This site was built using [GitHub Pages][github-pages].
 * John Adams  
 + Thomas Jefferson  
 
-## Ordered
+## ordered
 ```markdown
 1. James Madison
 2. James Monroe
@@ -230,7 +230,7 @@ This site was built using [GitHub Pages][github-pages].
 2. James Monroe
 3. John Quincy Adams
 
-## Nested
+## nested
 The list marker character must lie directly below the first character of the text in the item above it:
 ```markdown
 1. First list item
@@ -242,24 +242,24 @@ The list marker character must lie directly below the first character of the tex
    - First nested list item
      - Second nested list item
 
-# Mentions
+# mentions
 ```markdown
 @github/support What do you think about these updates?
 ```
 ![mentions](mention-rendered.png)
 
-# Quoting Text
+# quoting text
 ```markdown
 > Quoted text
 ```
 
 > Quoted text
 
-# Table of Contents
+# table of contents
 GitHub generates a ToC when 2+ headings are added:  
 ![table of contents](table-of-contents.png)
 
-# Tables
+# tables
 Tables require a blank line before they start:
 ```markdown
 | Command    | Description                                    |
@@ -273,7 +273,7 @@ Tables require a blank line before they start:
 | git status | List all new or modified files                 |
 | git diff   | Show file differences that haven't been staged |
 
-# Task Lists
+# task lists
 ```markdown
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
@@ -282,7 +282,7 @@ Tables require a blank line before they start:
 
 ![task lists](task-lists.png)
 
-# Text Styling
+# text styling
 | Style                  | Syntax         | Output                           |
 | ---------------------- | -------------- | -------------------------------- |
 | Bold                   | ** ** or __ __ | This is bold text                |

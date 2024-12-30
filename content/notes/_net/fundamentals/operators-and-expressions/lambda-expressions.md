@@ -15,7 +15,7 @@ The lambda operator `=>` ("returns") separates a lambda's parameter list from it
 (x) => x * x; // A lambda (anonymous method) with a parameter named x that returns x * x.
 ```
 
-# Lambdas in Methods
+# lambdas in methods
 ```cs
 int MyFunc(int x)
 {
@@ -27,7 +27,7 @@ int MyFunc(int x)
 int MyFunc(int x) => x;
 ```
 
-# Lambdas in Anonymous Methods
+# lambdas in anonymous methods
 ```cs
 Func<int, int> = delegate (int x) { return x; };
 ```
@@ -62,7 +62,7 @@ public override string ToString()
 }
 ```
 
-# 2 Forms of Lambda Expressions
+# 2 forms of lambda expressions
 Expression Lambdas take this form:
 ```cs
 (input-parameters) => expression with return-value
@@ -84,7 +84,7 @@ Action<string> greet = name =>
 greet("World"); // Output: "Hello World!"
 ```
 
-# Lambdas as Delegates
+# lambdas as delegates
 Any lambda expression can be converted to a delegate type.
 If the lambda doesn't return a value, it can convert to one of the Action delegate types.
 - A lambda with 2 parameters, no return value, can convert to `Action<T1, T2>`.
@@ -96,7 +96,7 @@ Func<int, int> square = (x) => x * x; // Since this only has one input parameter
 
 Lambdas can be used when code requires instances of delegate types like in `Task.Run(Action)`.
 
-# Input Parameters of Lambda Expressions
+# input parameters of lambda expressions
 Input parameters are enclosed in parentheses:
 ```cs
 Action line = () => Console.WriteLine();
@@ -133,7 +133,7 @@ Console.WriteLine(IncrementBy(5)); // 6
 Console.WriteLine(IncrementBy(5, 2)); // 7
 ```
 
-# Tuples
+# tuples
 Lambdas can contain tuples as a comma-delimited list of components in parentheses:
 ```cs
 Func<(int, int, int), (int, int, int)> doubleThem = ns => (2 * ns.Item1, 2 * ns.Item2, 2 * ns.Item3);

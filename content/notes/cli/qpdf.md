@@ -9,12 +9,12 @@ weight: 1
 
 qpdf is a command line tool that performs content-preserving transformations on PDF files.
 
-# Installation
+# installation
 ```powershell
 winget install qpdf
 ```
 
-# Usage
+# usage
 Merge several PDF documents into one:
 ```powershell
 qpdf --empty --pages firstFile.pdf secondFile.pdf -- output.pdf

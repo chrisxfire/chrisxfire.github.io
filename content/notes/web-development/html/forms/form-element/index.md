@@ -5,10 +5,10 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Creates a form — a container for different types of input elements.
 
-## action Attribute
+## action attribute
 ```html
 <input type="submit">Displays a submit button (for submitting the form)
 <!-- where to send the form when submitted -->

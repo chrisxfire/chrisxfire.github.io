@@ -5,19 +5,19 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 An HTTP-based services for hosting web apps, REST APIs, and mobile back-ends.
 
 Features:
 - Automatic scaling (horizontally and vertically)
 - CI/CD (Azure DevOps, GitHub, Bitbucket, FTP, local Git repo)
 
-# App Service Plans
+# app service plans
 A set of compute resources for a web app to run.
 - One or more apps can be configured on an app service plan
 - Azure Functions can also run in an app service plan
 
-# Deployments
+# deployments
 Deploy to Azure App Service:
 - Automated deployments—Azure DevOps, GitHub, Bitbucket
 - Manual deployments—Git, CLI (az), Zip (curl), FTP/S
@@ -31,7 +31,7 @@ Identity providers:
 - Twitter at `/.auth/login/twitter`
 - Any OpenID Connect provider at `/.auth/login/*provider-name*`
 
-## How it Works
+## how it works
 The authentication and authorization module runs in the same sandbox as an app. All incoming HTTP requests pass through this module. The module :
 - Authenticates users
 - Manages tokens
@@ -40,7 +40,7 @@ The authentication and authorization module runs in the same sandbox as an app. 
 
 The module is configured with app settings.
 
-## Authentication Flows
+## authentication flows
 | Step                | Without provider SDK                                                          | With provider SDK                                     |
 |---------------------|-------------------------------------------------------------------------------|-------------------------------------------------------|
 | Sign user in        | Redirect client to `/.auth/login/*provider*`          | Client code signs user in and receives auth token     |
@@ -48,12 +48,12 @@ The module is configured with app settings.
 | Establish session   | App Service adds authenticated cookie to response                             | App Service returns its own auth token to client code |
 | Save content        | Client includes auth cookie in subsequent requests                            | Client code presents auth token in specific header    |
 
-## Authorization Behavior
+## authorization behavior
 App Service can be configured to:
 - Allow unauthenticated requests—defers authorization of unauthenticated traffic to application code. For authenticated requests, passes along auth information in HTTP headers.
 - Require authentication—reject any authenticated traffic to application. Rejection can be a redirect action, an HTTP/401 Unauthorized response, or HTTP/403 Forbidden response.
 
-# Networking
+# networking
 ## Multi-tenant
 Applies to Free, Shared, Basic, Standard, Premium/V2/V3 app service plans.
 In multi-tenant, many different customers exist on the same network.

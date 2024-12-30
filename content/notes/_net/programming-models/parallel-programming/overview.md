@@ -5,15 +5,15 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 *Data parallelism* — scenarios in which the same operation is performed concurrently on elements in a collection.
 
-# Task Parallel Library
+# task parallel library
 Enables data parallelism through `System.Threading.Tasks.Parallel`.
 Provides method-based parallel implementations of `for` and `foreach` loops.
 Does not require engineer to create threads or queue work items.
 
-## How it Works
+## how it works
 When a parallel loop runs, TPL partitions the collection so that the loop can operate on multiple parts concurrently. TPL partitions the collection based on system resources and workload. The scheduler redistributes work among multiple threads and processors as needed.
 
 # Design & Performance
@@ -21,7 +21,7 @@ When a parallel loop runs, TPL partitions the collection so that the loop can op
   - Often, this means parallelizing an outer or inner loop but not the other.
 - In parallel loops, synchronous calls (like `Console.WriteLine`) will significantly degrade performance.
 
-# Data Structures
+# data structures
 ## [Systems.Collections.Concurrent](https://learn.microsoft.com/en-us/dotnet/standard/collections/thread-safe/)
 Efficient, thread-safe operations for access collection items from multiple threads.
 Concurrent collection classes do not require user code to take any locks when accessing items.

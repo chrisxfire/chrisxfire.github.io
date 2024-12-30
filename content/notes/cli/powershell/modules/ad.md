@@ -10,8 +10,8 @@ weight: 1
 
 The Active Directory module requires [RSAT](https://learn.microsoft.com/en-us/troubleshoot/windows-server/system-management-components/remote-server-administration-tools) tools for Windows.
 
-# Manage User Accounts
-## Locked Accounts
+# manage user accounts
+## locked accounts
 Find locked user accounts:
 ```powershell
 Search-AdAccount -LockedOut
@@ -27,7 +27,7 @@ Or, both in one command:
 Search-ADAccount -LockedOut | Unlock-ADAccount
 ```
 
-### Find the Source of Locked Accounts
+### find the source of locked accounts
 1. Find the Domain Controller with the PDCe role:
     ```powershell
     $pdce = Get-ADDomain.PDCEmulator
@@ -41,7 +41,7 @@ Search-ADAccount -LockedOut | Unlock-ADAccount
     ```
 
 
-# Find an AD User by Property
+# find an ad user by property
 ```powershell
 Get-ADUser -Filter "EmployeeNumber -eq '000024'" -Properties *
 ```

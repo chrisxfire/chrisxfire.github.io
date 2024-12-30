@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Dynamic Type
+# dynamic type
 Namespace: `System.Dynamic`  
 Type: `DynamicObject`  
 
@@ -14,21 +14,21 @@ Characteristics:
 - Functions like it has type object.
 - At compile time, an element typed dynamic is assumed to support any operation.
 
-# Conversions
-## Converting to Dynamic
+# conversions
+## converting to dynamic
 ```cs
 dynamic d1 = 7;
 dynamic d2 = "a string";
 ```
 
-## Converting From Dynamic
+## converting from dynamic
 ```cs
 int i = d1;
 string s = d2;
 ```
 
-# Uses
-## HTML DOM
+# uses
+## html dom
 Use a dynamic object to reference the HTML DOM, which can contain any combination of valid HTML and attributes.  
 Because each HTML document is unique, the members for a particular HTML document are determined at run time.
 

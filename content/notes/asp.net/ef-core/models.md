@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 EF Core uses a metadata *model* to describe how the app's entity types are mapped to the underlying database.  Models are configured with:
 1. Fluent API
 2. Data annotations
@@ -15,7 +15,7 @@ Conventions are not covered in these notes.
 
 The above order describes the precedence EF Core takes when applying configuration.
 
-# Fluent API
+# fluent api
 Override the OnModelCreating method in the derived context and use fluent API to configure the model.  
 
 Fluent API configuration will override *data annotations* and *conventions*.  The configuration is applied in the order the methods are called.  The latest call will override previous calls.
@@ -43,7 +43,7 @@ public class Blog
 }
 ```
 
-## Using a separate class for an entity type
+## using a separate class for an entity type
 To reduce the size of `OnModelCreating`, configuration for an entity type can be factored out to a separate class:
 ```cs
 public class BlogEntityTypeConfiguration : IEntityTypeConfiguration<Blog>
@@ -61,10 +61,10 @@ Then, in `OnModelCreating`, invoke `Configure`:
 ```cs
 new BlogEntityTypeConfiguration().Configure(modelBuilder.Entity<Blog>());
 ```
-## EntityTypeConfiguration attribute
+## entitytypeconfiguration attribute
 ...
 
-# Data annotations
+# data annotations
 ```cs
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;

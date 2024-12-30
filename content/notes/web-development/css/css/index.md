@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Cascading Style Sheets format the layout of a webpage.  
 Syntax: `property:value;`
 
-# CSS Rulesets
+# css rulesets
 Select an element whose class=container; find the pararaph inside; find the first child inside of it; find the first character of that element
 ```css
 .container p:first-child::first-letter {
@@ -22,7 +22,7 @@ The first line is the selector — the elements we are targeting.
 `first-child` is the pseudo-class  
 `first-letter` is the pseudo-character selector  
 
-# Cascading
+# cascading
 CSS rulesets cascade.
 
 The `div` will receive the backgroud color of the body, then the background color of `main` (more specific), then the background color of the `div`, but NOT the `width` of `main`, because `width` does NOT cascade:
@@ -51,13 +51,13 @@ The `div` will receive the backgroud color of the body, then the background colo
 
 To make the div 50% of its container, it would also need the width property.
 
-# Using CSS
+# using css
 CSS can be added to HTML:
 - inline via the style attribute in HTML elements (most specific)
 - internal via a `<style>` element in the `<head>` element
 - external via a `<link>` element to an external CSS file (least specific)
 
-## Inline CSS
+## inline css
 Applies a style to a single HTML element:
 ```html
 <h1 style="color:blue;">A Blue Heading</h1>
@@ -65,7 +65,7 @@ Applies a style to a single HTML element:
 <p style="color:red;">A red paragraph.</p>
 ```
 
-## Internal CSS
+## internal css
 Defines a style for a single HTML page. This is done in the `<head>` section within a `<style>` element.  
 Here, the text of all of the `<h1>` and `<p>` elements on this page will receive the same color:
 ```html
@@ -81,7 +81,7 @@ Here, the text of all of the `<h1>` and `<p>` elements on this page will receive
 …
 ```
 
-## External CSS
+## external css
 Link to an external style sheet via a link in `<head>`:
 ```html
 <!DOCTYPE html>
@@ -105,7 +105,7 @@ p {
 }
 ```
 
-# Selectors
+# selectors
 Selectors can target tags, class names, IDs, or attributes.
 Given this body:
 ```html
@@ -125,13 +125,13 @@ Given this body:
 </body>
 ```
 
-## Tag Selectors
+## tag selectors
 ```css
 img {
     border: solid 1px #fa0000;
 }
 ```
-## Class Selectors
+## class selectors
 ```html
 <style>
     .tutorial { /* class selectors start with a dot */
@@ -140,7 +140,7 @@ img {
 </style>
 ```
 
-## ID Selectors
+## id selectors
 ```html
 <style>
     #tutorial-1 { /* id selectors start with a hash */
@@ -148,7 +148,7 @@ img {
     }
 </style>
 ```
-## Attribute Selectors
+## attribute selectors
 ```html
 <style>
     /* attribute selectors have the tag followed by the attribute in brackets */
@@ -158,7 +158,7 @@ img {
 </style>
 ```
 
-## List Selectors
+## list selectors
 ```html
 <style>
     .tutorial, h1 { /* select multiple page elements separated by commas */
@@ -167,7 +167,7 @@ img {
 </style>
 ```
 
-## Combinators
+## combinators
 Use combinators to select a specific child of a parent:
 ```html
 <style>
@@ -177,7 +177,7 @@ Use combinators to select a specific child of a parent:
 </style>
 ```
 
-# Box Model
+# box model
 Every element is in a box:  
 ![A diagram depicting a border, margin, and padding](./CSS-image1.png)
 
@@ -198,7 +198,7 @@ html {
 }
 ```
 
-# Flexbox
+# flexbox
 ```html
 <head>
     <style>
@@ -231,20 +231,20 @@ html {
 </body>
 ```
 
-# Variables
-## Defining
+# variables
+## defining
 In the root element:
 ```css
 :root {
     --variable-name: variable-value;
 }
 ```
-## Using
+## using
 ```css
 var(--variable-name);
 ```
 
-# Common CSS properties
+# common css properties
 ## Border, Padding, Margin
 ```css
 p {
@@ -254,7 +254,7 @@ p {
 }
 ```
 
-# Hyperlinks
+# hyperlinks
 To change the color of hyperlinks:
 ```html
 <style>
@@ -302,8 +302,8 @@ To create a flat "button":
 </style>
 ```
 
-# Images
-## Floating
+# images
+## floating
 Images can float to the left or right of text via the CSS float property:  
 ```html
 <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">

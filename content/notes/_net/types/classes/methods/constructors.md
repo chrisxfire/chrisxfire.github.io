@@ -10,7 +10,7 @@ tags:
 # [Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/constructors)
 Whenever a Class or Struct is created, its *constructor* is called.
 
-# Instance Constructors
+# instance constructors
 ```cs
 public class Person 
 {
@@ -29,13 +29,13 @@ public class Person
 
 Constructors do not use `return` statements.
 
-# Invoking
+# invoking
 Constructors are invoked with `new`:
 ```cs
 Person p1 = new Person("smith", "eli") // Instantiate a Person instance.
 ```
 
-# Parameterless Constructors
+# parameterless constructors
 Parameterless constructors can be explicitly implemented.  
 They are auto-implemented on classes that have no other constructor.  
 They can call parameterized constructors with default values, if desired:  
@@ -48,7 +48,7 @@ Structs cannot contain explicit parameterless constructors because one is auto-i
 int i = new int(); // Parameterless constructor used to invoke an int and initialize it to its default value.
 ```
 
-# Base Class Constructors
+# base class constructors
 Derived class constructors can call the constructor of the base class:
 ```cs
 public class Employee : Person 
@@ -116,7 +116,7 @@ class Person
 }
 ```
 
-# Async Constructors
+# async constructors
 It is impossible to create an async constructor. Instead, consider this pattern:
 ```cs
 public class ViewModel
@@ -161,7 +161,7 @@ Rules:
 
 Primary constructors are available to classes, structs, and records.
 
-## Implementation Details
+## implementation details
 - In any `class` type, including `record class`, the implicit parameterless constructor is <r>not</r> emitted when a primary constructor is presented.
 - In any `struct` type, including `record struct`:
   - the implicit parameterless construct is <g>always</g> emitted
@@ -172,7 +172,7 @@ Primary constructors are available to classes, structs, and records.
 > [!TIP]
 > More information: https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/tutorials/primary-constructors
 
-## Common Uses
+## common uses
 1. As an argument to a `base()` constructor invocation.
 2. To initialize a member field or property.
 3. Referencing the constructor parameter in an instance member.

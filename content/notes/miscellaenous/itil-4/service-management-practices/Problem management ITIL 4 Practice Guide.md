@@ -783,14 +783,14 @@ Table 8.1 Recommendations for the success of problem management
 
 PeopleCert is grateful to everyone who has contributed to the development of this guidance. These practice guides incorporate an unprecedented level of enthusiasm and feedback from across the ITIL community. In particular, PeopleCert would like to thank the following people.
 
-##### Authors
+##### authors
 
 Barry Corless, Roman Jouravlev, Andrew Vermes
 
-##### Reviewers
+##### reviewers
 
 James Ainsworth, Akshay Anand, Sofi Fahlberg, Michael G. Hall, Steve Harrop, Piia Karvonen, Anton Lykov, Paula Määttänen, Caspar Miller, Christian F. Nissen, Mark O’Loughlin, Tatiana Orlova, Elina Pirjanti, Stuart Rance
 
-##### 2023 Revision
+##### 2023 revision
 
 David Cannon, Antonina Douannes, Peter Farenden, Adam Griffith, Roman Jouravlev, Kaimar Karu, Barclay Rae, Stuart Rance, Nicola Reeves

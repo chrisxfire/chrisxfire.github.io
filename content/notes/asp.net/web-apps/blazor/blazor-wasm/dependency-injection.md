@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Default Services
+# default services
 Among others:
 | Service | Lifetime | Description |
 |---------|----------|-------------|

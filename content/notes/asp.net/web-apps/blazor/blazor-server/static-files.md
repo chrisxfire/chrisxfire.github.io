@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 Serve static assets by calling `UseStaticFiles` in the request processing pipeline.
 
 # Static Files in Non-Development Environments

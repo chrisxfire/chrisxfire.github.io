@@ -5,12 +5,12 @@ draft: false
 weight: 4
 ---
 
-# Abstract
+# abstract
 > Credit: https://methodpoet.com/unit-testing-with-moq/
 
 These notes provide an end-to-end example of unit testing a system with Moq.
 
-# Assumptions
+# assumptions
 Assume this system under test:
 ```cs
 public interface IBookService
@@ -57,7 +57,7 @@ public class AccountService
 }
 ```
 
-# Testing GetAllBooksForCategory
+# testing getallbooksforcategory
 ```cs
 [Fact]
 public void GetAllBooksForCategory_returns_list_of_available_books()
@@ -85,7 +85,7 @@ public void GetAllBooksForCategory_returns_list_of_available_books()
 }
 ```
 
-# Testing GetBookISBN
+# testing getbookisbn
 ```cs
 [Fact]
 public void GetBookISBN_founds_the_correct_book_for_search_term()

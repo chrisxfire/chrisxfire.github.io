@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Façade
+$1\L$2
 Type: Structural  
 Purpose:  
 Use to:  

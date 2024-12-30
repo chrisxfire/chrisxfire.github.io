@@ -5,10 +5,10 @@ draft: false
 weight: -1
 ---
 
-# Abstract
+# abstract
 - Documentation: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/apis?view=aspnetcore-7.0
 
-## Two Approaches
+## two approaches
 In ASP.NET Core, APIs can be built with the *controller-based* approach or the *minimal API* approach:
 - Controller-based
   - Controllers are classes that derive from `ControllerBase`.
@@ -100,7 +100,7 @@ public class WeatherForecastController : ControllerBase
 }
 ```
 
-### Minimal API Example
+### minimal api example
 `Program.cs`
 ```cs
 namespace APIWithControllers;
@@ -125,7 +125,7 @@ public class Program
 
 
 # From Pluralsight/ASP.NET Core 6 Fundamentals
-## Routing
+## routing
 ASP.NET Core APIs generally use attribute-based routing:
 ```cs
 [Route("api/[controller]")]
@@ -149,7 +149,7 @@ public class PieController : ControllerBase // an API Controller without View su
 }
 ```
 
-## ControllerBase Helper Methods
+## controllerbase helper methods
 | Method        | Use when                                     | Returns  |
 | ------------- | -------------------------------------------- | -------- |
 | `Ok()`        | Request is good                              | HTTP 200 |
@@ -157,7 +157,7 @@ public class PieController : ControllerBase // an API Controller without View su
 | `NotFound()`  | Client requests resource that does not exist | HTTP 404 |
 | `NoContent()` | Request is good but no content to return     | HTTP 204 |
 
-## Creating an API
+## creating an api
 ### 1. Enable API Controller support
 `Program.cs`
 ```cs

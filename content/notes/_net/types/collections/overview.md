@@ -5,22 +5,22 @@ draft: false
 weight: -1
 ---
 
-# Collections
+# collections
 - Collections of objects.
 - Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.collections?view=net-6.0
 
-# Namespaces
+# namespaces
 - `System.Collections` — .NET Framework 1.0; Legacy;
 - `System.Collections.Generic` — .NET Framework 2.0; no thread synchronization
 - `System.Collections.Concurrent` — .NET Framework 4.0; thread-safe
 
-# Common Features
+# common features
 - All collections implement the `ICollection/<T>` interface. This means they must have a `Count` property.
 - All collections implement the `IEnumerable/<T>` interface, which allows them to be iterated over with foreach.
   - This interface requires `GetEnuemrator()`, which returns an object that implements `IEnumerator`.
     - The IEnumerator object must have methods `MoveNext()` and `Reset()` and property `Current` that contains the current item in the collection.
 
-# Choosing a Collection
+# choosing a collection
 | A collection of…                           | Generic collection        | Sorted counterpart?             | Thread-safe counterpart?            | Immutable counterpart?                                                       |
 | ------------------------------------------ | ------------------------- | ------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------- |
 | Key/value pairs accessed by key            | `Dictionary<TKey,TValue>` | `SortedDictionary<TKey,TValue>` | `ConcurrentDictionary<TKey,TValue>` | `ImmutableDictionary<TKey,TValue>`, `ImmutableSortedDictionary<TKey,TValue>` |
@@ -30,11 +30,11 @@ weight: -1
 | Elements sorted head—> tail or tail—> head | `LinkedList<T>`           | N/A                             | None                                | N/A                                                                          |
 | Unique items                               | `HashSet<T>`              | `SortedSet<T>`                  | None                                | `ImmutableHashSet<T>`, `ImmutableSortedSet<T>`                               |
 
-## Notes
+## notes
 - A `SortedDictionary<TKey,TValue>` performs better than a `SortedList<TKey,TValue>` at the expense of more memory used.
 - For `Queues` and `Stacks`, elements are generally discarded after they are accessed.
  
-# Other Collections
+# other collections
 ## `System.Collections.Frozen`
 This namespace includes collection types that do not allow any changes to keys and values once a collection is created. They are more
 performant than than "unfrozen" types.
@@ -65,7 +65,7 @@ Use these collections when properties or methods return collections:
 | `StringCollection`               | a list of only strings                                                     |
 | `StringDictionary`               | a dictionary of only strings                                               |
 
-# Algorithmic Complexity
+# algorithmic complexity
 | Mutable                   | Amortized | Worst Case              | Immutable                          | Complexity |
 | ------------------------- | --------- | ----------------------- | ---------------------------------- | ---------- |
 | `Stack<T>.Push`           | O(1)      | O(n)                    | `ImmutableStack<T>.Push`           | O(1)       |
@@ -79,7 +79,7 @@ Use these collections when properties or methods return collections:
 | `Dictionary<T>lookup`     | O(1)      | O(1) – or strictly O(n) | `ImmutableDictionary<T>lookup`     | O(logn)    |
 | `SortedDictionary<T>.Add` | O(logn)   | O(nlogn)                | `ImmutableSortedDictionary<T>.Add` | O(logn)    |
 
-# Construction
+# construction
 ```cs
 var collection = new CollectionType<GenericType>();
 ```
@@ -102,13 +102,13 @@ var theGalaxies = new CollectionType<Galaxy>
 }
 ```
 
-# Collection Initializers
+# collection initializers
 Collection initializers let you specify one or more element initializers when you initialize a collection type that implements IEnumerable and has an Add method:
 ```cs
 List<int> digits = new List<int> { 0, 1, 2, 3 };
 ```
 
-## Combining Collection Initializers with Object Initializers
+## combining collection initializers with object initializers
 ```cs
 List<Cat> cats = new List<Cat> 
 {
@@ -116,7 +116,7 @@ List<Cat> cats = new List<Cat>
     new Cat{ Name = "Tom", Age = 9 };
 }
 ```
-# Iterating
+# iterating
 ```cs
 for (var variable in collection) { … }
 ```
@@ -125,15 +125,15 @@ or
 for (var index = 0; index < collection.Count; index++) { … }
 ```
 
-# Methods
-## Manipulating
+# methods
+## manipulating
 ```cs
 collection.Add(element)
 collection.Remove(element)
 collection.RemoveAt(index)Elements after the one that are removed now have a lower index value.
 ```
 
-# Defining Custom Collections
+# defining custom collections
 It is usually better to use the .NET collections.  
 Implement either `IEnumerable` or `IEnumerable<T>`:
 ```cs

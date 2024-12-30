@@ -44,7 +44,7 @@ public class CustomerBusinessLogic
 }
 ```
 
-## Constructor Injection Example
+## constructor injection example
 ```cs
 // Client class:
 public class CustomerBusinessLogic 
@@ -94,7 +94,7 @@ public class CustomerService
 }
 ```
 
-## Property Injection Example
+## property injection example
 ```cs
 // Client class:
 public class CustomerBusinessLogic 
@@ -133,7 +133,7 @@ public class CustomerService
 }
 ```
 
-## Example of Method Injection with Interface Method
+## example of method injection with interface method
 ```cs
 interface IDataAccessDependency 
 {

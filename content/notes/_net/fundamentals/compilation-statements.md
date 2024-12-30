@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Compilation Statements
+# compilation statements
 Compilation statements allow code to be written that only compiles if the conditional is true.
 
 Modern .NET Symbols:

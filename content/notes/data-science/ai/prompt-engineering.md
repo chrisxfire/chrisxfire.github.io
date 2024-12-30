@@ -5,24 +5,24 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 *Prompt engineering* is a field of study of the design and optimization of prompts to deliver consistent and quality completions for a given model.
 
-# Motivation
+# motivation
 LLMs have a variety of shortcomings to produce reliable and consistent completions:
 - The model responses are stochastic (the same prompt may produce different responses).
 - The model can fabricate (previously: hallucinate) responses.
 - The model capabilities vary.
 
-# Prompt Construction
-## Basic prompt
+# prompt construction
+## basic prompt
 **Prompt**  
 > Oh say can you see  
 
 **Completion**  
 > It sounds like you're starting the lyrics to "The Star-Spangled Banner," the national anthem of the United States. The full lyrics are ...
 
-## Complex Prompt
+## complex prompt
 A *complex prompt* adds context and instructions to a basic prompt. In Azure OpenAI, complex prompts are constructed as a collection of *messages* that include:
 - Input/output pairs reflecting *user* input and *assistant* response.
 - *System* messages that set the context for assistant behavior or personality.
@@ -39,7 +39,7 @@ response = openai.ChatCompletion.create(
 )
 ```
 
-## Instruction Prompt
+## instruction prompt
 An *instruction prompt* takes a basic prompt and adds additional instruction to it:  
 
 **Basic prompt**  
@@ -51,7 +51,7 @@ An *instruction prompt* takes a basic prompt and adds additional instruction to 
 **Instruction prompt**  
 > Write a description of the Civil War in 1 paragraph. Provide 3 bullet points with key dates and their significance. Provide 3 more bullet points with key historical figures and their contributions. Return the output as a JSON file.
 
-## Primary Content
+## primary content
 In the *primary content* design pattern, the input text is divided into two parts:
 - content
 - an action
@@ -81,7 +81,7 @@ The player hit an ace => Tennis
 The player hit a six => Cricket  
 The player made a slam-dunk =>
 
-### Prompt Cues
+### prompt cues
 In this approach, primary content includes cues after the instruction that start the desired response.
 
 **Prompt (<o>instruction</o>, <g>cue</g>)** 
@@ -89,7 +89,7 @@ In this approach, primary content includes cues after the instruction that start
 <o>Summarize This</o>  
 <g>What we learned is that Jupiter</g>  
 
-### Templates
+### templates
 A pre-defined recipe for a prompt that can be stored and reused as needed. It may contain placeholders:
 
 ```python
@@ -101,19 +101,19 @@ prompt_template = PromptTemplate.from_template(
 prompt_template.format(adjective="funny", content="chickens")
 ```
 
-## Supporting Content
+## supporting content
 Assume a course catalog with extensive metadata (name, description, level, metadata tags, instructor etc.) on all the available courses in the curriculum:
 - The *instruction* may be to *summarize the course catalog for Fall 2023*
 - The *primary content* may provide a few examples of the desired output
 - The *secondary content* may be used to identify the top 5 "tags" of interest
 
-# Prompt Engineering Best Practices
+# prompt engineering best practices
 * **Separating instructions and context.** Some models provide delimiters to distinguish between these.
 * **Be specific**. Consider providing details about the desired context, outcome, length, format, and style.
 * **Be descriptive**. Start with zero-shot and then try refining with one-shot or few-shot. Provide examples. Use analogies.
 * **Use fallbacks**. Give the model a *fallback completion* to reduce chances of the model generating fabricated responses.
 
-# Advanced Prompt Engineering
+# advanced prompt engineering
 ## Chain-of-thought
 **Prompt**  
 > Alice has 5 apples, throws 3 apples, gives 2 to Bob and Bob gives one back, how many apples does Alice have?
@@ -139,13 +139,13 @@ Use these steps:
 3. Ask the LLM how it can improve its own completion (self-refinement), or, tell the LLM what is wrong with the completion (critique) and ask it to retry.
 4. LLM provides new completion, this time considering the request to self-refine or the critique.
 
-## Maieutic Prompting
+## maieutic prompting
 Use these steps:
 1. Ask the LLM to answer a question
 2. For each part of the answer, ask the LLM to explain it more in depth.
 3. If there are inconsistencies, discard the parts that are inconsistent.
 
-### Example
+### example
 **Prompt**  
 > How can I create a crisis plan to mitigate a pandemic in 5 steps?
 

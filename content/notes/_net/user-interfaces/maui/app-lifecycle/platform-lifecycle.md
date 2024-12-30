@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Platform Lifecycle Events
+# platform lifecycle events
 Namespace: `Microsoft.Maui.LifecycleEvents`
 - .NET MAUI uses delegates that are invoked in response to a platform lifecycle event being raised.
 - You can create handlers for these delegates.
@@ -13,7 +13,7 @@ Namespace: `Microsoft.Maui.LifecycleEvents`
 # [Android](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/app-lifecycle#android)
 Each delegate has an identically named extension method used to register a handler for that delegate.
 
-## Responding to Android Lifecycle Delegates
+## responding to android lifecycle delegates
 Call `ConfigureLifecycleEvents` method on `MauiAppBuilder` object in `CreateMauiApp` method of `MauiProgram` class:
 ```cs
 using Microsoft.Maui.LifecycleEvents;
@@ -53,7 +53,7 @@ namespace PlatformLifecycleDemo
 # [iOS](https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/app-lifecycle#ios)
 Each delegate has an identically named extension method used to register a handler for that delegate.
 
-## Responding to iOS Lifecycle Delegates
+## responding to ios lifecycle delegates
 Call `ConfigureLifecycleEvents` method on `MauiAppBuilder` object in `CreateMauiApp` method of `MauiProgram` class. Then on the `ILifecycleBuilder` object, call `AddiOS` method and specify the `Action` that registeres handlers for the required delegates:
 ```cs
 using Microsoft.Maui.LifecycleEvents;
@@ -91,7 +91,7 @@ namespace PlatformLifecycleDemo
 .NET MAUI exposes some native Windows messages as a lifecycle event via the `OnPlatformMessage` delegate. This delegate includes the `WindowsPlatformMessageEventArgs` object, which includes a `uint MessageId` property.  
 - More information: [Window Messages (Get Started with Win32 and C++) - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/learnwin32/window-messages) and [Window Notifications - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/winmsg/window-notifications)
 
-## Responding to Windows Lifecycle Delegates
+## responding to windows lifecycle delegates
 Call `ConfigureLifecycleEvents` method on `MauiAppBuilder` object in `CreateMauiApp` method of `MauiProgram` class. Then on the `ILifecycleBuilder` object, call `AddWindows` method and specify the `Action` that registers handlers for the required delegates:
 ```cs
 using Microsoft.Maui.LifecycleEvents;
@@ -135,7 +135,7 @@ namespace PlatformLifecycleDemo
 }
 ```
 
-## Retrieving the Window Object
+## retrieving the window object
 Platform code can retrieve the app's Window object:
 ```cs
 using Microsoft.Maui.LifecycleEvents;

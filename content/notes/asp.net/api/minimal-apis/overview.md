@@ -38,14 +38,14 @@ If the app requires CORS:
 2. Call `UseAuthentication` manually
 3. Call `UseAuthorization` manually
 
-## Running Middleware Before Rout Matching
+## running middleware before rout matching
 If middleware must be run before route matching occurs:
 1. Call `app.Use((context, next) => { })` for middleware that needs to run first
 2. Call `UseRouting` manually
 
 `UseEndpoints` will be called automatically.
 
-## Terminal Middleware
+## terminal middleware
 This is middleware that runs if no endpoint handles the request.
 
 When using terminal middleware:

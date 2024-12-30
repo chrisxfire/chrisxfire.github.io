@@ -11,11 +11,11 @@ weight: 1
 An object representation of a URI.  
 
 # [Construction](https://docs.microsoft.com/en-us/dotnet/api/system.uri?view=net-6.0#constructors)
-## From String
+## from string
 ```cs
 Uri uri = new Uri("https://user:password@www.contoso.com:80/Home/Index.htm?q1=1&q2=v2#FragmentName");
 ```
-## Specify Base URI or Relative URI
+## specify base uri or relative uri
 ```cs
 Uri uri = new Uri(string "s", UriKind.Absolute); // or UriKind.Relative.
 // or
@@ -27,7 +27,7 @@ Uri uri = new Uri(Uri baseUri, Uri relativeUri);
 # [Fields](https://docs.microsoft.com/en-us/dotnet/api/system.uri.schemedelimiter?view=net-6.0)
 Various fields are available for different URI schemes such as File, FTP, SSH, Telnet, etc.
 
-# Properties
+# properties
 - `AbsolutePath` — /Home/Index.htm
 - `AbsoluteUri`  — https://user:password@www.contoso.com:80/Home/Index.htm?q1=v1&q2=v2#FragmentName
 - `DnsSafeHost` — [www.contoso.com](http://www.contoso.com)
@@ -50,7 +50,7 @@ Various fields are available for different URI schemes such as File, FTP, SSH, T
 - `UserEscaped` — False
 - `UserInfo` — user:password
 
-# Methods
+# methods
 - `CheckHostName(string)` — Returns a UriHostNameType indicating if this is a valid hostname or IP address.
 - `CheckSchemeName(string)` — Boolean if string equals a specific Uri.UriScheme
 - `EscapeDataString(string)` — Returns string as an escaped Uri string.

@@ -35,10 +35,10 @@ These APIs are listed from low level (most control) to high level (most convenie
 ![A horizontal bar chart showing the lines of code required to use each of the above APIs based on a sample app from the reference.
 JsonSerializer = 84, NewtonsoftJsonSerializer = 94, JsonNode = 155, Utf8JsonReaderWriter = 668](image.png)
 
-# Security
+# security
 `System.Text.Json` has a threat model.  See: https://github.com/dotnet/runtime/blob/main/src/libraries/System.Text.Json/docs/ThreatModel.md
 
-# Thread Safety
+# thread safety
 <r>Warning</r>: `JsonDocument` is not thread safe.  All other aspects of `System.Text.Json` are thread safe.
 
 # Reflection vs. Source Generation [[Documentation](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation-modes?pivots=dotnet-7-0)]  
@@ -55,7 +55,7 @@ Source generation has two modes: *metadata collection* mode and *serialization o
 | Source generation <br /> Metadata collection        | Yes                                  | Yes                                  | Yes (.NET 8)                                     |
 | Source generation <br /> Serialization optimization | Yes                                  | No                                   | No                                               |
 
-## Enabling Source Generation
+## enabling source generation
 Follow [instructions here](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation?pivots=dotnet-7-0) to enable source generation.
 
 # Deserialize with `HttpClient` and `HttpContent` Extension Methods

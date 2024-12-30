@@ -12,12 +12,12 @@ Prefer `ILogger` over `System.Diagnostics.Debug` and `System.Diagnostics.Trace`.
 Methods and properties to debug code.  
 This class can only be used when the application is compiled in DEBUG mode.  
 
-# Enabling Debugging
+# enabling debugging
 Either:
 1.  Add `#define DEBUG` (or `#define TRACE`) to the top of the file, or;
 2.  Add the `/d:DEBUG` or `/d:TRACE` flag when compiling.
 
-# Adding Trace Listeners
+# adding trace listeners
 Trace Listeners are shared by both Debug and Trace and used to output debug/trace information:
 
 ## Using a `TextWriterTraceListener`

@@ -7,8 +7,8 @@ weight: 1
 Overview
 Layout panels are containers to arrange and group UI elements.
 
-# Common Panel Properties
-## Panel attached properties
+# common panel properties
+## panel attached properties
 Used to let child elements inform parent element how they should be positioned in UI.
 Syntax: `AttachedPropertyProvider.PropertyName`
 
@@ -19,10 +19,10 @@ This `Button` control informs the parent `Canvas` that the `Button` should be po
 </Canvas>
 ```
 
-## Panel borders
+## panel borders
 `RelativePanel`, `StackPanel`, and `Grid` panels have border properties to draw a border around them without requiring a Border element: `BorderBrush`, `BorderThickness`, `CornerRadius`, and `Padding.`
 
-# RelativePanel
+# relativepanel
 Arrange UI elements by specifying their location relative to other elements and relative to the panel.  
 Upper left is default location.
 
@@ -54,7 +54,7 @@ Upper left is default location.
 
 ![Relative panel](./Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image2.png)
 
-# StackPanel
+# stackpanel
 Arrange UI elements into a single line that can be oriented horizontally or vertically (default) via Orientation property.
 ```xml
 <StackPanel>
@@ -69,7 +69,7 @@ Arrange UI elements into a single line that can be oriented horizontally or vert
 
 ![Stack panel](./Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image3.png)
 
-# Grid
+# grid
 Arrange UI elements in multi-row and multi-column layouts via RowDefinitions and ColumnDefinitions properties.
 To position elements in specific cells, use Grid.Column and Grid.Row attached properties.
 To make elements span multiple rows or columns, use Grid.RowSpan and Grid.ColumnSpan attached properties.
@@ -95,7 +95,7 @@ To make elements span multiple rows or columns, use Grid.RowSpan and Grid.Column
 
 ![Grid](./Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image4.png)
 
-## Grid Star Sizing
+## grid star sizing
 | Column     | Sizing | Description                                                                                                                            |
 | ---------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `Column_1` | Auto   | The column will size to fit its content.                                                                                               |
@@ -143,7 +143,7 @@ Use `VariableSizeWrapGrid.ColumnSpan` / `RowSpan` attached properties to specify
 
 ![Variable size wrap grid](./Design---Layouts-(Responsive-Layouts-w-XAML)_Panels-(Layout-panels)-image5.png)
 
-# Canvas
+# canvas
 Arrange UI elements using fixed coordinate points by setting Canvas.Top and Canvas.Left attached properties on each element.
 Elements can overlap.
 Canvas renders child elements in order in which they are declared (last child is rendered on top)

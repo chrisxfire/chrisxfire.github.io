@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Object Initializers
+# object initializers
 Objects can be initialized when declared. Using object initializers works even when the initialization doesn't match a constructor as long as a parameterless constructor exists.  
 
 The compiler processes object initializers by first accessing the parameterless instance constructor and then processing the member initializations:
@@ -35,7 +35,7 @@ StudentName student1 = new StudentName
 };
 ```
 
-# Collection Initializers
+# collection initializers
 A Dictionary of objects can be initialized with a collection initializer:
 
 ```cs
@@ -54,7 +54,7 @@ var students = new Dictionary<int, StudentName>()
 }
 ```
 
-## Index Initializers
+## index initializers
 Alternatively, a Dictionary of objects can be initialized with an index initializer:
 ```cs
 var students2 = new Dictionary<int, StudentName>() 

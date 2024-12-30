@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Reference
+# reference
 | Script                       | Symbol                                     | LaTeX                                      |
 | ---------------------------- | ------------------------------------------ | ------------------------------------------ |
 | **Accents**                  |
@@ -64,5 +64,5 @@ weight: 1
 | Overline                     | $\overline{a b c}$                         | `\overline{a b c}`                         |
 | Underline                    | $\underline{a b c}$                        | `\underline{a b c}`                        |
 
-# More
+# more
 https://xmind.app/faq/question/equation/#function

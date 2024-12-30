@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Running Tests with Test Explorer
+# running tests with test explorer
 - Open Test Explorer: <kbd>Ctrl + E,T</kbd>
 - Run all tests: <kbd>Ctrl + R,V</kbd>
 - Run a subset of tests: <kbd>Ctrl + R,T</kbd>

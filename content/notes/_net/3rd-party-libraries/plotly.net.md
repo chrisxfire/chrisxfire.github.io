@@ -15,7 +15,7 @@ Cons:
 - Documentation is mostly in F#.
 - Poor IntelliSense.
 
-# Getting Started
+# getting started
 ```powershell
 dotnet add package plotly.net
 ```
@@ -25,13 +25,13 @@ using Plotly.NET;
 using Microsoft.FSharp.Core; // less verbose and more helpful intellisense(?)
 ```
 
-# Basics
+# basics
 General design philosophy:
 1.  Initialize a generic chart
 2.  Style the chart
 3.  Display or save the chart
 
-## Initialize a Chart
+## initialize a chart
 A chart consists of:
 - data: a collection of traces, which represent the data and chart type.
 - layout: controls the axis positions and styles.
@@ -44,7 +44,7 @@ GenericChart.GenericChart chart = Chart2D.Chart.Point<double, double, string>(x:
 // or
 GenericChart.GenericChart chart = Chart.Line(…)
 ```
-## Styling a Chart
+## styling a chart
 ```cs
 chart
     .WithTraceName("*Chart name*", true)
@@ -53,12 +53,12 @@ chart
     .Show();
 ```
 
-## Displaying a Chart
+## displaying a chart
 ```cs
 chart.Show();
 ```
 
-# Image Export
+# image export
 ```powershell
 dotnet add package plotly.net.imageexport
 ```
@@ -69,7 +69,7 @@ using Plotly.Net.GenericChartExtensions;
 chart.SaveJPG // | SavePNG | SaveSVG (*"path*", width=*n*, height=*m*);
 ```
 
-# Marker Symbols
+# marker symbols
 Marker symbols used in charts:
 ```cs
 StyleParam.MarkerSymbol.Square

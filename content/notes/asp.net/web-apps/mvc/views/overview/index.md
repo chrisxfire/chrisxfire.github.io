@@ -7,7 +7,7 @@ weight: -1
 
 From Pluralsight/ASP.NET Core 6 Fundamentals
 
-# Overview
+# overview
 A view is an HTML template as a `.cshtml` file with embedded Razor markup (code that interactions w/HTML to render a page).
 - Views handle data presentation and user interaction.
 - Views are organized like this where each folder on `Views/` is named for each of the app's controllers:
@@ -15,10 +15,10 @@ A view is an HTML template as a `.cshtml` file with embedded Razor markup (code 
 	
     - In `Views/Home`, when a user requests either `Index`, `Contact`, or `About`, the `Home` controller determines which of the views is used to build and return that page to the user.
 
-# Layouts
+# layouts
 Layouts provide consistent web page sections (like header, footer, navigation/menu).
 
-# View Responsibilities
+# view responsibilities
 Present content through the UI so it can be processed by a controller action.  
 Contains minimal logic, and the logic they do contain is related to presenting content.
 - Conditions, loops
@@ -65,7 +65,7 @@ A strongly-typed View involves passing a model to the View and the View accesses
 </html>
 ```
 
-# ViewModel Responsibilities
+# viewmodel responsibilities
 When a Model we want to pass to a View does not map to a domain model, use a `ViewModel`.  
 A `ViewModel` is a class that wraps multiple properties so that the View can access the data it needs.  It is a model for the view.
 `ViewModel`s are not entities that live in the database.  They are stored under `/ViewModels` by convention.
@@ -77,7 +77,7 @@ public class PieListViewModel
 }
 ```
 
-# Creating a View
+# creating a view
 Views that are specific to a controller are placed in `Views/ControllerName`.  Views that are shared are placed in `Views/Shared`.
 
 This is `Views/Home/About.cshtml`:
@@ -93,7 +93,7 @@ This is `Views/Home/About.cshtml`:
 <p>Use this area to provide additional information.</p>
 ```
 
-# Returning Views in Controllers
+# returning views in controllers
 Views are returned from controller actions as a `ViewResult`, a type of `ActionResult`, using the `View` helper method:
 
 `HomeController.cs`
@@ -113,5 +113,5 @@ The View helper method has some overloads:
 - `return View(Orders);` // pass a model to the view
 - `return View("Orders", Orders);` // both a view and a model
 
-## View Discovery
+## view discovery
 When a controller action returns a view, view discovery occurs to determine which view file is used.  This varies based on the `View` method overload used.  View discovery searches `Views/ControllerName` then `Views/Shared`.

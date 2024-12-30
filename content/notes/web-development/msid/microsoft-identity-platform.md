@@ -5,7 +5,7 @@ draft: false
 weight: 1
 ---
 
-# Components
+# components
 - OAuth 2.0 and OpenID Connect
   - Microsoft work/school accounts via Azure AD
   - Personal Microsoft accounts
@@ -14,7 +14,7 @@ weight: 1
 - App management portal
 - App configuration API and PowerShell
 
-# Service Principals
+# service principals
 - Applications must be reigstered with an Azure AD tenant.
 - Apps can be registered in Azure portal as:
   - Single-tenant (only your tenant)
@@ -38,18 +38,18 @@ weight: 1
     - Legacy service principals: A legacy app (an app created before app registrations were introduced). These have no associated app registrations.
   - The app object is the *global* representation of the app for use across all tenants. The service principal is *local* representation in a specific tenant.
 
-# Permissions and Consent
+# permissions and consent
 - OAuth 2.0: a method through which a 3rd party app can access web-hosted resources (like Microsoft Graph, M365 Mail API, Azure Key Vault, etc.) on behalf of a user.
 - Scopes: permission sets (or just "permissions"). Represented in a string value.
   - Example: <https://graph.microsoft.com/Calendars.Read> requests permission to read users calendars.
     - If the host portion if left off, it is assumed to be graph.microsoft.com.
 - The `scope` query parameter holds the permissions the app needs.
 
-## Permission Types
+## permission types
 - Delegated – for apps that have a signed-in user present.
 - Application – for apps that run without a signed-in user present (services, daemons).
 
-## Consent Types
+## consent types
 - Static user consent
   - You must specify all the permissions it needs, and will ever need, in the app's configuration in the Azure portal.
   - Also enable administrators to consent on behalf of all users in the organization.
@@ -61,7 +61,7 @@ weight: 1
   - Required for high-privilege permissions.
   - Admin consent provided on behalf of an organization still requires the static permissions registered for the app.
 
-# Conditional Access
+# conditional access
 Conditional Access allows for MFA, allowing only Intune-enrolled devices to access specific services, and geolocation and IP range restrictions.
 - Scenarios that require code to handle Conditional Access challenges
   - Apps performing the on-behalf-of flow.

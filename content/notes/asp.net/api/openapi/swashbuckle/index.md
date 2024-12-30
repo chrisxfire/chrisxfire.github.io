@@ -13,12 +13,12 @@ It has 3 main components:
 2. `Swashbuckle.AspNetCore.SwaggerGen` — a Swagger generator that builds a SwaggerDocument from routes, controllers and models
 3. `Swashbuckle.AspNetCore.SwaggerUI` — an embedded version of Swagger UI 
 
-# Installation
+# installation
 ```powershell
 dotnet add package swashbuckle.aspnetcore
 ```
 
-# Configuration
+# configuration
 `Program.cs`
 ```cs {hl_lines=[5,8]}
 // ...
@@ -59,7 +59,7 @@ app.UseStaticFiles();
 app.MapControllers();
 ```
 
-## Configuring API Information and Description
+## configuring api information and description
 `Program.cs`
 ```cs
 // ...
@@ -86,10 +86,10 @@ builder.Services.AddSwaggerGen(options =>
 // ...
 ```
 
-## Configuring XML Comments
+## configuring xml comments
 XML comments enables debug information for undocumented types and members. Most features require an XML file.
 
-### Enabling XML Comments
+### enabling xml comments
 1. Update the project file:  
     `SomeProject.csproj`
     ```xml
@@ -136,13 +136,13 @@ XML comments enables debug information for undocumented types and members. Most 
 This renders:  
 ![A screenshot showing Swagger UI with API information and description populated](./image.png)
 
-# Using Swagger
-## Accessing Swagger
+# using swagger
+## accessing swagger
 Navigate to `https://localhost:<port>/swagger/v1/swagger.json`.  This should match `openapi.json` in the project.
 
 To access the Swagger UI, navigate to `https://localhost:<port>/swagger`.
 
-## Applying XML Comments
+## applying xml comments
 1. Add triple-slash comments to an action:
     ```cs
     /// <summary>
@@ -213,5 +213,5 @@ To access the Swagger UI, navigate to `https://localhost:<port>/swagger`.
 
 *API conventions* can be used in place of attributes if desired.
 
-# See Also
+# see also
 [Swashbuckle.AspNetCore.Annotations](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/#swashbuckleaspnetcoreannotations) — extensions that enable and enrich the response, schema, and parameter metadata.

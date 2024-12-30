@@ -9,12 +9,12 @@ weight: 1
 
 Static files are stored in the web root directory `CONTENT_ROOT/wwwroot`.  Change with `UseWebRoot.`  Serve with `UseStaticFiles.`
 
-## Serve Static Files in the Web Root
+## serve static files in the web root
 Static files are accessible via a path relative to the web root.  If you create `wwwroot/images/` and add `SomeImage.jpg`, 
 - access via URL at `https://hostname/images/SomeImage.jpg`
 - and via markup:  `<img src="~/images/MyImage.jpg" class="img" alt="My image" />`
 
-## Serve Static Files Outside of the Web Root
+## serve static files outside of the web root
 Use `UseStaticFiles` and pass `StaticFileOptions`:
 ```cs
 app.UseStaticFiles(new StaticFileOptions 
@@ -27,7 +27,7 @@ Static files can be reached
 - via URL at `https://hostname/StaticFiles/…`
 - via markup:  `<img src="~/StaticFiles/images/red-rose.jpg" class="img" alt="A red rose" />`
 	
-## Set HTTP Response Headers
+## set http response headers
 Use `StaticFileOptions`:
 ```cs
 // Make static files publicly available in the local cache for one week via the Cache-Control header:

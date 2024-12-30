@@ -5,11 +5,11 @@ draft: false
 weight: 1
 ---
 
-# Overview
+# overview
 - Contextual feedback messages for typical user actions.
 - Documentation: https://getbootstrap.com/docs/5.3/components/alerts/
 
-# Simple Alerts
+# simple alerts
 ![Simple alerts with all eight required contextual classes](image.png)  
 ```html
 <div class="alert alert-primary" role="alert">
@@ -38,7 +38,7 @@ weight: 1
 </div>
 ```
 
-# Alerts with Icons
+# alerts with icons
 ![Alerts with icons](image-1.png)
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -79,7 +79,7 @@ weight: 1
 </div>
 ```
 
-# Dismissing Alerts
+# dismissing alerts
 Alerts require the JavaScript plug-in.  The `data-bs-dismiss` attribute automatically initializes the component.
 ```html
 <div class="alert alert-warning alert-dismissible fade show" role="alert">

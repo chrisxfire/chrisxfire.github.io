@@ -5,12 +5,12 @@ draft: false
 weight: 1
 ---
 
-# Indexers
+# indexers
 Indexers (indexed properties) are Properties that can be indexed into some collection of values.  
 They enable objects to be indexed like arrays.  
 The compiler generates an Item property and the appropriate accessor methods.  
 
-# Creating
+# creating
 The name of the member is this:  
 ```cs
 public class Person
@@ -35,7 +35,7 @@ chris.Children.Add(new() { Name = "Noah" });
 chris.Children.Add(new() { Name = "Eli" });
 ```
 
-# Another Example
+# another example
 ```cs
 class SomeClass<T> 
 {
@@ -51,7 +51,7 @@ class SomeClass<T>
 }
 ```
 
-# Example of Indexer That Searches by String Instead of Index
+# example of indexer that searches by string instead of index
 ```cs
 public int this[string day] = FindDayIndex(day);
 

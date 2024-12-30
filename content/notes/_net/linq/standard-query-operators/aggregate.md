@@ -6,8 +6,8 @@ weight: 1
 ---
 An aggregate operation computes a single value from a collection.
 
-# Methods
-## Aggregate
+# methods
+## aggregate
 `Aggregate<T1>(this IEnumerable<T> source, Func<T, T, T> function)`
 - Performs an operation on the first two elements in the collection.
 - It takes that result and performs an operation on the next element…
@@ -28,17 +28,17 @@ var multiplied = multipliers.Aggregate(5, (a,b) => a * b);
 Console.WriteLine(multiplied); //Output 1200000 ((((5*10)*20)*30)*40)
 ```
 
-## Average
+## average
 Calculates the average value of a collection.
 
-## Count
+## count
 `Count<T1>(this IEnumerable<T1> source)`  
 Counts the elements of a collection.
 
 `Count<T1>(this IEnumerable<T1> source, Func<T, Boolean> function)`  
 Counts only those elements that satisfy a predicate function.
 
-## LongCount
+## longcount
 Like count, but returns `Int64` instead of `Int32`.
 
 ## Max(By)
@@ -47,5 +47,5 @@ Returns the maximum value in a collection.
 ## Min(By)
 Returns the minimum value in a collection.
 
-## Sum
+## sum
 Calculates the sum of the values in a collection.

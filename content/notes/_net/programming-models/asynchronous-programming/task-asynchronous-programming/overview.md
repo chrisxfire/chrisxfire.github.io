@@ -15,7 +15,7 @@ The TAP pattern uses `Task` and `Task<T>` objects which model asynchronous opera
 
 The TAP pattern uses a single method to represent the initiation and completion of an asynchronous operation (unlike EAP (`Begin` and `End`) and APM (`IAsyncResult`)).
 
-# Cancellation
+# cancellation
 In TAP, cancellation is optional for both async method implementers and consumers:
 - Operations that may be canceled should expose an overload that accepts a `CancellationToken`. 
 - Operations that cannot be canceled should not expose this overload.
@@ -35,7 +35,7 @@ If an implemented cancellation token is signaled:
       - Yes: return a `RanToCompletion` state task
       - No: return a `Faulted` state task
 
-# Progress Reporting
+# progress reporting
 In TAP, progress is handled through the `IProgress<T>` object passed to an async method as a parameter (usually named `progress`). 
 The type of `T` depends on the use case. A `ReadAsync` method may want to report the number of bytes read (as a `long`):
 ```cs

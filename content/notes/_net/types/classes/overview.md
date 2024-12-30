@@ -5,20 +5,20 @@ draft: false
 weight: -1
 ---
 
-# Classes
+# classes
 A reference type that encapsulates behavior.
 
-## Characteristics
+## characteristics
 - Allocation: Heap
 - Equality: Reference
 - Semantics: Reference (a variable of a class contains a reference to that class)
 - Inheritance: Single
 - Mutability: Mutable
 
-## Use When
+## use when
 - You need to describe behavior and not just data
 
-# Creating Classes
+# creating classes
 Note: When creating custom classes, always override ToString() to provide information about the type (not shown here).
 ```cs
 public class Point
@@ -52,5 +52,5 @@ p = new Point { x = *n*, y = *m* } // Initializer syntax.
 Point p = new() { x = n, y = m }
 ```
 
-# Equality
+# equality
 `Object.Equals` Boolean if two reference-type objects refer to the same location in memory.

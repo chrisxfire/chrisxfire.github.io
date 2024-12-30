@@ -447,7 +447,7 @@ David Cannon, Erin Casteel, Stuart Rance.
 
 Akshay Anand, David Cannon, Erin Casteel, Erika Flora, Richard de Kock, Irina Matantseva, Anton Lykov, Stuart Rance.
 
-### References
+### references
 
 1.  Kachaner, N., King, K., and Stewart, S. (2016) Four Best Practices for Strategic Planning. *Boston Consulting Group*, \[online\] Available at: [https://www.bcg.com/publications/2016/growth-four-best-practices-strategic-planning.aspx](https://www.bcg.com/publications/2016/growth-four-best-practices-strategic-planning.aspx) \[Accessed 15th April 2020\].
     

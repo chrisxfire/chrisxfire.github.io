@@ -9,7 +9,7 @@ weight: 1
 See also: https://www.thomasclaudiushuber.com/2021/02/25/c-9-0-pattern-matching-in-switch-expressions/  
 See also: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns
 
-## Declaration and Type Patterns
+## declaration and type patterns
 Use declaration and type patterns to check if the runtime type of an expression is compatible with a given type:
 ```cs
 if (o is int i) { … }	// If o matches the pattern of an integer, store it in variable i.
@@ -65,7 +65,7 @@ static string GetCalendarSeason(DateTime date) => date.Month switch
 };
 ```
 
-### Logical Pattern Precedence
+### logical pattern precedence
 The combinators have the following precedence:
 1. `not`
 2. `and`
@@ -73,13 +73,13 @@ The combinators have the following precedence:
 
 > [!TIP] More information: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns#precedence-and-order-of-checking
 
-## Parenthesized Pattern
+## parenthesized pattern
 Use to emphasize or change the precedence in logical patterns:
 ```cs
 if (input is not (float or double)) { … }
 ```
 
-## Property Pattern
+## property pattern
 Use to match an expression's properties or fields against a nested pattern:
 ```cs
 static bool IsConferenceDay(DateTime date) => date is { Year: 2020, Month: 5, Day: 19 or 20 or 21 };
@@ -107,7 +107,7 @@ static int[] SimulateDataFetch(int id)
 }
 ```
 
-## List Pattern
+## list pattern
 > [!IMPORTANT]
 > Availability: C# 11  
 
@@ -156,7 +156,7 @@ var v1 = v2 as type; // This safely converts v2 to type.
 if (v1 != null) { … }
 ```
 
-### Compare discrete values
+### compare discrete values
 In a switch, every expression, including null, matches `_`:
 ```cs
 public State PerformOperation(string command) =>
@@ -169,8 +169,8 @@ public State PerformOperation(string command) =>
    };
 ```
 
-## Patterns on Switches
-### Discard Pattern
+## patterns on switches
+### discard pattern
 Match any expression, including null:
 ```cs
 static decimal GetDiscountInPercent(DayOfWeek? dayOfWeek) => dayOfWeek switch
@@ -186,7 +186,7 @@ static decimal GetDiscountInPercent(DayOfWeek? dayOfWeek) => dayOfWeek switch
 };
 ```
 
-### Type Pattern
+### type pattern
 A type pattern allows you to use a type in a switch:
 ```cs
 public static decimal CalculateToll(this Vehicle vehicle) => vehicle switch
@@ -198,7 +198,7 @@ public static decimal CalculateToll(this Vehicle vehicle) => vehicle switch
 };
 ```
 
-### Constant Pattern
+### constant pattern
 A constant pattern tests if an expression equals a constant:
 ```cs
 public static decimal GetGroupTicketPrice(int visitorCount) => visitorCount switch
@@ -212,7 +212,7 @@ public static decimal GetGroupTicketPrice(int visitorCount) => visitorCount swit
 };
 ```
 
-### Relational Pattern
+### relational pattern
 Use the `< > <=` and `>=` operators to compare an expression result with a constant:
 ```cs
 Console.WriteLine(Classify(13));  // output: Too high
@@ -228,7 +228,7 @@ static string Classify(double measurement) => measurement switch
 };
 ```
 
-### Switch Expression
+### switch expression
 Switch expressions simplify switch statements and are useful where all cases return a value to set a single variable:
 ```cs
 message = s switch {
@@ -254,7 +254,7 @@ string WaterState(int tempInFahrenheit) =>
     };
 ```
 
-### Switch Expression with Multiple Inputs
+### switch expression with multiple inputs
 ```cs
 public decimal CalculateDiscount(Order order) =>
     order switch {
