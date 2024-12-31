@@ -7,7 +7,8 @@ weight: 1
 
 # example
 Install packages:
-```dotnet add package Microsoft.Extensions.Configuration
+```powershell
+dotnet add package Microsoft.Extensions.Configuration
 dotnet add package Microsoft.Extensions.Configuration.Json
 dotnet add package Microsoft.Extensions.Configuration.Binder
 dotnet add package Microsoft.Extensions.Configuration.EnvironmentVariables # Only if using environment variables.
