@@ -44,7 +44,7 @@ A task's lifecycle is represented by the [TaskStatus] enumeration and contains t
 ```cs
 public static async Task Main()
 {
-    await Task.Run( () =>
+    await Task.Run( () )=>
     {
         …
     }
@@ -67,7 +67,7 @@ or, equivalently using a `TaskFactory.StartNew`, but this method is no longer re
 | Waiting for all tasks to complete        | `await Task.WhenAll` | `Task.WaitAll`               |
 | Waiting for a period of time             | `await Task.Delay`   | `Thread.Sleep`               |
 
-### `Task.Wait` (Blocking)
+### `Task.Wait` (blocking)
 Wait to block the thread that started the Task. Otherwise, if the calling thread is the Main app thread, the app may terminate before the Task completes:
 ```cs
 t1.Wait();
@@ -84,7 +84,7 @@ t4.RunSynchronously(); // Start the task on the main thread.
 t4.Wait(); // Should still wait in case an error is thrown.
 ```
 
-### `Task.WaitAny` (Blocking)
+### `Task.WaitAny` (blocking)
 To wait on the first of a series of Tasks to finish:
 ```cs
 Task.WaitAny(t1, t2, …) // WaitAny() returns the index (an Int32) of which Task in the list finished.
@@ -95,7 +95,7 @@ To wait on all the Tasks in a series to finish:
 Task.WaitAll(t1, t2, …)
 ```
 
-### `await Task.WhenAll` (Non-blocking)
+### `await Task.WhenAll` (non-blocking)
 ```cs
 public async Task<User> GetUserAsync(int userId)
 {
@@ -114,7 +114,7 @@ public static async Task<IEnumerable<User>> GetUsersAsync(IEnumerable<int> userI
 }
 ```
 
-### `await Task.WhenAny` (Non-blocking)
+### `await Task.WhenAny` (non-blocking)
 This method accepts Task.Delay as a parameter to implement a timeout:
 ```cs
 Task<Bitmap> download = GetBitmapAsync(url);
@@ -126,6 +126,21 @@ if (download == await Task.WhenAny(download, Task.Delay(3000)))
 else
 {
     // Timed out
+}
+```
+
+### `await Task.WhenEach` (non-blocking)
+Iterate through tasks as they complete. This avoids the need to repeatedly call `Task.WhenAny`:
+```cs
+using HttpClient http = new();
+
+Task<string> dotnet = http.GetStringAsync("http://dot.net");
+Task<string> bing = http.GetStringAsync("http://www.bing.com");
+Task<string> ms = http.GetStringAsync("http://microsoft.com");
+
+await foreach (Task<string> t in Task.WhenEach(bing, dotnet, ms))
+{
+    Console.WriteLine(t.Result);
 }
 ```
 
