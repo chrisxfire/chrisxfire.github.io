@@ -71,7 +71,7 @@ Cons:
 - Only a subset of .NET APIs available
 - Client must support WASM
 - Cannot access server-side resources (like a database) directly; requires an API on the server that the WASM client accesses
-- Signficantly larger download size than Blazor Server
+- Significantly larger download size than Blazor Server
 - Slower startup vs. Blazor Server
 
 ![](./blazor-wasm-model.png)
