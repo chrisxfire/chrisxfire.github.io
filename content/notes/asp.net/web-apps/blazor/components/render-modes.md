@@ -15,12 +15,12 @@ Starting in .NET 8, every component in Blazor web apps adopts a *render mode*. (
 
 # render modes
 
-| Render Mode                                  | Description                                                         | Render location     | Interactive |
-| -------------------------------------------- | ------------------------------------------------------------------- | ------------------- | ----------- |
-| [Static - Server](#static-ssr)               | Static SSR                                                          | Server              | No          |
-| [Interactive - Server](#interactive-ssr)     | Interactive SSR (via Blazor Server)                                 | Server              | Yes         |
-| [Interactive - WASM](#client-side-rendering) | CSR (via Blazor Wasm)                                               | Client              | Yes         |
-| [Interactive - Auto](#automatic-rendering)   | CSR initially w/Blazor Server then CSR after Blazor bundle download | Server, then client | Yes         |
+| Render Mode                                      | Description                                                         | Render location     | Interactive |
+|--------------------------------------------------|---------------------------------------------------------------------|---------------------|-------------|
+| [Static - Server](#static-ssr)                   | Static SSR                                                          | Server              | No          |
+| [Interactive - Server](#interactive-ssr)         | Interactive SSR (via Blazor Server)                                 | Server              | Yes         |
+| [Interactive - WASM](#client-side-rendering-csr) | CSR (via Blazor Wasm)                                               | Client              | Yes         |
+| [Interactive - Auto](#automatic-rendering)       | CSR initially w/Blazor Server then CSR after Blazor bundle download | Server, then client | Yes         |
 
 # enabling interactive render modes
 Blazor Web Apps must be configured for interactive render modes. This is done via component builder extensions:
