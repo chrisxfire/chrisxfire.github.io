@@ -3,14 +3,15 @@ title: collection expressions
 date: 2023-10-15T00:00:00-06:00
 draft: false
 weight: 1
+tags:
+ - kb/dotnet/expressions/collection
 ---
 
 # [Overview](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions)  
 > [!IMPORTANT]
 > Availability: C# 12
 
-Use *collection expressions* to create common collection values. This syntax can be assigned to many different collection types. It contains
-a sequence of elements between `[` and `]`.
+Use *collection expressions* to create common collection values. This syntax can be assigned to many different collection types. It contains a sequence of elements between `[` and `]`.
 
 # usage
 Collection expressions can be used across many constructs:
