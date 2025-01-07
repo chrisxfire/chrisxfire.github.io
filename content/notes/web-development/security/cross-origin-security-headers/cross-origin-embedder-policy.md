@@ -1,7 +1,7 @@
 ---
 title: cross origin embedder policy
 date: 2025-01-06T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 tags:
  - kb/web-dev/security/cross-origin-security-headers
@@ -44,3 +44,15 @@ If the COEP header is set to `require-corp`, then:
 		- If the CORP header value is `cross-origin`, then the embedded resource can be loaded in any embedded document.
 - `cors` requests:
 	- Must return a CORS header value (an ACAO header) that indicates the resource is allowed to be accessed.
+
+## details about `credentialless`
+Using `require-corp` is cumbersome. See [this article](https://web.dev/articles/coop-coep#2_ensure_resources_have_corp_or_cors_enabled) for all the steps 
+involved. 
+
+One particular restriction is that, for resources that (1) you don't control, (2) are not sent with a CORP header, and (3) are not
+CORS enabled, there's no way (that you control) to embed the resources. The `credentialless` value was created to address this. When using
+`credentialless`:
+1. The site is still considered cross-origin isolated (and features like `SharedArrayBuffer` will work)
+2. `no-cors` requests do *not* need to have a `Cross-Origin-Resource-Policy` to be embeded into the site.
+
+Note that if the embedded resource *does* return a CORP header, it will still be honored, and the resource cannot be embedded to your site.

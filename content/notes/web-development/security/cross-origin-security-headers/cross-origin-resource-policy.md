@@ -1,7 +1,7 @@
 ---
 title: cross origin resource policy
 date: 2025-01-06T00:00:00-06:00
-draft: true
+draft: false
 weight: 1
 tags:
  - kb/web-dev/security/cross-origin-security-headers
