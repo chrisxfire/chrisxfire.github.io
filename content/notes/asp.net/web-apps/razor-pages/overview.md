@@ -3,9 +3,11 @@ title: overview
 date: 2023-05-03T00:00:00-06:00
 draft: false
 weight: -1
+tags:
+ - kb/asp.net/razor-pages
 ---
 
-# [Overview](https://learn.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-7.0&tabs=visual-studio)
+# [overview](https://learn.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-7.0&tabs=visual-studio)
 
 Use Razor Pages for coding page-focused scenarios more productively than using Controllers and Views.
 
@@ -13,8 +15,7 @@ ASP.NET Core Razor Pages can co-exist in the same project with ASP.NET Core MVC.
 
 Project type = ASP.NET Core Web App (`webapp`, `razor`)
 
-# enabling razor pages
-
+## enabling razor pages
 Like so:
 
 ```cs
@@ -26,8 +27,7 @@ app.MapRazorPages();
 app.Run();
 ```
 
-# a basic razor page
-
+## a basic razor page
 `SomePage.cshtml`
 
 ```html
@@ -38,7 +38,7 @@ app.Run();
 <h2>The time on the server is @DateTime.Now</h2>
 ```
 
-# add a razor page
+## add a razor page
 `dotnet new page --name PageName --namespace Namespace.Pages --output Pages`
 Creates `PageName.cshtml` and `PageName.cshtml.cs` in `Pages/`
 
@@ -52,24 +52,23 @@ Creates `PageName.cshtml` and `PageName.cshtml.cs` in `Pages/`
 `├──wwwroot/` — Static asset files (HTML, JavaScript, CSS)  
 `└──Program.cs` — The app's main entrypoint.  
 
-# layouts
+## layouts
 Layouts are .cshtml files that define a top-level template for views in the app.  Views reference layouts.  They are not required.
 They usually include common UI elements like the header, navigation, menu, and footer.  
 They can also include HTML scripts and stylesheets that are used by many pages in the app.
 
-# razor directives
+## razor directives
 The `@` keyword indicates the transition from HTML to C#:  
-`@bind` — Binds a C# variable to an HTML object.  
-`@code{ … }` — Define a C# code block for complex expressions.  
-`@expression()` — A simple C# expression.  
-`@inject class-instance` — Injects an instance of Class as Instance into this Component.  
-`@model type` — Specifies the type of model passed to the Razor Page  
-`@page "/counter"` — Identifies this Component as a Razor Page with a route; it makes the file an MVC action so it can handle requests.  
-
-- Note:  Must be the first directive on the a page.  
-  `@variable` — A single C# variable.
-
-# html helpers
+- `@bind` — Binds a C# variable to an HTML object.  
+- `@code{ … }` — Define a C# code block for complex expressions.  
+- `@expression()` — A simple C# expression.  
+- `@inject class-instance` — Injects an instance of Class as Instance into this Component.  
+- `@model type` — Specifies the type of model passed to the Razor Page  
+- `@page "/counter"` — Identifies this Component as a Razor Page with a route; it makes the file an MVC action so it can handle requests.  
+- `@variable` — A single C# variable.
+    - Note:  Must be the first directive on the a page.  
+  
+## html helpers
 ```cs
 @Html.DisplayNameFor(model => model.Movie[0].Title)
 ```
@@ -78,14 +77,14 @@ Inspects the Title property to determine the display name.
 
 - Note:  The lambda expression is inspected, not evaluated—there is no access violation if the property is null or empty.
 
-# components
+## components
 Components make up portions of the app UI.  Each `.razor` file is a component.
 
-## adding components to projects
+### adding components to projects
 Visual Studio:  Right-click **Pages** > **Add** > **Razor Component**  
 Command Line:  `dotnet new razorcomponent -n Name -o Pages`  
 
-## parameters
+### parameters
 Components can have parameters.  They are specified using attributes:
 
 ```cs
@@ -112,12 +111,12 @@ Add a parameter to an element:
 <Counter IncrementCount="10" />
 ```
 
-# Data Binding & Events
+## data binding & events
 Within Razor Components, HTML elements can be bound to C# fields, properties, and Razor expression values.  This allows two-way sync between HTML and .NET.
 
 Data is pushed from HTML to .NET when a Component is rendered.  Components render themselves after event-handler code executes.
 
-# initialization
+## initialization
 ```cs
 OnInitializedAsync()
 // This method fires when a component's initialization is complete but before the page is rendered.
@@ -131,12 +130,10 @@ protected override async Task OnInitializedAsync()
 }
 ```
 
-# layouts
-
+## layouts
 `Pages/Shared/_Layout.cshtml`
 
-# App.razor
-
+## `App.razor`
 The starting point for all Blazor applications:
 
 ```html
@@ -157,7 +154,7 @@ The starting point for all Blazor applications:
 </Router>
 ```
 
-# model binding
+## model binding
 Model binding to properties removes the need to convert HTTP data to the model type.  To opt in to model binding for a property:
 ```cs
 [BindProperty]

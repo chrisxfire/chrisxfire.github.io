@@ -4,7 +4,7 @@ date: 2024-12-08T00:00:00-06:00
 draft: false
 weight: 1
 tags:
- - kb/asp.net/web-apps/blazor/project-structure
+ - kb/asp.net/blazor/project-structure
 ---
 
 # [Blazor Web App (template = `blazor`) project structure](https://learn.microsoft.com/en-us/aspnet/core/blazor/project-structure?view=aspnetcore-9.0)

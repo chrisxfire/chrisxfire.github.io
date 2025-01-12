@@ -3,9 +3,11 @@ title: data binding
 date: 2023-04-01T00:00:00-06:00
 draft: false
 weight: 1
+tags:
+ - kb/asp.net/blazor
 ---
 
-# One-way Data Binding
+# one-way data binding
 Data from the code-behind is bound in the UI in a one-way mode:
 ```html
 <h1 class="page-title">
@@ -22,7 +24,7 @@ Data from the code-behind is bound in the UI in a one-way mode:
 
 Or in a form control, such as an input:
 ```html
-<!-- changing the value of the input, changing the value in the UI will not change it in the Employee instance -->
+<!-- changing the value in the UI will not change it in the Employee instance -->
 <input type="text" class="form-control-plaintext">
     @Employee.Firstname
 <input>
@@ -34,7 +36,7 @@ Or in a form control, such as an input:
 }
 ```
 
-# Two-way Data Binding
+# two-way data binding
 The most common form of data binding.  Usually used in conjunction with forms.  
 If the user changes the value, it will be updated on the property (by default, when they select out of the input).
 Uses the `@bind` directive.
@@ -45,7 +47,7 @@ Example
 <input id="lastName" @bind="@Employee.LastName" placeholder="Enter last name" />
 ```
 
-## Using `bind-Value` and `bind-value-event`
+## using `bind-Value` and `bind-Value:event`
 ```html
 <!-- property value will be updated every time user types a character: -->
 <input id="lastName" 
@@ -54,6 +56,6 @@ Example
     placeholder="Enter last name" />
 ```
 
-# How Blazor Handles C# Object `null` Values in `<select>` Element Options
+# how Blazor handles C# object `null` values in `<select>` element options
 A `<select>` element option value cannot be represented as `null` as HTML attributes do not have `null` values.
 If an `<option>` element's `value` attribute is bound to a C# object whose value is `null`, Blazor converts the value to an *empty string*. 

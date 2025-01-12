@@ -4,8 +4,8 @@ date: 2025-01-10T00:00:00-06:00
 draft: false
 weight: -1
 tags:
- - kb/asp.net/web-apps/blazor/forms
- - kb/asp.net/web-apps/blazor/input-components
+ - kb/asp.net/blazor/forms
+ - kb/asp.net/blazor/input-components
 ---
 
 # [overview](https://learn.microsoft.com/en-us/aspnet/core/blazor/forms/?view=aspnetcore-9.0&preserve-view=true)

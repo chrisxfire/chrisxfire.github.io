@@ -4,7 +4,7 @@ date: 2024-12-06T00:00:00-06:00
 draft: false
 weight: 1
 tags:
- - kb/asp.net/web-apps/blazor/components/render-modes
+ - kb/asp.net/blazor/components/render-modes
 ---
 
 # [Overview](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/render-modes?view=aspnetcore-9.0)
